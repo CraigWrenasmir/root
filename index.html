@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ROOT</title>
 <style>
-  html,body{margin:0;padding:0;background:#020604;height:100%;overflow:hidden}
-  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  html,body{margin:0;padding:0;background:#120c07;height:100%;overflow:hidden}
+  #bark{position:fixed;inset:0;z-index:0;pointer-events:none}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;z-index:1}
   canvas{image-rendering:pixelated}
   /* touch controls — BBS chrome, shown only on coarse pointers */
   #pad,#btns{position:fixed;bottom:max(12px, env(safe-area-inset-bottom));display:none;
@@ -24,6 +25,7 @@
 </style>
 </head>
 <body>
+<canvas id="bark"></canvas>
 <div id="wrap"><canvas id="c"></canvas></div>
 <div id="pad">
   <div class="row"><span class="tb sp"></span><span class="tb" data-k="up">▲</span><span class="tb sp"></span></div>
@@ -66,6 +68,74 @@ function fit(){
 }
 addEventListener("resize", fit); fit();
 const IS_TOUCH = matchMedia("(pointer: coarse)").matches || "ontouchstart" in window;
+
+/* ---------- the host tree ----------
+   The casing is installed within a division of the heartwood, framed in
+   bark. Everything outside the screen is the tree it lives in. */
+const barkCv = document.getElementById("bark");
+const bkx = barkCv.getContext("2d");
+let ledCell = null;
+function drawBark(){
+  const dpr = 1;
+  barkCv.width = innerWidth; barkCv.height = innerHeight;
+  const BC = Math.ceil(innerWidth/CW), BR = Math.ceil(innerHeight/CH);
+  const rnd = mulberry32(19960214);
+  const browns = ["#2a2014","#382b1b","#453623","#524230","#241b10"];
+  const cream = "#7a6a50", dark = "#0e0a06";
+  bkx.fillStyle = "#120c07"; bkx.fillRect(0,0,barkCv.width,barkCv.height);
+  bkx.font = FONT; bkx.textAlign = "center"; bkx.textBaseline = "middle";
+  // where the screen sits (avoid drawing under it; frame it)
+  const r = cv.getBoundingClientRect();
+  const gx0 = Math.floor(r.left/CW)-1, gx1 = Math.ceil(r.right/CW)+1;
+  const gy0 = Math.floor(r.top/CH)-1,  gy1 = Math.ceil(r.bottom/CH)+1;
+  // burl: an ellipse of rings, placed clear of the screen
+  const bx = (gx0 > BC-gx1) ? gx0*0.5 : gx1 + (BC-gx1)*0.5;
+  const by = BR*0.3 + rnd()*BR*0.3;
+  for(let y=0;y<BR;y++){
+    for(let x=0;x<BC;x++){
+      const inScreen = x>=gx0 && x<=gx1 && y>=gy0 && y<=gy1;
+      if(inScreen) continue;
+      // vertical bark strands with slow wobble
+      const strand = Math.sin(x*0.55 + Math.sin(y*0.09)*2.1) + Math.sin(y*0.05+x*0.13)*0.4;
+      // burl rings bend the strands
+      const bd = Math.hypot((x-bx)/2.2, y-by);
+      let ch2, col;
+      if(bd < 1.6){ ch2 = "▓"; col = dark; }
+      else if(bd < 7 && Math.abs(bd - Math.round(bd)) < 0.28){
+        ch2 = ")("[Math.round(bd)%2]; col = browns[Math.round(bd)%browns.length];
+      }
+      else if(strand > 0.85){ ch2 = "║"; col = browns[(x%browns.length)]; }
+      else if(strand > 0.55){ ch2 = rnd()<.5?")":"("; col = browns[(x*7+y)%browns.length]; }
+      else if(strand < -0.9){ ch2 = "▒"; col = dark; }
+      else if(rnd()<0.10){ ch2 = "░·'`,"[(rnd()*5)|0]; col = rnd()<.12?cream:browns[(rnd()*browns.length)|0]; }
+      else continue;
+      bkx.fillStyle = col;
+      bkx.fillText(ch2, x*CW+CW/2, y*CH+CH/2+1);
+    }
+  }
+  // the division of heartwood: a dark lip around the screen
+  bkx.fillStyle = "#0a0704";
+  for(let x=gx0;x<=gx1;x++){
+    bkx.fillText("▄", x*CW+CW/2, gy0*CH+CH/2+1);
+    bkx.fillText("▀", x*CW+CW/2, gy1*CH+CH/2+1);
+  }
+  for(let y=gy0;y<=gy1;y++){
+    bkx.fillText("▐", gx0*CW+CW/2, y*CH+CH/2+1);
+    bkx.fillText("▌", gx1*CW+CW/2, y*CH+CH/2+1);
+  }
+  // a second casing's LED, further along the trunk
+  ledCell = [gx1+2 < BC ? (gx1+BC)>>1 : gx0>>1, Math.max(1, gy0-2)];
+}
+setInterval(()=>{
+  if(!ledCell) return;
+  bkx.fillStyle = "#0e0a06";
+  bkx.fillRect(ledCell[0]*CW, ledCell[1]*CH, CW, CH);
+  bkx.fillStyle = (Date.now()/900|0)%2 ? "#e8a33d" : "#5a3d18";
+  bkx.font = FONT; bkx.textAlign="center"; bkx.textBaseline="middle";
+  bkx.fillText("•", ledCell[0]*CW+CW/2, ledCell[1]*CH+CH/2+1);
+}, 450);
+addEventListener("resize", ()=>{ fit(); drawBark(); });
+setTimeout(drawBark, 50);
 if(IS_TOUCH){
   const w = document.getElementById("wrap");
   w.style.alignItems = "flex-start";
