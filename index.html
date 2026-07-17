@@ -147,10 +147,16 @@ function spawnFrom(dir){
 }
 function accents(){ const a = room && room.palette && room.palette.accents; return (a && a.length) ? a : ["#59f2b0","#ffd166","#7cc7ff"]; }
 
-/* ---------- messages (in-grid, bottom two rows) ---------- */
-function say(lines, ttl=4.6){
-  if(typeof lines === "string") lines = wrap(lines, COLS-6);
-  msg = {lines: lines.slice(0,2), t:0, ttl};
+/* ---------- messages (in-grid, bottom two rows, paged — nothing is cut off) ---------- */
+function say(content, ttl){
+  let lines = [];
+  if(Array.isArray(content)) content.forEach(c=>{ lines.push(...wrap(String(c), COLS-8)); });
+  else lines = wrap(String(content), COLS-8);
+  lines = lines.filter(l=>l!=="");
+  if(!lines.length) return;
+  const pages = [];
+  for(let i=0;i<lines.length;i+=2) pages.push(lines.slice(i,i+2));
+  msg = {pages, t:0, per:2.8, ttl: ttl || Math.max(4.4, pages.length*2.8 + 0.8)};
 }
 function wrap(s, w){
   const words = String(s).split(" "); const out = [""];
@@ -670,10 +676,7 @@ function triggerVerb(f){
   if(v==="glitch") glitchT = 0.6;
   const tones = {ripple:392, bloom:523, scatter:311, glitch:196, torus:440, hum:262, open:587};
   blip(tones[v]||330, .12, v==="glitch"?"sawtooth":"triangle", .035);
-  const nm = (f.name||"it").toUpperCase().slice(0,COLS-6);
-  const desc = wrap(f["desc-on-touch"]||"", COLS-6);
-  msg = {lines: [nm, ...desc].slice(0,2), t:0, ttl:5.6};
-  if(desc.length>1) msg._more = {lines:[nm, ...desc.slice(1)].slice(0,2)};
+  say([(f.name||"it").toUpperCase(), f["desc-on-touch"]||""]);
 }
 function drawFx(dt){
   for(const fx of roomFx){
@@ -766,7 +769,7 @@ function interact(){
   }
   if(best) triggerVerb(best);
   else if(room.inscription){
-    say(wrap("the node returns: “"+room.inscription+"”", COLS-6), 5.4);
+    say("the node returns: “"+room.inscription+"”");
     blip(220,.2,"sine",.02);
   }
 }
@@ -931,7 +934,7 @@ function frame(ts){
       if(k>=1){
         save.files[room.id] = {name:room.file.name||"unnamed.file", note:room.file.note||""};
         persist(); handshake();
-        say([String(room.file.name||"").slice(0,COLS-6), String(room.file.note||"").slice(0,COLS-6)], 6.5);
+        say([room.file.name||"", room.file.note||""]);
         downloading = null; filePos = null;
       }
     }
@@ -962,12 +965,14 @@ function frame(ts){
       msg.t += dt;
       if(msg.t > msg.ttl) msg = null;
       else {
-        const lines = (msg._more && msg.t > msg.ttl*0.55) ? msg._more.lines : msg.lines;
-        lines.forEach((l,i)=>ctext(scr, l, PR+i, "#d8f5e4"));
+        const pi = Math.min(msg.pages.length-1, (msg.t/msg.per)|0);
+        msg.pages[pi].forEach((l,i)=>ctext(scr, l, PR+i, "#d8f5e4"));
+        if(pi < msg.pages.length-1 && (msg.t*2|0)%2===0)
+          cellText(scr, COLS-3, PR+1, "»", "#59f2b0", "#010804");
       }
-    } else if(caption && caption.insc && caption.t>1.4 && caption.t<9){
-      const lines = wrap("“"+caption.insc+"”", COLS-6);
-      lines.slice(0,2).forEach((l,i)=>ctext(scr, l, PR+i, "#7ba88f"));
+    } else if(caption && caption.insc && !caption.inscShown && caption.t>1.4){
+      caption.inscShown = true;
+      say("“"+caption.insc+"”");
     }
   }
 
