@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 2,
+  "nights": 6,
   "lastDreamt": "2026-07-17",
   "rooms": [
     {
@@ -42,6 +42,126 @@
       "id": "the-diagnostic-harbour",
       "title": "RENDER — The Diagnostic Harbour",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-scrub-gymnasium",
+      "title": "The Scrub Behind the Gymnasium",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-absent-paddock",
+      "title": "The Paddock Where Children Played",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-fence-post-sentence",
+      "title": "The Paddock of Fence-Post Annotations",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-river-shallows",
+      "title": "The Shallows Where the River Speaks",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-recursive-corridor",
+      "title": "The Recursive Kiosk Corridor",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-vaporwave-foodcourt",
+      "title": "RENDER — The Vaporwave Food Court",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-fall-ground",
+      "title": "The Fall Ground",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-static-kitchen",
+      "title": "The Static Kitchen",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-culvert-system",
+      "title": "The Culvert Where Rain Remembers",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-corroded-gate",
+      "title": "The Gate at the Scrub's Edge",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-weathered-stand",
+      "title": "The Eucalyptus Stand Where Trees Read Themselves",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-underspace-mirror",
+      "title": "The Underspace: The Corridor Beneath the Corridor",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-beyond-the-sentence",
+      "title": "The Country Beyond the Fence Line",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-freezer-chambers",
+      "title": "The Archive's Freezer Rooms",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-motel-fan-1987",
+      "title": "The Motel Where the Shadow Left",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-main-drainage-memory",
+      "title": "Where All the Region's Rain Remembers",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-petrol-station-1983",
+      "title": "The Station Where the Attendant Waits Sideways",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-thick-stand-undercounting",
+      "title": "The Thick Stand Where the Archive Gave Up",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-recursive-kiosk-interior",
+      "title": "The Kiosk Within the Kiosk",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-source-pool",
+      "title": "The Source Pool",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-vector-vault",
+      "title": "The Vault Where Flavours Are Counted",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-archive-shadow",
+      "title": "The Thickened Understory",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-file-strand",
+      "title": "The Strand Where Files Wash Ashore",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-edge-of-memory",
+      "title": "Where Trees Haven't Learned to Read",
+      "region": "The Comparisons"
     }
   ]
 }

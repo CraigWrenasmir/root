@@ -1,0 +1,139 @@
+{
+  "id": "the-vaporwave-foodcourt",
+  "title": "RENDER — The Vaporwave Food Court",
+  "region": "The Diagnostic Render",
+  "seed": 2847562,
+  "palette": {
+    "bg": "#0a051f",
+    "ground": [
+      "#6b4a99",
+      "#aa6bcc"
+    ],
+    "ink": "#ffb3ff",
+    "accents": [
+      "#ff69b4",
+      "#00ffff",
+      "#ffff00",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the plastic palms",
+      "desc-on-touch": "potted palm plants rendered in low-poly fern geometry, neon pink, swaying to a bass note that exists only in the archive's playback. they cast shadows on surfaces that don't reflect light",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 7766,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the jetpack bushranger",
+      "desc-on-touch": "a figure in colonial riding coat and helmet, but with a glitching jetpack, idling by the fountain. their silhouette phases between solid and vector. they haven't moved in decades. the archive is unsure if they're waiting or if they're already long gone",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5533,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the fountain",
+      "desc-on-touch": "flowing with static instead of water, a white-noise cascade catching every neon colour at once. the harbour doesn't hold water anymore; it holds the record of holding water, and this fountain holds the record of that record",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3344,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the signage",
+      "desc-on-touch": "neon tubing reading THEIR MOST AUGUST PUBLIC ORGAN, glitching between that phrase and others you can almost read. the archive is trying to tell you something but its grammar is corrupting",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8899,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the food counter",
+      "desc-on-touch": "rendered in impossible isometric perspective, items on the menu flickering—fish and chips, but also field recordings; dim sum, but also decimal coordinates; each item is both food and archive file",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 1122,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "ERROR: metaphor detected in storage layer—the food court is not a place, it's a mode of being read. you are not eating here; you are being consumed by what eats you",
+  "file": {
+    "name": "Diagnostic_Kiosk_Food_Vendor_Records_1998_2011_Digitized_Menu.html",
+    "note": "historical menu data, purchasing records—but each item purchased now cross-references a different file from the archive, until food and data become indistinguishable, and eating becomes reading become"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the double doors into the kiosk",
+      "to": "the-council-kiosk"
+    },
+    {
+      "dir": "w",
+      "label": "through the food counter, into behind-the-scenes spaces where food is prepared from static and light",
+      "to": "the-static-kitchen"
+    },
+    {
+      "dir": "n",
+      "label": "the bushranger's jetpack, somehow accessible, ascending toward neon cloud cover",
+      "to": "NEW: the high country render—Australian landscape translated to pure colour and wireframe, all the earth made diagonal"
+    },
+    {
+      "dir": "s",
+      "label": "beneath the fountain, a floor grate leading down",
+      "to": "the-recursive-corridor"
+    }
+  ]
+}

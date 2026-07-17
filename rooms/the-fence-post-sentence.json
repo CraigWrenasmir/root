@@ -1,0 +1,139 @@
+{
+  "id": "the-fence-post-sentence",
+  "title": "The Paddock of Fence-Post Annotations",
+  "region": "The Comparisons",
+  "seed": 5557381,
+  "palette": {
+    "bg": "#1a1f1f",
+    "ground": [
+      "#7a9188",
+      "#a6c0a8"
+    ],
+    "ink": "#f0f4f0",
+    "accents": [
+      "#3b7a8e",
+      "#8b6f4d",
+      "#c9b8a3",
+      "#5a7a6e"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the biro arrows themselves",
+      "desc-on-touch": "fence post to fence post, each bearing one word in fading biro, pointing the direction of a sentence nobody has walked in full. reading them, you're not sure if they spell instruction or prayer",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3378,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the wooden posts",
+      "desc-on-touch": "weathered hardwood, decades old, slowly being reclaimed by the earth. the annotations are becoming corrupted—words are fading, new marks appearing, as if the posts are rewriting themselves",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 6644,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the comparative readings",
+      "desc-on-touch": "the archive has begun to file these posts together with similar fragments from other regions—a sentence in a river voice, the same words in a paddock, a variation appearing in a service station ledger",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 9911,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the gap posts",
+      "desc-on-touch": "two posts missing from the line—where they stood, only holes remain. the archive knows what words belonged there but can no longer read them directly",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 2255,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the final post",
+      "desc-on-touch": "the line ends at a rusted gate. the last post holds the final word, but the arrow points beyond the fence into land the archive cannot reach—at least not yet",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 7788,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "ERROR: metaphor detected in storage layer—the fence posts are both markers and a message, both guide and the thing being guided",
+  "file": {
+    "name": "Fence_Line_Survey_1978_Maintenance_Notes_Annotated.txt",
+    "note": "original boundary survey documents, but each word of the survey now cross-references a biro-marked post, and the posts reference back, creating a loop the archive is still mapping"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the river recording, following the arrow-line backwards",
+      "to": "the-river-recording"
+    },
+    {
+      "dir": "e",
+      "label": "the gate at the line's end, pointing beyond into unreachable land",
+      "to": "the-beyond-the-sentence"
+    },
+    {
+      "dir": "n",
+      "label": "a service road parallel to the posts, marked on old maps",
+      "to": "NEW: the maintenance depot where the posts were cut and marked, decades ago"
+    },
+    {
+      "dir": "s",
+      "label": "the riverbank where the posts' words sometimes echo in water-sound",
+      "to": "the-river-recording"
+    }
+  ]
+}

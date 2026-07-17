@@ -1,0 +1,151 @@
+{
+  "id": "the-static-kitchen",
+  "title": "The Static Kitchen",
+  "region": "The Diagnostic Render",
+  "seed": 4829103,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#1a3a52",
+      "#2d5f8d"
+    ],
+    "ink": "#e8f4ff",
+    "accents": [
+      "#ff1493",
+      "#00ffff",
+      "#ff69b4",
+      "#40e0d0"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "recipe turntable",
+      "desc-on-touch": "a carousel of standing recipe cards, each glitching through permutations of ingredients, as if the kitchen is computing what hunger might taste like",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "file mixer",
+      "desc-on-touch": "a kitchen mixer reassembled from directory listings, its spinning geometry folding data into something solid, beaters cutting static into instruction",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3629,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "counter glitch",
+      "desc-on-touch": "the work surface where recipes appear and vanish, where your hands are always reaching for something that just became something else",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 7284,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "timing bell",
+      "desc-on-touch": "a bell from nowhere that rings in algorithms instead of sound, telling you when you've finished cooking something you never started",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5441,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "extraction hood",
+      "desc-on-touch": "industrial venting that pulls upward, extracting not smoke but meaning—the archive consuming its own hunger as it's being created",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 8916,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "storage manifest",
+      "desc-on-touch": "a floating directory, every shelf documented, every ingredient cross-referenced, the kitchen remembering what it is supposed to be making",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 2574,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "you are not cooking. the kitchen is cooking itself through what it remembers of hunger",
+  "file": {
+    "name": "Recipe_Compilation_Archive_CORRUPTED.txt",
+    "note": "instruction manuals from the food court, ingredients listed recursively, methods that reference themselves, checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out through the serving counter, into neon false daylight",
+      "to": "the-vaporwave-foodcourt"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into preparation, where recipes are stored as pure mathematics",
+      "to": "the-vector-vault"
+    },
+    {
+      "dir": "s",
+      "label": "into storage chambers where ingredients wait in the cold dark",
+      "to": "the-freezer-chambers"
+    }
+  ]
+}

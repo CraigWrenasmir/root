@@ -1,0 +1,117 @@
+{
+  "id": "the-source-pool",
+  "title": "The Source Pool",
+  "region": "The Comparisons",
+  "seed": 1847392,
+  "palette": {
+    "bg": "#1a1a3e",
+    "ground": [
+      "#4a7c9e",
+      "#2d5a7b"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#9ecae1",
+      "#a1d99b",
+      "#fb9a99",
+      "#fdbf6f"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "eye-of-the-pool",
+      "desc-on-touch": "concentric ripples, but they're not spreading outward—they're spiraling inward, pulling sound down into mist",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3219847,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "mist-column",
+      "desc-on-touch": "sound is rising as colour here—you can almost read what the water is saying, but it keeps changing language",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5847291,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "origin-stone",
+      "desc-on-touch": "a smooth pebble, impossibly old, covered in script that hasn't been invented yet. it feels like it's dreaming",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 2103847,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "reading-light",
+      "desc-on-touch": "luminescence from the water itself. it's not coming from the pool—it's the pool remembering sunlight it will see tomorrow",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8931452,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "checksum: emotionally valid / formally unstable—the pool doesn't hold water, it holds the dream of water remembering itself being read",
+  "file": {
+    "name": "RiverOrigin_Spectrogram_Incomplete.wav",
+    "note": "sound recorded before it became sound. the file keeps rewriting its own timestamps"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downstream again, toward comparison",
+      "to": "the-river-shallows"
+    },
+    {
+      "dir": "n",
+      "label": "further upstream, where water thinks it's made of sky",
+      "to": "NEW: the cloud-source, where the river learns it can evaporate into reading"
+    },
+    {
+      "dir": "e",
+      "label": "toward the weathered stand, where trees remember being young water",
+      "to": "the-weathered-stand"
+    }
+  ]
+}

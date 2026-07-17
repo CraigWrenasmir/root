@@ -1,0 +1,139 @@
+{
+  "id": "the-scrub-gymnasium",
+  "title": "The Scrub Behind the Gymnasium",
+  "region": "The Clean Archive",
+  "seed": 7743891,
+  "palette": {
+    "bg": "#1a1410",
+    "ground": [
+      "#8b7355",
+      "#a89968"
+    ],
+    "ink": "#f5f1e8",
+    "accents": [
+      "#c17e4f",
+      "#5a7b6b",
+      "#d4a574",
+      "#3d4a3f"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the burnt concrete pad",
+      "desc-on-touch": "charred concrete where the gymnasium stood before the fire. the archive files the fire's temperature alongside the trainer's shout, but they're being read as one memory now",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4421,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the roots of the trainer",
+      "desc-on-touch": "eucalyptus roots surface here like spread fingers. the archive holds his name under two headings—Boxer and Buried—and it can no longer distinguish them",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 9123,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the teaching ring",
+      "desc-on-touch": "earth worn smooth in a circle by decades of pacing and instruction. the ground hasn't forgotten. neither has the archive, which is learning the ground's language",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5551,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the wrought-iron gate",
+      "desc-on-touch": "corroded hinges, seized tight. pushing it open you glimpse the paddock beyond where children once played",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3344,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the filing cabinet in earth",
+      "desc-on-touch": "a small metal cabinet half-buried under leaves and roots. opening it feels like reading the earth's own thoughts, filed in rust and silence",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 8877,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the eucalyptus learned his footfall and the archive is learning the eucalyptus learning it",
+  "file": {
+    "name": "Gymnasium_Fire_1987_Insurance_and_Photographs.txt",
+    "note": "blueprints, maintenance logs, photographs of the roof fire—but now the images show eucalyptus roots underneath, as if the building was always half-transparent"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through thick scrub toward the backyard",
+      "to": "the-boxing-historian-backyard"
+    },
+    {
+      "dir": "e",
+      "label": "the corroded gate toward the absent paddock",
+      "to": "the-corroded-gate"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the scrub, where trunks look carved with weight",
+      "to": "the-fall-ground"
+    },
+    {
+      "dir": "s",
+      "label": "a service trail overgrown with bracken",
+      "to": "NEW: the clearing where someone kept bees, the hives still standing like small archival boxes"
+    }
+  ]
+}

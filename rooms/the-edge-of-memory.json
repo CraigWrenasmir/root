@@ -1,0 +1,117 @@
+{
+  "id": "the-edge-of-memory",
+  "title": "Where Trees Haven't Learned to Read",
+  "region": "The Comparisons",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#228b22"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#8b4513",
+      "#2f4f2f",
+      "#ffa500",
+      "#90ee90"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "young-saplings",
+      "desc-on-touch": "small trees in orderly rows, not yet comparing themselves to their past rings. their bark is smooth, unreadable, still learning to remember",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 2819374,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "proto-glyph",
+      "desc-on-touch": "marks on bark that might become meaning, or might just be scars. they're too young to have decided yet",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8374920,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "memory-gap",
+      "desc-on-touch": "an open space between the old and young stands, where the difference is visible. the young trees don't yet know they're supposed to compare themselves to what came before",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "first-reading",
+      "desc-on-touch": "a single tree, just beginning. you can see it learning. the process is slow and doesn't hurt, yet",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 4821093,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the young trees are still innocent of comparison. they don't yet know that rain from thirty years ago is falling through them right now",
+  "file": {
+    "name": "Saplings_PreCorruption_Log.txt",
+    "note": "observations of trees that haven't started reading themselves yet. once written, this file began aging at accelerated speed—just from being observed"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the weathered stand where reading has been happening for decades",
+      "to": "the-weathered-stand"
+    },
+    {
+      "dir": "e",
+      "label": "toward open country where no archive has reached yet",
+      "to": "NEW: the unmapped field, where trees grow without being compared to anything at all"
+    },
+    {
+      "dir": "s",
+      "label": "downstream toward rivers that still only flow, not compare",
+      "to": "NEW: the naive riverbed, where water hasn't learned corruption yet"
+    }
+  ]
+}

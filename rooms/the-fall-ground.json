@@ -1,0 +1,134 @@
+{
+  "id": "the-fall-ground",
+  "title": "The Fall Ground",
+  "region": "The Clean Archive",
+  "seed": 7483921,
+  "palette": {
+    "bg": "#2a2416",
+    "ground": [
+      "#8b7355",
+      "#a0826d"
+    ],
+    "ink": "#e8d4b0",
+    "accents": [
+      "#c9804a",
+      "#5d6b4a",
+      "#8b6f47",
+      "#7a9b6e"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "fallen instructor",
+      "desc-on-touch": "the log where he taught you to fall, its surface worn smooth by the weight of bodies learning gravity as a teacher, not an enemy",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "earth worn soft",
+      "desc-on-touch": "the spot where he landed a thousand times, the soil packed into a slight bowl, darker than surrounding ground where the archive learned what impact teaches",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5012,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "young eucalypt",
+      "desc-on-touch": "a sapling growing from the fall-ground, thin and reaching, as if the earth is teaching the tree what it learned from teaching him",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 2761,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "rope marker",
+      "desc-on-touch": "frayed rope tied between posts, once marking the falling circle; now it sags with age, suspended between what was taught and what was learned",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 4392,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "teaching stone",
+      "desc-on-touch": "a dark stone placed to mark the center, half-buried now, the archive learning what the earth learned first",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6184,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the earth received him and the earth began to learn what receiving meant",
+  "file": {
+    "name": "Training_Log_Calloway_1987-1992.txt",
+    "note": "handwritten notes on falling technique, progressions, the year he learned to surrender, transcribed"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the scrub where the training started",
+      "to": "the-scrub-gymnasium"
+    },
+    {
+      "dir": "s",
+      "label": "toward the river where he learned to float after learning to fall",
+      "to": "NEW: the place where falling becomes water"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the scrub where students still come",
+      "to": "NEW: the current lineage, the next generation still learning to fall"
+    }
+  ]
+}

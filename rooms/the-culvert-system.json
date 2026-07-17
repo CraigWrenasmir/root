@@ -1,0 +1,134 @@
+{
+  "id": "the-culvert-system",
+  "title": "The Culvert Where Rain Remembers",
+  "region": "The Clean Archive",
+  "seed": 5192847,
+  "palette": {
+    "bg": "#2a2a28",
+    "ground": [
+      "#545450",
+      "#6a7068"
+    ],
+    "ink": "#d4c9b8",
+    "accents": [
+      "#a07848",
+      "#3d7a8a",
+      "#6b8e7a",
+      "#c97434"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.5
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "culvert mouth",
+      "desc-on-touch": "the opening where stormwater enters from above, channeling what the paddock remembers down into darkness, where water learns what shape memory takes",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2109,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "debris line",
+      "desc-on-touch": "where leaves, plastic, old coins mark the high-water memory; each storm writes a new line above the old ones, a timeline written in flood marks",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3746,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "rusted grating",
+      "desc-on-touch": "the sieve where children toss offerings, where the water's shape is interrupted into smaller flows, each droplet finding its own path downward",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4863,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "moss garden",
+      "desc-on-touch": "where damp gives life in underground dark; green sprawl on concrete, the archive learning what grows without sun if there is enough water",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5228,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "water-mark record",
+      "desc-on-touch": "etched into concrete, a height that the worst flood reached; the culvert has become a measuring stick for disaster, remembering wetness",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7591,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the rain runs through here remembering the paddock's shape, and the paddock shapes the rain that will fall tomorrow",
+  "file": {
+    "name": "Stormwater_Flow_Analysis_NSW_Region_1988-2021.mp3",
+    "note": "field recording of water moving through culvert system, overlaid with measurements, the sound of memory flowing"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the stormwater drain and the absent paddock beyond",
+      "to": "the-absent-paddock"
+    },
+    {
+      "dir": "s",
+      "label": "downstream, following the water deeper into the system",
+      "to": "the-main-drainage-memory"
+    },
+    {
+      "dir": "e",
+      "label": "into a side passage, where a different paddock's runoff feeds in",
+      "to": "NEW: the tributary, another memory joining the flow"
+    }
+  ]
+}

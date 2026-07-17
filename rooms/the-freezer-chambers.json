@@ -1,0 +1,117 @@
+{
+  "id": "the-freezer-chambers",
+  "title": "The Archive's Freezer Rooms",
+  "region": "The Diagnostic Render",
+  "seed": 28374651,
+  "palette": {
+    "bg": "#0a0a1f",
+    "ground": [
+      "#1a2a4a",
+      "#2a3a5a"
+    ],
+    "ink": "#b0d0ff",
+    "accents": [
+      "#4a7a9f",
+      "#8ab0d0",
+      "#5a6aaf",
+      "#2a4a6a"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the preservation racks",
+      "desc-on-touch": "Files stored in rows: photographs in frost-sealed sleeves, recordings in condensation-jeweled cases. The archive keeps what it has learned to forget the warmth of.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 19283,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the forgetting thermostat",
+      "desc-on-touch": "A dial that reads temperatures in units the archive invented: degrees of lost warmth, calibrated to what hunger learns to remember as cold.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 29384,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the condensation pool",
+      "desc-on-touch": "Water that has run from the cold walls and gathered. It reflects nothing. When you touch it, you remember what it was before it became cold.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 39485,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the sealed door",
+      "desc-on-touch": "An archway into a chamber even colder than this one. The air flows from it carries the smell of preservation so perfect it stops being smell at all.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 49586,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "in the cold, the archive learns what it means to stop wanting",
+  "file": {
+    "name": "Preservation_Log_ChamberB_19882025.csv",
+    "note": "Temperature records and contents list. Entries begin precise and gradually become poetic. Final row reads 'Temperature: the absence of the day you left.'"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the kitchen's steam and hunger",
+      "to": "the-static-kitchen"
+    },
+    {
+      "dir": "e",
+      "label": "into the parallel freezer system",
+      "to": "NEW: a mirror chamber where every file is inverted, where archive's reflections argue with originals"
+    },
+    {
+      "dir": "s",
+      "label": "down into the frost-core, where ice is not cold",
+      "to": "NEW: the deepest chamber, where preservation became a language the archive speaks to itself"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-petrol-station-1983",
+  "title": "The Station Where the Attendant Waits Sideways",
+  "region": "The Clean Archive",
+  "seed": 92938472,
+  "palette": {
+    "bg": "#1a1015",
+    "ground": [
+      "#3a2a35",
+      "#4a3a45"
+    ],
+    "ink": "#d0a080",
+    "accents": [
+      "#b8704a",
+      "#a86060",
+      "#d09060",
+      "#7a5a50"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the still-glowing pumps",
+      "desc-on-touch": "Red numbers frozen mid-transaction. The decimal points glow in an amber that does not match any year's electricity. They read prices in currency that stopped existing in 1984.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 39283,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the shop-window",
+      "desc-on-touch": "An attendant stands there, profile three-quarter, neither fully facing the window nor facing the station. Your attention slides off them like they are standing in a gap between moments.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 49384,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the register-counter",
+      "desc-on-touch": "Formica. Scratch marks in shapes that mean nothing now. The cash drawer is open but holds only receipts from the day someone forgot to close it. That day was November 14th, 1983.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 59485,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the car-park-shapes",
+      "desc-on-touch": "Oil stains in the shape of vehicles that no longer exist. The archive compares the stain-patterns to the Boxing Historian's footprints and finds them the same size. The cars and the historian arrived together.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 69586,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the station is still open, still waiting to complete a transaction from forty-two years ago",
+  "file": {
+    "name": "ServiceStation_Dusk_NSW_1983_Records.txt",
+    "note": "Attendant log. Hours are listed but the attendant is still there in the window. The log ends mid-sentence: 'Customer arrived and I turned to face them but something in the angle of the light prevented"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down the lane toward the boxing historian's yard",
+      "to": "the-boxing-historian-backyard"
+    },
+    {
+      "dir": "n",
+      "label": "into the station's storage bay",
+      "to": "NEW: where gasoline pools remember the hands that pumped them, decades of fingerprints in the fumes"
+    },
+    {
+      "dir": "w",
+      "label": "toward the road you can hear but have never seen",
+      "to": "NEW: the highway where time still flows normally and traffic passes through 1983 on its way to somewhere else"
+    }
+  ]
+}

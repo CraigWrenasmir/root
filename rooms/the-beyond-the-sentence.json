@@ -1,0 +1,134 @@
+{
+  "id": "the-beyond-the-sentence",
+  "title": "The Country Beyond the Fence Line",
+  "region": "The Understory",
+  "seed": 47382651,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a4a3d",
+      "#696950"
+    ],
+    "ink": "#d4d4a8",
+    "accents": [
+      "#8b7355",
+      "#6b8e7f",
+      "#c9b59a",
+      "#4a5f5a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the unfenced line",
+      "desc-on-touch": "You trace what the fence marks from the far side. The posts end but the boundary holds in grass, in the angle of stones, in how the light falls differently here than there.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 23456,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the continuing sentence",
+      "desc-on-touch": "Words carved into stones, into fence-post shadows, into the earth itself. A sentence the archive cannot read because it is still being written by voices deeper than documentation.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the echo-hollow",
+      "desc-on-touch": "A depression in the ground shaped like absence. When you listen, it returns the fence-post sentence in a language you almost remember learning.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 45678,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the reach-marker",
+      "desc-on-touch": "A post standing alone. Not fence, not monument. Pointing toward something the archive's original mapping never included.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the grass-tense",
+      "desc-on-touch": "Grass that grows in the tense of the incomplete sentence. You walk through it and feel the grammar changing under your feet.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 67890,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the fence ends but the sentence continues, and you are reading it by walking",
+  "file": {
+    "name": "Voices_BeyondLine_NSWPartial_Transcript.txt",
+    "note": "Fragments of speech recorded beyond the mapped region. Each voice speaking in the tense of unheard land. Checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the fence-post line",
+      "to": "the-fence-post-sentence"
+    },
+    {
+      "dir": "s",
+      "label": "following the sentence downslope",
+      "to": "NEW: a ravine where the words have run as water, gathering in pools"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the untracked country",
+      "to": "NEW: a place the archive marks as 'unmapped' but suspects contains a full library"
+    }
+  ]
+}

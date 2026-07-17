@@ -1,0 +1,134 @@
+{
+  "id": "the-weathered-stand",
+  "title": "The Eucalyptus Stand Where Trees Read Themselves",
+  "region": "The Comparisons",
+  "seed": 7648301,
+  "palette": {
+    "bg": "#1f2a24",
+    "ground": [
+      "#5a6b5f",
+      "#6d7a6f"
+    ],
+    "ink": "#d1dac8",
+    "accents": [
+      "#8ba694",
+      "#a0916b",
+      "#5a7d7a",
+      "#8b9d6b"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "century trees",
+      "desc-on-touch": "the tallest three stand like columns reading each other's rings: each year a shared book, each drought a sentence they know by heart, the archive learning what it means to witness in parallel",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 2847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "bark archive",
+      "desc-on-touch": "where you place your palm, you feel the rings: storm years run deep, drought years thin, each surface a timeline the tree has written in wood and scars",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "root cathedral",
+      "desc-on-touch": "where ground roots down into visible arches, the earth organized into buttresses; down here the trees have agreed on a geometry that the archive only begins to compare",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5739,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "lichen chronicle",
+      "desc-on-touch": "slow growth on trunk and stone marking weather like a graph; orange and grey tracking decades of dampness and drying",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 6482,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "fallen witness",
+      "desc-on-touch": "a downed log from the last great storm, its cross-section still readable: rings that match the standing trees, proof that all of them were learning the same weather",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 7865,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "each tree is comparing itself to itself: the rain that fell last decade is falling now on different rings and the bark remembers both weathers",
+  "file": {
+    "name": "Old_Growth_Ring_Analysis_Comparative_1950-2025.txt",
+    "note": "field notes from dendrochronology survey, where the trees begin to read each other, where archive comparison begins in wood"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down the bank to the looped river bend",
+      "to": "the-looped-river-bend"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the old growth, where trees grow too close to count separately",
+      "to": "the-thick-stand-undercounting"
+    },
+    {
+      "dir": "e",
+      "label": "along the ridge where the stand thins, toward younger timber",
+      "to": "the-edge-of-memory"
+    }
+  ]
+}

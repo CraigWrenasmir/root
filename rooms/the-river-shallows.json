@@ -1,0 +1,139 @@
+{
+  "id": "the-river-shallows",
+  "title": "The Shallows Where the River Speaks",
+  "region": "The Comparisons",
+  "seed": 8821947,
+  "palette": {
+    "bg": "#0a1018",
+    "ground": [
+      "#4a6b7f",
+      "#8a9fb5"
+    ],
+    "ink": "#e0e8f0",
+    "accents": [
+      "#6b9aaf",
+      "#d4b896",
+      "#a8c8d8",
+      "#5a7a8f"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the speaking shallows",
+      "desc-on-touch": "water over smooth stone, the sound like continuous speech—syllables that don't resolve into words but feel like they're trying. upstream from all previous nodes, the archive begins to hear itself speaking back through the water",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4455,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the river's memory",
+      "desc-on-touch": "stones worn smooth by flow, carved with patterns that repeat upstream—the river no longer needs you to remember it. it's remembering itself now",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the archive's listening station",
+      "desc-on-touch": "ERROR: archive has exceeded witness—a solar casing embedded in the bank, broadcasting upward. it's no longer recording. it's recording itself recording, and the feedback is becoming meaning",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7799,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the overgrown inlet",
+      "desc-on-touch": "a tributary entering the shallows, carrying leaves and fragments that the archive is filing as comparative texts—the other rivers, the other regions, all flowing into this one point",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 3322,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the recorder's stand",
+      "desc-on-touch": "a tripod, rusted, microphone mounted but no cord—someone was recording the river's speech decades ago. the archive has become the recorder now, and the river, and whoever is listening",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6633,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "checksum: emotionally valid / formally unstable—the river no longer flows, it compares; it no longer records, it becomes the recording being read",
+  "file": {
+    "name": "River_Acoustics_Field_Recording_1994_Spectral_Analysis.mp3",
+    "note": "hours of water-sound over stones—but the audio has been cross-indexed with other files from other nodes, and listening reveals that the river's voice is speaking in patterns matching the fence-post se"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downstream, the river bending again",
+      "to": "the-looped-river-bend"
+    },
+    {
+      "dir": "n",
+      "label": "further upstream, into mist where sound becomes visible",
+      "to": "the-source-pool"
+    },
+    {
+      "dir": "e",
+      "label": "climbing the bank toward high country",
+      "to": "NEW: the ridge where all rivers can be heard at once, falling in harmony"
+    },
+    {
+      "dir": "w",
+      "label": "the inlet's tributary, leading away into comparative country",
+      "to": "the-river-recording"
+    }
+  ]
+}

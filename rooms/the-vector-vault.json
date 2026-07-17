@@ -1,0 +1,100 @@
+{
+  "id": "the-vector-vault",
+  "title": "The Vault Where Flavours Are Counted",
+  "region": "The Diagnostic Render",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#00d4ff",
+      "#ffd700",
+      "#ff6b6b",
+      "#00ff41"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "recipe-tower",
+      "desc-on-touch": "cards stacked impossibly high, each one a recipe converted to pure numbers. you can almost taste what the ratios mean",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 4827361,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "component-shelf",
+      "desc-on-touch": "a single shelf holding vessels of dissolved ingredients, each label a decimal point leading nowhere",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5091823,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "notation-plaque",
+      "desc-on-touch": "a plaque that reads only in mathematics: ∫(taste) dX. the integral has no bounds",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8234756,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the kitchen sent these flavours into storage as vectors and forgot how to cook with them back. now they're just dimensions",
+  "file": {
+    "name": "Flavor_Coefficients_v847.csv",
+    "note": "a recipe for something no longer eaten, stored as differential equations. salt is 0.00347, regret is √2"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward heat and hunger",
+      "to": "the-static-kitchen"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into abstraction, where cooking becomes pure theory",
+      "to": "NEW: the proof-kitchen, where recipes are proven instead of eaten"
+    },
+    {
+      "dir": "s",
+      "label": "toward the archival stacks of every meal ever preserved",
+      "to": "NEW: the meal-records, where every plate is filed by its satisfaction index"
+    }
+  ]
+}

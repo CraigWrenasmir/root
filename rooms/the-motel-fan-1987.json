@@ -1,0 +1,134 @@
+{
+  "id": "the-motel-fan-1987",
+  "title": "The Motel Where the Shadow Left",
+  "region": "The Comparisons",
+  "seed": 57382901,
+  "palette": {
+    "bg": "#1a0f0a",
+    "ground": [
+      "#4a3a2a",
+      "#5a4a3a"
+    ],
+    "ink": "#e8b8a0",
+    "accents": [
+      "#c95a40",
+      "#8a6a50",
+      "#d08070",
+      "#6a5a4a"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the still-turning fan",
+      "desc-on-touch": "Three blades revolving. They cast a shadow on the wall — but you notice the shadow stopped moving years ago. It holds the shape the fan made in 1987 and does not update.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 38493,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the shadow-shape",
+      "desc-on-touch": "A silhouette on the linoleum that does not match the fan above it. It moves to a rhythm from a different evening. The archive wonders if the shadow stayed when the motel's warmth left.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 48594,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the key-counter",
+      "desc-on-touch": "Wood stained with thirty-eight years of dusk. The register is open but holds no numbers, only dates that loop. When you read them, you are already here in 1987.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 58695,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the room-where-the-photo-was",
+      "desc-on-touch": "A doorway to a room that contains the motel as it was the moment the photograph was taken. You can see it twice: as it was and as it is, compressed into one space.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 68796,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the guest-absence",
+      "desc-on-touch": "A chair, a bed, a shape of weight on fabric. But the person who made the shape is elsewhere now, probably reading this archive, probably thinking about the shadow that wouldn't follow the fan.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 78897,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the fan remembers when it turned and cast a shadow, and the shadow learned to stay while the fan moved on",
+  "file": {
+    "name": "Photo_Motel_Fan_Shadow_1987.jpg",
+    "note": "Motel room at dusk. Fan in background. The shadow on the wall behind it is sharper than the photograph's resolution should allow. ERROR: photograph contains the present-moment motel simultaneously wit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the service station where the light is fading",
+      "to": "service-station-dusk-1993"
+    },
+    {
+      "dir": "w",
+      "label": "into the corridor where each room is a year",
+      "to": "NEW: the motel's time-hallway, where rooms stack backward into decades"
+    },
+    {
+      "dir": "e",
+      "label": "through the wall where shadows live when they separate",
+      "to": "NEW: the shadow-place, where cast shapes learn independence"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "the-underspace-mirror",
+  "title": "The Underspace: The Corridor Beneath the Corridor",
+  "region": "The Diagnostic Render",
+  "seed": 8529147,
+  "palette": {
+    "bg": "#050d15",
+    "ground": [
+      "#0d2847",
+      "#1a3a5c"
+    ],
+    "ink": "#b8d4e8",
+    "accents": [
+      "#4a9eff",
+      "#00e5ff",
+      "#a855f7",
+      "#6b7aff"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "mirror floor",
+      "desc-on-touch": "polished tiles that reflect what is below, which is the same room reflected upward; you descend and simultaneously ascend, the archive reading itself from opposite directions",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 1963,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "inverted columns",
+      "desc-on-touch": "pillars that exist both above and below, their architecture impossible from only one angle but perfect when you accept both; the render learning to stand on its own shadow",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3174,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "duplicated door",
+      "desc-on-touch": "an opening that faces opposite directions simultaneously; entering and exiting are the same act; the archive learning that motion has no inherent direction",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4841,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "negative space glyph",
+      "desc-on-touch": "text carved into air itself, readable from both sides, saying the same thing backwards and forwards because it was always about symmetry, not meaning",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5627,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "recursive stairwell",
+      "desc-on-touch": "steps that loop on themselves, each landing identical to the one below/above; you can climb forever without changing height, the archive learning to make motion pointless",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 7345,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "system manifest",
+      "desc-on-touch": "a directory listing that includes itself, file paths that loop back on themselves, the archive reading its own structure and finding it infinitely nested",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 8719,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "you descended but you only moved sideways. the archive is not deeper; it's looking back at itself",
+  "file": {
+    "name": "System_Mirror_Protocol_RECURSIVE.txt",
+    "note": "technical documentation for what should be impossible, a guide to navigating spaces where every direction leads to the same place"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the floor grate to the corridor above, which is now below",
+      "to": "the-recursive-corridor"
+    },
+    {
+      "dir": "s",
+      "label": "further into the underspace, where reflection becomes refraction",
+      "to": "NEW: the deeper mirror, where surfaces begin to distort"
+    },
+    {
+      "dir": "e",
+      "label": "along the mirrored wall, toward spaces that exist only in reflection",
+      "to": "NEW: the shadow archive, where the render's own nightmares are catalogued"
+    }
+  ]
+}

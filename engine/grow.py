@@ -25,10 +25,10 @@ MANIFEST = os.path.join(ROOMS, "manifest.json")
 
 VERBS   = ["ripple", "bloom", "scatter", "glitch", "torus", "hum", "open"]
 MOTIFS  = ["grid", "tiles", "ripple", "static", "waves", "circuit", "scatter",
-           "contour", "canopy", "qr"]
+           "contour", "canopy", "qr", "fields", "roads", "orchard", "board"]
 WEATHER = ["none", "drift", "rain", "leaves", "static", "motes"]
 FORMS   = ["sprite", "stack", "tower", "arch", "pool", "glyph",
-           "wireframe", "burl", "filecard"]
+           "wireframe", "burl", "filecard", "house", "chip"]
 DIRS    = ["n", "s", "e", "w"]
 OPP     = {"n": "s", "s": "n", "e": "w", "w": "e"}
 
@@ -91,14 +91,14 @@ SCHEMA = """Each node is ONE JSON object with EXACTLY these fields:
  "seed": <integer 1..99999999>,
  "palette": {"bg": "#hex", "ground": ["#hex", "#hex"], "ink": "#hex",
              "accents": ["#hex", "#hex", "#hex", "#hex"]},
- "ground": {"motif": "grid|tiles|ripple|static|waves|circuit|scatter|contour|canopy|qr",
+ "ground": {"motif": "grid|tiles|ripple|static|waves|circuit|scatter|contour|canopy|qr|fields|roads|orchard|board",
             "density": 0.1-1.0},
  "weather": "none|drift|rain|leaves|static|motes",
  "features": [ 3 to 6 of:
    {"name": "lowercase evocative name",
     "desc-on-touch": "1-2 sentences, second person, what the query returns",
     "verb": "ripple|bloom|scatter|glitch|torus|hum|open",
-    "form": {"type": "sprite|stack|tower|arch|pool|glyph|wireframe|burl|filecard",
+    "form": {"type": "sprite|stack|tower|arch|pool|glyph|wireframe|burl|filecard|house|chip",
              "seed": <int>, "size": 1|2|3, "colors": [<accent index>, <accent index>]},
     "x": 0.1-0.9, "y": 0.2-0.85, "solid": true|false}
  ],
@@ -113,16 +113,26 @@ SCHEMA = """Each node is ONE JSON object with EXACTLY these fields:
 
 FORM GUIDE: "burl" renders a eucalyptus trunk with a burled knot, casing
 LED and antenna — use for living node hardware. "wireframe" renders a
-barely-3D survey-blue box or pyramid — use for diagnostic-render objects.
-"filecard" renders a standing directory listing — use for archive signage.
+barely-3D box — use for diagnostic-render objects. "filecard" renders a
+standing directory listing — archive signage. "house" renders a tiny
+ANSI cottage with a block roof — buildings, sheds, shopfronts. "chip"
+renders a black IC block with pin dots — hardware guts, boards.
 The others are general: sprite (mirrored creature/object), stack (layered
 geometry), tower (stacked blocks), arch (doorway), pool (water/light),
 glyph (a plaque of unreadable writing).
 
+GROUND GUIDE: "fields" and "roads" PAINT large solid colour areas (an
+ANSI artpack village-map look); "board" turns the whole node into a
+circuit board in the first ground colour; "orchard" plants repeated-glyph
+rows. Use these painted motifs often — they carry the strongest looks.
+
 HARD RULES:
-- palette: colourful but weathered — dusk ambers, eucalyptus grey-greens,
-  survey blues, faded signage pinks; bg dark enough that accents carry;
-  all valid #rrggbb hex. Diagnostic Render nodes may go full blue-grid.
+- palette: vary BOLDLY node to node, like pieces in an ANSI artpack —
+  some nodes full-field bright (grass green, tan paddock, sky blue,
+  magenta dusk, hot terracotta), some deep dark terminals; neighbouring
+  nodes should not share a look. With bright "fields"/"roads"/"board"
+  motifs, ground colours ARE the painted field — pick them saturated,
+  and keep accents readable against them. All valid #rrggbb hex.
 - features: vary the forms; spread x/y so the node composes well;
   at most one feature may reuse a form type.
 - filenames in "file" must look like real filenames (extension included).
@@ -174,6 +184,21 @@ def call_claude(prompt, model):
         return ""
     return r.stdout
 
+STYLE_NUDGES = [
+    'motif "fields" on a bright saturated palette — full-bleed colour like a village map',
+    'motif "roads" — solid painted bands crossing the node, terracotta on green',
+    'motif "board" — the whole node is a circuit board; features include a "chip" or two',
+    'motif "orchard" — plantation rows of one repeated glyph, a fence line',
+    'a daylight palette: tan paddock, high blue sky colours, dark accents',
+    'a hot dusk palette: magenta, terracotta, deep orange fields',
+    'a full blue-grid diagnostic look, motif "grid" or "qr"',
+    'a dark storm palette with motif "static" or "waves", pale accents',
+    'motif "canopy" or "contour", eucalyptus greys and greens',
+    'include a "house" feature or two — built things, sheds, shopfronts',
+    'high density, maximal texture — fill the node edge to edge',
+    'low density, sparse and airy — a nearly empty node, one strong feature',
+]
+
 def build_prompt(jobs, manifest):
     existing = "\n".join(f'- {r["id"]}  ("{r["title"]}", {r["region"]})'
                          for r in manifest["rooms"])
@@ -191,11 +216,13 @@ def build_prompt(jobs, manifest):
             "parent_inscription": parent.get("inscription", ""),
             "route_you_arrive_by": ex.get("label", ""),
         }
+        nudge = random.choice(STYLE_NUDGES)
         lines.append(
             f'{i}. A node reached from {json.dumps(context)} .\n'
             f'   The hint left on the route stub: "{hint}".\n'
             f'   This node MUST include an exit with "dir": "{back}" and '
             f'"to": "{parent["id"]}" (the route back).\n'
+            f'   Style seed (use it unless the hint demands otherwise): {nudge}\n'
             f'   Honour the hint but let the node surprise. Stay in or near '
             f'region "{parent["region"]}", or drift one region deeper.')
     lines.append(f"\nOutput exactly {len(jobs)} nodes in the delimited "

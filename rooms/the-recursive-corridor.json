@@ -1,0 +1,139 @@
+{
+  "id": "the-recursive-corridor",
+  "title": "The Recursive Kiosk Corridor",
+  "region": "The Diagnostic Render",
+  "seed": 9183456,
+  "palette": {
+    "bg": "#0a0f1a",
+    "ground": [
+      "#2b4a7a",
+      "#4a7aaa"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ccff",
+      "#ff00cc",
+      "#ccff00",
+      "#00ffcc"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the corridor itself",
+      "desc-on-touch": "walls of pale blue diagnostic grid, receding into depth and also into themselves—you're inside a rendering of the kiosk, but the kiosk is rendering back. you are being displayed",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5544,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the reader's reflection",
+      "desc-on-touch": "STATUS: READING CONTINUES. in the grid walls you see yourself, but the reflection doesn't match—it's you from a previous visit, or a future one. the archive is reading you reading the archive",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2233,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the data stream",
+      "desc-on-touch": "flowing along the grid like liquid light, carrying fragments: a face from a photograph, a sentence from a file, a shape that might be a field or might be a thought",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8877,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the loop checkpoint",
+      "desc-on-touch": "a signpost indicating you've been here before, though you haven't—or you will be. the diagnostic render is non-linear. at least, it is being read non-linearly",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6655,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the door you entered from",
+      "desc-on-touch": "behind you: the harbour's interior. ahead, if you keep walking, you'll arrive at the same door, entering from the other side. the corridor is not space. it's a fold",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 4422,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "you are not walking through the archive. the archive is walking through itself, using your eyes",
+  "file": {
+    "name": "Diagnostic_Recursive_Loop_Trace_20260101_Self_Reference_Report.log",
+    "note": "diagnostic output from the system observing itself—call stacks folding back on themselves, each subroutine calling its own caller, until the log becomes unreadable and becomes, instead, a kind of pray"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the harbour's interior",
+      "to": "the-diagnostic-harbour"
+    },
+    {
+      "dir": "w",
+      "label": "continuing west through the fold, arriving from the other direction",
+      "to": "the-council-kiosk"
+    },
+    {
+      "dir": "n",
+      "label": "a doorway into a smaller loop, fractal-scaled",
+      "to": "the-recursive-kiosk-interior"
+    },
+    {
+      "dir": "s",
+      "label": "a floor grate revealing the space beneath, which looks exactly like this corridor",
+      "to": "the-underspace-mirror"
+    }
+  ]
+}

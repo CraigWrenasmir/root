@@ -128,12 +128,12 @@
     {
       "dir": "s",
       "label": "into the water, where the file-waves break on a shore that may or may not be solid",
-      "to": "NEW: the strand where digital and soil merge, where downloaded files wash up like shells and the archive learns what it means to have a beach"
+      "to": "the-file-strand"
     },
     {
       "dir": "w",
       "label": "back into the kiosk's interior, but the path curves in a way that shouldn't be possible",
-      "to": "NEW: the recursive kiosk corridor—where the diagnostic render folds back on itself, and you can see the reader being read"
+      "to": "the-recursive-corridor"
     }
   ]
 }

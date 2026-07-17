@@ -140,17 +140,17 @@
     {
       "dir": "w",
       "label": "down the lane toward a main road you can hear but not see",
-      "to": "NEW: a petrol station from 1983, its pumps still glowing, attendant standing in the shop window not quite facing the window"
+      "to": "the-petrol-station-1983"
     },
     {
       "dir": "e",
       "label": "a fence gap into a neighbour's property, where you can hear children playing, but when you look through the gap it's emp",
-      "to": "NEW: the paddock where children played and stopped playing—their absence filed under Place and under Silence"
+      "to": "the-absent-paddock"
     },
     {
       "dir": "s",
       "label": "further back into the scrub, where eucalyptus grow thick",
-      "to": "NEW: further back into the scrub, where eucalyptus grow thick"
+      "to": "the-scrub-gymnasium"
     }
   ]
 }

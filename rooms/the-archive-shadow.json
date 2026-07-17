@@ -1,0 +1,117 @@
+{
+  "id": "the-archive-shadow",
+  "title": "The Thickened Understory",
+  "region": "The Understory",
+  "seed": 2918374,
+  "palette": {
+    "bg": "#0d1a0d",
+    "ground": [
+      "#1a3a1a",
+      "#0d2d0d"
+    ],
+    "ink": "#d0d0a0",
+    "accents": [
+      "#80ff80",
+      "#ffff99",
+      "#ff9999",
+      "#99ccff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "compacted-space",
+      "desc-on-touch": "the distance between trees has become visible, solid, storable. you're not sure if you're walking through the forest or through the forest's index",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847201,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "root-network",
+      "desc-on-touch": "beneath your feet, a tessellation of root-paths becomes visible. they're not growing down—they're organizing upward, comparing their shapes to a pattern you can't quite see",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 7234819,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "shadow-burls",
+      "desc-on-touch": "knots of darkness in the canopy, each one containing a piece of the archive's own overflow. they're not malicious, just overfull",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 9123847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "measurement-post",
+      "desc-on-touch": "a post driven into the rich soil, marked with depth measurements. the markings go down past the soil and into something unmeasurable",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5647382,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "ERROR: shadow is thickening faster than decay—the archive's overflow has begun storing the space itself",
+  "file": {
+    "name": "Understory_Density_Compression.txt",
+    "note": "measurements of how fast the forest is being archived. the data is self-referential: its size is increasing the density it measures"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back upstream to where the river still remembers flowing",
+      "to": "the-looped-river-bend"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into shadow, where the archive's reflection begins to cast its own archive",
+      "to": "NEW: the second-order shadow, where the archive dreams of its own overflow"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the thin places, where the understory hasn't learned to remember yet",
+      "to": "NEW: the canopy-edge, where young leaves haven't been indexed"
+    }
+  ]
+}

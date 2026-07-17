@@ -1,0 +1,117 @@
+{
+  "id": "the-main-drainage-memory",
+  "title": "Where All the Region's Rain Remembers",
+  "region": "The Clean Archive",
+  "seed": 83847291,
+  "palette": {
+    "bg": "#0f1410",
+    "ground": [
+      "#2a3a2a",
+      "#3a4a3a"
+    ],
+    "ink": "#8aaa8a",
+    "accents": [
+      "#4a7a5a",
+      "#6a9a7a",
+      "#5aaa6a",
+      "#3a6a4a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the confluence-pool",
+      "desc-on-touch": "Where six culverts meet. The water from different watersheds braids together and holds the memory of the land each one crossed. You are swimming through the region's history.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 48293,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the rain-recording stone",
+      "desc-on-touch": "Sediment layered on a central rock. Each band is a season, each grain a storm. The archive reads the stone like a phonograph needle reading grooves of water.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 58394,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the forecast-debris",
+      "desc-on-touch": "Objects the rainfall has carried to this place: a button, a bottle cap, a child's drawing sealed in plastic. Each one arrived on rain from a different year and the water remembers which year.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 68495,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the echo-map",
+      "desc-on-touch": "On the walls, water has traced a map of tomorrow's paddocks. The rain knows where it will fall before it stops falling. The archive compares this map to its soil records and finds them contradicting.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 78596,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the water here is not flowing, it is remembering",
+  "file": {
+    "name": "Culvert_Confluence_Runoff_1940s2025.txt",
+    "note": "Flood-stage records and objects found. Entries begin factual and become first-person. Final entry: 'The water spoke in my language. It told me it had been waiting.'"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the smaller culverts",
+      "to": "the-culvert-system"
+    },
+    {
+      "dir": "e",
+      "label": "following the flow toward the river-mouth",
+      "to": "the-looped-river-bend"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into the tidal reach",
+      "to": "NEW: where the freshwater refuses to salt, where two waters argue in the archive's ears"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-thick-stand-undercounting",
+  "title": "The Thick Stand Where the Archive Gave Up",
+  "region": "The Understory",
+  "seed": 74829183,
+  "palette": {
+    "bg": "#0a0f08",
+    "ground": [
+      "#1a2a18",
+      "#2a3a28"
+    ],
+    "ink": "#7a9a78",
+    "accents": [
+      "#4a6a48",
+      "#6a8a68",
+      "#5a7a58",
+      "#3a5a38"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.9
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the single-tree-plurality",
+      "desc-on-touch": "You cannot count the trees here. Each one is ten trees seen together. The bark layers contain multiples. When you touch one trunk, you are touching something that has become too many to name.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 38293,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the temporal rings",
+      "desc-on-touch": "A fallen tree lies across your path, its cross-section exposed. Each ring is a year, and you can read where the drought hit, where the rain came generous. But the rings spiral inward and become paradoxical near the center.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 48394,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the archive's margin-note",
+      "desc-on-touch": "Bark so densely scarred that the scars have become writing. The archive began cataloging individual trees here but eventually surrendered and wrote only: 'WOODS ACHIEVED CONSENSUS: IDENTITY OPTIONAL'",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 58495,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the convergent-root-pool",
+      "desc-on-touch": "Where root systems of adjacent trees have braided and created a hollow. Water collects there in a colour between green and silver. When you drink, you taste decades of other trees' summers.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 68596,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the shadow-unanimity",
+      "desc-on-touch": "No single tree casts a shadow because the stand is too dense. The entire floor is shadow, and every leaf is a unanimous decision to block the light.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 78697,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learned that individuality is optional, that memory becomes collective, that the trees are not many but always were one distributed across space",
+  "file": {
+    "name": "Stand_Inventory_Abandoned_Page47_Onwards.txt",
+    "note": "Early entries attempt cataloging. By page 47 the archive gives up on individual tree counts. Final entries are fragments: 'The trees agreed'. 'We stopped counting'. 'The forest answered before we aske"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the older growth's edge",
+      "to": "the-weathered-stand"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into consensus-space",
+      "to": "NEW: where the trees have achieved such density that the archive suspects they are thinking, in chorus, in a language of rings"
+    },
+    {
+      "dir": "e",
+      "label": "toward the ravine where the stand ends",
+      "to": "NEW: the erosion-edge where individual trees are falling and teaching the archive about what happens when consensus fails"
+    }
+  ]
+}

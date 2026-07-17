@@ -123,17 +123,17 @@
     {
       "dir": "n",
       "label": "further upstream, into shallows where the water sounds like speech",
-      "to": "NEW: the shallows where the river talks to itself, and the archive, upstream from all previous nodes, begins to speak back"
+      "to": "the-river-shallows"
     },
     {
       "dir": "e",
       "label": "up the bank, into a stand of eucalyptus where the shade is doubled",
-      "to": "NEW: a stand of old growth eucalyptus where the bark records weather like stone records history, and the archive has begun comparing each tree to itself across decades"
+      "to": "the-weathered-stand"
     },
     {
       "dir": "w",
       "label": "into the scrub where undergrowth has become unnaturally dense",
-      "to": "NEW: the understory thickened by the archive's own shadow, where the space between trees has become storable"
+      "to": "the-archive-shadow"
     }
   ]
 }

@@ -1,0 +1,139 @@
+{
+  "id": "the-absent-paddock",
+  "title": "The Paddock Where Children Played",
+  "region": "The Clean Archive",
+  "seed": 4429283,
+  "palette": {
+    "bg": "#0f1210",
+    "ground": [
+      "#6b8e73",
+      "#9fb59f"
+    ],
+    "ink": "#e8e8e0",
+    "accents": [
+      "#a8b5a8",
+      "#7a6f8e",
+      "#d9c8a8",
+      "#5a6b5a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.3
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the worn grass rings",
+      "desc-on-touch": "circular patches where games were played. the grass has grown back but you can still see the wear-patterns, faint as memory",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the bench they sat on",
+      "desc-on-touch": "wood worn smooth by sitting, carved with initials the archive cannot quite parse. the bench sits empty. it has been empty for many years",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 7733,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the goal posts",
+      "desc-on-touch": "two wooden posts, weathered grey, marking a field where a game happened so many times the earth remembers the rules better than anyone living does",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 1145,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the absence itself",
+      "desc-on-touch": "STATUS: germinating. at the centre of the paddock you feel watched by something that has no eyes. the archive is filing emptiness now, cataloguing what isn't here",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5566,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the fence where we looked through",
+      "desc-on-touch": "weathered posts and wire. on the other side: the gymnastics backyard you came from. on this side: the paddock where children are no longer",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 8823,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the children left, but the paddock remembers them harder than they remember themselves",
+  "file": {
+    "name": "Paddock_School_Usage_1995_2003_Incident_Reports.txt",
+    "note": "roster of games played, school event logs—but now the file lists only absence dates, the gaps between activities growing longer each year until all remaining entries are blank"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the fence gap toward the gymnasium",
+      "to": "the-boxing-historian-backyard"
+    },
+    {
+      "dir": "n",
+      "label": "the scrub gymnasium, darker and deeper",
+      "to": "the-scrub-gymnasium"
+    },
+    {
+      "dir": "e",
+      "label": "the fence line continuing east toward a neighbour's land",
+      "to": "NEW: the property where the children went instead, now empty too"
+    },
+    {
+      "dir": "s",
+      "label": "a stormwater drain, choked with leaves",
+      "to": "the-culvert-system"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-recursive-kiosk-interior",
+  "title": "The Kiosk Within the Kiosk",
+  "region": "The Diagnostic Render",
+  "seed": 4847291,
+  "palette": {
+    "bg": "#001f3f",
+    "ground": [
+      "#0074d9",
+      "#00d4ff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#39cccc",
+      "#3d9970",
+      "#ff4136",
+      "#2ecc40"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "screen-within-screen",
+      "desc-on-touch": "you see yourself seeing yourself seeing yourself. the recursion is stable at this depth, but you're not sure if you're still shrinking",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2991847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "miniature-doorway",
+      "desc-on-touch": "a door at the size of your hand, standing alone. behind it, another kiosk, even smaller",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7123650,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "loop-marker",
+      "desc-on-touch": "a plaque that reads: DEPTH: -1. the negative is intentional. you're not sure what it means",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5551234,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "still-water",
+      "desc-on-touch": "a perfect mirror of static. your reflection moves wrong, a frame behind",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8834901,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "status: fractally stable—you can keep walking in and the kiosk will keep explaining itself to itself",
+  "file": {
+    "name": "KioskSelfModel_depth-n.tmp",
+    "note": "a rendering algorithm that takes itself as input. the file size decreases with each layer but never reaches zero"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the doorway you entered through, now much taller",
+      "to": "the-recursive-corridor"
+    },
+    {
+      "dir": "n",
+      "label": "down the rabbit slope, into code",
+      "to": "NEW: the theorem room, where logic begins to wonder about itself"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive's older mirrors",
+      "to": "the-underspace-mirror"
+    }
+  ]
+}

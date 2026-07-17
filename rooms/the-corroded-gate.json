@@ -1,0 +1,134 @@
+{
+  "id": "the-corroded-gate",
+  "title": "The Gate at the Scrub's Edge",
+  "region": "The Clean Archive",
+  "seed": 6374529,
+  "palette": {
+    "bg": "#2d2620",
+    "ground": [
+      "#7a6f5d",
+      "#8b7e6b"
+    ],
+    "ink": "#e4d5c1",
+    "accents": [
+      "#b87a3a",
+      "#4a6b5a",
+      "#8b6e47",
+      "#c47a3a"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the gate",
+      "desc-on-touch": "iron in the shape of a question: hinges still turning, lock still mute after thirty years, the boundary itself uncertain whether it keeps something in or out",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 1534,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "rust bloom",
+      "desc-on-touch": "where oxidation has traced patterns into the metal surface, each bloom a slow conversation between iron and air, time written in colour",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 3087,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "post remains",
+      "desc-on-touch": "concrete pillars eroding into rubble, the gate still hung between what is leaving and what has already gone, a threshold no longer used",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4721,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "grown-through vine",
+      "desc-on-touch": "vegetation pressing through the bars, the scrub reclaiming its boundary, green asserting that passage and prohibition have both rotted away",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5896,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "worn brass plaque",
+      "desc-on-touch": "text ground smooth by rain and reading; you can guess what it said but not quite see it, the archive learning that forgetting is also preservation",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7314,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the gate has oxidized into a question: passage or barrier, and does it matter after this long",
+  "file": {
+    "name": "Property_Survey_1962_Corroded_Gate_Section.pdf",
+    "note": "original survey marking the boundary, now a document about forgetting, checksum: formally uncertain"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the scrub, toward the gymnasium",
+      "to": "the-scrub-gymnasium"
+    },
+    {
+      "dir": "s",
+      "label": "through the gate, toward the absent paddock where children played",
+      "to": "the-absent-paddock"
+    },
+    {
+      "dir": "n",
+      "label": "along the fence line, where other boundaries have begun to rust",
+      "to": "NEW: the eastern fence run, where property claims are dissolving into eucalyptus"
+    }
+  ]
+}

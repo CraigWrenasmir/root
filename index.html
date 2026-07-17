@@ -132,21 +132,42 @@ function wrap(s, w){
 
 /* ---------- base grid helpers ---------- */
 function newBase(){
-  const ch = [], fg = [], solid = [];
+  const ch = [], fg = [], bg = [], solid = [];
   for(let y=0;y<PR;y++){
     ch.push(new Array(COLS).fill(" "));
     fg.push(new Array(COLS).fill("#fff"));
+    bg.push(new Array(COLS).fill(null));      // null = room bg
     solid.push(new Array(COLS).fill(false));
   }
-  return {ch, fg, solid};
+  return {ch, fg, bg, solid};
 }
-function put(x, y, c, col, sol){
+function put(x, y, c, col, sol, bgc){
   x|=0; y|=0;
   if(x<0||x>=COLS||y<0||y>=PR) return;
   base.ch[y][x] = c; base.fg[y][x] = col;
+  if(sol!==undefined && sol!==null) base.solid[y][x] = sol;
+  if(bgc!==undefined) base.bg[y][x] = bgc;
+}
+function putBg(x, y, bgc, sol){
+  x|=0; y|=0;
+  if(x<0||x>=COLS||y<0||y>=PR) return;
+  base.bg[y][x] = bgc;
   if(sol!==undefined) base.solid[y][x] = sol;
 }
-function putStr(x, y, s, col, sol){ for(let i=0;i<s.length;i++) put(x+i, y, s[i], col, sol); }
+function putStr(x, y, s, col, sol, bgc){ for(let i=0;i<s.length;i++) put(x+i, y, s[i], col, sol, bgc); }
+function cellBg(x, y){
+  const rb = (room && room.palette && room.palette.bg) || "#07130c";
+  if(!base || y<0 || y>=PR || x<0 || x>=COLS) return rb;
+  return base.bg[y][x] || rb;
+}
+function shade(hex, f){
+  // f > 0 lightens toward white, f < 0 darkens toward black
+  const n = parseInt(hex.slice(1), 16);
+  let r = (n>>16)&255, g = (n>>8)&255, b2 = n&255;
+  if(f>=0){ r += (255-r)*f; g += (255-g)*f; b2 += (255-b2)*f; }
+  else { r *= (1+f); g *= (1+f); b2 *= (1+f); }
+  return "#"+((1<<24)|(Math.round(r)<<16)|(Math.round(g)<<8)|Math.round(b2)).toString(16).slice(1);
+}
 
 /* ---------- ground motifs (character textures) ---------- */
 function paintGround(r){
@@ -217,6 +238,70 @@ function paintGround(r){
     for(let y=1;y<PR-1;y++) for(let x=1;x<COLS-1;x++){
       const d = Math.round(Math.hypot((x-cx)/2, y-cy));
       if(d>0 && d%3===0) put(x,y,"·∙"[(d/3|0)%2],C((d/3|0)%2));
+    }
+  } else if(motif==="fields"){
+    // big irregular colour fields, edge to edge — ANSI artpack ground
+    const cols2 = [C(0), C(1), shade(C(0), .18), shade(C(1), -.25)];
+    for(let p=0;p<4+den*4;p++){
+      const bx = (rnd()*COLS)|0, by = 1+(rnd()*(PR-2)|0);
+      const bw = 8+(rnd()*26|0), bh = 3+(rnd()*8|0);
+      const col = cols2[(rnd()*cols2.length)|0];
+      for(let y=by;y<by+bh&&y<PR-1;y++){
+        const inset = (rnd()*3)|0;
+        for(let x=Math.max(1,bx+inset);x<bx+bw-inset&&x<COLS-1;x++) putBg(x,y,col);
+      }
+    }
+    for(let i=0;i<den*80;i++){
+      const x = 1+(rnd()*(COLS-2)|0), y = 1+(rnd()*(PR-2)|0);
+      put(x,y,".,'`·"[(rnd()*5)|0], shade(C(1), .35));
+    }
+  } else if(motif==="roads"){
+    // thick solid bands crossing the node, like a village map
+    const roadC = C(0), edgeC = shade(C(0), -.35);
+    const ry = 3+(rnd()*(PR-8)|0);
+    for(let x=1;x<COLS-1;x++) for(let dy=0;dy<3;dy++) putBg(x, ry+dy, dy===1?roadC:edgeC);
+    const nvert = 1+(rnd()*2|0);
+    for(let v=0;v<nvert;v++){
+      const rx = 6+(rnd()*(COLS-14)|0);
+      const up = rnd()<.5;
+      for(let y=up?1:ry; y<(up?ry+3:PR-1); y++) for(let dx=0;dx<4;dx++) putBg(rx+dx, y, dx===0||dx===3?edgeC:roadC);
+    }
+    for(let i=0;i<den*100;i++){
+      const x = 1+(rnd()*(COLS-2)|0), y = 1+(rnd()*(PR-2)|0);
+      if(!base.bg[y][x]) put(x,y,"'.,·"[(rnd()*4)|0], C(1));
+    }
+  } else if(motif==="orchard"){
+    // repeated-glyph rows: plantations, crowds, fences
+    const glyphs = ["♠","♣","∩","▲","¶"][(rnd()*5)|0];
+    for(let y=2;y<PR-2;y+=2+(rnd()*2|0)){
+      let x = 1+(rnd()*6|0);
+      while(x<COLS-2){
+        const run = 3+(rnd()*10|0);
+        for(let k=0;k<run&&x<COLS-2;k++,x+=2){ if(rnd()<den+.15) put(x,y,glyphs,C(0)); }
+        x += 3+(rnd()*8|0);
+      }
+    }
+    if(rnd()<.7){
+      const fy = 2+(rnd()*(PR-4)|0);
+      for(let x=2;x<COLS-2;x++) put(x,fy,x%6===0?"┬":"─",C(1));
+    }
+  } else if(motif==="board"){
+    // full-bleed circuit board — traces, pads, solder points
+    const boardC = C(0);
+    for(let y=1;y<PR-1;y++) for(let x=1;x<COLS-1;x++) putBg(x,y,boardC);
+    const traceC = shade(C(1), .3), padC = shade(boardC, .5);
+    for(let i=0;i<10+den*14;i++){
+      let x=2+(rnd()*(COLS-4)|0), y=2+(rnd()*(PR-4)|0);
+      put(x,y,"o",padC);
+      for(let s2=0;s2<3;s2++){
+        const horiz = rnd()<.5, len = 4+(rnd()*14|0), sgn = rnd()<.5?-1:1;
+        for(let k=0;k<len;k++){
+          if(horiz){ x+=sgn; if(x<2||x>COLS-3) break; if(base.ch[y][x]===" ") put(x,y,"─",traceC); }
+          else { y+=sgn; if(y<2||y>PR-3) break; if(base.ch[y][x]===" ") put(x,y,"│",traceC); }
+        }
+        if(x>1&&x<COLS-2&&y>1&&y<PR-3) put(x,y,"┼",traceC);
+      }
+      put(x,y,"o",padC);
     }
   } else { /* scatter */
     for(let i=0;i<den*220;i++)
@@ -392,9 +477,39 @@ function stampFilecard(f, rnd){
   twinkles.push({x:x0+(w>>1)-3, y:y0-1, chars:"▌ ", col:c2, rate:2.2});
   f._bbox = [x0-(w>>1)-1, y0-h, x0+(w>>1)+1, y0+1];
 }
+function stampHouse(f, rnd){
+  // a tiny ANSI cottage: block roof, painted walls, a dark door
+  const x0 = f._cx, y0 = f._cy;
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length];
+  const w = 6+(rnd()*4|0);
+  const wall = shade(c0, -.2), roof = c1;
+  putStr(x0-(w>>1)+1, y0-3, "▄".repeat(w-2), roof, true);
+  putStr(x0-(w>>1), y0-2, "▄"+"▀".repeat(w-2)+"▄", roof, true);
+  for(let y2=y0-1;y2<=y0;y2++)
+    for(let x2=x0-(w>>1);x2<=x0+(w>>1);x2++) put(x2, y2, " ", "#fff", true, wall);
+  put(x0+(rnd()<.5?-1:1), y0, "▐", "#0a0a0a", true);            // door
+  if(rnd()<.7) put(x0-(w>>2), y0-1, "▪", "#0a0a0a", true);       // window
+  if(rnd()<.4){ put(x0+(w>>1)-1, y0-4, "│", wall, false); put(x0+(w>>1)-1, y0-5, "~", shade(c0,.4), false); } // chimney
+  f._bbox = [x0-(w>>1)-1, y0-5, x0+(w>>1)+1, y0+1];
+}
+function stampChip(f, rnd){
+  // a black IC block with pin dots and a part number
+  const x0 = f._cx, y0 = f._cy;
+  const c1 = f._cols[1%f._cols.length];
+  const w = 8+(rnd()*6|0), h = 3+(rnd()*2|0);
+  for(let y2=y0-h;y2<=y0;y2++)
+    for(let x2=x0-(w>>1);x2<=x0+(w>>1);x2++) put(x2, y2, " ", "#fff", true, "#0d0d0d");
+  for(let x2=x0-(w>>1)+1;x2<x0+(w>>1);x2+=2){
+    put(x2, y0-h, "○", "#e8e8e8", true, "#0d0d0d");
+    put(x2, y0, "○", "#e8e8e8", true, "#0d0d0d");
+  }
+  const label = String((f.form.seed||8086)).slice(0,4);
+  putStr(x0-(label.length>>1), y0-(h>>1), label, c1, true, "#0d0d0d");
+  f._bbox = [x0-(w>>1)-1, y0-h-1, x0+(w>>1)+1, y0+1];
+}
 const STAMPS = {sprite:stampSprite, stack:stampStack, tower:stampTower, arch:stampArch,
                 pool:stampPool, glyph:stampGlyph, wireframe:stampWireframe,
-                burl:stampBurl, filecard:stampFilecard};
+                burl:stampBurl, filecard:stampFilecard, house:stampHouse, chip:stampChip};
 
 /* ---------- room build ---------- */
 function prepRoom(r){
@@ -416,11 +531,17 @@ function buildRoom(r){
   for(const f of (r.features||[]).slice().sort((p,q)=>p._cy-q._cy))
     STAMPS[f.form.type](f, mulberry32(f.form.seed||f._seed));
   paintBorder(r);
-  // pre-render static layer
-  bctx.fillStyle = (r.palette && r.palette.bg) || "#07130c";
+  // pre-render static layer (per-cell painted backgrounds — the ANSI look)
+  const roomBg = (r.palette && r.palette.bg) || "#07130c";
+  bctx.fillStyle = roomBg;
   bctx.fillRect(0,0,bgC.width,bgC.height);
-  for(let y=0;y<PR;y++) for(let x=0;x<COLS;x++)
+  for(let y=0;y<PR;y++) for(let x=0;x<COLS;x++){
+    if(base.bg[y][x]){
+      bctx.fillStyle = base.bg[y][x];
+      bctx.fillRect(x*CW, y*CH, CW, CH);
+    }
     if(base.ch[y][x] !== " ") cellText(bctx, x, y, base.ch[y][x], base.fg[y][x]);
+  }
 }
 
 /* ---------- room loading ---------- */
@@ -709,12 +830,12 @@ function frame(ts){
     // twinkling base cells (LEDs, cursors)
     for(const tw of twinkles){
       const ph = ((T*tw.rate)|0)%tw.chars.length;
-      cellText(scr, tw.x, tw.y, tw.chars[ph], tw.col, (room.palette&&room.palette.bg)||"#07130c");
+      cellText(scr, tw.x, tw.y, tw.chars[ph], tw.col, cellBg(tw.x, tw.y));
     }
     // the file
     if(filePos && !downloading){
       const blinkC = (T*3|0)%2 ? "■" : "▪";
-      cellText(scr, filePos[0], filePos[1], blinkC, "#59f2b0");
+      cellText(scr, filePos[0], filePos[1], blinkC, "#59f2b0", "#0d0d0d");
       if(Math.abs(player.cx-filePos[0])<=1 && Math.abs(player.cy-filePos[1])<=1){
         downloading = {t:0, total:1.8};
         blip(420,.1,"square",.03);
@@ -725,10 +846,10 @@ function frame(ts){
       const k = Math.min(1, downloading.t/downloading.total);
       const bw = 40;
       const bx = (COLS-bw)>>1, by = PR-3;
-      text(scr, "downloading at 300bps", bx, by-1, "#8fd0a8");
+      text(scr, "downloading at 300bps", bx, by-1, "#8fd0a8", "#010804");
       let barStr = "";
       for(let i=0;i<bw;i++) barStr += (i/bw<k) ? "█" : "░";
-      text(scr, barStr, bx, by, "#59f2b0");
+      text(scr, barStr, bx, by, "#59f2b0", "#010804");
       if((downloading.t*6|0)%2===0) blip(560+120*Math.sin(downloading.t*9), .04, "square", .012);
       if(k>=1){
         save.files[room.id] = {name:room.file.name||"unnamed.file", note:room.file.note||""};
@@ -742,7 +863,7 @@ function frame(ts){
     tryMove(dt);
     // the Reader
     const rc = (T*2|0)%2 ? "#9fe8ff" : "#d8fff0";
-    cellText(scr, player.cx, player.cy, "@", rc, (room.palette&&room.palette.bg)||"#07130c");
+    cellText(scr, player.cx, player.cy, "@", rc, "#0d0d0d");
     // captions
     if(caption){
       caption.t += dt;
