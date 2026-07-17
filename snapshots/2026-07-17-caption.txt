@@ -1,0 +1,19 @@
+ROOT · night 2 · 2026-07-17
+the mesh grew 3 nodes overnight.
+
+▓ NODE — The Boxing Historian's Backyard  (The Clean Archive)
+  "the historian trained them here, and the earth still remembers the footfalls in a language the archive is slowly learning to speak"
+  file: Fighters_of_the_North_pp34-35.txt
+
+▓ NODE — The Looped River Bend  (The Comparisons)
+  "ERROR: archive has exceeded witness—the river no longer needs you to remember it because the river is remembering itself"
+  file: River_NSW_Bend_1500hrs_Dual_Recording.mp3
+
+▓ RENDER — The Diagnostic Harbour  (The Diagnostic Render)
+  "STATUS: READING CONTINUES. the harbour does not hold water anymore—it holds the record of holding water, and the record of reading the record"
+  file: Diagnostic_Harbour_Manifest_Fragment_v4871.txt
+
+a text-mode archive that grows itself every night, at 300bps.
+STATUS: BEING READ
+
+#asciiart #ansiart #textmode #generativeart #interactivefiction #solarpunk #australianliterature #rootgame

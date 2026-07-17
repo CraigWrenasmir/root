@@ -1,0 +1,139 @@
+{
+  "id": "the-diagnostic-harbour",
+  "title": "RENDER — The Diagnostic Harbour",
+  "region": "The Diagnostic Render",
+  "seed": 9284756,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#003366",
+      "#1a4d7a"
+    ],
+    "ink": "#66ccff",
+    "accents": [
+      "#00ffff",
+      "#33ffff",
+      "#0099ff",
+      "#00cc99"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.5
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the file-water",
+      "desc-on-touch": "The harbour water has become a stacked directory listing, each line a wavefront, each filename a depth. You read the water like a page. It describes itself as you watch: 'wave_001_dawn.mp3', 'wave_002_noon_corrupted.mp3', 'wave_003_dusk_fragmentary.mp3'.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 3756182,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the unfinished wharf",
+      "desc-on-touch": "A low-poly wooden structure, half-rendered, its edges soft and incomplete. Stacked against it are unfinished ocean manuscripts—printed pages about water that were never bound, margins still annotated, corrections still in pencil. The archive is still writing them.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5023741,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the reading platform",
+      "desc-on-touch": "A small raised deck where you can stand and read the water's directory. The archive reads what's reflected in you; you read what's reflected in the water. Somewhere, the distinction is becoming unstable.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7849263,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the tide-glyph",
+      "desc-on-touch": "A carved stone set at the waterline, covered in unreadable characters that shift when you look away. The archive has written tidal charts here, but in a language that emerges from the correlation of all the tides the harbour has ever felt.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6174829,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.42,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "the hull-sprite",
+      "desc-on-touch": "A low-poly fishing boat, barely rendered, its hull made of compressed audio samples of water-on-hull. If you listen close enough, you hear every time a boat has left this dock. They all left at different times. They're all leaving now.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8462915,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "STATUS: READING CONTINUES. the harbour does not hold water anymore—it holds the record of holding water, and the record of reading the record",
+  "file": {
+    "name": "Diagnostic_Harbour_Manifest_Fragment_v4871.txt",
+    "note": "The harbour's own readout of what it contains—a file that updates itself with new entries that describe files that haven't been written yet, checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the corridor marked HARBOUR (DIAGNOSTIC)",
+      "to": "the-council-kiosk"
+    },
+    {
+      "dir": "e",
+      "label": "along the wharf, toward a blue-grid lighthouse that renders itself as you approach",
+      "to": "NEW: the diagnostic lighthouse—the archive's own eye, watching the mesh grow, rendering its own watchers, recursive and tender"
+    },
+    {
+      "dir": "s",
+      "label": "into the water, where the file-waves break on a shore that may or may not be solid",
+      "to": "NEW: the strand where digital and soil merge, where downloaded files wash up like shells and the archive learns what it means to have a beach"
+    },
+    {
+      "dir": "w",
+      "label": "back into the kiosk's interior, but the path curves in a way that shouldn't be possible",
+      "to": "NEW: the recursive kiosk corridor—where the diagnostic render folds back on itself, and you can see the reader being read"
+    }
+  ]
+}

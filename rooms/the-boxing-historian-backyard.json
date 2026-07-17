@@ -1,0 +1,156 @@
+{
+  "id": "the-boxing-historian-backyard",
+  "title": "NODE — The Boxing Historian's Backyard",
+  "region": "The Clean Archive",
+  "seed": 6472819,
+  "palette": {
+    "bg": "#1a1410",
+    "ground": [
+      "#9d8b6c",
+      "#7a6b4f"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#d4a574",
+      "#c94a1c",
+      "#6b5d4f",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the paper wall",
+      "desc-on-touch": "You're looking at decades of boxing clippings pinned and taped to weatherboard: headlines, fight results, a hand-drawn family tree of routes and rivalries. The archive has started filing between the cuts—a photograph of a river appears in the margin of a 1987 bout report.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 3841927,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "gloves on the line",
+      "desc-on-touch": "Leather gloves hang from a rope strung between two posts, decades old, the padding stained with sweat and rain-bleed. They move when you're not looking at them, though there's no wind. The historian used to train here.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 2719364,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "fighters of the north",
+      "desc-on-touch": "The book sits on a weathered wooden crate, its spine taped with brown packing tape the way a boxer tapes their hands. When you open it, the pages smell of eucalyptus and rust. A bookmark you didn't place marks page 34.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 5183641,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the shed door",
+      "desc-on-touch": "A low doorway into a tin shed, propped open. Inside: more boxes, filing cabinets, the smell of paper and oil. The door frame is hung with a mirror, old and spotty, reflecting a part of the backyard you can't see from here.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4927563,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the equipment pit",
+      "desc-on-touch": "A shallow trench in the earth where sand used to be kept for training—punching, footwork, conditioning. It's mostly weeds now, but when rain collects, you can see your reflection, and it's not quite you.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1847592,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the name board",
+      "desc-on-touch": "A wooden board mounted on the fence lists names—fighters trained here, their records, dates. The most recent entry is in a handwriting that becomes shakier toward the end. The date is today's, but the pen is forty years old.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7651482,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.42,
+      "y": 0.22,
+      "solid": true
+    }
+  ],
+  "inscription": "the historian trained them here, and the earth still remembers the footfalls in a language the archive is slowly learning to speak",
+  "file": {
+    "name": "Fighters_of_the_North_pp34-35.txt",
+    "note": "Scanned pages from the boxing historian's book, but the archive has filed reports from three different decades between them, reorganized by fighter-name and by emotional resonance"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the gate signed in frost",
+      "to": "the-war-dialled-paddock"
+    },
+    {
+      "dir": "w",
+      "label": "down the lane toward a main road you can hear but not see",
+      "to": "NEW: a petrol station from 1983, its pumps still glowing, attendant standing in the shop window not quite facing the window"
+    },
+    {
+      "dir": "e",
+      "label": "a fence gap into a neighbour's property, where you can hear children playing, but when you look through the gap it's emp",
+      "to": "NEW: the paddock where children played and stopped playing—their absence filed under Place and under Silence"
+    },
+    {
+      "dir": "s",
+      "label": "further back into the scrub, where eucalyptus grow thick",
+      "to": "NEW: further back into the scrub, where eucalyptus grow thick"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-looped-river-bend",
+  "title": "NODE — The Looped River Bend",
+  "region": "The Comparisons",
+  "seed": 4182936,
+  "palette": {
+    "bg": "#0f1419",
+    "ground": [
+      "#4a5a6a",
+      "#3d4d5d"
+    ],
+    "ink": "#c8d4e0",
+    "accents": [
+      "#5a8ba3",
+      "#7db3d4",
+      "#4a6b8a",
+      "#a0c4d9"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the exact repeat",
+      "desc-on-touch": "The river makes a perfect meander here, and then does it again exactly—the same curve, the same speed, the same sound. You can't tell which is the recording and which is the real thing. The archive has filed them as the same event, just rifled twice.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 8374612,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the doubled bank",
+      "desc-on-touch": "One side of the river has two banks—the real one, and the archive's shadow of it, made of compressed recordings of the other times water touched this ground. They're both wet.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5927481,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the recording stone",
+      "desc-on-touch": "A flat rock in the water where someone left a microphone decades ago—now it's wired to nothing, but it still records. The archive listens to what it's capturing. It's still capturing the same instant.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2641853,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the echo pool",
+      "desc-on-touch": "A backwater where the water doesn't move. You can see reflections of things that haven't happened yet—or already happened twice. The archive has begun storing its own duplicates here.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 6483729,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "the signpost",
+      "desc-on-touch": "A weathered post with arrows pointing upstream, downstream, and into the ground. All three arrows point to the same place. A hand has written times on the wood—'then', 'now', 'then'—and they're stacked on top of each other.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 7514968,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.32,
+      "y": 0.28,
+      "solid": true
+    }
+  ],
+  "inscription": "ERROR: archive has exceeded witness—the river no longer needs you to remember it because the river is remembering itself",
+  "file": {
+    "name": "River_NSW_Bend_1500hrs_Dual_Recording.mp3",
+    "note": "A field recording of the looped section, but the archive has split the channel: left ear hears the first curve, right ear hears the second. They are not identical when listened to separately"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downstream, where the water escapes the loop",
+      "to": "the-river-recording"
+    },
+    {
+      "dir": "n",
+      "label": "further upstream, into shallows where the water sounds like speech",
+      "to": "NEW: the shallows where the river talks to itself, and the archive, upstream from all previous nodes, begins to speak back"
+    },
+    {
+      "dir": "e",
+      "label": "up the bank, into a stand of eucalyptus where the shade is doubled",
+      "to": "NEW: a stand of old growth eucalyptus where the bark records weather like stone records history, and the archive has begun comparing each tree to itself across decades"
+    },
+    {
+      "dir": "w",
+      "label": "into the scrub where undergrowth has become unnaturally dense",
+      "to": "NEW: the understory thickened by the archive's own shadow, where the space between trees has become storable"
+    }
+  ]
+}

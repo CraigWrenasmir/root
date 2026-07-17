@@ -5,40 +5,92 @@
   "seed": 5600,
   "palette": {
     "bg": "#12130a",
-    "ground": ["#33351c", "#4a4d28"],
+    "ground": [
+      "#33351c",
+      "#4a4d28"
+    ],
     "ink": "#f5f2d8",
-    "accents": ["#ffd166", "#c9e8a9", "#7cc7ff", "#ff9e4f"]
+    "accents": [
+      "#ffd166",
+      "#c9e8a9",
+      "#7cc7ff",
+      "#ff9e4f"
+    ]
   },
-  "ground": { "motif": "waves", "density": 0.45 },
+  "ground": {
+    "motif": "waves",
+    "density": 0.45
+  },
   "weather": "leaves",
   "features": [
     {
       "name": "the one modem that answered",
       "desc-on-touch": "They dialled every number the paddocks had. One picked up. It is still connected. Nobody has ever found the house it rings in.",
       "verb": "hum",
-      "form": { "type": "sprite", "seed": 7101, "size": 2, "colors": [0, 2] },
-      "x": 0.55, "y": 0.45, "solid": true
+      "form": {
+        "type": "sprite",
+        "seed": 7101,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.45,
+      "solid": true
     },
     {
       "name": "a fence line hung with dial tones",
       "desc-on-touch": "Each post hums a slightly different engaged signal. Walked at the right speed, the fence plays a scale.",
       "verb": "ripple",
-      "form": { "type": "stack", "seed": 7102, "size": 2, "colors": [1, 0] },
-      "x": 0.26, "y": 0.62, "solid": true
+      "form": {
+        "type": "stack",
+        "seed": 7102,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.26,
+      "y": 0.62,
+      "solid": true
     },
     {
       "name": "a grey box on a star picket",
       "desc-on-touch": "Weatherproofed, solar-traced, warm. Inside, the archive is comparing the paddock to every other paddock it holds, and finding them all slightly guilty.",
       "verb": "glitch",
-      "form": { "type": "wireframe", "seed": 7103, "size": 2, "colors": [2, 1] },
-      "x": 0.74, "y": 0.56, "solid": true
+      "form": {
+        "type": "wireframe",
+        "seed": 7103,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.74,
+      "y": 0.56,
+      "solid": true
     },
     {
       "name": "cicada country",
       "desc-on-touch": "One summer the cicadas found the carrier frequency and shouted the whole mesh down for six weeks. The archive filed it under /audio as a choir.",
       "verb": "bloom",
-      "form": { "type": "burl", "seed": 7104, "size": 2, "colors": [1, 1, 0] },
-      "x": 0.4, "y": 0.3, "solid": true
+      "form": {
+        "type": "burl",
+        "seed": 7104,
+        "size": 2,
+        "colors": [
+          1,
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
     }
   ],
   "inscription": "they dialled the paddocks the way you knock on doors in an emptied town. one answered. it is still answering",
@@ -47,8 +99,20 @@
     "note": "4,116 numbers. 4,115 silences. One CONNECT, at 3:33am, from a property with no house on it."
   },
   "exits": [
-    { "dir": "n", "label": "the route worn by downloads, back to the field", "to": "node-001-the-daisy-field" },
-    { "dir": "s", "label": "a gate signed in a hand like frost", "to": "NEW: the backyard of the boxing historian — clippings, gloves, and a paperback called Fighters of the North, its spine taped like a boxer's hands" },
-    { "dir": "w", "label": "a drain mouth breathing cool air", "to": "NEW: the stormwater drain a teenager once walked, the hidden civic body under the town, now carrying signal instead of water" }
+    {
+      "dir": "n",
+      "label": "the route worn by downloads, back to the field",
+      "to": "node-001-the-daisy-field"
+    },
+    {
+      "dir": "s",
+      "label": "a gate signed in a hand like frost",
+      "to": "the-boxing-historian-backyard"
+    },
+    {
+      "dir": "w",
+      "label": "a drain mouth breathing cool air",
+      "to": "NEW: the stormwater drain a teenager once walked, the hidden civic body under the town, now carrying signal instead of water"
+    }
   ]
 }

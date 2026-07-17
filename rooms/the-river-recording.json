@@ -5,40 +5,92 @@
   "seed": 1500,
   "palette": {
     "bg": "#071018",
-    "ground": ["#14324a", "#1e4a66"],
+    "ground": [
+      "#14324a",
+      "#1e4a66"
+    ],
     "ink": "#dcf2ff",
-    "accents": ["#7cc7ff", "#c9e8a9", "#ffd166", "#f2e9c9"]
+    "accents": [
+      "#7cc7ff",
+      "#c9e8a9",
+      "#ffd166",
+      "#f2e9c9"
+    ]
   },
-  "ground": { "motif": "contour", "density": 0.6 },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
   "weather": "drift",
   "features": [
     {
       "name": "the microphone stand, still standing",
       "desc-on-touch": "Someone recorded this river at 1500 hours in the late twentieth century and never came back for the stand. The river kept talking to it.",
       "verb": "hum",
-      "form": { "type": "stack", "seed": 8811, "size": 2, "colors": [2, 0] },
-      "x": 0.32, "y": 0.4, "solid": true
+      "form": {
+        "type": "stack",
+        "seed": 8811,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.32,
+      "y": 0.4,
+      "solid": true
     },
     {
       "name": "the river, at 1500 hours",
       "desc-on-touch": "You listen. Under the water there is a slow rotary turning, blade after blade, like a fan in a motel room in 1987. The file insists it has always sounded like this.",
       "verb": "ripple",
-      "form": { "type": "pool", "seed": 8822, "size": 3, "colors": [0, 3] },
-      "x": 0.58, "y": 0.62, "solid": false
+      "form": {
+        "type": "pool",
+        "seed": 8822,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.62,
+      "solid": false
     },
     {
       "name": "a casing lashed to a river oak",
       "desc-on-touch": "The LED blinks in three-quarter time. checksum: emotionally valid / formally unstable.",
       "verb": "glitch",
-      "form": { "type": "burl", "seed": 8833, "size": 2, "colors": [1, 1, 2] },
-      "x": 0.78, "y": 0.36, "solid": true
+      "form": {
+        "type": "burl",
+        "seed": 8833,
+        "size": 2,
+        "colors": [
+          1,
+          1,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.36,
+      "solid": true
     },
     {
       "name": "a spectrogram, printed and nailed to a post",
       "desc-on-touch": "Spectrogram_RiverAnomaly.png. Someone has circled a band of frequencies in biro and written: THIS IS NOT THE RIVER.",
       "verb": "open",
-      "form": { "type": "glyph", "seed": 8844, "size": 2, "colors": [3, 0] },
-      "x": 0.2, "y": 0.68, "solid": true
+      "form": {
+        "type": "glyph",
+        "seed": 8844,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.68,
+      "solid": true
     }
   ],
   "inscription": "a field near one town returns as a riverbank near another. the archive files them together now",
@@ -47,8 +99,20 @@
     "note": "38 minutes of river. At 22:10 a ceiling fan enters, and someone breathing. status: germinating"
   },
   "exits": [
-    { "dir": "s", "label": "the fire trail back to the daisy field", "to": "node-001-the-daisy-field" },
-    { "dir": "n", "label": "upstream, where the water sounds rehearsed", "to": "NEW: the bend upstream where the river repeats itself exactly, like a looped recording of a river" },
-    { "dir": "e", "label": "a line of biro arrows on fence posts", "to": "NEW: the paddock of fence-post annotations, every post carrying one word of a sentence nobody has walked in full" }
+    {
+      "dir": "s",
+      "label": "the fire trail back to the daisy field",
+      "to": "node-001-the-daisy-field"
+    },
+    {
+      "dir": "n",
+      "label": "upstream, where the water sounds rehearsed",
+      "to": "the-looped-river-bend"
+    },
+    {
+      "dir": "e",
+      "label": "a line of biro arrows on fence posts",
+      "to": "NEW: the paddock of fence-post annotations, every post carrying one word of a sentence nobody has walked in full"
+    }
   ]
 }

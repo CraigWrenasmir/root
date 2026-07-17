@@ -5,47 +5,109 @@
   "seed": 8086,
   "palette": {
     "bg": "#04081c",
-    "ground": ["#101c4a", "#182a66"],
+    "ground": [
+      "#101c4a",
+      "#182a66"
+    ],
     "ink": "#d8e4ff",
-    "accents": ["#4d7cff", "#7cc7ff", "#ff7ab8", "#ffd166"]
+    "accents": [
+      "#4d7cff",
+      "#7cc7ff",
+      "#ff7ab8",
+      "#ffd166"
+    ]
   },
-  "ground": { "motif": "grid", "density": 0.7 },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
   "weather": "static",
   "features": [
     {
       "name": "the kiosk itself",
       "desc-on-touch": "TOUCH SCREEN FOR LOCAL HISTORY. The screen renders a kiosk, which renders a screen. The antique graphics library is doing its best. Its best is this.",
       "verb": "open",
-      "form": { "type": "filecard", "seed": 3301, "size": 2, "colors": [1, 0, 3] },
-      "x": 0.5, "y": 0.4, "solid": true
+      "form": {
+        "type": "filecard",
+        "seed": 3301,
+        "size": 2,
+        "colors": [
+          1,
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
     },
     {
       "name": "a fountain emitting static instead of water",
       "desc-on-touch": "The static rises, arcs, and falls back into the basin. Coins glitter under it. Every coin is the same year.",
       "verb": "scatter",
-      "form": { "type": "pool", "seed": 3302, "size": 2, "colors": [1, 2] },
-      "x": 0.28, "y": 0.62, "solid": false
+      "form": {
+        "type": "pool",
+        "seed": 3302,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.62,
+      "solid": false
     },
     {
       "name": "a plastic palm, barely-3D",
       "desc-on-touch": "Eleven polygons. It sways anyway, in a wind the render cannot afford. Somewhere behind it you hear a food court.",
       "verb": "hum",
-      "form": { "type": "wireframe", "seed": 3303, "size": 2, "colors": [0, 2] },
-      "x": 0.72, "y": 0.58, "solid": true
+      "form": {
+        "type": "wireframe",
+        "seed": 3303,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.58,
+      "solid": true
     },
     {
       "name": "a low-poly eucalyptus with a door in it",
       "desc-on-touch": "The door is ajar. Inside the tree: a corridor, civic lighting, a floor being mopped by no one. The tree is rendering what it thinks you keep inside you.",
       "verb": "torus",
-      "form": { "type": "arch", "seed": 3304, "size": 3, "colors": [0, 1] },
-      "x": 0.82, "y": 0.34, "solid": true
+      "form": {
+        "type": "arch",
+        "seed": 3304,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.34,
+      "solid": true
     },
     {
       "name": "a figure at a plastic-palm table, misrendered",
       "desc-on-touch": "Low-res, wearing a skirt of coordinates that will not resolve. She does not look up. The render keeps trying her hands and failing. You know her. ERROR: metaphor detected in storage layer.",
       "verb": "glitch",
-      "form": { "type": "sprite", "seed": 3305, "size": 2, "colors": [2, 3] },
-      "x": 0.32, "y": 0.32, "solid": true
+      "form": {
+        "type": "sprite",
+        "seed": 3305,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.32,
+      "y": 0.32,
+      "solid": true
     }
   ],
   "inscription": "STATUS: BEING READ. you are not reading the archive. the archive is reading you",
@@ -54,8 +116,25 @@
     "note": "10 PRINT \"WELCOME\" : 20 RENDER TREE : 30 COMPARE VISITOR TO ARCHIVE : 40 GOTO 10"
   },
   "exits": [
-    { "dir": "e", "label": "the flickering route back to the field", "to": "node-001-the-daisy-field" },
-    { "dir": "w", "label": "double doors, a smell of chip fat and ozone", "to": "NEW: the vaporwave food court — plastic palms, a jetpack bushranger idling by the fountain, neon signage reading THEIR MOST AUGUST PUBLIC ORGAN" },
-    { "dir": "s", "label": "a corridor marked HARBOUR (DIAGNOSTIC)", "to": "NEW: the diagnostic harbour — water rendered as stacked file listings, unfinished ocean manuscripts washing against a low-poly wharf" }
+    {
+      "dir": "e",
+      "label": "the flickering route back to the field",
+      "to": "node-001-the-daisy-field"
+    },
+    {
+      "dir": "w",
+      "label": "double doors, a smell of chip fat and ozone",
+      "to": "NEW: the vaporwave food court — plastic palms, a jetpack bushranger idling by the fountain, neon signage reading THEIR MOST AUGUST PUBLIC ORGAN"
+    },
+    {
+      "dir": "s",
+      "label": "a corridor marked HARBOUR (DIAGNOSTIC)",
+      "to": "the-diagnostic-harbour"
+    },
+    {
+      "dir": "n",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the council kiosk"
+    }
   ]
 }

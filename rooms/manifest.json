@@ -1,12 +1,47 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 1,
+  "nights": 2,
   "lastDreamt": "2026-07-17",
   "rooms": [
-    { "id": "node-001-the-daisy-field", "title": "NODE 001 — The Daisy Field", "region": "The Clean Archive" },
-    { "id": "the-river-recording", "title": "NODE 014 — The River Recording", "region": "The Comparisons" },
-    { "id": "service-station-dusk-1993", "title": "NODE 022 — Service Station, Dusk, 1993", "region": "The Comparisons" },
-    { "id": "the-war-dialled-paddock", "title": "NODE 007 — The War-Dialled Paddock", "region": "The Clean Archive" },
-    { "id": "the-council-kiosk", "title": "RENDER — The Council Information Kiosk", "region": "The Diagnostic Render" }
+    {
+      "id": "node-001-the-daisy-field",
+      "title": "NODE 001 — The Daisy Field",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-river-recording",
+      "title": "NODE 014 — The River Recording",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "service-station-dusk-1993",
+      "title": "NODE 022 — Service Station, Dusk, 1993",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-war-dialled-paddock",
+      "title": "NODE 007 — The War-Dialled Paddock",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-council-kiosk",
+      "title": "RENDER — The Council Information Kiosk",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-boxing-historian-backyard",
+      "title": "NODE — The Boxing Historian's Backyard",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-looped-river-bend",
+      "title": "NODE — The Looped River Bend",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-diagnostic-harbour",
+      "title": "RENDER — The Diagnostic Harbour",
+      "region": "The Diagnostic Render"
+    }
   ]
 }
