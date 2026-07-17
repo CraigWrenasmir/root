@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 26,
-  "lastDreamt": "2026-07-17",
+  "nights": 27,
+  "lastDreamt": "2026-07-18",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -732,6 +732,26 @@
       "id": "the-salt-yeast-earth",
       "title": "The Pantry Where Ingredients Dream of Earth",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deeper-mirror",
+      "title": "The Deeper Mirror",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-double-pool",
+      "title": "The Double-Pool",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-coordinate-grid",
+      "title": "The Coordinate Grid",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-dark-knowing-chamber",
+      "title": "The Dark-Knowing Chamber",
+      "region": "The Understory"
     }
   ]
 }

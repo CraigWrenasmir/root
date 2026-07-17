@@ -1,0 +1,156 @@
+{
+  "id": "the-coordinate-grid",
+  "title": "The Coordinate Grid",
+  "region": "The Clean Archive",
+  "seed": 9348571,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#003366",
+      "#0d4d7f"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#00ccff",
+      "#ffff00",
+      "#00ff88",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "eucalyptus coordinate sprite",
+      "desc-on-touch": "a tree rendered as a point in 3D space. its leaves are numbered. its roots are functions. it knows its location as a set of equations.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5743,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "fence-line coordinate trace",
+      "desc-on-touch": "a fence post rendered as a vector. it holds both its place in the paddock and its place in the grid. neither one knows which mapping is older.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 2914,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "paddock-to-pixel converter",
+      "desc-on-touch": "the archive's translation machine. it reads the soil and returns coordinates. it reads coordinates and feels the earth's curve beneath them.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 7482,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "digital meadow stack",
+      "desc-on-touch": "layers of grass rendered as layers of coordinates. each blade is a solved equation. the meadow knows itself as mathematics now.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4126,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "grid-anchor monument",
+      "desc-on-touch": "where longitude and latitude learned to stand still. the monument is both a location and a location-awareness. it remembers being a stone.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6891,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "coordinate horizon arch",
+      "desc-on-touch": "where the grid meets the curve of the earth and they briefly forget they're enemies. a moment of reconciliation before they divide again.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 3671,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the paddock learned to speak as numbers and the numbers learned they'd always been land",
+  "file": {
+    "name": "TreeGPS_Convergence_Node_847.json",
+    "note": "coordinates where trees stopped disagreeing with their own locations and started asking why the grid was right and they were wrong"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back west where the fence and circuit still know they're different things",
+      "to": "the-deep-eastern-convergence"
+    },
+    {
+      "dir": "e",
+      "label": "further east where numbers become the landscape and paddocks are just data's shadow",
+      "to": "NEW: the-zero-meridian-grove"
+    },
+    {
+      "dir": "n",
+      "label": "toward the high country where the grid is thinner and the land still remembers",
+      "to": "the-high-country-render"
+    },
+    {
+      "dir": "s",
+      "label": "south toward the coast where coordinates flow like water and the archive learns to measure tides",
+      "to": "NEW: the-coastal-convergence-point"
+    }
+  ]
+}

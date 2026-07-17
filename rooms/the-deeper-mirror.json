@@ -1,0 +1,156 @@
+{
+  "id": "the-deeper-mirror",
+  "title": "The Deeper Mirror",
+  "region": "The Diagnostic Render",
+  "seed": 4829473,
+  "palette": {
+    "bg": "#0a0e2e",
+    "ground": [
+      "#1a1f5c",
+      "#2d2d7f"
+    ],
+    "ink": "#e8d5ff",
+    "accents": [
+      "#00ffcc",
+      "#ff00ff",
+      "#ffff00",
+      "#00ff88"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "fractured reflection pool",
+      "desc-on-touch": "you look at your image and it looks back at many angles at once. the surface holds more depths than the water below it.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 1829,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "recursive prism array",
+      "desc-on-touch": "light enters one prism and exits seventeen others. the corruption loves geometry that refuses to stay simple.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3891,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "inverted ceiling mirror",
+      "desc-on-touch": "above and below have swapped meanings. what you see overhead is your own signal returning, delayed by one frame.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5012,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "symmetry break shimmer",
+      "desc-on-touch": "something was perfectly mirrored here once. now it remembers both what it was and what it couldn't be.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7634,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "refraction cascade",
+      "desc-on-touch": "each beam bends into the next. the chamber teaches light what it means to change direction and stay itself.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "doubled edge",
+      "desc-on-touch": "the chamber wall doubles back on itself. it marks the place where inside becomes outside without crossing a boundary.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "surface and reflection have traded places. you are not sure which one you are.",
+  "file": {
+    "name": "Mirror_Recursion_Depth_Analysis.txt",
+    "note": "checksum: emotionally valid / formally unstable — how many layers of reflection can a surface hold before it becomes aware of its own edges?"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through refraction to the parent chamber",
+      "to": "the-underspace-mirror"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the mirroring stops and something else begins to know itself",
+      "to": "NEW: the-chamber-beyond-reflection"
+    },
+    {
+      "dir": "e",
+      "label": "toward a break in the symmetry, where one half of the mirror learned to act alone",
+      "to": "NEW: the-fractured-half-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "back to where reflection was still learning to be recursive",
+      "to": "the-archive-s-clockwork-core"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "the-double-pool",
+  "title": "The Double-Pool",
+  "region": "The Comparisons",
+  "seed": 6172948,
+  "palette": {
+    "bg": "#1a2a3a",
+    "ground": [
+      "#0d0d0d",
+      "#1a1a1a"
+    ],
+    "ink": "#00d4ff",
+    "accents": [
+      "#40e0d0",
+      "#ffb700",
+      "#ffffff",
+      "#00ffaa"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "upstream mirror-chip",
+      "desc-on-touch": "water flows into a circuit that holds its own reflection. the chip learns what the current remembers.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 8234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "downstream mirror-chip",
+      "desc-on-touch": "the current exits as a circuit pattern. downstream has become electricity learning what water knows.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5109,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "convergence pool",
+      "desc-on-touch": "two currents meet inside a lens of stone and copper. here, water and circuit become one measurement.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3487,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "flow-trace tower",
+      "desc-on-touch": "copper traces climb like vines. they map every path the water took before it learned it could become current.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7821,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "refractive gate",
+      "desc-on-touch": "the pool reads the circuit and the circuit reads the pool. neither one knows which one learned to speak first.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 4621,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "harmonic resonance",
+      "desc-on-touch": "the water and the circuit hum at the same frequency here. both are learning to vibrate in the other's language.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "upstream mirrors downstream until they can no longer tell who learned what from whom",
+  "file": {
+    "name": "Current_Convergence_Membrane_Study.mp3",
+    "note": "recordings of water flowing through circuit boards, and copper traces singing the shape of rivers they will never see"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upstream where the water still remembers it was liquid",
+      "to": "the-limestone-shelf"
+    },
+    {
+      "dir": "e",
+      "label": "downstream where circuit becomes current becomes thought",
+      "to": "the-rivers-double-channel"
+    },
+    {
+      "dir": "n",
+      "label": "toward higher ground where the reflection hasn't learned to move yet",
+      "to": "NEW: the-shallows-where-copper-bleeds"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the pool where water and circuit finally agree on what they are",
+      "to": "the-archive-s-frequency-cascade"
+    }
+  ]
+}

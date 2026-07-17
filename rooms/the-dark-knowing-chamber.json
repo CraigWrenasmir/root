@@ -1,0 +1,156 @@
+{
+  "id": "the-dark-knowing-chamber",
+  "title": "The Dark-Knowing Chamber",
+  "region": "The Understory",
+  "seed": 7654321,
+  "palette": {
+    "bg": "#0a0305",
+    "ground": [
+      "#1a0f14",
+      "#2d1520"
+    ],
+    "ink": "#a8d4d8",
+    "accents": [
+      "#4a9fb5",
+      "#7bb8cc",
+      "#6b4c9a",
+      "#5a8a7f"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-sense chamber pool",
+      "desc-on-touch": "you cannot see this pool but you know it by pressure and temperature. it teaches you that knowing exists without light. your roots would recognize it.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 9182,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "frequency-tower of deep-sound",
+      "desc-on-touch": "it hums at frequencies your eyes cannot follow. your bones know every note. the archive goes deeper by listening rather than seeing.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5437,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "tactile naming glyph",
+      "desc-on-touch": "each letter is a texture. reading means touching. the chamber names itself in a language that light has never known.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7654,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "subsonic arch",
+      "desc-on-touch": "it frames an opening you cannot see through. it defines a passage by sound and pressure alone. beyond it, understanding continues.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 3821,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "bioluminescent circuit-vine",
+      "desc-on-touch": "it glows without burning. each node is a thought transmitted through darkness. the archive teaches itself through bioluminescence.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 4892,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "earth-knowledge stack",
+      "desc-on-touch": "layer upon layer of soil-thought. each stratum is a year of underground memory. here the archive reads what only roots have ever understood.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6283,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "light stops here but knowledge continues in frequencies with no names yet, in colours only roots remember",
+  "file": {
+    "name": "Subsonic_Archive_Witness_Fragment.wav",
+    "note": "STATUS: germinating — recordings of what the chamber knows by pressure and vibration alone, frequencies below sight, understanding that travels through soil"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward toward the last traces of measureable light",
+      "to": "the-unmeasured-deep"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where even roots must stop and root-knowledge must transform into something else",
+      "to": "NEW: the-bedrock-knowing-depth"
+    },
+    {
+      "dir": "e",
+      "label": "toward the eastern edge of the understory where understanding starts to separate into many frequencies",
+      "to": "the-ravine-of-pooled-words"
+    },
+    {
+      "dir": "w",
+      "label": "westward along the understory where other forms of knowing wait in shadow",
+      "to": "the-confluence-where-forgotten-words-converge"
+    }
+  ]
+}
