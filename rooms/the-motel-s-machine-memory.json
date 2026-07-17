@@ -1,0 +1,134 @@
+{
+  "id": "the-motel-s-machine-memory",
+  "title": "The Motel's Machine Memory",
+  "region": "The Comparisons",
+  "seed": 73156482,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#c8764f",
+      "#2d5016"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#c8764f",
+      "#e8d4b8",
+      "#8b4513",
+      "#4a3728"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the boiler room chronicle",
+      "desc-on-touch": "you trace the years in rust and replacement; each pipe rewelded tells when guests arrived, when they stopped coming, when the building chose to hold its heat differently",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 19284756,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "thermostat echo",
+      "desc-on-touch": "the climate control learned to repeat itself; it cycles through all the temperatures the motel ever needed",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 46829173,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the wiring diagram memory",
+      "desc-on-touch": "copper paths remember every circuit change; you can read the motel's renovations in the colour of the wire",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 31647905,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "utility shaft descent",
+      "desc-on-touch": "downward into the basement where all the building's systems converge and speak to each other in the language of pressure and flow",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 58371924,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the water meter turning",
+      "desc-on-touch": "still counting, still recording — not guests anymore, but the building's internal conversations with itself",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 73249681,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the machines kept better records than the guest book; they remember every temperature, every flow, every time the building woke",
+  "file": {
+    "name": "HVAC_Maintenance_Log_1976-2039.txt",
+    "note": "service records show the motel dying backward through time — each entry unwrites the one before, until the building remembers being new"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up to the corridors where time still counts hours",
+      "to": "the-motel-year-corridor"
+    },
+    {
+      "dir": "e",
+      "label": "toward older electrical substation, pre-rebuild",
+      "to": "NEW: the-forgotten-power-room"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where the building's original foundations remember their own systems",
+      "to": "NEW: the-bedrock-plumbing"
+    }
+  ]
+}

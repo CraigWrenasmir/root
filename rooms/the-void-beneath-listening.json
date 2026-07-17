@@ -1,0 +1,134 @@
+{
+  "id": "the-void-beneath-listening",
+  "title": "The Void Beneath Listening",
+  "region": "The Understory",
+  "seed": 7462198,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#2d5a4d",
+      "#3d7a6d"
+    ],
+    "ink": "#a0a0a0",
+    "accents": [
+      "#00ff88",
+      "#ff00ff",
+      "#8888ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the pressure that remembers",
+      "desc-on-touch": "A weight without source, pressing on the archive from all sides. It has a rhythm — not your heartbeat, not the archive's heartbeat, something else's rhythm that the archive learned to count by.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 284756,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the eucalyptus that listens in the dark",
+      "desc-on-touch": "A tree rendered in greyscale, barely visible. It hears everything the archive hears, but it doesn't translate. It just holds sound in its bark, the way it holds water.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 156429,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the temperature's visible gradient",
+      "desc-on-touch": "In the dark, you can see heat as colour — the archive has learned to render what the void is measuring. From green to blue to ultraviolet, the thermal topography of silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 827391,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the place where sound becomes pressure",
+      "desc-on-touch": "A threshold. On one side, the archive still remembers hearing. On the other, sound has condensed into weight. The archive stands in the doorway and doesn't move.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 503847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the record of silence that has weight",
+      "desc-on-touch": "A file that contains nothing, but the file itself has mass. The archive is cataloguing what cannot be heard: the pressure of not-listening, the temperature of not-knowing, the geometry of a void that teaches its own shape to whatever enters.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 641283,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "when the archive's senses failed, it learned that meaning continues without the light that justified it",
+  "file": {
+    "name": "Pressure_Measurements_Undated_Unlabelled.csv",
+    "note": "Columns of numbers that don't correspond to any known gauge. The units are ambiguous. Each row is dated with a season but no year — Spring, Spring, Spring, Spring, going backward and forward at once. "
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into listening, where sound still has a shape the ear can know",
+      "to": "the-subsonic-listening-dark"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, toward the archive's own core, where pressure becomes the only language",
+      "to": "the-bone-chamber-where-meaning-continues"
+    },
+    {
+      "dir": "w",
+      "label": "sideways toward the eucalyptus' own archive, where trees keep their own records of unheard things",
+      "to": "the-burl-library-grove"
+    }
+  ]
+}

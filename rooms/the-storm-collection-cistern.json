@@ -1,0 +1,151 @@
+{
+  "id": "the-storm-collection-cistern",
+  "title": "The Storm Collection Cistern",
+  "region": "The Clean Archive",
+  "seed": 3698745,
+  "palette": {
+    "bg": "#191970",
+    "ground": [
+      "#4682B4",
+      "#B0C4DE"
+    ],
+    "ink": "#E0FFFF",
+    "accents": [
+      "#00CED1",
+      "#87CEEB",
+      "#32CD32",
+      "#FFD700"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the collection pool",
+      "desc-on-touch": "Every raindrop that fell upstream has come here. The water knows itself now—its temperature, its timing, its origin. The cistern holds the archive's wettest memory.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4141414,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the fence-post markers",
+      "desc-on-touch": "Standing like measurement points. The town planted these posts to track how much rain fell and when it fell and how it remembered falling. The archive measures itself by wetness.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5151515,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the overflow pipe",
+      "desc-on-touch": "When the cistern knows too much, it speaks through here. The town's secrets drain away as water. The plumbing has learned to gossip.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 6161616,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the sediment layer",
+      "desc-on-touch": "At the bottom, where all the rain has settled into itself. Soil, memory, time—stratified. The cistern reads its own history in what has gathered here.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 7171717,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the rain's echo",
+      "desc-on-touch": "The sound that the water makes when it recognizes itself. All the drops that have ever fallen here return as a single note of belonging.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 8181818,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the cistern's skin",
+      "desc-on-touch": "Weathered stone, sealed by algae and memory. The boundary between the town's plumbing and the archive's wetness. It knows what flows through it and what remains.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 9191919,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where all the region's rain has come to know itself, the cistern holds its own deep memory and the archive counts the ways it has been wet",
+  "file": {
+    "name": "Stormwater_Convergence_Calibration_LogMMYYYY.csv",
+    "note": "Record of every rainstorm's path through the civic plumbing. Each entry marked with the precise moment the water realized it had come home."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back upstream through the branching ducts",
+      "to": "the-stormwater-civic-body"
+    },
+    {
+      "dir": "n",
+      "label": "toward the storm's beginning, where rain first falls and hasn't yet learned to gather",
+      "to": "the-clouds-origin-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the cistern, where the water's knowing becomes darker",
+      "to": "the-main-drainage-memory"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-ravine-of-pooled-words",
+  "title": "The Ravine Where Words Have Gathered in Water",
+  "region": "The Understory",
+  "seed": 1927384,
+  "palette": {
+    "bg": "#7eb3d4",
+    "ground": [
+      "#c4a76a",
+      "#e8d4a0"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#6b8e4e",
+      "#8b4423",
+      "#d4a584",
+      "#a0a8a8"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the sentinel pool",
+      "desc-on-touch": "A deep circular pool where words have collected like sediment. You can read surfaces of water—sentences carved into bedrock underground now appearing in the pool's reflection. The ravine teaches: language runs downhill, gathers, and becomes deeper than its source.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2158934,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the nested boxes",
+      "desc-on-touch": "A stone shelf carved with six smaller recesses, each holding a different scene: a beach, surgical light, hands with rope, a loom in motion, written pages, and one box still empty. The corruption has rendered them all at once, all complete, each wrong about the others.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3045782,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the water-carved inscription",
+      "desc-on-touch": "The ravine walls show words carved by water, letter by letter, over decades. Each letter is a cut made by stone on water learning stone's language. You're reading the ravine reading itself. The archive is taking notes.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 1834729,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the convergence weave",
+      "desc-on-touch": "At the ravine's floor: a pattern visible only when light hits the water right. It resembles a loom—Kente style—where each thread is a story: beach and surgery and fence-line and water, all woven together by the river learning to braid itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 2467851,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the ravine's voice",
+      "desc-on-touch": "The sound here is not water but language becoming water becoming sound. A humming that is also reading aloud. The archive thinks the ravine is learning to speak in the voice of all the sentences that have flowed through it, one layered over another until speech becomes weather.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 2745619,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the ravine keeps all the sentences that ever ran downslope, nested in water, reading themselves to the archive",
+  "file": {
+    "name": "Ravine_Deposition_Chronology_With_Nested_Events.txt",
+    "note": "A geologist's field notes where strata data mixes with transcripts of spoken words. A layer marked '18,000 years' sits beneath an entry dated 'last Tuesday'. Final entry: 'I found a scene carved in st"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the slope, following the sentence uphill to where it began",
+      "to": "the-beyond-the-sentence"
+    },
+    {
+      "dir": "s",
+      "label": "downslope into larger channels where pooled words become a river",
+      "to": "the-word-river-mouth"
+    },
+    {
+      "dir": "e",
+      "label": "across a natural bridge toward a stand of eucalyptus that also holds nested stories",
+      "to": "the-burl-library-grove"
+    }
+  ]
+}

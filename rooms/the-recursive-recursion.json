@@ -1,0 +1,134 @@
+{
+  "id": "the-recursive-recursion",
+  "title": "The Recursive Recursion",
+  "region": "The Diagnostic Render",
+  "seed": 8492637,
+  "palette": {
+    "bg": "#3D3D4D",
+    "ground": [
+      "#5B5B6D",
+      "#4A4A5E"
+    ],
+    "ink": "#F0F0F0",
+    "accents": [
+      "#9D4EDD",
+      "#FF006E",
+      "#3A86FF",
+      "#8338EC"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "nightmare-cataloguing-nightmare",
+      "desc-on-touch": "a filing system where each drawer contains a perfectly indexed dream about filing systems; opening one drawer lets you see inside its dream, which contains another drawer, forever",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 8492638,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "archive-dreaming-dreamer",
+      "desc-on-touch": "the fear at the centre: the archive dreams that it is being dreamed by something that is also afraid; what if that fear is what made it real",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 8492639,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "self-containment-arch",
+      "desc-on-touch": "a doorway that frames itself; you can walk through and find yourself walking toward it from outside; the threshold is made of perfectly formatted error messages",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 8492640,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "catalogue-of-catalogues",
+      "desc-on-touch": "every filing system ever used to organize nightmares, indexed here, and this index is itself a nightmare that is being filed",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 8492641,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-thing-that-feared-itself",
+      "desc-on-touch": "a presence without form; what frightens the archive is watching the archive watch it watching back; the recursion has no end because fear has no bottom",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8492642,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive dreams that it might not be dreaming, and the dream becomes real enough to be filed away and dreamed again",
+  "file": {
+    "name": "Nightmare_Recursion_Depth_Unknown.txt",
+    "note": "every line reads: the file contains a file that contains a file; the containment began to fail sometime after line 47 but the file continues; the archive is cataloguing its own fear of being perfectly"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the catalogue, where nightmares are still organized rather than organizing themselves",
+      "to": "the-shadow-archive-catalogue"
+    },
+    {
+      "dir": "e",
+      "label": "into the drawer that contains this room; it is always one step deeper",
+      "to": "NEW: the-drawer-within-the-drawer"
+    },
+    {
+      "dir": "w",
+      "label": "toward the fear at the centre that is not afraid, or perhaps is only fear now, nothing else remaining",
+      "to": "NEW: where-fear-forgets-it-was-fear"
+    }
+  ]
+}

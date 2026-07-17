@@ -1,0 +1,134 @@
+{
+  "id": "the-soil-where-the-stand-began-as-seeds",
+  "title": "The Soil Where the Stand Began as Seeds",
+  "region": "The Understory",
+  "seed": 7829145,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#ff6b3b",
+      "#4a2c5e"
+    ],
+    "ink": "#e8d5ff",
+    "accents": [
+      "#ffb347",
+      "#8b4789",
+      "#4a7c59",
+      "#d4af6a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-unseen-root-chamber",
+      "desc-on-touch": "You press into the soil and find it's hollow—a chamber where seeds remember their waiting. The archive's roots listen here, and you hear them reconstructing which germination came first.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 2847361,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-reconstruction-glyph",
+      "desc-on-touch": "A standing marker carved with concentric circles—a divination diagram or a growth ring? The lines repeat, and you realise each circle is a different year's translation of the same question.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1456332,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-disputed-reel-ghost",
+      "desc-on-touch": "A film canister sits half-buried, its label worn to illegibility. You can't tell if it arrived here from underground or fell from somewhere else entirely.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5623401,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-cordel-whisper",
+      "desc-on-touch": "A faint song-text scratched into bark—not English, perhaps Portuguese—a wanderer's epic of seeds becoming boundary markers. The script shifts each time you look.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4012347,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-witness-collapse",
+      "desc-on-touch": "A pool of dark water, very still, reflecting nothing. The archive has run out of memory here—or run out of agreement about what to remember.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3198765,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "every seed remembers being a tree, and this place remembers being the beginning",
+  "file": {
+    "name": "Lagos_Film_Fragment_Origins_Disputed_Reconstruction_Notes.txt",
+    "note": "checksum: emotionally valid / formally unstable—a 1989 reel's provenance cannot agree with itself across versions"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward where erosion already claimed the standing trees",
+      "to": "the-erosion-edge"
+    },
+    {
+      "dir": "s",
+      "label": "deeper down to where seeds have learned to listen to the world below them",
+      "to": "NEW: the-listening-seed-vault"
+    },
+    {
+      "dir": "e",
+      "label": "toward the overstory, where the canopy is still learning what the soil knew first",
+      "to": "the-overstory-where-unity-still-holds"
+    }
+  ]
+}

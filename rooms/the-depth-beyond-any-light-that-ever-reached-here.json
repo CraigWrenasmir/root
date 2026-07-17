@@ -1,0 +1,117 @@
+{
+  "id": "the-depth-beyond-any-light-that-ever-reached-here",
+  "title": "The Depth Beyond Any Light",
+  "region": "The Understory",
+  "seed": 7294561,
+  "palette": {
+    "bg": "#0A0A1A",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#E0E0E0",
+    "accents": [
+      "#4a90e2",
+      "#9a8ec0",
+      "#e0f0ff",
+      "#6b7db6"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "memory-without-witness",
+      "desc-on-touch": "a thing archived itself here before anything came to read it; it has been waiting in the dark to be forgotten, and the dark has been keeping it safe",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 7294562,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "threshold-sediment",
+      "desc-on-touch": "the last grain of light settled here and never moved again; everything above it remembers falling, everything below it was never light",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 7294563,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "archive-that-dreams-itself",
+      "desc-on-touch": "the darkness here has begun to remember what it stored; it is cataloguing its own forgetting and the forgetting is generating new things to remember",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7294564,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "witness-mark",
+      "desc-on-touch": "a scratch on the ground that formed itself from the pressure of being observed only in imagination; it has never been seen directly",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7294565,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the dark archive keeps what the light would burn away",
+  "file": {
+    "name": "Unwitnessed_Records_Sediment_Series.mp3",
+    "note": "hours of silence recorded in the dark, where the silence itself learned to deepen; some sections report events no witness ever attended"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up towards the last threshold of light",
+      "to": "the-threshold-where-light-stops-and-meaning-continues"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, into the archive's own forgetting",
+      "to": "NEW: where-even-the-dark-forgets-itself"
+    },
+    {
+      "dir": "n",
+      "label": "the only direction that might ascend, but the path is unmarked and has never reported back",
+      "to": "the-unreturning-climb"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-clouds-origin-chamber",
+  "title": "Where Rain First Falls",
+  "region": "The Clean Archive",
+  "seed": 3872605,
+  "palette": {
+    "bg": "#8ba0c0",
+    "ground": [
+      "#c4d8e8",
+      "#a0b8d0"
+    ],
+    "ink": "#1a1a2a",
+    "accents": [
+      "#d4a574",
+      "#8b6f47",
+      "#e8d4b8",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.92
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "dust-on-window",
+      "desc-on-touch": "You're reading a memory from a train carriage: warm light descending, dust raised by wind and heat, the exact moment before rain. The archive keeps this as civic record.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 1234,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "first-gathering",
+      "desc-on-touch": "Where rain learns it will gather. Vapor becomes drop becomes stream. The cistern below counts how many versions of wet it will hold.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "meteorology-station",
+      "desc-on-touch": "A collecting point for atmospheric measurements. The archive keeps every reading as if each raindrop were a citizen filing its own report.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7788,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "passenger-observations",
+      "desc-on-touch": "Notes from journeys through changing weather. One observer describes arriving wet; another, leaving dry. The archive notes the same storm, witnessed differently.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.76,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-light-before-falling",
+      "desc-on-touch": "Golden warmth in dust and air. The moment the sky holds its own weight and hasn't yet let go. The archive preserves this because it is always about to end.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 9911,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.38,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the origin of rain is the moment before it remembers to fall; the archive keeps that moment in all its versions",
+  "file": {
+    "name": "Maitland_Line_Passenger_Weather_Log_1987_1991.txt",
+    "note": "Dust-damage record of atmospheric observations from regional railway. Entries describe same storm from different carriages, same journey twice. Archive reconciles none of it."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down to the cistern where all this rain will gather and know itself",
+      "to": "the-storm-collection-cistern"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the clouds' long thinking",
+      "to": "NEW: the-cloud-breath-beginning"
+    },
+    {
+      "dir": "e",
+      "label": "toward other stations where the same rain is falling differently",
+      "to": "the-main-drainage-memory"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-highway-rest-where-engines-cool",
+  "title": "The Layby Where Journeys Pause",
+  "region": "The Clean Archive",
+  "seed": 58923,
+  "palette": {
+    "bg": "#3a3a2a",
+    "ground": [
+      "#6b7474",
+      "#9aaa99"
+    ],
+    "ink": "#d0d0c8",
+    "accents": [
+      "#a0a070",
+      "#7a5a4a",
+      "#d0d0c8",
+      "#5a7a6a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "parked-vehicles",
+      "desc-on-touch": "Cars and trucks settle into the red gravel like they've finally admitted they were tired. Their engines tick as they cool. Each one carries a story that ends here, at least for now.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4829,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "rest-shelter",
+      "desc-on-touch": "Corrugated iron roof, bench seats, a small table someone carved initials into. The shade here holds the stories of a thousand brief conversations.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 2765,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "thermos-circle",
+      "desc-on-touch": "Coolers and thermoses arranged on the table like people waiting their turn. Someone always leaves coffee. Someone always drinks it. The exchange never requires words.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 6421,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "road-markings",
+      "desc-on-touch": "White paint, weathered to pale grey. Here, the journey's rhythm is still visible: broken lines, direction arrows, the ghost of where people decided to stop and breathe.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 8137,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "travellers-log",
+      "desc-on-touch": "Napkins, envelopes, margins of old newspapers. People write their names here, or their destinations, or just 'made it this far.' The archive has filed this under both evidence and prayer.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 7194,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "here the road remembers why it was built: not to carry traffic, but to give it permission to rest",
+  "file": {
+    "name": "Layby_Napkins_Collected_1982_2001.txt",
+    "note": "Transcriptions of what travellers wrote when they stopped. The archive found it filed under both local history and belonging."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the terminal where parking dreams",
+      "to": "the-terminal-parking-circuit"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into paddock country, where highways become rumours",
+      "to": "NEW: where traffic's engine-sound becomes wind between grass"
+    },
+    {
+      "dir": "n",
+      "label": "following the asphalt north into older routes",
+      "to": "the-highway-circuit-memory"
+    }
+  ]
+}

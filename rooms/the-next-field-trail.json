@@ -140,7 +140,7 @@
     {
       "dir": "e",
       "label": "onward to the next neighbour's fence, where the trail continues bleeding into others' land",
-      "to": "NEW: the parallel field, where another set of children are always just leaving"
+      "to": "the-parallel-field"
     },
     {
       "dir": "n",

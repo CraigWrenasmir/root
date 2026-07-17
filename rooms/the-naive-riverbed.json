@@ -145,12 +145,12 @@
     {
       "dir": "w",
       "label": "overland through the paddocks, following the ghost of the river's former course",
-      "to": "NEW: the dried riverbed, where the archive is learning to store memory in old water paths"
+      "to": "the-dried-mercy-bend"
     },
     {
       "dir": "e",
       "label": "across the bank where the land rises and the river's view narrows to clarity",
-      "to": "NEW: the limestone shelf, where the river begins to question what water is"
+      "to": "the-limestone-shelf"
     }
   ]
 }

@@ -1,0 +1,134 @@
+{
+  "id": "the-shadow-s-separate-dwelling",
+  "title": "The Shadow's Separate Dwelling",
+  "region": "The Comparisons",
+  "seed": 6817294,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#1b3a5d",
+      "#4a90e2"
+    ],
+    "ink": "#e8f0ff",
+    "accents": [
+      "#6ab7ff",
+      "#2d5aa6",
+      "#9dc8ff",
+      "#1f3c7e"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "shadow dwelling",
+      "desc-on-touch": "A shape that was once cast but has learned to stand alone. It occupies space the way a body might, but without the body to explain it. You feel it before you see it.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 4729185,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "doubled reflection",
+      "desc-on-touch": "A pool that shows not what is above it but what the shadow remembers—a choreography of separation, intimate and violent at once, a slow incision between caster and cast.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7194836,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "glyph of severance",
+      "desc-on-touch": "A mark that reads as both question and answer: how does a shadow learn to exist when the light that cast it is gone? The mark says: by learning that it never needed the light, only the memory of light.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8351029,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "separation arch",
+      "desc-on-touch": "A doorway leading from the place of attachment to the place of independence. The arch itself is both threshold and wound—a careful opening where violation becomes healing.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 5029374,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "independent motion",
+      "desc-on-touch": "A wireframe suggesting movement—a shadow dancing without a dancer, turning without a source of light. The dance is its own justification now.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 6470281,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the shadow learns that casting was temporary; being cast is permanent; separating is possible",
+  "file": {
+    "name": "The_Motel_Shadow_Choreography_Study.txt",
+    "note": "Documentation of how a cast shape learned to move independently. Pages describe the slow incision of separation, the careful suturing of a new kind of wholeness. Some pages seem to bleed into one anot"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the wall where shadows live",
+      "to": "the-motel-fan-1987"
+    },
+    {
+      "dir": "e",
+      "label": "toward the rim, where shadows sharpen at the edge of light",
+      "to": "the-shadow-s-ground"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the blue where the shadow remembers being cast",
+      "to": "the-ultraviolet-shelf"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-subsonic-listening-dark",
+  "title": "The Subsonic Shadow Listening",
+  "region": "The Understory",
+  "seed": 7451892,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a3e",
+      "#2d0f5e"
+    ],
+    "ink": "#e0d4ff",
+    "accents": [
+      "#6b4c9f",
+      "#9d5dff",
+      "#2d1a5e",
+      "#b894ff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "listening chamber",
+      "desc-on-touch": "A space where the archive's photoreceptors have failed but perception continues in deeper registers. You listen here and the pressure waves remake themselves as colours you've never seen—ultraviolet songs, infrared whispers.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "pressure pool",
+      "desc-on-touch": "A pool of light that was never visible—stored as sound waves, as pressure gradients, as the skin-sensation of colour. The archive has learned to pool things that cannot be poured.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6294837,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "ultraviolet reading",
+      "desc-on-touch": "A glyph that says things that have no names. The archive reads it as a medical chart from a surgery conducted in light-wavelengths human eyes cannot process—careful corrections, careful revisions, each suture marked in invisible ink.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8529164,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "sensory arch",
+      "desc-on-touch": "A doorway that opens only to forms of perception the archive's designers did not anticipate. You move through it and sense becomes shape, pressure becomes meaning, the unseen becomes manifest.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 4718392,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "ERROR: archive's eyes stop working—colour continues; pressure continues; meaning continues without the light that justified it",
+  "file": {
+    "name": "Ultraviolet_Perception_Log_Corrupted.txt",
+    "note": "A medical chart translated into wavelengths. It documents a surgery conducted beyond the visible spectrum. Entries describe incisions in light, sutures in frequency, the careful correction of somethin"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the ultraviolet shelf where colour still means something",
+      "to": "the-ultraviolet-shelf"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, toward the place where sound becomes silence becomes pressure",
+      "to": "the-void-beneath-listening"
+    },
+    {
+      "dir": "w",
+      "label": "toward the understory's thickening, where roots listen for water",
+      "to": "the-thick-stand-undercounting"
+    }
+  ]
+}

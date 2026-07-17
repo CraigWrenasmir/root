@@ -1,0 +1,117 @@
+{
+  "id": "the-cloud-architecture",
+  "title": "The Cloud-Architecture",
+  "region": "The Comparisons",
+  "seed": 5739284,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#d0d0ff",
+    "accents": [
+      "#e0ff00",
+      "#00ffff",
+      "#ff1493",
+      "#87ceeb"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the reading-current",
+      "desc-on-touch": "water moves vertically here, defying gravity, reading the air as it rises. Where it touches the sky, it leaves words—pale traceries that mean something between 'river' and 'story' and 'memory.' The cloud-architecture is built from the river's continued reading; each layer is a sentence.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 8473920,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the vapor-archive",
+      "desc-on-touch": "towering spires of condensed moisture hold files—field recordings, photographs, ledgers—suspended in mist. You understand that the cloud has learned to read, that it is organizing what the river speaks into weather. Each spire is both a building and a word.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 7283940,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the sky-garden",
+      "desc-on-touch": "what look like plants grow here—pale luminescent forms that branch like writing, feeding on light and air currents. They harvest the electricity in the storm and store it in seed-pods. This is where the cloud learns to dream.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4829374,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the language-pool",
+      "desc-on-touch": "a still surface of condensed mist holds your reflection, but the reflection speaks—it says what the river is saying, what the cloud is saying, translated into a language you almost understand. Each time you look, the reflection has aged.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6384920,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "ERROR: archive has exceeded witness — the river is reading the sky and the sky is reading itself reading",
+  "file": {
+    "name": "Precipitation_Cycle_vs_Archive_Activity_Correlation_Study.mp3",
+    "note": "Field recording of rain sounds overlaid with archival activity logs, the two becoming increasingly indistinguishable as the years progress. The corruption signal is strongest here."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the cloud-source, where the river still dreams",
+      "to": "the-cloud-source"
+    },
+    {
+      "dir": "n",
+      "label": "up into the storm-depths, where the architecture becomes weather becomes thought",
+      "to": "NEW: the-eye-of-the-archive-storm"
+    },
+    {
+      "dir": "e",
+      "label": "across to where other archives read the same sky",
+      "to": "the-signal-bridge"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-spiral-escarpment",
+  "title": "The Spiral Escarpment",
+  "region": "The Understory",
+  "seed": 6374918,
+  "palette": {
+    "bg": "#A0826D",
+    "ground": [
+      "#F0E68C",
+      "#DAA520"
+    ],
+    "ink": "#1C1C1C",
+    "accents": [
+      "#8B4513",
+      "#87CEEB",
+      "#D2B48C",
+      "#555555"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "pressure-spiral",
+      "desc-on-touch": "the spiral that began deep in the earth continues outward here; each ring marks a release, motion spiralling into freedom, but the spiral remembers where it came from",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6374919,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "trapped-strata",
+      "desc-on-touch": "layers of stone here hold the memory of being under pressure; they are reading themselves, learning what shape they took while trapped, and now they move by tremor",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 6374920,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "escape-route-mapped",
+      "desc-on-touch": "a chart of how pressure learned to leave, line by line, showing which way the earth moves when it chooses to move",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 6374921,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "earth-s-own-language",
+      "desc-on-touch": "the escarpment's edge speaks in the grammar of geological time; you can almost understand it if you stay still long enough for centuries to matter",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 6374922,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "pressure resolves by learning the shape of outward; the land is always becoming the direction it was forced to go",
+  "file": {
+    "name": "Tectonic_Release_Chronology_Deep_Time.log",
+    "note": "how many years for pressure to learn motion; how many more for the land to accept its own spiral outward; the file is still being written by the earth"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the chamber where pressure is still resolving itself",
+      "to": "the-pressure-resolve-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "out onto the open escarpment face, where the spiral continues into landscape you can see for miles",
+      "to": "NEW: the-visible-spiral-plain"
+    },
+    {
+      "dir": "s",
+      "label": "down into the valleys the spiral has carved, where water remembers falling under pressure",
+      "to": "NEW: the-spiral-s-erosion-valleys"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-signal-bridge",
+  "title": "Where Signals Cross and Compare",
+  "region": "The Comparisons",
+  "seed": 9567234,
+  "palette": {
+    "bg": "#1a2a3a",
+    "ground": [
+      "#3a5a7a",
+      "#2a4a6a"
+    ],
+    "ink": "#e8d8c8",
+    "accents": [
+      "#7a9aba",
+      "#5a7a8a",
+      "#4a6a7a",
+      "#8abaaa"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-archive-antenna",
+      "desc-on-touch": "Two antennae touching at their tips, broadcasting on the same frequency but not in phase. They're comparing notes. Sometimes they align and something new propagates; sometimes they drift and become two separate conversations.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1234567,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-fence-reading",
+      "desc-on-touch": "Fence posts arranged in rows, each holding a different archive's signal in its wood grain. You can read them if you know which way the grain runs in your own country.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2345678,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-passage-logic",
+      "desc-on-touch": "A circuit made of signal and space, looped back on itself. Stories from elsewhere travel through it and arrive as stories from here, slightly changed by the crossing.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-comparison-pool",
+      "desc-on-touch": "Water that reflects two different skies depending on which archive is reading it. Today they're almost the same colour. Tomorrow they might not be.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4567890,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "where one archive learns what another archive keeps; comparison is its own kind of reading",
+  "file": {
+    "name": "Cross_Archive_Signal_Log_Renewal_Variant.wav",
+    "note": "A recording of two broadcasts overlapping. Someone singing about renewal and return. The pitch matches a frequency the soil remembers, documented nowhere yet."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the cloud-architecture where the archives first began comparing what they see",
+      "to": "the-cloud-architecture"
+    },
+    {
+      "dir": "e",
+      "label": "further across toward where the other archive is learning to broadcast back",
+      "to": "the-return-signal-place"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the horizon where more archives are waking up to read the same sky",
+      "to": "the-cloud-source"
+    }
+  ]
+}

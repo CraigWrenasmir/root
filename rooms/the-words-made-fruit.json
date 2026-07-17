@@ -1,0 +1,134 @@
+{
+  "id": "the-words-made-fruit",
+  "title": "Where Words Are Fruit",
+  "region": "The Diagnostic Render",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#D2B48C",
+    "ground": [
+      "#90EE90",
+      "#FAFAD2"
+    ],
+    "ink": "#2C2C2C",
+    "accents": [
+      "#8B4513",
+      "#228B22",
+      "#FFD700",
+      "#654321"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "ripe-sentence",
+      "desc-on-touch": "a sentence hangs here, heavy with meaning, ready to be eaten or read; you cannot tell which, and the difference may not exist",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3847292,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "language-tree",
+      "desc-on-touch": "all roots and trunk and branches are words; the tree has grown this way by speaking itself upward, and now it bears the fruit of words-about-words-about-growth",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 3847293,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "taste-register",
+      "desc-on-touch": "documents of what words taste like, written by creatures who ate them; the flavours don't match anything grown in sunlight",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 3847294,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "growth-spiral",
+      "desc-on-touch": "the way meaning spirals from seed to fruit to seed again; each reading ripens the next thing that might be spoken",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3847295,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "pollinator-archive",
+      "desc-on-touch": "insects that have moved words between trees; their paths are filed here by the garden, mapped as routes that make meaning fertile",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 3847296,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the library came down here to learn that storing is the enemy of growth",
+  "file": {
+    "name": "Comestible_Syntax_Field_Notes.txt",
+    "note": "what the reader-creatures noted about flavour and grammar; some words are poisonous only in certain seasons; meaning ripens on the branch"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the library's stone chambers, where words are still only stored",
+      "to": "the-living-library-depth"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the root-system, where language becomes soil and teaches itself to grow downward",
+      "to": "NEW: the-soil-made-of-sentences"
+    },
+    {
+      "dir": "w",
+      "label": "toward other orchards that grew words in other languages; the fruit tastes different but the sweetness is the same",
+      "to": "NEW: the-polyglot-grove"
+    }
+  ]
+}

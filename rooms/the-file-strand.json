@@ -106,7 +106,7 @@
     {
       "dir": "s",
       "label": "inland, toward the village that downloads from this beach",
-      "to": "NEW: the receiving station, where files are sorted by what they became instead of what they were"
+      "to": "the-receiving-shed"
     },
     {
       "dir": "e",

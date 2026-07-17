@@ -1,0 +1,134 @@
+{
+  "id": "the-limestone-shelf",
+  "title": "The Limestone Shelf",
+  "region": "The Comparisons",
+  "seed": 76483,
+  "palette": {
+    "bg": "#0f3a2a",
+    "ground": [
+      "#e8e0d0",
+      "#87ceeb"
+    ],
+    "ink": "#2d5016",
+    "accents": [
+      "#daa520",
+      "#b8860b",
+      "#556b2f",
+      "#6b8e23"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "shelf edge",
+      "desc-on-touch": "Where the river narrows and the limestone rises. From here the water sees its own flow for the first time. The curve teaches it comparison.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 48271,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "erosion circuit",
+      "desc-on-touch": "Limestone surface etched with flow-patterns. Water has written its own path-memory into stone. Each groove is an archived moment of flowing.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 62934,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "water witness",
+      "desc-on-touch": "Silicon fragment embedded in stone, recording temperature and volume across centuries. Water learns its own history by reading this witness.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 39847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pool of reflection",
+      "desc-on-touch": "Where the river pools before the drop. In still water, the current sees its own reflection and forgets which one is moving downstream.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 71638,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "limestone ledger",
+      "desc-on-touch": "Survey marks carved decades ago show the shelf's descent. New marks continue them downward. The stone is recording its own wearing away.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 85247,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the water learns its flow by learning the stone; the stone learns itself by learning the water's thought",
+  "file": {
+    "name": "Limestone_Shelf_Water_Comparison_1987-Now.mp3",
+    "note": "Recordings of water-sound before and after shelf seasons. The recordings have begun to converge, as if the river compares itself across time."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the naive riverbed",
+      "to": "the-naive-riverbed"
+    },
+    {
+      "dir": "e",
+      "label": "where the water cascades to meet itself",
+      "to": "NEW: the double-pool where upstream mirrors downstream"
+    },
+    {
+      "dir": "s",
+      "label": "down where the limestone deepens",
+      "to": "NEW: the submerged shelf where the river-question continues"
+    }
+  ]
+}

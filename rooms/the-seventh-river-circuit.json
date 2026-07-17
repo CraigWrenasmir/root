@@ -1,0 +1,139 @@
+{
+  "id": "the-seventh-river-circuit",
+  "title": "The Seventh River's Circuit",
+  "region": "The Comparisons",
+  "seed": 4162837,
+  "palette": {
+    "bg": "#001a00",
+    "ground": [
+      "#0d4d0d",
+      "#1a7a1a"
+    ],
+    "ink": "#e0ff80",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the learning node",
+      "desc-on-touch": "A chip breathes with river-time. It doesn't know its own logic yet — the archive is listening to it discover what it wants to compute.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 537281,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the harmonic trace",
+      "desc-on-touch": "Traces of current flow across the board — but the flow follows the river's own melody, not electricity's rules. The river has taught the circuit to sing.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 892163,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the newest-voiced architecture",
+      "desc-on-touch": "A tower of logic gates stacked impossibly, each one holding a piece of the seventh river's first words. They haven't been compiled yet. They're still learning what it means to be if-then-else.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 164782,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the parallel etch",
+      "desc-on-touch": "Pathways etch themselves parallel across the board, following the river's branching. The archive's solder hasn't cooled on all of them yet.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 751029,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the impedance pool",
+      "desc-on-touch": "A standing wave of resistance and conductance, the river arguing with its own reflection in the circuit. Current doesn't know which way to flow.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 428516,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the river wrote its own firmware in a language the archive hasn't debugged",
+  "file": {
+    "name": "Spectral_Analysis_SeventhRiver_UnknownDate.txt",
+    "note": "A seven-column ledger showing flow rates that don't match any known tributary. The archive is comparing it to itself and finding no match. Handwriting deteriorates across the page."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the source, where the other six rivers still remember how to speak",
+      "to": "the-source-singing-place"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the board, where circuits teach rivers how they should flow",
+      "to": "NEW: the inverted spring, where water rises upward as data and descends as algebra"
+    },
+    {
+      "dir": "n",
+      "label": "toward the mesh's center, where signals and rivers converge",
+      "to": "the-signal-bridge"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into borrowed territory, where the river learns from the archive's own dreams",
+      "to": "the-edge-of-double-town"
+    }
+  ]
+}

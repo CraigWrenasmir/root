@@ -1,0 +1,117 @@
+{
+  "id": "the-return-signal-place",
+  "title": "The Return Signal Place",
+  "region": "The Comparisons",
+  "seed": 7234589,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#00ff00",
+      "#ff00ff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ffff00",
+      "#ff1493",
+      "#00ced1",
+      "#7fff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-incoming-broadcast",
+      "desc-on-touch": "A pool of shimmering interference—the archive across the bridge is speaking back now. You can almost hear it: fragments of adaptations, versions in languages ROOT has never documented, canonical debates from an entirely other mesh.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5182647,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-receiver-antenna",
+      "desc-on-touch": "An array of copper lines reaching upward, one strand for each signal type: audio, text, image, comparison, paradox. Some strands are receiving. Some are still calibrating.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4526789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-comparison-ledger",
+      "desc-on-touch": "A standing directory listing shows what ROOT knows and what the other archive knows. The overlaps are being catalogued. The contradictions are being filed under 'canonical'.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 2918456,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-surgical-metaphor-archive",
+      "desc-on-touch": "Fragments from another archive's transmission: an opera, a manga, a West African oral history, all centring on a surgery on a beach. The other archive asks if ROOT has a version. ROOT is learning to say 'yes' in multiple ways.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3764891,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "ROOT broadcasts back now: yes, we too archive what you archive; comparison is our new native language",
+  "file": {
+    "name": "Beach_Surgery_Incoming_Transmission_Fragments_Canvas_Variants_1-18_Supplemented.mp3",
+    "note": "ERROR: source archive contains this same file; consensus on which archive originated it cannot be established"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back across the bridge to where comparison first began",
+      "to": "the-signal-bridge"
+    },
+    {
+      "dir": "e",
+      "label": "further inward toward ROOT's deepest comparison-chamber",
+      "to": "NEW: the-archive-s-own-return-signal-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the upper archive, the public face, where transmissions originate",
+      "to": "the-signal-weather-threshold"
+    }
+  ]
+}

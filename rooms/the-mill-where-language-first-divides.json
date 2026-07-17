@@ -1,0 +1,117 @@
+{
+  "id": "the-mill-where-language-first-divides",
+  "title": "The Mill Where Language First Divides",
+  "region": "The Comparisons",
+  "seed": 5693412,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#d4a574",
+      "#2f5233"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#8b4513",
+      "#4a6741",
+      "#696969",
+      "#cd853f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-river-and-saw",
+      "desc-on-touch": "Water and blade meet at the same point—the river powers the mill, and the mill cuts the thing the river brings. Here intention becomes object: tree-as-material enters the mill, exits as fence-post-as-boundary.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3781246,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-timber-stacks",
+      "desc-on-touch": "Logs are piled by grade, dimension, and intended use. But an oral narrative is carved into each stack's label—a cordel verse, a folk tale about a wanderer—and the archive cannot decide if the story marks the wood or the wood marks the story.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2156739,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-mill-worker-s-glossary",
+      "desc-on-touch": "A hanging board with terms: the oral project documented how the same wooden piece carries different names in different stories, each name correct in its own narrative world.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 4289567,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-first-division",
+      "desc-on-touch": "A crack runs through the mill floor—the line between what arrives and what departs. On one side, the forest; on the other, the built world. Language separates here into wood-language and story-language, and they have never met again.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1623478,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "this is the place where the tree agreed to stop being alive and the fence agreed to start being a boundary",
+  "file": {
+    "name": "Mill_Operations_Log_1973_West_African_Cordel_Variants_Appended.txt",
+    "note": "ERROR: narrative structure and operational history have become indistinguishable; the mill is told in multiple simultaneous folk traditions"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down-stream to the maintenance depot, where the posts remember their timber mill beginning",
+      "to": "the-maintenance-depot-where-the-posts-were-marked"
+    },
+    {
+      "dir": "w",
+      "label": "further upstream toward the forest where timber was still part of a tree",
+      "to": "the-forest-before-division"
+    },
+    {
+      "dir": "n",
+      "label": "toward the archive's deep-patience station, where long work is recorded",
+      "to": "the-deep-patience-station"
+    }
+  ]
+}

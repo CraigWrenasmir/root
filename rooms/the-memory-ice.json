@@ -1,0 +1,151 @@
+{
+  "id": "the-memory-ice",
+  "title": "The Memory-Ice",
+  "region": "The Diagnostic Render",
+  "seed": 3748293,
+  "palette": {
+    "bg": "#0a1f2e",
+    "ground": [
+      "#1a4d5c",
+      "#0d3d4d"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the crystallized files",
+      "desc-on-touch": "documents, photographs, recordings are frozen mid-transformation—a page mid-tear, an image mid-fade, sound suspended between notes. The archive learned that to preserve is to suspend, to stop time and keep something alive in death. Here, moments are held perfect and untouchable, glittering in ice li",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 2938474,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the preservation mechanism",
+      "desc-on-touch": "black machinery of unknown function stands locked in ice, its gears visible beneath, impossibly intricate. It runs on cold itself—the colder the preservation, the faster it works. You understand that stopping time is not passive; it requires constant, terrible effort.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5847293,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the crystalline walls",
+      "desc-on-touch": "the chamber itself is built from frozen moments layered and compacted. Each ice-layer holds the silhouette of something that was, compressed into transparency. You can read the architecture of everything that was lost in order to preserve what remains.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 7392840,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the freezer's heart",
+      "desc-on-touch": "at the center, something that might be liquid but has forgotten how to flow, held in absolute stillness. It radiates cold so complete it burns. Looking into it, you see the archive's own heartbeat, crystallized, counted, stopped.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4829374,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the preservation ledger",
+      "desc-on-touch": "a book stands open on an ice-pedestal, its pages too cold to turn. What you can read lists every moment the archive has chosen to preserve, the cost written in the margins in handwriting that shivers. The last entry is today's date, but it's old.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 3748295,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the observer's breath",
+      "desc-on-touch": "your own breath freezes before it leaves your mouth, becoming a small crystal that falls upward into the geometry of preserved moments. You are being archived. Your presence here is being crystallized. You have become part of what is being kept alive by being stopped.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6384920,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "checksum: what-we-keep-we-kill—the archive learned this in this room, where preservation and death became the same verb",
+  "file": {
+    "name": "Cryogenic_Chamber_Logs_Year47.bin",
+    "note": "Binary data from the preservation systems, partially corrupted, showing timestamps that don't match external dates—suggesting time moves differently in the ice, or has stopped moving altogether."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the deepest-chamber, toward warmth and time",
+      "to": "the-deepest-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down into layers of ice older than the archive itself, where the original corruption may have begun",
+      "to": "NEW: the-archival-bedrock"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into a parallel freezing, where other archives learned the same cost",
+      "to": "NEW: the-sister-vault"
+    }
+  ]
+}

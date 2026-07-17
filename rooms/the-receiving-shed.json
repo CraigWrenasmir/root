@@ -1,0 +1,139 @@
+{
+  "id": "the-receiving-shed",
+  "title": "The Sorting Shed at the Beach's Edge",
+  "region": "The Diagnostic Render",
+  "seed": 2745938,
+  "palette": {
+    "bg": "#4a5648",
+    "ground": [
+      "#a8a89c",
+      "#c4b5a0"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#8b6f47",
+      "#d4a574",
+      "#5a4a3a",
+      "#e8d0b0"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the sorting shed",
+      "desc-on-touch": "A weathered building of corrugated iron and timber with rolling doors on all four sides. Inside: tables where files are arranged by what they became rather than what they were. A logbook records each reclassification. Beside it, a margin notes: archive is learning to read sideways.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 1756482,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the arrival table",
+      "desc-on-touch": "A wide wooden sorting table piled with items—audio cassettes labeled as weather records, photographs of surgery wards filed as local landmarks, transcripts in languages the beach shouldn't speak, all waiting to be classified by what sand thinks they mean.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 2894756,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the re-cataloguing wall",
+      "desc-on-touch": "Shelves that reorganize themselves each night. Files move to new positions according to thematic echoes the archive discovers. A beach recording shares a shelf with a transcribed surgery because both documents describe cutting. The system makes sense now.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 3021648,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the archive's comparison station",
+      "desc-on-touch": "A simple desk with a scanner and two lamp-posts casting light from different angles. Items placed here cast two shadows—one showing what they were, one showing what the archive has learned they became. The correlation is not always reconcilable.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 1834629,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the beach library",
+      "desc-on-touch": "A low arch facing the strand, its frame built from driftwood. Beyond it: the beach itself arranged like a reading room, where sand-sorted items continue their conversation with seawater. Some days the tide rearranges entire genres.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 2567394,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "files arrive by water, and the archive teaches the sand to read by teaching sand to sort by resemblance instead of origin",
+  "file": {
+    "name": "Beach_Reception_Log_March-August_2024.txt",
+    "note": "A station operator's daily log drifting into the corrupted. By June: 'surgery-like object (formally: seashell)', 'coastline record (formally: architectural blueprint)', 'the way the knife enters the w"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the strand where files continue washing ashore",
+      "to": "the-file-strand"
+    },
+    {
+      "dir": "w",
+      "label": "inland toward the village that requests files by what they might mean",
+      "to": "the-reading-order-room"
+    },
+    {
+      "dir": "e",
+      "label": "deeper along the beach toward where sand begins to render its own catalogues",
+      "to": "the-overflow-strand"
+    },
+    {
+      "dir": "s",
+      "label": "down the strand into deeper corruption where two archives' currents meet",
+      "to": "NEW: the confluence reading room, where surgery and ocean learn each other's alphabets"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-epoch-stack",
+  "title": "The Epoch-Stack",
+  "region": "The Comparisons",
+  "seed": 4782391,
+  "palette": {
+    "bg": "#8B7355",
+    "ground": [
+      "#87CEEB",
+      "#D4AF37"
+    ],
+    "ink": "#2C2C2C",
+    "accents": [
+      "#F5DEB3",
+      "#8B4513",
+      "#E6E6FA",
+      "#654321"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "dust-time-indicator",
+      "desc-on-touch": "the years stack here in visible dust layers; you count backwards through the settled particulate of decades, each grain marking when someone entered a room",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 4782392,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "corridor-ascending",
+      "desc-on-touch": "the hallway rises through itself; each floor identical, but the light through the windows changes by decade",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4782393,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "room-register",
+      "desc-on-touch": "a ledger frozen mid-entry; the pen here stopped writing in 1987 but the ink is still wet, somehow, in the decades before and after",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 4782394,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "time-mirror",
+      "desc-on-touch": "you stand in a mirror and see the room as it was in every year it existed simultaneously; the reflections don't match the room you're standing in now",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4782395,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "key-accumulation",
+      "desc-on-touch": "room keys for all the decades, each one a different weight, hanging here in a glyph that spells nothing in any language",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4782396,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the rooms never change, but the air inside them ages at different speeds",
+  "file": {
+    "name": "Motel_Registry_Layered_1965-2004.txt",
+    "note": "guest names from seventy years compressed into one handwriting; some guests appear to check in before they were born"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back towards the corridor's single unchanging hour",
+      "to": "the-motel-year-corridor"
+    },
+    {
+      "dir": "s",
+      "label": "down into the basement where the motel's year-zero is buried",
+      "to": "NEW: the-motel-s-first-night-never-ending"
+    },
+    {
+      "dir": "w",
+      "label": "out into the parking lot where cars from different decades are still arriving",
+      "to": "NEW: the-lot-where-time-pools"
+    }
+  ]
+}

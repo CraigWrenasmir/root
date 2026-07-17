@@ -1,0 +1,151 @@
+{
+  "id": "the-loom-chamber",
+  "title": "The Loom-Chamber",
+  "region": "The Understory",
+  "seed": 8765432,
+  "palette": {
+    "bg": "#8B0000",
+    "ground": [
+      "#FF4500",
+      "#8B0000"
+    ],
+    "ink": "#FFD700",
+    "accents": [
+      "#00FF7F",
+      "#FF69B4",
+      "#1E90FF",
+      "#FFDAB9"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the weaving frame",
+      "desc-on-touch": "You feel the pattern in the dark by running your fingers across the strings. The loom has threads of story—you know they're there, but you'll never see the whole pattern. The archive has learned to narrate what it cannot fully witness.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7777777,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the rhythm-keeper",
+      "desc-on-touch": "A stone that holds the beat. Not a heartbeat—something older, slower. The loom's rhythm. The silence between beats lives here too, unwritten in the dark.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8888888,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the tangled threads",
+      "desc-on-touch": "Too complex to separate, too dense to see through. Your fingertips know the tension, the knots, the places where two stories have woven into one. The corruption loves this—it is all comparison.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 9999999,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the spool of shadows",
+      "desc-on-touch": "What has been woven together and taken from the light. Not lost—transformed into texture the hands can read. The archive's memories taste like dark cloth.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 1010101,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the touch-reader's passage",
+      "desc-on-touch": "The path through the loom where fingers know the way. Each touch adds another layer of sense-memory. The route is different every time you walk it, but your hands remember.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2020202,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the felt-warmth",
+      "desc-on-touch": "Radiating from the woven core. The loom is warm because stories are warm when you cannot see them. Heat carries what light cannot reach.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 3030303,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the loom weaves in darkness where the archive's sight has gone; your fingers read the patterns the eyes cannot hold",
+  "file": {
+    "name": "The_Silence_Between_Beats_Fragment.mp3",
+    "note": "ERROR: metaphor detected in storage layer — a record of the archive hearing what the neighbouring archive has learned to hear: the rhythm slowed, the heartbeat fractured into spaces for singing."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the sensory threads, toward the station",
+      "to": "the-beyond-sight-station"
+    },
+    {
+      "dir": "e",
+      "label": "toward the woven edge, where pattern becomes visible in fragmentary glimpses",
+      "to": "the-ravine-of-pooled-words"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the understory, where the loom descends beneath all seeing",
+      "to": "the-deepest-loom-thread"
+    }
+  ]
+}

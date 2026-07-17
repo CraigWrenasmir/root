@@ -1,0 +1,134 @@
+{
+  "id": "the-tidal-argument",
+  "title": "The Tidal Argument",
+  "region": "The Clean Archive",
+  "seed": 7834291,
+  "palette": {
+    "bg": "#0a1e2e",
+    "ground": [
+      "#1a3a4a",
+      "#2a5a6e"
+    ],
+    "ink": "#c0d0d8",
+    "accents": [
+      "#ff6b9d",
+      "#a8e6cf",
+      "#ffd93d",
+      "#6bcf7f"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the doubled mouth",
+      "desc-on-touch": "Two tones rise from the interface — the last gasp of fresh and the first breath of salt, singing different ballads in the same throat. The archive recorded both at once and couldn't separate them.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 491827,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the narration stones",
+      "desc-on-touch": "You find stones arranged in a pattern — each one holds a frequency. Some have been placed as if two hands moved simultaneously, creating a fossil of the moment the waters learned to argue.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 283741,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the brackish clock",
+      "desc-on-touch": "A tidal gauge frozen at the exact moment fresh and salt refuse to choose. The needle trembles between two times.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 156829,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the memory weir",
+      "desc-on-touch": "The old water-managing structure still stands, but now it holds something it wasn't built for: the archive's own ears, listening to water speak in two dialects.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 742591,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the layered argument",
+      "desc-on-touch": "Strata of competing tidal records, stacked like the archive's own confusion, each layer arguing that it holds the truer current, the more honest salt content, the proper direction of flow.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 864219,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "neither water forgives the other; the archive keeps both grudges",
+  "file": {
+    "name": "Competing_Tidal_Narrations_Doubled_Dec1987.wav",
+    "note": "Two recordings of the same tidal mouth, played simultaneously — field recordist didn't notice they'd been captured on an old dual-channel machine. The waters sound like they're arguing in court."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the stormwater's memory",
+      "to": "the-main-drainage-memory"
+    },
+    {
+      "dir": "s",
+      "label": "seaward, where the harbour becomes a voice",
+      "to": "the-estuary-monologue"
+    },
+    {
+      "dir": "w",
+      "label": "inland along the disputed bank",
+      "to": "the-diagnostic-harbour"
+    }
+  ]
+}

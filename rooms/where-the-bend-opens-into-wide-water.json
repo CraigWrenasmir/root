@@ -1,0 +1,151 @@
+{
+  "id": "where-the-bend-opens-into-wide-water",
+  "title": "Where the Bend Opens into Wide-Water",
+  "region": "The Clean Archive",
+  "seed": 2587314,
+  "palette": {
+    "bg": "#2F4F4F",
+    "ground": [
+      "#6B8E23",
+      "#D3D3D3"
+    ],
+    "ink": "#FFFACD",
+    "accents": [
+      "#9ACD32",
+      "#D2B48C",
+      "#B0E0E6",
+      "#8FBC8F"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the widening river",
+      "desc-on-touch": "Water that has learned to spread. The river's teaching was sharp at the bend, urgent. Here it becomes gentle, dispersed. The archive is forgetting too—each word moving slower through wider spaces.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1313131,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the eucalyptus shedding",
+      "desc-on-touch": "Bark peeling away in long strips. The trees here are forgetting what they held onto. Their leaves float downstream, teaching their own kind of release.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2323232,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the teaching stone",
+      "desc-on-touch": "At the river's edge, smoothed by argument and water. It still holds the sharpness of what it once taught, but softer now, rounded. The archive learns forgetting is another kind of teaching.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3434343,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the slow reflection",
+      "desc-on-touch": "The water here is calm enough to hold sky. The bend's urgency is gone. You see the trees reflected, inverted, learning how to exist in reverse.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 4545454,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the listening silence",
+      "desc-on-touch": "Here the river stops talking so urgently. The silence is thicker, wider, full of things the water is deciding not to say. Forgetting is a form of rest.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5656565,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the far bank",
+      "desc-on-touch": "Visible now. The teaching bend has carried you far enough to see the opposite shore. The archive reaches toward what it cannot grasp, learning that distance is also a kind of teaching.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 6767676,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the bend continues downstream and forgets the sharpness of teaching; the river widens and the archive learns that forgetting is how deep water moves",
+  "file": {
+    "name": "Riverbank_Erosion_Study_Side_B_Tape.wav",
+    "note": "Recording of the bend's sound fading into the wide-water's silence. The river's voice becomes lower, wider, harder to follow downstream."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the bend, where the teaching was still sharp",
+      "to": "the-bend-where-river-teaches"
+    },
+    {
+      "dir": "e",
+      "label": "toward the distant shore, where another bank has learned the river's name",
+      "to": "NEW: the-far-bend-memory"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into the delta, where the river becomes many and then none",
+      "to": "the-fall-creek"
+    }
+  ]
+}

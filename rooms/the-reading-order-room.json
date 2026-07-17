@@ -1,0 +1,134 @@
+{
+  "id": "the-reading-order-room",
+  "title": "The Reading Order Room",
+  "region": "The Diagnostic Render",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4b896",
+      "#c9a961"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#2b5f7f",
+      "#1a3a52",
+      "#8b7355",
+      "#5c4033"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "sorting-table",
+      "desc-on-touch": "you run your hand across a wooden table where files are being reclassified. the categories written on scraps are not the archive's categories—they're the village's categories, the ones that make sense by resemblance instead of origin",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6145,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "index-fracture",
+      "desc-on-touch": "a large unreadable index carved into plaster. it fragments into smaller indexes. each smaller one contradicts the others. the archive keeps all versions",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7834,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "water-line-mark",
+      "desc-on-touch": "a tide line runs across the wall where the files came in through the door. nothing above it looks the same; water has renamed everything",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "pending-shelf",
+      "desc-on-touch": "a tall narrow shelf holding files whose new names have not yet arrived. they wait in a state the archive calls 'definition pending'",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5029,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "resemblance-map",
+      "desc-on-touch": "a chart on the wall showing how files were grouped by what they might mean rather than what they are. someone's handwriting annotates it: 'the village reads better than the index'",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4756,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the files arrive by water and the village renames them by resemblance. the archive now keeps both names",
+  "file": {
+    "name": "Unwritten_Index_Red_Links_Archive_Stubs.txt",
+    "note": "frameworks pending; examples listed; definitions arrived in water, not yet filed; status: the village is still reading"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the sorting shed at the beach edge",
+      "to": "the-receiving-shed"
+    },
+    {
+      "dir": "n",
+      "label": "toward the village where meaning is made by use",
+      "to": "the-marketplace-of-renames"
+    },
+    {
+      "dir": "w",
+      "label": "inland, following files that have begun to flow like water",
+      "to": "the-vaporwave-foodcourt"
+    }
+  ]
+}

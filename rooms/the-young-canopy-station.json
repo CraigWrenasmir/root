@@ -1,0 +1,139 @@
+{
+  "id": "the-young-canopy-station",
+  "title": "The Young Canopy Station",
+  "region": "The Understory",
+  "seed": 4926183,
+  "palette": {
+    "bg": "#0a2a0a",
+    "ground": [
+      "#3aaa2a",
+      "#2a8a1a"
+    ],
+    "ink": "#b8ff88",
+    "accents": [
+      "#ffffaa",
+      "#88ff44",
+      "#ffff00",
+      "#88ddaa"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "unindexed-sapling",
+      "desc-on-touch": "A young tree still learning its own name. The archive hasn't filed its location yet, hasn't categorized its growth-rate. You stand near something the system is still deciding whether to remember.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 3847,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "fence-post-row",
+      "desc-on-touch": "A line of fence posts marking where the plantation ends, where the archived-orchard of planted things becomes the margin where new things grow without permission. The archive wants to catalogue this boundary. The boundary moves.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6201,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "seedling-vault",
+      "desc-on-touch": "Where seeds are kept before they're assigned to trees. The archive stores futures here—potential growth-paths, unborn broadcasts, the catalogue of what might happen if the canopy thinned.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 7543,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "fresh-leaf-archive",
+      "desc-on-touch": "Leaves so new they haven't learned to read yet. The archive doesn't know what to do with growth that hasn't stopped growing. It keeps updating the file, never finishing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2618,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "canopy-edge-marker",
+      "desc-on-touch": "The line between catalogued growth and wild growth. On this side, everything is indexed. On that side, trees are still surprising the system with what they do.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4892,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "young leaves don't know they're being read, and that silence is what lets them grow",
+  "file": {
+    "name": "Canopy_Edge_Growth_Projection_1995-ONGOING.log",
+    "note": "Predictions of which young trees will mature, which will fall, which will change frequency. Every prediction is marked UNFINISHED. The future is still growing."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "returning to where the understory is still learning to remember",
+      "to": "the-archive-shadow"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the canopy where trees have stopped growing and started keeping records",
+      "to": "NEW: the-high-canopy-archive-station"
+    },
+    {
+      "dir": "e",
+      "label": "along the canopy-edge toward the dense plantation zones",
+      "to": "the-burl-library-grove"
+    },
+    {
+      "dir": "w",
+      "label": "back into the thick understory where even young things have learned to hide",
+      "to": "NEW: the-seedling-dark"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-travellers-blue-lodge",
+  "title": "The Travellers' Blue Lodge",
+  "region": "The Clean Archive",
+  "seed": 8134625,
+  "palette": {
+    "bg": "#0a0f1f",
+    "ground": [
+      "#0f1f3f",
+      "#1a2a4f"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#00ffff",
+      "#0080ff",
+      "#ffff00",
+      "#00aa00"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "ten-travellers",
+      "desc-on-touch": "a wall covered in photographs of the same person at different moments of their drive. or ten different people who all drove the same car. or ten versions of the same story. the archive stores them without choosing",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7654,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "qr-destination",
+      "desc-on-touch": "a massive QR code painted on the floor that leads nowhere specific. travellers stand on it and dream their own arrivals. each dream encodes a different destination",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4832,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "rest-house",
+      "desc-on-touch": "a small lodge where travellers sleep against the bench windows. their dreams flow out onto the highway and teach the traffic to dream in return. now traffic arrives with stories",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 5473,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "traffic-memory",
+      "desc-on-touch": "headlight patterns recorded on a vast wireframe display. each vehicle encoded as it passed. the archive plays them in sequence and sees stories where only motion was",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 6129,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "endless-lane",
+      "desc-on-touch": "a lane painted on the floor that has no end, drawn in a palimpsest of colours. each colour is a different journey. none of them arrive at the same place",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 3298,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "traffic dreams in layers here, each lane a different story, all arriving nowhere together",
+  "file": {
+    "name": "Highway_Circuit_Travellers_Log_Military_Access_Copy.mp3",
+    "note": "voices recorded on the endless stretch. identity tags loop and shift. the archive recognises the same speaker in different lanes. unclear if this is one person remembering, or many people converging"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the highway to the circuit of memory",
+      "to": "the-highway-circuit-memory"
+    },
+    {
+      "dir": "n",
+      "label": "up the endless stretch toward the horizon that never arrives",
+      "to": "the-terminal-parking-circuit"
+    },
+    {
+      "dir": "e",
+      "label": "off the road toward the service station where attendants wait sideways",
+      "to": "the-petrol-station-1983"
+    }
+  ]
+}

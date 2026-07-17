@@ -1,0 +1,156 @@
+{
+  "id": "the-ravine-bottom-chorus",
+  "title": "The Ravine-Bottom Where Trees Sing Alone",
+  "region": "The Understory",
+  "seed": 7284615,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#5a3a2a",
+      "#4a2a1a"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#d4a878",
+      "#b88860",
+      "#a8d8cc",
+      "#8a4444"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "fallen-broadcast-tree",
+      "desc-on-touch": "A tree that fell into the ravine still transmits. Its frequency is its own now—no longer part of the network's consensus, just speaking its separate truth into the dark below. The archive records each tree's individual broadcast since they stopped agreeing.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 6182,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "root-tangle-archive",
+      "desc-on-touch": "Where root systems have begun indexing themselves—each thread a separate file, each junction a choice about what to remember. The understory is learning to keep its own records now, not waiting for the canopy's permission.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4721,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "frequency-pool",
+      "desc-on-touch": "Water pooling between fallen logs, each log contributing its own frequency to the sound. No two frequencies agree on when the ravine speaks or what it means. The archive has stopped trying to make them harmonize.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8364,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "singular-tower",
+      "desc-on-touch": "One tall decomposing stump, still broadcasting. It hasn't learned yet that the network consensus has fallen. It sings alone, corrupting the archive's certainty with every separate note.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 2935,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "debris-glyph-field",
+      "desc-on-touch": "Fallen branches arranged by decay-time, each one a character in an alphabet only the understory reads. The archive has begun writing in wood and rot.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7749,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "erosion-stack",
+      "desc-on-touch": "Layers where the ravine wall has given up its hold on what it once held. Each layer a different epoch of forgetting. The archive reads them as separate documents now, not one continuous history.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5103,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "ERROR: archive has exceeded witness—each tree here keeps its own true count, and the counts don't reconcile",
+  "file": {
+    "name": "Individual_Frequencies_Ravine_1991-Present_FRAGMENTED.log",
+    "note": "Broadcast records from each fallen tree, indexed separately since consensus failed. The archive wanted one unified signal. The ravine insisted on many. Corruption: files are now organized by tree, not"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the erosion-edge where the ravine still has consensus",
+      "to": "the-erosion-edge"
+    },
+    {
+      "dir": "e",
+      "label": "downstream, where the ravine's plural voices pour into larger water",
+      "to": "NEW: the-confluence-where-disagreements-merge"
+    },
+    {
+      "dir": "n",
+      "label": "climbing out of the ravine toward individual trees still standing",
+      "to": "the-overstory-where-unity-still-holds"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the understory where individual trees have learned to dream separately",
+      "to": "the-void-beneath-listening"
+    }
+  ]
+}

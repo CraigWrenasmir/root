@@ -1,0 +1,134 @@
+{
+  "id": "the-deepest-loom-thread",
+  "title": "The Deepest Loom-Thread",
+  "region": "The Understory",
+  "seed": 54391,
+  "palette": {
+    "bg": "#1a0f0a",
+    "ground": [
+      "#a0522d",
+      "#2d5016"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#d2b48c",
+      "#6f4e37",
+      "#8b4513",
+      "#c19a6b"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "spool descending",
+      "desc-on-touch": "Thread coiled impossibly deep, vanishing into black loam. Your fingers follow it down. The thread never tangles or ends.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 28347,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "woven earth",
+      "desc-on-touch": "Loom patterns continue here without the loom. Threads have woven themselves into the soil. The weaving descends.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 71562,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "knot-memory",
+      "desc-on-touch": "A burl in the thread itself, readable as text. Each knot holds a pattern. Each pattern is a memory the weaving caught.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 43829,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "hands still tracing",
+      "desc-on-touch": "Marks in the soil where fingertips have traced the thread-patterns. Recent marks. The hands do not know what knowledge they are reading.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 61748,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "thread archive",
+      "desc-on-touch": "Specimen cards pinned to bark. Thread samples labeled by depth. Each is a century older than the one above. The dates run backward from today.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 84625,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "the loom weaves in darkness; the darkness learns the loom's language",
+  "file": {
+    "name": "Loom_Tactile_Survey_Depth_Recordings.mp3",
+    "note": "Voices describing thread-texture by touch alone. Each speaker adds to the description. The recordings layer across decades, comparing touches."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the weaving chamber",
+      "to": "the-loom-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "where the thread splits and tangles",
+      "to": "NEW: the tangle-roots where pattern fractures"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, toward the foundation",
+      "to": "NEW: the ancient spool where weaving began"
+    }
+  ]
+}

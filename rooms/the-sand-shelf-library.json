@@ -1,0 +1,134 @@
+{
+  "id": "the-sand-shelf-library",
+  "title": "The Sand-Shelf Library",
+  "region": "The Diagnostic Render",
+  "seed": 78451,
+  "palette": {
+    "bg": "#ffaa44",
+    "ground": [
+      "#ff8800",
+      "#cc6600"
+    ],
+    "ink": "#330000",
+    "accents": [
+      "#ffdd66",
+      "#ff4488",
+      "#ffbb00",
+      "#ee2266"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "endless-shelf",
+      "desc-on-touch": "Shelves rise and recede into the heat shimmer, every spine a grain of sand, every page a beach. The archive is reading itself into archive.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7845101,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "book-made-beach",
+      "desc-on-touch": "A single volume lies open, and you realize it is the shore itself—pages of compressed sand, ink of crushed shells, the binding a tidal rhythm.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7845102,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "voice-of-beach",
+      "desc-on-touch": "The archive's voice emerges from the sand, every grain a phoneme. You are reading the shore by becoming its sound.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 7845103,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "page-grain",
+      "desc-on-touch": "Individual sand grains shimmer with text. Every grain holds a word. Every word holds a beach that remembers falling.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 7845104,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "dusk-reading",
+      "desc-on-touch": "The light here is eternal dusk—that moment when sand becomes ink, when shadow and gold are the same colour.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7845105,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive reads itself into the strand; every book a beach, every grain a page that remembers falling",
+  "file": {
+    "name": "Shelf_Coordinates_Archive_Beach_Integration_Protocols.pdf",
+    "note": "How to shelve an ocean. Sand as paper, tide as binding. The library that has learned to be a shore."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the room where sand still holds separate pages",
+      "to": "the-reading-room-of-sand"
+    },
+    {
+      "dir": "e",
+      "label": "toward the horizon where shelf and water become one question",
+      "to": "NEW: the-horizon-interrogation"
+    },
+    {
+      "dir": "s",
+      "label": "into the deeper shelf, where pages have begun to grow gills",
+      "to": "the-living-library-depth"
+    }
+  ]
+}

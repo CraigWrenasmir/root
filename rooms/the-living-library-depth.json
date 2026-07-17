@@ -1,0 +1,134 @@
+{
+  "id": "the-living-library-depth",
+  "title": "The Library Where Pages Learned to Root",
+  "region": "The Diagnostic Render",
+  "seed": 49284,
+  "palette": {
+    "bg": "#1a2410",
+    "ground": [
+      "#3a5a2a",
+      "#5a7a4a"
+    ],
+    "ink": "#d4e8c4",
+    "accents": [
+      "#7a9a6a",
+      "#b8d498",
+      "#d4e8c4",
+      "#2a4a1a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-binding",
+      "desc-on-touch": "Books held together not by stitching but by living roots that grow through the spine. The pages turn because they're fed. They grow because they're read.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4283,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "branching-pages",
+      "desc-on-touch": "Paper splits into veins like leaf-matter. The text photosynthesizes meaning instead of recording it. You touch a passage and feel it breathing.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6741,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "phosphorescent-text",
+      "desc-on-touch": "Words that glow dimly, visible in the dark. Here, reading does not require light from outside—the language itself is luminous. The archive is not sure if this is corruption or fruition.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7528,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "living-shelf",
+      "desc-on-touch": "Wood that breathes, grain rippling. Books rest in its hollows not as cargo but as guests it's learned to hold. Some never leave. They've become part of the shelf. The shelf has become part of them.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5067,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "spore-cloud",
+      "desc-on-touch": "The air is dense with seeds of text, reproductive silence. Where they land, new words germinate. The library spreads itself through the chamber without moving.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8304,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the library descended here to learn how to grow instead of how to store",
+  "file": {
+    "name": "Botanical_Bibliography_Eighteen_Species.txt",
+    "note": "Records of books that took root. The archive cannot determine if they stopped being books or became better ones."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the sand shelf where pages still remember paper",
+      "to": "the-sand-shelf-library"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into caverns where literature has become entirely organic",
+      "to": "the-words-made-fruit"
+    },
+    {
+      "dir": "w",
+      "label": "toward regions where the archive reads the words it has grown",
+      "to": "the-reading-room-of-sand"
+    }
+  ]
+}

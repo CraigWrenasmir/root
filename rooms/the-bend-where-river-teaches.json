@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "the bend continuing downstream, where the river widens and forgets",
-      "to": "NEW: where the bend opens into the wide-water, and the river's teaching becomes harder to hear"
+      "to": "where-the-bend-opens-into-wide-water"
     },
     {
       "dir": "n",
@@ -133,7 +133,7 @@
     {
       "dir": "s",
       "label": "deeper into the current, where stone and water have a different conversation",
-      "to": "NEW: the deep-bend, where patience becomes pressure"
+      "to": "the-deep-patience-station"
     }
   ]
 }

@@ -1,0 +1,117 @@
+{
+  "id": "the-parallel-field",
+  "title": "The Parallel Field Where Children Are Always Leaving",
+  "region": "The Comparisons",
+  "seed": 3789012,
+  "palette": {
+    "bg": "#2a3a2a",
+    "ground": [
+      "#4a5a4a",
+      "#5a7a5a"
+    ],
+    "ink": "#b8c8b8",
+    "accents": [
+      "#6a8a6a",
+      "#7a9a7a",
+      "#3a4a3a",
+      "#8aaa8a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-path-split",
+      "desc-on-touch": "A point where the trail branches into two paths that seem to diverge and converge at once. Children walk both simultaneously. Their footsteps are hours apart but match exactly.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 9012345,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-echo-grove",
+      "desc-on-touch": "Eucalyptus trees holding voices of children who walked here years apart. Each tree echoes one child's footstep, repeating it, teaching the younger ones the way back by retracing steps that haven't happened yet.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 1230456,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-shape-memory",
+      "desc-on-touch": "Bent grass marking where children's bodies passed through years ago. The grass hasn't straightened. It's waiting for the next children to follow the exact same route and deepen the groove they never knew was already there.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2340567,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-between-time",
+      "desc-on-touch": "The field's air where both sets of children breathe at once—different decades, same moment. You smell dust and wildflower and something older: the grass learning to hold time the way trees hold rings.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 3450678,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the field learned it could hold two moments if the children walked the same path; now it holds more",
+  "file": {
+    "name": "Student_Interviews_Parallel_Narratives_Riverfield_East.txt",
+    "note": "Two children, forty years apart, describing the exact same day in the field. Same weather, same strange cloud, same voice calling from beyond the fence. Both describe the day they left and became diff"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the next field where you started, toward the fence where the trail splits",
+      "to": "the-next-field-trail"
+    },
+    {
+      "dir": "e",
+      "label": "further into the parallel paths where more sets of children walk the same groove",
+      "to": "NEW: the-deepening-path"
+    },
+    {
+      "dir": "n",
+      "label": "toward the tree line where the oldest children in the oldest paths have finally stopped returning",
+      "to": "the-archive-shadow"
+    }
+  ]
+}

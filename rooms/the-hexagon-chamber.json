@@ -1,0 +1,134 @@
+{
+  "id": "the-hexagon-chamber",
+  "title": "The Hexagon Chamber",
+  "region": "The Clean Archive",
+  "seed": 8456123,
+  "palette": {
+    "bg": "#2d1f0a",
+    "ground": [
+      "#daa520",
+      "#1a4d2e"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#8b6914",
+      "#2d5016",
+      "#f0e68c",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-wax-architecture",
+      "desc-on-touch": "Honeycomb cells rise before you, but larger than any bee could build—each hexagonal chamber holds a single file, a single memory. The bees and the archive agreed on this shape long ago.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3245678,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-cataloguing-dance",
+      "desc-on-touch": "A figure traces patterns between the cells—perhaps a beekeeper, perhaps the archive itself—moving in the waggle-dance of navigation but marking archives, not flowers.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 4156987,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-light-that-bees-see",
+      "desc-on-touch": "A pool of luminescence—the ultraviolet patterns that guide bees to pollen—but if you look into it, you see archive indices, cross-references, knowledge mapped in the spectrum bees use to read.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2378945,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-beekeeper-s-notation",
+      "desc-on-touch": "Marks on the chamber wall: wax impressions, but also handwriting, dates, recipe notes. The beekeeper was recording not just hive health but the history of summer itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 1489356,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-hexagon-that-doesn-t-close",
+      "desc-on-touch": "One cell in the wall is incomplete—one wall missing—and you realise the whole chamber is one cell, built around you, and you are still inside.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 5623412,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the bees learned to number the days by remembering the flowers; the archive learned to number the days by remembering what the bees said",
+  "file": {
+    "name": "Summer_1954_Hive_Records_and_Provisional_Archive_Inventory.mp3",
+    "note": "status: germinating—audio contains both bee-dance audio and human voice cataloguing the same moments; neither has temporal priority"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the clearing, where the bees still tend their library",
+      "to": "the-bee-keeper-clearing"
+    },
+    {
+      "dir": "e",
+      "label": "toward the deeper archive, where all the hexagons connect into one vast memory",
+      "to": "NEW: the-nested-hexagon-recursion"
+    },
+    {
+      "dir": "s",
+      "label": "down into the soil where hexagons appear in crystal and quartz",
+      "to": "the-limestone-shelf"
+    }
+  ]
+}

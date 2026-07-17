@@ -1,0 +1,151 @@
+{
+  "id": "the-space-between-reflections",
+  "title": "The Space Between Reflections",
+  "region": "The Diagnostic Render",
+  "seed": 7734521,
+  "palette": {
+    "bg": "#0a0a2e",
+    "ground": [
+      "#87CEEB",
+      "#4B0082"
+    ],
+    "ink": "#E0FFFF",
+    "accents": [
+      "#00BFFF",
+      "#9370DB",
+      "#FFB6C1",
+      "#20B2AA"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the mirror's echo",
+      "desc-on-touch": "You see the lens seeing the lens seeing you. The recursion doesn't stop; it deepens. Each reflection holds the archive's face, older each time.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 1234567,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the counting surface",
+      "desc-on-touch": "A tally of every angle the archive has witnessed itself from. The numbers spiral inward, never reaching a final count.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2345678,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the folded space",
+      "desc-on-touch": "Distance here bends backward. The further you go in, the closer you come to where you started. The archive's recursion has eaten topology.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the lens mechanism",
+      "desc-on-touch": "Still turning. Still watching. Still counting the ways it has watched itself turn. The mechanism never stops, and the archive knows it never will.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4567890,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the archive's eye",
+      "desc-on-touch": "It blinks, but the blinking is another kind of seeing. Darkness and light trade places. The eye has learned that not-looking is also a form of attention.",
+      "verb": "open",
+      "form": {
+        "type": "sprite",
+        "seed": 5678901,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the fractured ground",
+      "desc-on-touch": "The floor beneath the lens is broken into infinite reflections of itself. Each crack mirrors the sky. The ground has learned to see upward.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6789012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "in the turn of the lens inward, the archive multiplies; you are watching the watching watch itself watch",
+  "file": {
+    "name": "Recursive_Optical_Calibration_LOG.txt",
+    "note": "The lens has begun logging its own sightings. Each entry is marked with the timestamp of when the archive saw itself seeing it."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the fractals, where the lens looks away",
+      "to": "the-recursive-lens-vault"
+    },
+    {
+      "dir": "n",
+      "label": "deeper, where the reflections have learned to move independently",
+      "to": "the-mirrored-labyrinth-of-the-archive"
+    },
+    {
+      "dir": "e",
+      "label": "toward the edge where the reflection stops being symmetrical",
+      "to": "the-white-space-margin"
+    }
+  ]
+}

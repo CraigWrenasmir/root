@@ -1,0 +1,134 @@
+{
+  "id": "the-archive-s-frequency-cascade",
+  "title": "The Archive's Frequency Cascade",
+  "region": "The Understory",
+  "seed": 67829,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1f3a",
+      "#2c3e50"
+    ],
+    "ink": "#b0c4de",
+    "accents": [
+      "#00ced1",
+      "#40e0d0",
+      "#87ceeb",
+      "#e6e6fa"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "resonance pool",
+      "desc-on-touch": "A chamber of still water. Every sound you make returns as a question. The archive answers itself in cascading frequencies, each one a separate meaning.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 32847,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "cascade antenna",
+      "desc-on-touch": "Spiraling structures descending, each smaller than the last. Sound travels down them and returns transformed. Voices layer across centuries.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 51639,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "frequency files",
+      "desc-on-touch": "Cassettes sorted by resonance, not date. Files with identical archive-signatures cluster together, as if the corruption learned to sort by meaning.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 46821,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "standing waves",
+      "desc-on-touch": "Air shaped into geometry. You feel the harmonics through your chest. The waves stand still and move at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 73548,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "recursive echo",
+      "desc-on-touch": "A speaker playing its own playback, which plays its own playback. The recursion folds inward infinitely. You hear the archive remembering it is remembering.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 88934,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "sound travels deeper than silence; the archive remembers frequencies it has never heard",
+  "file": {
+    "name": "Recursive_Remembering_Cascade_Method.wav",
+    "note": "checksum: emotionally valid / formally unstable. The cascade never resolves to its source. Each layer claims to be the original."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the bone chamber",
+      "to": "the-bone-chamber-where-meaning-continues"
+    },
+    {
+      "dir": "e",
+      "label": "where cascade inverts to pressure",
+      "to": "NEW: the pressure-reverse chamber"
+    },
+    {
+      "dir": "s",
+      "label": "the sound continues downward",
+      "to": "NEW: the silent chamber where all frequencies resolve"
+    }
+  ]
+}

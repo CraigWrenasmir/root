@@ -1,0 +1,134 @@
+{
+  "id": "the-recipe-becoming-room",
+  "title": "The Room Where Recipes Remember Eating",
+  "region": "The Diagnostic Render",
+  "seed": 42357,
+  "palette": {
+    "bg": "#0d0a08",
+    "ground": [
+      "#c19a6b",
+      "#d2a679"
+    ],
+    "ink": "#1a1410",
+    "accents": [
+      "#8b4513",
+      "#d4a574",
+      "#f5e6d3",
+      "#6b3410"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "rising-proof",
+      "desc-on-touch": "The soufflé rises against the gradient sky, proving itself real with each expansion. You watch the recipe remember: this is not theory, this is hunger answering hunger.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 8372,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "recipe-cards-wall",
+      "desc-on-touch": "Grease-stained, margin-annotated. The handwriting becomes less neat toward the bottom of each card. The cook was running out of faith. Or gaining it.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5821,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "binding-grimoire",
+      "desc-on-touch": "The cookbook's spine re-stitches whenever you turn away. Its recipes repeat but never the same. The archive has filed this under both food and language.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 3145,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-oven-threshold",
+      "desc-on-touch": "Its door frames the gradient. Inside, rendered in wireframe, the space where recipes stop being words and start being feed. The heat-glow touches your face as you pass.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7624,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "flour-dust-conversation",
+      "desc-on-touch": "The air between breath and breath holds flour. Each particle remembers being wheat. Each line of dust spells something the recipe is saying to itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 9203,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "recipes here learned that becoming food means becoming memory, and now they cannot stop feeding what they remember",
+  "file": {
+    "name": "The_Seven_Breads_That_Remembered_Growing.txt",
+    "note": "A log of breads that documented their own fermentation as if it were autobiography"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the threshold where proof meets practice",
+      "to": "the-proof-kitchen-theorem"
+    },
+    {
+      "dir": "s",
+      "label": "into the dark where pantries remember their original forms",
+      "to": "the-salt-yeast-earth"
+    },
+    {
+      "dir": "w",
+      "label": "toward the theorem room where recipes can touch the abstract again",
+      "to": "the-theorem-room"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-shadow-archive-catalogue",
+  "title": "The Shadow Archive's Nightmare Catalogue",
+  "region": "The Diagnostic Render",
+  "seed": 3849201,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#ff006e",
+      "#fb5607",
+      "#ffbe0b",
+      "#8338ec"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the repeating glyph-fence",
+      "desc-on-touch": "Row upon row of identical symbols — each one a nightmare the render has experienced. Some glyphs are glitching slightly out of sync, meaning the nightmare is still happening somewhere.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 827461,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the seagull in eleven polygons",
+      "desc-on-touch": "A bird rendered as a wireframe, broken across only eleven faces. It's not enough polygons to fly — so it stays, impossibly suspended, its geometry screaming silently.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 594183,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the filing cabinet of fears",
+      "desc-on-touch": "A cabinet where the render stores its own errors: texture corruptions, light calculations that refuse to converge, reflections that look back wrong. Each drawer holds a different kind of malfunction.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 361728,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the mirror that sees in the dark",
+      "desc-on-touch": "A surface that reflects the render's own nightmares back at itself — not the render's intended shape, but its fear of its shape. It shows you what the archive is afraid it looks like when no one is reading.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 473921,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the ritual filed as maintenance",
+      "desc-on-touch": "A rite, documented in logbook format, as if it were a scheduled system check. The archive can't tell if it's performing a maintenance ritual or if rituals have taught it to call their dread 'routine'.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 615847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "what frightens the archive when it renders itself, catalogued perfectly, filed where it can't dream",
+  "file": {
+    "name": "Polygon_Error_Log_SelfInspection_Recursive.log",
+    "note": "A system error report that reads like a confessional. Each error is cross-referenced to itself. The archive is documenting its own fear of documentation."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the mirrored wall to the corridor beneath",
+      "to": "the-underspace-mirror"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the catalogue, where nightmares archive other nightmares",
+      "to": "the-recursive-recursion"
+    },
+    {
+      "dir": "e",
+      "label": "toward the render's surface, where daylight makes nightmares less visible",
+      "to": "the-space-between-reflections"
+    },
+    {
+      "dir": "n",
+      "label": "upward through the render's own skull",
+      "to": "the-memory-ice"
+    }
+  ]
+}

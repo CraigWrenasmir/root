@@ -1,0 +1,134 @@
+{
+  "id": "the-unmeasured-deep",
+  "title": "The Unmeasured Deep",
+  "region": "The Understory",
+  "seed": 82469371,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#3d5a4d",
+      "#4a6d5a"
+    ],
+    "ink": "#c8d5cc",
+    "accents": [
+      "#8b9d89",
+      "#6b8a7a",
+      "#a8c9a8",
+      "#5a7a68"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "luminous underbark",
+      "desc-on-touch": "light lives inside the wood here; it has learned to glow without burning, to measure nothing at all",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 15738290,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the shadow's own light",
+      "desc-on-touch": "shadow and brightness have learned to overlap here; you cannot measure where one ends and the other begins",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 49172835,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "light-route through leaves",
+      "desc-on-touch": "shafts fall and shift — the archive holds the motion, not the moment; watching them measure nothing at all",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 71945602,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "root architecture",
+      "desc-on-touch": "the deep roots have grown systems for sensing light they cannot see; you follow the eucalyptus's blind seeing downward",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 36428719,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the silent fern",
+      "desc-on-touch": "it has never needed sunlight measured; it knows light as a kind of patience, and waits in frequencies that instruments cannot record",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 84271903,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "light that escapes the measure learns to exist in many frequencies at once; the trees read it as a colour with no name",
+  "file": {
+    "name": "Spectral_Analysis_Void.raw",
+    "note": "instrumentation failed; readings show more light than atmosphere should contain, all at wavelengths that refract uncertainty"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber where light still obeys its boundaries",
+      "to": "the-chamber-of-unmeasured-light"
+    },
+    {
+      "dir": "e",
+      "label": "toward the drowned forest, where trees remember being swallowed by water and light at once",
+      "to": "NEW: the-flooded-canopy-memory"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the root-deep where no light travels, only understanding",
+      "to": "NEW: the-dark-knowing-chamber"
+    }
+  ]
+}

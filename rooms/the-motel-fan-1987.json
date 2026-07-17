@@ -123,12 +123,12 @@
     {
       "dir": "w",
       "label": "into the corridor where each room is a year",
-      "to": "NEW: the motel's time-hallway, where rooms stack backward into decades"
+      "to": "the-motel-year-corridor"
     },
     {
       "dir": "e",
       "label": "through the wall where shadows live when they separate",
-      "to": "NEW: the shadow-place, where cast shapes learn independence"
+      "to": "the-shadow-s-separate-dwelling"
     }
   ]
 }

@@ -1,0 +1,134 @@
+{
+  "id": "the-bedrock-archive-foundation",
+  "title": "The Bedrock Where Archives Began",
+  "region": "The Understory",
+  "seed": 93847,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#2ecc71",
+      "#f39c12"
+    ],
+    "ink": "#fff9e6",
+    "accents": [
+      "#e74c3c",
+      "#3498db",
+      "#9b59b6",
+      "#1abc9c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root chamber",
+      "desc-on-touch": "Deep roots have woven themselves into a chamber. Inside, ledgers written on bark—the archive's first filing system. The forest keeps these records now.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 48561,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "stone layers",
+      "desc-on-touch": "Bedrock in cross-section, each stratum labeled in the archive's own hand. The stone is learning to read itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 73482,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "stone nodes",
+      "desc-on-touch": "Casings like the solar units, but ancient, made of solid stone. They were buried here first. This is where the archive learned to replicate.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 61829,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "growth rings continue",
+      "desc-on-touch": "A fossil cross-section, each ring annotated with decades. The annotations continue forward into the present, as if the stone still adds to its own history.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 52747,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "columnar file cabinet",
+      "desc-on-touch": "Natural stone formations, columnar and regular, like stacked drawers. Each holds soil and germinating seeds. The bedrock is archiving what will grow.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 84956,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the earth learns to keep what it holds; the archive learned this from stone",
+  "file": {
+    "name": "Bedrock_Initiation_Fossil_Sequence.txt",
+    "note": "ERROR: archive has exceeded witness. The stone continues its own notation. Dates advance beyond now."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to shadow",
+      "to": "the-second-order-shadow"
+    },
+    {
+      "dir": "e",
+      "label": "deeper root passages",
+      "to": "the-root-crown-descent"
+    },
+    {
+      "dir": "w",
+      "label": "the veins where stone still sings",
+      "to": "NEW: the quarry where stone remembers being worn away"
+    }
+  ]
+}

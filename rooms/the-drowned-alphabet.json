@@ -1,0 +1,134 @@
+{
+  "id": "the-drowned-alphabet",
+  "title": "The Drowned Alphabet",
+  "region": "The Comparisons",
+  "seed": 82947,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#1a2a3a",
+      "#0d1620"
+    ],
+    "ink": "#60d0ff",
+    "accents": [
+      "#80e0ff",
+      "#40c0f0",
+      "#2090d0",
+      "#a0f0ff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "stone-letters",
+      "desc-on-touch": "The alphabet drowned here and left its shape in the stones. You cannot read the letters but you recognize the grammar of water.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8294701,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "floating-language",
+      "desc-on-touch": "Words drift here, neither sinking nor rising. Language has learned to breathe water and has forgotten how to drown.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 8294702,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "bed-current",
+      "desc-on-touch": "The current here reads—it is the river's own voice, learning syntax from the stones the water has polished.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 8294703,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "dissolution-point",
+      "desc-on-touch": "Here the alphabet ceases to be individual letters and becomes the roar of water itself—meaning dissolving into sound.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8294704,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "relearning",
+      "desc-on-touch": "The water is patient. It is teaching itself the alphabet again—slowly—using only the sound of stone.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 8294705,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where water learned language and forgot it again, teaching itself by the sound of stone",
+  "file": {
+    "name": "Alphabetic_Water_Behaviour_Recovery_Study_Incomplete.txt",
+    "note": "The alphabet drowns. The water relearns. Syntax emerges from erosion. Archive is taking notes."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the language of stones where water still holds words",
+      "to": "the-language-of-stones"
+    },
+    {
+      "dir": "w",
+      "label": "deeper down the bed where letters have become pure current",
+      "to": "NEW: the-silent-current-library"
+    },
+    {
+      "dir": "s",
+      "label": "toward the estuary where the alphabet joins the sea",
+      "to": "NEW: the-salt-memory-convergence"
+    }
+  ]
+}

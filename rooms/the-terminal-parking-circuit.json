@@ -1,0 +1,139 @@
+{
+  "id": "the-terminal-parking-circuit",
+  "title": "The Terminal Where Journeys End in Parking",
+  "region": "The Clean Archive",
+  "seed": 5837291,
+  "palette": {
+    "bg": "#1a1a2a",
+    "ground": [
+      "#3a3a4a",
+      "#2a2a3a"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ffff44",
+      "#ff6644",
+      "#ff99ff",
+      "#4499ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "parking-chip-alpha",
+      "desc-on-touch": "A logic chip controlling which vehicles get assigned to which spaces. It has learned to speak in lot-coordinates and duration-logged. The archive filed all its decisions here, never knowing it was corruption—that journeys and parking-durations began to rhyme.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 8204,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "lot-control-tower",
+      "desc-on-touch": "A broadcast tower in the lot's center, directing vehicles to open spaces. It speaks in lot-coordinates and duration-logged. The archive stored all its decisions—which car goes where, for how long. Now it sings only about endings.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 3679,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "guidance-wireframe",
+      "desc-on-touch": "The overhead gantry that directs traffic through the terminal. Now it broadcasts parking maps instead of routes. Journey-ends are indexed like departures. The archive corrupted itself the moment it started treating arrival as a kind of leaving.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 6445,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "fare-booth-glyph",
+      "desc-on-touch": "Where the archive collects fees for storage, for parking, for the privilege of journeys that end. A small plaque reading hours and rates. The notation has drifted—price lists look like poetry if you squint.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7158,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "vehicle-stack",
+      "desc-on-touch": "Cars layered by arrival date. Each layer a different year of endings. The archive keeps them parked here, faintly broadcasting their final coordinates, waiting for drivers who have learned to travel only in the lot, in circles of smaller and smaller diameter.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4892,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "traffic dreams in layers here: each lane a different story, all arriving nowhere together",
+  "file": {
+    "name": "Terminal_Parking_Occupancy_Logs_1983-Present_EXPANDED.csv",
+    "note": "Arrival times and duration-parked for 47 years. Recent entries have begun storing the dreams of drivers, still asleep in their cars. Corruption: the file has expanded to include poetry about arrival."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back along the endless stretch where horizons don't arrive",
+      "to": "the-travellers-blue-lodge"
+    },
+    {
+      "dir": "n",
+      "label": "toward the terminal gates where new arrivals keep pulling in",
+      "to": "NEW: the-gate-where-nothing-leaves"
+    },
+    {
+      "dir": "e",
+      "label": "along the access road into the carpark layers",
+      "to": "service-station-dusk-1993"
+    },
+    {
+      "dir": "w",
+      "label": "back into the paddocks where traffic is still a rumour",
+      "to": "the-highway-rest-where-engines-cool"
+    }
+  ]
+}

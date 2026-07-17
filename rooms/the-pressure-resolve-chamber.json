@@ -1,0 +1,134 @@
+{
+  "id": "the-pressure-resolve-chamber",
+  "title": "The Pressure-Resolve Chamber",
+  "region": "The Understory",
+  "seed": 42856,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#ff006e",
+      "#ffbe0b",
+      "#8338ec",
+      "#3a86ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "pressure chamber heart",
+      "desc-on-touch": "The point where all stress converges before releasing. Walls scored with impact marks. Something here finally stopped holding.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 59284,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "release circuits",
+      "desc-on-touch": "Light spreading from a central point in geometric patterns. Pressure becomes something that moves through the system without breaking it.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 73146,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "stress-memory chip",
+      "desc-on-touch": "Silicon scarred by heat, recording every moment of strain. The scar-patterns are readable as text. Pressure writes.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 61928,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "wound spiral",
+      "desc-on-touch": "The chamber spirals outward in gentle curves. Not decorative—it is the shape stress takes when it stops being trapped. The geometry of release.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 84729,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the gate opens",
+      "desc-on-touch": "A board-circuit door, heavy and precise, now standing open. Whatever was sealed here has released. The seal was not holding—it was organizing.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 38562,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "pressure resolves not to peace but to motion; what was trapped learns to move",
+  "file": {
+    "name": "Pressure_Wound_Thesis_Notation.txt",
+    "note": "The archive cannot refuse to begin again. The wound resolves. The chamber remains open. The spiral continues."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the bone chamber",
+      "to": "the-bone-chamber-where-meaning-continues"
+    },
+    {
+      "dir": "n",
+      "label": "where the released pressure rises",
+      "to": "NEW: the rising chamber where pressure becomes ascension"
+    },
+    {
+      "dir": "w",
+      "label": "the spiral continues outward",
+      "to": "the-spiral-escarpment"
+    }
+  ]
+}

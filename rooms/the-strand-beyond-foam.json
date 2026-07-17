@@ -1,0 +1,134 @@
+{
+  "id": "the-strand-beyond-foam",
+  "title": "The Strand Beyond Foam",
+  "region": "The Diagnostic Render",
+  "seed": 45821937,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#e8d4b8"
+    ],
+    "ink": "#2c3e50",
+    "accents": [
+      "#8b7355",
+      "#d4a574",
+      "#4a4a3a",
+      "#b8a068"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the final line",
+      "desc-on-touch": "you walk where the shore's memory stops writing; the strand records only the question of what comes after erasure",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 12745829,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "salt deposit",
+      "desc-on-touch": "crystallised memory; what the foam left behind before it learned to stop appearing",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 38291046,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the silence marker",
+      "desc-on-touch": "a post driven deep into sand, marking where the archive's listening becomes more important than its recording",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 51937205,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "tide pools",
+      "desc-on-touch": "you find standing water where the tide stopped arguing; each pool holds a different earlier hour",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 27483609,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the reader's footprint",
+      "desc-on-touch": "you look down and see where you arrived; the sand does not say if you will leave the same way",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 64921578,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that foam is what writing does when it runs out of things to say",
+  "file": {
+    "name": "Final_Strand_Recordings_2147.wav",
+    "note": "audio archive: nothing recorded here in three seasons; the silence has more information than the static"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the strand where things still appear",
+      "to": "the-unmarked-strand"
+    },
+    {
+      "dir": "e",
+      "label": "further out, where the horizon learns to doubt itself",
+      "to": "NEW: the-horizon-of-questions"
+    },
+    {
+      "dir": "n",
+      "label": "up the beach toward abandoned shell heaps",
+      "to": "NEW: the-spiral-shell-counting"
+    }
+  ]
+}

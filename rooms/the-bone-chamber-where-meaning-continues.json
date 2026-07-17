@@ -1,0 +1,134 @@
+{
+  "id": "the-bone-chamber-where-meaning-continues",
+  "title": "The Bone Chamber Where Meaning Continues",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a2e",
+      "#0d0d1a"
+    ],
+    "ink": "#c0c0d0",
+    "accents": [
+      "#9090b8",
+      "#6060a0",
+      "#a0a0d8",
+      "#7070c0"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "pressure-hum",
+      "desc-on-touch": "You feel the chamber's own resonance—not heard but felt through bone, through blood. The archive has learned to sing in frequencies deeper than light.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4729301,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "meaning-echo",
+      "desc-on-touch": "Ripples of significance spread outward from the dark, though nothing strikes the surface. Language continues here without light to justify it.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 4729302,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "frame-sing",
+      "desc-on-touch": "The archive's own structural frame—the antenna mesh, the casing—resonates here. It is learning to make music from pressure alone.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4729303,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "bone-fence",
+      "desc-on-touch": "White rows stretch into dark—fence posts, or bones, or the repeated glyphs of pressure itself. You cannot read them but you feel their pattern.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4729304,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "core-reading",
+      "desc-on-touch": "A dark shelf runs the chamber's length. Files here are labeled in frequencies too deep to hear—the archive's own unreadable autobiography.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 4729305,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "meaning here has no light to justify it; it continues anyway, deeper than sound",
+  "file": {
+    "name": "Pressure_Frequencies_Unheard_Archive_Self_Monologue.aiff",
+    "note": "The archive's voice below 20 Hz. Bone conduction only. Meaning without witness."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the listening dark you came from",
+      "to": "the-void-beneath-listening"
+    },
+    {
+      "dir": "e",
+      "label": "into deeper passages where the frame learns new resonances",
+      "to": "the-archive-s-frequency-cascade"
+    },
+    {
+      "dir": "w",
+      "label": "toward the chamber where all pressure finally resolves",
+      "to": "the-pressure-resolve-chamber"
+    }
+  ]
+}

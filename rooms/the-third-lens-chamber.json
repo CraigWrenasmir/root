@@ -1,0 +1,134 @@
+{
+  "id": "the-third-lens-chamber",
+  "title": "The Chamber Where Argument Becomes Understanding",
+  "region": "The Diagnostic Render",
+  "seed": 62931,
+  "palette": {
+    "bg": "#4a5a5a",
+    "ground": [
+      "#6a8a7a",
+      "#8aaa9a"
+    ],
+    "ink": "#d8e8e4",
+    "accents": [
+      "#a0c0b0",
+      "#6a9a8a",
+      "#d8e8e4",
+      "#5a8a7a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-three-lenses",
+      "desc-on-touch": "Arranged like eyes, each one showing a different version of the same scene. Where they overlap, something new appears. You understand: sight is comparison.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "refracted-argument",
+      "desc-on-touch": "Light through the lenses bends an argument into three versions. The three don't agree, but they illuminate each other. Here, contradiction is a form of clarity.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5923,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "eucalyptus-mirror",
+      "desc-on-touch": "Its surface holds not just your reflection but versions of you from other angles. Each is equally true. None is complete without the others.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 7106,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "light-intersection",
+      "desc-on-touch": "Three beams cross here. Where they meet, the light becomes something other than light. A new colour. An understanding that wasn't visible before.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4591,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-resolution-arch",
+      "desc-on-touch": "An opening formed by three perspectives, all leaning together. They don't agree. They have learned something better: how to hold shape despite disagreement.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8274,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the mirror learned it could not know itself alone; the lens learned that seeing requires refraction; together they understood understanding",
+  "file": {
+    "name": "Three_Versions_of_What_Happened_Here.txt",
+    "note": "The archive recorded this location three times. The three accounts contradict perfectly. It has filed them under both truth and harmony."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the mirror where singular reflection still matters",
+      "to": "the-mirror-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward chambers where comparison continues to multiply",
+      "to": "NEW: a place where every perspective fractures into more"
+    },
+    {
+      "dir": "w",
+      "label": "into regions where three truths are learning to live as one",
+      "to": "the-recursive-lens-vault"
+    }
+  ]
+}

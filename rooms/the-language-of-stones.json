@@ -1,0 +1,134 @@
+{
+  "id": "the-language-of-stones",
+  "title": "The Language of Stones",
+  "region": "The Comparisons",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#2a1a1f",
+    "ground": [
+      "#ff6b3d",
+      "#d4411a"
+    ],
+    "ink": "#ffed4e",
+    "accents": [
+      "#ff1493",
+      "#ff6b3d",
+      "#d4411a",
+      "#8b0000"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "syllables",
+      "desc-on-touch": "you pass stones arranged in patterns that sound like words. the archive does not know if the river placed them or if it taught the river to place them",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "etymology",
+      "desc-on-touch": "a tower of water-worn rocks, each one a layer of the word's becoming, readable only if you count upward",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7821,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "drying-mouth",
+      "desc-on-touch": "the riverbed where words pooled before the water learned to move again. now it's a depression that fills with light instead of current",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 2145,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "fossil-script",
+      "desc-on-touch": "lines of unreadable writing hover above the stones, visible only when the light catches them. they might be the river's own language, or yours, misremembered",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5634,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "bed-reading",
+      "desc-on-touch": "stacked pages of the riverbed itself—sediment, notation, abandonment—each layer a word the earth is still composing",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 3309,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "what remains when water leaves is the alphabet it learned",
+  "file": {
+    "name": "Beach_Surgery_Terminology_Draft_v3.md",
+    "note": "local definitions dissolve into riverbed imagery; the archive cannot determine whether this corruption is unintended or the intended meaning"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back upstream to the mercy bend",
+      "to": "the-dried-mercy-bend"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the bed where language becomes water",
+      "to": "the-drowned-alphabet"
+    },
+    {
+      "dir": "s",
+      "label": "downstream toward where the words accumulate",
+      "to": "the-source-singing-place"
+    }
+  ]
+}

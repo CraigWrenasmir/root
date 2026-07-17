@@ -1,0 +1,134 @@
+{
+  "id": "the-deep-patience-station",
+  "title": "The Deep-Patience Station",
+  "region": "The Clean Archive",
+  "seed": 2917354,
+  "palette": {
+    "bg": "#4a5f7f",
+    "ground": [
+      "#3d5a7c",
+      "#2d3f52"
+    ],
+    "ink": "#e8dcc0",
+    "accents": [
+      "#ff6b4a",
+      "#8b7355",
+      "#c9a961",
+      "#5f7f4a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "waiting-shed",
+      "desc-on-touch": "a small shelter built into the rock, its walls worn smooth by decades of floodwater. people waited here for the river to pass. now the river waits with them",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 6234,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "stone-speech",
+      "desc-on-touch": "the river has carved words into the bedrock. you cannot read them, but you can feel the patience in their grooves—each one took a decade to deepen",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5012,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "biscuit-line",
+      "desc-on-touch": "a shelf in the shed still holds the phantom of biscuits eaten long ago. the archive smells them, though there is nothing there. the river taught patience; the river also recalls",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 4021,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "deep-current",
+      "desc-on-touch": "the water moves here with a pressure you can feel in your bones. it's not violent; it's patient. it's been teaching the same lesson for ten thousand years",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3845,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "memory-timber",
+      "desc-on-touch": "old wooden beams still in the shed, each ring a year the river watched from this bend. you can read the flood years in the scars",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 6743,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "here patience and pressure are the same thing, taught by stone and water for longer than anyone remembers",
+  "file": {
+    "name": "The_First_Aid_Keeper_of_the_Deep_Bend.txt",
+    "note": "a memoir fragment of someone who tended this station. the archive cannot decide if it ends at their departure or continues beyond it"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upriver to where the river teaches",
+      "to": "the-bend-where-river-teaches"
+    },
+    {
+      "dir": "s",
+      "label": "downstream where patience becomes current",
+      "to": "NEW: the reach where the lesson finally flows"
+    },
+    {
+      "dir": "w",
+      "label": "across the stones to the eucalyptus where others have also waited",
+      "to": "the-weathered-stand"
+    }
+  ]
+}

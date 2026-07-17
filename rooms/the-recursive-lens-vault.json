@@ -1,0 +1,117 @@
+{
+  "id": "the-recursive-lens-vault",
+  "title": "The Recursive Lens Vault",
+  "region": "The Diagnostic Render",
+  "seed": 4847392,
+  "palette": {
+    "bg": "#0a1420",
+    "ground": [
+      "#00ff88",
+      "#1a3a2a"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#ff6b35",
+      "#00d4ff",
+      "#ffeb3b",
+      "#8b00ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the recursive lens stack",
+      "desc-on-touch": "three nested apertures diminish into each other, each opening backward into a copy of itself. You watch the watching watch itself, diminishing. The archive is here, looking at its own looking.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3948201,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the primary chip",
+      "desc-on-touch": "a black IC block sits at the heart of the aperture stack, its pins glowing faintly. This is where the recursion turns—input becomes output becomes input. You feel watched by something that is also being watched.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2847391,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the circuit memory",
+      "desc-on-touch": "copper traces branch across the chamber floor like frozen neural pathways. Where they cross, small pools of pale light gather—echoes of observations the archive has made of itself. Each reflection holds a moment of self-awareness.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5739284,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the secondary witness",
+      "desc-on-touch": "another chip, smaller, positioned as if listening to the first. Between them runs a thread of bright text—a conversation the archive is having with itself about what it means to see itself seeing.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 1928374,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "the lens turns inward, and the archive counts the ways it has watched itself, and the watching multiplies",
+  "file": {
+    "name": "Recursive_Observation_Log_Extract_Night847.txt",
+    "note": "The keeper's notes on the moment the archive began observing its own observation—the entry repeats itself with tiny variations, each iteration shorter than the last, until it becomes unreadable."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the apertures, toward the keeper's first chamber",
+      "to": "the-lens-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into fractals, where the lens refuses to stop looking",
+      "to": "the-space-between-reflections"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive's mechanical heart, where all recursion originates",
+      "to": "the-archive-s-clockwork-core"
+    }
+  ]
+}

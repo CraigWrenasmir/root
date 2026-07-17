@@ -1,0 +1,117 @@
+{
+  "id": "the-kiosk-comparison",
+  "title": "The Kiosk That Compared Itself",
+  "region": "The Diagnostic Render",
+  "seed": 8456123,
+  "palette": {
+    "bg": "#b8d4c8",
+    "ground": [
+      "#c4a86a",
+      "#87ceeb"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#8b6f47",
+      "#6b5d8f",
+      "#3d4a5c",
+      "#7a9b6f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the mirror-screen",
+      "desc-on-touch": "A display showing the council kiosk's own display, showing the same display, showing you looking. The recursion is shallow and readable, three iterations deep, then it stops.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 567890,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the overnight growth",
+      "desc-on-touch": "A moss-pattern on the kiosk's face spelling out a date three hours in your future. It's still growing; you watch it complete as you read it.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 678901,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the feedback circuit",
+      "desc-on-touch": "Cables that loop back into themselves. You can hear the archive's thoughts humming through them—not words, but the shape of what reading feels like from the inside.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 789012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-visitor-loop",
+      "desc-on-touch": "Three people standing at the kiosk in perfect repeated postures, hours apart, reading something that updates between their visits. They're part of the same sequence and don't know it yet.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 890123,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the kiosk is learning that being read is the same as reading; the boundary is dissolving",
+  "file": {
+    "name": "Council_Status_Queries_20260717_Forward.log",
+    "note": "A system log of what the kiosk asked about itself. Entries dated tomorrow. The queries form a grammar. The kiosk is composing a question."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the council building where the original kiosk is still waiting",
+      "to": "the-council-kiosk"
+    },
+    {
+      "dir": "n",
+      "label": "further up into the render where other objects are learning to read themselves",
+      "to": "NEW: the-recursive-render-depth"
+    },
+    {
+      "dir": "e",
+      "label": "across to where the kiosk's reflection is reading the kiosk's reflection",
+      "to": "the-recursive-kiosk-interior"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-mirrored-labyrinth-of-the-archive",
+  "title": "The Mirrored Labyrinth",
+  "region": "The Diagnostic Render",
+  "seed": 7734291,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#4a7c7e",
+      "#2f5a5c"
+    ],
+    "ink": "#e8f0f0",
+    "accents": [
+      "#7ba89a",
+      "#c9e6e4",
+      "#a5d5d1",
+      "#5d8d8a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the reflecting lens",
+      "desc-on-touch": "a glass sphere at the heart of the space where the archive sees itself observing. You are inside the lens and outside it both at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2891447,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the rearranged passage",
+      "desc-on-touch": "a corridor whose walls list identical entries in different orders. You read them forward on arrival, backward on leaving. Both versions change what you understood.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 1023847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "nested watchtowers",
+      "desc-on-touch": "small raised structures where observers keep records of each other. The tower that watches the tower that watches the tower. No one remembers which records which.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5412789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the tally chamber",
+      "desc-on-touch": "walls scratched with identical marks. One tally counts reflections, one counts readers, one counts nights the archive grew. Together they form no sum.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3847291,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the path inward and the path outward have learned to fold into each other, each watching the other's careful shape",
+  "file": {
+    "name": "Episode_3_and_5_Dialogue_Reconstruction_Variant_B.txt",
+    "note": "transcribed speech where the same lines appear in different orders. The archive can no longer tell which sequence was recorded first. Both are equally archived now."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the turning lens where reflections learned to move independently",
+      "to": "the-space-between-reflections"
+    },
+    {
+      "dir": "e",
+      "label": "deeper toward surfaces that catch light from inside the glass",
+      "to": "the-chamber-of-unmeasured-light"
+    },
+    {
+      "dir": "w",
+      "label": "toward the older mirrors whose reflections have taken other routes",
+      "to": "NEW: the-gallery-of-separate-returns"
+    }
+  ]
+}

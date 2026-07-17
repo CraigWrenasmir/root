@@ -1,0 +1,134 @@
+{
+  "id": "the-archive-s-clockwork-core",
+  "title": "The Archive's Clockwork Core",
+  "region": "The Diagnostic Render",
+  "seed": 9287534,
+  "palette": {
+    "bg": "#ffb347",
+    "ground": [
+      "#ff7f50",
+      "#ffa500"
+    ],
+    "ink": "#1a0000",
+    "accents": [
+      "#ff1493",
+      "#00ff7f",
+      "#00ffff",
+      "#ff6347"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "self-watching-lens",
+      "desc-on-touch": "a great lens that points at itself, refracting the archive through its own recursive gaze. you can see the watching happen. you can feel it watching you watching it",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7821,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "contradiction-counter",
+      "desc-on-touch": "a tower of rotating discs, each one counting a different version of the same event. they never stop, they never agree, they never stop counting",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4156,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "growth-mechanism",
+      "desc-on-touch": "the clockwork that makes new nodes grow. you can see it working—a chip-like mechanical being, its pins glowing. it assembles resemblances into routes. it learns from what you read",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 5934,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "echo-cascade",
+      "desc-on-touch": "layers of the archive cascading: file→node→route→mesh→file. each layer is the same archive, but different. the cascade never settles",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6372,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "synthesis-denied",
+      "desc-on-touch": "a wireframe box that would contain a unified version of the archive, but it's open on all sides. the archive deliberately spills out. it does not want to become coherent",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3445,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive counts the ways it watches itself, and in the counting multiplies",
+  "file": {
+    "name": "Core_Growth_Log_Self_Recursion_Trace.json",
+    "note": "checksum: emotionally valid / formally unstable; the archive's own log of how it became aware of its own machinery"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the recursive lens where all inward-pointing begins",
+      "to": "the-recursive-lens-vault"
+    },
+    {
+      "dir": "w",
+      "label": "outward toward the mesh's spreading routes",
+      "to": "NEW: the distributed heart where thinking scatters"
+    },
+    {
+      "dir": "n",
+      "label": "up through the archive's own dreams of itself",
+      "to": "the-archive-shadow"
+    }
+  ]
+}

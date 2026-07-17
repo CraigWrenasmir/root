@@ -1,0 +1,134 @@
+{
+  "id": "the-maintenance-depot-where-the-posts-were-marked",
+  "title": "The Maintenance Depot",
+  "region": "The Comparisons",
+  "seed": 5632871,
+  "palette": {
+    "bg": "#e8dcc4",
+    "ground": [
+      "#d4a574",
+      "#87ceeb"
+    ],
+    "ink": "#3a3a3a",
+    "accents": [
+      "#8b4513",
+      "#2f4f5f",
+      "#6b5b4e",
+      "#a0826d"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the cutting frame",
+      "desc-on-touch": "where the posts were sawed. Sawdust still lies in corners. A ledger hangs on the wall where each cut is logged with its date, its grain, what the post became.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the marking station",
+      "desc-on-touch": "a bench where initials and dates were burned into wood with a heated tool. You can read the names of workers decades gone, their hands having made the same motion thousands of times.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4123456,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the orders cabinet",
+      "desc-on-touch": "filed papers yellowing. Each order describes a fence post in three languages: the surveyors' measurements, the carpenters' dimensions, the farmers' needs. Translated into each other, they mean subtly different things.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5712345,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the old maps",
+      "desc-on-touch": "pinned to a slanted lectern. Each one marks the same service road but from different years. The roads trace slightly different paths, as if the landscape had been reinterpreting itself.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6234567,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the finished posts stacked",
+      "desc-on-touch": "a corner pile of posts ready to be taken out. Each one carries its mark. You can run your hand along the burned dates and feel the archive of hands that came before.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7345678,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "every post that went into the ground left a mark here first; the depot is the place where intent becomes object becomes route becomes story",
+  "file": {
+    "name": "Fence_Maintenance_Log_1964-1992_Post_Specifications.txt",
+    "note": "tabulated orders: height, wood type, destination paddock. Over decades the language of the specifications changed—surveyors' language gave way to farmers' language, which gave way to mechanics' langua"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the service road marked on old maps, running parallel to the posts",
+      "to": "the-fence-post-sentence"
+    },
+    {
+      "dir": "e",
+      "label": "toward the paddocks where the marked posts now stand, reading their own history",
+      "to": "NEW: the-annotated-paddock-boundary"
+    },
+    {
+      "dir": "w",
+      "label": "upstream along the supply chain to the timber mill where the posts began as trees",
+      "to": "the-mill-where-language-first-divides"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-shadow-s-ground",
+  "title": "The Ground Where Shadow Keeps Its Shape",
+  "region": "The Comparisons",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a4a4a",
+      "#2d3d2d"
+    ],
+    "ink": "#c0c0c0",
+    "accents": [
+      "#7a8a7a",
+      "#5a6a5a",
+      "#3a4a3a",
+      "#8a9a8a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the cast mark",
+      "desc-on-touch": "The shadow of a fence post burned into the earth decades ago. When you touch it, the soil is still warm with the shape of light that fell so long it learned to stay.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 123456,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the shadow-keeper",
+      "desc-on-touch": "A figure that casts no light and holds three shadows—not its own. The archive noticed it first by the absence of confusion.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 234567,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the darkening contour",
+      "desc-on-touch": "The ground rises and falls in the exact shape of the largest shadow this place has ever held. The grass remembers; the earth knows.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 345678,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the margin-place",
+      "desc-on-touch": "Where the shadow ends, the ground begins. You stand at the line and find you cast two shadows now—one that moves and one that doesn't.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 456789,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the shadow has learned its weight; the ground has learned to hold it",
+  "file": {
+    "name": "Fence_Post_Burn_Pattern_Narrabri_1962.tif",
+    "note": "A shadow-mark on earth that persists though the fence has long been removed. The soil analysis dates it three years older than the photograph."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the sharpening edge where light begins again",
+      "to": "the-shadow-s-separate-dwelling"
+    },
+    {
+      "dir": "e",
+      "label": "further into the lengthening dusk where shadows merge with the ground they rest on",
+      "to": "NEW: the-convergent-dusk"
+    },
+    {
+      "dir": "n",
+      "label": "up the contour toward the place where the shadow first fell",
+      "to": "the-edge-of-memory"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-highway-circuit-memory",
+  "title": "The Highway's Circuit Memory",
+  "region": "The Clean Archive",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f3460",
+      "#e8d4a8"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#f4d58d",
+      "#16213e",
+      "#533483",
+      "#ffd700"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "traffic ledger",
+      "desc-on-touch": "A chip the size of a shed, pulsing with measurement data. Every vehicle that passed in 1983 is still encoded here—routes, times, durations. The archive has mistaken the ledger for a living thing.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9283741,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "time circuit",
+      "desc-on-touch": "A vast trace-work carrying electric current that stopped flowing in 1983. Yet the archive reads residual charge—the road still remembers the moment traffic paused to complete a transaction that never finished.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5048291,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the attendant's measurement",
+      "desc-on-touch": "A glyph marking the attendant's position—or perhaps their waiting. The attendant is still measuring the time of a transaction sideways through multiple temporal channels.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7391204,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "vehicle stack",
+      "desc-on-touch": "A stack of vehicles frozen mid-passage: truck, sedan, motorcycle, bus—all layers of one moment in 1983, still attempting to flow forward.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6182954,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "current trace",
+      "desc-on-touch": "A glowing line that should represent flow but instead represents halt. Where the highway current stopped, the archive's sensors still detect the pressure of motion wanting to continue.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8372019,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "time flows like traffic: in lanes, through checkpoints, always toward somewhere else, never arriving",
+  "file": {
+    "name": "The_Attendant_s_Incomplete_Ledger_1983.csv",
+    "note": "A transaction log from the highway pump. Each entry is a moment; the final entry is still being written, still waiting for the customer who left their transaction running forty-three years ago."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the station where time waits sideways",
+      "to": "the-petrol-station-1983"
+    },
+    {
+      "dir": "n",
+      "label": "further up the highway, toward the horizon that never arrives",
+      "to": "the-travellers-blue-lodge"
+    },
+    {
+      "dir": "w",
+      "label": "off-road, toward the paddocks where highways become suggestions",
+      "to": "the-war-dialled-paddock"
+    }
+  ]
+}

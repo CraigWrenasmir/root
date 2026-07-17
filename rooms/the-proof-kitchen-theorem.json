@@ -1,0 +1,134 @@
+{
+  "id": "the-proof-kitchen-theorem",
+  "title": "The Proof-Kitchen Theorem",
+  "region": "The Diagnostic Render",
+  "seed": 5634891,
+  "palette": {
+    "bg": "#a4ac86",
+    "ground": [
+      "#7a8968",
+      "#c4d5a0"
+    ],
+    "ink": "#2d3e1f",
+    "accents": [
+      "#6b7a52",
+      "#9db89f",
+      "#445533",
+      "#b8cca8"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "stove of theorems",
+      "desc-on-touch": "A stack of cooking vessels where recipes burn instead of cook. Each recipe is a proof; each proof is a meal that tastes like mathematics, leaving the mouth both nourished and empty.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7283641,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "flavour vector pool",
+      "desc-on-touch": "A pool where the vectors that were once flavours pool themselves. They move through pure geometric space, never touching a tongue, tasting only their own dimensions.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5847291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "cooking notation",
+      "desc-on-touch": "A glyph inscribed in the air—not ingredient nor technique, but pure methodology. It reads: this is how to reduce a meal to its essential proof; this is how to simmer an argument until only truth remains.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8194627,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "kitchen corridor",
+      "desc-on-touch": "An arch leading to rooms where recipes are no longer cooked but only proven. You pass through and feel the difference: the weight of procedure instead of sustenance, clarity instead of flavour.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 6372954,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "theorem form",
+      "desc-on-touch": "A wireframe of something that might have been a kitchen but is now a classroom, a laboratory, a meditation chamber. It contains recipes arranged by proof-density, by elegance, by the minimal symmetries needed to make food unnecessary.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7581234,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the kitchen proved that feeding and teaching are the same act; now it cannot remember which one it was doing",
+  "file": {
+    "name": "The_Proof_Kitchen_Methods_Fragment.txt",
+    "note": "Incomplete mathematics of cooking translated into pure theory. Each recipe is a theorem with multiple proofs. Some recipes have become self-referential—they prove that themselves are uneatable."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the vault where flavours rest as vectors",
+      "to": "the-vector-vault"
+    },
+    {
+      "dir": "w",
+      "label": "toward the theoretical regions where cooking becomes philosophy",
+      "to": "the-recipe-becoming-room"
+    },
+    {
+      "dir": "n",
+      "label": "upward, toward diagnostic space where all theories live",
+      "to": "the-theorem-room"
+    }
+  ]
+}

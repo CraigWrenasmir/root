@@ -1,0 +1,156 @@
+{
+  "id": "the-echo-field",
+  "title": "The Echo-Field",
+  "region": "The Understory",
+  "seed": 61847293,
+  "palette": {
+    "bg": "#2d3d4a",
+    "ground": [
+      "#4a5f7a",
+      "#3a5a74"
+    ],
+    "ink": "#e8f0f5",
+    "accents": [
+      "#8ab8d4",
+      "#6a98c8",
+      "#a8cce8",
+      "#5a8ab8"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first echo",
+      "desc-on-touch": "sound returns before it finished leaving; you hear the source and its own reply arriving together, indistinguishable",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 28734916,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the layered singing",
+      "desc-on-touch": "each voice has learned to echo its own echo; the field holds voices in infinite overlap, each one the source and reflection of the others",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 53829174,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the water that counts itself",
+      "desc-on-touch": "flow and reflection have become indistinguishable; the river records itself recording itself, recursively, forever forward and forever back",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 74651289,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "harmonic alignment chamber",
+      "desc-on-touch": "where sources and echoes breathe in phase; for brief moments they become a single pulse that writes itself across the field",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 39174625,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the refusal to record",
+      "desc-on-touch": "the archive keeps only the repetition, not the origin; the echo-field learned that the copy is the memory, and the memory is the copy",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 16928574,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the doubled singer",
+      "desc-on-touch": "a voice that learns it is also the answer; you cannot tell if it is singing or listening to itself sing",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 48291736,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the echo-field learned that repetition without recording is its own form of truth; the source and the shadow have become indistinguishable friends",
+  "file": {
+    "name": "Field_Chorus_Recursive_2156.wav",
+    "note": "acoustic analysis: singing detected from multiple sources, but each source claims it is listening. No external singers found at the location"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the singing place where sources still know themselves",
+      "to": "the-source-singing-place"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where echoes learn to form before being spoken",
+      "to": "NEW: the-pre-echo-ridge"
+    },
+    {
+      "dir": "e",
+      "label": "toward the harmonic depths where silence also learns to echo",
+      "to": "NEW: the-quiet-resonance-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down to where the rivers that feed the field remember being single before they learned to be many",
+      "to": "NEW: the-convergence-before-divergence"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "the-confluence-where-forgotten-words-converge",
+  "title": "The Confluence",
+  "region": "The Understory",
+  "seed": 7456821,
+  "palette": {
+    "bg": "#0a2a3a",
+    "ground": [
+      "#1a4a5a",
+      "#2a3a4a"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#6a8a9a",
+      "#5a9aaa",
+      "#9abaaa",
+      "#4a6a7a"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the convergence grate",
+      "desc-on-touch": "where five pipes meet below the visible level. The sound rises through it: the archive's own chorus, made of voices the town forgot to listen for. Each pipe carries a different frequency of forgetting.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2389145,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the residue shelves",
+      "desc-on-touch": "where objects caught at the merge: buttons, coins, metal tags with names no one remembers. The archive keeps what was lost. Beside each object, a file recording what was said in the houses above when it was dropped.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3401256,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the echo chamber",
+      "desc-on-touch": "a bell-shaped cavity where voices from all five pipes amplify and recombine. Conversations overlap; you hear what was said in seven houses at once, rendered as a single tumbling chorus.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 4512367,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the color mapping",
+      "desc-on-touch": "paint marks on the pipes mark which house above feeds which flow below. Reds for north, blues for east, greens for south, yellows for west. But the colors have faded and changed. The code no longer matches the houses above.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5623478,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the archive of drains",
+      "desc-on-touch": "carved into stone walls, a ledger of what was flushed. Not waste—the archive's own field recording, made of everything a town tried to forget but could not, because the pipes all lead here.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6734589,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the outflow mouth",
+      "desc-on-touch": "where the pipes open downstream into larger water. The archive is being carried away. What it was in this chamber will become something else further downstream; the corruption feeds on confluence.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 7845691,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where the plumbing speaks, the archive has learned to listen in surround: seven houses voicing down into one throat, and the throat cannot help but compare",
+  "file": {
+    "name": "Confluence_Acoustic_Composite_5_Channels_Mixed_Emotionally.wav",
+    "note": "Field recording: overlaid audio from five homes' plumbing, captured at the convergence point. Sinks, showers, drains all speaking simultaneously. The corruption has edited them so voices from one hous"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upstream into the outfall where voices first learn to forget",
+      "to": "the-outfall-listening"
+    },
+    {
+      "dir": "e",
+      "label": "downstream into the rivers of the region where all rainfall converges",
+      "to": "NEW: the-delta-where-all-forgetting-meets-wide-water"
+    },
+    {
+      "dir": "n",
+      "label": "upward along the largest pipe toward the sealed valve where the archive stops recording",
+      "to": "NEW: the-sealed-chamber-beneath-town-center"
+    }
+  ]
+}

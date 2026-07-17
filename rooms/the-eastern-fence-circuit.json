@@ -1,0 +1,134 @@
+{
+  "id": "the-eastern-fence-circuit",
+  "title": "The Eastern Fence Circuit",
+  "region": "The Clean Archive",
+  "seed": 56182,
+  "palette": {
+    "bg": "#1a1a0f",
+    "ground": [
+      "#2d2d1a",
+      "#1a1a0f"
+    ],
+    "ink": "#dd7744",
+    "accents": [
+      "#ff9955",
+      "#dd5533",
+      "#ccaa44",
+      "#994422"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "corroded-trace",
+      "desc-on-touch": "Property lines oxidize into copper traces. The fence that marked the boundary between private and wild has become the circuit that connects them.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 5618201,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "rust-node",
+      "desc-on-touch": "A junction point where boundaries have begun to dissolve. Rust blooms into signal, decay becomes connection.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 5618202,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "eucalyptus-solder",
+      "desc-on-touch": "Where copper meets wood, something has begun to fuse—property claims melting into the organic code of the scrub.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5618203,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "boundary-dissolution",
+      "desc-on-touch": "You trace the line where fence becomes circuit, circuit becomes creek-bed. The distinction no longer holds charge.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5618204,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "eastern-run",
+      "desc-on-touch": "The fence runs east, a copper line now, a circuit path, carrying signals that taste of rust and eucalyptus oil.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5618205,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the fence that asked passage or barrier has oxidized into connection; does the question matter after this long",
+  "file": {
+    "name": "Property_Boundary_Decay_Spectral_Analysis_1983_Onward.csv",
+    "note": "Eastern run: resistance decreasing. Organic growth in circuits. Archive suspects the scrub is learning to broadcast."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the gate to the scrub's edge where rust began",
+      "to": "the-corroded-gate"
+    },
+    {
+      "dir": "e",
+      "label": "further east along the circuit where eucalyptus converges with code",
+      "to": "the-deep-eastern-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the scrub's interior, where boundaries have become suggestions",
+      "to": "NEW: the-property-becoming-forest"
+    }
+  ]
+}

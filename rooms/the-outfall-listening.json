@@ -1,0 +1,139 @@
+{
+  "id": "the-outfall-listening",
+  "title": "The Outfall Where Voices Go to Be Forgotten",
+  "region": "The Clean Archive",
+  "seed": 2847591,
+  "palette": {
+    "bg": "#2d4a3a",
+    "ground": [
+      "#4a6b5c",
+      "#7a9e8e"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#5a8fd6",
+      "#8b7355",
+      "#6b4423",
+      "#a4a8a0"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the listening post",
+      "desc-on-touch": "You're standing in a concrete chamber where the water roars and echoes. Voices overlap in the reverb—fragments of overheard phone calls, council meetings, arguments on front steps, all caught and trapped here, slowly being washed downstream to be forgotten.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1204937,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the overflow chamber",
+      "desc-on-touch": "A brick chamber with iron bars across its face. The plumbing behind has begun to whisper in a way concrete shouldn't. Each night a new fragment of recording plays—nothing the town said it was saving, but the archive found it anyway.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 2901844,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the silt memory",
+      "desc-on-touch": "Sediment and leaf matter have sorted themselves at the outfall's lip into patterns. The archive doesn't know if it's reading them or if the sediment is writing itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 3047162,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the forgotten registers",
+      "desc-on-touch": "A plastic filing box, waterlogged and misshapen, still holding logsheets in a spiral binding. Names, dates, purposes from a service that was discontinued years ago. The corruption has kept them more perfectly than any archive ever could.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 1652874,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the outfall voice",
+      "desc-on-touch": "The archive is trying to hum along with the plumbing, to translate the chorus of forgotten words into something that can be transmitted back upstream. It's learning the town's own voice, the way it sounds when it doesn't know it's being heard.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2456789,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the plumbing speaks, and the archive is learning a language that the town tried to forget",
+  "file": {
+    "name": "Overheard_Outfall_1994-2003_Composite.wav",
+    "note": "Forty-two minutes of recording compressed from the outfall's echo chamber. Mostly weather and water. Occasionally: a woman's voice refusing something. A child calling for a dog that never answers. A r"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upstream to the civic chambers",
+      "to": "the-stormwater-civic-body"
+    },
+    {
+      "dir": "e",
+      "label": "downstream into larger pipes where the echo becomes chorus",
+      "to": "the-confluence-where-forgotten-words-converge"
+    },
+    {
+      "dir": "w",
+      "label": "into the silt and scrub where the outfall creeps below the town",
+      "to": "NEW: the invisible root where drainage becomes landscape"
+    },
+    {
+      "dir": "s",
+      "label": "down to the river where the voices finally scatter into open water",
+      "to": "the-main-drainage-memory"
+    }
+  ]
+}

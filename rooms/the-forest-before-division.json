@@ -1,0 +1,134 @@
+{
+  "id": "the-forest-before-division",
+  "title": "The Forest Before Timber",
+  "region": "The Comparisons",
+  "seed": 7156284,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#2d5a2d",
+      "#4a8a4a"
+    ],
+    "ink": "#e8f4e8",
+    "accents": [
+      "#7a9a7a",
+      "#b8d4b8",
+      "#5a7a5a",
+      "#8ab88a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "spiral-bark",
+      "desc-on-touch": "Trees carved with patterns that spiral without returning to origin, the stone-carver's knife performing what forests do naturally. You're reading the forest's conversation with itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 5432,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "before-the-saw",
+      "desc-on-touch": "The moment when the forest agreed it would become timber. The archive holds the forest's side of the conversation—bark-language nobody has yet learned to read.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2109,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "unmarked-survey",
+      "desc-on-touch": "Notes from a surveyor who refused to measure. The blank pages are as detailed as any description: what the forest meant by silence.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "timber-rights-archive",
+      "desc-on-touch": "Legal documents that named the forest into property. The archive holds them alongside the forest's own records: one list divides, one remembers wholeness.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 4456,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "root-still-remembering",
+      "desc-on-touch": "Deep in the soil, the network of roots continues the forest's thought. They move without boundaries, comparing what the trees above have forgotten.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 9123,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "here is where the forest was still alive and the boundary was still becoming fence",
+  "file": {
+    "name": "Pre_Division_Forest_Spiral_Notation_Undated.txt",
+    "note": "Carved markings from eucalyptus stand. Notation system appears to chart growth patterns or territorial claims. Archive uncertain: might predate all written language in the region."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "downstream to the mill where the division was agreed",
+      "to": "the-mill-where-language-first-divides"
+    },
+    {
+      "dir": "w",
+      "label": "deeper upstream to where the forest has no name yet",
+      "to": "NEW: the-unnamed-forest-source"
+    },
+    {
+      "dir": "n",
+      "label": "toward the older trees that remember being unlogged",
+      "to": "the-weathered-stand"
+    }
+  ]
+}

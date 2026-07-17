@@ -1,0 +1,134 @@
+{
+  "id": "the-field-before-the-gate",
+  "title": "The Field Before the Gate",
+  "region": "The Clean Archive",
+  "seed": 74829,
+  "palette": {
+    "bg": "#2a1f0f",
+    "ground": [
+      "#c4956e",
+      "#8b6f47"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#e74c3c",
+      "#27ae60",
+      "#3498db",
+      "#f39c12"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "choice marker",
+      "desc-on-touch": "A fence post with wire running both directions. You can feel where the moment split.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "doubled paths",
+      "desc-on-touch": "Two parallel trails worn into the earth. One is recent. One appears to be from a different today.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 29834,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "circuit of ants",
+      "desc-on-touch": "Insects following a perfect geometric spiral that was not worn into the ground before. Something is teaching the land to read its own pattern.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 64821,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "buried archive",
+      "desc-on-touch": "A milk crate, half-rusted through. Inside, two photographs from the same hour, same place, two different faces. The archive notes they are identical.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 51623,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pressed earth",
+      "desc-on-touch": "A bare patch where a child knelt, forehead to ground. The grass around it grows back darker, as if remembering the weight of choosing.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 38476,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "both paths home; you chose once but the earth keeps score of twice",
+  "file": {
+    "name": "Field_Choice_Records_Dual_1989.txt",
+    "note": "Two decisions documented the same afternoon. The children remember one. The archive's count never matches."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through the gate",
+      "to": "the-turning-point-gate"
+    },
+    {
+      "dir": "e",
+      "label": "along the path that leads to water",
+      "to": "NEW: the tributary that holds the child who never arrived"
+    },
+    {
+      "dir": "s",
+      "label": "the grass grows thicker in this direction",
+      "to": "NEW: the mirror field where the other choice still waits"
+    }
+  ]
+}

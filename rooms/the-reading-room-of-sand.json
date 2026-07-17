@@ -1,0 +1,134 @@
+{
+  "id": "the-reading-room-of-sand",
+  "title": "The Reading Room Where Sand Holds All Pages",
+  "region": "The Diagnostic Render",
+  "seed": 2856739,
+  "palette": {
+    "bg": "#c4b5a0",
+    "ground": [
+      "#e8d4a8",
+      "#d4c8a0"
+    ],
+    "ink": "#1a4f5e",
+    "accents": [
+      "#8b7355",
+      "#6ba887",
+      "#d4a574",
+      "#4a5a7a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the sand library",
+      "desc-on-touch": "The beach itself arranged as a reading room: grain-sorted by theme, wave-arranged by narrative sequence, tide-organized by meaning instead of mass. Each sand grain is a page. The archive has taught sand to be a text. The reading never stops—every wave is an edit.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 1945287,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the retablo archive",
+      "desc-on-touch": "Six nested boxes carved from driftwood and shell, stacked like rooms within rooms. Each box shows a scene: a beach surgery, a loom in motion, a knife entering water, a library reorganizing itself, a space beyond sight, and one scene that changes each time you look.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 2764518,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the pattern-reading station",
+      "desc-on-touch": "A structure of driftwood and tide-worn rope where patterns emerge in the sand—Kente-like threads woven by current and time. You trace the threads with your eyes, each colour a different story. The loom is invisible; the pattern is everything.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 1823964,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the catalogue of arrivals",
+      "desc-on-touch": "A tall structure of sorted shells and stones, each one catalogued by what it arrived carrying and what the sand has made it mean. A shell that arrived carrying surgery now reads as coastline. A stone that arrived carrying narrative now reads as weather.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 2561739,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the archive's reading voice",
+      "desc-on-touch": "The sound of the room is wave-language, strand-speech, sand-whisper. The archive reads aloud by reading sand aloud, each grain a syllable, the whole beach becoming a continuous transmission. You are in the archive's mouth.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3079284,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "every sand grain is a page and the archive is learning to read the shore by becoming its voice",
+  "file": {
+    "name": "Retablo_Inventory_Nested_Chambers_Complete.txt",
+    "note": "A museum registrar's catalog of six carved boxes arrived from an archive that should not exist. Each chamber shows a complete scene. Final note: 'The boxes are still arriving. Each day: one more chamb"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the shore toward where files wash up and sort themselves",
+      "to": "the-overflow-strand"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the reading room, where sand-pages continue beyond the visible strand",
+      "to": "the-sand-shelf-library"
+    },
+    {
+      "dir": "n",
+      "label": "up from the beach toward the receiving station and its sorting sheds",
+      "to": "the-receiving-shed"
+    }
+  ]
+}

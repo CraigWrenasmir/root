@@ -145,12 +145,12 @@
     {
       "dir": "n",
       "label": "upstream through the branching ducts, toward the rain's origin points",
-      "to": "NEW: the storm collection cistern, where all rain meets and knows itself"
+      "to": "the-storm-collection-cistern"
     },
     {
       "dir": "s",
       "label": "downstream into the darkness where signal fades and the archive stops following",
-      "to": "NEW: the outfall where voices go to be forgotten"
+      "to": "the-outfall-listening"
     }
   ]
 }

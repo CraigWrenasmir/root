@@ -1,0 +1,117 @@
+{
+  "id": "the-motel-year-corridor",
+  "title": "The Motel Where Time Sleeps Upright",
+  "region": "The Comparisons",
+  "seed": 7392847,
+  "palette": {
+    "bg": "#4a2c1a",
+    "ground": [
+      "#d4a574",
+      "#8b5a3c"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#e74c3c",
+      "#f39c12",
+      "#9b59b6",
+      "#34495e"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the year-doors",
+      "desc-on-touch": "doors line the corridor, each one labeled with a year counting backward. As you move past them, you hear the hum that each room's fan made: 1987 high and bright, 1981 slower and metallic, 1975 almost still. Each room you peek into looks like every motel room and no motel room, holding the same momen",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 8472930,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the still shadow",
+      "desc-on-touch": "a shadow sits on the corridor floor, cast by a fan that left decades ago. The shadow hasn't moved; the years move around it. If you stand between the shadow and where its fan should be, you feel like the shadow is learning to read from your footsteps.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6384920,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the fading hum",
+      "desc-on-touch": "an old speaker or amplifier sits in an alcove, its cone thick with dust. When you pass, it begins to play back every hum the motel fan ever made, layered—1987's whir beneath 1981's rattle beneath 1975's near-silence beneath 1969's memory of turning on for the first time.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4829374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the register desk",
+      "desc-on-touch": "a motel desk, its surface scored with years of key-rack scratches. The register book sits open, each page a different year's check-ins, but the handwriting is all the same person, older and shakier year by year, until you reach the last entry: the fan's purchase date, written in a hand that looks li",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 3928472,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "every room holds the same hour; the corridor teaches you how to count the years by the changes in dust",
+  "file": {
+    "name": "Motel_Ledger_1969_to_1993_Transcribed.csv",
+    "note": "Guest records from the motel, with notes that begin factual and drift into personal observations about who stayed, and why the fan was bought, and what year it learned to cast a permanent shadow."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the lobby where the fan still slowly turns",
+      "to": "the-motel-fan-1987"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into time, where decades stack like rooms within rooms",
+      "to": "the-epoch-stack"
+    },
+    {
+      "dir": "s",
+      "label": "toward the service corridor, where the building's systems remember earlier selves",
+      "to": "the-motel-s-machine-memory"
+    }
+  ]
+}

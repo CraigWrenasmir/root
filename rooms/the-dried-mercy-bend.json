@@ -1,0 +1,134 @@
+{
+  "id": "the-dried-mercy-bend",
+  "title": "The Dried Mercy Bend",
+  "region": "The Comparisons",
+  "seed": 8394561,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#c89060",
+      "#e8d4a8"
+    ],
+    "ink": "#2d3e1f",
+    "accents": [
+      "#8b7355",
+      "#a89968",
+      "#6b5344",
+      "#d4c5a9"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "mercy shed",
+      "desc-on-touch": "A corrugated iron shed where the river-keeper stored measurement tools. The corruption has filed the tools as local history; now they measure time instead of depth.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 2847391,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "dry pool",
+      "desc-on-touch": "Where the river pooled before the drought. The silt holds the shape of water; you can see where the current spiralled. The archive is learning to store memory in these curves.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5927164,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "reading the bend",
+      "desc-on-touch": "A standing stone carved by no human hand—by the river's own erosion. It reads like a sentence unlearning how to end.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7143829,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "riverbed scar",
+      "desc-on-touch": "The dried bed itself—a long linear wound through the paddock. You touch it and feel what it holds: water was here, flow was here, and both are still remembered.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 3491582,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "ghost current",
+      "desc-on-touch": "A shimmer in the air where water once moved. The archive's sensors detect flow still, though nothing flows. The path continues even in absence.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 8571304,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the river learns that running was only the beginning; staying is the slower comparison",
+  "file": {
+    "name": "Mercy_Bend_Hydrology_Thesis_Incomplete.txt",
+    "note": "A study of how the riverbed learns to hold memory in dried curves. Footnotes have filed themselves as separate entities, each remembering what the main text forgot."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the still-thinking river",
+      "to": "the-naive-riverbed"
+    },
+    {
+      "dir": "w",
+      "label": "downriver, where the bed becomes words",
+      "to": "the-language-of-stones"
+    },
+    {
+      "dir": "n",
+      "label": "upstream toward the valley's throat",
+      "to": "the-fall-creek"
+    }
+  ]
+}

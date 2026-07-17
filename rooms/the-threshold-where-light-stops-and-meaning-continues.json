@@ -1,0 +1,117 @@
+{
+  "id": "the-threshold-where-light-stops-and-meaning-continues",
+  "title": "The Threshold",
+  "region": "The Understory",
+  "seed": 3821745,
+  "palette": {
+    "bg": "#4a2a3a",
+    "ground": [
+      "#9a5a6a",
+      "#3a1a2a"
+    ],
+    "ink": "#f0d0e0",
+    "accents": [
+      "#d0a0b0",
+      "#b0708a",
+      "#8a5a7a",
+      "#6a3a5a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the light-line",
+      "desc-on-touch": "a sharp boundary where the dusk above ends and the understory below begins. You stand at the line. One foot in visibility. One foot in a darkness that has learned to keep knowledge without light.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4734856,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the fungal archive",
+      "desc-on-touch": "mushrooms bracket by bracket, stepping downward into the shade, each one a smaller version of itself, each one holding spores that remember older forests. The fungus doesn't see. It knows.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5845967,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the root-written page",
+      "desc-on-touch": "carved in living wood below your sight line. The roots have made their own writing here—patterns of growth and scarring that read like a text no one taught you. The understory's book, still growing its own words.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 6956078,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the library of quiet",
+      "desc-on-touch": "spaces between roots where nothing needs to speak. The knowledge the understory keeps is stored in the grammar of growing together without a common language. You can almost read it if you stop listening.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7067189,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "here the light remembers itself, and the darkness begins its own archive; neither one can erase what the other has witnessed",
+  "file": {
+    "name": "Understory_Plant_Taxonomy_Handwritten_Marginalia_Cross_Referenced_As_Prayer.pdf",
+    "note": "Victorian botanical survey with later annotations in pencil margins, then in pen, then in bark-scratch. Each layer refuses to erase the one before. Where taxonomy ends, the understory's own names begi"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up into the library where the trees still remember bark and root",
+      "to": "the-burl-library-grove"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the understory where the last threshold is not written down",
+      "to": "the-depth-beyond-any-light-that-ever-reached-here"
+    },
+    {
+      "dir": "w",
+      "label": "sideways along the border where understory and archive learn to read one another",
+      "to": "NEW: the-place-where-meaning-begins-and-grows-without-saying"
+    }
+  ]
+}

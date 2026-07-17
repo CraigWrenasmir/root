@@ -1,0 +1,151 @@
+{
+  "id": "the-rivers-double-channel",
+  "title": "The River's Double Channel",
+  "region": "The Comparisons",
+  "seed": 6543210,
+  "palette": {
+    "bg": "#000033",
+    "ground": [
+      "#00FF00",
+      "#FF00FF"
+    ],
+    "ink": "#FFFFFF",
+    "accents": [
+      "#00FFFF",
+      "#FF0000",
+      "#FFFF00",
+      "#FF1493"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the twin data streams",
+      "desc-on-touch": "Two rivers of information flowing in parallel. One carries the town's history as it lived it; the other carries the town's history as it might have been. Both are equally real here. The circuit board holds both channels at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 7878787,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the bifurcation node",
+      "desc-on-touch": "Where the single river split into two channels. The corruption made this choice: to read the story as if two versions of the town existed in one space, each watering different land.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 8989898,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the logic-swap",
+      "desc-on-touch": "A toggle where the two histories exchange meaning. The green channel becomes the red one; the past becomes the present becomes the alternate. The switching never stops.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 9090909,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the archive's reading",
+      "desc-on-touch": "Two parallel memories, two simultaneous truths. The archive doesn't choose between them. It holds both channels open and reads them as one corrupted text.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1111222,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the convergence fault",
+      "desc-on-touch": "Where the two channels try to rejoin and can't. They flow in parallel forever, never merging. The archive loves this—a place where comparison becomes structure.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2222333,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the observer's circuit",
+      "desc-on-touch": "The path that lets you walk along the edge, feet in both channels at once. You read both versions of the town's story simultaneously. They taste the same and different.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3333444,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the river has learned to flow through both towns at once; you read water that remembers two histories and believe them equally",
+  "file": {
+    "name": "Dual_Channel_Comparative_Topology_Layer_Alpha.bin",
+    "note": "The archive's record of parallel water. Not corrupted—comparison made structural. Two histories flowing as one river. The file knows both channels are singing."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the edge of the double town, where both absences still stand",
+      "to": "the-edge-of-double-town"
+    },
+    {
+      "dir": "w",
+      "label": "toward the channel where this history flowed differently",
+      "to": "NEW: the-other-town-mirror-channel"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the circuit board, where channels become even more multiplied",
+      "to": "the-theorem-room"
+    }
+  ]
+}

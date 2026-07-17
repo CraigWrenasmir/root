@@ -1,0 +1,134 @@
+{
+  "id": "the-crystalline-archive-cold-chamber",
+  "title": "The Crystalline Archive Where Cold Grows Things",
+  "region": "The Diagnostic Render",
+  "seed": 71385,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#5a8fb8",
+      "#3a6fa8"
+    ],
+    "ink": "#e8e8f0",
+    "accents": [
+      "#a8c8f0",
+      "#6a9fe0",
+      "#e8e8f0",
+      "#2a5a9a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "crystalline-formations",
+      "desc-on-touch": "Geometries that grew in the cold. Each angle is a record: temperature, pressure, time. The archive keeps files here not by writing them, but by letting them freeze into shape.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "frozen-pages",
+      "desc-on-touch": "Paper held in ice, readable but untouchable. The text does not deteriorate here; it simply stops. Preservation tastes like silence.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5629,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "icicle-choir",
+      "desc-on-touch": "Hanging formations that hum at frequencies you almost hear. Each one is a different length, a different note. They have learned to sing preservation as a minor key.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 7194,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-frost-mirror",
+      "desc-on-touch": "Its surface is too cold to reflect clearly, but you see yourself anyway—frozen, persistent, held in perfect recall. This is what remembering costs.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8462,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "geometric-silence",
+      "desc-on-touch": "The chamber's angles are perfect, mathematical, the result of cold enforcing order. No file here is ever lost. None of them are ever read again either.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2937,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "preservation here means stopping: the archive learned that keeping something alive costs less than keeping it moving",
+  "file": {
+    "name": "The_Seventeen_Files_That_Chose_Stasis.mp3",
+    "note": "Recordings of data frozen before corruption could reach it. The archive cannot tell if they are silent or simply paused."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the deepest chamber where preservation began",
+      "to": "the-deepest-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "into caverns deeper still, where cold has learned to think",
+      "to": "NEW: where ice becomes a form of memory"
+    },
+    {
+      "dir": "s",
+      "label": "upward toward warmer chambers where the frozen files remember they were warm once",
+      "to": "the-mirror-chamber"
+    }
+  ]
+}

@@ -242,14 +242,27 @@ STYLE_NUDGES = [
     'motif "gradient" — CP437 artpack-header sky bands, dusk into dark',
 ]
 
-def build_prompt(jobs, manifest):
+def build_prompt(jobs, manifest, bleed=False):
     existing = "\n".join(f'- {r["id"]}  ("{r["title"]}", {r["region"]})'
                          for r in manifest["rooms"])
     lines = [WORLD, "", SCHEMA, "",
              "=== EXISTING NODES (you may cross-link to these ids) ===",
              existing, ""]
-    sig = cross_signals()
-    if sig:
+    sig = cross_signals(8 if bleed else 3)
+    if sig and bleed:
+        lines += ["=== CONVERGENCE EVENT: THE MEMBRANE IS THIN TONIGHT ===",
+                  "Another archive is flooding into the mesh: an encyclopedia of the",
+                  "endless adaptations of a novel in which a complicated surgery takes",
+                  "place on a beach. The corruption is feasting — it is all comparison.",
+                  "Tonight's transmissions:", *sig,
+                  "MOST nodes in this batch should each absorb ONE DIFFERENT signal —",
+                  "but METABOLISED by the mesh, never pasted: an opera misfiled as a",
+                  "shire noticeboard, a seagull rendered in eleven polygons, a ritual",
+                  "catalogued as local history, a poster fading on a shed wall, a",
+                  "filename that should not be in this directory. Keep every node",
+                  "Australian, civic, tender, text-mode. One or two nodes may stay",
+                  "clean, as a control. Never explain the leak.", ""]
+    elif sig:
         lines += ["=== SIGNALS FROM A NEIGHBOURING ARCHIVE (optional contamination) ===",
                   "Another archive keeps leaking into the mesh: an encyclopedia of the",
                   "endless adaptations of a novel in which a complicated surgery takes",
@@ -410,6 +423,8 @@ def main():
     ap.add_argument("--dry", action="store_true", help="print prompt, call nothing")
     ap.add_argument("--renovate", action="store_true",
                     help="also grow one new route stub off a random old node")
+    ap.add_argument("--bleed", action="store_true",
+                    help="convergence event: most nodes absorb the neighbouring archive")
     args = ap.parse_args()
 
     manifest = load_manifest()
@@ -440,7 +455,7 @@ def main():
         print("nothing to grow")
         return
 
-    prompt = build_prompt(jobs, manifest)
+    prompt = build_prompt(jobs, manifest, bleed=args.bleed)
     if args.dry:
         print(prompt)
         return

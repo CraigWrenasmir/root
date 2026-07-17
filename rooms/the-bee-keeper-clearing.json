@@ -1,0 +1,117 @@
+{
+  "id": "the-bee-keeper-clearing",
+  "title": "The Clearing Where Someone Kept Bees",
+  "region": "The Clean Archive",
+  "seed": 8473920,
+  "palette": {
+    "bg": "#8b7355",
+    "ground": [
+      "#d4c5a9",
+      "#c9a876"
+    ],
+    "ink": "#2d1b0a",
+    "accents": [
+      "#f4a460",
+      "#ffb347",
+      "#daa520",
+      "#654321"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the hive boxes",
+      "desc-on-touch": "wooden hives stand in neat rows like a filing system, each one numbered, each one humming at a different pitch. The archive and the bees discovered each other a long time ago. Now you can't tell if the hives are storing honey or if they're storing the summers themselves—golden, viscous, preserving t",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 7294837,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the keeper's station",
+      "desc-on-touch": "a small wooden stand holds tools and ledgers, rain-weathered but still legible. The keeper's notes track not just hive health but the archive's health too—as if the bees and the archive were the same organism being tended by the same hand. The latest entry is old, the pen has dried.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4829304,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the flowering margin",
+      "desc-on-touch": "wildflowers have taken the clearing's edge—they grow in patterns that look deliberate, each color bleeding into the next. Bees move between flowers and hives in straight lines, carrying knowledge. You realize the bees are cross-pollinating the archive and the land; the honey stores correspondence.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3947283,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the dance-floor",
+      "desc-on-touch": "a clearing in the center where the bees gather, their movement forming a pattern that resembles both a map and a language. Watch long enough and you understand: the bees are teaching the archive where things grow, where things hide, what the land remembers.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2837492,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the bees kept a library in wax, and the archive kept a library in memory, and they discovered they were cataloguing the same summer",
+  "file": {
+    "name": "Beekeeper_Journal_1978_to_1986.txt",
+    "note": "Detailed observations of hive health, flowering cycles, and correspondence between bee behavior and the archive's activity—increasingly intertwined until it becomes impossible to tell which system is "
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through the bracken to the gymnasium's shadow",
+      "to": "the-scrub-gymnasium"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the clearing, where the bees have built something they're not letting us name",
+      "to": "the-hexagon-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward the woods where old hive boxes have been left to the forest",
+      "to": "NEW: the-abandoned-apiary"
+    }
+  ]
+}

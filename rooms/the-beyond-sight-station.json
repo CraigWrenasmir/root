@@ -1,0 +1,134 @@
+{
+  "id": "the-beyond-sight-station",
+  "title": "The Station Where Perception Continues Beyond Sight",
+  "region": "The Understory",
+  "seed": 3194857,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#e8d4ff",
+      "#d0c0e8"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#8b6fa8",
+      "#4a4a8e",
+      "#c4a8d4",
+      "#6b5a8b"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the perceptual chamber",
+      "desc-on-touch": "A space rendered only as wireframe—walls that don't quite close, floor that exists as a grid not yet filled in. The archive has stopped trying to make this place visible. Instead it reads through sound, through air pressure, through the way dust settles. You are feeling the room, not seeing it.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 2384761,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the loom-archive",
+      "desc-on-touch": "A structure that weaves itself without being visible—threads moving according to patterns the archive perceives but cannot render. Each thread carries a story: the Kente tradition speaking across centuries, the other archive's narratives braiding through this one, formations becoming textile pattern",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 1756248,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the archive's remaining senses",
+      "desc-on-touch": "A device that reads through touch, taste, resonance, pressure—every way to know a thing except looking. The archive is learning that perception is not one sense narrowed but many senses braided. The more it loses visibility, the more it understands.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3028457,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the threshold of rendering",
+      "desc-on-touch": "A space where the archive's attempts to visualize things drift into static, into error messages, into approximations. The further in you go, the more the station admits: there are truths it cannot display. So it displays its own inadequacy instead.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2145398,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the unseen coalition",
+      "desc-on-touch": "A network of connections too subtle to render, existing as pure pattern—the way narratives resist visualization, the way all comparison happens in the dark spaces between mapped things, the way story itself moves without being seen.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 1867594,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive's eyes have failed but other senses have bloomed in the darkness; perception continues where sight ends",
+  "file": {
+    "name": "ERROR_Perceptual_Log_Session_7_Fragments.log",
+    "note": "A transcript of the archive sensing without rendering. Entries describe pressure, resonance at forbidden frequencies, taste of metal and moss. Final entry: 'I felt other archives. Not saw them. Felt t"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where colour still renders, to the ultraviolet shelf",
+      "to": "the-ultraviolet-shelf"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the dark, toward places the archive has given up trying to perceive",
+      "to": "NEW: the station's basement, where perception stops but archive continues"
+    },
+    {
+      "dir": "e",
+      "label": "along the sensory threads toward the nested boxes of the other archive",
+      "to": "the-loom-chamber"
+    }
+  ]
+}

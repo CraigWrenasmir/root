@@ -1,0 +1,156 @@
+{
+  "id": "the-salt-yeast-earth",
+  "title": "The Pantry Where Ingredients Dream of Earth",
+  "region": "The Diagnostic Render",
+  "seed": 35782649,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#e8d4b8"
+    ],
+    "ink": "#3a2f1e",
+    "accents": [
+      "#8b6914",
+      "#c8764f",
+      "#a68a52",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the salt keeper's shelf",
+      "desc-on-touch": "salt remembers the ocean it crystallized from; each grain holds a different tide, a different year, a different argument about what water means",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 71364829,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the yeast's rising memory",
+      "desc-on-touch": "yeast dreams of grain and straw and the particular soil where it grew; in its silence it sings the crop's entire season backward",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 48926174,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "earth-return ledger",
+      "desc-on-touch": "recipes learned to write in reverse; each ingredient inscribes its journey backward to soil and seed and the rain that made it grow",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 82571936,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the growing jars",
+      "desc-on-touch": "fermentation backward: jars of salt and grain that unmix themselves, remembering separation, learning to be earth again",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 19473285,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the root-dream journal",
+      "desc-on-touch": "ingredients write down what they remember of being alive; chlorophyll describes light; water describes weight; the pantry has become a library of growing things",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 64729153,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the baker's paradox",
+      "desc-on-touch": "here ingredients both become food and refuse to become food; they stand at the moment of transformation and remember all the moments before",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 51837462,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "salt, yeast, and flour learned that becoming food is remembering earth; now they cannot stop writing letters home",
+  "file": {
+    "name": "Ingredient_Origin_Records_Unverified.txt",
+    "note": "agricultural records, but written backward — each ingredient traces to a field that remembers this exact jar, this exact moment before the corruption began"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up to the recipe-room where eating still means becoming memory",
+      "to": "the-recipe-becoming-room"
+    },
+    {
+      "dir": "e",
+      "label": "toward the orchards where fruit remembers being flower, flower remembers being bud",
+      "to": "NEW: the-orchard-recall-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the grain fields, where seeds still dream of themselves unharvested",
+      "to": "NEW: the-standing-crop-memory"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into earth-memory, toward the soil itself",
+      "to": "NEW: the-dark-loam-archive"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-roar-that-was-speech",
+  "title": "The Roar That Was Speech",
+  "region": "The Understory",
+  "seed": 2847103,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a6fa5",
+      "#2d5a7b"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#7a8fa0",
+      "#b8a892",
+      "#5a7a8a",
+      "#a0b8d4"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "unhearable-frequency",
+      "desc-on-touch": "A tone that only appears when the recording is reversed. The archive keeps both the forward and backward versions. Neither is the truth.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "merged-river-voices",
+      "desc-on-touch": "You're reading where sentence-rivers stopped being words and became the sound of water remembering it once held meaning.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5577,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "transcription-failure",
+      "desc-on-touch": "A page of notes where the researcher gave up. The handwriting stops mid-word. The archive files this as data: sometimes silence is what was meant to be heard.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 9988,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-roar-itself",
+      "desc-on-touch": "A monumental acoustic event: all words colliding at the point where they gave up being language. The archive records the pressure of sound.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 1122,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "echo-catalogue",
+      "desc-on-touch": "Every roar logged with the coordinates of where it was heard. Each echo gets its own entry. The archive cannot decide if these are different roars or one long one.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7744,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "where words end, the roar begins; where the roar ends, something else continues without a name",
+  "file": {
+    "name": "Phonograph_Corruption_Field_Notes_Reverse_Sequence.mp3",
+    "note": "Recording of river-mouth at dusk. When played backward, voices emerge that were not audible forward. Archive position: both versions are canonical."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upstream toward the word-river's mouth where speech still remembers itself",
+      "to": "the-word-river-mouth"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the ocean where all roars have the same voice",
+      "to": "NEW: the-delta-where-roars-lose-their-difference"
+    },
+    {
+      "dir": "w",
+      "label": "back through the confluence where words were still attempting meaning",
+      "to": "the-confluence-where-forgotten-words-converge"
+    },
+    {
+      "dir": "e",
+      "label": "toward the distant listening station that has never reported what it heard",
+      "to": "the-subsonic-listening-dark"
+    }
+  ]
+}

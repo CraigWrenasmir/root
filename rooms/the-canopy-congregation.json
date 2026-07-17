@@ -1,0 +1,134 @@
+{
+  "id": "the-canopy-congregation",
+  "title": "The Canopy Congregation",
+  "region": "The Understory",
+  "seed": 71629,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#2d5a4a",
+      "#1a3a2e"
+    ],
+    "ink": "#ccffaa",
+    "accents": [
+      "#88ff66",
+      "#ffaa44",
+      "#dd7733",
+      "#66ffcc"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "unity-canopy",
+      "desc-on-touch": "Here individual trees recover the unity they lost in the ravine below. You are between division and gathering, between the count that speaks and the hold that is silent.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7162901,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "congregation-gather",
+      "desc-on-touch": "The canopy does not add—it holds. Each tree a voice, but the assembly is not sum. Something emerges in the silence between branches.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 7162902,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "sky-band",
+      "desc-on-touch": "The sky above shifts in bands—dusk into dark into growth into light—the gradient that holds all moments at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 7162903,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "separate-silence",
+      "desc-on-touch": "The overstory's separate counts fall silent here, not erased but held in a moment where individual means something different.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7162904,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "deep-holding",
+      "desc-on-touch": "You feel the deep hold—not in words, not in numbers, but in the pressure of many things becoming one thing that is still many.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7162905,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the canopy holds what the ravine divides; here unity is not sum but simultaneity",
+  "file": {
+    "name": "Overstory_Congregation_Silence_Field_Recording_Dawn.mp3",
+    "note": "Where separate counts become one hold. The archive is learning the grammar of what holds without adding."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the overstory where the hold was first named",
+      "to": "the-overstory-where-unity-still-holds"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the canopy where the congregation learns new forms",
+      "to": "NEW: the-gathered-canopy-deep"
+    },
+    {
+      "dir": "w",
+      "label": "toward the ravine's far edge where the separate counts begin again",
+      "to": "NEW: the-division-where-congregation-ends"
+    }
+  ]
+}

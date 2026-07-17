@@ -1,0 +1,117 @@
+{
+  "id": "the-overstory-where-unity-still-holds",
+  "title": "The Overstory",
+  "region": "The Understory",
+  "seed": 8823614,
+  "palette": {
+    "bg": "#2d5a3d",
+    "ground": [
+      "#c9845d",
+      "#4a7c4e"
+    ],
+    "ink": "#2d3d2a",
+    "accents": [
+      "#8fa866",
+      "#e0a584",
+      "#d4b896",
+      "#6b8e5a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.5
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the standing eucalyptus",
+      "desc-on-touch": "a single tree you can walk beside, not inside. This one has not begun to count against itself. It remains whole the way the ravine below cannot be.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 4521897,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the survey markers",
+      "desc-on-touch": "metal plaques driven into earth. Each one marks the same boundary from different years. The boundary has not moved, but the meaning has.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6734521,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the maintenance shed",
+      "desc-on-touch": "weathered boards. Inside, records of which trees were marked for removal and which were left. The lists conflict. Some trees on both.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 2156439,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the unfinished clearing",
+      "desc-on-touch": "a space where growth was interrupted. Saplings now compete with the stumps they grew from. The clearing never completed itself. The forest never decided to close.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7834216,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the separate counts fall silent for a moment; the overstory doesn't add—it holds. You are between the ravine's division and the canopy's unity",
+  "file": {
+    "name": "Forest_Survey_1987_1989_2003_2014_Compilation_Read_As_Oath.pdf",
+    "note": "forestry records layered transparently: same quadrants assessed across decades, each assessment refusing to complete the assessment before. A covenant written in unfinished sentences."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the ravine where the trees sing their own counts",
+      "to": "the-ravine-bottom-chorus"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the canopy where individual trees begin to recover the unity",
+      "to": "the-canopy-congregation"
+    },
+    {
+      "dir": "e",
+      "label": "along the ridge toward older eucalyptus stands that have kept silent records",
+      "to": "the-weathered-stand"
+    }
+  ]
+}

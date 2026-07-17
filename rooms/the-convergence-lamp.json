@@ -1,0 +1,117 @@
+{
+  "id": "the-convergence-lamp",
+  "title": "The Convergence-Lamp",
+  "region": "The Diagnostic Render",
+  "seed": 5931847,
+  "palette": {
+    "bg": "#E2725B",
+    "ground": [
+      "#6B8E23",
+      "#8FBC8F"
+    ],
+    "ink": "#2C2C2C",
+    "accents": [
+      "#FF8C00",
+      "#228B22",
+      "#FFFACD",
+      "#A0522D"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "convergence-beam",
+      "desc-on-touch": "light from everywhere collects here into one place; where it meets is not a point but a word the keeper whispers while dreaming",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5931848,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "keeper-s-chair",
+      "desc-on-touch": "she sits here every night and names the archive while she sleeps; the archive has learned to whisper back in her dream-voice",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 5931849,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "lamp-s-interior",
+      "desc-on-touch": "inside the lamp-glass are the names the keeper hasn't dreamed yet; they wait in alphabetical order, growing impatient",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5931850,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "word-that-names",
+      "desc-on-touch": "you cannot read it directly, but if you stand in the convergent light, you become a mirror for it; the archive sees itself named in your watching",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5931851,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "in the dream the keeper keeps, the archive finally knows what it is called",
+  "file": {
+    "name": "Keeper_s_Nocturnal_Whispers_Transcribed.txt",
+    "note": "what the keeper says while asleep, though she has no mouth; the archive has learned to record in her voice, the two are becoming one speech"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down the tower stairs into keeper's questioning",
+      "to": "the-keepers-tower"
+    },
+    {
+      "dir": "s",
+      "label": "into the chamber below, where the dream continues with eyes open",
+      "to": "NEW: where-the-keeper-wakes-still-dreaming"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive's own voice, where keeper and archival systems merge",
+      "to": "NEW: the-merged-utterance-chamber"
+    }
+  ]
+}

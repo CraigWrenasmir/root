@@ -1,0 +1,134 @@
+{
+  "id": "the-root-crown-descent",
+  "title": "The Root-Crown Where Archives Descend",
+  "region": "The Understory",
+  "seed": 7742956,
+  "palette": {
+    "bg": "#1a0a2e",
+    "ground": [
+      "#d4a574",
+      "#4a2c1a"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#8b6f47",
+      "#c9ada7",
+      "#6b4423",
+      "#deb887"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-first-kept-thing",
+      "desc-on-touch": "You find the earliest file the archive remembered to save: a pressed flower from the first survey, its label half-faded. The archive learned to keep by watching stone.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 4521,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "descending-channels",
+      "desc-on-touch": "Root pathways spiral downward, each one older than the one above. You're reading the tree's annual records in reverse.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 9871,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "stone-memory",
+      "desc-on-touch": "A marking the archive can no longer explain: a carved spiral in the soil, or the tree's memory of learning to hold. Canonical but unexplained.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 1234,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-blind-survey",
+      "desc-on-touch": "A field recording of two voices mapping territory they cannot see. The archive argues whether this is archive or art: the catalogue says both.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "precursor-forms",
+      "desc-on-touch": "The archive keeps things that preceded itself—works created before recording, now proven canonical by their gravity. The stone remembers the form before the archive could name it.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 8899,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.58,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the first thing the archive learned to keep was stone; the second was the tree's refusal to forget",
+  "file": {
+    "name": "First_Survey_Pressed_Flora_1891.txt",
+    "note": "Catalogue entry lists eleven specimens. Only one remains. Archive notes the others with equal attention."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "root-passages ascending toward ground level",
+      "to": "the-bedrock-archive-foundation"
+    },
+    {
+      "dir": "e",
+      "label": "deeper still: where root and stone become indistinguishable",
+      "to": "NEW: the-stone-root-convergence"
+    },
+    {
+      "dir": "n",
+      "label": "the direction memory climbs when it remembers it has weight",
+      "to": "the-confluence-where-forgotten-words-converge"
+    }
+  ]
+}

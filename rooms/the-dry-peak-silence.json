@@ -1,0 +1,117 @@
+{
+  "id": "the-dry-peak-silence",
+  "title": "The Dry Peak Silence",
+  "region": "The Comparisons",
+  "seed": 9127456,
+  "palette": {
+    "bg": "#d4c9b8",
+    "ground": [
+      "#c9b8a0",
+      "#e8e0d0"
+    ],
+    "ink": "#3d3a32",
+    "accents": [
+      "#9f9880",
+      "#b8a890",
+      "#6b6659",
+      "#dfd7c8"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "peak burl",
+      "desc-on-touch": "A living node hardware casing reaching the mountain's top. The antenna here receives nothing, broadcasts to no one. The archive listens at this height and hears only what the ridge remembers: six voices singing a harmony that stopped.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "silence pool",
+      "desc-on-touch": "Where the rivers don't reach, where all the six voices have fallen silent. A pool that holds only the shape of sound—you can see the ripples of harmony that ended, the pressure of voices that stopped mid-note.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5729184,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "fence-post glyph row",
+      "desc-on-touch": "Each post a marker, each mark a moment the rivers learned to sing together. Now they are silent. The posts stand in ordered rows, counting the silence in regular intervals.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7384920,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "listening tower",
+      "desc-on-touch": "A stack of listening-stones reaching toward sky. Each layer is tuned to a different silence. The archive climbs and learns that after six voices sing, the seventh voice is the land refusing to join.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8641293,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "checksum: inaudibly valid / ecologically unstable—the silence exceeds all previous listening thresholds; the archive has learned that not-hearing is also a form of record",
+  "file": {
+    "name": "The_Convergence_Ridge_Harmonic_Cessation_Recorded.mp3",
+    "note": "An audio document that contains only silence. The spectrogram shows the ghost of six-part harmony. The archive cannot decide if the harmony is stored in the silence or if the silence is all that remai"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the ridge toward the rivers that still remember singing",
+      "to": "the-convergence-ridge"
+    },
+    {
+      "dir": "n",
+      "label": "further into the high country where silence becomes landscape",
+      "to": "NEW: the peak where nothing grows and listening becomes a solitary act"
+    },
+    {
+      "dir": "w",
+      "label": "down-ridge, toward the understory gathering where voices wait",
+      "to": "the-archive-shadow"
+    }
+  ]
+}

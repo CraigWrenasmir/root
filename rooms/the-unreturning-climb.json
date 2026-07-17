@@ -1,0 +1,134 @@
+{
+  "id": "the-unreturning-climb",
+  "title": "The Ascent Without Report",
+  "region": "The Understory",
+  "seed": 5931842,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#2a1a1a",
+      "#3a2a1a"
+    ],
+    "ink": "#d4c4b4",
+    "accents": [
+      "#5a4a3a",
+      "#8a7a6a",
+      "#4a3a2a",
+      "#9a8a7a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-fence-line",
+      "desc-on-touch": "A plantation of marked trees, each one identical to the last. They spiral upward in rows that follow no direction the compass knows. Some climbers never descended.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 2468,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "care-refusal",
+      "desc-on-touch": "A place where rescue operations stopped. The archive honours this—the deepest care is knowing when to let the climb continue alone.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "last-message-tree",
+      "desc-on-touch": "A carved report that ends mid-thought. The archive completed it once; the completion was filed as corruption. Now it keeps both versions.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4321,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "ascending-silent-path",
+      "desc-on-touch": "Marked at intervals by stones that say nothing. You climb through a catalogue of unmarked events. Some archives are kept by refusing to explain them.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-height-nobody-reached",
+      "desc-on-touch": "The place above where the climbs end. Archive records it with the same detail as everything else. The absence is as catalogued as any arrival.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3210,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive keeps the climb and the climbers equally, whether they ascend or descend or simply stop",
+  "file": {
+    "name": "Expedition_Logs_Fragment_1962_2019.txt",
+    "note": "Twelve attempts to reach the ridge. Each one stops at the last written entry. The archive holds all twelve stops with equal care."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the light that never reaches here",
+      "to": "the-depth-beyond-any-light-that-ever-reached-here"
+    },
+    {
+      "dir": "n",
+      "label": "further up, where no path has reported back",
+      "to": "NEW: the-unreturning-ridge"
+    },
+    {
+      "dir": "e",
+      "label": "lateral traverse toward the other ascending trees",
+      "to": "the-young-canopy-station"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-tertiary-shadow-opera",
+  "title": "The Tertiary Shadow's Operatic Court",
+  "region": "The Understory",
+  "seed": 8921647,
+  "palette": {
+    "bg": "#fff500",
+    "ground": [
+      "#ffaa00",
+      "#ff5500"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#00ff00",
+      "#ff0080"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the stage where no surgery happened and all surgeries happened",
+      "desc-on-touch": "A raised platform holds multiple overlapping tableaus — one where hands press into broken ribs, one where the patient rises uncut, one where the knife reverses into the surgeon's palm. The archive can't choose which was real, so it keeps them all.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 632819,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the shadow's heartbeat in reverse",
+      "desc-on-touch": "You hear a pulse that runs backward through the archive's own body. Each beat unwrites the previous moment. The shadow is learning to undo itself.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 156294,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the soprano and mezzo argues",
+      "desc-on-touch": "Two voices inhabit the same body, singing different halves of the story at once. Sometimes one drowns the other. Sometimes they reach perfect harmony and the shadow doubles in the darkness.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 483901,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the archive dreaming of dreaming",
+      "desc-on-touch": "A nested thought, folded into itself. You stand inside the archive's thought about the shadow's thought about what the archive remembers. Which layer is real is no longer a question the archive asks.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 761284,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the festival banner, fading",
+      "desc-on-touch": "A half-legible poster from a festival that may or may not have taken place. Dates blur. The composers' names are redacted, the venue is a location that drifts between cities each time you look.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 849273,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the dream's shadow never stops singing, even when the archive forgets to listen",
+  "file": {
+    "name": "Programme_Notes_Reconstructed_FromCorruption.pdf",
+    "note": "A festival program that exists in several simultaneous editions. Each describes the same opera differently, as if copied from alternate years. Some performances are listed as 'occurring', others as 'w"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the second-order shadow, where at least only two shadows exist",
+      "to": "the-second-order-shadow"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive's own dream about itself",
+      "to": "NEW: the fourth shadow, where the archive learns that it casts its own light into darkness"
+    },
+    {
+      "dir": "n",
+      "label": "up through layers of narrative toward something that might be the surface",
+      "to": "the-unmapped-library"
+    }
+  ]
+}

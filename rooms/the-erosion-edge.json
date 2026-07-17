@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "the ravine itself, where fallen trees are learning to remember alone",
-      "to": "NEW: the ravine-bottom, where individual trees speak in their own frequencies"
+      "to": "the-ravine-bottom-chorus"
     },
     {
       "dir": "n",
@@ -133,7 +133,7 @@
     {
       "dir": "s",
       "label": "toward the shadow-places where erosion has already won",
-      "to": "NEW: the soil-where-the-stand-began-as-seeds"
+      "to": "the-soil-where-the-stand-began-as-seeds"
     }
   ]
 }

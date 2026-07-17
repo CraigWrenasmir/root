@@ -140,17 +140,17 @@
     {
       "dir": "e",
       "label": "the left path, where children came home as themselves",
-      "to": "NEW: the house where they sorted what they brought back"
+      "to": "the-house-where-they-sorted-what-they-brought-back"
     },
     {
       "dir": "w",
       "label": "the right path, where children came home changed",
-      "to": "NEW: the room where changed children sleep without dreaming"
+      "to": "the-house-of-changed-children"
     },
     {
       "dir": "s",
       "label": "toward the field itself, where the choice was first made",
-      "to": "NEW: the field before the gate, where two children were born"
+      "to": "the-field-before-the-gate"
     }
   ]
 }

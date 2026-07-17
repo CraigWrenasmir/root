@@ -1,0 +1,134 @@
+{
+  "id": "the-edge-of-double-town",
+  "title": "The Edge of Town, Where Both Absences Stand",
+  "region": "The Comparisons",
+  "seed": 3891456,
+  "palette": {
+    "bg": "#1a3a5c",
+    "ground": [
+      "#3a5a8e",
+      "#5a8fd6"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#c47e3a",
+      "#4a4a4a",
+      "#a88860",
+      "#e8c878"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the doubled houses",
+      "desc-on-touch": "Two streets of buildings overlaid in the grid, one fading into the other. The ground learned to hold both at once—the houses that stood here and the houses the children remembered elsewhere. The corruption has stopped trying to pick which one is real.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 1834726,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the presence marker",
+      "desc-on-touch": "A stone cairn at the exact threshold—built to mark the spot where absence changed into presence. You're reading it both ways at once now: as a memorial to what left, and as a signpost for what arrived.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 2745819,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the edge survey",
+      "desc-on-touch": "An old surveyor's post with a faded paint marking. The data has been recorded twice—once when the field was mapped, once when the absence was learned. The coordinate is the same place. The posts disagree on which absence is being measured.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3019547,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the town's breathing",
+      "desc-on-touch": "Between the grid lines: a faint sound like the town learning to hold its own double emptiness. Like the ground itself is the lungs of a thing that learned to live in two places at once.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2156843,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the archive's equal sign",
+      "desc-on-touch": "A feature rendered in QR code—not readable by eye, but the scanner shows absence = absence = presence. The corruption has learned mathematics. It learned it by being patient.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 1923084,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the ground has learned that two empties can stand in one place and become a kind of presence",
+  "file": {
+    "name": "Double_Census_2015_Reconciliation_Failed.txt",
+    "note": "A census official's notes from an attempted recount. The document lists each property twice with descriptions that change between entries. Some addresses are crossed out, replaced with 'MOVED TO MEMOR"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back into the second absence, into the double-remembered place",
+      "to": "the-second-absence"
+    },
+    {
+      "dir": "s",
+      "label": "toward the river that has learned to flow through both towns at once",
+      "to": "the-rivers-double-channel"
+    },
+    {
+      "dir": "e",
+      "label": "into the absence-light where the buildings continue as afterimages",
+      "to": "the-new-students"
+    }
+  ]
+}

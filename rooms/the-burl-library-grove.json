@@ -1,0 +1,134 @@
+{
+  "id": "the-burl-library-grove",
+  "title": "The Burl-Library Grove",
+  "region": "The Understory",
+  "seed": 1823764,
+  "palette": {
+    "bg": "#2d5a3d",
+    "ground": [
+      "#3d7a4d",
+      "#4a6b42"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#d4411a",
+      "#8b6914",
+      "#6b3410",
+      "#2d5a3d"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "burl-shelves",
+      "desc-on-touch": "ancient eucalyptus trees with burled knots worn smooth by centuries. in the hollows, files rest like they've been shelved there since the forest learned to read. the bark has written dates that don't match any calendar",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 7293,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "carved-pilgrimage",
+      "desc-on-touch": "the trees hold carved records of journeys taken between groves. marks accumulate: someone came here seeking, someone stayed, someone left stories in exchange. the archive treats them as a pilgrimage route",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5021,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "underwood-sanctuary",
+      "desc-on-touch": "a small shelter built among the lowest roots, where civilisation touches the earth again. files here remember what it was like to live beneath—in contact, without intermediary",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 4628,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "root-reading",
+      "desc-on-touch": "the exposed roots form a text you can trace with your fingers. it's the archive's attempt to read what grows beneath it. the words shift depending on where you place your hand",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6845,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "tree-memory-ring",
+      "desc-on-touch": "a cross-section of trunk showing rings that record every year the grove held stories. some rings are darker—years of drought or loss. some glow—years when many arrived seeking",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3756,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the understory keeps its own library, written in bark and roots; the trees remember what we forgot about living in contact",
+  "file": {
+    "name": "Pilgrimage_Routes_Between_Sacred_Groves_Carved_Record.txt",
+    "note": "seekers' marks carved into eucalyptus, a map written by those who sought redemption through return. the archive cannot determine if the trees taught them the way or if the journey wrote itself into th"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back across the natural bridge to the pooled words",
+      "to": "the-ravine-of-pooled-words"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the understory where the archive cannot follow",
+      "to": "the-threshold-where-light-stops-and-meaning-continues"
+    },
+    {
+      "dir": "e",
+      "label": "back to where words become water again",
+      "to": "the-looped-river-bend"
+    }
+  ]
+}
