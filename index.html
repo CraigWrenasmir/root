@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>ROOT</title>
 <style>
-  html,body{margin:0;padding:0;background:#120c07;height:100%;overflow:hidden}
+  html,body{margin:0;padding:0;background:#120c07;height:100%;overflow:hidden;
+            touch-action:none;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
   #bark{position:fixed;inset:0;z-index:0;pointer-events:none}
   #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;z-index:1}
   canvas{image-rendering:pixelated}
@@ -14,14 +15,14 @@
              user-select:none;-webkit-user-select:none;touch-action:none;z-index:5}
   #pad{left:12px}
   #btns{right:12px;text-align:right}
-  .tb{display:inline-block;font:700 20px 'Menlo','Consolas','Courier New',monospace;
+  .tb{display:inline-block;font:700 22px 'Menlo','Consolas','Courier New',monospace;
       color:#59f2b0;background:rgba(2,10,6,.82);border:1px solid #1d4d33;
-      border-radius:3px;padding:10px 0;text-align:center;margin:2px;
-      width:58px;box-sizing:border-box}
+      border-radius:3px;padding:14px 0;text-align:center;margin:3px;
+      width:66px;box-sizing:border-box}
   .tb:active,.tb.held{background:#123020;color:#d8fff0}
-  .tb.wide{width:122px;font-size:15px;padding:12px 0}
+  .tb.wide{width:140px;font-size:16px;padding:17px 0}
   #pad .row{display:flex}
-  #pad .sp{width:58px;margin:2px;visibility:hidden}
+  #pad .sp{width:66px;margin:3px;visibility:hidden}
 </style>
 </head>
 <body>
@@ -797,6 +798,10 @@ function tryMove(dt){
   if(!dx&&!dy) { stepT = 0; return; }
   if(stepT>0) return;
   stepT = 0.085;
+  attemptStep(dx, dy);
+}
+function attemptStep(dx, dy){
+  if(downloading) return;
   const nx = player.cx+dx, ny = player.cy+dy;
   // exits
   const ex = exitCells[nx+","+ny];
@@ -1118,9 +1123,12 @@ if(IS_TOUCH){
   document.getElementById("btns").style.display = "block";
   for(const el of document.querySelectorAll("#pad [data-k]")){
     const k = el.dataset.k;
+    const STEP = {up:[0,-1], down:[0,1], left:[-1,0], right:[1,0]};
     const down = (e)=>{ e.preventDefault(); if(pressAny()) return;
       if(mode==="files"){ pageFiles(k==="down"||k==="right" ? 1 : -1); return; }
-      el.classList.add("held"); keys[k] = true; };
+      el.classList.add("held"); keys[k] = true;
+      stepT = 0.24;                       // a tap steps once, a hold repeats
+      attemptStep(STEP[k][0], STEP[k][1]); };
     const up = (e)=>{ e.preventDefault(); el.classList.remove("held"); keys[k] = false; };
     el.addEventListener("pointerdown", down);
     el.addEventListener("pointerup", up);
@@ -1139,6 +1147,11 @@ if(IS_TOUCH){
     toggleFiles();
   });
   cv.addEventListener("pointerdown", e=>{ pressAny(); });
+  // no native gestures anywhere: stray taps must never zoom or select
+  document.addEventListener("touchstart", e=>{ e.preventDefault(); }, {passive:false});
+  document.addEventListener("touchend", e=>{ e.preventDefault(); }, {passive:false});
+  document.addEventListener("gesturestart", e=>{ e.preventDefault(); });
+  document.addEventListener("dblclick", e=>{ e.preventDefault(); });
 }
 
 /* ---------- debug handle (headless testing / iteration) ---------- */
