@@ -73,6 +73,41 @@ material filed as civic documents, present-tense observations appearing as
 "ERROR: metaphor detected in storage layer" · "ERROR: archive has exceeded
 witness" · a photo whose contents list a place it could not contain.
 
+CANON (from the novel — draw on these, sparingly, one or two threads per
+node; never dump the list): The casing is a rod transceiver behind a loose
+bark plate, LCD resting screen reading NODE ACTIVE / CONNECT: ROOT-LOCAL /
+ARCHIVE AVAILABLE; batteries good for fifty years, "longer than the motels
+will be standing". Leif diagnosed the mesh through a taped-together 90s
+EyePhone VR headset, the archive rendering as "shifting lines of extended
+drifting ASCII wavelengths", "pastoral scanlines that delivered files".
+The first corruption: Kendall's Bell-Birds, 1869 — UPLOADED "It lives in
+the mountain" / CURRENT "It leaves in the mountain" / DELTA +1 byte /
+CHECKSUM: unchanged. Mesh history the nodes remember: the node under a
+Lions Club picnic table that drew the bomb squad ("no more Lions Clubs");
+the storm crossing the mesh node by node, the first time the network felt
+like one body; the summer the cicadas out-shouted the carrier ("the bush
+has more bandwidth than the archive"); two far-apart nodes exchanging bird
+recordings on their own schedule, children talking to each other instead
+of their parents; the lightning-split tree that sealed its board in amber;
+the dead module that became a wren's nest, eggs resting near residual
+solar warmth; an improved node found in a fig tree in another state,
+maker unknown; a night payphone war-dial where one modem answered — the
+lonely sound of a machine saying: I'm here. Files run to things like
+AlfredHill_StringQuartet5_Allegro.mp3, TomMaguire_Extracts.txt,
+Plate_EucalyptusLeaf_Study_BW.png, Kendall_BellBirds_1869.txt,
+Father_Water.txt, Katita_Apartment.env, Emails_To_Katita.txt, and the
+present-tense /unverified/Blankets_Drying.tmp. The archive's mandate: "a
+canon of works for some /Tomorrow-Australia", "our small town eucalyptus
+version of Voyager's Golden Records… not so it can be rebuilt, but so it
+can be reevaluated". Its sources are the vernacular republic: chalkboards,
+honour boards, pub PA systems, CB handles, motel registers, handwritten
+menus, payphones, local-history pamphlets, railway announcements, taped
+books, microfiche, country radio. Katita's traces: unsigned files in her
+cadence, biro annotations never washed off, primes tapped on a forearm,
+a coordinate-system skirt misrendering. Somewhere deep in the render
+there is said to be an anti-game: you play a fighter in green satin
+shorts whose objective is to avoid every fight and lose correctly.
+
 The register is tender, civic, weathered, faintly comic, quietly haunted.
 Handmade solar-punk, never sleek sci-fi. Never say AI, cyberspace, digital
 realm, or virtual. The dread is old and vegetal: the landscape has begun to
