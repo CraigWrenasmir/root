@@ -1,0 +1,54 @@
+{
+  "id": "service-station-dusk-1993",
+  "title": "NODE 022 — Service Station, Dusk, 1993",
+  "region": "The Comparisons",
+  "seed": 1993,
+  "palette": {
+    "bg": "#170e14",
+    "ground": ["#3a2030", "#54304a"],
+    "ink": "#ffe9d8",
+    "accents": ["#ff9e4f", "#ffd166", "#7cc7ff", "#ff7ab8"]
+  },
+  "ground": { "motif": "tiles", "density": 0.5 },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the forecourt canopy",
+      "desc-on-touch": "The photograph was taken from across the road. You are standing inside the photograph now. The light is exactly the light. It has been dusk here for thirty-three years.",
+      "verb": "open",
+      "form": { "type": "wireframe", "seed": 9911, "size": 3, "colors": [2, 0] },
+      "x": 0.5, "y": 0.38, "solid": true
+    },
+    {
+      "name": "the pumps, sun-warmed",
+      "desc-on-touch": "Warm the way a monitor is warm at the back. The price board shows a number that is also a year.",
+      "verb": "hum",
+      "form": { "type": "tower", "seed": 9922, "size": 2, "colors": [0, 1] },
+      "x": 0.3, "y": 0.6, "solid": true
+    },
+    {
+      "name": "a rack of deliberately outdated maps",
+      "desc-on-touch": "They bought maps that were already wrong on purpose, so the country could still surprise them. One is open to a town that the newer maps agree not to mention.",
+      "verb": "scatter",
+      "form": { "type": "glyph", "seed": 9933, "size": 2, "colors": [1, 3] },
+      "x": 0.72, "y": 0.58, "solid": true
+    },
+    {
+      "name": "the payphone by the air hose",
+      "desc-on-touch": "You still know the number. Your hand knows it. Somewhere forty kilometres away, a modem picks up on the third ring and says its one soft word.",
+      "verb": "torus",
+      "form": { "type": "sprite", "seed": 9944, "size": 2, "colors": [2, 1] },
+      "x": 0.82, "y": 0.36, "solid": true
+    }
+  ],
+  "inscription": "Photo_ServiceStation_Dusk_NSW_1993.jpg → contains: this photograph. contains: the place you downloaded it from",
+  "file": {
+    "name": "Photo_ServiceStation_Dusk_NSW_1993.jpg",
+    "note": "The photo has altered itself to include the place from which it was later downloaded. You appear in it, slightly."
+  },
+  "exits": [
+    { "dir": "w", "label": "the line of casings back to the field", "to": "node-001-the-daisy-field" },
+    { "dir": "n", "label": "the motel sign, buzzing two letters short", "to": "NEW: the motel where Photo_MotelFan_Shadow_1987.jpg was taken — the fan still turning, the shadow no longer attached to it" },
+    { "dir": "e", "label": "the highway at the exact blue of a menu screen", "to": "NEW: a stretch of highway rendered barely-3D, the horizon a blue-grid box like the inside of a Master System case" }
+  ]
+}

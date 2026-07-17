@@ -47,9 +47,9 @@
     "note": "WELCOME TO ROOT. Take what you need. Leave the antenna as you found it. — L & K"
   },
   "exits": [
-    { "dir": "n", "label": "the fire trail toward the river recording", "to": "NEW: the riverbank where River_NSW_1500hrs_Late20thCent.mp3 was recorded, which has started sounding like a motel fan" },
-    { "dir": "e", "label": "a line of casings toward the service station", "to": "NEW: a service station at dusk, 1993, photographed once and now photographing back" },
-    { "dir": "s", "label": "a route worn by downloads", "to": "NEW: the paddock where they war-dialled the farmland and one modem answered" },
-    { "dir": "w", "label": "a route that flickers like a screen", "to": "NEW: the first fully diagnostic interior — a council information kiosk rendering itself from memory" }
+    { "dir": "n", "label": "the fire trail toward the river recording", "to": "the-river-recording" },
+    { "dir": "e", "label": "a line of casings toward the service station", "to": "service-station-dusk-1993" },
+    { "dir": "s", "label": "a route worn by downloads", "to": "the-war-dialled-paddock" },
+    { "dir": "w", "label": "a route that flickers like a screen", "to": "the-council-kiosk" }
   ]
 }

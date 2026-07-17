@@ -3,6 +3,10 @@
   "nights": 1,
   "lastDreamt": "2026-07-17",
   "rooms": [
-    { "id": "node-001-the-daisy-field", "title": "NODE 001 — The Daisy Field", "region": "The Clean Archive" }
+    { "id": "node-001-the-daisy-field", "title": "NODE 001 — The Daisy Field", "region": "The Clean Archive" },
+    { "id": "the-river-recording", "title": "NODE 014 — The River Recording", "region": "The Comparisons" },
+    { "id": "service-station-dusk-1993", "title": "NODE 022 — Service Station, Dusk, 1993", "region": "The Comparisons" },
+    { "id": "the-war-dialled-paddock", "title": "NODE 007 — The War-Dialled Paddock", "region": "The Clean Archive" },
+    { "id": "the-council-kiosk", "title": "RENDER — The Council Information Kiosk", "region": "The Diagnostic Render" }
   ]
 }
