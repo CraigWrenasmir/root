@@ -1,0 +1,10 @@
+featured: The Deeper Mirror (the-deeper-mirror)
+region: The Diagnostic Render · motif: qr
+inscription: surface and reflection have traded places. you are not sure which one you are.
+file: Mirror_Recursion_Depth_Analysis.txt
+
+all nodes tonight:
+  · The Deeper Mirror
+  · The Double-Pool
+  · The Coordinate Grid
+  · The Dark-Knowing Chamber

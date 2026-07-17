@@ -202,6 +202,7 @@ let prevRoom = null, prevDir = null;
 let trans = 0;
 let bootLines = [], bootT = 0;
 let regionCard = null;   // {name, t} — artpack title screen on first entry to a region
+let photoMode = false;   // suppress all UI text for feed photographs
 
 const player = {cx:40, cy:26, step:0};
 const keys = {};
@@ -1032,12 +1033,14 @@ function frame(ts){
     const rc = (T*2|0)%2 ? "#9fe8ff" : "#d8fff0";
     cellText(scr, player.cx, player.cy, "@", rc, "#0d0d0d");
     // door-game status header, top right
-    const hdr = " FILES "+Object.keys(save.files).length+" · READ "+Object.keys(save.visited).length+"/"+(manifest?manifest.rooms.length:"?")+" · 300bps ";
-    text(scr, hdr, COLS-hdr.length-1, 0, "#8fd0a8", "#020a05");
+    if(!photoMode){
+      const hdr = " FILES "+Object.keys(save.files).length+" · READ "+Object.keys(save.visited).length+"/"+(manifest?manifest.rooms.length:"?")+" · 300bps ";
+      text(scr, hdr, COLS-hdr.length-1, 0, "#8fd0a8", "#020a05");
+    }
     // captions
     if(caption){
       caption.t += dt;
-      if(caption.t<5){
+      if(!photoMode && caption.t<5){
         text(scr, " "+caption.title+" ", 2, 0, "#ffffff", "#020a05");
         if(caption.region) text(scr, " "+caption.region+" ", 2, 1, "#4d8b68", "#020a05");
       }
@@ -1065,9 +1068,12 @@ function frame(ts){
 
   // artpack region title screen, over everything
   if(regionCard && mode==="play"){
-    regionCard.t += dt;
-    drawRegionCard();
-    if(regionCard.t > 3.4) regionCard = null;
+    if(photoMode){ regionCard = null; }
+    else {
+      regionCard.t += dt;
+      drawRegionCard();
+      if(regionCard.t > 3.4) regionCard = null;
+    }
   }
 
   // transition: character static wipe
@@ -1159,6 +1165,7 @@ window.DR = {
   player,
   warp(cx, cy){ player.cx = cx|0; player.cy = cy|0; },
   go(id, dir){ loadRoom(id, dir || null); },
+  photo(v){ photoMode = !!v; },
   state(){ return {mode, room: room && room.id, files: Object.keys(save.files)}; }
 };
 
