@@ -128,7 +128,7 @@
     {
       "dir": "e",
       "label": "deeper into the untracked country",
-      "to": "NEW: a place the archive marks as 'unmapped' but suspects contains a full library"
+      "to": "the-unmapped-library"
     }
   ]
 }

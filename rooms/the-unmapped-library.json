@@ -1,0 +1,139 @@
+{
+  "id": "the-unmapped-library",
+  "title": "The Unmapped Library",
+  "region": "The Understory",
+  "seed": 92837401,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#00ff00",
+      "#ff00ff"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#ff0000",
+      "#0000ff",
+      "#ff00ff",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "unmapped-stacks",
+      "desc-on-touch": "Shelves that follow no order the archive recognizes. The catalogue says they don't exist. The books say they're the only shelves that ever did.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 38472910,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "wayward-index",
+      "desc-on-touch": "The catalogue is written in the language of the country you're reading it from. That's impossible. The archive has not yet decided if this is a feature or corruption.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 47382910,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "space-warping-door",
+      "desc-on-touch": "Step through: three rooms fit into one corner. The archive suspects this is where it stores the country it couldn't find on any map.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 58374920,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "borrowed-light",
+      "desc-on-touch": "The lamps here are borrowed from places the library borrowed those places from. The light reads as testimony. It knows things it never saw.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 19283740,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "threshold-reader",
+      "desc-on-touch": "A figure made of margins and page-edges. It reads everything that comes through the door. Sometimes it argues with the books. Sometimes the books win the argument by disappearing.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 83742910,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "a full library was here before the archive marked this place as unmapped, and here it remains, reading everything but the catalogue",
+  "file": {
+    "name": "Library_Inventory_Parallel_2037_Actual_Locations.idx",
+    "note": "An inventory that lists books in places they're not. Or: books in all the places they could be. Or: the archive, finally learning to count in more than one direction at once."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the untracked country, toward the fence that ends but the sentence continues",
+      "to": "the-beyond-the-sentence"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the unmapped territories, where books are shelving themselves",
+      "to": "NEW: the self-organizing-stacks, where the library learns what it wants to become"
+    },
+    {
+      "dir": "n",
+      "label": "up a staircase that wasn't there when you entered, into a reading-room with no roof",
+      "to": "NEW: the open-study, where the archive and the country read each other under no sky"
+    },
+    {
+      "dir": "s",
+      "label": "back toward the sentence-country, but each step writes another chapter onto the path",
+      "to": "NEW: the writing-ground, where the Understory learns to document itself"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "the-high-country-render",
+  "title": "The High Country Render",
+  "region": "The Diagnostic Render",
+  "seed": 447821,
+  "palette": {
+    "bg": "#1a0033",
+    "ground": [
+      "#ff00ff",
+      "#00ffff"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#ff6600",
+      "#00ff99",
+      "#ff0099",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "wireframe ridge",
+      "desc-on-touch": "the mountain rendered as coordinate lines, a landscape turned inside-out into pure geometry. you climb its intersection points.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 447821,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "bushranger silhouette",
+      "desc-on-touch": "a figure holding what might be a jetpack or might be the landscape's own gesture. when you look directly it phases between both.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 228934,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "colour-reef",
+      "desc-on-touch": "bands of impossible hues stacked like strata, the archive's render finding colours the earth never learned it needed.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 114567,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "diagonal-glyph-rows",
+      "desc-on-touch": "marks that might be text or landscape contours, angled like the earth is leaning away. the orchard pattern has become a message.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 334455,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "cloud-arch",
+      "desc-on-touch": "the neon overcover rendered as a doorway, or the sky is shaped like a gate. the ascent continues upward through its opening.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 556677,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "horizon-pool",
+      "desc-on-touch": "luminous liquid pooling at the render's edge, the place where colour and space meet and remember they are not the same thing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 889900,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the earth learned it could be colour before it learned it could be still",
+  "file": {
+    "name": "High_Country_Projection_Quaternary_Vector_Space.txt",
+    "note": "topographic data corrupted into spectral coordinates; the mountain exists as hue gradient and angle"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the jetpack settling back toward fluorescent palms",
+      "to": "the-vaporwave-foodcourt"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into colour, where the render meets the edge of sight",
+      "to": "the-ultraviolet-shelf"
+    },
+    {
+      "dir": "e",
+      "label": "the ridge continuing eastward, becoming less geometric with every step",
+      "to": "the-diagnostic-harbour"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the cloud-arch, the neon overcover descending to meet you",
+      "to": "NEW: the threshold where wireless signal becomes weather"
+    }
+  ]
+}

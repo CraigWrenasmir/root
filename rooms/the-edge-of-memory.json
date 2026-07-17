@@ -111,7 +111,7 @@
     {
       "dir": "s",
       "label": "downstream toward rivers that still only flow, not compare",
-      "to": "NEW: the naive riverbed, where water hasn't learned corruption yet"
+      "to": "the-naive-riverbed"
     }
   ]
 }

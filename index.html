@@ -62,8 +62,9 @@ function hashStr(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt
 
 /* ---------- save ---------- */
 const SAVE_KEY = "root.v1";
-let save = {files:{}, visited:{}, lastRoom:null, sound:true};
+let save = {files:{}, visited:{}, regionsSeen:{}, lastRoom:null, sound:true};
 try{ const s = JSON.parse(localStorage.getItem(SAVE_KEY)); if(s) save = Object.assign(save, s); }catch(e){}
+save.regionsSeen = save.regionsSeen || {};
 function persist(){ try{ localStorage.setItem(SAVE_KEY, JSON.stringify(save)); }catch(e){} }
 
 /* ---------- tiny synth ---------- */
@@ -100,6 +101,7 @@ let mode = "boot";       // boot | play | void | files
 let prevRoom = null, prevDir = null;
 let trans = 0;
 let bootLines = [], bootT = 0;
+let regionCard = null;   // {name, t} — artpack title screen on first entry to a region
 
 const player = {cx:40, cy:26, step:0};
 const keys = {};
@@ -303,6 +305,21 @@ function paintGround(r){
       }
       put(x,y,"o",padC);
     }
+  } else if(motif==="gradient"){
+    // CP437 artpack-header sky: banded colour with ░▒▓ dither seams
+    const c3 = [shade(C(0), -.35), C(0), C(1)];
+    const bandH = Math.max(4, Math.floor(PR/3));
+    for(let y=1;y<PR-1;y++){
+      const bi = Math.min(2, ((y-1)/bandH)|0);
+      for(let x=1;x<COLS-1;x++) putBg(x,y,c3[bi]);
+      const rem = bandH - ((y-1) - bi*bandH);
+      if(bi<2 && rem<=2){
+        for(let x=1;x<COLS-1;x++)
+          if(rnd() < (rem===1?.6:.3)) put(x,y,rem===1?"▒":"░",c3[bi+1]);
+      }
+    }
+    for(let i=0;i<den*40;i++)
+      put(1+(rnd()*(COLS-2)|0), 1+(rnd()*(PR-2)|0), "·", shade(C(1), .4));
   } else { /* scatter */
     for(let i=0;i<den*220;i++)
       put(1+(rnd()*(COLS-2)|0), 1+(rnd()*(PR-2)|0), ".,'·`"[(rnd()*5)|0], C((rnd()*2)|0));
@@ -573,6 +590,11 @@ async function loadRoom(id, enterDir){
     filePos = [fx2, fy2];
   }
   caption = {title:room.title||id, region:room.region||"", insc:room.inscription||"", t:0};
+  if(room.region && !save.regionsSeen[room.region]){
+    save.regionsSeen[room.region] = true; persist();
+    regionCard = {name: room.region, t: 0};
+    handshake();
+  }
   trans = 1;
 }
 function enterVoid(fromDir){
@@ -747,10 +769,12 @@ function startBoot(){
 /* ---------- /ROOT overlay ---------- */
 function drawFilesScreen(t){
   scr.fillStyle = "#010804"; scr.fillRect(0,0,cv.width,cv.height);
-  text(scr, "/ROOT", 3, 1, "#59f2b0");
+  text(scr, "╔"+"═".repeat(COLS-4)+"╗", 1, 0, "#1d4d33");
+  text(scr, "║", 1, 1, "#1d4d33"); text(scr, "║", COLS-2, 1, "#1d4d33");
+  text(scr, "╚"+"═".repeat(COLS-4)+"╝", 1, 2, "#1d4d33");
+  ctext(scr, " /ROOT · PUBLIC ARCHIVE · 300bps · NO CARRIER IS NEVER TRUE ", 1, "#59f2b0", "#010804");
   const read = Object.keys(save.visited).length;
-  text(scr, "STATUS: BEING READ — "+read+" node"+(read===1?"":"s")+" have read you", 3, 3, "#4d8b68");
-  text(scr, "─".repeat(COLS-6), 3, 4, "#1d4d33");
+  text(scr, "STATUS: BEING READ — "+read+" node"+(read===1?"":"s")+" have read you", 3, 4, "#4d8b68");
   const ids = Object.keys(save.files);
   if(!ids.length){
     ctext(scr, "no files downloaded. every node carries one, at 300bps.", 12, "#4d8b68");
@@ -765,6 +789,28 @@ function drawFilesScreen(t){
     });
   }
   if((t*2|0)%2===0) ctext(scr, "[ tab to return ]", ROWS-2, "#2e5c42");
+}
+
+/* ---------- region title screen (artpack header) ---------- */
+function drawRegionCard(){
+  const rnd = mulberry32(hashStr(regionCard.name));
+  const a = accents();
+  const bgc = "#050a06";
+  scr.fillStyle = bgc; scr.fillRect(0,0,cv.width,cv.height);
+  const bands = ["▓","▒","░"," ","░","▒","▓"];
+  const bandH = Math.ceil(ROWS/bands.length);
+  for(let y=0;y<ROWS;y++){
+    const bi = Math.min(bands.length-1, (y/bandH)|0);
+    const c = shade(a[bi%a.length], bi<3 ? -0.45 : -0.2);
+    if(bands[bi]!==" ")
+      for(let x=0;x<COLS;x++)
+        if(rnd()<.9) cellText(scr, x, y, bands[bi], c);
+  }
+  for(let y=14;y<23;y++) for(let x=6;x<COLS-6;x++) cellText(scr, x, y, " ", "#fff", bgc);
+  ctext(scr, "═".repeat(COLS-16), 15, shade(a[0], -.2));
+  ctext(scr, "you have reached", 17, "#7ba88f");
+  ctext(scr, regionCard.name.toUpperCase().split("").join(" "), 19, "#ffd166");
+  ctext(scr, "═".repeat(COLS-16), 21, shade(a[0], -.2));
 }
 
 /* ---------- main loop ---------- */
@@ -864,6 +910,9 @@ function frame(ts){
     // the Reader
     const rc = (T*2|0)%2 ? "#9fe8ff" : "#d8fff0";
     cellText(scr, player.cx, player.cy, "@", rc, "#0d0d0d");
+    // door-game status header, top right
+    const hdr = " FILES "+Object.keys(save.files).length+" · READ "+Object.keys(save.visited).length+"/"+(manifest?manifest.rooms.length:"?")+" · 300bps ";
+    text(scr, hdr, COLS-hdr.length-1, 0, "#8fd0a8", "#020a05");
     // captions
     if(caption){
       caption.t += dt;
@@ -891,6 +940,13 @@ function frame(ts){
     }
   }
 
+  // artpack region title screen, over everything
+  if(regionCard && mode==="play"){
+    regionCard.t += dt;
+    drawRegionCard();
+    if(regionCard.t > 3.4) regionCard = null;
+  }
+
   // transition: character static wipe
   if(trans>0){
     trans -= dt*2.2;
@@ -912,6 +968,7 @@ addEventListener("keydown", e=>{
   if(mode==="boot"){ mode="play"; handshake();
     loadRoom(save.lastRoom && manifest.roomIds[save.lastRoom] ? save.lastRoom : manifest.entry, null);
     e.preventDefault(); return; }
+  if(regionCard){ regionCard = null; e.preventDefault(); return; }
   if(e.code==="Tab"){ mode = (mode==="files") ? "play" : (mode==="play" ? "files" : mode); e.preventDefault(); return; }
   if(mode==="files") return;
   if(e.code==="Space"){ interact(); e.preventDefault(); return; }

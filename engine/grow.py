@@ -25,7 +25,8 @@ MANIFEST = os.path.join(ROOMS, "manifest.json")
 
 VERBS   = ["ripple", "bloom", "scatter", "glitch", "torus", "hum", "open"]
 MOTIFS  = ["grid", "tiles", "ripple", "static", "waves", "circuit", "scatter",
-           "contour", "canopy", "qr", "fields", "roads", "orchard", "board"]
+           "contour", "canopy", "qr", "fields", "roads", "orchard", "board",
+           "gradient"]
 WEATHER = ["none", "drift", "rain", "leaves", "static", "motes"]
 FORMS   = ["sprite", "stack", "tower", "arch", "pool", "glyph",
            "wireframe", "burl", "filecard", "house", "chip"]
@@ -91,7 +92,7 @@ SCHEMA = """Each node is ONE JSON object with EXACTLY these fields:
  "seed": <integer 1..99999999>,
  "palette": {"bg": "#hex", "ground": ["#hex", "#hex"], "ink": "#hex",
              "accents": ["#hex", "#hex", "#hex", "#hex"]},
- "ground": {"motif": "grid|tiles|ripple|static|waves|circuit|scatter|contour|canopy|qr|fields|roads|orchard|board",
+ "ground": {"motif": "grid|tiles|ripple|static|waves|circuit|scatter|contour|canopy|qr|fields|roads|orchard|board|gradient",
             "density": 0.1-1.0},
  "weather": "none|drift|rain|leaves|static|motes",
  "features": [ 3 to 6 of:
@@ -184,6 +185,47 @@ def call_claude(prompt, model):
         return ""
     return r.stdout
 
+SURGI_CONTENT = os.path.expanduser("~/Surgipelago/content")
+SURGI_TX = os.path.expanduser("~/Surgipelago/source/root-transmissions.txt")
+
+def cross_signals(k=3):
+    """Stray signals from the Surgipelago archive, sampled fresh each night."""
+    try:
+        files = [f for f in os.listdir(SURGI_CONTENT) if f.endswith(".md")]
+        random.shuffle(files)
+        out = []
+        for fn in files[:k]:
+            txt = open(os.path.join(SURGI_CONTENT, fn), encoding="utf-8",
+                       errors="replace").read()
+            m = re.search(r"^title:\s*(.+)$", txt, re.M)
+            title = (m.group(1).strip().strip('"') if m else fn[:-3])
+            body = re.sub(r"^---.*?---", "", txt, count=1, flags=re.S)
+            body = re.sub(r"[{\[][^}\]]*[}\]]|#+ ", " ", body)
+            paras = [p.strip() for p in body.split("\n\n") if 80 < len(p.strip()) < 500]
+            snip = random.choice(paras).replace("\n", " ") if paras else ""
+            out.append(f'- from «{title}»: {snip[:260]}')
+        return out
+    except Exception:
+        return []
+
+def transmit(ids):
+    """Write tonight's new nodes back where the neighbouring archive can hear them."""
+    try:
+        if not os.path.isdir(os.path.dirname(SURGI_TX)):
+            return
+        lines = []
+        if os.path.exists(SURGI_TX):
+            lines = [l.rstrip("\n") for l in open(SURGI_TX, encoding="utf-8")]
+        for rid in ids:
+            r = load_room(rid)
+            lines.append(f'«{r["title"]}» — "{r.get("inscription","")}" — '
+                         f'{r.get("file",{}).get("name","")}')
+        with open(SURGI_TX, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines[-200:]) + "\n")
+        print(f"  transmitted {len(ids)} signal(s) toward the neighbouring archive")
+    except Exception as e:
+        sys.stderr.write(f"  ! transmission failed: {e}\n")
+
 STYLE_NUDGES = [
     'motif "fields" on a bright saturated palette — full-bleed colour like a village map',
     'motif "roads" — solid painted bands crossing the node, terracotta on green',
@@ -197,6 +239,7 @@ STYLE_NUDGES = [
     'include a "house" feature or two — built things, sheds, shopfronts',
     'high density, maximal texture — fill the node edge to edge',
     'low density, sparse and airy — a nearly empty node, one strong feature',
+    'motif "gradient" — CP437 artpack-header sky bands, dusk into dark',
 ]
 
 def build_prompt(jobs, manifest):
@@ -204,8 +247,18 @@ def build_prompt(jobs, manifest):
                          for r in manifest["rooms"])
     lines = [WORLD, "", SCHEMA, "",
              "=== EXISTING NODES (you may cross-link to these ids) ===",
-             existing, "",
-             "=== GROW THESE NODES NOW ==="]
+             existing, ""]
+    sig = cross_signals()
+    if sig:
+        lines += ["=== SIGNALS FROM A NEIGHBOURING ARCHIVE (optional contamination) ===",
+                  "Another archive keeps leaking into the mesh: an encyclopedia of the",
+                  "endless adaptations of a novel in which a complicated surgery takes",
+                  "place on a beach. The corruption loves it — it is all comparison.",
+                  "Tonight's stray signals:", *sig,
+                  "At most ONE node tonight may let one signal leak in, glancingly —",
+                  "a filename, a poster on a wall, a phrase misfiled as local history.",
+                  "Never explained. The rest of the nodes must ignore them.", ""]
+    lines += ["=== GROW THESE NODES NOW ==="]
     for i, (pid, _idx, ex) in enumerate(jobs, 1):
         parent = load_room(pid)
         hint = ex["to"][4:].strip()
@@ -423,6 +476,7 @@ def main():
         os.makedirs(os.path.join(ROOT, "logs"), exist_ok=True)
         with open(os.path.join(ROOT, "logs", "last-grown.txt"), "w") as f:
             f.write("\n".join(new_ids) + "\n")
+        transmit(new_ids)
         print(f"night {manifest['nights']}: {written} node(s) grown, "
               f"{len(manifest['rooms'])} total, "
               f"{len(frontier(manifest))} route stubs still open")

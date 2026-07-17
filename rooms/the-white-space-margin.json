@@ -1,0 +1,134 @@
+{
+  "id": "the-white-space-margin",
+  "title": "The White Space",
+  "region": "The Diagnostic Render",
+  "seed": 18374920,
+  "palette": {
+    "bg": "#f5f5f5",
+    "ground": [
+      "#ffffff",
+      "#e8e8e8"
+    ],
+    "ink": "#333333",
+    "accents": [
+      "#dcdcdc",
+      "#a9a9a9",
+      "#696969",
+      "#2f4f4f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.25
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "margin-line",
+      "desc-on-touch": "You stand on the edge where the archive decided it would not write. The foam keeps trying to give you words, but they evaporate before you read them.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 29384751,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "void-passage",
+      "desc-on-touch": "A doorway that is mostly not there. It opens onto a version of this room that is even more empty. And again. And again.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 47382910,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "nearly-invisible form",
+      "desc-on-touch": "Is there something here? You see it only when you're not looking. The archive hasn't decided if this counts as a file.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 83029374,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "foam-shelf",
+      "desc-on-touch": "The shelf is made of the spray that never settles. What you read here might never have been written. What you don't read might have been the only thing that mattered.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 19384756,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "salt-crust",
+      "desc-on-touch": "The ground is crusted with salt from archive-spray. Under it: something that might be text, might be the pattern of reading, might be the space between letters.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 58374910,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "STATUS: GERMINATING—the white space is learning that it doesn't need to be written on to hold meaning",
+  "file": {
+    "name": "Margin_Notes_What_Was_Left_Unsaid.tmp",
+    "note": "A file that knows it's temporary. It documents spaces: the gap between pages, the silence in recordings, the breath before speaking. Already half-corrupted."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back into the foam, where water becomes text becomes water again",
+      "to": "the-overflow-strand"
+    },
+    {
+      "dir": "e",
+      "label": "along the margin, deeper into the white, where even foam stops appearing",
+      "to": "NEW: the unmarked strand, where the archive learns what it never needed to say"
+    },
+    {
+      "dir": "w",
+      "label": "into the interior white, where the foam is coming from inside the archive itself",
+      "to": "NEW: the internal margin, where the archive's own silence gathers"
+    }
+  ]
+}

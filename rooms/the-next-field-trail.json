@@ -1,0 +1,156 @@
+{
+  "id": "the-next-field-trail",
+  "title": "The Next Field",
+  "region": "The Clean Archive",
+  "seed": 558899,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#4a7a4a",
+      "#6a9a6a"
+    ],
+    "ink": "#ccddcc",
+    "accents": [
+      "#88dd88",
+      "#ffccaa",
+      "#99bbaa",
+      "#aaddbb"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "eucalyptus-burl",
+      "desc-on-touch": "a tree with a memory casing nested in its knot, still broadcasting, still waiting. the children walked past it twice and didn't know it was calling them both times.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 558900,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "fence-fragment",
+      "desc-on-touch": "a line of posts, some still upright, some fallen, the boundary between one family's use of the earth and another's. the children crossed it twice.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 669900,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "trail-marker",
+      "desc-on-touch": "where the children's footsteps wear the grass away into a pale line. the mark reads as a name, or a question, or both at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 773344,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.48,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "forgotten-shed",
+      "desc-on-touch": "a structure at the field's far edge, windows reflecting sky, door hanging. the children thought about entering but didn't. the archive is still thinking about what they saw.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 881122,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "rain-pool",
+      "desc-on-touch": "a low place where water collects and the children sometimes stood, watching themselves multiply in the mirror. the pool remembers both versions of them.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 992233,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "stone-arch",
+      "desc-on-touch": "a gate or doorway made of weathered stone, part of a structure long ruined. the children passed through without understanding they were crossing a threshold.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 443355,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "the next field is not empty; it holds the shape of the children who walked into it and never came back out the same",
+  "file": {
+    "name": "Property_Deed_Fragment_And_Sketches_On_Blank_Reverse.jpg",
+    "note": "a land survey corrupted with child drawings: route maps, stick figures, the space between two places rendered as a creature"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the fence-line and neighbour's property toward the original absence",
+      "to": "the-second-absence"
+    },
+    {
+      "dir": "e",
+      "label": "onward to the next neighbour's fence, where the trail continues bleeding into others' land",
+      "to": "NEW: the parallel field, where another set of children are always just leaving"
+    },
+    {
+      "dir": "n",
+      "label": "toward the distant tree line, where the trees are old enough to know what the children forgot",
+      "to": "the-weathered-stand"
+    },
+    {
+      "dir": "s",
+      "label": "back toward town, following the route the children took when they finally decided to leave",
+      "to": "the-turning-point-gate"
+    }
+  ]
+}

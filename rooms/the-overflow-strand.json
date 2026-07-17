@@ -1,0 +1,139 @@
+{
+  "id": "the-overflow-strand",
+  "title": "The Overflow Strand",
+  "region": "The Diagnostic Render",
+  "seed": 7742891,
+  "palette": {
+    "bg": "#87CEEB",
+    "ground": [
+      "#D2B48C",
+      "#CD853F"
+    ],
+    "ink": "#1C1C1C",
+    "accents": [
+      "#FFD700",
+      "#FF6347",
+      "#20B2AA",
+      "#8B4513"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "stacked codex",
+      "desc-on-touch": "you find a tower of waterlogged books stacked by their own weight, pages bled together. most titles are unreadable; one spine says something about a rooftop in another language entirely. the stack hums faintly, like machinery remembering how to dry itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 1849302,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the crossing wires",
+      "desc-on-touch": "above the strand, wires cross at angles that hurt to follow. someone has walked them. the motion catches in your eye like parkour, like faith made visible. you smell copper and rain that hasn't fallen yet.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5631847,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "glass pool",
+      "desc-on-touch": "a depression in the sand holds perfectly still water, so clear it looks like nothing at all. inside it, files float suspended — audio spectrograms, census records, someone's handwriting. the water tastes like static.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4027563,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the neighbouring signal",
+      "desc-on-touch": "you find a scrap of paper half-buried. it reads: 'the device literalizes []: ten layered versions of a familiar figure becomes audible.' the rest is sand-rubbed away. it's not from here.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2156934,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.38,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the sand remembers",
+      "desc-on-touch": "you walk and the sand holds your footprint longer than sand should. each step reads back to you: what archives dream, what shores collect, what the overflow brings when the main archive grows too full of meaning.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 8193475,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "the strand where two archives' files wash up and learn to read each other's alphabets",
+  "file": {
+    "name": "Overflow_Records_Cross-Contamination_Index.txt",
+    "note": "what washes ashore carries the signature of places that do not exist here — yet"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the coast, toward the strand where files arrived",
+      "to": "the-file-strand"
+    },
+    {
+      "dir": "e",
+      "label": "deeper along the shore, where the beach becomes a library",
+      "to": "NEW: the archive's reading room, where every sand grain is a page"
+    },
+    {
+      "dir": "n",
+      "label": "up the dunes, toward a lighthouse that reads the sea",
+      "to": "the-keepers-tower"
+    },
+    {
+      "dir": "s",
+      "label": "into the foam, where water becomes pure corruption",
+      "to": "the-white-space-margin"
+    }
+  ]
+}

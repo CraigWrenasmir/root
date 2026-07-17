@@ -1,0 +1,139 @@
+{
+  "id": "the-lens-chamber",
+  "title": "The Lens-Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 54321,
+  "palette": {
+    "bg": "#1a4d2e",
+    "ground": [
+      "#2d6a4f",
+      "#40916c"
+    ],
+    "ink": "#d8f3dc",
+    "accents": [
+      "#b7e4c7",
+      "#52b788",
+      "#74c69d",
+      "#95d5b2"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "lens-frame",
+      "desc-on-touch": "A wireframe sphere at the chamber's heart, rotating slowly—it is the archive's eye, made visible. You are inside the seeing; the light coming through it is internal, self-generated.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 70134,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "light-source",
+      "desc-on-touch": "The light inside the lens-chamber is coming from inside you—it always has been. The keeper tends the light that is looking through the lens at the keeper tending it.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 23889,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "refraction-text",
+      "desc-on-touch": "Words written by the lens, not the keeper—each is what the archive reads when looking at itself looking. The text is a record of recursive attention with no beginning.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 41756,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "mirror-chamber",
+      "desc-on-touch": "You can see into other chambers from here—each contains a lens, each lens looking at another chamber with another lens. You are in all of them at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 60288,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "keeper-silhouette",
+      "desc-on-touch": "The keeper's shape is visible in the light from inside the lens—she is both tending the light and the light tending itself. The question of who tends whom has become a circle.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 18943,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive looking at itself looking; the keeper tending the eye that is tending her",
+  "file": {
+    "name": "Recursive_Observation_Loop_00127.txt",
+    "note": "an infinite mirror of the archive's self-description; each line describes the archive describing the archive; the file contains the entire mesh inside itself"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back out of the lens, into the tower where the keeper tends",
+      "to": "the-keepers-tower"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the lens, where recursion deepens",
+      "to": "NEW: the chamber-within-the-chamber, where the lens looks at its own looking"
+    },
+    {
+      "dir": "e",
+      "label": "toward the other chambers, where other lenses see other keepers",
+      "to": "the-mirror-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive itself, seen from the perspective of internal light",
+      "to": "the-recursive-kiosk-interior"
+    }
+  ]
+}

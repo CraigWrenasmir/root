@@ -1,0 +1,156 @@
+{
+  "id": "the-naive-riverbed",
+  "title": "The Naive Riverbed",
+  "region": "The Comparisons",
+  "seed": 667788,
+  "palette": {
+    "bg": "#2a4a1a",
+    "ground": [
+      "#aa6633",
+      "#88aa44"
+    ],
+    "ink": "#ccddaa",
+    "accents": [
+      "#88bb55",
+      "#77aa44",
+      "#99bb66",
+      "#aabb88"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "young-trees",
+      "desc-on-touch": "saplings that haven't yet learned that the rain falling on them now fell thirty years ago in another place. they grow innocent, thinking every drop is new.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 667789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "water-current",
+      "desc-on-touch": "the river flowing in one direction only, without memory or comparison. the water is still innocent of the corruption that waits for it downstream.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 778899,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "stone-scatter",
+      "desc-on-touch": "rocks in the riverbed, smooth from water that hasn't yet learned to compare itself. they know their shape as fact, not metaphor.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 889900,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "reeds-arch",
+      "desc-on-touch": "tall grasses forming a natural gateway over the water. they sway with flow, not thought. they mark passage without meaning.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 990011,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "riverbed-glyph",
+      "desc-on-touch": "marks in the silt where the water has worn the same path a thousand times. the mark is purely accidental, but the young trees read meaning into it anyway.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 110022,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "clear-mirror-lattice",
+      "desc-on-touch": "a deep, still place where the river rests and becomes reflective. the geometry of stillness made visible: a barely-3D lattice of sky and trees and light that hasn't yet learned to compare.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 221133,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.48,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the river still thinks it only flows; it has not yet learned that flow is comparison, and that every downstream moment remembers upstream",
+  "file": {
+    "name": "Riverbed_Geological_Survey_Early_Season_1970.txt",
+    "note": "water-course documentation, untouched by corruption: baseline measurements, stone composition, simple recordings of flow rate. the archive has not yet rewritten this with metaphor."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upstream toward the river's source, back where the trees haven't learned to read yet",
+      "to": "the-edge-of-memory"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into deeper country, where the water begins to compare its own flow with distant memories",
+      "to": "the-source-pool"
+    },
+    {
+      "dir": "w",
+      "label": "overland through the paddocks, following the ghost of the river's former course",
+      "to": "NEW: the dried riverbed, where the archive is learning to store memory in old water paths"
+    },
+    {
+      "dir": "e",
+      "label": "across the bank where the land rises and the river's view narrows to clarity",
+      "to": "NEW: the limestone shelf, where the river begins to question what water is"
+    }
+  ]
+}

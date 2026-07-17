@@ -1,0 +1,139 @@
+{
+  "id": "the-new-students",
+  "title": "The New Students",
+  "region": "The Clean Archive",
+  "seed": 2648471,
+  "palette": {
+    "bg": "#87CEEB",
+    "ground": [
+      "#D2B48C",
+      "#CD853F"
+    ],
+    "ink": "#1C1C1C",
+    "accents": [
+      "#228B22",
+      "#DC143C",
+      "#FFD700",
+      "#4169E1"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the teaching circle",
+      "desc-on-touch": "students stand in a circle on the open ground, younger than the ones who first learned here. an older one — perhaps a student from long ago — shows them how falling is the beginning, not the end. the circle reforms every spring; the lesson never changes.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4956812,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the practice slope",
+      "desc-on-touch": "a grassy hillside worn smooth by hundreds of bodies learning to fall safely. each impact leaves a mark that the grass remembers; the slope has become a map of every fall, every moment someone chose to fall rather than flee.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 6173849,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the handed-down tools",
+      "desc-on-touch": "equipment laid out on the ground: leather padding worn to the shape of countless shoulders, wooden dowels for balance, a book of diagrams so old the pages are falling apart — all passed from cohort to cohort. the tools smell like sweat and earth and the specific dust of this ground.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 3827465,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the lineage tree",
+      "desc-on-touch": "a single eucalyptus grows here, its trunk carved with the names of everyone who learned on this ground — the original students, the teachers, the ones who came back to teach the next wave. the tree is the only living archive of the line.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7384921,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the momentum stone",
+      "desc-on-touch": "a single smooth stone at the bottom of the practice slope, polished by the impact of ten thousand falls. it is still warm. touching it, you feel the accumulated trust of every body that chose to fall here, chose to believe the earth would receive them.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5619238,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.53,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "the earth here has learned to receive falling; it knows the sound of a thousand falls; it waits for the next one with the patience of a ground that has become a teacher",
+  "file": {
+    "name": "Fall_Ground_Lineage_Records_Unbroken.mp3",
+    "note": "voices of students across decades, each one learning the same first lesson: the earth is ready to hold you"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the original fall-ground where all the learning began",
+      "to": "the-fall-ground"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the scrub, where students learn to fall in wilderness",
+      "to": "the-scrub-gymnasium"
+    },
+    {
+      "dir": "n",
+      "label": "toward the higher country, where the students eventually go to teach",
+      "to": "NEW: the elder ground, where former students teach what they survived"
+    },
+    {
+      "dir": "s",
+      "label": "toward the creek, where falling becomes water",
+      "to": "the-fall-creek"
+    }
+  ]
+}

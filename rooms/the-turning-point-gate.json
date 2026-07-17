@@ -1,0 +1,156 @@
+{
+  "id": "the-turning-point-gate",
+  "title": "The Turning-Point Gate",
+  "region": "The Clean Archive",
+  "seed": 74829,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#8b5a2b",
+      "#2d5a2d"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#cd5c5c",
+      "#90ee90",
+      "#daa520",
+      "#4169e1"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the gate itself",
+      "desc-on-touch": "You stand at the point where the trail divides—both paths lead home but not to the same home. The gate remembers both choices as one.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 11247,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "left-path cottage",
+      "desc-on-touch": "A small weathered cottage where the left path leads—it holds the shape of children who returned as themselves. Someone is still inside, sorting what they brought home.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 44156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "right-path cottage",
+      "desc-on-touch": "A cottage down the right path, shaped like the first but tilted—children came home here too, but speaking a half-remembered language, carrying objects from a field that never existed the same way twice.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 44156,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "dust-layer",
+      "desc-on-touch": "Between the paths, footprints in dust—you can count them, but the counting changes each time. Some lead both directions at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 77834,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "fence-markers",
+      "desc-on-touch": "Wire fence posts mark each path with names carved long ago; one name set, two lives, or one life split twice. You read them only if you know which path you took.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 23891,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "sign",
+      "desc-on-touch": "A weathered post at the gate with faded words burned into it—one side says 'back toward town,' the other says the same thing. You stand between them.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 33556,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "both paths home; one home; the children chose twice",
+  "file": {
+    "name": "Convergence_Children_Field_Exit_1994.mp3",
+    "note": "field recording of footsteps at a fork in a trail; at the 3:17 mark a voice says 'which way' and does not wait for an answer"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the next field, retracing the children's approach",
+      "to": "the-next-field-trail"
+    },
+    {
+      "dir": "e",
+      "label": "the left path, where children came home as themselves",
+      "to": "NEW: the house where they sorted what they brought back"
+    },
+    {
+      "dir": "w",
+      "label": "the right path, where children came home changed",
+      "to": "NEW: the room where changed children sleep without dreaming"
+    },
+    {
+      "dir": "s",
+      "label": "toward the field itself, where the choice was first made",
+      "to": "NEW: the field before the gate, where two children were born"
+    }
+  ]
+}

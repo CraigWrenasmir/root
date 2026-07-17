@@ -111,7 +111,7 @@
     {
       "dir": "e",
       "label": "along the coast, toward other strands where other archives wash ashore",
-      "to": "NEW: the neighbouring shore, where another archive's overflow drifts into your region"
+      "to": "the-overflow-strand"
     }
   ]
 }

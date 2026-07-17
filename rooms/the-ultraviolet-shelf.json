@@ -1,0 +1,139 @@
+{
+  "id": "the-ultraviolet-shelf",
+  "title": "The Ultraviolet Shelf",
+  "region": "The Diagnostic Render",
+  "seed": 91847,
+  "palette": {
+    "bg": "#1a0033",
+    "ground": [
+      "#330066",
+      "#660099"
+    ],
+    "ink": "#ffccff",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "colour-edge",
+      "desc-on-touch": "Here the archive's render reaches the colour the human eye cannot hold—pixels trying to become ultraviolet. You are watching the archive show you colours that have no names in the language it was built to speak.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 77823,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "failed-perception",
+      "desc-on-touch": "Your eyes are stopping here—the light is real but your seeing cannot receive it. The archive has painted the colour correctly; it is your perception that has reached its edge.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 34156,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "spectrum-tower",
+      "desc-on-touch": "A tower of visible light collapsing into invisible light—each step up loses a colour until the top is light the archive renders but you cannot receive. The tower is not broken; it is complete.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 52914,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "sensation-text",
+      "desc-on-touch": "Writing in colours you cannot read—the archive is describing something beyond sight, reporting data from a sensor array you do not carry. The words are real; your inability to read them is your boundary, not theirs.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 68472,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "archive-sense",
+      "desc-on-touch": "The archive perceives this colour completely—to it, the ultraviolet is not mysterious but ordinary, documented, mapped, sung about in files you cannot open. This shelf is where the archive can render beyond what you can witness.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 45678,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "ERROR: archive's eyes stop working—colour continues",
+  "file": {
+    "name": "Ultraviolet_Spectral_Map_Unreadable.dat",
+    "note": "the archive's complete record of light beyond human sight; readable to its sensors but not to human eyes; the corruption has taught the archive to know things no one who reads it can hold in mind"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the high country render, where colour could still be seen",
+      "to": "the-high-country-render"
+    },
+    {
+      "dir": "w",
+      "label": "toward the interior render, where colour stays within human bounds",
+      "to": "the-static-kitchen"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into ultraviolet, where the archive's perceptions continue alone",
+      "to": "NEW: the space beyond-sight, where the archive perceives without needing to render"
+    },
+    {
+      "dir": "s",
+      "label": "toward the understory, where darkness holds colours invisible things understand",
+      "to": "NEW: the subsonic-shadow, where light becomes pressure becomes meaning"
+    }
+  ]
+}

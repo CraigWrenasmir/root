@@ -1,0 +1,139 @@
+{
+  "id": "the-keepers-tower",
+  "title": "The Keeper's Tower",
+  "region": "The Diagnostic Render",
+  "seed": 74392857,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#ffffff",
+      "#f0e68c"
+    ],
+    "ink": "#fffacd",
+    "accents": [
+      "#ffd700",
+      "#4169e1",
+      "#000000",
+      "#708090"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "sentinel tower",
+      "desc-on-touch": "You climb the spiral, each lamp-glass casting its own archive of light. The tower knows what it holds before you ask.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 19384720,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "lens platform",
+      "desc-on-touch": "You stand on the observation ring. Below: the archive reading itself in the water. Above: the sky, also reading.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 48372019,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "light-archive",
+      "desc-on-touch": "Files are suspended in the beam. Each one casts its own shadow-duplicate on the opposite wall.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 72638491,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "keeper's desk",
+      "desc-on-touch": "The log is written in a hand that changes year to year. This year it says: 'Still counting. Still remembering which file belongs in which beam.'",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 31492857,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "fence-line margin",
+      "desc-on-touch": "The orchard rows blur into distance. Each stake marks a file that needs reading. Some stakes point backward, toward files already kept.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 58274930,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the keeper doesn't know if she's tending the archive or the archive is tending her",
+  "file": {
+    "name": "Keeper_Maintenance_Log_Years_1-8.txt",
+    "note": "Handwritten maintenance schedules, increasingly difficult to distinguish from archive growth notes. Latest entry is two years old."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the dunes, where the foam returns the words you read",
+      "to": "the-overflow-strand"
+    },
+    {
+      "dir": "e",
+      "label": "along the lighthouse-edge, toward a reef that reads like filed text",
+      "to": "NEW: the tidal library where navigation charts become testimony"
+    },
+    {
+      "dir": "w",
+      "label": "into the interior light-chamber, where all beams converge to one word",
+      "to": "NEW: the convergence-lamp, where the keeper dreams the archive's own name"
+    },
+    {
+      "dir": "n",
+      "label": "into the lens-room itself, where the light is coming from inside you",
+      "to": "the-lens-chamber"
+    }
+  ]
+}

@@ -123,12 +123,12 @@
     {
       "dir": "s",
       "label": "toward the river where he learned to float after learning to fall",
-      "to": "NEW: the place where falling becomes water"
+      "to": "the-fall-creek"
     },
     {
       "dir": "w",
       "label": "deeper into the scrub where students still come",
-      "to": "NEW: the current lineage, the next generation still learning to fall"
+      "to": "the-new-students"
     }
   ]
 }

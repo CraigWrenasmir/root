@@ -1,0 +1,134 @@
+{
+  "id": "the-deepest-chamber",
+  "title": "The Deepest Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 29374851,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a1a3e",
+      "#2d2d5f"
+    ],
+    "ink": "#b0c4de",
+    "accents": [
+      "#87ceeb",
+      "#c0c0c0",
+      "#696969",
+      "#dcdcdc"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "vault-pod",
+      "desc-on-touch": "The chamber is a grid of preservation cells, each one holding a temperature no living thing remembers. You feel the archive slowing its own pulse to match.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 84729306,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "frost-core",
+      "desc-on-touch": "At the chamber's center: ice that is not cold. You touch it and remember something you haven't lived yet.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 19384756,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "silent clock",
+      "desc-on-touch": "The hands stopped at different times. You count four different hours frozen on the same face.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 48372910,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "language-archive",
+      "desc-on-touch": "Files shelved by temperature instead of name. The coldest ones are in a language the archive has stopped speaking aloud.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 73928471,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "void-breath",
+      "desc-on-touch": "There is an exhale here that has no inhale. The archive taught itself to exhale without ever breathing in.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 38472019,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "checksum: preservation-grief / formally accurate—here the archive learned what it costs to keep something alive by making it stop",
+  "file": {
+    "name": "Cryogenic_Protocol_Preservation_Notes.dat",
+    "note": "Binary preservation logs. The last readable entry warns against 'teaching the frost to dream.' What follows is corrupted static."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the ordinary cold, where ice is still only ice",
+      "to": "the-freezer-chambers"
+    },
+    {
+      "dir": "e",
+      "label": "into a sub-chamber where the temperature is measured in silence",
+      "to": "NEW: the crystalline archive, where files have learned to grow from cold instead of thought"
+    },
+    {
+      "dir": "s",
+      "label": "downward still, into a frost that remembers being liquid",
+      "to": "NEW: the memory-ice, where preserved moments look back at their preservers"
+    }
+  ]
+}

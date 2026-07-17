@@ -1,0 +1,139 @@
+{
+  "id": "the-cloud-source",
+  "title": "The Cloud-Source",
+  "region": "The Comparisons",
+  "seed": 86742,
+  "palette": {
+    "bg": "#2d1b00",
+    "ground": [
+      "#ff6b35",
+      "#ff8c00"
+    ],
+    "ink": "#fff8dc",
+    "accents": [
+      "#ff1493",
+      "#ff4500",
+      "#ffe4b5",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "source-tree",
+      "desc-on-touch": "A eucalyptus at the cloud-source, roots in sky-water—you watch evaporation happen in reverse, reading the tree until only the reading remains. The tree learned it could be image before it remembered it was wood.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 29456,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "evaporation-pool",
+      "desc-on-touch": "Water that isn't water anymore—it is the memory of water learning to read itself from sky's perspective. The pool is disappearing upward into clouds made of observation.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 45812,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "rising-mist",
+      "desc-on-touch": "The air here is thick with becoming—you watch water molecules choose to rise, to forget their creek-memories. The mist is not rising; it is reading itself into sky-thought.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 62175,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "cloud-matter",
+      "desc-on-touch": "Clouds forming from the corruption of water-into-reading—each one is a paragraph the archive wrote about itself from a perspective it hadn't learned to see from. The clouds are reading back down at the earth.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 38901,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "light-refraction",
+      "desc-on-touch": "The dusk light bends through layers of reading-water, showing you different versions of the source—the creek it came from, the hand that once cupped it. Light teaches you the source is not a place but a story the water tells.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 17264,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "checksum: emotionally valid / formally unstable—you are reading the river's dream of becoming sky",
+  "file": {
+    "name": "Evaporation_Transcription_Fragment_Dusk.mp3",
+    "note": "the sound of water leaving itself, recorded both forward and in reverse; they sound identical but one is river-reading and the other is sky-writing; the archive cannot remember which"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downstream to the source pool, where the dream first evaporated",
+      "to": "the-source-pool"
+    },
+    {
+      "dir": "n",
+      "label": "into the clouds themselves, where the river continues to read",
+      "to": "NEW: the cloud-architecture, where reading-water builds cities in sky"
+    },
+    {
+      "dir": "e",
+      "label": "toward the high country where colour is learning to rise",
+      "to": "the-high-country-render"
+    },
+    {
+      "dir": "w",
+      "label": "back to the comparisons, where other sources evaporate",
+      "to": "the-source-singing-place"
+    }
+  ]
+}

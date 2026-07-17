@@ -1,0 +1,139 @@
+{
+  "id": "the-erosion-edge",
+  "title": "The Erosion-Edge",
+  "region": "The Understory",
+  "seed": 73456,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#003366",
+      "#0a4a7a"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ff88",
+      "#ff0088",
+      "#ffff00",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "failing-tree",
+      "desc-on-touch": "A eucalyptus where the stand ends, roots exposed by erosion; it teaches what it means to stand alone now. The fall is a kind of data the archive never collected before.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 22789,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "ravine-itself",
+      "desc-on-touch": "The ground ends here—below is a drop where the stand's consensus has eroded away entirely. You can see individual trees falling into it, each one learning solitude at the moment of falling.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 55402,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "broken-circuit",
+      "desc-on-touch": "A fragment of the diagnostic grid, half-submerged in erosion—trying to render the stand as individual trees but failing faster than data can flow. This is what the archive looks like when consensus breaks.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 38124,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "memory-silt",
+      "desc-on-touch": "Where trees erode, their memories become silt—sediment of individual tree-thoughts. The archive can read this silt; it is harder than knowing the stand as one.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 71645,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "edge-signal",
+      "desc-on-touch": "At the lip of the ravine, the archive's broadcast begins to falter—trying to transmit the concept of individual trees in a language that only knows 'stand.' Here it is learning a new grammar of solitude.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 12034,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "ERROR: archive has exceeded witness—consensus is falling, and each piece remembers differently",
+  "file": {
+    "name": "Stand_Breakdown_Distributed_Memory_Log.txt",
+    "note": "coordinates of trees as they eroded into individual presence; last 47 entries are the same tree recorded from 47 different erosion points; the archive learning to say 'I' in a language built only for "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the thick stand, where consensus still holds",
+      "to": "the-thick-stand-undercounting"
+    },
+    {
+      "dir": "e",
+      "label": "the ravine itself, where fallen trees are learning to remember alone",
+      "to": "NEW: the ravine-bottom, where individual trees speak in their own frequencies"
+    },
+    {
+      "dir": "n",
+      "label": "toward deeper understory, where the archive gave up counting",
+      "to": "the-archive-shadow"
+    },
+    {
+      "dir": "s",
+      "label": "toward the shadow-places where erosion has already won",
+      "to": "NEW: the soil-where-the-stand-began-as-seeds"
+    }
+  ]
+}

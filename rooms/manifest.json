@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 6,
+  "nights": 10,
   "lastDreamt": "2026-07-17",
   "rooms": [
     {
@@ -162,6 +162,121 @@
       "id": "the-edge-of-memory",
       "title": "Where Trees Haven't Learned to Read",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-overflow-strand",
+      "title": "The Overflow Strand",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-fall-creek",
+      "title": "The Fall Creek",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-convergence-ridge",
+      "title": "The Convergence Ridge",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-second-absence",
+      "title": "The Second Absence",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-new-students",
+      "title": "The New Students",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-high-country-render",
+      "title": "The High Country Render",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-stormwater-civic-body",
+      "title": "The Civic Body Beneath",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-next-field-trail",
+      "title": "The Next Field",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-theorem-room",
+      "title": "The Theorem Room",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-second-order-shadow",
+      "title": "The Second-Order Shadow",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-naive-riverbed",
+      "title": "The Naive Riverbed",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-keepers-tower",
+      "title": "The Keeper's Tower",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deepest-chamber",
+      "title": "The Deepest Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-mirror-chamber",
+      "title": "The Mirror Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-white-space-margin",
+      "title": "The White Space",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-source-singing-place",
+      "title": "The Source-Singing Place",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unmapped-library",
+      "title": "The Unmapped Library",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-turning-point-gate",
+      "title": "The Turning-Point Gate",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-bend-where-river-teaches",
+      "title": "The Bend Where River Teaches",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-erosion-edge",
+      "title": "The Erosion-Edge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cloud-source",
+      "title": "The Cloud-Source",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-lens-chamber",
+      "title": "The Lens-Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ultraviolet-shelf",
+      "title": "The Ultraviolet Shelf",
+      "region": "The Diagnostic Render"
     }
   ]
 }

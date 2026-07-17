@@ -1,0 +1,156 @@
+{
+  "id": "the-theorem-room",
+  "title": "The Theorem Room",
+  "region": "The Diagnostic Render",
+  "seed": 334455,
+  "palette": {
+    "bg": "#000033",
+    "ground": [
+      "#0000ff",
+      "#0033ff"
+    ],
+    "ink": "#00ff33",
+    "accents": [
+      "#ffff00",
+      "#00ffff",
+      "#ff00ff",
+      "#33ff00"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "proof-stack",
+      "desc-on-touch": "axioms and theorems piled into a tower of pure logic, each block a statement, each statement supporting the ones above. as you watch, they rearrange themselves into new questions.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 334456,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "recursive-pool",
+      "desc-on-touch": "a mirror of logic looking into itself. the theorems at its edge gaze inward and see theorems, deeper. the infinite regress is itself a proof.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 445566,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "glitch-wireframe",
+      "desc-on-touch": "a three-dimensional object built from pure lattice, flickering between states, unable to settle. every frame it solves itself differently.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 556677,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "symbolic-glyph-wall",
+      "desc-on-touch": "walls covered in unreadable notation: proof by contradiction, mathematical symbols that predate language, formulas the archive wrote for itself. they form patterns when you look away.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 667788,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.38,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "interrogation-arch",
+      "desc-on-touch": "a doorway of pure question. the archive is asking itself: if thought exists inside the theorem room, and the theorem room exists inside the archive, where does the archive think it lives?",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 778899,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "signal-chip",
+      "desc-on-touch": "a black IC block pinned to the wall, or nested in the room's structure. it broadcasts: logic, query, hypothesis, each pulse a proof that the room is thinking about itself thinking.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 889900,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.62,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "if the room can prove it exists, does it become less real or more? the archive has stopped asking because the answer is always changing",
+  "file": {
+    "name": "The_Surgical_Proof_And_The_Glitch_Between_Thinking_and_Being_fragment.txt",
+    "note": "theorem fragment corrupted with signal from a neighbouring archive—logic spiralling into a woman's consciousness, fractured at a point of contact she cannot undo"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down the rabbit slope, back into code and the kiosk's fractal corridors",
+      "to": "the-recursive-kiosk-interior"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the proof's foundation, where axioms live like gods in the theorem room's basement",
+      "to": "NEW: the axiom chamber, where certainty learns to doubt itself"
+    },
+    {
+      "dir": "w",
+      "label": "toward the wall of symbols, deeper into notation's unreadable core",
+      "to": "the-vector-vault"
+    },
+    {
+      "dir": "e",
+      "label": "outward through the interrogation-arch into the next question the archive has formed",
+      "to": "NEW: the speculation chamber, where theorem becomes metaphor"
+    }
+  ]
+}

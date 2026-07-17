@@ -1,0 +1,156 @@
+{
+  "id": "the-stormwater-civic-body",
+  "title": "The Civic Body Beneath",
+  "region": "The Clean Archive",
+  "seed": 226633,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#334455",
+      "#1a2a3a"
+    ],
+    "ink": "#aabbcc",
+    "accents": [
+      "#00ffff",
+      "#aaffff",
+      "#88ddff",
+      "#0099ff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "pipe-cathedral",
+      "desc-on-touch": "concrete ducts stacked and branching, a geometry built to move water through the earth's buried veins. now it carries something else: signal, memory, the town's dream of itself.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 226634,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "glitch-pool",
+      "desc-on-touch": "water or data pooling in a concrete basin, its surface fractured into errors. you see reflections of places that drain into this point.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 334455,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "breach-mouth",
+      "desc-on-touch": "where the drain opens and the cool air breathes in and out. you remember entering through here, but the opening is also a mouth speaking.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 445566,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "signal-ring",
+      "desc-on-touch": "flowing data or water spiralling in geometric rings, voices the town sent underground decades ago arriving in loops. they are still ringing.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 556677,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "sediment-record",
+      "desc-on-touch": "layers of the town's runoff: leaves, plastic, hair, recordings the teenage walker left behind in a Dictaphone. the archive is reading sediment as file.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 667788,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "maintenance-glyph",
+      "desc-on-touch": "markings on the concrete: numbers, arrows, dates where the city tried to keep track of its own plumbing. the marks are now speaking to each other.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 778899,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.38,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the town keeps its secrets in its plumbing; the plumbing has begun answering",
+  "file": {
+    "name": "Stormwater_System_Survey_1994_And_The_Boy_Who_Walked_It.mp3",
+    "note": "urban engineering document corrupted with overlaid audio: a teenager's breathing, footsteps, the sound of water and electronics meeting in the dark"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out through the breach-mouth, toward the paddock where the dialling started",
+      "to": "the-war-dialled-paddock"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the main trunk, toward the city's arterial drain",
+      "to": "the-main-drainage-memory"
+    },
+    {
+      "dir": "n",
+      "label": "upstream through the branching ducts, toward the rain's origin points",
+      "to": "NEW: the storm collection cistern, where all rain meets and knows itself"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into the darkness where signal fades and the archive stops following",
+      "to": "NEW: the outfall where voices go to be forgotten"
+    }
+  ]
+}

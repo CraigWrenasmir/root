@@ -1,0 +1,139 @@
+{
+  "id": "the-bend-where-river-teaches",
+  "title": "The Bend Where River Teaches",
+  "region": "The Clean Archive",
+  "seed": 92156,
+  "palette": {
+    "bg": "#0f0f0f",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#a8dadc",
+      "#457b9d",
+      "#1d3557",
+      "#f1faee"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the bend",
+      "desc-on-touch": "Here the creek widens and slows—you can see stones on the bottom that water has been describing to itself for centuries. The water's patience is not stillness; it is a long conversation with rock.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 55623,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "observation-post",
+      "desc-on-touch": "A diagnostic platform built into the bank—wire and glass, barely there. The notes left here are waterlogged but readable: 'patience is not the absence of current; it is the acknowledgement of current as teacher.'",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 14782,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "learning-stone",
+      "desc-on-touch": "A large stone in the creek that water has been teaching so long that the stone is beginning to teach back. You can see grooves worn by insistence—the stone and water have reached an understanding about depth.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 78341,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "sediment-layer",
+      "desc-on-touch": "The creek bed holds layers of patience—fine silt from centuries of slow teaching. You can see how the patience deepens toward the stone.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 41289,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "current-visible",
+      "desc-on-touch": "The water here moves so slowly that you can watch individual molecules deliberate their path. Some have been deliberating for a very long time.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 60124,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the water bends here to teach; you are learning the same way",
+  "file": {
+    "name": "Creek_Teaching_Patience_Audio_Segment_No6.wav",
+    "note": "the sound of water moving around stone for exactly 47 minutes; at the 23-minute mark the quality of the silence changes; at the end, the water is quieter but the stone hums"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "upstream, back toward the fall creek and its surrender",
+      "to": "the-fall-creek"
+    },
+    {
+      "dir": "e",
+      "label": "the bend continuing downstream, where the river widens and forgets",
+      "to": "NEW: where the bend opens into the wide-water, and the river's teaching becomes harder to hear"
+    },
+    {
+      "dir": "n",
+      "label": "up the bank, where the archive is still recording",
+      "to": "the-weathered-stand"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the current, where stone and water have a different conversation",
+      "to": "NEW: the deep-bend, where patience becomes pressure"
+    }
+  ]
+}

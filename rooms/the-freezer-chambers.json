@@ -106,12 +106,12 @@
     {
       "dir": "e",
       "label": "into the parallel freezer system",
-      "to": "NEW: a mirror chamber where every file is inverted, where archive's reflections argue with originals"
+      "to": "the-mirror-chamber"
     },
     {
       "dir": "s",
       "label": "down into the frost-core, where ice is not cold",
-      "to": "NEW: the deepest chamber, where preservation became a language the archive speaks to itself"
+      "to": "the-deepest-chamber"
     }
   ]
 }

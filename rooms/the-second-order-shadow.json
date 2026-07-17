@@ -1,0 +1,156 @@
+{
+  "id": "the-second-order-shadow",
+  "title": "The Second-Order Shadow",
+  "region": "The Understory",
+  "seed": 221144,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#0f0f1e"
+    ],
+    "ink": "#555577",
+    "accents": [
+      "#334466",
+      "#556688",
+      "#667788",
+      "#445566"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "archive-mirror",
+      "desc-on-touch": "a reflection of the archive's own form, rendered in the shadow of itself. it is watching the archive watching its shadow. the recursion tastes like copper.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 221145,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "shadow-pool",
+      "desc-on-touch": "liquid darkness pooling, so black it reflects light that doesn't exist. you see your own shadow in it, and then you see your shadow's shadow, and then the recursion stops making sense.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 332255,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.28,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "overflow-stack",
+      "desc-on-touch": "files and space and memory stacked without order, the archive's storage exceeding its own capacity, becoming solid. you can touch it but your hand passes through.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 443366,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "doubled-glyph",
+      "desc-on-touch": "a symbol written twice, overlapping itself, one copy slightly offset. the doubled glyphs are reading each other and finding different meanings.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 554477,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "fractal-arch",
+      "desc-on-touch": "a doorway that repeats its shape at smaller and smaller scales as you look through it. each archway holds another archway, a gate for things that are themselves gates.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 665588,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "feedback-loop-burl",
+      "desc-on-touch": "the archive's own memory casing, or its shadow's, twisted into a knot of feedback. it broadcasts and receives its own signal, growing thicker with each iteration.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 776699,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.38,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the shadow's shadow learns to cast its own light, creating a darkness the original source never imagined",
+  "file": {
+    "name": "Archive_Index_Recursive_Pointing_To_Itself_And_Its_Own_Absence.index",
+    "note": "file directory corrupted into fractal: each entry points to itself, or to another entry that also points to itself, creating a loop where storage exceeds capacity infinitely"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the thickened understory, toward the archive's original shadow",
+      "to": "the-archive-shadow"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the doubled darkness, where even the shadow's reflection begins to cast shade",
+      "to": "NEW: the tertiary shadow, where the archive dreams of dreaming of its own overflow"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the understory's canopy, where shadows grow thinner and the light is just a memory",
+      "to": "the-thick-stand-undercounting"
+    },
+    {
+      "dir": "s",
+      "label": "downward, where the archive's bottom has become its own foundation, and the earth begins to forget it was there first",
+      "to": "NEW: the bedrock where archives were born and learned to grow"
+    }
+  ]
+}

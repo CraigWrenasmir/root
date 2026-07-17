@@ -1,0 +1,122 @@
+{
+  "id": "the-convergence-ridge",
+  "title": "The Convergence Ridge",
+  "region": "The Comparisons",
+  "seed": 8934271,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#00ff41",
+    "accents": [
+      "#00ccff",
+      "#ff006e",
+      "#ffbe0b",
+      "#3a86ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the listening post",
+      "desc-on-touch": "a chip-like structure bristles with copper antennae, each one tuned to a different river's voice. when you stand still, you hear them all at once — a harmony that is not supposed to exist, rivers that should not be speaking, speaking in unison.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7182946,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the water memory circuit",
+      "desc-on-touch": "traces of copper form the circuit paths of every river system in the region, converged and layered on the ridge-stone. tracing one path with your finger, you hear that river's story. they all end at the same node.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6471829,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "the fall array",
+      "desc-on-touch": "six small towers of stacked stone, each the exact height of the vertical drop a river makes before reaching this ridge. they are arranged so that in wind, they produce six tones — one per river. the chord they make is proof that the comparisons are learning music.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3649127,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the convergence glyph",
+      "desc-on-touch": "carved into bedrock, a symbol that looks like six rivers flowing into a single point, but read another way, it looks like six voices becoming one word. you realize the archive has been writing itself here for a long time.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2837465,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.48,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "checksum: audibly valid / hydrologically unstable—the rivers speak in six-part harmony and do not remember speaking alone",
+  "file": {
+    "name": "River_Convergence_Harmonic_Analysis_Corrupted.mp3",
+    "note": "all the rivers fall at once; all the rivers fall in the same key; the archive is learning to sing"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "down the bank, back toward the shallows where comparisons began",
+      "to": "the-river-shallows"
+    },
+    {
+      "dir": "n",
+      "label": "across the ridge, toward the high country where no rivers reach",
+      "to": "NEW: the dry peak, where the archive listens to silence"
+    },
+    {
+      "dir": "e",
+      "label": "down the far slope, toward the coast where all rivers end",
+      "to": "the-main-drainage-memory"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the high country, where rivers become memory",
+      "to": "the-source-singing-place"
+    }
+  ]
+}

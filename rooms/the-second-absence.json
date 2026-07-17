@@ -1,0 +1,156 @@
+{
+  "id": "the-second-absence",
+  "title": "The Second Absence",
+  "region": "The Clean Archive",
+  "seed": 6784921,
+  "palette": {
+    "bg": "#3d5a3d",
+    "ground": [
+      "#556b55",
+      "#7a9d7a"
+    ],
+    "ink": "#d4d4a8",
+    "accents": [
+      "#e8c68c",
+      "#8b6f47",
+      "#c9a876",
+      "#a68968"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the neighbour's fence",
+      "desc-on-touch": "the fence line continues here and stops. at the border, fence posts are carved with more names, more dates — a record of children who crossed, who kept walking, who chose the neighbour's empty instead of home's empty.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4829167,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the continued house",
+      "desc-on-touch": "a building stands here half-built, windows opening onto nothing, a roof that frames only sky. tools lie on the ground — hammers, saws, bent nails. the children came here and stopped building. the house is still waiting.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 5173694,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the tree-memory grove",
+      "desc-on-touch": "trees stand close together here, their bark carved with initials and dates, a forest-archive of every child who played at both absences. the trees remember them; their roots are learning to hold the memory harder each year.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 7451289,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "the repeated stones",
+      "desc-on-touch": "stones arranged in circles, in spirals, in patterns — each one placed by a child trying to make meaning from emptiness. the arrangements repeat across the field; the children were saying the same thing in stone, over and over.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6298471,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the garden that waited",
+      "desc-on-touch": "rows of plants push up through the overgrowth, still organized, still trying to grow what was planted before the children left. the archive wonders if the garden remembers the hand that planted it, or if it has begun to plant itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3856190,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the echo-well",
+      "desc-on-touch": "a dry well still stands, its walls echoing with the voices of children calling to each other across both absences at once. you throw something down and hear two sounds coming back — one from now, one from remembered then.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4720893,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.52,
+      "y": 0.82,
+      "solid": false
+    }
+  ],
+  "inscription": "the children left, found another empty place, and remembered both at once — the ground learned to hold the double absence like a doubled name",
+  "file": {
+    "name": "Neighbour_Property_Children_Records_Palimpsest.txt",
+    "note": "two sets of footprints, two sets of initials, same date range — the children walked in two places at once in memory"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back across the fence line toward the first absence",
+      "to": "the-absent-paddock"
+    },
+    {
+      "dir": "e",
+      "label": "further into the neighbour's property, where other empty places wait",
+      "to": "the-next-field-trail"
+    },
+    {
+      "dir": "n",
+      "label": "toward the scrub where the children went deeper",
+      "to": "the-scrub-gymnasium"
+    },
+    {
+      "dir": "s",
+      "label": "toward the town, where at least the buildings are still standing",
+      "to": "NEW: the edge of town, where absence meets presence"
+    }
+  ]
+}
