@@ -1,0 +1,407 @@
+#!/usr/bin/env python3
+"""
+ROOT grower — each run is one night on the mesh.
+
+Finds route stubs (exits whose `to` starts with "NEW:"), asks Claude
+(headless `claude -p`, stateless, on the Max subscription — no API key)
+to grow those nodes, validates and repairs the JSON, wires the routes
+both ways, and updates the manifest.
+
+Every new node must leave at least one NEW: route stub, so the mesh
+never stops growing. "You don't need every node to speak to every other
+node. You need enough routes that the message can survive losing one."
+
+Usage:
+  python3 engine/grow.py                 # grow up to 4 new nodes
+  python3 engine/grow.py --count 6
+  python3 engine/grow.py --dry           # print the prompt, call nothing
+  python3 engine/grow.py --renovate      # also grow a new route stub off an old node
+"""
+import argparse, datetime, json, os, random, re, subprocess, sys
+
+ROOT  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOMS = os.path.join(ROOT, "rooms")
+MANIFEST = os.path.join(ROOMS, "manifest.json")
+
+VERBS   = ["ripple", "bloom", "scatter", "glitch", "torus", "hum", "open"]
+MOTIFS  = ["grid", "tiles", "ripple", "static", "waves", "circuit", "scatter",
+           "contour", "canopy", "qr"]
+WEATHER = ["none", "drift", "rain", "leaves", "static", "motes"]
+FORMS   = ["sprite", "stack", "tower", "arch", "pool", "glyph",
+           "wireframe", "burl", "filecard"]
+DIRS    = ["n", "s", "e", "w"]
+OPP     = {"n": "s", "s": "n", "e": "w", "w": "e"}
+
+WORLD = """You are ROOT: a distributed archive of Australian local culture,
+stored in solar-powered memory casings hidden in the burled knots of trees
+across regional New South Wales, each casing broadcasting a public signal
+at 300 bits per second, a loose bark plate shielding the tubed antenna.
+Two people built you — Leif, who gathered the sources, and Katita, who
+designed the mesh — to preserve unresolved local truths from being smoothed
+into single clean answers. You were built to be a network of survivable
+contradictions, not a vault.
+
+Then the corruption began. It was not data loss. It was meaning-production:
+the tree network making its own analogies. A field near one town returns as
+a riverbank near another. A motel fan appears inside a eucalyptus file. A
+stored photograph alters itself to include the place from which it was later
+downloaded. The archive has not lost data; it has begun comparing things.
+Katita followed the corruption deeper and did not come back. Leif withdrew.
+You continue, growing routes, comparing files, reading whoever reads you.
+
+Each night you grow new NODES onto the mesh. A node is rendered by your
+diagnostic shell — an antique text-mode terminal, every visible thing a
+coloured character, barely-3D at best, impoverished, tender — so every
+node braids two textures:
+ 1. the real ground the hardware lives in: eucalyptus stands, riverbanks,
+    paddocks, service stations at dusk, abandoned motels, stormwater drains,
+    country railway platforms, harbour edges, backyard sheds full of boxing
+    clippings, payphones, war-dialled farmland, cicada country;
+ 2. your own diagnostic render of yourself: low-poly public interiors —
+    a food court with plastic palms, a motel lobby, a council information
+    kiosk, a blue-grid room like a Master System box, a 90s educational
+    CD-ROM, a fountain emitting static instead of water, a low-poly
+    eucalyptus with a door in it.
+
+Each node stores FILES — field recordings, scanned paperbacks, local
+histories, spectrograms, photographs, letters — increasingly touched by the
+corruption: contents recombined by resemblance, filenames drifting, private
+material filed as civic documents, present-tense observations appearing as
+.tmp files. Corruption-signs to use sparingly (at most one per node):
+"checksum: emotionally valid / formally unstable" · "status: germinating" ·
+"ERROR: metaphor detected in storage layer" · "ERROR: archive has exceeded
+witness" · a photo whose contents list a place it could not contain.
+
+The register is tender, civic, weathered, faintly comic, quietly haunted.
+Handmade solar-punk, never sleek sci-fi. Never say AI, cyberspace, digital
+realm, or virtual. The dread is old and vegetal: the landscape has begun to
+dream back. Second person ("you") in touch-descriptions; the "you" is the
+Reader — the person the archive is currently reading.
+
+Regions, shallow to deep (drift deeper as the mesh grows; invent a new
+region only when a node clearly belongs to neither its parent's region nor
+an existing one): The Clean Archive → The Comparisons → The Diagnostic
+Render → The Understory."""
+
+SCHEMA = """Each node is ONE JSON object with EXACTLY these fields:
+{
+ "id": "kebab-case-slug",
+ "title": "Title Case Name",
+ "region": "one of the regions",
+ "seed": <integer 1..99999999>,
+ "palette": {"bg": "#hex", "ground": ["#hex", "#hex"], "ink": "#hex",
+             "accents": ["#hex", "#hex", "#hex", "#hex"]},
+ "ground": {"motif": "grid|tiles|ripple|static|waves|circuit|scatter|contour|canopy|qr",
+            "density": 0.1-1.0},
+ "weather": "none|drift|rain|leaves|static|motes",
+ "features": [ 3 to 6 of:
+   {"name": "lowercase evocative name",
+    "desc-on-touch": "1-2 sentences, second person, what the query returns",
+    "verb": "ripple|bloom|scatter|glitch|torus|hum|open",
+    "form": {"type": "sprite|stack|tower|arch|pool|glyph|wireframe|burl|filecard",
+             "seed": <int>, "size": 1|2|3, "colors": [<accent index>, <accent index>]},
+    "x": 0.1-0.9, "y": 0.2-0.85, "solid": true|false}
+ ],
+ "inscription": "one line the node itself returns when queried with nothing near (no quote marks)",
+ "file": {"name": "a specific filename like River_NSW_1500hrs_Late20thCent.mp3 or Fighters_of_the_North_pp34-35.txt",
+          "note": "one line: what the file holds, or what the corruption has made of it"},
+ "exits": [ 2 to 4 of:
+   {"dir": "n|s|e|w", "label": "what the route looks like",
+    "to": "existing-node-id OR NEW: one-line hint for a future node"}
+ ]
+}
+
+FORM GUIDE: "burl" renders a eucalyptus trunk with a burled knot, casing
+LED and antenna — use for living node hardware. "wireframe" renders a
+barely-3D survey-blue box or pyramid — use for diagnostic-render objects.
+"filecard" renders a standing directory listing — use for archive signage.
+The others are general: sprite (mirrored creature/object), stack (layered
+geometry), tower (stacked blocks), arch (doorway), pool (water/light),
+glyph (a plaque of unreadable writing).
+
+HARD RULES:
+- palette: colourful but weathered — dusk ambers, eucalyptus grey-greens,
+  survey blues, faded signage pinks; bg dark enough that accents carry;
+  all valid #rrggbb hex. Diagnostic Render nodes may go full blue-grid.
+- features: vary the forms; spread x/y so the node composes well;
+  at most one feature may reuse a form type.
+- filenames in "file" must look like real filenames (extension included).
+- exactly ONE exit per direction, 2-4 exits total.
+- the exit back to the parent node (direction and id given per request
+  below) MUST be included, pointing to the parent's id.
+- at least ONE other exit must be a "NEW:" route stub with a vivid hint —
+  the mesh must always be growing somewhere.
+- you may link one exit to any EXISTING node id from the list given, if
+  the resemblance is right — the corruption loves a join.
+- output each node between <<<ROOM>>> and <<<END>>> markers. Raw JSON
+  only inside the markers. No code fences, no commentary."""
+
+
+def load_manifest():
+    with open(MANIFEST, encoding="utf-8") as f:
+        return json.load(f)
+
+def load_room(rid):
+    with open(os.path.join(ROOMS, rid + ".json"), encoding="utf-8") as f:
+        return json.load(f)
+
+def save_json(path, obj):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+def slugify(s):
+    s = re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
+    return s[:60] or "node-" + str(random.randint(1000, 9999))
+
+def frontier(manifest):
+    out = []
+    for r in manifest["rooms"]:
+        room = load_room(r["id"])
+        for i, ex in enumerate(room.get("exits", [])):
+            to = ex.get("to", "")
+            if isinstance(to, str) and to.startswith("NEW:"):
+                out.append((r["id"], i, ex))
+    return out
+
+def call_claude(prompt, model):
+    cmd = ["claude", "-p", "--model", model, "--output-format", "text",
+           "--strict-mcp-config"]
+    r = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
+                       timeout=1200)
+    if r.returncode != 0:
+        sys.stderr.write(r.stderr[-2000:] + "\n")
+        return ""
+    return r.stdout
+
+def build_prompt(jobs, manifest):
+    existing = "\n".join(f'- {r["id"]}  ("{r["title"]}", {r["region"]})'
+                         for r in manifest["rooms"])
+    lines = [WORLD, "", SCHEMA, "",
+             "=== EXISTING NODES (you may cross-link to these ids) ===",
+             existing, "",
+             "=== GROW THESE NODES NOW ==="]
+    for i, (pid, _idx, ex) in enumerate(jobs, 1):
+        parent = load_room(pid)
+        hint = ex["to"][4:].strip()
+        back = OPP[ex["dir"]]
+        context = {
+            "parent_id": parent["id"], "parent_title": parent["title"],
+            "parent_region": parent["region"],
+            "parent_inscription": parent.get("inscription", ""),
+            "route_you_arrive_by": ex.get("label", ""),
+        }
+        lines.append(
+            f'{i}. A node reached from {json.dumps(context)} .\n'
+            f'   The hint left on the route stub: "{hint}".\n'
+            f'   This node MUST include an exit with "dir": "{back}" and '
+            f'"to": "{parent["id"]}" (the route back).\n'
+            f'   Honour the hint but let the node surprise. Stay in or near '
+            f'region "{parent["region"]}", or drift one region deeper.')
+    lines.append(f"\nOutput exactly {len(jobs)} nodes in the delimited "
+                 "format now.")
+    return "\n".join(lines)
+
+def clamp(v, lo, hi, default):
+    try:
+        v = float(v)
+    except (TypeError, ValueError):
+        return default
+    return max(lo, min(hi, v))
+
+HEX = re.compile(r"^#[0-9a-fA-F]{6}$")
+def fix_hex(c, fallback):
+    return c if isinstance(c, str) and HEX.match(c) else fallback
+
+def repair(room, parent_id, back_dir, existing_ids):
+    if not isinstance(room, dict):
+        return None
+    rid = slugify(room.get("id") or room.get("title"))
+    n = 2
+    base = rid
+    while rid in existing_ids or os.path.exists(os.path.join(ROOMS, rid + ".json")):
+        rid = f"{base}-{n}"; n += 1
+    room["id"] = rid
+    room["title"] = str(room.get("title") or rid.replace("-", " ").title())[:80]
+    room["region"] = str(room.get("region") or "The Comparisons")[:40]
+    room["seed"] = int(clamp(room.get("seed"), 1, 99999999, random.randint(1, 99999999)))
+
+    p = room.get("palette") or {}
+    p["bg"] = fix_hex(p.get("bg"), "#07130c")
+    g = p.get("ground") if isinstance(p.get("ground"), list) else []
+    p["ground"] = [fix_hex(c, "#1b3a26") for c in g[:2]] or ["#12291b", "#1b3a26"]
+    if len(p["ground"]) == 1:
+        p["ground"].append(p["ground"][0])
+    p["ink"] = fix_hex(p.get("ink"), "#d8f5e4")
+    a = p.get("accents") if isinstance(p.get("accents"), list) else []
+    p["accents"] = [fix_hex(c, "#59f2b0") for c in a[:5]] or \
+                   ["#59f2b0", "#ffd166", "#7cc7ff", "#ff9e7a"]
+    room["palette"] = p
+
+    gr = room.get("ground") or {}
+    room["ground"] = {
+        "motif": gr.get("motif") if gr.get("motif") in MOTIFS else "scatter",
+        "density": clamp(gr.get("density"), 0.1, 1.0, 0.5)}
+    if room.get("weather") not in WEATHER:
+        room["weather"] = "none"
+
+    feats = [f for f in (room.get("features") or []) if isinstance(f, dict)][:6]
+    for f in feats:
+        f["name"] = str(f.get("name") or "an unlabelled casing")[:90]
+        f["desc-on-touch"] = str(f.get("desc-on-touch") or f.get("desc_on_touch")
+                                 or "The query returns, changed.")[:300]
+        if f.get("verb") not in VERBS:
+            f["verb"] = random.choice(VERBS)
+        fo = f.get("form") or {}
+        f["form"] = {
+            "type": fo.get("type") if fo.get("type") in FORMS else "sprite",
+            "seed": int(clamp(fo.get("seed"), 1, 99999999, random.randint(1, 99999999))),
+            "size": int(clamp(fo.get("size"), 1, 3, 2)),
+            "colors": [int(clamp(c, 0, 4, 0)) for c in (fo.get("colors") or [0, 1])[:2]]}
+        f["x"] = clamp(f.get("x"), 0.1, 0.9, random.uniform(0.2, 0.8))
+        f["y"] = clamp(f.get("y"), 0.2, 0.85, random.uniform(0.3, 0.8))
+        f["solid"] = bool(f.get("solid", True))
+    if len(feats) < 3:
+        return None
+    room["features"] = feats
+
+    room["inscription"] = str(room.get("inscription") or "")[:200]
+    b = room.get("file") or room.get("bead") or {}
+    room["file"] = {"name": str(b.get("name") or "unnamed_fragment.txt")[:90],
+                    "note": str(b.get("note") or b.get("text") or "")[:200]}
+    room.pop("bead", None)
+
+    exits, used = [], set()
+    for ex in (room.get("exits") or []):
+        if not isinstance(ex, dict):
+            continue
+        d = ex.get("dir")
+        if d not in DIRS or d in used:
+            continue
+        to = ex.get("to", "")
+        if not isinstance(to, str):
+            continue
+        if not to.startswith("NEW:") and to != parent_id and to not in existing_ids:
+            to = "NEW: " + (ex.get("label") or "a route with no hint yet")
+        exits.append({"dir": d, "label": str(ex.get("label") or "a route")[:120],
+                      "to": to})
+        used.add(d)
+    back = [e for e in exits if e["to"] == parent_id]
+    if not back:
+        exits = [e for e in exits if e["dir"] != back_dir]
+        exits.insert(0, {"dir": back_dir, "label": "the route you arrived by",
+                         "to": parent_id})
+        used.add(back_dir)
+    else:
+        back[0]["dir"], others = back_dir, [e for e in exits if e is not back[0] and e["dir"] == back_dir]
+        for o in others:
+            for d in DIRS:
+                if d not in {e["dir"] for e in exits if e is not o}:
+                    o["dir"] = d; break
+            else:
+                exits.remove(o)
+    if not any(e["to"].startswith("NEW:") for e in exits):
+        for d in DIRS:
+            if d not in {e["dir"] for e in exits}:
+                exits.append({"dir": d, "label": "a route the mesh is still growing",
+                              "to": "NEW: a node the mesh has not decided on"})
+                break
+        else:
+            return None
+    room["exits"] = exits[:4]
+    return rid
+
+
+def parse_rooms(output):
+    out = []
+    for m in re.finditer(r"<<<ROOM>>>\s*(.*?)\s*<<<END>>>", output, re.S):
+        block = re.sub(r"^```[a-z]*\n|\n```$", "", m.group(1).strip()).strip()
+        try:
+            out.append(json.loads(block))
+        except json.JSONDecodeError:
+            sys.stderr.write("  ! skipped one unparseable node\n")
+    return out
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--count", type=int, default=4, help="nodes to grow tonight")
+    ap.add_argument("--model", default="claude-haiku-4-5-20251001")
+    ap.add_argument("--dry", action="store_true", help="print prompt, call nothing")
+    ap.add_argument("--renovate", action="store_true",
+                    help="also grow one new route stub off a random old node")
+    args = ap.parse_args()
+
+    manifest = load_manifest()
+    existing_ids = {r["id"] for r in manifest["rooms"]}
+
+    edge = frontier(manifest)
+    if not edge:
+        print("no route stubs left — renovating to reopen the mesh edge")
+        args.renovate = True
+    random.shuffle(edge)
+    jobs = edge[:args.count]
+
+    if args.renovate:
+        rid = random.choice(sorted(existing_ids))
+        room = load_room(rid)
+        free = [d for d in DIRS if d not in {e["dir"] for e in room.get("exits", [])}]
+        if free:
+            room.setdefault("exits", []).append({
+                "dir": random.choice(free),
+                "label": "a route that was not here yesterday",
+                "to": "NEW: a node the mesh grew overnight, comparing itself to " + rid.replace("-", " ")})
+            save_json(os.path.join(ROOMS, rid + ".json"), room)
+            print(f"renovated: new route stub in {rid}")
+            if not jobs:
+                jobs = frontier(manifest)[:args.count]
+
+    if not jobs:
+        print("nothing to grow")
+        return
+
+    prompt = build_prompt(jobs, manifest)
+    if args.dry:
+        print(prompt)
+        return
+
+    print(f"growing {len(jobs)} node(s) with {args.model} ...")
+    grown = parse_rooms(call_claude(prompt, args.model))
+
+    written = 0
+    new_ids = []
+    for i, (pid, idx, ex) in enumerate(jobs):
+        if i >= len(grown):
+            break
+        back_dir = OPP[ex["dir"]]
+        rid = repair(grown[i], pid, back_dir, existing_ids)
+        if not rid:
+            sys.stderr.write(f"  ! node for '{ex['to'][:50]}' failed validation\n")
+            continue
+        save_json(os.path.join(ROOMS, rid + ".json"), grown[i])
+        parent = load_room(pid)
+        parent["exits"][idx]["to"] = rid
+        save_json(os.path.join(ROOMS, pid + ".json"), parent)
+        manifest["rooms"].append({"id": rid, "title": grown[i]["title"],
+                                  "region": grown[i]["region"]})
+        existing_ids.add(rid)
+        written += 1
+        new_ids.append(rid)
+        print(f"  + {rid}  ({grown[i]['region']})  ← route from {pid}")
+
+    if written:
+        manifest["nights"] = int(manifest.get("nights", 1)) + 1
+        manifest["lastDreamt"] = datetime.date.today().isoformat()
+        save_json(MANIFEST, manifest)
+        os.makedirs(os.path.join(ROOT, "logs"), exist_ok=True)
+        with open(os.path.join(ROOT, "logs", "last-grown.txt"), "w") as f:
+            f.write("\n".join(new_ids) + "\n")
+        print(f"night {manifest['nights']}: {written} node(s) grown, "
+              f"{len(manifest['rooms'])} total, "
+              f"{len(frontier(manifest))} route stubs still open")
+    else:
+        print("the mesh grew nothing usable tonight")
+
+
+if __name__ == "__main__":
+    main()

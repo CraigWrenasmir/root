@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROOT</title>
+<style>
+  html,body{margin:0;padding:0;background:#020604;height:100%;overflow:hidden}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  canvas{image-rendering:pixelated}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c"></canvas></div>
+<script>
+"use strict";
+/* ============================================================
+   ROOT — a diagnostic render of the tree archive.
+   Text mode. Everything on this screen is a character.
+   Solar memory casings in the burled knots of trees, a public
+   signal at 300 bits per second. The corruption is not data
+   loss. It is meaning-production. STATUS: BEING READ.
+   Nodes are grown nightly by engine/grow.py.
+   From the ROOT layer of "Their Most August Public Organ"
+   by C. W. Smith — novel.wrenasmir.com
+   ============================================================ */
+
+/* ---------- the terminal ---------- */
+const COLS = 80, ROWS = 36;         // playfield rows 0..33, message rows 34-35
+const PR = ROWS - 2;                // playfield height (border included)
+const CW = 10, CH = 18;
+const FONT = (CH-3)+"px 'Menlo','Consolas','Courier New',monospace";
+const cv = document.getElementById("c");
+cv.width = COLS*CW; cv.height = ROWS*CH;
+const scr = cv.getContext("2d");
+const bgC = document.createElement("canvas");    // pre-rendered static room
+bgC.width = cv.width; bgC.height = cv.height;
+const bctx = bgC.getContext("2d");
+function fit(){
+  const s = Math.min(innerWidth/(COLS*CW), innerHeight/(ROWS*CH));
+  cv.style.width  = (COLS*CW*s)+"px";
+  cv.style.height = (ROWS*CH*s)+"px";
+}
+addEventListener("resize", fit); fit();
+
+function cellText(g, x, y, ch, fg, bg){
+  if(bg){ g.fillStyle = bg; g.fillRect(x*CW, y*CH, CW, CH); }
+  g.fillStyle = fg; g.font = FONT;
+  g.textAlign = "center"; g.textBaseline = "middle";
+  g.fillText(ch, x*CW + CW/2, y*CH + CH/2 + 1);
+}
+function text(g, str, x, y, fg, bg){
+  for(let i=0;i<str.length;i++) cellText(g, x+i, y, str[i], fg, bg);
+}
+function ctext(g, str, y, fg, bg){ text(g, str, Math.round((COLS-str.length)/2), y, fg, bg); }
+
+/* ---------- deterministic PRNG ---------- */
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;
+  let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;
+  return ((t^t>>>14)>>>0)/4294967296;}}
+function hashStr(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
+
+/* ---------- save ---------- */
+const SAVE_KEY = "root.v1";
+let save = {files:{}, visited:{}, lastRoom:null, sound:true};
+try{ const s = JSON.parse(localStorage.getItem(SAVE_KEY)); if(s) save = Object.assign(save, s); }catch(e){}
+function persist(){ try{ localStorage.setItem(SAVE_KEY, JSON.stringify(save)); }catch(e){} }
+
+/* ---------- tiny synth ---------- */
+let AC = null;
+function blip(freq, dur=0.09, type="square", gain=0.03){
+  if(!save.sound) return;
+  try{
+    AC = AC || new (window.AudioContext||window.webkitAudioContext)();
+    const o = AC.createOscillator(), g = AC.createGain();
+    o.type = type; o.frequency.value = freq;
+    g.gain.setValueAtTime(gain, AC.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.0001, AC.currentTime+dur);
+    o.connect(g); g.connect(AC.destination);
+    o.start(); o.stop(AC.currentTime+dur);
+  }catch(e){}
+}
+function handshake(){ [420,480,420,560,640].forEach((f,i)=>setTimeout(()=>blip(f,.07,"square",.02), i*80)); }
+
+/* ---------- world state ---------- */
+let manifest = null;
+let roomCache = {};
+let room = null;         // current node (prepared)
+let base = null;         // {ch,fg,solid} char grids for current node
+let exitCells = {};      // "x,y" -> exit
+let twinkles = [];       // blinking base cells (LEDs, cursors)
+let weatherP = [];
+let roomFx = [];
+let msg = null;          // {lines:[], t, ttl}
+let caption = null;
+let filePos = null;
+let downloading = null;
+let glitchT = 0;
+let mode = "boot";       // boot | play | void | files
+let prevRoom = null, prevDir = null;
+let trans = 0;
+let bootLines = [], bootT = 0;
+
+const player = {cx:40, cy:26, step:0};
+const keys = {};
+const OPP = {n:"s", s:"n", e:"w", w:"e"};
+
+function exitCell(dir){
+  return dir==="n" ? [COLS>>1, 0] : dir==="s" ? [COLS>>1, PR-1]
+       : dir==="w" ? [0, PR>>1] : [COLS-1, PR>>1];
+}
+function spawnFrom(dir){
+  const [x,y] = exitCell(dir);
+  return dir==="n" ? [x, y+2] : dir==="s" ? [x, y-2]
+       : dir==="w" ? [x+2, y] : [x-2, y];
+}
+function accents(){ const a = room && room.palette && room.palette.accents; return (a && a.length) ? a : ["#59f2b0","#ffd166","#7cc7ff"]; }
+
+/* ---------- messages (in-grid, bottom two rows) ---------- */
+function say(lines, ttl=4.6){
+  if(typeof lines === "string") lines = wrap(lines, COLS-6);
+  msg = {lines: lines.slice(0,2), t:0, ttl};
+}
+function wrap(s, w){
+  const words = String(s).split(" "); const out = [""];
+  for(const wd of words){
+    if((out[out.length-1]+" "+wd).trim().length > w) out.push(wd);
+    else out[out.length-1] = (out[out.length-1]+" "+wd).trim();
+  }
+  return out;
+}
+
+/* ---------- base grid helpers ---------- */
+function newBase(){
+  const ch = [], fg = [], solid = [];
+  for(let y=0;y<PR;y++){
+    ch.push(new Array(COLS).fill(" "));
+    fg.push(new Array(COLS).fill("#fff"));
+    solid.push(new Array(COLS).fill(false));
+  }
+  return {ch, fg, solid};
+}
+function put(x, y, c, col, sol){
+  x|=0; y|=0;
+  if(x<0||x>=COLS||y<0||y>=PR) return;
+  base.ch[y][x] = c; base.fg[y][x] = col;
+  if(sol!==undefined) base.solid[y][x] = sol;
+}
+function putStr(x, y, s, col, sol){ for(let i=0;i<s.length;i++) put(x+i, y, s[i], col, sol); }
+
+/* ---------- ground motifs (character textures) ---------- */
+function paintGround(r){
+  const g = r.ground || {};
+  const rnd = mulberry32((r.seed||1) ^ 0x9E3779B9);
+  const gc = (r.palette && r.palette.ground && r.palette.ground.length) ? r.palette.ground : ["#12291b","#1b3a26"];
+  const den = Math.min(1, Math.max(0.1, g.density==null?0.5:g.density));
+  const motif = g.motif || "scatter";
+  const C = (i)=>gc[i%gc.length];
+  if(motif==="grid"){
+    const step = Math.round(12 - den*5);
+    for(let y=1;y<PR-1;y++) for(let x=1;x<COLS-1;x++){
+      const gx = x%step===0, gy = y%(step>>1)===0;
+      if(gx&&gy) put(x,y,"┼",C(0));
+      else if(gx) put(x,y,"│",C(0));
+      else if(gy) put(x,y,"─",C(0));
+    }
+  } else if(motif==="tiles"){
+    for(let y=1;y<PR-1;y++) for(let x=1;x<COLS-1;x++){
+      if(((x/6|0)+(y/3|0))%2===0 && rnd()<den) put(x,y,"░",C((x/6|0)%2));
+    }
+  } else if(motif==="qr"){
+    // dense block noise in patches — the archive as texture
+    const patches = 3+den*5;
+    for(let p=0;p<patches;p++){
+      const px = 2+(rnd()*(COLS-14)|0), py = 2+(rnd()*(PR-10)|0);
+      const pw = 4+(rnd()*10|0), ph = 2+(rnd()*5|0);
+      for(let y=py;y<py+ph&&y<PR-1;y++) for(let x=px;x<px+pw&&x<COLS-1;x++)
+        if(rnd()<.75) put(x,y,"█▀▄▌▐░"[(rnd()*6)|0],C((rnd()*2)|0));
+    }
+  } else if(motif==="contour"){
+    for(let i=0;i<3+den*5;i++){
+      let y0 = 2+rnd()*(PR-4);
+      for(let x=1;x<COLS-1;x++){
+        const y = Math.round(y0 + Math.sin(x/9+i*2.1)*3.5 + Math.sin(x/3.4+i)*0.9);
+        if(y>0&&y<PR-1) put(x,y,rnd()<.85?"~":"≈",C(i%2));
+      }
+    }
+  } else if(motif==="canopy"){
+    for(let i=0;i<den*90;i++){
+      const x = 1+(rnd()*(COLS-2)|0), y = 1+(rnd()*(PR-2)|0);
+      const c = "  ''..``,;"[(rnd()*10)|0];
+      if(c!==" ") put(x,y,c,C((rnd()*2)|0));
+      if(rnd()<.25) put(x+1,y,"▒",C(1));
+    }
+  } else if(motif==="static"){
+    for(let i=0;i<den*900;i++)
+      put(1+(rnd()*(COLS-2)|0), 1+(rnd()*(PR-2)|0), "·░▒:"[(rnd()*4)|0], C((rnd()*2)|0));
+  } else if(motif==="waves"){
+    for(let y=2;y<PR-2;y+=Math.round(4-den*1.5))
+      for(let x=1;x<COLS-1;x++)
+        if((x+y)%2===0) put(x,y,"~≈"[(y/2|0)%2],C((y/4|0)%2));
+  } else if(motif==="circuit"){
+    for(let i=0;i<den*14;i++){
+      let x=2+(rnd()*(COLS-4)|0), y=2+(rnd()*(PR-4)|0);
+      for(let s2=0;s2<3;s2++){
+        const horiz = rnd()<.5, len = 3+(rnd()*10|0), sgn = rnd()<.5?-1:1;
+        for(let k=0;k<len;k++){
+          if(horiz){ x+=sgn; put(x,y,"─",C(0)); } else { y+=sgn; put(x,y,"│",C(0)); }
+          if(x<2||x>COLS-3||y<2||y>PR-3) break;
+        }
+        put(x,y,"┼",C(1));
+      }
+      put(x,y,"▪",C(1));
+    }
+  } else if(motif==="ripple"){
+    const cx = 10+(rnd()*(COLS-20)|0), cy = 5+(rnd()*(PR-10)|0);
+    for(let y=1;y<PR-1;y++) for(let x=1;x<COLS-1;x++){
+      const d = Math.round(Math.hypot((x-cx)/2, y-cy));
+      if(d>0 && d%3===0) put(x,y,"·∙"[(d/3|0)%2],C((d/3|0)%2));
+    }
+  } else { /* scatter */
+    for(let i=0;i<den*220;i++)
+      put(1+(rnd()*(COLS-2)|0), 1+(rnd()*(PR-2)|0), ".,'·`"[(rnd()*5)|0], C((rnd()*2)|0));
+  }
+}
+
+/* ---------- border & routes ---------- */
+function paintBorder(r){
+  const dim = (r.palette && r.palette.ground && r.palette.ground[1]) || "#1b3a26";
+  for(let x=0;x<COLS;x++){ put(x,0,"─",dim,true); put(x,PR-1,"─",dim,true); }
+  for(let y=0;y<PR;y++){ put(0,y,"│",dim,true); put(COLS-1,y,"│",dim,true); }
+  put(0,0,"┌",dim,true); put(COLS-1,0,"┐",dim,true);
+  put(0,PR-1,"└",dim,true); put(COLS-1,PR-1,"┘",dim,true);
+  exitCells = {};
+  for(const ex of (r.exits||[])){
+    const [x,y] = exitCell(ex.dir);
+    const open = typeof ex.to==="string" && !ex.to.startsWith("NEW:") && manifest.roomIds[ex.to];
+    const horiz = ex.dir==="n"||ex.dir==="s";
+    for(let k=-2;k<=2;k++){
+      const gx = horiz? x+k : x, gy = horiz? y : y+k;
+      put(gx, gy, " ", "#000", !open && Math.abs(k)>0 ? false : false);
+      exitCells[gx+","+gy] = ex;
+    }
+    ex._open = open;
+    ex._cx = x; ex._cy = y;
+  }
+}
+
+/* ---------- ASCII pieces (forms) ---------- */
+function stampSprite(f, rnd){
+  const hw = 2+(rnd()*3|0), hh = 2+(rnd()*3|0);
+  const chars = "▓▒░█▄▀•";
+  const x0 = f._cx, y0 = f._cy;
+  for(let y=0;y<hh;y++) for(let x=0;x<hw;x++){
+    if(rnd()<0.55){
+      const c = chars[(rnd()*chars.length)|0], col = f._cols[(rnd()*f._cols.length)|0];
+      put(x0+x, y0-hh+1+y, c, col, true);
+      put(x0-1-x, y0-hh+1+y, c, col, true);
+    }
+  }
+  f._bbox = [x0-hw-1, y0-hh, x0+hw, y0+1];
+}
+function stampStack(f, rnd){
+  const n = 2+(rnd()*3|0);
+  const x0 = f._cx, y0 = f._cy;
+  let w = 4+(rnd()*6|0);
+  for(let i=0;i<n;i++){
+    const col = f._cols[(rnd()*f._cols.length)|0];
+    const y = y0-i*2;
+    const kind = (rnd()*4)|0;
+    if(kind===0){ putStr(x0-(w>>1), y, "("+"═".repeat(Math.max(1,w-2))+")", col, true); }
+    else if(kind===1){ putStr(x0-(w>>1), y, "<"+"≡".repeat(Math.max(1,w-2))+">", col, true); }
+    else if(kind===2){ put(x0-(w>>1),y,"/",col,true); putStr(x0-(w>>1)+1,y,"▔".repeat(Math.max(1,w-2)),col,true); put(x0+(w>>1),y,"\\",col,true); }
+    else { putStr(x0-(w>>1), y, "["+"▒".repeat(Math.max(1,w-2))+"]", col, true); }
+    w = Math.max(2, w-2);
+  }
+  f._bbox = [x0-5, y0-n*2, x0+5, y0+1];
+}
+function stampTower(f, rnd){
+  const x0 = f._cx, y0 = f._cy;
+  const h = 4+(rnd()*4|0);
+  let w = 5+(rnd()*4|0);
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length];
+  for(let i=0;i<h;i++){
+    const y = y0-i;
+    if(i===h-1){ putStr(x0-(w>>1), y, "╔"+"═".repeat(w-2)+"╗", c0, true); }
+    else {
+      put(x0-(w>>1), y, "║", c0, true); put(x0+(w>>1), y, "║", c0, true);
+      for(let k=1;k<w-1;k++) put(x0-(w>>1)+k, y, rnd()<.4?"▪":" ", c1, true);
+    }
+    if(i>0 && i%3===0) w = Math.max(3, w-2);
+  }
+  f._bbox = [x0-5, y0-h, x0+5, y0+1];
+}
+function stampArch(f, rnd){
+  const x0 = f._cx, y0 = f._cy;
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length];
+  const w = 7, h = 5;
+  putStr(x0-(w>>1), y0-h, "╔"+"═".repeat(w-2)+"╗", c1, true);
+  for(let i=1;i<h;i++){
+    put(x0-(w>>1), y0-h+i, "║", c1, true);
+    put(x0+(w>>1), y0-h+i, "║", c1, true);
+    for(let k=1;k<w-1;k++) put(x0-(w>>1)+k, y0-h+i, "▒", c0, i===h-1?false:true);
+  }
+  f._bbox = [x0-(w>>1)-1, y0-h, x0+(w>>1)+1, y0+1];
+}
+function stampPool(f, rnd){
+  const x0 = f._cx, y0 = f._cy;
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length];
+  const rx = 5+(rnd()*3|0);
+  for(let dy=-1;dy<=1;dy++){
+    const w = Math.round(rx*Math.sqrt(1-(dy*dy)/2.2));
+    for(let dx=-w;dx<=w;dx++)
+      put(x0+dx, y0+dy, Math.abs(dx)===w ? "(" : "≈~"[(dx+dy+10)%2], Math.abs(dx)===w?c1:c0, false);
+    put(x0+ (dy===0?rx:0), y0+dy, dy===0?")":"≈", c1, false);
+  }
+  f._bbox = [x0-rx-1, y0-2, x0+rx+1, y0+2];
+}
+function stampGlyph(f, rnd){
+  const x0 = f._cx, y0 = f._cy;
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length];
+  const w = 12, h = 4;
+  putStr(x0-(w>>1), y0-h, "┌"+"─".repeat(w-2)+"┐", c0, true);
+  for(let i=1;i<h;i++){
+    put(x0-(w>>1), y0-h+i, "│", c0, true); put(x0+(w>>1)-1, y0-h+i, "│", c0, true);
+    let s = "";
+    for(let k=0;k<w-3;k++) s += rnd()<.6 ? "¬°∙·─≡"[(rnd()*6)|0] : " ";
+    putStr(x0-(w>>1)+1, y0-h+i, s, c1, true);
+  }
+  putStr(x0-(w>>1), y0, "└"+"─".repeat(w-2)+"┘", c0, true);
+  f._bbox = [x0-(w>>1)-1, y0-h, x0+(w>>1)+1, y0+1];
+}
+function stampWireframe(f, rnd){
+  // barely-3D: a survey-blue box with a false face behind it
+  const x0 = f._cx, y0 = f._cy;
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length];
+  const w = 6+(rnd()*5|0), h = 3+(rnd()*3|0), d = 2;
+  putStr(x0-(w>>1)+d, y0-h-d, "┌"+"─".repeat(w-2)+"┐", c1, true);
+  for(let i=1;i<h;i++){
+    put(x0-(w>>1)+d, y0-h-d+i, "│", c1, true);
+    put(x0+(w>>1)+d-1, y0-h-d+i, "│", c1, true);
+  }
+  putStr(x0-(w>>1), y0-h, "┌"+"─".repeat(w-2)+"┐", c0, true);
+  for(let i=1;i<h;i++){
+    put(x0-(w>>1), y0-h+i, "│", c0, true);
+    put(x0+(w>>1)-1, y0-h+i, "│", c0, true);
+  }
+  putStr(x0-(w>>1), y0, "└"+"─".repeat(w-2)+"┘", c0, true);
+  put(x0-(w>>1)+1, y0-h-1, "/", c1, true);
+  put(x0+(w>>1), y0-h-1, "/", c1, true);
+  put(x0-(w>>1)+1, y0-1, "/", c1, true);
+  put(x0+(w>>1), y0-1, "/", c1, true);
+  f._bbox = [x0-(w>>1)-1, y0-h-d-1, x0+(w>>1)+d+1, y0+1];
+}
+function stampBurl(f, rnd){
+  // eucalyptus with a burled knot: casing LED, bark plate, tubed antenna
+  const x0 = f._cx, y0 = f._cy;
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length], c2 = f._cols[2%f._cols.length];
+  const h = 7+(rnd()*4|0);
+  for(let i=0;i<h;i++){
+    put(x0, y0-i, "║", c0, true);
+    if(rnd()<.4) put(x0+(rnd()<.5?-1:1), y0-i, ")", c0, true);
+  }
+  // canopy
+  for(let i=0;i<14;i++){
+    const dx = (rnd()*9|0)-4, dy = -(h+(rnd()*3|0));
+    put(x0+dx, y0+dy, "♠♣▒░"[(rnd()*4)|0], rnd()<.7?c1:c0, false);
+  }
+  // burl + casing
+  const by = y0-(h*0.5|0);
+  put(x0+1, by, "▓", c0, true);
+  put(x0+2, by, "▐", c0, true);
+  twinkles.push({x:x0+2, y:by-1, chars:"•·", col:c2, rate:1.6});
+  put(x0+3, by-2, "/", c2, true);   // antenna
+  f._bbox = [x0-5, y0-h-3, x0+4, y0+1];
+}
+function stampFilecard(f, rnd){
+  // a standing directory listing, ZZT-signage style
+  const x0 = f._cx, y0 = f._cy;
+  const c0 = f._cols[0], c1 = f._cols[1%f._cols.length], c2 = f._cols[2%f._cols.length];
+  const w = 16, h = 6;
+  putStr(x0-(w>>1), y0-h, "╔"+"═".repeat(w-2)+"╗", c0, true);
+  putStr(x0-(w>>1), y0-h+1, "║/ROOT"+" ".repeat(w-8)+"║", c0, true);
+  for(let i=2;i<h;i++){
+    put(x0-(w>>1), y0-h+i, "║", c0, true); put(x0+(w>>1)-1, y0-h+i, "║", c0, true);
+    let s = " ";
+    const len = 2+(rnd()*(w-6)|0);
+    for(let k=0;k<len;k++) s += "·∙─"[(rnd()*3)|0];
+    putStr(x0-(w>>1)+1, y0-h+i, s.padEnd(w-2," "), c1, true);
+  }
+  putStr(x0-(w>>1), y0, "╚"+"═".repeat(w-2)+"╝", c0, true);
+  twinkles.push({x:x0+(w>>1)-3, y:y0-1, chars:"▌ ", col:c2, rate:2.2});
+  f._bbox = [x0-(w>>1)-1, y0-h, x0+(w>>1)+1, y0+1];
+}
+const STAMPS = {sprite:stampSprite, stack:stampStack, tower:stampTower, arch:stampArch,
+                pool:stampPool, glyph:stampGlyph, wireframe:stampWireframe,
+                burl:stampBurl, filecard:stampFilecard};
+
+/* ---------- room build ---------- */
+function prepRoom(r){
+  const a = (r.palette && r.palette.accents && r.palette.accents.length) ? r.palette.accents : ["#59f2b0","#ffd166","#7cc7ff"];
+  (r.features||[]).forEach((f,i)=>{
+    f._cx = Math.round(Math.min(.92,Math.max(.08,f.x==null?.5:f.x))*COLS);
+    f._cy = Math.round(Math.min(.90,Math.max(.16,f.y==null?.5:f.y))*PR);
+    f._seed = (r.seed||1) ^ hashStr(f.name||("f"+i));
+    const ci = (f.form && f.form.colors) || null;
+    f._cols = ci ? ci.map(j=>a[Math.abs(j)%a.length]) : a;
+    if(!f.form) f.form = {type:"sprite", seed:f._seed, size:2};
+    if(!STAMPS[f.form.type]) f.form.type = "sprite";
+  });
+  return r;
+}
+function buildRoom(r){
+  base = newBase(); twinkles = [];
+  paintGround(r);
+  for(const f of (r.features||[]).slice().sort((p,q)=>p._cy-q._cy))
+    STAMPS[f.form.type](f, mulberry32(f.form.seed||f._seed));
+  paintBorder(r);
+  // pre-render static layer
+  bctx.fillStyle = (r.palette && r.palette.bg) || "#07130c";
+  bctx.fillRect(0,0,bgC.width,bgC.height);
+  for(let y=0;y<PR;y++) for(let x=0;x<COLS;x++)
+    if(base.ch[y][x] !== " ") cellText(bctx, x, y, base.ch[y][x], base.fg[y][x]);
+}
+
+/* ---------- room loading ---------- */
+async function fetchJSON(path){
+  const r = await fetch(path, {cache:"no-store"});
+  if(!r.ok) throw new Error(path+" → "+r.status);
+  return r.json();
+}
+async function loadRoom(id, enterDir){
+  let r = roomCache[id];
+  if(!r){
+    try{ r = prepRoom(await fetchJSON("rooms/"+id+".json")); roomCache[id]=r; }
+    catch(e){ enterVoid(enterDir); return; }
+  }
+  room = r; mode = "play";
+  buildRoom(room); initWeather();
+  roomFx = []; downloading = null; glitchT = 0;
+  const [sx,sy] = enterDir ? spawnFrom(enterDir) : [COLS>>1, PR-4];
+  player.cx = sx; player.cy = sy;
+  save.lastRoom = id;
+  if(!save.visited[id]) save.visited[id] = true;
+  persist();
+  filePos = null;
+  if(room.file && !save.files[id]){
+    const rnd = mulberry32((room.seed||1)^0xF11E);
+    let fx2, fy2, tries = 0;
+    do{ fx2 = 6+(rnd()*(COLS-12)|0); fy2 = 4+(rnd()*(PR-8)|0); tries++; }
+    while(base.solid[fy2][fx2] && tries<40);
+    filePos = [fx2, fy2];
+  }
+  caption = {title:room.title||id, region:room.region||"", insc:room.inscription||"", t:0};
+  trans = 1;
+}
+function enterVoid(fromDir){
+  mode = "void"; trans = 1;
+  prevDir = fromDir || "s";
+  const [sx,sy] = spawnFrom(fromDir||"s");
+  player.cx = sx; player.cy = sy;
+  blip(120,.5,"sawtooth",.02);
+}
+
+/* ---------- weather ---------- */
+function initWeather(){
+  weatherP = [];
+  const wt = room.weather||"none";
+  if(wt==="none") return;
+  const n = wt==="static" ? 70 : 30;
+  const rnd = mulberry32((room.seed||1)^777);
+  for(let i=0;i<n;i++) weatherP.push({x:rnd()*COLS, y:rnd()*PR, s:.3+rnd(), r:rnd()*7});
+}
+const WCHAR = {rain:"/", leaves:"~", drift:"·", static:"░", motes:"∙"};
+function drawWeather(dt, t){
+  const wt = room.weather||"none";
+  if(wt==="none") return;
+  const a = accents();
+  for(const p of weatherP){
+    if(wt==="rain"){ p.y += 14*dt*p.s; p.x -= 4*dt*p.s; }
+    else if(wt==="leaves"){ p.y += 2.2*dt*p.s; p.x += Math.sin(t*.9+p.r)*.12; }
+    else if(wt==="drift"){ p.y -= 1.2*dt*p.s; p.x += Math.sin(t*.7+p.r)*.06; }
+    else if(wt==="static"){ if(Math.random()<.2){ p.x=Math.random()*COLS; p.y=Math.random()*PR; } }
+    else if(wt==="motes"){ p.x += Math.sin(t+p.r)*.05; p.y += Math.cos(t*.8+p.r)*.05; }
+    if(p.y>PR-1){ p.y=1; p.x=Math.random()*COLS; }
+    if(p.y<1){ p.y=PR-2; }
+    if(p.x>COLS-1) p.x=1; if(p.x<1) p.x=COLS-2;
+    const cx2 = p.x|0, cy2 = p.y|0;
+    if(cx2>0&&cx2<COLS-1&&cy2>0&&cy2<PR-1 && base.ch[cy2][cx2]===" ")
+      cellText(scr, cx2, cy2, WCHAR[wt], a[(p.s*a.length)|0]);
+  }
+}
+
+/* ---------- verbs / fx (character effects) ---------- */
+function triggerVerb(f){
+  const v = f.verb || "hum";
+  roomFx.push({type:v, cx:f._cx, cy:f._cy-2, t:0, cols:f._cols});
+  if(v==="glitch") glitchT = 0.6;
+  const tones = {ripple:392, bloom:523, scatter:311, glitch:196, torus:440, hum:262, open:587};
+  blip(tones[v]||330, .12, v==="glitch"?"sawtooth":"triangle", .035);
+  const nm = (f.name||"it").toUpperCase().slice(0,COLS-6);
+  const desc = wrap(f["desc-on-touch"]||"", COLS-6);
+  msg = {lines: [nm, ...desc].slice(0,2), t:0, ttl:5.6};
+  if(desc.length>1) msg._more = {lines:[nm, ...desc.slice(1)].slice(0,2)};
+}
+function drawFx(dt){
+  for(const fx of roomFx){
+    fx.t += dt;
+    const t = fx.t, c = fx.cols;
+    if(fx.type==="ripple"||fx.type==="torus"){
+      const r = Math.round(t*10);
+      for(let a2=0;a2<16;a2++){
+        const th = a2/16*Math.PI*2;
+        const x = Math.round(fx.cx+Math.cos(th)*r*1.6), y = Math.round(fx.cy+Math.sin(th)*r*.7);
+        if(x>0&&x<COLS-1&&y>0&&y<PR-1) cellText(scr, x, y, fx.type==="torus"?"o":"·", c[0]);
+      }
+    } else if(fx.type==="bloom"){
+      for(let i=0;i<8;i++){
+        const th = i/8*Math.PI*2+t;
+        const x = Math.round(fx.cx+Math.cos(th)*t*8), y = Math.round(fx.cy+Math.sin(th)*t*4);
+        if(x>0&&x<COLS-1&&y>0&&y<PR-1) cellText(scr, x, y, "*", c[i%c.length]);
+      }
+    } else if(fx.type==="scatter"){
+      const rnd = mulberry32(1234);
+      for(let i=0;i<12;i++){
+        const th = rnd()*7, sp = 3+rnd()*8;
+        const x = Math.round(fx.cx+Math.cos(th)*t*sp), y = Math.round(fx.cy+Math.sin(th)*t*sp*.5 - t*t*3);
+        if(x>0&&x<COLS-1&&y>0&&y<PR-1) cellText(scr, x, y, "·∙*"[(i%3)], c[i%c.length]);
+      }
+    } else if(fx.type==="open"){
+      for(let y=Math.max(1,fx.cy-6); y<=fx.cy; y++)
+        if(Math.random()<.7) cellText(scr, fx.cx, y, "▒", c[0]);
+    } else { /* hum */
+      for(let dx=-6;dx<=6;dx++){
+        const y = Math.round(fx.cy-1+Math.sin(dx/1.5+t*16)*1.2);
+        const x = fx.cx+dx;
+        if(x>0&&x<COLS-1&&y>0&&y<PR-1) cellText(scr, x, y, "~", c[0]);
+      }
+    }
+  }
+  roomFx = roomFx.filter(f=>f.t<1.1);
+}
+
+/* ---------- movement ---------- */
+let stepT = 0;
+function tryMove(dt){
+  stepT -= dt;
+  if(downloading) return;
+  let dx=0, dy=0;
+  if(keys.up) dy=-1; else if(keys.down) dy=1;
+  else if(keys.left) dx=-1; else if(keys.right) dx=1;
+  if(!dx&&!dy) { stepT = 0; return; }
+  if(stepT>0) return;
+  stepT = 0.085;
+  const nx = player.cx+dx, ny = player.cy+dy;
+  // exits
+  const ex = exitCells[nx+","+ny];
+  if(ex && mode==="play"){
+    prevRoom = room.id;
+    if(ex._open){ blip(523,.08,"sine",.03); loadRoom(ex.to, OPP[ex.dir]); }
+    else enterVoid(OPP[ex.dir]);
+    return;
+  }
+  if(nx<1||nx>COLS-2||ny<1||ny>PR-2){
+    if(mode==="void"){ loadRoom(prevRoom, OPP[prevDir]); }
+    return;
+  }
+  if(mode==="play" && base.solid[ny][nx]) { blip(140,.03,"square",.008); return; }
+  player.cx = nx; player.cy = ny;
+  // route stub hint when standing beside a closed exit
+  for(const ex2 of (room?room.exits||[]:[])){
+    if(!ex2._open && Math.abs(player.cx-ex2._cx)+Math.abs(player.cy-ex2._cy)<4 && !ex2._said){
+      say([("a route: "+(ex2.label||"")).slice(0,COLS-6), "(the mesh has not grown this yet)"], 2.6);
+      ex2._said = true; setTimeout(()=>ex2._said=false, 6000);
+    } else if(ex2._open && Math.abs(player.cx-ex2._cx)+Math.abs(player.cy-ex2._cy)<4 && !ex2._said){
+      say([("a route: "+(ex2.label||"")).slice(0,COLS-6)], 2.2);
+      ex2._said = true; setTimeout(()=>ex2._said=false, 6000);
+    }
+  }
+}
+
+/* ---------- query ---------- */
+function interact(){
+  if(mode!=="play"||!room) return;
+  let best = null, bd = 1e9;
+  for(const f of room.features||[]){
+    const b = f._bbox || [f._cx-2,f._cy-2,f._cx+2,f._cy+2];
+    const inX = player.cx>=b[0]-1 && player.cx<=b[2]+1;
+    const inY = player.cy>=b[1]-1 && player.cy<=b[3]+1;
+    if(inX&&inY){
+      const d = Math.abs(player.cx-f._cx)+Math.abs(player.cy-f._cy);
+      if(d<bd){ bd=d; best=f; }
+    }
+  }
+  if(best) triggerVerb(best);
+  else if(room.inscription){
+    say(wrap("the node returns: “"+room.inscription+"”", COLS-6), 5.4);
+    blip(220,.2,"sine",.02);
+  }
+}
+
+/* ---------- boot ---------- */
+function startBoot(){
+  const nights = manifest.nights||1, count = manifest.rooms.length;
+  bootLines = [
+    ["R O O T", "#59f2b0"],
+    ["", ""],
+    ["diagnostic shell v0.3 — text mode render", "#bfe8d4"],
+    ["carrier ......... 300 bits per second", "#bfe8d4"],
+    ["mesh ............ "+count+" nodes · night "+nights, "#bfe8d4"],
+    ["checksum ........ emotionally valid / formally unstable", "#7ba88f"],
+    ["", ""],
+    ["the archive has not lost data.", "#d8f5e4"],
+    ["it has begun comparing things.", "#d8f5e4"],
+    ["", ""],
+    ["STATUS: BEING READ", "#ffd166"],
+    ["", ""],
+    ["you are rendered as @ — the shell's oldest glyph for a reader", "#7ba88f"],
+    ["arrows/wasd move · space query · tab /ROOT · q sound", "#7ba88f"],
+    ["", ""],
+    ["[ press any key ]", "#59f2b0"],
+  ];
+  bootT = 0; mode = "boot";
+}
+
+/* ---------- /ROOT overlay ---------- */
+function drawFilesScreen(t){
+  scr.fillStyle = "#010804"; scr.fillRect(0,0,cv.width,cv.height);
+  text(scr, "/ROOT", 3, 1, "#59f2b0");
+  const read = Object.keys(save.visited).length;
+  text(scr, "STATUS: BEING READ — "+read+" node"+(read===1?"":"s")+" have read you", 3, 3, "#4d8b68");
+  text(scr, "─".repeat(COLS-6), 3, 4, "#1d4d33");
+  const ids = Object.keys(save.files);
+  if(!ids.length){
+    ctext(scr, "no files downloaded. every node carries one, at 300bps.", 12, "#4d8b68");
+  } else {
+    let y = 6;
+    ids.forEach((id)=>{
+      const b = save.files[id];
+      text(scr, "· "+(b.name||id).slice(0,COLS-8), 4, y, "#d8f5e4");
+      if(b.note) text(scr, b.note.slice(0,COLS-10), 6, y+1, "#5fa87f");
+      y += 3;
+      if(y>ROWS-4) y = 6;
+    });
+  }
+  if((t*2|0)%2===0) ctext(scr, "[ tab to return ]", ROWS-2, "#2e5c42");
+}
+
+/* ---------- main loop ---------- */
+let last = 0, T = 0;
+function frame(ts){
+  const dt = Math.min(0.05, (ts-last)/1000||0.016);
+  last = ts; T += dt;
+
+  if(mode==="boot"){
+    scr.fillStyle = "#020604"; scr.fillRect(0,0,cv.width,cv.height);
+    bootT += dt;
+    const shown = Math.floor(bootT*12);
+    let y = 6;
+    bootLines.slice(0, shown).forEach((l,i)=>{
+      ctext(scr, l[0], y, l[1]||"#bfe8d4");
+      y += i===0 ? 3 : 1.0+((l[0]==="")?0:0);
+      y = Math.round(y);
+    });
+    if((T*2|0)%2===0 && shown<bootLines.length) ctext(scr, "▌", Math.min(6+shown, ROWS-3), "#59f2b0");
+  }
+  else if(mode==="files"){ drawFilesScreen(T); }
+  else if(mode==="void"){
+    scr.fillStyle = "#010503"; scr.fillRect(0,0,cv.width,cv.height);
+    for(let i=0;i<160;i++){
+      cellText(scr, (Math.random()*COLS)|0, (Math.random()*PR)|0,
+               "░·"[(Math.random()*2)|0], "rgba(170,240,200,"+(Math.random()*.16)+")");
+    }
+    ctext(scr, "N O D E   U N R E A C H A B L E", 12, "#ff8866");
+    ctext(scr, "no route yet. the mesh is still growing.", 15, "#bfe8d4");
+    ctext(scr, "return after the next night.", 17, "#4d8b68");
+    if((T|0)%2===0) ctext(scr, "STATUS: BEING READ", 20, "#ffd166");
+    tryMove(dt);
+    cellText(scr, player.cx, player.cy, "@", "#9fe8ff", "#010503");
+  }
+  else if(mode==="play" && room){
+    // static layer (with glitch band offsets while glitching)
+    if(glitchT>0){
+      glitchT -= dt;
+      scr.fillStyle = (room.palette&&room.palette.bg)||"#07130c";
+      scr.fillRect(0,0,cv.width,cv.height);
+      for(let y=0;y<PR;y++){
+        const off = (Math.random()<.25 ? ((Math.random()*5|0)-2)*CW : 0);
+        scr.drawImage(bgC, 0, y*CH, cv.width, CH, off, y*CH, cv.width, CH);
+      }
+    } else {
+      scr.drawImage(bgC, 0, 0);
+    }
+    // exits shimmer
+    for(const ex of room.exits||[]){
+      const horiz = ex.dir==="n"||ex.dir==="s";
+      const a = accents();
+      for(let k=-2;k<=2;k++){
+        const x = horiz? ex._cx+k : ex._cx, y = horiz? ex._cy : ex._cy+k;
+        if(ex._open){
+          const c = "░▒▓"[(T*4+k+10)%3|0];
+          cellText(scr, x, y, c, a[0]);
+        } else {
+          if((k+((T*3)|0))%2===0) cellText(scr, x, y, "∙", a[1%a.length]);
+          if(k===0 && (T*2|0)%2===0) cellText(scr, x, y, "▪", "#ff8866");
+        }
+      }
+    }
+    // twinkling base cells (LEDs, cursors)
+    for(const tw of twinkles){
+      const ph = ((T*tw.rate)|0)%tw.chars.length;
+      cellText(scr, tw.x, tw.y, tw.chars[ph], tw.col, (room.palette&&room.palette.bg)||"#07130c");
+    }
+    // the file
+    if(filePos && !downloading){
+      const blinkC = (T*3|0)%2 ? "■" : "▪";
+      cellText(scr, filePos[0], filePos[1], blinkC, "#59f2b0");
+      if(Math.abs(player.cx-filePos[0])<=1 && Math.abs(player.cy-filePos[1])<=1){
+        downloading = {t:0, total:1.8};
+        blip(420,.1,"square",.03);
+      }
+    }
+    if(downloading){
+      downloading.t += dt;
+      const k = Math.min(1, downloading.t/downloading.total);
+      const bw = 40;
+      const bx = (COLS-bw)>>1, by = PR-3;
+      text(scr, "downloading at 300bps", bx, by-1, "#8fd0a8");
+      let barStr = "";
+      for(let i=0;i<bw;i++) barStr += (i/bw<k) ? "█" : "░";
+      text(scr, barStr, bx, by, "#59f2b0");
+      if((downloading.t*6|0)%2===0) blip(560+120*Math.sin(downloading.t*9), .04, "square", .012);
+      if(k>=1){
+        save.files[room.id] = {name:room.file.name||"unnamed.file", note:room.file.note||""};
+        persist(); handshake();
+        say([String(room.file.name||"").slice(0,COLS-6), String(room.file.note||"").slice(0,COLS-6)], 6.5);
+        downloading = null; filePos = null;
+      }
+    }
+    drawFx(dt);
+    drawWeather(dt, T);
+    tryMove(dt);
+    // the Reader
+    const rc = (T*2|0)%2 ? "#9fe8ff" : "#d8fff0";
+    cellText(scr, player.cx, player.cy, "@", rc, (room.palette&&room.palette.bg)||"#07130c");
+    // captions
+    if(caption){
+      caption.t += dt;
+      if(caption.t<5){
+        text(scr, " "+caption.title+" ", 2, 0, "#ffffff", "#020a05");
+        if(caption.region) text(scr, " "+caption.region+" ", 2, 1, "#4d8b68", "#020a05");
+      }
+    }
+  }
+
+  // message area (bottom two rows)
+  if(mode==="play"){
+    scr.fillStyle = "#010804";
+    scr.fillRect(0, PR*CH, cv.width, 2*CH);
+    if(msg){
+      msg.t += dt;
+      if(msg.t > msg.ttl) msg = null;
+      else {
+        const lines = (msg._more && msg.t > msg.ttl*0.55) ? msg._more.lines : msg.lines;
+        lines.forEach((l,i)=>ctext(scr, l, PR+i, "#d8f5e4"));
+      }
+    } else if(caption && caption.insc && caption.t>1.4 && caption.t<9){
+      const lines = wrap("“"+caption.insc+"”", COLS-6);
+      lines.slice(0,2).forEach((l,i)=>ctext(scr, l, PR+i, "#7ba88f"));
+    }
+  }
+
+  // transition: character static wipe
+  if(trans>0){
+    trans -= dt*2.2;
+    const n = Math.floor(trans*700);
+    for(let i=0;i<n;i++){
+      cellText(scr, (Math.random()*COLS)|0, (Math.random()*ROWS)|0,
+               "░▒▓█"[(Math.random()*4)|0],
+               ["#02100a","#06140c","#0a1f14","#123020"][(Math.random()*4)|0],
+               "#010804");
+    }
+  }
+
+  requestAnimationFrame(frame);
+}
+
+/* ---------- input ---------- */
+const KEYMAP = {ArrowUp:"up",KeyW:"up",ArrowDown:"down",KeyS:"down",ArrowLeft:"left",KeyA:"left",ArrowRight:"right",KeyD:"right"};
+addEventListener("keydown", e=>{
+  if(mode==="boot"){ mode="play"; handshake();
+    loadRoom(save.lastRoom && manifest.roomIds[save.lastRoom] ? save.lastRoom : manifest.entry, null);
+    e.preventDefault(); return; }
+  if(e.code==="Tab"){ mode = (mode==="files") ? "play" : (mode==="play" ? "files" : mode); e.preventDefault(); return; }
+  if(mode==="files") return;
+  if(e.code==="Space"){ interact(); e.preventDefault(); return; }
+  if(e.code==="KeyQ"){ save.sound = !save.sound; persist(); say("sound "+(save.sound?"on":"off"), 1.5); return; }
+  const k = KEYMAP[e.code]; if(k){ keys[k]=true; e.preventDefault(); }
+});
+addEventListener("keyup", e=>{ const k = KEYMAP[e.code]; if(k) keys[k]=false; });
+
+/* ---------- debug handle (headless testing / iteration) ---------- */
+window.DR = {
+  player,
+  warp(cx, cy){ player.cx = cx|0; player.cy = cy|0; },
+  go(id, dir){ loadRoom(id, dir || null); },
+  state(){ return {mode, room: room && room.id, files: Object.keys(save.files)}; }
+};
+
+/* ---------- go ---------- */
+(async function(){
+  try{
+    manifest = await fetchJSON("rooms/manifest.json");
+    manifest.roomIds = {};
+    manifest.rooms.forEach(r=>manifest.roomIds[r.id]=true);
+    startBoot();
+  }catch(e){
+    scr.fillStyle = "#020604"; scr.fillRect(0,0,cv.width,cv.height);
+    ctext(scr, "could not load rooms/manifest.json", 14, "#ff8866");
+    ctext(scr, "serve this folder over http: python3 -m http.server", 16, "#bfe8d4");
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "id": "node-001-the-daisy-field",
+  "title": "NODE 001 — The Daisy Field",
+  "region": "The Clean Archive",
+  "seed": 300,
+  "palette": {
+    "bg": "#0a1408",
+    "ground": ["#25401c", "#3a5c28"],
+    "ink": "#e8f5d8",
+    "accents": ["#f2e9c9", "#ffd166", "#59f2b0", "#c77dff"]
+  },
+  "ground": { "motif": "scatter", "density": 0.8 },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the first casing, in its burled knot",
+      "desc-on-touch": "A loose bark plate shields the tubed antenna. The LED breathes. It has been transmitting since before the corruption, and it is transmitting now.",
+      "verb": "hum",
+      "form": { "type": "burl", "seed": 4411, "size": 2, "colors": [0, 2, 1] },
+      "x": 0.68, "y": 0.42, "solid": true
+    },
+    {
+      "name": "the flattened grass where she slept",
+      "desc-on-touch": "Fields of flannel and everlasting daisies and billy buttons and mulla mulla, beneath variations of daylight and noon. The shape of her is still filed here.",
+      "verb": "bloom",
+      "form": { "type": "pool", "seed": 5522, "size": 2, "colors": [0, 3] },
+      "x": 0.3, "y": 0.6, "solid": false
+    },
+    {
+      "name": "the original index",
+      "desc-on-touch": "index.html · README.txt · /audio · /text · /images. Three hundred bits per second, to anyone with a wireless device from the past twenty years.",
+      "verb": "open",
+      "form": { "type": "filecard", "seed": 6633, "size": 2, "colors": [2, 0, 1] },
+      "x": 0.24, "y": 0.3, "solid": true
+    },
+    {
+      "name": "a solar trace, half-buried",
+      "desc-on-touch": "A ribbon of cable under the grass, warm as an animal. It runs toward every other node there is, by more routes than anyone chose.",
+      "verb": "ripple",
+      "form": { "type": "stack", "seed": 7744, "size": 1, "colors": [1, 2] },
+      "x": 0.52, "y": 0.75, "solid": false
+    }
+  ],
+  "inscription": "you don't need every node to speak to every other node. you need enough routes that the message can survive losing one",
+  "file": {
+    "name": "README.txt",
+    "note": "WELCOME TO ROOT. Take what you need. Leave the antenna as you found it. — L & K"
+  },
+  "exits": [
+    { "dir": "n", "label": "the fire trail toward the river recording", "to": "NEW: the riverbank where River_NSW_1500hrs_Late20thCent.mp3 was recorded, which has started sounding like a motel fan" },
+    { "dir": "e", "label": "a line of casings toward the service station", "to": "NEW: a service station at dusk, 1993, photographed once and now photographing back" },
+    { "dir": "s", "label": "a route worn by downloads", "to": "NEW: the paddock where they war-dialled the farmland and one modem answered" },
+    { "dir": "w", "label": "a route that flickers like a screen", "to": "NEW: the first fully diagnostic interior — a council information kiosk rendering itself from memory" }
+  ]
+}

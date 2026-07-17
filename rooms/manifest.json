@@ -1,0 +1,8 @@
+{
+  "entry": "node-001-the-daisy-field",
+  "nights": 1,
+  "lastDreamt": "2026-07-17",
+  "rooms": [
+    { "id": "node-001-the-daisy-field", "title": "NODE 001 — The Daisy Field", "region": "The Clean Archive" }
+  ]
+}
