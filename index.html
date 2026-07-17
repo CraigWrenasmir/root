@@ -697,10 +697,14 @@ async function loadRoom(id, enterDir){
     filePos = [fx2, fy2];
   }
   caption = {title:room.title||id, region:room.region||"", insc:room.inscription||"", t:0};
+  if(window.ROOT_NATIVE && ROOT_NATIVE.entered && !window.__rootEntered){
+    window.__rootEntered = true; ROOT_NATIVE.entered();
+  }
   if(room.region && !save.regionsSeen[room.region]){
     save.regionsSeen[room.region] = true; persist();
     regionCard = {name: room.region, t: 0};
     handshake();
+    if(window.ROOT_NATIVE) ROOT_NATIVE.haptic("region");
   }
   trans = 1;
 }
@@ -748,6 +752,7 @@ function triggerVerb(f){
   if(v==="glitch") glitchT = 0.6;
   const tones = {ripple:392, bloom:523, scatter:311, glitch:196, torus:440, hum:262, open:587};
   blip(tones[v]||330, .12, v==="glitch"?"sawtooth":"triangle", .035);
+  if(window.ROOT_NATIVE) ROOT_NATIVE.haptic(v);
   say([(f.name||"it").toUpperCase(), f["desc-on-touch"]||""]);
 }
 function drawFx(dt){
@@ -816,7 +821,7 @@ function attemptStep(dx, dy){
     if(mode==="void"){ loadRoom(prevRoom, OPP[prevDir]); }
     return;
   }
-  if(mode==="play" && base.solid[ny][nx]) { blip(140,.03,"square",.008); return; }
+  if(mode==="play" && base.solid[ny][nx]) { blip(140,.03,"square",.008); if(window.ROOT_NATIVE) ROOT_NATIVE.haptic("bump"); return; }
   player.cx = nx; player.cy = ny;
   // route stub hint when standing beside a closed exit
   for(const ex2 of (room?room.exits||[]:[])){
@@ -1022,6 +1027,7 @@ function frame(ts){
       if(k>=1){
         save.files[room.id] = {name:room.file.name||"unnamed.file", note:room.file.note||""};
         persist(); handshake();
+        if(window.ROOT_NATIVE) ROOT_NATIVE.haptic("download");
         say([room.file.name||"", room.file.note||""]);
         downloading = null; filePos = null;
       }
