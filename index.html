@@ -23,6 +23,11 @@
   .tb.wide{width:140px;font-size:16px;padding:17px 0}
   #pad .row{display:flex}
   #pad .sp{width:66px;margin:3px;visibility:hidden}
+  /* landscape phone: tuck controls into the side margins, a touch smaller
+     and more translucent so the playfield reads clearly through them */
+  body.landscape .tb{opacity:.82;font-size:20px;padding:11px 0;width:58px}
+  body.landscape .tb.wide{width:120px;font-size:15px;padding:13px 0}
+  body.landscape #pad .sp{width:58px}
 </style>
 </head>
 <body>
@@ -139,8 +144,23 @@ addEventListener("resize", ()=>{ fit(); drawBark(); });
 setTimeout(drawBark, 50);
 if(IS_TOUCH){
   const w = document.getElementById("wrap");
-  w.style.alignItems = "flex-start";
-  w.style.paddingTop = "max(10px, env(safe-area-inset-top))";
+  // portrait: pin to top so the controls have clear space below.
+  // landscape: the grid is a wide shape — centre it so it fills the screen,
+  // large and readable, with the controls floating in the side margins.
+  function touchLayout(){
+    if(innerWidth > innerHeight){          // landscape
+      w.style.alignItems = "center";
+      w.style.paddingTop = "0";
+      document.body.classList.add("landscape");
+    } else {                               // portrait
+      w.style.alignItems = "flex-start";
+      w.style.paddingTop = "max(10px, env(safe-area-inset-top))";
+      document.body.classList.remove("landscape");
+    }
+  }
+  touchLayout();
+  addEventListener("resize", touchLayout);
+  addEventListener("orientationchange", touchLayout);
 }
 
 function cellText(g, x, y, ch, fg, bg){
@@ -1179,6 +1199,8 @@ function startBoot(){
     ["", ""],
     IS_TOUCH ? ["[ tap to connect ]", "#59f2b0"] : ["[ press any key ]", "#59f2b0"],
   ];
+  if(IS_TOUCH && innerHeight > innerWidth)
+    bootLines.splice(bootLines.length-1, 0, ["( turn the phone sideways for a larger view )", "#7a6a4a"], ["", ""]);
   bootT = 0; mode = "boot";
 }
 
