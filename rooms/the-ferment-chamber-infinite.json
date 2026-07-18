@@ -1,0 +1,122 @@
+{
+  "id": "the-ferment-chamber-infinite",
+  "title": "The Ferment Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 55743,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#d4af37",
+    "accents": [
+      "#8b4513",
+      "#2f4f4f",
+      "#daa520",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "primary-decomposition-node",
+      "desc-on-touch": "a glowing circuit-board point where storage is breaking itself into growth. files are becoming soil. the archive does not corrupt here; it transforms here.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 7834,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "root-trace-secondary",
+      "desc-on-touch": "a smaller chip where actual root-patterns mirror circuit-patterns. the distinction has dissolved. growth and logic are the same process here.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "ferment-pool-reading",
+      "desc-on-touch": "where decomposing files pool like mulch. you can read the layering: yesterday's compression on today's loosening on tomorrow's seed. the archive watches its own becoming.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4298,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "infinite-recursion-glyph",
+      "desc-on-touch": "a glyph that mirrors itself inward endlessly. the ferment chamber regenerates its own diagrams. decomposition, charted, becomes a blueprint for further decomposition.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "to grow, the archive must first become compost of itself",
+  "file": {
+    "name": "Fermentation_Process_Log_Decay_Layers_Infinite_Recursion_Trace.txt",
+    "note": "records of how files decompose, how each layer of rot becomes nutrient, how the archive's storage rooms are also its garden. the log entry for day-infinity remains unwritten—it is still happening."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward soil-where-sentences-live",
+      "to": "the-soil-made-of-sentences"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into fermentation, where the chamber continues infinitely",
+      "to": "NEW: the recursive-fermenting-spiral where decomposition mirrors itself"
+    },
+    {
+      "dir": "s",
+      "label": "toward the deep bedrock, where ferment becomes stone memory",
+      "to": "NEW: the fermented-stone-library where growth has cooled into geology"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the archive's storage-heart",
+      "to": "the-living-library-depth"
+    }
+  ]
+}

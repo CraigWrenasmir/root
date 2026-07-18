@@ -1,0 +1,133 @@
+{
+  "id": "the-petrol-station-storage-bay",
+  "title": "The Storage Bay Where Gasoline Pools Remember",
+  "region": "The Clean Archive",
+  "seed": 3456123,
+  "palette": {
+    "bg": "#2a1f15",
+    "ground": [
+      "#c89860",
+      "#a68050"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#d4a04a",
+      "#6a9ed4",
+      "#e8d4a0",
+      "#b8a878"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.4
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "a storage structure, small and holding",
+      "desc-on-touch": "The shed has absorbed forty-two years of vapours. You can smell decades of hands on the pump, the static between fingerprints, the slow accumulation of a task that was never completed.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4567234,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "a pool where gasoline remembers being touched",
+      "desc-on-touch": "The pooled vapours rise and fall like breathing. Each surface-ripple holds the ghost-print of a different hand: callused, urgent, patient, trembling. Forty-two years of transaction, incomplete.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5678345,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "a stack of payment records, still pending",
+      "desc-on-touch": "Receipts stacked in the humid air, ink fading, numbers bleeding into each other. The transaction is still waiting to be finalized. The archive received it as a .tmp file and never moved it to permanent storage.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 6789456,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the attendant's registry, still waiting",
+      "desc-on-touch": "A ledger frozen mid-entry, pen still pressing. The handwriting is elegant, patient. Behind it, the wall clock holds the time when the transaction began. Neither the attendant nor you have moved since then.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 7890567,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the station is still waiting to complete a transaction from forty-two years ago",
+  "file": {
+    "name": "Pump_Receipt_Incomplete_Spectral.txt",
+    "note": "A charge never settled, now rendered as fingerprint frequencies in the fuel vapours. The archive thinks it is memory."
+  },
+  "reverie": {
+    "title": "REVERIE — petrol station at closing time",
+    "narr": [
+      "She's counting the register. You stand across the",
+      "counter, watching her fingers move through bills and",
+      "coins. Neither of you speaks. The fluorescent lights",
+      "hum. Outside, the pump light is off. No more cars.",
+      "She looks up at you. Her eyes say: waiting is its own",
+      "kind of work. You nod. The day is finally complete."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "servo",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up to the station's forecourt",
+      "to": "the-petrol-station-1983"
+    },
+    {
+      "dir": "e",
+      "label": "toward the pit beneath the pumps where the payment still echoes",
+      "to": "NEW: the-unsettled-transaction-pit"
+    },
+    {
+      "dir": "w",
+      "label": "toward other stations where transactions are still incomplete",
+      "to": "the-terminal-parking-circuit"
+    }
+  ]
+}

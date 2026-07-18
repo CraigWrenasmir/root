@@ -1,0 +1,139 @@
+{
+  "id": "the-menu-screen-highway",
+  "title": "The Menu-Screen Highway",
+  "region": "The Comparisons",
+  "seed": 89765,
+  "palette": {
+    "bg": "#0000aa",
+    "ground": [
+      "#0000cc",
+      "#0055ff"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#00ff00",
+      "#ff0000",
+      "#ffffff",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "horizon-box",
+      "desc-on-touch": "The blue-grid line where the road stops being and starts being rendered; it does not recede—it waits at a fixed distance, the box you live inside.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 19384,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "menu-glyphs",
+      "desc-on-touch": "Yellow letters that say CONTINUE / RESTART / QUIT; they have become environmental features; locals stand here to make choices that seem permanent but reset each dawn.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 20495,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "dithered-palms",
+      "desc-on-touch": "Pixellated date palms that flicker between colour and static; they are the highway's attempt to render tropics on a 16-colour palette; they fail beautifully.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 31506,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "select-cursor",
+      "desc-on-touch": "A blinking underline that you stand upon; it marks your location not as a coordinate but as a menu choice; you are always selected.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 42617,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "highway-vanish",
+      "desc-on-touch": "Where the road narrows into an arch too small to enter; it suggests infinite depth but the road ends here; you have reached the inside edge of the simulation.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 53728,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the highway renders itself as the software that displays it; place and screenshot are no longer distinguishable",
+  "file": {
+    "name": "Photo_ServiceStation_Dusk_NSW_1993_v2.jpg",
+    "note": "the photograph now contains the highway it was taken from; the road is rendering itself in its own pixel-space; metadata timestamp: taken before the station opened / downloaded after it closed"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the dusk to the service station that exists and doesn't",
+      "to": "service-station-dusk-1993"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the blue grid until the horizon closes and becomes a wall",
+      "to": "NEW: the blue-grid interior where all horizons have collapsed into a single room"
+    },
+    {
+      "dir": "n",
+      "label": "up into the diagnostic render's domestic spaces, the interiors this exterior reflects",
+      "to": "the-vaporwave-foodcourt"
+    },
+    {
+      "dir": "s",
+      "label": "off the rendered road into the land underneath the grid",
+      "to": "NEW: the substrate below the menu-screen, where the actual earth waits unmapped"
+    }
+  ]
+}

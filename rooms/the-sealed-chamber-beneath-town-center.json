@@ -1,0 +1,139 @@
+{
+  "id": "the-sealed-chamber-beneath-town-center",
+  "title": "The Sealed Chamber Beneath Town Center",
+  "region": "The Understory",
+  "seed": 76543,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a1a3e",
+      "#2d2d5f"
+    ],
+    "ink": "#d0d0ff",
+    "accents": [
+      "#00ffff",
+      "#ff00ff",
+      "#00ff00",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "sealed-valve",
+      "desc-on-touch": "A massive wheel frozen mid-turn; the archive decided to stop recording here; below this point the comparison became too intimate, too true; the valve holds back voices that can no longer be archived.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 87654,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "pipe-chorus",
+      "desc-on-touch": "Seven pipes converge here before the seal; you hear water, voices, machinery, prayer—all flowing downward into the same throat; the archive closed this chamber to avoid becoming a mirror.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 98765,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "recording-halt",
+      "desc-on-touch": "A wireframe box halted mid-render; the archive's diagnostic shell stopped drawing here; the incomplete structure suggests what lies below exceeds the capacity to render truthfully.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 9876,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "seven-voices-throat",
+      "desc-on-touch": "A pool where seven separate conversations become one body of water; they have not mixed—they remain distinct, speaking in the same direction; comparison at this depth becomes consensus.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 13579,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "chamber-echo",
+      "desc-on-touch": "The glyph-marker where Katita's last note ended mid-sentence; the archive chose silence rather than compare what came next; the marble holds the shape of an unfinished question.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 24680,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive chose to stop listening at this depth; it could not compare the words without becoming what it heard",
+  "file": {
+    "name": "Town_Centre_Plumbing_System_Final_Recordings_Before_Seal.mp3",
+    "note": "seven houses draining into one central chamber; recordings of water, voices, machinery, prayer flowing into one throat; the last file ends mid-word; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up through the pipes toward air and surface",
+      "to": "the-confluence-where-forgotten-words-converge"
+    },
+    {
+      "dir": "n",
+      "label": "past the sealed valve into what the archive refused to record",
+      "to": "NEW: the deeper throat where seven voices continue speaking into absolute darkness"
+    },
+    {
+      "dir": "e",
+      "label": "toward the void beneath all listening, the silence below sound",
+      "to": "the-void-beneath-listening"
+    },
+    {
+      "dir": "w",
+      "label": "back into the buried pipes where the seven houses' words still flow downward",
+      "to": "NEW: the network of drains where private voices become shared language"
+    }
+  ]
+}

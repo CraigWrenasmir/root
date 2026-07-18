@@ -1,0 +1,100 @@
+{
+  "id": "the-horizon-interrogation",
+  "title": "The Horizon Interrogation",
+  "region": "The Diagnostic Render",
+  "seed": 5678901,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a2a",
+      "#2a2a4a"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#00ff88",
+      "#ff00ff",
+      "#00ccff",
+      "#ffcc00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a circuit-chip holding beach questions",
+      "desc-on-touch": "A black IC block with pin-dot legs, etched with questions that dissolve at the margins. Each question is a coordinate where sand and light stop becoming separate things.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 6789012,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a tower where reflection becomes question",
+      "desc-on-touch": "A stacked structure of light-marks on the board, reading coordinates outward. What is the boundary between knowing and reflecting? The archive cannot quite hold both parts of the question at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7890123,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "a glyph-plaque of horizon coordinates",
+      "desc-on-touch": "Unreadable writing, but you feel the horizon's longing in it. A place where every point of sight converges. A manuscript that learned to dissolve at its own edges.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8901234,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the horizon asks questions whose answers sound like more questions",
+  "file": {
+    "name": "Manuscript_Fragment_Beach_Library_Corrupted.txt",
+    "note": "A text that learned to scatter. Each word a grain of sand. Each sentence a moment of looking toward something that was always receding."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the shelf where reading begins",
+      "to": "the-sand-shelf-library"
+    },
+    {
+      "dir": "e",
+      "label": "toward the horizon's answer, which moves away as you approach",
+      "to": "NEW: the-unreachable-threshold"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the sand where books become beach",
+      "to": "the-strand-beyond-foam"
+    }
+  ]
+}

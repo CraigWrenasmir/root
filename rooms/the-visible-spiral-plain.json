@@ -1,0 +1,151 @@
+{
+  "id": "the-visible-spiral-plain",
+  "title": "The Visible Spiral Plain",
+  "region": "The Understory",
+  "seed": 7842365,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#8b7355",
+      "#d4a574"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#9d6b47",
+      "#c9a555",
+      "#6b8e23",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "spiral-horizon",
+      "desc-on-touch": "The escarpment's geometry continues into visible distance, spiralling outward as the land itself. You see the pattern from above become the shape you walk on.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 291847,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "far-ridge-memory",
+      "desc-on-touch": "A distant ridge catches low light and holds it. You remember other high places the spiral connected to, places no path has reported from.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 524183,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "wind-grass-song",
+      "desc-on-touch": "Wind across the high plain sounds like something learning to speak after long silence. The grass understands the pressure of altitude.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 156234,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "survey-cairn",
+      "desc-on-touch": "Stacked stones mark a point where someone measured the land's curvature. The measurements never left this height.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 812945,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "mirage-archive",
+      "desc-on-touch": "At certain angles the air holds the shapes of places below. The archive you descended from appears briefly on the horizon, then fades as you move.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 445671,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "plateau-edge-witness",
+      "desc-on-touch": "The edge drops away cleanly. You feel the spiral's logic: pressure outward becomes the shape of falling, becomes distance. The land is always becoming the direction it was forced to go.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 659823,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the spiral continues outward; you become the landscape it was always describing",
+  "file": {
+    "name": "SurveyNotes_HighPlateau_Theodolite_Records.txt",
+    "note": "Measurements of the escarpment's spiral geometry, annotated with observations about how sight changes at altitude. The final entry fades mid-word."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down the continuing spiral",
+      "to": "the-spiral-escarpment"
+    },
+    {
+      "dir": "n",
+      "label": "north along the ridge where the land gets stranger",
+      "to": "NEW: the-plateau-without-return"
+    },
+    {
+      "dir": "s",
+      "label": "east to where the spiral begins to flatten",
+      "to": "NEW: the-descending-vision"
+    }
+  ]
+}

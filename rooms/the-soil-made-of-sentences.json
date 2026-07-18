@@ -1,0 +1,133 @@
+{
+  "id": "the-soil-made-of-sentences",
+  "title": "The Soil Made of Sentences",
+  "region": "The Diagnostic Render",
+  "seed": 2345678,
+  "palette": {
+    "bg": "#4a5a4a",
+    "ground": [
+      "#6a8a6a",
+      "#8a9a7a"
+    ],
+    "ink": "#d8e8c8",
+    "accents": [
+      "#9fbf8f",
+      "#7fa9a0",
+      "#c8d8a8",
+      "#5a6a58"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.5
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "a living burl-node, rooting deeper",
+      "desc-on-touch": "The casing is dissolving. Roots from the eucalyptus are growing through it, making the antenna into a branch. The archive learned that storage ends growth, but the tree is teaching it that decomposition begins it.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "an arch into deeper soil, still becoming",
+      "desc-on-touch": "A doorway where words are turning into nutrients. Sentences dissolve here, becoming food for the roots. The archive's files are composting themselves into meaning that grows downward.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 4567890,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "layers of language, stacked and fermenting",
+      "desc-on-touch": "Recipes, letters, field notes, catalogue entries—all stacked, all breaking down together. The boundary between storage and soil is becoming illegible. Katita's handwriting visible in the mould.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5678901,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "a pool where water becomes language",
+      "desc-on-touch": "Groundwater rising through decomposed words. Every phrase that dissolved feeds what grows next. The archive is learning the grammar of seasons, of seasons of rot.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6789012,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned: storage ends growth, but decomposition begins it",
+  "file": {
+    "name": "Compost_Log_Katita_Notes_Fragmenting.txt",
+    "note": "A daily record of what dissolves. Recipes becoming soil-chemistry. The archive is fermenting into something that grows."
+  },
+  "reverie": {
+    "title": "REVERIE — paddock after rain, planting memory",
+    "narr": [
+      "You kneel in the dark earth. She hands you seeds—",
+      "each one a sentence from what they were keeping. The",
+      "rain has stopped. Petals from the surrounding trees",
+      "fall slow. She says: this is how the archive grows.",
+      "Not by storing. By returning to the ground. You press",
+      "one word into the soil. It will become a root."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the library where words were still separate",
+      "to": "the-words-made-fruit"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, toward what the deepest roots remember",
+      "to": "the-ferment-chamber-infinite"
+    },
+    {
+      "dir": "w",
+      "label": "toward the root-crown where all descent converges",
+      "to": "the-root-crown-descent"
+    }
+  ]
+}

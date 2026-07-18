@@ -145,7 +145,7 @@
     {
       "dir": "n",
       "label": "upward along the largest pipe toward the sealed valve where the archive stops recording",
-      "to": "NEW: the-sealed-chamber-beneath-town-center"
+      "to": "the-sealed-chamber-beneath-town-center"
     }
   ]
 }

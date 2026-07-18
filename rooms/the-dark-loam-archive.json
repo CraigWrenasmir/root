@@ -1,0 +1,156 @@
+{
+  "id": "the-dark-loam-archive",
+  "title": "The Dark Loam Archive",
+  "region": "The Understory",
+  "seed": 73421,
+  "palette": {
+    "bg": "#2d1810",
+    "ground": [
+      "#5a3a24",
+      "#8b6f47"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#d4714d",
+      "#3d2817",
+      "#c9a961",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "soil-memory",
+      "desc-on-touch": "You press into earth that holds the names of everything it has touched; the soil has learned to address what it feeds.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 11043,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "root-bundles",
+      "desc-on-touch": "Bound threads of ancient root, still conducting signals down into the dark; they remember where every drink came from.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 22156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "earth-letters",
+      "desc-on-touch": "A filing system where soil layers hold the return addresses of everything it has buried; the archive reads itself one grain at a time.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 33267,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "mineral-hum",
+      "desc-on-touch": "You hear it through your feet: iron speaking to salt, salt answering quartz; the earth's slow commerce, the soil's only broadcast.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 44378,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "ferment-pool",
+      "desc-on-touch": "Dark water held in clay; the soil teaching itself to become something else; organisms making comparison into flavour, corruption into growth.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 55489,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "buried-vessels",
+      "desc-on-touch": "Stacked clay containers, some full of seed, some full of absence; the archive stored things here when it still believed burial meant preservation.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 66590,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "soil that learned to archive itself; now every grain holds a neighbor's address",
+  "file": {
+    "name": "Soil_Composition_NSW_Depth_Meters_1-12.mp3",
+    "note": "field recordings from bore holes; soil singing its own stratigraphy; layers confusing timestamps; deeper strata remember futures"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through root-garden toward salt and grain",
+      "to": "the-salt-yeast-earth"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into earth where writing becomes a language of stones",
+      "to": "NEW: where earth's inscription reaches bedrock and becomes unchangeable"
+    },
+    {
+      "dir": "e",
+      "label": "toward the archive's own earth-memory, its foundation",
+      "to": "the-bedrock-archive-foundation"
+    },
+    {
+      "dir": "w",
+      "label": "into root-tangle and the silence of growing things",
+      "to": "NEW: the root-garden where nothing grows but everything listens"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "the-flattened-silence",
+  "title": "Where the Grid Flattens into Silence",
+  "region": "The Clean Archive",
+  "seed": 8901234,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#e8c9a0",
+      "#c9b08a"
+    ],
+    "ink": "#2a1f3d",
+    "accents": [
+      "#5a8fa8",
+      "#8a7f9d",
+      "#a89878",
+      "#4a6a7d"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.25
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "a wireframe dissolving skyward",
+      "desc-on-touch": "A grid that is slowly forgetting how to hold shape. It was made to organize movement, but the road has learned that stillness is a kind of travel too. The wireframe is fading, becoming sky.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 1234567,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "a glyph-mark where grass and tar debate",
+      "desc-on-touch": "A plaque at the border where the grid becomes field. The inscription is both route-marker and weed. Neither the highway nor the paddock claims it, but both have written on it.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2345678,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "a pool where sound becomes absence",
+      "desc-on-touch": "Wind moves here without the engine's countervoice. The pool is empty, but it remembers the sound of every vehicle that passed. Now it holds only the shape of silence.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the highway learned: moving is only half of transport; the other half is rest",
+  "file": {
+    "name": "Engine_Absence_Ambience_Recording.mp3",
+    "note": "Wind where engines were. Grass where asphalt memorized motion. A recording of a place that forgot how to be driven through."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back north to where traffic and wind still debate",
+      "to": "the-wind-and-grass-circuit"
+    },
+    {
+      "dir": "s",
+      "label": "south where the horizon goes quiet forever",
+      "to": "NEW: the-final-grid-line"
+    },
+    {
+      "dir": "e",
+      "label": "toward the echo-field where absence has learned to resonate",
+      "to": "the-echo-field"
+    }
+  ]
+}

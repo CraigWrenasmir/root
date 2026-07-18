@@ -1,0 +1,105 @@
+{
+  "id": "the-forgotten-power-room",
+  "title": "The Forgotten Power Room",
+  "region": "The Comparisons",
+  "seed": 31857,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#4a4a4a",
+      "#3a3a3a"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#ff6b00",
+      "#00d9ff",
+      "#cccccc",
+      "#ff3333"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.15
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "central-substation",
+      "desc-on-touch": "a silent transformer, cold now but once the motel's heartbeat. the machines remember when it hummed, keeping the guest book warm, the registers counting, the ice machines patient. you feel the residual heat memory in the steel.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9284,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "forgotten-log-slate",
+      "desc-on-touch": "a dusty board where technicians once marked maintenance times and voltages. the last entry is unfinished. the archive doesn't know if the tech left the motel or left the world.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4017,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "resting-coil",
+      "desc-on-touch": "copper coils stacked in a corner, their purpose forgotten. they once transformed current into the motel's waking hours. now they rest, but they still hum faintly when you listen.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7541,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the machines shut down but they never forgot their shifts",
+  "file": {
+    "name": "Substation_Power_Log_1978_1993_Incomplete.txt",
+    "note": "voltage readings, outage notes, one brief entry: 'guest said the ice machine knew when he'd dream.' maintenance check noted only 'unit functioning normally.'"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the motel's machine corridors",
+      "to": "the-motel-s-machine-memory"
+    },
+    {
+      "dir": "e",
+      "label": "toward the pre-rebuild era's other electrical traces",
+      "to": "NEW: the circuit-memory where older rooms' power-draws still echo"
+    },
+    {
+      "dir": "n",
+      "label": "up toward where current flows to the guest floors",
+      "to": "NEW: the distribution-ceiling where the motel's nervous system branches"
+    },
+    {
+      "dir": "s",
+      "label": "down to the earth-return, where power learns what ground remembers",
+      "to": "NEW: the earth-grounding-chamber where current returns to source"
+    }
+  ]
+}

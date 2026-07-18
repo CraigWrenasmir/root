@@ -1,0 +1,151 @@
+{
+  "id": "the-convergence-before-divergence",
+  "title": "The Convergence Before Divergence",
+  "region": "The Understory",
+  "seed": 5624381,
+  "palette": {
+    "bg": "#1f2920",
+    "ground": [
+      "#c9765e",
+      "#4a6b4a"
+    ],
+    "ink": "#e0d9cc",
+    "accents": [
+      "#d68963",
+      "#6b8e5f",
+      "#8b6f47",
+      "#a0744a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "river-memory-pool",
+      "desc-on-touch": "Water that hasn't learned to be many channels yet, still remembering being singular. The pool holds the convergence: every drop knows where it came from.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 382947,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "confluence-marker",
+      "desc-on-touch": "Where three water-paths learned to be one. The stone here is smoothed by the logic of meeting, polished by pressure toward union.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 715283,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "language-sediment",
+      "desc-on-touch": "Where the archive recorded water-sounds, it caught something: words layered in the sediment, from before the rivers learned to be separate dialects.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 543821,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "flow-decision-rock",
+      "desc-on-touch": "The water splits here, or comes together—the tense is uncertain. The rock remembers both states happening at once, pressure and release simultaneous.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 856234,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "echo-of-singular",
+      "desc-on-touch": "The water remembers being undivided. It hums in a single pitch here, before the channels teach it harmony and discord.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 468123,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "splitting-observation-shelf",
+      "desc-on-touch": "A ledge where someone stood to watch the moment of divergence. The archive found their notes: which one is leaving, which one is staying? Never answered.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 629547,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive keeps the union and the fracture indivisible; choice flows downstream",
+  "file": {
+    "name": "RiverSource_Hydrology_Annotated_Bilingual_Split.txt",
+    "note": "Hydrological records of river confluence written in two languages that gradually diverge. Later entries contradict earlier ones about which tributary flows where, as if the rivers rerouted themselves "
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the echo-field where repetition began",
+      "to": "the-echo-field"
+    },
+    {
+      "dir": "s",
+      "label": "downstream where the split channels remember being one",
+      "to": "NEW: the-river-s-second-language"
+    },
+    {
+      "dir": "w",
+      "label": "west to where tributary memory pools before joining",
+      "to": "NEW: the-gathering-before-meeting"
+    }
+  ]
+}

@@ -775,6 +775,8 @@ const FIG = {
   K_lie:["        .-.","  ╭─────( ° )","  °˃˃˃˃˃  '-'"], L_kneel:["(¬ ","/│╲","▟▄▖"],
   // seated side-on, facing right: head · vertical back · hip curving to thigh · dangling shin
   L_sit:["(¬","│","╰─┐","  │"],  K_sit:["﹏","(°","│","╰─┐","  │"],
+  // mid-stride, walking together
+  L_walk:["(¬","/│","╱ ╲"],  K_walk:["﹏","(°","/│","╱ ╲"],
 };
 const LEIF="#ffe9c9", KAT="#ff9ee6";
 
@@ -891,11 +893,103 @@ const REV_SETTINGS = {
 };
 const REV_ORDER = ["rooftop","field","river","motel","drain","harbour"];
 
+/* ---- COMPOSED reverie: sky × land × structure × weather × pose ----
+   Each axis is a small hand-crafted painter; combined they yield hundreds
+   of distinct memory scenes the engine can dream. Add painters to any axis
+   over time to widen the vocabulary. */
+const R_SKY = {
+  dawn(a){ const c=["#2a1e30","#33243a","#3e2c3e","#4c3840","#5e463e","#6e543c","#7c603a"];
+    for(let y=1;y<=9;y++)rFill(y,0,COLS-1," ",null,c[Math.min(6,(y-1)*0.7|0)]);
+    const r=mulberry32(11); for(let i=0;i<8;i++){const x=(r()*COLS)|0,yy=1+(r()*3|0);rCell(x,yy,"·","#ffe1b0");a.push({k:"twinkle",x,y:yy,c:["#ffe1b0","#5e463e"]});} return 10; },
+  dusk(a){ const c=["#3a2438","#4a2e40","#5c3a44","#6e4a44","#7c5a48"];
+    for(let y=1;y<=9;y++)rFill(y,0,COLS-1," ",null,c[Math.min(4,(y-1)/2|0)]);
+    const r=mulberry32(12); for(let i=0;i<12;i++)rCell((r()*COLS)|0,1+(r()*5|0),"·","#ffce9a"); return 10; },
+  night(a){ for(let y=0;y<=9;y++)rFill(y,0,COLS-1," ",null,["#0c0a1e","#12102a","#161436"][Math.min(2,y/4|0)]);
+    const r=mulberry32(13); for(let i=0;i<44;i++){const x=(r()*COLS)|0,yy=(r()*9|0);rCell(x,yy,"·",r()<.2?"#ffd9a0":"#8a9ac8");if(r()<.25)a.push({k:"twinkle",x,y:yy,c:["#dfe6ff","#2a2a4e"]});}
+    if(r()<.6)rBlock(64,7,[" ▄▄ ","(██)"],"#e8e2c8"); return 10; },   // a moon, often
+  day(a){ for(let y=1;y<=9;y++)rFill(y,0,COLS-1," ",null,["#2a4a6e","#345a80","#3e6a92","#5a86a8"][Math.min(3,(y-1)/2.5|0)]);
+    const r=mulberry32(14); for(let i=0;i<3;i++){rStr(6+(r()*(COLS-20)|0),2+(r()*3|0),"(▒▒▒)","#c8d8e8");} return 10; },
+  overcast(a){ for(let y=1;y<=9;y++)rFill(y,0,COLS-1," ",null,["#3a3a40","#44444a","#4e4e54"][Math.min(2,(y-1)/3|0)]); return 10; },
+  storm(a){ for(let y=1;y<=9;y++)rFill(y,0,COLS-1," ",null,["#161a24","#20262f","#2a323d"][Math.min(2,(y-1)/3|0)]); a.push({k:"flash"}); return 10; },
+};
+const R_LAND = {
+  paddock(hor,a){ for(let y=hor;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,y<hor+2?"#1b2c10":"#16240e");
+    const r=mulberry32(21); for(let y=hor+1;y<=23;y++){const d=(y-hor)/(24-hor);for(let x=0;x<COLS;x++)if(r()<d*.7){const f=y>19;rCell(x,y,f?"❀✿*Y'.,"[(r()*7)|0]:"'`.,"[(r()*4)|0],f?["#ffd9e6","#ffe9a0","#e8f5c0","#ff9ec0","#c9e89a"][(r()*5)|0]:"#4a6b34");}}
+    for(let i=0;i<8;i++)a.push({k:"drift",x:r()*COLS,y:hor+r()*(24-hor),vy:-.4,vx:.1,ch:"✽*.",c:"#ffd9e6"}); return {gy:22}; },
+  water(hor,a){ for(let y=hor;y<=24;y++){const c=["#243c4c","#1e3444","#182c3c"][(y-hor)%3];for(let x=0;x<COLS;x++)rCell(x,y,"~≈"[(x+y)%2],c);} return {gy:22,wl:hor+4}; },
+  beach(hor,a){ const sh=hor+4; for(let y=hor;y<sh;y++)for(let x=0;x<COLS;x++)rCell(x,y,"~≈"[(x+y)%2],"#2a4a5a");
+    for(let x=0;x<COLS;x++)rCell(x,sh,"≈","#8a9a8a"); for(let y=sh+1;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,"#4a4230");
+    const r=mulberry32(23);for(let y=sh+1;y<=24;y++)for(let x=0;x<COLS;x++)if(r()<.14)rCell(x,y,"·˙"[(r()*2)|0],"#6a6248"); return {gy:22}; },
+  road(hor,a){ for(let y=hor;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,y<hor+3?"#2a2820":"#191a1e");
+    for(let x=2;x<COLS;x+=6)rStr(x,23,"──","#9a9a5a"); return {gy:22}; },
+  forest(hor,a){ for(let y=hor;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,"#101c0c");
+    const r=mulberry32(24); for(let i=0;i<9;i++){const x=(r()*COLS)|0;for(let y=hor;y<22;y++)rCell(x,y,"║","#2a3a1e");for(let k=-2;k<=2;k++)rCell(x+k,hor,"♣","#3f6b2e");}
+    for(let x=0;x<COLS;x++)if(r()<.4)rCell(x,22,"▄","#243418"); return {gy:22}; },
+  snow(hor,a){ for(let y=hor;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,y<hor+2?"#7a8290":"#9aa2ae");
+    const r=mulberry32(26);for(let y=hor+1;y<=24;y++)for(let x=0;x<COLS;x++)if(r()<.1)rCell(x,y,"·",r()<.5?"#c8d0d8":"#6a727e");
+    for(let i=0;i<12;i++)a.push({k:"drift",x:r()*COLS,y:r()*24,vy:.3,vx:.05,ch:"·*",c:"#e8eef4"}); return {gy:22}; },
+  redearth(hor,a){ for(let y=hor;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,y<hor+2?"#5a2e1e":"#4a2416");
+    const r=mulberry32(25);for(let y=hor+1;y<=24;y++)for(let x=0;x<COLS;x++)if(r()<.18)rCell(x,y,"·,♣"[(r()*3)|0],r()<.3?"#6a7a3a":"#7a4a2e"); return {gy:22}; },
+  suburb(hor,a){ for(let y=hor;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,"#1e2c16");
+    for(let x=0;x<COLS;x++)rCell(x,hor+3,x%3?"─":"┬","#5a4a3a"); return {gy:22}; },
+  interior(hor,a){ for(let y=0;y<=24;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,y<=16?"#241a16":"#33231e");
+    rFill(16,0,COLS-1,"▁","#4a382e"); return {gy:22}; },
+};
+const R_STRUCT = {
+  none(){},
+  tree(gy){ rBlock(14,gy,["  ♣♣♣♣ "," ♣♣♣♣♣♣","♣♣♣♣♣♣♣♣","   ║▐   ","   ║    ","   ║    ","   ║    "],"#3f6b2e"); rCell(15,gy-4,"▐","#7a5636"); rCell(16,gy-5,"•","#ffd166"); },
+  shed(gy){ for(let y=gy-5;y<=gy;y++)for(let x=6;x<20;x++)rCell(x,y,"│",(x-6)%2?"#4a3e2e":"#3a3225",y<gy-4?null:undefined); rStr(5,gy-6,"╱▔▔▔▔▔▔▔▔▔╲","#5a4a36"); rCell(13,gy,"▐","#1a1410"); },
+  motel(gy){ rStr(58,gy-6,"┌────┐","#4a3a2a"); for(let y=gy-5;y<gy-1;y++){rCell(58,y,"│","#4a3a2a");rCell(63,y,"│","#4a3a2a");for(let x=59;x<63;x++)rCell(x,y,"─",(y+x)%2?"#6e5040":"#2e2018");} rStr(58,gy-1,"└────┘","#4a3a2a"); },
+  drain(gy){ const cx=64,cy=gy-4; for(let rr=2;rr<8;rr++)for(let a2=0;a2<40;a2++){const th=a2/40*6.283;rCell(Math.round(cx+Math.cos(th)*rr*1.4),Math.round(cy+Math.sin(th)*rr*.8),"·","#243a3e");} for(let a2=0;a2<24;a2++){const th=a2/24*6.283;rCell(Math.round(cx+Math.cos(th)*2),Math.round(cy+Math.sin(th)),"▒","#9ab0a0");} },
+  wharf(gy){ for(let x=0;x<COLS;x+=12){rCell(x,gy+1,"║","#241a12");rCell(x,gy+2,"║","#1a120c");} },
+  caravan(gy){ rStr(54,gy-4,"┌──────┐","#8a7a5a"); rStr(54,gy-3,"│ ▪▪  □│","#6a5a3a"); rStr(54,gy-2,"│      │","#6a5a3a"); rStr(54,gy-1,"└─(o)──┘","#8a7a5a"); },
+  silo(gy){ for(let y=gy-8;y<=gy;y++){rCell(60,y,"║","#7a6a52");rCell(66,y,"║","#7a6a52");for(let x=61;x<66;x++)rCell(x,y,"▒","#5a4e3a");} rStr(60,gy-8,"╭─────╮","#8a7a5e"); },
+  church(gy){ rStr(56,gy-7,"  ╱╲  ","#5a4a3a"); rStr(56,gy-6," ╱  ╲ ","#5a4a3a"); for(let y=gy-5;y<=gy;y++){rCell(57,y,"║","#4a3e30");rCell(62,y,"║","#4a3e30");} rCell(59,gy-3,"┼","#6a5a44"); },
+  payphone(gy){ rStr(60,gy-4,"┌─┐","#3a4a5a"); rStr(60,gy-3,"│▪│","#5a6a7a"); rStr(60,gy-2,"│ │","#3a4a5a"); rCell(61,gy-1,"│","#3a4a5a"); },
+  servo(gy){ rStr(52,gy-6,"╔════════╗","#6a6656"); rStr(52,gy-5,"║ ROOT  ▪║","#8a8668"); for(const px of [54,62]){for(let y=gy-4;y<=gy;y++)rCell(px,y,"║","#4a4638");} },
+};
+function placeFigures(pose, land, gy, wl, a){
+  if(land==="water" || wl){ const wy=(wl||gy)-1;
+    rBlock(34,wy,FIG.L_wade,LEIF); rBlock(46,wy,FIG.K_wade,KAT);
+    a.push({k:"ripple",x:34,y:wy+2}); a.push({k:"ripple",x:46,y:wy+2}); return; }
+  switch(pose){
+    case "sit": rBlockAt(33,gy,FIG.K_sit,KAT); rBlockAt(43,gy,FIG.L_sit,LEIF); break;
+    case "recline": rBlock(50,gy-1,FIG.K_lie,"#ffdcc9"); rBlock(30,gy,FIG.L_kneel,LEIF); break;
+    case "kneel": rBlock(34,gy,FIG.L_kneel,LEIF); rBlock(46,gy,FIG.K_stand,KAT); break;
+    case "walk": rBlock(33,gy,FIG.L_walk,LEIF); rBlock(41,gy,FIG.K_walk,KAT); break;
+    case "lie": rBlock(34,gy-1,FIG.K_lie,KAT); rBlock(50,gy-1,FIG.K_lie,LEIF); break;
+    default: rBlock(34,gy,FIG.L_stand,LEIF); rBlock(46,gy,FIG.K_stand,KAT);
+  }
+  a.push({k:"shimmer",x0:30,x1:50,y0:gy-4,y1:gy});
+}
+const R_WEATHER = {
+  none(){},
+  petals(a){ const r=mulberry32(31); for(let i=0;i<10;i++)a.push({k:"drift",x:r()*COLS,y:r()*24,vy:-.3,vx:.15,ch:"✽*.",c:"#ffd9e6"}); },
+  rain(a){ const r=mulberry32(32); for(let i=0;i<26;i++)a.push({k:"drift",x:r()*COLS,y:r()*24,vy:2.2,vx:-.5,ch:"/",c:"#8aa0b8"}); },
+  snow(a){ const r=mulberry32(33); for(let i=0;i<18;i++)a.push({k:"drift",x:r()*COLS,y:r()*24,vy:.4,vx:.05,ch:"·*",c:"#e8eef4"}); },
+  embers(a){ const r=mulberry32(34); for(let i=0;i<12;i++)a.push({k:"drift",x:r()*COLS,y:12+r()*12,vy:-.5,vx:.1,ch:"·°",c:"#ff9e4f"}); },
+  static(a){ for(let i=0;i<20;i++)a.push({k:"static"}); },
+  motes(a){ const r=mulberry32(36); for(let i=0;i<12;i++)a.push({k:"drift",x:r()*COLS,y:r()*24,vy:-.1,vx:.05,ch:"∙·",c:"#e8d0a0"}); },
+};
+function composeReverie(scene, anim){
+  const sky = R_SKY[scene.sky] || R_SKY.dusk;
+  const land = R_LAND[scene.land] || R_LAND.paddock;
+  const struct = R_STRUCT[scene.structure] || R_STRUCT.none;
+  const weather = R_WEATHER[scene.weather] || R_WEATHER.none;
+  const hor = sky(anim);
+  const g = land(hor, anim) || {gy:22};
+  struct(g.gy, anim);
+  placeFigures(scene.pose, scene.land, g.gy, g.wl, anim);
+  weather(anim);
+}
+
 function enterReverie(scene){
   reverie = {scene, page:0, t:0, anim:[]};
   for(const k in keys) keys[k]=false;
   rct.font = FONT; rct.textAlign = "center"; rct.textBaseline = "middle";
-  (REV_SETTINGS[scene.setting]||REV_SETTINGS.rooftop)(scene, reverie.anim);
+  rct.fillStyle = "#0a0705"; rct.fillRect(0,0,revC.width,revC.height);
+  if(REV_SETTINGS[scene.setting]) REV_SETTINGS[scene.setting](scene, reverie.anim);
+  else composeReverie(scene, reverie.anim);
   // faint scanlines: this is a rendered memory, not the world
   rct.fillStyle = "rgba(10,6,4,.30)";
   for(let y=0;y<ROWS;y+=2) rct.fillRect(0,y*CH,revC.width,CH);
@@ -928,6 +1022,8 @@ function drawReverie(dt){
     else if(a.k==="fan"){ cellText(scr,a.x,a.y,["✜","✛","×","✛"][(t*4|0)%4],"#8a6a50"); }
     else if(a.k==="beam"){ const yy=a.y; for(let i=1;i<10;i++){const bx=a.x+i,by=yy-Math.round(i*.3);
       if((t*3+i)%2<1.4) cellText(scr,bx,by,"·","rgba(255,240,180,"+(0.5-i*0.04)+")"); } }
+    else if(a.k==="static"){ if(Math.random()<.5) cellText(scr,(Math.random()*COLS)|0,1+(Math.random()*22)|0,"░·"[(Math.random()*2)|0],"rgba(200,210,220,.4)"); }
+    else if(a.k==="flash"){ if(Math.sin(t*0.7)>0.985){ for(let x=0;x<COLS;x++) for(let y=1;y<10;y++) if(Math.random()<.3) cellText(scr,x,y,"▒","rgba(220,225,240,.5)"); } }
   }
   // title
   const title = reverie.scene.title || "REVERIE";
@@ -1387,6 +1483,10 @@ window.DR = {
     narr:["A memory surfaces through the mesh, warm and out of order.",
           "She is here, and you are here, and the archive is elsewhere.",
           "You stay a moment. Then the signal calls you back down."]}); },
+  compose(sky,land,structure,weather,pose){ enterReverie({sky,land,structure,weather,pose,
+    title:"REVERIE — "+[sky,land,structure].join(" · "),
+    narr:["A memory surfaces through the mesh, warm and out of order.",
+          "She is here, and you are here, and the archive is elsewhere."]}); },
   state(){ return {mode, room: room && room.id, files: Object.keys(save.files), reverie: !!reverie}; }
 };
 

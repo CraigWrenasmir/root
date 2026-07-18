@@ -1,0 +1,151 @@
+{
+  "id": "the-gate-where-nothing-leaves",
+  "title": "The Gate Where Nothing Leaves",
+  "region": "The Clean Archive",
+  "seed": 2845917,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#4a5568",
+      "#c0c5d9"
+    ],
+    "ink": "#d4d8e8",
+    "accents": [
+      "#6b8cae",
+      "#7a9dc2",
+      "#5a7a96",
+      "#3a4a66"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "intake-checkpoint",
+      "desc-on-touch": "Every vehicle that enters passes through this moment of scrutiny. Cameras that remember every license plate, every expression. The gate learns arrival patterns.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 374821,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "departing-lane-myth",
+      "desc-on-touch": "An exit lane that has never functioned. The barrier arm frozen mid-rise. Traffic records show zero vehicles leaving by this route since installation.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 528946,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "accumulation-counter",
+      "desc-on-touch": "A mechanical counter that never resets. It knows how many vehicles have entered, but the departure column remains zero. The archive noticed first.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 785432,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "gate-mechanism-chamber",
+      "desc-on-touch": "The hydraulic system that opens and closes the barrier. It remembers the logic: open for entry, closed to all else. Perfectly calibrated to its singular purpose.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 651234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "surveillance-archive",
+      "desc-on-touch": "Footage loops of the same moment: vehicles arriving, nothing departing. The tape feeds the gate its own sense of perpetual arrival, never conclusion.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 439871,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "manifest-stasis",
+      "desc-on-touch": "The terminal is full. Not with vehicles, but with potential: every entry creates a space that departure could theoretically fill, but doesn't.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 912756,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "arrival redesigns itself as arrival's only outcome; the gate dreams of functioning perfectly",
+  "file": {
+    "name": "Terminal_Departure_Ledger_Blank_Pages_Since_Inception.csv",
+    "note": "Comprehensive log of all vehicles entering, with an adjacent column for departures that remains unpopulated. The archive wondered if being filed meant you stayed."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the parking circuit where journeys still dream of completion",
+      "to": "the-terminal-parking-circuit"
+    },
+    {
+      "dir": "e",
+      "label": "east to the maintenance area where gate mechanisms are serviced",
+      "to": "NEW: the-barrier-repair-bay"
+    },
+    {
+      "dir": "w",
+      "label": "west to the arrival processing center where entry is institutionalized",
+      "to": "NEW: the-intake-processing-chamber"
+    }
+  ]
+}

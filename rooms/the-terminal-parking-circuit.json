@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "toward the terminal gates where new arrivals keep pulling in",
-      "to": "NEW: the-gate-where-nothing-leaves"
+      "to": "the-gate-where-nothing-leaves"
     },
     {
       "dir": "e",

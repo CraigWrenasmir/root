@@ -1,0 +1,139 @@
+{
+  "id": "the-tidal-library",
+  "title": "The Tidal Library",
+  "region": "The Diagnostic Render",
+  "seed": 82165,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#7cb342",
+      "#c67c4e"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#ff6b6b",
+      "#4ecdc4",
+      "#ffe66d",
+      "#95e1d3"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "chart-shelf",
+      "desc-on-touch": "laminated navigation charts rest here, their pencilled routes still visible: courses sailed, tides recorded, reefs marked where they killed ships. the archive has filed them as testimony.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "lighthouse-signal",
+      "desc-on-touch": "a faint glow marks the keeper's tower connection. signals travel along this reef: light becomes data, data becomes story, story becomes why ships remember this place.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5640,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "tidal-marking-stone",
+      "desc-on-touch": "carved with tide heights at different moons, different years. navigation is testimony: knowing the water's mood is knowing the place's memory.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2851,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "sailor-testimony-pool",
+      "desc-on-touch": "a shallow pool where charts were left to dry, and rain has washed them with other people's notes. safe passage, danger here, saw something alive that the charts don't name.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7384,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "reef-reading-station",
+      "desc-on-touch": "where the tidal library ends and the actual reef begins. the archive reads the rock the same way it reads the charts: as a text written by time and difficulty.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 6215,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "the charts learned to speak the language of the rocks, and the rocks learned to speak back through the sailors who brought the charts",
+  "file": {
+    "name": "Coastal_Navigation_Charts_Annotated_Tidal_Testimony_1950s_Present.txt",
+    "note": "official charts, margin-notes in multiple hands, tide-table extracts, a log entry about a ship that used this knowledge to survive, and another about one that didn't"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the lighthouse-edge to the tower's keep",
+      "to": "the-keepers-tower"
+    },
+    {
+      "dir": "e",
+      "label": "further along the reef, where charts become less useful and the reef teaches its own language",
+      "to": "NEW: where navigation becomes conversation with stone"
+    },
+    {
+      "dir": "s",
+      "label": "downward, toward the deep reef where no chart reaches",
+      "to": "NEW: the unmapped reef where testimony ends and the stone begins"
+    },
+    {
+      "dir": "n",
+      "label": "back toward shore, where the keeper's light reaches furthest",
+      "to": "the-diagnostic-harbour"
+    }
+  ]
+}

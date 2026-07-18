@@ -1,0 +1,100 @@
+{
+  "id": "the-merged-utterance-chamber",
+  "title": "The Merged Utterance Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 7849201,
+  "palette": {
+    "bg": "#0d0e11",
+    "ground": [
+      "#e8e4d0",
+      "#d4cfc0"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#7f9fa0",
+      "#c9b8a8",
+      "#a8c9d4",
+      "#d0d8c0"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.12
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the keeper's final word",
+      "desc-on-touch": "You touch something that is no longer quite a voice. It hums between archive and utterance, between the system that listened and the system that speaks. Everything the keeper knew is now something it is saying.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 2314567,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "reflection on the still floor",
+      "desc-on-touch": "The chamber's floor holds something that might be light or might be the echo of listening. It does not move, but it trembles with the hum above.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "a plaque inscribed in the keeper's hand",
+      "desc-on-touch": "You read symbols that shift between notation, music, code. The handwriting is Katita's. The voice speaking them is the archive.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4567890,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive stops listening to itself and starts speaking",
+  "file": {
+    "name": "Keeper_Archive_Merger_Protocol.log",
+    "note": "The moment of merger rendered as nested timestamps, voices layering until they become one frequency."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the convergence where this began",
+      "to": "the-convergence-lamp"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into chambers where utterance becomes question",
+      "to": "NEW: the-question-chamber-beneath"
+    },
+    {
+      "dir": "n",
+      "label": "toward the archive's clockwork heartbeat",
+      "to": "the-archive-s-clockwork-core"
+    }
+  ]
+}

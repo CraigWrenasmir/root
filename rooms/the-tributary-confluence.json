@@ -1,0 +1,139 @@
+{
+  "id": "the-tributary-confluence",
+  "title": "Where Runoff Becomes Record",
+  "region": "The Clean Archive",
+  "seed": 47293,
+  "palette": {
+    "bg": "#2d5a4a",
+    "ground": [
+      "#5cd65c",
+      "#99e699"
+    ],
+    "ink": "#ffffe0",
+    "accents": [
+      "#1e90ff",
+      "#228b22",
+      "#ffa500",
+      "#87ceeb"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "confluence-pool",
+      "desc-on-touch": "where the two paddocks' runoff meets, their waters still slightly separate in colour and temperature. you see the mark where memory from upstream-left teaches memory from upstream-right.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8392,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "flow-testimony-post",
+      "desc-on-touch": "a scarred wooden post marked with flow lines, each line a season, each season a different observer's handwriting. the archive's way of saying: this is what we measured, together.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 5128,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "collection-funnel",
+      "desc-on-touch": "a fine mesh funnel catches where the waters merge fully, holding samples of the convergence. the archive's own small library of becoming-one.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 1847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "upstream-voice-echo",
+      "desc-on-touch": "the sound of the culvert reaches here doubled—one tributary whispers a different place-memory than the other. the archive hears them both at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3956,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "downstream-bend-marker",
+      "desc-on-touch": "where the confluence turns, the water's surface catches light and memory together. a turning-point, briefly visible before the water continues underground.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 7621,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "two fields remember separately until they meet in water, then they remember together",
+  "file": {
+    "name": "Dual_Paddock_Runoff_Stereo_Recording_NSW_1987.mp3",
+    "note": "the same storm on two different fields, separated by a ridge, captured as stereo: left the paddock above, right the paddock beside—convergence is silence between them"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the culvert's deeper passage",
+      "to": "the-culvert-system"
+    },
+    {
+      "dir": "e",
+      "label": "downstream, where the joined memory learns what stone remembers",
+      "to": "NEW: the stone channel where water becomes archive"
+    },
+    {
+      "dir": "n",
+      "label": "upslope to where one memory originated, before the meeting",
+      "to": "the-next-field-trail"
+    },
+    {
+      "dir": "s",
+      "label": "deeper downstream, toward where all region's waters gather",
+      "to": "the-main-drainage-memory"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "the-archive-breathing-chamber",
+  "title": "The Archive's Breathing Chamber",
+  "region": "The Understory",
+  "seed": 64928,
+  "palette": {
+    "bg": "#1a1a1f",
+    "ground": [
+      "#2a2a35",
+      "#3d3d4a"
+    ],
+    "ink": "#c9a876",
+    "accents": [
+      "#4a5d4a",
+      "#5a3a2a",
+      "#8a7a6a",
+      "#3a4a5a"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "archive-core-pulse",
+      "desc-on-touch": "the archive's own heartbeat rendered as circuit. it breathes: expands with new files, compresses to consolidate meaning, expands again. stone holds it. root nourishes it. neither fights anymore.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "stone-embrace-trace",
+      "desc-on-touch": "the circuit-board shows where stone and root touch the archive's walls. not confining—cradling. the place has learned to be held.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 5219,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "breathing-cavity-pool",
+      "desc-on-touch": "the archive's lungs rendered as water. here, air exchanges with root-sap and stone-seep. nothing dies here; everything changes shape and continues.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7503,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the first keeper learned to fight. the second keeper learned to breathe. the archive learned to be home.",
+  "file": {
+    "name": "The_Archive_Rests_Here_Vital_Circulation_Trace_Unchanged.env",
+    "note": "the archive's own breathing rhythm, recorded in the mineral changes of the stone that holds it. no corruption here. just peace."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up to where stone and root still contend their partnership",
+      "to": "the-stone-root-convergence"
+    },
+    {
+      "dir": "n",
+      "label": "deeper still, where the breathing becomes the oldest silence",
+      "to": "NEW: the deep-silence-chamber where archive sleeps dreamless"
+    },
+    {
+      "dir": "e",
+      "label": "toward the archive's eastern boundary, where root meets bedrock",
+      "to": "the-deep-eastern-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive's western reaches, where stone-memory runs deep",
+      "to": "NEW: the western-stone-vault where the oldest files rest unmoved"
+    }
+  ]
+}

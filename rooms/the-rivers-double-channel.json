@@ -140,7 +140,7 @@
     {
       "dir": "w",
       "label": "toward the channel where this history flowed differently",
-      "to": "NEW: the-other-town-mirror-channel"
+      "to": "the-other-town-mirror-channel"
     },
     {
       "dir": "s",

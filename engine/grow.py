@@ -25,6 +25,11 @@ MANIFEST = os.path.join(ROOMS, "manifest.json")
 
 VERBS   = ["ripple", "bloom", "scatter", "glitch", "torus", "hum", "open"]
 REV_SETTINGS = ["rooftop", "field", "river", "motel", "drain", "harbour"]
+REV_SKY    = ["dawn", "dusk", "night", "day", "overcast", "storm"]
+REV_LAND   = ["paddock", "water", "beach", "road", "forest", "snow", "redearth", "suburb", "interior"]
+REV_STRUCT = ["tree", "shed", "motel", "drain", "wharf", "caravan", "silo", "church", "payphone", "servo", "none"]
+REV_WX     = ["petals", "rain", "snow", "embers", "static", "motes", "none"]
+REV_POSE   = ["stand", "sit", "recline", "kneel", "walk", "wade", "lie"]
 MOTIFS  = ["grid", "tiles", "ripple", "static", "waves", "circuit", "scatter",
            "contour", "canopy", "qr", "fields", "roads", "orchard", "board",
            "gradient"]
@@ -153,15 +158,23 @@ or intimate — a letter, a photograph, a personal recording), the node may also
 carry a REVERIE: a side-on memory of Leif and Katita that surfaces when the
 reader queries the private thing. Add TWO things:
  - set that one feature's "verb" to "reverie" (instead of a normal verb);
- - add a top-level "reverie" object:
-   {"setting": "rooftop|field|river|motel|drain|harbour",
+ - add a top-level "reverie" object COMPOSED from these axes (mix them freshly —
+   no two memories should look alike):
+   {"sky":       "dawn|dusk|night|day|overcast|storm",
+    "land":      "paddock|water|beach|road|forest|snow|redearth|suburb|interior",
+    "structure": "tree|shed|motel|drain|wharf|caravan|silo|church|payphone|servo|none",
+    "weather":   "petals|rain|snow|embers|static|motes|none",
+    "pose":      "stand|sit|recline|kneel|walk|wade|lie",
     "title": "REVERIE — <short lowercase place-and-time>",
     "narr": [ 4 to 6 lines of second-person narrative, each <= 72 characters,
               a quiet remembered moment between you and her — tender, concrete,
-              from the book's world (installing casings, the rooftop where she
-              named your costume, river-bathing, a motel, a stormwater drain, a
-              harbour at dusk). Never mention the mesh or the corruption here. ]}
- Choose the setting that fits the memory. Most nodes have NO reverie — keep them rare.
+              from the book's world. Never mention the mesh or the corruption. ]}
+   Pick axes that fit the memory: river-bathing → land:water, pose:wade;
+   the outback install → land:redearth, structure:tree; a rooftop night →
+   land:suburb, sky:night, structure:none; a motel → land:interior,
+   structure:motel, pose:sit; a walk home → land:road, pose:walk. Invent
+   new combinations freely — that is how the memory-world grows. Most nodes
+   have NO reverie — keep them rare.
 
 FORM GUIDE: "burl" renders a eucalyptus trunk with a burled knot, casing
 LED and antenna — use for living node hardware. "wireframe" renders a
@@ -458,12 +471,19 @@ def repair(room, parent_id, back_dir, existing_ids):
     rev = room.get("reverie")
     has_trigger = any(f.get("verb") == "reverie" for f in room["features"])
     if isinstance(rev, dict) and has_trigger:
-        setting = rev.get("setting") if rev.get("setting") in REV_SETTINGS else "field"
         narr = [str(l)[:74] for l in (rev.get("narr") or []) if str(l).strip()][:6]
         if len(narr) >= 2:
-            room["reverie"] = {"setting": setting,
-                               "title": str(rev.get("title") or "REVERIE")[:60],
-                               "narr": narr}
+            out = {"title": str(rev.get("title") or "REVERIE")[:60], "narr": narr}
+            if rev.get("setting") in REV_SETTINGS:
+                out["setting"] = rev["setting"]            # a hand-authored hero preset
+            else:                                          # composed from axes
+                out["sky"]       = rev.get("sky")       if rev.get("sky")       in REV_SKY    else random.choice(REV_SKY)
+                out["land"]      = rev.get("land")      if rev.get("land")      in REV_LAND   else random.choice(REV_LAND)
+                out["structure"] = rev.get("structure") if rev.get("structure") in REV_STRUCT else "none"
+                out["weather"]   = rev.get("weather")   if rev.get("weather")   in REV_WX     else "none"
+                out["pose"]      = rev.get("pose")      if rev.get("pose")      in REV_POSE   else "stand"
+                if out["land"] == "water": out["pose"] = "wade"
+            room["reverie"] = out
         else:
             room.pop("reverie", None)
             for f in room["features"]:

@@ -1,0 +1,105 @@
+{
+  "id": "the-lateral-ascent",
+  "title": "The Lateral Ascent",
+  "region": "The Understory",
+  "seed": 19264,
+  "palette": {
+    "bg": "#3a3a4a",
+    "ground": [
+      "#5a5a6a",
+      "#4a4a5a"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#9a9aaa",
+      "#7a6a5a",
+      "#aaaaaa",
+      "#6a7a8a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.1
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "pressure-marker",
+      "desc-on-touch": "a single standing stone or post marking where the ridge flattens into ambiguity. you cannot tell if you climbed or descended to reach it. pressure and weather are one thing here.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6841,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "lateral-wind-trace",
+      "desc-on-touch": "the only mark that the wind makes here—not horizontal, not vertical, but perpendicular to all climbing. as if direction itself is confused about what it means to move.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4573,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "ambiguous-passage",
+      "desc-on-touch": "a gap in the stone that seems to move neither up nor down, but simply across. you pass through it and cannot remember which direction you were walking.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 8234,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "grammar fails here; direction becomes optional",
+  "file": {
+    "name": "Ridge_Lateral_Movement_Log_Pressure_Shifts_Direction_Undefined.txt",
+    "note": "records of walkers who moved along the ridge without climbing or descending—their coordinates stayed level but their elevation record disagrees with itself. the archive files it as testimony to pressu"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back along the ridge to where pressure still has weight and direction",
+      "to": "the-unreturning-ridge"
+    },
+    {
+      "dir": "w",
+      "label": "further lateral, where the ridge narrows and direction dissolves completely",
+      "to": "NEW: where the ridge becomes transparent and pressure becomes pure wind"
+    },
+    {
+      "dir": "n",
+      "label": "a path that might be up or might be a mirror of down, leading away",
+      "to": "NEW: the place reached by climbing that is nowhere higher"
+    },
+    {
+      "dir": "s",
+      "label": "another path that also might be climbing, might be descending, might be turning",
+      "to": "NEW: the path-that-goes-sideways where all directions are one"
+    }
+  ]
+}

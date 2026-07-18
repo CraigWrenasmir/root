@@ -1,0 +1,117 @@
+{
+  "id": "the-unnamed-forest-source",
+  "title": "The Unnamed Forest Source",
+  "region": "The Comparisons",
+  "seed": 5234891,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#8b7355",
+      "#a89968"
+    ],
+    "ink": "#f0ead6",
+    "accents": [
+      "#4a7c59",
+      "#6b9080",
+      "#d4c5a9",
+      "#3d5a47"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.55
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "a burl-wrapped casing, pre-labelled",
+      "desc-on-touch": "The tree knows it is a tree before any archive named it. You can feel the casing's antenna still breathing, transmitting into the unmapped canopy above.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 8234567,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "a pool where sound becomes water",
+      "desc-on-touch": "Field recordings pool here: cicadas, wind through leaves, a payphone ringing in the distance, answered by birds. The archive has not yet divided them into separate files.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6345678,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "a glyph row of un-named things",
+      "desc-on-touch": "Rows of identical symbols stretch away. Each one might be a plant, a boundary marker, a breath. The forest has not yet agreed what they are.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7456789,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the source-place itself, hidden",
+      "desc-on-touch": "Upstream of every name, every boundary, every cut. You sense it rather than see it. The forest began here, still becoming.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 9567890,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "upstream of every boundary, the forest was still one thing",
+  "file": {
+    "name": "Field_Recording_Before_Naming_Night.mp3",
+    "note": "Cicadas, wind, water, and something like a voice, all refusing to separate into channels."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back downstream to where the boundary began to form",
+      "to": "the-forest-before-division"
+    },
+    {
+      "dir": "w",
+      "label": "deeper upstream, where even the source has sources",
+      "to": "NEW: where-spring-learns-to-flow-upward"
+    },
+    {
+      "dir": "n",
+      "label": "toward the canopy where the archive cannot yet reach",
+      "to": "the-canopy-congregation"
+    }
+  ]
+}

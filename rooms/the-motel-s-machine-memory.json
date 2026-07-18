@@ -123,12 +123,12 @@
     {
       "dir": "e",
       "label": "toward older electrical substation, pre-rebuild",
-      "to": "NEW: the-forgotten-power-room"
+      "to": "the-forgotten-power-room"
     },
     {
       "dir": "s",
       "label": "deeper, where the building's original foundations remember their own systems",
-      "to": "NEW: the-bedrock-plumbing"
+      "to": "the-bedrock-plumbing"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 28,
+  "nights": 32,
   "lastDreamt": "2026-07-18",
   "rooms": [
     {
@@ -772,6 +772,126 @@
       "id": "the-wind-and-grass-circuit",
       "title": "Where Traffic's Engine-Sound Becomes Wind Between Grass",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-dark-loam-archive",
+      "title": "The Dark Loam Archive",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-s-own-return-signal-chamber",
+      "title": "The Archive's Own Return Signal Chamber",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-menu-screen-highway",
+      "title": "The Menu-Screen Highway",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-other-town-mirror-channel",
+      "title": "The Other Town's Mirror Channel",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-sealed-chamber-beneath-town-center",
+      "title": "The Sealed Chamber Beneath Town Center",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-of-stable-paradox",
+      "title": "The Chamber of Stable Paradox",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-merged-utterance-chamber",
+      "title": "The Merged Utterance Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-unnamed-forest-source",
+      "title": "The Unnamed Forest Source",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-petrol-station-storage-bay",
+      "title": "The Storage Bay Where Gasoline Pools Remember",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-flattened-silence",
+      "title": "Where the Grid Flattens into Silence",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-horizon-interrogation",
+      "title": "The Horizon Interrogation",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-soil-made-of-sentences",
+      "title": "The Soil Made of Sentences",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-visible-spiral-plain",
+      "title": "The Visible Spiral Plain",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unreturning-ridge",
+      "title": "The Unreturning Ridge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-convergence-before-divergence",
+      "title": "The Convergence Before Divergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gate-where-nothing-leaves",
+      "title": "The Gate Where Nothing Leaves",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-bedrock-plumbing",
+      "title": "The Bedrock Plumbing",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-salt-memory-convergence",
+      "title": "The Salt-Memory Convergence",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-tributary-confluence",
+      "title": "Where Runoff Becomes Record",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-tidal-library",
+      "title": "The Tidal Library",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-forgotten-power-room",
+      "title": "The Forgotten Power Room",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-ferment-chamber-infinite",
+      "title": "The Ferment Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-archive-breathing-chamber",
+      "title": "The Archive's Breathing Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-lateral-ascent",
+      "title": "The Lateral Ascent",
+      "region": "The Understory"
     }
   ]
 }

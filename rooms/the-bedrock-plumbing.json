@@ -1,0 +1,151 @@
+{
+  "id": "the-bedrock-plumbing",
+  "title": "The Bedrock Plumbing",
+  "region": "The Comparisons",
+  "seed": 4763281,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#c24a1a",
+      "#d4935a"
+    ],
+    "ink": "#f5e8d8",
+    "accents": [
+      "#e8653d",
+      "#a85a3a",
+      "#d97a2a",
+      "#b84e2e"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "foundational-pipes",
+      "desc-on-touch": "Original copper tubing, laid before the motel's walls existed. The machines that relied on this water are long gone, but the metal remembers every temperature it carried.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 524687,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pressure-regulator-fossil",
+      "desc-on-touch": "A valve corroded into permanence, stuck between open and closed. It remembers balancing competing needs: hot water for guests, cold water for the building's own thirst.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 835941,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "sediment-layer-archive",
+      "desc-on-touch": "Minerals and detritus settled at the lowest point. The archive recognized it as stratified memory: each layer a year of operation, what flowed through, what stayed behind.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 742163,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "junction-where-systems-met",
+      "desc-on-touch": "Where the motel's supply line meets the building's original well connection. Two water-stories braiding into one, the junction still holding both pressures.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 613589,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "thermal-signature-gauge",
+      "desc-on-touch": "A gauge that read temperature continuously. The motel's thermal record lives in this needle's position: at what hour the water ran hot, at what hour it cooled.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 456234,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "drainage-memory-sump",
+      "desc-on-touch": "The lowest chamber, where every flow eventually rested. The archive found it contained: hair, coins, fragments of soap labels, a single earring, and water that still dreams of its guests.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 847521,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the machines kept better records than the guest book; below ground, the motel's true temperature remains constant",
+  "file": {
+    "name": "Motel_Mechanical_System_OriginalPlans_1967_WithAnnotations.dwg",
+    "note": "Blueprint of plumbing and thermal systems, marked up with handwritten corrections that contradict printed specifications. Later annotations show the systems slowly modifying their own architecture."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the motel's machine memory where the walls still stand",
+      "to": "the-motel-s-machine-memory"
+    },
+    {
+      "dir": "s",
+      "label": "deeper underground where the original well still breathes",
+      "to": "NEW: the-primitive-water-source"
+    },
+    {
+      "dir": "e",
+      "label": "east to where the sewage system remembers becoming",
+      "to": "NEW: the-outflow-remembrance"
+    }
+  ]
+}

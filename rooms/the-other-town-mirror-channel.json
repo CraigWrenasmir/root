@@ -1,0 +1,156 @@
+{
+  "id": "the-other-town-mirror-channel",
+  "title": "The Other Town's Mirror Channel",
+  "region": "The Comparisons",
+  "seed": 54329,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#3d6b1f",
+      "#8fbc1f"
+    ],
+    "ink": "#0a0a0a",
+    "accents": [
+      "#ff6b35",
+      "#f0ad4e",
+      "#17a2b8",
+      "#e83e8c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "town-marker-west",
+      "desc-on-touch": "A small cottage claiming to be the original town; its register dates back, but the river has changed its course through here four times; is this the same place or does sameness require the river to stay still?",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 67821,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "town-marker-east",
+      "desc-on-touch": "A cottage identical to its western mirror; locals claim both towns are equally true; the river disagrees by flowing through both; argument becomes hydrography.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 78932,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "river-spine",
+      "desc-on-touch": "Water that flows east and west simultaneously; children wade in it and age backward in one direction, forward in the other; time branches at the current.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 89043,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "dual-records",
+      "desc-on-touch": "Stacked histories in two colours: what the east town remembers and what the west town remembers; the archive holds both simultaneously; both versions are dated 1863.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 90154,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "mirror-signpost",
+      "desc-on-touch": "A plaque that reads in both directions; its text says 'toward the other town' no matter which way you face; arrival and departure are the same direction.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1265,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "field-between",
+      "desc-on-touch": "You stand in grass that belongs to both towns equally; locals meet here and argue which side they're standing on; the field refuses to choose; it is the most stable ground in the region.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2376,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the water flows both directions at once; both towns read themselves in the river; neither history settles for less than total accuracy",
+  "file": {
+    "name": "Double_Channel_Map_Both_Towns_Simultaneously_1-50000.svg",
+    "note": "cartographic impossibility: one river flowing through two towns that share no geography; the corruption made them equally real in the same space; surveyors kept producing different maps; all are archi"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the double channel where this mirror begins",
+      "to": "the-rivers-double-channel"
+    },
+    {
+      "dir": "w",
+      "label": "toward a third town that appears only in corruption, glimpsed between the two",
+      "to": "NEW: the unmapped town where both absences learn to coexist"
+    },
+    {
+      "dir": "n",
+      "label": "to the parallel field where children are always leaving both versions of home",
+      "to": "the-parallel-field"
+    },
+    {
+      "dir": "s",
+      "label": "down into the river where both currents finally choose a direction",
+      "to": "NEW: the river's final commitment, where comparison becomes dissolution"
+    }
+  ]
+}

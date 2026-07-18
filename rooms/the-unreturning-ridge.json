@@ -1,0 +1,151 @@
+{
+  "id": "the-unreturning-ridge",
+  "title": "The Unreturning Ridge",
+  "region": "The Understory",
+  "seed": 3156842,
+  "palette": {
+    "bg": "#2d2416",
+    "ground": [
+      "#8b6914",
+      "#3d5c3f"
+    ],
+    "ink": "#e8e4d0",
+    "accents": [
+      "#d4763e",
+      "#5a7c5a",
+      "#a0826d",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "final-camp",
+      "desc-on-touch": "A cleared flat space where someone stopped climbing. Stones arranged in a circle, weathered beyond dating. No record of descent.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 721563,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "altitude-gauge",
+      "desc-on-touch": "Air this thin tastes of silence. Your breath counts the distance. The ridge remembers who passed through and who stayed.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 284916,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "equipment-scatter",
+      "desc-on-touch": "Pieces of old climbing gear, scattered as if left incrementally. Metal that remembers fingertips.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 538472,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "wind-carving",
+      "desc-on-touch": "The rock has been shaped by pressure into something almost legible. If you read it, you'll know something about what altitude does to intention.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 869245,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "visibility-zone",
+      "desc-on-touch": "From here you can see three other ridges that were never mapped. They look like they remember being one mountain once. The archive keeps the climb and the climbers equally.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 415783,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "silence-boundary",
+      "desc-on-touch": "Beyond this point the wind stops carrying sound. It's not quiet—it's something wind does at this height. The climb continues into it.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 691834,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "at the ridge's throat, climbs and descents become grammatically indistinguishable",
+  "file": {
+    "name": "ClimbLog_RedactionsMountainCamp_1987_Onward.txt",
+    "note": "A climber's journal where later entries are progressively redacted, as if altitude made them unwritable. The final page is blank except for an elevation number."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the climb that still remembers reporting",
+      "to": "the-unreturning-climb"
+    },
+    {
+      "dir": "n",
+      "label": "north to the ridge's continuation where maps go uncertain",
+      "to": "NEW: the-unmapped-summit-approach"
+    },
+    {
+      "dir": "w",
+      "label": "west along the ridge where pressure becomes weather",
+      "to": "the-lateral-ascent"
+    }
+  ]
+}
