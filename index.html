@@ -718,9 +718,6 @@ async function loadRoom(id, enterDir){
     filePos = [fx2, fy2];
   }
   caption = {title:room.title||id, region:room.region||"", insc:room.inscription||"", t:0};
-  if(window.ROOT_NATIVE && ROOT_NATIVE.entered && !window.__rootEntered){
-    window.__rootEntered = true; ROOT_NATIVE.entered();
-  }
   if(room.region && !save.regionsSeen[room.region]){
     save.regionsSeen[room.region] = true; persist();
     regionCard = {name: room.region, t: 0};
@@ -1365,7 +1362,12 @@ function frame(ts){
       if(k>=1){
         save.files[room.id] = {name:room.file.name||"unnamed.file", note:room.file.note||""};
         persist(); handshake();
-        if(window.ROOT_NATIVE) ROOT_NATIVE.haptic("download");
+        if(window.ROOT_NATIVE){
+          ROOT_NATIVE.haptic("download");
+          // ask about notifications only once the reader has pulled a file —
+          // a real investment in the archive, not a cold-launch nag
+          if(ROOT_NATIVE.entered && !window.__rootEntered){ window.__rootEntered = true; ROOT_NATIVE.entered(); }
+        }
         say([room.file.name||"", room.file.note||""]);
         downloading = null; filePos = null;
       }
