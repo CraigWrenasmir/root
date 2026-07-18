@@ -1,0 +1,12 @@
+featured: The Ferment Chamber (the-ferment-chamber-infinite)
+region: The Diagnostic Render · motif: board
+inscription: to grow, the archive must first become compost of itself
+file: Fermentation_Process_Log_Decay_Layers_Infinite_Recursion_Trace.txt
+
+all nodes tonight:
+  · Where Runoff Becomes Record
+  · The Tidal Library
+  · The Forgotten Power Room
+  · The Ferment Chamber
+  · The Archive's Breathing Chamber
+  · The Lateral Ascent
