@@ -763,13 +763,18 @@ function rFill(y,x0,x1,ch,fg,bg){ for(let x=x0;x<=x1;x++) rCell(x,y,ch,fg,bg); }
 function rBlock(cx,baseY,lines,fg){ const h=lines.length;
   for(let i=0;i<h;i++){const row=lines[i],yy=baseY-(h-1-i),x0=cx-(row.length>>1);
     for(let j=0;j<row.length;j++) if(row[j]!==" ") rCell(x0+j,yy,row[j],fg);} }
+// left-anchored: for asymmetric poses (seated) where centring would distort
+function rBlockAt(x0,baseY,lines,fg){ const h=lines.length;
+  for(let i=0;i<h;i++){const row=lines[i],yy=baseY-(h-1-i);
+    for(let j=0;j<row.length;j++) if(row[j]!==" ") rCell(x0+j,yy,row[j],fg);} }
 
 // figures (kept minimal & iconic, as Craig likes them). L=Leif, K=Katita.
 const FIG = {
   L_stand:["(¬","/│\\"," │","/ \\"],  K_stand:["﹏","(°","/│\\","╱▓╲"],
   L_wade:["(¬","/│\\"],               K_wade:["﹏","(°","/│\\"],
   K_lie:["        .-.","  ╭─────( ° )","  °˃˃˃˃˃  '-'"], L_kneel:["(¬ ","/│╲","▟▄▖"],
-  L_sit:["(¬","/└","▘ "],             K_sit:["(°","/└","▝ "],
+  // seated side-on, facing right: head · vertical back · hip curving to thigh · dangling shin
+  L_sit:["(¬","│","╰─┐","  │"],  K_sit:["﹏","(°","│","╰─┐","  │"],
 };
 const LEIF="#ffe9c9", KAT="#ff9ee6";
 
@@ -837,10 +842,11 @@ const REV_SETTINGS = {
     // the fan on the ceiling, shadow turning
     rCell(COLS>>1,14,"✜","#8a6a50"); anim.push({k:"fan",x:COLS>>1,y:14});
     // the bed
-    for(let x=20;x<60;x++){rCell(x,22,"▄","#4a3530"); rCell(x,23,"█","#33231e","#33231e");}
-    rStr(20,21,"▁".repeat(40),"#5a4038");
-    rBlock(34,21,FIG.K_sit,KAT); rBlock(42,21,FIG.L_sit,LEIF);
-    anim.push({k:"shimmer",x0:30,x1:46,y0:18,y1:21});
+    for(let x=18;x<62;x++){rCell(x,22,"▄","#4a3530"); rCell(x,23,"█","#33231e","#33231e");}
+    rStr(18,21,"▁".repeat(44),"#5a4038");
+    // the two of them sitting on the edge, shins over the side
+    rBlockAt(33,22,FIG.K_sit,KAT); rBlockAt(42,22,FIG.L_sit,LEIF);
+    anim.push({k:"shimmer",x0:31,x1:46,y0:17,y1:20});
     for(let i=0;i<6;i++)anim.push({k:"drift",x:rnd()*COLS,y:14+rnd()*6,vy:.15,vx:0,ch:"·˙",c:"#6e5040"});
   },
   drain(scene, anim){
@@ -869,17 +875,18 @@ const REV_SETTINGS = {
     rBlock(16,9,["  ▄███▄ "," ███████"],"#e8a35a"); // low sun over water
     // far shore + cranes
     rFill(10,0,COLS-1,"▂","#2a2420");
-    for(let i=0;i<5;i++){const sx=12+i*14;rStr(sx,9,"┌┴","#1a1614");rCell(sx,8,"│","#1a1614");}
+    // cranes on the far shore — kept clear of the centre where the pair stand
+    for(const sx of [8,20,58,70]){ rStr(sx,9,"┌┴","#1a1614"); rCell(sx,8,"│","#1a1614"); }
     // the harbour water
-    for(let y=11;y<=23;y++){const c=["#243c4c","#1e3444","#182c3c"][(y-11)%3];
+    for(let y=11;y<=20;y++){const c=["#243c4c","#1e3444","#182c3c"][(y-11)%3];
       for(let x=0;x<COLS;x++)rCell(x,y,"~≈"[(x+y)%2],c);}
     for(let i=0;i<16;i++)rCell((rnd()*COLS)|0,11+(rnd()*4|0),"·","#e8a35a");
-    // the wharf deck they stand on
-    rFill(24,0,COLS-1,"▀","#4a3a2e"); rFill(25,0,COLS-1,"═","#33261e");
-    for(let x=6;x<COLS;x+=12){rCell(x,26,"║","#241a12");rCell(x,27,"║","#1a120c");} // pilings
-    rBlock(36,23,FIG.L_stand,LEIF); rBlock(46,23,FIG.K_stand,KAT);
-    rCell(41,22,"─","#5a4a3e"); // the railing between them
-    anim.push({k:"ripple",x:20,y:16});
+    // the wharf deck they stand on, and its pilings going down to the water
+    rFill(21,0,COLS-1,"▀","#4a3a2e"); rFill(22,0,COLS-1,"═","#33261e");
+    for(let x=6;x<COLS;x+=12){rCell(x,23,"║","#241a12");rCell(x,24,"║","#1a120c");}
+    // the pair, well apart, at the wharf edge looking out over the water
+    rBlock(33,21,FIG.L_stand,LEIF); rBlock(49,21,FIG.K_stand,KAT);
+    anim.push({k:"ripple",x:20,y:15}); anim.push({k:"ripple",x:63,y:17});
   },
 };
 const REV_ORDER = ["rooftop","field","river","motel","drain","harbour"];
