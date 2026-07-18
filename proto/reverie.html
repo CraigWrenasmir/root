@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROOT — reverie prototype</title>
+<style>
+  html,body{margin:0;padding:0;background:#0a0705;height:100%;overflow:hidden}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  canvas{image-rendering:pixelated}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c"></canvas></div>
+<script>
+"use strict";
+/* ============================================================
+   REVERIE — prototype of the memory layer.
+   A side-on tableau of Leif & Katita surfaces when the reader
+   triggers a certain element; a beat of narrative pages past;
+   then the mesh returns. Warm palette — memory, not diagnostic.
+   Standalone: not wired into the game yet. For visual refining.
+   ?scene=rooftop|field|river   &page=0..N   &grid=1 (debug grid)
+   ============================================================ */
+const COLS=80, ROWS=36, CW=10, CH=18;
+const FONT=(CH-3)+"px 'Menlo','Consolas','Courier New',monospace";
+const cv=document.getElementById("c"); cv.width=COLS*CW; cv.height=ROWS*CH;
+const g=cv.getContext("2d");
+function fit(){const s=Math.min(innerWidth/(COLS*CW),innerHeight/(ROWS*CH));
+  cv.style.width=(COLS*CW*s)+"px";cv.style.height=(ROWS*CH*s)+"px";}
+addEventListener("resize",fit);fit();
+
+const params=new URLSearchParams(location.search);
+
+/* char grid */
+let ch,fg,bg;
+function clearGrid(base){ ch=[];fg=[];bg=[];
+  for(let y=0;y<ROWS;y++){ch.push(Array(COLS).fill(" "));fg.push(Array(COLS).fill("#fff"));bg.push(Array(COLS).fill(base||null));}}
+function P(x,y,c,col,b){x|=0;y|=0;if(x<0||x>=COLS||y<0||y>=ROWS)return;
+  if(c!==undefined&&c!==null)ch[y][x]=c; if(col)fg[y][x]=col; if(b!==undefined)bg[y][x]=b;}
+function S(x,y,s,col,b){for(let i=0;i<s.length;i++)P(x+i,y,s[i],col,b);}
+function C(y,s,col,b){S(Math.round((COLS-s.length)/2),y,s,col,b);}
+function fillRow(y,x0,x1,c,col,b){for(let x=x0;x<=x1;x++)P(x,y,c,col,b);}
+/* stamp a top-to-bottom block, feet on baseY, centred on cx */
+function block(cx,baseY,lines,col){
+  const h=lines.length;
+  for(let i=0;i<h;i++){const row=lines[i];const y=baseY-(h-1-i);
+    const x0=cx-Math.floor(row.length/2);
+    for(let j=0;j<row.length;j++) if(row[j]!==" ") P(x0+j,y,row[j],col);}
+}
+
+/* render grid → canvas */
+function paint(roomBg){
+  g.fillStyle=roomBg;g.fillRect(0,0,cv.width,cv.height);
+  g.font=FONT;g.textAlign="center";g.textBaseline="middle";
+  for(let y=0;y<ROWS;y++)for(let x=0;x<COLS;x++){
+    if(bg[y][x]){g.fillStyle=bg[y][x];g.fillRect(x*CW,y*CH,CW,CH);}
+    if(ch[y][x]!==" "){g.fillStyle=fg[y][x];g.fillText(ch[y][x],x*CW+CW/2,y*CH+CH/2+1);}
+  }
+  if(params.get("grid")){g.strokeStyle="rgba(255,80,80,.25)";
+    for(let x=0;x<=COLS;x+=5){g.beginPath();g.moveTo(x*CW,0);g.lineTo(x*CW,cv.height);g.stroke();}
+    for(let y=0;y<=ROWS;y+=5){g.beginPath();g.moveTo(0,y*CH);g.lineTo(cv.width,y*CH);g.stroke();}}
+}
+
+function seeded(n){let a=n;return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+
+/* ---------- figures (side-on, facing right) ---------- */
+// Leif: plain, a little cannon-shy stoop
+const LEIF_STAND=["(¬","/│\\"," │","/ \\"];
+// Katita: hair sweep + coordinate skirt
+const KAT_STAND =["﹏","(°","/│\\","╱▓╲"];
+// reclining in the flowers, head to the right, propped on one arm
+const KAT_LIE   =["        .-.","  ╭─────( ° )","  °˃˃˃˃˃  '-'"];
+// kneeling / reaching to a trunk
+const LEIF_KNEEL=["(¬ ","/│╲","▟▄▖"];
+
+/* ---------- scenes ---------- */
+const SCENES={
+ rooftop:{
+   title:"REVERIE — a rooftop, Newcastle, summer",
+   bg:"#160a1e",
+   narr:[
+     "You did not know what you were dressed as. A bushranger, maybe, with a",
+     "jetpack of cardboard and a grevillea in your lapel.",
+     "She looked at you a long moment over the rim of a plastic cup.",
+     "“What are you meant to be — a bushranger from the future?” she said.",
+     "Below, the coal ships sat like watch batteries on the black harbour,",
+     "waiting their turn to blink into the mouth of the night.",
+   ],
+   paint(){
+     const rnd=seeded(51);
+     // night sky gradient bands
+     for(let y=1;y<=8;y++){const c=["#241033","#2e1440","#3a1a4e"][Math.min(2,(y-1)/3|0)];
+       for(let x=0;x<COLS;x++) if(rnd()<.5)P(x,y,"·","#5a3a6e");}
+     // stars
+     for(let i=0;i<30;i++)P((rnd()*COLS)|0,1+(rnd()*7|0),"·",rnd()<.3?"#ffd9a0":"#7a5a9e");
+     // skyline of buildings along row ~15
+     let x=0;
+     while(x<COLS){const w=3+(rnd()*7|0),h=4+(rnd()*7|0);
+       for(let yy=16-h;yy<16;yy++)for(let xx=x;xx<x+w&&xx<COLS;xx++)P(xx,yy," ","#000","#0e0716");
+       // lit windows
+       for(let yy=16-h+1;yy<15;yy++)for(let xx=x+1;xx<x+w-1;xx++)if(rnd()<.35)P(xx,yy,"▪","#ffcf7a","#0e0716");
+       x+=w+ (rnd()<.4?1:0);}
+     // harbour water + coal ships
+     for(let y=17;y<=19;y++)fillRow(y,0,COLS-1,"~","#1a2740");
+     for(let i=0;i<5;i++){const sx=6+i*15+(rnd()*4|0);S(sx,18,"▂▄▂","#3a4a66");P(sx+1,17,"╻","#556");}
+     // rooftop parapet the pair stand on (row 24 feet, 25 parapet)
+     fillRow(25,0,COLS-1,"▀","#3a2b1e");
+     fillRow(26,0,COLS-1,"█","#241a12","#241a12");
+     // party string lights
+     for(let xx=4;xx<COLS-4;xx+=6){P(xx,22,"◦",["#ff8bd0","#ffd166","#7cf5c0"][(xx/6|0)%3]);}
+     // the two figures on the roof
+     block(34,24,LEIF_STAND,"#ffe9c9");
+     block(44,24,KAT_STAND,"#ff9ee6");
+     // a plastic cup glint
+     P(46,21,"°","#cfe");
+   }
+ },
+ field:{
+   title:"REVERIE — a paddock at first light",
+   bg:"#0c1408",
+   narr:[
+     "She slept in fields of flannel and everlasting daisies and billy buttons",
+     "and mulla mulla, beneath variations of daylight and noon,",
+     "while you fed the data she had prepared into the casing in the tree —",
+     "three hundred bits a second, to anyone still listening, ever.",
+     "The loose bark plate you closed over it like a shutter over an eye.",
+   ],
+   paint(){
+     const rnd=seeded(300);
+     // dawn sky, high band
+     for(let y=1;y<=10;y++)fillRow(y,0,COLS-1," ","#000",
+       ["#2a1e30","#33243a","#3e2c3e","#4c3840","#5e463e","#6e543c","#7c603a"][Math.min(6,(y-1)*0.7|0)]);
+     // rising sun sitting on the horizon, right side
+     block(60,11,["  ▄███▄ "," ███████","████████"],"#ffcf7a");
+     for(let i=0;i<10;i++)P(52+(rnd()*18|0),4+(rnd()*5|0),"·","#ffe1b0"); // early light
+     // horizon line of low hills
+     for(let x=0;x<COLS;x++)P(x,11,"▁▂"[(Math.sin(x/9)>0.3?1:0)],"#3a4a24");
+     // the grassy paddock fills the lower half
+     for(let y=12;y<=23;y++)for(let x=0;x<COLS;x++)P(x,y," ","#000",y<14?"#1b2c10":"#16240e");
+     // grass + flowers, denser toward the foreground
+     for(let y=13;y<=23;y++){const dens=(y-12)/12;
+       for(let x=0;x<COLS;x++)if(rnd()<dens*0.7){
+         const foreground=y>19;
+         P(x,y, foreground?"❀✿*Y'.,"[(rnd()*7)|0]:"'`.,"[(rnd()*4)|0],
+           foreground?["#ffd9e6","#ffe9a0","#e8f5c0","#ff9ec0","#c9e89a"][(rnd()*5)|0]:"#4a6b34");}}
+     // the host tree, left, rooted in the field
+     block(15,22,[
+       "  ♣♣♣♣ ",
+       " ♣♣♣♣♣♣",
+       "♣♣♣♣♣♣♣♣",
+       "♣♣♣♣♣♣♣ ",
+       "   ║▐   ",
+       "   ║    ",
+       "   ║    ",
+       "   ║    ",
+     ],"#3f6b2e");
+     P(16,19,"▐","#7a5636"); // bark plate over the burl
+     P(17,18,"•","#ffd166"); // casing LED
+     P(18,17,"/","#9ad0ff"); // antenna
+     // Katita reclining among the foreground flowers, centre-right
+     block(48,21,KAT_LIE,"#ffdcc9");
+     // Leif kneeling at the tree base, tending the casing
+     block(21,22,LEIF_KNEEL,"#ffe9c9");
+   }
+ },
+ river:{
+   title:"REVERIE — a river, dusk, somewhere inland",
+   bg:"#0a1016",
+   narr:[
+     "You bathed in the river at dusk while the cattle watched from the bank,",
+     "unbothered, chewing. The current did the rinsing for you.",
+     "She was reading numbers aloud from a wet pamphlet — something about",
+     "elliptic curves, and how a falling leaf and a cipher are the same shape.",
+     "Neither of you said the word for what this was. You did not need to.",
+   ],
+   paint(){
+     const rnd=seeded(1500);
+     // dusk sky bands
+     for(let y=1;y<=7;y++)fillRow(y,0,COLS-1," ","#000",["#3a2438","#4a2e40","#5c3a44","#6e4a44","#7c5a48"][Math.min(4,(y-1)/1.6|0)]);
+     for(let i=0;i<16;i++)P((rnd()*COLS)|0,1+(rnd()*5|0),"·","#ffce9a");
+     // far bank with cattle silhouettes
+     fillRow(12,0,COLS-1,"▄","#241a14");
+     fillRow(13,0,COLS-1,"█","#1a120e","#1a120e");
+     for(let i=0;i<4;i++){const cx=10+i*18+(rnd()*5|0);S(cx,11,"╓╥╖","#0e0a08");P(cx+1,12,"╨","#0e0a08");}
+     // reeds
+     for(let x=0;x<COLS;x+=1)if(rnd()<.12)P(x,11,"|","#3a4a2a");
+     // the river surface across the middle
+     for(let y=18;y<=24;y++){const c=["#24435c","#1e3a52","#183048"][(y-18)%3];
+       for(let x=0;x<COLS;x++)P(x,y,"~≈"[(x+y)%2],c);}
+     // reflections of the sky
+     for(let i=0;i<20;i++)P((rnd()*COLS)|0,18+(rnd()*3|0),"·","#7c5a48");
+     // two figures standing waist-deep (water line at row 20 crosses them)
+     block(34,19,["(¬","/│\\"],"#ffe9c9");    // Leif upper body only (rest in water)
+     block(46,19,["﹏","(°","/│\\"],"#ff9ee6"); // Katita
+     // pamphlet in her hand
+     P(49,18,"▭","#e8e8d0");
+     // ripples around them
+     P(31,21,"(","#4a7a9c");P(37,21,")","#4a7a9c");P(43,21,"(","#4a7a9c");P(49,21,")","#4a7a9c");
+   }
+ }
+};
+
+/* ---------- narrative paging ---------- */
+let scene, page=0;
+function drawNarr(){
+  // dim the lower band and box the narrative
+  for(let y=27;y<=34;y++)fillRow(y,0,COLS-1," ","#000","#0d0906");
+  S(2,27,"┌"+"─".repeat(COLS-6)+"┐","#4a3a2a");
+  S(2,34,"└"+"─".repeat(COLS-6)+"┘","#4a3a2a");
+  const lines=scene.narr.slice(page*2,page*2+2);
+  lines.forEach((l,i)=>S(6,29+i*2,l,"#e8d4b8"));
+  const pages=Math.ceil(scene.narr.length/2);
+  if(page<pages-1){ C(33,"» more",  "#8a7a5a"); }
+  else { C(33,"» return to the mesh","#6a8a6a"); }
+}
+
+function render(){
+  clearGrid(scene.bg);
+  scene.paint();
+  // title
+  S(4,1,scene.title,"#a08a6a");
+  fillRow(2,4,4+scene.title.length-1,"─","#3a2e1e");
+  // a soft scanline vignette to say 'this is a rendered memory'
+  for(let y=0;y<ROWS;y++)if(y%2)for(let x=0;x<COLS;x++)if(ch[y][x]===" "&&!bg[y][x])P(x,y," ",null,"#0d0806");
+  drawNarr();
+  paint(scene.bg);
+}
+
+function setScene(name){scene=SCENES[name]||SCENES.rooftop; page=0;
+  if(params.get("page"))page=Math.min(+params.get("page"),Math.ceil(scene.narr.length/2)-1); render();}
+
+addEventListener("keydown",e=>{
+  if(e.key===" "){const pages=Math.ceil(scene.narr.length/2);
+    if(page<pages-1){page++;render();} else {const names=Object.keys(SCENES);
+      setScene(names[(names.indexOf(sceneName())+1)%names.length]);} e.preventDefault();}
+  if(e.key==="1")setScene("rooftop"); if(e.key==="2")setScene("field"); if(e.key==="3")setScene("river");
+});
+function sceneName(){return Object.keys(SCENES).find(k=>SCENES[k]===scene);}
+
+setScene(params.get("scene")||"rooftop");
+</script>
+</body>
+</html>
