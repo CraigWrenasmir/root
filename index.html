@@ -203,6 +203,7 @@ let trans = 0;
 let bootLines = [], bootT = 0;
 let regionCard = null;   // {name, t} — artpack title screen on first entry to a region
 let photoMode = false;   // suppress all UI text for feed photographs
+let nearMemory = false;  // true while the reader stands beside a reverie trigger
 
 const player = {cx:40, cy:26, step:0};
 const keys = {};
@@ -1306,6 +1307,20 @@ function frame(ts){
       const ph = ((T*tw.rate)|0)%tw.chars.length;
       cellText(scr, tw.x, tw.y, tw.chars[ph], tw.col, cellBg(tw.x, tw.y));
     }
+    // memory markers: a warm pulse over anything holding a reverie —
+    // warmth in the cold mesh, so the reader can find the memories
+    nearMemory = false;
+    for(const f of room.features||[]){
+      if(f.verb!=="reverie" && !f.scene) continue;
+      const my = (f._bbox? f._bbox[1] : f._cy) - 1;
+      const pulse = 0.5+0.5*Math.sin(T*2.2 + f._cx);
+      const warm = pulse>0.6 ? "#ffb37a" : "#c77a5a";
+      cellText(scr, f._cx, my, "✷", warm);   // soft warm sparkle
+      cellText(scr, f._cx-1, my, "˚", "rgba(255,190,140,"+(pulse*0.7)+")");
+      cellText(scr, f._cx+1, my, "˚", "rgba(255,190,140,"+(pulse*0.7)+")");
+      if(pulse>0.85) cellText(scr, f._cx, my-1, "·", "rgba(255,200,150,.6)"); // a rising warm mote
+      if(Math.abs(player.cx-f._cx)<=3 && Math.abs(player.cy-f._cy)<=3) nearMemory = true;
+    }
     // the file
     if(filePos && !downloading){
       const blinkC = (T*3|0)%2 ? "■" : "▪";
@@ -1358,7 +1373,13 @@ function frame(ts){
   if(mode==="play"){
     scr.fillStyle = "#010804";
     scr.fillRect(0, PR*CH, cv.width, 2*CH);
-    if(msg){
+    if(nearMemory){
+      // standing by a memory always wins the message row — this is how it's found
+      const hint = IS_TOUCH ? "something of hers is filed here — QUERY to enter"
+                            : "something of hers is filed here — SPACE to enter";
+      const on = (T*1.5|0)%2===0;
+      ctext(scr, hint, PR, on ? "#f2c69a" : "#c88a5e");
+    } else if(msg){
       msg.t += dt;
       if(msg.t > msg.ttl) msg = null;
       else {
