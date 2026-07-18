@@ -1,0 +1,139 @@
+{
+  "id": "the-flowing-reach",
+  "title": "The Reach Where the Lesson Flows",
+  "region": "The Clean Archive",
+  "seed": 44927,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#c85a17",
+      "#8b5a2b"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#1a4d2e",
+      "#6b4423",
+      "#d4a574",
+      "#4a3f35"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "stone-steps",
+      "desc-on-touch": "you feel the ancient stones under your feet, each one placed where water and patience met. they run in rows like a sermon in granite.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "teaching-channel",
+      "desc-on-touch": "the water speaks in one direction here, and the land learns by repetition. this is how patience teaches: by showing the same lesson endlessly.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3921,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "fence-line-archive",
+      "desc-on-touch": "notches carved into posts, marking time and water-height. the archive learned to count by watching this fence record the year.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 1456,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "grain-measure",
+      "desc-on-touch": "a wooden measure rests here, counting the dry season by how much it empties. patience and measure are not opposites.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "flow-marker",
+      "desc-on-touch": "you read the current marking what it has learned from stone. the lesson writes itself as a scar on water.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7234,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the lesson flows now, teaching faster than stone can grow, but patience remembers it was always this way",
+  "file": {
+    "name": "WaterHeight_Notches_1952-1988.txt",
+    "note": "handwritten record of water marks against fence posts. the archive discovered patience by reading how slowly the pattern repeats."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upstream to where patience is still learning",
+      "to": "the-deep-patience-station"
+    },
+    {
+      "dir": "e",
+      "label": "the paddock continues east where the lesson becomes rumour",
+      "to": "NEW: where the fences forget their teaching"
+    },
+    {
+      "dir": "w",
+      "label": "west into thicker country, where flow becomes resistance",
+      "to": "the-culvert-system"
+    },
+    {
+      "dir": "s",
+      "label": "south where the lesson joins the river and learns to roar",
+      "to": "NEW: the junction where patience becomes current"
+    }
+  ]
+}

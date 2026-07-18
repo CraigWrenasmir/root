@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 27,
+  "nights": 28,
   "lastDreamt": "2026-07-18",
   "rooms": [
     {
@@ -752,6 +752,26 @@
       "id": "the-dark-knowing-chamber",
       "title": "The Dark-Knowing Chamber",
       "region": "The Understory"
+    },
+    {
+      "id": "the-flowing-reach",
+      "title": "The Reach Where the Lesson Flows",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-solitary-chorus-chamber",
+      "title": "The Solitary Chorus Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stone-root-convergence",
+      "title": "The Stone-Root Convergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-wind-and-grass-circuit",
+      "title": "Where Traffic's Engine-Sound Becomes Wind Between Grass",
+      "region": "The Clean Archive"
     }
   ]
 }

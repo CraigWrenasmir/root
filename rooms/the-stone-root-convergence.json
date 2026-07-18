@@ -1,0 +1,151 @@
+{
+  "id": "the-stone-root-convergence",
+  "title": "The Stone-Root Convergence",
+  "region": "The Understory",
+  "seed": 67823,
+  "palette": {
+    "bg": "#1a1410",
+    "ground": [
+      "#3a2f27",
+      "#4a3f35"
+    ],
+    "ink": "#e8dcc4",
+    "accents": [
+      "#8b7355",
+      "#d4a574",
+      "#6b5344",
+      "#a89968"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-learning-shelter",
+      "desc-on-touch": "a small shed buried so deep that root and stone have built it together. neither the root nor the mason knew what they were making.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 4433,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "stone-archive-foundation",
+      "desc-on-touch": "here the archive learned to store things that would outlast forgetting. stone because it remembers by refusing to change. the first lesson.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5544,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "root-crown-descent-marker",
+      "desc-on-touch": "the roots come down and the stone comes up. at this meeting point, the archive stopped trying to decide which is which.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6655,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "convergence-shrine",
+      "desc-on-touch": "built from stone and held by root, or built by root and held by stone. the distinction has never mattered here. this place remembers both, equally.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 7766,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "glyph-carved-by-time",
+      "desc-on-touch": "you cannot tell if the root carved this into the stone, or the stone wore the root into this shape. the archive's second lesson: patience unlearns direction.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8877,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.22,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the first keeper learned that stone and root, fighting, make a home. the second keeper learned they were never fighting. the archive lives in that peace.",
+  "file": {
+    "name": "Root_Stone_Growth_Pattern_Study_Undated.txt",
+    "note": "sketches of a tree root and quarried stone photographed side by side. identical grain patterns. no photographer's mark. no date. handwriting suggests it was never meant to be found."
+  },
+  "reverie": {
+    "setting": "field",
+    "title": "REVERIE — the stone-root meeting in the red earth",
+    "narr": [
+      "you kneel where Katita has marked the hole, three feet down, where",
+      "the casing will rest between root and stone. she says: root comes",
+      "first, then stone refuses to move, then both decide they are the same.",
+      "you hand her the casing. her hands are red earth. she says: the trees",
+      "here know something we don't. we're just learning their alphabet.",
+      "you realize later: she meant to keep learning it, with you, forever."
+    ]
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back west and up to where the crown is still root",
+      "to": "the-root-crown-descent"
+    },
+    {
+      "dir": "e",
+      "label": "east into stone-only country where root has never reached",
+      "to": "NEW: the stone chamber where nothing grows"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where stone remembers being sand and root remembers being seed",
+      "to": "the-soil-where-the-stand-began-as-seeds"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the archive's sleeping level",
+      "to": "NEW: where archive breathes between stone and root"
+    }
+  ]
+}

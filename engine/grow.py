@@ -24,6 +24,7 @@ ROOMS = os.path.join(ROOT, "rooms")
 MANIFEST = os.path.join(ROOMS, "manifest.json")
 
 VERBS   = ["ripple", "bloom", "scatter", "glitch", "torus", "hum", "open"]
+REV_SETTINGS = ["rooftop", "field", "river", "motel", "drain", "harbour"]
 MOTIFS  = ["grid", "tiles", "ripple", "static", "waves", "circuit", "scatter",
            "contour", "canopy", "qr", "fields", "roads", "orchard", "board",
            "gradient"]
@@ -146,6 +147,21 @@ SCHEMA = """Each node is ONE JSON object with EXACTLY these fields:
     "to": "existing-node-id OR NEW: one-line hint for a future node"}
  ]
 }
+
+RARELY (roughly one node in five, ONLY when the node holds something private
+or intimate — a letter, a photograph, a personal recording), the node may also
+carry a REVERIE: a side-on memory of Leif and Katita that surfaces when the
+reader queries the private thing. Add TWO things:
+ - set that one feature's "verb" to "reverie" (instead of a normal verb);
+ - add a top-level "reverie" object:
+   {"setting": "rooftop|field|river|motel|drain|harbour",
+    "title": "REVERIE — <short lowercase place-and-time>",
+    "narr": [ 4 to 6 lines of second-person narrative, each <= 72 characters,
+              a quiet remembered moment between you and her — tender, concrete,
+              from the book's world (installing casings, the rooftop where she
+              named your costume, river-bathing, a motel, a stormwater drain, a
+              harbour at dusk). Never mention the mesh or the corruption here. ]}
+ Choose the setting that fits the memory. Most nodes have NO reverie — keep them rare.
 
 FORM GUIDE: "burl" renders a eucalyptus trunk with a burled knot, casing
 LED and antenna — use for living node hardware. "wireframe" renders a
@@ -378,7 +394,7 @@ def repair(room, parent_id, back_dir, existing_ids):
         f["name"] = str(f.get("name") or "an unlabelled casing")[:90]
         f["desc-on-touch"] = str(f.get("desc-on-touch") or f.get("desc_on_touch")
                                  or "The query returns, changed.")[:300]
-        if f.get("verb") not in VERBS:
+        if f.get("verb") not in VERBS and f.get("verb") != "reverie":
             f["verb"] = random.choice(VERBS)
         fo = f.get("form") or {}
         f["form"] = {
@@ -437,6 +453,27 @@ def repair(room, parent_id, back_dir, existing_ids):
         else:
             return None
     room["exits"] = exits[:4]
+
+    # reverie: a dreamed memory of Leif & Katita, if the model dreamt one
+    rev = room.get("reverie")
+    has_trigger = any(f.get("verb") == "reverie" for f in room["features"])
+    if isinstance(rev, dict) and has_trigger:
+        setting = rev.get("setting") if rev.get("setting") in REV_SETTINGS else "field"
+        narr = [str(l)[:74] for l in (rev.get("narr") or []) if str(l).strip()][:6]
+        if len(narr) >= 2:
+            room["reverie"] = {"setting": setting,
+                               "title": str(rev.get("title") or "REVERIE")[:60],
+                               "narr": narr}
+        else:
+            room.pop("reverie", None)
+            for f in room["features"]:
+                if f.get("verb") == "reverie":
+                    f["verb"] = random.choice(VERBS)
+    else:
+        room.pop("reverie", None)
+        for f in room["features"]:
+            if f.get("verb") == "reverie":
+                f["verb"] = random.choice(VERBS)
     return rid
 
 

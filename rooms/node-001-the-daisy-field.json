@@ -22,7 +22,7 @@
     {
       "name": "the flattened grass where she slept",
       "desc-on-touch": "Fields of flannel and everlasting daisies and billy buttons and mulla mulla, beneath variations of daylight and noon. The shape of her is still filed here.",
-      "verb": "bloom",
+      "verb": "reverie",
       "form": { "type": "pool", "seed": 5522, "size": 2, "colors": [0, 3] },
       "x": 0.3, "y": 0.6, "solid": false
     },
@@ -45,6 +45,18 @@
   "file": {
     "name": "README.txt",
     "note": "WELCOME TO ROOT. Take what you need. Leave the antenna as you found it. — L & K"
+  },
+  "reverie": {
+    "title": "REVERIE — a paddock at first light",
+    "setting": "field",
+    "narr": [
+      "She slept in fields of flannel and everlasting daisies and billy buttons",
+      "and mulla mulla, beneath variations of daylight and noon,",
+      "while you fed the data she had prepared into the casing in the tree —",
+      "three hundred bits a second, to anyone still listening, ever.",
+      "You closed the loose bark plate over it like a shutter over an eye,",
+      "and for a while neither of you said anything the archive could keep."
+    ]
   },
   "exits": [
     { "dir": "n", "label": "the fire trail toward the river recording", "to": "the-river-recording" },

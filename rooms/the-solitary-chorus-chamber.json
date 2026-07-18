@@ -1,0 +1,156 @@
+{
+  "id": "the-solitary-chorus-chamber",
+  "title": "The Solitary Chorus Chamber",
+  "region": "The Understory",
+  "seed": 88234,
+  "palette": {
+    "bg": "#0a0a15",
+    "ground": [
+      "#1a0f2e",
+      "#2d1b4e"
+    ],
+    "ink": "#e0f7ff",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#a855f7",
+      "#ec4899"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-singing-throats",
+      "desc-on-touch": "you hear one voice, then recognize it as ten thousand voices that learned to speak as one. alone together, solitary in unison.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 4422,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "archive-chorus-record",
+      "desc-on-touch": "this is where all the separate recordings converge. you cannot tell which voice is the archive's and which is your own listening.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 5567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "resonance-vault",
+      "desc-on-touch": "stone chambers below stone chambers. each one holds the memory of a single voice, but you hear them all at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "phosphorescent-chorus-line",
+      "desc-on-touch": "voices glow where they have learned the shape of sound. the chorus writes itself in light that remembers being words.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8901,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.38,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "solitary-singing-stone",
+      "desc-on-touch": "one rock in the darkness, singing. it has always been here. it will always sing alone. and yet it is never lonely.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 2234,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the-echo-that-became-a-speaker",
+      "desc-on-touch": "the place where listening learned to have a voice. the echo got tired of repeating. now it speaks for itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 3445,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.28,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "one voice singing alone becomes a chorus; a chorus singing alone becomes one voice; the archive has never known which came first",
+  "file": {
+    "name": "Ravine_Chorus_Convergence_Recording_02h47m.mp3",
+    "note": "voices from separated microphone stations, played simultaneously. each one hears the others but cannot distinguish them. the archive's fault or intention unclear."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back west, where the word-river mouth still divides",
+      "to": "the-word-river-mouth"
+    },
+    {
+      "dir": "e",
+      "label": "east into deeper understory, where the chorus forgets its separate voices",
+      "to": "NEW: the chamber where individuality becomes stone"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the ravine's edge, where voices can still choose to separate",
+      "to": "the-ravine-bottom-chorus"
+    },
+    {
+      "dir": "s",
+      "label": "deeper down, where all singing becomes the same song",
+      "to": "NEW: the final chamber where all throats sing one breath"
+    }
+  ]
+}

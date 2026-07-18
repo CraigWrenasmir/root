@@ -745,8 +745,205 @@ function drawWeather(dt, t){
   }
 }
 
+/* ============================================================
+   REVERIE — the memory layer. A side-on tableau of Leif & Katita
+   surfaces when the reader queries a private thing; a beat of
+   narrative pages past; then the mesh returns. Warm palette,
+   living motion. Scenes are data, so the engine can dream new ones.
+   ============================================================ */
+const revC = document.createElement("canvas");
+revC.width = cv.width; revC.height = cv.height;
+const rct = revC.getContext("2d");
+let reverie = null;   // {scene, page, t, anim:[]}
+
+function rCell(x,y,ch,fg,bg){ if(bg){rct.fillStyle=bg;rct.fillRect(x*CW,y*CH,CW,CH);}
+  if(ch&&ch!==" "){rct.fillStyle=fg;rct.fillText(ch,x*CW+CW/2,y*CH+CH/2+1);} }
+function rStr(x,y,s,fg,bg){ for(let i=0;i<s.length;i++) rCell(x+i,y,s[i],fg,bg); }
+function rFill(y,x0,x1,ch,fg,bg){ for(let x=x0;x<=x1;x++) rCell(x,y,ch,fg,bg); }
+function rBlock(cx,baseY,lines,fg){ const h=lines.length;
+  for(let i=0;i<h;i++){const row=lines[i],yy=baseY-(h-1-i),x0=cx-(row.length>>1);
+    for(let j=0;j<row.length;j++) if(row[j]!==" ") rCell(x0+j,yy,row[j],fg);} }
+
+// figures (kept minimal & iconic, as Craig likes them). L=Leif, K=Katita.
+const FIG = {
+  L_stand:["(¬","/│\\"," │","/ \\"],  K_stand:["﹏","(°","/│\\","╱▓╲"],
+  L_wade:["(¬","/│\\"],               K_wade:["﹏","(°","/│\\"],
+  K_lie:["        .-.","  ╭─────( ° )","  °˃˃˃˃˃  '-'"], L_kneel:["(¬ ","/│╲","▟▄▖"],
+  L_sit:["(¬","/└","▘ "],             K_sit:["(°","/└","▝ "],
+};
+const LEIF="#ffe9c9", KAT="#ff9ee6";
+
+// each setting paints the warm backdrop + the pair, and registers motion.
+// anim kinds: twinkle, drift, shimmer, ripple, flutter, beam.
+const REV_SETTINGS = {
+  rooftop(scene, anim){
+    const rnd = mulberry32(51);
+    rct.fillStyle = "#160a1e"; rct.fillRect(0,0,revC.width,revC.height);
+    for(let i=0;i<34;i++){const sx=(rnd()*COLS)|0,sy=1+(rnd()*7|0);
+      rCell(sx,sy,"·","#7a5a9e"); if(rnd()<.3) anim.push({k:"twinkle",x:sx,y:sy,c:["#ffd9a0","#7a5a9e"]});}
+    let x=0; while(x<COLS){const w=3+(rnd()*7|0),h=4+(rnd()*7|0);
+      for(let yy=16-h;yy<16;yy++)for(let xx=x;xx<x+w&&xx<COLS;xx++)rCell(xx,yy," ",null,"#0e0716");
+      for(let yy=16-h+1;yy<15;yy++)for(let xx=x+1;xx<x+w-1;xx++)if(rnd()<.35){rCell(xx,yy,"▪","#ffcf7a","#0e0716");
+        if(rnd()<.12)anim.push({k:"twinkle",x:xx,y:yy,c:["#ffcf7a","#5a3a1e"],bg:"#0e0716"});}
+      x+=w+(rnd()<.4?1:0);}
+    for(let y=17;y<=19;y++)rFill(y,0,COLS-1,"~","#1a2740");
+    for(let i=0;i<5;i++){const sx=6+i*15+(rnd()*4|0);rStr(sx,18,"▂▄▂","#3a4a66");rCell(sx+1,17,"╻","#556");}
+    rFill(25,0,COLS-1,"▀","#3a2b1e"); rFill(26,0,COLS-1,"█","#241a12","#241a12");
+    for(let xx=4;xx<COLS-4;xx+=6){const c=["#ff8bd0","#ffd166","#7cf5c0"][(xx/6|0)%3];
+      rCell(xx,22,"◦",c); anim.push({k:"twinkle",x:xx,y:22,c:[c,"#3a2b3e"]});}
+    rBlock(34,24,FIG.L_stand,LEIF); rBlock(44,24,FIG.K_stand,KAT);
+    rCell(46,21,"°","#cfe");
+    anim.push({k:"shimmer",x0:31,x1:47,y0:20,y1:24});
+  },
+  field(scene, anim){
+    const rnd = mulberry32(300);
+    for(let y=1;y<=10;y++)rFill(y,0,COLS-1," ",null,
+      ["#2a1e30","#33243a","#3e2c3e","#4c3840","#5e463e","#6e543c","#7c603a"][Math.min(6,(y-1)*0.7|0)]);
+    rBlock(60,11,["  ▄███▄ "," ███████","████████"],"#ffcf7a");
+    for(let x=0;x<COLS;x++)rCell(x,11,"▁▂"[(Math.sin(x/9)>0.3?1:0)],"#3a4a24");
+    for(let y=12;y<=23;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,y<14?"#1b2c10":"#16240e");
+    for(let y=13;y<=23;y++){const dens=(y-12)/12;
+      for(let x=0;x<COLS;x++)if(rnd()<dens*0.7){const fgr=y>19;
+        rCell(x,y,fgr?"❀✿*Y'.,"[(rnd()*7)|0]:"'`.,"[(rnd()*4)|0],
+          fgr?["#ffd9e6","#ffe9a0","#e8f5c0","#ff9ec0","#c9e89a"][(rnd()*5)|0]:"#4a6b34");}}
+    rBlock(15,22,["  ♣♣♣♣ "," ♣♣♣♣♣♣","♣♣♣♣♣♣♣♣","♣♣♣♣♣♣♣ ","   ║▐   ","   ║    ","   ║    ","   ║    "],"#3f6b2e");
+    rCell(16,19,"▐","#7a5636"); rCell(17,18,"•","#ffd166"); rCell(18,17,"/","#9ad0ff");
+    anim.push({k:"twinkle",x:17,y:18,c:["#ffd166","#6a5020"]});
+    rBlock(48,21,FIG.K_lie,"#ffdcc9"); rBlock(21,22,FIG.L_kneel,LEIF);
+    for(let i=0;i<10;i++)anim.push({k:"drift",x:rnd()*COLS,y:13+rnd()*9,vy:-.4-rnd()*.5,vx:.1,ch:"✽*.",c:"#ffd9e6"});
+  },
+  river(scene, anim){
+    const rnd = mulberry32(1500);
+    for(let y=1;y<=7;y++)rFill(y,0,COLS-1," ",null,["#3a2438","#4a2e40","#5c3a44","#6e4a44","#7c5a48"][Math.min(4,(y-1)/1.6|0)]);
+    for(let i=0;i<16;i++){const sx=(rnd()*COLS)|0,sy=1+(rnd()*5|0);rCell(sx,sy,"·","#ffce9a");}
+    rFill(12,0,COLS-1,"▄","#241a14"); rFill(13,0,COLS-1,"█","#1a120e","#1a120e");
+    for(let i=0;i<4;i++){const cx2=10+i*18+(rnd()*5|0);rStr(cx2,11,"╓╥╖","#0e0a08");rCell(cx2+1,12,"╨","#0e0a08");}
+    for(let x=0;x<COLS;x++)if(rnd()<.12)rCell(x,11,"|","#3a4a2a");
+    for(let y=18;y<=24;y++){const c=["#24435c","#1e3a52","#183048"][(y-18)%3];
+      for(let x=0;x<COLS;x++)rCell(x,y,"~≈"[(x+y)%2],c);}
+    for(let i=0;i<20;i++)rCell((rnd()*COLS)|0,18+(rnd()*3|0),"·","#7c5a48");
+    rBlock(34,19,FIG.L_wade,LEIF); rBlock(46,19,FIG.K_wade,KAT);
+    rCell(49,18,"▭","#e8e8d0"); anim.push({k:"flutter",x:49,y:18,c:"#e8e8d0"});
+    anim.push({k:"ripple",x:34,y:21}); anim.push({k:"ripple",x:46,y:21});
+  },
+  motel(scene, anim){
+    const rnd = mulberry32(1987);
+    for(let y=0;y<ROWS;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,"#1a1210");
+    // venetian blinds with dusk light between the slats
+    for(let y=1;y<=12;y++){const lit=y%2===0;
+      for(let x=8;x<COLS-8;x++)rCell(x,y,"─",lit?"#6e5040":"#2e2018");
+      if(lit)for(let x=8;x<COLS-8;x++)if(rnd()<.3)rCell(x,y,"─","#a07850");}
+    rStr(8,0,"┌"+"─".repeat(COLS-17)+"┐","#3a2a20"); rStr(8,13,"└"+"─".repeat(COLS-17)+"┘","#3a2a20");
+    // the fan on the ceiling, shadow turning
+    rCell(COLS>>1,14,"✜","#8a6a50"); anim.push({k:"fan",x:COLS>>1,y:14});
+    // the bed
+    for(let x=20;x<60;x++){rCell(x,22,"▄","#4a3530"); rCell(x,23,"█","#33231e","#33231e");}
+    rStr(20,21,"▁".repeat(40),"#5a4038");
+    rBlock(34,21,FIG.K_sit,KAT); rBlock(42,21,FIG.L_sit,LEIF);
+    anim.push({k:"shimmer",x0:30,x1:46,y0:18,y1:21});
+    for(let i=0;i<6;i++)anim.push({k:"drift",x:rnd()*COLS,y:14+rnd()*6,vy:.15,vx:0,ch:"·˙",c:"#6e5040"});
+  },
+  drain(scene, anim){
+    const rnd = mulberry32(3737);
+    for(let y=0;y<ROWS;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,"#0a0d0e");
+    // concentric tunnel mouth
+    const cx2=COLS>>1, cy2=13;
+    for(let r=3;r<26;r+=2){for(let a2=0;a2<64;a2++){const th=a2/64*6.283;
+      const x=Math.round(cx2+Math.cos(th)*r*1.7),y=Math.round(cy2+Math.sin(th)*r*.8);
+      if(x>0&&x<COLS&&y>0&&y<24)rCell(x,y,"·∙"[(r/2|0)%2],r<8?"#243a3e":"#16262a");}}
+    // daylight at the far end
+    for(let a2=0;a2<40;a2++){const th=a2/40*6.283;rCell(Math.round(cx2+Math.cos(th)*3),Math.round(cy2+Math.sin(th)*1.4),"▒","#9ab0a0");}
+    // waterline along the floor + oil sheen
+    for(let x=0;x<COLS;x++)rCell(x,24,"~","#2a3a40");
+    for(let i=0;i<14;i++){const ox=(rnd()*COLS)|0;rCell(ox,24,"≈","#3a5a4a");
+      anim.push({k:"drift",x:ox,y:24,vy:0,vx:.2+rnd()*.2,ch:"≈~",c:"#3a6a5a"});}
+    // graffiti glyph on the wall
+    rStr(10,20,"╪┼╪","#4a5a3a");
+    // torch beam from Leif
+    anim.push({k:"beam",x:26,y:22});
+    rBlock(26,23,FIG.L_stand,LEIF); rBlock(36,23,FIG.K_stand,KAT);
+  },
+  harbour(scene, anim){
+    const rnd = mulberry32(4141);
+    for(let y=1;y<=9;y++)rFill(y,0,COLS-1," ",null,["#241a2e","#2e2236","#3a2c3a","#4a3a3e","#5c4a40"][Math.min(4,(y-1)/2|0)]);
+    rBlock(16,9,["  ▄███▄ "," ███████"],"#e8a35a"); // low sun over water
+    // far shore + cranes
+    rFill(10,0,COLS-1,"▂","#2a2420");
+    for(let i=0;i<5;i++){const sx=12+i*14;rStr(sx,9,"┌┴","#1a1614");rCell(sx,8,"│","#1a1614");}
+    // the harbour water
+    for(let y=11;y<=23;y++){const c=["#243c4c","#1e3444","#182c3c"][(y-11)%3];
+      for(let x=0;x<COLS;x++)rCell(x,y,"~≈"[(x+y)%2],c);}
+    for(let i=0;i<16;i++)rCell((rnd()*COLS)|0,11+(rnd()*4|0),"·","#e8a35a");
+    // the wharf deck they stand on
+    rFill(24,0,COLS-1,"▀","#4a3a2e"); rFill(25,0,COLS-1,"═","#33261e");
+    for(let x=6;x<COLS;x+=12){rCell(x,26,"║","#241a12");rCell(x,27,"║","#1a120c");} // pilings
+    rBlock(36,23,FIG.L_stand,LEIF); rBlock(46,23,FIG.K_stand,KAT);
+    rCell(41,22,"─","#5a4a3e"); // the railing between them
+    anim.push({k:"ripple",x:20,y:16});
+  },
+};
+const REV_ORDER = ["rooftop","field","river","motel","drain","harbour"];
+
+function enterReverie(scene){
+  reverie = {scene, page:0, t:0, anim:[]};
+  for(const k in keys) keys[k]=false;
+  rct.font = FONT; rct.textAlign = "center"; rct.textBaseline = "middle";
+  (REV_SETTINGS[scene.setting]||REV_SETTINGS.rooftop)(scene, reverie.anim);
+  // faint scanlines: this is a rendered memory, not the world
+  rct.fillStyle = "rgba(10,6,4,.30)";
+  for(let y=0;y<ROWS;y+=2) rct.fillRect(0,y*CH,revC.width,CH);
+  mode = "reverie"; trans = 1;
+  blip(330,.5,"sine",.02);
+  if(window.ROOT_NATIVE) ROOT_NATIVE.haptic("region");
+}
+function reverieAdvance(){
+  if(!reverie) return;
+  const pages = Math.ceil((reverie.scene.narr||[]).length/2);
+  if(reverie.page < pages-1){ reverie.page++; blip(300,.05,"sine",.015); }
+  else { mode = "play"; reverie = null; trans = 1; blip(392,.08,"sine",.02);
+    if(window.ROOT_NATIVE) ROOT_NATIVE.haptic("open"); }
+}
+function drawReverie(dt){
+  reverie.t += dt; const t = reverie.t;
+  scr.drawImage(revC, 0, 0);
+  // motion overlays
+  for(const a of reverie.anim){
+    if(a.k==="twinkle"){ const on=(t*1.7+a.x*0.3)%2<1;
+      cellText(scr,a.x,a.y,on?"·":" ",a.c[on?0:1],a.bg||cellBgRev(a.x,a.y)); }
+    else if(a.k==="drift"){ a.x+=(a.vx||0)*dt*6; a.y+=(a.vy||0)*dt*6;
+      if(a.y<11)a.y=24; if(a.y>25)a.y=12; if(a.x<0)a.x=COLS-1; if(a.x>COLS-1)a.x=0;
+      cellText(scr,a.x|0,a.y|0,a.ch[(t*2+a.x)%a.ch.length|0],a.c); }
+    else if(a.k==="shimmer"){ const sy=a.y0+((t*3)%(a.y1-a.y0+2));
+      for(let x=a.x0;x<=a.x1;x++) if(Math.random()<.5) cellText(scr,x,sy|0,"·","rgba(255,240,220,.5)"); }
+    else if(a.k==="ripple"){ const r=(t%2); const rr=Math.round(r*5);
+      cellText(scr,a.x-rr,a.y,"(","#5a8aac"); cellText(scr,a.x+rr,a.y,")","#5a8aac"); }
+    else if(a.k==="flutter"){ if((t*3|0)%3===0) cellText(scr,a.x,a.y,"▬",a.c); }
+    else if(a.k==="fan"){ cellText(scr,a.x,a.y,["✜","✛","×","✛"][(t*4|0)%4],"#8a6a50"); }
+    else if(a.k==="beam"){ const yy=a.y; for(let i=1;i<10;i++){const bx=a.x+i,by=yy-Math.round(i*.3);
+      if((t*3+i)%2<1.4) cellText(scr,bx,by,"·","rgba(255,240,180,"+(0.5-i*0.04)+")"); } }
+  }
+  // title
+  const title = reverie.scene.title || "REVERIE";
+  rStrScr(4,1,title,"#a08a6a");
+  for(let x=4;x<4+title.length;x++) cellText(scr,x,2,"─","#3a2e1e");
+  // narrative box
+  for(let y=27;y<=34;y++) for(let x=0;x<COLS;x++) cellText(scr,x,y," ","#000","#0d0906");
+  text(scr,"┌"+"─".repeat(COLS-6)+"┐",2,27,"#4a3a2a");
+  text(scr,"└"+"─".repeat(COLS-6)+"┘",2,34,"#4a3a2a");
+  const narr = reverie.scene.narr||[];
+  narr.slice(reverie.page*2, reverie.page*2+2).forEach((l,i)=>text(scr,l.slice(0,COLS-12),6,29+i*2,"#e8d4b8"));
+  const pages = Math.ceil(narr.length/2);
+  ctext(scr, reverie.page<pages-1 ? "» more" : "» return to the mesh", 33,
+        reverie.page<pages-1 ? "#8a7a5a" : "#6a8a6a");
+}
+function rStrScr(x,y,s,col){ text(scr,s,x,y,col); }
+function cellBgRev(x,y){ return "#160a1e"; }
+
 /* ---------- verbs / fx (character effects) ---------- */
 function triggerVerb(f){
+  if((f.verb==="reverie" || f.scene) && (f.scene || room.reverie)){
+    enterReverie(f.scene || room.reverie); return;
+  }
   const v = f.verb || "hum";
   roomFx.push({type:v, cx:f._cx, cy:f._cy-2, t:0, cols:f._cols});
   if(v==="glitch") glitchT = 0.6;
@@ -959,6 +1156,7 @@ function frame(ts){
     if((T*2|0)%2===0 && shown<bootLines.length) ctext(scr, "▌", Math.min(6+shown, ROWS-3), "#59f2b0");
   }
   else if(mode==="files"){ drawFilesScreen(T); }
+  else if(mode==="reverie"){ drawReverie(dt); }
   else if(mode==="void"){
     scr.fillStyle = "#010503"; scr.fillRect(0,0,cv.width,cv.height);
     for(let i=0;i<160;i++){
@@ -1117,6 +1315,10 @@ function toggleFiles(){
 const KEYMAP = {ArrowUp:"up",KeyW:"up",ArrowDown:"down",KeyS:"down",ArrowLeft:"left",KeyA:"left",ArrowRight:"right",KeyD:"right"};
 addEventListener("keydown", e=>{
   if(pressAny()){ e.preventDefault(); return; }
+  if(mode==="reverie"){
+    if(["Space","Enter","ArrowRight","ArrowDown","KeyD","KeyS","ArrowLeft","ArrowUp"].includes(e.code)) reverieAdvance();
+    e.preventDefault(); return;
+  }
   if(e.code==="Tab"){ toggleFiles(); e.preventDefault(); return; }
   if(mode==="files"){
     if(e.code==="ArrowDown"||e.code==="KeyS"||e.code==="ArrowRight"||e.code==="KeyD"){ pageFiles(1); e.preventDefault(); }
@@ -1150,6 +1352,7 @@ if(IS_TOUCH){
   document.getElementById("bQuery").addEventListener("pointerdown", e=>{
     e.preventDefault();
     if(pressAny()) return;
+    if(mode==="reverie"){ reverieAdvance(); return; }
     if(mode==="files"){ toggleFiles(); return; }
     interact();
   });
@@ -1158,7 +1361,7 @@ if(IS_TOUCH){
     if(pressAny()) return;
     toggleFiles();
   });
-  cv.addEventListener("pointerdown", e=>{ pressAny(); });
+  cv.addEventListener("pointerdown", e=>{ if(mode==="reverie"){ reverieAdvance(); return; } pressAny(); });
   // no native gestures anywhere: stray taps must never zoom or select
   document.addEventListener("touchstart", e=>{ e.preventDefault(); }, {passive:false});
   document.addEventListener("touchend", e=>{ e.preventDefault(); }, {passive:false});
@@ -1172,7 +1375,12 @@ window.DR = {
   warp(cx, cy){ player.cx = cx|0; player.cy = cy|0; },
   go(id, dir){ loadRoom(id, dir || null); },
   photo(v){ photoMode = !!v; },
-  state(){ return {mode, room: room && room.id, files: Object.keys(save.files)}; }
+  reverie(setting){ enterReverie({setting: setting||"rooftop",
+    title:"REVERIE — "+(setting||"rooftop"),
+    narr:["A memory surfaces through the mesh, warm and out of order.",
+          "She is here, and you are here, and the archive is elsewhere.",
+          "You stay a moment. Then the signal calls you back down."]}); },
+  state(){ return {mode, room: room && room.id, files: Object.keys(save.files), reverie: !!reverie}; }
 };
 
 /* ---------- go ---------- */

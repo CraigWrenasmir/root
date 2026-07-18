@@ -1,0 +1,139 @@
+{
+  "id": "the-wind-and-grass-circuit",
+  "title": "Where Traffic's Engine-Sound Becomes Wind Between Grass",
+  "region": "The Clean Archive",
+  "seed": 33456,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#1a3a5e",
+      "#2a5a8e"
+    ],
+    "ink": "#a0d8f0",
+    "accents": [
+      "#00ff99",
+      "#2ecc71",
+      "#1abc9c",
+      "#0099ff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "engine-frequency-trace",
+      "desc-on-touch": "the highway's roar rendered as waveform, then the waveform learned to blow like wind through a field. now you cannot hear which is which.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "paddock-rendered-circuit",
+      "desc-on-touch": "grass plotted on a grid, each blade a coordinate, each wind-gust a signal. the highway forgot it was a road and remembered it was a space between things.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4455,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "diagnostic-grass-tower",
+      "desc-on-touch": "a tower of rendered wind-bent grass, standing in the coordinate system like a reproof. the archive measured the paddock and found it was never empty.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "silence-frequency-marker",
+      "desc-on-touch": "the moment the engine-sound became wind — plotted exactly, time-stamped. the archive has never been certain whether it was listening or dreaming.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6677,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.88,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "layby-grass-node-register",
+      "desc-on-touch": "a small monument: this is where traffic learned to rest. not to move, but to pause. the grass held the space open. the wind kept it cool.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 7788,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the highway whispered to the paddock: i was built to move, but i am happiest when nothing moves along me. the grass said: i am happiest blowing.",
+  "file": {
+    "name": "Layby_Wind_Survey_Acoustic_1994-2001.mp3",
+    "note": "7 years of hourly wind recordings at the layby where the highway straightens. gradually the file learned to include vehicle noise. by year 7, the two were indistinguishable."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "east, back to the layby where journeys still pause",
+      "to": "the-highway-rest-where-engines-cool"
+    },
+    {
+      "dir": "w",
+      "label": "west into paddock country, where grids dissolve into fencelines",
+      "to": "NEW: the open country where coordinates forget themselves"
+    },
+    {
+      "dir": "n",
+      "label": "north toward where the grid becomes sparse and sky opens",
+      "to": "the-flowing-reach"
+    },
+    {
+      "dir": "s",
+      "label": "south toward the horizon where wind and traffic both disappear",
+      "to": "NEW: where the grid flattens into silence"
+    }
+  ]
+}
