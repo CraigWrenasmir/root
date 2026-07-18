@@ -22,6 +22,10 @@ if [ -s logs/last-grown.txt ] && [ -d /opt/homebrew/lib/node_modules/playwright 
   python3 engine/caption.py >/dev/null 2>&1 || true
 fi
 
+# redraw the secret guides so they stay in step with the living mesh
+python3 engine/build-atlas.py || echo "(atlas build failed, continuing)"
+python3 engine/build-warm-index.py || echo "(warm-index build failed, continuing)"
+
 git add -A
 NIGHT=$(python3 -c "import json;print(json.load(open('rooms/manifest.json'))['nights'])")
 git commit -m "night $NIGHT: the mesh grew" || exit 0
