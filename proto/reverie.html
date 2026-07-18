@@ -132,7 +132,7 @@ const SCENES={
      for(let y=1;y<=10;y++)fillRow(y,0,COLS-1," ","#000",
        ["#2a1e30","#33243a","#3e2c3e","#4c3840","#5e463e","#6e543c","#7c603a"][Math.min(6,(y-1)*0.7|0)]);
      // rising sun sitting on the horizon, right side
-     block(60,11,["  ▄███▄ "," ███████","████████"],"#ffcf7a");
+     block(60,11,["  ▄██▄  "," ██████ ","████████"],"#ffcf7a");
      for(let i=0;i<10;i++)P(52+(rnd()*18|0),4+(rnd()*5|0),"·","#ffe1b0"); // early light
      // horizon line of low hills
      for(let x=0;x<COLS;x++)P(x,11,"▁▂"[(Math.sin(x/9)>0.3?1:0)],"#3a4a24");

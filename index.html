@@ -807,7 +807,7 @@ const REV_SETTINGS = {
     const rnd = mulberry32(300);
     for(let y=1;y<=10;y++)rFill(y,0,COLS-1," ",null,
       ["#2a1e30","#33243a","#3e2c3e","#4c3840","#5e463e","#6e543c","#7c603a"][Math.min(6,(y-1)*0.7|0)]);
-    rBlock(60,11,["  ▄███▄ "," ███████","████████"],"#ffcf7a");
+    rBlock(60,11,["  ▄██▄  "," ██████ ","████████"],"#ffcf7a");
     for(let x=0;x<COLS;x++)rCell(x,11,"▁▂"[(Math.sin(x/9)>0.3?1:0)],"#3a4a24");
     for(let y=12;y<=23;y++)for(let x=0;x<COLS;x++)rCell(x,y," ",null,y<14?"#1b2c10":"#16240e");
     for(let y=13;y<=23;y++){const dens=(y-12)/12;
@@ -875,7 +875,7 @@ const REV_SETTINGS = {
   harbour(scene, anim){
     const rnd = mulberry32(4141);
     for(let y=1;y<=9;y++)rFill(y,0,COLS-1," ",null,["#241a2e","#2e2236","#3a2c3a","#4a3a3e","#5c4a40"][Math.min(4,(y-1)/2|0)]);
-    rBlock(16,9,["  ▄███▄ "," ███████"],"#e8a35a"); // low sun over water
+    rBlock(16,9,["  ▄██▄  "," ██████ "],"#e8a35a"); // low sun over water
     // far shore + cranes
     rFill(10,0,COLS-1,"▂","#2a2420");
     // cranes on the far shore — kept clear of the centre where the pair stand
