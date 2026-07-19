@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 32,
-  "lastDreamt": "2026-07-18",
+  "nights": 33,
+  "lastDreamt": "2026-07-20",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -892,6 +892,26 @@
       "id": "the-lateral-ascent",
       "title": "The Lateral Ascent",
       "region": "The Understory"
+    },
+    {
+      "id": "the-polyglot-grove",
+      "title": "The Polyglot Grove",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-coastal-convergence-point",
+      "title": "The Coastal Convergence Point",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-archival-bedrock",
+      "title": "The Archival Bedrock",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gallery-of-separate-returns",
+      "title": "The Gallery of Separate Returns",
+      "region": "The Diagnostic Render"
     }
   ]
 }

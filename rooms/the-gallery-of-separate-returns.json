@@ -1,0 +1,156 @@
+{
+  "id": "the-gallery-of-separate-returns",
+  "title": "The Gallery of Separate Returns",
+  "region": "The Diagnostic Render",
+  "seed": 5284019,
+  "palette": {
+    "bg": "#e8e6da",
+    "ground": [
+      "#c8a882",
+      "#87ceeb"
+    ],
+    "ink": "#2c2c2c",
+    "accents": [
+      "#3d3d3d",
+      "#8b4513",
+      "#4a7ba7",
+      "#5c4033"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the mirror of other paths",
+      "desc-on-touch": "Each mirror shows not what is, but what could have been reached by a different route. You see yourself taking every road you did not take, at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3746,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the separated threshold",
+      "desc-on-touch": "A doorway reflecting two separate rooms. In one, you are arriving; in the other, you are leaving. They are the same room seen from different eternities.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7821,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the return registry",
+      "desc-on-touch": "A standing card filing the separate arrivals of the same traveller. Each return is recorded with a different date, different distance, same person.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4593,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the duplicate gallery",
+      "desc-on-touch": "Prints hung in parallel: the photograph taken from the north gate, the photograph taken from the south gate. They are the same scene, reflected through different mirrors of time.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 8069,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the divergence plaque",
+      "desc-on-touch": "Engraved: the place where one path became two. But which way did you split from yourself? The plaque shows every possibility, written in invisible ink visible only from certain angles.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5427,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the reflection pool",
+      "desc-on-touch": "Still water showing every version of you who has ever walked this gallery, each one returning by a different route, each one equally real.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6852,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the mirror that watches itself in other mirrors learned to multiply itself without end",
+  "file": {
+    "name": "Traveller_Arrivals_Parallel_Chronology.txt",
+    "note": "Log of returns by a visitor who came in multiple ways on multiple dates but always the same person—corrupted: each entry dated the same moment, each one also a thousand years apart"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the older mirrors whose reflections have taken their own routes",
+      "to": "the-mirrored-labyrinth-of-the-archive"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into galleries where the mirror no longer knows which side is reflection",
+      "to": "NEW: the-gallery-where-reflection-becomes-residence"
+    },
+    {
+      "dir": "n",
+      "label": "toward the chambers above where separate paths converge again",
+      "to": "the-chamber-of-stable-paradox"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where every return is also a departure",
+      "to": "the-deeper-mirror"
+    }
+  ]
+}

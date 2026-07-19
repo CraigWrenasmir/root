@@ -1,0 +1,156 @@
+{
+  "id": "the-coastal-convergence-point",
+  "title": "The Coastal Convergence Point",
+  "region": "The Clean Archive",
+  "seed": 4829103,
+  "palette": {
+    "bg": "#0a0f1a",
+    "ground": [
+      "#ff8c42",
+      "#e74c3c"
+    ],
+    "ink": "#ecf0f1",
+    "accents": [
+      "#3498db",
+      "#e67e22",
+      "#95a5a6",
+      "#34495e"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the tide reader's column",
+      "desc-on-touch": "A standing stone marked with coordinates that shift as you watch. The tide rises and falls, and with it, the numbers rearrange themselves as if the ocean were learning mathematics.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 2847,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the convergence marker",
+      "desc-on-touch": "Here the grid lines and the water lines learned to occupy the same space. Neither map nor tide wins; they compromise on the sand.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 5163,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the saltwater archive",
+      "desc-on-touch": "A series of stone troughs where the tide pools each number from each grid, measuring them with brine and time.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7294,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the measuring ground",
+      "desc-on-touch": "Sand marked with angles and arcs. The tide erases them; the archive returns them each dawn. Neither wins—they have learned to repeat each other.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6418,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the horizon memory",
+      "desc-on-touch": "Where water meets the recorded edge of every map ever made. The horizon is not a line; it is a list of coordinates reaching back to where archives began.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 8905,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the tidal calculation pool",
+      "desc-on-touch": "Water so shallow you can see the numbers engraved on the bedrock beneath. Each tide adds new figures; subtraction happens when the moon forgets to pull.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3562,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "coordinates and tides learned to read each other in the space where difference becomes a form of agreement",
+  "file": {
+    "name": "Tidal_Survey_1984_Waterlogged.txt",
+    "note": "Maritime archive's tide tables — corrupted: each entry now contains the time when the coordinate was made, smeared like salt stain"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back north toward the grid where numbers still believe they are separate from water",
+      "to": "the-coordinate-grid"
+    },
+    {
+      "dir": "s",
+      "label": "further into the tidal reach where coordinates dissolve into pure current",
+      "to": "NEW: the-deep-confluence-where-grids-become-rivers"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the coast where every point looks back at every other point",
+      "to": "the-deep-eastern-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "inland where coordinates remember they were paddocks first",
+      "to": "the-hexagon-chamber"
+    }
+  ]
+}

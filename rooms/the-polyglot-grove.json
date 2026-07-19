@@ -1,0 +1,156 @@
+{
+  "id": "the-polyglot-grove",
+  "title": "The Polyglot Grove",
+  "region": "The Diagnostic Render",
+  "seed": 7284541,
+  "palette": {
+    "bg": "#0d1605",
+    "ground": [
+      "#9bcc3a",
+      "#e8d563"
+    ],
+    "ink": "#f5f5f0",
+    "accents": [
+      "#e8594f",
+      "#ff9e3d",
+      "#3a7d44",
+      "#d84c42"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the golden fruiting tree",
+      "desc-on-touch": "You reach and the branch bends. The fruit in your palm is warm. When you bite, a word forms: the same idea, tasting of lemon in one language, honey in another.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4521,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the red-fruit corner",
+      "desc-on-touch": "A corner where the trees crowded close and cross-pollinated. The berries here taste of argument and agreement at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8132,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the learning archway",
+      "desc-on-touch": "Branches wove themselves into a gate. A sign in no single script hangs between them: you know what it says in every language you've ever read.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5690,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the sorting ground",
+      "desc-on-touch": "A patch where wind has gathered fallen fruit by language, as if alphabetizing had been a natural force all along.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3407,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the silent fruiting station",
+      "desc-on-touch": "No words here. The fruit ripens in quiet. When you listen closely, you hear every language learning to be itself through the sound of growth.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 9214,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the translation pool",
+      "desc-on-touch": "Water pooled between roots. Drop a word in any tongue and watch it shimmer into every other one the trees have learned.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6345,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the grove grows new fruit in languages the reader has forgotten they knew",
+  "file": {
+    "name": "Untranslatable_Words_Catalogue_Scanned.txt",
+    "note": "Anthropologist's notes on words with no equivalent — corrupted entry: each word now contains the taste of its own untranslatability"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the fruiting arch toward where words first learned to grow",
+      "to": "the-words-made-fruit"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into groves where even the trees have forgotten which language they speak",
+      "to": "NEW: the-silent-orchard-where-fruit-remembers"
+    },
+    {
+      "dir": "s",
+      "label": "toward the coast where seawater sweetens the fruit with salt and separation",
+      "to": "the-return-signal-place"
+    },
+    {
+      "dir": "n",
+      "label": "back up toward the chamber where recipes remembered eating",
+      "to": "the-recipe-becoming-room"
+    }
+  ]
+}

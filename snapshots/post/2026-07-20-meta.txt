@@ -1,0 +1,10 @@
+featured: The Gallery of Separate Returns (the-gallery-of-separate-returns)
+region: The Diagnostic Render · motif: gradient
+inscription: the mirror that watches itself in other mirrors learned to multiply itself without end
+file: Traveller_Arrivals_Parallel_Chronology.txt
+
+all nodes tonight:
+  · The Polyglot Grove
+  · The Coastal Convergence Point
+  · The Archival Bedrock
+  · The Gallery of Separate Returns

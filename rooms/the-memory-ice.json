@@ -140,7 +140,7 @@
     {
       "dir": "s",
       "label": "down into layers of ice older than the archive itself, where the original corruption may have begun",
-      "to": "NEW: the-archival-bedrock"
+      "to": "the-archival-bedrock"
     },
     {
       "dir": "w",
