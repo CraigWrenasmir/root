@@ -1,0 +1,134 @@
+{
+  "id": "the-descending-vision",
+  "title": "The Descending Vision",
+  "region": "The Understory",
+  "seed": 47392,
+  "palette": {
+    "bg": "#0a0a15",
+    "ground": [
+      "#000000",
+      "#1a0a2e"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ff0088",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "core-node-alpha",
+      "desc-on-touch": "you see the circuit's heart; the spiral collapses inward and becomes visible as computation",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 19284,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "descending-stack",
+      "desc-on-touch": "layers of the spiral's logic, stacked from sky to bedrock; each layer sees deeper than the one above",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 38471,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-pool-of-collapsed-vision",
+      "desc-on-touch": "where the outward spiral bent inward and pooled; the archive's reflection stares back at itself",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 11847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-wireframe-descent",
+      "desc-on-touch": "the barely-3D structure of the descent itself, rendered as the path collapses; you can see down through it",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 33562,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "peripheral-echo",
+      "desc-on-touch": "the spiral's outer sensory organs, now dimmed but still receiving; they dream of surfaces far above",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 24918,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the spiral becomes architecture when you see it from inside",
+  "file": {
+    "name": "Spiral_Collapse_Spectrogram_Descending.png",
+    "note": "visual record of the spiral's inward turn; frequencies drop as the descent deepens; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the flattening spiral's outer edge",
+      "to": "the-visible-spiral-plain"
+    },
+    {
+      "dir": "s",
+      "label": "further down where the circuit board becomes soil",
+      "to": "NEW: the-logic-taking-root"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into the parallel descent, where another archive is collapsing inward",
+      "to": "the-dark-loam-archive"
+    }
+  ]
+}

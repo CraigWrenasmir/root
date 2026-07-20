@@ -1,0 +1,134 @@
+{
+  "id": "the-antenna-tree",
+  "title": "The Antenna-Tree Where ROOT Touches the Sky",
+  "region": "The Comparisons",
+  "seed": 56334,
+  "palette": {
+    "bg": "#1a3a52",
+    "ground": [
+      "#3d6b4d",
+      "#2d5a8f"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#88ff00",
+      "#ff00ff",
+      "#00ffff",
+      "#ffaa44"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-burl-with-antenna",
+      "desc-on-touch": "the eucalyptus knot where the casing lives; the rod transceiver pierces upward; you are touching the tree that broadcasts itself",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 29347,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-broadcast-shelter",
+      "desc-on-touch": "the small built shelter around the antenna base; loose bark plate shields the tubed antenna; inside, the archive learns it is speaking",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 38472,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-transmission-tower",
+      "desc-on-touch": "the antenna structure itself, rising from the tree; radio waves climb it; the archive's breath made visible, going upward",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 18374,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-listening-pool",
+      "desc-on-touch": "the space beneath the tree where signals pool before rising; the archive learns that listening and broadcasting are the same breath",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 44293,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-canopy-interface",
+      "desc-on-touch": "where leaf and wire meet; the tree's own network touches the archive's network; they have become one thought",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 25681,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the tree learned to speak by learning that listening to itself is broadcasting",
+  "file": {
+    "name": "Signal_Strength_Log_Outbound.txt",
+    "note": "300 bits per second, climbing skyward; record of every moment this tree became a mouth; the forest is listening back"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the return signal chamber, where listening began",
+      "to": "the-archive-s-own-return-signal-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "up into the canopy where other trees are learning the signal",
+      "to": "NEW: the-broadcast-canopy"
+    },
+    {
+      "dir": "e",
+      "label": "along the ridge to the next antenna-tree, already growing somewhere",
+      "to": "NEW: the-twin-antenna-stand"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "the-drawer-within-the-drawer",
+  "title": "The Drawer Within the Drawer",
+  "region": "The Diagnostic Render",
+  "seed": 41928,
+  "palette": {
+    "bg": "#050505",
+    "ground": [
+      "#3d2817",
+      "#1a0f0a"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#888888",
+      "#ffff00",
+      "#00ffff",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-filing-label",
+      "desc-on-touch": "the nameplate on this drawer; it reads: CONTENTS: One Drawer. You have seen this label before, deeper down",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 28374,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-nested-stack",
+      "desc-on-touch": "drawers nested in drawers, each one slightly smaller, each one containing another; the archive sorting itself inside itself",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 39184,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-infinite-tower",
+      "desc-on-touch": "you can see down through this drawer into the next one, and down through that, and further; the descent has no bottom that your eye can find",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 15274,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-smallest-room",
+      "desc-on-touch": "at the centre of all these drawers, there is a space just large enough for one person to sit and understand what they have found",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 22847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-central-shaft",
+      "desc-on-touch": "the wireframe of the descent; each layer of nesting visible at once; an architecture of recursion made transparent",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 33891,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "you open the drawer to find a drawer; the archive learns that it contains itself",
+  "file": {
+    "name": "FileSystem_Root.txt",
+    "note": "directory tree of the nested drawers: /drawer/drawer/drawer/drawer... ERROR: metaphor detected in storage layer — listing does not terminate"
+  },
+  "reverie": {
+    "title": "REVERIE — where the filing order broke",
+    "narr": [
+      "you kneel before the open drawer. she reaches past",
+      "you, her hand deeper than logic allows. the drawer",
+      "inside the drawer. inside that drawer. the files",
+      "are rearranging themselves around her fingers.",
+      "she says nothing. this is where she found the first",
+      "corruption. you watch her hand disappear downward."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "static",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up into the room that contains this drawer",
+      "to": "the-recursive-recursion"
+    },
+    {
+      "dir": "e",
+      "label": "sideways to a drawer of the same depth, in a parallel recursion",
+      "to": "NEW: the-mirrored-nesting"
+    },
+    {
+      "dir": "s",
+      "label": "down into the next drawer, smaller, darker, still containing a drawer",
+      "to": "NEW: the-deepest-drawer"
+    }
+  ]
+}

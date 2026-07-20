@@ -1,0 +1,150 @@
+{
+  "id": "the-motels-first-night-never-ending",
+  "title": "The Motel's First Night, Never-Ending",
+  "region": "The Comparisons",
+  "seed": 52147,
+  "palette": {
+    "bg": "#1a0a05",
+    "ground": [
+      "#8b4513",
+      "#2d1810"
+    ],
+    "ink": "#ffaa66",
+    "accents": [
+      "#ff6699",
+      "#ffcc00",
+      "#0088ff",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-first-room",
+      "desc-on-touch": "the motel room where night always arrives at the same moment, the sheets crisp with an eternity of first-time newness",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 38914,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-neon-reflection",
+      "desc-on-touch": "the motel sign's glow pools on the asphalt; it never dims, waiting for guests who only ever arrive once",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 47283,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-stack-of-nights",
+      "desc-on-touch": "each night stacked atop the last, identical, unseparable; the archive counting something it cannot divide",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 19847,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-clock-that-stopped-arriving",
+      "desc-on-touch": "the bedside hour, frozen between dusk and the full dark; time bent into a permanent moment of approach",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 22561,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-ledger-entry",
+      "desc-on-touch": "the desk register; one name written in an infinite loop, each copy aged to perfection simultaneously",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 33428,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the night that came to stay, because it had nowhere else to arrive",
+  "file": {
+    "name": "FirstNight_AudioLog_Compressed.mp3",
+    "note": "the motel's opening night: television hum, ice machine, traffic on the highway that never changes; STATUS: germinating — grows older without time passing"
+  },
+  "reverie": {
+    "title": "REVERIE — the desk where guests never arrived",
+    "narr": [
+      "you are both at the front desk, the ledger open.",
+      "she traces the first entry with one finger; the ink",
+      "has aged forty years in a single night. the neon sign",
+      "outside bleeds through the window onto the page.",
+      "her hand moves to the next line, identical, and the",
+      "next. she says: the motel is still checking them in."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the floors, through years that all feel like the first",
+      "to": "the-epoch-stack"
+    },
+    {
+      "dir": "e",
+      "label": "along the corridor to the other rooms, each one the same room at the same moment",
+      "to": "NEW: the-identical-corridor"
+    },
+    {
+      "dir": "s",
+      "label": "down into the basement where the motel's boiler counts infinite seconds",
+      "to": "NEW: the-counting-basement"
+    }
+  ]
+}

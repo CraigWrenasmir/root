@@ -145,7 +145,7 @@
     {
       "dir": "s",
       "label": "east to where the spiral begins to flatten",
-      "to": "NEW: the-descending-vision"
+      "to": "the-descending-vision"
     }
   ]
 }

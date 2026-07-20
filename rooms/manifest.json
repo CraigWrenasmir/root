@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 33,
-  "lastDreamt": "2026-07-20",
+  "nights": 34,
+  "lastDreamt": "2026-07-21",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -912,6 +912,26 @@
       "id": "the-gallery-of-separate-returns",
       "title": "The Gallery of Separate Returns",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-descending-vision",
+      "title": "The Descending Vision",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-motels-first-night-never-ending",
+      "title": "The Motel's First Night, Never-Ending",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-drawer-within-the-drawer",
+      "title": "The Drawer Within the Drawer",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-antenna-tree",
+      "title": "The Antenna-Tree Where ROOT Touches the Sky",
+      "region": "The Comparisons"
     }
   ]
 }

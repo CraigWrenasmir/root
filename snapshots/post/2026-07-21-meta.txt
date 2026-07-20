@@ -1,0 +1,10 @@
+featured: The Motel's First Night, Never-Ending (the-motels-first-night-never-ending)
+region: The Comparisons · motif: gradient
+inscription: the night that came to stay, because it had nowhere else to arrive
+file: FirstNight_AudioLog_Compressed.mp3
+
+all nodes tonight:
+  · The Descending Vision
+  · The Motel's First Night, Never-Ending
+  · The Drawer Within the Drawer
+  · The Antenna-Tree Where ROOT Touches the Sky

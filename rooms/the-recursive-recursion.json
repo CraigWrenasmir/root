@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "into the drawer that contains this room; it is always one step deeper",
-      "to": "NEW: the-drawer-within-the-drawer"
+      "to": "the-drawer-within-the-drawer"
     },
     {
       "dir": "w",
