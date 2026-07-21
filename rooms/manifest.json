@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 34,
-  "lastDreamt": "2026-07-21",
+  "nights": 35,
+  "lastDreamt": "2026-07-22",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -932,6 +932,26 @@
       "id": "the-antenna-tree",
       "title": "The Antenna-Tree Where ROOT Touches the Sky",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-unmapped-field",
+      "title": "The Unmapped Field",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-high-canopy-archive-station",
+      "title": "The High-Canopy Archive Station",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-closed-grid-chamber",
+      "title": "The Closed Grid Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-surgical-confluence-room",
+      "title": "The Surgical Confluence Reading Room",
+      "region": "The Diagnostic Render"
     }
   ]
 }

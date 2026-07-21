@@ -106,7 +106,7 @@
     {
       "dir": "e",
       "label": "toward open country where no archive has reached yet",
-      "to": "NEW: the unmapped field, where trees grow without being compared to anything at all"
+      "to": "the-unmapped-field"
     },
     {
       "dir": "s",

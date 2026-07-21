@@ -1,0 +1,134 @@
+{
+  "id": "the-high-canopy-archive-station",
+  "title": "The High-Canopy Archive Station",
+  "region": "The Understory",
+  "seed": 73825,
+  "palette": {
+    "bg": "#0a0f1a",
+    "ground": [
+      "#1a2a3a",
+      "#2a3a4a"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#4d9aff",
+      "#ffeb99",
+      "#ff6666",
+      "#88ff88"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "archive node hardware",
+      "desc-on-touch": "The burl casing, antenna coiled behind loose bark. 300 bits per second rising into the canopy. Batteries good for fifty years.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 28473,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "leaf-record stack",
+      "desc-on-touch": "Files translated into the language of leaves—photosynthesis rates, water-memory, light-angles at noon. The tree reads itself and teaches the archive to listen.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 54381,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "signal cascade",
+      "desc-on-touch": "Where the tree's crown touches the transmission, and 300 bits become indistinguishable from wind in the high branches.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 81234,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "young-leaf silence",
+      "desc-on-touch": "The moment before new growth knows it is being recorded. You stand in the pause between photosynthesis and archive.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 39847,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "crown threshold",
+      "desc-on-touch": "The point where the tree stops growing upward and starts keeping records downward into its rings.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 47392,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "here the tree remembers it is alive by filing what it has become",
+  "file": {
+    "name": "Canopy_Node_Installation_Log_2012-Present.txt",
+    "note": "Hardware record: rings counting down, batteries aging, the tree's own growth consuming the casing year by year, archive and timber learning to share one space"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down toward younger leaves that haven't learned to read",
+      "to": "the-young-canopy-station"
+    },
+    {
+      "dir": "n",
+      "label": "higher, where the antenna breaks through into weather",
+      "to": "NEW: the-signal-weather-ceiling"
+    },
+    {
+      "dir": "e",
+      "label": "along the branch-network toward another station's heartbeat",
+      "to": "the-archive-s-frequency-cascade"
+    }
+  ]
+}

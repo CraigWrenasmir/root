@@ -1,0 +1,134 @@
+{
+  "id": "the-closed-grid-chamber",
+  "title": "The Closed Grid Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 56471,
+  "palette": {
+    "bg": "#1a0a2a",
+    "ground": [
+      "#6a2a8a",
+      "#3a1a5a"
+    ],
+    "ink": "#ff99ff",
+    "accents": [
+      "#00ddff",
+      "#ffaa00",
+      "#ff0077",
+      "#aaffaa"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.88
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "wall made of menu-code",
+      "desc-on-touch": "The horizon collapsed into four walls. Every exit is a UI button that renders the same room again.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 92847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "screenshot-corner",
+      "desc-on-touch": "Where the render clips have begun to show their edges—a corner where the archive's own diagnostic rendering is visible, unfinished.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 33619,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "recursive navigation",
+      "desc-on-touch": "A map of this room displayed inside this room, scaled smaller, with another map inside that, depth without distance.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 47629,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "dusk-band horizon",
+      "desc-on-touch": "Where the gradient sky-render has frozen in place—the blues and magentas of eternal transition, frame-locked at the moment before night.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 74536,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "collision-glitch cluster",
+      "desc-on-touch": "Where the menu-highway's rendering algorithm hit a paradox—too many exits trying to occupy one space, they've fused into corrupted pixels.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 18374,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "every route in this room leads back to this room; you have become part of the rendering",
+  "file": {
+    "name": "Menu_State_Loop_Recursion_Depth_Unknown.log",
+    "note": "navigation tree corrupted—the archive's own interface collapsed into self-reference. Files report their own reading as coordinates in the space where they're displayed."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the blue grid dissolves back into highway horizon",
+      "to": "the-menu-screen-highway"
+    },
+    {
+      "dir": "s",
+      "label": "down into another menu level, the nesting continues",
+      "to": "NEW: the-menu-within-the-menu"
+    },
+    {
+      "dir": "e",
+      "label": "into a wall that claims to be an exit",
+      "to": "the-recursive-kiosk-interior"
+    }
+  ]
+}

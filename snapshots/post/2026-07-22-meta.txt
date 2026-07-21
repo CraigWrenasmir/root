@@ -1,0 +1,10 @@
+featured: The Unmapped Field (the-unmapped-field)
+region: The Comparisons · motif: fields
+inscription: nothing here has learned yet that it is being read
+file: Uncompared_Clearing_Daylight_1410hrs.mp3
+
+all nodes tonight:
+  · The Unmapped Field
+  · The High-Canopy Archive Station
+  · The Closed Grid Chamber
+  · The Surgical Confluence Reading Room
