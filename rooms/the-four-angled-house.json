@@ -1,0 +1,134 @@
+{
+  "id": "the-four-angled-house",
+  "title": "The Four-Angled House Where Every Corner Contradicts",
+  "region": "The Diagnostic Render",
+  "seed": 447821,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#00d9ff",
+      "#ff006e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#a300ff",
+      "#ffbe0b",
+      "#00d9ff",
+      "#ff006e"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "northern facade",
+      "desc-on-touch": "you see a cottage with roses; no roses; a warehouse door; all three at once, the render arguing with itself",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 112233,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "southern prospect",
+      "desc-on-touch": "a shopfront rendered as storehouse, rendered as home, rendered as antenna array — each version equally present",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 334455,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "western threshold",
+      "desc-on-touch": "the door opens onto four rooms at once; you must choose which threshold to cross, or refuse to enter",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 556677,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "eastern argument",
+      "desc-on-touch": "two windows disagree about what they see; the render has drawn them both, refusing to commit to either view",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 778899,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the contradiction-bearing wall",
+      "desc-on-touch": "a wall that cannot decide its own thickness, color, or purpose; you run your hand across it and feel four different surfaces",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 223344,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "every angle sees a different house; the render cannot choose, so it keeps them all",
+  "file": {
+    "name": "Perspective_Studies_Architectural_Disagreement.txt",
+    "note": "four sketches of the same building, each claiming to be the true elevation; the margins fill with corrections that contradict each other"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the chambers where understanding compares itself",
+      "to": "the-third-lens-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down to where buildings forget their blueprints",
+      "to": "NEW: the-blueprint-dissolution, where architecture becomes uncertainty"
+    },
+    {
+      "dir": "n",
+      "label": "further into fracture, where more angles await",
+      "to": "NEW: the-prismatic-lodge, where every room splits into its own refracted twin"
+    }
+  ]
+}

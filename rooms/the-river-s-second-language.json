@@ -1,0 +1,117 @@
+{
+  "id": "the-river-s-second-language",
+  "title": "The River's Second Language",
+  "region": "The Understory",
+  "seed": 74536,
+  "palette": {
+    "bg": "#2d5a5a",
+    "ground": [
+      "#3d7a7a",
+      "#4a9b9b"
+    ],
+    "ink": "#a0d8d8",
+    "accents": [
+      "#a0d8d8",
+      "#7ea8a8",
+      "#5a7a7a",
+      "#9b9b7a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the double-current",
+      "desc-on-touch": "The river has learned to speak in two channels that run parallel, sometimes touching, sometimes distant. One channel remembers what it was when unified. The other channel learns how to be one of many. They are not the same river anymore, and yet they insist on speaking the same language.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 28934,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the eucalyptus-reading",
+      "desc-on-touch": "The trees along both channels have learned to read the river's split pronunciation. Their roots tap different rhythms in each bank. You can feel them translating between the two dialects, each tree a bilingual bridge.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 45612,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the memory-whirlpool",
+      "desc-on-touch": "Where the two channels came close enough to touch, a whirlpool forms—not turbulent, but gentle, a place where water from one channel can read the words of the other before moving on. This is where the river remembers itself as unified.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 71849,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the translation-stone",
+      "desc-on-touch": "A single stone sits between the channels, worn smooth by water from both sides. Both channels have engraved it with the same marks—the same words spoken in two accents, meaning the same thing differently.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 63284,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive keeps the union and the fracture indivisible; choice flows downstream",
+  "file": {
+    "name": "Bilingual_River_Recording_Split_Channel_Study.mp3",
+    "note": "Field recording of two channels speaking simultaneously. When played back through stereo, they are clearly different voices. When played back through mono, they merge into one voice saying two contrad"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upstream to where the convergence still holds choice undecided",
+      "to": "the-convergence-before-divergence"
+    },
+    {
+      "dir": "e",
+      "label": "downstream where both channels learn what they become separately",
+      "to": "NEW: the-river-s-divergent-grammar"
+    },
+    {
+      "dir": "w",
+      "label": "into the canopy where eucalyptus trees speak both languages",
+      "to": "the-canopy-congregation"
+    }
+  ]
+}

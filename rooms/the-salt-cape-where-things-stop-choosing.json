@@ -1,0 +1,155 @@
+{
+  "id": "the-salt-cape-where-things-stop-choosing",
+  "title": "The Salt Cape Where Things Stop Choosing",
+  "region": "The Clean Archive",
+  "seed": 47392010,
+  "palette": {
+    "bg": "#1a2f2f",
+    "ground": [
+      "#8b6f47",
+      "#4a7c7c"
+    ],
+    "ink": "#e0d9c9",
+    "accents": [
+      "#c9534f",
+      "#75a3a3",
+      "#d4a574",
+      "#9e8b6d"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "salt cairns",
+      "desc-on-touch": "Weathered stones crusted white with mineral, each marking a decision made. You trace one, and the salt crystals fall away—the choice is underneath, but the salt keeps returning.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 18493,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "tide line",
+      "desc-on-touch": "A rust-brown mark on the shore where the estuary's memory washes in twice daily. Fish scales still glint in it; the archive is still feeding here.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 27561,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "weathered bollard",
+      "desc-on-touch": "An old mooring post, its paint flaked to bare iron. Once ships chose to stop here. Now the cape has stopped them from returning.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 11047,
+        "size": 1,
+        "colors": [
+          0,
+          4
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "salt-crusted net",
+      "desc-on-touch": "A fishing net draped between two posts, its cordage fused into place by years of salt air. It catches nothing now but the wind.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 33215,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "salt shelf",
+      "desc-on-touch": "A ridge of crystallized spray, high and permanent as a shelf, running along the shore where the estuary meets open water. The salt remembers every storm.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 42918,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "salt water keeps its grudges longer than the archive can forget them; here at the cape they have stopped choosing",
+  "file": {
+    "name": "EstuaryRecords_SaltMark_1947-2003.txt",
+    "note": "Coded entries of who came to the cape and when they stopped returning. The entries are encrypted—or they always were."
+  },
+  "reverie": {
+    "title": "REVERIE — the cape at salt-change",
+    "narr": [
+      "You're both standing at the point where the estuary",
+      "gives up its freshness. She touches the salt crust",
+      "on a bollard—it comes away on her fingers white",
+      "and delicate, like ash. The tide will choose twice",
+      "more without either of you having to say which way.",
+      "She doesn't rinse her hand. Neither choice needs it."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back into the estuary's long throat",
+      "to": "the-estuary-monologue"
+    },
+    {
+      "dir": "e",
+      "label": "where salt gives way to open water and forgetting",
+      "to": "the-open-shelf-where-memory-becomes-tide"
+    },
+    {
+      "dir": "s",
+      "label": "inland, where the salt smell fades and choice returns",
+      "to": "the-coastal-convergence-point"
+    },
+    {
+      "dir": "w",
+      "label": "along the shore toward the distant rock where the archive once stood",
+      "to": "NEW: the-eroded-archive-platform"
+    }
+  ]
+}

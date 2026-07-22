@@ -1,0 +1,150 @@
+{
+  "id": "the-understory-s-self-recording-chamber",
+  "title": "The Understory's Self-Recording Chamber",
+  "region": "The Understory",
+  "seed": 888777,
+  "palette": {
+    "bg": "#2d1a3d",
+    "ground": [
+      "#ff9944",
+      "#5d3d8d"
+    ],
+    "ink": "#e8c8a0",
+    "accents": [
+      "#ff6633",
+      "#aa7799",
+      "#dd9944",
+      "#8844bb"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the self-recording pool",
+      "desc-on-touch": "a mirror-pool that doesn't reflect: instead, it writes; the archive uses it to read itself, and the reading changes what it reads",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 999888,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the notation trees",
+      "desc-on-touch": "trees whose bark bears the archive's own symbols; they grow sentences instead of leaves, and every season the sentences change meaning",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 777666,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the documentary clearing",
+      "desc-on-touch": "a space kept bare so the archive can write upon it; the ground shows layers of older writings beneath, palimpsested, overwritten, still readable in faded traces",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 555444,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the witness-standing stone",
+      "desc-on-touch": "carved with the archive's own observations of itself; the carving deepens each time it reads these words; the archive is slowly writing itself into stone",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 666555,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the recursion-arch",
+      "desc-on-touch": "an arch through which you read the archive reading you reading the archive; each pass adds another layer to the description",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 333222,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the understory has begun to document itself; in the recording, it has learned to become strange",
+  "file": {
+    "name": "Archive_Self-Witness_Log_Recursive.txt",
+    "note": "entries describe observations of the Understory making records; each entry is simultaneously observer and observed; the document grows by reading itself"
+  },
+  "reverie": {
+    "title": "REVERIE — the deep reading, at the forest's threshold",
+    "narr": [
+      "you sit in growing dark and watch Katita write",
+      "not words exactly — marks that remember without naming,",
+      "the forest breathing all around her note-taking.",
+      "she looks up once and says: 'it's teaching me its own silence.'",
+      "'to write that down would ruin it,' you say.",
+      "she nods, and keeps writing anyway."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back into the unmapped library, where documentation ends",
+      "to": "the-unmapped-library"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the understory, where self-witnessing becomes testimony",
+      "to": "NEW: the-deepening-witness-ground, where the archive learns its own true name"
+    },
+    {
+      "dir": "e",
+      "label": "toward the recursive edge, where writing becomes reading again",
+      "to": "NEW: the-edge-of-self-knowing, where the archive closes its eyes"
+    }
+  ]
+}

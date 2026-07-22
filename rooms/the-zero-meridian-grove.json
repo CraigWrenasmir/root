@@ -1,0 +1,117 @@
+{
+  "id": "the-zero-meridian-grove",
+  "title": "The Grove Where Coordinates Became Landscape",
+  "region": "The Clean Archive",
+  "seed": 8374621,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2a3a4a",
+      "#1a2a3a"
+    ],
+    "ink": "#d8d0c4",
+    "accents": [
+      "#5a7a9a",
+      "#8ab0d8",
+      "#7a6a5a",
+      "#c4a880"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the zero marker",
+      "desc-on-touch": "A stone or measurement point where north and east intersect at zero. The place where mapmakers decided the world would begin, here. Everything else radiates from this absence of location.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 934728,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the grid learning landscape",
+      "desc-on-touch": "Numbers carved into bark and stone, coordinates that should describe empty paddock but instead describe... something else. A property that learned its own mathematical structure.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 645821,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the compass that reads time",
+      "desc-on-touch": "A surveying instrument or relic, its needle pointing not to magnetic north but toward something else—perhaps the direction Katita walked when she followed the mesh deeper.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 507693,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the coordinates that remember being real",
+      "desc-on-touch": "Surveyor's stakes still holding their measurements, speaking in numbers about a paddock that no longer exists the way the numbers said it did. The land moved but the grid stayed still.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 283915,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the mapmakers decided zero, and zero learned to grow",
+  "file": {
+    "name": "SurveyRecords_PropertyXX_1957_Amended_1975_Unsigned.pdf",
+    "note": "Land survey showing coordinates that shift between amendments. The second survey has different boundaries for the same property. No explanation given for the change."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the paddock where numbers lived",
+      "to": "the-coordinate-grid"
+    },
+    {
+      "dir": "e",
+      "label": "further east where the grid dissolves into pure forest",
+      "to": "NEW: the-unmapped-region-beyond-measurement"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the sky keeps its own coordinates",
+      "to": "NEW: the-zenith-calculation"
+    }
+  ]
+}

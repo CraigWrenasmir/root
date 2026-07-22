@@ -106,7 +106,7 @@
     {
       "dir": "n",
       "label": "further up into the render where other objects are learning to read themselves",
-      "to": "NEW: the-recursive-render-depth"
+      "to": "the-recursive-render-depth"
     },
     {
       "dir": "e",

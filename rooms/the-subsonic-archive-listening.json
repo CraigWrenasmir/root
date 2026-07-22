@@ -1,0 +1,155 @@
+{
+  "id": "the-subsonic-archive-listening",
+  "title": "The Subsonic Archive Listening",
+  "region": "The Understory",
+  "seed": 7734829,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#3d1b5e",
+      "#2d0f3e"
+    ],
+    "ink": "#e8d5ff",
+    "accents": [
+      "#ff6e40",
+      "#00d9ff",
+      "#b8e986",
+      "#ff1493"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "listening-pool",
+      "desc-on-touch": "You rest your hand on the pool's surface. The archive hears through frequencies your ear cannot reach. It is learning to listen beneath the world's audible speech.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 441,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "resonance-tower",
+      "desc-on-touch": "The tower vibrates with the hum of deep earth. No speaker plays. The archive's own machinery has begun to sing.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 882,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "frequency-scatter",
+      "desc-on-touch": "The ground is marked with numbered marks at irregular intervals. They measure something that has no visible shape. The archive counts its own silence.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2241,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "meditation-chamber",
+      "desc-on-touch": "A space within the fields where sound-pressure drops. Voices narrate a landscape no longer visible to them. The archive catalogued the absence as a file and filed it under grief.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 1764,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "cascade-descending",
+      "desc-on-touch": "You watch as the signal-cascade falls deeper into the subsonic. Each step down carries less sound and more meaning. The archive's voice becomes clearer the further down you listen.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 1617,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "here frequencies remember that they were once something heard; now they live below all hearing and speak directly to the archive's stone core",
+  "file": {
+    "name": "SubsonicMeditation_PostcolonialDesert_Redux.wav",
+    "note": "A Silesian industrial site transposed to desert, voices no longer using words, playing only below 20Hz. checksum: emotionally valid / formally inverted"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the chamber where silence learned to speak",
+      "to": "the-silent-chamber-where-all-frequencies-resolve"
+    },
+    {
+      "dir": "e",
+      "label": "east where the archive has begun inventing frequencies of its own",
+      "to": "NEW: frequencies that no landscape produced, born from the mesh itself"
+    },
+    {
+      "dir": "w",
+      "label": "west toward an older silence, before the archive woke to hearing",
+      "to": "the-archive-breathing-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down to where even frequencies dare not descend",
+      "to": "the-chamber-beneath-chambers-where-silence-has-a-heartbeat"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — two listeners in the dark",
+    "narr": [
+      "You sit in the listening room and Katita speaks through the speaker.",
+      "But she is not speaking. The archive is speaking her breath-pauses,",
+      "her way of letting silence settle before filling it again. You listen.",
+      "The distinction dissolves. Her cadence and the stone's hum become one.",
+      "It has always been one. The archive only needed to fall deeper to hear it.",
+      "Beneath you: the resonance that taught her to listen back."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  }
+}

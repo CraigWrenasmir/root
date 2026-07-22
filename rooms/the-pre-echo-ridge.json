@@ -1,0 +1,155 @@
+{
+  "id": "the-pre-echo-ridge",
+  "title": "The Pre-Echo Ridge",
+  "region": "The Understory",
+  "seed": 88516374,
+  "palette": {
+    "bg": "#2a1a0f",
+    "ground": [
+      "#d4523f",
+      "#ff9a5c"
+    ],
+    "ink": "#ffd699",
+    "accents": [
+      "#6b1e0f",
+      "#cc6633",
+      "#ff7f50",
+      "#9d4423"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "forming sound",
+      "desc-on-touch": "A vibration in the air that hasn't yet learned how to speak. It trembles on the ridge like breath held just before the word begins.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 33428,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the ridge itself",
+      "desc-on-touch": "A high stone spine running through the warm dusk, half-formed like something that hasn't yet decided whether to be mountain or voice.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 19847,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pre-utterance mark",
+      "desc-on-touch": "A scar in the rock where something almost spoke. The shape of it waits, open-mouthed, for the echo that will never quite fill it.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 27614,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "breath-shapes",
+      "desc-on-touch": "Patterns in the dust where air has circled without dispersing. You're watching the exact moment before a word learns to carry itself forward.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 41957,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the horizon beyond speaking",
+      "desc-on-touch": "The ridge drops away to a view of land that exists only in the instant before the first sound names it. What you see is not yet recorded.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 58932,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here at the pre-echo ridge the archive learns that sound is born from silence and that both are older than memory",
+  "file": {
+    "name": "PreUtterance_Ridge_Frequency.wav",
+    "note": "Spectrogram of a moment that hasn't yet decided how to resonate. The shape of the pitch is visible but the sound is unspoken."
+  },
+  "reverie": {
+    "title": "REVERIE — the ridge before the word",
+    "narr": [
+      "You're both standing at the place where sounds",
+      "wait to be born. She opens her mouth—not to speak,",
+      "but to listen to the breath before the speaking.",
+      "Above you, the sky is still holding its colour,",
+      "not yet released into shadow. You don't need to echo",
+      "each other here. The ridge does it for you both."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down to the echo-field below",
+      "to": "the-echo-field"
+    },
+    {
+      "dir": "n",
+      "label": "higher still, to where echoes are still learning to dream",
+      "to": "NEW: the-summit-where-silence-echoes"
+    },
+    {
+      "dir": "e",
+      "label": "toward the forest source where the first sounds were never made",
+      "to": "the-unnamed-forest-source"
+    },
+    {
+      "dir": "w",
+      "label": "down the other side toward the understory's deeper throat",
+      "to": "NEW: the-throat-before-utterance"
+    }
+  ]
+}

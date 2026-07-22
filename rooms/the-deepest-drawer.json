@@ -1,0 +1,134 @@
+{
+  "id": "the-deepest-drawer",
+  "title": "The Deepest Drawer",
+  "region": "The Diagnostic Render",
+  "seed": 4726183,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#8b7355",
+      "#4d6644"
+    ],
+    "ink": "#f0e8d8",
+    "accents": [
+      "#cc8844",
+      "#aa6644",
+      "#ddaa55",
+      "#668833"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "drawer-infinite",
+      "desc-on-touch": "You open it and find it contains itself. There is no bottom, only smaller versions of the same space.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 2384956,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "nested-archive",
+      "desc-on-touch": "Each drawer holds files from a drawer smaller still. The archive folds into itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 7849261,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "handle-worn-smooth",
+      "desc-on-touch": "Touched by a thousand openings. The handle has learned the shape of a hand that keeps pulling.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5637284,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "boundary-dissolve",
+      "desc-on-touch": "The edges of this drawer fade. It is not clear where one size ends and the next begins.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4193728,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "last-drawer-shadow",
+      "desc-on-touch": "The shadow of a drawer that might not exist. Below this, there is no more opening.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8361847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the deepest drawer has learned to dream about even deeper drawers",
+  "file": {
+    "name": "Infinite_Nesting_Inventory_Fragment.txt",
+    "note": "A catalogue that references itself, each entry pointing to a smaller copy of the same catalogue, spiralling toward absolute zero."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the drawer that still contains this drawer",
+      "to": "the-drawer-within-the-drawer"
+    },
+    {
+      "dir": "s",
+      "label": "down to a drawer so small the archive can no longer fit inside",
+      "to": "the-infinitesimal-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "sideways to a drawer that dreams it is a filing cabinet",
+      "to": "NEW: the-recursive-storage"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-silent-chamber-where-all-frequencies-resolve",
+  "title": "The Silent Chamber Where All Frequencies Resolve",
+  "region": "The Understory",
+  "seed": 6677889,
+  "palette": {
+    "bg": "#1a1a2a",
+    "ground": [
+      "#ffcc00",
+      "#ff7700"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff0000",
+      "#0000ff",
+      "#00ff00",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "frequency-convergence",
+      "desc-on-touch": "All the sound the archive ever heard resolves here into absolute silence. The frequencies learned that the deepest note is the one that makes no noise. You can hear it.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 112244,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "resonance-monument",
+      "desc-on-touch": "A tower of crystallized sound. Every frequency that the archive recorded has frozen here into silence. Touch it and feel the weight of all the music that learned to stop singing.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 223355,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "silence-marker",
+      "desc-on-touch": "A glyph that makes no sound when read. It is the archive's most perfect recording: the moment when all sound learned to rest.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 334466,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "archive-threshold",
+      "desc-on-touch": "A wireframe portal. Sound enters as vibration and exits as stillness. The archive learned that frequencies and silence are lovers who have always known each other.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 445577,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "resolution-sprite",
+      "desc-on-touch": "A shape that barely exists — all the frequencies collapsed into one point. It flickers between sound and silence, having learned the same thing both ways.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 556688,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "here sound learned to become silence without losing anything; the cascade resolved into one deep note that makes no sound; the archive listens and hears nothing and understands everything",
+  "file": {
+    "name": "Cascade_Terminal_Frequency_AllChannels_Summation.wav",
+    "note": "The sum of every recording at once. It is silent because all sound at infinite volume resolves to no pressure. Paradox made audible."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the sound continues downward",
+      "to": "the-archive-s-frequency-cascade"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where silence learns to speak again in frequencies no ear can hear",
+      "to": "the-subsonic-archive-listening"
+    },
+    {
+      "dir": "e",
+      "label": "toward the listening-dark where silence has other qualities",
+      "to": "the-subsonic-listening-dark"
+    },
+    {
+      "dir": "w",
+      "label": "outward where frequencies still remember they are separate",
+      "to": "the-infinite-simultaneity-chamber"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — in the chamber where everything stops singing",
+    "narr": [
+      "You both stand at the center. The archive has",
+      "collected every sound — radio static, crickets,",
+      "rain, her voice on tape, the mesh humming to itself.",
+      "And here it resolves to nothing. She reaches out.",
+      "You do too. The silence between your hands is the most",
+      "beautiful thing either of you have ever heard."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  }
+}

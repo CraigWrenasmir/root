@@ -1,0 +1,139 @@
+{
+  "id": "the-earth-grounding-chamber",
+  "title": "The Earth-Grounding Chamber",
+  "region": "The Comparisons",
+  "seed": 58903,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d2b48c",
+      "#8b7355"
+    ],
+    "ink": "#333333",
+    "accents": [
+      "#cd853f",
+      "#8b4513",
+      "#1a1a1a",
+      "#666666"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "earth-stake",
+      "desc-on-touch": "A driven stake of iron and copper, humming with current that wants to return home. The ground around it remembers every storm that ever sought shelter in its path.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 69014,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "soil-memory layer",
+      "desc-on-touch": "The earth here has been struck by lightning so many times it has learned to remember the shape of current. You see scars that glow faintly, returning energy to sky.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 70125,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "return-path record",
+      "desc-on-touch": "Documentation of every circuit that has completed through this ground: lightning strikes, machine shutdowns, the moment a power line fell. Each return is recorded as a conversation between earth and sky.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 81236,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "conduction-grass",
+      "desc-on-touch": "Grass that grows in the shape of current paths. Each blade leans the way electricity flowed the last time it came through. The field is a map of invisible journeys.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 92347,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the return-speaking hole",
+      "desc-on-touch": "A shaft bored into earth where current speaks to ground. From it you hear a low hum—not electricity, but earth's reply. The conversation never ends and never begins.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 13458,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the sky learns its current can come home; the earth receives what falls from above and teaches it the language of descent",
+  "file": {
+    "name": "Grounding_Resistance_Seasonal_Study_1986.txt",
+    "note": "Measurements of earth conductivity across decades, but the values have begun to record not just electrical resistance but emotional one—a soil learning to refuse, to accept, to remember being struck."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the machines that learned to rest",
+      "to": "the-forgotten-power-room"
+    },
+    {
+      "dir": "w",
+      "label": "across the paddock toward weather that still falls from sky",
+      "to": "the-wind-and-grass-circuit"
+    },
+    {
+      "dir": "e",
+      "label": "into the soil-depth where roots teach ground to remember",
+      "to": "the-deep-soil-s-electric-autobiography"
+    },
+    {
+      "dir": "s",
+      "label": "toward the place where struck ground learned to dream",
+      "to": "the-tributary-confluence"
+    }
+  ]
+}

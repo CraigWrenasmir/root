@@ -1,0 +1,117 @@
+{
+  "id": "the-unified-current-deep",
+  "title": "The Unified Current Deep",
+  "region": "The Understory",
+  "seed": 62015,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#164b35",
+      "#2a5434"
+    ],
+    "ink": "#7dd3fc",
+    "accents": [
+      "#7dd3fc",
+      "#bfdbfe",
+      "#60a5fa",
+      "#3b82f6"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the convergence shed",
+      "desc-on-touch": "A small wooden structure half-submerged in the current where three tributary channels merge into one. Tools for measuring water and marking levels hang on its walls. The shed's door faces downstream, as if it has accepted that it will eventually float away with the unified current.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 34891,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the confluence marker",
+      "desc-on-touch": "Three stones stand in the water where the tributaries meet, each carved with a different mark—the memory each stream brought with it before they learned to speak as one. The current slowly rounds their edges.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 19743,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the deepening pool",
+      "desc-on-touch": "Where the three currents meet, the water does not simply flow on—it spirals deeper, as if the unified current has learned something from the joining and must descend to think about it. The pool is perfectly circular, and nothing you drop into it ever resurfaces.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 45267,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the record-keeper's shed",
+      "desc-on-touch": "A second structure, newer, holds journals documenting the memory each tributary carried before convergence. The unified current has not erased these memories—it has simply changed their audience from singular to plural.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 58126,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "the tributaries remember themselves only here, in this moment before they become the larger current",
+  "file": {
+    "name": "Three_Rivers_Convergence_Field_Study_2004.mp3",
+    "note": "A field recording of water sounds at the confluence point, processed to isolate each tributary's unique acoustic signature. The three channels were cleanly separated in the stereo field until the fina"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upstream to where the gathering still remembers its parts",
+      "to": "the-gathering-before-meeting"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into the deepening dark where current becomes current",
+      "to": "NEW: the-deep-current-listening-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "along the new-unified channel where memory flows as one",
+      "to": "the-confluence-where-disagreements-merge"
+    }
+  ]
+}

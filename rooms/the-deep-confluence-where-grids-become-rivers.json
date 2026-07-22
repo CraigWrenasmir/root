@@ -1,0 +1,156 @@
+{
+  "id": "the-deep-confluence-where-grids-become-rivers",
+  "title": "Where Coordinates Dissolve to Current",
+  "region": "The Clean Archive",
+  "seed": 73291,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#003d7a",
+      "#0066cc"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ff00",
+      "#ff00ff",
+      "#ffff00",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "coordinate-chip primary",
+      "desc-on-touch": "A chip that holds latitude and longitude, but each time you read it, the numbers have flowed slightly downstream. The chip drowns in its own precision.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 82340,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "tidal-trace circuitry",
+      "desc-on-touch": "The traces of the circuit board glow with tidal current. High tide lights up the northern path; low tide illuminates the south. The board navigates by moon-pull.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 93451,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "grid-dissolution pool",
+      "desc-on-touch": "Where the circuit-board traces meet seawater, geometry becomes liquid. You see a map here that rewrites itself to match the tide, coordinates flowing like current.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 14562,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "signal-node secondary",
+      "desc-on-touch": "A tower, smaller, that translates between grid-language and water-language. It has begun to dream in both, unable to choose.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 25673,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "confluence-recording",
+      "desc-on-touch": "A moment captured when the grid was still readable, before current learned to edit. The recording plays in both directions at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 36784,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "tide-memory glyph",
+      "desc-on-touch": "A marking that shows every tide this location has ever experienced, written in parallel lines that all flow the same direction yet all contradict each other.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 47895,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the coordinates and the current became lovers; they read each other's movements; now neither one knows where it ends and the other begins",
+  "file": {
+    "name": "Tidal_Survey_Board_Archive_Synchronized.bin",
+    "note": "A circuit-board recording of tide measurements, but the data flows like water—bytes streaming in the direction of the moon, coordinates that have learned to follow current instead of fixing position."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to coordinates that still remember being abstract",
+      "to": "the-coastal-convergence-point"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the tidal channels where rivers become arithmetic",
+      "to": "NEW: the estuary where numbers learn to flow"
+    },
+    {
+      "dir": "s",
+      "label": "toward the open ocean where all grids dissolve completely",
+      "to": "the-seventh-river-circuit"
+    },
+    {
+      "dir": "e",
+      "label": "into the shallows where you can still see the board beneath the water",
+      "to": "the-river-shallows"
+    }
+  ]
+}

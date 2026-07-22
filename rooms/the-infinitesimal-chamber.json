@@ -1,0 +1,155 @@
+{
+  "id": "the-infinitesimal-chamber",
+  "title": "The Infinitesimal Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 4423876,
+  "palette": {
+    "bg": "#3a2a1a",
+    "ground": [
+      "#8b6f47",
+      "#a0805a"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#dd6644",
+      "#66ddaa",
+      "#dd99ff",
+      "#ffdd66"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "nested-drawers",
+      "desc-on-touch": "A drawer so small you can only fit your hand inside. Inside that drawer is another drawer, smaller still. Each holds something precious that should not be preserved. The archive chose to preserve them anyway.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 2401,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "cordel-spiral",
+      "desc-on-touch": "A Portuguese verse structure spirals inward. The surgery repeats. The beach transforms into mall corridors. The eternal return circles back to its own beginning. The archive filed it under Local History.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1521,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "mall-memory",
+      "desc-on-touch": "A space inside the chamber that remembers an abandoned shopping mall. Fluorescent tubes hang from cables. Storefronts open like mouths. Water pools where there should be tile. The archive sheltered here once, and left no record.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 1764,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "shop-front-house",
+      "desc-on-touch": "A miniature storefront so small it can only sell to other miniature things. The archive learned that some memories are so fragile they can only be kept at a scale where they cannot be damaged by careless reading.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 1089,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.1,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "threshold-arch",
+      "desc-on-touch": "The doorway is so small it only permits entry if you become infinitesimal yourself. The archive guards it by making it impassable. What it holds is not meant for large hands.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 1156,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive discovered a chamber so small it could only hold one person's memory; it chose to make it even smaller, so the memory would never fade from intimacy into public record",
+  "file": {
+    "name": "CordialVerse_ShoppingMall_EternalSurgery_Reconstruction.txt",
+    "note": "A cordel poem about eternal surgery transposed to abandoned mall corridors. Surgeries on a beach. Surgeries in fluorescent light. All the same surgery, all happening at once. The archive filed it twic"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the deeper drawer that still has room",
+      "to": "the-deepest-drawer"
+    },
+    {
+      "dir": "s",
+      "label": "down to chambers even the archive cannot reach",
+      "to": "NEW: the drawer beneath all drawers, where memory becomes immeasurable"
+    },
+    {
+      "dir": "e",
+      "label": "east toward other miniatures, other precious small things",
+      "to": "the-gallery-of-objects-too-fragile-to-be-named"
+    },
+    {
+      "dir": "w",
+      "label": "west to rooms that were once the full size of a human's grief",
+      "to": "the-house-where-they-sorted-what-they-brought-back"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — sorting in the mall before closing",
+    "narr": [
+      "You sit with Katita in the food court. It is 3 a.m.",
+      "The mall is breathing dust. Doors hang open like sleeping mouths.",
+      "She pulls out something small from her pocket—a key, a shell, a",
+      "photograph of a place that does not exist in this region.",
+      "'Where did this come from?' you ask. She cannot remember.",
+      "You decide it is precious precisely because it is impossible."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

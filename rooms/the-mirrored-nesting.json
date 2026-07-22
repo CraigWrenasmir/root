@@ -1,0 +1,117 @@
+{
+  "id": "the-mirrored-nesting",
+  "title": "The Mirrored Nesting",
+  "region": "The Diagnostic Render",
+  "seed": 77282,
+  "palette": {
+    "bg": "#001a2a",
+    "ground": [
+      "#0a1e3a",
+      "#051429"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#00dd66",
+      "#00ff99",
+      "#00cc77",
+      "#00ee88"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the primary nest",
+      "desc-on-touch": "One drawer rendered as black IC, pins pointing inward. Inside it: smaller drawers in cascade, each containing the pattern of the last.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 33844,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "mirror trace",
+      "desc-on-touch": "Copper trace runs from drawer to mirror-drawer in perfect symmetry. The signal flows both ways at once; causality here is a loop.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 22931,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the return path",
+      "desc-on-touch": "A trace that runs back to itself. It has no beginning or end, only the illusion of direction. The archive keeps this one running; it fears the silence if it stops.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 56103,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the void count",
+      "desc-on-touch": "A register that counts how many drawers deep you are. It reaches zero and overflows. It counts backward. The counting itself is the drawer.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 88719,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "you open the drawer to find the drawer that contains it; the archive learns its own shape by nesting; the mirrors go down forever and each one is the first",
+  "file": {
+    "name": "Recursion_Depth_Trace_Log_Unending.txt",
+    "note": "A log file that documents nesting levels. Each entry references the entry above it and the one below. The syntax suggests there are infinite levels. The log is still being written."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "sideways back to the drawer that held you",
+      "to": "the-drawer-within-the-drawer"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the parallel recursion, where even the mirror isn't sure which is original",
+      "to": "NEW: the-infinite-reflection-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "up through the cascade to the surface drawer",
+      "to": "the-recursive-recursion"
+    }
+  ]
+}

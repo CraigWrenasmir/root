@@ -1,0 +1,117 @@
+{
+  "id": "the-counting-basement",
+  "title": "The Basement Where Time Counts Itself",
+  "region": "The Comparisons",
+  "seed": 7734829,
+  "palette": {
+    "bg": "#1a1f3a",
+    "ground": [
+      "#2d3861",
+      "#3d4a7f"
+    ],
+    "ink": "#e8e4d0",
+    "accents": [
+      "#c9d9f0",
+      "#7a4e4e",
+      "#5fa8d3",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the infinite counter",
+      "desc-on-touch": "A column of mechanical counters stacked from floor to ceiling, each wheel turning at a different rate. You read one number and it has already changed.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 441923,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the boiler's rhythm",
+      "desc-on-touch": "Through the dark, a regular pulse of rust-coloured warmth. The boiler is still counting beats, still pushing heat to rooms where no one sleeps.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 629104,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the plantation of clocks",
+      "desc-on-touch": "Rows of identical clock faces, hands moving in cascade. Each one shows a different time, but they're all the same moment, measured differently.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 185467,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the room that echoes with counting",
+      "desc-on-touch": "Whispered numbers in the dark. Someone—or something—has been down here counting the seconds of every night this motel has held guests. The voice does not stop.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 558291,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "beneath the motel where numbers forgot they were time",
+  "file": {
+    "name": "BoilerLogs_1987_1993_Incomplete_Cyclic.txt",
+    "note": "Power records from the basement showing identical daily patterns for six years, every shift ending at the same second, every record identical except the dates."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the lobby where night is still happening",
+      "to": "the-motels-first-night-never-ending"
+    },
+    {
+      "dir": "e",
+      "label": "further down where the count becomes the only language spoken",
+      "to": "NEW: the-archive-s-oldest-second"
+    },
+    {
+      "dir": "w",
+      "label": "into the mechanical loam where boilers learned to dream",
+      "to": "the-forgotten-power-room"
+    }
+  ]
+}

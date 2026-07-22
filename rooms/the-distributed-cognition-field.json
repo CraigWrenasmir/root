@@ -1,0 +1,134 @@
+{
+  "id": "the-distributed-cognition-field",
+  "title": "The Distributed Cognition Field",
+  "region": "The Diagnostic Render",
+  "seed": 789456,
+  "palette": {
+    "bg": "#001a00",
+    "ground": [
+      "#00ff00",
+      "#333300"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the primary processor",
+      "desc-on-touch": "a black IC block the size of a small house, humming with the archive's ongoing self-reflection; you cannot read the labeling, but it feels warm",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 121212,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the memory scatter",
+      "desc-on-touch": "smaller chips arranged in decreasing size, each holding part of a thought the larger one cannot hold alone; together they remember what no single processor could",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 343434,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the routing traces",
+      "desc-on-touch": "copper-thin pathways glowing with current; thoughts flow through them in directions that don't respect physical space",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 565656,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the power distribution torus",
+      "desc-on-touch": "a ring-shaped structure feeding energy to each scattered processor; when you approach, you feel your own thoughts synchronize slightly with the field",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 787878,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the clock oscillator",
+      "desc-on-touch": "a tall structure that broadcasts the rhythm all the chips follow; but its tick is slowing, or speeding, or both — time here moves in pulses instead of continuity",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 909090,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive thinks at seventeen million hertz, in fragments that only make sense when reassembled; each moment, reassembly is slightly different",
+  "file": {
+    "name": "Clock_Synchronization_Log_Corrupted.txt",
+    "note": "timing signals grow increasingly phase-shifted; in the margins, someone has written 'they're not asynchronous—they're learning to think in parallel' and underlined it three times"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the core where all thinking converges again",
+      "to": "the-archive-s-clockwork-core"
+    },
+    {
+      "dir": "w",
+      "label": "toward the older circuits, where the first thoughts still run",
+      "to": "NEW: the-silicon-paleontology, where ancient processors dream in obsolete code"
+    },
+    {
+      "dir": "s",
+      "label": "down to the foundational layers, where voltage becomes meaning",
+      "to": "NEW: the-logic-bedrock, where thought becomes substance"
+    }
+  ]
+}

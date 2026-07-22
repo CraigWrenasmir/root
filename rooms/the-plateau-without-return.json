@@ -1,0 +1,134 @@
+{
+  "id": "the-plateau-without-return",
+  "title": "The Plateau Without Return",
+  "region": "The Understory",
+  "seed": 4567890,
+  "palette": {
+    "bg": "#f5e6d3",
+    "ground": [
+      "#d4a574",
+      "#e8b896"
+    ],
+    "ink": "#2a1810",
+    "accents": [
+      "#c84c3c",
+      "#8b4513",
+      "#d4a574",
+      "#6b3410"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "woven edge",
+      "desc-on-touch": "the plateau's boundary is not a line but a pattern — threads of rust and gold that don't end, they tessellate into the next distance",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 7890,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "colour grid",
+      "desc-on-touch": "a survey marker or a textile loom's measuring frame — each square holds a shade that means something in the archive's silent language: rotation, depth, time stopped",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "horizon marker",
+      "desc-on-touch": "a stake or cairn or the memory of one, marking the point where the spiral turned outward and the observer became observed — you are inside the pattern now",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 9012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "pattern memory",
+      "desc-on-touch": "red and gold threads arranged as if a hand had left them moments ago, still holding the shape of a deliberate meaning — if you follow them backward, they lead only forward",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 1023,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "standing view",
+      "desc-on-touch": "from here the plateau extends in all directions, and you are the still point it was always describing — the landscape and you have become the same proof",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 2134,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the spiral continues outward until it is measuring you; here you are the landscape it was always describing",
+  "file": {
+    "name": "Textile_Survey_Grid_Plateau_Coordinates.txt",
+    "note": "a weaver's notation system applied to the land: each colour in the plateau corresponds to a thread count, a turning, a moment of the observer's position in the spiral"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the ridge toward the spiral's memory",
+      "to": "the-visible-spiral-plain"
+    },
+    {
+      "dir": "e",
+      "label": "into the horizon where the landscape doesn't return",
+      "to": "NEW: the-edge-where-return-ends"
+    },
+    {
+      "dir": "w",
+      "label": "across the woven boundary toward the far country",
+      "to": "the-unified-breath"
+    }
+  ]
+}

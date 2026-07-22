@@ -153,10 +153,13 @@ SCHEMA = """Each node is ONE JSON object with EXACTLY these fields:
  ]
 }
 
-RARELY (roughly one node in five, ONLY when the node holds something private
-or intimate — a letter, a photograph, a personal recording), the node may also
-carry a REVERIE: a side-on memory of Leif and Katita that surfaces when the
-reader queries the private thing. Add TWO things:
+OFTEN — aim for roughly one node in THREE — wherever the node holds anything
+private, intimate, remembered, or lived-in (a letter, a photograph, a personal
+recording, a bed, a kept object, a place that feels haunted by two people),
+give the node a REVERIE: a side-on memory of Leif and Katita that surfaces when
+the reader queries the private thing. These memory scenes are the warm heart of
+the archive — thread them generously through the mesh (but not into every single
+node). Add TWO things:
  - set that one feature's "verb" to "reverie" (instead of a normal verb);
  - add a top-level "reverie" object COMPOSED from these axes (mix them freshly —
    no two memories should look alike):
@@ -173,8 +176,9 @@ reader queries the private thing. Add TWO things:
    the outback install → land:redearth, structure:tree; a rooftop night →
    land:suburb, sky:night, structure:none; a motel → land:interior,
    structure:motel, pose:sit; a walk home → land:road, pose:walk. Invent
-   new combinations freely — that is how the memory-world grows. Most nodes
-   have NO reverie — keep them rare.
+   new combinations freely — that is how the memory-world grows. Reach for a
+   reverie whenever a node could plausibly hold a memory; leave it out only
+   for the coldest, most purely-diagnostic nodes.
 
 FORM GUIDE: "burl" renders a eucalyptus trunk with a burled knot, casing
 LED and antenna — use for living node hardware. "wireframe" renders a

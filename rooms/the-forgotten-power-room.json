@@ -89,7 +89,7 @@
     {
       "dir": "e",
       "label": "toward the pre-rebuild era's other electrical traces",
-      "to": "NEW: the circuit-memory where older rooms' power-draws still echo"
+      "to": "the-echoing-power-trace"
     },
     {
       "dir": "n",
@@ -99,7 +99,7 @@
     {
       "dir": "s",
       "label": "down to the earth-return, where power learns what ground remembers",
-      "to": "NEW: the earth-grounding-chamber where current returns to source"
+      "to": "the-earth-grounding-chamber"
     }
   ]
 }

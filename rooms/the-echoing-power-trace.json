@@ -1,0 +1,117 @@
+{
+  "id": "the-echoing-power-trace",
+  "title": "Where Power Remembers Its Shifts",
+  "region": "The Comparisons",
+  "seed": 8462719,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#ffd60a",
+      "#ffc300",
+      "#ffb703",
+      "#fb5607"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "power-chip",
+      "desc-on-touch": "A massive black IC, pins down, at the board's heart. The pins hum at subsonic pitch—the rhythm of shift-work, the rota from 1981 onwards. Each pin carries one technician's route. The archive recorded their footsteps, but it hears them as current.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3719284,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "trace-memory",
+      "desc-on-touch": "Gold traces run the board's length, each one a circuit completed by hand-soldering: 1952, 1967, 1978, 1993, 2001. The dates are burned into the copper. If you follow one with your fingertip, you can feel the worker who made it—the hesitation, the skill, the weariness at hour four.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5842017,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "phantom-load",
+      "desc-on-touch": "A capacitor the size of a thermos, still holding charge it received in 1989. The circuit around it has been dead for seventeen years. It will never discharge. It holds the memory of being needed.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "shift-notation",
+      "desc-on-touch": "Pencil marks in the margin of the schematic—worker names, times, voltage readings, one person's complaint: hums too loud. Another reply, underlined: it's supposed to. The notation is not power data. It is a conversation frozen in margins.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 7165492,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the machines shut down but they never forgot their shifts",
+  "file": {
+    "name": "Shift_Roster_PowerRoom_1981-2006.csv",
+    "note": "Technician names, hours logged; appears to correlate exactly with building's power draw curve; correlation suggests workers are data, data is workers"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the forgotten room where the last shift ended",
+      "to": "the-forgotten-power-room"
+    },
+    {
+      "dir": "n",
+      "label": "toward the buried substations where all the town's power remembers itself",
+      "to": "the-bedrock-plumbing"
+    },
+    {
+      "dir": "s",
+      "label": "into deeper strata where machines still dream of being needed",
+      "to": "NEW: the-phantom-electrical-garden"
+    }
+  ]
+}

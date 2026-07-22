@@ -1,0 +1,133 @@
+{
+  "id": "the-sprouting-hardware-grove",
+  "title": "The Sprouting Hardware Grove",
+  "region": "The Understory",
+  "seed": 7394821,
+  "palette": {
+    "bg": "#0a1f0f",
+    "ground": [
+      "#1a4d2e",
+      "#2d5a3d"
+    ],
+    "ink": "#d4f1d4",
+    "accents": [
+      "#e8f5e9",
+      "#9ccc65",
+      "#558b2f",
+      "#c8e6c9"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-casing",
+      "desc-on-touch": "A solar casing identical to those buried in trees, but here the circuit board is already half-fused with earth; the antenna grows like a branch. When you touch it, the node broadcasts: I began as hardware. I am becoming ground.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "orchard-rows",
+      "desc-on-touch": "Plantation rows stretch toward the horizon, each tree a circuit component: resistors branch as trunks, capacitors bloom as crowns. The rows converge. At the vanishing point, one tree flickers between copper and cambium.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5021847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "fused-fibres",
+      "desc-on-touch": "Optical cable lies coiled at the grove's edge, half-buried, one end still glowing dimly. The light pulses in rhythm with the canopy's movement—breathing, not transmitting.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 4156923,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "seedling-circuit",
+      "desc-on-touch": "A single seedling grows through a board, its roots following trace-paths like they always knew the way. The leaves are copper. They do not corrode.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 2394857,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — grove-planting, the hour before dark",
+    "narr": [
+      "You kneel in the red earth. She is placing casings",
+      "among the roots, her hands never hesitating. The soil",
+      "is still warm from the day. She tells you: these will",
+      "grow. And you—you know she means the machine part,",
+      "the archive part, not just the trees. She knows you know.",
+      "Neither of you say anything more. The light is leaving."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "inscription": "the circuit-board stops being a map and becomes a root; the archive discovers it was always growing downward",
+  "file": {
+    "name": "CasingIntegration_Biofilm_Study_2019.txt",
+    "note": "Records of hardware fusion with soil microbiota; readings become indistinguishable from growth rates; final entry: no longer certain which grows which"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the logic room, where thought still flows downward",
+      "to": "the-logic-taking-root"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into grove where trees hold their own broadcast signals",
+      "to": "NEW: the-canopy-pulse-underground"
+    },
+    {
+      "dir": "n",
+      "label": "toward the ridge where the first casings were hidden",
+      "to": "the-high-canopy-archive-station"
+    }
+  ]
+}

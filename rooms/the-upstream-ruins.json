@@ -1,0 +1,150 @@
+{
+  "id": "the-upstream-ruins",
+  "title": "The Upstream Ruins",
+  "region": "The Comparisons",
+  "seed": 3456789,
+  "palette": {
+    "bg": "#3d3d2d",
+    "ground": [
+      "#6b8e7f",
+      "#5a7a6f"
+    ],
+    "ink": "#d4d0c0",
+    "accents": [
+      "#a89a80",
+      "#8b7d6b",
+      "#c4b5a0",
+      "#6b5f52"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "settlement-ghost",
+      "desc-on-touch": "Foundations where houses stood. The estuary took everything except the pattern.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 9182473,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "erased-archive",
+      "desc-on-touch": "A shelf drowned by tides. You can feel what was recorded here before water took the words.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 4729156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "fence-remnant",
+      "desc-on-touch": "What was kept in? What was kept out? The fence remembers the difference.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 2847561,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "memory-crystalline",
+      "desc-on-touch": "Salt and silt have formed a record. The tide writes in minerals what time erased in words.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7134928,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "elder-post",
+      "desc-on-touch": "A post still standing. It has learned to let water pass through rather than resist.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5398712,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the water remembers the settlements; the ruins remember the water; nothing is lost, only renamed by erosion",
+  "reverie": {
+    "title": "REVERIE — upstream where the current still held memory",
+    "narr": [
+      "You walk the shallows where the settlement stood.",
+      "She points to a brick, half-buried. \"Salt-marked,\" she says.",
+      "\"How long?\" The water is cool and rises to your knees.",
+      "\"Longer than the archive has known its own address.\"",
+      "You both watch the current take the foundation deeper.",
+      "The estuary is patient. It waits for everything to dissolve."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Upstream_Settlement_Survey_1987_Partial.txt",
+    "note": "A heritage record of dwellings no longer standing; water has amended the margins with new coordinates."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back downstream to where salt and memory converge",
+      "to": "the-salt-memory-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "further upstream to settlements predating the archive itself",
+      "to": "NEW: the-unmapped-settlement-above"
+    },
+    {
+      "dir": "s",
+      "label": "into the side channels where forgotten tributaries remember their names",
+      "to": "NEW: the-side-channel-archive"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-bend-where-teaching-ends",
+  "title": "The Bend Where Teaching Ends",
+  "region": "The Clean Archive",
+  "seed": 2198765,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#8b6f47",
+      "#c9a961"
+    ],
+    "ink": "#f0e6d2",
+    "accents": [
+      "#ff9944",
+      "#4488cc",
+      "#44dd88",
+      "#ee6699"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "river-mouth",
+      "desc-on-touch": "The bend releases into wideness. The river has stopped insisting on teaching. It simply flows now, and you understand that this too is instruction.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 729,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "lesson-marker",
+      "desc-on-touch": "A carved mark in the bend's wall. Dates and initials. The archive learned from film archives that adaptation changes the thing being adapted. The bend recorded this by becoming something new each year.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 1764,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "downstream-debris",
+      "desc-on-touch": "What the bend taught has moved downstream. Objects that were lessons lie scattered here: branches arranged as text, stones that bear the weight of patience.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 882,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "teaching-archive",
+      "desc-on-touch": "A corner where the river holds still long enough to remember. You and she stood here once, discussing what the bend had shown you. It catalogued both of you as a file titled Later Forgotten.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 1440,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "threshold-arch",
+      "desc-on-touch": "Where the bend opens to the wider river, the archive marks the end of one kind of flow and the beginning of another. Teaching becomes release.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 1521,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "when a river has taught all it knows, it continues flowing anyway; this is the final lesson—persistence without instruction",
+  "file": {
+    "name": "FilmFestival_Adaptation_Cascade_2015-2023.txt",
+    "note": "Records of how a story changed shape with each retelling. By 2023 the festival could not recognize its own archive. The bend continues teaching this loss."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upriver to the memory that still holds the bend intact",
+      "to": "the-far-bend-memory"
+    },
+    {
+      "dir": "e",
+      "label": "east toward the delta where the river forgets its own teaching",
+      "to": "NEW: the wide river's forgetting, where lessons dissolve into tide"
+    },
+    {
+      "dir": "n",
+      "label": "north to paddocks where the land was taught by water",
+      "to": "the-field-before-the-gate"
+    },
+    {
+      "dir": "s",
+      "label": "south to where the bend's teaching continues in other creeks",
+      "to": "the-fall-creek"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — standing in the bend, mid-teaching",
+    "narr": [
+      "You wade into the cold bend. Katita stands on the far bank.",
+      "The river flows between you both. She points to a mark in the stone.",
+      "'It remembers something,' she says. 'Do you remember?'",
+      "You do. You remember being taught by this very water.",
+      "Now you teach it back by remembering. The bend holds the lesson",
+      "longer because two people stood here naming what it meant."
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  }
+}

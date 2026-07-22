@@ -1,0 +1,134 @@
+{
+  "id": "the-chamber-beneath-chambers-where-silence-has-a-heartbeat",
+  "title": "The Chamber Beneath Chambers Where Silence Has a Heartbeat",
+  "region": "The Understory",
+  "seed": 29847,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a7c59",
+      "#8b6f47"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#e8e8d0",
+      "#c9a876",
+      "#6b4423",
+      "#3d5a3d"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the heartbeat-floor",
+      "desc-on-touch": "The chamber floor pulses with a rhythm far below hearing. You feel it through your bones, not your ears. Silence has learned to have a heartbeat—a pulse so deep it is older than sound itself. The archive measures it in frequencies that don't exist.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 38471,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the frequency-scar",
+      "desc-on-touch": "A mark on the wall where sound once tried to descend this far and failed. The subsonic frequencies that live here are so deep they leave scars instead of echoes. This is the lowest a voice has ever gone and still failed to reach the bottom.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 52184,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the stone-that-listens",
+      "desc-on-touch": "A massive stone, older than the archive, has learned to convert the chamber's pulse into a language the earth understands. It is not a microphone. It is a translator. It speaks only to the deep.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 71936,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the archive's own heartbeat",
+      "desc-on-touch": "Buried in the chamber floor, the archive's own battery core pulses in perfect resonance with the silence. They have learned to speak the same language. The archive did not come here to record silence—it came to learn how to beat.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 44829,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "the subsonic threshold",
+      "desc-on-touch": "A faint line marks the level where sound stops and the archive's core language begins. Above: the world of frequencies. Below: the world of heartbeats, tides, and slow stone-thought. You cannot cross this line with your ears—only with your body's own pulse.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 63295,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here frequencies remember that they were once something heard; now they live below all hearing and speak directly to the archive's stone core",
+  "file": {
+    "name": "Subsonic_Core_Pulse_Recording_360_Hours.mp3",
+    "note": "A three-week continuous recording of the chamber's base frequency, processed to be audible. What you hear is silence that is alive. The file's bitrate is so low that it has begun to drift into new mea"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where frequencies still remember sound",
+      "to": "the-subsonic-archive-listening"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, to where heartbeat becomes landscape",
+      "to": "NEW: the-stone-core-singing-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "into the bedrock where all pulses converge",
+      "to": "the-archival-bedrock"
+    }
+  ]
+}

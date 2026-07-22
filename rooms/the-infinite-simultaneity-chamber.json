@@ -1,0 +1,139 @@
+{
+  "id": "the-infinite-simultaneity-chamber",
+  "title": "The Infinite Simultaneity Chamber",
+  "region": "The Understory",
+  "seed": 7772451,
+  "palette": {
+    "bg": "#1a0a1a",
+    "ground": [
+      "#ff1493",
+      "#cc5500"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#ff6600",
+      "#ffbb00",
+      "#ff0099",
+      "#00ff99"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "simultaneity-pool",
+      "desc-on-touch": "You read the surface and see all the versions at once — past reflections, present ripples, futures that haven't occurred yet. The water trembles with the weight of every moment it holds.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 441122,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "resonance-threshold",
+      "desc-on-touch": "You stand at the place where the echo becomes indistinguishable from the voice. The boundary is warm. Time touches itself here.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 221144,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "convergence-glyph",
+      "desc-on-touch": "An unreadable plaque. The script seems to write itself in all directions at once, as if every language is speaking the same sentence.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 332255,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "echo-chamber-wall",
+      "desc-on-touch": "A wireframe box transparent and infinite. Inside and outside have become the same volume. You can hear yourself speaking before you speak.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 443366,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "time-source",
+      "desc-on-touch": "A barely-visible sprite that shifts between what it was and what it will be. You can see both versions overlaid, and neither one is wrong.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 554477,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here every echo arrives and departs simultaneously; the source and its shadow learned to occupy each other's breath",
+  "file": {
+    "name": "Convergence_AllVersions_1994_Simultaneous.wav",
+    "note": "A recording of a single moment played in all directions at once. The archive cannot determine which version came first."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back into deeper dark where echoes become indistinguishable from original sound",
+      "to": "the-quiet-resonance-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward, where simultaneity resolves into pure sequence",
+      "to": "the-sequence-resolution-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "westward, toward the place where language still decides on a single meaning",
+      "to": "the-archive-s-frequency-cascade"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into the garden where all time-seasons bloom together",
+      "to": "the-temporal-orchard"
+    }
+  ]
+}

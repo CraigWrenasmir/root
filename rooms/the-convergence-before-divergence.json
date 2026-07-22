@@ -140,12 +140,12 @@
     {
       "dir": "s",
       "label": "downstream where the split channels remember being one",
-      "to": "NEW: the-river-s-second-language"
+      "to": "the-river-s-second-language"
     },
     {
       "dir": "w",
       "label": "west to where tributary memory pools before joining",
-      "to": "NEW: the-gathering-before-meeting"
+      "to": "the-gathering-before-meeting"
     }
   ]
 }

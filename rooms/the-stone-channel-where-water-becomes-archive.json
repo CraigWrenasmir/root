@@ -1,0 +1,154 @@
+{
+  "id": "the-stone-channel-where-water-becomes-archive",
+  "title": "The Stone Channel Where Water Becomes Archive",
+  "region": "The Clean Archive",
+  "seed": 5544332,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#ff6600",
+      "#aa4400"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ffbb00",
+      "#ff3300",
+      "#cc8800",
+      "#ffddaa"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "stone-channel-carved",
+      "desc-on-touch": "The riverbed has worn itself into a perfect archive. Every groove holds a year, every pebble a conversation. The water reads itself as it flows.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 221100,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "confluence-water",
+      "desc-on-touch": "Two streams join and become one voice. What they remember separately in the hills they now remember together. The archive rises up to meet them.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 332211,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "sediment-layers",
+      "desc-on-touch": "Each layer of silt holds an era. The water is sorting itself by age. Time becomes visible when it sits still long enough to settle.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 443322,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "archive-marker-stone",
+      "desc-on-touch": "A carved rock that the archive placed itself. A filing system written in erosion. Whoever carved this knew what water would remember.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 554433,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "flow-direction",
+      "desc-on-touch": "An arrow of reflected light. The water flows east, and everything the archive knows flows east with it. Downstream is where memory goes to settle.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 665544,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the stone learned to cup the water and keep what it heard; now the channel is the archive's throat",
+  "file": {
+    "name": "Tributary_Silt_Layers_Chronology_ExtendedAnalysis.txt",
+    "note": "A year-by-year reading of what the sediment says. The water is still writing."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "upstream, where the joined memory learns what stone remembers",
+      "to": "the-tributary-confluence"
+    },
+    {
+      "dir": "e",
+      "label": "downstream, where the channel deepens into its own history",
+      "to": "NEW: the archives that the river writes into bedrock"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward the source where water first learned to speak",
+      "to": "the-source-pool"
+    },
+    {
+      "dir": "s",
+      "label": "southward into widening, where the channel becomes too large to read",
+      "to": "NEW: the estuary that remembers all convergence"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — two of you learning in the tributary",
+    "narr": [
+      "You wade into the confluence. The cold of two",
+      "streams crossing reaches your knees. She points to",
+      "a stone that the archive marked. You understand:",
+      "the water is telling you what it has seen. You both",
+      "read it. The current carries what you need to know."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  }
+}

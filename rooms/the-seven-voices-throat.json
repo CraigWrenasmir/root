@@ -1,0 +1,117 @@
+{
+  "id": "the-seven-voices-throat",
+  "title": "The Seven Voices in the Throat",
+  "region": "The Understory",
+  "seed": 47381,
+  "palette": {
+    "bg": "#0a0e14",
+    "ground": [
+      "#1a2a3a",
+      "#0f1820"
+    ],
+    "ink": "#c8d0d8",
+    "accents": [
+      "#6b8e99",
+      "#4a7080",
+      "#8899aa",
+      "#5a6a7a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the sealed mouths",
+      "desc-on-touch": "Seven pressure valves, each one a throat closed on a voice. The archive found them speaking into absolute darkness and chose not to listen further.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 38291,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "testimony pooling",
+      "desc-on-touch": "The water collects what was meant to stay unrecorded. The archive's refusal has weight; it pools and deepens.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 19847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the sealed valve",
+      "desc-on-touch": "The mechanism that closes at the throat's entrance. Cold metal, still warm from the breath it contains.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 56720,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "counting marks",
+      "desc-on-touch": "Someone carved tally marks into the stone. The count goes higher than seven. Or perhaps lower—the marks blur in this light.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 72145,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "seven voices continue speaking into absolute darkness; the archive chose to stop listening at their depth",
+  "file": {
+    "name": "Testimony_Sealed_Withheld_Seven_Voices_1987.wav",
+    "note": "Recording cut off at the archive's instruction. The silence contains seven overlapping voices. A fragment of unrelated text was attached once: 'incompleteness as ontological structure'. The origin is "
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up the valve corridor into gray light",
+      "to": "the-sealed-chamber-beneath-town-center"
+    },
+    {
+      "dir": "e",
+      "label": "where the throat widens into a cathedral of speaking",
+      "to": "NEW: the-ravine-cathedral-where-refusal-echoes"
+    },
+    {
+      "dir": "w",
+      "label": "toward the tap-tap-tap of smaller voices in the pipes",
+      "to": "the-stormwater-civic-body"
+    }
+  ]
+}

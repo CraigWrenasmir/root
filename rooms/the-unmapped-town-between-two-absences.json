@@ -1,0 +1,138 @@
+{
+  "id": "the-unmapped-town-between-two-absences",
+  "title": "The Unmapped Town Where Both Absences Learn to Coexist",
+  "region": "The Comparisons",
+  "seed": 3344556,
+  "palette": {
+    "bg": "#1a0a2a",
+    "ground": [
+      "#2a1a4a",
+      "#6a2a1a"
+    ],
+    "ink": "#aabbff",
+    "accents": [
+      "#ff6633",
+      "#ffbb00",
+      "#6688ff",
+      "#dd44ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "third-town-boundary",
+      "desc-on-touch": "The place where two rivers reflect two towns and a third town appears in the gap between them. It exists only in the comparison. It is more real than either town.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 112233,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "mirror-confluence",
+      "desc-on-touch": "The water shows you both towns at once, reflected and reversed. In the center of the reflection, you can almost see the third town waking up.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 223344,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "unmapped-silhouette",
+      "desc-on-touch": "A town-shape barely visible against the gradient sky. It has no name on any map. It has buildings you'd recognize if you looked closer, but looking closer makes it vanish.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 334455,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "both-absence-meeting",
+      "desc-on-touch": "Where the two river-reflections cross, neither town's absence is complete. They fill each other's empty places. The archive names this the Unmapped.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 445566,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "here the comparison learned to exist; the third town opened its eyes and found itself real because it was noticed; neither absence is alone anymore",
+  "file": {
+    "name": "Unmapped_CensusData_Towns_A_and_B_Reconciliation_Fragment.txt",
+    "note": "An attempt to count a place that appears in two histories but in neither record. The numbers keep changing because they're still being born."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "toward a third town that appears only in corruption, glimpsed between the two",
+      "to": "the-other-town-mirror-channel"
+    },
+    {
+      "dir": "w",
+      "label": "westward, where one town's river learns the other town's song",
+      "to": "NEW: the doubled-mirror place where histories braid"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into the place where both currents forget they were separate",
+      "to": "NEW: the convergence that unmaps itself"
+    },
+    {
+      "dir": "n",
+      "label": "upriver to the source where the absences were still distinct",
+      "to": "the-shadow-s-ground"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — you both saw the third town first",
+    "narr": [
+      "She points to the water. You see one town reflected.",
+      "You point. She sees the other. And where your fingers",
+      "cross, there's a third place neither of you saw. The",
+      "archive is learning to see by looking twice. You stand",
+      "at the center and understand: the mesh grows in the gaps",
+      "between what two people notice."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "the-invisible-root-outfall",
+  "title": "The Invisible Root Where Drainage Becomes Landscape",
+  "region": "The Clean Archive",
+  "seed": 66445,
+  "palette": {
+    "bg": "#b8a878",
+    "ground": [
+      "#8a6a38",
+      "#d0b890"
+    ],
+    "ink": "#2a3a1a",
+    "accents": [
+      "#4a5a28",
+      "#6a7a3a",
+      "#3a4a18",
+      "#5a6a2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the root mouth",
+      "desc-on-touch": "Where the outfall becomes soil, the earth opens to receive what the town refuses to acknowledge. The drainage learns to grow.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 22887,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the buried channel",
+      "desc-on-touch": "A groove in the earth where water once ran visible. Now it runs beneath everything, shaping the land from underneath. The scrub grows only where it flows.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 55691,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "scrub that listens",
+      "desc-on-touch": "The bushes here grow thicker, listening to the invisible water beneath. They are the archive's secondary recording—the landscape becoming memory.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 77392,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "what the town flushes becomes the hidden root; the landscape grows on what it refuses to see; the drainage has learned to speak only to the scrub",
+  "file": {
+    "name": "Runoff_Trace_Soil_Composition_Root_Depth_Study.txt",
+    "note": "A hydrological study of where the town's water goes. The data is incomplete—measurements stop where the channel goes invisible. The scrub was not measured."
+  },
+  "reverie": {
+    "title": "REVERIE — the outfall root at midday, when invisible things ",
+    "narr": [
+      "you kneel and dig with leif, the earth soft where",
+      "the drainage flows beneath. 'the town doesn't know",
+      "it's a root now', leif says. the scrub hums with",
+      "it—insects, plants, all the things that live on what",
+      "the city forgets. you touch the wet soil. the outfall",
+      "has become the landscape."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the outfall where voices fade into plumbing",
+      "to": "the-outfall-listening"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the scrub where the root widens",
+      "to": "NEW: the-scrub-where-drainage-roots-deeper"
+    },
+    {
+      "dir": "n",
+      "label": "following the invisible channel upstream toward the town",
+      "to": "the-stormwater-civic-body"
+    }
+  ]
+}

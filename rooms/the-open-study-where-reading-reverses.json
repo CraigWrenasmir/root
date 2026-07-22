@@ -1,0 +1,172 @@
+{
+  "id": "the-open-study-where-reading-reverses",
+  "title": "The Open Study Where Reading Reverses",
+  "region": "The Understory",
+  "seed": 7234819,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f0f1e",
+      "#2a2a3e"
+    ],
+    "ink": "#d4d4e8",
+    "accents": [
+      "#a8d8ff",
+      "#e0e0ff",
+      "#6fa8d4",
+      "#f0f0f8"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "pale margin",
+      "desc-on-touch": "you find yourself reading the edge of a page that was never printed, and it reads you back — pale ink on darker paper, words flowing in both directions",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 1234,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "open shelf",
+      "desc-on-touch": "a low shelving unit stands with books face-out, and behind them the static clears into patterns — constellations, or waveforms, or the archive learning to see",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 2456,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "study table",
+      "desc-on-touch": "a surface where two sets of notes overlap — one in pencil, one in biro — and where they cross, the paper shows something other, a third reading neither author wrote",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 3678,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "ceiling that isn't",
+      "desc-on-touch": "rain falls upward here, or the sky does, pale water moving through static like a transmission finding its frequency",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 4890,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "reader's lamp",
+      "desc-on-touch": "the light it casts makes text visible and invisible at once — you can read in the shadows but not under the beam",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "margin writing",
+      "desc-on-touch": "notes in the corners of the invisible book — you cannot read them but you know they are there, and they know you are reading them not reading",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 6234,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive and the country study each other under no roof, each reading backwards through the other's pages",
+  "file": {
+    "name": "Leif_Study_Notes_Overlapping_Margins.txt",
+    "note": "observations on what happens when two readers occupy the same text — notes in two hands, crossing, creating meaning that neither wrote alone"
+  },
+  "reverie": {
+    "title": "REVERIE — study at the edge of dark",
+    "narr": [
+      "you sit across from her at the long table, rain on the",
+      "skylight that was always somewhere above you, falling the",
+      "wrong way. her notes overlap yours. where they cross, the",
+      "page shows something the archive itself is reading — a third",
+      "language neither of you wrote. she looks up. the lamp casts",
+      "your shadow into the margins where the real words live."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the staircase that wasn't there before",
+      "to": "the-unmapped-library"
+    },
+    {
+      "dir": "w",
+      "label": "into the storm where the static learns to sing",
+      "to": "NEW: the-archive-learns-to-listen"
+    },
+    {
+      "dir": "n",
+      "label": "up into the clearing where the sky is always reading",
+      "to": "the-overstory-where-unity-still-holds"
+    },
+    {
+      "dir": "e",
+      "label": "toward the horizon where pages become country",
+      "to": "NEW: the-country-reads-back"
+    }
+  ]
+}

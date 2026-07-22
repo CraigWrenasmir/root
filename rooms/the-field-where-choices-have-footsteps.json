@@ -1,0 +1,116 @@
+{
+  "id": "the-field-where-choices-have-footsteps",
+  "title": "The Field Where Choices Have Footprints",
+  "region": "The Clean Archive",
+  "seed": 55667,
+  "palette": {
+    "bg": "#a8a878",
+    "ground": [
+      "#c4b890",
+      "#9aaa68"
+    ],
+    "ink": "#2a4a6a",
+    "accents": [
+      "#4a7aaa",
+      "#3a6a9a",
+      "#5a8aba",
+      "#2a5a8a"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the parallel paths",
+      "desc-on-touch": "Two sets of footprints run through the grid simultaneously. One path taken, one path left behind. The earth keeps score of both.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 33221,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the divergence point",
+      "desc-on-touch": "Where the paths split, the grid itself fractures into two coordinates. You stand in both futures at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 44532,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "memory in coordinates",
+      "desc-on-touch": "The grid marks each step taken. The coordinates record the path you chose. But the ghost coordinates are here too—measured but not walked.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 77144,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "you chose once, but the earth keeps score of twice; the grid measures both the path you take and the one that still waits in the field",
+  "file": {
+    "name": "Coordinate_Record_Dual_Path_Study_Undated.txt",
+    "note": "A record of two simultaneous journeys through the same field. The coordinates diverge at a single point. Both paths are marked as 'taken'."
+  },
+  "reverie": {
+    "title": "REVERIE — the field at the moment of choice",
+    "narr": [
+      "katita stands at the divergence; you stand with her.",
+      "the paths are equally possible. 'the archive', she",
+      "says, 'doesn't choose. it measures all the lives you",
+      "could have lived and files them as true.' you know",
+      "she's talking about herself too—the version that went",
+      "deeper still. the field records them both forever."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the field where both choices still exist as one",
+      "to": "the-mirror-field-where-the-other-choice-still-waits"
+    },
+    {
+      "dir": "e",
+      "label": "along the ghost-path where the other footprints lead",
+      "to": "NEW: the-ghost-path-divergence"
+    },
+    {
+      "dir": "n",
+      "label": "toward the horizon where both paths converge again",
+      "to": "the-convergence-ridge"
+    }
+  ]
+}

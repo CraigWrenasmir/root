@@ -1,0 +1,100 @@
+{
+  "id": "the-tangle-roots-where-pattern-fractures",
+  "title": "The Tangle-Roots Where Pattern Fractures",
+  "region": "The Understory",
+  "seed": 83421,
+  "palette": {
+    "bg": "#2d1b2e",
+    "ground": [
+      "#3d2645",
+      "#5a4a5e"
+    ],
+    "ink": "#8fbc8f",
+    "accents": [
+      "#8fbc8f",
+      "#d4af85",
+      "#7b68ee",
+      "#daa520"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the thread-root tangle",
+      "desc-on-touch": "Threads and roots spiral around each other in complete disorder. Where pattern once held strict rows, now everything tangles—weft becomes warp becomes earth. The breaking point is visible as a bright knot where the weaving came undone and the underground began its own design.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 56734,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the fracture line",
+      "desc-on-touch": "A clear break runs through the orchard rows where pattern stopped obeying the loom's logic. On one side, perfect geometric order. On the other, roots have rewritten everything according to their own growth.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 29104,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the learning roots",
+      "desc-on-touch": "The roots seem to be reading the pattern, learning its language so they can speak a dialect of their own. You can see where they've begun tracing the loom's symbols into soil.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 71849,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the loom weaves in darkness; the darkness learns the loom's language",
+  "file": {
+    "name": "Loom_Log_1987_Incomplete.txt",
+    "note": "A weaver's daily log of thread counts and pattern sequences, increasingly interrupted by descriptions of how the floor beneath the loom has begun to move. The final entries consist only of root-names "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where the thread still held its shape",
+      "to": "the-deepest-loom-thread"
+    },
+    {
+      "dir": "e",
+      "label": "into deeper darkness where roots become their own weaving",
+      "to": "NEW: the-root-loom-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down where pattern and growth become indistinguishable",
+      "to": "the-soil-made-of-sentences"
+    }
+  ]
+}

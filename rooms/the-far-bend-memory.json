@@ -1,0 +1,155 @@
+{
+  "id": "the-far-bend-memory",
+  "title": "The Far Bend Memory",
+  "region": "The Clean Archive",
+  "seed": 54328196,
+  "palette": {
+    "bg": "#1f3a2a",
+    "ground": [
+      "#8b7355",
+      "#4a7c6a"
+    ],
+    "ink": "#d4c8b8",
+    "accents": [
+      "#6b4423",
+      "#7ba89a",
+      "#c49a6c",
+      "#9d8b6d"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the far shore",
+      "desc-on-touch": "The bank you haven't walked yet. It's identical to this one in all the ways that matter, but the water between you has learned a name the archive doesn't know.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 29573,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "crossing stones",
+      "desc-on-touch": "Rocks set in the shallows, each one touched by hands that crossed before the archive began to remember. Your hand fits perfectly in the grooves.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 14627,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the river's memory",
+      "desc-on-touch": "Water flowing past where the bend deepens. It carries the names of all the places it has been, speaking them in a voice too wide for any single word.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 38951,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "shadow of the far bank",
+      "desc-on-touch": "Your own silhouette on the water, but stretched toward the other side. It arrives before you do. It knows the far bank's name already.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 47293,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "weathered crossing post",
+      "desc-on-touch": "Worn smooth by years of hands learning the river's way across. The post is older than the archive. The river chose to teach it that.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 52608,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "the bend continues downstream and the river teaches that crossing is always half remembering and half forgetting",
+  "file": {
+    "name": "CrossingRecords_FarBank_1962-1999.txt",
+    "note": "Entries in two hands. One records who crossed. The other records what the crossing forgot. They drift further apart with each year."
+  },
+  "reverie": {
+    "title": "REVERIE — crossing toward the far name",
+    "narr": [
+      "She's wading ahead of you, the cold water up to",
+      "her thigh. She turns and speaks a word—not in any",
+      "language the archive carries—and the far bank",
+      "answers with the same shape of sound. You follow",
+      "the stones as she names each one. By the time you",
+      "reach the other side, you've forgotten which shore."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upriver to the wide water",
+      "to": "where-the-bend-opens-into-wide-water"
+    },
+    {
+      "dir": "e",
+      "label": "downriver, where the bend has already forgotten what it taught",
+      "to": "the-bend-where-teaching-ends"
+    },
+    {
+      "dir": "n",
+      "label": "across the water to the far bank and its unnamed ground",
+      "to": "NEW: the-far-shore-unmarked"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the riverbed, to where old crossings sleep",
+      "to": "the-naive-riverbed"
+    }
+  ]
+}

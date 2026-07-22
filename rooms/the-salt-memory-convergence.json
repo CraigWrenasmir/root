@@ -145,7 +145,7 @@
     {
       "dir": "w",
       "label": "west along the estuary to older settlements not yet erased",
-      "to": "NEW: the-upstream-ruins"
+      "to": "the-upstream-ruins"
     }
   ]
 }

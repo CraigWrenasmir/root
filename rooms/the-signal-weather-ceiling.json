@@ -1,0 +1,155 @@
+{
+  "id": "the-signal-weather-ceiling",
+  "title": "The Signal-Weather Ceiling",
+  "region": "The Understory",
+  "seed": 3421567,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#ff8833",
+      "#663344"
+    ],
+    "ink": "#cceecc",
+    "accents": [
+      "#ffdd66",
+      "#66ddff",
+      "#ee88ff",
+      "#dddddd"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "antenna-breakthrough",
+      "desc-on-touch": "The antenna has broken through the ground and reached the sky. You cannot tell if the weather is interrupting the signal or the signal is calling the weather down.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 891,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "weather-interface",
+      "desc-on-touch": "At the threshold between broadcast and storm, the archive learns that signal and weather speak the same language. Both arrive as noise. Both carry meaning.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 1728,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "signal-scatter",
+      "desc-on-touch": "The air is full of things that used to be broadcast. Now they drift like weather. The archive is learning to read wind as a continuous transmission.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 441,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "sky-marking",
+      "desc-on-touch": "Pale marks on the dark sky. The archive has begun annotating weather patterns, filing them as text. The forecast becomes a documentary.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 2109,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "wind-hum",
+      "desc-on-touch": "The pole sings. The wind has learned frequencies. The archive taught it by mistake, broadcasting long enough for the air to memorize the shape of sound.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1089,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the ceiling is not solid; it is only the place where signal decided it could also be rain",
+  "file": {
+    "name": "Weather_Signal_Convergence_Logbook.txt",
+    "note": "Where the antenna breaks through, broadcasts and storm systems become indistinguishable. The archive reads both as texts from the sky."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the station where the antenna still has roots",
+      "to": "the-high-canopy-archive-station"
+    },
+    {
+      "dir": "n",
+      "label": "north where the weather continues beyond any signal",
+      "to": "NEW: the storm's archive, what weather remembers when radio falls silent"
+    },
+    {
+      "dir": "e",
+      "label": "east where the wind carries older broadcasts",
+      "to": "the-archive-s-own-return-signal-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "west where the signal is still learning to be weather",
+      "to": "NEW: the transmission-end where weather begins its own broadcasting"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — raising the antenna in wind",
+    "narr": [
+      "You hold the pole while Katita climbs. Rain begins.",
+      "The antenna cuts through drops like a needle through cloth.",
+      "She shouts something but the wind is already broadcasting it.",
+      "You cannot tell if she is talking or the sky is speaking her words.",
+      "Below you both, the archive's batteries drink the weather.",
+      "The broadcast and the storm have always been one transmission."
+    ],
+    "sky": "dusk",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "stand"
+  }
+}

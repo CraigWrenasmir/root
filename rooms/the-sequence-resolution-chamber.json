@@ -1,0 +1,117 @@
+{
+  "id": "the-sequence-resolution-chamber",
+  "title": "Where Simultaneous Moments Become Sequential",
+  "region": "The Understory",
+  "seed": 4521308,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#1a2a3a",
+      "#0d1b2a"
+    ],
+    "ink": "#a8d5ba",
+    "accents": [
+      "#2d5a4a",
+      "#88ccaa",
+      "#556b7a",
+      "#ccaa44"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the primary resolver",
+      "desc-on-touch": "A chip the size of a small room, its pins radiating into darkness. This is where all moments that tried to exist together are sorted into a line. One after another. The only way to understand.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 892147,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the current cascade",
+      "desc-on-touch": "Electricity traced in the circuit board beneath your feet, flowing from one impossible direction into a single forward. Power learning to be sequence.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 634871,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the echo-resolving node",
+      "desc-on-touch": "Where echoes arrive all at once and then learn to leave one by one. You can almost hear them deciding which of them goes first.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 471092,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the archive's choice",
+      "desc-on-touch": "A single wire or thought or decision, glowing faintly, that runs from the simultaneity chamber to here. This is where the network decided that time would have to be linear, or else it could not be stored.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 503618,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here every heartbeat learns to follow the one before it",
+  "file": {
+    "name": "SequentialResolution_Logs_Iteration_8847.dat",
+    "note": "Hardware status reports showing timestamp collisions being resolved. Each collision solved makes the next impossible to prevent. The log is getting longer."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up where everything still moves at once",
+      "to": "the-infinite-simultaneity-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where sequence becomes inevitability",
+      "to": "NEW: the-irreversible-descent"
+    },
+    {
+      "dir": "e",
+      "label": "toward the temporal gardens where seasons learned to grow",
+      "to": "NEW: the-frost-and-blossom-threshold"
+    }
+  ]
+}

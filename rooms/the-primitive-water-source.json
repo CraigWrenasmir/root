@@ -1,0 +1,150 @@
+{
+  "id": "the-primitive-water-source",
+  "title": "The Primitive Water-Source",
+  "region": "The Comparisons",
+  "seed": 555123,
+  "palette": {
+    "bg": "#0d3d0d",
+    "ground": [
+      "#8b6f47",
+      "#2d5016"
+    ],
+    "ink": "#d4d4a0",
+    "accents": [
+      "#6f8b47",
+      "#a0826d",
+      "#4d6d47",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the original well-mouth",
+      "desc-on-touch": "a circular opening carved by hand generations before the motel stood; the water below reflects stars even in daylight, remembering times when no archive existed",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 111456,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the stone-marked path",
+      "desc-on-touch": "a worn groove in the bedrock leading from one place to another; the stones have recorded every footstep of every person who came for water",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 222567,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the mineral deposit sanctuary",
+      "desc-on-touch": "layers of stone built by centuries of water; each layer is a different year, a different mineral composition, a different drought or plenty",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 333678,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the temperature-memory stone",
+      "desc-on-touch": "a standing rock warmed by deep earth; it remembers the water's constant coolness, and in remembering, keeps the water true",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 444789,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the root-reach downward",
+      "desc-on-touch": "tree roots have broken through into this chamber, drinking alongside human travelers; root and stone and water negotiate endlessly",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 555890,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the first well needs no archive; it archives itself in every drawn bucket",
+  "file": {
+    "name": "Well_Maintenance_Records_Oldest_Section.txt",
+    "note": "the earliest entries are not in any written language—just tally marks on stone; below them, someone has written: 'counting how many times this water was trusted'"
+  },
+  "reverie": {
+    "title": "REVERIE — the morning water-drawing, before the motel",
+    "narr": [
+      "you both kneel at the stone lip",
+      "Leif draws the bucket up hand over hand,",
+      "his knuckles wet, glistening in first light.",
+      "'it's the same temperature as it was two hundred years ago,' he says.",
+      "'how do you know?' 'Because the stone remembers.'",
+      "the water tastes of nothing but perfect thirst."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the bedrock plumbing, where newer pipes still learn from the old",
+      "to": "the-bedrock-plumbing"
+    },
+    {
+      "dir": "e",
+      "label": "toward the spring-source, where water still rises",
+      "to": "NEW: the-upwelling-memory, where the water remembers being stone"
+    },
+    {
+      "dir": "w",
+      "label": "along the underground stream, following where the water goes next",
+      "to": "NEW: the-water-s-returning-path, where every river follows its own old channels"
+    }
+  ]
+}

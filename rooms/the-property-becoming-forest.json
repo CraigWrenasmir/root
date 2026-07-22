@@ -1,0 +1,100 @@
+{
+  "id": "the-property-becoming-forest",
+  "title": "Where Property Becomes Forest",
+  "region": "The Clean Archive",
+  "seed": 1122334,
+  "palette": {
+    "bg": "#0a2a1a",
+    "ground": [
+      "#1a4a2a",
+      "#2a6a3a"
+    ],
+    "ink": "#88dd99",
+    "accents": [
+      "#44dd55",
+      "#99ff66",
+      "#ff9900",
+      "#663300"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.2
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "fence-dissolving",
+      "desc-on-touch": "The boundary oxidized into rust and then into root. Trees pushed through the metal. The question of passage or barrier became irrelevant. The forest decided it was one place.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 778899,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "reclaimed-marker",
+      "desc-on-touch": "A property marker stone, split by roots. The numbers worn away. The land has reclaimed its own naming.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 889900,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "overgrowth-path",
+      "desc-on-touch": "A trail worn not by people but by the forest moving itself. Trees reroute. Understory learns to walk.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 990011,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the boundary between owned and wild learned to dissolve; now the archive doesn't know if the trees were always here or are still arriving",
+  "file": {
+    "name": "Property_Deed_Survey_Year_1994_Lost_to_Undergrowth.txt",
+    "note": "The last record before the forest decided there were no more boundaries. The archive filed it but the location keeps moving."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the scrub's interior, where boundaries have become suggestions",
+      "to": "the-eastern-fence-circuit"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into forest, where property lines dissolved into root networks",
+      "to": "NEW: the inherited grove where ownership became symbiosis"
+    },
+    {
+      "dir": "n",
+      "label": "outward where the first trees remember when this was cleared",
+      "to": "the-corroded-gate"
+    }
+  ]
+}

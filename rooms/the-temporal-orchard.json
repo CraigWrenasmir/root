@@ -1,0 +1,117 @@
+{
+  "id": "the-temporal-orchard",
+  "title": "The Orchard Where All Seasons Bloom at Once",
+  "region": "The Understory",
+  "seed": 5193847,
+  "palette": {
+    "bg": "#6b5d3f",
+    "ground": [
+      "#cc8855",
+      "#5a8a4a"
+    ],
+    "ink": "#f4f0e8",
+    "accents": [
+      "#d4a574",
+      "#8fbc8f",
+      "#e8d4a0",
+      "#c4944a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.45
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the eternal harvest",
+      "desc-on-touch": "Trees bearing fruit, blossom, and bare branches all at the same moment. You pick an apple and it is ripe and green and unfallen, all simultaneously. This is what time looks like when it stops refusing to be multiple.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 821459,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the spring-summer line",
+      "desc-on-touch": "A visible division in the air and light where one season touches another. You can step across it and feel the heat change, feel the year turn like a page you are standing on.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 734692,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the fruit that will not choose",
+      "desc-on-touch": "A single tree or cluster where blossoms and fruit coexist on the same branch. The fruit cannot ripen. The blossoms cannot open. They have learned to wait together instead of taking turns.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 418265,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the root that runs all directions",
+      "desc-on-touch": "Beneath the orchard, a root system that extends into spring, summer, autumn, and winter simultaneously. Water arrives from four seasons at once. The tree is drunk on time.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 591834,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the orchard learned simultaneity from the chamber above",
+  "file": {
+    "name": "FieldRecording_OrchardPhotosynthesis_AllSeasons_Overlaid.wav",
+    "note": "Audio from the trees: four seasons of photosynthesis recorded, then played at the same time. The sound is a chord. The chord is alive."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the chamber where time still flows",
+      "to": "the-infinite-simultaneity-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the soil where roots argue about which season they grow in",
+      "to": "NEW: the-root-parliament"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into the threshold where the orchard becomes something else",
+      "to": "NEW: the-margin-where-seasons-learn-to-compete"
+    }
+  ]
+}

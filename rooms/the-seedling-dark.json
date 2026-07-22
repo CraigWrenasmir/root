@@ -1,0 +1,139 @@
+{
+  "id": "the-seedling-dark",
+  "title": "The Seedling Dark",
+  "region": "The Understory",
+  "seed": 91234,
+  "palette": {
+    "bg": "#1a0a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#d4d4d4",
+    "accents": [
+      "#ffffff",
+      "#b0b0b0",
+      "#7f8c8d",
+      "#4a4a4a"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the seedling-congregation",
+      "desc-on-touch": "Young leaves gathered in the deep dark, not yet large enough to compete for light. They read each other in the absence of sun, a congregation that worships silence.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 13445,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the root-speech chamber",
+      "desc-on-touch": "Where seedlings speak to each other beneath the soil, a dark conversation conducted through fungal networks. They exchange knowledge of depths that daylight will never reach.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 24556,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the learning-to-hide archive",
+      "desc-on-touch": "A record of how young plants learn darkness: first as absence, then as shelter, then as the true language of the forest. The youngest leaves haven't finished learning yet.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 35667,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the pale-frond garden",
+      "desc-on-touch": "Seedlings that have learned to grow pale, to show themselves only in the noise of static and shadow. Their whiteness is not brightness but the absence of pigment—they have learned to blend into darkness.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 46778,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the silence-tending moss",
+      "desc-on-touch": "A moss that tends and protects young seedlings by growing around them in muted tones. It teaches them that silence is not emptiness but fullness, that darkness is where growth begins.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 57889,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "young things learn in the dark that being read is not the same as being seen; the understory teaches silence before light; seedlings don't grow they hide upward",
+  "file": {
+    "name": "Seedling_Phenology_Darkness_Adaptation_Study.txt",
+    "note": "Growth measurements of young plants in deep shade, but the data shows them thriving in a way light-seeking models cannot explain. The seedlings are not waiting for sun; they are becoming something tha"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up to the young canopy still learning to be read",
+      "to": "the-young-canopy-station"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the understory where even silence learns to hide",
+      "to": "NEW: the deeper dark where roots remember stone"
+    },
+    {
+      "dir": "n",
+      "label": "toward the faint glow where the canopy remembers sun",
+      "to": "the-thick-stand-undercounting"
+    },
+    {
+      "dir": "s",
+      "label": "down to the bedrock where even growth becomes legend",
+      "to": "NEW: down to the bedrock where even growth becomes legend"
+    }
+  ]
+}

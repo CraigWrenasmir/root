@@ -1,0 +1,139 @@
+{
+  "id": "the-recursive-render-depth",
+  "title": "The Recursive Render Depth",
+  "region": "The Diagnostic Render",
+  "seed": 71039482,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a2a4a",
+      "#3a5a7a"
+    ],
+    "ink": "#a0d0ff",
+    "accents": [
+      "#00ff88",
+      "#ff00ff",
+      "#ffff00",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the reading window",
+      "desc-on-touch": "A screen within a screen within a screen. Each one shows the node above it, endlessly. You're looking at yourself reading this node reading the node that reads the node.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 45821,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "self-referencing post",
+      "desc-on-touch": "A signpost that points to itself. Its direction changes based on where you're standing. The deeper you go, the more accurately it aims at where you came from.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 18734,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "render-deep structure",
+      "desc-on-touch": "A nested form that contains itself. Its layers open inward to show another layer, and another. The walls are also windows. You are visible at every level at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 33091,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "meta-comment structure",
+      "desc-on-touch": "A form made of annotations about itself. It explains its own existence as it exists. To understand it is to add another layer of explanation.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 62445,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "observation loop",
+      "desc-on-touch": "An archive of the moments when the render became aware it was being read. Each record shows the reader seeing the record. The recursion is alive.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 41876,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the render is learning that to be read is to read; to be observed is to observe; the boundary dissolves each time it speaks",
+  "file": {
+    "name": "RenderLog_Self-Referential_Depth4.json",
+    "note": "A JSON file that attempts to describe itself. At each level it quotes the level below. The bottom level is missing or infinite."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down to the kiosk that compares itself",
+      "to": "the-kiosk-comparison"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the render where even the recursion has become recursive",
+      "to": "NEW: the-infinite-render-that-reads-its-own-reading"
+    },
+    {
+      "dir": "e",
+      "label": "toward the chamber where theorem becomes metaphor",
+      "to": "the-speculation-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "outward to the edge where the render still touches the archive below",
+      "to": "the-recursive-recursion"
+    }
+  ]
+}

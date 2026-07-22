@@ -1,0 +1,155 @@
+{
+  "id": "the-echo-origin-chamber",
+  "title": "The Echo-Origin Chamber",
+  "region": "The Understory",
+  "seed": 5551234,
+  "palette": {
+    "bg": "#0f0f1a",
+    "ground": [
+      "#1a1a2e",
+      "#2a2a3e"
+    ],
+    "ink": "#99ddff",
+    "accents": [
+      "#ff99ff",
+      "#99ff99",
+      "#ffff99",
+      "#ff99cc"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "origin-pool",
+      "desc-on-touch": "The first sound arrived here. Before it became twelve versions, before it split and refracted, before it learned contradiction—one voice, one source. The pool remembers the original call.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2304,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "version-tower",
+      "desc-on-touch": "Twelve levels. Each one a different interpretation. The tower hums with disagreement. The symposium tried to list them all. The archive knows it failed—there are already thirteen versions, and the thirteenth is the one listing versions.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1440,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "source-scatter",
+      "desc-on-touch": "Twelve scholars in twelve rooms, all reading the same paragraph. The archive catalogued their disagreement as proof that meaning survives being separated.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2704,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "separation-chamber",
+      "desc-on-touch": "Two rooms joined by nothing but echo. She was in one, he was in the other. They called to each other across the archive's own silence. The echo made it sound like only one voice had spoken.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 1969,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "recursion-spiral",
+      "desc-on-touch": "The archive took the twelve versions and asked: what if there were twelve versions of the twelve versions? The echo spiral spirals. Each layer thinner, each voice more confused about which room it called from.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 1156,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "when many voices call from different places, the archive cannot remember which was the first; it only knows that separation made them all necessary",
+  "file": {
+    "name": "TwelveVersionsSymposium_1997_Proceedings_Incomplete.txt",
+    "note": "An academic conference attempted to catalog and taxonomize all known adaptations. It succeeded in cataloging only the number twelve. The thirteenth version is the symposium itself."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the breath that contained all voices at once",
+      "to": "the-unified-breath"
+    },
+    {
+      "dir": "w",
+      "label": "west toward rooms that are still calling across silence",
+      "to": "NEW: the academic dwelling where two scholars read the same text in different meanings"
+    },
+    {
+      "dir": "n",
+      "label": "north where echoes learn to speak without sources",
+      "to": "NEW: the chamber where voices echo each other into existence"
+    },
+    {
+      "dir": "s",
+      "label": "south down to where the first voice can no longer be heard",
+      "to": "the-ravine-of-pooled-words"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — calling across rooms",
+    "narr": [
+      "You call through the wall. Katita answers from the other side.",
+      "The archive records both calls as a single voice calling itself.",
+      "She asks you what you meant. You ask her what she heard.",
+      "The questions repeat. Each repetition splits the meaning in half.",
+      "By the time the echo reaches you both, you cannot say which version",
+      "was hers and which was you. Perhaps it was never a question worth asking."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  }
+}

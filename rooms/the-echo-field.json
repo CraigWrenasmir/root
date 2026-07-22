@@ -140,12 +140,12 @@
     {
       "dir": "n",
       "label": "upward to where echoes learn to form before being spoken",
-      "to": "NEW: the-pre-echo-ridge"
+      "to": "the-pre-echo-ridge"
     },
     {
       "dir": "e",
       "label": "toward the harmonic depths where silence also learns to echo",
-      "to": "NEW: the-quiet-resonance-chamber"
+      "to": "the-quiet-resonance-chamber"
     },
     {
       "dir": "s",

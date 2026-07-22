@@ -99,7 +99,7 @@
     {
       "dir": "s",
       "label": "another path that also might be climbing, might be descending, might be turning",
-      "to": "NEW: the path-that-goes-sideways where all directions are one"
+      "to": "the-laterally-rotated-ridge"
     }
   ]
 }

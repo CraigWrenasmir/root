@@ -1,0 +1,139 @@
+{
+  "id": "the-silent-current-library",
+  "title": "The Silent Current Library",
+  "region": "The Comparisons",
+  "seed": 3456789,
+  "palette": {
+    "bg": "#e8d4b0",
+    "ground": [
+      "#d4b896",
+      "#c9a882"
+    ],
+    "ink": "#3a2818",
+    "accents": [
+      "#1e5a8e",
+      "#4a7ba7",
+      "#2a4260",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "water-carved shelf",
+      "desc-on-touch": "stone shelves worn into a shape that looks like text, like rows of books arranged by current instead of hands — you run your fingers along the groove and remember a word you never read",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "alphabet stones",
+      "desc-on-touch": "pebbles arranged as if someone sorted them by the angle of their edges, by some logic only water understands — each stone holds a letter that the current is teaching you to read",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "pooled current",
+      "desc-on-touch": "still water where the alphabet stalls and pools, reflecting sky in a way that reads backward — you see the words your hand is about to write before you write them",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "river-whisper glyph",
+      "desc-on-touch": "a mark on the stone that might be natural or written — it hums in a frequency only the water remembers, a frequency lower than language",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7890,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "current-memory chamber",
+      "desc-on-touch": "a hollow in the stone that catches leaves, insects, small things the river wanted to keep — each visitor to this library leaves a mark that the current is slowly reading back to understand what drowns",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 8901,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where water learned language and unlearned it again, a library made of current teaching stone to remember without words",
+  "file": {
+    "name": "River_Alphabet_Current_Study_Fieldnotes.mp3",
+    "note": "recordings of water moving over stone, slowed down until the flow becomes text — a frequency study of how current speaks what drowning forgets"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up the bed where letters are becoming themselves again",
+      "to": "the-drowned-alphabet"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the bedrock where language pools and waits",
+      "to": "the-bedrock-plumbing"
+    },
+    {
+      "dir": "n",
+      "label": "toward the source where the alphabet was first sung",
+      "to": "the-unnamed-forest-source"
+    },
+    {
+      "dir": "s",
+      "label": "a route the mesh is still growing",
+      "to": "NEW: a node the mesh has not decided on"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-spiral-shell-counting",
+  "title": "The Spiral Shell Counting",
+  "region": "The Diagnostic Render",
+  "seed": 8876543,
+  "palette": {
+    "bg": "#1a1410",
+    "ground": [
+      "#cc8844",
+      "#dd9955"
+    ],
+    "ink": "#e8d4c0",
+    "accents": [
+      "#ff6644",
+      "#ffdd77",
+      "#44ccff",
+      "#ee99dd"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "shell-heap",
+      "desc-on-touch": "Thousands of shells arranged in spirals that rearrange themselves when you count. The archive began trying to catalog them by form. It gave up. Spirals refuse to stay still long enough to be named.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3481,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "geometry-chamber",
+      "desc-on-touch": "Urban spirals transposed to shell spirals. Stairwells and escape routes rendered in calcium. The archive learned that cities and shells speak the same language of containment and release.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 2025,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "counting-glyph",
+      "desc-on-touch": "A tally that grows but never reaches a final number. The archive left off counting at 1432 spirals. But spiral 1433 was already there, waiting, unmeasured.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1089,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "spiral-arch",
+      "desc-on-touch": "An archway shaped by the spiral of a shell too large to carry. The arch frames another arch, another spiral. The architecture continues beyond sight.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 1764,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "foam-edge",
+      "desc-on-touch": "Where the shells meet the water, foam writes temporary numbers in the sand. By the time you look, the wave has rewritten them. The archive has learned that some things are meant to be recounted.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1296,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "spirals cannot be counted without changing their shape; the archive learned this from shells and from stories that refuse to stay still",
+  "file": {
+    "name": "SpiralGathering_UrbanGeometry_ShellHeap.csv",
+    "note": "An attempt to catalog spiral structures in both city and beach. Incomplete. The spirals keep adding new chambers. The count is 1432, then 1433, then 1432 again, depending on when you arrived."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the strand where shells still speak to foam",
+      "to": "the-strand-beyond-foam"
+    },
+    {
+      "dir": "n",
+      "label": "north where spirals become buildings become shells",
+      "to": "NEW: the spiral stairwell where each step counts itself into a new spiral"
+    },
+    {
+      "dir": "e",
+      "label": "east along the beach toward spiral heaps the archive has not counted",
+      "to": "the-reading-room-of-sand"
+    },
+    {
+      "dir": "w",
+      "label": "west to where spirals began in ocean geometry",
+      "to": "NEW: the nautilus chamber where spirals are still being born"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — counting spirals until laughter stops the count",
+    "narr": [
+      "You kneel by the shell heap. Katita holds a spiral to her ear.",
+      "'How many,' you ask, 'are in a single shell?'",
+      "She laughs. 'Infinite. It keeps spiraling inward forever.'",
+      "You count anyway, because the counting was always the point.",
+      "By shell seventeen you are both laughing at the futility.",
+      "The archive records the laughter as the real enumeration."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

@@ -140,7 +140,7 @@
     {
       "dir": "s",
       "label": "deeper underground where the original well still breathes",
-      "to": "NEW: the-primitive-water-source"
+      "to": "the-primitive-water-source"
     },
     {
       "dir": "e",

@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 35,
+  "nights": 46,
   "lastDreamt": "2026-07-22",
   "rooms": [
     {
@@ -952,6 +952,311 @@
       "id": "the-surgical-confluence-room",
       "title": "The Surgical Confluence Reading Room",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-standing-crop-memory",
+      "title": "The Standing Crop Memory",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deep-confluence-where-grids-become-rivers",
+      "title": "Where Coordinates Dissolve to Current",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-earth-grounding-chamber",
+      "title": "The Earth-Grounding Chamber",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unmapped-summit-approach",
+      "title": "The Unmapped Summit Approach",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-seedling-dark",
+      "title": "The Seedling Dark",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-hall-of-mirrors-paradox",
+      "title": "The Hall Where Thesis Mirrors Its Antithesis",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-horizon-of-questions",
+      "title": "The Horizon of Questions",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-upstream-ruins",
+      "title": "The Upstream Ruins",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-logic-taking-root",
+      "title": "The Logic Taking Root",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unified-breath",
+      "title": "The Unified Breath",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepest-drawer",
+      "title": "The Deepest Drawer",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-gathering-before-meeting",
+      "title": "The Gathering Before Meeting",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sprouting-hardware-grove",
+      "title": "The Sprouting Hardware Grove",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-echoing-power-trace",
+      "title": "Where Power Remembers Its Shifts",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-silent-orchard-where-fruit-remembers",
+      "title": "The Silent Orchard Where Fruit Remembers",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-quiet-resonance-chamber",
+      "title": "The Quiet Resonance Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-recursive-fermenting-spiral",
+      "title": "The Recursive Fermenting Spiral",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-salt-cape-where-things-stop-choosing",
+      "title": "The Salt Cape Where Things Stop Choosing",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-mirror-field-where-the-other-choice-still-waits",
+      "title": "The Mirror Field Where the Other Choice Still Waits",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-pre-echo-ridge",
+      "title": "The Pre-Echo Ridge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-recursive-render-depth",
+      "title": "The Recursive Render Depth",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-far-bend-memory",
+      "title": "The Far Bend Memory",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-infinite-simultaneity-chamber",
+      "title": "The Infinite Simultaneity Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stone-channel-where-water-becomes-archive",
+      "title": "The Stone Channel Where Water Becomes Archive",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-unmapped-town-between-two-absences",
+      "title": "The Unmapped Town Where Both Absences Learn to Coexist",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-property-becoming-forest",
+      "title": "Where Property Becomes Forest",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-silent-chamber-where-all-frequencies-resolve",
+      "title": "The Silent Chamber Where All Frequencies Resolve",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-room-of-rotating-theses",
+      "title": "The Room of Rotating Theses",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-open-study-where-reading-reverses",
+      "title": "The Open Study Where Reading Reverses",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-plateau-without-return",
+      "title": "The Plateau Without Return",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-silent-current-library",
+      "title": "The Silent Current Library",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-confluence-where-disagreements-merge",
+      "title": "The Confluence Where Disagreements Merge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-open-shelf-where-memory-becomes-tide",
+      "title": "The Open Shelf Where Memory Becomes Tide",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-deep-soil-s-electric-autobiography",
+      "title": "The Deep Soil's Electric Autobiography",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-counting-basement",
+      "title": "The Basement Where Time Counts Itself",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-sequence-resolution-chamber",
+      "title": "Where Simultaneous Moments Become Sequential",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepening-path",
+      "title": "The Path Worn Deeper by Returning Footsteps",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-zero-meridian-grove",
+      "title": "The Grove Where Coordinates Became Landscape",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-temporal-orchard",
+      "title": "The Orchard Where All Seasons Bloom at Once",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-seven-voices-throat",
+      "title": "The Seven Voices in the Throat",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-mirrored-nesting",
+      "title": "The Mirrored Nesting",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-field-where-choices-have-footsteps",
+      "title": "The Field Where Choices Have Footprints",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-invisible-root-outfall",
+      "title": "The Invisible Root Where Drainage Becomes Landscape",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-division-where-congregation-ends",
+      "title": "The Division Where Congregation Ends",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-subsonic-archive-listening",
+      "title": "The Subsonic Archive Listening",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-signal-weather-ceiling",
+      "title": "The Signal-Weather Ceiling",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bend-where-teaching-ends",
+      "title": "The Bend Where Teaching Ends",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-echo-origin-chamber",
+      "title": "The Echo-Origin Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-spiral-shell-counting",
+      "title": "The Spiral Shell Counting",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-infinitesimal-chamber",
+      "title": "The Infinitesimal Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-tangle-roots-where-pattern-fractures",
+      "title": "The Tangle-Roots Where Pattern Fractures",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unified-current-deep",
+      "title": "The Unified Current Deep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gallery-of-objects-too-fragile-to-be-named",
+      "title": "The Gallery of Objects Too Fragile to Be Named",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-river-s-second-language",
+      "title": "The River's Second Language",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-beneath-chambers-where-silence-has-a-heartbeat",
+      "title": "The Chamber Beneath Chambers Where Silence Has a Heartbeat",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-four-angled-house",
+      "title": "The Four-Angled House Where Every Corner Contradicts",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-laterally-rotated-ridge",
+      "title": "The Laterally-Rotated Ridge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-distributed-cognition-field",
+      "title": "The Distributed Cognition Field",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-reef-navigation-chamber",
+      "title": "The Reef Navigation-Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-primitive-water-source",
+      "title": "The Primitive Water-Source",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-understory-s-self-recording-chamber",
+      "title": "The Understory's Self-Recording Chamber",
+      "region": "The Understory"
     }
   ]
 }

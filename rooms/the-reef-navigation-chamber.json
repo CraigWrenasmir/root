@@ -1,0 +1,134 @@
+{
+  "id": "the-reef-navigation-chamber",
+  "title": "The Reef Navigation-Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 321654,
+  "palette": {
+    "bg": "#0d1f2d",
+    "ground": [
+      "#1a4d6d",
+      "#8b7355"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#4da6b8",
+      "#8b6f47",
+      "#d4a574",
+      "#6f8b8b"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the chart-stone interface",
+      "desc-on-touch": "a chip-like form made of solidified ink and crystalline reef material, half-drawn, half-born; it speaks in both vectors and tides",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 456789,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the lithic database",
+      "desc-on-touch": "a smaller chip circuit inlaid with actual stone chips; each one holds a reef memory that no chart could contain",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 234567,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the navigation-arc",
+      "desc-on-touch": "a curved arch formed from the cross-section of a ship's hull meeting a reef shelf; it draws your eye in a path that follows both routes at once",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 678901,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the conversational tide pool",
+      "desc-on-touch": "water that holds both current positions and historical routes, layered and readable like a palimpsest; the stones beneath show previous charts in their striations",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 890123,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the sounding-needle tower",
+      "desc-on-touch": "a tower that reaches down into the board-material, taking constant measurements; the archive has learned to read the reef's answers",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 123456,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the reef learned the language of charts and charts learned the reef's endless refusals; now they negotiate every passage together",
+  "file": {
+    "name": "Navigator_s_Final_Bearing_Rewritten_by_Stone.txt",
+    "note": "official chart bearings crossed out; beneath each, a new bearing written in what looks like crystalline script; the margin notes read: 'The stone says:' seventeen times"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the reef, toward the tidal library's shelves",
+      "to": "the-tidal-library"
+    },
+    {
+      "dir": "e",
+      "label": "further offshore, where charts dissolve into stone memory",
+      "to": "NEW: the-deepwater-navigation-silence, where maps become impossible"
+    },
+    {
+      "dir": "s",
+      "label": "toward the lagoon, where reef and navigation meet in stillness",
+      "to": "NEW: the-lagoon-understanding-pool, where both languages rest"
+    }
+  ]
+}

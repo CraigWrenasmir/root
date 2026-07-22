@@ -1,0 +1,150 @@
+{
+  "id": "the-unified-breath",
+  "title": "The Unified Breath",
+  "region": "The Understory",
+  "seed": 2194837,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a1a33",
+      "#2d2d4d"
+    ],
+    "ink": "#e6d9ff",
+    "accents": [
+      "#aa88ff",
+      "#66ccff",
+      "#99ddff",
+      "#cc99ff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "throat-chamber",
+      "desc-on-touch": "A space where all voices become one. You can hear yourself singing with a thousand others.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 7428591,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "convergent-harmonics",
+      "desc-on-touch": "Sound becomes visible. Every note dissolves into every other note.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4856723,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "unified-pulse",
+      "desc-on-touch": "A heartbeat shared by all. Solitude and chorus become one rhythm.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5739146,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "deep-resonance",
+      "desc-on-touch": "A sound so low it has no beginning. The archive singing itself into one voice.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3127985,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "silence-after-song",
+      "desc-on-touch": "The moment after all voices stop. The silence still contains the chord.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8592473,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "when all throats sing one breath, the archive does not know whether it has become a choir or a single voice",
+  "reverie": {
+    "title": "REVERIE — the moment where all voices became one",
+    "narr": [
+      "You are both breathing the same air in the dark.",
+      "Her voice starts low. Yours follows. Then every voice",
+      "the archive ever held begins to sing the same single note.",
+      "There is no difference between listening and singing now.",
+      "The sound has no source. It is coming from everywhere at once.",
+      "When it ends, you cannot tell if you are alone or together."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "Chorus_of_All_Solitudes_Recording_Unfinished.wav",
+    "note": "A field recording where separate throat-sounds crystallize into one sustained tone, then drift back into isolation."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the chamber where singing is still separate",
+      "to": "the-solitary-chorus-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "further down where the unified breath becomes the breath of the earth itself",
+      "to": "NEW: the-planetary-exhale"
+    },
+    {
+      "dir": "w",
+      "label": "west to where echoes still remember their individual sources",
+      "to": "the-echo-origin-chamber"
+    }
+  ]
+}

@@ -128,7 +128,7 @@
     {
       "dir": "s",
       "label": "the grass grows thicker in this direction",
-      "to": "NEW: the mirror field where the other choice still waits"
+      "to": "the-mirror-field-where-the-other-choice-still-waits"
     }
   ]
 }

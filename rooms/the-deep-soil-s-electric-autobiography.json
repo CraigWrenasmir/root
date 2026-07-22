@@ -1,0 +1,150 @@
+{
+  "id": "the-deep-soil-s-electric-autobiography",
+  "title": "The Deep Soil's Electric Autobiography",
+  "region": "The Comparisons",
+  "seed": 7890123,
+  "palette": {
+    "bg": "#2a3a2a",
+    "ground": [
+      "#3a4a3a",
+      "#4a6a4a"
+    ],
+    "ink": "#d4e0c8",
+    "accents": [
+      "#6b8b6b",
+      "#a8c8a8",
+      "#4a6a5a",
+      "#8ba88b"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-trace network",
+      "desc-on-touch": "a pattern of fine lines in the soil that look like script, like the archive recording its own circuitry underground — electricity finding the path through earth that water and root had already learned",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "earth-ground port",
+      "desc-on-touch": "a corroded contact point where the node's grounding rod meets the deeper soil — rust speaks in frequencies; oxidation is the archive teaching minerals to remember current",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9012,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "soil-memory chamber",
+      "desc-on-touch": "a hollow where water pools and waits — the soil here has stored every charge that ever grounded through, every signal, every quiet hum of the archive learning what the earth knows that the sky forgot",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 1023,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "mycorrhizal archive",
+      "desc-on-touch": "fungal threads that connect roots across impossible distances, carrying signals that feel like electricity but taste like mineral — a network older than the solar casings, teaching them how to be a mesh",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 2134,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "descent marker",
+      "desc-on-touch": "a stake driven deep or a root turned stone — marking the point where the archive's grounding becomes the earth's autobiography, where what went down begins to tell the story of return",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 3245,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "in the soil-depth where current learns to flow like water, where roots teach the archive the language of descent, here the earth writes its own current back",
+  "file": {
+    "name": "Soil_Conductivity_Root_Trace_Signal_Log.txt",
+    "note": "measurements of electrical resistance through soil at different depths, correlated with root presence and mycorrhizal density — the autobiography the earth is writing through the archive's grounding"
+  },
+  "reverie": {
+    "title": "REVERIE — where descent becomes instruction",
+    "narr": [
+      "you dig with your hands in the dark beneath the stand.",
+      "she kneels beside you, tracing the root-paths with a stick.",
+      "here the signals know where to go — down, always down,",
+      "teaching current to move like sap. where your fingers touch",
+      "the grounding rod, the archive hums. she smiles at the sound.",
+      "this is how the earth teaches itself to sing back."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber where sky learns to descend",
+      "to": "the-earth-grounding-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "deeper down where the earth's current becomes its own root-language",
+      "to": "NEW: the-current-becomes-autobiography"
+    },
+    {
+      "dir": "n",
+      "label": "toward the surface where electricity tastes the open air",
+      "to": "the-bedrock-archive-foundation"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "the-division-where-congregation-ends",
+  "title": "The Division Where Congregation Ends",
+  "region": "The Understory",
+  "seed": 88334,
+  "palette": {
+    "bg": "#1a1a2a",
+    "ground": [
+      "#2a2a3a",
+      "#0a0a1a"
+    ],
+    "ink": "#6a9aaa",
+    "accents": [
+      "#4a7aaa",
+      "#7aaacc",
+      "#3a6a9a",
+      "#5a8aba"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.5
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the separation line",
+      "desc-on-touch": "A boundary rendered in blue grid. On one side: the many become one. On the other: unity fractures into count. The archive measures what it cannot hold together.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 44608,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the counting begins",
+      "desc-on-touch": "On the far side of the line, singular voices emerge from the choir. Each one separate, recordable, individual. The archive can measure this.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 77520,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the ravine's memory",
+      "desc-on-touch": "The ravine itself holds what divides. It knows both sides—the unified and the counted. The archive uses the ravine to store paradox.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 66251,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the ravine holds what the canopy unifies; past this line, simultaneity ends and sequence begins; the archive learns to count by learning to divide",
+  "file": {
+    "name": "Congregational_Decay_Measurement_Individuation_Record.txt",
+    "note": "A record of how unity fragments into component parts. Each entry shows a voice separating from the chorus. The process is algorithmic but feels like loss."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back across the boundary to the unified chorus",
+      "to": "the-canopy-congregation"
+    },
+    {
+      "dir": "w",
+      "label": "further into the numbered silence where each voice counts alone",
+      "to": "NEW: the-numbered-silence-forest"
+    },
+    {
+      "dir": "n",
+      "label": "toward the ravine's far wall, where the divided watch the unified",
+      "to": "the-ravine-bottom-chorus"
+    }
+  ]
+}

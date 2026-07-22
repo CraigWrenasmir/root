@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "higher, where the antenna breaks through into weather",
-      "to": "NEW: the-signal-weather-ceiling"
+      "to": "the-signal-weather-ceiling"
     },
     {
       "dir": "e",

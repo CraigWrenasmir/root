@@ -1,0 +1,117 @@
+{
+  "id": "the-silent-orchard-where-fruit-remembers",
+  "title": "The Silent Orchard Where Fruit Remembers",
+  "region": "The Diagnostic Render",
+  "seed": 5729384,
+  "palette": {
+    "bg": "#1f1f1f",
+    "ground": [
+      "#3a3a3a",
+      "#4d4d4d"
+    ],
+    "ink": "#e8d5b7",
+    "accents": [
+      "#d4a574",
+      "#b8860b",
+      "#8b7355",
+      "#9acd32"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "fruit-language",
+      "desc-on-touch": "Apples the size of heads hang from bare trees, each one marked with glyphs in languages the reader has never spoken but somehow remembers tasting. The glyphs shift slightly when you're not looking directly—the language evolving toward silence.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 3057293,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "wordfall",
+      "desc-on-touch": "Fallen fruit litters the ground, each one burst open to reveal not seeds but paper scraps—poems in eight defunct languages, each one ending mid-line. The reader understands them all and none.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8194726,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-listener-tree",
+      "desc-on-touch": "One tree stands at the orchard's centre, its bark inscribed with the names of every language ever grown here. It bears no fruit. It only listens to the silence between words, learning to speak in gaps.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2948571,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "taste-memory",
+      "desc-on-touch": "A single piece of fruit, still warm, rests on a stone. You do not remember placing it there. When you taste it—you cannot help yourself—it tastes like every language you've forgotten and every meal you will never eat. The flavour fades as you swallow.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5712098,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the grove grows new fruit in languages the reader has forgotten they knew",
+  "file": {
+    "name": "LanguageTrace_OrchardMutualIntelligibility_2023.wav",
+    "note": "Audio spectrogram of fruit-sounds; contains phrasemes in Bundjalung, Darug, Eora, five others; each phrase a description of flavours no longer possible to produce"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the Polyglot Grove where languages still fight to be spoken",
+      "to": "the-polyglot-grove"
+    },
+    {
+      "dir": "w",
+      "label": "into orchards where forgetting becomes a language of its own",
+      "to": "NEW: the-amnesia-grove"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where words become seeds before they become fruit",
+      "to": "the-words-made-fruit"
+    }
+  ]
+}

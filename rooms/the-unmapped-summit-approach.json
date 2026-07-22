@@ -1,0 +1,156 @@
+{
+  "id": "the-unmapped-summit-approach",
+  "title": "The Unmapped Summit Approach",
+  "region": "The Understory",
+  "seed": 24567,
+  "palette": {
+    "bg": "#4a0080",
+    "ground": [
+      "#ff6b35",
+      "#c1440e"
+    ],
+    "ink": "#ffb347",
+    "accents": [
+      "#ff00ff",
+      "#ff4500",
+      "#8b0000",
+      "#ffa500"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the dissolving path",
+      "desc-on-touch": "The path you followed to arrive here has already begun erasing itself. Behind you, the ridge settles and forgets. Ahead, paths branch that were not there a moment ago.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 35678,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the summit-stone that recedes",
+      "desc-on-touch": "A marker placed by someone who summited here, but the date inscribed shifts with the light. The higher you climb, the farther up the summit appears.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 46789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the cairn that remembers climbing",
+      "desc-on-touch": "Stacked stones recording each attempt to reach the peak. But the stones have learned to rearrange themselves—a descent climbed backward, climbs recorded as falls.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 57890,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the compass-rose that learned uncertainty",
+      "desc-on-touch": "A compass carved into stone, but all the directions point upward now. North and South have become concepts of altitude. Direction has become vertical only.",
+      "verb": "open",
+      "form": {
+        "type": "sprite",
+        "seed": 68901,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the throat-where-grammar-fails",
+      "desc-on-touch": "At the ridge's narrowest point, language becomes ambiguous. Every word here means both climb and descent. The throat is where the map admits it has run out of words.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 79012,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the false-summit memorandum",
+      "desc-on-touch": "Notes left by climbers who reached what they thought was the peak, only to learn the mountain continues upward in directions unmappable. Their handwriting grows confused halfway through.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 80123,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the ridge climbs and climbs; the summit keeps ascending; at its throat, up becomes indistinguishable from down; the map here has learned to unmap itself",
+  "file": {
+    "name": "Summit_Approach_Expedition_Logs_1952_Onward.txt",
+    "note": "Expedition records from every attempted ascent, but each climber reports the peak at a different altitude. The logs suggest the mountain is not fixed in space but moves vertically with the observer's "
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the ridge where descents still know their direction",
+      "to": "the-unreturning-ridge"
+    },
+    {
+      "dir": "w",
+      "label": "into the high-country render where the diagnostic system itself climbs",
+      "to": "the-high-country-render"
+    },
+    {
+      "dir": "e",
+      "label": "toward the slope where paths have learned to flow like water",
+      "to": "NEW: the slope where climbing becomes surrender"
+    },
+    {
+      "dir": "n",
+      "label": "into the thin air where up and down have become meaningless",
+      "to": "NEW: the peak-that-was-never-there"
+    }
+  ]
+}

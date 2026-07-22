@@ -1,0 +1,134 @@
+{
+  "id": "the-horizon-of-questions",
+  "title": "The Horizon of Questions",
+  "region": "The Diagnostic Render",
+  "seed": 8734291,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#2a3d5a",
+      "#1a1f2e"
+    ],
+    "ink": "#d4af9e",
+    "accents": [
+      "#e8b4a0",
+      "#ffcc66",
+      "#66ccff",
+      "#aa99dd"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "horizon-doubt",
+      "desc-on-touch": "The line where certainty ends. You read your own question reflected back, distorted by distance.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847123,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "foam-scatter",
+      "desc-on-touch": "Language breaking into spray. Each bubble holds a word mid-dissolution.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 5912847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "interrogation-glyph",
+      "desc-on-touch": "A mark that asks itself what marks are. The archive's deepest question about its own notation.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1673592,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "refraction-pool",
+      "desc-on-touch": "Looking through it bends what you see. Your question returns as a different question.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7245013,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "edge-texture",
+      "desc-on-touch": "The boundary where the archive's signal fades. You can hear the question in the static.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4821956,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the horizon learned that asking is the only form of distance it understands",
+  "file": {
+    "name": "Horizon_Questions_Spectral_Decay.wav",
+    "note": "An audio recording where each doubt shifts the frequency lower, until the question becomes inaudible."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back out, where writing still has foam",
+      "to": "the-strand-beyond-foam"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where doubt becomes language",
+      "to": "NEW: the-grammar-of-uncertainty"
+    },
+    {
+      "dir": "s",
+      "label": "further out, past the last visible question",
+      "to": "NEW: the-unasked-deep"
+    }
+  ]
+}

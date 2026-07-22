@@ -1,0 +1,150 @@
+{
+  "id": "the-gathering-before-meeting",
+  "title": "The Gathering Before Meeting",
+  "region": "The Understory",
+  "seed": 9153472,
+  "palette": {
+    "bg": "#0f1419",
+    "ground": [
+      "#8b7355",
+      "#4d6644"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#cc8844",
+      "#aa6644",
+      "#ddaa55",
+      "#668833"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "tributary-pooling",
+      "desc-on-touch": "Water slows before the join. Memory crystallizes here, suspended in the instant before union.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 6284739,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "convergence-threshold",
+      "desc-on-touch": "The line where two currents have not yet met. You can still see them as separate colors.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3748291,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "choice-point",
+      "desc-on-touch": "This water could still turn back. After this moment, it can only flow forward together.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7592814,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "memory-suspension",
+      "desc-on-touch": "The archive holds what each tributary held before they became one. After this, there is no unremembering.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2967543,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "current-echo",
+      "desc-on-touch": "The water whispers its own name before it becomes nameless in the larger stream.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5381926,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the tributaries remember themselves only here, in this moment before they become the larger current",
+  "reverie": {
+    "title": "REVERIE — where the tributaries gather before becoming one",
+    "narr": [
+      "You stand in water that still remembers coming from two places.",
+      "She places her hand on the boundary. \"Here,\" she says.",
+      "\"They are still separate. Still choosing.\"",
+      "Downstream, they will be one current, one memory, one voice.",
+      "But here, now, they have not yet given up their difference.",
+      "The current holds its breath before it becomes inevitable."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Tributary_Memory_Pooling_Before_Convergence.wav",
+    "note": "Two water-sounds recorded from two streams just before they merge; a moment of held tension before unity."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where convergence and divergence stay indivisible",
+      "to": "the-convergence-before-divergence"
+    },
+    {
+      "dir": "s",
+      "label": "downstream to where all memory becomes one current",
+      "to": "the-unified-current-deep"
+    },
+    {
+      "dir": "w",
+      "label": "upstream to a tributary that still lives alone",
+      "to": "NEW: the-solitary-creek-origin"
+    }
+  ]
+}

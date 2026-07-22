@@ -1,0 +1,117 @@
+{
+  "id": "the-deepening-path",
+  "title": "The Path Worn Deeper by Returning Footsteps",
+  "region": "The Comparisons",
+  "seed": 6182475,
+  "palette": {
+    "bg": "#3a4a3d",
+    "ground": [
+      "#5a7a63",
+      "#4a6a52"
+    ],
+    "ink": "#e8e8d8",
+    "accents": [
+      "#8fc9a8",
+      "#c9b88a",
+      "#7a9a7a",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.55
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the path itself",
+      "desc-on-touch": "Earth worn to a smooth channel by children who took the same route each time. The groove is deeper than it should be, as if time itself walked here repeatedly. You can feel the frequency of their passage in the clay.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 725309,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the marker trees",
+      "desc-on-touch": "Eucalyptus trunks with scratches, dates carved in, names that have been worn away. Generations marked their passage here. The trees are still counting.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 382916,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the deepening center",
+      "desc-on-touch": "A small open area where the path widens and deepens most. Here the groove becomes almost a ravine. Children rested here, or hesitated, or learned something. The earth still remembers the weight of their stillness.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 591243,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the voice in the groove",
+      "desc-on-touch": "You hear many footsteps here, all taking the same route. You hear children talking, in patterns, in the same conversations repeated. The path has learned to echo itself.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 418754,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the path grows deeper when the same feet walk it",
+  "file": {
+    "name": "ChildrensVoices_Recordings_Autumn1993_Loop.mp3",
+    "note": "Field recording of children walking the same path, the same conversation repeating. After the third loop, you realize they're not separate recordings. It's one moment, stretched."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the parallel field where the paths diverge",
+      "to": "the-parallel-field"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the groove becomes a ravine",
+      "to": "NEW: the-eroded-childhood-canyon"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the tree line opens to sky",
+      "to": "NEW: the-clearcut-where-children-taught-the-forest"
+    }
+  ]
+}

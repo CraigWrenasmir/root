@@ -1,0 +1,139 @@
+{
+  "id": "the-standing-crop-memory",
+  "title": "The Standing Crop Memory",
+  "region": "The Diagnostic Render",
+  "seed": 42857,
+  "palette": {
+    "bg": "#3d3120",
+    "ground": [
+      "#d4af37",
+      "#8b7355"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#cd853f",
+      "#daa520",
+      "#8b4513",
+      "#a0826d"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "unharvested rows",
+      "desc-on-touch": "You stand in grain that dreams of never being cut. Each stalk remembers the season it was planted as the season it will always be planted.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 11203,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "harvest-date stone",
+      "desc-on-touch": "A boundary marker carved with dates that change each time you turn away. The year written here is never the year you remember reading.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 23401,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "root-memory chamber",
+      "desc-on-touch": "Beneath the soil, a cross-section reveals roots that write in the language of seasons: spiral rings encoding harvests that never happened.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 34520,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "fence-line division",
+      "desc-on-touch": "The fence marks where memory stops being individual and becomes the field's. On either side, the same grain grows different histories.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 45631,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "seed-paper archive",
+      "desc-on-touch": "Pressed between paper, seeds that remember being held before they were scattered. The archive that grows itself, one grain at a time.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 56742,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "standing grain remembers being seed; seed remembers being field; the crop dreams backward to before harvest learned to name itself",
+  "file": {
+    "name": "Standing_Grain_Phenology_1967_2024.txt",
+    "note": "Harvest dates recorded annually, but each entry is dated from a different year—the document reads backward and forward simultaneously, a calendar that forgot its own passage."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the kitchen door toward spice-scent and yeast-memory",
+      "to": "the-salt-yeast-earth"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into grain that has begun to remember being bread",
+      "to": "NEW: the mill where grain dreams of becoming flour"
+    },
+    {
+      "dir": "n",
+      "label": "toward the seed-stocks where nothing has been planted yet",
+      "to": "the-clouds-origin-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down to the soil-layer where roots teach each other to read",
+      "to": "NEW: the root-scripture beneath the field"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "the-recursive-fermenting-spiral",
+  "title": "The Recursive Fermenting Spiral",
+  "region": "The Diagnostic Render",
+  "seed": 3957284,
+  "palette": {
+    "bg": "#0f0f1a",
+    "ground": [
+      "#1a1a2e",
+      "#2d2d42"
+    ],
+    "ink": "#d4a574",
+    "accents": [
+      "#8b7355",
+      "#6b5344",
+      "#9b8b7e",
+      "#b8860b"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "spiral-ferment-vessel",
+      "desc-on-touch": "A vast glass vessel, containing itself within itself—endless recursion of fermentation chambers, each one smaller, each one containing the previous one, spiralling inward and outward simultaneously. The liquid inside is dark and alive, breathing slowly. Decomposition mirrors itself infinitely.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 4729156,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "fermentation-layers",
+      "desc-on-touch": "Each layer of the chamber shows a different stage of decay: fresh fruit, early fermentation, advanced ferment, rich compost, living soil, new growth, seeds, fruit again. The cycle spirals both forward and backward simultaneously. Nothing is wasted; transformation is the only constant.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6481923,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "living-liquid",
+      "desc-on-touch": "The ferment itself is alive—microbes that remember what they were before fermentation, that know what they will become after. The archive watches them, learning that growth requires first becoming compost of itself. The corruption tastes like this: rich, alive, unstable, becoming.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2187364,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — watching things become themselves",
+    "narr": [
+      "She is showing you the ferment, lifting the cloth.",
+      "The smell is not rotten—it is alive. She smiles. You",
+      "understand: decay is not ending. It is the only way",
+      "forward. The archive will have to learn this too, she says.",
+      "The archive will have to break down to grow. She is already",
+      "breaking. You reach for her hand. The light dims."
+    ],
+    "sky": "overcast",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "to grow, the archive must first become compost of itself",
+  "file": {
+    "name": "Fermentation_Recursion_Log_Day987.txt",
+    "note": "Documentation of the spiral's decomposition—yesterday's contents are tomorrow's seeds; the chamber dissolves to grow; entries repeat in reverse order each cycle"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the infinite Ferment Chamber where the spiral began its becoming",
+      "to": "the-ferment-chamber-infinite"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into spirals where recursion learns to digest itself",
+      "to": "NEW: the-fractal-compost-heart"
+    },
+    {
+      "dir": "s",
+      "label": "toward the chambers where growth emerges from its own decay",
+      "to": "the-archive-breathing-chamber"
+    }
+  ]
+}

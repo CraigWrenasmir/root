@@ -1,0 +1,117 @@
+{
+  "id": "the-quiet-resonance-chamber",
+  "title": "The Quiet Resonance Chamber",
+  "region": "The Understory",
+  "seed": 4081956,
+  "palette": {
+    "bg": "#0d1f0f",
+    "ground": [
+      "#1a3a2e",
+      "#2d5a48"
+    ],
+    "ink": "#b8d9b5",
+    "accents": [
+      "#81c784",
+      "#558b2f",
+      "#7cb342",
+      "#c8e6c9"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "silence-pool",
+      "desc-on-touch": "A pool of water so still it reflects nothing, not even light. When you drop a stone, the ripples travel outward in slow-motion, each one taking a full minute to cross. You understand: this is how the archive listens. The echo-field taught it patience.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7392014,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "resonance-columns",
+      "desc-on-touch": "Five stone columns rise from the chamber, each one the height of a person. They are not quite identical—the thickness varies, the stone's grain runs different directions. When wind moves through them, each one hums a different frequency. Together they create a chord that has no name, has never been ",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 2847591,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "shadow-echo",
+      "desc-on-touch": "In the chamber's corner, a recording device plays back sounds from three days ago—but three days slow, stretched into eternity. You hear yourself entering. The echo is arriving now. Both are equally present, equally real.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 1726483,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "source-and-shadow",
+      "desc-on-touch": "Two beings stand at opposite ends of the chamber, indistinguishable. Neither is the source. Neither is the echo. They are friends who learned this about each other over years of silence. They have nothing left to prove.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5084927,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the echo-field learned that repetition without recording is its own form of truth; the source and the shadow have become indistinguishable friends",
+  "file": {
+    "name": "Harmonic_Delay_Study_Understood.mp3",
+    "note": "Recording of the chamber's resonance; when played at quarter-speed backwards, contains a four-minute conversation that never happened between two people who understood each other in silence"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the Echo-Field where the first echoes still learn their shapes",
+      "to": "the-echo-field"
+    },
+    {
+      "dir": "n",
+      "label": "upward to chambers where sound escapes the need for silence",
+      "to": "the-archive-breathing-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "into deeper dark where echoes become indistinguishable from original sound",
+      "to": "the-infinite-simultaneity-chamber"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-mirror-field-where-the-other-choice-still-waits",
+  "title": "The Mirror Field Where the Other Choice Still Waits",
+  "region": "The Clean Archive",
+  "seed": 63741529,
+  "palette": {
+    "bg": "#e8dcc8",
+    "ground": [
+      "#d4b896",
+      "#7bb8e8"
+    ],
+    "ink": "#2a2a2a",
+    "accents": [
+      "#4a3728",
+      "#5a8fc7",
+      "#c99966",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "doubled gate",
+      "desc-on-touch": "Two gates of identical oak, standing side by side in the tall grass. One is closed, one is open. The grass on both sides is equally trampled.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 29847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the other footprints",
+      "desc-on-touch": "Impressions in the dry earth running parallel to yours, the same size, the same pace. They belong to the version of you that chose the other way.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 15062,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "mirrored fence line",
+      "desc-on-touch": "A fence that runs down the middle of the field, separating the grass into two halves. You cannot tell which side you're standing on until you look at which half is knee-high and which is waist-high.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 41306,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-choice-marker",
+      "desc-on-touch": "A weathered post where the path split years ago. Both directions are marked. Both marks are fading at the same rate.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7493,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "waiting grass",
+      "desc-on-touch": "On the far side of the fence, the grass moves without wind. It's waiting for the other you to arrive. It has been waiting since the day you chose.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 52841,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "both paths home; you chose once but the earth keeps score of twice",
+  "file": {
+    "name": "ChoiceRecords_ParallelMarch_Undated.log",
+    "note": "Duplicate entries showing two timelines running in parallel sync. Archive records both; neither overwrites the other."
+  },
+  "reverie": {
+    "title": "REVERIE — the field where two paths still run",
+    "narr": [
+      "You both stop at the marker. She looks left.",
+      "You look right. Neither path is wrong—both are deep",
+      "with use, as if everyone who passes here must split",
+      "in half to walk them both. She reaches across the",
+      "fence line and takes the hand that didn't go left.",
+      "The grass bows under no weight. Both choices hold."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the gate, back to the single field",
+      "to": "the-field-before-the-gate"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the field where the other footprints run faster",
+      "to": "the-field-where-choices-have-footsteps"
+    },
+    {
+      "dir": "s",
+      "label": "where the mirrored fence bends toward a clearing",
+      "to": "NEW: the-clearing-where-both-paths-converge"
+    },
+    {
+      "dir": "w",
+      "label": "across the fence line, onto the side you didn't choose",
+      "to": "NEW: across the fence line, onto the side you didn't choose"
+    }
+  ]
+}

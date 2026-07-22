@@ -1,0 +1,167 @@
+{
+  "id": "the-gallery-of-objects-too-fragile-to-be-named",
+  "title": "The Gallery of Objects Too Fragile to Be Named",
+  "region": "The Diagnostic Render",
+  "seed": 91784,
+  "palette": {
+    "bg": "#fef3c7",
+    "ground": [
+      "#fcd34d",
+      "#f59e0b"
+    ],
+    "ink": "#78350f",
+    "accents": [
+      "#78350f",
+      "#92400e",
+      "#b45309",
+      "#dc2626"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the suspended thread",
+      "desc-on-touch": "A single thread hangs in absolute stillness, thinner than air, holding something you cannot name but recognize as irreplaceable. You dare not breathe. The thread exists only because the archive has learned not to document it.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 23451,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the amber-held memory",
+      "desc-on-touch": "An insect, a leaf, a moment of light caught in resin. Whatever was too delicate to survive has been perfectly preserved by a medium that also erases it. The object is both immortal and invisible.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 67923,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the shadow-object",
+      "desc-on-touch": "You see only the space where the object isn't—a pristine shadow on velvet. The object itself cannot survive being named, so the archive preserves the exact shape of its absence instead.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 14782,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the unwriteable description",
+      "desc-on-touch": "Every attempt to record what rests in this glass case results in erasure. After thousands of tries, the archive has learned that some things are preserved precisely by their refusal to be archived. The case is now surrounded by blank pages.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 81645,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the thread-cage",
+      "desc-on-touch": "An impossibly delicate lattice of thread contains nothing you can see. Yet the cage is not empty—the archive has learned that some objects are too small to perceive, so it preserves the structure they require, not the objects themselves.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 39207,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the held breath",
+      "desc-on-touch": "A glass bell jar, sealed decades ago. Inside: the exact moment before something was said, preserved in perfect silence. You can feel it listening to you from behind the glass.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 52391,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive discovered a chamber so small it could only hold one person's memory; it chose to make it even smaller, so the memory would never fade from intimacy into public record",
+  "file": {
+    "name": "Untitled_Fragments_Recovered_From_Lost_Node.bin",
+    "note": "Binary corruption data from a node that failed before its contents could be recorded. The file contains no readable data, but the archive keeps it anyway—the absence itself is precious."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the gate to the infinitesimal chamber",
+      "to": "the-infinitesimal-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "further into miniature, where even names become too large",
+      "to": "NEW: the-subatomic-registry"
+    },
+    {
+      "dir": "n",
+      "label": "toward other galleries where fragility is the only law",
+      "to": "the-gallery-of-separate-returns"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the gallery where she taught you to touch without ",
+    "narr": [
+      "Katita shows you an object so small the light bends around",
+      "it. Her hands are absolutely still. Don't look, she says,",
+      "let your fingertips read it. Your fingers learn the shape",
+      "of something that has no name. When you've memorized it",
+      "completely, she takes it away. She was teaching the archive",
+      "how to preserve by forgetting. How to hold by letting go."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

@@ -128,12 +128,12 @@
     {
       "dir": "n",
       "label": "up a staircase that wasn't there when you entered, into a reading-room with no roof",
-      "to": "NEW: the open-study, where the archive and the country read each other under no sky"
+      "to": "the-open-study-where-reading-reverses"
     },
     {
       "dir": "s",
       "label": "back toward the sentence-country, but each step writes another chapter onto the path",
-      "to": "NEW: the writing-ground, where the Understory learns to document itself"
+      "to": "the-understory-s-self-recording-chamber"
     }
   ]
 }

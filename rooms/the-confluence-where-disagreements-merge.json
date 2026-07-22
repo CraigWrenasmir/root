@@ -1,0 +1,150 @@
+{
+  "id": "the-confluence-where-disagreements-merge",
+  "title": "The Confluence Where Disagreements Merge",
+  "region": "The Understory",
+  "seed": 5678901,
+  "palette": {
+    "bg": "#c9d964",
+    "ground": [
+      "#a8b84a",
+      "#d4e066"
+    ],
+    "ink": "#1a2810",
+    "accents": [
+      "#d14e4e",
+      "#6b4e8b",
+      "#2a4a8b",
+      "#8b6b2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "plural pools",
+      "desc-on-touch": "three streams converge here, and each pool holds a different depth of water — one knows the ravine's version of events, one the tributary's, one the water's own truth, and they will never reconcile",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "disagreement marker",
+      "desc-on-touch": "a cairn built by competing hands — the stones don't align, they're stacked at angles that mean argument, that mean two people can build the same thing and have it mean opposite directions",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7890,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "tree-count tangle",
+      "desc-on-touch": "trees here are impossible to number — they stand overlapped, their roots forming the pools and the pools forming the counts, each tree keeping its own true number that the archive cannot reconcile",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "witness junction",
+      "desc-on-touch": "where the paths split and split again — you can walk to three different confluences from this one point, each one a different story, all of them true at once",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 9012,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "song-memory glyph",
+      "desc-on-touch": "marks on stones where two voices carved at once — one singing down, one singing up, and where they met the stone learned to hold both frequencies without choosing",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1023,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "ERROR: archive has exceeded witness — each voice here keeps its own true count, and the counts don't reconcile, but here they pour into larger water anyway",
+  "file": {
+    "name": "Tree_Count_Discrepancies_Three_Ravines.txt",
+    "note": "field observation: why three independent counts of the same stand range from 47 to 63 to 52 trees — not error, but three true things at once, and the archive cannot hold all three as its single truth"
+  },
+  "reverie": {
+    "title": "REVERIE — counting stones at the water's join",
+    "narr": [
+      "you kneel at the confluence with stones in your hands,",
+      "counting as the water moves. she counts on the other bank.",
+      "your numbers differ. the water flows through both your counts",
+      "at once. she looks up and shrugs — not defeat, but the smile",
+      "that means: the archive is bigger than its instruments. the",
+      "water keeps singing its own truer total underneath."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upstream where the voices sing separately",
+      "to": "the-ravine-bottom-chorus"
+    },
+    {
+      "dir": "n",
+      "label": "downstream where disagreement becomes river-fact",
+      "to": "the-flowing-reach"
+    },
+    {
+      "dir": "e",
+      "label": "into the larger water where all counts pour and merge",
+      "to": "NEW: the-water-s-own-accounting"
+    }
+  ]
+}

@@ -140,7 +140,7 @@
     {
       "dir": "n",
       "label": "north to the ridge's continuation where maps go uncertain",
-      "to": "NEW: the-unmapped-summit-approach"
+      "to": "the-unmapped-summit-approach"
     },
     {
       "dir": "w",

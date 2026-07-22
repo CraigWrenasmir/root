@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "downstream, where the joined memory learns what stone remembers",
-      "to": "NEW: the stone channel where water becomes archive"
+      "to": "the-stone-channel-where-water-becomes-archive"
     },
     {
       "dir": "n",

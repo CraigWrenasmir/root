@@ -1,0 +1,151 @@
+{
+  "id": "the-laterally-rotated-ridge",
+  "title": "The Laterally-Rotated Ridge",
+  "region": "The Understory",
+  "seed": 654321,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#2d5016",
+      "#8b4513"
+    ],
+    "ink": "#d4af37",
+    "accents": [
+      "#8b7355",
+      "#a0826d",
+      "#6f4e37",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the lateral throat",
+      "desc-on-touch": "you walk sideways into a canyon that opens both ways; the horizon rotates around you, and forward and sideways trade places",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 111111,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the rotated forest",
+      "desc-on-touch": "trees lean all the same direction, their lean growing stronger as they recede; the path between them turns as you turn",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 222222,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the perpendicular stones",
+      "desc-on-touch": "boulders arranged in an order that keeps shifting; you cannot walk in a straight line here, and yet you never backtrack",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 333333,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the turned-soil channel",
+      "desc-on-touch": "earth torn by some sideways force, furrows running perpendicular to gravity; the soil remembers moving sideways as its natural direction",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 444444,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the rotational singing stones",
+      "desc-on-touch": "rocks that hum in rotation; as you pass them, their pitch shifts in the direction you're walking, whether forward or sideways",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 555555,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "the-lateral-compass-shrine",
+      "desc-on-touch": "a standing stone carved with arrows that all point sideways; no matter how you turn it, or how you turn, the arrows still point to where you just came from and where you're going next",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 666666,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "every direction here has already become sideways before you turn to face it",
+  "file": {
+    "name": "Survey_Attempts_Lateral_Terrain_Abandoned.txt",
+    "note": "compass readings rotate by 90 degrees each time the surveyor's hand moves; notes degrade into increasingly sideways handwriting; final entry reads only: ←"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the path where sideways was still climbing",
+      "to": "the-lateral-ascent"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the rotated landscape",
+      "to": "NEW: the-gyre-without-center, where all rotation orbits nothing"
+    },
+    {
+      "dir": "s",
+      "label": "toward terraces where the slope learns to spiral",
+      "to": "NEW: the-spiral-descent-sideways, where down becomes east"
+    }
+  ]
+}

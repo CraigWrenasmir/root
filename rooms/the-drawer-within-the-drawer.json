@@ -139,12 +139,12 @@
     {
       "dir": "e",
       "label": "sideways to a drawer of the same depth, in a parallel recursion",
-      "to": "NEW: the-mirrored-nesting"
+      "to": "the-mirrored-nesting"
     },
     {
       "dir": "s",
       "label": "down into the next drawer, smaller, darker, still containing a drawer",
-      "to": "NEW: the-deepest-drawer"
+      "to": "the-deepest-drawer"
     }
   ]
 }
