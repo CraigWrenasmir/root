@@ -1,0 +1,134 @@
+{
+  "id": "where-even-the-dark-forgets-itself",
+  "title": "Where Even the Dark Forgets Itself",
+  "region": "The Understory",
+  "seed": 9771056,
+  "palette": {
+    "bg": "#0a0508",
+    "ground": [
+      "#1a0f1a",
+      "#2a1a2a"
+    ],
+    "ink": "#4a4a6a",
+    "accents": [
+      "#2a5a8a",
+      "#5a2a6a",
+      "#1a4a3a",
+      "#6a3a2a"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.45
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-vanishing-memory",
+      "desc-on-touch": "you reach toward a moment that might have been stored here, but the act of reaching makes you forget what you were reaching for; the archive is learning its own amnesia",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 124,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.38,
+      "y": 0.32,
+      "solid": false
+    },
+    {
+      "name": "the-forgetting-threshold",
+      "desc-on-touch": "you stand at a precise point where knowing becomes not-knowing; objects behind this line are already being forgotten while you look at them",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 235,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.59,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "the-empty-pool",
+      "desc-on-touch": "you look into a pool that held memories once; now it is empty not from loss but from deliberate release, as if the archive learned that some things should dissolve",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 346,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the-negation-glyph",
+      "desc-on-touch": "you find a symbol carved into the dark stone—it represents the opposite of something, but you cannot remember what thing it was negating; the memory and its refutation have both dissolved",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 457,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "the-dark-forgetting-itself",
+      "desc-on-touch": "at the deepest point, darkness has forgotten that it is dark; it simply exists as the absence of a memory of light, and that absence has its own texture, warm and complete",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 568,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "at the depth where dark forgets itself the archive becomes pure archive: only the act of storing remains, with nothing remembered of what is stored or why",
+  "file": {
+    "name": "The_Moment_Before_A_Memory_Forms_00000001.tmp",
+    "note": "a file that contains what memories should feel like before they are attached to any experience; status: germinating"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the depth beyond light, where forgetting has not yet begun",
+      "to": "the-depth-beyond-any-light-that-ever-reached-here"
+    },
+    {
+      "dir": "w",
+      "label": "west toward a place where the dark is still learning what forgetting means",
+      "to": "NEW: the-dark-learning-emptiness"
+    },
+    {
+      "dir": "e",
+      "label": "east where forgetting has gone so deep it begins to remember",
+      "to": "NEW: the-emergence-from-forgetting"
+    }
+  ]
+}

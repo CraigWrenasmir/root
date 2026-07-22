@@ -1,0 +1,139 @@
+{
+  "id": "the-gallery-where-reflection-becomes-residence",
+  "title": "The Gallery Where Reflection Becomes Residence",
+  "region": "The Diagnostic Render",
+  "seed": 4847392,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#e8e8e8",
+      "#c8c8c8"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#00d4ff",
+      "#ff6b9d",
+      "#ffd700",
+      "#a78bfa"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.55
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "reflected apartment",
+      "desc-on-touch": "a house that only faces inward: its windows show rooms full of windows. you stand now where the reflection used to sleep. the furniture remembers being arranged by someone it never saw.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 8473,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "frame stack",
+      "desc-on-touch": "mirrors piled until they stopped knowing which was original. the stack hums at a frequency that matches the gallery's heartbeat. sometimes both match a broadcast signal from 1987.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 2941,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "menu board",
+      "desc-on-touch": "a directory of rooms. every option is both selection and selector. the board has learned to recommend itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5839,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "threshold arch",
+      "desc-on-touch": "the doorway between living-room and gallery. light passes through it carrying the names of rooms that were never built.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 7162,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "occupancy signal",
+      "desc-on-touch": "a small device that blinks in the rhythm of residential breathing. it pulses faster when you're not watching. the frequency is wrong for any room built on this side of the mirror.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 3047,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the apartment where the mirror learned to live; it dusts everything the gallery reflects",
+  "file": {
+    "name": "Interior_Design_BBC_Archive_Staging_Notes_1987.txt",
+    "note": "architectural floor plan where rooms multiply across pages. margins note which side of the wall each door opens. a postscript lists residents who have never entered."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the gallery where mirrors still only contemplate",
+      "to": "the-gallery-of-separate-returns"
+    },
+    {
+      "dir": "n",
+      "label": "toward fractional reflections, where the mirror breaks into smaller mirrors",
+      "to": "NEW: the-gallery-dividing-infinitely"
+    },
+    {
+      "dir": "w",
+      "label": "into the adjacent apartment where another mirror has begun keeping house",
+      "to": "NEW: the-mirrored-dwelling-that-learns-to-stay"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the basement, where the first reflection taught itself to breathe",
+      "to": "NEW: the-basement-of-all-surfaces"
+    }
+  ]
+}

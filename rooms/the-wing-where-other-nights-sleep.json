@@ -1,0 +1,139 @@
+{
+  "id": "the-wing-where-other-nights-sleep",
+  "title": "The Wing Where Other Nights Sleep",
+  "region": "The Comparisons",
+  "seed": 4728394,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#0066ff",
+      "#00ccff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ff66ff",
+      "#ffff00",
+      "#00ff99",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "doorway that remembers",
+      "desc-on-touch": "Each door here opened onto a different night for the same guest. You see the versions stacked: one where it rained, one where the neon flickered, one where no one came at all.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 82847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "guest ledger wall",
+      "desc-on-touch": "The register pages are filed here, written in rooms that diverged from rooms. Every name signed in a different hand from the same person.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 10293,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "branching hallway",
+      "desc-on-touch": "The corridor ahead splits into versions of itself, each one a choice a sleeper almost made at 3am.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 61204,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "motel clock",
+      "desc-on-touch": "It shows different times in each room's geometry. Behind the plastic, a faded poster in a language you can't read: BEACH SURGERY.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 39482,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "booking slips scattered",
+      "desc-on-touch": "These cancellations and reservations from nights that didn't sync — guests who showed up to empty rooms, or didn't show to full ones.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 49383,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "in rooms where the same night learned to mean different things",
+  "file": {
+    "name": "Motel_Guest_Ledger_Branch_Versions.txt",
+    "note": "Same arrival date, divergent nights — the archive cannot decide which guest was real"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the corridor where every room is tonight",
+      "to": "the-identical-corridor"
+    },
+    {
+      "dir": "n",
+      "label": "up a stairwell that spirals through other hotels",
+      "to": "NEW: the-archive-s-hotel-spine-stack"
+    },
+    {
+      "dir": "e",
+      "label": "out to a parking lot that contains all arrivals",
+      "to": "the-motels-first-night-never-ending"
+    },
+    {
+      "dir": "s",
+      "label": "down to the check-in desk where the ledger learns to choose",
+      "to": "NEW: the-desk-where-night-becomes-checksum"
+    }
+  ]
+}

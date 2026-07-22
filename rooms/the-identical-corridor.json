@@ -1,0 +1,155 @@
+{
+  "id": "the-identical-corridor",
+  "title": "The Identical Corridor",
+  "region": "The Comparisons",
+  "seed": 5678,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a4d7a",
+      "#2d2d2d"
+    ],
+    "ink": "#e6e6fa",
+    "accents": [
+      "#ff6b9d",
+      "#00ff88",
+      "#ffff00",
+      "#8b0000"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "repeated-door",
+      "desc-on-touch": "you open it and find yourself in the corridor again. you open another and find the same corridor still. the night stopped arriving when it got here",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 5679,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "ice-machine-hum",
+      "desc-on-touch": "the ice falls in the same pattern every cycle. you have heard this sound for hours or seconds; the motel has stopped dividing time",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 5680,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "numberless-room-key",
+      "desc-on-touch": "every room is the same room. the number was the same when you checked in. you check in again. the night is your neighbor in every direction",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 5681,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "fluorescent-watermark",
+      "desc-on-touch": "something leaked here. the motel is sweating. the wall remembers being a different wall, in a different night, but the night is the same, so the wall stays confused",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5682,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "end-corridor-vanishing",
+      "desc-on-touch": "the corridor ends where you cannot see. you walk toward it and arrive where you started. the architecture has become time, or time has become walls",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5683,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "every room is tonight, and tonight arrives again in every room",
+  "file": {
+    "name": "MotelRoomAmbienceTape_SideARepeating.wav",
+    "note": "ERROR: archive has exceeded witness — this recording has played for 4847 days without progress toward dawn"
+  },
+  "reverie": {
+    "title": "REVERIE — the night that learned to stay",
+    "narr": [
+      "She sits on the edge of the motel bed; he stands at the",
+      "window, watching the parking lot. Neither of them moves.",
+      "The ice machine cycles. The night does not. She says:",
+      "'We could leave.' He says: 'Look at your watch.' The",
+      "watch shows the same time as the clock on the wall. Both",
+      "of them are right. Neither of you arrives."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the corridor toward the first arrival",
+      "to": "the-motels-first-night-never-ending"
+    },
+    {
+      "dir": "e",
+      "label": "toward rooms where guests made different choices",
+      "to": "the-wing-where-other-nights-sleep"
+    },
+    {
+      "dir": "n",
+      "label": "up the stairwell where the next floor is identical",
+      "to": "NEW: the-vertically-repeated-motel-forever"
+    },
+    {
+      "dir": "s",
+      "label": "down toward the front desk, where checking out never happens",
+      "to": "the-motel-s-machine-memory"
+    }
+  ]
+}

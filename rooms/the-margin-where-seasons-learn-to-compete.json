@@ -1,0 +1,170 @@
+{
+  "id": "the-margin-where-seasons-learn-to-compete",
+  "title": "The Margin Where Seasons Learn to Compete",
+  "region": "The Understory",
+  "seed": 7394825,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#99ccff",
+    "accents": [
+      "#ff3366",
+      "#66ff99",
+      "#ffcc00",
+      "#9966ff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "frost-burn boundary",
+      "desc-on-touch": "Where winter pushes against summer and both claim the same branch. You're watching the orchard's unity learn to argue.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 29481,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "splitting root",
+      "desc-on-touch": "A single tree-root that has learned to grow in two directions at once — spring-ward and autumn-ward. The archive watches which direction it chooses next.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 47203,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "bloom-rot simultaneity",
+      "desc-on-touch": "Flowers and decay touching the same bark. The seasons haven't chosen yet which will win; both are equally present, equally urgent.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 82947,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "temporal ledger",
+      "desc-on-touch": "A record of which season is winning this hour, this day, this deepening argument. The numbers keep changing.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 18372,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "competing wind-sounds",
+      "desc-on-touch": "Two weather patterns meeting and refusing to merge. The archive records both, but cannot decide which one to file as 'today'.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 61028,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "evidence cairn",
+      "desc-on-touch": "Stones stacked to mark which season this threshold belongs to. They keep falling over, and being rebuilt by the one that grows stronger.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 39847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "where simultaneity learned that meaning requires choice",
+  "file": {
+    "name": "Margin_Seasonal_Contention_Log.tmp",
+    "note": "status: germinating — the archive cannot yet decide if this space is the orchard learning to be a season, or seasons learning to be the orchard"
+  },
+  "reverie": {
+    "title": "REVERIE — orchard edge where you learned to wait",
+    "narr": [
+      "She showed you the branch that held both blossoms",
+      "and last year's dead leaves at once. Neither falling.",
+      "'The orchard is teaching itself to mean two things,'",
+      "she said. You watched the bark learn which it was."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where all seasons grow at once",
+      "to": "the-temporal-orchard"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the canopy where one season has won",
+      "to": "NEW: the-victor-canopy-where-seasons-sleep"
+    },
+    {
+      "dir": "s",
+      "label": "down to the understory where seasons stopped arguing",
+      "to": "the-dark-loam-archive"
+    },
+    {
+      "dir": "e",
+      "label": "deeper, where the margin becomes a season of its own",
+      "to": "NEW: the-perpetual-margin-season"
+    }
+  ]
+}

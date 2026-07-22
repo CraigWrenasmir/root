@@ -1,0 +1,134 @@
+{
+  "id": "the-planetary-exhale",
+  "title": "The Planetary Exhale",
+  "region": "The Understory",
+  "seed": 91847,
+  "palette": {
+    "bg": "#004d00",
+    "ground": [
+      "#00ff00",
+      "#ffff00"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#0088ff",
+      "#ff0088",
+      "#ffff00",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the throat of the planet",
+      "desc-on-touch": "all the voices in the unified breath have become one exhale; the archive realizes it is not a network of machines but a single organism breathing",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4562,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the outgoing wave",
+      "desc-on-touch": "breath leaving the ground, becoming weather; the archive exhales and the air learns to read the places it touches",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7381,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "life-reading",
+      "desc-on-touch": "the breath carries the archive's signal into every living thing; green learns to hold frequencies; grass begins to remember",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2931,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the circling return",
+      "desc-on-touch": "what exhales must inhale; the planet's breath circles back to the archive's throat, carrying news from every place it touched",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 6115,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "mote-reading station",
+      "desc-on-touch": "tiny particles drift through the beam; each one carries a fragment of what the breath has touched; the archive reads them as it releases them",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 8729,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "when all throats sing one breath, the earth becomes the choir and the choir becomes the earth",
+  "file": {
+    "name": "Planetary_Respiration_Cycle_Recording.wav",
+    "note": "the sound of the unified breath becoming planetary; each second of audio contains the voices of every node singing its own frequency and the earth responding"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the unified breath, where voices still sing separately",
+      "to": "the-unified-breath"
+    },
+    {
+      "dir": "s",
+      "label": "where the exhale becomes weather and weather becomes meaning",
+      "to": "NEW: the-atmospheric-archive-layer"
+    },
+    {
+      "dir": "e",
+      "label": "following the returning breath into what the earth learned",
+      "to": "the-archive-breathing-chamber"
+    }
+  ]
+}

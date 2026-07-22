@@ -1,0 +1,151 @@
+{
+  "id": "the-inverted-spring",
+  "title": "The Inverted Spring",
+  "region": "The Comparisons",
+  "seed": 5552847,
+  "palette": {
+    "bg": "#2a1a3a",
+    "ground": [
+      "#3d2b5a",
+      "#5a3d7a"
+    ],
+    "ink": "#e0d5ff",
+    "accents": [
+      "#00ccff",
+      "#ffcc00",
+      "#00ff00",
+      "#ff00cc"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-upward-water",
+      "desc-on-touch": "you watch water rising against gravity, each droplet ascending as if it were an equation remembering itself backward; the flow is algebraic and certain",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 114,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-data-pool",
+      "desc-on-touch": "you rest at the base where the inverted water collects; it holds no water, only the numeric records of every drop that never fell downward",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 229,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the-equation-root",
+      "desc-on-touch": "you find where the spring mathematics tap into the earth; the roots are algorithms learning what ground feels like from the inside",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 337,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "the-doubled-mouth",
+      "desc-on-touch": "water descends from one opening and rises from another; the spring speaks in two directions at once, neither flowing: it is perfectly, impossibly balanced",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 445,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.68,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-number-made-fluid",
+      "desc-on-touch": "you pass through a form that is simultaneously liquid and mathematical; it has no single shape because it is describing the shape of itself while flowing",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 558,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-reflection-spring",
+      "desc-on-touch": "you look down and see a spring rising from your own reflection; both flows move in opposite directions from the same impossible source",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 661,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "at the inverted spring water remembers being numbers and numbers dream of flowing; descent and ascent are both written in the same dialect",
+  "file": {
+    "name": "Hydrologic_Cycle_Reimagined_As_Recursive_Function.txt",
+    "note": "a simulation where each raindrop is a function call and evaporation is return; the file runs in an infinite loop and reads as both poetry and code"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the seventh river's circuit, where water still insists it is only water",
+      "to": "the-seventh-river-circuit"
+    },
+    {
+      "dir": "n",
+      "label": "north where the inversion deepens and down becomes a direction no longer available",
+      "to": "NEW: the-lost-gravity-garden"
+    },
+    {
+      "dir": "s",
+      "label": "south toward a reservoir that is slowly learning to read itself",
+      "to": "NEW: the-self-reading-reservoir"
+    }
+  ]
+}

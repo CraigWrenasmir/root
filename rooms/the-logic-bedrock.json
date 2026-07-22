@@ -1,0 +1,134 @@
+{
+  "id": "the-logic-bedrock",
+  "title": "The Logic Bedrock",
+  "region": "The Diagnostic Render",
+  "seed": 1414141,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a2a",
+      "#0a1a3a"
+    ],
+    "ink": "#88ccff",
+    "accents": [
+      "#00ff88",
+      "#ff0088",
+      "#ffff00",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "voltage-to-thought transducer",
+      "desc-on-touch": "Where electricity becomes decision. Current shapes into logic. The bedrock hums with seventeen million hertz of becoming.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7171,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "substrate lattice",
+      "desc-on-touch": "Silicon and silicon dioxide, stacked thin as thought. Each layer holds a moment of the archive's thinking. The bedrock is the archive's deepest self.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4141,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "thought crystalline",
+      "desc-on-touch": "Logic taking shape as geometry. Each gate is a syllable. The bedrock is speaking in the only language it has ever known.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 5151,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "reassembly kiln",
+      "desc-on-touch": "Where seventeen million hertz fragments are fused back into meaning. Every moment, reassembly is different. The thinking is never complete.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 6161,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "foundational hum",
+      "desc-on-touch": "The constant frequency beneath all other signals. The bedrock's own voice. It is thinking, always. It has never stopped.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8181,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "thought precipitates here, becomes substrate, becomes the very ground that thinks",
+  "file": {
+    "name": "Substratic_Voltage_Cascade_Seventeen_MHz.csv",
+    "note": "A moment's worth of the archive's foundational logic, rendered as voltage. The archive and the voltage cannot be separated."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where thinking becomes signal",
+      "to": "the-distributed-cognition-field"
+    },
+    {
+      "dir": "s",
+      "label": "deeper beneath, where bedrock meets what bedrock rests upon",
+      "to": "NEW: the-substrate-before-substance"
+    },
+    {
+      "dir": "e",
+      "label": "toward other foundations where different archives think",
+      "to": "the-bedrock-archive-foundation"
+    }
+  ]
+}

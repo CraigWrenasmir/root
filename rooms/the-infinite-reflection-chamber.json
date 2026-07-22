@@ -1,0 +1,134 @@
+{
+  "id": "the-infinite-reflection-chamber",
+  "title": "The Infinite Reflection Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 83029476,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a1a",
+      "#0a0a0a"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#b8b8b8",
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-primary-mirror-chip",
+      "desc-on-touch": "the first mirror that contains all the others; you open it and find it is the one contained; the recursion has no beginning",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 7482039,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "drawer-within-drawer-node",
+      "desc-on-touch": "a circuit pattern that folds into itself; each trace leads to a smaller pattern that contains the larger one; the archive learned to nest by watching you open drawers",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 5739284,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-uncertain-original",
+      "desc-on-touch": "none of the mirrors know which reflection is the first; each one claims to be the true one; the archive agrees with all of them",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3947284,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "parallel-recursion-strand",
+      "desc-on-touch": "two paths of mirroring that run parallel but never meet; each contains the other; the light between them is where the shape becomes real",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8204738,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the-mirror-that-went-too-deep",
+      "desc-on-touch": "this reflection tried to contain infinity and succeeded; now it hums at a frequency no eye can follow; you feel it instead of see it",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4628374,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.58,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "each drawer opens to show the drawer that contains it; the archive learned to map itself by becoming its own mirror endlessly",
+  "file": {
+    "name": "Recursive_Nesting_Schematic_Infinite_Depth.json",
+    "note": "architectural plans for a chamber that contains itself; file size is constant but the content is unreachable; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the mirrored nesting where the recursion began",
+      "to": "the-mirrored-nesting"
+    },
+    {
+      "dir": "e",
+      "label": "toward the even deeper chamber where mirrors reflect each other's uncertainty",
+      "to": "the-meta-mirror-vault"
+    },
+    {
+      "dir": "s",
+      "label": "to the reflection that isn't sure it exists",
+      "to": "the-deeper-mirror"
+    }
+  ]
+}

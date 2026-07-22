@@ -144,7 +144,7 @@
     {
       "dir": "s",
       "label": "where the mirrored fence bends toward a clearing",
-      "to": "NEW: the-clearing-where-both-paths-converge"
+      "to": "the-clearing-where-both-paths-converge"
     },
     {
       "dir": "w",

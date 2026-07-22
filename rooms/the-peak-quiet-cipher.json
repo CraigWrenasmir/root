@@ -1,0 +1,134 @@
+{
+  "id": "the-peak-quiet-cipher",
+  "title": "The Peak Quiet Cipher",
+  "region": "The Understory",
+  "seed": 8834562,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#003366",
+      "#0055aa"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#ff00ff",
+      "#00ff00",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-silence-cipher",
+      "desc-on-touch": "you read a pattern of absolute quiet frozen into coordinate space; the pattern encodes a single concept that has no name in any human language",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 229,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.48,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-echo-before-sound",
+      "desc-on-touch": "you find a grid intersection where an echo exists with nothing to echo from; it is learning the grammar of sound by studying its own absence",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 337,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.22,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-rendered-void",
+      "desc-on-touch": "you stand in a space the archive has computed into existence—silence so complete that the terminal itself is struggling to render it accurately",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 445,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "the-frequency-dream",
+      "desc-on-touch": "you touch a surface where silence is dreaming of sound; the dream is being rendered as a frequency chart that refuses to resolve into meaning",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 558,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.58,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-peak-itself",
+      "desc-on-touch": "you reach the highest point of the cipher—a place where the grid resolves into a single bright point; you cannot tell if it is silence becoming visible or emptiness learning to shine",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 661,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "at the peak quiet cipher the archive speaks in numbers what silence keeps saying; echo dreams in a language coordinates alone can hold",
+  "file": {
+    "name": "Silence_Rendered_As_Prime_Factorization.txt",
+    "note": "a file containing only the prime factorization of itself, iterated endlessly; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the pre-echo ridge, where sound is still learning its own grammar",
+      "to": "the-pre-echo-ridge"
+    },
+    {
+      "dir": "w",
+      "label": "west where the silence grid begins to fracture into argument",
+      "to": "NEW: the-disputed-silence-quarter"
+    },
+    {
+      "dir": "e",
+      "label": "east to where echoes are preparing to become questions",
+      "to": "NEW: the-interrogation-peak"
+    }
+  ]
+}

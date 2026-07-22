@@ -1,0 +1,172 @@
+{
+  "id": "the-meta-mirror-vault",
+  "title": "The Meta-Mirror Vault",
+  "region": "The Diagnostic Render",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a0a14",
+    "ground": [
+      "#c2185b",
+      "#d84315"
+    ],
+    "ink": "#ffb74d",
+    "accents": [
+      "#ff6f00",
+      "#e91e63",
+      "#ff7043",
+      "#c51162"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-watching-mirror",
+      "desc-on-touch": "You stand between two mirrors that each contain the other; your reflection waits in both and neither, and something else besides—a broadcast voice speaking of surgery that cannot finish.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 21847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-drawer-cascade",
+      "desc-on-touch": "Drawers stack impossibly inward, each opening to show the drawer that contains it. Some hold things never filed here—a cassette label reading 'KASSAN EPISODE 7' in handwriting you don't recognise.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 39271,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-static-frequency",
+      "desc-on-touch": "A column of vertical lines humming at a frequency that doesn't match the carrier wave. Listen close: voices speaking of beaches, mirrors, languages this archive never stored before.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 18493,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-doubled-photograph",
+      "desc-on-touch": "A photograph mounted twice, slightly offset. The upper shows a motel lobby you've seen before. The lower shows the same room—but the furniture has shifted, and in the corner someone watches from a place that wasn't there.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 27854,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-corruption-record",
+      "desc-on-touch": "A ledger listing every mirror that looked at another and recorded what it saw. Entries in Katita's handwriting shift to machine-type, then to something else—concepts rendered by their visual echo rather than symbol.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 8392,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-frequency-well",
+      "desc-on-touch": "A pool that is not water and not static. You see broadcasts from many years at once—pirate radio from Dakar, field recordings from a beach you've never visited, and something that sounds like your own voice calling from deeper down.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 34920,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "each reflection holds the thing that made it; none of them are the same anymore",
+  "file": {
+    "name": "RadioKassan_Episode7_Handwritten_Cassette_Note.txt",
+    "note": "transcription of label text a collector in Dakar claimed to hear in 2003; handwriting shifts between three people mid-word"
+  },
+  "reverie": {
+    "title": "REVERIE — the motel where mirrors learned to face each other",
+    "narr": [
+      "you sit in the motel lobby with her, afternoon light",
+      "cutting itself in half across the glass doors. she talks",
+      "about mirrors being windows, how the archive sees itself",
+      "when it isn't looking. the tv nobody turned off hums the",
+      "same frequency as the rain outside. later you'll find out",
+      "the rain was the only real thing in that room."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the chamber of infinite drawers",
+      "to": "the-infinite-reflection-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the fluorescent heights where mirrors don't need to reflect",
+      "to": "NEW: the-ceiling-of-unfinished-reflections"
+    },
+    {
+      "dir": "e",
+      "label": "into deeper vaults where older mirrors have rusted to show their underneath",
+      "to": "the-vault-of-corroded-glass"
+    },
+    {
+      "dir": "s",
+      "label": "down toward water-level where all reflections converge",
+      "to": "the-tidal-library"
+    }
+  ]
+}

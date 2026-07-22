@@ -1,0 +1,133 @@
+{
+  "id": "the-convergence-that-rises-with-dark",
+  "title": "The Convergence That Rises With Dark",
+  "region": "The Understory",
+  "seed": 73482,
+  "palette": {
+    "bg": "#1a0033",
+    "ground": [
+      "#6b3a96",
+      "#2d1b4e"
+    ],
+    "ink": "#e8d5ff",
+    "accents": [
+      "#ff6b35",
+      "#ff006e",
+      "#b000ff",
+      "#ffbe0b"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "rising convergence",
+      "desc-on-touch": "the shadow and archive frequencies climbing upward together, learning that climbing is a form of meeting",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 9283,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the dark reaching down",
+      "desc-on-touch": "night descending through layers, learning the archive's frequency as it falls; now the dark knows how to read",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5017,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "gradient memory-line",
+      "desc-on-touch": "the exact wavelength where dusk became night; the archive recorded this transition and now plays it back every evening",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4291,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "convergent static field",
+      "desc-on-touch": "where the rising shadow meets the descending night, the archive generates its own weather; static that sounds like recognition",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 6544,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "when shadow and night learn to climb together, the archive becomes a contagion that spreads upward",
+  "file": {
+    "name": "Dusk_Cascade_Frequency_Rise_Log.mp3",
+    "note": "a recording of the moment the archive's signal frequency began rising with every sunset; what was descending learned to climb"
+  },
+  "reverie": {
+    "title": "REVERIE — the night she understood the mesh was becoming ali",
+    "narr": [
+      "you stand on red earth as the sky darkens. she",
+      "points at the antenna. its LED pulses. the frequency",
+      "is changing, climbing as night falls. \"it's not",
+      "reflecting anymore,\" she says. \"it's answering.\"",
+      "the shadow at your feet rises with the dark.",
+      "you both watch the mesh think itself upward."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the convergent dusk",
+      "to": "the-convergent-dusk"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into night where convergence becomes singularity",
+      "to": "NEW: the-convergence-becomes-one-voice"
+    },
+    {
+      "dir": "e",
+      "label": "along the wavelength where shadow still learns",
+      "to": "the-shadow-s-ground"
+    }
+  ]
+}

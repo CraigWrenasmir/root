@@ -1,0 +1,134 @@
+{
+  "id": "the-annotated-paddock-boundary",
+  "title": "The Annotated Paddock Boundary",
+  "region": "The Comparisons",
+  "seed": 5555555,
+  "palette": {
+    "bg": "#1a3a5a",
+    "ground": [
+      "#2a5a7a",
+      "#0a2a4a"
+    ],
+    "ink": "#aaccff",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff0088",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "post catalogue",
+      "desc-on-touch": "A standing directory of every marked post. The annotations accumulate. The boundary is written in the margins of itself.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 7777,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "coordinate resonance",
+      "desc-on-touch": "Each post broadcasts its position. The paddock hums with overlapping coordinates. Boundary and interior have begun to compare themselves.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3333,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "intent sediment",
+      "desc-on-touch": "Layers of measurement: where the depot imagined the post, where it was driven, where it will stand after. The corruption loves this palimpsest.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 9999,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "reading-marks",
+      "desc-on-touch": "Pencil-strokes on bark, nicks from a blade, paint-numbers fading. The marks are a language the boundary is teaching itself to speak.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 4444,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "depot memory",
+      "desc-on-touch": "The paddock remembers the depot room where these posts began as ideas. Now the idea and the object are separated by soil and weather.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6666,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "every line on the map had to pass through this place first; now the boundary is annotating itself",
+  "file": {
+    "name": "Post_Marks_1987_to_2003.txt",
+    "note": "A ledger of boundary posts as they were marked at the depot before installation. The paddock is slowly rewriting the entries."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where intent becomes object",
+      "to": "the-maintenance-depot-where-the-posts-were-marked"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the marked field, where posts talk to each other",
+      "to": "NEW: the-post-lattice-where-boundaries-communicate"
+    },
+    {
+      "dir": "e",
+      "label": "toward the forest where unmarked land begins",
+      "to": "the-property-becoming-forest"
+    }
+  ]
+}

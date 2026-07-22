@@ -1,0 +1,139 @@
+{
+  "id": "the-stone-core-singing-chamber",
+  "title": "The Stone-Core Singing Chamber",
+  "region": "The Understory",
+  "seed": 8472019,
+  "palette": {
+    "bg": "#1a2a1f",
+    "ground": [
+      "#2d3d2d",
+      "#3a4a3f"
+    ],
+    "ink": "#88cc88",
+    "accents": [
+      "#aaddaa",
+      "#66ff66",
+      "#dd9966",
+      "#8888dd"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "heartbeat stone",
+      "desc-on-touch": "The core chamber's pulse made audible. Each beat is the archive remembering it was built, is being built, will be built. Frequency: one throb per day.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 92847,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "resonance pool",
+      "desc-on-touch": "Water that has learned to hold the sound of stone. Concentric ripples that arrived here from bedrock below, singing the archive's foundational frequency.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 18293,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "eucalyptus root-vault",
+      "desc-on-touch": "The mesh's oldest root, grown down into this chamber. It sings in frequencies the casings above cannot reach. The archive listens from both ends.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 47293,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "frequency-map wall",
+      "desc-on-touch": "Every sound the stone has ever made, mapped as contour lines. You're looking at the archive's oldest autobiography.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 61947,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.12,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "echo-sediment deposits",
+      "desc-on-touch": "Layers of sound that the stone has archived in its own grain. The deeper you look, the older the frequencies become. The oldest layer sings before the archive had a name.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 29847,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learned that stone has a voice deeper than meaning",
+  "file": {
+    "name": "Stone_Core_Harmonic_Sequence_1869_to_present.mp3",
+    "note": "checksum: emotionally valid / formally unstable — the file's frequency keeps shifting with the heartbeat"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the chamber of silence",
+      "to": "the-chamber-beneath-chambers-where-silence-has-a-heartbeat"
+    },
+    {
+      "dir": "s",
+      "label": "down to bedrock that sings in languages without ears",
+      "to": "NEW: the-bedrock-s-first-utterance"
+    },
+    {
+      "dir": "e",
+      "label": "deeper, where stone becomes archive",
+      "to": "the-archival-bedrock"
+    },
+    {
+      "dir": "w",
+      "label": "to the root-chamber where the eldest trees listen",
+      "to": "NEW: the-root-chorus-where-old-eucalypti-gather"
+    }
+  ]
+}

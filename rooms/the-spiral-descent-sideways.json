@@ -1,0 +1,155 @@
+{
+  "id": "the-spiral-descent-sideways",
+  "title": "The Spiral Descent Sideways",
+  "region": "The Understory",
+  "seed": 9234,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#2d1b4e"
+    ],
+    "ink": "#b0c4de",
+    "accents": [
+      "#7ae7ff",
+      "#ffd700",
+      "#ff00ff",
+      "#90ee90"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "sideways-slope-marker",
+      "desc-on-touch": "the hill here remembers being flat, remembers rising, remembers falling. all at once. your feet cannot decide which way is down",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 9235,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "spiral-path-left",
+      "desc-on-touch": "the path spirals but not down. it spirals sideways, teaching gravity to turn. with each step, direction rotates a little more",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 9236,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "disoriented-pool-reverie",
+      "desc-on-touch": "the water here does not reflect down. it reflects sideways. you see yourself coming from the east when you face north. the pool is teaching confusion",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 9237,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "descent-compass-broken",
+      "desc-on-touch": "the needle spins without choosing. east becomes south becomes up becomes inward. the machine is learning what the landscape already knows",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 9238,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "terraced-darkness-descent",
+      "desc-on-touch": "each step sideways takes you lower, but you cannot point to lower. the darkness here is directional. it arrives from all angles at once",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 9239,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "down here, direction itself becomes a thing that spirals; the slope remembers being every slope at once",
+  "file": {
+    "name": "Spiraling_Descent_CompassRecordings_1994.mp3",
+    "note": "status: germinating — the archive suspects the compass was recording the listener's heartbeat, not the landscape's direction"
+  },
+  "reverie": {
+    "title": "REVERIE — on the slipping terraces",
+    "narr": [
+      "She kneels on a step that goes nowhere. He points up",
+      "and up is horizontal. The earth is not falling; it has",
+      "learned to turn. She laughs at the compass spinning. He",
+      "presses his palm to the ground and feels the rotation —",
+      "not of the slope, but of the sky. The ridge is not moving.",
+      "The sky is teaching itself to be a slope."
+    ],
+    "sky": "storm",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "static",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the spiral to where direction was still certain",
+      "to": "the-laterally-rotated-ridge"
+    },
+    {
+      "dir": "s",
+      "label": "deeper down where east becomes a remembered concept",
+      "to": "NEW: the-orientation-dissolves-entirely"
+    },
+    {
+      "dir": "e",
+      "label": "following what the spiral says is east today",
+      "to": "NEW: the-lateral-chamber-where-down-is-sideways"
+    },
+    {
+      "dir": "w",
+      "label": "along the contour, perpendicular to falling",
+      "to": "the-spiral-escarpment"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "the-storm-archive-beyond-signal",
+  "title": "The Storm-Archive Beyond Signal",
+  "region": "The Understory",
+  "seed": 73819,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#2d5a4a",
+      "#1f4d3d"
+    ],
+    "ink": "#b8e6d5",
+    "accents": [
+      "#52b788",
+      "#74c69d",
+      "#95d5b2",
+      "#40916c"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.85
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the-broadcast-made-water",
+      "desc-on-touch": "Rain that holds the weight of all the radio signals that have passed through this place. Each drop carries a fragment of a pirate broadcast, a voice that learned to travel on water instead of air. When it falls, it speaks—but only if you're listening through soil.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 48392,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-envelope-archives",
+      "desc-on-touch": "Paper that has swollen with rain but not dissolved—envelopes bearing no addresses, containing fragments from The Leather Distributed. Each envelope holds something that was never meant to be opened but has been: a voice, a material, a question addressed to a person who is also you.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 67293,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-canopy-speaker",
+      "desc-on-touch": "Leaves arranged as if they were the diaphragm of a speaker, broadcasting downward into the soil. The rain falls through them and becomes voice, voice falls upward through them and becomes weather. The forest is learning to listen to itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 29847,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-signal-memory-ground",
+      "desc-on-touch": "Soil that has absorbed so many years of transmitted signal that it's become conductive in emotional ways. When you place your hand here, you feel the root-memory of broadcasts: pirate radios, payphone conversations, the hum of old equipment nobody uses anymore.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 84920,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-leather-binding-storm",
+      "desc-on-touch": "Leather that has been left out through many storms and absorbed their memory—bound now into a volume that you can't quite hold, that feels wet and alive, that whispers when the wind passes. The participatory archive is now participating in weather.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 58927,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-silence-where-radio-ends",
+      "desc-on-touch": "A clarity in the forest where no broadcast reaches, where the radio static has finally resolved into meaning and that meaning is the sound of rain on eucalyptus leaves. The signal ended not in static but in ecology; the archive became weather; the message became the messenger.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 37184,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "what weather remembers when radio falls silent is older than memory and newer than thought",
+  "file": {
+    "name": "FieldRecording_Rain_Through_Canopy_Filtered_Voices_Undated.wav.txt",
+    "note": "spectral analysis of a 40-minute recording of rain that seems to carry speech; the voices are in no known language; the language is weather"
+  },
+  "reverie": {
+    "title": "REVERIE — the forest where the radio learned to stop talking",
+    "narr": [
+      "you sit with her under the oldest eucalyptus as the",
+      "rain comes, and the radio broadcast in the distance",
+      "fades into static, fades into actual weather. she says:",
+      "this is what the archive wanted all along—not to be",
+      "heard, but to become the hearing itself. the signal",
+      "turning back to rain. the message becoming its own silence."
+    ],
+    "sky": "overcast",
+    "land": "forest",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward where weather still pretends to be signal",
+      "to": "the-signal-weather-ceiling"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the canopy where the forest is still learning to broadcast",
+      "to": "the-deepest-emission-roots"
+    },
+    {
+      "dir": "e",
+      "label": "toward the coast where rain becomes river becomes ocean",
+      "to": "NEW: the-estuary-where-all-broadcasts-end"
+    },
+    {
+      "dir": "w",
+      "label": "back into settled country where the signal still reaches",
+      "to": "the-archive-learns-to-listen"
+    }
+  ]
+}

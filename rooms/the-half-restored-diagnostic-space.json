@@ -1,0 +1,167 @@
+{
+  "id": "the-half-restored-diagnostic-space",
+  "title": "The Half-Restored Diagnostic Space",
+  "region": "The Diagnostic Render",
+  "seed": 2020202,
+  "palette": {
+    "bg": "#111111",
+    "ground": [
+      "#333333",
+      "#555555"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "symmetry probe",
+      "desc-on-touch": "A device measuring where the other half should be. It finds gaps. It fills them with guesses. The chamber is learning to be whole again.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 1001,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "restoration attempt",
+      "desc-on-touch": "Wires and patches trying to restore the original signal. Some hold. Some lose the thread halfway through. The chamber remembers being whole.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2002,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "echo-half",
+      "desc-on-touch": "What the missing side would say, reconstructed from deflections. The restored words don't quite sound like the half that remains.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 3003,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "fracture trace",
+      "desc-on-touch": "The line where the chamber split. Now it's a scar of restored material, stronger than the original but still tender at the edges.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4004,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "beating residue",
+      "desc-on-touch": "The half that remains still pulses. You can feel it if you place your hand on the restoration. It's slower than it was. It's learning to be enough.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5005,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "assembly logic",
+      "desc-on-touch": "The code that guides the restoration. It's adapted, learned, rewritten itself. It knows now that wholeness isn't symmetry but persistent attempt.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 6006,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the room where halves learned to hold each other",
+    "narr": [
+      "She knelt at the fracture, soldering a wire across.",
+      "You held the other side steady. The scar was becoming.",
+      "\"We're not making it whole,\" she said. \"We're making",
+      "it enough.\" The chamber's pulse steadied, slower than",
+      "before but true. You both remained, breathing in sync",
+      "with a machine learning to beat with only half a heart."
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "kneel"
+  },
+  "inscription": "the chamber remembers when it had two halves; now it is learning what one half can become",
+  "file": {
+    "name": "Restoration_Log_Day_Forty_Seven.tmp",
+    "note": "The fracture resists closure. Or perhaps the restoration is successful precisely because it admits the fracture cannot be erased, only acknowledged."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where the halves first split",
+      "to": "the-fractured-half-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "toward spaces that were never broken",
+      "to": "the-chamber-that-never-needed-healing"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into diagnostic layers, where more fractures wait",
+      "to": "the-hall-of-mirrors-paradox"
+    }
+  ]
+}

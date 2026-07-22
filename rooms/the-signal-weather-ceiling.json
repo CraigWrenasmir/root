@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "north where the weather continues beyond any signal",
-      "to": "NEW: the storm's archive, what weather remembers when radio falls silent"
+      "to": "the-storm-archive-beyond-signal"
     },
     {
       "dir": "e",

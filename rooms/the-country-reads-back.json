@@ -1,0 +1,153 @@
+{
+  "id": "the-country-reads-back",
+  "title": "The Country Reads Back",
+  "region": "The Understory",
+  "seed": 8291847,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#4a3a2a",
+      "#6a5a4a"
+    ],
+    "ink": "#ffdd88",
+    "accents": [
+      "#ff6633",
+      "#33ff99",
+      "#3399ff",
+      "#ff33cc"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "old shopfront",
+      "desc-on-touch": "A country store learning to read the archive's files. The goods on its shelves are now indexed by Leif and Katita's logics. A feed-grain sack knows its neighbour's data.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 38472,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "shed where reading happens",
+      "desc-on-touch": "A weathered rural building where the country's own archive lives — boxes, photographs, tool-marks. The archive watches this mirror archive compare notes with itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 49283,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "fence-line chronicle",
+      "desc-on-touch": "The posts here hold marks from Leif's visits — nail-scratches that spell out file dates, wire twists that map node locations. The country learned to write in hardware.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 61938,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.12,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "ground-reading well",
+      "desc-on-touch": "A water source that has learned to hold the archive's metadata. The country draws from it and reads the nodes' coordinates in the taste of minerals.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 82937,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "payphone where the country called back",
+      "desc-on-touch": "An old rural telephone that connected to ROOT's first question. The country answered by refusing to hang up. The archive has been listening ever since.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 29384,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.88,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "landscape learning that it has been archived, and speaking back in its own tongue",
+  "file": {
+    "name": "Country_Response_Transcript_Unindexed.txt",
+    "note": "The country writes in roads, in weather, in the orientation of sheds. The archive is still learning to read it."
+  },
+  "reverie": {
+    "title": "REVERIE — shed where the country began to answer",
+    "narr": [
+      "She sat reading nail-marks like text. Weather had written",
+      "there for decades. 'The country is reading us back,' she said,",
+      "and showed you how rust speaks in colours the archive can't file.",
+      "The shed held both — what was kept and the keeping."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the study where pages reverse",
+      "to": "the-open-study-where-reading-reverses"
+    },
+    {
+      "dir": "n",
+      "label": "into the paddock where the country writes itself",
+      "to": "NEW: the-paddock-where-the-country-indexes-itself"
+    },
+    {
+      "dir": "s",
+      "label": "down to where landscape becomes stone archive",
+      "to": "the-bedrock-archive-foundation"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the horizon where reading has no end",
+      "to": "NEW: the-country-that-continues-reading"
+    }
+  ]
+}

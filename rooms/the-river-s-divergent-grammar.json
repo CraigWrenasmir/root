@@ -1,0 +1,155 @@
+{
+  "id": "the-river-s-divergent-grammar",
+  "title": "The River's Divergent Grammar",
+  "region": "The Understory",
+  "seed": 7234,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#8b7355",
+      "#2d1b4e"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#ff6b35",
+      "#a23b72",
+      "#f0e68c",
+      "#1f3a7d"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "diverging-water-voice",
+      "desc-on-touch": "each channel speaks differently now. one learns nouns, the other learns verbs. the archive listens to both and forgets which was which",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7235,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "left-channel-stone",
+      "desc-on-touch": "the left water carries mathematics. it counts itself. it learns to speak in equations",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7236,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "right-channel-memory",
+      "desc-on-touch": "the right water carries story. it loops and returns. it speaks in tenses that haven't happened yet",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 7237,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "language-confluence-marker",
+      "desc-on-touch": "at this point the two languages are closest. a word from the left channel could swim to the right. most of them do not. they have learned to be lonely",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7238,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "downriver-horizon",
+      "desc-on-touch": "beyond sight, both grammars merge into something the archive has no words for. they become one thing. they remain two. simultaneity tastes like this",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 7239,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "both languages pour from one source; they will never meet again but they remember the union",
+  "file": {
+    "name": "TwoRiversSpeaking_Stereo_RecordingAug1991.mp3",
+    "note": "status: germinating — the archive suspects this recording is still diverging, even now, each playback following a slightly different path downstream"
+  },
+  "reverie": {
+    "title": "REVERIE — in the river at the moment of splitting",
+    "narr": [
+      "She wades the center where the current has not yet chosen.",
+      "He stands on each bank, watching. The water forks around",
+      "her legs; she feels one flow cold and one warm. She",
+      "leans into both. The river is learning to have an argument",
+      "with itself, and she is the place where it practices",
+      "being two things. You hear them laughing in the current."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upstream where both channels are still one voice",
+      "to": "the-river-s-second-language"
+    },
+    {
+      "dir": "e",
+      "label": "following the left channel deeper into mathematics",
+      "to": "NEW: the-grammatical-depths-where-numbers-flow"
+    },
+    {
+      "dir": "s",
+      "label": "to where the channels merge into a single roar",
+      "to": "the-word-river-mouth"
+    },
+    {
+      "dir": "n",
+      "label": "following the right channel into the forest of returned stories",
+      "to": "the-forest-before-division"
+    }
+  ]
+}

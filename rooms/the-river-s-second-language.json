@@ -106,7 +106,7 @@
     {
       "dir": "e",
       "label": "downstream where both channels learn what they become separately",
-      "to": "NEW: the-river-s-divergent-grammar"
+      "to": "the-river-s-divergent-grammar"
     },
     {
       "dir": "w",

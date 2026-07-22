@@ -106,7 +106,7 @@
     {
       "dir": "w",
       "label": "deeper upstream, where even the source has sources",
-      "to": "NEW: where-spring-learns-to-flow-upward"
+      "to": "where-spring-learns-to-flow-upward"
     },
     {
       "dir": "n",

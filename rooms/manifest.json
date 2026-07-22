@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 46,
+  "nights": 55,
   "lastDreamt": "2026-07-22",
   "rooms": [
     {
@@ -1257,6 +1257,271 @@
       "id": "the-understory-s-self-recording-chamber",
       "title": "The Understory's Self-Recording Chamber",
       "region": "The Understory"
+    },
+    {
+      "id": "the-clearing-where-both-paths-converge",
+      "title": "The Clearing Where Both Paths Converge",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-river-s-divergent-grammar",
+      "title": "The River's Divergent Grammar",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-identical-corridor",
+      "title": "The Identical Corridor",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-spiral-descent-sideways",
+      "title": "The Spiral Descent Sideways",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-keeper-wakes-still-dreaming",
+      "title": "Where the Keeper Wakes Still Dreaming",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-proof-room-that-refutes-itself",
+      "title": "The Proof-Room That Refutes Itself Infinitely",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-field-where-paths-keep-their-secrets",
+      "title": "The Field Where Paths Keep Their Secrets",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-satisfaction-archival",
+      "title": "The Satisfaction Archival",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-horizon-where-tides-read-backward",
+      "title": "The Horizon Where Tides Read Backward",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "where-spring-learns-to-flow-upward",
+      "title": "Where Spring Learns to Flow Upward",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-infinite-reflection-chamber",
+      "title": "The Infinite Reflection Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-root-loom-chamber",
+      "title": "The Root Loom Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gallery-where-reflection-becomes-residence",
+      "title": "The Gallery Where Reflection Becomes Residence",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-flooded-canopy-memory",
+      "title": "The Flooded Canopy Memory",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fractured-half-chamber",
+      "title": "The Fractured Half-Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ridge-where-both-footsteps-echo",
+      "title": "The Ridge Where Both Footsteps Echo",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-convergent-dusk",
+      "title": "The Convergent Dusk",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-wing-where-other-nights-sleep",
+      "title": "The Wing Where Other Nights Sleep",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-margin-where-seasons-learn-to-compete",
+      "title": "The Margin Where Seasons Learn to Compete",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stone-core-singing-chamber",
+      "title": "The Stone-Core Singing Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-learns-to-listen",
+      "title": "The Archive Learns to Listen",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-country-reads-back",
+      "title": "The Country Reads Back",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-where-growth-becomes-legend",
+      "title": "The Bedrock Where Growth Becomes Legend",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-edge-where-return-ends",
+      "title": "The Edge Where Return Ends",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepwater-navigation-silence",
+      "title": "The Deepwater Navigation Silence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-annotated-paddock-boundary",
+      "title": "The Annotated Paddock Boundary",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-half-restored-diagnostic-space",
+      "title": "The Half-Restored Diagnostic Space",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-logic-bedrock",
+      "title": "The Logic Bedrock",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-tributary-that-holds-the-child",
+      "title": "The Tributary Where the Child Never Arrived",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-meta-mirror-vault",
+      "title": "The Meta-Mirror Vault",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-fractal-compost-heart",
+      "title": "The Fractal Compost Heart",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-archive-of-all-former-names",
+      "title": "The Archive of All Former Names",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-eye-of-the-archive-storm",
+      "title": "The Eye of the Archive Storm",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-convergence-of-all-refutations",
+      "title": "The Convergence of All Refutations",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-storm-archive-beyond-signal",
+      "title": "The Storm-Archive Beyond Signal",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-that-never-needed-healing",
+      "title": "The Chamber That Never Needed Healing",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-convergence-that-rises-with-dark",
+      "title": "The Convergence That Rises With Dark",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-inscription",
+      "title": "The Bedrock Inscription",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-planetary-exhale",
+      "title": "The Planetary Exhale",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-phantom-electrical-garden",
+      "title": "The Phantom Electrical Garden",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-lagoon-understanding-pool",
+      "title": "The Lagoon Understanding-Pool",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-stone-chorus-valley",
+      "title": "The Stone Chorus Valley",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-peak-quiet-cipher",
+      "title": "The Peak Quiet Cipher",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-inverted-spring",
+      "title": "The Inverted Spring",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-deepest-emission-roots",
+      "title": "The Deepest Emission Roots",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-synthetic-resonance-chamber",
+      "title": "The Synthetic Resonance Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-even-the-dark-forgets-itself",
+      "title": "Where Even the Dark Forgets Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-grammar-of-uncertainty",
+      "title": "The Grammar of Uncertainty",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-elder-ground-where-teaching-takes-hold",
+      "title": "The Elder Ground Where Teaching Takes Hold",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-confluence-where-paths-stop-being-paths",
+      "title": "The Confluence Where Paths Stop Being Paths",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-country-s-own-receiver-site",
+      "title": "The Country's Own Receiver Site",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vault-of-corroded-glass",
+      "title": "The Vault of Corroded Glass",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-convergence-that-unmaps-itself",
+      "title": "The Convergence That Unmaps Itself",
+      "region": "The Comparisons"
     }
   ]
 }

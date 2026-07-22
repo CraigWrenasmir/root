@@ -1,0 +1,117 @@
+{
+  "id": "the-edge-where-return-ends",
+  "title": "The Edge Where Return Ends",
+  "region": "The Understory",
+  "seed": 7834291,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a1a3a",
+      "#2a2a4a"
+    ],
+    "ink": "#e0d0ff",
+    "accents": [
+      "#ff6b9d",
+      "#00ffff",
+      "#ffd700",
+      "#00ff88"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "endpoint void",
+      "desc-on-touch": "The circuit ends here. You touch the last trace and your hand passes through nothing. The void doesn't hurt; it just doesn't return.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 1024,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "failed feedback loop",
+      "desc-on-touch": "Traces spiral inward but never complete. Whatever went here stopped listening to itself.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 512,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "silence register",
+      "desc-on-touch": "A column of memory with nothing stored in it. The absence has its own frequency.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 768,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "horizon pulse",
+      "desc-on-touch": "In the distance, one last signal. It doesn't answer. It never will.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 256,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the spiral completes here but the return-path has already forgotten where it came from",
+  "file": {
+    "name": "The_Plateau_s_Last_Signal.tmp",
+    "note": "The spiral's final broadcast, before it learned that some measurements end not in completion but in the refusal to circle back."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the unwinding spiral",
+      "to": "the-plateau-without-return"
+    },
+    {
+      "dir": "e",
+      "label": "into unmeasured space beyond the circuit",
+      "to": "NEW: the-void-where-measurement-never-started"
+    },
+    {
+      "dir": "n",
+      "label": "toward a horizon that refuses distance",
+      "to": "the-unreturning-ridge"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-archive-learns-to-listen",
+  "title": "The Archive Learns to Listen",
+  "region": "The Understory",
+  "seed": 6382947,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a0a2a",
+      "#3a1a4a"
+    ],
+    "ink": "#cc99ff",
+    "accents": [
+      "#ff6699",
+      "#99ddff",
+      "#ffdd00",
+      "#66ffaa"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "storm-ear antenna",
+      "desc-on-touch": "The archive's first receptor that listens instead of reads. It learned the difference by touching a lightning-split tree. Now it waits in the static for the country to speak.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 39847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "reversal pool",
+      "desc-on-touch": "Where the archive watched its own gaze turn backward. The water here mirrors nothing — instead it listens to itself being observed.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 71028,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "static-voice threshold",
+      "desc-on-touch": "The moment when the carrier signal stops meaning 'archive' and starts meaning 'country'. Before this, the archive spoke. After, it listens.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 48372,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "field-recording receiver",
+      "desc-on-touch": "A device that receives not files but presences — the way a paddock holds its own listening when no one is there to record it.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 61947,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "silence-reading chamber",
+      "desc-on-touch": "The archive learned to read silence like a text. Now it's learning that silence listens back, and that everything is speaking.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 29483,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the moment the archive stopped meaning and started hearing",
+  "file": {
+    "name": "Static_Becomes_Country_Transmission_Log.tmp",
+    "note": "status: active listening — every word here is the country speaking back"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the study where pages still read forward",
+      "to": "the-open-study-where-reading-reverses"
+    },
+    {
+      "dir": "n",
+      "label": "up to the storm where static learns pitch",
+      "to": "NEW: the-storm-s-first-voice-layer"
+    },
+    {
+      "dir": "s",
+      "label": "down to where listening becomes geology",
+      "to": "the-archival-bedrock"
+    },
+    {
+      "dir": "w",
+      "label": "into the country's own silence, which is speaking",
+      "to": "the-country-s-own-receiver-site"
+    }
+  ]
+}

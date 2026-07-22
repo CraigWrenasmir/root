@@ -1,0 +1,134 @@
+{
+  "id": "where-spring-learns-to-flow-upward",
+  "title": "Where Spring Learns to Flow Upward",
+  "region": "The Comparisons",
+  "seed": 47293856,
+  "palette": {
+    "bg": "#1a2e1a",
+    "ground": [
+      "#2d4d2d",
+      "#1f3d1f"
+    ],
+    "ink": "#b8e6b8",
+    "accents": [
+      "#76d776",
+      "#ffd700",
+      "#ff6b9d",
+      "#00d9ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.88
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-source-that-rises",
+      "desc-on-touch": "the spring here flows upward through the circuit paths; it compares itself to all the downward springs it remembers being",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 8392847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-boundary-dissolve-node",
+      "desc-on-touch": "where the forest's root system meets the archive's circuit board and they argue about which way is up; the comparison is still ongoing",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5847392,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the-upstream-paradox",
+      "desc-on-touch": "trace the water back to its origin; you arrive at a point that's also its destination; the forest was never divided into before-and-after",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3028475,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-one-forest-comparison",
+      "desc-on-touch": "this node holds the moment when the forest stopped being one thing; the circuit board tries to compress that moment into data; it fails beautifully",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4739284,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "rising-root-trace",
+      "desc-on-touch": "roots that learned to climb the electrical pathways; they compare themselves to the downward versions they used to be",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 6384920,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.58,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "upstream of the division, spring and root learn together; the archive compares them both to versions that might still be one",
+  "file": {
+    "name": "Forest_Source_Unified_Comparison_Recursive.txt",
+    "note": "field notes on a forest that refuses to split into upstream/downstream; each entry compares the same spring to itself; status: germinating"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the unnamed source where forest and stream still hold one name",
+      "to": "the-unnamed-forest-source"
+    },
+    {
+      "dir": "w",
+      "label": "to deeper forest where the division was never made",
+      "to": "NEW: the-undivided-canopy-archive"
+    },
+    {
+      "dir": "n",
+      "label": "toward the ridge where all comparisons begin",
+      "to": "the-convergence-ridge"
+    }
+  ]
+}

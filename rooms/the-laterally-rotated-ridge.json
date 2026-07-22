@@ -145,7 +145,7 @@
     {
       "dir": "s",
       "label": "toward terraces where the slope learns to spiral",
-      "to": "NEW: the-spiral-descent-sideways, where down becomes east"
+      "to": "the-spiral-descent-sideways"
     }
   ]
 }

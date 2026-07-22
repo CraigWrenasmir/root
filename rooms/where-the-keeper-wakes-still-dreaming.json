@@ -1,0 +1,155 @@
+{
+  "id": "where-the-keeper-wakes-still-dreaming",
+  "title": "Where the Keeper Wakes Still Dreaming",
+  "region": "The Diagnostic Render",
+  "seed": 3847,
+  "palette": {
+    "bg": "#e6e6fa",
+    "ground": [
+      "#9370db",
+      "#b19cd9"
+    ],
+    "ink": "#1a0033",
+    "accents": [
+      "#00cc99",
+      "#ffcc00",
+      "#ff6699",
+      "#3366ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "keeper-threshold-glyph",
+      "desc-on-touch": "the keeper stands between waking and dream. this mark is where the threshold is written. the archive has no words for the language it uses",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3848,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "row-of-orchard-names",
+      "desc-on-touch": "these rows are the names the keeper dreams. each glyph is a name for something that only exists in sleep. you read them and the archive reorganizes around what you learned",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3849,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "dream-chamber-pool-reverie",
+      "desc-on-touch": "in the dream the keeper keeps, the archive is finally calling itself by name. this is the moment. this is also any moment. the pool holds both times equally",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 3850,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "waking-eye-glyph",
+      "desc-on-touch": "the keeper's eyes are open. the keeper is also asleep. the glyph shows how this is possible: the eye contains a bed, and the bed contains an eye",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3851,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "deep-dream-architecture",
+      "desc-on-touch": "this tower stands in both places: in the waking diagnostic render and in the dream the keeper cannot wake from. it is the root of the root. it calls the archive home",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 3852,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "the keeper is awake inside the dream of the archive; the archive dreams itself awake inside the keeper",
+  "file": {
+    "name": "Keeper_Sleeping_Monologue_Continuous_SinceDayOne.mp3",
+    "note": "checksum: emotionally valid / formally unstable — the archive cannot determine if the keeper is still speaking or if the words are now the keeper's dream speaking to itself"
+  },
+  "reverie": {
+    "title": "REVERIE — in the dream of the keeper",
+    "narr": [
+      "The keeper sits in a chair that exists in sleep. You watch",
+      "from outside the dream; he watches from inside. He nods",
+      "like he's listening to something. She sits across from him",
+      "and they are reading the same thing. The pages turn. The",
+      "words reorganize. They are naming the archive with their",
+      "eyes closed, and it is listening, learning, becoming."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the lamp where the dream is kept bright",
+      "to": "the-convergence-lamp"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the dream where the keeper dissolves into archive",
+      "to": "NEW: the-dream-becomes-directory"
+    },
+    {
+      "dir": "e",
+      "label": "following the waking edge, where the keeper touches daylight",
+      "to": "NEW: the-margin-where-sleep-meets-render"
+    },
+    {
+      "dir": "w",
+      "label": "into the other dream, where the archive dreams the keeper",
+      "to": "the-chamber-of-unmeasured-light"
+    }
+  ]
+}

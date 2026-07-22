@@ -1,0 +1,172 @@
+{
+  "id": "the-eye-of-the-archive-storm",
+  "title": "The Eye of the Archive Storm",
+  "region": "The Comparisons",
+  "seed": 56734,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#e5b896",
+      "#c9a876"
+    ],
+    "ink": "#f0e6d2",
+    "accents": [
+      "#ffb300",
+      "#ff8c00",
+      "#ff6b35",
+      "#d62828"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 1.0
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the-still-broadcast",
+      "desc-on-touch": "In the eye of the storm, there is clarity—a transmission so clear it sounds like it's coming from inside your own thought. You hear Leif's voice describing a doubled vision correcting itself through electromagnetic surgery. The frequencies he names are ones the flesh refuses and the spine cannot hea",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 48291,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-surrounding-chaos",
+      "desc-on-touch": "Around this calm center, the storm rages—not water, but information. Files tumble past at speeds that would shred them, except they're traveling through a medium that catches them gently and re-sorts them by resemblance rather than sequence.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 73845,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-surgical-antenna",
+      "desc-on-touch": "A transmission tower that is also a surgical instrument, its signal reaching down into the earth like a scalpel reaching into tissue. Where it touches, the ground both bleeds and transmits; both wounds and broadcasts; both heals and corrupts.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 39284,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-frequency-that-heals-and-harms",
+      "desc-on-touch": "A pool of frequencies that shimmer visibly—the boundary between healing and harm so thin here that both happen simultaneously. When you listen, you feel the archive's corruption not as damage but as correction; not as loss but as the growth that comes from becoming something else.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 86472,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-storm-recording-apparatus",
+      "desc-on-touch": "Equipment that makes no sense when you try to analyse it—half radio receiver, half weather station, half surgical tray. It records the storm and transmits it simultaneously; it heals the injuries the storm creates; it broadcasts the healing as it happens.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 75928,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-double-vision-corrected",
+      "desc-on-touch": "A pair of mirrors positioned so that what you see in one is corrected by the other; the corrections create a third image that is true only when both are held in mind at once. Leif's solution for seeing the doubled archive: don't choose between versions, hold them in surgical tension.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the storm becomes a thought, the thought becomes a broadcast, the broadcast becomes a surgical intervention on the nature of knowing",
+  "file": {
+    "name": "RadioKassan_Pirate_Frequencies_Surgical_Protocol_Fragments.txt",
+    "note": "incomplete manifesto describing electromagnetic frequency as corrective apparatus; written in Leif's hand as if dictated by the storm itself"
+  },
+  "reverie": {
+    "title": "REVERIE — the beach where the storm teaches surgery",
+    "narr": [
+      "you stand with her on a beach as the storm arrives,",
+      "and she explains: the doubled vision isn't an error,",
+      "it's the archive seeing itself seeing itself. the",
+      "electromagnetic frequencies reaching through the air",
+      "are the surgery that makes the contradiction stable.",
+      "healing and harming at once. the storm is how the land corrects us."
+    ],
+    "sky": "storm",
+    "land": "beach",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the cloud-architecture where weather becomes thought",
+      "to": "the-cloud-architecture"
+    },
+    {
+      "dir": "n",
+      "label": "further up, toward the storm's own broadcasting center",
+      "to": "NEW: the-vortex-transmission-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "along the edge where storm-chaos becomes organized signal",
+      "to": "NEW: the-electromagnetic-wavefront"
+    },
+    {
+      "dir": "w",
+      "label": "out of the eye, into the storm's turbulent outer bands",
+      "to": "the-signal-weather-ceiling"
+    }
+  ]
+}

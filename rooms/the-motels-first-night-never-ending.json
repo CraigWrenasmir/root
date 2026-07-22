@@ -139,7 +139,7 @@
     {
       "dir": "e",
       "label": "along the corridor to the other rooms, each one the same room at the same moment",
-      "to": "NEW: the-identical-corridor"
+      "to": "the-identical-corridor"
     },
     {
       "dir": "s",

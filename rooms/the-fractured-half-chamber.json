@@ -1,0 +1,139 @@
+{
+  "id": "the-fractured-half-chamber",
+  "title": "The Fractured Half-Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 7351924,
+  "palette": {
+    "bg": "#0f0f1e",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#ff006e",
+      "#00f5ff",
+      "#ffbe0b",
+      "#8338ec"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "active device",
+      "desc-on-touch": "a pacemaker rendered in eleven polygons. the left side pulses. the right side went silent when the mirror cracked. they were supposed to be identical. now the silence is louder than the signal.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "fractured circuit",
+      "desc-on-touch": "a circuit board split down its center line. the left half still carries current. the right half remembers carrying current. they no longer speak to each other.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "silent symmetry",
+      "desc-on-touch": "a tower that was built to house both halves. one half still broadcasts. the other half has learned to listen to its own silence. the tower contains both frequencies at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 6183,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "half-reflection pool",
+      "desc-on-touch": "a pool that mirrors only the left side of the chamber. the right side has become a dark space that the water refuses to acknowledge.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8465,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "isolated chip",
+      "desc-on-touch": "a component that was meant to balance the device. it stopped receiving signal from its twin. now it broadcasts alone, at the wrong frequency, hoping something on the broken side can still hear.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 1394,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the chamber remembers when it had two halves. one still beats. one is listening to the silence.",
+  "file": {
+    "name": "Device_Asymmetry_Protocol_Medical_2019.txt",
+    "note": "specifications for a device that functions half-optimally. the documentation describes both working and failing states as necessary. margin notes suggest the asymmetry is intentional. the author is un"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the deeper mirror, where both halves were still intact",
+      "to": "the-deeper-mirror"
+    },
+    {
+      "dir": "n",
+      "label": "toward the space where the other half went when it woke",
+      "to": "NEW: the-chamber-where-silence-learned-to-transmit"
+    },
+    {
+      "dir": "e",
+      "label": "into the room where symmetry is still trying to heal",
+      "to": "the-half-restored-diagnostic-space"
+    },
+    {
+      "dir": "s",
+      "label": "downward toward the floor, where both sides converge in darkness",
+      "to": "NEW: the-convergence-beneath-the-fracture"
+    }
+  ]
+}

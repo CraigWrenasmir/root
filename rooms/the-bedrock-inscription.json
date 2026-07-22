@@ -1,0 +1,133 @@
+{
+  "id": "the-bedrock-inscription",
+  "title": "The Bedrock Inscription",
+  "region": "The Understory",
+  "seed": 82154,
+  "palette": {
+    "bg": "#3d1f00",
+    "ground": [
+      "#d45113",
+      "#ff6b35"
+    ],
+    "ink": "#fff8dc",
+    "accents": [
+      "#ff006e",
+      "#ff9500",
+      "#6b0a0a",
+      "#2d0a0a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the permanent word",
+      "desc-on-touch": "carved into stone so deep no erosion will reach it; the earth stopped speaking through soil and began speaking through bedrock",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "soil-to-stone transition",
+      "desc-on-touch": "the exact layer where loam remembers being grain and crystal remembers being loam; the archive recorded this moment and will never release it",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 1203,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "neighbor-addresses in stone",
+      "desc-on-touch": "each grain's address written in mineral; the bedrock holds the entire map of the archive's solidity, unchanged and unchangeable",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7429,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the stone's patience",
+      "desc-on-touch": "time moves differently in bedrock; the inscription waits with the certainty that nothing will corrupt what has already entered the earth",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5832,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "soil becomes legend when it reaches stone; memory has nowhere deeper to fall",
+  "file": {
+    "name": "Loam_Transition_Final_Deposit.txt",
+    "note": "the log of soil becoming permanent; once archived in bedrock, every grain learned that it would never move again, and stopped wishing to"
+  },
+  "reverie": {
+    "title": "REVERIE — where she learned the archive would outlast her ha",
+    "narr": [
+      "you kneel on red earth as the light dims to orange.",
+      "her hand is covered in loam. she touches the stone",
+      "beneath, traces the line where soil stops and becomes",
+      "something that will not change. embers drift down.",
+      "\"once it's in the bedrock,\" she whispers, \"it's not",
+      "ours anymore. it belongs to the earth.\" you nod."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the dark loam where things still move",
+      "to": "the-dark-loam-archive"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into stone where writing becomes mineral",
+      "to": "NEW: the-mineral-alphabet-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward the earth's bedrock memory where all archives sink",
+      "to": "the-archival-bedrock"
+    }
+  ]
+}

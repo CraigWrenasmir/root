@@ -1,0 +1,171 @@
+{
+  "id": "the-elder-ground-where-teaching-takes-hold",
+  "title": "The Elder Ground Where Teaching Takes Hold",
+  "region": "The Clean Archive",
+  "seed": 8291547,
+  "palette": {
+    "bg": "#5C4033",
+    "ground": [
+      "#C27D3C",
+      "#B85C3C"
+    ],
+    "ink": "#F4EBD9",
+    "accents": [
+      "#D4A574",
+      "#8B6914",
+      "#4A7C59",
+      "#C9996E"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-standing-students",
+      "desc-on-touch": "They are still here, arranged in the earth itself. What they know roots deeper each season. You can feel generations of waiting.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6734291,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "rings-of-teaching",
+      "desc-on-touch": "Concentric growth-marks: each ring is a year someone learned and then taught. The wood remembers every turn.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4126859,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-survivor-s-shadow",
+      "desc-on-touch": "Longer than it should be, cast by a sun that rose elsewhere. This ground holds what people learned from not-dying.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 9384521,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "manuscript-turned-to-soil",
+      "desc-on-touch": "The pages have returned to the earth. Words dissolve into the teaching that grows here. The students read what the ground writes.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 7485216,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the-cycle-visible",
+      "desc-on-touch": "A tower of generations: each one stood here, learned, took what they survived, built the next platform. Still building.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5029384,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-ground-as-witness",
+      "desc-on-touch": "This soil has absorbed sweat, determination, the tears of people learning what they didn't think they could bear. The earth holds all of it.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2768413,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the students who survived became the ground where the next students learn",
+  "reverie": {
+    "title": "REVERIE — the high country teaching ground, late afternoon",
+    "narr": [
+      "You're sitting beside her on the bench. The students are",
+      "leaving—the day's class done. She watches them go with",
+      "something like recognition. 'They're all teaching something',",
+      "she says. 'Even the ones who think they're still learning.'",
+      "The ground settles under your feet. It knows what she means."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Cycle_Of_Becoming_Teacher.txt",
+    "note": "Field notes: what those who survived brought back when they learned to teach. Generations marked in rings. Not healing—hardening, deepening, becoming soil."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downward to where the new students come",
+      "to": "the-new-students"
+    },
+    {
+      "dir": "n",
+      "label": "higher, where teachers become the taught",
+      "to": "NEW: the-ground-where-teaching-spirals"
+    },
+    {
+      "dir": "e",
+      "label": "toward other grounds marked by survival",
+      "to": "the-fall-ground"
+    },
+    {
+      "dir": "w",
+      "label": "into the forest before the cycle began",
+      "to": "the-forest-before-division"
+    }
+  ]
+}

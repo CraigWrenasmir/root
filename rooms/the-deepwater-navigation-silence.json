@@ -1,0 +1,150 @@
+{
+  "id": "the-deepwater-navigation-silence",
+  "title": "The Deepwater Navigation Silence",
+  "region": "The Understory",
+  "seed": 3142857,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#003366",
+      "#1a4d66"
+    ],
+    "ink": "#b3d9ff",
+    "accents": [
+      "#00ffff",
+      "#66ffff",
+      "#ffff99",
+      "#ff99ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "chart dissolution",
+      "desc-on-touch": "Lines dissolve into the stone beneath. The map and the reef are becoming one argument.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 9012,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "pressure chamber",
+      "desc-on-touch": "The weight of water everywhere. No sound, no echo. Silence becomes a physical thing down here.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1618,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "memory stone",
+      "desc-on-touch": "Salt-crusted granite holding the shapes of a thousand soundings. The stone remembers more than any chart.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4096,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "impossible passage",
+      "desc-on-touch": "A route that charts say should not exist. Your hand finds it anyway. The water knows paths that maps abandoned.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 2048,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "deepwater listening",
+      "desc-on-touch": "A structure that listens to the ocean floor. It has been recording for longer than charts have been made.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 8192,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the deep place where sound goes to age",
+    "narr": [
+      "She waded into the channel at dusk, tracing the floor",
+      "with her foot. You followed. The water rose to your chest.",
+      "\"The charts can't touch here,\" she said. \"Below them.\"",
+      "You both stood still. The weight of the water was actual.",
+      "She took your hand. Her grip was steady. The maps above",
+      "meant nothing. Down here, only the stone knew the way."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "inscription": "when charts dissolve, the stone and the navigator must learn to read each other",
+  "file": {
+    "name": "Deepwater_Soundings_Uncharted.mp3",
+    "note": "Hydrophone recordings from below the mapped channels. The archive cannot determine where these recordings end and the archive's own listening begins."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the reefs that learned language",
+      "to": "the-reef-navigation-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "deeper, where trench walls remember their forming",
+      "to": "NEW: the-abyssal-sediment-archive"
+    },
+    {
+      "dir": "e",
+      "label": "toward shallows where the light gives up",
+      "to": "the-strand-beyond-foam"
+    }
+  ]
+}

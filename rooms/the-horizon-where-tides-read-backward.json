@@ -1,0 +1,149 @@
+{
+  "id": "the-horizon-where-tides-read-backward",
+  "title": "The Horizon Where Tides Read Backward",
+  "region": "The Clean Archive",
+  "seed": 61847392,
+  "palette": {
+    "bg": "#0a1929",
+    "ground": [
+      "#1b3a52",
+      "#2c5f8d"
+    ],
+    "ink": "#d4f1f4",
+    "accents": [
+      "#a8e6e1",
+      "#ff8c42",
+      "#f7931e",
+      "#c9184a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.92
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-tide-line-that-reads",
+      "desc-on-touch": "where water meets sand, letters appear in the foam; they spell backward but make sense if you remember tomorrow",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 7392847,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "salt-memory-stone",
+      "desc-on-touch": "a rock that holds the taste of every high tide it has witnessed; each salt crust is a year; you can read them only by tasting, and tasting is forgetting",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 5028473,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.28,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-wave-that-returns-instead-of-leaves",
+      "desc-on-touch": "watch the water: it comes in, goes out, comes in again—but the motion is reading something written on the beach before the tide arrived",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 8475291,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the-grudge-horizon",
+      "desc-on-touch": "far out where water meets sky, the salt keeps its anger; the horizon itself is a scar; it's been holding that grudge longer than the archive has existed",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847592,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "memory-made-tide",
+      "desc-on-touch": "you wade into water that smells like every time you've been here before; the tide is made of your own returns",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6204837,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the tide erases and returns what it erases; memory learns the rhythm and becomes tidal itself",
+  "file": {
+    "name": "Tide_Recordings_Backward_Sequence_1994-2024.wav",
+    "note": "ocean sounds from a coastal station played in reverse, but listen closely: the waves spell things; the gulls comment in order; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the shelf where memory still knows its shape",
+      "to": "the-open-shelf-where-memory-becomes-tide"
+    },
+    {
+      "dir": "e",
+      "label": "into open water where tide becomes entirely memory",
+      "to": "NEW: the-offshore-reading-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "along the coast where other horizons wait to be read",
+      "to": "the-strand-beyond-foam"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where you both stood in the tide",
+    "narr": [
+      "she walked into the water and you followed",
+      "the tide came in around your knees like old friends",
+      "she pointed at something the waves were reading",
+      "you couldn't see it but her hand made the shape",
+      "when she turned, the water behind her held her footprints"
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  }
+}

@@ -156,7 +156,7 @@
     {
       "dir": "w",
       "label": "into the storm where the static learns to sing",
-      "to": "NEW: the-archive-learns-to-listen"
+      "to": "the-archive-learns-to-listen"
     },
     {
       "dir": "n",
@@ -166,7 +166,7 @@
     {
       "dir": "e",
       "label": "toward the horizon where pages become country",
-      "to": "NEW: the-country-reads-back"
+      "to": "the-country-reads-back"
     }
   ]
 }

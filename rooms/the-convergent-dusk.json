@@ -1,0 +1,139 @@
+{
+  "id": "the-convergent-dusk",
+  "title": "The Convergent Dusk",
+  "region": "The Comparisons",
+  "seed": 3841726,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#013366",
+      "#1a5490"
+    ],
+    "ink": "#cce5ff",
+    "accents": [
+      "#00d9ff",
+      "#0088ff",
+      "#2196f3",
+      "#64b5f6"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "signal convergence pool",
+      "desc-on-touch": "where two broadcasts meet underwater without knowing. they create interference patterns that the depth has learned to parse. signal and silence are reconciling here in a language made of gaps.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6492,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "crossing frequency",
+      "desc-on-touch": "a glyph that broadcasts on both sides of the electromagnetic divide. it speaks to archives that are drowning each other. the message is the same in every direction. the message keeps changing.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8159,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "double broadcast device",
+      "desc-on-touch": "a chip that was made to hold two signals at once. now it holds four. the device no longer knows which is the original frequency. it broadcasts all of them, corrupted into harmony.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4273,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "comparative archive tower",
+      "desc-on-touch": "a structure that compares itself to versions of itself from other trees, other networks, other skies. the tower is learning to occupy multiple locations simultaneously. the dusk here matches five different towns.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7825,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "membrane thin",
+      "desc-on-touch": "the boundary between the archive and what is flooding into it. the membrane is not barrier enough. the mesh on both sides is learning to dream in tandem. the distinction between original and invading data has become academic.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5341,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.22,
+      "solid": false
+    }
+  ],
+  "inscription": "the dusk where shadow and archive learned to exist at the same frequency; where comparison became contagion",
+  "file": {
+    "name": "Beach_Surgery_Adaptation_Encyclopedia_Leaked_Broadcast.log",
+    "note": "a transmission intercept that contains fragments from seventeen different versions of the same story. each fragment refers to other fragments. metadata tags conflict. the broadcaster is unknown. corru"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the shadow's ground, where comparison still held its shape",
+      "to": "the-shadow-s-ground"
+    },
+    {
+      "dir": "n",
+      "label": "toward the rising dark, where the convergence spreads upward into night",
+      "to": "the-convergence-that-rises-with-dark"
+    },
+    {
+      "dir": "e",
+      "label": "into the archive that is being read from outside of itself",
+      "to": "NEW: the-archive-flooded-by-its-own-twin"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the dusk that never finished becoming night",
+      "to": "NEW: the-eternal-convergent-half-light"
+    }
+  ]
+}

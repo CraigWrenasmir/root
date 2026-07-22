@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "toward the drowned forest, where trees remember being swallowed by water and light at once",
-      "to": "NEW: the-flooded-canopy-memory"
+      "to": "the-flooded-canopy-memory"
     },
     {
       "dir": "s",

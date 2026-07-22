@@ -1,0 +1,155 @@
+{
+  "id": "the-clearing-where-both-paths-converge",
+  "title": "The Clearing Where Both Paths Converge",
+  "region": "The Clean Archive",
+  "seed": 4237,
+  "palette": {
+    "bg": "#3d2817",
+    "ground": [
+      "#8b6914",
+      "#c4a747"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#2a5c3a",
+      "#8b3a3a",
+      "#d4a574",
+      "#4a3a2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "two-sheds",
+      "desc-on-touch": "you stand where the path was. the two sheds hold the moment of choice — each one keeps what you did not choose, what the earth remembers you not bringing",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4238,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "fence-line-merge",
+      "desc-on-touch": "the fences that led you here have learned to meet. you touch them and feel both footsteps at once",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 4239,
+        "size": 1,
+        "colors": [
+          4,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "doubled-footstep-stone",
+      "desc-on-touch": "one footprint. two weights. the earth pressed twice in one place",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 4240,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "harvest-basket-left",
+      "desc-on-touch": "what was gathered along one path, set down where the other path waited. the gathering continues in both directions now",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4241,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "mirror-post",
+      "desc-on-touch": "it still bends. the mirror effect fades here — the paths are becoming real, diverging into different weather",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 4242,
+        "size": 3,
+        "colors": [
+          1,
+          4
+        ]
+      },
+      "x": 0.55,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "the earth keeps both memories; the clearing knows you twice",
+  "file": {
+    "name": "TwoPathsInOneFootprint_1987.wav",
+    "note": "a recording made standing between two choices, or two recordings made simultaneously, the archive cannot decide which"
+  },
+  "reverie": {
+    "title": "REVERIE — the clearing at midday",
+    "narr": [
+      "You stand where she stood, where he stood, where the",
+      "splitting happened. The earth beneath you holds four feet",
+      "pressed in the same dust. She traces the line where",
+      "the fence bends; he holds your wrist, counting the",
+      "moments where divergence hasn't yet divided you. You are",
+      "all here together, in the place that refused to choose."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through the bending fence to the mirrored field",
+      "to": "the-mirror-field-where-the-other-choice-still-waits"
+    },
+    {
+      "dir": "e",
+      "label": "toward the next field, where the paths learn separate names",
+      "to": "the-field-where-paths-keep-their-secrets"
+    },
+    {
+      "dir": "s",
+      "label": "into denser growth, where the clearing closes behind",
+      "to": "the-field-before-the-gate"
+    },
+    {
+      "dir": "w",
+      "label": "alongside a ditch, toward older ground",
+      "to": "NEW: the-convergence-before-divergence-returns"
+    }
+  ]
+}

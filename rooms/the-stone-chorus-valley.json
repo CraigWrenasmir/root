@@ -1,0 +1,134 @@
+{
+  "id": "the-stone-chorus-valley",
+  "title": "The Stone Chorus Valley",
+  "region": "The Understory",
+  "seed": 7748392,
+  "palette": {
+    "bg": "#1a2b1a",
+    "ground": [
+      "#2d5a2d",
+      "#4a8a4a"
+    ],
+    "ink": "#e8f5e8",
+    "accents": [
+      "#ffd700",
+      "#c9a961",
+      "#8b7355",
+      "#d4af37"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-singing-shelf",
+      "desc-on-touch": "you run your palm across a shelf of stone voices, each chord still humming in the rock, the archive keeping what individual singers let escape",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 442,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-convergence-throat",
+      "desc-on-touch": "you look into a geological throat where separate voice-streams meet and solidify into one stone utterance; the chorus has become landscape",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 551,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.52,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-fossil-song",
+      "desc-on-touch": "you trace a fossilized spiral of sound frozen mid-vibration; it was singing when the stone caught it",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 663,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-separated-echoes",
+      "desc-on-touch": "you pass between two great stone pillars, each holding one voice that will never merge with the other; they call across the valley forever",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 774,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-becoming-stone",
+      "desc-on-touch": "you touch a surface in transition—half voice, half mineral—where individuality stops choosing and begins crystallizing",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 885,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.68,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here at the stone chorus valley the many voices learn that silence is their final harmony and that petrification is a kind of preserving",
+  "file": {
+    "name": "Convergent_Voices_Field_Recording_Compressed.mp3",
+    "note": "a live recording of five local singers in unison, but the file plays all five tracks simultaneously until they phase into a single inexplicable tone, then back out"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the solitary chorus, where one voice begins to remember it was many",
+      "to": "the-solitary-chorus-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "north where the valley narrows and the stone voices grow too close to distinguish",
+      "to": "NEW: the-unified-utterance-gorge"
+    },
+    {
+      "dir": "e",
+      "label": "east toward a ridge where the echoes begin to argue with each other",
+      "to": "NEW: the-disputed-acoustic-ridge"
+    }
+  ]
+}

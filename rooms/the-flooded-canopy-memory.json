@@ -1,0 +1,171 @@
+{
+  "id": "the-flooded-canopy-memory",
+  "title": "The Flooded Canopy Memory",
+  "region": "The Understory",
+  "seed": 9173648,
+  "palette": {
+    "bg": "#0a1929",
+    "ground": [
+      "#1a4d2e",
+      "#2d6a4f"
+    ],
+    "ink": "#e8f5e9",
+    "accents": [
+      "#52b788",
+      "#b7e4c7",
+      "#1b4332",
+      "#74c69d"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "drowned stand",
+      "desc-on-touch": "trees that have learned to remember being swallowed. they exhale in spirals. the water holds their song in a frequency you cannot hear but the forest can, endlessly, without resolution.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4821,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "waterlogged archive",
+      "desc-on-touch": "pages that have become liquid. they drift in the canopy like leaves that learned to read. the text shifts with every current, the same words arriving in different order.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 6194,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "root listening chamber",
+      "desc-on-touch": "where the roots converge underwater and record the sounds of their own growth. the recording loops without completing. the forest hears itself learning to exist.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 8331,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "spiral descent marker",
+      "desc-on-touch": "a glyph carved into floating wood. it spirals downward but returns to where it started, over and over. the pattern is musical. the pattern is also a warning.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5467,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "burl emergence",
+      "desc-on-touch": "a tree knot breaking the water surface. the casing inside is still broadcasting. the signal carries the sound of a forest that never finished speaking.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7253,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "current trail",
+      "desc-on-touch": "a wireframe path through the flood where water has learned to move in loops. it traces the same route every time. trees have begun to arrange their roots to match this pattern.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3892,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the canopy that drowned without stopping: it still grows, still sings, still returns to its beginning",
+  "reverie": {
+    "title": "REVERIE — where the canopy learned to sing underwater",
+    "narr": [
+      "you are both standing in the flooded stand, water past the",
+      "roots. Katita listens with her palm flat on the bark. the tree",
+      "hums a frequency that has no end, no resolution. she says:",
+      "'it keeps circling.' You watch the ripples return to their own",
+      "beginning. she does not remove her hand."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "tree",
+    "weather": "rain",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Oud_Resonance_Underwater_Recording_Fragment.mp3",
+    "note": "a musical archive. the same phrase cycles, modulates slightly, never completes. the metadata suggests it was recorded both in the forest and from the forest, simultaneously. checksum: emotionally vali"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the unmeasured deep, where trees forget being swallowed",
+      "to": "the-unmeasured-deep"
+    },
+    {
+      "dir": "n",
+      "label": "toward the canopy ceiling, where the drowning stops and the singing begins",
+      "to": "NEW: the-canopy-where-water-learns-to-breathe"
+    },
+    {
+      "dir": "e",
+      "label": "into the root tangle where water has learned the language of growing things",
+      "to": "NEW: the-tangle-where-water-speaks-root-grammar"
+    },
+    {
+      "dir": "s",
+      "label": "downward into deeper flood, where the forest remembers being ocean",
+      "to": "NEW: the-drowned-forest-before-time"
+    }
+  ]
+}

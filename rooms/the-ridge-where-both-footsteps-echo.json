@@ -1,0 +1,122 @@
+{
+  "id": "the-ridge-where-both-footsteps-echo",
+  "title": "The Ridge Where Both Footsteps Echo",
+  "region": "The Clean Archive",
+  "seed": 8264195,
+  "palette": {
+    "bg": "#3d1010",
+    "ground": [
+      "#ff6b35",
+      "#d9480f"
+    ],
+    "ink": "#fff8dc",
+    "accents": [
+      "#ff006e",
+      "#ffb703",
+      "#fb5607",
+      "#ff9f1c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "dual footprint field",
+      "desc-on-touch": "the ground where two paths stood equally real. you see both sets of footsteps at once: one heading north, one heading south. the grass has learned to record what you chose and what you didn't.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 7481,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "chalk marker",
+      "desc-on-touch": "the line where choices were counted. it has been redrawn so many times the earth has learned to glow where it was marked. the chalk holds the memory of every version of you that stood here.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 2918,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "reversal point",
+      "desc-on-touch": "the place where both paths are equivalent. the ground here has inverted: you walk downward to go forward. each step reverses your choice without unbinding you from it.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5304,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "memory ridge",
+      "desc-on-touch": "the spine of the hill that holds both choices alive simultaneously. it rises through all possible times at once. from here you can see yourself arriving by both paths, arriving yesterday, arriving tomorrow, still arriving.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4637,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the ridge that learned to hold both futures; the field that recorded your choice before you made it",
+  "file": {
+    "name": "Dual_Path_Dance_Score_Chalk_Transfer_Documentation.txt",
+    "note": "a choreography notated in two simultaneous columns, each column a different direction home. the margins show the chalk dust that transfers between versions. two dancers. one choice. infinite reversals"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the field where paths were still secret",
+      "to": "the-field-where-paths-keep-their-secrets"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the mist where both choices merge into fog",
+      "to": "NEW: the-summit-where-paths-become-weather"
+    },
+    {
+      "dir": "e",
+      "label": "toward the version where you took the other route",
+      "to": "NEW: the-ridge-of-the-road-not-travelled"
+    },
+    {
+      "dir": "w",
+      "label": "into the shadow of the ridge, where the other footsteps echo first",
+      "to": "NEW: the-dark-side-of-both-choices"
+    }
+  ]
+}

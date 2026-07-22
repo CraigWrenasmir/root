@@ -1,0 +1,134 @@
+{
+  "id": "the-lagoon-understanding-pool",
+  "title": "The Lagoon Understanding-Pool",
+  "region": "The Diagnostic Render",
+  "seed": 55871,
+  "palette": {
+    "bg": "#0a2d3d",
+    "ground": [
+      "#2d7a8f",
+      "#1a5a7a"
+    ],
+    "ink": "#b0e8ff",
+    "accents": [
+      "#00ffff",
+      "#ffff88",
+      "#ff6b9d",
+      "#88ffff"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.55
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the peaceful house",
+      "desc-on-touch": "a small shelter at the water's edge where reef and navigation have learned to speak to each other without argument; both are resting here",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the lagoon's stillness",
+      "desc-on-touch": "water so calm it holds both reflection and depth; the reef's refusals have become the water's patience; charts are no longer needed because the reef has learned to stay still",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4763,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "negotiation-archive",
+      "desc-on-touch": "records of every passage that reef and chart learned to take together; the archive of their shared understanding, written in water-lines and stone",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 6984,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the sheltered dock",
+      "desc-on-touch": "built structures where reef and navigator both rest; neither one teaching the other, both holding their own languages and finding them beautiful",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2356,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the understanding-wave",
+      "desc-on-touch": "a gentle motion through the lagoon that means: we have stopped trying to convince; we have learned that different languages can coexist",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 8520,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "when the reef and navigation finally met, they discovered that stillness requires two kinds of knowing",
+  "file": {
+    "name": "Lagoon_Accord_Navigation_and_Reef_Partnership.txt",
+    "note": "the agreement written in water; reef stops fighting the charts, charts stop trying to contain the reef; both learn that coexistence is a form of dialogue"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the reef navigation chamber, where negotiation still continues",
+      "to": "the-reef-navigation-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the lagoon where understanding becomes silence",
+      "to": "NEW: the-silent-lagoon-depth"
+    },
+    {
+      "dir": "e",
+      "label": "toward other waters where different languages have learned peace",
+      "to": "the-seventh-river-circuit"
+    }
+  ]
+}

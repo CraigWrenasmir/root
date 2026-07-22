@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "along the path that leads to water",
-      "to": "NEW: the tributary that holds the child who never arrived"
+      "to": "the-tributary-that-holds-the-child"
     },
     {
       "dir": "s",

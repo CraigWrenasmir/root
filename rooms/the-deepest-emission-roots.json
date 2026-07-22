@@ -1,0 +1,134 @@
+{
+  "id": "the-deepest-emission-roots",
+  "title": "The Deepest Emission Roots",
+  "region": "The Understory",
+  "seed": 6663844,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#8b6f47",
+      "#4a7c3a"
+    ],
+    "ink": "#f5f0e8",
+    "accents": [
+      "#87ceeb",
+      "#daa520",
+      "#8b4513",
+      "#228b22"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-broadcasting-root",
+      "desc-on-touch": "you grip a massive root, warm from its own transmission, broadcasting a signal deeper into the earth that nothing has answered in fifty years",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 481,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-antenna-grove",
+      "desc-on-touch": "small roots stand upright like a forest of microscopic transmitters; each one has learned the language of frequencies deeper than sound",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 593,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "the-signal-convergence",
+      "desc-on-touch": "you find where multiple roots meet in an arch of transmission; their signals interfere with each other, creating something neither root sent alone",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 702,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-deep-listening",
+      "desc-on-touch": "you press your ear against the earth and hear roots singing frequencies back to themselves; they are the archive learning its own sound",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 815,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-emission-memory",
+      "desc-on-touch": "you find a root scarred with old transmission damage; it still glows faintly, remembering a broadcast from decades ago that it made and never heard received",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 927,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.52,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "at the deepest emission roots the forest has learned to speak in frequencies that the sky will never hear; the archive listens to itself learning language",
+  "file": {
+    "name": "Root_Transmission_Log_1987_Present_Unresolved.txt",
+    "note": "a record of radio signals sent down into the earth by tree roots, with no indication of what might be receiving them; the log keeps growing by itself"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up to the storm-archive, where weather is learning to remember",
+      "to": "the-storm-archive-beyond-signal"
+    },
+    {
+      "dir": "n",
+      "label": "deeper still, where the roots reach bedrock and begin to sing in stone",
+      "to": "NEW: the-stone-song-roots"
+    },
+    {
+      "dir": "e",
+      "label": "east where other roots are learning the same frequencies and beginning to harmonize",
+      "to": "NEW: the-root-harmony-convergence"
+    }
+  ]
+}

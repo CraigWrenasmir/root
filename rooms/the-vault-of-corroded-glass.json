@@ -1,0 +1,156 @@
+{
+  "id": "the-vault-of-corroded-glass",
+  "title": "The Vault of Corroded Glass",
+  "region": "The Diagnostic Render",
+  "seed": 7284159,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#c4d4ff",
+    "accents": [
+      "#9fb1ff",
+      "#b8c5ff",
+      "#8b9dff",
+      "#d4e4ff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-mirror-becoming-itself",
+      "desc-on-touch": "Glass corrupted past reflection. The underneath shows: rust, dust, time, the place where light was trapped before it could return.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5729184,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-fractured-reflection",
+      "desc-on-touch": "Each crack shows a different version of what stood here. Multiplied, refracted, corrupted into plurality. No single image survives.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8463927,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-corrosion-reveals",
+      "desc-on-touch": "Underneath the coating is older glass. Underneath that, even older. Each layer corroded to show the one beneath. Archives within archives.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3651798,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-vault-s-breath",
+      "desc-on-touch": "The air in this chamber is aged glass dust. Breathing it, you taste every mirror that ever rusted here. The past is atmospheric.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 4829756,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-unreflected-thing",
+      "desc-on-touch": "Something stood here once. The mirrors are too corrupted now to show it. But the corruption itself—that is the truest image of what was.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 6174283,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-chip-of-diagnostic-failure",
+      "desc-on-touch": "A circuit board losing its connections. The diagnostics corrupted by what they were meant to observe. The render is becoming the thing it renders.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 7341562,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the older the mirror, the better it shows you what it cannot show",
+  "file": {
+    "name": "Diagnostic_Degradation_Accelerating.tmp",
+    "note": "ERROR: The render is failing in ways that make it more accurate. Corrosion status: productive. Each layer of failure reveals a deeper truth. The vault preserves by corrupting."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back out to mirrors that still try to reflect",
+      "to": "the-meta-mirror-vault"
+    },
+    {
+      "dir": "e",
+      "label": "toward even deeper vaults where mirrors become paint",
+      "to": "the-infinite-reflection-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward to chambers where glass still holds integrity",
+      "to": "the-mirror-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward to depths where reflection becomes obsolete",
+      "to": "NEW: the-place-where-mirrors-become-earth"
+    }
+  ]
+}

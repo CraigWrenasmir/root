@@ -1,0 +1,156 @@
+{
+  "id": "the-grammar-of-uncertainty",
+  "title": "The Grammar of Uncertainty",
+  "region": "The Diagnostic Render",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#C4B59A",
+    "ground": [
+      "#87CEEB",
+      "#F4EBD9"
+    ],
+    "ink": "#3D2817",
+    "accents": [
+      "#F5E6D3",
+      "#D4AF8F",
+      "#8B7355",
+      "#C9A961"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "speech-that-diverges",
+      "desc-on-touch": "You trace a sentence down its length, and find it splits: two versions of the same utterance, equally true, contradicting nowhere but here.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 1847291,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-rendering-hesitates",
+      "desc-on-touch": "A wireframe shape that hasn't committed to geometry. The archive is still asking what it means to render doubt.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 8374019,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "syntax-pool",
+      "desc-on-touch": "Shallow water reflecting a sky of grammar. The words on its surface carry more than one meaning. All meanings are still there.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5201743,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-archive-asks",
+      "desc-on-touch": "A plaque without an answer. The question mark renders in colours that shift as you watch: is it uncertainty or humility?",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 3987504,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "doubled-tower",
+      "desc-on-touch": "Two towers occupying almost the same space, each one correct, each one in the other's shadow.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7156238,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-rendered-breath",
+      "desc-on-touch": "You feel it expanding and contracting: this space holds two truths at once, and that is not a malfunction.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2894715,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "here the archive learned that asking the same question twice produces different answers; both are true",
+  "file": {
+    "name": "Rendering_When_Certainty_Fails.tmp",
+    "note": "Observation corrupted by its own asking. Every diagnostic pass shifts the diagnosis. The uncertainty is not in the data—it lives in the rendering."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downward to where doubt becomes language",
+      "to": "the-horizon-of-questions"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the archive's oldest questions",
+      "to": "NEW: the-question-that-learned-to-ask-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward nodes where language still held one meaning",
+      "to": "the-recursive-render-depth"
+    },
+    {
+      "dir": "w",
+      "label": "into the space where the archive doubts its own rendering",
+      "to": "NEW: the-chamber-of-unrendered-asking"
+    }
+  ]
+}

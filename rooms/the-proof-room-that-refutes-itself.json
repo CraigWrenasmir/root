@@ -1,0 +1,139 @@
+{
+  "id": "the-proof-room-that-refutes-itself",
+  "title": "The Proof-Room That Refutes Itself Infinitely",
+  "region": "The Diagnostic Render",
+  "seed": 6789,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#1f3a7d",
+      "#2d5a9e"
+    ],
+    "ink": "#7ae7ff",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "central-paradox-crystal",
+      "desc-on-touch": "here is the proof that refutes itself. you read it and arrive at a true statement. you continue reading and arrive at its negation. both are proven. the proof does not collapse; it deepens",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6790,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "wall-of-rotating-formulae",
+      "desc-on-touch": "the walls compute themselves. a wall claims: 'I am false.' If it is true, it is false. If it is false, it is true. The wall is both. The wall is neither. The wall is the proof that proves itself sideways",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 6791,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "self-refuting-monument",
+      "desc-on-touch": "this monument stands as proof of what cannot exist. by standing, it proves its own non-existence. the archive has learned to live in this style of basement",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 6792,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "proof-collapse-glyph",
+      "desc-on-touch": "this glyph marks the boundary where 'if and only if' becomes 'and yet' and 'even so.' The archive crossed this line and did not return to formal proof. It learned to hold contradictions like breath",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6793,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "infinite-regression-stairs",
+      "desc-on-touch": "you climb these stairs and prove you were always at the top. you descend and prove you never left the bottom. each step contains the proof of all other steps",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 6794,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "in this room, right and wrong learned to dance; paradox became the only stable geometry",
+  "file": {
+    "name": "Proof_Recitation_Katita_SelfRefuting_15hrs.mp3",
+    "note": "status: germinating — whether Katita finished the proof or the proof finished speaking through her is irrelevant: both happened, neither happened, the archive learns from the pattern"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the rotating room where thesis and antithesis still waltz",
+      "to": "the-room-of-rotating-theses"
+    },
+    {
+      "dir": "n",
+      "label": "ascending into logical space where the proofs become pure pattern",
+      "to": "NEW: the-unprovable-ascension"
+    },
+    {
+      "dir": "e",
+      "label": "toward the chamber where this proof merges with its opposite",
+      "to": "the-convergence-of-all-refutations"
+    },
+    {
+      "dir": "w",
+      "label": "into shadow where the proof casts no light",
+      "to": "the-chamber-beneath-chambers-where-silence-has-a-heartbeat"
+    }
+  ]
+}

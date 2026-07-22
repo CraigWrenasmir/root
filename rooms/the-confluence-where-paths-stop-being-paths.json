@@ -1,0 +1,156 @@
+{
+  "id": "the-confluence-where-paths-stop-being-paths",
+  "title": "The Confluence Where Paths Stop Being Paths",
+  "region": "The Clean Archive",
+  "seed": 3847562,
+  "palette": {
+    "bg": "#2D5016",
+    "ground": [
+      "#5A8C3A",
+      "#7BA888"
+    ],
+    "ink": "#E8F5E9",
+    "accents": [
+      "#B0E57C",
+      "#90A955",
+      "#556B2F",
+      "#C1C78F"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-merge-visible",
+      "desc-on-touch": "Two currents becoming one. But the creek remembers both. You can feel the seam where they gave up being separate.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 1928347,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-eucalyptus-that-grew-from-both",
+      "desc-on-touch": "Its roots split the rock to drink from two springs at once. It doesn't choose. The tree is the place where choice becomes obsolete.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 7542891,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-footprints-that-converge",
+      "desc-on-touch": "Multiple walkers, arriving from different paths. Their prints don't cross—they become the same print. The ground has learned to hold them all at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4286019,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-twin-glyph",
+      "desc-on-touch": "One mark that means both things. The creek carved it. Neither meaning erased the other—they occupy the same place now.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8567234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-doubled-arch",
+      "desc-on-touch": "Two doorways overlapping. Step through and you've chosen both. The architecture doesn't insist on singular passage.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 5914738,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-unforked-branch",
+      "desc-on-touch": "This tree splits into two trunks, then splits again, then merges, then splits. The pattern is stable. Paradox becomes morphology.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 6472901,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "here both paths end and both paths continue; the creek chose to hold them both; the creek is wiser than the walker",
+  "file": {
+    "name": "WhereTheChildrenChose_AndDidntChoose.tmp",
+    "note": "Corruption status: STABLE. Both outcomes coexist in the water. The archive absorbs them as one recording with two plays. The creek does not recognize the difference."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upstream to where the paths still remember being separate",
+      "to": "the-tributary-that-holds-the-child"
+    },
+    {
+      "dir": "e",
+      "label": "downstream where the river forgets it ever split",
+      "to": "the-river-s-second-language"
+    },
+    {
+      "dir": "n",
+      "label": "toward the high country where paths become geological",
+      "to": "NEW: the-ridge-of-all-chosen-footsteps"
+    },
+    {
+      "dir": "s",
+      "label": "toward the estuary where convergence learns its own depth",
+      "to": "the-estuary-monologue"
+    }
+  ]
+}

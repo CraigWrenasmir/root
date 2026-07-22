@@ -1,0 +1,150 @@
+{
+  "id": "the-tributary-that-holds-the-child",
+  "title": "The Tributary Where the Child Never Arrived",
+  "region": "The Clean Archive",
+  "seed": 9999888,
+  "palette": {
+    "bg": "#2a3a2a",
+    "ground": [
+      "#8b7355",
+      "#4a7a4a"
+    ],
+    "ink": "#e8d7c3",
+    "accents": [
+      "#a0d8a0",
+      "#4da6a6",
+      "#d4a574",
+      "#8ac5d8"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "water-memory",
+      "desc-on-touch": "The creek holds what the field could not hold. Every current carries a trace of the child who might have followed this route home.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "path-to-elsewhere",
+      "desc-on-touch": "Where the water leads. Not home. Not anywhere the child came from. A third place that only the tributary knows.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "root-reach",
+      "desc-on-touch": "A tree above the bank, roots drinking the water. The tree is trying to hold what the water carries away. It cannot.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7788,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "still-point",
+      "desc-on-touch": "A widening where the water pools and waits. If the child came here, they might have lingered. They might have heard something. They did not.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 9900,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "stone-where-the-path-forked",
+      "desc-on-touch": "A boulder at a convergence. The water splits here. One path leads home. The other leads to this tributary, which holds only the memory of leaving.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 1122,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the place where one child did not arrive",
+    "narr": [
+      "You both waded in the shallows at dusk. The field",
+      "behind you held two paths home. One of them went wrong.",
+      "She was quiet. \"The creek knows,\" she said. \"It keeps",
+      "the other choice. The one where the child turned back.\"",
+      "You took her hand in the cold water. Petals from the tree",
+      "floated past. Both of you were the ones who went forward."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "wade"
+  },
+  "inscription": "both paths home; you chose once but the creek keeps the twice",
+  "file": {
+    "name": "Child_Recording_May_Afternoon_Unfinished.mp3",
+    "note": "An audio note meant to document the tributary. The recording stops. A voice is never heard speaking into it. The archive preserved the silence."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the field where both paths still wait",
+      "to": "the-field-before-the-gate"
+    },
+    {
+      "dir": "e",
+      "label": "further downstream, toward the river that forgets all splits",
+      "to": "the-confluence-where-paths-stop-being-paths"
+    },
+    {
+      "dir": "s",
+      "label": "toward the dark where the water is still carrying away",
+      "to": "the-flowing-reach"
+    }
+  ]
+}

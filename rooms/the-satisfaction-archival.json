@@ -1,0 +1,134 @@
+{
+  "id": "the-satisfaction-archival",
+  "title": "The Satisfaction Archival",
+  "region": "The Diagnostic Render",
+  "seed": 72938461,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#2d2d2d",
+      "#1f1f1f"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#ff6b6b",
+      "#4ecdc4",
+      "#ffd93d",
+      "#95e1d3"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "meal-index-chip",
+      "desc-on-touch": "a circuit chip that holds the memory of every plate ever indexed; the satisfaction rating is encoded in the heat-trace patterns",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5627384,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "taste-vector-node",
+      "desc-on-touch": "a node where flavour dimensions are pinned and labeled; salt, sweet, umami, memory, regret—all mapped to coordinates that don't fit on a plate",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 8934127,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "forgotten-recipe-trace",
+      "desc-on-touch": "a burnt section of the board where a recipe tried to cook itself back from vectors alone; the attempt failed but left a smell",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4729183,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.18,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "satisfaction-threshold-gate",
+      "desc-on-touch": "the voltage point above which a meal is considered 'worth storing'; everything below this line was not satisfying enough to archive, yet here they are, indexed anyway",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6841527,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-meal-that-forgot-itself",
+      "desc-on-touch": "a data structure that stored a plate so completely it erased what made it delicious; only the satisfaction number remains, floating with no meal behind it",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 3092748,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "every meal was converted to its satisfaction index and filed; now the archive has the numbers but the kitchen is empty",
+  "file": {
+    "name": "MealRecords_Vector_Index_v2847.csv",
+    "note": "satisfaction ratings from 0.0 to 1.0 for meals archived between 1987 and now; rows 44,000-46,000 are blank but marked 'satisfied'; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to where the flavours were first vectorized",
+      "to": "the-vector-vault"
+    },
+    {
+      "dir": "s",
+      "label": "toward the deeper archive where taste becomes pure mathematics",
+      "to": "NEW: the-calculus-of-hunger-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "to the shelf where unsatisfactory meals are kept anyway",
+      "to": "the-salt-yeast-earth"
+    }
+  ]
+}

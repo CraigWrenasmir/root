@@ -1,0 +1,149 @@
+{
+  "id": "the-root-loom-chamber",
+  "title": "The Root Loom Chamber",
+  "region": "The Understory",
+  "seed": 92748561,
+  "palette": {
+    "bg": "#0f0a0f",
+    "ground": [
+      "#2d1a2d",
+      "#1f0f1f"
+    ],
+    "ink": "#d4a574",
+    "accents": [
+      "#8b6f47",
+      "#a8a8a8",
+      "#4a3a4a",
+      "#6b5a4a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.93
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-loom-in-darkness",
+      "desc-on-touch": "the loom weaves in such deep darkness that the weaver cannot see the pattern; instead, the darkness learns the loom's language and weaves back",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6384729,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "root-thread-separation",
+      "desc-on-touch": "where individual root-threads learned to cross and recross; the pattern they make underground mirrors languages they've never spoken",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4829374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the-pattern-that-fractures",
+      "desc-on-touch": "where tangle begins; the loom tries to hold a pattern and the roots break it intentionally; the breaking is the language",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7283946,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the-weaver-in-the-roots",
+      "desc-on-touch": "something weaves down here that is neither root nor loom; it learns both their languages and invents a third one in the dark",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5729384,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-darkness-that-weaves-back",
+      "desc-on-touch": "the darkness here learned from the loom; it weaves with nothing but absence; the pattern is most visible when you look away",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 3947582,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.58,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "the loom weaves in darkness; the darkness learns the loom's language; neither knows which is teaching",
+  "file": {
+    "name": "Root_Weaving_Undocumented_Patterns_Deep_Record.txt",
+    "note": "fragmentary notes on patterns found underground where loom and root have been weaving together for decades; pattern nomenclature unknown; status: germinating"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the tangle-roots where the fracture was first observed",
+      "to": "the-tangle-roots-where-pattern-fractures"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the understory where the loom becomes root becomes darkness becomes loom",
+      "to": "NEW: the-infinitesimal-weaving-depth"
+    },
+    {
+      "dir": "n",
+      "label": "up toward a forest that remembers the pattern before it broke",
+      "to": "the-burl-library-grove"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — in the loom chamber underground",
+    "narr": [
+      "you sit beside her in the darkness where the loom works",
+      "neither of you can see the pattern but you feel it",
+      "she reaches into the threads and pulls out a root",
+      "the root has learned words in the space underground",
+      "you listen to the loom speak in a language dark as soil"
+    ],
+    "sky": "overcast",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

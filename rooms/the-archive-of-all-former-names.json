@@ -1,0 +1,156 @@
+{
+  "id": "the-archive-of-all-former-names",
+  "title": "The Archive of All Former Names",
+  "region": "The Diagnostic Render",
+  "seed": 92847,
+  "palette": {
+    "bg": "#e8e0d0",
+    "ground": [
+      "#8b7355",
+      "#a0826d"
+    ],
+    "ink": "#2c2416",
+    "accents": [
+      "#5c3d2e",
+      "#8b4513",
+      "#d4a574",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-name-registry",
+      "desc-on-touch": "A vast filing system where names have been catalogued in multiple scripts—Latin, Cyrillic, syllabics, and one script that looks like it was invented specifically to hold names that couldn't be spelled. Each file is stamped with the date it was renamed and the date it wanted to be called something el",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 48372,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-phonetic-drift",
+      "desc-on-touch": "Names arranged by how they sound when spoken at different speeds. Listen long enough and you can hear a single name become three different names, become a sentence, become a question, become the sound of wind in grass.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 63928,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-etymology-pool",
+      "desc-on-touch": "A pool of liquid where names float and reform. You can see the path of a name backwards—from its current Australian shape, through colonial renaming, through languages of peoples displaced, back to a root that might not be a word at all but just a sound someone made when they first saw this place.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 77451,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-forbidden-naming",
+      "desc-on-touch": "A section cordoned off where names that were erased are kept. Some are in the files directly; some are in the negative space where they were removed; some are encoded in the breathing-patterns of archivists who knew them but couldn't speak them aloud.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 35814,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-living-namechange",
+      "desc-on-touch": "A directory updating itself in real-time. You watch as a place-name updates from one version to another; the files shift themselves; metadata rewrites; but both versions remain, held in tension like a thought that hasn't finished choosing between its two meanings.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 21904,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-untranslatable-ledger",
+      "desc-on-touch": "A bound volume in Katita's handwriting listing names that exist in one language but have no equivalent in any other. Opposite each one, she's drawn a small image—not a translation, but a resonance. You begin to understand that some things can only be named by their shape in your mouth.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 94837,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "each name returns to the place it left; none of them are ever only themselves",
+  "file": {
+    "name": "NameCatalogue_Multilingual_Erased_Entries_Katita.txt",
+    "note": "registry of names in seven languages and three extinct scripts; entries disappear and reappear; some lines are dated centuries in the future"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the place where things come to be renamed",
+      "to": "the-marketplace-of-renames"
+    },
+    {
+      "dir": "n",
+      "label": "toward older registries where the first names are still being decided",
+      "to": "NEW: the-registry-of-primordial-naming"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into sections where names have become poetry and prayer",
+      "to": "NEW: the-sacred-nomenclature-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down where names collapse into their singular root sound",
+      "to": "the-soil-made-of-sentences"
+    }
+  ]
+}

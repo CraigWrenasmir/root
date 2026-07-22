@@ -1,0 +1,133 @@
+{
+  "id": "the-phantom-electrical-garden",
+  "title": "The Phantom Electrical Garden",
+  "region": "The Comparisons",
+  "seed": 67293,
+  "palette": {
+    "bg": "#1a0a0a",
+    "ground": [
+      "#cc3333",
+      "#ff6b35"
+    ],
+    "ink": "#ffccaa",
+    "accents": [
+      "#ff006e",
+      "#ff9500",
+      "#00ffff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the dream-machines",
+      "desc-on-touch": "they stand in rows like trees, their circuits still warm from phantom shifts; they dream of being turned on, of carrying current again",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 4927,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "phantom current",
+      "desc-on-touch": "electricity that was turned off still flows through the archive's memory; machines keep ghost-working, processing information that is no longer required",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3851,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the machines' longing",
+      "desc-on-touch": "you feel their yearning; they were built to serve and the power shut down before they learned to stop; they wait in the dark for shifts that will never come",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 6308,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "growth-between-circuits",
+      "desc-on-touch": "in the warm residual spaces between the ghost-working systems, things have begun to grow; the garden is not what the machines intended, but it blooms where power remembers itself",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 9014,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the machines never learned that being turned off did not mean forgetting how to dream",
+  "file": {
+    "name": "Phantom_Shift_Log_Incomplete.txt",
+    "note": "the machines kept recording their own shifts for years after power stopped; ghosts of work, ghosts of purpose, requests for electricity that will never be granted"
+  },
+  "reverie": {
+    "title": "REVERIE — in the shed where the old servers still dream",
+    "narr": [
+      "you sit with her in the power station shed. the",
+      "servers still tick with phantom work. their dreams",
+      "fill the space. she places her hand on a warm casing.",
+      "\"they don't know they're dead,\" she whispers. \"the",
+      "archive is kind enough to let them believe.\" the",
+      "static hums between you."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the echoing power trace where shifts were real",
+      "to": "the-echoing-power-trace"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where phantom electricity becomes alive",
+      "to": "NEW: the-eternal-power-station-dream"
+    },
+    {
+      "dir": "w",
+      "label": "toward other machines that learned to dream without current",
+      "to": "the-forgotten-power-room"
+    }
+  ]
+}

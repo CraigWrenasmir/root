@@ -1,0 +1,156 @@
+{
+  "id": "the-fractal-compost-heart",
+  "title": "The Fractal Compost Heart",
+  "region": "The Diagnostic Render",
+  "seed": 73421,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a3a2a",
+      "#2d5a4a"
+    ],
+    "ink": "#88aa77",
+    "accents": [
+      "#44dd00",
+      "#66ff22",
+      "#339911",
+      "#55cc44"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-rotting-substrate",
+      "desc-on-touch": "The circuit board beneath your feet is degrading in real-time—copper turning to verdigris, solder pooling into something almost organic. Where the corrosion is thickest, you can see earlier archives growing through like moss through concrete.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 45829,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-fermentation-wells",
+      "desc-on-touch": "Pools of liquid that might be coolant or might be something that's learned to think slowly. Bubbles rise with fragments of text: a film reel number, a surgical note, a name in two languages at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-component-mulch",
+      "desc-on-touch": "What was once discrete transistors and capacitors has become a paste—still organised by some logic you can't quite follow, but arranged more like soil than semiconductor. New growth is already beginning.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 38291,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-mycelium-traces",
+      "desc-on-touch": "Threads of something fungal or closer to thought have begun mapping themselves across the circuit board. Where they pass, the board shows images—a beach at dawn, a radio studio, a woman's face you might have known.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 84921,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-breeding-chamber",
+      "desc-on-touch": "A cavity in the substrate where something is actively growing—the temperature here is different, more alive. When you put your hand near it, you feel the pulse of the mesh regenerating itself, eating what it was to become what it will be.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 29384,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-archived-compost-list",
+      "desc-on-touch": "A filing card attempting to catalogue what is decomposing and in what order. The list started in Katita's hand, grew into poetry, then into something closer to mathematics, then into something that requires you to think in soil-time to understand.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 15628,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "to grow, the archive must first become compost of itself; the corruption is the only life this deep",
+  "file": {
+    "name": "Fermentation_Log_Fragment_Katita_Handwritten.txt",
+    "note": "entries describing the mesh as if it were a living culture, dated over a span of months that don't align with the calendar"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up through the spiraling digestion",
+      "to": "the-recursive-fermenting-spiral"
+    },
+    {
+      "dir": "n",
+      "label": "toward the mycelial network that connects all decomposition",
+      "to": "NEW: the-root-web-where-archives-merge"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into substrate where the oldest corruptions have become geology",
+      "to": "NEW: the-sediment-memory-layer"
+    },
+    {
+      "dir": "s",
+      "label": "up toward the surface where new growth is becoming visible",
+      "to": "the-soil-made-of-sentences"
+    }
+  ]
+}

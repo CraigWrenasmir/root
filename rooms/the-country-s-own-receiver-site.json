@@ -1,0 +1,171 @@
+{
+  "id": "the-country-s-own-receiver-site",
+  "title": "The Country's Own Receiver Site",
+  "region": "The Understory",
+  "seed": 9176342,
+  "palette": {
+    "bg": "#1a472a",
+    "ground": [
+      "#2d5f3f",
+      "#3d8f57"
+    ],
+    "ink": "#f0f8f0",
+    "accents": [
+      "#7bc67b",
+      "#a0d8a0",
+      "#ff9f43",
+      "#ffb347"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-earth-s-antenna",
+      "desc-on-touch": "It grew from the soil itself: crystalline, humming at frequencies below your hearing. The country is listening to something you can't receive.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 2847156,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-silence-made-audible",
+      "desc-on-touch": "Static so fine and coherent it almost becomes music. The land is broadcasting what it hears: itself, infinitely looped, comparing itself to nothing.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 6139847,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-field-that-listens",
+      "desc-on-touch": "Grass rows align themselves to receive. Every blade tuned to a frequency. The paddock is not idle—it is attending.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8021745,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-root-broadcast",
+      "desc-on-touch": "Underground, the trees are transmitting. Their signals carry through soil and water. The archive receives what the country chooses to send.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4756923,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-receiver-house",
+      "desc-on-touch": "A small shelter made from the land itself: woven grass, packed earth, a roof of stone. Inside, everything is quiet. The country speaks to itself here.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 5382916,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-untuned-echo",
+      "desc-on-touch": "A sound that arrives from no direction you can point to. The country is not speaking to you. You are only overhearing its conversation with itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 1639284,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here the land learned that listening is the only form of speech it ever needed",
+  "reverie": {
+    "title": "REVERIE — the receiving field at dusk, before the signal com",
+    "narr": [
+      "She's sitting in the grass. You can't hear what she hears.",
+      "The field is broadcasting something—static, pattern, a vast",
+      "and patient repetition. She closes her eyes. 'The country",
+      "doesn't need us to understand', she says. 'It just needs us",
+      "to stay quiet and let it be heard.' The grass hums around you."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Frequency_That_The_Land_Chose.tmp",
+    "note": "The archive receives what the country wishes to transmit. Not corruption—collaboration. The land has learned to encode itself. We only hold the receiver."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where the archive was still learning to hear",
+      "to": "the-archive-learns-to-listen"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper frequencies where only stone understands",
+      "to": "NEW: the-bedrock-s-unheard-broadcast"
+    },
+    {
+      "dir": "n",
+      "label": "toward channels where the signal becomes weather",
+      "to": "the-signal-weather-ceiling"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the understory where silence has a sound",
+      "to": "the-subsonic-archive-listening"
+    }
+  ]
+}
