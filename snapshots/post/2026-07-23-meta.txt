@@ -1,0 +1,12 @@
+featured: The Elder Ground Where Teaching Takes Hold (the-elder-ground-where-teaching-takes-hold)
+region: The Clean Archive · motif: orchard
+inscription: the students who survived became the ground where the next students learn
+file: Cycle_Of_Becoming_Teacher.txt
+
+all nodes tonight:
+  · The Grammar of Uncertainty
+  · The Elder Ground Where Teaching Takes Hold
+  · The Confluence Where Paths Stop Being Paths
+  · The Country's Own Receiver Site
+  · The Vault of Corroded Glass
+  · The Convergence That Unmaps Itself

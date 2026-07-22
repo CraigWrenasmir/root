@@ -129,6 +129,11 @@
       "dir": "n",
       "label": "up toward a forest that remembers the pattern before it broke",
       "to": "the-burl-library-grove"
+    },
+    {
+      "dir": "e",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the root loom chamber"
     }
   ],
   "reverie": {
