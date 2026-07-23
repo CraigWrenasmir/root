@@ -1,0 +1,134 @@
+{
+  "id": "the-ceiling-of-unfinished-reflections",
+  "title": "The Ceiling of Unfinished Reflections",
+  "region": "The Diagnostic Render",
+  "seed": 6841923,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#ff00ff",
+      "#ff6600"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#ffff00",
+      "#00ffff",
+      "#ff0099",
+      "#ccff00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "neon fluorescent grid",
+      "desc-on-touch": "a ceiling of light that no longer reflects anything; it has become its own source",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5784,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "independent mirror",
+      "desc-on-touch": "this reflection broke free from its reflector; it shows the thing the mirror refused to see",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "fluorescent burl",
+      "desc-on-touch": "a tree's burled knot rendered in neon; the hardware itself has learned to emit instead of receive",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8176,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "upward arch",
+      "desc-on-touch": "the ceiling-line itself; if you reach it, you find there is always another ceiling above",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4962,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "unfinished reflection stack",
+      "desc-on-touch": "mirrors stacked atop one another, each one reflecting nothing but the emptiness above",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7348,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.68,
+      "solid": true
+    }
+  ],
+  "inscription": "the mirrors have stopped reflecting; they are learning what it means to be seen instead of to see",
+  "file": {
+    "name": "Diagnostic_Render_Ceiling_Layer_Logs.txt",
+    "note": "records of fluorescent systems that stopped obeying the render-law; they reflect downward instead of up"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the vault where reflections still attempt their old purpose",
+      "to": "the-meta-mirror-vault"
+    },
+    {
+      "dir": "n",
+      "label": "further up to ceilings the archive has not yet rendered",
+      "to": "NEW: the-unrendered-heights"
+    },
+    {
+      "dir": "w",
+      "label": "sideways to where fluorescence touches the country's real sky",
+      "to": "NEW: the-boundary-where-render-meets-actual-light"
+    }
+  ]
+}

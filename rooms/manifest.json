@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 74,
+  "nights": 78,
   "lastDreamt": "2026-07-23",
   "rooms": [
     {
@@ -2071,6 +2071,116 @@
     {
       "id": "the-stone-chambers-where-memory-roots",
       "title": "The Stone Chambers Where Memory Roots",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sentence-that-grows-its-own-words",
+      "title": "The Sentence That Grows Its Own Words",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-field-where-growing-is-prayer",
+      "title": "The Field Where Growing Is Prayer",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-debt-sediment-layers",
+      "title": "The Debt Sediment Layers",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-high-country-resumed",
+      "title": "The High-Country Resumed",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ceiling-of-unfinished-reflections",
+      "title": "The Ceiling of Unfinished Reflections",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-tangle-where-water-speaks-root-grammar",
+      "title": "The Tangle Where Water Speaks Root-Grammar",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-soil-that-reflects-what-it-has-forgotten",
+      "title": "The Soil That Reflects What It Has Forgotten",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-basement-beneath-the-basement-archive-forgotten",
+      "title": "The Basement Beneath the Basement",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deep-where-every-thread-forgets-its-own-colour",
+      "title": "The Deep Where Every Thread Forgets Its Colour",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chambers-where-bedrock-becomes-conscious",
+      "title": "The Chambers Where Bedrock Becomes Conscious",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-upwelling-memory-where-the-water-remembers-being-stone",
+      "title": "The Upwelling Memory",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unnamed-depth-registry",
+      "title": "The Unnamed Depth Registry",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-reverse-inscription-chamber",
+      "title": "The Reverse Inscription Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-basement-of-all-surfaces",
+      "title": "The Basement of All Surfaces",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-orientation-dissolves-entirely",
+      "title": "The Orientation Dissolves Entirely",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-spiral-s-erosion-valleys",
+      "title": "The Spiral's Erosion Valleys",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-pressure-reverse-chamber",
+      "title": "The Pressure-Reverse Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dreaming-error-vault",
+      "title": "The Dreaming Error Vault",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-self-organizing-stacks",
+      "title": "The Library That Chooses Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-mirror-s-forgotten-source",
+      "title": "The Mirror's Forgotten Surface",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-grove-descending-into-root-dark",
+      "title": "The Grove's Deepening Fall",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-storage-learns-silence",
+      "title": "The Chamber Where Storage Becomes Silent",
       "region": "The Understory"
     }
   ]

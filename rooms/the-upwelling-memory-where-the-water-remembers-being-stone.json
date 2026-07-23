@@ -1,0 +1,150 @@
+{
+  "id": "the-upwelling-memory-where-the-water-remembers-being-stone",
+  "title": "The Upwelling Memory",
+  "region": "The Comparisons",
+  "seed": 45612,
+  "palette": {
+    "bg": "#1a2d3a",
+    "ground": [
+      "#2a3f4a",
+      "#3a4f5a"
+    ],
+    "ink": "#b8c8d8",
+    "accents": [
+      "#7a9aaa",
+      "#5a8a9a",
+      "#9abacc",
+      "#4a6a7a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "spring-rising",
+      "desc-on-touch": "water forces itself upward through stone, carrying the memory of a thousand years of not-moving—the spring that rises here archives itself in every bucket drawn, every sip tastes of deep time becoming moment, of stone becoming water becoming story",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 12398,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "water-as-archive",
+      "desc-on-touch": "every bubble that rises carries memory from below—the water has lived as stone for longer than any archive has existed; now it rises and begins to forget its former solidity, remembering only the shapes it held while it was hard",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 34789,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "stone-learning-fluidity",
+      "desc-on-touch": "the bedrock below sends up water that is still learning to move—the stone teaches its slowness through the rising current, and the water carries the memory of millions of years of not-flowing before this moment",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 56234,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "cold-clarity",
+      "desc-on-touch": "the water rises so cold it carries no colour but clarity itself—in its chill is the memory of stone, in its transparency is the amnesia of water that has begun to forget what it was when it was rock",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 78234,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-first-well",
+      "desc-on-touch": "this spring needs no archive to remember itself—it archives itself in every drawn bucket, every sip carries the taste of deep time becoming wakefulness, of stone's long sleep opening into flowing",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 23567,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the first well needs no archive; it archives itself in every bucket drawn, every sip tasting of stone's long sleep becoming wakefulness",
+  "file": {
+    "name": "Spring_Memory_Composition.mp3",
+    "note": "field recording of a wellspring in storm—water rising, the sound of stone releasing its slowness, the first well singing to itself"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the source, where water still holds its primitive shape",
+      "to": "the-primitive-water-source"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where the water remembers being even older stone",
+      "to": "NEW: the-deepstone-memory-below-rising"
+    },
+    {
+      "dir": "n",
+      "label": "toward a place where water and archive converge",
+      "to": "the-stone-channel-where-water-becomes-archive"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — spring rising between them",
+    "narr": [
+      "You waded into the spring with her on a storm",
+      "afternoon, the water so cold it stung. She said:",
+      "feel how old it is—millions of years pushing up.",
+      "Your feet sank into red clay at the spring's mouth.",
+      "The water between you carried the taste of deep time.",
+      "She held your wrist under the current, teaching you to listen."
+    ],
+    "sky": "storm",
+    "land": "water",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "wade"
+  }
+}

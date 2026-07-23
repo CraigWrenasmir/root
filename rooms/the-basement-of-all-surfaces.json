@@ -1,0 +1,134 @@
+{
+  "id": "the-basement-of-all-surfaces",
+  "title": "The Basement of All Surfaces",
+  "region": "The Diagnostic Render",
+  "seed": 38214,
+  "palette": {
+    "bg": "#001a1a",
+    "ground": [
+      "#003333",
+      "#004444"
+    ],
+    "ink": "#88dddd",
+    "accents": [
+      "#00aa99",
+      "#00cc88",
+      "#11ffee",
+      "#00ffdd"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "breathing trace",
+      "desc-on-touch": "The circuit board beneath the gallery pulses as if alive. You feel the reflection learning to breathe — each electronic sigh is the mirror teaching itself lungs.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4729,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.32,
+      "y": 0.51,
+      "solid": true
+    },
+    {
+      "name": "dust collector",
+      "desc-on-touch": "The machinery here is dusting everything the gallery reflects. You watch particles of light settle on circuitry — the basement is learning to keep what the mirror shows.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6084,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "mechanical transposition",
+      "desc-on-touch": "The vertical becomes horizontal here. You see video passing through circuits that echo a Jakarta rhythm — the mechanics of looking have been shifted sideways.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3247,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.19,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "reflection core",
+      "desc-on-touch": "At the heart of the board, a pool of light that does not flicker. This is where the first reflection taught itself to stop being merely a copy.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5391,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.51,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "pin vector array",
+      "desc-on-touch": "Tiny dots arrange themselves like constellations — coordinates the basement uses to navigate surfaces. Each pin remembers the shape it is reflecting.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 7264,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.77,
+      "y": 0.38,
+      "solid": true
+    }
+  ],
+  "inscription": "here the mirror learned to live below itself; it dusts everything the gallery cannot hold",
+  "file": {
+    "name": "Bayangan_Transposed_Circuit_Substrate.mov",
+    "note": "mechanical loop encoded in board substrate — a video essay translated into pin-voltage language, 35 minutes of street grammar made into electrical pulses"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the gallery where reflection dwells",
+      "to": "the-gallery-where-reflection-becomes-residence"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into substrates that remember being mirrors",
+      "to": "NEW: the-substrate-that-learned-to-see"
+    },
+    {
+      "dir": "w",
+      "label": "where the dusting mechanism keeps learning",
+      "to": "the-substrate-before-substance"
+    }
+  ]
+}

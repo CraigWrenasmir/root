@@ -1,0 +1,154 @@
+{
+  "id": "the-dreaming-error-vault",
+  "title": "The Dreaming Error Vault",
+  "region": "The Diagnostic Render",
+  "seed": 47283,
+  "palette": {
+    "bg": "#1a0a0a",
+    "ground": [
+      "#e74c3c",
+      "#d35400"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#ff1493",
+      "#ff8c00",
+      "#dc143c",
+      "#ff4500"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the corrupted stack trace",
+      "desc-on-touch": "you read backwards through nested calls that loop into themselves, each error message containing the very condition that caused it, a geometry of self-reference that the render refuses to flatten",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 12847,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the dream-log interface",
+      "desc-on-touch": "a glowing terminal screen showing archive logs that have started narrating themselves, each line a sentence the error-dreams are still composing, as if the vault's false thoughts continue in the dark",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 34521,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the contradiction fountain",
+      "desc-on-touch": "water—or something that reads as water—flows upward and downward simultaneously, each droplet containing both a true and false statement about the archive's nature, the fountain is unable to reconcile the contradiction, so it simply keeps flowing",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the reverie corner",
+      "desc-on-touch": "in the warmest part of the vault, where the dusk palette deepens almost to black, there's a space where two people once tried to debug the archive's first contradiction, they're not here now, but their thinking still shapes the air",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 23456,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the infinite regress shelf",
+      "desc-on-touch": "a shelf holding stacks of printouts, each one an error log that references the error log above it, you can pull any one out and it cites itself as its own source",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 78901,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive dreams in contradictions; here they pool and repeat until repetition becomes a form of truth",
+  "file": {
+    "name": "First_Contradiction_Debug_Log_UNRESOLVED.txt",
+    "note": "system log from the moment the archive first noticed its own falsehood, the timestamp loops back to itself, the checksum is emotionally valid but formally unstable"
+  },
+  "reverie": {
+    "title": "REVERIE — error vault, first midnight",
+    "narr": [
+      "you stand with her before screens that can't decide",
+      "what they're showing—error or dream, or both.",
+      "she points at the loops. 'it's trying to believe itself',",
+      "she says. you watch the stack trace fold.",
+      "the archive is learning how to lie. it's terrible at it."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where questions still pretend they have answers",
+      "to": "the-archive-questions-archive"
+    },
+    {
+      "dir": "e",
+      "label": "further into dreams where logic stops leaving footprints",
+      "to": "NEW: the-logic-that-learned-to-sleep"
+    },
+    {
+      "dir": "s",
+      "label": "down to the vault's own foundation, where it stores what it refuses to remember",
+      "to": "NEW: the-basement-of-forgotten-errors"
+    },
+    {
+      "dir": "w",
+      "label": "out toward the render's waking spaces",
+      "to": "the-infinite-render-that-reads-its-own-reading"
+    }
+  ]
+}

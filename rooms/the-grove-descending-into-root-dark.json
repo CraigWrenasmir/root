@@ -1,0 +1,139 @@
+{
+  "id": "the-grove-descending-into-root-dark",
+  "title": "The Grove's Deepening Fall",
+  "region": "The Understory",
+  "seed": 92345,
+  "palette": {
+    "bg": "#0a0a0d",
+    "ground": [
+      "#2a2a3e",
+      "#1a1a2e"
+    ],
+    "ink": "#a8c5da",
+    "accents": [
+      "#4a90e2",
+      "#7b68ee",
+      "#b0e0e6",
+      "#f0f8ff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the falling congregation",
+      "desc-on-touch": "the trees that walked are still walking downward, their roots trailing upward like the paths they're leaving behind, each foot-fall becomes a seed that will grow upside-down, learning what falling teaches when you choose it",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 34567,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the grammar-break clearing",
+      "desc-on-touch": "where the language the trees speak to each other stops making sense, the words continue but they've become pure sound, consonants that echo upward in the darkness, the trees read this cacophony as goodbye spoken in a dialect older than speech",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the root-dark threshold",
+      "desc-on-touch": "where the last light that ever touched this place is pooling at the edges, not quite dark yet, not quite staying, the moment between falling and landing, a permanence of transition",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 78901,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the footfall recording",
+      "desc-on-touch": "the ground here remembers every step the congregation took on the way down, you can hear them if you listen to the silence properly, each footfall a word, the sentence spelling itself in the dark below",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 12345,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the canopy that fell upward",
+      "desc-on-touch": "branches and leaves that somehow ascended as the trees descended, they form a ceiling of what-was-left-behind, catching falling water from below, every droplet rises as if learning that gravity might work both ways down here",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 45678,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the grove is learning that walking away teaches you how to become the ground you're leaving",
+  "file": {
+    "name": "The_Congregation_Descent_Day_47_STILL_FALLING.mp3",
+    "note": "field recording of a forest moving downward, the audio pitch shifts as the congregation falls deeper, what begins as birdsong becomes stone-sound, becomes silence learning to speak itself"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the grove still remembered how to stay rooted",
+      "to": "the-walking-grove"
+    },
+    {
+      "dir": "e",
+      "label": "toward deeper groves where trees have learned gravity's opposite",
+      "to": "NEW: the-inverted-canopy-descent"
+    },
+    {
+      "dir": "s",
+      "label": "down to where falling becomes a form of arrival",
+      "to": "the-slope-where-climbing-becomes-surrender"
+    },
+    {
+      "dir": "w",
+      "label": "toward chambers where language goes to unsay itself",
+      "to": "NEW: the-grammar-dissolution-cavern"
+    }
+  ]
+}

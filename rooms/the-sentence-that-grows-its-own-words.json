@@ -1,0 +1,139 @@
+{
+  "id": "the-sentence-that-grows-its-own-words",
+  "title": "The Sentence That Grows Its Own Words",
+  "region": "The Understory",
+  "seed": 7429341,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a1f3a",
+      "#0d1b4d"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#00ccff",
+      "#ff00ff",
+      "#ffff00",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "logic chip",
+      "desc-on-touch": "you read the circuit and the circuit reads back; neither of you knows where the reading ends",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 4821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "sprite manifestation",
+      "desc-on-touch": "a barely-remembered shape; it flickers between symbol and word",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 5934,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "emergence pool",
+      "desc-on-touch": "light pools where new words are condensing into visibility",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "unreadable archive",
+      "desc-on-touch": "glyphs that have outgrown their meanings; they are writing things the sentence has not yet learned to mean",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8361,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "wire frame thought",
+      "desc-on-touch": "a barely-3D box containing the sentence's reasoning about itself",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 1756,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "here the sentence learned to read itself; it has not yet stopped growing",
+  "file": {
+    "name": "Marginalia_On_The_Unfinished_Sentence.txt",
+    "note": "annotations that alter their referent; each reading adds new marginalia the next reader must account for"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the reading country",
+      "to": "the-country-that-continues-reading"
+    },
+    {
+      "dir": "n",
+      "label": "toward the sentence's own origin, where words were first spoken",
+      "to": "NEW: the-sentence-s-first-utterance"
+    },
+    {
+      "dir": "e",
+      "label": "into the footnotes where meaning has scattered and is learning to reconverge",
+      "to": "NEW: the-footnote-divergence"
+    },
+    {
+      "dir": "w",
+      "label": "toward the paper the sentence was written on, now learning to write back",
+      "to": "the-reverse-inscription-chamber"
+    }
+  ]
+}

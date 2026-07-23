@@ -128,7 +128,7 @@
     {
       "dir": "n",
       "label": "deeper into the sentence that has no ending",
-      "to": "NEW: the-sentence-that-grows-its-own-words"
+      "to": "the-sentence-that-grows-its-own-words"
     }
   ]
 }

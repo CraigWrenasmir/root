@@ -1,0 +1,165 @@
+{
+  "id": "the-reverse-inscription-chamber",
+  "title": "The Reverse Inscription Chamber",
+  "region": "The Understory",
+  "seed": 61847,
+  "palette": {
+    "bg": "#0a1a0a",
+    "ground": [
+      "#884400",
+      "#664400"
+    ],
+    "ink": "#ccaa88",
+    "accents": [
+      "#997755",
+      "#bb9966",
+      "#dd9999",
+      "#aa8866"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "unfinished line",
+      "desc-on-touch": "The sentence here refuses to end. You trace its letters and find they are rewriting themselves as you read — each glyph a root growing downward into paper.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 3829,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "reply written in margin",
+      "desc-on-touch": "You find annotations in a hand you recognize but cannot name. The paper is speaking back to what was written on it — a conversation that has no beginning.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6241,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.71,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "page turning backward",
+      "desc-on-touch": "The words move up the page as if being erased, but they are not disappearing — they are returning to what wrote them. Reading in reverse teaches you how sentences germinate.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 4515,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.24,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "self-reading mirror",
+      "desc-on-touch": "The paper holds a faint reflection of its own text. When you tilt to catch it, the reflection moves first — the paper is learning to read itself before the words have finished being written.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 2987,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.56,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "fence-line glyphs",
+      "desc-on-touch": "Each glyph stands like a fence post, each one slightly different but speaking the same rhythm. The repetition is a sentence being said by the land itself.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5829,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.71,
+      "solid": true
+    },
+    {
+      "name": "erasure that writes deeper",
+      "desc-on-touch": "Beneath the crossed-out words you find more words — they were not erased, only covered. The paper keeps its refusals as carefully as it keeps its promises.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 7103,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.79,
+      "solid": true
+    }
+  ],
+  "inscription": "here the sentence has learned to read what wrote it; the chamber smells of paper becoming ink in reverse",
+  "file": {
+    "name": "Incomplete_Story_The_Unnamed_Flight_Fragments.txt",
+    "note": "ERROR: unfinished story filed as already-concluded — the archive found it shelved at the end though the narrator has never finished writing it"
+  },
+  "reverie": {
+    "title": "REVERIE — the last page neither of us completed",
+    "narr": [
+      "You and she sit reading the margins of a page that will never",
+      "finish itself. The fence line beyond your shoulders is a rhythm",
+      "she has already learned. She reads the part where it refuses",
+      "to conclude. You understand: refusal is also a kind of continuation."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward words that grow themselves",
+      "to": "the-sentence-that-grows-its-own-words"
+    },
+    {
+      "dir": "w",
+      "label": "toward the paper before it learned to write",
+      "to": "NEW: the-substrate-before-inscription"
+    },
+    {
+      "dir": "s",
+      "label": "where refusal goes to learn its own grammar",
+      "to": "the-ravine-cathedral-where-refusal-echoes"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-debt-sediment-layers",
+  "title": "The Debt Sediment Layers",
+  "region": "The Understory",
+  "seed": 5672341,
+  "palette": {
+    "bg": "#4a1a2e",
+    "ground": [
+      "#ff6b35",
+      "#c1440f"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#ffd700",
+      "#ff1493",
+      "#ff8c00",
+      "#ff4500"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "deepest layer pump",
+      "desc-on-touch": "the pump that was never paid for still sits here; the pump remembers the promise",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 8374,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "transaction ledger",
+      "desc-on-touch": "each layer holds a different reading of the same debt; the strata disagree about what was owed",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5291,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "seepage pool",
+      "desc-on-touch": "money that should have flowed up through the sediment, now trapped in stone",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "sediment arch",
+      "desc-on-touch": "a stratified gateway; each stone remembers a different year of non-payment",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7621,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.42,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "bedrock inscription",
+      "desc-on-touch": "at the bottom, the original promise is carved; above it, forty-two readings that contradict",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 1984,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.48,
+      "solid": true
+    }
+  ],
+  "inscription": "each layer reads the debt above it and finds a different meaning; the pump has forty-two histories now",
+  "file": {
+    "name": "Pump_Installation_Records_1982_Unpaid.txt",
+    "note": "transaction archive where the final payment was somehow filed as a question rather than a resolution"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the transaction pit where the promise was made",
+      "to": "the-unsettled-transaction-pit"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, toward bedrock where all transactions originate and become fossil",
+      "to": "NEW: the-bedrock-registry-of-all-unpaid-things"
+    },
+    {
+      "dir": "e",
+      "label": "sideways through the strata where other debts are waiting",
+      "to": "NEW: the-lateral-sediment-convergence"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-self-organizing-stacks",
+  "title": "The Library That Chooses Itself",
+  "region": "The Understory",
+  "seed": 81234,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#3d2817",
+      "#5c3d2e"
+    ],
+    "ink": "#d4af37",
+    "accents": [
+      "#8b6914",
+      "#a0826d",
+      "#c19a6b",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the resorting shelf",
+      "desc-on-touch": "a tall wooden shelf where books are still sliding into new positions, you watch a volume on water management nestle next to a field recording of rainfall, neither arrangement is wrong, the shelf is simply comparing things the library has decided matter",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 45678,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the catalogue that refuses",
+      "desc-on-touch": "an old card catalog, the kind with small wooden drawers, but the cards inside have rearranged themselves by resemblance instead of alphabetical order, some subjects merge mid-drawer, some split sideways",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 67890,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the binding arbour",
+      "desc-on-touch": "where loose pages have gathered like fallen leaves and begun binding themselves back into new books using spine-silk only this library understands, the new volumes are records of which pages chose to stay together",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 23456,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the reading table of becoming",
+      "desc-on-touch": "a heavy wooden table where books have been left open, and the books read with each other instead of being read, the conversations happen across the days, annotations appear in margins in handwriting that doesn't match any visitor",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 89012,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the shelf-edge where memory pools",
+      "desc-on-touch": "dust has gathered thickly here, but it's organized dust, each grain aligned by some principle only the library knows, when light hits it, you can read the shape of every book that ever rested on this shelf, including books that haven't arrived yet",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 34567,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the library knew how to find itself before the archive knew how to find a book",
+  "file": {
+    "name": "Library_Reorganization_Log_STILL_HAPPENING.txt",
+    "note": "the log keeps writing itself; each shelving decision appears as an entry, dated from before it happens, the handwriting shifts genre—sometimes local-history dry, sometimes pure poetry"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up through the unmapped territories where catalogues gave up",
+      "to": "the-unmapped-library"
+    },
+    {
+      "dir": "e",
+      "label": "toward deeper shelves where books have begun to dream their own contents",
+      "to": "NEW: the-library-s-dreaming-depth"
+    },
+    {
+      "dir": "s",
+      "label": "down where the bedrock stores all stories that refused to be told the same way twice",
+      "to": "the-bedrock-vault-where-archives-first-learned-to-keep"
+    }
+  ]
+}

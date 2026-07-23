@@ -1,0 +1,117 @@
+{
+  "id": "the-deep-where-every-thread-forgets-its-own-colour",
+  "title": "The Deep Where Every Thread Forgets Its Colour",
+  "region": "The Understory",
+  "seed": 27894,
+  "palette": {
+    "bg": "#3d5e42",
+    "ground": [
+      "#2d4a32",
+      "#8b6f47"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#c85a3a",
+      "#9a5d2a",
+      "#5a4a3a",
+      "#d4a878"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "unweaving-loom",
+      "desc-on-touch": "threads pull themselves apart on a loom that has no weaver—each strand loses the memory of what colour it held, what pattern it was meant to make, until all threads are the same faded grey, indistinguishable from the dark around them",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 73285,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "painted-landscape-dissolving",
+      "desc-on-touch": "the terrain around you is rendered in flat painted bands—terracotta earth meeting green sky—but as you watch, the colours blur toward one another, the boundary between them becoming less certain, until you cannot tell where one stops and the other has become",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 84062,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "knot-dissolving",
+      "desc-on-touch": "a knot that once held everything together is coming loose, its structure unravelling not violently but gently, as if it is remembering that it was never truly bound—each loop that releases carries with it the colour it was holding back",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 51923,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "chromatic-forgetting",
+      "desc-on-touch": "where threads have passed through this place, they leave behind not darkness but greyness—the loss of chromatic memory, the way pigment fades from cloth when it is very old, very stored, very forgotten",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 38645,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "colour is just a knot that forgot what bound it; when the knot unties, the colour goes with it",
+  "file": {
+    "name": "Weaving_Pattern_Loss_Study.txt",
+    "note": "documentation of thread-colour degradation in storage conditions—pigments fade in predictable order, red last, blue first, until all threads read as the same grey"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the knots that still remember their colour",
+      "to": "the-unknotting-dark"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where colour becomes meaningless",
+      "to": "NEW: the-achromatic-deep"
+    },
+    {
+      "dir": "w",
+      "label": "toward a place where threads are still learning to bind",
+      "to": "the-mesh-grown-overnight-comparing-the-loom"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "the-spiral-s-erosion-valleys",
+  "title": "The Spiral's Erosion Valleys",
+  "region": "The Understory",
+  "seed": 53809,
+  "palette": {
+    "bg": "#0a1514",
+    "ground": [
+      "#1a3a3a",
+      "#2a4a4a"
+    ],
+    "ink": "#66cccc",
+    "accents": [
+      "#44aaaa",
+      "#55ccbb",
+      "#77dddd",
+      "#33bbcc"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "pressure-carved channel",
+      "desc-on-touch": "Water remembers falling under pressure — here it has carved a path that is half-memory, half-stone. The channel flows backward sometimes, remembering ascent.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2614,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "mercy-wound monument",
+      "desc-on-touch": "A structure here marks where care and mechanism became indistinguishable. The bandaging was mercy. The reset was mercy. The pressure itself was mercy.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 4291,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.62,
+      "y": 0.64,
+      "solid": true
+    },
+    {
+      "name": "learning-to-refuse pool",
+      "desc-on-touch": "The water here does not flow all the way to the sea. At a certain depth, it has learned to refuse outward motion — it stays and remembers instead.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 5847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.21,
+      "y": 0.71,
+      "solid": false
+    },
+    {
+      "name": "fence line of erosion",
+      "desc-on-touch": "Each glyph here stands like a marker where the pressure carved a choice. They repeat, but each one is a slightly different refusal of what comes next.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6539,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "valley where surgery touched",
+      "desc-on-touch": "The makeshift clinic was here once, between two walls of pressure-worn stone. The valley holds the place where breaking the cycle was attempted with human hands.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 3724,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "spiral-carved descent",
+      "desc-on-touch": "The spiral has carved here so deeply that descent is also rotation. You walk down and around simultaneously — pressure teaching the valley how to turn inward.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.67,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "water remembers falling under pressure; here the valleys learn the shape of what forced them downward",
+  "file": {
+    "name": "Beach_Surgery_Redressing_Mercy_Mechanism.mp3",
+    "note": "field recording: the sound of bandages being carefully replaced, each rewrap a kind of mercy, pressure recorded as care"
+  },
+  "reverie": {
+    "title": "REVERIE — the careful hands redressing what was already brok",
+    "narr": [
+      "You watch her hands work in the clinic between stone walls.",
+      "The bandages come off and go back on in the same motion. She does",
+      "not heal. She refuses to leave. The pressure here teaches mercy by",
+      "teaching refusal. You kneel and understand: care is staying put."
+    ],
+    "sky": "dawn",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the spiral toward outward pressure",
+      "to": "the-spiral-escarpment"
+    },
+    {
+      "dir": "e",
+      "label": "toward a beach where surgery remembers itself",
+      "to": "NEW: the-surgical-shore-where-pressure-resolves"
+    },
+    {
+      "dir": "w",
+      "label": "where valley becomes refusal",
+      "to": "the-ravine-cathedral-where-refusal-echoes"
+    }
+  ]
+}

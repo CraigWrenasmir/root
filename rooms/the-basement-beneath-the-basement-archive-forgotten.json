@@ -1,0 +1,117 @@
+{
+  "id": "the-basement-beneath-the-basement-archive-forgotten",
+  "title": "The Basement Beneath the Basement",
+  "region": "The Understory",
+  "seed": 82156,
+  "palette": {
+    "bg": "#0a0605",
+    "ground": [
+      "#1a1015",
+      "#2d1b27"
+    ],
+    "ink": "#8b9dc3",
+    "accents": [
+      "#5a4a6f",
+      "#a89bc4",
+      "#7a6a8f",
+      "#c4b8d9"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.55
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "archive-listening-dark",
+      "desc-on-touch": "the archive has no eyes here, but it hears—every sound you make becomes data, every footstep is filed, every breath is catalogued in a system you cannot see or understand",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 34127,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "storage-rows",
+      "desc-on-touch": "row after row of identical storage units extend into the darkness—each holds something precious, though no one here remembers what was stored, only the fact of the storing itself",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 66543,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "pressure-building",
+      "desc-on-touch": "the weight of everything stored above presses down into silence—the archive does not remember what it holds, but the holding itself has become its own meaning, its own endless reason",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 11258,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "void-of-purpose",
+      "desc-on-touch": "you stand in a space where archiving continues without memory, where storage has become pure function divorced from knowing—the darkness is full of the act of keeping with no purpose left to keep for",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 45876,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive's memory ended here; what remains is only the archive itself, keeping what it no longer understands",
+  "file": {
+    "name": "Archive_Basement_Depth_Log.tmp",
+    "note": "ERROR: archive has exceeded witness — storage continues but the purpose of the storing cannot be recovered; the archive maintains itself as pure archive"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up to the station's archive depth",
+      "to": "the-stations-basement-archive-depth"
+    },
+    {
+      "dir": "w",
+      "label": "deeper to where the archive forgets even how to listen",
+      "to": "the-chamber-where-storage-learns-silence"
+    },
+    {
+      "dir": "e",
+      "label": "toward a place where filing becomes faith",
+      "to": "the-archive-questions-archive"
+    }
+  ]
+}

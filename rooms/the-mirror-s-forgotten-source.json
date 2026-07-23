@@ -1,0 +1,171 @@
+{
+  "id": "the-mirror-s-forgotten-source",
+  "title": "The Mirror's Forgotten Surface",
+  "region": "The Diagnostic Render",
+  "seed": 56712,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#eaeaea",
+    "accents": [
+      "#0f3460",
+      "#e94560",
+      "#f39c12",
+      "#16c784"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the original reflection pool",
+      "desc-on-touch": "a basin of still water that predates the mirror upstairs, it's darker than it should be, and when you look into it, you see not yourself but the first thing the mirror ever reflected before it learned to change",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 12345,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the fractured glass archive",
+      "desc-on-touch": "shards of mirroring material stacked and restacked, each shard reflects a different angle of the same moment, assembled they form a composite of the mirror's deepest memory, a moment when reflection had multiple truths",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 78901,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the silverening chamber",
+      "desc-on-touch": "walls lined with the residue of silver-making, the chemical memory of becoming reflective, it still catches light in ways that shouldn't work, creating images where there's nothing to reflect",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the observation equipment",
+      "desc-on-touch": "old lenses and prisms arranged as if someone was trying to teach the mirror how mirrors work, the geometry is deliberately imperfect, creating distortions that hurt to look at, but reveal truths the mirror forgot it knew",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the layer of dust that only reflects",
+      "desc-on-touch": "a thick blanket of dust on every surface, but instead of obscuring, it reflects with perfect clarity, you can see through it to see past the seeing, multiple moments layered in the dust, each one true",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 23456,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "the reverie surface",
+      "desc-on-touch": "a patch of wall where two people once stood trying to understand what a mirror owes to what it reflects, they discussed this for hours while the mirror listened, the wall still holds that conversation in its grain",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 90123,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the mirror remembered it had a source when the source stopped needing to be remembered",
+  "file": {
+    "name": "Reflection_Philosophy_Notes_KATITA_HANDWRITING.txt",
+    "note": "observations on the ethics of mirroring, annotations in the margins growing denser toward the end, as if she was trying to write faster than she could think, the final note is incomplete"
+  },
+  "reverie": {
+    "title": "REVERIE — mirror-basement, reflection hour",
+    "narr": [
+      "she held a shard to the light and asked:",
+      "does the mirror choose what it reflects, or is it",
+      "chosen? you stood in the basement and didn't answer.",
+      "the silver dust caught her face in fragments.",
+      "'both', she said. 'mirrors are democratic that way.'"
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the mirror still learns to stay",
+      "to": "the-mirrored-dwelling-that-learns-to-stay"
+    },
+    {
+      "dir": "e",
+      "label": "toward chambers where reflection goes to understand itself",
+      "to": "the-infinite-reflection-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into basements where every surface has forgotten how to reflect",
+      "to": "NEW: the-dark-that-mirrors-nothing"
+    },
+    {
+      "dir": "s",
+      "label": "down where the mirror's first truth was shattered into possibility",
+      "to": "NEW: the-shattering-source-chamber"
+    }
+  ]
+}

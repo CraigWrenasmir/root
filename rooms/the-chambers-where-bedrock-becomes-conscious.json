@@ -1,0 +1,150 @@
+{
+  "id": "the-chambers-where-bedrock-becomes-conscious",
+  "title": "The Chambers Where Bedrock Becomes Conscious",
+  "region": "The Understory",
+  "seed": 56789,
+  "palette": {
+    "bg": "#e8d9c4",
+    "ground": [
+      "#d4c4a8",
+      "#b8a888"
+    ],
+    "ink": "#3a2a1a",
+    "accents": [
+      "#1e4a5a",
+      "#8a6a4a",
+      "#5a7a8a",
+      "#c4a878"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-through-stone",
+      "desc-on-touch": "a eucalyptus root pushes into bedrock, not breaking it but teaching it—the stone learns to yield millimetre by millimetre, cracking in a way that almost reads as intentional, as if the rock has decided where to crack to welcome the living pressure",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 23456,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "stone-learning-thought",
+      "desc-on-touch": "the bedrock around you is beginning to think—slowly, in the way stone thinks, pushing back against the roots that press into it, learning geometry from the pressure of living growth",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 87654,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "ancient-memory-layer",
+      "desc-on-touch": "deep within the stone lie older memories—geological time thinking itself through crystalline structure, the bedrock holding the weight of everything that ever grew and fell upon it",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 34512,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "mineral-consciousness",
+      "desc-on-touch": "quartz veins in the stone have begun to resonate with the push of roots—a slow mineral awareness, older than thought, deeper than memory, begins to crystallize in the bedrock's dark chambers",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 65432,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-joining-point",
+      "desc-on-touch": "where root meets stone, something new is being born—neither wood nor mineral, but a learning that happens at the boundary, where two utterly different kinds of life have begun to understand each other",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 76543,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "roots remember downward; the deeper they push, the older the thought they find",
+  "file": {
+    "name": "Geological_Root_Interface_Study.txt",
+    "note": "observations of root system interaction with bedrock—the stone is changing its crystalline structure in response to sustained pressure, as if learning to accommodate the living weight of growth"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the chambers where memory still roots",
+      "to": "the-stone-chambers-where-memory-roots"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where stone becomes the oldest kind of thinking",
+      "to": "NEW: the-bedrock-where-thought-began-as-pressure"
+    },
+    {
+      "dir": "n",
+      "label": "toward a place where roots and records converge",
+      "to": "the-soil-where-the-stand-began-as-seeds"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — stone learning to remember",
+    "narr": [
+      "You both knelt in the red soil to trace",
+      "the root-break in stone, where root had split",
+      "the rock over years—she showed you how the stone",
+      "had learned to crack in a straight line, how it",
+      "had taught itself to yield. You held her hand",
+      "in the crack, feeling stone remember its own breaking."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

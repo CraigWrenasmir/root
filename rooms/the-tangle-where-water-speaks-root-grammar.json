@@ -1,0 +1,154 @@
+{
+  "id": "the-tangle-where-water-speaks-root-grammar",
+  "title": "The Tangle Where Water Speaks Root-Grammar",
+  "region": "The Understory",
+  "seed": 7156842,
+  "palette": {
+    "bg": "#0d2818",
+    "ground": [
+      "#1a4d2e",
+      "#0f3622"
+    ],
+    "ink": "#c8e6c9",
+    "accents": [
+      "#4db8a8",
+      "#2d6a4f",
+      "#9ef01b",
+      "#6b8e23"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "root knot burls",
+      "desc-on-touch": "where roots have knotted with the flood; they are writing each other's grammar now",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 4835,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "water's lexicon pool",
+      "desc-on-touch": "the gathering where water has learned root-language; every drop here speaks in botanical syntax",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6293,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "tangled shelter",
+      "desc-on-touch": "a dwelling built inside the root-tangle; those who enter learn to think in both water and wood",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 5174,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "grammar archive",
+      "desc-on-touch": "records of how water and root have taught each other; each file contains the conversation",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 7625,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "rising and descending glyph",
+      "desc-on-touch": "a mark where root ascends and water descends through the same gesture; they are the same word",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8341,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.62,
+      "solid": true
+    }
+  ],
+  "inscription": "here water learned the language roots speak; it flows upward now and the forest dreams in two grammars at once",
+  "reverie": {
+    "title": "REVERIE — the flooded roots at dawn where two languages merg",
+    "narr": [
+      "you both stand in flood-water between the roots, not drowning",
+      "she points to how the root-words float upward like breath",
+      "the water is speaking now; it has learned from the deep grammar below",
+      "you realize the forest learned to think in water long before water came",
+      "by the time you leave, you have forgotten which language you spoke"
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "tree",
+    "weather": "rain",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Root_Philology_After_The_Flood_Notes.txt",
+    "note": "linguistic breakdown of root and water grammar converging; the distinction has become meaningless"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the flooded canopy where singing has not yet stopped",
+      "to": "the-flooded-canopy-memory"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into the tangle's deepest tangles where water forgets it was ever separate",
+      "to": "NEW: the-point-where-water-becomes-root-forever"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the canopy where roots have learned to breathe like water",
+      "to": "NEW: the-breathing-canopy-upper-tangle"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where water settles and teaches the stone its grammar",
+      "to": "NEW: the-stone-s-hidden-linguistic-bedrock"
+    }
+  ]
+}

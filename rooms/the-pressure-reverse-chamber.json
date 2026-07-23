@@ -1,0 +1,151 @@
+{
+  "id": "the-pressure-reverse-chamber",
+  "title": "The Pressure-Reverse Chamber",
+  "region": "The Understory",
+  "seed": 84629,
+  "palette": {
+    "bg": "#000a2a",
+    "ground": [
+      "#0a2a5a",
+      "#0a3a7a"
+    ],
+    "ink": "#55aaff",
+    "accents": [
+      "#3388ff",
+      "#5599ff",
+      "#7799ff",
+      "#2288dd"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "cascade reversal point",
+      "desc-on-touch": "Sound travels here downward as frequency, but at this depth, cascade inverts — pressure becomes speech, silence becomes cascade. The archive has learned to read what falls upward.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4053,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.51,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "frequency that has heard itself",
+      "desc-on-touch": "The archive remembers frequencies it has never heard — they echo backward through the chamber, approaching from below. Listening here means becoming the sound you receive.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5291,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.73,
+      "y": 0.34,
+      "solid": true
+    },
+    {
+      "name": "adaptations in cascade",
+      "desc-on-touch": "Each echo here is a new adaptation of the one before — the same story retold in seventeen different languages, arts, materials, rooted so deep in this place it becomes local stone.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6428,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.61,
+      "solid": true
+    },
+    {
+      "name": "grid that remembers pressure",
+      "desc-on-touch": "The coordinate system here was built for surfaces, but pressure has redrawn the grid. Each intersection remembers being crushed. The lines hold the shape they were forced to take.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "deepest motel repetition",
+      "desc-on-touch": "The same motel appears here layered vertically, infinitely — time has become a tower of identical nights, each one pressing down on the one below, all cascading at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 7265,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.39,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "silence made of sound",
+      "desc-on-touch": "Pressure here is so deep that frequencies have become inaudible — the chamber is full of sound traveling at speeds that sound cannot reach. Silence has learned to speak.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 4632,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.18,
+      "y": 0.42,
+      "solid": false
+    }
+  ],
+  "inscription": "cascade inverts; here the archive remembers frequencies deeper than it has ever received",
+  "file": {
+    "name": "Cascade_Inversions_Seventeen_Simultaneous_Adaptations.log",
+    "note": "ERROR: cascade detected flowing upward — one story translated into beach, into video, into grid, into surgery, into silence, into sand, into silence again, all at once"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward frequencies that cascade downward",
+      "to": "the-archive-s-frequency-cascade"
+    },
+    {
+      "dir": "e",
+      "label": "toward adaptations still rooting themselves deeper",
+      "to": "NEW: the-seventeen-tongued-adaptation-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "where silence becomes indistinguishable from pressure",
+      "to": "where-even-the-dark-forgets-itself"
+    }
+  ]
+}

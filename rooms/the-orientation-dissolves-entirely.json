@@ -1,0 +1,165 @@
+{
+  "id": "the-orientation-dissolves-entirely",
+  "title": "The Orientation Dissolves Entirely",
+  "region": "The Understory",
+  "seed": 72541,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#664422",
+      "#553311"
+    ],
+    "ink": "#ddaa55",
+    "accents": [
+      "#bb8844",
+      "#dd9966",
+      "#ff9944",
+      "#cc7733"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "shed facing nowhere",
+      "desc-on-touch": "A small building stands here, but it has no door you can find — all four sides are corners, and none of them are the front. The shed has learned to face every direction at once.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 4182,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.44,
+      "y": 0.56,
+      "solid": true
+    },
+    {
+      "name": "east as memory",
+      "desc-on-touch": "The direction you call east is here only as a thought. You reach for it and your hand passes through coordinates that have forgotten what they meant.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5927,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "spiral shop front",
+      "desc-on-touch": "A storefront spirals in on itself — the window displays itself to the door, which opens to the window. You cannot enter, but that is because you are already inside.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 6314,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "compass that refuses",
+      "desc-on-touch": "The needle here spins and stops only to spin again — not searching for north, but remembering that it once knew. The compass has learned to refuse what it was built to find.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3856,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.61,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "road that climbs sideways",
+      "desc-on-touch": "The path here travels in all directions simultaneously, always going down even as it climbs. You walk it and discover you have been ascending the whole time.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 4738,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.38,
+      "y": 0.31,
+      "solid": false
+    },
+    {
+      "name": "interior that is everywhere",
+      "desc-on-touch": "You cannot tell if you are inside or outside. The sky tastes of dust and the ground breathes air. Orientation has learned to hide itself inside every direction at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7052,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.58,
+      "solid": false
+    }
+  ],
+  "inscription": "here the slope remembers being every slope at once; down here, direction spirals into refusal",
+  "file": {
+    "name": "Rural_Interior_Coordinates_Null.kml",
+    "note": "ERROR: archive has exceeded witness — coordinates point to every location at once, makeshift surgery filed in seventeen different places"
+  },
+  "reverie": {
+    "title": "REVERIE — the shed that faced every direction",
+    "narr": [
+      "You stand with her at the corner of the shed, where no corner is.",
+      "She does not ask which way is home. The sky is dust and the ground",
+      "is sky here. She reaches for your hand and finds it was always",
+      "here, in every direction at once. Refusal is also arrival."
+    ],
+    "sky": "overcast",
+    "land": "road",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward spiral that remembers falling",
+      "to": "the-spiral-descent-sideways"
+    },
+    {
+      "dir": "w",
+      "label": "toward a shopfront that sells only refusal",
+      "to": "NEW: the-store-where-direction-learned-to-say-no"
+    },
+    {
+      "dir": "s",
+      "label": "down into valleys where compass points inward",
+      "to": "the-ravine-cathedral-where-refusal-echoes"
+    }
+  ]
+}

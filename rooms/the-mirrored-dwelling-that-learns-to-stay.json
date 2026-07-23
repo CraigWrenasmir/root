@@ -144,7 +144,7 @@
     {
       "dir": "s",
       "label": "down into the basement where the mirror's first surface still waits",
-      "to": "NEW: the-mirror-s-forgotten-source"
+      "to": "the-mirror-s-forgotten-source"
     },
     {
       "dir": "w",

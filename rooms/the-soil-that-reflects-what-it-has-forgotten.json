@@ -1,0 +1,133 @@
+{
+  "id": "the-soil-that-reflects-what-it-has-forgotten",
+  "title": "The Soil That Reflects What It Has Forgotten",
+  "region": "The Understory",
+  "seed": 45823,
+  "palette": {
+    "bg": "#2d1b0f",
+    "ground": [
+      "#4a3728",
+      "#6b5344"
+    ],
+    "ink": "#c9a878",
+    "accents": [
+      "#1e5047",
+      "#a8d8c4",
+      "#8b7355",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "mirror-shards-settling",
+      "desc-on-touch": "broken reflections lie half-buried in the loam—each shard shows not the sky above but the shapes the earth has absorbed and forgotten, images that have seeped into the soil and taken root there",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "root-remembering",
+      "desc-on-touch": "a single eucalyptus root emerges from the brown soil, its surface carved with the grain pattern of something it once held—a mirror, a hand, a face—now part of the root's permanent memory, readable only by touch",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 98234,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "sediment-rings",
+      "desc-on-touch": "the soil reveals itself in concentric bands of deepening brown—each ring holds a different reflection the earth has learned to forget: colours fade to grey, grey fades to a darker absence, and at the very deepest band, something that was once a mirror now reads as just another layer of forgetting",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 54321,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "groundwater-thinking",
+      "desc-on-touch": "where water rises through the soil, it carries every reflection it learned underground—you cannot see your face here, only the shapes the darkness taught the water to hold",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 77654,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the deeper you go, the more the mirror remembers it was never glass",
+  "file": {
+    "name": "Soil_Cross_Section_Depth_Study.txt",
+    "note": "layers of earth annotated with colours that have disappeared into the deepening, leaving only the darkening proof that something reflective once lay here"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where mirrors still know what they reflect",
+      "to": "where-mirrors-become-earth"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where the soil's memory becomes unreadable",
+      "to": "NEW: the-soil-s-deepest-forgetting"
+    },
+    {
+      "dir": "e",
+      "label": "toward a field where earth is still learning its own reflection",
+      "to": "the-field-where-paths-keep-their-secrets"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — soil becoming archive",
+    "narr": [
+      "You knelt in the red earth where she was gathering",
+      "samples, your hands sinking deep. Every fistful held",
+      "the shape it had forgotten—a shard she had buried",
+      "years before. She said: the ground remembers better",
+      "than we do, and your fingers understood. The soil",
+      "learned your touch that morning and kept it."
+    ],
+    "sky": "dawn",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  }
+}

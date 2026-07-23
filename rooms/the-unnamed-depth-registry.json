@@ -1,0 +1,134 @@
+{
+  "id": "the-unnamed-depth-registry",
+  "title": "The Unnamed Depth Registry",
+  "region": "The Diagnostic Render",
+  "seed": 47291,
+  "palette": {
+    "bg": "#1a0a00",
+    "ground": [
+      "#ff4400",
+      "#cc3300"
+    ],
+    "ink": "#ffee99",
+    "accents": [
+      "#ff6600",
+      "#dd8800",
+      "#ffaa00",
+      "#ff9955"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "scale-marker",
+      "desc-on-touch": "You read a measurement so fine it trembles against your eye. The archive has learned to count at depths where intimacy and measurement become the same act.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "redressing station",
+      "desc-on-touch": "Something here has been wrapped and wrapped again, layers of tape at a scale you can barely perceive. The bandages go down forever.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 5103,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "depth gauge",
+      "desc-on-touch": "The needle oscillates between numbers that have no names yet. You feel this is how the archive counts things that do not wish to be counted.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3394,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.18,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "unnamed catalog",
+      "desc-on-touch": "Here the archive keeps records of things too small for titles. Each entry is a whisper at the threshold of audibility.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 7291,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.77,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "inverse measure",
+      "desc-on-touch": "The closer you look, the more distance opens inside. You understand now why intimacy cannot speak itself aloud.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "at this depth, the archive has learned that some truths live only at scales that refuse to speak themselves",
+  "file": {
+    "name": "Wound_Redressing_Intervals_Subatomic.log",
+    "note": "checksum: emotionally valid / formally unstable — a catalog of how many times a bandage must be replaced before the act of replacement becomes the wound itself"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the scales where naming resumes",
+      "to": "the-subatomic-registry"
+    },
+    {
+      "dir": "s",
+      "label": "toward fractals in the dressing material itself",
+      "to": "NEW: the-weaving-at-no-resolution"
+    },
+    {
+      "dir": "e",
+      "label": "where counts stop counting toward themselves",
+      "to": "NEW: the-registry-that-refused-volume"
+    }
+  ]
+}

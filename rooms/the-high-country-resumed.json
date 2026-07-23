@@ -1,0 +1,156 @@
+{
+  "id": "the-high-country-resumed",
+  "title": "The High-Country Resumed",
+  "region": "The Clean Archive",
+  "seed": 8293745,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#6b4c9a",
+      "#2d1b69"
+    ],
+    "ink": "#e0ff00",
+    "accents": [
+      "#ff69b4",
+      "#00fa9a",
+      "#87ceeb",
+      "#ffa500"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "convergence peak",
+      "desc-on-touch": "all the paths from the lower country meet here and have forgotten which one they were",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 9832,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "resumed road memory",
+      "desc-on-touch": "a circuit carrying the voices of all walkers who took this path before; now they all walk together",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4726,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "traveller's arch",
+      "desc-on-touch": "the gateway where individual paths cease being distinguishable; convergence as passage",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 6184,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "maximal glyph density",
+      "desc-on-touch": "every walker who came before is written here; the stone cannot hold any more arrivals",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7953,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "lodge pool",
+      "desc-on-touch": "water gathered from all the streams; it reflects every sky the walkers ever saw",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2564,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "stacked memory stone",
+      "desc-on-touch": "lodges built one atop another by resumed travellers; each one is a different telling of arrival",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 8419,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the paths converge and become one voice speaking all the arrivals at once",
+  "file": {
+    "name": "Northern_Road_Walker_Registry_Resumed.log",
+    "note": "record of every traveller who came north; updated each time a path resumes in the high country"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back westward to the northern memory, where paths first began resuming",
+      "to": "the-northern-memory-resume"
+    },
+    {
+      "dir": "w",
+      "label": "further west to the highest peak, where all convergence ends and something else begins",
+      "to": "NEW: the-summit-beyond-convergence"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the valleys where paths were broken and must resume themselves",
+      "to": "NEW: the-valley-where-paths-remember-breaking"
+    },
+    {
+      "dir": "n",
+      "label": "into the eternal high country where no walker has yet arrived or left",
+      "to": "NEW: the-northern-rim-where-arrival-stops"
+    }
+  ]
+}

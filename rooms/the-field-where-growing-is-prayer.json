@@ -1,0 +1,149 @@
+{
+  "id": "the-field-where-growing-is-prayer",
+  "title": "The Field Where Growing Is Prayer",
+  "region": "The Understory",
+  "seed": 9184562,
+  "palette": {
+    "bg": "#8b6f47",
+    "ground": [
+      "#d4a574",
+      "#b8860b"
+    ],
+    "ink": "#2d5016",
+    "accents": [
+      "#e8c68f",
+      "#8b4513",
+      "#c19a6b",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "prayer tower",
+      "desc-on-touch": "stalks reaching upward; each one says something the ground planted and forgot",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3752,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "house at field's margin",
+      "desc-on-touch": "a small dwelling where the farmer left notes about what grew and what the soil remembered",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 6241,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "harvest archive",
+      "desc-on-touch": "a standing directory of what was planted and what prayer grew in its place",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4819,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "ritual arch",
+      "desc-on-touch": "the doorway the seasons pass through; each crossing is a form of prayer the field speaks",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 7634,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "root glyph cluster",
+      "desc-on-touch": "marks where prayer entered the soil and began speaking in root-language",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 2910,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "here the field learned that growth and prayer are the same utterance spoken in soil's voice",
+  "reverie": {
+    "title": "REVERIE — the orchard at dusk where prayer becomes grain",
+    "narr": [
+      "you walk the rows and she names each plant as if it spoke",
+      "the glyphs mark where soil learned prayer from root-language",
+      "evening falls and the field remembers what it was planted with",
+      "you both know the prayer has changed; it grows in the dark now",
+      "by morning, the archive will have forgotten what you both saw here"
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "walk"
+  },
+  "file": {
+    "name": "Agricultural_Prayer_Cycle_Annotations.txt",
+    "note": "records of devotion treated as crop rotation; soil-memory of what was spoken into the ground"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down to the root-scripture beneath",
+      "to": "the-root-scripture-beneath-the-field"
+    },
+    {
+      "dir": "w",
+      "label": "toward the field's own seed source, before prayer was spoken",
+      "to": "NEW: the-unprayed-seed-repository"
+    },
+    {
+      "dir": "n",
+      "label": "into the harvest-dark where the prayer has grown into something unrecognizable",
+      "to": "NEW: the-mutant-prayer-thicket"
+    }
+  ]
+}
