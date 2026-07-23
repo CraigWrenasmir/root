@@ -28,6 +28,18 @@
   body.landscape .tb{opacity:.82;font-size:20px;padding:11px 0;width:58px}
   body.landscape .tb.wide{width:120px;font-size:15px;padding:13px 0}
   body.landscape #pad .sp{width:58px}
+  /* secret GOTO console */
+  #goto{position:fixed;left:50%;top:8%;transform:translateX(-50%);width:min(92vw,540px);
+        display:none;z-index:20;background:rgba(2,10,6,.97);border:1px solid #1d4d33;
+        border-radius:4px;padding:10px;font-family:'Menlo','Consolas','Courier New',monospace}
+  #goto.on{display:block}
+  #gotoInput{width:100%;box-sizing:border-box;background:#02100a;border:1px solid #1d4d33;
+             color:#59f2b0;font:16px 'Menlo','Consolas','Courier New',monospace;padding:9px;outline:none}
+  #gotoList{margin-top:6px;max-height:52vh;overflow:auto}
+  .gr{padding:7px 9px;color:#bfe8d4;cursor:pointer;border-bottom:1px solid #0e1c13;font-size:14px}
+  .gr.sel{background:#123020;color:#d8fff0}
+  .gr .rg{color:#4d8b68;font-size:.85em}
+  .gr .no{color:#5a4a2a;margin-right:6px}
 </style>
 </head>
 <body>
@@ -41,6 +53,10 @@
 <div id="btns">
   <div><span class="tb wide" id="bQuery">[ QUERY ]</span></div>
   <div><span class="tb wide" id="bRoot">[ /ROOT ]</span></div>
+</div>
+<div id="goto">
+  <input id="gotoInput" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="goto ▸ name, id, or #number">
+  <div id="gotoList"></div>
 </div>
 <script>
 "use strict";
@@ -1457,6 +1473,8 @@ function toggleFiles(){
 
 const KEYMAP = {ArrowUp:"up",KeyW:"up",ArrowDown:"down",KeyS:"down",ArrowLeft:"left",KeyA:"left",ArrowRight:"right",KeyD:"right"};
 addEventListener("keydown", e=>{
+  if(e.code==="Backquote"){ gotoOpen ? closeGoto() : openGoto(); e.preventDefault(); return; }
+  if(gotoOpen) return;   // the console input has focus — let it handle keys
   if(pressAny()){ e.preventDefault(); return; }
   if(mode==="reverie"){
     if(["Space","Enter","ArrowRight","ArrowDown","KeyD","KeyS","ArrowLeft","ArrowUp"].includes(e.code)) reverieAdvance();
@@ -1529,6 +1547,51 @@ window.DR = {
           "She is here, and you are here, and the archive is elsewhere."]}); },
   state(){ return {mode, room: room && room.id, files: Object.keys(save.files), reverie: !!reverie}; }
 };
+
+/* ---------- secret GOTO console (dev warp) ----------
+   activate: backtick (`) on desktop, or 3 quick taps in the top-left corner
+   on touch. type a name/id to fuzzy-jump, or #N / N to jump to the Nth node. */
+let gotoOpen = false, gotoSel = 0, gotoMatches = [];
+const gEl = document.getElementById("goto");
+const gIn = document.getElementById("gotoInput");
+const gList = document.getElementById("gotoList");
+function openGoto(){ if(!manifest) return; gotoOpen = true; gEl.classList.add("on"); gIn.value = ""; renderGoto(""); setTimeout(()=>gIn.focus(), 30); }
+function closeGoto(){ gotoOpen = false; gEl.classList.remove("on"); gIn.blur(); }
+function idxOf(r){ return manifest.rooms.indexOf(r) + 1; }
+const gEsc = s => String(s||"").replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+function renderGoto(q){
+  q = q.trim().toLowerCase();
+  let list;
+  const m = q.match(/^#?(\d+)$/);
+  if(m){ const r = manifest.rooms[parseInt(m[1],10)-1]; list = r ? [r] : []; }
+  else if(!q){ list = manifest.rooms.slice(0, 10); }
+  else list = manifest.rooms.filter(r => (r.title+" "+r.id).toLowerCase().includes(q)).slice(0, 12);
+  gotoMatches = list; gotoSel = 0;
+  gList.innerHTML = list.length
+    ? list.map((r,i)=>`<div class="gr${i===0?' sel':''}" data-i="${i}"><span class="no">${idxOf(r)}.</span>${gEsc(r.title)} <span class="rg">${gEsc(r.region||"")}</span></div>`).join("")
+    : '<div class="gr">no match</div>';
+}
+function highlightGoto(){ [...gList.children].forEach((c,i)=>c.classList.toggle("sel", i===gotoSel)); const s=gList.children[gotoSel]; if(s) s.scrollIntoView({block:"nearest"}); }
+function gotoJump(i){ const r = gotoMatches[i]; if(!r) return; closeGoto(); loadRoom(r.id, null); }
+gIn.addEventListener("input", ()=>renderGoto(gIn.value));
+gIn.addEventListener("keydown", e=>{
+  if(e.key==="Enter"){ gotoJump(gotoSel); e.preventDefault(); }
+  else if(e.key==="Escape"){ closeGoto(); e.preventDefault(); }
+  else if(e.key==="ArrowDown"){ gotoSel = Math.min(gotoMatches.length-1, gotoSel+1); highlightGoto(); e.preventDefault(); }
+  else if(e.key==="ArrowUp"){ gotoSel = Math.max(0, gotoSel-1); highlightGoto(); e.preventDefault(); }
+  e.stopPropagation();
+});
+gList.addEventListener("pointerdown", e=>{ const el=e.target.closest(".gr"); if(el && el.dataset.i!==undefined){ gotoJump(+el.dataset.i); e.preventDefault(); } });
+// touch activation: 3 quick taps in the top-left corner
+let cornerTaps = [];
+if(IS_TOUCH) addEventListener("pointerdown", e=>{
+  if(gotoOpen) return;
+  if(e.clientX < 80 && e.clientY < 80){
+    const now = performance.now();
+    cornerTaps = cornerTaps.filter(t => now - t < 1200); cornerTaps.push(now);
+    if(cornerTaps.length >= 3){ cornerTaps = []; openGoto(); }
+  }
+}, true);
 
 /* ---------- go ---------- */
 (async function(){
