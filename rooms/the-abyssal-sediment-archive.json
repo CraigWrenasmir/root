@@ -1,0 +1,166 @@
+{
+  "id": "the-abyssal-sediment-archive",
+  "title": "The Abyssal Sediment Archive",
+  "region": "The Understory",
+  "seed": 93847,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#ff6b35",
+      "#f7931e"
+    ],
+    "ink": "#fffacd",
+    "accents": [
+      "#f18f01",
+      "#c73e1d",
+      "#ffd700",
+      "#1a8917"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "island-markers laid out",
+      "desc-on-touch": "The stone arrangement maps an archipelago that no chart contains. Each island placement corresponds to a moment in a story told in shadow and song. The geometry refuses to flatten into Western coordinates.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "ceremonial layer",
+      "desc-on-touch": "In this strata, the Yolŋu songline of the adapted narrative runs alongside its ceremonies—dot-painting, dance-form, voice that moves through landscape. The archive has learned to store ritual as local history without flattening it to notation.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 7894,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "sediment-bore camera",
+      "desc-on-touch": "When you look down the tube, each layer shows a different island's version of the same surgical moment—forest and desert, volcanic ash below sand, water patterns in stone.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "forest-interior recording",
+      "desc-on-touch": "The Indonesian adaptations treated this story as drama unfolding in shadow-space—multiple islands, multiple interiors, all contained in the same narrative. The recording here holds the breath of dense forest and volcanic desert side by side.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 5743,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "depth-gauge reading backwards",
+      "desc-on-touch": "The deeper you descend in the archive, the more recent the surface becomes. At the trench walls, you find the formation memory—geological time reading itself as narrative time, islands rising while the story sinks.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8109,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "shadow-lattice wall",
+      "desc-on-touch": "This grid was never meant to hold coordinates—it holds instead the positions of light and absence in shadow-puppet performance. The story plays in the gaps between its own telling.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6428,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "where the layers of islands stack upon themselves and the archipelago dreams that it is one place",
+  "reverie": {
+    "title": "REVERIE — the lagoon where the story split into islands",
+    "narr": [
+      "you stand in ankle-deep water while Katita marks the reef",
+      "in charcoal, on stone, the same moment rendered three ways—",
+      "shadow, song, and the light that teaches water how to hold depth;",
+      "she says: 'this is how the stories survive geography—not as one",
+      "path but as many islands, each one learning the others by heart.'"
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Archipelago_Shadow_Traditions_Songlines_Merged.txt",
+    "note": "Indonesian, Yolŋu, and unknown regional adaptations interwoven; the archive cannot determine which source preceded which—all versions predate their own creation"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up the thermal gradient toward the navigation-silence where charts dissolve",
+      "to": "the-deepwater-navigation-silence"
+    },
+    {
+      "dir": "e",
+      "label": "deeper still, into the trench-floor where the sediment no longer speaks",
+      "to": "NEW: the trench-floor archive where pressure erases all ceremony"
+    },
+    {
+      "dir": "w",
+      "label": "toward the continental shelf where the islands first began to separate",
+      "to": "the-storm-archive-beyond-signal"
+    }
+  ]
+}

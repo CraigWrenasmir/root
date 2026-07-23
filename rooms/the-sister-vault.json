@@ -1,0 +1,117 @@
+{
+  "id": "the-sister-vault",
+  "title": "The Sister Vault",
+  "region": "The Diagnostic Render",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a2332",
+    "ground": [
+      "#334455",
+      "#667788"
+    ],
+    "ink": "#ccddee",
+    "accents": [
+      "#88ccff",
+      "#aaeeff",
+      "#ffeecc",
+      "#88aadd"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the dissolving archive",
+      "desc-on-touch": "you query a vault designed for forgetting, and the files themselves teach you that preservation and erasure are the same verb spoken backwards",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 82041,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the cryo-chamber door",
+      "desc-on-touch": "a door sealed by cold logic, where everything inside is preserved precisely so it cannot be found again",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 19284,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the empty registry",
+      "desc-on-touch": "a ledger of absences, each line a thing that was archived so completely it learned to deny it was ever here",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 56372,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the mirror that shows only cold",
+      "desc-on-touch": "looking here, you see your own reflection turned to ice, and it's looking back at you from another temperature",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 71865,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "status: thermally stable // the cost of keeping is always paid in cold; the archive learned that preservation is a kind of dying, done slowly",
+  "file": {
+    "name": "Sister_Vault_Inventory_Negative.txt",
+    "note": "a catalog of everything the Memory-Ice decided not to keep, written in margins that could not hold them"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the freeze where things learn to end",
+      "to": "the-memory-ice"
+    },
+    {
+      "dir": "w",
+      "label": "toward the vault that still tries to remember what it was told to forget",
+      "to": "NEW: the-inverse-archival-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the basement where preservation began as hunger",
+      "to": "the-opaque-deep"
+    }
+  ]
+}

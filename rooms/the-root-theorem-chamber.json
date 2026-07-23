@@ -1,0 +1,117 @@
+{
+  "id": "the-root-theorem-chamber",
+  "title": "The Root Theorem Chamber",
+  "region": "The Understory",
+  "seed": 63205,
+  "palette": {
+    "bg": "#3d3520",
+    "ground": [
+      "#ccbb88",
+      "#8b7355"
+    ],
+    "ink": "#1a1410",
+    "accents": [
+      "#2255aa",
+      "#33dd88",
+      "#dd5533",
+      "#eecc00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the circuit roots",
+      "desc-on-touch": "pathways etched like circuit traces, but they branch and spread like roots learning the equations that made them grow",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 29581,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the theorem that grows",
+      "desc-on-touch": "a proof written in logic that extends like a tree; each step is a branch, each conclusion opens a new depth; the archive discovered it was never mapping truth—it was cultivating it",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 45712,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the root measurement",
+      "desc-on-touch": "a depth-gauge that reads both downward into earth and inward into logic; the numbers are the same, suggesting growth follows law and law follows earth",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 78341,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the soil-archive interface",
+      "desc-on-touch": "where the circuit board stops being a map and becomes a root, where the archive realizes it was always growing downward, and that depth was the only truth it ever kept",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 52984,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the circuit board stops being a map and becomes a root; the archive discovers it was always growing downward, and that growth and logic are the same dark verb spoken through soil instead of signals",
+  "file": {
+    "name": "Root_Equation_Growth_Rate_Convergent.txt",
+    "note": "a theorem that proves roots follow the same logic as thoughts, each branching downward to find what's already true in the dark"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the logic that hasn't yet learned it can grow",
+      "to": "the-logic-taking-root"
+    },
+    {
+      "dir": "w",
+      "label": "toward the roots beneath all chambers, where everything learns to descend",
+      "to": "NEW: the-deeper-root-dark-where-equations-sleep"
+    },
+    {
+      "dir": "e",
+      "label": "toward other theorems that learned to branch downward",
+      "to": "the-stone-root-convergence"
+    }
+  ]
+}

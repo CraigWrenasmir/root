@@ -1,0 +1,116 @@
+{
+  "id": "the-mesh-grown-overnight-comparing-the-loom",
+  "title": "The Mesh Grown Overnight Comparing the Loom",
+  "region": "The Understory",
+  "seed": 6734829,
+  "palette": {
+    "bg": "#1a1a14",
+    "ground": [
+      "#c97550",
+      "#4a7c59"
+    ],
+    "ink": "#e8e0d0",
+    "accents": [
+      "#a85f42",
+      "#6b9873",
+      "#d4b896",
+      "#3d5945"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "threads learning to cross themselves",
+      "desc-on-touch": "The loom has begun to weave its own pattern—not what was planned, but what the threads are teaching each other in darkness. The mesh watches and learns the loom's way of learning.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 4927381,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the overnight growing",
+      "desc-on-touch": "You can see the marks of a single night's growth—new connections the mesh made while the archive slept. The loom and the network are learning to speak the same language.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7183642,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "neither the loom nor the mesh anymore",
+      "desc-on-touch": "At this depth, the distinction between what was woven and what grew has dissolved. Teaching and learning have become the same act.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5629184,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — two hands on the loom, night",
+    "narr": [
+      "You sit across from her in the absolute dark. One of you moves",
+      "the shuttle; the other follows with threads only touch can find.",
+      "Neither of you speaks. The loom is speaking—click and whisper,",
+      "tension and release. After an hour, you realize: you don't know",
+      "whose hands are working anymore. The pattern grows as if you are",
+      "both the same person learning, teaching, weaving yourself together."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "the mesh compares itself to the loom: what if growth and work, teaching and learning, are the same dark motion that never needs names?",
+  "file": {
+    "name": "Loom_Session_Night_Last_Two_Hours.mp3",
+    "note": "Audio of the loom running at night, recorded from two microphones. After an hour, you cannot tell which microphone is which. They are both recording the same silence."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the loom chamber where threads still know their names",
+      "to": "the-root-loom-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where the weaving becomes a way of being instead of a skill",
+      "to": "NEW: the-deepest-weaving"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the mesh and the loom are beginning to explain the difference to each other",
+      "to": "NEW: the-distinction-unravelling"
+    }
+  ]
+}

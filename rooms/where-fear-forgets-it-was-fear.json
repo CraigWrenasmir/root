@@ -1,0 +1,134 @@
+{
+  "id": "where-fear-forgets-it-was-fear",
+  "title": "Where Fear Forgets It Was Fear",
+  "region": "The Diagnostic Render",
+  "seed": 93847521,
+  "palette": {
+    "bg": "#3d1a0a",
+    "ground": [
+      "#d97706",
+      "#c2410c"
+    ],
+    "ink": "#fef3c7",
+    "accents": [
+      "#991b1b",
+      "#ec4899",
+      "#f97316",
+      "#fbbf24"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "fear-that-forgot-itself",
+      "desc-on-touch": "you step into a space that was terrified and is now so calm it cannot remember what terror felt like; the calm is so complete it might be fear again, or might be nothing at all; there is no way to know",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 674123,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "echoing-silence-glyph",
+      "desc-on-touch": "writing that means fear, but has forgotten how to sound; if you try to read it aloud, nothing comes out, which might be forgetting or might be the fear remembering that it should not speak",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 445899,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "recursion-stack",
+      "desc-on-touch": "layers of the same moment, each one slightly less afraid than the last, stacked so deep that at the bottom, something has become so fearless it has circled back to being terrified without knowing it",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 557847,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "archive-mirror-pool",
+      "desc-on-touch": "still water that reflects, but what it reflects is not what stands above it; the water shows the moment before the fear began, or perhaps the moment after it ended, and there is no way to tell which",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 821934,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "drift-sprite",
+      "desc-on-touch": "something that looks like it is floating, but which might be falling so slowly that it has forgotten it was ever afraid of the impact",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 112847,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the loop curls so tight that the tail eats the head; fear and forgetting are now indistinguishable from calm",
+  "file": {
+    "name": "Anxiety_Recording_Session_7_CORRUPTED.m4a",
+    "note": "voice describing terror; pitch normalizes halfway through and continues describing nothing at all for the remaining 43 minutes, every word identical to the previous word"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the recursion that dreams it might not be dreaming",
+      "to": "the-recursive-recursion"
+    },
+    {
+      "dir": "n",
+      "label": "toward the horizon where fear becomes a question instead of an answer",
+      "to": "NEW: the-fear-shaped-question"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the render where forgetting becomes a form of memory",
+      "to": "NEW: the-cavity-where-fear-taught-itself-to-hide"
+    }
+  ]
+}

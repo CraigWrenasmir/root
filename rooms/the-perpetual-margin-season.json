@@ -1,0 +1,100 @@
+{
+  "id": "the-perpetual-margin-season",
+  "title": "The Perpetual Margin Season",
+  "region": "The Understory",
+  "seed": 6482731,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d1f3d",
+      "#1a0f2e"
+    ],
+    "ink": "#d4d4d4",
+    "accents": [
+      "#8b7b9a",
+      "#6b5b7b",
+      "#c9c9d9",
+      "#e8e8f0"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the season between seasons",
+      "desc-on-touch": "A wave form that never settles—spring and summer and autumn and winter bleed into each other, all at once. You stand in a space the margin learned does not have to choose.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3847592,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "indecision held solid",
+      "desc-on-touch": "A tower sways but never falls. It holds the weight of perpetual choice you can feel from standing near it—the structure itself the triumph of the margin.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8172934,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "scattered seasons",
+      "desc-on-touch": "You see glyphs scatter like leaves in perpetual wind, each marking a moment the margin chose to remain unsettled. The scattering is its own order.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 5938174,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the margin learned it need not choose, only become perpetually unsettled",
+  "file": {
+    "name": "Seasonal_Paradox_Ongoing.log",
+    "note": "where the archive became a place that contains all seasons at once, and called it home"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where seasons still believed they had to compete",
+      "to": "the-margin-where-seasons-learn-to-compete"
+    },
+    {
+      "dir": "e",
+      "label": "toward the storm where weather has forgotten what choice means",
+      "to": "NEW: the-weather-beyond-seasons"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the foundation where all seasons root together",
+      "to": "NEW: the-root-where-all-seasons-sleep"
+    }
+  ]
+}

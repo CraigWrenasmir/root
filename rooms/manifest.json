@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 64,
+  "nights": 69,
   "lastDreamt": "2026-07-23",
   "rooms": [
     {
@@ -1787,6 +1787,141 @@
       "id": "the-deeper-confluence-spiraling",
       "title": "The Surgical Moment Filed as Local History",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-memory-strata-where-fossils-think",
+      "title": "The Memory Strata Where Fossils Think",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-pressure-where-no-sound-has-ever-travelled",
+      "title": "The Pressure Where No Sound Has Ever Travelled",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-undivided-canopy-archive",
+      "title": "The Undivided Canopy Archive",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-infinite-render-that-reads-its-own-reading",
+      "title": "The Infinite Render That Reads Its Own Reading",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-mesh-grown-overnight-comparing-the-loom",
+      "title": "The Mesh Grown Overnight Comparing the Loom",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ravine-cathedral-where-refusal-echoes",
+      "title": "The Ravine Cathedral Where Refusal Echoes",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-estuary-where-broadcasts-fade",
+      "title": "The Estuary Where Broadcasts Fade",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-abyssal-sediment-archive",
+      "title": "The Abyssal Sediment Archive",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deep-current-listening-chamber",
+      "title": "The Deep Current Listening Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-garden-where-nothing-grows-but-everything-listens",
+      "title": "The Root-Garden Where Nothing Grows But Everything Listens",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-slope-where-climbing-becomes-surrender",
+      "title": "The Slope Where Climbing Becomes Surrender",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-substrate-below-the-menu-screen",
+      "title": "The Substrate Below the Menu-Screen",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-sister-vault",
+      "title": "The Sister Vault",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-infinite-interior-hall",
+      "title": "The Infinite Interior Hall",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-eternal-convergent-half-light",
+      "title": "The Eternal Convergent Half-Light",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-root-theorem-chamber",
+      "title": "The Root Theorem Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-walking-grove",
+      "title": "The Walking Grove",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-singing-path",
+      "title": "The Singing-Path",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-archive-s-oldest-second",
+      "title": "The Archive's Oldest Second",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unsettled-transaction-pit",
+      "title": "The Unsettled Transaction Pit",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-country-that-continues-reading",
+      "title": "The Country That Continues Reading",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-perpetual-margin-season",
+      "title": "The Perpetual Margin Season",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-canopy-where-water-learns-to-breathe",
+      "title": "The Canopy Where Water Learns to Breathe",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-fear-forgets-it-was-fear",
+      "title": "Where Fear Forgets It Was Fear",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-vein-reading-chamber",
+      "title": "The Vein Reading Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deeper-dark-where-roots-remember-stone",
+      "title": "The Deeper Dark Where Roots Remember Stone",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-open-water-beyond-all-broadcasts",
+      "title": "The Open Water Beyond All Broadcasts",
+      "region": "The Understory"
     }
   ]
 }

@@ -1,0 +1,134 @@
+{
+  "id": "the-canopy-where-water-learns-to-breathe",
+  "title": "The Canopy Where Water Learns to Breathe",
+  "region": "The Understory",
+  "seed": 74829156,
+  "palette": {
+    "bg": "#1a4d2e",
+    "ground": [
+      "#2d8a3d",
+      "#5ecf7f"
+    ],
+    "ink": "#e8f5e9",
+    "accents": [
+      "#7fdbca",
+      "#ffd9a8",
+      "#a8d8b8",
+      "#ffb347"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "drowned sing-tower",
+      "desc-on-touch": "you stand in water to your ribs; the trees breathe through their bark as though the canopy never stopped growing, never stopped returning to the place it came from, and the water has learned to hum with it",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 201847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "leaf-veil",
+      "desc-on-touch": "pale green water-filmed leaves hang so thick you can barely see the canopy's architecture behind them; they filter the light into something that tastes green when you breathe it",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 445612,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "floating glyph-pool",
+      "desc-on-touch": "a pool within the water holds something that might be writing: marks that rearrange when you look away, characters that breathe in and out with the canopy's respiration",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 557234,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "breathing-sprite",
+      "desc-on-touch": "something moves through the canopy-water in a rhythm that matches the trees' breathing — neither animal nor current, but the canopy itself learning its own reflection",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 823401,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "half-submerged arch",
+      "desc-on-touch": "the canopy has bent itself into a doorway that the water flows through, the boundary between air and drowning becoming something the trees can live inside of, unseparated",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 112956,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "water that does not drown, canopy that does not rise; the boundary has learned to breathe",
+  "file": {
+    "name": "Canopy_Respiration_Study_Summer_2004.mp3",
+    "note": "field recording of wet leaves in sustained flooding; pitch rises and falls in rhythm that does not match wind; transcriber's note: 'almost like breathing, but whose lungs'"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down, back toward the drowning that never stopped",
+      "to": "the-flooded-canopy-memory"
+    },
+    {
+      "dir": "e",
+      "label": "where the canopy opens eastward into sky that hasn't learned to read it",
+      "to": "NEW: the canopy's second grammar"
+    },
+    {
+      "dir": "w",
+      "label": "into the thickest leaves where the water has forgotten which way is down",
+      "to": "NEW: the leaf-darkness where direction dissolves"
+    }
+  ]
+}

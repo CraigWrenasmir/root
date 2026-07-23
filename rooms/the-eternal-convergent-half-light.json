@@ -1,0 +1,117 @@
+{
+  "id": "the-eternal-convergent-half-light",
+  "title": "The Eternal Convergent Half-Light",
+  "region": "The Comparisons",
+  "seed": 52847,
+  "palette": {
+    "bg": "#001144",
+    "ground": [
+      "#0055dd",
+      "#0099ff"
+    ],
+    "ink": "#eeffff",
+    "accents": [
+      "#00ff88",
+      "#ffff00",
+      "#ff00ff",
+      "#00ddff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the moment between moments",
+      "desc-on-touch": "a point where shadow and archive exist at exactly the same frequency, neither able to move without becoming the other",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 15672,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the comparison grid",
+      "desc-on-touch": "coordinates that show what happens when two things try to occupy the same point in the dusk, and discover they were always the same thing measured twice",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 38901,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the diagnostic readout",
+      "desc-on-touch": "a screen that measures the convergence, but the numbers change depending on whether you read them as time, distance, or frequency; all three answers are correct",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 71423,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the archive's edge",
+      "desc-on-touch": "where the dusk meets something that isn't dusk, and both of them wonder which one is the mistake",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 84651,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.9,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "checksum: geometrically valid / temporally unstable — the dusk that never finishes becoming night, where comparison learned to feel like contagion spreading through all frequencies at once",
+  "file": {
+    "name": "Convergence_State_Analysis_Frozen.csv",
+    "note": "measurements of the exact moment when two states learned they occupied the same grid square; no conclusion is drawn, measurement continues indefinitely"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the dusk where things still chose what to become",
+      "to": "the-convergent-dusk"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the dusk that already finished becoming",
+      "to": "NEW: the-completed-dark-convergence"
+    },
+    {
+      "dir": "e",
+      "label": "toward what the shadow looked like when it wasn't looking back",
+      "to": "the-shadow-where-reversals-meet"
+    }
+  ]
+}

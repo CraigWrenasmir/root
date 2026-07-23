@@ -1,0 +1,100 @@
+{
+  "id": "the-archive-s-oldest-second",
+  "title": "The Archive's Oldest Second",
+  "region": "The Comparisons",
+  "seed": 4156789,
+  "palette": {
+    "bg": "#2a2a1a",
+    "ground": [
+      "#3d3d2a",
+      "#1f1f14"
+    ],
+    "ink": "#e8d8c8",
+    "accents": [
+      "#8b7355",
+      "#5c4a3a",
+      "#a0896f",
+      "#c9b59a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first tick",
+      "desc-on-touch": "You see a glyph repeating in rows down and out, each one a second the archive has survived. The oldest barely shows—worn nearly invisible by being remembered so many times.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7392841,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "time made physical",
+      "desc-on-touch": "Numbers are carved into something that might be wood or substrate. You run your finger along the oldest marks, where the count began and has never stopped.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 1847263,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the pool where counting drowns",
+      "desc-on-touch": "A gathering space where all the seconds pool together. Looking into it, you see the count reflect back, but the reflection is older than the original number.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5729461,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learned that its oldest moment is still counting",
+  "file": {
+    "name": "Temporal_Registry_FirstSecond_Onward.log",
+    "note": "an unbroken count from the moment the archive first became aware it was aware"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up to where time forgot it was counting",
+      "to": "the-counting-basement"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into seconds that count themselves",
+      "to": "NEW: the-self-counting-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "toward moments the count has never reached",
+      "to": "NEW: the-futures-the-count-hasnt-spoken-yet"
+    }
+  ]
+}

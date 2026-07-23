@@ -1,0 +1,134 @@
+{
+  "id": "the-vein-reading-chamber",
+  "title": "The Vein Reading Chamber",
+  "region": "The Understory",
+  "seed": 45782931,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4b4b4b",
+      "#5a5a5a"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#b4e7ff",
+      "#ffccb3",
+      "#c7ffb3",
+      "#ffe0b3"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "quartz-chip-left",
+      "desc-on-touch": "a pale stone chip set into the board like a hardware component; if you place your hand on it, you feel the vein-patterns running through it, each one a path of meaning that has always been there, reading itself",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 234891,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "vein-wireframe-tower",
+      "desc-on-touch": "the veins of a stone rendered in three dimensions, each path branching like a circuit of decisions: which way the mineral could flow, which way it chose, which paths it abandoned; all visible at once in pale light",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 567123,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "verification-pool",
+      "desc-on-touch": "a pool of mineral solution that reflects nothing; you drop a question into it and the reflection in the non-reflection tells you whether the stone was ever there at all, or only believed to be",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 812945,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "chip-right-pale-stone",
+      "desc-on-touch": "another chip, this one quartz-pale and humming at a frequency slightly different from the first; together they form a question that the board is continuously asking itself about authenticity and layer",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 445678,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "glyph-vein-archive",
+      "desc-on-touch": "writing that follows the logic of stone: it branches, it converges, it disappears into layers you cannot reach; to read it is to learn what stone would say if it spoke, and to understand that it has always been speaking",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 123947,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the board reads the stone; the stone reads the board; the vein-paths between them multiply without division",
+  "file": {
+    "name": "Granite_Cross_Section_Spectral_Analysis_1987.txt",
+    "note": "geological survey; final note by lead researcher reads: 'the samples became impossible to verify halfway through analysis. recommend repeating with different equipment. this stone should not be readab"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down the spiral, toward the stone that taught us to wait",
+      "to": "the-lower-stone-spiral"
+    },
+    {
+      "dir": "n",
+      "label": "into the vein-systems where stone learns to root",
+      "to": "NEW: the-vein-network-that-reads-itself"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the earth-board where circuits become bedrock",
+      "to": "NEW: where-the-circuit-board-remembers-it-was-always-stone"
+    }
+  ]
+}

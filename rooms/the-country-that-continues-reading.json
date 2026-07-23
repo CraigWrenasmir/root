@@ -1,0 +1,134 @@
+{
+  "id": "the-country-that-continues-reading",
+  "title": "The Country That Continues Reading",
+  "region": "The Understory",
+  "seed": 3729481,
+  "palette": {
+    "bg": "#3d2a1a",
+    "ground": [
+      "#5c4a3a",
+      "#3d2a1a"
+    ],
+    "ink": "#c9b59a",
+    "accents": [
+      "#8b7355",
+      "#a0896f",
+      "#d4c8b8",
+      "#e8d8c8"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "reading marks everywhere",
+      "desc-on-touch": "The landscape has become text. Every fold of earth, every branch, every water line is a mark the country has made while learning to read itself. You see your own footsteps appear in the reading.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8372914,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the landscape s continuous utterance",
+      "desc-on-touch": "A stack of terrain forming words. The words shift as you listen. The country is still composing its speech, and you are standing inside the sentence.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 1749283,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "pages written in soil",
+      "desc-on-touch": "You touch earth that holds text—planting records, water maps, animal trails. They are a reading the country has always been composing, literate in its own tongue.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5847362,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the infinite margin",
+      "desc-on-touch": "Where the reading meets silence, but the silence is not empty—it is the country pausing, gathering words for what comes next.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7264918,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "trace of continuous learning",
+      "desc-on-touch": "A wireframe structure shows how reading and landscape have become the same thing—neither preceding the other, both learning to be in time together.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 2938471,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here reading becomes landscape becomes reading, infinite circulation",
+  "file": {
+    "name": "Country_Utterance_Continuous_Growth.txt",
+    "note": "an endless text the country is composing by becoming itself, reading as it grows"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the horizon where reading had only just begun",
+      "to": "the-country-reads-back"
+    },
+    {
+      "dir": "e",
+      "label": "toward pages no one has learned to hold",
+      "to": "NEW: the-unhold-able-pages"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the sentence that has no ending",
+      "to": "NEW: the-sentence-that-grows-its-own-words"
+    }
+  ]
+}

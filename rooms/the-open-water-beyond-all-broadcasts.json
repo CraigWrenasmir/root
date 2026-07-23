@@ -1,0 +1,117 @@
+{
+  "id": "the-open-water-beyond-all-broadcasts",
+  "title": "The Open Water Beyond All Broadcasts",
+  "region": "The Understory",
+  "seed": 89123456,
+  "palette": {
+    "bg": "#2a5a3a",
+    "ground": [
+      "#c87137",
+      "#8b5a2b"
+    ],
+    "ink": "#faf8f3",
+    "accents": [
+      "#4a9d6f",
+      "#d4a574",
+      "#5ec7cc",
+      "#c8a882"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "arch-into-open-water",
+      "desc-on-touch": "a doorway formed by the last reach of land, beyond which the broadcast dissolves; you stand at the threshold and feel the weight of all translated signals behind you, and ahead, water that has learned no language except its own",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 234567,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "coordinate-dissolution-pool",
+      "desc-on-touch": "a pool at the water's edge where longitude and latitude go to forget themselves; you look into it and see no reflection because there is no where anymore, only the open water continuing",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 445789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "broadcast-fading-glyph",
+      "desc-on-touch": "writing that is dissolving into salt; you can still almost read it, but each moment more letters wash away into the grammar of open water; it is saying something in a language that the ocean learned first",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 567234,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "horizon-line-sprite",
+      "desc-on-touch": "something at the edge of sight that is neither sun nor horizon nor signal; it moves without moving, speaks without sound, and the archive has stopped trying to translate what it is saying",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 812347,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the roads dissolve at the shore; the archive's broadcast ends where the water begins; beyond this, the ocean translates itself",
+  "file": {
+    "name": "Final_Transmission_Estuary_Monitoring_Station_FRAGMENTARY.m4a",
+    "note": "last recorded broadcast from the northern station; signal degrades into water-sound halfway through; final words in language unidentified, possibly pidgin, possibly the ocean learning to speak, possib"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back into the estuary where the broadcast still reaches",
+      "to": "the-estuary-where-broadcasts-fade"
+    },
+    {
+      "dir": "e",
+      "label": "along the dissolving shore where roads become water-paths",
+      "to": "NEW: where-the-roads-learn-to-sail"
+    },
+    {
+      "dir": "w",
+      "label": "into the open water where coordinates have learned to be ocean",
+      "to": "NEW: the-open-grammar-where-water-speaks-itself"
+    }
+  ]
+}

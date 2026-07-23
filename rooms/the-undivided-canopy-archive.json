@@ -1,0 +1,117 @@
+{
+  "id": "the-undivided-canopy-archive",
+  "title": "The Undivided Canopy Archive",
+  "region": "The Comparisons",
+  "seed": 8374629,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1a2f4a",
+      "#2a3f5f"
+    ],
+    "ink": "#d0d8e8",
+    "accents": [
+      "#506080",
+      "#7a8fa8",
+      "#c0d0e0",
+      "#e8ede8"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "undivided trunk-root-spring unity",
+      "desc-on-touch": "Here, the tree does not separate root from canopy, water from branch, soil from sky. They exist in the same place, still braided together, waiting for the crack that splits them into sequence.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3928174,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "comparison-water, still not choosing",
+      "desc-on-touch": "The water here moves upward and downward at once—the archive compares the two flows and refuses to decide which is truly flowing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6281945,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "moment before the division",
+      "desc-on-touch": "You can see the hairline fracture beginning to form, but it hasn't split yet. This is the last instant of unity. The archive holds very still.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7139486,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the forest's shared language",
+      "desc-on-touch": "Before the words split into root-words and sky-words, the forest spoke in one grammar. You can almost remember it.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4736290,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "upstream of the division, the archive compares what spring and root were before they learned to be separate things",
+  "file": {
+    "name": "PreDivision_Phonic_Record_Unified.mp3",
+    "note": "A recording of the forest speaking before root and canopy had different vocabularies. The sound is: singing and silence, simultaneously."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward spring learning to choose its direction",
+      "to": "where-spring-learns-to-flow-upward"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the forest where the division never happened",
+      "to": "NEW: the-forest-that-refused-to-split"
+    },
+    {
+      "dir": "n",
+      "label": "upward where root and sky are learning to speak to each other again",
+      "to": "NEW: the-reconciliation-canopy"
+    }
+  ]
+}

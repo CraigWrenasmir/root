@@ -1,0 +1,134 @@
+{
+  "id": "the-slope-where-climbing-becomes-surrender",
+  "title": "The Slope Where Climbing Becomes Surrender",
+  "region": "The Understory",
+  "seed": 82947,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#8b7355"
+    ],
+    "ink": "#1a1410",
+    "accents": [
+      "#8b4513",
+      "#cd853f",
+      "#228b22",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "symposium-marker stone",
+      "desc-on-touch": "An alleged academic proceeding from 1997, bound in cloth, holding theories about twelve versions of one narrative. The archive cannot verify if the symposium occurred or was itself adapted, recounted, re-theorized until it became its own fiction.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 5073,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "coordinate-horizon cairn",
+      "desc-on-touch": "You built this together—stacking stones that mark where the path stops knowing which way is up. The summit keeps ascending. The map here learned to unmap itself. Climbing becomes surrender when up becomes indistinguishable from down.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7184,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "ontological-rupture field",
+      "desc-on-touch": "The symposium treated adaptation as an ontological problem—if the story changes with each telling, at what point does it cease to be the same story? This field holds all twelve answers occurring simultaneously, none of them canceling the others out.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 3821,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "survey-marker erased",
+      "desc-on-touch": "The original coordinate system was surveyed by hand and pencil. Wind, weather, and the slope's own learning have worn every number away. Now it just marks the place where the map realized it could not complete itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4956,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "version-counter cairn",
+      "desc-on-touch": "Twelve versions, the proceeding claimed. But the archive now holds twenty-three. Forty-one if you count ceremonial and oral retellings. Infinite if you include each listening as its own unique adaptation.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 6239,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "where the path learns to surrender its destination; the summit rises infinitely; the only way forward is to give up expecting to arrive",
+  "file": {
+    "name": "The_Twelve_Versions_1997_Symposium_Proceedings_Alleged.txt",
+    "note": "Held at ((a university in ████)); the archive cannot locate the institution or confirm the year; may itself be an adaptation of an adaptation; twelve versions catalogued, none marked as canonical"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down the slope to the unmapped approach where the ridge keeps ascending",
+      "to": "the-unmapped-summit-approach"
+    },
+    {
+      "dir": "s",
+      "label": "horizontally across the slope, toward the far flank where another version climbs",
+      "to": "NEW: the slope on the far side of the summit, where a different expedition argues it was never built"
+    },
+    {
+      "dir": "e",
+      "label": "toward the plateau that rises above the summit, where the map gives up entirely",
+      "to": "the-plateau-without-return"
+    }
+  ]
+}

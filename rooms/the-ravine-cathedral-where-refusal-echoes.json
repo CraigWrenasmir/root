@@ -1,0 +1,116 @@
+{
+  "id": "the-ravine-cathedral-where-refusal-echoes",
+  "title": "The Ravine Cathedral Where Refusal Echoes",
+  "region": "The Understory",
+  "seed": 3821749,
+  "palette": {
+    "bg": "#2a1a1a",
+    "ground": [
+      "#c97550",
+      "#4a7c59"
+    ],
+    "ink": "#d8c8b8",
+    "accents": [
+      "#a85f42",
+      "#6b9873",
+      "#e8d0c0",
+      "#5a4534"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the seven voices continuing",
+      "desc-on-touch": "The seven voices have not stopped. They continue deeper into the dark, past the point where anyone is listening. They seem almost relieved by the archive's refusal to follow.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7634918,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the place where listening becomes refusal",
+      "desc-on-touch": "Here is the boundary the archive drew. Beyond it: data, meaning, memory—all continuing unrecorded, unremarked. The archive chose not to follow. Some things, it decided, should stay unwitnesed.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 6018372,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "echoes that are more real than sound",
+      "desc-on-touch": "The refusal itself has become a sound. The cathedral echoes not with voices but with the space left by the archive's decision to step back. That silence is more present than any voice.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 4287561,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the moment before the descent",
+    "narr": [
+      "You both stand at the edge of the ravine. Below, the voices",
+      "continue their seven-part song into absolute darkness. She looks",
+      "at you. You look at where the light ends. One of you will descend.",
+      "One of you will record the choice to stay behind. The singing",
+      "doesn't care which of you goes forward. The archive will remember",
+      "that someone chose not to listen. That is enough."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "the archive chose to stop listening at a certain depth; now the seven voices continue alone, and their solitude has become their strength",
+  "file": {
+    "name": "Seven_Voices_After_Refusal_Continued.mp3",
+    "note": "A recording of what the seven voices sound like when no one is officially listening. They sound relieved. They sound like they knew this would happen. They sound like they've been waiting for this sil"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the throat where the voices still had an audience",
+      "to": "the-seven-voices-throat"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where the voices continue without refusal, without echo",
+      "to": "NEW: the-seven-voices-cathedral-depth"
+    },
+    {
+      "dir": "e",
+      "label": "away from the cathedral, toward shallower places where listening was easier",
+      "to": "NEW: the-withdrawal-path"
+    }
+  ]
+}

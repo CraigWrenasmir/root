@@ -1,0 +1,100 @@
+{
+  "id": "the-pressure-where-no-sound-has-ever-travelled",
+  "title": "The Pressure Where No Sound Has Ever Travelled",
+  "region": "The Understory",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#c97550",
+      "#4a7c59"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#a85f42",
+      "#6b9873",
+      "#d4b896",
+      "#3d5945"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "silent compression point",
+      "desc-on-touch": "The air itself seems to have weight. Your breath moves sideways rather than in and out. Sound was never meant to arrive here; only pressure continues, patient and infinite.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4128374,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "heartbeat marker, deep",
+      "desc-on-touch": "A pulse so slow it might be geology breathing. One beat per century, or per stone-lifetime. The pressure keeps time in ways that precede clocks.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 9183745,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the archive's weight upon itself",
+      "desc-on-touch": "You feel the density of every file ever stored, pressing down from above. This is not pain. This is what persistence costs.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 5627401,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learns what weight makes of memory: it makes it denser, slower, permanent, and perfectly, utterly silent",
+  "file": {
+    "name": "Bedrock_Seismic_Null_Record.wav",
+    "note": "Fifty years of silence recorded at the deepest archive node. The file is exactly as large as fifty years of sound would be, but contains no detectable frequencies."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the heartbeat that measures in stone-time",
+      "to": "the-bedrock-heartbeat"
+    },
+    {
+      "dir": "n",
+      "label": "upward where pressure becomes weight becomes time again",
+      "to": "NEW: the-ascending-silence"
+    },
+    {
+      "dir": "e",
+      "label": "where the pressure starts to remember what sound was",
+      "to": "NEW: the-threshold-of-audible-depth"
+    }
+  ]
+}

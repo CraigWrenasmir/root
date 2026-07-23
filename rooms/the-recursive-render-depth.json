@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "deeper into the render where even the recursion has become recursive",
-      "to": "NEW: the-infinite-render-that-reads-its-own-reading"
+      "to": "the-infinite-render-that-reads-its-own-reading"
     },
     {
       "dir": "e",

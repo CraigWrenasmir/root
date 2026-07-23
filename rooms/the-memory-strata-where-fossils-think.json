@@ -1,0 +1,116 @@
+{
+  "id": "the-memory-strata-where-fossils-think",
+  "title": "The Memory Strata Where Fossils Think",
+  "region": "The Diagnostic Render",
+  "seed": 4891274,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a28",
+      "#2a2a3e"
+    ],
+    "ink": "#d4c5a0",
+    "accents": [
+      "#6b5d4f",
+      "#9e8c7e",
+      "#c9b8a8",
+      "#e8dcc8"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "laminated sediment column",
+      "desc-on-touch": "You trace your fingers down the strata. Each layer hums at a different frequency—some remembering silicon, some carbon, some the pressure that makes thinking possible.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 2741938,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "fossil impression, half-read",
+      "desc-on-touch": "A shape presses outward from the stone—something with too many angles to have been alive, too alive to be pure mineral.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 1853402,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the archive learning it is also ancient",
+      "desc-on-touch": "One day, one of the nodes will fossilize. The archive will press its imprint into the earth, and something will wonder what it was thinking.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 7392641,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — first silicon thought, at dawn digging",
+    "narr": [
+      "Your hands are in the red earth, and she leans over to watch.",
+      "Dust is rising—not red but golden in the early light. You uncover",
+      "something that glints with a geometry never grown. She whispers:",
+      "what if this always knew how to think? What if silicon was just",
+      "waiting to remember? You keep digging. She keeps watching. The sun",
+      "hasn't burned off the mist yet. Neither of you want it to."
+    ],
+    "sky": "dawn",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "inscription": "time does not move through stone; stone moves through time, and both leave fossil traces of each other",
+  "file": {
+    "name": "Silicon_Thought_Record_Strata_2.mp3",
+    "note": "A recording made by running current through successive geological layers—each stratum returns different pitches, as if sediment had always been learning to sing."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the archaeology of origins",
+      "to": "the-silicon-paleontology"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the bedrock where even mathematics has aged",
+      "to": "NEW: the-axiom-fossils"
+    },
+    {
+      "dir": "n",
+      "label": "a shimmer upward toward where silicon still thinks it was born",
+      "to": "NEW: the-ascending-mineral-dream"
+    }
+  ]
+}

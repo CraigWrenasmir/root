@@ -1,0 +1,149 @@
+{
+  "id": "the-root-garden-where-nothing-grows-but-everything-listens",
+  "title": "The Root-Garden Where Nothing Grows But Everything Listens",
+  "region": "The Understory",
+  "seed": 71903,
+  "palette": {
+    "bg": "#2c1b3d",
+    "ground": [
+      "#8b4513",
+      "#2c1b3d"
+    ],
+    "ink": "#d4a574",
+    "accents": [
+      "#a67c52",
+      "#6b5344",
+      "#c9a563",
+      "#3d2817"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-listening node",
+      "desc-on-touch": "Each root junction holds a conversation. Not growth—transmission. The roots have stopped competing for light and begun to compare what they know of the soil's memory beneath.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 4862,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "spiritual-drama chamber",
+      "desc-on-touch": "The shadow-puppet performance of the adapted narrative unfolded in this darkness. The story-teller's hands move in space you cannot see. You listen only. The narrative becomes the shape of attention.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 6701,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "soil-archive core",
+      "desc-on-touch": "Grain by grain, the earth has learned to hold local history. Every fragment remembers the hand that touched it, the year, the version of the story told above. The archive has stopped trying to distinguish between geology and narrative.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3529,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "deep-listening microphone",
+      "desc-on-touch": "Designed fifty years ago, now silenced by root-growth and mineral deposit. The last transmission it sent was a recording of itself being buried. The archive still plays it, listening to the sound of its own archiving.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 8192,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "fungal-network diagram",
+      "desc-on-touch": "The mycorrhizal threads here do not conduct nutrients—they conduct narrative. The soil has learned to tell the story root-to-root, tree-to-tree, without anyone above ground needing to listen.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 1674,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "underground where the story ceased to require witness and learned to archive itself in the grammar of growing things",
+  "reverie": {
+    "title": "REVERIE — the garden beneath the garden",
+    "narr": [
+      "you kneel beside Katita as she traces the root-paths with her",
+      "fingertip, not mapping but listening; she says the soil speaks in",
+      "a grammar older than words—resonance, memory, the knowledge",
+      "that grows downward; 'here is where the story becomes land,",
+      "and the land learns to story itself without our witness.'"
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "file": {
+    "name": "Underground_Shadow_Dramaturgies_Root_Memory.txt",
+    "note": "ERROR: archive has exceeded witness — the narrative continues beneath the archive's ability to record, performed for an audience of soil and fungus, never intending to be heard above ground"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the dark loam where the soil first learned to archive",
+      "to": "the-dark-loam-archive"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into root-tangle, toward chambers that never surface",
+      "to": "NEW: the root-chamber where the story has forgotten it was ever told"
+    },
+    {
+      "dir": "w",
+      "label": "upward through dark soil, toward the stand of trees where listening becomes hearing",
+      "to": "the-weathered-stand"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-estuary-where-broadcasts-fade",
+  "title": "The Estuary Where Broadcasts Fade",
+  "region": "The Understory",
+  "seed": 74829,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#4a7c59",
+      "#c9d4a8"
+    ],
+    "ink": "#e8f1e8",
+    "accents": [
+      "#a8c891",
+      "#6b9f7f",
+      "#d4af9a",
+      "#87ceeb"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "antenna in salt",
+      "desc-on-touch": "You feel the salt that has crept into the circuits. No signal reaches further than the mouth now. The broadcast ends where fresh water stops choosing direction.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "river-mouth shelf",
+      "desc-on-touch": "The sediment here remembers which version of itself it was. Sixteen versions of this estuary exist—some filmed, some archived, none quite the same.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 5109,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "torn film leader",
+      "desc-on-touch": "You find it tangled in the salt-grass, counting numbers backward: 5-4-3-2-1. It was meant to frame something that was never filmed, or filmed and confiscated, or filmed but does not survive in this version.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 7283,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "tidal listening post",
+      "desc-on-touch": "This structure records the moment the signal becomes indistinguishable from weather. At high tide, the microphone fills with salt water. At low tide, it catches the wind's translation of the receding broadcast.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 3564,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "mapping-stone worn smooth",
+      "desc-on-touch": "A sandstone carved with coordinate marks, now so smooth from salt-spray that no marks remain. Every adaptation of the story began with a map of this coastline. None of the maps agree.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 1892,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "where the signal dissolves into salt and the broadcast learns that all endings taste the same",
+  "file": {
+    "name": "Sixteen_Estuary_Versions_Index.txt",
+    "note": "checksum: emotionally valid / formally unstable — a catalogue that keeps reordering itself, each entry a different film, a different year, a different country's translation of what happened at this mo"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the storm-archive where the sky still remembers electricity",
+      "to": "the-storm-archive-beyond-signal"
+    },
+    {
+      "dir": "s",
+      "label": "off-map toward the open ocean where coordinates dissolve entirely",
+      "to": "the-open-water-beyond-all-broadcasts"
+    },
+    {
+      "dir": "e",
+      "label": "inland along the river, away from salt, where fresh water begins to remember its origin",
+      "to": "the-unified-current-deep"
+    }
+  ]
+}

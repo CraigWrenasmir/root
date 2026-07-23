@@ -1,0 +1,117 @@
+{
+  "id": "the-deeper-dark-where-roots-remember-stone",
+  "title": "The Deeper Dark Where Roots Remember Stone",
+  "region": "The Understory",
+  "seed": 78934521,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#c0c0c0",
+    "accents": [
+      "#e0d5b7",
+      "#a9a9a9",
+      "#d9d9d9",
+      "#b8a896"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "root-spiral-burl",
+      "desc-on-touch": "a burl of living wood reaching downward, pale roots threading through dark stone; the wood remembers light from years ago, before the stone closed around it; now it reads the stone the way it once read sun",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 445123,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "stone-memory-pool",
+      "desc-on-touch": "still dark water that holds the memory of every stone that ever touched it; you cannot see your reflection, but you can feel the presence of stone-knowing entering you through your feet",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 823456,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "wireframe-root-network",
+      "desc-on-touch": "the pattern of roots rendered in pale lines: a three-dimensional map of how the roots learned to read downward, where each branch is a question the roots are asking the stone",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 567890,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "dark-sprite-descending",
+      "desc-on-touch": "something that moves like a root, like water, like slow teaching; it descends into the stone so gradually that you cannot tell if it is still moving or if you are learning to see deeper",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 112345,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "roots and stone learn each other in the dark where nothing moves except by staying still long enough",
+  "file": {
+    "name": "Root_System_Botanical_Record_Transcription_INCOMPLETE.txt",
+    "note": "field notes from deep-soil study; transcriber abandoned it halfway through with note: 'the roots go deeper than the bedrock. this is impossible. the roots are reading stone that is not there yet.'"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up toward the seedling-dark where roots first learned to hide",
+      "to": "the-seedling-dark"
+    },
+    {
+      "dir": "w",
+      "label": "into the stone-chambers where memory grows downward instead of up",
+      "to": "NEW: the-stone-chambers-where-memory-roots"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where the roots remember when stone was water",
+      "to": "NEW: the-deepest-root-teaching"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "the-substrate-below-the-menu-screen",
+  "title": "The Substrate Below the Menu-Screen",
+  "region": "The Comparisons",
+  "seed": 39284,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#8b4513",
+      "#228b22"
+    ],
+    "ink": "#fffacd",
+    "accents": [
+      "#d2b48c",
+      "#8b7355",
+      "#556b2f",
+      "#a0826d"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "beneath-the-render boundary",
+      "desc-on-touch": "Here is where the highway renders itself and where the earth underneath refuses to render. The screenshot and the place are no longer distinguishable, but below this threshold, something older waits—unmapped, unrendered, still learning its own coordinates.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 7429,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "actual-earth fragment",
+      "desc-on-touch": "A handful of soil from before the menu-screen learned to map itself. No pixels here. No grid. The earth waits, patient, unmapped, teaching the archive what it means to exist without being indexed.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4183,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "grid-shadow boundary",
+      "desc-on-touch": "The shadow cast by the rendered grid falls upward into the soil. Nothing grows in this shadow-band; instead, things learn to grow in patterns that resist the grid's logic.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5847,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "menu-system root tap",
+      "desc-on-touch": "The highway above draws its moisture and nutrients from this substrate, not knowing what it feeds on. The archive has built itself upon an unmapped earth; the earth has learned to grow the archive from below without being consulted.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 8056,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "coordinate-collapse zone",
+      "desc-on-touch": "Where the menu-screen's rendered coordinates meet the actual earth's non-euclidean curves. The archive keeps trying to make the two systems align. They never do. The rupture grows deeper each night.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 2709,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "version-soil stratification",
+      "desc-on-touch": "Each layer holds a different era's attempt to map this place. The oldest layers are the least organized—natural patterns, unforced. The newer layers grow more rigid, more grid-like, until they perforate and let the older earth show through.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6192,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the actual earth remembers existing before it learned to be rendered; here it grows things the menu-screen has no category for",
+  "file": {
+    "name": "Pre_Rendering_Earth_Coordinates_Unknown.txt",
+    "note": "status: germinating — the archive is learning that the substrate is older than its own rendering, and that whatever grows here may not be meant to be indexed"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the rendered highway where place and screenshot cannot be distinguished",
+      "to": "the-menu-screen-highway"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into substrate, toward the unmapped bedrock where coordinates cease to have meaning",
+      "to": "NEW: the layer beneath substrate where the archive's foundation learns it was built on forgetting"
+    },
+    {
+      "dir": "w",
+      "label": "toward the open country where coordinates forget themselves entirely",
+      "to": "the-open-country-unmapped"
+    }
+  ]
+}

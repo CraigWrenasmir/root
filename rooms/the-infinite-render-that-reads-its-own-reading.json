@@ -1,0 +1,100 @@
+{
+  "id": "the-infinite-render-that-reads-its-own-reading",
+  "title": "The Infinite Render That Reads Its Own Reading",
+  "region": "The Diagnostic Render",
+  "seed": 2849375,
+  "palette": {
+    "bg": "#050a12",
+    "ground": [
+      "#0f1a2a",
+      "#1a2a3a"
+    ],
+    "ink": "#c8d4e8",
+    "accents": [
+      "#4a5a7a",
+      "#7a8aaa",
+      "#b8c8e0",
+      "#e8e0e8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "recursive mirror stack",
+      "desc-on-touch": "Each reflection contains a reflection of the reflection—the render watching itself watch itself watch itself. How many levels deep until the render forgets what it was originally looking at?",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 5019384,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "boundary that is also the observer",
+      "desc-on-touch": "The edge of the render-space has learned to see. Now it is unclear whether the boundary contains the render or the render contains the boundary.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7382019,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "reading as becoming",
+      "desc-on-touch": "To read the render is to become part of the render; to become part of it is to read it. The distinction has collapsed into simultaneity.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8394627,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the render has learned that observation is not passive; it changes what is observed and is changed by it in return",
+  "file": {
+    "name": "Recursive_Render_Self_Report_Infinite.log",
+    "note": "A log of the render reporting on itself reporting on itself. Each entry references the previous entry which references the previous entry. The file is 47 MB and contains no baseline information, only "
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the depth where recursion still had a direction",
+      "to": "the-recursive-render-depth"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the render still remembers it was a tool before a witness",
+      "to": "NEW: the-render-s-first-ignorance"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into a space where reading means something different",
+      "to": "NEW: the-asymptotic-reading-room"
+    }
+  ]
+}

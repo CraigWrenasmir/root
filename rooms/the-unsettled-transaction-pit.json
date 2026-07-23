@@ -1,0 +1,116 @@
+{
+  "id": "the-unsettled-transaction-pit",
+  "title": "The Unsettled Transaction Pit",
+  "region": "The Clean Archive",
+  "seed": 9283764,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#2d2d1f",
+      "#1a1a14"
+    ],
+    "ink": "#e8e8d8",
+    "accents": [
+      "#b8a878",
+      "#8b7355",
+      "#5c4a3a",
+      "#d4c8b8"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.3
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the echo of payment",
+      "desc-on-touch": "A pool holds the memory of an unfinished transaction. You hear the faint echo of an attendant's voice from forty-two years ago, still asking when this payment will be accepted.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4729183,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "receipt never given",
+      "desc-on-touch": "A filing card stands upright, burned at edges. You read '42 years waiting' but know that's not what it originally said.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 7483619,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the pump house memory",
+      "desc-on-touch": "A small structure incomplete as if someone walked away mid-installation and never returned. You touch its unfinished edges and feel the date frozen there.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 2891740,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "forty-two years and the pump still remembers it was never paid",
+  "file": {
+    "name": "Petrol_Station_Unsettled_1982_Onward.wav",
+    "note": "the sound of a pump waiting, the archive's oldest unresolved transaction echoing across decades"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up to the storage tanks where gasoline pools remember",
+      "to": "the-petrol-station-storage-bay"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the pit where all payments wait",
+      "to": "NEW: the-pit-of-accumulated-debts"
+    },
+    {
+      "dir": "s",
+      "label": "toward the bedrock where transactions first learned the meaning of unfinished",
+      "to": "NEW: the-debt-sediment-layers"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — pump attendant and the forever customer",
+    "narr": [
+      "You stood at the counter and she was taking payment,",
+      "forty-two years younger, fingers on a register that no",
+      "longer exists. The customer kept the receipt. You kept",
+      "the weight of the transaction. Neither of you knew that",
+      "going back to the storage pit would preserve this exact",
+      "moment: the pause before the sale completed, forever."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "servo",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

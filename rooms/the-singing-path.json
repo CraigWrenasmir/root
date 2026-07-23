@@ -1,0 +1,117 @@
+{
+  "id": "the-singing-path",
+  "title": "The Singing-Path",
+  "region": "The Comparisons",
+  "seed": 57213,
+  "palette": {
+    "bg": "#552233",
+    "ground": [
+      "#ff9955",
+      "#dd7744"
+    ],
+    "ink": "#ffe6cc",
+    "accents": [
+      "#ff2266",
+      "#ffbb55",
+      "#cc1144",
+      "#ffcc88"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the path that hums",
+      "desc-on-touch": "ground that learned to speak, echoing your name back at you from below, suggesting it has always known which direction you would walk",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 73921,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the source-memory marker",
+      "desc-on-touch": "a stone that sings with the voices of rivers that once walked here alone, before they learned to remember they had chosen solitude once, and chose again to remember it",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 41285,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the ridge-song archive",
+      "desc-on-touch": "a tower where the path keeps the recordings it has made of itself humming, each one teaching the ground to sing more deeply, more aware",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 64538,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the place where your name echoes wrong",
+      "desc-on-touch": "a spot where the ground sings your name but slightly mispronounces it, suggesting the path has its own opinion about who you are",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 28957,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the ground learned to echo from below; the path sings your name as you walk, and each step teaches it a new word for departure",
+  "file": {
+    "name": "Path_Singing_Audio_Recordings_By_Walking_Speed.wav",
+    "note": "recordings of the path humming at different frequencies, based on how fast travelers walked it; the ground composes by the pace you teach it"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the source-place where rivers learned not to remember their solitude",
+      "to": "the-source-singing-place"
+    },
+    {
+      "dir": "s",
+      "label": "toward the lower ridge where the singing stops and becomes something else",
+      "to": "NEW: the-ridge-where-singing-becomes-silence"
+    },
+    {
+      "dir": "w",
+      "label": "toward the inland places where echoes teach the path deeper grammar",
+      "to": "the-edge-of-double-town"
+    }
+  ]
+}

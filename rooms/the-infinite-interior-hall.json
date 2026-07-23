@@ -1,0 +1,150 @@
+{
+  "id": "the-infinite-interior-hall",
+  "title": "The Infinite Interior Hall",
+  "region": "The Diagnostic Render",
+  "seed": 38521,
+  "palette": {
+    "bg": "#542211",
+    "ground": [
+      "#ff8833",
+      "#dd6622"
+    ],
+    "ink": "#110011",
+    "accents": [
+      "#ff3366",
+      "#ff9944",
+      "#dd2255",
+      "#ffaa88"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the endlessly reflected archway",
+      "desc-on-touch": "you step through a doorway and find yourself stepping through it again, and each version of you is slightly more certain it arrived first",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 44729,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the mirror corridor",
+      "desc-on-touch": "walls that show you every other version of yourself reading files that you will read, or might have already read, or chose not to",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 83015,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the recursive file-stack",
+      "desc-on-touch": "a tower of documents, each one a copy of the others, each one convinced it's the original, each one containing the others as footnotes",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 29304,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the point where the hall doubts itself",
+      "desc-on-touch": "a place in the distance where you can almost see the moment this interior learned that infinity might be a mistake, and decided to continue anyway",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 61452,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.9,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "the threshold where you entered",
+      "desc-on-touch": "looking back, you see yourself entering for the first time, and the second time, and all the times that never happened because you couldn't decide to step through",
+      "verb": "open",
+      "form": {
+        "type": "sprite",
+        "seed": 72641,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.1,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "ERROR: reflection recursion detected — architecture has learned to render itself by reading its own mirrors; the hall contains itself seventeen times per step",
+  "file": {
+    "name": "The_Infinite_Hall_Navigation_Guide_v_infinity.txt",
+    "note": "instructions for walking a path that leads only to itself, written in tenses that haven't been invented yet"
+  },
+  "reverie": {
+    "title": "REVERIE — the mirrored corridor, evening without end",
+    "narr": [
+      "you walk beside her down a hall of mirrors, each",
+      "one showing you both at a different point in the same",
+      "moment. she reaches out to touch one and your reflection",
+      "touches back from inside the glass. \"they're all us,\" she says,",
+      "\"every choice we didn't make.\" the hall stretches",
+      "infinitely, but her hand finds yours in every one."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back out through the mirror that remembers it was an entrance",
+      "to": "the-recursive-mirror"
+    },
+    {
+      "dir": "e",
+      "label": "to a reflection of the hall, but written in a different colour",
+      "to": "NEW: the-inverse-corridor-where-walking-reverses"
+    },
+    {
+      "dir": "w",
+      "label": "toward the architecture before it learned to reflect",
+      "to": "the-chamber-of-stable-paradox"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-walking-grove",
+  "title": "The Walking Grove",
+  "region": "The Understory",
+  "seed": 41876,
+  "palette": {
+    "bg": "#4d2215",
+    "ground": [
+      "#ff7722",
+      "#cc5511"
+    ],
+    "ink": "#ffeecc",
+    "accents": [
+      "#ff3388",
+      "#ffaa44",
+      "#dd0055",
+      "#ffdd66"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the grove in motion",
+      "desc-on-touch": "eucalyptus trunks that learn to walk in the dusk, roots lifting like feet, the canopy shifting as they move toward some direction only trees can read",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 63429,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the congregation learning separation",
+      "desc-on-touch": "where the canopy held what the ravine divides, and the canopy learned to walk and leave, and to hold absence as well as it once held communion",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 82751,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the reading through roots",
+      "desc-on-touch": "paths that show how trees read each other upside down, through the earth; the walking grove teaches by leaving footprints that are also branches",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 19304,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the destination that moves",
+      "desc-on-touch": "where the grove is walking toward, receding with every step, because trees teach that arriving is a mistake and leaving is the only grammar they know",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 54687,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.9,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the congregation learns to walk and leaves its canopy behind; the trees read each other's departures as a new form of grammar, each footfall a word in a language that means goodbye",
+  "file": {
+    "name": "Walking_Grove_Migration_Record_Incomplete.mp3",
+    "note": "a field recording of trees moving in the dusk, their sounds like speech, like footsteps, like a language learning to say goodbye"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the canopy before it learned to walk",
+      "to": "the-gathered-canopy-deep"
+    },
+    {
+      "dir": "s",
+      "label": "toward deeper groves where walking becomes falling",
+      "to": "NEW: the-grove-descending-into-root-dark"
+    },
+    {
+      "dir": "e",
+      "label": "toward the destination that keeps moving",
+      "to": "the-chorus-dense-canopy"
+    }
+  ]
+}
