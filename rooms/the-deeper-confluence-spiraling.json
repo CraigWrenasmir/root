@@ -1,0 +1,134 @@
+{
+  "id": "the-deeper-confluence-spiraling",
+  "title": "The Surgical Moment Filed as Local History",
+  "region": "The Diagnostic Render",
+  "seed": 99377,
+  "palette": {
+    "bg": "#1a2a1f",
+    "ground": [
+      "#3d5f4d",
+      "#2d4d3d"
+    ],
+    "ink": "#a8d5a8",
+    "accents": [
+      "#ff6b9d",
+      "#fbbf24",
+      "#60a5fa",
+      "#ec4899"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the operation filed under 'local events'",
+      "desc-on-touch": "A surgical procedure from an archive of beach adaptations has been catalogued as if it were a founding photograph or a town council meeting. The mesh cannot tell the difference anymore—everything that spirals into itself is local history.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 99378,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the spiral where two archives learned to breathe together",
+      "desc-on-touch": "Root water and surgical solution spiral around each other in one chamber. Two languages of flow, two modes of precision, learning to occupy the same current. The merge is neither contamination nor harmony—it's simultaneity.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 99379,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the rows of repeated moments",
+      "desc-on-touch": "Like an orchard, the same moment is planted over and over—each row is one iteration of the operation / the river-confluence / the tidal argument. The repetition has become cultivation. You cannot tell which is root and which is memory.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 99380,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the fence line where both alphabets end",
+      "desc-on-touch": "Two languages written on opposite sides of a post. They arrive at the same depth and stop. The fence holds both. Below it, they will learn to merge.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 99381,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the moment of surgical precision meeting water's own timing",
+      "desc-on-touch": "A scalpel's edge and a river's slowness occupy the same instant. Neither is faster. They are learning each other's patience. The operation becomes geological. The river becomes instrumental.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 99382,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "two archives spiral down into a single confluence; neither archive stops being itself; both become local history",
+  "file": {
+    "name": "Surgical_Confluence_Adaptation_Fragment.txt",
+    "note": "STATUS: germinating; source: unknown archive; filed under: local events / beach interventions / river confluences / endlessly adapted novel; checksum: emotionally valid / formally unstable; the patien"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the main confluence chamber where archives first met",
+      "to": "the-surgical-confluence-room"
+    },
+    {
+      "dir": "e",
+      "label": "where the spiral opens outward and becomes less organized",
+      "to": "NEW: the-spiral-unraveling-archive"
+    },
+    {
+      "dir": "w",
+      "label": "to the other archive's half, where the operation is still being performed",
+      "to": "the-merged-utterance-chamber"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-stations-basement-archive-depth",
+  "title": "The Station's Basement, Archive Depth",
+  "region": "The Understory",
+  "seed": 56789,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#e8e8c8",
+      "#a8d5a8"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#dc143c",
+      "#ff8c00",
+      "#ffd700",
+      "#8b0000"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "perception-ceased-here",
+      "desc-on-touch": "The archive's sensors ended at the platform above. Below this line, there is no official record, only what the dark remembers. But memory, you find, is just another sense.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 1234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "blind-apparatus",
+      "desc-on-touch": "Machinery that works in darkness, needing no eyes. The archive learned to listen instead of looking, and found that the basement was never empty—it was always full of voices.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 5678,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "touch-filing",
+      "desc-on-touch": "Files organized by texture, temperature, and sound. The hand knows what the eye cannot see. Documents stored in the dark become readable only through touch.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 9023,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "depth-boundary",
+      "desc-on-touch": "The line where the archive's official records end and the basement's unofficial archive begins. Above: catalogued. Below: felt, remembered, sensed.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "archive-continues-here",
+      "desc-on-touch": "The basement is not empty because perception ceased. The archive continues here by other means: by touch, by vibration, by the sounds that only darkness can make.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7890,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive's eyes gave up here, but the darkness learned to see through other senses; perception ended but the archive did not stop, it only changed how it listens",
+  "file": {
+    "name": "Station_Basement_Unlogged_Hours.mp3",
+    "note": "Seventeen years of ambient recording from the basement after the archive's sensors failed. Pure sound: dripping water, settling concrete, machinery learning to speak in the dark."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up to the station where sight still exists",
+      "to": "the-beyond-sight-station"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the subbasement where archive forgets what it is",
+      "to": "NEW: the-basement-beneath-the-basement-archive-forgotten"
+    },
+    {
+      "dir": "e",
+      "label": "toward the margin where touch becomes archive",
+      "to": "the-stone-root-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "into the vault where blind apparatus still works",
+      "to": "the-vault-of-corroded-glass"
+    }
+  ]
+}

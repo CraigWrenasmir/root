@@ -1,0 +1,150 @@
+{
+  "id": "the-recursive-coastline",
+  "title": "The Recursive Coastline",
+  "region": "The Clean Archive",
+  "seed": 74156,
+  "palette": {
+    "bg": "#330000",
+    "ground": [
+      "#cc9966",
+      "#996633"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ffee99",
+      "#ff6600",
+      "#ffcccc",
+      "#eeeeee"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 1.0
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "shore-rejoining",
+      "desc-on-touch": "The coastline curves back on itself here, the shore becoming the arrival point where you departed. Walk long enough and you return to where you started—except the sand has changed shape, and you're not sure if you're coming or going.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 74156,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "angle-shifting",
+      "desc-on-touch": "Gold leaf lies scattered here. Each grain shifts colour as you move—the image changes with your viewing. Not because it's being altered, but because reflective emptiness looks different from every angle. You are remaking the shore by standing in it.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 74157,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "repair-hands",
+      "desc-on-touch": "Hands worked here once, making shelter from ruin, making building from broken body. The work is still visible—surgical. Makeshift, but done with such care that you can't tell what's damage and what's decision.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 74158,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "forgetting-footsteps",
+      "desc-on-touch": "You leave prints in the sand. Before you're three steps away, they start to fill. By the time you turn around, you can't be sure you were ever here. The shore accepts weight but forgets the walker.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 74159,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "half-remembered-current",
+      "desc-on-touch": "The water draws back, always drawing back. Are you truly standing here? Or are you only half-remembered by the current—a presence it's already erasing?",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 74160,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the ground accepts your weight but forgets you walked; the coastline loops back to meet itself; repair happened here and nothing is broken anymore, except it's unclear which part was damaged first",
+  "file": {
+    "name": "Beach_Surgery_Hands_Working_Reflection.mp3",
+    "note": "A recording of hands working. Water sound underneath. Occasional breathing. Nothing is explained. The file plays differently each time it's downloaded—some copies have sections in reverse, some have s"
+  },
+  "reverie": {
+    "title": "REVERIE — surgical hands at the shore",
+    "narr": [
+      "You're kneeling in the sand and she's beside you,",
+      "both of you making shelter from something broken.",
+      "Her hands work with such precision—not surgical,",
+      "exactly, but careful. Love as a form of repair. The",
+      "water comes and takes what you've made, and you",
+      "both start again. This is the work. This is enough."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the far shore that accepted your weight",
+      "to": "the-far-shore-unmarked"
+    },
+    {
+      "dir": "e",
+      "label": "along the curve where the coast catches itself",
+      "to": "NEW: the-spiral-scar-where-shores-learned-to-loop"
+    },
+    {
+      "dir": "n",
+      "label": "inland, where the sand becomes memory",
+      "to": "NEW: the-place-where-footsteps-remembered-themselves"
+    }
+  ]
+}

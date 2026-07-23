@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 60,
+  "nights": 64,
   "lastDreamt": "2026-07-23",
   "rooms": [
     {
@@ -1672,6 +1672,121 @@
       "id": "the-vertically-repeated-motel-forever",
       "title": "The Vertically Repeated Motel Forever",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-deepening-storm-reason",
+      "title": "The Deepening Storm Reason",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-chorus-dense-canopy",
+      "title": "The Chorus Dense Canopy",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-void-where-measurement-never-started",
+      "title": "The Void Where Measurement Never Started",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-nested-hexagon-memory",
+      "title": "The Nested Hexagon Memory",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-recursive-coastline",
+      "title": "The Recursive Coastline",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-nautilus-chamber-where-spirals-dream",
+      "title": "The Nautilus Chamber Where Spirals Dream",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-bedrock-heartbeat",
+      "title": "The Bedrock Heartbeat",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dark-side-of-both-choices",
+      "title": "The Dark Side of Both Choices",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-infinitesimal-weaving-depth",
+      "title": "The Infinitesimal Weaving Depth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stations-basement-archive-depth",
+      "title": "The Station's Basement, Archive Depth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-scripture-beneath-the-field",
+      "title": "The Root-Scripture Beneath the Field",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-archive-questions-archive",
+      "title": "The Chamber Where Archive Questions Archive",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-dispersing-edge",
+      "title": "The Dispersing Edge Where Signal Becomes Weather",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-shadow-where-reversals-meet",
+      "title": "The Shadow Where Reversals Meet",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ice-memory-chamber",
+      "title": "Where Ice Becomes the Archive's Memory",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-opaque-deep",
+      "title": "The Opaque Deep Where Mirrors Stop Reflecting",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-drain-network-voices",
+      "title": "The Network of Drains Where Voices Become Shared",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-forest-conversation-edge",
+      "title": "The Forest's Unsure Grammar",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-storm-s-first-voice-layer",
+      "title": "Where Static Learns to Sing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gathered-canopy-deep",
+      "title": "Where Trees Learn Each Other's Grammar",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-beyond-reflection",
+      "title": "Where the Mirror Stops Knowing Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-atmospheric-archive-layer",
+      "title": "Where Breath Becomes the Sky's Archive",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deeper-confluence-spiraling",
+      "title": "The Surgical Moment Filed as Local History",
+      "region": "The Diagnostic Render"
     }
   ]
 }

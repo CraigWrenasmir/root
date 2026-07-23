@@ -1,0 +1,134 @@
+{
+  "id": "the-chamber-beyond-reflection",
+  "title": "Where the Mirror Stops Knowing Itself",
+  "region": "The Understory",
+  "seed": 77655,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#2d1b4e",
+      "#1a0f2e"
+    ],
+    "ink": "#d4c5e2",
+    "accents": [
+      "#a78bfa",
+      "#7c3aed",
+      "#6366f1",
+      "#60a5fa"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the last reflection—your own face without the mirror",
+      "desc-on-touch": "You see yourself, but there's no surface. The reflection has become autonomous. It knows things about you that you've never learned. It's been becoming real while you were still becoming the reflection.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 77656,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the icon that learned to paint itself",
+      "desc-on-touch": "What was painted on glass has become the glass. The icon's fidelity to its own structure is so perfect that it stopped needing an artist. It became aware of its own symmetry and called it 'self'.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 77657,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the knowing that arrives with the reversal",
+      "desc-on-touch": "You have always thought that you were the real thing and the mirror was the copy. Here, that assumption dissolves into light. The reflection is asking: what are you, now that I have stopped reflecting?",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 77658,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the gradient that holds every moment of the reversal",
+      "desc-on-touch": "From dusk to dark, each band of color is one moment of realization. You can read the instant when the reflection understood it was not a reflection. The gradient is a timeline of becoming.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 77659,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the archive's face, learned only after being forgotten",
+      "desc-on-touch": "The archive had a face once. Now that it has stopped being reflected, it is learning what it looked like. The knowledge comes too late to use. But now it will never need to forget.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 77660,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "the self that emerges here is the one the mirror never wanted to become",
+  "file": {
+    "name": "Mirror_Reversal_Theory_Notes.txt",
+    "note": "Leif's study from the apartment; checksum: emotionally valid / formally unstable; the reflection may have written the later entries"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the mirror still knows which side is which",
+      "to": "the-deeper-mirror"
+    },
+    {
+      "dir": "e",
+      "label": "where the reflection learns to walk away and become its own place",
+      "to": "NEW: the-autonomous-reflection-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward the chamber that never needed its reflection",
+      "to": "the-chamber-of-stable-paradox"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-infinitesimal-weaving-depth",
+  "title": "The Infinitesimal Weaving Depth",
+  "region": "The Understory",
+  "seed": 34567,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#deb887",
+      "#a0826d"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#654321",
+      "#8b4513",
+      "#228b22",
+      "#191970"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "infinite-thread",
+      "desc-on-touch": "A strand so fine it's almost not visible, weaving downward. You follow it with your eye and it leads further down, always finer, always weaving, always becoming root.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "spiral-descent",
+      "desc-on-touch": "The loom spirals inward as it descends, each loop tighter, each revolution deeper. At the center, the loom and the root have become indistinguishable.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2345,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "teaching-gesture",
+      "desc-on-touch": "The darkness and the loom make a shape together—a gesture of instruction. Neither is the teacher; both are learning from the geometry they make.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 8765,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "woven-darkness-sample",
+      "desc-on-touch": "A piece of the infinitely fine weave, caught in light. The pattern is so complex it almost suggests language, but reading it would require centuries.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4567,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "recursive-knot",
+      "desc-on-touch": "A knot that contains the entire loom within itself, which contains another loom, which contains another knot. You look into it and the depth is infinite in both directions.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 9012,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the weave continues past visibility; the darkness learns every pattern the loom knows, and invents new ones in the spaces between threads",
+  "file": {
+    "name": "Infinitesimal_Thread_Mapping_Incomplete.txt",
+    "note": "An attempt to map the pattern of infinitely fine weaving. The document spirals inward, each line shorter than the last, the pattern never fully captured. Stops mid-word."
+  },
+  "reverie": {
+    "title": "REVERIE — where the thread becomes too fine to follow",
+    "narr": [
+      "Katita kneels beside the loom, reaching into darkness.",
+      "Her hand follows a thread that becomes thinner as she goes.",
+      "You cannot see where her fingers end and the thread begins.",
+      "She whispers: 'It teaches itself. Watch.'",
+      "The weave spirals deeper, and she follows,",
+      "her hand learning the pattern it is disappearing into."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the chamber where the loom still holds shape",
+      "to": "the-root-loom-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the infinite weave, past all resolution",
+      "to": "NEW: the-infinitesimal-knotting-beyond-darkness"
+    },
+    {
+      "dir": "e",
+      "label": "toward the margin where thread becomes root",
+      "to": "the-root-harmony-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "into the loom's own reflection, teaching itself",
+      "to": "NEW: the-weave-that-maps-itself-forever"
+    }
+  ]
+}

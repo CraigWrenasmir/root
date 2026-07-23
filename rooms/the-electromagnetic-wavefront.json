@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "where the storm's thought becomes slower, more deliberate",
-      "to": "NEW: the-deepening-storm-reason"
+      "to": "the-deepening-storm-reason"
     },
     {
       "dir": "e",
@@ -133,7 +133,7 @@
     {
       "dir": "s",
       "label": "where wavefront becomes dispersed coastal weather",
-      "to": "NEW: the-dispersing-edge"
+      "to": "the-dispersing-edge"
     }
   ]
 }

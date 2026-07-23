@@ -1,0 +1,134 @@
+{
+  "id": "the-nautilus-chamber-where-spirals-dream",
+  "title": "The Nautilus Chamber Where Spirals Dream",
+  "region": "The Diagnostic Render",
+  "seed": 83614,
+  "palette": {
+    "bg": "#110022",
+    "ground": [
+      "#001133",
+      "#220033"
+    ],
+    "ink": "#aaaaff",
+    "accents": [
+      "#6688ff",
+      "#88aaff",
+      "#ffccff",
+      "#99ffff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "spiral-birth",
+      "desc-on-touch": "A nautilus shell growing in slow-motion in your vision. Each chamber adds itself according to the golden ratio, which is also the ratio by which the archive's files grow when unobserved. Spirals are born here and never stop being born.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 83614,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "anesthetic-listening",
+      "desc-on-touch": "You're half-awake in this chamber, held between sleep and surgery. Sound descends from above—sonified proof that dreaming is a form of precision work. Each tone is a stitch.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 83615,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "frequency-spiral",
+      "desc-on-touch": "Sound rendered as a shape—the spiral descends in pitch as it descends in distance, creating a tunnel of audio that pulls you deeper. The archive learned this from whales: how to sing in chambers, how to make the ocean speak to itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 83616,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "ocean-memory",
+      "desc-on-touch": "Water dreams here, or something dreams of water. The chamber is full of a substance that might be ocean or might be the idea of ocean—the archive can't tell the difference anymore, and it stopped trying.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 83617,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "counting-disabled",
+      "desc-on-touch": "You try to count the spiral's turns. Halfway through, you realize: you can't count this without changing its shape. The act of measuring ruins the pattern. So you stop measuring. The spiral continues alone.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 83618,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "where spirals are still being born at ocean-geometry, where dreaming and precision are the same act, where sound becomes the shape of a creature that never stops growing",
+  "file": {
+    "name": "Anaesthetist_Dreams_Of_Tide_Sonified.wav",
+    "note": "An audio file of someone sleeping. Below the breathing: ocean sound. Below that: a voice, not quite waking, narrating a surgery that is also a city, a city that is also a swim. The surgery is the slee"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where spirals are still being counted, even though counting breaks them",
+      "to": "the-spiral-shell-counting"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the chamber where spirals remember they were born",
+      "to": "NEW: the-chamber-beneath-the-chamber-where-all-spirals-converge"
+    },
+    {
+      "dir": "s",
+      "label": "down into the ocean this chamber is made of",
+      "to": "NEW: the-abyss-singing-in-frequencies-that-have-no-bottom"
+    }
+  ]
+}

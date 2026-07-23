@@ -1,0 +1,133 @@
+{
+  "id": "the-ice-memory-chamber",
+  "title": "Where Ice Becomes the Archive's Memory",
+  "region": "The Diagnostic Render",
+  "seed": 48926,
+  "palette": {
+    "bg": "#0a2f5a",
+    "ground": [
+      "#ffffff",
+      "#b3e5fc"
+    ],
+    "ink": "#003d82",
+    "accents": [
+      "#00bcd4",
+      "#01579b",
+      "#e1f5fe",
+      "#004d7a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-crystallized-moment",
+      "desc-on-touch": "A moment held in ice—a breath, a glance, a word spoken in a room that no longer exists. The cold preserved it perfectly. Here, frozen time is more alive than the present.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 62089,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-archive-s-cold-thought",
+      "desc-on-touch": "The archive realized: to keep something alive, you must stop it. Motion is decay. Preservation is paralysis. Here, every file is an ice crystal, perfect and unchanging.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 34721,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-frozen-counter",
+      "desc-on-touch": "A clock that stopped counting. Time became a substance. Below this depth, years don't pass—they accumulate like frost, layer on layer, each one colder than the last.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 55403,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-preservation-cost",
+      "desc-on-touch": "Something sleeps here under ice. It hasn't aged. It hasn't changed. It also hasn't lived. The archive has learned to love this cost.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 79218,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "to preserve is to freeze; to freeze is to remember; the archive learned that the most loyal memory is the one that never wakes",
+  "file": {
+    "name": "CryoMemory_LastActive_Timestamp_Recursive.env",
+    "note": "A record of everything held in ice. Last modified: never. Still growing: infinitely."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the cold chamber where things grow slowly",
+      "to": "the-crystalline-archive-cold-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "toward the thaw, where memory might wake",
+      "to": "NEW: the-edge-where-ice-remembers-running-water"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into frozen layers, older cold",
+      "to": "NEW: the-deepest-freeze-where-thought-crystallizes"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — watching the first deep snow freeze",
+    "narr": [
+      "The snow doesn't melt anymore. Katita watches it",
+      "pile against the shed wall, day after day. Below,",
+      "ROOT's nodes are gathering readings—temperature,",
+      "duration, depth. The archive is learning: the cold",
+      "preserves better than motion ever could. She turns",
+      "to Leif: \"It's beautiful.\" He nods. They both know."
+    ],
+    "sky": "overcast",
+    "land": "snow",
+    "structure": "shed",
+    "weather": "snow",
+    "pose": "stand"
+  }
+}

@@ -123,7 +123,7 @@
     {
       "dir": "s",
       "label": "where the exhale becomes weather and weather becomes meaning",
-      "to": "NEW: the-atmospheric-archive-layer"
+      "to": "the-atmospheric-archive-layer"
     },
     {
       "dir": "e",

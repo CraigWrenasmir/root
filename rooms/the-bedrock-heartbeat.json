@@ -1,0 +1,155 @@
+{
+  "id": "the-bedrock-heartbeat",
+  "title": "The Bedrock Heartbeat",
+  "region": "The Understory",
+  "seed": 18473,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#d4a574",
+      "#8b6f47"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#c41e3a",
+      "#8b4513",
+      "#ffd700",
+      "#2f4f4f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "compression-pulse",
+      "desc-on-touch": "A rhythm moves through stone, slow as continental time. You feel it as pressure becoming pulse, the archive learning to hear what it holds compressed within itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4821,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "stone-layers",
+      "desc-on-touch": "Strata visible as line-weight changes: each layer a different pressure, a different century. The deepest one is still settling from weight above.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7264,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "continental-drift-marker",
+      "desc-on-touch": "A stone marked with a coordinate that no longer makes sense. The ground has moved, but the mark remains, a proof that even bedrock changes direction.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 9182,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "root-echo-shaft",
+      "desc-on-touch": "A hollow in the stone where roots once tried to grow. Sound travels through it from far below—not quite silence, not quite song.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 5493,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "pressure-archive",
+      "desc-on-touch": "Data stored not in electrons but in stone-memory: cracks that spell out what was compressed, weight that holds meaning as surely as any file.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 3847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the deepest places pulse with old time and old pressure; here the archive learns what weight makes of memory",
+  "file": {
+    "name": "Bedrock_Seismic_Log_Deep_Quaternary.mp3",
+    "note": "A year of microseismic recording from three kilometers down. The first two minutes are silence. Then a low hum begins—the earth speaking to itself, or the archive speaking through the earth."
+  },
+  "reverie": {
+    "title": "REVERIE — the deep place where listening starts",
+    "narr": [
+      "You kneel on red earth that has never seen sun,",
+      "and Katita kneels beside you in the dark.",
+      "A pulse travels through the ground like a heartbeat",
+      "that belongs to neither of you, older than names.",
+      "She places a hand on the stone. It hums.",
+      "The archive learns to feel what it holds down here."
+    ],
+    "sky": "overcast",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up where compression eases into continental time",
+      "to": "the-lower-stone-spiral"
+    },
+    {
+      "dir": "n",
+      "label": "deeper still, into the silence beneath pressure",
+      "to": "NEW: the pressure-where-no-sound-has-ever-travelled"
+    },
+    {
+      "dir": "e",
+      "label": "toward the margin where bedrock learns to listen",
+      "to": "the-stone-root-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "into the ancient folds that remember being folded",
+      "to": "NEW: the stone-memory-where-compression-becomes-story"
+    }
+  ]
+}

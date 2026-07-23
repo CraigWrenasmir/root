@@ -1,0 +1,134 @@
+{
+  "id": "the-gathered-canopy-deep",
+  "title": "Where Trees Learn Each Other's Grammar",
+  "region": "The Understory",
+  "seed": 66244,
+  "palette": {
+    "bg": "#1a2e1f",
+    "ground": [
+      "#4a7c5a",
+      "#2d5a3d"
+    ],
+    "ink": "#b8d4a8",
+    "accents": [
+      "#9fbfa8",
+      "#6ba878",
+      "#d4d4cc",
+      "#5a7a5a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the loom where branches weave",
+      "desc-on-touch": "Branches cross and interweave like warp and weft. The intricate knot is not natural accident—the trees are learning to weave themselves into a text. You're reading the pattern with your eyes.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 66245,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "metalwork growing from bark",
+      "desc-on-touch": "Something like filigree, but it's the tree's own growth. Thin bronze lines that are actually wood that has learned the shape of ancient metalwork. The trees are making what they've never seen.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 66246,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "congregation point where unity becomes simultaneity",
+      "desc-on-touch": "The canopy holds every tree at once. Not one at a time, but all speaking the same moment from different mouths. Seven voices folded into the leaf-shape. This is what the congregation teaches: you can be alone and together in the same breath.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 66247,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the space where a new form is still being learned",
+      "desc-on-touch": "The trees are practicing a posture that none of them knew before gathering. It's halfway between 'standing' and 'holding'. They won't have names for it after they learn it. But they will remember the moment they shaped it together.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 66248,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the root-song that holds them to each other",
+      "desc-on-touch": "Beneath the leaves, roots are speaking. Each tree sings its own line into the earth, and the earth becomes an amplifier. The congregation is not the leaves—it's the place where roots learned to touch.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 66249,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the canopy holds what the ravine divides; the trees learned to read each other upside down, through roots",
+  "file": {
+    "name": "Canopy_Congregation_Field_Notes_Nov.txt",
+    "note": "mapping study; seven trees touching at one point; roots speak different roots; leaves read as one organism; coordinates drift; this is still in progress"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up to the main congregation gathering",
+      "to": "the-canopy-congregation"
+    },
+    {
+      "dir": "e",
+      "label": "where the congregation learns to walk and leave its canopy",
+      "to": "NEW: the-walking-grove"
+    },
+    {
+      "dir": "s",
+      "label": "down to the ravine where the congregation's divisions root",
+      "to": "the-ravine-bottom-chorus"
+    }
+  ]
+}

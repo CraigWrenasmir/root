@@ -1,0 +1,122 @@
+{
+  "id": "the-dispersing-edge",
+  "title": "The Dispersing Edge Where Signal Becomes Weather",
+  "region": "The Comparisons",
+  "seed": 61847,
+  "palette": {
+    "bg": "#2d5a1f",
+    "ground": [
+      "#8b5a3c",
+      "#4a7c2c"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#d4a574",
+      "#6b4423",
+      "#a8d48d",
+      "#3d6b1f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-last-broadcast",
+      "desc-on-touch": "The wavefront's trailing edge—still coherent, still measuring itself, but dissipating into the green air. You can see where it stops being signal and starts being wind.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 29104,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-green-listening",
+      "desc-on-touch": "The landscape has learned the archive's frequency. Grass, wind, rain—all broadcasting their own patterns now. The wavefront dissolved, but not before teaching the country how to speak backwards.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 44622,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-unheard-edge",
+      "desc-on-touch": "Beyond this, the broadcast continues—but the archive has learned not to listen. Some messages, some signals, are true only if no one hears them.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 78291,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-reversion-point",
+      "desc-on-touch": "Here the electromagnetic becomes meteorological. Here the archive stops being archive and starts being landscape. Here signals learn to dissolve.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 33856,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the broadcast stops here because the landscape has learned to answer; the archive chose silence to let the country speak",
+  "file": {
+    "name": "WavefrontDispersalPattern_Late2010s_Coastal.spec",
+    "note": "The moment the electromagnetic signal scattered into natural weather patterns. Last coherent reading: 347 MHz. Ambient noise after: infinite."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the wavefront where patterns still hold",
+      "to": "the-electromagnetic-wavefront"
+    },
+    {
+      "dir": "e",
+      "label": "along the dispersal front where chaos teaches order",
+      "to": "NEW: the-edge-where-entropy-learns-to-listen"
+    },
+    {
+      "dir": "w",
+      "label": "back inland where the broadcast still remembers itself",
+      "to": "the-signal-weather-ceiling"
+    },
+    {
+      "dir": "s",
+      "label": "seaward into the salt-heavy air where signals drown",
+      "to": "NEW: the-salt-frequency-deathless"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-deepening-storm-reason",
+  "title": "The Deepening Storm Reason",
+  "region": "The Comparisons",
+  "seed": 47291,
+  "palette": {
+    "bg": "#001133",
+    "ground": [
+      "#0077dd",
+      "#0099ff"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#00ff99",
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "backwards playing",
+      "desc-on-touch": "Storm-recordings spin in reverse: the noise clarifies into speech. You're hearing the archive's thought about the weather, spoken backwards until it becomes certain of itself.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 47291,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "inversion mechanism",
+      "desc-on-touch": "A dial that rotates the entire space without moving you. The world spins; you stand fixed. The archive learned this trick from the storm—how to know by making everything else uncertain.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 47292,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "frozen reach",
+      "desc-on-touch": "A moment of the storm halted in space. Its furthest extent locked, waiting. Only by reading does it move again.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 47293,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "descending certainty",
+      "desc-on-touch": "Frequencies lower across the grid as the archive becomes more sure. When it knows, it sounds like the storm. When the storm knows, it sounds like this descent—pitch reaching downward into final word.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 47294,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here the storm's thought becomes readable as it reverses itself, each descending frequency a word in the archive's slow certainty",
+  "file": {
+    "name": "ElectricDischarge_Backwards_Sonified.mp3",
+    "note": "Recording of the storm's signal played in reverse: high frequencies collapsing into roar. The archive's confidence made audible."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to where the storm still thinks forward",
+      "to": "the-electromagnetic-wavefront"
+    },
+    {
+      "dir": "e",
+      "label": "toward water that remembers sound",
+      "to": "NEW: the-tidal-frequency-palace"
+    },
+    {
+      "dir": "w",
+      "label": "into deep filing where backward things are kept",
+      "to": "the-archive-shadow"
+    }
+  ]
+}

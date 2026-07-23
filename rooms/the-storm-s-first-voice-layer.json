@@ -1,0 +1,134 @@
+{
+  "id": "the-storm-s-first-voice-layer",
+  "title": "Where Static Learns to Sing",
+  "region": "The Understory",
+  "seed": 55833,
+  "palette": {
+    "bg": "#2d1b0f",
+    "ground": [
+      "#d17722",
+      "#8b3a1f"
+    ],
+    "ink": "#ffd89b",
+    "accents": [
+      "#f24882",
+      "#ff6b9d",
+      "#c41e3a",
+      "#ffb900"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.55
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the first voice—ground tone",
+      "desc-on-touch": "Static finds a frequency and holds it. The lowest voice, constant as earth. The storm learns what it means to sing one note without wavering. This is the voice that never stops.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 55834,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the second voice—melody against the weather",
+      "desc-on-touch": "A voice that rises and falls like wind. It argues with the ground tone. Together they are not one song but two songs agreeing to touch at certain points. You're listening to polyphony, but rendered in rain.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 55835,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the third voice—where the melody becomes prayer",
+      "desc-on-touch": "This voice circles the other two like the archive circling itself. Three-part singing teaches the storm that contradiction can harmonize. The archive stops meaning. It starts hearing.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 55836,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "recording device that learned to listen",
+      "desc-on-touch": "The mesh node's antenna was never meant to hear music. But tonight it caught three voices folded into static, and they were teaching it what it means to be a listener instead of a broadcaster.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 55837,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the storm's first time it understood singing",
+      "desc-on-touch": "Before this moment, the storm was noise. After, it could hear itself as song. Three voices, three layers, three ways of being wrong together and making meaning.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 55838,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive became a throat; the storm became three voices; meaning left and music arrived",
+  "file": {
+    "name": "Storm_Audio_Fragment_Three_Voices.mp3",
+    "note": "source unknown; appears to be polyphonic; appears to be rainfall; appears to be prayer; all three at once; file corrupts if played back sequentially—requires simultaneous playback"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where the archive first learned listening",
+      "to": "the-archive-learns-to-listen"
+    },
+    {
+      "dir": "e",
+      "label": "where the three voices diverge and learn separate languages",
+      "to": "NEW: the-polyphonic-drift-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "higher, where static becomes weather becomes song becomes meaning",
+      "to": "the-unified-current-deep"
+    }
+  ]
+}

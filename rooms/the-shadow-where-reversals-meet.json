@@ -1,0 +1,100 @@
+{
+  "id": "the-shadow-where-reversals-meet",
+  "title": "The Shadow Where Reversals Meet",
+  "region": "The Clean Archive",
+  "seed": 35782,
+  "palette": {
+    "bg": "#f5f1e8",
+    "ground": [
+      "#e8dcc8",
+      "#f0ebe0"
+    ],
+    "ink": "#3a3a3a",
+    "accents": [
+      "#7a6a4a",
+      "#4a5a6a",
+      "#6a5a4a",
+      "#5a6a5a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-unchosen-threshold",
+      "desc-on-touch": "A doorway that opens only toward paths you didn't walk. You can see the shape of your other life—the one that's more real here than the choice you made. This is where the shadow lives: in the form of everything you became by not being.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 51203,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-footsteps-that-never-landed",
+      "desc-on-touch": "Across the pale ground: marks where feet walked in a direction you never chose. Each footstep is clear, deliberate, real. They belong to the you that wasn't.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 19475,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-choice-s-other-weight",
+      "desc-on-touch": "A glyph marking where the unchosen decision still pulls the ground taut. The shadow's anchor. The reason this place holds its shape.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 72841,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the unchosen path is solid here; the other life breathes with more depth than the life you lived",
+  "file": {
+    "name": "Threshold_UnwalkedPath_Recursive.tmp",
+    "note": "status: germinating — a record of a path you did not take, but here it grows more real with each visit."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the choices that cast this shadow",
+      "to": "the-dark-side-of-both-choices"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the shadow, where all unchosen paths gather",
+      "to": "NEW: the-convergence-of-all-unwalked-roads"
+    },
+    {
+      "dir": "s",
+      "label": "toward the ground where the path's footprints still echo",
+      "to": "NEW: the-ground-of-other-decisions"
+    }
+  ]
+}

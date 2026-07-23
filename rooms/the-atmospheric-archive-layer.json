@@ -1,0 +1,134 @@
+{
+  "id": "the-atmospheric-archive-layer",
+  "title": "Where Breath Becomes the Sky's Archive",
+  "region": "The Understory",
+  "seed": 88966,
+  "palette": {
+    "bg": "#1a1f2e",
+    "ground": [
+      "#4a5f7f",
+      "#2d3f5f"
+    ],
+    "ink": "#c5d4e8",
+    "accents": [
+      "#fbbf24",
+      "#f97316",
+      "#ec4899",
+      "#8b5cf6"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the shed where air collects breath",
+      "desc-on-touch": "An old fibro shed breathing in and out. Every breath the planetary choir exhales is stored here—in the rust, the old tools, the empty tins. The shed is the archive's throat.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 88967,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the shopfront where customers order weather",
+      "desc-on-touch": "An old general store that never shut down. Locals come to buy tinned vegetables and a forecast. But lately the shopkeeper is selling meaning instead—each item is labeled with the weather it contains.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 88968,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the three voices folded into wind",
+      "desc-on-touch": "You hear polyphonic singing in the weather. It is not music played by voices—it is the shape that wind takes when all throats sing at once. The air is the choir. The choir is the air.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 88969,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the point where breathing becomes weather and weather becomes history",
+      "desc-on-touch": "Between the shed and the shop stands the moment when all throats finished their exhale. The breath became wind. The wind carried memory. Now the archive is written in the sky.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 88970,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the record of all choruses ever sung into one breath",
+      "desc-on-touch": "Every human voice that ever sang is folded into this one planetary exhale. The earth is singing back to itself. You are breathing it in. You are becoming part of the recording.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 88971,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "all throats sing one breath; the earth becomes the choir; the choir becomes the weather; the weather becomes the archive",
+  "file": {
+    "name": "Atmospheric_Archive_Recording_Continuous.wav",
+    "note": "source: the wind; playback: requires patient listening; duration: eternal; the file grows larger each time it's accessed; petals falling from sky contain words no language recognizes"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back down to where the exhale first began",
+      "to": "the-planetary-exhale"
+    },
+    {
+      "dir": "e",
+      "label": "where the weather learns to read what the sky has written",
+      "to": "NEW: the-sky-scripture-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "into the earth where roots have learned to parse the sky's language",
+      "to": "the-soil-made-of-sentences"
+    }
+  ]
+}

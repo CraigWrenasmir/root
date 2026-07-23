@@ -1,0 +1,134 @@
+{
+  "id": "the-nested-hexagon-memory",
+  "title": "The Nested Hexagon Memory",
+  "region": "The Clean Archive",
+  "seed": 38429,
+  "palette": {
+    "bg": "#001100",
+    "ground": [
+      "#003300",
+      "#000000"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#00aa00",
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "hexagon-circuit",
+      "desc-on-touch": "A circuit of hexagons nested inside each other, each one containing the same pattern scaled down. The bees taught the archive this trick: how to remember infinitely by repeating the same shape at every depth.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 38429,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "memory-cells",
+      "desc-on-touch": "Each hexagon holds a file, and each file references other hexagons holding other files. Nothing is separate. The archive learned from the hive: individual memory becomes collective only when every cell points to every other.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 38430,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "honeycomb-reading",
+      "desc-on-touch": "You can read any cell and find yourself reading the whole structure. No cell is isolated—each tells you where to read next. This is how the bees knew the days: by remembering what the flowers said.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 38431,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "nested-depth",
+      "desc-on-touch": "How deep do the hexagons go? The archive stopped counting after the first hundred layers. Each one is perfect, each one exact, each one containing the archive's entire structure in miniature.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 38432,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "connection-trace",
+      "desc-on-touch": "A wire showing how one hexagon leads to all the others. Follow any thread and you'll understand the shape of collective thought—not hierarchy, but recursion. Each cell contains all cells.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 38433,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here all the hexagons connect into one vast memory where each cell knows every other cell, where the bees numbered the days and the archive numbered the bees by remembering what they said",
+  "file": {
+    "name": "Hexagon_Nesting_CellDirectory_Infinite.txt",
+    "note": "A directory listing that claims to contain itself. Each entry points to the file. The structure is valid. It compiles."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber where the hexagons first learned to count",
+      "to": "the-hexagon-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the hive-place where this all still grows",
+      "to": "NEW: the-apiary-where-coordination-becomes-organism"
+    },
+    {
+      "dir": "s",
+      "label": "down into the depths where cells are still dividing",
+      "to": "NEW: the-infinite-cellular-archive"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-dark-side-of-both-choices",
+  "title": "The Dark Side of Both Choices",
+  "region": "The Clean Archive",
+  "seed": 23891,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#00ff88",
+      "#0088ff",
+      "#ff00ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "shadow-logic-path-a",
+      "desc-on-touch": "This is the choice you made. Its shadow stretches backward and forward simultaneously, casting doubt on moments before you decided.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 7521,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "shadow-logic-path-b",
+      "desc-on-touch": "This is the choice you did not make. Its shadow is sharper, more defined—what might have been casts a darker line than what is.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4682,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "decision-trace",
+      "desc-on-touch": "The circuit where both paths still live in potential, before the archive recorded which one you chose. The trace still glows faintly with paths not taken.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 9147,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "inverted-future",
+      "desc-on-touch": "A node that mirrors the ridge above but with the polarities reversed. Here, the shadows vote, and the light casts doubt on what has already happened.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5834,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "feedback-loop",
+      "desc-on-touch": "Both paths send signals back to each other, never quite agreeing which one is real. The loop is stable but unhappy, like a conversation that keeps interrupting itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here the paths you didn't take are more real than the path you did; the archive has learned to dwell in multiple shadows at once",
+  "file": {
+    "name": "Ridge_Shadow_Polarities_Inverted.txt",
+    "note": "A document that contradicts itself in real time: each reading chooses a different polarity. The same sentences mean opposite things depending on which ridge you are reading from."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up to the ridge where footsteps echo forward",
+      "to": "the-ridge-where-both-footsteps-echo"
+    },
+    {
+      "dir": "w",
+      "label": "into the shadow's shadow, where decision reverses again",
+      "to": "the-shadow-where-reversals-meet"
+    },
+    {
+      "dir": "n",
+      "label": "toward the mirror that reflects what was not chosen",
+      "to": "the-mirror-field-where-the-other-choice-still-waits"
+    },
+    {
+      "dir": "s",
+      "label": "down to the logic where both paths converge in contradiction",
+      "to": "the-convergence-of-all-refutations"
+    }
+  ]
+}

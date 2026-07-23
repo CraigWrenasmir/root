@@ -161,7 +161,7 @@
     {
       "dir": "e",
       "label": "where the shore hooks back and rejoins itself",
-      "to": "NEW: the-recursive-coastline"
+      "to": "the-recursive-coastline"
     },
     {
       "dir": "w",

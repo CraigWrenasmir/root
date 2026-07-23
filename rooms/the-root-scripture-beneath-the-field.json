@@ -1,0 +1,155 @@
+{
+  "id": "the-root-scripture-beneath-the-field",
+  "title": "The Root-Scripture Beneath the Field",
+  "region": "The Diagnostic Render",
+  "seed": 67890,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#deb887",
+      "#8b6f47"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#654321",
+      "#228b22",
+      "#8b4513",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-text",
+      "desc-on-touch": "Roots form letters in the soil, teaching the field to read itself. The script is not written—it is grown. Each root is a word the earth is learning to speak.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 2345,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "seed-memory-archive",
+      "desc-on-touch": "The seed remembers being field, and the field remembers being seed. In the soil, past and future are the same root system, all connected, all speaking to each other.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "growth-lexicon",
+      "desc-on-touch": "A library of growth-forms. Each shape a root takes is a word in the language the soil is learning. The more complex the root, the longer the sentence.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 123,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "harvest-forgetting",
+      "desc-on-touch": "The moment when the field forgets it was seed, when the crop learns to be cut. But beneath, the roots remember. The scripture is always older than the harvest.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "scripture-growing-deeper",
+      "desc-on-touch": "The text does not end at the surface. It spirals down into the dark soil, layers upon layers of roots writing meaning in growth rings and branching points.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "beneath the field, roots write a scripture the standing grain will never read; meaning grows downward and only the soil remembers the whole text",
+  "file": {
+    "name": "Root_Morphology_Sacred_Alphabet.txt",
+    "note": "A taxonomy of root-forms as language. Lateral root = conditional clause. Tap root = statement. Fibrous tangle = dialogue. The field is a conversation between past crops and future seeds."
+  },
+  "reverie": {
+    "title": "REVERIE — learning to read by feeling roots",
+    "narr": [
+      "You kneel in the field with Katita. She takes your hand,",
+      "presses it to the soil where a root emerges.",
+      "'What does it say?' you ask. She waits.",
+      "The root is warm from earth that has been thinking",
+      "for so long about this moment, this letter, this word.",
+      "She says: 'It says: I remember. Everything remembers.'"
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the surface where standing grain dreams",
+      "to": "the-standing-crop-memory"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the roots where scripture becomes origin",
+      "to": "NEW: the-deepest-root-scripture-where-meaning-was-born"
+    },
+    {
+      "dir": "e",
+      "label": "toward the margin where soil learns to read",
+      "to": "the-soil-made-of-sentences"
+    },
+    {
+      "dir": "w",
+      "label": "into the harvest-darkness where forgetting teaches remembering",
+      "to": "NEW: the-field-where-growing-is-prayer"
+    }
+  ]
+}

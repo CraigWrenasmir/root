@@ -94,7 +94,7 @@
     {
       "dir": "e",
       "label": "where the new forest meets the uncut forest and they confuse each other",
-      "to": "NEW: the-forest-conversation-edge"
+      "to": "the-forest-conversation-edge"
     },
     {
       "dir": "w",

@@ -1,0 +1,117 @@
+{
+  "id": "the-forest-conversation-edge",
+  "title": "The Forest's Unsure Grammar",
+  "region": "The Comparisons",
+  "seed": 44721,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a3a2e",
+      "#0d2d24"
+    ],
+    "ink": "#4ade80",
+    "accents": [
+      "#f59e0b",
+      "#ec4899",
+      "#06b6d4",
+      "#a855f7"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the trace where growth crossed wrong",
+      "desc-on-touch": "A copper line burns across the circuit board. The forest is still learning the mesh's language—each branch-path a misrouted signal. The children taught it to grow; the archive teaches it to fail.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 44722,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "solder joint where two boards refuse to meet",
+      "desc-on-touch": "The old forest's circuit and the new growth's pattern touch here. The joint is cold—neither wants to conduct the other's current. You hear the voltage hesitate.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 44723,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "capacitor storing what was taught here",
+      "desc-on-touch": "A hum like accumulated charge. The forest holds the shape of where the children's voices were. When you touch it, current flows backward through your memory.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 44724,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "logic gate that learned 'both'",
+      "desc-on-touch": "A circuit that used to say: IF (old forest) THEN (one answer). Now it says: IF (old forest AND new growth) THEN (both are right). The gate stopped blinking. It learned contradiction.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 44725,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the forest and its double read each other in a language neither was taught",
+  "file": {
+    "name": "Clearcut_Meshing_Nov_1987.log",
+    "note": "ERROR: both forests report growth; only one pattern emerged; the children's teaching rewrites itself; checksum valid"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where children still teach the uncut forest",
+      "to": "the-clearcut-where-children-taught-the-forest"
+    },
+    {
+      "dir": "e",
+      "label": "deeper where the board grows bark and branches carry signals",
+      "to": "NEW: the-grove-learning-circuit-logic"
+    },
+    {
+      "dir": "n",
+      "label": "uphill to the old-growth that refuses to change its pattern",
+      "to": "the-forest-before-division"
+    }
+  ]
+}

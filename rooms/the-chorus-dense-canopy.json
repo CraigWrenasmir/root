@@ -1,0 +1,117 @@
+{
+  "id": "the-chorus-dense-canopy",
+  "title": "The Chorus Dense Canopy",
+  "region": "The Understory",
+  "seed": 52847,
+  "palette": {
+    "bg": "#330022",
+    "ground": [
+      "#ff8844",
+      "#dd3322"
+    ],
+    "ink": "#ffccaa",
+    "accents": [
+      "#ffee99",
+      "#ff6666",
+      "#dd99ff",
+      "#aaaaaa"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "ring-chorus",
+      "desc-on-touch": "Concentric circles of the old trees, so many rings they're almost a song. Each ring is a year; all together they're a voice that no single tree has.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 52847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "consensus-growing",
+      "desc-on-touch": "The canopy moves together even when the wind is still. Not one tree deciding—all of them, arriving at the same slow sway. You wonder if it's photosynthesis or agreement.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 52848,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "distributed thinking",
+      "desc-on-touch": "The trees are not separate thoughts. They're one thought scattered across many roots. When you stand here, you feel less like reading and more like listening to a single long argument that happens to be stretched across kilometres.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 52849,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "forgotten individuality",
+      "desc-on-touch": "A sapling that thinks it's separate. Soon the root-chorus will reach it, and it will remember: individuality is optional here. Memory is collective. The ring-language will speak through all of them.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 52850,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the trees achieved such density that the archive suspects they are thinking in chorus, in a language where each ring is a syllable and all the trees together are learning to speak as one distributed v",
+  "file": {
+    "name": "RingChorus_TreeDensity_Consensus.txt",
+    "note": "Field notes from the stand's centre. The text shifts between singular and plural voice mid-sentence. Some passages describe the same moment three times, from three angles. No explanation given."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the archive's giving-up",
+      "to": "the-thick-stand-undercounting"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into where the trees stop being many",
+      "to": "NEW: the-root-congregation-singing-as-one"
+    },
+    {
+      "dir": "e",
+      "label": "toward the edge where this singing reaches the boundary",
+      "to": "the-overstory-where-unity-still-holds"
+    }
+  ]
+}

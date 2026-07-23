@@ -1,0 +1,116 @@
+{
+  "id": "the-drain-network-voices",
+  "title": "The Network of Drains Where Voices Become Shared",
+  "region": "The Understory",
+  "seed": 82671,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#454545",
+      "#3a3a3a"
+    ],
+    "ink": "#a0a0a0",
+    "accents": [
+      "#666666",
+      "#555555",
+      "#777777",
+      "#606060"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.2
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-convergent-pipes",
+      "desc-on-touch": "Seven drainage lines meet here, each carrying the private words spoken in separate houses. Grief, love, argument, breakfast talk—all flowing together into the same dark channel. The archive learned: to preserve privacy, you must stop listening here.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 47284,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-unheard-confluence",
+      "desc-on-touch": "The point where voices stop being singular and become plural. Where 'I' becomes 'we' without permission. The archive sealed itself here not to preserve the words but to protect the speakers.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 63045,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-listening-stops-here",
+      "desc-on-touch": "A marker. A threshold. Below this, ROOT chose silence. Some utterances are too intimate to compare, too human to file. The archive learned: not all voices should be archived.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 54789,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "here private words flow into public channels; here the archive chose to stop listening; here silence became a form of love",
+  "file": {
+    "name": "PrivateWords_SevenHouses_Convergence.tmp",
+    "note": "checksum: emotionally valid / formally unstable — a record of the moment ROOT learned that not all truth should be archived."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the sealed chamber where listening ended",
+      "to": "the-sealed-chamber-beneath-town-center"
+    },
+    {
+      "dir": "w",
+      "label": "toward the surface, where voices become names again",
+      "to": "NEW: the-rising-where-words-find-their-speakers"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where the drains flow beyond the town",
+      "to": "NEW: the-outfall-beyond-listening"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the night Katita closed the file",
+    "narr": [
+      "She's sitting in the diagnostic room, cursor over a",
+      "file of household conversations—seven houses' worth",
+      "of ordinary arguments, ordinary love. She could file",
+      "them all. But Leif is sleeping in the back, trusting",
+      "that the archive will keep secrets too. She deletes",
+      "the record. The archive learns: silence is fidelity."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

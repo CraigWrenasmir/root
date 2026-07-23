@@ -1,0 +1,134 @@
+{
+  "id": "the-void-where-measurement-never-started",
+  "title": "The Void Where Measurement Never Started",
+  "region": "The Understory",
+  "seed": 61923,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#222222",
+      "#111111"
+    ],
+    "ink": "#333333",
+    "accents": [
+      "#666666",
+      "#888888",
+      "#aaaaaa",
+      "#cccccc"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "unmeasured space",
+      "desc-on-touch": "Nothing here has size. Or everything has all sizes at once. Your attempts to triangulate position fail—every angle you choose generates a different impossibility. The void has never known coordinates.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 61923,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "body-becoming",
+      "desc-on-touch": "Something was repaired here, once. Hands worked on what should not have survived. Now it's unclear what was the body and what was the shelter it became. The surgery changed which was which.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 61924,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "circuit-refusing",
+      "desc-on-touch": "The archive tried to map this space once. Every path broke the map. Now it doesn't try. The void isn't hostile—it's indifferent to the idea of being known.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 61925,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "paradox-dense",
+      "desc-on-touch": "The static is thicker here. Paradox has weight. Every contradiction you could hold simultaneously is being held simultaneously, creating a texture so dense it might be mistaken for ground.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 61926,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "return-lost",
+      "desc-on-touch": "You came from the east, or west, or never came at all. The spiral that brought you here had already forgotten its own path by the time you arrived. Now the way back is a choice that refuses to resolve.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 61927,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here measurement never learned to begin, the spiral completed itself before coordinates were invented, and return became impossible in a space where arrival was never confirmed",
+  "file": {
+    "name": "Unmeasured_Repair_Hands_Working.tmp",
+    "note": "A recording or description of hands working on something. The medium is unclear. The outcome is unmeasured. Status: germinating."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward where the spiral still claims it ended",
+      "to": "the-edge-where-return-ends"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into nowhere, if that direction exists",
+      "to": "NEW: the-absolute-beneath-absolute"
+    },
+    {
+      "dir": "n",
+      "label": "toward the strange light that measurement gave up on",
+      "to": "NEW: the-chamber-where-vectors-learned-to-quit"
+    }
+  ]
+}
