@@ -1,0 +1,134 @@
+{
+  "id": "the-voice-wind-weather",
+  "title": "Where Named Things Learn to Move",
+  "region": "The Understory",
+  "seed": 6473,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a2e",
+      "#2d2d44"
+    ],
+    "ink": "#c0b0d8",
+    "accents": [
+      "#68a0b0",
+      "#a8d8d8",
+      "#d8c0a0",
+      "#b0b0c8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.72
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-voice-channel",
+      "desc-on-touch": "An archway through which wind passes, carrying words you recognize as speech but feel as motion. The air itself is talking.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 9182,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-word-pool-surface",
+      "desc-on-touch": "Water that ripples with names, each word-ripple bending the light. Speech becomes visible only as it disturbs the still.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the-tower-of-shaped-wind",
+      "desc-on-touch": "A stack of visible air-currents, each one a voice that learned to hold its shape. The tower sways but does not fall.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the-scatter-of-unheard-voices",
+      "desc-on-touch": "Points of light scattered like dropped words, each one a name that shaped the world and then dissolved into static.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6834,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-frequency-glyph",
+      "desc-on-touch": "Unreadable writing that modulates as you listen to it. The inscription is the sound; the sound is the meaning.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 7156,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the drain gives nothing voice; the voice gives the drain a reason to have been listening all along—and now the wind remembers what it spoke.",
+  "file": {
+    "name": "Wind_Drift_Vocal_Recordings_Unmixed.mp3",
+    "note": "voices that learned to move the air, then the air that learned to move the voices—feedback until the boundary dissolved"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down to where words still search for speakers",
+      "to": "the-rising-where-words-find-speakers"
+    },
+    {
+      "dir": "w",
+      "label": "into the storm's own archive of speech",
+      "to": "NEW: the-archive-where-weather-speaks"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the wind becomes language, language becomes current",
+      "to": "NEW: the-eternal-gale-scripture"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-tidal-frequency-palace",
+  "title": "The Tidal Frequency Palace",
+  "region": "The Comparisons",
+  "seed": 63521,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0066cc",
+      "#0099ff"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "seagull grid",
+      "desc-on-touch": "a creature rendered in exactly 11 polygons, floating above the grid as a sparse approximation of flight — the fewer the faces, the more it seems to remember the air that shaped it",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2164,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "frequency matrix",
+      "desc-on-touch": "the grid speaks in sound — each line is a tone, each intersection is a harmonic — the palace hums with the tides' own scale, where three heartbeats equal one wave",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3841,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "tidal argument",
+      "desc-on-touch": "two columns of numbers that contradict each other perfectly — one shows the tide coming in, the other shows it going out, both records dated today — the archive cannot decide which is the lie",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "heartbeat theorem",
+      "desc-on-touch": "a plaque stating the law: Surgery = three heartbeats; Beach = one heartbeat; therefore the archive's pulse runs at a frequency the ocean and the scalpel can both read",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5396,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "poetry converted to waveform",
+      "desc-on-touch": "lines of verse encoded as spectral data — when played through a speaker, they sound like wind across water; when read as text, they sound like the wind's own argument with itself",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 6803,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here the storm's thought becomes readable as it reverses itself, each descending frequency a word in the archive's slow certainty",
+  "file": {
+    "name": "Tidal_Frequency_Spectral_Archive_QR_Encoded.bin",
+    "note": "tidal tables merged with heartbeat data merged with spectral analysis of a nine-hour polyphonic recording — the file refuses to render as pure data; when decoded it becomes both music and geography"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "toward water that remembers sound",
+      "to": "the-deepening-storm-reason"
+    },
+    {
+      "dir": "e",
+      "label": "toward a shore where all measurements become one",
+      "to": "NEW: the-unified-measure-beach"
+    },
+    {
+      "dir": "n",
+      "label": "up to the diagnostic lighthouse that counts every wave",
+      "to": "the-diagnostic-lighthouse-eye"
+    },
+    {
+      "dir": "s",
+      "label": "down to the bedrock where stone learns to sing back",
+      "to": "the-stone-chorus-valley"
+    }
+  ]
+}

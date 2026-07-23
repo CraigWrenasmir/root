@@ -1,0 +1,139 @@
+{
+  "id": "the-weaving-at-no-resolution",
+  "title": "The Weaving at No Resolution",
+  "region": "The Diagnostic Render",
+  "seed": 52847,
+  "palette": {
+    "bg": "#ff00ff",
+    "ground": [
+      "#00ff00",
+      "#ffff00"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff0080",
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "bootleg archive",
+      "desc-on-touch": "a stack of unmarked cassettes and downloaded files, all labelled the same: 'unauthorized recordings, 2019–2023' — you play one and hear a voice singing in three parts that refuse to harmonize cleanly",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 8234,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "polyphonic listener",
+      "desc-on-touch": "an account from someone (name redacted) who attended nine hours of unbroken three-part singing in a room you can't locate — they remember standing there as time looped, as the parts diverged and nearly converged",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 9512,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "fractal hearings",
+      "desc-on-touch": "a diagram showing how one recording contains another recording contains another, each smaller iteration pitch-shifted, time-scaled, played backwards — the mesh feeds itself music",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7823,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "symposium proceedings",
+      "desc-on-touch": "conference papers from Tbilisi (2023) discussing the singer who learned to sustain a note across decades — each paper reaches a different conclusion about whether the song ever actually ends",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "unresolved chord",
+      "desc-on-touch": "you feel it in your chest — a harmonic tension that the field itself refuses to close, the colour-fields vibrating in discord that somehow, impossibly, becomes restful",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 5809,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "at this depth, the archive has learned that some truths live only at scales that refuse to speak themselves",
+  "file": {
+    "name": "Polyphonic_Bootlegs_Symposium_Evidence_Index.txt",
+    "note": "cross-reference of unauthorized recordings (2019–2023), listener testimonies, academic papers, and the single coherent account of nine-hour continuous three-part singing where the voices learned to lo"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "toward fractals in the dressing material itself",
+      "to": "the-unnamed-depth-registry"
+    },
+    {
+      "dir": "s",
+      "label": "down to where resolution becomes a forgotten concept",
+      "to": "the-infinite-reflection-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward a kiosk where arguments learn to harmonize",
+      "to": "NEW: the-chord-that-learned-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into a room where every surface hums a different frequency",
+      "to": "the-recursive-fermenting-spiral"
+    }
+  ]
+}

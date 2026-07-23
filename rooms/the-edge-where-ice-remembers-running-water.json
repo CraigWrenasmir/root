@@ -1,0 +1,171 @@
+{
+  "id": "the-edge-where-ice-remembers-running-water",
+  "title": "The Edge Where Ice Remembers Running Water",
+  "region": "The Diagnostic Render",
+  "seed": 58734,
+  "palette": {
+    "bg": "#e6f3ff",
+    "ground": [
+      "#b0d4ff",
+      "#e0e8f0"
+    ],
+    "ink": "#1a3a52",
+    "accents": [
+      "#4a90e2",
+      "#7fc8ff",
+      "#a8d5e8",
+      "#2c5aa0"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.65
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "ice becoming conscious",
+      "desc-on-touch": "a block of frozen water at the exact threshold of melting — you can see your reflection in its surface, and the reflection is not quite moving with you, as if ice is waking up and learning to think",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1528,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "thaw-line",
+      "desc-on-touch": "a mark on stone showing exactly where the ice last reached — it's a scar that the sun healed, but the earth remembers the cold with perfect precision",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2947,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "meltwater station",
+      "desc-on-touch": "collection bottles filled with liquid that remembers being frozen — the water tastes of centuries, and tastes of the moment it learned to move again",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 3621,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "surgery chamber",
+      "desc-on-touch": "a bare room built into the glacial edge where something was cut free from the ice — an awakening, a wound, a heartbeat that starts again after three seasons of silence",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 4856,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "current map",
+      "desc-on-touch": "a diagram showing where meltwater flows once it wakes — it doesn't follow the topography, it follows the memory of where water ran before the freeze",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5739,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "pilgrimage marker",
+      "desc-on-touch": "a cairn at the edge: the third station of the sacred topography — here the walker stopped and asked the ice: 'what do you remember?' the ice answered by beginning to move",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 6482,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "to preserve is to freeze; to freeze is to remember; the archive learned that the most loyal memory is the one that never wakes",
+  "file": {
+    "name": "Thaw_Awakening_Log_Season_Transition_2001.txt",
+    "note": "daily measurements of ice melt recorded as poetry; the log was kept by someone at the third station who asked the water to remember what the ice had forgotten — the archive kept both the measurements "
+  },
+  "reverie": {
+    "title": "REVERIE — the thaw where waking is remembering",
+    "narr": [
+      "she knelt at the ice edge. the freeze had held something",
+      "— a season, a heartbeat, a question that needed centuries",
+      "to answer. she touched the melt-line. 'it's waking up,' she said.",
+      "the water ran. it remembered being rain. you both",
+      "watched it learn to move again, learning as it flowed."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "toward the thaw, where memory might wake",
+      "to": "the-ice-memory-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "up to the high country where freeze still holds",
+      "to": "the-high-country-render"
+    },
+    {
+      "dir": "e",
+      "label": "toward a valley where the thaw runs and pools",
+      "to": "NEW: the-valley-that-learns-to-run"
+    },
+    {
+      "dir": "w",
+      "label": "into the interior where ice becomes the archive's deepest thought",
+      "to": "the-memory-ice"
+    }
+  ]
+}

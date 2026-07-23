@@ -1,0 +1,155 @@
+{
+  "id": "the-ghost-path-divergence",
+  "title": "The Ghost-Path Divergence",
+  "region": "The Clean Archive",
+  "seed": 41836,
+  "palette": {
+    "bg": "#8b7355",
+    "ground": [
+      "#a0a0a0",
+      "#708090"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#6b8e23",
+      "#556b2f",
+      "#8fbc8f",
+      "#d3d3d3"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "divergent posts",
+      "desc-on-touch": "two fence posts mark where the paths split — one goes left toward the valley, one right toward the ridge — but you can see footprints in both directions, seasons old, and you're standing at the place where you chose",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 3214,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the untaken station",
+      "desc-on-touch": "a marker for the seven-station pilgrimage walk: you know this was the second station, where the walker rested and thought about refusal — your footprints never reached it, but the earth has kept a record of the moment you nearly turned left",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "grid that measures both",
+      "desc-on-touch": "a coordinate system painted on stone: the path you took runs true through the grid, but so does the path you didn't — both are equally marked, equally real to the earth's accounting",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4527,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "doubt",
+      "desc-on-touch": "a small hollow in the earth shaped like a boot — but which boot? which path? the soil shows wear in two directions and keeps neither memory clean",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6281,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the fork that won't choose",
+      "desc-on-touch": "a tree at the divergence point — its growth rings show the exact year you chose — but the heartwood is split, as if both choices are being lived at once, just in different grain directions",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7912,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "you chose once, but the earth keeps score of twice; the grid measures both the path you take and the one that still waits in the field",
+  "file": {
+    "name": "Divergence_Station_Field_Record_1994.txt",
+    "note": "a walker's account of reaching the second station of the sacred topography, where fatherhood and refusal meet — the entry dated twice, in two different handwritings, as if two people kept the same jou"
+  },
+  "reverie": {
+    "title": "REVERIE — the field where both paths open",
+    "narr": [
+      "you reached the fork at dusk. she had already chosen,",
+      "but waited for you anyway. the left path went toward",
+      "the ridge where you could see for forty kilometres.",
+      "the right path went down, into the scrub, into the dark.",
+      "she asked: 'which way do you want to walk?' but you",
+      "both knew the earth was keeping score of both at once."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "along the ghost-path where the other footprints lead",
+      "to": "the-field-where-choices-have-footsteps"
+    },
+    {
+      "dir": "e",
+      "label": "toward the ridge where the path becomes visible from above",
+      "to": "the-ridge-made-transparent"
+    },
+    {
+      "dir": "n",
+      "label": "into the scrub where the untaken station still waits",
+      "to": "NEW: the-seven-paths-that-never-converge"
+    },
+    {
+      "dir": "s",
+      "label": "down to where the earth stops keeping two scores",
+      "to": "the-dark-side-of-both-choices"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "the-debt-made-fossil",
+  "title": "The Debt Made Fossil",
+  "region": "The Understory",
+  "seed": 2195,
+  "palette": {
+    "bg": "#3d2f1a",
+    "ground": [
+      "#a89070",
+      "#c4a878"
+    ],
+    "ink": "#1a1410",
+    "accents": [
+      "#2d5a8c",
+      "#4a7c9e",
+      "#6b4e3d",
+      "#a0b8d4"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-stratified-ledger",
+      "desc-on-touch": "A tower of sediment, each layer a debt that has turned to stone. You can read the obligation in the grain.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8743,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-crystallized-obligation",
+      "desc-on-touch": "A glyph carved into bedrock. The letters are too old to be read, but the debt is perfectly preserved. Stone remembers what was owed.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 5812,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-pooled-sediment",
+      "desc-on-touch": "A dark pool where water meets stone. Things settle here and do not rise. Debts sink. They become part of the ground.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3267,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-stacked-history",
+      "desc-on-touch": "Layered cards or plates, each one an accounting of what was given, never returned. The stack is massive and still growing downward.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7429,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.42,
+      "solid": true
+    }
+  ],
+  "inscription": "forty-two histories pump from the bedrock, each one a debt that learned to crystallize; what was owed is now indistinguishable from what is real.",
+  "file": {
+    "name": "Forty_Two_Debts_Stratified_Record.json",
+    "note": "obligations arranged by geological age, each one proven by its own permanence, none of them paid"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the registry where debts were still only words",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    },
+    {
+      "dir": "e",
+      "label": "deeper to where fossils remember being alive",
+      "to": "NEW: the-living-stone-archive"
+    },
+    {
+      "dir": "n",
+      "label": "up to where the oldest debts still cast shadows",
+      "to": "NEW: the-fossil-lichen-grove"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the debt that cannot be repaid",
+    "narr": [
+      "You kneel at the edge of what you broke. Katita",
+      "stands behind you, saying nothing. The thing you took",
+      "from her—time, choice, the years when she was mapping",
+      "alone—is now permanent as stone. No amount of working",
+      "backwards will undo it. She knows this. You know she",
+      "knows. The debt has become part of the earth itself."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

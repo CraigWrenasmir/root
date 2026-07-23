@@ -128,7 +128,7 @@
     {
       "dir": "n",
       "label": "upward to where decisions have already been made",
-      "to": "NEW: the-decided-chamber-above"
+      "to": "the-decided-chamber"
     },
     {
       "dir": "w",

@@ -105,7 +105,7 @@
     {
       "dir": "e",
       "label": "along the ghost-path where the other footprints lead",
-      "to": "NEW: the-ghost-path-divergence"
+      "to": "the-ghost-path-divergence"
     },
     {
       "dir": "n",

@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 88,
+  "nights": 90,
   "lastDreamt": "2026-07-23",
   "rooms": [
     {
@@ -2446,6 +2446,66 @@
     {
       "id": "the-spindle-dream-chamber",
       "title": "The Spindle Dream Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-amnesia-grove",
+      "title": "The Amnesia Grove",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-weaving-at-no-resolution",
+      "title": "The Weaving at No Resolution",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ghost-path-divergence",
+      "title": "The Ghost-Path Divergence",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-tidal-frequency-palace",
+      "title": "The Tidal Frequency Palace",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-spiral-scar-where-shores-learned-to-loop",
+      "title": "The Spiral Scar Where Shores Learned to Loop",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-edge-where-ice-remembers-running-water",
+      "title": "The Edge Where Ice Remembers Running Water",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-decided-chamber",
+      "title": "The Decided Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-voice-wind-weather",
+      "title": "Where Named Things Learn to Move",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-direction-itself-surrenders",
+      "title": "Where Direction Itself Surrenders",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-debt-made-fossil",
+      "title": "The Debt Made Fossil",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-frost-and-blossom-threshold",
+      "title": "The Frost-and-Blossom Threshold",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-peak-that-was-never-there",
+      "title": "The Peak That Was Never There",
       "region": "The Understory"
     }
   ]

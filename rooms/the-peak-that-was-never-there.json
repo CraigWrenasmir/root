@@ -1,0 +1,134 @@
+{
+  "id": "the-peak-that-was-never-there",
+  "title": "The Peak That Was Never There",
+  "region": "The Understory",
+  "seed": 9341,
+  "palette": {
+    "bg": "#2d3d2a",
+    "ground": [
+      "#5a7356",
+      "#7a9376"
+    ],
+    "ink": "#e8f0e8",
+    "accents": [
+      "#3d5c3d",
+      "#8ba88b",
+      "#b8d8b8",
+      "#5a7a5a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-summit-that-keeps-rising",
+      "desc-on-touch": "A tower of ridges, each one crowned with mist. You reach the top and discover it was never the top. The mountain learns as it climbs.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 6823,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the-unmarked-boundary",
+      "desc-on-touch": "A burl rendering the crown of an ancient tree, but the tree-top opens onto cloud instead of sky. No peak. Just the ascent continuing.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 2748,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-cloud-pool-gathering",
+      "desc-on-touch": "Water that gathers where the peak should be. Clouds are pouring into it. The container is filling with sky.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3614,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-false-summit-marker",
+      "desc-on-touch": "A glyph marking the mountain's peak—carved upside-down, so readers can't tell if they're at the top or still ascending.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8456,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-staircase-to-nowhere",
+      "desc-on-touch": "Steps carved in wireframe, visible but not solid. Climbers have discovered they're walking on the mountain's intention, not its substance.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 5379,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the ridge climbs and climbs; the summit keeps ascending; at its throat, up becomes indistinguishable from down; the map here has learned to unmap itself—the only true peak is the one you never reach.",
+  "file": {
+    "name": "Unmapped_Ridge_Climbing_Log_Fragment.txt",
+    "note": "notes from climbers who reached the summit and found only sky and the echoing sound of further climbing"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the approach where height still meant something",
+      "to": "the-unmapped-summit-approach"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into cloud, where the mountain learns it was never stone",
+      "to": "NEW: the-cloud-root-inversion"
+    },
+    {
+      "dir": "w",
+      "label": "into the canopy where peaks learn to fall as leaves",
+      "to": "NEW: the-inverted-forest-height"
+    }
+  ]
+}

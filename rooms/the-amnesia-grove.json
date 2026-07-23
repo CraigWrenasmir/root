@@ -1,0 +1,139 @@
+{
+  "id": "the-amnesia-grove",
+  "title": "The Amnesia Grove",
+  "region": "The Diagnostic Render",
+  "seed": 37284,
+  "palette": {
+    "bg": "#f5e6d3",
+    "ground": [
+      "#d4af37",
+      "#87ceeb"
+    ],
+    "ink": "#2d5016",
+    "accents": [
+      "#8b4513",
+      "#708090",
+      "#cd853f",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "fruit singing",
+      "desc-on-touch": "you hear the orchard's yield speaking backwards through languages you learned and then forgot — each fruit hums a minor key you never knew you knew",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "memory arbour",
+      "desc-on-touch": "a wooden frame where vines grow in spirals; beneath it, soil that remembers being pressed by someone else's footsteps",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 4912,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "directory listing",
+      "desc-on-touch": "a standing sign like a kiosk listing varieties of forgotten languages: Melodic, Tactile, Olfactory, Gestural — each fruit holds a sample bottle of sound",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5521,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "lost compositions",
+      "desc-on-touch": "sheet music pinned to bark, written in a hand you almost recognize, scores for arcade machines in Tokyo you never visited, melodies that loop into themselves",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6103,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the orchard's weight",
+      "desc-on-touch": "you feel the grove pressing down — not a threat but a pressure of time, of fruit that has learned to wait, of languages settling into the roots",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7641,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the grove grows new fruit in languages the reader has forgotten they knew",
+  "file": {
+    "name": "Unheard_Arcade_Compositions_Catalogue.txt",
+    "note": "a composer's life work: music written for pachinko and pinball machines in Osaka, 1982–1998, never played back, now growing as dialect in the orchard"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into orchards where forgetting becomes a language of its own",
+      "to": "the-silent-orchard-where-fruit-remembers"
+    },
+    {
+      "dir": "n",
+      "label": "toward a motel lobby where music never stops playing",
+      "to": "NEW: the-perpetual-lounge"
+    },
+    {
+      "dir": "s",
+      "label": "down to where the grove learns to read itself",
+      "to": "NEW: the-literate-root-dark"
+    },
+    {
+      "dir": "w",
+      "label": "into a field where the same choice repeats infinitely",
+      "to": "the-fork-s-endless-argument"
+    }
+  ]
+}

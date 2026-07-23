@@ -1,0 +1,134 @@
+{
+  "id": "the-frost-and-blossom-threshold",
+  "title": "The Frost-and-Blossom Threshold",
+  "region": "The Understory",
+  "seed": 4712,
+  "palette": {
+    "bg": "#0a1a2d",
+    "ground": [
+      "#1a3a5c",
+      "#2a4a7c"
+    ],
+    "ink": "#d8e8f8",
+    "accents": [
+      "#c8f0d8",
+      "#f8c8d8",
+      "#a8c8e8",
+      "#f8e8a8"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-threshold-arch",
+      "desc-on-touch": "A doorway between two states. Step through and feel winter on one side, spring on the other. Neither will let go.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2914,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-ice-blossom-tower",
+      "desc-on-touch": "A tower of stacked opposites: frost at the base, flowers at the crown, meeting without mixing. Both seasons hold.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7531,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-grid-of-moments",
+      "desc-on-touch": "A wireframe showing the mesh where one moment becomes another. Each intersection is where a season was born.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5687,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-melting-pool",
+      "desc-on-touch": "Water that is both ice and liquid. It holds both states at once. Touch it and feel the precision of the threshold.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4165,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-season-glyph",
+      "desc-on-touch": "A plaque marked with runes for cold and growth, intertwined so completely neither can be read alone.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8247,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.52,
+      "solid": false
+    }
+  ],
+  "inscription": "here every heartbeat learns to follow the one before it; the frost waits for the blossom, the blossom for the return of frost—and neither one is certain which came first.",
+  "file": {
+    "name": "Temporal_Garden_Sequential_Log.mp3",
+    "note": "seasons learning to bloom one after another, the archive recording the precise moment spring and winter agreed to take turns"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber where moments were still simultaneous",
+      "to": "the-sequence-resolution-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "into the eternal spring that frost still remembers",
+      "to": "NEW: the-perpetual-threshold-garden"
+    },
+    {
+      "dir": "n",
+      "label": "up to where the seasons learn to speak",
+      "to": "NEW: the-dialogue-of-ice-and-leaf"
+    }
+  ]
+}

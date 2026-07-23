@@ -1,0 +1,134 @@
+{
+  "id": "where-direction-itself-surrenders",
+  "title": "Where Direction Itself Surrenders",
+  "region": "The Understory",
+  "seed": 8765,
+  "palette": {
+    "bg": "#3d1a0a",
+    "ground": [
+      "#d4523c",
+      "#e89d6f"
+    ],
+    "ink": "#2a0a00",
+    "accents": [
+      "#8b2e1a",
+      "#d47c3c",
+      "#f5d76e",
+      "#6b1a00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-unreadable-compass",
+      "desc-on-touch": "A plaque marked with all directions at once. North points up and down and sideways. The confusion is the message.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5471,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-paradox-pool",
+      "desc-on-touch": "Water that reflects sky and sky that contains water. Reflection and reality have lost track of which is which.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3892,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-misaligned-arch",
+      "desc-on-touch": "A doorway that exits to the same place it enters. The passage curves back on itself. Walking through teaches surrender.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7284,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-collapsed-wireframe",
+      "desc-on-touch": "A 3D box that has folded into itself. The edges point in directions that don't exist. Geometry surrendered first.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6149,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the-epicenter-of-nowhere",
+      "desc-on-touch": "A tower of stacked disorientation. The higher it goes, the less clear it is whether up has meaning.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4528,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "here is no distance because there is no there, here is no time because there is no then; the absolute has folded so deeply that the bottom is indistinguishable from the top—welcome to the fold.",
+  "file": {
+    "name": "Coordinate_System_Dissolution_Log.txt",
+    "note": "the archive's notes on where it was when place stopped being a meaningful category"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the absolute beneath",
+      "to": "the-absolute-beneath-absolute"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into states where direction has never existed",
+      "to": "NEW: the-pre-compass-dark"
+    },
+    {
+      "dir": "e",
+      "label": "into the space between the compass points",
+      "to": "NEW: the-cardinal-void"
+    }
+  ]
+}

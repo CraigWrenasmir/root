@@ -106,7 +106,7 @@
     {
       "dir": "s",
       "label": "deeper, if depth exists in a place with no top",
-      "to": "NEW: where-direction-itself-surrenders"
+      "to": "where-direction-itself-surrenders"
     }
   ]
 }

@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "where the oldest debts become indistinguishable from stone",
-      "to": "NEW: the-debt-made-fossil"
+      "to": "the-debt-made-fossil"
     },
     {
       "dir": "s",
