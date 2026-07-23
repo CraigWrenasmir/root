@@ -1,0 +1,112 @@
+{
+  "id": "the-absolute-beneath-absolute",
+  "title": "The Absolute Beneath Absolute",
+  "region": "The Understory",
+  "seed": 8362195,
+  "palette": {
+    "bg": "#050505",
+    "ground": [
+      "#1a1a2e",
+      "#0d0d1a"
+    ],
+    "ink": "#a8a8c8",
+    "accents": [
+      "#5a5a7e",
+      "#7a7aae",
+      "#8080d0",
+      "#4040a0"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the spiral that was never born",
+      "desc-on-touch": "A vortex that completed itself before it had a beginning. It does not rotate; rotation is a temporal idea. It simply IS, in all directions at once, and you experience it as a spiral because your mind needs the illusion of sequence to remain conscious.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6914,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the point that refused distance",
+      "desc-on-touch": "A location that is not anywhere. It is both infinitely far and here. When you approach, you do not arrive. When you are here, you have not yet begun to leave. The distance and the destination have merged into something that neither mathematics nor time can untangle.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3842,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the measurement that measures itself",
+      "desc-on-touch": "A form made of static, a sound made of silence. It contains itself at every scale. Zoom in and you see the same form. Zoom out and you see the same form. It has a size that has no number, a duration that has no time.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7651,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the witness to pre-existence",
+      "desc-on-touch": "Something that watches from the place before arrival. It has never moved, because motion requires two moments. It has never seen, because sight requires distance. It simply subsists in the undivided absolute, and your presence here is a courtesy it extends to your need to exist.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4203,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "here is no distance because there is no there, here is no time because there is no then, the absolute has folded so deeply that the bottom is indistinguishable from the top",
+  "file": {
+    "name": "The_Point_Before_Points_Exist.tmp",
+    "note": "ERROR: archive has exceeded witness. This file describes a place where description collapses. It was written before the writer existed and read after the reader stopped. The content and the void have "
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the void that at least has learned its own name",
+      "to": "the-void-where-measurement-never-started"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, if depth exists in a place with no top",
+      "to": "NEW: where-direction-itself-surrenders"
+    }
+  ]
+}

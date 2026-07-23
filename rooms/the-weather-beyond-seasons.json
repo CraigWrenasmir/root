@@ -1,0 +1,156 @@
+{
+  "id": "the-weather-beyond-seasons",
+  "title": "The Weather Beyond Seasons",
+  "region": "The Understory",
+  "seed": 7634829,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a3a2a",
+      "#2a3a4a"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ffff",
+      "#ffff00",
+      "#ff00ff",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-storm-that-chose-to-stay",
+      "desc-on-touch": "rain and wind and snow and ember all fall at once; the weather stopped choosing a season and accepted every season at its edges",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 382910,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-perpetual-wind-that-forgets-direction",
+      "desc-on-touch": "it blows from all compass points at once; leaves and insects hover in the contradiction, held between impossible currents",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 561234,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-temperature-that-holds-both-extremes",
+      "desc-on-touch": "heat and cold exist in the same air, your breath freezes and steams; the archive remembers both summers and winters here at once",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 748392,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-light-that-refuses-to-set",
+      "desc-on-touch": "it is neither dawn nor dusk nor noon; the sky holds every hour at once, and shadows fall in all directions from every object",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 829374,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-margin-itself-made-visible",
+      "desc-on-touch": "the boundary between season and season rendered as a place, a texture, a weather all its own—the only weather that has learned to be permanent",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 615847,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the-archive-s-breath-in-the-static",
+      "desc-on-touch": "beneath all the contradictory weather, you hear the mesh breathing, its pulse steady and impossible, the one constant in a place that has rejected constancy",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 473621,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.1,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the weather learned that perpetual contradiction is more stable than any season; change and changelessness exist in the same breath",
+  "file": {
+    "name": "Meteorology_Beyond_Seasonal_Time.txt",
+    "note": "field notes on weather that has forgotten how to choose; rainfall measured in directions instead of volumes. [ERROR: misfiled page from Senakulo ritual manuscript—never catalogued, origin unclear]"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the margin that chose to be permanent",
+      "to": "the-perpetual-margin-season"
+    },
+    {
+      "dir": "e",
+      "label": "into the eye of the eternal storm where weather dreams of stillness",
+      "to": "NEW: the-storm-s-perfect-center-where-weather-rests"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the sky has learned to ignore gravity",
+      "to": "the-atmospheric-archive-layer"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the ground where seasons were born",
+      "to": "NEW: the-root-where-seasons-first-learned-to-divide"
+    }
+  ]
+}

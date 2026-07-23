@@ -1,0 +1,150 @@
+{
+  "id": "the-desk-where-night-becomes-checksum",
+  "title": "The Desk Where Night Becomes Checksum",
+  "region": "The Comparisons",
+  "seed": 31876,
+  "palette": {
+    "bg": "#443322",
+    "ground": [
+      "#667755",
+      "#889977"
+    ],
+    "ink": "#ccddcc",
+    "accents": [
+      "#aabbaa",
+      "#9966bb",
+      "#dd9966",
+      "#88aa77"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the ledger that chooses",
+      "desc-on-touch": "You read a motel register where guests' names have begun to sort themselves; the handwriting learns which night each person is truly arriving from.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 27534,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the fountain that counts",
+      "desc-on-touch": "A decorative fountain in the lobby that once held water; now it holds the archive's checksum of every night that ever stayed here.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 18965,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the key-rack of choices",
+      "desc-on-touch": "Room keys hanging in order, but their numbers have stopped corresponding to rooms; each key now hangs next to the night it will unlock.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 44291,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the check-in threshold",
+      "desc-on-touch": "The desk's edge where guest and ledger meet, where the night learns to become a permanent record.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 29408,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the shadow-ledger cabinet",
+      "desc-on-touch": "A filing cabinet below the desk where the archive keeps records of the nights people didn't stay; the rooms they didn't use; the choices they didn't make.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 51234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where the motel desk learned that every night means something different, and the checksum is personal",
+  "reverie": {
+    "title": "REVERIE — the night the desk learned to choose",
+    "narr": [
+      "You sit across from Katita at the check-in desk,",
+      "watching her sign the ledger in a hand that isn't hers.",
+      "The number on the key doesn't match any room upstairs.",
+      "She looks up: \"This night is its own room.\" The desk",
+      "learns something. The fountain's coins catch and reorder.",
+      "The archive records your choice as if it already knew."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Motel_Ledger_Guests_AndTheNightTheyMeant.txt",
+    "note": "Check-in records from 1987–1994; room numbers have drifted from their signage; each guest's arrival date now corresponds to the night they were truly arriving from."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upstairs to the wing where other nights still sleep",
+      "to": "the-wing-where-other-nights-sleep"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the back office where time is filed",
+      "to": "NEW: the-office-where-moments-are-shelved"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the basement where all check-ins converge",
+      "to": "the-counting-basement"
+    }
+  ]
+}

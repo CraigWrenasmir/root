@@ -89,7 +89,7 @@
     {
       "dir": "w",
       "label": "deeper into chambers where utterance becomes question",
-      "to": "NEW: the-question-chamber-beneath"
+      "to": "the-question-chamber-beneath"
     },
     {
       "dir": "n",

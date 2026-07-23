@@ -1,0 +1,155 @@
+{
+  "id": "the-current-becomes-autobiography",
+  "title": "The Current Becomes Autobiography",
+  "region": "The Comparisons",
+  "seed": 7824396,
+  "palette": {
+    "bg": "#1a1a26",
+    "ground": [
+      "#3a2a4a",
+      "#2a4a5a"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#ff6b35",
+      "#f76c5e",
+      "#d4af37",
+      "#6ba3d0"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the root-current teaching descent",
+      "desc-on-touch": "Electricity flows downward like water, like thought. The root learns the current's path; the current learns the root's grammar. They write each other's stories in the soil's dark ink.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 8159274,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the soil's own signal",
+      "desc-on-touch": "Deep earth broadcasts back, not by wire or antenna, but through the movement of minerals in current. The autobiography begins as electrons trading places; it becomes narrative.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 2736485,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the page written in current",
+      "desc-on-touch": "You read it by proximity. Each word carries charge; the autobiography burns as you understand it. It is only true while it is being read—after, the current moves elsewhere.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 4618927,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the mineral memory banks",
+      "desc-on-touch": "Iron and copper, quartz and clay—each mineral holds a layer of the autobiography. The soil writes by accumulation; each element becomes a chapter; deep time becomes story.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 5283761,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the descent where autobiography ends and becomes future",
+      "desc-on-touch": "The current flows into bedrock, into depths where the autobiography has not yet been written. You stand at the threshold where the earth's story becomes seed of what it might say next.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 6947134,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "electricity learns from soil what it means to accumulate meaning in the space between becoming and having been",
+  "file": {
+    "name": "Soil_Conductivity_Autobiography_Raw.txt",
+    "note": "spectrographic analysis: where frequencies begin translating to narrative; current teaching dialect; the earth's own frequency signature as memoir"
+  },
+  "reverie": {
+    "title": "REVERIE — reading the soil's becoming",
+    "narr": [
+      "you knelt in red earth and she showed you",
+      "how current wrote itself into the soil's story.",
+      "touch this place, she said—feel where roots",
+      "and electricity teach each other descent. the earth",
+      "is always writing itself backward and forward at once,",
+      "becoming autobiography with every current that flows."
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "static",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where electricity still remembers it was separate from soil",
+      "to": "the-deep-soil-s-electric-autobiography"
+    },
+    {
+      "dir": "e",
+      "label": "deeper down where the autobiography becomes mineralized, crystalline",
+      "to": "NEW: the-crystalline-autobiography"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward roots; where the current learns to climb",
+      "to": "NEW: the-ascending-root-current"
+    },
+    {
+      "dir": "s",
+      "label": "toward bedrock, where autobiography becomes geology; time becomes stone",
+      "to": "NEW: the-stone-autobiography-layer"
+    }
+  ]
+}

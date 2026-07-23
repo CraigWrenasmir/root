@@ -1,0 +1,134 @@
+{
+  "id": "where-the-numbers-wash-into-salt",
+  "title": "Where Numbers Wash into Salt",
+  "region": "The Clean Archive",
+  "seed": 47293,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#0066cc",
+      "#003366"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#0099ff",
+      "#00ccff",
+      "#0033ff",
+      "#00aaaa"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the dissolving cipher",
+      "desc-on-touch": "You read a tide table printed in salt, numbers bleeding into the margin where foam still remembers the shape of measurement.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 28104,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the overflow ledger",
+      "desc-on-touch": "A filecard listing water heights, each entry more salt-worn than the last, the numbers themselves starting to change.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 19847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the pooling edge",
+      "desc-on-touch": "Where the estuary's water meets a reflecting pool of brine, coordinates written on the water's own surface.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 33456,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the salt-worn beacon",
+      "desc-on-touch": "A wireframe tower that once held measurement instruments; they have rusted into sculptures of what they used to know.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 12789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the threshold where counting ends",
+      "desc-on-touch": "A place where the tide chart becomes a poem; where the archive stops numbering and starts listening to the salt.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 41627,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "where the tide gives up its grid and teaches the salt to read in wavelengths instead of numbers",
+  "file": {
+    "name": "TideTable_Estuarine_LastMeasurements_Corrupted.txt",
+    "note": "Recorded water heights and salinity from 1982–1998; the numbers have begun to drift, each copy slightly more salt-worn than the archive's backup."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back along the shore where numbers have become foam",
+      "to": "the-estuary-where-numbers-learn-to-flow"
+    },
+    {
+      "dir": "w",
+      "label": "westward where salt takes its own measure",
+      "to": "NEW: the-salt-margin-beyond-reading"
+    },
+    {
+      "dir": "n",
+      "label": "upriver where the estuary narrows and remembers it was a stream",
+      "to": "the-river-s-divergent-grammar"
+    }
+  ]
+}

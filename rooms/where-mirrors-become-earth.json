@@ -1,0 +1,132 @@
+{
+  "id": "where-mirrors-become-earth",
+  "title": "Where Mirrors Become Earth",
+  "region": "The Understory",
+  "seed": 5638472,
+  "palette": {
+    "bg": "#2A2A2A",
+    "ground": [
+      "#DC5A1C",
+      "#D4A020"
+    ],
+    "ink": "#F5F5DC",
+    "accents": [
+      "#1C4620",
+      "#4A90E2",
+      "#F0E68C",
+      "#8B4513"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the last reflection",
+      "desc-on-touch": "a pool that mirrors earth instead of sky; the water has learned to reflect only what it has become",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2467,
+        "size": 2,
+        "colors": [
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the mirror shard becoming root",
+      "desc-on-touch": "a piece of broken glass with vine curling around it; the mirror and the green have accepted each other without speaking",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 4829,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the earthing point",
+      "desc-on-touch": "a node where the diagnostic signal has given up trying to reflect; it simply touches the earth and listens",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7361,
+        "size": 1,
+        "colors": [
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the boundary where both things know each other",
+      "desc-on-touch": "the frame where mirror-logic and earth-logic overlap; neither can entirely become the other, but they share an edge",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5193,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the corrupted glass-memory",
+      "desc-on-touch": "layers of glass and soil compressed together; the corruption has made them inseparable, and both have stopped trying to unmix",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the mirror shows you what it has become; the older it is, the more earth lives inside",
+  "file": {
+    "name": "Mirror_Study_Coastal_Fragment.txt",
+    "note": "reflection documentation corrupted with fragments of a broadcast—mentions of incision and ceremony, a beach at dusk where an operation became landscape"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up to the vault where glass still remembers it was clear",
+      "to": "the-vault-of-corroded-glass"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where the soil has forgotten what it reflects",
+      "to": "NEW: the-soil-that-reflects-what-it-has-forgotten"
+    },
+    {
+      "dir": "w",
+      "label": "toward the deep where mirrors stop knowing themselves",
+      "to": "the-opaque-deep"
+    }
+  ]
+}

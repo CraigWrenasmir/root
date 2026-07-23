@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 69,
+  "nights": 74,
   "lastDreamt": "2026-07-23",
   "rooms": [
     {
@@ -1921,6 +1921,156 @@
     {
       "id": "the-open-water-beyond-all-broadcasts",
       "title": "The Open Water Beyond All Broadcasts",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-mirrored-dwelling-that-learns-to-stay",
+      "title": "The Mirrored Dwelling",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-country-where-paddocks-dream-their-own-shape",
+      "title": "The Country Where Paddocks Dream Their Own Shape",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-internal-margin-where-the-archive-s-own-silence-gathers",
+      "title": "The Internal Margin",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-infinitesimal-knotting-beyond-darkness",
+      "title": "The Infinitesimal Knotting Beyond Darkness",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-current-becomes-autobiography",
+      "title": "The Current Becomes Autobiography",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-northern-memory-resume",
+      "title": "The Northern Memory Resume",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ridge-where-singing-becomes-silence",
+      "title": "The Ridge Where Singing Becomes Silence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-drawer-beneath-all-drawers",
+      "title": "The Drawer Beneath All Drawers",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-mirrors-become-earth",
+      "title": "Where Mirrors Become Earth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepest-root-scripture",
+      "title": "The Deepest Root-Scripture Where Meaning Was Born",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unknotting-dark",
+      "title": "The Unknotting Dark",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-forest-that-refused-to-split",
+      "title": "The Forest That Refused to Split",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-substrate-before-substance",
+      "title": "The Substrate Before Substance",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-estuary-where-numbers-learn-to-flow",
+      "title": "The Estuary Where Numbers Learn to Flow",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "where-the-roads-learn-to-sail",
+      "title": "Where the Roads Learn to Sail",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ridge-of-the-road-not-travelled",
+      "title": "The Ridge of the Road Not Travelled",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-absolute-beneath-absolute",
+      "title": "The Absolute Beneath Absolute",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepening-witness-ground",
+      "title": "The Deepening Witness Ground",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-numbers-wash-into-salt",
+      "title": "Where Numbers Wash into Salt",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-northern-teaching-country",
+      "title": "The Northern Teaching Country",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-desk-where-night-becomes-checksum",
+      "title": "The Desk Where Night Becomes Checksum",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-question-chamber-beneath",
+      "title": "The Question Chamber Beneath",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-bedrock-vault-where-archives-first-learned-to-keep",
+      "title": "The Bedrock Vault Where Archives First Learned to Keep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-summit-where-paths-become-weather",
+      "title": "The Summit Where Paths Become Weather",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-convergence-becomes-one-voice",
+      "title": "The Convergence Becomes One Voice",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-weather-beyond-seasons",
+      "title": "The Weather Beyond Seasons",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-prismatic-lodge",
+      "title": "The Prismatic Lodge",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-river-s-final-commitment",
+      "title": "The River's Final Commitment",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-layered-country-dreaming",
+      "title": "The Layered Country Dreaming",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-stone-chambers-where-memory-roots",
+      "title": "The Stone Chambers Where Memory Roots",
       "region": "The Understory"
     }
   ]

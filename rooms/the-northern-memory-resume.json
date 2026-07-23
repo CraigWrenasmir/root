@@ -1,0 +1,139 @@
+{
+  "id": "the-northern-memory-resume",
+  "title": "The Northern Memory Resume",
+  "region": "The Clean Archive",
+  "seed": 5134789,
+  "palette": {
+    "bg": "#2d5a3d",
+    "ground": [
+      "#a8754d",
+      "#3d7a52"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#d4a574",
+      "#8b6f47",
+      "#5a8456",
+      "#c9a89a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the path that remembers your first crossing",
+      "desc-on-touch": "You walk north and the road itself holds both journeys at once—the one you took before and this one that remembers it. The path teaches you that return is always a new knowing.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 3897246,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the marker that changed face",
+      "desc-on-touch": "A post that held two names. Now it remembers both: where you came from, where you arrived. The marker does not distinguish past from present—it holds the convergence permanent.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 2514673,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the place where the two paths held hands",
+      "desc-on-touch": "Here they met again, the path you took and the path you did not. The country has learned to show them both at once. Where they overlap, something new grows—convergence-grass.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4728561,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the house set back from the road",
+      "desc-on-touch": "Someone lives there who has also walked both paths. From the window they watch travelers and know that each person who passes holds other versions of themselves from routes never taken.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 5893274,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the resume-marker where story continues",
+      "desc-on-touch": "Not an ending or a beginning: a place where the narrative turns back on itself and finds it has been moving forward all along. Memory resumes; the country learns its own name again.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6184937,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the northern road remembers every walker who came before; it teaches each new traveler that they are the second knowing of the first arrival",
+  "file": {
+    "name": "Northern_Convergence_Field_Notes_Handwritten.txt",
+    "note": "journal entry: recording both journeys in margins; each line written twice in different inks; dates confused intentionally; the scribe's hand learning to write two times at once"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the convergence, where both paths still meet",
+      "to": "the-convergence-before-divergence-returns"
+    },
+    {
+      "dir": "n",
+      "label": "further north, where memory learns to teach itself",
+      "to": "the-northern-teaching-country"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into territory where the resumed path keeps branching",
+      "to": "NEW: the-eastern-resume-fields"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the high country where all resumed paths converge again",
+      "to": "NEW: the-high-country-resumed"
+    }
+  ]
+}

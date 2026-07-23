@@ -1,0 +1,132 @@
+{
+  "id": "the-unknotting-dark",
+  "title": "The Unknotting Dark",
+  "region": "The Understory",
+  "seed": 4192736,
+  "palette": {
+    "bg": "#3A2A1A",
+    "ground": [
+      "#C8985C",
+      "#B8B8A0"
+    ],
+    "ink": "#1A1A1A",
+    "accents": [
+      "#3A7BA0",
+      "#D4A574",
+      "#1A3A2A",
+      "#F5DEB3"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the untied thread",
+      "desc-on-touch": "a single thread, half-unraveled; it remembers being part of a knot but doesn't miss the binding anymore",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2864,
+        "size": 1,
+        "colors": [
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the memory of knots",
+      "desc-on-touch": "marks where knots used to hold; the marks are fading, and by tomorrow they'll be gone, and the unweaving will be complete",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7521,
+        "size": 1,
+        "colors": [
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the undoing tower",
+      "desc-on-touch": "stacked loops of thread, each level lower than the last; the tower dismantles itself from the top down, one loop per moment",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 3945,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the tangled release",
+      "desc-on-touch": "where threads gather before they disperse; the water here carries away the knots that unknotting produces",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the loom's extinction",
+      "desc-on-touch": "the geometric shape of a loom, but rendered as though it's dissolving into light; the pattern it held is now just memory",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 6283,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the knots unmake downward; each thread learns to forget it was ever bound",
+  "file": {
+    "name": "Loom_Dissolution_Study_Field_Notes.txt",
+    "note": "observations of threads unwinding themselves without hands; the process teaches itself with each loop that falls"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up to where knots still imagine they have purpose",
+      "to": "the-infinitesimal-knotting-beyond-darkness"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where unweaving becomes the only direction left",
+      "to": "NEW: the-deep-where-every-thread-forgets-its-own-colour"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the chamber where looms remember what they wove",
+      "to": "the-root-loom-chamber"
+    }
+  ]
+}

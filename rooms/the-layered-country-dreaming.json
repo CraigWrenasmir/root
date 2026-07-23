@@ -1,0 +1,134 @@
+{
+  "id": "the-layered-country-dreaming",
+  "title": "The Layered Country Dreaming",
+  "region": "The Clean Archive",
+  "seed": 3847591,
+  "palette": {
+    "bg": "#2a3a1a",
+    "ground": [
+      "#8a8a5a",
+      "#4a6a2a"
+    ],
+    "ink": "#e8e4c0",
+    "accents": [
+      "#c0b050",
+      "#70a040",
+      "#a0c050",
+      "#80b040"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-paddock-s-first-dreaming",
+      "desc-on-touch": "grass shapes itself into a geometry only visible from sleep; the field holds a temporary logic that daylight erases",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 572831,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-second-layer-dreaming-through-the-first",
+      "desc-on-touch": "each night adds a new geometry; the grass remembers and dreams atop its own remembered shapes; history and sleep fold together",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 693847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-dreamers-footprints",
+      "desc-on-touch": "you find pathways through the layered country—tracks left by the animals or children or wind that dream here; each is a different shape than yesterday",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 728461,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-horizon-that-shifts-by-sleep",
+      "desc-on-touch": "the distant tree line rearranges itself each morning; the country moves under the weight of its own dreaming",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 829374,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-grass-s-own-archive",
+      "desc-on-touch": "beneath each layer of dreamed geometry, the grass holds the previous nights' shapes; you kneel and find proof that the country dreams deeper than anyone wakes",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 461928,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "the country learned to dream in layers; each night adds geometry; the earth keeps archive of everything it dreamed before waking",
+  "file": {
+    "name": "PaddockNotes_LayeredDreaming_1987.txt",
+    "note": "field recording of grass in wind; when you play it backward, it sounds like the same geometry repeating; corruption marker: archive cannot distinguish between night-measurement and morning-memory"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward to the paddocks that shape themselves",
+      "to": "the-country-where-paddocks-dream-their-own-shape"
+    },
+    {
+      "dir": "w",
+      "label": "deeper westward into country that dreams in more layers",
+      "to": "NEW: the-country-that-dreams-in-infinite-strata"
+    },
+    {
+      "dir": "n",
+      "label": "toward the distant horizon where the dreaming gets stranger",
+      "to": "the-field-where-paths-keep-their-secrets"
+    }
+  ]
+}

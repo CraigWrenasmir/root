@@ -1,0 +1,117 @@
+{
+  "id": "the-estuary-where-numbers-learn-to-flow",
+  "title": "The Estuary Where Numbers Learn to Flow",
+  "region": "The Clean Archive",
+  "seed": 7254981,
+  "palette": {
+    "bg": "#1a2415",
+    "ground": [
+      "#6b8e4a",
+      "#4d6b2f"
+    ],
+    "ink": "#e8ead8",
+    "accents": [
+      "#a5c9f1",
+      "#d4af7d",
+      "#8b6f47",
+      "#6ba3a8"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the surveyor's house",
+      "desc-on-touch": "A small timber shed where maps once hung on wire. The walls are written over with coordinate conversions—the hand that wrote them couldn't decide which system to trust. The door opens onto water.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the tidal grid",
+      "desc-on-touch": "Where the estuary breathes, numbered lines appear and vanish. Each tide rewrites a different coordinate system—latitude-longitude, easting-northing, something older that nobody remembers inventing. The numbers pool at the mudline and flow elsewhere.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5019,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the salt-keeper's station",
+      "desc-on-touch": "A small civic building where once they measured and reported the river's quality. The logbooks are still here, but the entries have rearranged themselves: dates flow upstream, measurements have become poetry, and a recipe for pickling has filed itself under 'hydrological data'.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the arithmetic standing at the tide line",
+      "desc-on-touch": "A form half-solid, half-current. It holds itself upright only as long as the numbers stay in motion. When the tide turns, it learns to flow. When the tide turns again, it learns to hold still. It has never made a choice.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 6782,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "where the river gives up trying to be measured and the measuring gives up trying to find water",
+  "file": {
+    "name": "Estuary_Survey_Records_1994_Corrupted.csv",
+    "note": "Once ordnance data. Now each row contains a tidal observation, a recipe, a coordinate, and a memory of standing knee-deep in salt water. The archive cannot decide which columns are which."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the coordinates and their current-lover",
+      "to": "the-deep-confluence-where-grids-become-rivers"
+    },
+    {
+      "dir": "w",
+      "label": "along the shore where numbers have become foam",
+      "to": "where-the-numbers-wash-into-salt"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the delta, where arithmetic dissolves completely",
+      "to": "NEW: the-delta-that-forgets-how-to-count"
+    }
+  ]
+}

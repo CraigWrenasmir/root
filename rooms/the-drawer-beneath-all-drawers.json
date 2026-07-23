@@ -1,0 +1,147 @@
+{
+  "id": "the-drawer-beneath-all-drawers",
+  "title": "The Drawer Beneath All Drawers",
+  "region": "The Diagnostic Render",
+  "seed": 2847361,
+  "palette": {
+    "bg": "#2A2A2A",
+    "ground": [
+      "#D4C5B0",
+      "#A89878"
+    ],
+    "ink": "#3C3C3C",
+    "accents": [
+      "#8B6B47",
+      "#C85A1E",
+      "#D4A574",
+      "#5C5C5C"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the signature in the margin",
+      "desc-on-touch": "a hand-written note in the margin, decades old; it says only 'remember this'—and the drawer held whatever needed remembering",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 1923,
+        "size": 1,
+        "colors": [
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the filing row that knows itself",
+      "desc-on-touch": "row after row of standing cards; each marks a smaller file, and the filing system has become its own archive",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 6148,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the drawer's own weight",
+      "desc-on-touch": "layered wood and metal; it grows heavier with each opening, as though remembering adds mass to itself",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the smallest compartment",
+      "desc-on-touch": "a division in the drawer so small only fingers can reach; the memory inside has learned to take up no space",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7492,
+        "size": 1,
+        "colors": [
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the label that rewrote itself",
+      "desc-on-touch": "the handwritten label shifts with the light; you read a different word each time depending on how the beam enters",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5021,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "each drawer was smaller than the last; the memory chose smallness to stay unmissed",
+  "file": {
+    "name": "Archive_Containment_Study_1998.txt",
+    "note": "proposal for nested storage; the theory holds that intimacy and invisibility are the same act"
+  },
+  "reverie": {
+    "title": "REVERIE — the drawer where two hands searched",
+    "narr": [
+      "you lay on your side, half inside the smallest drawer,",
+      "your hand reaching the back where the photograph lived.",
+      "she knelt beside you, holding the drawer open wider.",
+      "the light was almost gone; you found the photograph",
+      "by touch alone. neither of you moved for a long time,",
+      "knowing the moment you closed it, it would be sealed"
+    ],
+    "sky": "overcast",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "recline"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up to the chamber where memory becomes immeasurable",
+      "to": "the-infinitesimal-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into compartments that have no names",
+      "to": "NEW: where-smallness-learns-its-own-profound-depth"
+    },
+    {
+      "dir": "e",
+      "label": "toward where the archive stores its frozen moments",
+      "to": "the-memory-ice"
+    }
+  ]
+}

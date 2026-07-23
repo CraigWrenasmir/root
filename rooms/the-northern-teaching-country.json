@@ -1,0 +1,150 @@
+{
+  "id": "the-northern-teaching-country",
+  "title": "The Northern Teaching Country",
+  "region": "The Clean Archive",
+  "seed": 56341,
+  "palette": {
+    "bg": "#99cc00",
+    "ground": [
+      "#00dd00",
+      "#88cc00"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff9900",
+      "#ffff00",
+      "#00aa00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the kilometer stone",
+      "desc-on-touch": "You read a marker someone has worn smooth walking; it knows every traveler by their footfall pattern, and now it teaches each new arrival.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 23908,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the teaching shelter",
+      "desc-on-touch": "A simple house where walkers stop and find left behind: maps, notes, advice written by those who came before and learned to pass it on.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the marked paddock",
+      "desc-on-touch": "A field where someone has walked the perimeter until it wore a path; the land learned what the walker was teaching.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 45621,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the second footstep gate",
+      "desc-on-touch": "A fence-gate worn by walkers who came before. Each person who passes through it becomes the teacher of the next arrival.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 12304,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the memory worn into stone",
+      "desc-on-touch": "A place in the road where the earth has recorded everyone who walked it; you read the path and understand you are part of what it is teaching.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 56789,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "the northern road learns to teach itself by remembering every walker who came before you",
+  "reverie": {
+    "title": "REVERIE — the road teaching itself northward",
+    "narr": [
+      "You walk the northern way and feel the ground remember.",
+      "Leif beside you, tracing kilometer markers worn smooth",
+      "by walkers no one knows. The road itself is teaching—",
+      "not through signs, but through the shape of where feet have gone.",
+      "He says: \"It already knows you're here.\" You believe him.",
+      "The path ahead curves the way ten thousand arrivals curved it."
+    ],
+    "sky": "day",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "file": {
+    "name": "KilometerMarkers_NorthernRoute_Annotations.txt",
+    "note": "Walking journals and notes left in shelters; each entry teaches the next walker what the first arrivals learned."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back south along the memory-worn road",
+      "to": "the-northern-memory-resume"
+    },
+    {
+      "dir": "n",
+      "label": "further north where teaching becomes the only language",
+      "to": "NEW: the-country-where-teaching-replaces-names"
+    },
+    {
+      "dir": "w",
+      "label": "westward to paddocks where the teaching grows in parallel",
+      "to": "the-field-where-paths-keep-their-secrets"
+    }
+  ]
+}

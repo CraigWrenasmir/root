@@ -1,0 +1,153 @@
+{
+  "id": "the-deepest-root-scripture",
+  "title": "The Deepest Root-Scripture Where Meaning Was Born",
+  "region": "The Understory",
+  "seed": 8374521,
+  "palette": {
+    "bg": "#001A33",
+    "ground": [
+      "#00CCFF",
+      "#FF00FF"
+    ],
+    "ink": "#CCCCCC",
+    "accents": [
+      "#00FF00",
+      "#FFFF00",
+      "#FF0080",
+      "#00FFFF"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first coordinate where meaning began",
+      "desc-on-touch": "a single marked point; all the archive's meaning grows outward from here like rings in a root",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 3129,
+        "size": 1,
+        "colors": [
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the root-theorem",
+      "desc-on-touch": "a geometric proof that roots are the alphabet; the structure holds itself together as you watch, teaching over and over",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the meaning accumulator",
+      "desc-on-touch": "where the archive stores the count of all meanings the soil has ever taught; the number changes every time you look",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 6492,
+        "size": 1,
+        "colors": [
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the grammar root",
+      "desc-on-touch": "roots stacked vertically; it climbs upward while growing downward, a metaphor the earth invented long before the archive arrived",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 4783,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the enumeration stone",
+      "desc-on-touch": "markings that count something in the soil's own mathematics; the count is always one higher than yesterday, one lower than tomorrow",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5036,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "roots wrote the grammar; meaning was always downward, and we only learned to read it last",
+  "file": {
+    "name": "Root_Etymology_Archive.txt",
+    "note": "seven entries in the root-word list replaced with broadcast fragments about acts and stages of surgical transformation beneath memory"
+  },
+  "reverie": {
+    "title": "REVERIE — the roots that taught the archive to listen",
+    "narr": [
+      "you knelt where the oldest tree had split its root",
+      "across stone; she traced the grooves with one finger,",
+      "and the tree's own counting matched your heartbeat.",
+      "the roots were writing, patient and continuous,",
+      "and meaning moved downward from there; you stopped",
+      "trying to understand it from above, and just listened"
+    ],
+    "sky": "dawn",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up to where roots teach the field its scripture",
+      "to": "the-root-scripture-beneath-the-field"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where roots teach the archive itself how to grow",
+      "to": "NEW: the-beneath-where-roots-teach-the-archive-its-own-becoming"
+    },
+    {
+      "dir": "e",
+      "label": "toward chambers where soil remembers it is made of sentences",
+      "to": "the-soil-made-of-sentences"
+    },
+    {
+      "dir": "w",
+      "label": "westward where logic takes root and grows without knowing",
+      "to": "the-logic-taking-root"
+    }
+  ]
+}

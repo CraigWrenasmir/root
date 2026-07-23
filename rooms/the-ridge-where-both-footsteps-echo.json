@@ -106,12 +106,12 @@
     {
       "dir": "n",
       "label": "upward into the mist where both choices merge into fog",
-      "to": "NEW: the-summit-where-paths-become-weather"
+      "to": "the-summit-where-paths-become-weather"
     },
     {
       "dir": "e",
       "label": "toward the version where you took the other route",
-      "to": "NEW: the-ridge-of-the-road-not-travelled"
+      "to": "the-ridge-of-the-road-not-travelled"
     },
     {
       "dir": "w",

@@ -1,0 +1,150 @@
+{
+  "id": "the-summit-where-paths-become-weather",
+  "title": "The Summit Where Paths Become Weather",
+  "region": "The Clean Archive",
+  "seed": 48762,
+  "palette": {
+    "bg": "#ccaa77",
+    "ground": [
+      "#cc9966",
+      "#ffcc66"
+    ],
+    "ink": "#001133",
+    "accents": [
+      "#3366ff",
+      "#0099ff",
+      "#ffcc33",
+      "#66dd00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the fork where choices merge",
+      "desc-on-touch": "You stand at the precise point where the two possible paths converge into fog and become one; you read the moment before certainty.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 23987,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the sky-cloud pool",
+      "desc-on-touch": "A depression at the summit that holds water only on certain days; when full, it reflects a sky that doesn't quite match the one overhead.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 34561,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the monument to both footsteps",
+      "desc-on-touch": "A stone stack worn by countless hikers; each climber has added to it without knowing it marks the place where all choices become weather.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 45827,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the mist-glyph",
+      "desc-on-touch": "A carved marker that reads differently depending on the fog; clear days show one meaning, overcast days show another, rainy days show nothing at all.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 52198,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the horizon-edge",
+      "desc-on-touch": "Where land curves away and becomes sky; you can see both valleys below and understand why the choice mattered and why it doesn't.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 18743,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "where both paths rise to meet the same weather, and the choice becomes the cloud that holds them both",
+  "reverie": {
+    "title": "REVERIE — the summit where you become the weather",
+    "narr": [
+      "You stand here with Leif at the top where the two",
+      "paths finally meet. The air is full of tiny drift,",
+      "dust or cloud or light—you can't tell anymore.",
+      "He's looking down at both valleys at once.",
+      "\"This is the choice becoming real,\" he says.",
+      "Below, the fog rises. You've become part of the answer."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "SummitLog_BothChoices_DayByDay_1998-2004.mp3",
+    "note": "Field recordings from the ridge's summit: hikers' voices arriving, the moment they realize both paths converge here, the sound of choices becoming silence."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the ridge where both footsteps still echo separately",
+      "to": "the-ridge-where-both-footsteps-echo"
+    },
+    {
+      "dir": "n",
+      "label": "onward into the mist where paths dissolve into weather",
+      "to": "NEW: the-country-beyond-the-summit-where-paths-forget-themselves"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the paddock far below where both choices still have shape",
+      "to": "the-field-where-choices-have-footsteps"
+    }
+  ]
+}

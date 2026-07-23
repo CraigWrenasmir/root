@@ -1,0 +1,132 @@
+{
+  "id": "the-ridge-where-singing-becomes-silence",
+  "title": "The Ridge Where Singing Becomes Silence",
+  "region": "The Understory",
+  "seed": 7492518,
+  "palette": {
+    "bg": "#2C1A3C",
+    "ground": [
+      "#6B5B7B",
+      "#4A6B7B"
+    ],
+    "ink": "#E0D5E8",
+    "accents": [
+      "#D9A042",
+      "#C8E6C9",
+      "#FFD4A8",
+      "#7B5CB8"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the wind-bell that forgot to ring",
+      "desc-on-touch": "you touch where the bell once hung; the wind still moves, but the clapper is gone—or maybe it learned to move without sound",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 2149,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the stone marker",
+      "desc-on-touch": "a carved mark in stone; the ridge marks its own boundary with something older than language",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5847,
+        "size": 1,
+        "colors": [
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the shepherd's refuge",
+      "desc-on-touch": "a small stone shelter where someone sheltered long ago; the walls hold the shape of silence waiting",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 3621,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the step-worn path",
+      "desc-on-touch": "the ridge remembers where feet stopped listening; each step marked a moment when the singing lost its listener",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4356,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the listening stone",
+      "desc-on-touch": "a depression in the ridge where water gathers after rain; it was hollowed by listening, and now it reflects only sky",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8721,
+        "size": 1,
+        "colors": [
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the singing stopped; the ridge now teaches silence to anyone who still listens",
+  "file": {
+    "name": "Singing_Path_Terminus_Recordings.mp3",
+    "note": "field recordings of the ridge at sunset, where the path's song dissolves into wind-sound and eventual stillness"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward where the singing still echoes",
+      "to": "the-singing-path"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where silence becomes its own kind of ground",
+      "to": "NEW: the-stilled-place-where-silence-becomes-its-own-grammar"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the wind has learned to speak for the voices",
+      "to": "the-wind-and-grass-circuit"
+    }
+  ]
+}

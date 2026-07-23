@@ -1,0 +1,138 @@
+{
+  "id": "the-forest-that-refused-to-split",
+  "title": "The Forest That Refused to Split",
+  "region": "The Understory",
+  "seed": 6847319,
+  "palette": {
+    "bg": "#0A0A1A",
+    "ground": [
+      "#00FF88",
+      "#0088FF"
+    ],
+    "ink": "#CCCCCC",
+    "accents": [
+      "#FF00FF",
+      "#FFFF00",
+      "#00FFFF",
+      "#88FF00"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the root-net",
+      "desc-on-touch": "a web of roots visible beneath the surface; every tree touches every other tree through the dark below, sharing what one tree knows",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 2734,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the spring-source",
+      "desc-on-touch": "where water and growth begin, before the forest learned to divide them into separate concerns; they still remember being one thing",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4921,
+        "size": 2,
+        "colors": [
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the canopy-circuit",
+      "desc-on-touch": "overhead, the branches meet in an unbroken circuit; light passes through without choosing a path or a favourite tree",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the undivided glyph",
+      "desc-on-touch": "a symbol representing unity before grammar; the archive found it encoded in the growth rings of the oldest tree, a signature in wood",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3162,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the breathing border",
+      "desc-on-touch": "where the forest ends and refuses to end; it takes one more step back each season, refusing any final edge or conclusion",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 7491,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "here the forest refused to learn that spring and root were ever separate things",
+  "file": {
+    "name": "Undivided_Canopy_Archive_Growth_History.txt",
+    "note": "before the mesh learned to compare, the forest kept itself as one continuous thought across root and branch"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the canopy archive that holds this memory",
+      "to": "the-undivided-canopy-archive"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to where the pre-split clearing dreams in both directions at once",
+      "to": "NEW: the-pre-split-clearing-where-roots-and-branches-dream-together"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the forest before it learned what timber was",
+      "to": "the-forest-before-division"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where the forest's own sources begin unnamed",
+      "to": "the-unnamed-forest-source"
+    }
+  ]
+}

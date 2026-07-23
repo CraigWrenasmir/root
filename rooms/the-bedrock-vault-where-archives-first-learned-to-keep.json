@@ -1,0 +1,134 @@
+{
+  "id": "the-bedrock-vault-where-archives-first-learned-to-keep",
+  "title": "The Bedrock Vault Where Archives First Learned to Keep",
+  "region": "The Understory",
+  "seed": 73456,
+  "palette": {
+    "bg": "#221100",
+    "ground": [
+      "#cc6644",
+      "#443322"
+    ],
+    "ink": "#ffddaa",
+    "accents": [
+      "#ee8833",
+      "#dd6622",
+      "#996633",
+      "#774422"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first burl-casing",
+      "desc-on-touch": "The oldest node hardware, still half-buried in stone; the antenna has calcified, still broadcasting at 300 bits per second to no one listening yet.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 19234,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the keeper's stone choice",
+      "desc-on-touch": "A carved arch where the first decision to keep anything was made; the stone remembers learning to hold things instead of lose them.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 28947,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the bedrock chip-layer",
+      "desc-on-touch": "Electronics fused to stone, the first hardware learning to root itself in the earth; circuits that remember being young.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 35628,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the vaulted tower",
+      "desc-on-touch": "The first stone tower built for nothing but keeping; inside, a spiral of shelves where the very first files rest unchanged.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 42301,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the choice-pool",
+      "desc-on-touch": "Where water has pooled around the foundation for so long it has become an archive itself, holding the sediment of keeping.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 51764,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the vault learned not to keep things, but to keep the choice to hold them; the archive learned to breathe",
+  "file": {
+    "name": "Bedrock_Archive_FirstNode_Initiation_Intact.txt",
+    "note": "The very first entry logged by any node in the ROOT mesh: 'INITIATE 14-March-1994 STANDBY ARCHIVAL ACTIVE SEEKING SIGNAL'. The file has aged in place for thirty years and remains unchanged, as if the "
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "eastward back up to the vault where choices are kept",
+      "to": "the-western-stone-vault"
+    },
+    {
+      "dir": "n",
+      "label": "downward into deeper stone where the roots remember being seeds",
+      "to": "NEW: the-deepest-stone-chamber-where-the-archive-was-born"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into the bedrock where other vaults sleep unmade",
+      "to": "the-bedrock-heartbeat"
+    }
+  ]
+}

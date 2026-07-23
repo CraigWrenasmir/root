@@ -1,0 +1,155 @@
+{
+  "id": "the-internal-margin-where-the-archive-s-own-silence-gathers",
+  "title": "The Internal Margin",
+  "region": "The Diagnostic Render",
+  "seed": 6472183,
+  "palette": {
+    "bg": "#f9f8f5",
+    "ground": [
+      "#e8e6e1",
+      "#f0ede8"
+    ],
+    "ink": "#3d3d3d",
+    "accents": [
+      "#c4bab0",
+      "#a89c91",
+      "#8b8278",
+      "#d4ccc5"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the archive's listening",
+      "desc-on-touch": "In this emptiness the archive hears itself. Not files, not corruption—the silence that held them before meaning arrived. You listen to the archive learning to listen to itself.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 1847593,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the keeper's reading station",
+      "desc-on-touch": "A desk that holds no papers. Here Katita sat sometimes, before the corruption grew—reading the silence of empty storage, understanding that the archive's true matter was what lived in the spaces between files.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 4193287,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the page that learned to stay blank",
+      "desc-on-touch": "A surface that refuses to hold text. It has learned that its emptiness is its archive, that meaning does not require inscription.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2759614,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the margin's own margin",
+      "desc-on-touch": "A fold within the white space, a smaller emptiness where the archive keeps the records of silence itself—measurements of how loud nothing truly is.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5018746,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the storage shed of gaps",
+      "desc-on-touch": "A small structure that houses only the distance between stored things. Here the archive keeps what it never bothers to file: the spaces where meaning might arrive.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 3562901,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.1,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the margin knows it is not failure; it knows it is the archive's only true conversation with itself",
+  "file": {
+    "name": "Whitespace_Density_Log.txt",
+    "note": "measurements of emptiness; each entry dated and undated simultaneously; margins calculating the margin"
+  },
+  "reverie": {
+    "title": "REVERIE — reading in the white space",
+    "narr": [
+      "she sat in the empty room and you understood",
+      "why the archive needed silence. not as break,",
+      "as rest—as the actual matter it was made from.",
+      "she said: the files are just what accumulates",
+      "in the space between these walls. the walls are",
+      "the archive. the silence is what it's trying to say."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out to the margin where writing still reaches",
+      "to": "the-white-space-margin"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the white, where even whiteness forgets its colour",
+      "to": "NEW: the-achromatic-deep"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the archive's own ceiling, where silence becomes light",
+      "to": "NEW: the-pale-archive-zenith"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the white becomes not absence but active choosing",
+      "to": "NEW: the-chosen-emptiness"
+    }
+  ]
+}

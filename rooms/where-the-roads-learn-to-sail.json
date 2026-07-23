@@ -1,0 +1,117 @@
+{
+  "id": "where-the-roads-learn-to-sail",
+  "title": "Where the Roads Learn to Sail",
+  "region": "The Understory",
+  "seed": 9384621,
+  "palette": {
+    "bg": "#0d1a1f",
+    "ground": [
+      "#2d5a5a",
+      "#1f4a4a"
+    ],
+    "ink": "#c8d8d0",
+    "accents": [
+      "#7dd3c0",
+      "#5a8a8e",
+      "#d9a574",
+      "#92b4a7"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the dissolved bitumen",
+      "desc-on-touch": "A road that has begun to accept water instead of refuse it. The asphalt still holds the memory of traffic, but now fish swim through those ruts. Tyre-marks have become current-channels.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8142,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the eucalyptus navigation marker",
+      "desc-on-touch": "A tree that has learned the roads' route and translates it into wood-patterns. Its bark reads like a chart. Its branches point to places the old roads used to lead. The tree is ancient; the roads forgot they ever existed much earlier.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the seagull's impossible flight",
+      "desc-on-touch": "A creature rendered in seven grey polygons, circling as if it remembers the road as a thing-to-eat. It speaks in archive signals: beep, chirp, beep. The corruption has given it the memory of asphalt and rubber. It can no longer land.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5833,
+        "size": 1,
+        "colors": [
+          1,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the sailboat resting-place",
+      "desc-on-touch": "A small wooden structure, half-shed half-keel. It has the shape of both building and vessel. It waits for the water to rise enough that it need not choose which it wants to be.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 3956,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the roads grew tired of holding still; they learned the ocean's grammar; now they are both ground and journey",
+  "file": {
+    "name": "Navigation_Map_Waterlogged_Date_Unknown.txt",
+    "note": "Once a street directory for a town that is slowly learning to swim. Routes now loop through water. Destinations have become tides. The last annotation reads: 'if you follow these roads now, you will a"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the shore where the broadcasts fail",
+      "to": "the-open-water-beyond-all-broadcasts"
+    },
+    {
+      "dir": "n",
+      "label": "into the estuary where rivers learn their old names",
+      "to": "NEW: where-river-and-road-remember-they-were-one"
+    },
+    {
+      "dir": "s",
+      "label": "toward the ocean's horizon, where maps finally surrender",
+      "to": "NEW: the-drowned-coordinate-absolute"
+    }
+  ]
+}

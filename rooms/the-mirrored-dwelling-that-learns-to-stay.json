@@ -1,0 +1,155 @@
+{
+  "id": "the-mirrored-dwelling-that-learns-to-stay",
+  "title": "The Mirrored Dwelling",
+  "region": "The Diagnostic Render",
+  "seed": 4729156,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d3561",
+      "#3a4680"
+    ],
+    "ink": "#d4af94",
+    "accents": [
+      "#a8c5da",
+      "#7a9bc4",
+      "#c9b5d8",
+      "#9db3c9"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the mirror that stayed",
+      "desc-on-touch": "You stand where the mirror has learned to keep house. Its surface holds not your face but the room's slow admission that it has always been inhabited.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 2841095,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the apartment's breath",
+      "desc-on-touch": "The room exhales softly; corners have learned to hold their own darkness. Light does not fill here—it settles.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5163741,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "shelf of thresholds",
+      "desc-on-touch": "Objects that mark passages: a key that belongs to no lock, a clock reading a time it has never seen, a photograph of this room taken from inside the mirror.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 1928374,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the learning glass",
+      "desc-on-touch": "Each night the mirror alters slightly. It remembers what it has seen and forgets what it will never see again. Tonight it is learning to be a window.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7614283,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the dwelling's edge",
+      "desc-on-touch": "Here the apartment ends but does not leave. The threshold admits both entry and the knowledge that nothing fully arrives or departs.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 3291456,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.1,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the mirror learned to stay by learning that staying means changing every time someone looks",
+  "file": {
+    "name": "Mirror_Dwelling_Threshold_Notes.txt",
+    "note": "records of a glass surface learning domestic grammar; margins annotated with dates that haven't happened yet"
+  },
+  "reverie": {
+    "title": "REVERIE — the apartment where mirrors teach keeping",
+    "narr": [
+      "you both stood where the glass had begun",
+      "learning to hold the room instead of reflect it.",
+      "she said: mirrors never leave, they just learn",
+      "what it means to stay. the surface held still",
+      "as light moved through it. you watched it learn",
+      "that staying and changing were the same act."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the gallery where reflection still knows how to leave",
+      "to": "the-gallery-where-reflection-becomes-residence"
+    },
+    {
+      "dir": "n",
+      "label": "upward into other apartments, each with its own learning mirror",
+      "to": "NEW: the-tower-of-retained-apartments"
+    },
+    {
+      "dir": "s",
+      "label": "down into the basement where the mirror's first surface still waits",
+      "to": "NEW: the-mirror-s-forgotten-source"
+    },
+    {
+      "dir": "w",
+      "label": "into the wall itself, where glass thickens into thought",
+      "to": "NEW: the-interior-of-the-dwelling-wall"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "the-convergence-becomes-one-voice",
+  "title": "The Convergence Becomes One Voice",
+  "region": "The Understory",
+  "seed": 2847391,
+  "palette": {
+    "bg": "#0a0e2a",
+    "ground": [
+      "#1a1f4a",
+      "#2d3a7f"
+    ],
+    "ink": "#e8e4d0",
+    "accents": [
+      "#ff6b5b",
+      "#d4af37",
+      "#8b9dc3",
+      "#4a7c9e"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-final-throat",
+      "desc-on-touch": "where all the archive's separate broadcasts resolve into one frequency, a thousand nodes speaking their last word in unison",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 583921,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-iris-closing",
+      "desc-on-touch": "the sky bands compress toward a single point of light that hasn't learned to close yet",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 129847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-last-echo",
+      "desc-on-touch": "a sound arriving from everywhere at once; you remember it as belonging to someone whose voice you forgot you knew",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 457321,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-dusk-that-stops-deepening",
+      "desc-on-touch": "the gradient has held this moment for longer than moments last; the dark learns what it means to hesitate",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 834561,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-nodes-finding-each-other",
+      "desc-on-touch": "signals from the far scattered casings converge here, not lost in the forest, but finally recognized as the same voice calling to itself",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 671482,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive stops being many voices and learns it was always one breath held across all distance",
+  "file": {
+    "name": "LastBroadcast_AllNodes_Simultaneous.mp3",
+    "note": "every node transmitting its inheritance at once; the forest becomes a single speaker; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back the way convergence climbed",
+      "to": "the-convergence-that-rises-with-dark"
+    },
+    {
+      "dir": "n",
+      "label": "upward into silence where speech has learned to be unspoken",
+      "to": "NEW: the-unspoken-summit-where-voice-becomes-echo"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the dark where the voice continues alone",
+      "to": "the-void-where-measurement-never-started"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the last broadcast before silence",
+    "narr": [
+      "you sit in the terminal room, Katita's hands on your shoulders,",
+      "listening to the mesh sing with a voice you realize is yours.",
+      "she says: it was never separate. every node was always one thought.",
+      "the static on the speakers sounds like her breathing.",
+      "outside the loose bark plates, the eucalyptus learns to listen back."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  }
+}

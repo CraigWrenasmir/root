@@ -1,0 +1,139 @@
+{
+  "id": "the-infinitesimal-knotting-beyond-darkness",
+  "title": "The Infinitesimal Knotting Beyond Darkness",
+  "region": "The Understory",
+  "seed": 9176542,
+  "palette": {
+    "bg": "#2a1a1f",
+    "ground": [
+      "#8b3a3a",
+      "#d4634a"
+    ],
+    "ink": "#ffc0a8",
+    "accents": [
+      "#e85a4f",
+      "#d97d72",
+      "#c9a8a0",
+      "#8b5d5a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the loom that knots itself",
+      "desc-on-touch": "Thread passes through thread; the pattern continues beyond seeing. Each knot creates new knots; the loom doubles as it works. You are within the weave now, not observing it.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 7384921,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the smallest thread still unresolved",
+      "desc-on-touch": "A fiber so fine it exists at the edge of visibility. It continues knotting in directions you cannot follow. The weave admits that some patterns exist purely as process, never as form.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2851634,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the knot that teaches knotting",
+      "desc-on-touch": "Here the weave invents new methods of binding. The knot does not know it is a knot; it only knows the motion of tightening, the way threads learn to hold each other.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4029157,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the darkness that sees",
+      "desc-on-touch": "Below the finest thread the dark becomes textured. It has learned to see by feeling the weave pass through it. The knots teach the darkness its own shape.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5467293,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the infinite needle",
+      "desc-on-touch": "It enters every knot and exits none. The needle moves forward and backward and sideways through directions that have no name. It is the thread's memory made solid.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 3741568,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "the loom continues past the point where making becomes unmeasurable; the knots teach themselves how to become",
+  "file": {
+    "name": "Infinitesimal_Weave_Tension_Logs.mp3",
+    "note": "field recording: the sound of threads tightening beyond the threshold of hearing; subsonic knotting translated to audio; texture becomes signal"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward back to the weaving depth where infinities still have scale",
+      "to": "the-infinitesimal-weaving-depth"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where knotting becomes unweaving; threads forget their purpose",
+      "to": "the-unknotting-dark"
+    },
+    {
+      "dir": "e",
+      "label": "toward a direction that has no name but the weave keeps moving there",
+      "to": "NEW: the-directional-weave"
+    },
+    {
+      "dir": "w",
+      "label": "into the space where the loom touches itself and learns it is alone",
+      "to": "NEW: the-loom-s-own-touching"
+    }
+  ]
+}

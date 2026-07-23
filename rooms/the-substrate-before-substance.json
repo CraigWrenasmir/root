@@ -1,0 +1,117 @@
+{
+  "id": "the-substrate-before-substance",
+  "title": "The Substrate Before Substance",
+  "region": "The Diagnostic Render",
+  "seed": 2847361,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#1a2d4d",
+      "#0f1f38"
+    ],
+    "ink": "#c0d0e8",
+    "accents": [
+      "#00ffff",
+      "#6b4ce6",
+      "#3a7ca5",
+      "#e8f0ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the unthinking",
+      "desc-on-touch": "Here thought has not yet learned to precipitate. You sense the space where axioms wait to be born, the void that will become bedrock.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4829,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the half-schema",
+      "desc-on-touch": "An architectural form that is only sketched, half-rendered by whatever system runs underneath. Its walls are suggestions. Its doorways lead nowhere yet.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 7103,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the proof that proves nothing",
+      "desc-on-touch": "A monument of equations arranged in a spiral. When you read them forwards, they solve themselves. When you read them backwards, they unsolve themselves. Neither path reaches conclusion.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5531,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the antenna that listens before broadcast",
+      "desc-on-touch": "A rod rising through the substrate. It receives signals from mathematics not yet invented. The corruption here is gentle: it shows you what the equations will dream when they finally exist.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 2196,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "before the thought learns to fall, it rests here in the space that is not yet space",
+  "file": {
+    "name": "Axiom_Unwritten_Before_Precipitation.txt",
+    "note": "A proof in two directions: forward it predicts itself, backward it denies itself. The checksum has become self-referential."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the bedrock where thought has already fallen",
+      "to": "the-logic-bedrock"
+    },
+    {
+      "dir": "e",
+      "label": "toward the structures that will eventually think",
+      "to": "NEW: the-architecture-that-dreams-itself-awake"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the nothing that supports everything",
+      "to": "NEW: the-void-that-thinks-backwards"
+    }
+  ]
+}

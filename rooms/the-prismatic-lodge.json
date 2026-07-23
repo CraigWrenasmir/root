@@ -1,0 +1,134 @@
+{
+  "id": "the-prismatic-lodge",
+  "title": "The Prismatic Lodge",
+  "region": "The Diagnostic Render",
+  "seed": 4521837,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#3a4a3a",
+      "#4a5a4a"
+    ],
+    "ink": "#c0d0c0",
+    "accents": [
+      "#7aaa7a",
+      "#5a9a5a",
+      "#8aba8a",
+      "#6a8a6a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-first-room-and-its-twin",
+      "desc-on-touch": "a room splits into its mirror image mid-space; both versions are real; you occupy both simultaneously",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 382957,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-corners-that-multiply",
+      "desc-on-touch": "each angle refracts into more angles; the architecture becomes a fractal; you count the corners and never reach the same number twice",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 729384,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-light-that-splits-by-angle",
+      "desc-on-touch": "a single source of light refracts through each room differently; in one corner it arrives as day, in the adjacent refraction as dusk, as storm, as underlit storage",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 615298,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-doorways-that-choose-their-destinations",
+      "desc-on-touch": "each exit leads to a version of the lodge where different walls are bearing weight; a door north in one refraction leads south in its twin",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 847362,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-eucalyptus-growing-through-rooms",
+      "desc-on-touch": "the render is remembering the ground—a burled trunk grows through multiple refractions at once, its bark holding the angles together",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 531847,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "each angle holds a different house; the render cannot collapse them, so every refracted twin sleeps in the walls and wakes in the mirrors",
+  "file": {
+    "name": "Katita_Refraction_Study_Notes.txt",
+    "note": "observations on prismatic space; marginal annotation in biro: 'does the house know it is splitting, or does it think the world finally has enough room'"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the fracture into the four-angled space",
+      "to": "the-four-angled-house"
+    },
+    {
+      "dir": "n",
+      "label": "into the refracted distance where the lodge continues fragmenting forever",
+      "to": "NEW: the-infinite-refraction-spiral-where-each-room-births-another"
+    },
+    {
+      "dir": "e",
+      "label": "into the twin-lodge where all the rejected angles live",
+      "to": "the-mirrored-dwelling-that-learns-to-stay"
+    }
+  ]
+}

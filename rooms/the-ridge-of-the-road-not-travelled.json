@@ -1,0 +1,132 @@
+{
+  "id": "the-ridge-of-the-road-not-travelled",
+  "title": "The Ridge of the Road Not Travelled",
+  "region": "The Clean Archive",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#2a1f0f",
+    "ground": [
+      "#7a6b3d",
+      "#5a4d2f"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#c4a574",
+      "#8b5a3c",
+      "#6b8e4a",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the mirror-footprint",
+      "desc-on-touch": "A place in the earth where two versions of your step have worn a groove. One is deep—the path you took. One is shadow-thin—the path you didn't. They diverge here, but they echo each other.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the fence-line that splits the choice",
+      "desc-on-touch": "A hedge of repeated fence-posts, each one marking a moment of decision. Left posts mark the life you lived. Right posts mark the life you didn't. The hedge itself doesn't know which side it belongs to.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5214,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the orchard of parallel versions",
+      "desc-on-touch": "Trees arranged in rows. Each row grows the same fruit—apples, or memory, or possibility. The trees in the left rows are taller (you chose this way). The right rows are the same height but untouched (you chose differently). Both orchards are equally real.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7139,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the watching shelter",
+      "desc-on-touch": "A small shade-house where someone has sat and watched both paths. The logbook inside records observations from both timelines: rain on both days, the same bird singing, two different people arriving at sunset. The handwriting is the same person, writing with both hands.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 4873,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the unchosen path grows just as deep; the ridge remembers choosing for you before you chose",
+  "file": {
+    "name": "Dual_Route_Analysis_Both_Taken_Simultaneously.txt",
+    "note": "A walking journal kept by someone who walked both roads at once. Each day's entry splits in two. The observations converge and diverge. By the end, the writer can't remember which life is the memory a"
+  },
+  "reverie": {
+    "title": "REVERIE — the ridge where leif stood looking both ways",
+    "narr": [
+      "katita walks ahead, already committed to the left turn.",
+      "but leif, bandaged-eyed, hears both paths breathing.",
+      "in the left path: cicadas. in the right path: cicadas.",
+      "\"which road did you take?\" he asks when she returns.",
+      "\"the one where you eventually found me,\" she says."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the ridge where both choices echo",
+      "to": "the-ridge-where-both-footsteps-echo"
+    },
+    {
+      "dir": "e",
+      "label": "along the taken path, deeper into your actual choice",
+      "to": "NEW: where-the-chosen-path-learns-it-was-always-the-same"
+    },
+    {
+      "dir": "s",
+      "label": "to the junction where both roads remember they used to be one",
+      "to": "NEW: the-merger-before-the-fork"
+    }
+  ]
+}

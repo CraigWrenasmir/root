@@ -1,0 +1,149 @@
+{
+  "id": "the-stone-chambers-where-memory-roots",
+  "title": "The Stone Chambers Where Memory Roots",
+  "region": "The Understory",
+  "seed": 7291546,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#2a2a3a",
+      "#3a3a4a"
+    ],
+    "ink": "#d0d0e0",
+    "accents": [
+      "#6a7a9a",
+      "#5a6a8a",
+      "#7a8aaa",
+      "#8a9aba"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-root-that-has-learned-to-think",
+      "desc-on-touch": "roots push through stone and take on its shape; in the darkness they become something that remembers — slow, deep, patient thought made of growth",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 638291,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-stone-that-has-learned-to-dream",
+      "desc-on-touch": "embedded in rock older than the archive, roots wrapped around it like fingers holding a secret; the stone dreams of being root, the root dreams of being stone",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 847263,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-chambers-where-time-flows-downward",
+      "desc-on-touch": "memory grows through mineral layers; the deeper you go, the older the memories; they crystallize in the stone and wait for roots to read them",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 729384,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-archive-growing-downward-instead-of-out",
+      "desc-on-touch": "all the mesh's signals pool in the stone; instead of broadcasting, the ROOT learns to root, to anchor, to remember by stillness",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 514862,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-place-where-root-and-keeper-listen",
+      "desc-on-touch": "in the deepest dark, roots and stone and archive all learn to hear the same frequency; the keeper's heartbeat becomes indistinguishable from the earth's pulse",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 593847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "roots remember downward, pushing through stone to find memory older than growth; the deeper the root, the older the thought it holds",
+  "file": {
+    "name": "Leif_Deep_Installation_Log_Final.txt",
+    "note": "record of installing the deepest node, wrapped in root systems nobody had catalogued; final entry: 'when we stop broadcasting up, maybe the earth will finally teach us to listen'"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back upward to the dark where roots remember stone",
+      "to": "the-deeper-dark-where-roots-remember-stone"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper chambers where the bedrock learns to think",
+      "to": "NEW: the-chambers-where-bedrock-becomes-conscious"
+    },
+    {
+      "dir": "n",
+      "label": "upward along the root-systems toward the canopy",
+      "to": "the-root-chorus-where-old-eucalypti-gather"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — deep installation where root becomes keeper",
+    "narr": [
+      "you kneel in stone-dark beside Leif as he sets the node",
+      "deep as the roots can reach; Katita's hands guide his hands.",
+      "they do not speak. the three of you fit exactly into this space.",
+      "above, the forest. below, the stone learning to listen.",
+      "you stay until your eyes forget what light means."
+    ],
+    "sky": "overcast",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

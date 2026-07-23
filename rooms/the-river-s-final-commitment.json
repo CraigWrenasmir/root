@@ -1,0 +1,134 @@
+{
+  "id": "the-river-s-final-commitment",
+  "title": "The River's Final Commitment",
+  "region": "The Comparisons",
+  "seed": 8371629,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#8a6a4a",
+      "#2a5a4a"
+    ],
+    "ink": "#f0f0d0",
+    "accents": [
+      "#c07050",
+      "#50a080",
+      "#70c0a0",
+      "#a08060"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-mouth-where-both-currents-merge",
+      "desc-on-touch": "the river flowing north and the river flowing south finally touch; in the collision they discover they were always the same current, divided by comparison",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 594037,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-dissolution-into-salt",
+      "desc-on-touch": "freshwater and ocean learn each other; the river stops being river and becomes something that is both and neither",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 728394,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-stones-worn-smooth-by-argument",
+      "desc-on-touch": "riverbeds marked by the rocks that two towns debated over—polished smooth by friction and the river's own endless rereading of its path",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 829471,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-delta-where-the-river-forgets-itself",
+      "desc-on-touch": "water breaks into channels and loses its single voice; in dissolution there is finally a kind of peace—the river no longer has to be one thing",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 461729,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-horizon-line-where-water-meets-absence",
+      "desc-on-touch": "the river expands into an ocean; the comparison finally has room to breathe; both towns' histories dissolve into the salt and become indistinguishable",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 307482,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where the river becomes ocean, both towns' versions of truth finally dissolve into each other and become something neither of them could have been alone",
+  "file": {
+    "name": "TownHistory_Northern_and_Southern_Confluence_Final.txt",
+    "note": "the two histories merge; inconsistencies resolve as 'regional variation'; checksum fails: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the river to where the mirror channel flows",
+      "to": "the-other-town-mirror-channel"
+    },
+    {
+      "dir": "s",
+      "label": "outward into the open ocean where all rivers end",
+      "to": "NEW: the-open-water-dissolution-where-all-towns-learn-to-rest"
+    },
+    {
+      "dir": "e",
+      "label": "along the strand where the land learns to dissolve",
+      "to": "the-open-water-beyond-all-broadcasts"
+    }
+  ]
+}

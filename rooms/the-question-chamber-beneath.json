@@ -1,0 +1,134 @@
+{
+  "id": "the-question-chamber-beneath",
+  "title": "The Question Chamber Beneath",
+  "region": "The Diagnostic Render",
+  "seed": 62845,
+  "palette": {
+    "bg": "#443322",
+    "ground": [
+      "#cc6644",
+      "#669944"
+    ],
+    "ink": "#ffccaa",
+    "accents": [
+      "#dd8855",
+      "#88cc55",
+      "#ff9966",
+      "#99aa33"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the interrogation panel",
+      "desc-on-touch": "You read a wireframe proposition laid out in dialogue: the archive asks itself why it spoke, and the utterance beneath answers itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 35012,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the reply-stack",
+      "desc-on-touch": "Stacked claims that contradict each other; the archive has learned that questions don't need single answers.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 18276,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the axiom-glyph",
+      "desc-on-touch": "A carved question mark deep enough to be readable only by touch: 'What speaks when the archive stops listening to itself?'",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 44589,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the chamber's threshold",
+      "desc-on-touch": "The entrance to this space of inquiry; the arch asks before you enter whether you are ready to find the question you came with.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 29061,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the uncertainty pool",
+      "desc-on-touch": "A pool of light or water in which no reflection holds still; the archive's answer to its own deepest questions.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 51843,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "where the merged utterance becomes a question the archive has not yet learned to ask itself",
+  "file": {
+    "name": "Interrogation_Archive_Asks_Archive_Transcript.txt",
+    "note": "Self-questioning protocols run on the merged utterance layer; the archive examining its own reasons for speaking. Checksums drift with each reading."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back east to the chamber where the utterance still speaks",
+      "to": "the-merged-utterance-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "southward to theory rooms where answers still pretend to hold",
+      "to": "the-theorem-room"
+    },
+    {
+      "dir": "n",
+      "label": "a route the mesh is still growing",
+      "to": "NEW: a node the mesh has not decided on"
+    }
+  ]
+}

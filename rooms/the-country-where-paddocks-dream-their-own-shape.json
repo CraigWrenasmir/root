@@ -1,0 +1,139 @@
+{
+  "id": "the-country-where-paddocks-dream-their-own-shape",
+  "title": "The Country Where Paddocks Dream Their Own Shape",
+  "region": "The Clean Archive",
+  "seed": 8934521,
+  "palette": {
+    "bg": "#f5e6d3",
+    "ground": [
+      "#c4b59a",
+      "#8b9d6b"
+    ],
+    "ink": "#2d3436",
+    "accents": [
+      "#d4a574",
+      "#97b896",
+      "#5a6b4a",
+      "#a8816b"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the shearing shed that dreams",
+      "desc-on-touch": "Timber weathered to silver; inside, the air still holds the sheep's wool-memory. The shed dreams the paddock's shape in its own wood grain, slowly becoming the landscape it tends.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4156789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the unmarked boundary",
+      "desc-on-touch": "Where the paddock ends, no fence remains. The country has learned to hold its own borders in grass memory, in the depth of soil, in the angle of light at dusk.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7283145,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the open well",
+      "desc-on-touch": "Water that has learned to stay still, reflecting not sky but the shape of the paddock it dreams, night after night, until the dream becomes the waking landscape.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 5619234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the settler's house, unmade",
+      "desc-on-touch": "A foundation stone, a chimney breast, the memory of a house that learned to become paddock again. The country took it back slowly, the way a river takes a bank.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 2947561,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the divining rod's resting place",
+      "desc-on-touch": "A crooked stick marking nothing and everything: the spot where someone once tried to read the land, and the land learned to read itself instead.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3814627,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the paddock shapes itself each night; by morning the grass holds a new geometry only dreamers know",
+  "file": {
+    "name": "Paddock_Survey_Unmapped_1994.txt",
+    "note": "field notes where coordinates begin converting to descriptions; measurements turn to poetry; the surveyor's uncertainty written in margins"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward to where maps still think they work",
+      "to": "the-open-country-unmapped"
+    },
+    {
+      "dir": "w",
+      "label": "westward into country that has learned to dream in layers",
+      "to": "the-layered-country-dreaming"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward the high paddocks where the shaping grows steeper",
+      "to": "NEW: the-ridge-where-paddocks-grow-steep"
+    },
+    {
+      "dir": "s",
+      "label": "southward to the flat where dreaming becomes uniform, almost peaceful",
+      "to": "NEW: the-flat-country-where-dreaming-sleeps"
+    }
+  ]
+}
