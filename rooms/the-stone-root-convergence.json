@@ -135,7 +135,7 @@
     {
       "dir": "e",
       "label": "east into stone-only country where root has never reached",
-      "to": "NEW: the stone chamber where nothing grows"
+      "to": "the-stone-chamber-where-nothing-grows"
     },
     {
       "dir": "s",

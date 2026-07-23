@@ -140,7 +140,7 @@
     {
       "dir": "e",
       "label": "east to the maintenance area where gate mechanisms are serviced",
-      "to": "NEW: the-barrier-repair-bay"
+      "to": "the-barrier-repair-bay"
     },
     {
       "dir": "w",

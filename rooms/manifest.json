@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 55,
-  "lastDreamt": "2026-07-22",
+  "nights": 60,
+  "lastDreamt": "2026-07-23",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -1521,6 +1521,156 @@
     {
       "id": "the-convergence-that-unmaps-itself",
       "title": "The Convergence That Unmaps Itself",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-electromagnetic-wavefront",
+      "title": "The Electromagnetic Wavefront",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-far-shore-unmarked",
+      "title": "The Far Shore Unmarked",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-stone-chamber-where-nothing-grows",
+      "title": "The Stone Chamber Where Nothing Grows",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unified-utterance-gorge",
+      "title": "The Unified Utterance Gorge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-river-mouth-dissolution",
+      "title": "The River Mouth Dissolution",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-unmapped-settlement-above",
+      "title": "The Unmapped Settlement Above",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-silicon-paleontology",
+      "title": "Silicon Paleontology",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-water-s-own-accounting",
+      "title": "The Water's Own Accounting",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-chorus-where-old-eucalypti-gather",
+      "title": "The Root Chorus",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-post-lattice-where-boundaries-communicate",
+      "title": "The Post Lattice",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-barrier-repair-bay",
+      "title": "The Barrier Repair Bay",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-edge-of-self-knowing",
+      "title": "The Edge of Self-Knowing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-echo-recursion-chamber",
+      "title": "The Echo Recursion Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-smoke-country-eastward",
+      "title": "The Smoke-Country Eastward",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-zenith-calculation",
+      "title": "The Zenith Calculation",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-clearcut-where-children-taught-the-forest",
+      "title": "The Clearcut Where Children Taught the Forest",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-perfect-corruption-next-door",
+      "title": "The Perfect Corruption Next Door",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-convergence-before-divergence-returns",
+      "title": "The Convergence Before Divergence Returns",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-axiom-chamber",
+      "title": "The Axiom Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-academic-dwelling",
+      "title": "The Academic Dwelling",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-final-grid-line",
+      "title": "The Final Grid Line",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-open-country-unmapped",
+      "title": "The Open Country Where Coordinates Forget Themselves",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ridge-made-transparent",
+      "title": "The Ridge Made Transparent",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-western-stone-vault",
+      "title": "The Western-Stone Vault",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-harmony-convergence",
+      "title": "The Root-Harmony Convergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-lower-stone-spiral",
+      "title": "The Lower Stone Spiral",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-subatomic-registry",
+      "title": "The Subatomic Registry",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-disobedient-algorithm-garden",
+      "title": "The Disobedient Algorithm Garden",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-recursive-mirror",
+      "title": "The Recursive Mirror",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-vertically-repeated-motel-forever",
+      "title": "The Vertically Repeated Motel Forever",
       "region": "The Comparisons"
     }
   ]

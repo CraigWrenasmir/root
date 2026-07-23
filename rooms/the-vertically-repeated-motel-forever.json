@@ -1,0 +1,150 @@
+{
+  "id": "the-vertically-repeated-motel-forever",
+  "title": "The Vertically Repeated Motel Forever",
+  "region": "The Comparisons",
+  "seed": 6663344,
+  "palette": {
+    "bg": "#2a1a1a",
+    "ground": [
+      "#5a3a2a",
+      "#7a5a4a"
+    ],
+    "ink": "#ffccaa",
+    "accents": [
+      "#ff9966",
+      "#ff6633",
+      "#dd4411",
+      "#ff9999"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the stairwell of tonight",
+      "desc-on-touch": "you climb and every landing shows the same door, the same light beneath it, the same smell of air conditioning and old carpet; you realize you stopped climbing some time ago and are still at the same step",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 338822,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the identical room sequence",
+      "desc-on-touch": "each door opens to a room you've seen before, or will see again; the furniture is always slightly rearranged; after the eighth identical room you stop checking for differences",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 661199,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the vertical infinity marker",
+      "desc-on-touch": "a number on the wall—you can't quite read it because it keeps incrementing, or decrementing, or it was always that number and you keep discovering it for the first time",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 229544,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the archive node in every hallway",
+      "desc-on-touch": "a casing bolted to the wall, identical on every floor; the display shows the room number, the time (always 9:47 PM), and a file named 'checkout_tomorrow.txt', which you know by heart and have never opened",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 445661,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the comparison wall",
+      "desc-on-touch": "here you notice that this floor's carpet is a subtly different shade of rust; this floor's ice machine is humming a different pitch; the differences are minute but they have compounded into infinite variation within infinite repetition",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 667722,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "every floor is tonight, and tonight arrives again in every floor; the motel has learned that repetition is not absence of change but change at a scale too small to be believed",
+  "file": {
+    "name": "Motel_Guest_Logbook_Floors_23-24_Sept_1989.txt",
+    "note": "a register of guests, all checked in for one night, all still here; their names repeat on every floor's entry, and their checkout dates are all marked as 'tomorrow'"
+  },
+  "reverie": {
+    "title": "REVERIE — the night that refuses to end",
+    "narr": [
+      "you sit on the edge of the bed with her, the same bed",
+      "on every floor, the same television playing the same test",
+      "pattern. \"we could leave,\" she says. \"or we could stop",
+      "trying to.\" you watch the room repeat itself in memory and",
+      "in space. \"tonight,\" she whispers, \"is infinite. and you're",
+      "in it. that's enough. that's more than enough.\""
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the stairwell to the lobby",
+      "to": "the-identical-corridor"
+    },
+    {
+      "dir": "e",
+      "label": "where the repetition breaks into variation",
+      "to": "NEW: the-floor-where-something-changed"
+    },
+    {
+      "dir": "w",
+      "label": "toward the penthouse that is also tonight",
+      "to": "NEW: the-top-floor-that-never-ends"
+    }
+  ]
+}

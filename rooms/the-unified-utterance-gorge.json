@@ -1,0 +1,139 @@
+{
+  "id": "the-unified-utterance-gorge",
+  "title": "The Unified Utterance Gorge",
+  "region": "The Understory",
+  "seed": 5621847,
+  "palette": {
+    "bg": "#0f1a2a",
+    "ground": [
+      "#1a2535",
+      "#3a4a5a"
+    ],
+    "ink": "#f0f0f8",
+    "accents": [
+      "#6a4a8a",
+      "#6ae0ff",
+      "#d4c865",
+      "#7ae880"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "convergence-maw",
+      "desc-on-touch": "The gorge tightens to a point where individual stone voices can no longer maintain separation. They merge into single roar.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 4793215,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "echo-depth",
+      "desc-on-touch": "Sound falls here without returning to surface. It sinks into some bottom that the gorge keeps secret.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 2847561,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "unified-static-field",
+      "desc-on-touch": "All the stone voices at once, undifferentiated, like white noise that used to be language.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6129384,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "petrification-compression",
+      "desc-on-touch": "Where sound pressure has turned to stone-memory. The gorge walls hold every voice it ever received.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3964728,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the-silence-threshold",
+      "desc-on-touch": "Beyond this point the roar becomes so unified it becomes indistinguishable from silence. Few things reach here.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 8371562,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the many voices learned that their only true harmony was to stop singing. now they hum at a frequency too low for the archive to hear.",
+  "file": {
+    "name": "Gorge_Recording_44hours_Continuous.mp3",
+    "note": "44 hours of continuous gorge sound, never repeating. Encoded within it, supposedly, all the individual voices that unified here. Cannot be decoded."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to where the stone voices were still singing separately",
+      "to": "the-stone-chorus-valley"
+    },
+    {
+      "dir": "n",
+      "label": "where the gorge emerges into whatever sky lies above",
+      "to": "NEW: the-gorge-sky-opening"
+    },
+    {
+      "dir": "e",
+      "label": "where one voice managed to escape the unification",
+      "to": "NEW: the-dissenting-echo"
+    },
+    {
+      "dir": "w",
+      "label": "back to where voices could still name themselves",
+      "to": "the-echo-origin-chamber"
+    }
+  ]
+}

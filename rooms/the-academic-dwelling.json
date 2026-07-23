@@ -1,0 +1,133 @@
+{
+  "id": "the-academic-dwelling",
+  "title": "The Academic Dwelling",
+  "region": "The Understory",
+  "seed": 45623,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#c43a1a",
+      "#e67e22"
+    ],
+    "ink": "#ffd9a3",
+    "accents": [
+      "#ff6b35",
+      "#d41159",
+      "#f38181",
+      "#ff9f43"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "reading-pair",
+      "desc-on-touch": "Two chairs face the same page but at angles that ensure neither reader sees what the other does. The light that strikes one falls as shadow on the other. The page reads differently depending on which side you stand.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 13456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "marginalia-wall",
+      "desc-on-touch": "Annotations in two handwriting styles, overlapping, arguing in the margins of a text that no longer exists. You can read both arguments at once and neither makes sense without the other.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 24567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "dusk-window",
+      "desc-on-touch": "A window showing a dusk so perfect it seems impossible. The light is warm and unquestionable, which makes everything it touches look like it's lying.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 35678,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "translation-heap",
+      "desc-on-touch": "A pile of the same text, translated into different languages, stacked so you can flip through them. Between one page and the next, the meaning shifts—not because the translation is wrong, but because meaning itself moved.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 46789,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "two readers in the same room learning that reading is not about the text but about the angle of light",
+  "file": {
+    "name": "Leif_Katita_Correspondence_1994.txt",
+    "note": "Letters about a book they read in parallel, each insisting the other misread everything, both right."
+  },
+  "reverie": {
+    "title": "REVERIE — two readers at the golden hour",
+    "narr": [
+      "You sit across from her, same text between you, same",
+      "warm light. She reads a line and her face changes. You read",
+      "the same line and your face changes differently. Neither",
+      "of you is wrong. The page knows this and grows thicker",
+      "with every sentence. The dusk never ends because it is",
+      "the only thing you both see the same way."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the calling silence, toward the echo-origin chamber",
+      "to": "the-echo-origin-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the understory where other dwellings stand",
+      "to": "NEW: the-mirrored-study-where-books-teach-themselves"
+    },
+    {
+      "dir": "n",
+      "label": "toward routes where two scholars' footsteps stop converging",
+      "to": "NEW: toward routes where two scholars' footsteps stop converging"
+    }
+  ]
+}

@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "north where synthesis becomes more complex and begins to refuse its own instructions",
-      "to": "NEW: the-disobedient-algorithm-garden"
+      "to": "the-disobedient-algorithm-garden"
     },
     {
       "dir": "s",

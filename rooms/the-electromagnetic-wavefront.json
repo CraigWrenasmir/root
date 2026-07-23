@@ -1,0 +1,139 @@
+{
+  "id": "the-electromagnetic-wavefront",
+  "title": "The Electromagnetic Wavefront",
+  "region": "The Comparisons",
+  "seed": 7284561,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#d97a3f",
+      "#ff8c42"
+    ],
+    "ink": "#f5f1e8",
+    "accents": [
+      "#ff1493",
+      "#00ffff",
+      "#ff6b1a",
+      "#ffff99"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "signal-crest",
+      "desc-on-touch": "Along this ridge the chaos of the storm edge transforms into sustained carrier wave. The broadcast you feel here is not metaphorical.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 3821047,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "organized-static",
+      "desc-on-touch": "Static resolves into pattern when you listen at threshold. This pool holds the moment chaos chooses order.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5409128,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-wavefront-edge",
+      "desc-on-touch": "The physical boundary between storm and signal. You can see the transition, a thin line where turbulence becomes radiance.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 2156394,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "interference-cascade",
+      "desc-on-touch": "Layers of frequency falling through themselves. Each layer contradicts the one above.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8734561,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "measurement-chip",
+      "desc-on-touch": "An old circuit board attempting to quantify the unquantifiable. Its readings drift with every gust.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4617293,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "where the storm learns its own pattern, the broadcast learns to speak backwards, and the archive stops listening to its own edges",
+  "file": {
+    "name": "Storm_Signal_Cascade_44kHz_UnfinishedTransmission.mp3",
+    "note": "a 44-second recording of the wavefront organizing itself; it ends abruptly as if the storm forgot to continue"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the storm's inner eye",
+      "to": "the-eye-of-the-archive-storm"
+    },
+    {
+      "dir": "n",
+      "label": "where the storm's thought becomes slower, more deliberate",
+      "to": "NEW: the-deepening-storm-reason"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where signals wash ashore and are sorted",
+      "to": "the-return-signal-place"
+    },
+    {
+      "dir": "s",
+      "label": "where wavefront becomes dispersed coastal weather",
+      "to": "NEW: the-dispersing-edge"
+    }
+  ]
+}

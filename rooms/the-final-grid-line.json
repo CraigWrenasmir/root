@@ -1,0 +1,117 @@
+{
+  "id": "the-final-grid-line",
+  "title": "The Final Grid Line",
+  "region": "The Clean Archive",
+  "seed": 82934,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#ff6b6b",
+      "#4ecdc4",
+      "#45b7d1",
+      "#ffd93d"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "coordinate-chip",
+      "desc-on-touch": "A black IC chip the size of a house, each pin a coordinate that was visited once and never again. The grid ends here because the map ended here. Beyond the pins is nothing the grid could record.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 28374,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "last-junction",
+      "desc-on-touch": "Where four roads met, now they end. Not because they are blocked—because there is no fifth direction for them to go. The junction is perfect, the end is clean, and something in you recognises that this is where motion learns to stop.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 39485,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "trace-memory",
+      "desc-on-touch": "A thin glowing line etched into the board—the path of every vehicle that reached the final grid line and stopped, compressed into a single phosphorescent scar. It is a map of endings.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 51627,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "silence-vault",
+      "desc-on-touch": "A vault holding the sound that the highway makes when nothing drives on it anymore. The vault has never been opened. The sound inside is not quiet—it is the sound of a road learning to be something else.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 63748,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "the grid ended here; the highway learned its name was 'stop'",
+  "file": {
+    "name": "Highway_Terminal_GPS_Record_Final.dat",
+    "note": "Position coordinates from the last vehicle to reach the final grid line, 1997. The engine is still running in the data. The driver never turned it off."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back northward through the flattened silence toward the horizon",
+      "to": "the-flattened-silence"
+    },
+    {
+      "dir": "s",
+      "label": "further south into blank space where even the grid stops mattering",
+      "to": "NEW: the-un-coordinate-void-where-motion-becomes-presence"
+    },
+    {
+      "dir": "e",
+      "label": "east along the circuit board, toward routes still being written",
+      "to": "the-deep-confluence-where-grids-become-rivers"
+    }
+  ]
+}

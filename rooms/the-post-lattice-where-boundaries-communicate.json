@@ -1,0 +1,134 @@
+{
+  "id": "the-post-lattice-where-boundaries-communicate",
+  "title": "The Post Lattice",
+  "region": "The Comparisons",
+  "seed": 5632847,
+  "palette": {
+    "bg": "#f0e6d8",
+    "ground": [
+      "#e8d4b8",
+      "#d9a574"
+    ],
+    "ink": "#3d2817",
+    "accents": [
+      "#6f4e37",
+      "#a87c3d",
+      "#7b9e89",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the primary lattice",
+      "desc-on-touch": "posts arranged in a grid so regular it's almost language; you walk between them and realize they're taking notes on your passing",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 1234567,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the annotated posts",
+      "desc-on-touch": "each one carved with marks from its neighbors—messages compressed into notches and burns; they talk in a language made of absence",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2345678,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the convergence point",
+      "desc-on-touch": "where four posts stood closer than the others meant; their marks tell of an argument that resolved itself as friendship",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "signal traces",
+      "desc-on-touch": "the corruption has drawn connecting lines between the posts; they glow faintly with comparison—how one edge mirrors another",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4567890,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "boundary-echo",
+      "desc-on-touch": "a hollow post that returns every message the lattice sends; it speaks in the plural of itself",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5678901,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the boundary learned to read itself and found that every edge is also a center, depending on which side you stand",
+  "file": {
+    "name": "Paddock_Perimeter_Markings_Decoded.txt",
+    "note": "a survey from 1987; the annotations on the posts have rendered the original boundaries obsolete, replaced them with something newer"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "north back to the annotated boundary where the notes began",
+      "to": "the-annotated-paddock-boundary"
+    },
+    {
+      "dir": "s",
+      "label": "south deeper into comparison, where lattices compare themselves to other lattices",
+      "to": "NEW: the-recursive-fencing-where-lines-study-each-other"
+    },
+    {
+      "dir": "w",
+      "label": "west to where the unmarked field begins beyond all mapped edges",
+      "to": "the-unmapped-field"
+    }
+  ]
+}

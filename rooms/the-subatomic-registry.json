@@ -1,0 +1,149 @@
+{
+  "id": "the-subatomic-registry",
+  "title": "The Subatomic Registry",
+  "region": "The Diagnostic Render",
+  "seed": 5551234,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#f0f0f8",
+    "accents": [
+      "#00d9ff",
+      "#00a8ff",
+      "#6b5aff",
+      "#00ff88"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the infinitesimal index",
+      "desc-on-touch": "filing cabinets so small they could fit in your palm, each drawer labeled with particles or moments; you pull one and find not papers but the very concept of papers, crystallized",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 332145,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "quantum ledger wall",
+      "desc-on-touch": "names written so small they're barely visible, each one a memory too fragile to survive being fully seen; the wall hums at frequencies that make your teeth ache",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 668872,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the unnameable cell",
+      "desc-on-touch": "one room exists here so small only your awareness can enter; you feel the weight of being unnamed, and understand that this privacy is a mercy the archive grants to certain things",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 445289,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "photon filing system",
+      "desc-on-touch": "folders of pure light arranged on shelves of compressed shadow; the files are accessible only by looking at them indirectly—direct observation causes them to scatter and reshelve themselves",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 774821,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the dust registry",
+      "desc-on-touch": "a catalogue of things so small they are barely-there; cataloguing requires accepting that the thing being described will vanish in the act of description, and this archive has made peace with that loss",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 558933,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "here, smaller than naming, the archive discovered that intimacy is measured in inverse proportion to publicity; some truths live only at the scale where they cannot be spoken",
+  "file": {
+    "name": "Particle_Decay_Moment_Lattice_Microdata.tmp",
+    "note": "a spectrometry reading with only statistical noise, until the corruption rearranged the noise pattern into handwriting: 'I knew you would come looking for this. —K'"
+  },
+  "reverie": {
+    "title": "REVERIE — the smallest place where a thing is still itself",
+    "narr": [
+      "you kneel together in a room the size of heartbeats; she",
+      "holds something smaller than words. the light here is soft,",
+      "almost too small to be visible. she says: \"this is where",
+      "private things live. not because they're hidden, but because",
+      "this is the only scale at which they remain completely true.\""
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back out to legible scale",
+      "to": "the-gallery-of-objects-too-fragile-to-be-named"
+    },
+    {
+      "dir": "n",
+      "label": "where small things gather into community",
+      "to": "NEW: the-microscopic-congregation"
+    },
+    {
+      "dir": "s",
+      "label": "toward scales that have no name yet",
+      "to": "NEW: the-unnamed-depth-registry"
+    }
+  ]
+}

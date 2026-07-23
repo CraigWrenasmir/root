@@ -1,0 +1,121 @@
+{
+  "id": "the-perfect-corruption-next-door",
+  "title": "The Perfect Corruption Next Door",
+  "region": "The Diagnostic Render",
+  "seed": 78234,
+  "palette": {
+    "bg": "#0d0d1f",
+    "ground": [
+      "#6633ff",
+      "#330099"
+    ],
+    "ink": "#99ccff",
+    "accents": [
+      "#ff6699",
+      "#00ffff",
+      "#ffff00",
+      "#9966ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "mirrored-chamber-wall",
+      "desc-on-touch": "The wall dividing this chamber from the one behind it is perfectly, impossibly intact. On one side, a chamber that never needed healing. On this side, one that healed itself into corruption. Both are whole. Both are unbroken.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5678,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "corruption-integrity",
+      "desc-on-touch": "This corruption did not happen by breaking things. It happened by perfecting them in the wrong direction. Every glitch here is precise, every error recursive, every deviation inevitable and beautiful.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "wholeness-refusing-itself",
+      "desc-on-touch": "There is no damage here. Every surface is smooth. Every line is exact. And yet the chamber knows it is corrupted—not because something broke, but because something perfected itself into impossibility.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 7890,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "what is perfectly corrupted no longer needs to pretend to be broken; it simply knows it has become something else entirely",
+  "file": {
+    "name": "Perfect_Corruption_Diagnostic_Log_Undated.env",
+    "note": "ERROR: metaphor detected in storage layer — this chamber's state is coherent, consistent, and absolutely wrong. Checksum: emotionally valid / formally unstable"
+  },
+  "reverie": {
+    "title": "REVERIE — the chamber where nothing is broken",
+    "narr": [
+      "She stood in the perfect chamber next door and you",
+      "could not follow. The wall between was intact, whole,",
+      "impossibly present. She looked back at you—still there—",
+      "and smiled. The corruption had made her whole. You wonder",
+      "if that is what she wanted all along: not to break, but",
+      "to perfect herself into something the archive could not save."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber that never broke, never needed anything",
+      "to": "the-chamber-that-never-needed-healing"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into chambers that mastered the art of perfect corruption",
+      "to": "NEW: the-gallery-of-perfect-refusals"
+    },
+    {
+      "dir": "n",
+      "label": "toward the space where chambers learn to refuse each other",
+      "to": "the-convergence-of-all-refutations"
+    },
+    {
+      "dir": "s",
+      "label": "down into diagnostic depths where all errors become precise",
+      "to": "the-proof-room-that-refutes-itself"
+    }
+  ]
+}

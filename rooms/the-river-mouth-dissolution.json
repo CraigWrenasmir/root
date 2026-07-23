@@ -1,0 +1,139 @@
+{
+  "id": "the-river-mouth-dissolution",
+  "title": "The River Mouth Dissolution",
+  "region": "The Clean Archive",
+  "seed": 7394621,
+  "palette": {
+    "bg": "#1a3a3a",
+    "ground": [
+      "#2a5a5a",
+      "#4a7a5a"
+    ],
+    "ink": "#f0f0e8",
+    "accents": [
+      "#c85a4a",
+      "#ffff99",
+      "#d4a5c5",
+      "#7ae0ff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "mouth-widening",
+      "desc-on-touch": "The river spreads impossibly, losing definition with each meter. It cannot remember what it was as a current.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 3751928,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "salt-intrusion-line",
+      "desc-on-touch": "Fresh and salt water maintain a visible boundary briefly before it diffuses into ambiguity.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 4862347,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "name-dissolution-pool",
+      "desc-on-touch": "Here the river's name becomes indistinguishable from the sea's. Speech dissolves into salt.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 6178493,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "memory-erasure-field",
+      "desc-on-touch": "Tidal mixing erases whatever the river remembered. Each tide writes over the previous identity.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5293847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "final-broadcast-marker",
+      "desc-on-touch": "A channel marker where the river's last coherent signal occurs before becoming ocean noise.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 8347561,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the river forgets itself gradually, then all at once. this is the moment between. salt water keeps its grudges longer.",
+  "file": {
+    "name": "River_Name_Last_Recording.mp3",
+    "note": "The moment the river stops broadcasting its current-identity, approximately 47 seconds. After this point, only ocean noise and slowly dissolving memory."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upriver to the estuary's extended monologue",
+      "to": "the-estuary-monologue"
+    },
+    {
+      "dir": "n",
+      "label": "where salt pressure becomes overwhelming",
+      "to": "NEW: the-deep-salt-compression"
+    },
+    {
+      "dir": "e",
+      "label": "toward the open sea where all names dissolve completely",
+      "to": "the-reef-navigation-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "back upriver where identity is still maintained",
+      "to": "NEW: the-river-memory-ascent"
+    }
+  ]
+}

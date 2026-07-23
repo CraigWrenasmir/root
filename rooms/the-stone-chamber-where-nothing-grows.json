@@ -1,0 +1,155 @@
+{
+  "id": "the-stone-chamber-where-nothing-grows",
+  "title": "The Stone Chamber Where Nothing Grows",
+  "region": "The Understory",
+  "seed": 8472619,
+  "palette": {
+    "bg": "#0a0a10",
+    "ground": [
+      "#4a4a5a",
+      "#8a8a7a"
+    ],
+    "ink": "#e8e8f0",
+    "accents": [
+      "#3a2a5a",
+      "#7ae0ff",
+      "#d4a865",
+      "#f5f0e8"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "bedrock-face",
+      "desc-on-touch": "Ancient stone showing its layers like text. Reading them requires time older than the archive.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 3729156,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "mineral-constellation",
+      "desc-on-touch": "Quartz veins catching whatever dim light reaches here, forming patterns that shift as you move.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5847203,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "settling-chamber",
+      "desc-on-touch": "Smooth stone worn by countless sittings. This is where the first keeper learned to wait.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 2684931,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "fracture-music",
+      "desc-on-touch": "A thin crack in the stone that resonates when pressure shifts. It has only a few notes.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7381562,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "petrified-boundary",
+      "desc-on-touch": "The line where stone ends and the void below begins. You cannot see the bottom.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 4126784,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "nothing grows here, but everything waits. this is where the archive learned that patience is another form of growth.",
+  "file": {
+    "name": "Stone_Patience_Journal_Fragmentary.txt",
+    "note": "Scattered notes about waiting, sitting, the slow language of minerals. Handwriting becomes less assured toward the end, as if the writer became stone."
+  },
+  "reverie": {
+    "title": "REVERIE — stone-only, alone in the deep",
+    "narr": [
+      "You sit against stone that has not moved in millions",
+      "of years. No root here, no softness, no compromise.",
+      "The keeper who learned peace did this — sat still",
+      "until the stones' ancient patience became your own.",
+      "You cannot grow here. Only settle. Only hear the slow",
+      "friction of stone against stone, across geologic time."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward where roots and stone make their peace",
+      "to": "the-stone-root-convergence"
+    },
+    {
+      "dir": "n",
+      "label": "where stone descends further, into compression",
+      "to": "the-lower-stone-spiral"
+    },
+    {
+      "dir": "e",
+      "label": "where a root has finally reached, splitting stone",
+      "to": "the-tangle-roots-where-pattern-fractures"
+    },
+    {
+      "dir": "s",
+      "label": "where the stone softens into sediment and memory",
+      "to": "NEW: the-stone-sediment-threshold"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-unmapped-settlement-above",
+  "title": "The Unmapped Settlement Above",
+  "region": "The Comparisons",
+  "seed": 6284937,
+  "palette": {
+    "bg": "#5a4a2a",
+    "ground": [
+      "#a85a2a",
+      "#3a6a3a"
+    ],
+    "ink": "#f0ebe5",
+    "accents": [
+      "#c4a87a",
+      "#5a8a6a",
+      "#d4a865",
+      "#e8d4a8"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "overgrown-pathway-network",
+      "desc-on-touch": "Roads that predate the archive, worn into the earth so deeply that time cannot erase them.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 2947361,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "structure-footprints",
+      "desc-on-touch": "Where buildings once stood, now only depressions in the ground. The archive was built to remember these, and still they fade.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7136254,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "settlement-perimeter",
+      "desc-on-touch": "The boundary line where the old town ended and wilderness began. It is still maintained by no one, still observed by the land.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 4821739,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "artifact-concentration-point",
+      "desc-on-touch": "Where scattered broken things gather — pottery, metal, tools. The earth surfaces its dead slowly.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3759482,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "memory-keeper-tree",
+      "desc-on-touch": "An old eucalyptus growing in what was the center square. Its rings hold dates that predate written records.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8462173,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive came here to write down what the settlers had already written in their roads and walls. it found that the land had rewritten everything.",
+  "file": {
+    "name": "Settlement_Map_Comparison_Survey.txt",
+    "note": "Leif's field survey from 2019 compared to aerial photographs from 1987, compared to local memory from 1962. Each layer contradicts the others slightly."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back downstream to when the settlement was still remembered",
+      "to": "the-upstream-ruins"
+    },
+    {
+      "dir": "w",
+      "label": "where the settlement extends back further, into pre-archive time",
+      "to": "NEW: the-elder-settlement-deeper"
+    },
+    {
+      "dir": "n",
+      "label": "where the old pathways lead to the source, the river's origin",
+      "to": "NEW: the-pathways-to-source"
+    },
+    {
+      "dir": "s",
+      "label": "back to the ruins where erosion is still visible",
+      "to": "the-forest-before-division"
+    }
+  ]
+}

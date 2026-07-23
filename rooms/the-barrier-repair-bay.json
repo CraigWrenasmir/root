@@ -1,0 +1,134 @@
+{
+  "id": "the-barrier-repair-bay",
+  "title": "The Barrier Repair Bay",
+  "region": "The Clean Archive",
+  "seed": 3219847,
+  "palette": {
+    "bg": "#e8d9c4",
+    "ground": [
+      "#d4c4a8",
+      "#c9945a"
+    ],
+    "ink": "#2d2614",
+    "accents": [
+      "#5a4a3a",
+      "#8f6f3f",
+      "#7fa896",
+      "#d9a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the serviced gate-mechanism",
+      "desc-on-touch": "hinges that have been oiled by seventeen different hands; each one left their temperature in the grease",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 1234567,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "parts inventory",
+      "desc-on-touch": "replacement bolts, hinges, latches, all the hardware that keeps arrival from reversing into departure; sorted by year and decade",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2345678,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the work-bench",
+      "desc-on-touch": "where gates are improved; the tools remember every adjustment that ever made the gate function better, and every one that made it worse",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the paradox door",
+      "desc-on-touch": "this gate-replica was built to test changes; it has become a gate that can exit in both directions simultaneously if you believe hard enough",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 4567890,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "maintenance log",
+      "desc-on-touch": "every repair written in fading ink; the earlier entries speak in urgency, the later ones in the patient voice of work that will never be finished",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5678901,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the gate that nothing leaves needs constant maintenance; the archive oils its hinges and dreams of the day when holding still costs no labour",
+  "file": {
+    "name": "Gate_Mechanism_Service_Log_1994-Present.txt",
+    "note": "handwritten notes on maintenance; the handwriting changes seven times as different keepers tend the barrier; at the end, the entries grow tender"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back west to the gate itself, standing eternal in its perfect non-function",
+      "to": "the-gate-where-nothing-leaves"
+    },
+    {
+      "dir": "e",
+      "label": "east to where broken things go to dream of repair",
+      "to": "NEW: the-salvage-yard-where-gates-remember-opening"
+    },
+    {
+      "dir": "n",
+      "label": "north to the archive's infrastructure, all the unseen work that holds arrival in place",
+      "to": "the-deep-eastern-convergence"
+    }
+  ]
+}

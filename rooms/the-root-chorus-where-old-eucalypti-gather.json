@@ -1,0 +1,149 @@
+{
+  "id": "the-root-chorus-where-old-eucalypti-gather",
+  "title": "The Root Chorus",
+  "region": "The Understory",
+  "seed": 8843291,
+  "palette": {
+    "bg": "#2d5a1f",
+    "ground": [
+      "#4a8f2d",
+      "#6ba645"
+    ],
+    "ink": "#1a2d1a",
+    "accents": [
+      "#ffd700",
+      "#ff6b5b",
+      "#5dd9c1",
+      "#e8a2ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the eldest tap-root",
+      "desc-on-touch": "it goes down further than memory; older than the archive, it sings lower than the range of your hearing but the ground remembers the vibration",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 1234567,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "convergent tangle",
+      "desc-on-touch": "where roots from four old trees have grown into and around each other; in the tangled wood, their voices become one chorus that no single tree could make",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 2345678,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "nutrient mirror",
+      "desc-on-touch": "the soil here reflects what the roots draw: you see what nourishment looks like when it has just begun to sing",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the ancient crown",
+      "desc-on-touch": "deep underground, a root-crown so vast it stretches beyond what any single tree claims; it thinks in the plural",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 4567890,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "echo-cavity",
+      "desc-on-touch": "a hollow chamber where the oldest root sings and the smaller roots answer; here you hear the geometry of agreement",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 5678901,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "beneath the archive, older voices sing the song that trees learned long before they had rings to count the years",
+  "file": {
+    "name": "Root_Song_Spectrum_Analysis_Infrasonic.wav",
+    "note": "field recording from below; the frequency too low for human ear, but the ground shakes with it"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back east to the stone chamber where the singing is heard above ground",
+      "to": "the-stone-core-singing-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper south to the bedrock where even root and stone converge",
+      "to": "the-bedrock-where-growth-becomes-legend"
+    },
+    {
+      "dir": "w",
+      "label": "west into the younger growth, where the new trees still learn the chorus",
+      "to": "NEW: the-saplings-listening-at-the-root-margin"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — beneath the eucalyptus, listening",
+    "narr": [
+      "you sit between the roots, the bark warm against your spine,",
+      "and Katita beside you hums so low you feel it more than hear it.",
+      "the ground beneath hums back, older frequencies she cannot reach.",
+      "she grins: the trees were singing before we knew what singing was.",
+      "here, under the crown, all of them make one sound together."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

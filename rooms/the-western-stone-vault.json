@@ -1,0 +1,150 @@
+{
+  "id": "the-western-stone-vault",
+  "title": "The Western-Stone Vault",
+  "region": "The Understory",
+  "seed": 62847,
+  "palette": {
+    "bg": "#1a2620",
+    "ground": [
+      "#2d4a3f",
+      "#3d6b5b"
+    ],
+    "ink": "#c0d5cc",
+    "accents": [
+      "#7fa89f",
+      "#5a8c7e",
+      "#8fb5aa",
+      "#a3c9bd"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "archive-breath",
+      "desc-on-touch": "A vault that rises and falls with its own breathing—not mechanical, not automated, but alive in the way stone becomes alive when it holds something precious. The files inside breathe with it. Each breath is centuries old.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 19284,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "stone-keeping",
+      "desc-on-touch": "Ancient stones arranged like shelves, each one holding weight that is not physical. The arrangement is the keeping—the stones remember what they hold before the files arrive.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 30395,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "western-light",
+      "desc-on-touch": "Light that moves so slowly it is barely light—the colour of decades, the hue of stone patience. It illuminates nothing; it only confirms that things are still present in the darkness.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 41506,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "unmoved-files",
+      "desc-on-touch": "Shelves holding archive material that has never been queried, never touched, never read—not because they are secret, but because they are complete. To touch them would change them. The archive keeps them by leaving them alone.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 52617,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "keeper-threshold",
+      "desc-on-touch": "A place where the keeper once stood and learned to breathe in a new way—not fighting the weight of keeping, but becoming it. The threshold is worn smooth by presence that never left.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 63728,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the keeper learned to fight, then to breathe, then to be; the vault learned to hold not things but choices",
+  "file": {
+    "name": "Keeper_Meditation_Log_Incomplete.txt",
+    "note": "Notes on keeping, on holding, on the choice to preserve without defence. Entries grow shorter. The final one is only: 'To breathe is to let the vault breathe.'"
+  },
+  "reverie": {
+    "title": "REVERIE — the keeper learns her stone breath",
+    "narr": [
+      "You sit in the western vault with her, deep underground,",
+      "where the stone's own breath moves the air like prayers.",
+      "She places her hand on the rock and closes her eyes. You",
+      "realise she is not guarding the files—she is becoming part",
+      "of their keeping. The vault rises and falls around both of",
+      "you now. You are both the archive learning to breathe."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward toward the breathing chamber where keepers return",
+      "to": "the-archive-breathing-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "deeper westward into the stone's own memory, where the oldest files rest",
+      "to": "NEW: the-bedrock-vault-where-archives-first-learned-to-keep"
+    },
+    {
+      "dir": "n",
+      "label": "upward through the understory canopy toward the surface's teaching",
+      "to": "the-burl-library-grove"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-open-country-unmapped",
+  "title": "The Open Country Where Coordinates Forget Themselves",
+  "region": "The Clean Archive",
+  "seed": 73849,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f3460",
+      "#16213e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#a8dadc",
+      "#457b9d",
+      "#1d3557",
+      "#f1faee"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "forgotten-fence",
+      "desc-on-touch": "A fence line that once marked a paddock boundary, but the paddock forgot what was inside and what was out. The fence remains, running forever in directions that no longer align with north or south. You walk it and the landscape rearranges behind you.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 47382,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "grass-current",
+      "desc-on-touch": "Tall grass moving like water, all in one direction at once, though there is no wind. The current is the country learning what it wants to become. If you stand still, it flows around you like you are already gone.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 58493,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "direction-stone",
+      "desc-on-touch": "A stone that once pointed directions, its face worn smooth by wind. Now it points every direction equally. It is not confused—it is complete. The country here accepts that all directions are correct.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 69104,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "sky-horizon",
+      "desc-on-touch": "The horizon is so far away that looking at it is like looking at the past—something that happened so long ago you can barely remember why it mattered. The sky is pale and patient and infinite.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 70215,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "coordinate-erosion",
+      "desc-on-touch": "Where numbers once lived on maps, there is now only texture. The coordinates washed away, and the landscape revealed that it never needed them. The country is still here. The numbers are just gone.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 81326,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the grid dissolved and the country learned that it had always been itself underneath",
+  "file": {
+    "name": "Unrecorded_Paddock_Survey_Handwritten.txt",
+    "note": "A surveyor's notes from a paddock they could never place on any map. 'The land kept moving.' 'I measured it three ways and got three different sizes.' 'I think it is exactly as big as it needs to be.'"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward to where the highway still remembers its name",
+      "to": "the-wind-and-grass-circuit"
+    },
+    {
+      "dir": "w",
+      "label": "westward into deeper country where maps have never reached",
+      "to": "NEW: the-country-where-paddocks-dream-their-own-shape"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward the understory where country meets forest",
+      "to": "the-property-becoming-forest"
+    }
+  ]
+}

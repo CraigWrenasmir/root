@@ -1,0 +1,155 @@
+{
+  "id": "the-smoke-country-eastward",
+  "title": "The Smoke-Country Eastward",
+  "region": "The Comparisons",
+  "seed": 51234,
+  "palette": {
+    "bg": "#331100",
+    "ground": [
+      "#dd4400",
+      "#ff6600"
+    ],
+    "ink": "#ffeecc",
+    "accents": [
+      "#ff00ff",
+      "#ff8800",
+      "#ffaa00",
+      "#ffddaa"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "distant-fire",
+      "desc-on-touch": "Smoke rises from somewhere you cannot reach. The fire has burned here three times before, each time the country recovers differently. The archive records each regrowth as a separate text.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 6234,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "heat-shimmer",
+      "desc-on-touch": "The air bends and re-bends. Objects in the distance appear and disappear. You cannot tell if the country is there or if the smoke is creating it from the heat.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "burnt-ground-signature",
+      "desc-on-touch": "The earth here holds three different signatures of burning, layered under fresh growth. The archive is learning to read fire as a form of comparison—each burn tells what the last one forgot.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 7890,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "smoke-record",
+      "desc-on-touch": "A post, blackened at the base. On it, tally marks in soot—counting the seasons since the last fire, or perhaps counting fires yet to come. The numbers have begun to repeat.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "eastern-horizon",
+      "desc-on-touch": "The smoke thickens toward the horizon. Through it, the faint outline of a town—one you have never seen, one that only exists in the smoke-haze. Or one that exists every time a fire burns.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 9876,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the country burns in cycles and forgets its own pattern each time the ash clears",
+  "file": {
+    "name": "Smoke_Cycles_And_Regrowth_Eastern_Fires.txt",
+    "note": "Field recording: audio of wind moving through burnt scrub, voices of people who returned after fire, the sound of growth returning. Each replay sounds different."
+  },
+  "reverie": {
+    "title": "REVERIE — smoke country, watching fire mark the land again",
+    "narr": [
+      "You stand with her on the eastern plain, watching",
+      "smoke bend into shapes the fire will not hold. She says",
+      "the country remembers each burn differently, and the",
+      "fire knows this. That's why it keeps returning—to teach",
+      "the land new ways to grow. The embers fall like slow questions.",
+      "She touches your arm. Neither of you knows the answer."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back across the open country, away from smoke",
+      "to": "the-unmapped-field"
+    },
+    {
+      "dir": "e",
+      "label": "into the town that only exists in smoke-haze",
+      "to": "NEW: the-fire-return-settlement"
+    },
+    {
+      "dir": "n",
+      "label": "toward higher country where fire burns differently",
+      "to": "NEW: the-high-burn-ridge"
+    },
+    {
+      "dir": "s",
+      "label": "down to older ash, where the soil still remembers being coal",
+      "to": "the-dark-loam-archive"
+    }
+  ]
+}

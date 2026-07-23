@@ -1,0 +1,105 @@
+{
+  "id": "the-clearcut-where-children-taught-the-forest",
+  "title": "The Clearcut Where Children Taught the Forest",
+  "region": "The Comparisons",
+  "seed": 23456,
+  "palette": {
+    "bg": "#1a3300",
+    "ground": [
+      "#229900",
+      "#11aa33"
+    ],
+    "ink": "#ccffaa",
+    "accents": [
+      "#00ff33",
+      "#ffff00",
+      "#00ffcc",
+      "#99ff00"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.15
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "regrowth-taller-than-before",
+      "desc-on-touch": "The new trees are taller than the old ones ever grew. The children taught them something about reaching. The forest has learned that growth can aim higher.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4455,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "footprint-trace",
+      "desc-on-touch": "A child's footprint in the soft forest floor, never quite healed over. The moss has grown around it but not into it. The forest still remembers the shape of the small feet.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 3344,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "clearcut-scar",
+      "desc-on-touch": "The bare earth at the heart of the clearcut is barely visible now, almost healed. But on certain days when the light is right, you can still see the absence of shadow where the trees were cut.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5566,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the children showed the forest how to grow toward a sky it had never reached before; now it will not stop reaching",
+  "file": {
+    "name": "Children_Teaching_Clearcut_Forest_1987_Undated.txt",
+    "note": "Field note: photograph of a clearcut in early regrowth. In the photo, children. Upon review, the children appear in different clothing across different viewings of the same photo."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the tree line to the path worn deep",
+      "to": "the-deepening-path"
+    },
+    {
+      "dir": "n",
+      "label": "further into clearcut, toward the heart of what was taken",
+      "to": "NEW: the-memory-of-the-stump-circle"
+    },
+    {
+      "dir": "e",
+      "label": "where the new forest meets the uncut forest and they confuse each other",
+      "to": "NEW: the-forest-conversation-edge"
+    },
+    {
+      "dir": "w",
+      "label": "to older clearcuts where no children walked, and the forest teaches itself slowly",
+      "to": "the-property-becoming-forest"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-convergence-before-divergence-returns",
+  "title": "The Convergence Before Divergence Returns",
+  "region": "The Clean Archive",
+  "seed": 45678,
+  "palette": {
+    "bg": "#221100",
+    "ground": [
+      "#ff8833",
+      "#cc6600"
+    ],
+    "ink": "#ffcc99",
+    "accents": [
+      "#ff00ff",
+      "#ffaa00",
+      "#00ffaa",
+      "#ff6666"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "dual-path-memory",
+      "desc-on-touch": "Two paths stood here. They came together. For one moment, the ground held both memories equally. Then they began to diverge again—but they never separated completely. The earth still remembers standing twice.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 5555,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "footprint-doubling",
+      "desc-on-touch": "A footprint in the dust with two impressions—one from someone arriving, one from someone leaving. The same footprint. The archive has recorded that you walked both directions at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6666,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "ditch-of-convergence",
+      "desc-on-touch": "A ditch runs here, learned the shape of two separate runoff patterns meeting. The water flows in two directions at once, slowly, each drop remembering which path it came from.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7777,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "older-ground-marker",
+      "desc-on-touch": "Here, deeper than the paths, lies bedrock that is older than the divergence. This ground knows what it was before the paths split. That knowledge is still accessible—the archive has learned to read backward into time.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8888,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "return-cycle-mark",
+      "desc-on-touch": "A stone, weathered, with marks showing many passes. They show: paths converging, diverging, converging again. This has happened before. This will happen again. The cycle is not broken—only temporarily split.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 9999,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the clearing knows you twice because you have walked both paths; the second walk remembers the first; the next walk will remember them both",
+  "file": {
+    "name": "Convergence_Cycle_Ground_Memory.txt",
+    "note": "Field record: GPS traces of two separate journeys along the same geography. The traces converge at one point, then diverge. The convergence point has aged differently—it is older, younger, or experien"
+  },
+  "reverie": {
+    "title": "REVERIE — the place where paths remember meeting",
+    "narr": [
+      "You both arrived by different roads but the same ditch.",
+      "She arrived from the north, you from the south. At this point",
+      "the roads became one. You walked together for a moment—one step,",
+      "one footprint, one direction shared. Then the paths diverged again.",
+      "But the ground still holds both journeys. When you return, you will",
+      "find the footprint of someone who walked both roads at the same time."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the clearing where both paths continue to converge",
+      "to": "the-clearing-where-both-paths-converge"
+    },
+    {
+      "dir": "n",
+      "label": "along the northern road, into what it carries after convergence",
+      "to": "NEW: the-northern-memory-resume"
+    },
+    {
+      "dir": "s",
+      "label": "along the southern road, into what it carries after convergence",
+      "to": "NEW: the-southern-memory-resume"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into older ground where the paths have not yet learned to split",
+      "to": "the-soil-where-the-stand-began-as-seeds"
+    }
+  ]
+}

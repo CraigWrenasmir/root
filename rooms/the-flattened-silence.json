@@ -89,7 +89,7 @@
     {
       "dir": "s",
       "label": "south where the horizon goes quiet forever",
-      "to": "NEW: the-final-grid-line"
+      "to": "the-final-grid-line"
     },
     {
       "dir": "e",

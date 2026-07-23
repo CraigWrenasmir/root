@@ -1,0 +1,172 @@
+{
+  "id": "the-far-shore-unmarked",
+  "title": "The Far Shore Unmarked",
+  "region": "The Clean Archive",
+  "seed": 3895472,
+  "palette": {
+    "bg": "#1a2a3a",
+    "ground": [
+      "#7a9d6e",
+      "#5a6b5a"
+    ],
+    "ink": "#f0ebe5",
+    "accents": [
+      "#a85a4a",
+      "#7ae0ff",
+      "#c4d97f",
+      "#d4a5c5"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "wet-ground-trace",
+      "desc-on-touch": "Footprints that fill with water as you watch, erasing themselves. This shore remembers nothing that arrives on it.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 1749283,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "washed-wrack-line",
+      "desc-on-touch": "Debris from upstream arranged in patterns too neat to be accident, too broken to be meaning.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6284791,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "unmarked-grass",
+      "desc-on-touch": "Sedge and reed that marks no territory. It grows parallel to the water, neither advancing nor retreating.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 4921605,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "shore-mist",
+      "desc-on-touch": "Fog that holds the memory of the crossing — you could not see the far bank as you crossed. Now you cannot see back.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 7563412,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "drift-line-markers",
+      "desc-on-touch": "Sticks arranged in a line, purpose unknown. Recent. Not here before the crossing?",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 2847936,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "undertow-mouth",
+      "desc-on-touch": "A small gulch where current exits the river. It hums with water-memory, channels of the crossing made physical.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5609384,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the ground here accepts your weight but forgets you walked. are you truly here, or only half-remembered by the current?",
+  "file": {
+    "name": "Arrival_Recording_FirstLight_Unmarked.txt",
+    "note": "Leif's field notes from the crossing, tide-damaged, portions illegible. Katita's signature on the margin in pencil."
+  },
+  "reverie": {
+    "title": "REVERIE — far shore after crossing",
+    "narr": [
+      "You stand in shallows, legs cold from the crossing,",
+      "and the opposite bank — where you came from — dissolves",
+      "into morning mist. Here there are no footprints yet.",
+      "She is already stepping inland, reading unmarked ground",
+      "like text no one wrote. You follow, dripping, into the",
+      "forgetting she said would happen on the other side."
+    ],
+    "sky": "dawn",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back across the water to the bend where you crossed",
+      "to": "the-far-bend-memory"
+    },
+    {
+      "dir": "n",
+      "label": "where the shore extends into true wilderness",
+      "to": "NEW: the-inland-unmarked"
+    },
+    {
+      "dir": "e",
+      "label": "where the shore hooks back and rejoins itself",
+      "to": "NEW: the-recursive-coastline"
+    },
+    {
+      "dir": "w",
+      "label": "back to the riverside, the other bank's perspective",
+      "to": "the-bend-where-teaching-ends"
+    }
+  ]
+}

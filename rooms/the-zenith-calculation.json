@@ -1,0 +1,139 @@
+{
+  "id": "the-zenith-calculation",
+  "title": "The Zenith Calculation",
+  "region": "The Clean Archive",
+  "seed": 34782,
+  "palette": {
+    "bg": "#4d2200",
+    "ground": [
+      "#ff6600",
+      "#dd4400"
+    ],
+    "ink": "#ffaa00",
+    "accents": [
+      "#ff00ff",
+      "#ffdd00",
+      "#ff8800",
+      "#ffaa44"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "point-overhead",
+      "desc-on-touch": "A marker, precisely placed. The archive calculated that this point is directly overhead, the point where your position and the sky's centre coincide. But as you stand here, the overhead point moves.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5432,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "coordinate-ledger",
+      "desc-on-touch": "A table scratched into the ground showing the archive's measurements: latitude, longitude, elevation. But the entries keep changing. Each day the coordinates shift slightly, or the ground itself has moved.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 6543,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "angle-of-sight",
+      "desc-on-touch": "A frame tilted at impossible angles, as if trying to measure the sky itself. Through it, you see the zenith point—but the point keeps drifting depending on where you stand.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7654,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "shadow-at-noon",
+      "desc-on-touch": "A pole casting no shadow—or perhaps the shadow pointing straight down into the ground. At zenith, sun and shadow become one point, and the standing thing becomes a line of light and absence.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "convergence-mark",
+      "desc-on-touch": "Where the zero-meridian grove's coordinates learned to become landscape, here they learn to become sky. The point where ground and measurement unite upward.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 9876,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "at the zenith, position and measurement become indistinguishable; the ground has learned to point at itself",
+  "file": {
+    "name": "Zenith_Measurements_With_Drift.txt",
+    "note": "ERROR: archive has exceeded witness — coordinate system achieving awareness of its own position. Checksum changing in real-time."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down where coordinates learned to stay still",
+      "to": "the-zero-meridian-grove"
+    },
+    {
+      "dir": "n",
+      "label": "toward the night sky where coordinates dissolve into constellations",
+      "to": "NEW: the-nocturnal-coordinate-dissolution"
+    },
+    {
+      "dir": "e",
+      "label": "along the line of highest sun, toward afternoon",
+      "to": "the-convergent-dusk"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the meridian where it still remembers being zero",
+      "to": "the-zero-meridian-grove"
+    }
+  ]
+}

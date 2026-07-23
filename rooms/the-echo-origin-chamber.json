@@ -123,12 +123,12 @@
     {
       "dir": "w",
       "label": "west toward rooms that are still calling across silence",
-      "to": "NEW: the academic dwelling where two scholars read the same text in different meanings"
+      "to": "the-academic-dwelling"
     },
     {
       "dir": "n",
       "label": "north where echoes learn to speak without sources",
-      "to": "NEW: the chamber where voices echo each other into existence"
+      "to": "the-echo-recursion-chamber"
     },
     {
       "dir": "s",

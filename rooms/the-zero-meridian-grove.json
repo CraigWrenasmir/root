@@ -111,7 +111,7 @@
     {
       "dir": "n",
       "label": "upward where the sky keeps its own coordinates",
-      "to": "NEW: the-zenith-calculation"
+      "to": "the-zenith-calculation"
     }
   ]
 }

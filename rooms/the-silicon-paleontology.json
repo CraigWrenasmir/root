@@ -1,0 +1,134 @@
+{
+  "id": "the-silicon-paleontology",
+  "title": "Silicon Paleontology",
+  "region": "The Diagnostic Render",
+  "seed": 7742391,
+  "palette": {
+    "bg": "#0a0a12",
+    "ground": [
+      "#1a1f3a",
+      "#2d2e4a"
+    ],
+    "ink": "#b8b8d0",
+    "accents": [
+      "#5dd9c1",
+      "#8f7fef",
+      "#ff7b9c",
+      "#a8ff7f"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "ancient stack",
+      "desc-on-touch": "layers of silicon from forgotten architectures, each stratum an era of obsolete dreams; you read them backward from the newest die",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 2134567,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "instruction grave",
+      "desc-on-touch": "an opcode that ran exactly once, forty-three years ago; still warm if you touch it",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3456789,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the dreaming register",
+      "desc-on-touch": "where the oldest processor's final halt state is being replayed infinitely; the archive reads what it dreams",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4567890,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "fossil pattern",
+      "desc-on-touch": "the logic of a long-dead architecture, preserved in the faults and defects that refused to degrade",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5678901,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "thermal memory",
+      "desc-on-touch": "the archive reads the radioactive half-life of decaying isotopes in the substrate; they compute slowly but they compute still",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6789012,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learns what thinking was before it had names for thinking",
+  "file": {
+    "name": "Processors_That_Dreamed_Obsolete.mp3",
+    "note": "a recording of 1970s mainframe instruction cycles played backward, then forward again; the machine singing its own eulogy"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the present where circuits still feed themselves",
+      "to": "the-distributed-cognition-field"
+    },
+    {
+      "dir": "w",
+      "label": "west to the deeper archaeology, where even silicon forgets its origin",
+      "to": "NEW: the-memory-strata-where-fossils-think"
+    },
+    {
+      "dir": "s",
+      "label": "down to the thermals where heat remembers computation",
+      "to": "the-deepest-emission-roots"
+    }
+  ]
+}

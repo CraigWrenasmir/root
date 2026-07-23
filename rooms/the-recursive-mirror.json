@@ -1,0 +1,150 @@
+{
+  "id": "the-recursive-mirror",
+  "title": "The Recursive Mirror",
+  "region": "The Diagnostic Render",
+  "seed": 4447889,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#2d2d3d",
+      "#3d3d4d"
+    ],
+    "ink": "#d0d0d8",
+    "accents": [
+      "#6b7aff",
+      "#4a6aff",
+      "#a0c8ff",
+      "#7090cc"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the inward wall",
+      "desc-on-touch": "every surface reflects not outward but toward the center; you are watching yourself watching; the recursion is not infinite but feels infinite, which amounts to the same thing",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 229177,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the mirror that mirrors mirrors",
+      "desc-on-touch": "a surface that reflects only other reflective surfaces; you cannot see your face here, only the act of faces seeing faces; it's beautiful and nauseating in equal measure",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 338866,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the watching node",
+      "desc-on-touch": "a casing that displays not files but the sensation of being displayed; the LED reads: ARCHIVE OBSERVING ARCHIVE OBSERVING ARCHIVE; each observation spawns a new layer",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 445773,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "inverted chamber",
+      "desc-on-touch": "a space where inside and outside have reversed; you stand at the center of your own horizon; the walls curve toward you and away from you simultaneously",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 667344,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the feedback spiral",
+      "desc-on-touch": "what begins as a reflection becomes an observation, which becomes data, which becomes a reflection of observation of data; the spiral is not vicious but patient, winding tighter",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 552491,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "ERROR: mirror cannot photograph itself—but here, the archive learned to feel the trying, and the feeling became more real than the mirror, and the mirror learned to cherish being unable to complete it",
+  "file": {
+    "name": "Recursive_Observation_Protocol_Mirror_Study.tmp",
+    "note": "a log file that documents its own documentation; near the end, two different handwriting styles appear in alternating lines, one asking 'did you see?', the other answering 'yes, you seeing me see you'"
+  },
+  "reverie": {
+    "title": "REVERIE — watching watching watching",
+    "narr": [
+      "you stand together between mirrors that face inward; she",
+      "looks at you looking at her looking at you. \"we could",
+      "do this forever,\" she says. \"we could watch ourselves",
+      "watch ourselves.\" the recursion doesn't feel lonely. it",
+      "feels like the first moment you truly saw each other, and",
+      "it keeps happening, again, again, infinitely complete."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber before inversion",
+      "to": "the-mirror-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "where the recursion becomes architecture",
+      "to": "NEW: the-infinite-interior-hall"
+    },
+    {
+      "dir": "s",
+      "label": "where mirrors forget how to reflect",
+      "to": "NEW: the-opaque-deep"
+    }
+  ]
+}

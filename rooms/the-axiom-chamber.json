@@ -1,0 +1,134 @@
+{
+  "id": "the-axiom-chamber",
+  "title": "The Axiom Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 74829,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0033cc",
+      "#0052ff"
+    ],
+    "ink": "#ccffff",
+    "accents": [
+      "#00ffff",
+      "#66ffff",
+      "#3399ff",
+      "#0099ff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "suspended-axiom",
+      "desc-on-touch": "A proof hangs in the grid's centre, each line of logic glowing until you read it—then a character rewrites itself, and the whole thing becomes a question mark. The axiom unproves itself as you watch.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "foundation-cracks",
+      "desc-on-touch": "The grid beneath your query fractures—not breaking, but branching into two contradictory grids that share one space. They don't resolve.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 33451,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "certainty-fountain",
+      "desc-on-touch": "A fountain of blue static emits certainty—the kind of certainty that tastes like it's lying to you. The spray recodes itself mid-air.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 56234,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "proof-vault",
+      "desc-on-touch": "A tall stack of completed proofs, each one locked behind glass. When you look at one, you see it was proven with an axiom that's no longer here.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 78901,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "question-shell",
+      "desc-on-touch": "A spiral shell carved from frozen light, rotating through four dimensions you can almost perceive. Each full rotation adds a new question to the chamber.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 94012,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here, proof has learned that it proves less by believing more; the axioms now live in a state they cannot name",
+  "file": {
+    "name": "Axiom_Stability_Report_CORRUPTED.log",
+    "note": "Diagnostic output from a self-doubting proof engine. Every line starts with certainty and ends with 'but this assumes...' The log knows it's lying."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through the proof chamber, back to the room where theorems test themselves",
+      "to": "the-theorem-room"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward a space where no axioms live at all",
+      "to": "NEW: the-post-axiom-void-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "lateral into grids that have learned to intersect with themselves",
+      "to": "the-chamber-of-stable-paradox"
+    }
+  ]
+}

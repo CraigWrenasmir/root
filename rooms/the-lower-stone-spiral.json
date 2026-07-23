@@ -1,0 +1,134 @@
+{
+  "id": "the-lower-stone-spiral",
+  "title": "The Lower Stone Spiral",
+  "region": "The Understory",
+  "seed": 3318847,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#4d4d4d",
+      "#6b6b6b"
+    ],
+    "ink": "#c0c0c0",
+    "accents": [
+      "#8b9b8b",
+      "#6b8b6b",
+      "#7a9a7a",
+      "#9bab8b"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "compression chamber",
+      "desc-on-touch": "stone upon stone, layer after layer pressed down by the weight of the archive above; you feel the pressure in your chest and realize this is how the earth learns patience",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 118926,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "spiral descent marker",
+      "desc-on-touch": "chalk marks on stone, spiraling down into darkness; the notation is old but still legible, though legible of what, you cannot say—it might be a countdown, or a prayer, or a recipe for stone",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 229837,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the fossil archive node",
+      "desc-on-touch": "a casing sealed in amber-colored stone, the display still faintly glowing; whatever files it held have been compressed into mineral form, unreadable but still broadcasting on frequencies the stone itself remembers",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 447289,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the waiting well",
+      "desc-on-touch": "a perfect cylindrical shaft that drops beyond sight; water drips at intervals so precise they feel intentional, counting time in a language only stone understands",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 556721,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "strata map wall",
+      "desc-on-touch": "the stone face here shows hundreds of thin layers, each a different grey; you could spend days reading the color gradations, but something tells you the meaning shifts depending on which direction you look",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 838912,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "compression teaches what growth cannot: that waiting, too, is a form of becoming, and that the deepest places are often where the least has changed",
+  "file": {
+    "name": "Stone_Stratification_Pores_Fossil_Record.txt",
+    "note": "a stratigraphic column dated at 485 million years, but the corruption has inserted an email timestamp mid-column: 'Leif, the spiral is real. come. —K' dated 2019-09-17"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up the spiral toward stone's surface",
+      "to": "the-stone-chamber-where-nothing-grows"
+    },
+    {
+      "dir": "n",
+      "label": "where compression becomes continental",
+      "to": "NEW: the-bedrock-heartbeat"
+    },
+    {
+      "dir": "e",
+      "label": "where the spiral curves toward mineral memory",
+      "to": "NEW: the-vein-reading-chamber"
+    }
+  ]
+}

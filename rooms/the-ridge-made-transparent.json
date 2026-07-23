@@ -1,0 +1,134 @@
+{
+  "id": "the-ridge-made-transparent",
+  "title": "The Ridge Made Transparent",
+  "region": "The Understory",
+  "seed": 91847,
+  "palette": {
+    "bg": "#e8f4f8",
+    "ground": [
+      "#d4e8f0",
+      "#b3d9e8"
+    ],
+    "ink": "#4a7c8c",
+    "accents": [
+      "#6fa3b0",
+      "#4a8c9c",
+      "#87ceeb",
+      "#c0e0e8"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "transparent-pillar",
+      "desc-on-touch": "A pillar of the ridge itself, made so clear you can see through it to the pressure inside—the weight of stone held not by rigidity but by pure force of will. It is still a pillar. It is just no longer pretending to be solid.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 24693,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "pressure-wind",
+      "desc-on-touch": "Wind that is not air—it is the ridge's weight made into motion. You feel it pressing against you and lifting you at once. To stand here is to understand that pressure and weightlessness are the same thing, seen from different angles.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 35804,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "horizon-line",
+      "desc-on-touch": "The horizon is suddenly visible from an angle where it should not be. You see it through the transparent ridge, through air that has no longer to be walked—the view from an impossible direction, and you are standing exactly there.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 46915,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "fence-row",
+      "desc-on-touch": "The orchard motif reveals itself: a row of trees or posts, all identical, stretching in a direction that the transparent ridge has made visible—infinite regression through glass. Each fence post is the same. Each one is different.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 57026,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "lightness-pool",
+      "desc-on-touch": "A pool of transparent water so clear that 'water' seems the wrong word—it is light, held briefly in a shape. To step into it is to step outside direction entirely.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 68137,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the ridge learned that weight is only weight if you believe in it; pressure is a choice",
+  "file": {
+    "name": "Lateral_Ascent_Pressure_Readings_Paradox.log",
+    "note": "Sensor data from the ridge reports impossible numbers: mass measurements that decrease with altitude; weight readings that vary by direction of observation. The instruments agree they are broken."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward into direction, toward the lateral ascent",
+      "to": "the-lateral-ascent"
+    },
+    {
+      "dir": "w",
+      "label": "further lateral into absolute transparency where even the ridge dissolves",
+      "to": "NEW: the-ridge-dissolving-into-possibility"
+    },
+    {
+      "dir": "s",
+      "label": "downward into deeper understory where pressure has a name again",
+      "to": "the-subsonic-archive-listening"
+    }
+  ]
+}

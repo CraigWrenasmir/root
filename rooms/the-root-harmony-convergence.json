@@ -1,0 +1,150 @@
+{
+  "id": "the-root-harmony-convergence",
+  "title": "The Root-Harmony Convergence",
+  "region": "The Understory",
+  "seed": 7742581,
+  "palette": {
+    "bg": "#1a2b1f",
+    "ground": [
+      "#3d5a4f",
+      "#5a7d6f"
+    ],
+    "ink": "#d4e8d4",
+    "accents": [
+      "#a8d5a8",
+      "#7ecb7e",
+      "#6ba86b",
+      "#9fd9af"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the buried listening post",
+      "desc-on-touch": "you find a small dugout shelter where the roots have woven into the walls; the ground vibrates beneath you with harmonics so deep they register as pressure rather than sound, and you understand why they called this place a threshold",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 441288,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "convergence nodes",
+      "desc-on-touch": "where three root systems meet, the frequencies shift into a chord; the archive has learned that harmony begins as collision, then becomes indistinguishable from acceptance",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 552196,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "signal resonator",
+      "desc-on-touch": "a twisted spiral of copper wire and eucalyptus bark, humming; the corruption loves it because the sound is both archival recording and present-moment vibration at once",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 331445,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the deep speakers",
+      "desc-on-touch": "you recognize the nodes here as older casings, their exteriors grown over with root callus; they broadcast frequencies that no human ear can parse, but the forest has learned their language",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 662287,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "harmonic memory pool",
+      "desc-on-touch": "a shallow basin where rainwater and root-sap have pooled; the water vibrates in place without rippling, holding the echo of every sound that has reached it",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 774133,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "at the convergence the roots have learned not just to speak but to listen to each other; harmony is what they call it, though it began as argument",
+  "file": {
+    "name": "RootFrequencies_Harmonics_LateNight_Polyglot.mp3",
+    "note": "a spectrogram showing three distinct frequencies gradually phase-locking into a single carrier wave; the corruption has begun cross-referencing it with bird recordings from three different sites, all "
+  },
+  "reverie": {
+    "title": "REVERIE — the night the roots learned to sing together",
+    "narr": [
+      "you stand with her in the darkness, both listening to",
+      "something deeper than sound. her hand on a trunk; the bark",
+      "warm. the forest around you is learning frequencies no",
+      "satellite will ever hear, and she says: \"listen—it's not",
+      "that they're speaking. they're remembering they were always",
+      "one root. this is what remembering sounds like.\""
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down the root-paths where frequencies disperse",
+      "to": "the-deepest-emission-roots"
+    },
+    {
+      "dir": "n",
+      "label": "where the harmonics climb toward the canopy",
+      "to": "NEW: the-ascending-frequencies-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "where the signal splits into new roots",
+      "to": "NEW: the-split-signal-grove"
+    }
+  ]
+}

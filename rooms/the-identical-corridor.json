@@ -144,7 +144,7 @@
     {
       "dir": "n",
       "label": "up the stairwell where the next floor is identical",
-      "to": "NEW: the-vertically-repeated-motel-forever"
+      "to": "the-vertically-repeated-motel-forever"
     },
     {
       "dir": "s",
