@@ -89,12 +89,12 @@
     {
       "dir": "e",
       "label": "along the shore where other pressure-points wait to resolve",
-      "to": "NEW: the-shore-s-further-surgical-margins"
+      "to": "the-shore-s-further-surgical-margins"
     },
     {
       "dir": "s",
       "label": "into the spray-zone where beach learns to breathe",
-      "to": "NEW: the-tidal-surgery-chamber"
+      "to": "the-tidal-surgery-chamber"
     }
   ]
 }

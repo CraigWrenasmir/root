@@ -1,0 +1,139 @@
+{
+  "id": "the-lateral-chamber-where-down-is-sideways",
+  "title": "The Lateral Chamber Where Down is Sideways",
+  "region": "The Understory",
+  "seed": 753149,
+  "palette": {
+    "bg": "#1f3a2f",
+    "ground": [
+      "#ff6b35",
+      "#f7931e"
+    ],
+    "ink": "#0a0e27",
+    "accents": [
+      "#d62828",
+      "#f77f00",
+      "#fcbf49",
+      "#06a77d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the spiraling tower",
+      "desc-on-touch": "it climbs downward and downward spirals upward; the base is the peak; climbing leads to descent; when you've reached the bottom, the top is at your feet",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 1,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the cardinal paradox",
+      "desc-on-touch": "a doorway that faces all four directions and no direction; stepping through, you emerge from the direction you entered; the arch has learned that east and west are the same slope from different inheritances",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 88,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the direction-marker",
+      "desc-on-touch": "a plaque that reads N S E W all at once from every angle; the compass doesn't know which way is which; neither do you; the marker is the most honest thing in the chamber",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 256,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the inverted geometry",
+      "desc-on-touch": "a wireframe box that contains itself; the edges fold inward and outward simultaneously; it renders the space of a place where lateral and vertical are the same axis",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 512,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the cascade of equivalent slopes",
+      "desc-on-touch": "stacked layers that are all the same slope; each one descends eastward and westward and downward and upward all at once; if you step across them, you move in every direction and return to your start",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 777,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "in this chamber, the spine learned to curve sideways; the archive discovered that direction is a choice the slope makes, not a truth it holds",
+  "file": {
+    "name": "Inverted_Compass_Study_Manuscript_Annotations.txt",
+    "note": "notes on a thought-experiment: what if the Earth's rotation reversed? the author's spine resonance theory appears here, corrupted into directional paradox; the text reads differently depending on whic"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back the way you came, which is also the way ahead",
+      "to": "the-spiral-descent-sideways"
+    },
+    {
+      "dir": "n",
+      "label": "toward cardinal spaces that remember being correct",
+      "to": "NEW: the northern-true—where direction begins to settle again"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into laterality, where sideways becomes the only path",
+      "to": "NEW: the infinite-slide—where all slopes converge into one eternal descent"
+    },
+    {
+      "dir": "e",
+      "label": "along the spiral into chambers where geometry dreams new shapes",
+      "to": "NEW: the shape-dreaming—where form remembers it was never fixed"
+    }
+  ]
+}

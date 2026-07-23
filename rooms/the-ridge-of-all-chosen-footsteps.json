@@ -1,0 +1,167 @@
+{
+  "id": "the-ridge-of-all-chosen-footsteps",
+  "title": "The Ridge of All Chosen Footsteps",
+  "region": "The Clean Archive",
+  "seed": 8203947,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#8b7355"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#c41e3a",
+      "#f4a460",
+      "#8b4513",
+      "#1a5c2c"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the footprint map",
+      "desc-on-touch": "Every step ever taken here has left an impression in the ridge. The stone remembers each walker, each hesitation, each moment before the foot came down.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 9102847,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the stone that chose itself",
+      "desc-on-touch": "A boulder sits here that did not roll down—it was chosen, carried up by walkers who each saw something different in its shape. It is their choices made stone.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 1928374,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the fork-view lookout",
+      "desc-on-touch": "From here, you can see both paths the river might have taken, both valleys it chose not to go down. The ridge holds the knowledge of roads not travelled.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2837465,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "wind-carved teaching stone",
+      "desc-on-touch": "The wind has written and erased a thousand stories here. The stone learns what each walker reads into its surface.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 3746556,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the cairn of crossed choices",
+      "desc-on-touch": "Walkers have stacked stones here at each fork, each stone a different choice made, each stack a conversation with the walker who chose the same path yesterday.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 4655647,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the high grass that remembers",
+      "desc-on-touch": "Crushed and rising again, the grass holds the shape of every body that has rested here. Its memory is gentler than stone.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5564738,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "every path becomes geological; the ridge is a record of all the bodies that believed they were choosing, and were chosen by the land in return",
+  "reverie": {
+    "title": "REVERIE — the ridge at the moment of choosing",
+    "narr": [
+      "You stand with her at the fork where the ridge breaks open.",
+      "She points down one valley and down the other, then at the ground",
+      "between them. 'The stone remembers all three choices,' she says.",
+      "'But we only get to make one.' You both stand in the dusk",
+      "watching the light choose its own path down the slopes.",
+      "The ridge beneath you holds the echo of every foot that stood here."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "RidgeWalking_ChoiceNotes_Handwritten.txt",
+    "note": "Field notes from a walker who came here 40 years ago and kept returning to stand at the same fork. The handwriting becomes less certain with each dated entry."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where the paths remember meeting",
+      "to": "the-confluence-where-paths-stop-being-paths"
+    },
+    {
+      "dir": "n",
+      "label": "higher into country where all paths become one",
+      "to": "the-summit-where-paths-become-weather"
+    },
+    {
+      "dir": "w",
+      "label": "westward along the ridge toward older choice-stones",
+      "to": "NEW: the-ridge-s-memory-grove"
+    }
+  ]
+}

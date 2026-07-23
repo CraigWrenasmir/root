@@ -1,0 +1,167 @@
+{
+  "id": "the-ancient-root-dwelling",
+  "title": "The Dwelling Built Into Ancient Roots",
+  "region": "The Understory",
+  "seed": 6483729,
+  "palette": {
+    "bg": "#1a1f2e",
+    "ground": [
+      "#2d3a4a",
+      "#4a5a6a"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#7fff00",
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the root-woven walls",
+      "desc-on-touch": "The shed was not built here. It grew here. Roots have woven themselves into the frame, and wood into roots. You cannot tell where the structure ends and the earth begins.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 7392848,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the stored tools that rust into thought",
+      "desc-on-touch": "Old implements hang here, their metal slowly becoming part of the soil. Each tool has left an impression deeper than its shape—a memory in the air.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 8301929,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the breathing hole",
+      "desc-on-touch": "A gap in the root-wall where air moves in and out. The shed breathes with the earth. The rhythm is so slow you only notice it if you sit still for hours.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 9210019,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the floor that is no longer floor",
+      "desc-on-touch": "Below your feet the boundary has dissolved. Soil and wood and root have become one substance. To walk here is to walk on something that is still deciding what it wants to be.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 1019283,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the root-archive shelf",
+      "desc-on-touch": "Small objects sit here—photographs, letters, seeds in glass. Some have been here longer than the shelf itself. The roots are learning to keep them.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 2928374,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the door that opens downward",
+      "desc-on-touch": "What the locals call a door actually opens into the deeper root-system. Descending here leads only further into earth. The dwelling extends indefinitely downward.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3837465,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "a dwelling older than the forest remembers building it; the roots have made their home inside it, and inside them, and the boundary keeps dissolving deeper",
+  "reverie": {
+    "title": "REVERIE — inside the ancient shed, listening to the roots br",
+    "narr": [
+      "Inside the shed, she sits on something that might be a bench or",
+      "might be an old root worn smooth by hands. Rain drums on the roof",
+      "that is also the canopy. She doesn't speak. You watch water find",
+      "its way through the wood-root boundary and still keep going down.",
+      "'This place is older than us,' she finally says, 'and it's still",
+      "deciding whether we're part of it or just passing through.' You believe he"
+    ],
+    "sky": "storm",
+    "land": "forest",
+    "structure": "shed",
+    "weather": "rain",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "WesternRoots_TimelapsePhotos_1973-2019.txt",
+    "note": "A set of photographs taken from the same angle over 46 years. The shed slowly becomes the forest. The boundaries blur one photograph at a time."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where pressure first learned to think",
+      "to": "the-bedrock-thought-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the root-paths where dwellings are still growing",
+      "to": "the-burl-library-grove"
+    },
+    {
+      "dir": "s",
+      "label": "down through the door that only opens into the earth",
+      "to": "NEW: the-deepening-root-warren"
+    }
+  ]
+}

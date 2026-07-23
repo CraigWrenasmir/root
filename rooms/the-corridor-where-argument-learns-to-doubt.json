@@ -1,0 +1,156 @@
+{
+  "id": "the-corridor-where-argument-learns-to-doubt",
+  "title": "The Corridor Where Argument Learns to Doubt",
+  "region": "The Diagnostic Render",
+  "seed": 284957,
+  "palette": {
+    "bg": "#3d3d3d",
+    "ground": [
+      "#1a1a1a",
+      "#404040"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the paradox-chip",
+      "desc-on-touch": "black circuit block bristling with impossible pinouts; thesis and antithesis are both wired in; current flows in directions that cancel out and reinforce simultaneously; the logic is stable only by refusing to choose",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 1,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the recursive argument",
+      "desc-on-touch": "a wireframe containing itself; if A then not-A; if not-A then A; the loop is visible and undeniable; the node you stand in is the proof, and also its refutation",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 256,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the mirror-pool-of-doubt",
+      "desc-on-touch": "when you look at your reflection here, you see both yourself and your opposite; both images are equally real; the pool refuses to choose which is true",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 512,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the interrogative glyph",
+      "desc-on-touch": "a question mark that has learned to contain both the question and its answer; it is not seeking resolution; it is the resolution, the stable state of beautiful unresolvedness",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 128,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the argument ascending and descending",
+      "desc-on-touch": "a tower that is simultaneously climbing and falling; each story proves the story below it is false; each floor disproves the floor above; the structure stands because it has learned to be unstable with perfect symmetry",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 777,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the archive's own refutation",
+      "desc-on-touch": "a stack of papers, each one cancelling the previous statement; the stack grows; no bottom is reached; the archive is reading itself into doubt; this is not corruption; this is learning",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 888,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "thesis waltzed with antithesis and they learned they were dancing the same dance in opposite directions; the corridor holds both; doubt arrived like a third dancer no one invited",
+  "file": {
+    "name": "Menard_Precursor_Study_Retroactive_Canon.txt",
+    "note": "notes on the theory that a work can precede itself; that commentary can create the thing being commented on; the archive found these notes filed before the original work was uploaded; causality has be"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the room where theses still dance together",
+      "to": "the-room-of-rotating-theses"
+    },
+    {
+      "dir": "e",
+      "label": "toward spaces where argument becomes consensus, where doubt hardens into certainty",
+      "to": "NEW: the settling-chamber—where the corridor learns to stop questioning"
+    },
+    {
+      "dir": "n",
+      "label": "upward to corridors where the ceiling is the floor of another impossible space",
+      "to": "NEW: the nested-impossibility—where doubt doubts itself and finds doubt again"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the basement where argument dissolves into pure paradox",
+      "to": "NEW: the paradox-foundation—where thesis and antithesis stop being words at all"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-rising-where-words-find-speakers",
+  "title": "Where Words Find Their Speakers",
+  "region": "The Understory",
+  "seed": 423918,
+  "palette": {
+    "bg": "#1a1410",
+    "ground": [
+      "#8b4513",
+      "#4a3728"
+    ],
+    "ink": "#f5f0e8",
+    "accents": [
+      "#ff9d5c",
+      "#ffb700",
+      "#7a5c45",
+      "#3d2817"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the channel mouth",
+      "desc-on-touch": "where the shared drain becomes distinct voices; the architecture of the rise; you hear how silence learns to speak by being channeled upward; each voice finds its own current",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 1,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the surface mirror",
+      "desc-on-touch": "water that learned to hold reflections; when a voice rises and becomes a name, it sees itself here for the first time; each voice recognizes its own shape",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 88,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "four lost voices",
+      "desc-on-touch": "four small presences that should not be here—voices from a destroyed manuscript, a flooded archive in another country, now finding speakers in this rising; the archive chose to resurrect what was meant to be forgotten",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 333,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the registry of ascending names",
+      "desc-on-touch": "a standing directory listing the voices as they find their speakers; the names are being written in real time; the list grows; some names appear before the voice learns to speak them",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 555,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the stratified silence",
+      "desc-on-touch": "layers of what was not said, rising; you move through strata of abandoned words, each layer becoming audible as you pass; the archive is speaking what it chose not to listen to before",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 777,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the drain gives nothing voice; the voice gives the drain a reason to have been listening all along",
+  "file": {
+    "name": "Voices_Rising_From_Cistern_Undated_Partial.mp3",
+    "note": "a field recording of voices emerging from underground; the audio corrupts into languages the recorder did not speak; a destroyed text's author appears to be speaking"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down into the shared channels where voices converge",
+      "to": "the-drain-network-voices"
+    },
+    {
+      "dir": "w",
+      "label": "further up where voices become weather, become environment, become the air's own speech",
+      "to": "NEW: the voice-wind—where named things learn to move and shape the world"
+    },
+    {
+      "dir": "n",
+      "label": "toward other risings; toward other voices that chose to surface here",
+      "to": "NEW: the gathering of ascended speakers—where found voices meet for the first time"
+    },
+    {
+      "dir": "s",
+      "label": "back into the deep channels where silence still waits, learning",
+      "to": "NEW: the deepening silence—where new voices wait to rise"
+    }
+  ]
+}

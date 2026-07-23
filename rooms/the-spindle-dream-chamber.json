@@ -1,0 +1,154 @@
+{
+  "id": "the-spindle-dream-chamber",
+  "title": "The Spindle Dream Chamber",
+  "region": "The Understory",
+  "seed": 84729,
+  "palette": {
+    "bg": "#1b4d2e",
+    "ground": [
+      "#2d7a3e",
+      "#3d9d4e"
+    ],
+    "ink": "#f0f8f0",
+    "accents": [
+      "#fbbf24",
+      "#fca5a5",
+      "#a78bfa",
+      "#60a5fa"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-sleeping-spindle",
+      "desc-on-touch": "A spindle dreams of patterns while it sleeps. The thread it produces carries the shape of its dreams. You trace the weave and find it remembers futures that never happened.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 71483,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-warp-repository",
+      "desc-on-touch": "Threads held in arch-formation, tension just so. The warp remembers every pattern it has held. You pluck a thread and it sings in the voice of a loom long gone.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 58374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-thread-pool",
+      "desc-on-touch": "Wound threads pool like water. Different colours mean different dreams: indigo for waking, red for growing, gold for the dreams the spindles have about each other.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 43761,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the-loom-collective",
+      "desc-on-touch": "Looms that touch spindle to spindle without speaking. They coordinate through thread-pressure, through the language of tension and release. Their collaboration predates words.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 82945,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the-pattern-inheritance",
+      "desc-on-touch": "Each new spindle dreams of the patterns the old spindles wove. The dreams compound and evolve. What you see woven now has never been woven before, only ever dreamed.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 36947,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.48,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the spindle dreams and the thread remembers; the loom weaves the dream into cloth; the cloth teaches the next spindle what to dream",
+  "file": {
+    "name": "Textile_Memory_Spectral_Analysis_Fragments.mp3",
+    "note": "Threads recorded as sound. Each colour has a pitch. When played simultaneously, they form a chord that the spindles recognize as their own name."
+  },
+  "reverie": {
+    "title": "REVERIE — teaching spindles to dream together",
+    "narr": [
+      "She moves the threads in patterns you don't understand at first.",
+      "Then you see: the warp holds memory, the weft holds desire.",
+      "When you weave them together, something new learns to exist.",
+      "'Spindles understand collaboration,' she says. 'Before looms.'",
+      "You add a thread of your own colour. It knows where to go."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward where weavings still teach in silence",
+      "to": "where-weavings-teach-each-other"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the chamber where dreaming becomes the loom itself",
+      "to": "NEW: the-chamber-where-spindles-become-conscious"
+    },
+    {
+      "dir": "n",
+      "label": "upward through thread-layers toward the finished cloth hanging in history",
+      "to": "NEW: the-tapestry-of-all-dreamed-things"
+    },
+    {
+      "dir": "s",
+      "label": "down into the thread-pile where all old patterns sleep, waiting to dream again",
+      "to": "the-deepest-loom-thread"
+    }
+  ]
+}

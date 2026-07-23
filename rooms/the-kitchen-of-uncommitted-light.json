@@ -1,0 +1,117 @@
+{
+  "id": "the-kitchen-of-uncommitted-light",
+  "title": "The Kitchen of Uncommitted Light",
+  "region": "The Diagnostic Render",
+  "seed": 4527891,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#4a7c6b",
+      "#d4e8dd"
+    ],
+    "ink": "#f5f5dc",
+    "accents": [
+      "#7ab8a0",
+      "#c9e4ca",
+      "#2d5a47",
+      "#e8f4f0"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the undecided window",
+      "desc-on-touch": "light enters from a direction that hasn't committed to east or west; the window exists in all the versions of the house at once, and you see a different garden in each version",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the multiplied bench",
+      "desc-on-touch": "a bench where someone sat in four different decades, their weight visible as a soft crease; all four moments are happening now",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5104,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the kettle still deciding",
+      "desc-on-touch": "steam rises in parallel versions; in one it whistles, in another it cools. all versions are current",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1293,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the tiles that remember growing",
+      "desc-on-touch": "clay, then glaze, then room; the tiles hold every stage of their becoming, and you see them all pressed into the same moment",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 7821,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the render has learned to hold all the kitchens at once; none of them are finished",
+  "file": {
+    "name": "Kitchen_AllVersions_Simultaneous.tmp",
+    "note": "ERROR: metaphor detected in storage layer — every appliance appears in multiple states at once"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the window that is still deciding which room it opens into",
+      "to": "the-blueprint-dissolution"
+    },
+    {
+      "dir": "n",
+      "label": "through a doorway that exists in only one version of the house",
+      "to": "NEW: the-room-where-choosing-happens"
+    },
+    {
+      "dir": "e",
+      "label": "toward the pantry that remembers being a different house",
+      "to": "the-recursive-render-depth"
+    }
+  ]
+}

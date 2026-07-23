@@ -1,0 +1,117 @@
+{
+  "id": "the-saplings-listening-at-the-root-margin",
+  "title": "The Saplings Listening at the Root-Margin",
+  "region": "The Understory",
+  "seed": 5829374,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1a3a52",
+      "#2d5a7a"
+    ],
+    "ink": "#e8f4f8",
+    "accents": [
+      "#7fd8be",
+      "#5ac5a0",
+      "#ffd54f",
+      "#ffca28"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "saplings in rows",
+      "desc-on-touch": "Young trees lean toward the old roots underground, listening for the chorus. They have not yet learned to sing; they are still learning the words in root-language.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "root teaching point",
+      "desc-on-touch": "Where old and new roots meet, the archive records an exchange. The chorus does not translate; it only teaches by letting young wood absorb the song through the earth.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7462983,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "chorus resonance",
+      "desc-on-touch": "A pool of soil where frequencies from below become visible as ripples. You can hear the old eucalypti singing through the saplings that learn their song.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5293847,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "growth ring archive",
+      "desc-on-touch": "Each ring the saplings lay down is a note in the chorus. The archive files them all; someday, the young trees will understand what they were always singing.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8619374,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the saplings have not yet joined the chorus, but they are already learning the harmonies through their roots; they sing by growing in the exact shape the old song requires",
+  "file": {
+    "name": "Sapling_RootMargin_SongAbsorption_GrowthRecords.txt",
+    "note": "How young trees learn to move toward the frequency of old roots beneath them, laying down rings that are notes in a chorus none of them can hear above ground."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the old chorus singing deeper",
+      "to": "the-root-chorus-where-old-eucalypti-gather"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the root dark where the oldest song begins",
+      "to": "the-gathering-before-meeting"
+    },
+    {
+      "dir": "s",
+      "label": "toward the congregation where all roots become one voice",
+      "to": "NEW: the-sapling-chorus-first-call"
+    }
+  ]
+}

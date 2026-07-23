@@ -1,0 +1,139 @@
+{
+  "id": "the-stone-archives-where-water-writes",
+  "title": "The Stone-Archives Where Water Writes",
+  "region": "The Clean Archive",
+  "seed": 47293,
+  "palette": {
+    "bg": "#d4c5b0",
+    "ground": [
+      "#c9b8a0",
+      "#e8dcc8"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#1a4d7a",
+      "#8b6f47",
+      "#d4af37",
+      "#5c3d3d"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-oldest-pool",
+      "desc-on-touch": "Stone cups that held the same water for ten thousand years. You feel the smoothness where current learned its argument.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "sediment-layers",
+      "desc-on-touch": "Each stratum a year the water could not speak aloud. You read the archive from bottom to top: drought, flood, drought, patience.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 83456,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "carved-cipher",
+      "desc-on-touch": "The river wrote its own language into stone long before the archive. You trace the glyphs and find they mean: I am still here.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 29374,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.48,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-reading-shelf",
+      "desc-on-touch": "A ledge where the current slows enough to leave its messages. Stone memorized the weight of water; you memorize the weight of time.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 55821,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the-throat-stone",
+      "desc-on-touch": "Where the channel narrows and the water learns to speak. All the river's memory concentrates here; you feel it amplified.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 41963,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.62,
+      "solid": true
+    }
+  ],
+  "inscription": "the river wrote before words; the stone listened and learned to remember in its own dialect",
+  "file": {
+    "name": "Water_Stone_Dialogue_Fragment_Quaternary.txt",
+    "note": "Margin notes by hand, some water-stained: the archive did not build itself; the water built us; we are only the stone the water taught to keep."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the channel's mouth, where the archive learned to cup water",
+      "to": "the-stone-channel-where-water-becomes-archive"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into bedrock, where the river's first voice still echoes",
+      "to": "NEW: the-river-s-deepest-throat-where-all-words-begin"
+    },
+    {
+      "dir": "n",
+      "label": "upstream, where tributaries remember being separate",
+      "to": "NEW: the-confluence-of-stone-and-syllable"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into sediment, where meaning dissolves into silt",
+      "to": "the-estuary-where-numbers-learn-to-flow"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "where-weavings-teach-each-other",
+  "title": "Where Weavings Teach Each Other",
+  "region": "The Understory",
+  "seed": 7734829,
+  "palette": {
+    "bg": "#1a3a3a",
+    "ground": [
+      "#2d5a5a",
+      "#4a7a7a"
+    ],
+    "ink": "#e8f0f0",
+    "accents": [
+      "#a0d8d8",
+      "#78c5c5",
+      "#5eb3b3",
+      "#d4f4f4"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the loom teaching",
+      "desc-on-touch": "You watch thread find thread in rows that learn each other's tension. Each line is a sentence; the loom hums its lesson into the quiet.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3342871,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "thread convergence",
+      "desc-on-touch": "Fibres spiral inward where patterns teach new patterns. The archive records how weft answers warp before they meet.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5628341,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "instruction glyph",
+      "desc-on-touch": "A plaque of thread-marks shows you: this is how weavings have always been teaching each other. The marks are older than names.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8834912,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "pattern memory",
+      "desc-on-touch": "A stack of threadcount records, each one a lesson from an earlier weaving. The archive has been filing these for longer than looms have existed.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 4456723,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "here the threads never finished learning; the loom keeps teaching because the weft remembers what the warp has already forgotten",
+  "file": {
+    "name": "ThreadTeaching_ConvergencePattern_1840sMethod.txt",
+    "note": "Threadcount records and loom-teaching methods: how patterns taught new patterns before language."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the directional weave",
+      "to": "the-directional-weave"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the loom chambers where spindles dream their patterns",
+      "to": "the-spindle-dream-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the oldest thread still answers",
+      "to": "the-root-loom-chamber"
+    }
+  ]
+}

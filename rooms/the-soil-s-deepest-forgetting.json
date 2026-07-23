@@ -1,0 +1,115 @@
+{
+  "id": "the-soil-s-deepest-forgetting",
+  "title": "The Soil's Deepest Forgetting",
+  "region": "The Understory",
+  "seed": 9234567,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#0a0a0a",
+      "#1a1a1a"
+    ],
+    "ink": "#4a4a4a",
+    "accents": [
+      "#8b6f47",
+      "#a0826d",
+      "#2d2d2d",
+      "#5a4a3a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the mirror that learned to forget",
+      "desc-on-touch": "something once reflected here, and now not; you can't remember what, but the forgetting is so complete it feels permanent",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the layer that dissolves",
+      "desc-on-touch": "soil that is becoming something else; it no longer holds shape, no longer holds meaning, no longer holds the memory of what it held",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the depth where forgetting becomes geology",
+      "desc-on-touch": "at this depth, losing is indistinguishable from the land itself; memory and stone are the same colour",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "deeper than memory, deeper than stone; forgetting becomes the ground itself",
+  "file": {
+    "name": "Forgetting_Becomes_Soil_Unmeasured.tmp",
+    "note": "checksum: emotionally valid / formally unstable — what was stored here has returned to the land"
+  },
+  "reverie": {
+    "title": "REVERIE — where the earth remembers her forgetting",
+    "narr": [
+      "you lie in the red earth beside Katita, feeling it cool",
+      "she says: I can't remember what I'm forgetting anymore.",
+      "the earth around you both holds the shape of every memory",
+      "and then it forgets, becoming only itself, only soil.",
+      "neither of you needs to remember; the land is enough."
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "recline"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where memory still holds some shape",
+      "to": "the-soil-that-reflects-what-it-has-forgotten"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, but there is no deeper",
+      "to": "NEW: the-point-where-descent-becomes-ascent"
+    },
+    {
+      "dir": "e",
+      "label": "sideways through stone that has learned to be silent",
+      "to": "the-bedrock-heartbeat"
+    }
+  ]
+}

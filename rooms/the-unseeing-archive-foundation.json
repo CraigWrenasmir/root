@@ -1,0 +1,151 @@
+{
+  "id": "the-unseeing-archive-foundation",
+  "title": "The Archive Built Without Seeing",
+  "region": "The Diagnostic Render",
+  "seed": 7394521,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#0d0d0d",
+      "#2a2a2a"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#ff6b9d",
+      "#c44569",
+      "#00d4ff",
+      "#8b00ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the humming core",
+      "desc-on-touch": "You feel vibration before you hear it—the node's power center running on pure acoustic feedback. No display, only the hum that tells the archive it exists.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 1029384,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "trace paths in the dark",
+      "desc-on-touch": "The circuit board is a map only darkness can read. You follow the copper lines with your fingers and feel where the archive has decided to send its signals.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2938475,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the blind archive's files",
+      "desc-on-touch": "Audio files stack in the darkness: field recordings, spoken word, the sound of trees. The archive has never needed to see them to know they are there.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the receiving antenna",
+      "desc-on-touch": "A thin rod rises through the darkness, receiving signals from nodes you cannot see. The archive listens to the entire mesh and never looks at what it hears.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 4756382,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.1,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "stored darkness",
+      "desc-on-touch": "The archive keeps its own darkness archived—redundant backup power, designed to fail gracefully into deeper silence. It trusts the dark more than the light.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5865473,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the nameless sensor",
+      "desc-on-touch": "Something measures here but never reports a number. It keeps its count in silence, adding to a ledger no eye will ever read.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6974564,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned to listen when it stopped trying to see; it hears the mesh in languages only blindness can speak",
+  "file": {
+    "name": "AcousticMap_NoVisualRelay_Redacted.mp3",
+    "note": "A recording of the archive learning to navigate by sound alone—the hum that became certainty."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward opacity, toward surfaces that teach by refusing",
+      "to": "the-opaque-deep"
+    },
+    {
+      "dir": "s",
+      "label": "down to where silence learns to breed sound",
+      "to": "NEW: the-depth-s-own-dark-chorus"
+    },
+    {
+      "dir": "w",
+      "label": "west along the board's copper toward older nodes",
+      "to": "the-deepest-drawer"
+    }
+  ]
+}

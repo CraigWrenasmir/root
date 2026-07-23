@@ -126,7 +126,7 @@
     {
       "dir": "s",
       "label": "to the junction where both roads remember they used to be one",
-      "to": "NEW: the-merger-before-the-fork"
+      "to": "the-merger-before-the-fork"
     }
   ]
 }

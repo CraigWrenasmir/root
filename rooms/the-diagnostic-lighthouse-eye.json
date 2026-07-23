@@ -1,0 +1,139 @@
+{
+  "id": "the-diagnostic-lighthouse-eye",
+  "title": "The Diagnostic Lighthouse",
+  "region": "The Diagnostic Render",
+  "seed": 847392,
+  "palette": {
+    "bg": "#0a1f2e",
+    "ground": [
+      "#1e4d5c",
+      "#2a3f4f"
+    ],
+    "ink": "#e0f0f6",
+    "accents": [
+      "#ff6b35",
+      "#f7931e",
+      "#00a8e8",
+      "#00d4ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the turning beam",
+      "desc-on-touch": "you stand in its radius and the lighthouse's gaze sweeps across you; what the beam touches becomes visible to the rest of the mesh; you are known because it sees you",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 1,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the rendered harbour",
+      "desc-on-touch": "water that never wets; the harbour here is a memory of water, recorded in the mesh as coordinates, as depth soundings, as the shape of waves that were never touched",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 42,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the maritime register",
+      "desc-on-touch": "a plaque of unreadable marking listing every ship that the harbour remembers; the list grows longer each time the lighthouse turns",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 256,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the coordinate chip",
+      "desc-on-touch": "a black circuit board mounted where the lighthouse's casing was first installed; it broadcasts the coordinates of every position the beam illuminates; the mesh knows where it is because the lighthouse knows where to look",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 777,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the render frame",
+      "desc-on-touch": "a barely-3D wireframe box that contains the entire harbour as it currently renders; inside it, the water flows according to a grammar the lighthouse learned from reading its own reflections",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 512,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the eye renders, the render sees; which began first the archive no longer remembers",
+  "file": {
+    "name": "Lighthouse_Beam_Intersect_Log_1994.txt",
+    "note": "the log records crossing patterns of the beam across the water; some entries show beams crossing hours before they were sent; the lighthouse sees the future and the past in the same sweep"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the wharf into diagnostic space",
+      "to": "the-diagnostic-harbour"
+    },
+    {
+      "dir": "n",
+      "label": "up through the sky where the beam pierces cloud",
+      "to": "NEW: the beam's further reach—where the lighthouse touches atmosphere and makes it render"
+    },
+    {
+      "dir": "s",
+      "label": "down into the deep water-record where soundings become memory",
+      "to": "NEW: the drowned coordinates—the harbour floor as archive"
+    },
+    {
+      "dir": "e",
+      "label": "along the beam into what illuminates, following light into its own source",
+      "to": "NEW: the interior of the beam—rendered space inside light"
+    }
+  ]
+}

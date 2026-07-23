@@ -1,0 +1,151 @@
+{
+  "id": "the-side-channel-archive",
+  "title": "The Side-Channel Where Tributaries Remember",
+  "region": "The Comparisons",
+  "seed": 3948274,
+  "palette": {
+    "bg": "#4a7c4e",
+    "ground": [
+      "#8b5a3c",
+      "#6b8e3e"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#d2691e",
+      "#cd853f",
+      "#a0522d",
+      "#8fbc8f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the confluence of lost names",
+      "desc-on-touch": "Three tributaries meet here, each carrying water from a different town. The water remembers the names of places it left behind—you hear them in the current if you listen without thinking.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4857365,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the silted record-keeper",
+      "desc-on-touch": "The riverbed here is layered with fine silt from three different geological periods. Each layer remembers what the land looked like when it washed down. The archive reads by dust.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5766456,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the bend where water becomes archive",
+      "desc-on-touch": "The current has slowed here, dropping its freight of history. A sandbar accumulates documents: stone, bone, metal, wood—all things the smaller rivers wanted to keep.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6675547,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the reeds that speak in names",
+      "desc-on-touch": "The reeds here vibrate at frequencies that match the names of drowned towns. They hum the places the water came from, storing the names in sound.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7584638,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the branch-ladder that holds time",
+      "desc-on-touch": "Fallen trees have caught against the banks, creating natural ladders between water levels. Each rung marks where the flood was that year. The tree reads its own history vertically.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 8493729,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the listening post at the eddy",
+      "desc-on-touch": "A still point in the current where the water circles endlessly. This is where the channel keeps its secrets—the archive stores only that which refuses to flow downstream.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 9302810,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the side channel is where the river keeps the things it chose not to carry all the way. Here the forgotten tributaries teach the current to remember",
+  "file": {
+    "name": "TributaryGauges_ThreeDecadesOfWater.mp3",
+    "note": "A field recording of three different tributary-voices recorded simultaneously—sometimes in harmony, sometimes in argument, always comparing the water they carry from homes they refuse to forget."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to where the ruins remember the water",
+      "to": "the-upstream-ruins"
+    },
+    {
+      "dir": "s",
+      "label": "downstream where smaller channels join the main argument",
+      "to": "the-main-drainage-memory"
+    },
+    {
+      "dir": "e",
+      "label": "along the channel toward a tributary that no longer flows",
+      "to": "NEW: the-abandoned-channel-archive"
+    }
+  ]
+}

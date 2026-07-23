@@ -1,0 +1,139 @@
+{
+  "id": "the-transmission-end-weather-broadcast",
+  "title": "The Transmission-End Where Signal Becomes Weather",
+  "region": "The Understory",
+  "seed": 72385,
+  "palette": {
+    "bg": "#d9642e",
+    "ground": [
+      "#c9533f",
+      "#e68a5c"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#f97316",
+      "#fbbf24",
+      "#fca5a5",
+      "#e01e5a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-antenna-that-broadcasts-rain",
+      "desc-on-touch": "The tower sends and receives the same signal. During downpours, you cannot tell if it is transmitting or receiving. Perhaps the rain is the message.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 81549,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-interference-pool",
+      "desc-on-touch": "Where the static becomes visible, pooling like oil, refracting the sunset into noise made colour. You hear the transmission as you watch the weather ripple.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 54763,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "the-operator-s-station",
+      "desc-on-touch": "A small house where someone once sat logging the weather while the weather logged them back. Their notes say the same thing: static, static, static, wind.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 46298,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.22,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "the-storm-dial",
+      "desc-on-touch": "A gauge that measures both barometric pressure and signal strength. The needles move together. Rain and radio are speaking in the same dialect now.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 63924,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.82,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the-broadcast-cloud",
+      "desc-on-touch": "A storm-cell that moves in the shape of carrier waves. Its lightning spells morse-code. The thunder is modulated. You recognize the rhythm: it is calling itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 37451,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "the signal learned the weather's patience; the weather learned the signal's speed; now they are the same thing, broadcasting in both directions at once",
+  "file": {
+    "name": "Radio_Log_1987_Interseasonal_Interference.txt",
+    "note": "Entries cease to distinguish between meteorology and transmission. Final log entry: weather is 300 bits per second. the archive is answering itself."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward where signal was still learning to be weather",
+      "to": "the-signal-weather-ceiling"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the dusk-lands where all broadcast becomes sunset",
+      "to": "NEW: the-final-transmission-where-horizon-ends"
+    },
+    {
+      "dir": "n",
+      "label": "upstream toward the source-transmitter, where the first signal still echoes",
+      "to": "NEW: the-root-frequency-station"
+    },
+    {
+      "dir": "s",
+      "label": "downwind into the dissipated-static where all signals dissolve into wind",
+      "to": "the-estuary-where-broadcasts-fade"
+    }
+  ]
+}

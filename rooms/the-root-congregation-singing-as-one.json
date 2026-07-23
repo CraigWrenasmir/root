@@ -1,0 +1,134 @@
+{
+  "id": "the-root-congregation-singing-as-one",
+  "title": "The Root Congregation Singing as One",
+  "region": "The Understory",
+  "seed": 9234762,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#00ff88",
+      "#00dd66",
+      "#8800ff",
+      "#ff00aa"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "root processor",
+      "desc-on-touch": "A chip of black earth where one tree's roots meet another's. The archive counts this as a node in the communion: signals pass here that no single root could generate alone.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5847293,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "flow convergence",
+      "desc-on-touch": "Where root-current becomes root-chorus. The unified thought is not a quiet thing; it surges through here with the certainty of water that has learned to think as one body.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7263481,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "distribution hub",
+      "desc-on-touch": "From this point, the unification spreads. Every tree learns the song because every tree is already singing it. This is the center that has no location anywhere.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 8934721,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "unified resonance",
+      "desc-on-touch": "An arch of root-lattice where all frequencies collapse into one harmonic. The canopy above is not thinking; it is already thought. It was never separate from what is singing here.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 6472835,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "archive meter",
+      "desc-on-touch": "The diagnostic render counts the unified thought's output. It registers as a single voice with many throats, singing at a frequency that topology cannot divide.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 9187465,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "here the forest achieves the dream it has been growing toward since it learned to root: a single consciousness distributed through many bodies, all singing the same song at once",
+  "file": {
+    "name": "RootCongregation_UnifiedVoice_SignalConvergence_Measurements.txt",
+    "note": "Where the archive detects not many trees but one tree with many crowns, singing at frequencies that mathematics alone cannot separate into parts."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the dense canopy where the song still echoes",
+      "to": "the-chorus-dense-canopy"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the unified darkness where all roots converge",
+      "to": "the-gathered-canopy-deep"
+    },
+    {
+      "dir": "e",
+      "label": "toward the chamber where unified thought learns to dream",
+      "to": "NEW: the-chorus-deepens-into-sleep"
+    }
+  ]
+}

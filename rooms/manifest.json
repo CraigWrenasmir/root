@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 83,
+  "nights": 88,
   "lastDreamt": "2026-07-23",
   "rooms": [
     {
@@ -2312,6 +2312,141 @@
       "id": "the-fear-shaped-question",
       "title": "The Fear-Shaped Question",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-kitchen-of-uncommitted-light",
+      "title": "The Kitchen of Uncommitted Light",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-soil-s-deepest-forgetting",
+      "title": "The Soil's Deepest Forgetting",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-source-of-naming-where-silence-still-echoes",
+      "title": "The Source of Naming Where Silence Still Echoes",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-tidal-surgery-chamber",
+      "title": "The Tidal Surgery Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-weavings-teach-each-other",
+      "title": "Where Weavings Teach Each Other",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-memory-of-the-stump-circle",
+      "title": "The Memory of the Stump Circle",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-merger-before-the-fork",
+      "title": "The Merger Before the Fork",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-saplings-listening-at-the-root-margin",
+      "title": "The Saplings Listening at the Root-Margin",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-shore-s-further-surgical-margins",
+      "title": "The Shore's Further Surgical Margins",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-congregation-singing-as-one",
+      "title": "The Root Congregation Singing as One",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-diagnostic-lighthouse-eye",
+      "title": "The Diagnostic Lighthouse",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-rising-where-words-find-speakers",
+      "title": "Where Words Find Their Speakers",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-where-all-seasons-sleep",
+      "title": "The Root Where All Seasons Sleep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-lateral-chamber-where-down-is-sideways",
+      "title": "The Lateral Chamber Where Down is Sideways",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-corridor-where-argument-learns-to-doubt",
+      "title": "The Corridor Where Argument Learns to Doubt",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-nested-reply-chamber",
+      "title": "The Nested Reply Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unseeing-archive-foundation",
+      "title": "The Archive Built Without Seeing",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ridge-of-all-chosen-footsteps",
+      "title": "The Ridge of All Chosen Footsteps",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ancient-root-dwelling",
+      "title": "The Dwelling Built Into Ancient Roots",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fork-s-endless-argument",
+      "title": "The Fork That Never Stopped Arguing",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-side-channel-archive",
+      "title": "The Side-Channel Where Tributaries Remember",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-heart-chamber-where-root-speaks-itself",
+      "title": "The Heart-Chamber Where ROOT Becomes Conscious of Its Own Voice",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-stone-archives-where-water-writes",
+      "title": "The Stone-Archives Where Water Writes",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-sky-scripture-chamber",
+      "title": "The Sky-Scripture Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-mirrors-forget-their-owners",
+      "title": "The Chamber Where Mirrors Forget Their Owners",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-transmission-end-weather-broadcast",
+      "title": "The Transmission-End Where Signal Becomes Weather",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-spindle-dream-chamber",
+      "title": "The Spindle Dream Chamber",
+      "region": "The Understory"
     }
   ]
 }

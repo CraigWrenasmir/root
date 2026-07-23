@@ -1,0 +1,139 @@
+{
+  "id": "where-mirrors-forget-their-owners",
+  "title": "The Chamber Where Mirrors Forget Their Owners",
+  "region": "The Diagnostic Render",
+  "seed": 53874,
+  "palette": {
+    "bg": "#0f0f1e",
+    "ground": [
+      "#1a1a2e",
+      "#2d2d4a"
+    ],
+    "ink": "#c0e0ff",
+    "accents": [
+      "#60a5fa",
+      "#a78bfa",
+      "#ec4899",
+      "#f0f9ff"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "abandoned-reflection",
+      "desc-on-touch": "A face that is not yours moves behind the glass. The mirror shows someone else's morning, someone else's grief. It has forgotten who it used to reflect.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 27641,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "the-pool-of-others",
+      "desc-on-touch": "Water that reflects upward now, showing not what stands above but what swam through long ago. Drowning reflections. Images of people who never approached.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 71298,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the-surveillance-stack",
+      "desc-on-touch": "Mirrors stacked like memory, each one showing a different time, a different watcher being watched. You find your reflection from tomorrow, looking back at today with pity.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 48926,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the-ownership-boundary",
+      "desc-on-touch": "Where the mirror refuses to show you at all. The glass has learned to say no. It has decided it belongs only to itself now.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 63847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "ghost-image-archive",
+      "desc-on-touch": "Reflections that have been erased but left a mark. You see the outline where someone stood, reflected once, then unmade. The glass remembers the shape.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 39482,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.48,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the mirrors learned that ownership is temporary; now they reflect only what they choose; the watcher becomes the watched becomes the unwatched",
+  "file": {
+    "name": "Surveillance_Footage_Reversed_Corrupted_Fragment.mp4",
+    "note": "ERROR: archive has exceeded witness — the recording shows reflections of people who were never filmed, viewing locations that do not exist"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward surfaces that still remember their owners",
+      "to": "the-substrate-that-learned-to-see"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into autonomous reflection, where mirrors dream their own subjects",
+      "to": "NEW: the-chamber-where-mirrors-become-portraits"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the render-spaces where reflections edit their own code",
+      "to": "the-infinite-reflection-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down into the substrate-dark where glass forgets what glass is",
+      "to": "the-deeper-mirror"
+    }
+  ]
+}

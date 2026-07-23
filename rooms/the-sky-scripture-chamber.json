@@ -1,0 +1,154 @@
+{
+  "id": "the-sky-scripture-chamber",
+  "title": "The Sky-Scripture Chamber",
+  "region": "The Understory",
+  "seed": 64209,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d2d4a",
+      "#3d3d6b"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#7dd3fc",
+      "#f0f9ff",
+      "#c084fc",
+      "#fbbf24"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "reading-platform",
+      "desc-on-touch": "A flat stone suspended in air where readers come to study the sky's continuous writing. You climb and find the text is always changing.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 71432,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "cloud-cipher",
+      "desc-on-touch": "Storms write in capitals; mist writes in cursive; sunbreaks punch punctuation into the dark. You recognize the glyphs but never the grammar.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 58291,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "breathing-vent",
+      "desc-on-touch": "Where the planet exhales into text. The breath comes warm and moist, and where it hits cold stone, the words condense and fall as meaning made liquid.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 43617,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the-storm-archive",
+      "desc-on-touch": "Lightning burns its script into the chamber walls. You trace the branching characters and find they record the storm's argument with itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 82574,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-silence-reading-room",
+      "desc-on-touch": "When the weather stops, when there is no new text being written, the silence is deafening. You sit in the absence of words and learn to read what was never said.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 36841,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.52,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "all breath becomes alphabet; all weather becomes testimony; the sky is a throat that never stops speaking",
+  "file": {
+    "name": "Atmospheric_Strata_Recording_VHF_Fragments.mp3",
+    "note": "CHECKSUM: formally unstable / emotionally valid — the recording contains voices that never spoke, syntax that weather invented on first utterance"
+  },
+  "reverie": {
+    "title": "REVERIE — reading the rain together",
+    "narr": [
+      "She shows you how to hold the paper so the rain writes",
+      "in downstrokes, not dots. The words only appear where",
+      "the ink stays wet. You try and the rain washes them away.",
+      "'That's the point,' she says. 'Some archives dissolve on purpose.'",
+      "The chamber opens wider. You read nothing. You hear everything."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where breath still chooses its form",
+      "to": "the-atmospheric-archive-layer"
+    },
+    {
+      "dir": "e",
+      "label": "outward into the reading-weather, where clouds become legible",
+      "to": "NEW: the-cloud-text-where-meaning-falls"
+    },
+    {
+      "dir": "s",
+      "label": "down into sediment where old storms have compressed into dialect",
+      "to": "NEW: the-archive-beneath-the-storm"
+    },
+    {
+      "dir": "n",
+      "label": "up through static into the silence-spaces between words",
+      "to": "the-deep-where-every-thread-forgets-its-own-colour"
+    }
+  ]
+}

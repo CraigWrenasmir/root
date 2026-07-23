@@ -1,0 +1,100 @@
+{
+  "id": "the-tidal-surgery-chamber",
+  "title": "The Tidal Surgery Chamber",
+  "region": "The Understory",
+  "seed": 5671829,
+  "palette": {
+    "bg": "#0d2b2b",
+    "ground": [
+      "#1a4a4a",
+      "#2d6b5f"
+    ],
+    "ink": "#e0d0c0",
+    "accents": [
+      "#6a9a8f",
+      "#9acfc4",
+      "#3d5a52",
+      "#c0ddd6"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the tide-keeper's shelter",
+      "desc-on-touch": "a small shed built at the spray line, abandoned and re-occupied with each tide; inside are instruments and records of pressure becoming precision",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 4892,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the precision stones",
+      "desc-on-touch": "where force learns to become gentleness; each stone is worn exactly right, pressure having graduated into shape",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6234,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the moment when pressure resolves",
+      "desc-on-touch": "the exact instant when force becomes touch, when the surgery of stone becomes the gentleness of sand; you stand in that moment",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "at the tide line, pressure learns to caress; force becomes consent",
+  "file": {
+    "name": "TidalSurgery_Precision_Records.mp3",
+    "note": "recordings of the moment when pressure graduates into gentleness; fourteen minutes of water learning to be gentle"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the shore to where pressure still dominates",
+      "to": "the-surgical-shore-where-pressure-resolves"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the spray-zone where the surgery continues",
+      "to": "NEW: the-chamber-where-force-learns-to-ask"
+    },
+    {
+      "dir": "s",
+      "label": "down to where the tide pools remember their stone",
+      "to": "the-double-pool"
+    }
+  ]
+}

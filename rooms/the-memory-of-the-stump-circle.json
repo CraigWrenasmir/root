@@ -1,0 +1,133 @@
+{
+  "id": "the-memory-of-the-stump-circle",
+  "title": "The Memory of the Stump Circle",
+  "region": "The Comparisons",
+  "seed": 2847361,
+  "palette": {
+    "bg": "#8b5a2b",
+    "ground": [
+      "#d2691e",
+      "#cd853f"
+    ],
+    "ink": "#0a0a0a",
+    "accents": [
+      "#228b22",
+      "#32cd32",
+      "#daa520",
+      "#f0e68c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "stump circle",
+      "desc-on-touch": "Twelve stumps arranged as they fell. Each ring you count is a year the children watched grow. Now the rings count backward toward what was taken.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6723481,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "shoot emergence",
+      "desc-on-touch": "Bright green breaks from the heartwood. The stumps are teaching the forest how to regrow by showing it what was learned the first time.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 9284756,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "teaching marks",
+      "desc-on-touch": "The children carved their lessons into the wood. Now the forest reads them aloud. The carvings have become forest-language.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3951827,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "time-counting chamber",
+      "desc-on-touch": "An archive marker where you can read how many seasons have passed since the circle learned it was a circle. The count never stops growing.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5417293,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the children showed the stumps that growing backward was still growing; now the circle remembers teaching more than it remembers being trees",
+  "file": {
+    "name": "ChildrensLessons_Carved_RingCount_Comparisons.txt",
+    "note": "Notches and words carved into living stumps, slowly being swallowed by regrowth. The forest learning to read the teaching before the teaching disappears."
+  },
+  "reverie": {
+    "title": "REVERIE — stump circle at the hour of learning",
+    "narr": [
+      "You both stand inside the circle while children move",
+      "between the stumps like the forest is teaching them",
+      "something with its absence. She has a knife. You watch",
+      "her mark the tallest stump with a date that will never",
+      "make sense to anyone who reads it later. The children",
+      "will understand. They learned their forest differently now."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the clearcut and the children who taught it",
+      "to": "the-clearcut-where-children-taught-the-forest"
+    },
+    {
+      "dir": "e",
+      "label": "toward the deeper forest remembering",
+      "to": "the-forest-that-refused-to-split"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the first ring still grows in memory",
+      "to": "NEW: the-circle-s-first-ring-chamber"
+    }
+  ]
+}

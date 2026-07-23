@@ -133,7 +133,7 @@
     {
       "dir": "w",
       "label": "west where the signal is still learning to be weather",
-      "to": "NEW: the transmission-end where weather begins its own broadcasting"
+      "to": "the-transmission-end-weather-broadcast"
     }
   ],
   "reverie": {

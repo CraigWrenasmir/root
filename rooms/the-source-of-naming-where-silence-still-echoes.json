@@ -1,0 +1,100 @@
+{
+  "id": "the-source-of-naming-where-silence-still-echoes",
+  "title": "The Source of Naming Where Silence Still Echoes",
+  "region": "The Diagnostic Render",
+  "seed": 4756829,
+  "palette": {
+    "bg": "#2a2a3e",
+    "ground": [
+      "#3a3a4a",
+      "#4a4a5e"
+    ],
+    "ink": "#f0e0d0",
+    "accents": [
+      "#8a7a6a",
+      "#c0b0a0",
+      "#5a5a7a",
+      "#d0c0b0"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the first empty slot",
+      "desc-on-touch": "a place where a name should be, but is not; the silence here is so clean it has its own echo",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2134,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the rows of unspoken words",
+      "desc-on-touch": "a plantation of words that decided never to be said; each one stands in its row and holds the shape of what it didn't become",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7890,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the echo of the first silence",
+      "desc-on-touch": "before there were names, there was a silence that named itself; this is what it sounded like, or what it still sounds like",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 3567,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "naming begins here, or doesn't; each name you don't speak is one the silence keeps forever",
+  "file": {
+    "name": "UnspokenWords_Registry_Primordial.txt",
+    "note": "what is written here is invisible; the words decided never to leave the silence"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where names remember being words",
+      "to": "the-registry-of-primordial-naming"
+    },
+    {
+      "dir": "n",
+      "label": "up toward a name that is still being spoken",
+      "to": "NEW: the-chamber-where-naming-happens-without-sound"
+    },
+    {
+      "dir": "e",
+      "label": "along the plantation where every row is a word that almost was",
+      "to": "the-infinite-cellular-archive"
+    }
+  ]
+}

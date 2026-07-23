@@ -1,0 +1,151 @@
+{
+  "id": "the-fork-s-endless-argument",
+  "title": "The Fork That Never Stopped Arguing",
+  "region": "The Clean Archive",
+  "seed": 4729384,
+  "palette": {
+    "bg": "#e8f0e8",
+    "ground": [
+      "#7a9d8a",
+      "#a4b8a1"
+    ],
+    "ink": "#2d3a2d",
+    "accents": [
+      "#4a6741",
+      "#c4a57b",
+      "#6b8e71",
+      "#9d8b5c"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the split water",
+      "desc-on-touch": "The creek divides here and never chooses. It runs east and west simultaneously, maintaining an argument with itself about which way is downstream.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5638475,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the twin eucalypts in disagreement",
+      "desc-on-touch": "Two trees grow from the fork point, each leaning the opposite direction. Their argument is ancient and patient. Neither has conceded. Neither will.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 6547566,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the path that holds both directions",
+      "desc-on-touch": "Walkers stand here confused. The path splits but both directions somehow feel like the same path to two different places. Your footprint belongs to both destinations.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7456657,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the stone that refuses to choose",
+      "desc-on-touch": "A rock sits exactly at the fork point, worn by the creek's indecision into a smooth sphere. It has no weight. No force can move it because there is nowhere to push it that isn't also its home.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 8365748,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the bark notes carved in opposition",
+      "desc-on-touch": "The eucalypts have been carved with notes from walkers—one side argues for east, the bark on the other side argues for west. The carvings have been accumulating for decades.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 9274839,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the echo that splits its own voice",
+      "desc-on-touch": "Call here and your voice returns from both directions at once, each echo arguing back. The fork has learned to speak in disagreement.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 1093847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the fork chose to never choose; and so it remains both ways at once, teaching walkers that some arguments are solved only by refusing to settle them",
+  "file": {
+    "name": "FollowBothPaths_GuideToContradiction.txt",
+    "note": "A walker's attempt to follow both forks simultaneously by describing the fork-choice in three different tenses at once. The methodology works perfectly and makes no practical sense."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to where the merger still sings in harmony",
+      "to": "the-merger-before-the-fork"
+    },
+    {
+      "dir": "e",
+      "label": "down the eastern path that is also the western path",
+      "to": "NEW: down the eastern path that is also the western path"
+    },
+    {
+      "dir": "w",
+      "label": "down the western path that is also the eastern path",
+      "to": "NEW: the-side-valley-s-own-argument"
+    }
+  ]
+}
