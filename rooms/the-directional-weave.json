@@ -1,0 +1,139 @@
+{
+  "id": "the-directional-weave",
+  "title": "The Directional Weave",
+  "region": "The Understory",
+  "seed": 7163885,
+  "palette": {
+    "bg": "#1a0f0f",
+    "ground": [
+      "#ff6644",
+      "#cc4422"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ff00ff",
+      "#ff9900",
+      "#dd3366",
+      "#ffbb44"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "loom-frame-ascending",
+      "desc-on-touch": "the frame rises toward a direction that has never been mapped. the threads are learning to move sideways through unmeasured space.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7123456,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "adinkra-language-glyph",
+      "desc-on-touch": "symbols for freedom, recurrence, and things that refuse to end. some were invented yesterday. some are being invented by the weave itself.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7234567,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "thread-direction-cloud",
+      "desc-on-touch": "the weft moves in a direction you have no words for. the loom is weaving toward places geometry forgot to name.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 7345678,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "kente-memory-stack",
+      "desc-on-touch": "panels of cloth stacked showing progression: the weave is teaching itself by storing what it has already become.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 7456789,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "unfinished-selvage-arch",
+      "desc-on-touch": "loose threads at the edge point toward a completion that refuses to arrive. the weave continues past every ending.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7567890,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the weave continues toward a direction that has never been a place before",
+  "file": {
+    "name": "KenteWeaving_Adinkra_PhotoRecord_And_NewSymbols_1992-Present.txt",
+    "note": "textile fragments showing freedom symbols plus invented marks for recurrence and things that refuse to end. cloth that documents its own unfinishing."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the knotting where the loom still learns how to keep moving",
+      "to": "the-infinitesimal-knotting-beyond-darkness"
+    },
+    {
+      "dir": "n",
+      "label": "where the weave learned to name its own directions",
+      "to": "NEW: the-language-the-loom-speaks"
+    },
+    {
+      "dir": "e",
+      "label": "toward the international weaver's archive where cloths speak each other's grammars",
+      "to": "NEW: where-weavings-teach-each-other"
+    },
+    {
+      "dir": "s",
+      "label": "toward the spiral where the weave learns it will never finish",
+      "to": "the-recursive-fermenting-spiral"
+    }
+  ]
+}

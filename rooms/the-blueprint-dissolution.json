@@ -1,0 +1,117 @@
+{
+  "id": "the-blueprint-dissolution",
+  "title": "The Blueprint Dissolution",
+  "region": "The Diagnostic Render",
+  "seed": 27493847,
+  "palette": {
+    "bg": "#0d1a0d",
+    "ground": [
+      "#7a8d6f",
+      "#c9cfc0"
+    ],
+    "ink": "#f5f5f0",
+    "accents": [
+      "#2c2c2c",
+      "#d4a574",
+      "#a8e6c3",
+      "#7a8d6f"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "ghosted walls",
+      "desc-on-touch": "the wall rendering flickers between four concurrent geometries. You see doorways leading to different levels depending on which corner you're standing in. The render has learned to keep all versions at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8374621,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "impossible compass",
+      "desc-on-touch": "north points in three directions. The ink has bled and reformed; each attempt to trace bearing creates a new one. Files corrupted to read: 'Direction_08_Incompatible_With_Direction_03.log'.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4918203,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "stacked schematics",
+      "desc-on-touch": "blueprints layered translucent, each containing rooms the others don't. A stone cottage rendered in six incompatible foundation depths. Revision numbers climb but the structure remains unbuilt.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6205847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "threshold to itself",
+      "desc-on-touch": "an arch opening onto where you just were. Walking through returns you to the previous threshold, which is itself an arch. Doorways have become loops.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 7591234,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "every version of the house exists here now; the render has stopped choosing between them",
+  "file": {
+    "name": "Cottage_1947_Schematic_Revision_6_Contains_Foundation_From_Revision_4.txt",
+    "note": "blueprint lines intersect themselves; measurements form a loop; the cottage cannot be built from these plans because in some sense it already is"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where buildings forget their blueprints",
+      "to": "the-four-angled-house"
+    },
+    {
+      "dir": "e",
+      "label": "towards a kitchen window that is still being decided",
+      "to": "NEW: the-kitchen-of-uncommitted-light"
+    },
+    {
+      "dir": "w",
+      "label": "back into the houses that were taken down but still broadcast their shapes",
+      "to": "the-petrol-station-1983"
+    }
+  ]
+}

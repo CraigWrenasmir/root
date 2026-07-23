@@ -1,0 +1,134 @@
+{
+  "id": "the-menu-within-the-menu",
+  "title": "The Menu Within the Menu",
+  "region": "The Diagnostic Render",
+  "seed": 82735194,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#1a1a1a",
+      "#333333"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#00ff00",
+      "#ff00ff",
+      "#00ffff",
+      "#cccccc"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "nested-chip",
+      "desc-on-touch": "circuit board inside circuit board. Each layer contains a smaller version of itself. Files point to files that point to themselves. The pinouts lead to other boards leading to the same board, forever.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 7493821,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "system-boot-unfinished",
+      "desc-on-touch": "the boot sequence that never ends. Every version of it already exists in the previous version's documentation. A file corrupted to read: 'Boot_Cycle_Contains_Record_Of_All_Boot_Cycles_Including_This_One.txt'.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3648271,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "cursor-awaiting-input",
+      "desc-on-touch": "the blinking has never stopped. The menu waits for a command that would navigate you to another menu, which is also this menu, which is also waiting for input.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5812704,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "option-that-returns-to-itself",
+      "desc-on-touch": "select it and you are here. The text says 'select option to proceed' and the option leads here, and there is only this option. Recursion has become geography.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 9127356,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "memory-trace",
+      "desc-on-touch": "faint traces of menus long rendered, still visible in the substrate. All versions of the menu exist simultaneously in the phosphor. The layering is stable now; it learned to hold them all at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 4756132,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "every navigation leads back to this screen; you have become part of the rendering",
+  "file": {
+    "name": "System_Menu_Contains_Reference_To_Itself_At_Every_Level_Verified.log",
+    "note": "status: germinating — nesting is stable; the archive has learned to hold infinite versions inside itself without collapsing"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the room where all routes lead inward",
+      "to": "the-closed-grid-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "into an even smaller menu that contains this one",
+      "to": "NEW: the-sub-menu-that-tastes-of-older-software"
+    },
+    {
+      "dir": "e",
+      "label": "towards a boot sequence that might not have started yet",
+      "to": "the-archive-s-clockwork-core"
+    }
+  ]
+}

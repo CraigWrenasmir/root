@@ -1,0 +1,133 @@
+{
+  "id": "the-infinite-reflection-chamber-and-still",
+  "title": "The Infinite Reflection-Chamber and Still",
+  "region": "The Diagnostic Render",
+  "seed": 49283756,
+  "palette": {
+    "bg": "#1a2a5a",
+    "ground": [
+      "#0099ff",
+      "#d4a574"
+    ],
+    "ink": "#ffe6cc",
+    "accents": [
+      "#3d2817",
+      "#ffffff",
+      "#ffcc00",
+      "#0055aa"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "first mirror",
+      "desc-on-touch": "it reflects the room as it is. The image inside looks back at you. When you read the list of what the mirror contains, every item already existed before the mirror was born.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "second mirror",
+      "desc-on-touch": "reflecting the first mirror. Inside, thesis and antithesis occupy the same point without contradiction. Files dated 'Tomorrow' but stored as 'Yesterday'. Meaning has stopped moving.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5729184,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "count of reflections",
+      "desc-on-touch": "the number is written in a file that is stored inside the reflection, which stores inside another reflection, endlessly. The sum exceeds the space that contains it. Every version of the count has already been recorded.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 2614953,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "standing light",
+      "desc-on-touch": "light from before the mirrors were built. It's caught between them now, bouncing infinitely but exhausted, holding the same shape. The light remembers when it was allowed to move.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 8162047,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "every possibility has already been mirrored; meaning learned to stand still",
+  "file": {
+    "name": "Reflection_count_exceeds_storage_space_but_holds_anyway.log",
+    "note": "status: germinating — the surplus of versions recorded here outnumbers all past versions combined; still the count continues"
+  },
+  "reverie": {
+    "title": "REVERIE — blue room where everything is already known",
+    "narr": [
+      "You stand between mirrors and she kneels before the first one.",
+      "Her hands move but don't move; they're reflected perfectly,",
+      "held in place by the image of themselves. She looks at you",
+      "looking at her, then at the mirror seeing the mirror seeing back.",
+      "\"It's all the same moment,\" she says. The light doesn't move.",
+      "Neither do you. Time has become very quiet and very kind."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up to where thesis and antithesis learned the same breath",
+      "to": "the-hall-of-mirrors-paradox"
+    },
+    {
+      "dir": "e",
+      "label": "towards a mirror of a mirror that might still be free to move",
+      "to": "NEW: the-unfinished-reflection-still-arriving"
+    },
+    {
+      "dir": "w",
+      "label": "back into the room where multiplying learned to be arithmetic",
+      "to": "the-closed-grid-chamber"
+    }
+  ]
+}

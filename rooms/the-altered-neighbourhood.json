@@ -1,0 +1,155 @@
+{
+  "id": "the-altered-neighbourhood",
+  "title": "The Street Where Gentleness Learned to Spread",
+  "region": "The Clean Archive",
+  "seed": 2849731,
+  "palette": {
+    "bg": "#e8dcc8",
+    "ground": [
+      "#c9b896",
+      "#8ab4d5"
+    ],
+    "ink": "#2c2c2c",
+    "accents": [
+      "#d4a574",
+      "#5a7fa6",
+      "#3d3d2a",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "house-keeper's record",
+      "desc-on-touch": "each house holds a door, a window, a place where someone's change began and stayed kind. the archive reads these alterations as if they were written down.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 1927,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "spreading gentleness",
+      "desc-on-touch": "the change crossed from one family to the next not as infection but as habit learned and passed forward. kindness as contagion.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5614,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "alterations kept secret",
+      "desc-on-touch": "each family keeping a different secret — what they changed into, how permanent it was, whether they chose it or it chose them.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7385,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "thorough kindness marker",
+      "desc-on-touch": "a standing place that marks: the change was not violent; it was thorough; it was permanent; it was also kind. all four things at once.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 4201,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "gentle settling",
+      "desc-on-touch": "the streets themselves learned the feel of this spreading change. dust settles differently here, as if even the air has accepted what happened.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6123,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the neighbourhood learned that change could be permanent and still feel like coming home.",
+  "file": {
+    "name": "Altered_Street_Families_Records_1982-1991.txt",
+    "note": "documented: each house tells a different version of the same kindness"
+  },
+  "reverie": {
+    "title": "REVERIE — the street where nothing stayed the same but every",
+    "narr": [
+      "You walk with her down a street where families",
+      "are becoming something else — not fast, not violent.",
+      "In one yard, children play games with new rules",
+      "they seem to know by heart already. A woman watches",
+      "from a porch, and Katita squeezes your hand. 'They're",
+      "choosing this,' she says. 'They're choosing to stay.'"
+    ],
+    "sky": "dawn",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward to the house of changed children",
+      "to": "the-house-of-changed-children"
+    },
+    {
+      "dir": "w",
+      "label": "westward into deeper alteration, where change learned to speak",
+      "to": "NEW: the-speaking-alteration-deep"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where the kindness reaches its edge",
+      "to": "NEW: the-kindness-threshold"
+    },
+    {
+      "dir": "s",
+      "label": "southward where other families keep their versions",
+      "to": "the-clearing-where-both-paths-converge"
+    }
+  ]
+}

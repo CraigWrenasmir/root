@@ -1,0 +1,100 @@
+{
+  "id": "the-surgical-shore-where-pressure-resolves",
+  "title": "The Surgical Shore Where Pressure Resolves",
+  "region": "The Understory",
+  "seed": 64187,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#c49c5f",
+      "#b8905a"
+    ],
+    "ink": "#2d1b0a",
+    "accents": [
+      "#8b6f47",
+      "#a0855a",
+      "#6b5436",
+      "#c4a070"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-pressure-release-point",
+      "desc-on-touch": "Where the beach meets the ravine, pressure that had been building for geological ages finds a single point and resolves. The sand here is perfect smoothness, carved by force graduating into gentleness. A surgery that took millennia to complete.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 78934,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-erosion-margin",
+      "desc-on-touch": "Where soft sand transitions to resistant stone, the landscape shows its surgical precision. Each grain that departed, each grain that stayed. The boundary between what could erode and what could resist.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 42187,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-fence-of-stones",
+      "desc-on-touch": "In orchard rows, water-worn stones mark where pressure once flowed. Each one precise in its position, as if pressure learned to count. The archive cannot decide if this is geology or accountancy.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 91456,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "where pressure graduates into the gentleness of sand, the one moment in geological time when force became precision",
+  "file": {
+    "name": "Beach_Surgery_Field_Log_Faded_80s_Handwriting.txt",
+    "note": "Fragmentary notes on pressure release at shore. Entries describe geological processes using surgical terminology. Reference to 'woman in red' appears twice. Archive status: unclear whether these are e"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up into the spiral valleys where pressure still falls",
+      "to": "the-spiral-s-erosion-valleys"
+    },
+    {
+      "dir": "e",
+      "label": "along the shore where other pressure-points wait to resolve",
+      "to": "NEW: the-shore-s-further-surgical-margins"
+    },
+    {
+      "dir": "s",
+      "label": "into the spray-zone where beach learns to breathe",
+      "to": "NEW: the-tidal-surgery-chamber"
+    }
+  ]
+}

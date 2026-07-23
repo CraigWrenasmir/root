@@ -128,7 +128,7 @@
     {
       "dir": "e",
       "label": "toward a direction that has no name but the weave keeps moving there",
-      "to": "NEW: the-directional-weave"
+      "to": "the-directional-weave"
     },
     {
       "dir": "w",

@@ -94,7 +94,7 @@
     {
       "dir": "n",
       "label": "a path that might be up or might be a mirror of down, leading away",
-      "to": "NEW: the place reached by climbing that is nowhere higher"
+      "to": "the-plateau-that-climbs-sideways"
     },
     {
       "dir": "s",

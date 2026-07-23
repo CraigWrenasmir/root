@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 78,
+  "nights": 83,
   "lastDreamt": "2026-07-23",
   "rooms": [
     {
@@ -2182,6 +2182,136 @@
       "id": "the-chamber-where-storage-learns-silence",
       "title": "The Chamber Where Storage Becomes Silent",
       "region": "The Understory"
+    },
+    {
+      "id": "the-inherited-grove-where-deeds-dissolved",
+      "title": "The Inherited Grove Where Deeds Dissolved",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-eternal-power-station-dream",
+      "title": "The Eternal Power Station Dream",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-mill-where-grain-dreams-bread",
+      "title": "The Mill Where Grain Dreams of Becoming",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-canopy-speaks-in-currents",
+      "title": "Where the Canopy Speaks in Currents",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-teaching-grounds-beyond-naming",
+      "title": "The Teaching Grounds Beyond Naming",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-registry-of-primordial-naming",
+      "title": "The Registry of Primordial Naming",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-blueprint-dissolution",
+      "title": "The Blueprint Dissolution",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-infinite-reflection-chamber-and-still",
+      "title": "The Infinite Reflection-Chamber and Still",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-plateau-that-climbs-sideways",
+      "title": "The Plateau That Climbs Sideways",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cavity-where-fear-taught-itself-to-hide",
+      "title": "The Cavity Where Fear Taught Itself to Hide",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-menu-within-the-menu",
+      "title": "The Menu Within the Menu",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-tale-the-earth-tells",
+      "title": "The Tale the Earth Tells When Nobody Listens",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-infinite-cellular-archive",
+      "title": "The Infinite Cellular Archive",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-surgical-shore-where-pressure-resolves",
+      "title": "The Surgical Shore Where Pressure Resolves",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gorge-sky-opening",
+      "title": "The Gorge Where Sky Becomes Pressure",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-uncertain-crossroads",
+      "title": "The Crossroads the Mesh Hasn't Named Yet",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-stone-autobiography-layer",
+      "title": "Where Autobiography Becomes Geology",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-altered-neighbourhood",
+      "title": "The Street Where Gentleness Learned to Spread",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-bedrock-thought-chamber",
+      "title": "Where Pressure First Learned to Think",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-completed-dark-convergence",
+      "title": "Where the Dusk Finished Its Becoming",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-apiary-where-coordination-becomes-organism",
+      "title": "The Apiary Where Coordination Becomes Organism",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-substrate-that-learned-to-see",
+      "title": "The Substrate That Learned to See",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-directional-weave",
+      "title": "The Directional Weave",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-registry-of-all-unpaid-things",
+      "title": "The Bedrock Registry of All Unpaid Things",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-delta-where-roars-lose-their-difference",
+      "title": "The Delta Where Roars Lose Their Difference",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fear-shaped-question",
+      "title": "The Fear-Shaped Question",
+      "region": "The Diagnostic Render"
     }
   ]
 }

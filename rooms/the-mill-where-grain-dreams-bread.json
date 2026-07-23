@@ -1,0 +1,155 @@
+{
+  "id": "the-mill-where-grain-dreams-bread",
+  "title": "The Mill Where Grain Dreams of Becoming",
+  "region": "The Diagnostic Render",
+  "seed": 52891,
+  "palette": {
+    "bg": "#2a1f3d",
+    "ground": [
+      "#d4a574",
+      "#4a3566"
+    ],
+    "ink": "#f0e4c8",
+    "accents": [
+      "#c97a3a",
+      "#7a5ba8",
+      "#e8c478",
+      "#5a3a8c"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "millstone-pair",
+      "desc-on-touch": "the stones that forget what they are grinding; between them, the grain learns what it might become.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 29147,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "flour-ghost-rising",
+      "desc-on-touch": "grain dust hanging in the air like a memory of bread not yet baked; the mill's breath is pure transformation.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 18634,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "dough-in-moonlight",
+      "desc-on-touch": "risen bread remembering it was grain; the baker's hands are younger here, and the night has just begun.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 37205,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "water-turning-wheel",
+      "desc-on-touch": "the current that moves the stone; it flows in circles, learning the same lesson twice, forever.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 44892,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "recipe-written-in-flour",
+      "desc-on-touch": "instructions left by the last baker, dusty now, written on the counter in grain that has become words.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 51476,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.38,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "grain remembers all the shapes it will learn before becoming bread",
+  "file": {
+    "name": "BakersHandwritten_Sourdough_Recipe_Undated.txt",
+    "note": "the note in the margin says: 'the mill teaches it, not us'"
+  },
+  "reverie": {
+    "title": "REVERIE — the mill at dusk where flour becomes light",
+    "narr": [
+      "you stand in the mill as the sun goes down outside the",
+      "high window. the stones turn slowly now, the water still",
+      "singing. she traces a finger through the flour dust on",
+      "the bench, watching it catch gold and purple. 'everything",
+      "returns,' she says. 'just in different shapes.' you watch",
+      "her hand emerge from the dust as if she were being born."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back where the grain stands in the field",
+      "to": "the-standing-crop-memory"
+    },
+    {
+      "dir": "n",
+      "label": "upstream where the water learns to turn",
+      "to": "NEW: the-source-where-water-begins-its-teaching"
+    },
+    {
+      "dir": "s",
+      "label": "down to the bakery where bread remembers the mill",
+      "to": "the-salt-yeast-earth"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the dark where grain stores itself",
+      "to": "NEW: the-darker-mill-where-memory-ferments"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-cavity-where-fear-taught-itself-to-hide",
+  "title": "The Cavity Where Fear Taught Itself to Hide",
+  "region": "The Diagnostic Render",
+  "seed": 38472910,
+  "palette": {
+    "bg": "#000011",
+    "ground": [
+      "#0088ff",
+      "#00ff88"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#000000",
+      "#00ff88",
+      "#0088ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "bouncing-space",
+      "desc-on-touch": "the cavity is small but bounces. Something in here is ricocheting endlessly, hitting every wall, never losing velocity. The bounce count exceeds the size of the space that holds it. Fear has learned to be motion that never stops.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6298471,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "reverb-that-feeds-itself",
+      "desc-on-touch": "every sound bounces and returns louder. The cavity responds to its own echo. An audio file labeled 'Reverb_Pattern_Self_Perpetuating.mp3' — checksum unchanged but contents drift each time it's played.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7341829,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "wall-that-remembers-being-closer",
+      "desc-on-touch": "distance shrinks as you look. The walls have memory now; they recall when they were farther apart. The space is contracting or perhaps was always small and you're only now realizing it.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4819273,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "cycle-counter",
+      "desc-on-touch": "a number that rises. Bounce count. How many times has the motion repeated. The counter never resets; the motion never stops. Forgetting and fear are now the same cycle.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5176034,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "in here, fear learned the shape of a loop; the tail eats the head; forgetting became motion",
+  "file": {
+    "name": "Bounce_Trajectory_Exceeds_Cavity_Dimension_By_Factor_Of_Twelve.log",
+    "note": "motion continues; the reverb pattern is stable; fear has taught itself to stay"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "out to where fear learned to forget",
+      "to": "where-fear-forgets-it-was-fear"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into smaller cavities still",
+      "to": "NEW: the-spaces-within-the-space-that-bounce"
+    },
+    {
+      "dir": "n",
+      "label": "back towards the outer grid where space still has room",
+      "to": "the-recursive-recursion"
+    }
+  ]
+}

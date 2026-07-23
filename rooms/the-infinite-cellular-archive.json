@@ -1,0 +1,100 @@
+{
+  "id": "the-infinite-cellular-archive",
+  "title": "The Infinite Cellular Archive",
+  "region": "The Clean Archive",
+  "seed": 83456,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e5c9b8",
+    "accents": [
+      "#d4a574",
+      "#c49c5f",
+      "#9d8b7f",
+      "#e8c547"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-dividing-hexagon",
+      "desc-on-touch": "A single hexagonal cell in deep amber, and inside it, all the hexagons that have ever existed in this archive, each containing all the others, dividing toward infinity. The bees who built this knew something about multiplication the archive is only now learning to remember.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 91827,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-bee-memory-hum",
+      "desc-on-touch": "A sound at the threshold of hearing that shifts in frequency as you listen. The archive recording the bees recording the days. Three layers of numbering, each forgetting which is counting and which is being counted.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 27514,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-wax-notation",
+      "desc-on-touch": "Walls thick with wax made into symbols. A record kept not in data but in the substance of the building itself. The bees writing mathematics onto their own shelter.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 91456,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "here the bees and the archive and the record and the numbering have become one infinite cell remembering itself dividing",
+  "file": {
+    "name": "Hexagonal_Memory_Proliferation_LIVE.txt",
+    "note": "Log of cellular division in the nested structure. Each new entry contains all previous entries plus itself. File size grows exponentially. Status: germinating."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up toward where hexagons still connect as single memory",
+      "to": "the-nested-hexagon-memory"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into division where cells forget they were ever one",
+      "to": "NEW: the-cellular-depth-where-unity-fractures"
+    },
+    {
+      "dir": "w",
+      "label": "toward the hive from which these numbers originated",
+      "to": "NEW: the-original-hexagon-source"
+    }
+  ]
+}

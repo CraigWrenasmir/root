@@ -1,0 +1,139 @@
+{
+  "id": "the-bedrock-registry-of-all-unpaid-things",
+  "title": "The Bedrock Registry of All Unpaid Things",
+  "region": "The Understory",
+  "seed": 5820341,
+  "palette": {
+    "bg": "#000011",
+    "ground": [
+      "#330066",
+      "#110033"
+    ],
+    "ink": "#ccccff",
+    "accents": [
+      "#9966ff",
+      "#6699ff",
+      "#ff6699",
+      "#ffff66"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "sediment-layer-archive",
+      "desc-on-touch": "each geological stratum is a different era's unpaid debt. the lower layers read the ones above them as promissory notes that were never kept.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 5123456,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "transaction-ledger-chip",
+      "desc-on-touch": "a PCB of pure accounting. every wire carries a debt. every junction is a promise that hardened into circuit. the chip still processes unpayment.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5234567,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "fossil-contract-wall",
+      "desc-on-touch": "contracts so ancient they have become mineral. the bedrock is reading its own forgotten agreements with the surface world.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5345678,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "pump-mechanism-forty-two",
+      "desc-on-touch": "the pump lifts forty-two different histories from the stone. each lift is a stratum of unpaid labor. it has never stopped pumping.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5456789,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "debt-notation-glyph",
+      "desc-on-touch": "symbols carved into stone for debts so old the language died. the bedrock is still reading the notation. still waiting for payment.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5567890,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "forty-two histories pump from the bedrock, each one a debt that learned to crystallize",
+  "file": {
+    "name": "GeologicalDebtLedger_Pump42_Correlations_1920s-Present.dat",
+    "note": "a pump's repair history filed as geological survey; each maintenance cycle is a stratum; each repair deferred adds a layer of bedrock owed."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the sediment where debts are still accumulating",
+      "to": "the-debt-sediment-layers"
+    },
+    {
+      "dir": "e",
+      "label": "where the oldest debts become indistinguishable from stone",
+      "to": "NEW: the-debt-made-fossil"
+    },
+    {
+      "dir": "s",
+      "label": "toward the bedrock's deepest archive where interest accrues infinitely",
+      "to": "NEW: where-unpaid-things-learn-to-dream"
+    },
+    {
+      "dir": "w",
+      "label": "into the archive where all former names of debt are catalogued",
+      "to": "the-archive-of-all-former-names"
+    }
+  ]
+}

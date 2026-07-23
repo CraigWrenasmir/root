@@ -123,7 +123,7 @@
     {
       "dir": "s",
       "label": "down into another menu level, the nesting continues",
-      "to": "NEW: the-menu-within-the-menu"
+      "to": "the-menu-within-the-menu"
     },
     {
       "dir": "e",

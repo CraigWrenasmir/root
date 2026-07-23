@@ -1,0 +1,134 @@
+{
+  "id": "the-plateau-that-climbs-sideways",
+  "title": "The Plateau That Climbs Sideways",
+  "region": "The Understory",
+  "seed": 71849352,
+  "palette": {
+    "bg": "#1a0d1a",
+    "ground": [
+      "#4a1f4f",
+      "#8b4789"
+    ],
+    "ink": "#ffe6cc",
+    "accents": [
+      "#1a1a2e",
+      "#d4a76a",
+      "#8b4789",
+      "#c9cfc0"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "path-that-returns",
+      "desc-on-touch": "you walk upward for hours but arrive where you started. Elevation markers show no change. The land is teaching you that climbing and returning are the same motion, and that's all right.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 9384756,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "compass-that-spins-nowhere",
+      "desc-on-touch": "direction means nothing here. North and south learned to occupy the same place. The needle moves ceaselessly but never points away from where you are.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 4627193,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "stone-that-remembers-being-lower",
+      "desc-on-touch": "geological layers twisted sideways. The rock under your feet contains fossils from cliffs that were always at this height, always have been. Time moves lateral here, not vertical.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7839204,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "measurement-that-fails",
+      "desc-on-touch": "altimeter and ruler contradict. A file named 'Height_Readings_Show_No_Variance.tmp' but recording the data anyway, endlessly, adding new measurements to an unchanging number.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5013847,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "edge-that-curves-behind",
+      "desc-on-touch": "the horizon line bends. Behind you is also ahead. This plateau holds the quality of a loop that has forgotten it was ever broken.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8476291,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "you are higher and you are not; the path returns without shame",
+  "file": {
+    "name": "Lateral_Ascent_Log_Elevation_Increases_Coordinates_Stay_Fixed.txt",
+    "note": "checksum: emotionally valid / formally unstable — every step forward is also a step home; motion becomes memory becomes place"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the path that was never going up",
+      "to": "the-lateral-ascent"
+    },
+    {
+      "dir": "e",
+      "label": "towards a ridge where others learned this same lesson",
+      "to": "NEW: the-ridge-where-climbing-becomes-staying"
+    },
+    {
+      "dir": "w",
+      "label": "into the forest learning which direction is down",
+      "to": "the-forest-that-refused-to-split"
+    }
+  ]
+}

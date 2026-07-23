@@ -1,0 +1,139 @@
+{
+  "id": "the-canopy-speaks-in-currents",
+  "title": "Where the Canopy Speaks in Currents",
+  "region": "The Understory",
+  "seed": 64738,
+  "palette": {
+    "bg": "#0d2818",
+    "ground": [
+      "#1a1a2e",
+      "#2d5a1f"
+    ],
+    "ink": "#4eff4e",
+    "accents": [
+      "#00ff00",
+      "#2daa4e",
+      "#6bff6b",
+      "#1f5c1f"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-circuit-first",
+      "desc-on-touch": "a chip embedded in root-matrix; the canopy has learned to think through soil, and thought travels as current.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 73645,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "water-trace-singing",
+      "desc-on-touch": "signal paths drawn by water that flows through leaves as though through circuits; the canopy has learned another way to speak.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 82491,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "leaf-logic-gathering",
+      "desc-on-touch": "where chlorophyll becomes computation; the canopy comparing light and dark, building arguments in photosynthesis.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 39847,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.76,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "node-where-currents-converge",
+      "desc-on-touch": "all the water paths meet here; all the light paths; the canopy has learned to be a network, not a forest.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 47629,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "silence-trace-deepening",
+      "desc-on-touch": "where the canopy learns that not all speech is sound; the deepest grammar flows where nothing moves but meaning.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 51294,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.32,
+      "y": 0.58,
+      "solid": false
+    }
+  ],
+  "inscription": "the canopy has learned a second language and forgot it speaks in words",
+  "file": {
+    "name": "Spectrogram_Canopy_Frequency_Analysis_Undated.png",
+    "note": "the archive labeled this as audio; the sound is water and leaves, but neither one is making it"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where water first learned to breathe",
+      "to": "the-canopy-where-water-learns-to-breathe"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where the circuit descends into root",
+      "to": "NEW: the-board-beneath-the-board-where-logic-roots"
+    },
+    {
+      "dir": "e",
+      "label": "toward the canopy's edge where signals fade to weather",
+      "to": "the-signal-weather-ceiling"
+    },
+    {
+      "dir": "n",
+      "label": "up through leaf-layers that have learned to transmit",
+      "to": "the-high-canopy-archive-station"
+    }
+  ]
+}

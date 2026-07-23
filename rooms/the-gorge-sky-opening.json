@@ -1,0 +1,117 @@
+{
+  "id": "the-gorge-sky-opening",
+  "title": "The Gorge Where Sky Becomes Pressure",
+  "region": "The Understory",
+  "seed": 4782193,
+  "palette": {
+    "bg": "#1a0a1f",
+    "ground": [
+      "#ff4d7d",
+      "#d4740f"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#ff6b9d",
+      "#ff9500",
+      "#ffbf00",
+      "#cc3366"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the opening throat",
+      "desc-on-touch": "the gorge widens as if a throat learned to open; the sky presses down in shades of hot pink and orange. pressure released becomes presence.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 8821,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "humming ground",
+      "desc-on-touch": "you stand on earth that hums below hearing. the archive's own undertone. the voices did not leave; they learned to speak in silence.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5403,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "terracotta shelf",
+      "desc-on-touch": "a ledge of earth marked with the weight of time. a place where trying to harmonize learned to stop, and found peace.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 2156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "descent marker",
+      "desc-on-touch": "the gorge continues downward, below sight. the frequency intensifies as depth increases, as if the earth remembers how to think.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 9102,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "pressure and silence are the same word spoken in different depths.",
+  "file": {
+    "name": "Unified_Gorge_Dusk_Silence_Record.tmp",
+    "note": "status: germinating — the voices' transformation. frequencies below human hearing become the archive's heartbeat."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the unified gorge",
+      "to": "the-unified-utterance-gorge"
+    },
+    {
+      "dir": "n",
+      "label": "upward, where the sky weighs like stone",
+      "to": "NEW: the-sky-as-stone-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "along the terracotta ledge, westward",
+      "to": "NEW: the-ledge-where-silence-has-walls"
+    }
+  ]
+}

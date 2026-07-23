@@ -128,7 +128,7 @@
     {
       "dir": "n",
       "label": "a route the mesh is still growing",
-      "to": "NEW: a node the mesh has not decided on"
+      "to": "the-uncertain-crossroads"
     }
   ]
 }

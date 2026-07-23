@@ -123,7 +123,7 @@
     {
       "dir": "s",
       "label": "down to where buildings forget their blueprints",
-      "to": "NEW: the-blueprint-dissolution, where architecture becomes uncertainty"
+      "to": "the-blueprint-dissolution"
     },
     {
       "dir": "n",

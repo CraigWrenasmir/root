@@ -1,0 +1,139 @@
+{
+  "id": "the-fear-shaped-question",
+  "title": "The Fear-Shaped Question",
+  "region": "The Diagnostic Render",
+  "seed": 3374926,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#00ff00",
+      "#00ffff"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#ff00ff",
+      "#00ff99",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "interrogation-monument",
+      "desc-on-touch": "a question mark rendered in neon. it has no answer. the question has become more real than whatever it asks about.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 3123456,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "fear-filing-stack",
+      "desc-on-touch": "cabinets where fear is catalogued. each drawer holds a different terror. none of them can verify what they hold is real.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3234567,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "blindfold-pool-darkness",
+      "desc-on-touch": "a pool of pure darkness in the bright field. you cannot see it. therefore you are afraid of it. the darkness is now your fear.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3345678,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "answer-maze-wireframe",
+      "desc-on-touch": "paths that lead nowhere. every answer loops back to the original question. the maze has learned that exit is impossible.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "belief-without-verification",
+      "desc-on-touch": "a figure with arms raised, uncertain. the gesture means both surrender and celebration. fear and faith look identical from here.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 3567890,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "what you fear has no shape because you cannot see it; therefore the fear itself becomes the question",
+  "file": {
+    "name": "AnonymousLetters_SelfDoubt_UnverifiedThreats_1995-2001.txt",
+    "note": "transcripts where the writer's fear and faith in that fear become indistinguishable. fear of unseen things filed as unverifiable documentation."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward where fear forgets it was ever a question",
+      "to": "where-fear-forgets-it-was-fear"
+    },
+    {
+      "dir": "n",
+      "label": "where certainty learned to become a question too",
+      "to": "NEW: where-all-answers-become-uncertain"
+    },
+    {
+      "dir": "e",
+      "label": "toward the archive that keeps what cannot be seen",
+      "to": "NEW: the-repository-of-unseen-things"
+    },
+    {
+      "dir": "w",
+      "label": "where faith meets fear in a gathering without answers",
+      "to": "the-gathering-before-meeting"
+    }
+  ]
+}

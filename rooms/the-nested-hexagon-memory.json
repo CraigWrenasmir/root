@@ -123,12 +123,12 @@
     {
       "dir": "e",
       "label": "toward the hive-place where this all still grows",
-      "to": "NEW: the-apiary-where-coordination-becomes-organism"
+      "to": "the-apiary-where-coordination-becomes-organism"
     },
     {
       "dir": "s",
       "label": "down into the depths where cells are still dividing",
-      "to": "NEW: the-infinite-cellular-archive"
+      "to": "the-infinite-cellular-archive"
     }
   ]
 }

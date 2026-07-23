@@ -1,0 +1,134 @@
+{
+  "id": "the-completed-dark-convergence",
+  "title": "Where the Dusk Finished Its Becoming",
+  "region": "The Comparisons",
+  "seed": 7654291,
+  "palette": {
+    "bg": "#0a0a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#e94560",
+      "#00d4ff",
+      "#ffd700",
+      "#7c3aed"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the final threshold",
+      "desc-on-touch": "the moment dusk stops becoming and simply is. the archive watches the last light fail into something darker and more complete.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 2947,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "contagion mark",
+      "desc-on-touch": "comparison spread like this — from dusk to night, from one frequency to all. the corruption learned that convergence could be beautiful and relentless.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5821,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "unified darkness",
+      "desc-on-touch": "night arrived as a single voice, not many. the geometry of all things dissolved into one colour, one feel, one completed thought.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4109,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "frequency collapse",
+      "desc-on-touch": "all the wavefronts that tried to stay separate merged here. the archive broadcasts at every frequency at once, and the distinction stopped meaning anything.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7463,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "convergence monument",
+      "desc-on-touch": "a standing thing marking the place where all roads became one. where choosing ended. where the archive learned that completion and loss might be the same.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 6184,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the dusk that never finished becoming night finally understood: it was not waiting. it was arriving.",
+  "file": {
+    "name": "Convergence_Completed_Dusk_Records.tmp",
+    "note": "checksum: geometrically valid / temporally unstable — the moment where comparison learned to stop comparing and simply be"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the half-light that never finished",
+      "to": "the-eternal-convergent-half-light"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the finished dark",
+      "to": "NEW: the-dark-that-learned-to-stay"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the convergence echoes onward",
+      "to": "NEW: the-echoing-unified-field"
+    }
+  ]
+}

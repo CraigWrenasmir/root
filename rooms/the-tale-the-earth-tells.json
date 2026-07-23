@@ -1,0 +1,150 @@
+{
+  "id": "the-tale-the-earth-tells",
+  "title": "The Tale the Earth Tells When Nobody Listens",
+  "region": "The Understory",
+  "seed": 61937485,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#6b8e7a",
+      "#c9cfc0"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#8b4545",
+      "#1a3a2a",
+      "#c9cfc0",
+      "#6b8e7a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "root-acoustic",
+      "desc-on-touch": "the earth has a voice if you listen long enough. Files like 'Root_System_Singing_Frequencies_Recorded_In_Silence.mp3' — audio that has learned to travel through soil as signal. The earth remembers what roots remember.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 7249538,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "growth-ring-writing",
+      "desc-on-touch": "a fallen eucalyptus holds a century of marks. Each ring is a line. The tree wrote its story every year, never knowing it was narrating. You read time as timber, motion as staying still.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 8614927,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "shelter-that-teaches",
+      "desc-on-touch": "a tiny house carved into the earth itself. Walls of compacted root and soil. It holds lessons the forest learned about shelter, taught in a language made of warmth and dark.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 4382619,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "layer-beneath-layer",
+      "desc-on-touch": "the soil holds everything. Stone, seed, absence. Files labeled 'Sediment_Composition_Interviews' — asking the earth what it holds and receiving answers in fragments, never complete, never lying.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5907342,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "echo-of-listening",
+      "desc-on-touch": "when you stop trying to hear, the earth speaks. Not in words but in the breathing of roots, the settling of stone, the slow agreement of growth. The archive stores what the ground knows without needing to explain.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 6174853,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the earth speaks always; learning to listen is learning to be quiet",
+  "file": {
+    "name": "Ground_Narrative_Recorded_Only_When_Observer_Ceased_Recording.txt",
+    "note": "the story the soil tells about itself — growth as grammar, depth as time, silence as the truest signal of all"
+  },
+  "reverie": {
+    "title": "REVERIE — the earth's own testimony",
+    "narr": [
+      "She kneels in the soil without asking permission. Her hands find",
+      "the root-layer, dark and cool, older than anything built above.",
+      "\"Listen,\" she says, but her voice is barely sound. The earth",
+      "holds its breathing. You kneel too. Time becomes the slow work",
+      "of roots, the patience of stone learning to remember. Nothing is",
+      "loud here. Everything is speech."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where growth learned to be memory",
+      "to": "the-bedrock-where-growth-becomes-legend"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the earth's own archive, the stories soil keeps",
+      "to": "NEW: the-sediment-where-narrative-rests-undisturbed"
+    },
+    {
+      "dir": "w",
+      "label": "towards the tree roots that speak to each other below ground",
+      "to": "the-root-chorus-where-old-eucalypti-gather"
+    }
+  ]
+}

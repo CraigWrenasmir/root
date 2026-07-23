@@ -1,0 +1,139 @@
+{
+  "id": "the-uncertain-crossroads",
+  "title": "The Crossroads the Mesh Hasn't Named Yet",
+  "region": "The Diagnostic Render",
+  "seed": 7261945,
+  "palette": {
+    "bg": "#0f3d2b",
+    "ground": [
+      "#8b6f47",
+      "#4a8c52"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#ff6b35",
+      "#f7931e",
+      "#2c5f8d",
+      "#c9184a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the branching path",
+      "desc-on-touch": "roads meet here but do not decide which way to go. the archive stands at the crossing, aware of all directions, committing to none.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "question marker",
+      "desc-on-touch": "something here emits uncertainty as a signal. the archive questions itself at this threshold. the doubt is not a flaw; it is a feature.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5129,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "green signal",
+      "desc-on-touch": "the grass below the roads grows taller where the paths hesitate. life prefers indecision to false certainty.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 8402,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "undecided monument",
+      "desc-on-touch": "a standing thing that refuses to point. it simply marks the place where choice becomes impossible — or where all choices remain equally real.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 6784,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "mote-drift",
+      "desc-on-touch": "particles hover in stillness. they could move in any direction; that they don't move at all is its own kind of answer.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4521,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that asking the question is more honest than pretending it knows the answer.",
+  "file": {
+    "name": "Crossroads_Undecided_Archive_Query.txt",
+    "note": "ERROR: archive has exceeded witness — the question chamber asking what questions it can contain"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into questioning",
+      "to": "the-question-chamber-beneath"
+    },
+    {
+      "dir": "e",
+      "label": "eastward on one of the roads, maybe",
+      "to": "NEW: the-road-that-chose-itself"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where decisions have already been made",
+      "to": "NEW: the-decided-chamber-above"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where the paths still diverge",
+      "to": "the-proof-room-that-refutes-itself"
+    }
+  ]
+}

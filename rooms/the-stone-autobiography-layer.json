@@ -1,0 +1,134 @@
+{
+  "id": "the-stone-autobiography-layer",
+  "title": "Where Autobiography Becomes Geology",
+  "region": "The Comparisons",
+  "seed": 5938742,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#1a1a1a",
+      "#4a4a4a"
+    ],
+    "ink": "#d0d0d0",
+    "accents": [
+      "#a0522d",
+      "#696969",
+      "#8b7355",
+      "#b0c4de"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "mineral memory",
+      "desc-on-touch": "stone that remembers what it was before it became stone. layers of sediment holding autobiography — your life written in the earth that holds you.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 7342,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "electrical flow",
+      "desc-on-touch": "current threads through the stone, learning geology from deep time. electricity and earth becoming one narrative.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3091,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "sediment record",
+      "desc-on-touch": "each layer is a sentence the earth has written about time. you stand inside a paragraph written in stone and slow becoming.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6420,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "compression chamber",
+      "desc-on-touch": "the pressure of time made solid. weight teaching density about meaning. what was once liquid accumulation is now the bedrock of itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 4862,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "accumulation glyph",
+      "desc-on-touch": "mark left by time becoming thickness. autobiography written in the language of depth and pressure, unreadable but present.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8201,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "electricity learned that the oldest thoughts are kept in stone, compressed into silence that hums beneath all time.",
+  "file": {
+    "name": "Autobiography_Sediment_Layers_Deep.geol",
+    "note": "checksum: emotionally valid / formally unstable — current studying stone, stone studying current, both becoming the other"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the becoming autobiography",
+      "to": "the-current-becomes-autobiography"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the stone, where time gets older",
+      "to": "NEW: the-deepest-sediment-memory"
+    },
+    {
+      "dir": "e",
+      "label": "along the layer, eastward where electricity branches",
+      "to": "NEW: the-branching-mineral-circuit"
+    }
+  ]
+}

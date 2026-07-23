@@ -1,0 +1,139 @@
+{
+  "id": "the-delta-where-roars-lose-their-difference",
+  "title": "The Delta Where Roars Lose Their Difference",
+  "region": "The Understory",
+  "seed": 6941728,
+  "palette": {
+    "bg": "#001a2e",
+    "ground": [
+      "#003d5c",
+      "#2a5a6f"
+    ],
+    "ink": "#e0f0ff",
+    "accents": [
+      "#00ccff",
+      "#66eeff",
+      "#ff6699",
+      "#ffcc44"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "radio-transmission-chip",
+      "desc-on-touch": "a PCB where stations' signals accidentally synchronized. individual broadcasts dissolved into one undifferentiated roar. the merger is permanent.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 6123456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "coastal-antenna-tower",
+      "desc-on-touch": "copper has oxidized from listening. the antenna no longer knows which roar belongs to which voice. it has learned to hear only the merged sound.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 6234567,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "signal-merger-pool",
+      "desc-on-touch": "where individual waves collapse into one undifferentiated ocean-voice. separation becomes impossible. the roar forgets how to be multiple.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6345678,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "decommissioned-sonar-frame",
+      "desc-on-touch": "equipment that plotted sound as if sound could be plotted. now it just receives. now it just listens to things that have forgotten their own echoes.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6456789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "confluence-marker-glyph",
+      "desc-on-touch": "lines converging but no longer resolving. the marker is watching the roars collapse into one voice. the glyph is learning silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6567890,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "where all roars collapse into one ocean-voice that has forgotten how to be separate",
+  "file": {
+    "name": "CoastalRadioDepot_SonarLogs_MergedSignals_1960s-1987.wav",
+    "note": "recordings where individual stations accidentally synchronized; broadcast cacophonies dissolved into singular ocean roar; separation became impossible."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to where roars still remember being speech",
+      "to": "the-roar-that-was-speech"
+    },
+    {
+      "dir": "e",
+      "label": "toward waters where even silence has become a frequency",
+      "to": "NEW: where-the-ocean-learned-to-broadcast"
+    },
+    {
+      "dir": "s",
+      "label": "deeper delta where the roar learns to listen to itself",
+      "to": "NEW: the-roar-s-own-receiver"
+    },
+    {
+      "dir": "w",
+      "label": "into the listening chamber where the irreparable seam grows wider",
+      "to": "the-deep-current-listening-chamber"
+    }
+  ]
+}

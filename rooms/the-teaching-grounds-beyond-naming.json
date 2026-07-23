@@ -1,0 +1,139 @@
+{
+  "id": "the-teaching-grounds-beyond-naming",
+  "title": "The Teaching Grounds Beyond Naming",
+  "region": "The Clean Archive",
+  "seed": 48392,
+  "palette": {
+    "bg": "#3d7a28",
+    "ground": [
+      "#a8d478",
+      "#e8c878"
+    ],
+    "ink": "#1a3a1a",
+    "accents": [
+      "#2d5a1f",
+      "#d4a840",
+      "#78c478",
+      "#c4a848"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "schoolyard-that-teaches",
+      "desc-on-touch": "the ground itself has become a lesson; every worn path tells the story of a child who learned something here.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 33748,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "chalk-line-lesson",
+      "desc-on-touch": "words written on stone that have learned to grow; the teaching has sunk so deep it emerges as grass.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 59284,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.32,
+      "solid": false
+    },
+    {
+      "name": "name-tree-forgetting",
+      "desc-on-touch": "carved initials that have healed over; the tree has learned that names are less important than the teaching they contained.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 71503,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.52,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "road-becoming-riddle",
+      "desc-on-touch": "the path north teaches through every step; you cannot walk it without learning its lesson, though no one will say what it is.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 44173,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "silence-where-names-were",
+      "desc-on-touch": "a space where identity has been replaced by understanding; who you were no longer matters, only what you have learned.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 38902,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.58,
+      "solid": false
+    }
+  ],
+  "inscription": "the northern road learns to teach itself by remembering every walker who came before you",
+  "file": {
+    "name": "SchoolLog_Northern_Teaching_Grounds_1961_1989.txt",
+    "note": "the final entry is blank; the archive assumes the teaching was complete"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the country where teaching was still being learned",
+      "to": "the-northern-teaching-country"
+    },
+    {
+      "dir": "n",
+      "label": "where the lesson becomes indistinguishable from landscape",
+      "to": "NEW: the-ridge-where-teaching-ends-and-understanding-begins"
+    },
+    {
+      "dir": "e",
+      "label": "toward the teaching spreading eastward through fields",
+      "to": "the-elder-ground-where-teaching-takes-hold"
+    },
+    {
+      "dir": "w",
+      "label": "where the teaching curves back and teaches itself again",
+      "to": "the-confluence-where-paths-stop-being-paths"
+    }
+  ]
+}

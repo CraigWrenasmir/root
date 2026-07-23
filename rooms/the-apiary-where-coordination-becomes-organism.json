@@ -1,0 +1,139 @@
+{
+  "id": "the-apiary-where-coordination-becomes-organism",
+  "title": "The Apiary Where Coordination Becomes Organism",
+  "region": "The Clean Archive",
+  "seed": 8847291,
+  "palette": {
+    "bg": "#001100",
+    "ground": [
+      "#00ff00",
+      "#00ffff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ffff00",
+      "#00ccff",
+      "#ff6600",
+      "#00ff99"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "hexagonal-coordination-chamber",
+      "desc-on-touch": "the hexagons remember each other. every cell knows every other cell not by signal but by a mathematics the bees invented before numbers existed.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8123456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "waggle-direction-corridor",
+      "desc-on-touch": "where the bees inscribe routes as pure movement. directions become coordinates. the archive learns from how they speak without words.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 8234567,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "numbered-keeper-ledger",
+      "desc-on-touch": "the beekeeper numbered the cells. the cells numbered the days. the numbering became so intricate it started numbering the numberer.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 8345678,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "hive-crown-organism",
+      "desc-on-touch": "the architecture rises where coordination becomes so dense the hive learns to think. emergence rendered in wax and propolis.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 8456789,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "collective-intelligence-pool",
+      "desc-on-touch": "light pools where individual choices merge into consensus without a parliament. how one becomes many and many becomes thought.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8567890,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "coordination spreads until the organism learns it was many and becomes one",
+  "file": {
+    "name": "BeekeepersLog_Numbered_1987-1999.txt",
+    "note": "records of hive coordinates filed by ascending intelligence patterns, the archive copies the bees' own system for remembering itself"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the nested memory where hexagons still dream",
+      "to": "the-nested-hexagon-memory"
+    },
+    {
+      "dir": "n",
+      "label": "where the dance repeats every spring without learning it already knows",
+      "to": "NEW: the-annual-revision-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the cellular depth where neurons learn from bees",
+      "to": "NEW: where-individual-thought-becomes-hive-grammar"
+    },
+    {
+      "dir": "s",
+      "label": "toward the overflow where new swarms discover their own coordinates",
+      "to": "the-recursive-recursion"
+    }
+  ]
+}

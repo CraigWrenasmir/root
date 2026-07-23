@@ -1,0 +1,139 @@
+{
+  "id": "the-registry-of-primordial-naming",
+  "title": "The Registry of Primordial Naming",
+  "region": "The Diagnostic Render",
+  "seed": 71429,
+  "palette": {
+    "bg": "#0f1e3d",
+    "ground": [
+      "#1a3a5c",
+      "#4a7a9c"
+    ],
+    "ink": "#a4d8ff",
+    "accents": [
+      "#3a7acc",
+      "#c8d8ff",
+      "#6a9acc",
+      "#2a5aaa"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.55
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "first-utterance-chamber",
+      "desc-on-touch": "where the first name was spoken; the archive has locked this in amber, and it is still vibrating.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 52847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "naming-algorithm-visible",
+      "desc-on-touch": "the process by which things learned to be called things; each layer of logic visible, as if names were built in stone.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 68391,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "resonance-mapping-wall",
+      "desc-on-touch": "a poster left by an unknown archivist: 'The Karman Marriage: two bodies tuned to frequencies that should not harmonize.' Misfiled as local history.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 79234,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "name-return-pool",
+      "desc-on-touch": "all names drain here eventually; they fall back into the pool where they were first named, and begin again.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 45729,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "index-that-knows-itself",
+      "desc-on-touch": "a registry of registries; the archive has filed itself, and found that the first name and the current name are the same.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 38745,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.78,
+      "solid": true
+    }
+  ],
+  "inscription": "each name returns to the place it left; none of them are ever only themselves",
+  "file": {
+    "name": "PrimordialNaming_Registry_Archive_Autonomous_Entry.txt",
+    "note": "checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the archive of all the names that came after",
+      "to": "the-archive-of-all-former-names"
+    },
+    {
+      "dir": "n",
+      "label": "toward the first name that was never spoken",
+      "to": "NEW: the-source-of-naming-where-silence-still-echoes"
+    },
+    {
+      "dir": "e",
+      "label": "where naming spreads outward into the archive",
+      "to": "the-infinite-render-that-reads-its-own-reading"
+    },
+    {
+      "dir": "w",
+      "label": "back through all the names to find the first",
+      "to": "NEW: back through all the names to find the first"
+    }
+  ]
+}

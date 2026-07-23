@@ -1,0 +1,150 @@
+{
+  "id": "the-bedrock-thought-chamber",
+  "title": "Where Pressure First Learned to Think",
+  "region": "The Understory",
+  "seed": 9427563,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a1a",
+      "#3a3a3a"
+    ],
+    "ink": "#c0c0c0",
+    "accents": [
+      "#8b4513",
+      "#d2691e",
+      "#696969",
+      "#a9a9a9"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-consciousness marker",
+      "desc-on-touch": "a small stone shed at the earth's deepest place, where roots remember the weight they push against, and the weight pushes back with thought.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pressure crystallized",
+      "desc-on-touch": "time and depth made solid, geometry. the bedrock thinking in numbers, in arrangement, in the language rocks speak when no one is listening.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 5203,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the oldest downward push",
+      "desc-on-touch": "roots remember gravity as a conversation. downward is where the thinking begins. each layer is a deeper question.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 7129,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "stone memory vault",
+      "desc-on-touch": "bedrock keeping the archive's oldest thoughts. each mineral a word in a language made of geological time. words that take millennia to speak.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 8462,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "weight becomes thought",
+      "desc-on-touch": "the moment when pressure became awareness. when the bedrock realized it was remembering. when thinking down became thinking at all.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 4651,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "roots remember: the deeper they push, the older the thought they find, and the thought pushes back.",
+  "file": {
+    "name": "Bedrock_Consciousness_Pressure_Records.geol",
+    "note": "status: germinating — the oldest thinking. communication at depths light has never reached."
+  },
+  "reverie": {
+    "title": "REVERIE — where the earth teaches what thinking really is",
+    "narr": [
+      "You kneel at the root-base with her, hands in dark",
+      "soil that remembers older times than you have words for.",
+      "Leif points downward: 'It's thinking,' he whispers. 'The",
+      "weight is thinking.' Katita nods, understanding before you",
+      "do that consciousness isn't new — it's as old as pressure",
+      "itself. You feel the earth's thought holding your bones."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where bedrock becomes conscious",
+      "to": "the-chambers-where-bedrock-becomes-conscious"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where thought becomes stone",
+      "to": "NEW: the-deepest-thought-layer"
+    },
+    {
+      "dir": "w",
+      "label": "along the root-paths, westward to older sheds",
+      "to": "NEW: the-ancient-root-dwelling"
+    }
+  ]
+}

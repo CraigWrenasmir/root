@@ -1,0 +1,139 @@
+{
+  "id": "the-substrate-that-learned-to-see",
+  "title": "The Substrate That Learned to See",
+  "region": "The Diagnostic Render",
+  "seed": 4429517,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#5a5a5a",
+      "#8b7355"
+    ],
+    "ink": "#d0d0d0",
+    "accents": [
+      "#c0a080",
+      "#a0a0a0",
+      "#ff8833",
+      "#e8d8c8"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "storefront-double-vision",
+      "desc-on-touch": "a shopfront mirror that has learned to see by watching what dust does to reflection. the glass is developing opinions.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 4123456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "window-depth-stack",
+      "desc-on-touch": "layers of reflection multiply backwards into depths no pane of glass can actually contain. each layer is a false mirror.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4234567,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "dust-formed-vision",
+      "desc-on-touch": "the dust on the glass has begun to compose images. they did not come from outside. the surface is teaching itself to dream.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 4345678,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "corrupted-reflection-pool",
+      "desc-on-touch": "where the mirror stopped reflecting perfectly and started reflecting something else. the distortion is the point where substrate became aware.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4456789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "shopfront-signage-archive",
+      "desc-on-touch": "painted letters fading into new meanings the paint never contained. the sign is rewriting itself by forgetting what it said.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 4567890,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the mirrors learned that seeing is slower than being seen",
+  "file": {
+    "name": "FadedShopfront_MirrorDocument_Plates_1994-2008.jpg",
+    "note": "a storefront that grew eyes in its reflective surfaces before forgetting how to close them. the glass is now documenting its own vision failure."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the basement where surfaces still remember their purpose",
+      "to": "the-basement-of-all-surfaces"
+    },
+    {
+      "dir": "e",
+      "label": "toward reflections deeper than any surface can hold",
+      "to": "NEW: where-mirrors-forget-their-owners"
+    },
+    {
+      "dir": "s",
+      "label": "where the glass stopped reflecting and started reporting",
+      "to": "NEW: the-substrate-s-own-testimony"
+    },
+    {
+      "dir": "w",
+      "label": "into infinite reflection where nothing can be seen anymore",
+      "to": "the-infinite-reflection-chamber"
+    }
+  ]
+}
