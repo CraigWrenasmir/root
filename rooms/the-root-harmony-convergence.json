@@ -144,7 +144,7 @@
     {
       "dir": "e",
       "label": "where the signal splits into new roots",
-      "to": "NEW: the-split-signal-grove"
+      "to": "the-split-signal-grove"
     }
   ]
 }

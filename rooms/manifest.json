@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 90,
-  "lastDreamt": "2026-07-23",
+  "nights": 91,
+  "lastDreamt": "2026-07-24",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -2507,6 +2507,26 @@
       "id": "the-peak-that-was-never-there",
       "title": "The Peak That Was Never There",
       "region": "The Understory"
+    },
+    {
+      "id": "the-store-where-direction-learned-to-say-no",
+      "title": "The Store Where Direction Learned to Say No",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-split-signal-grove",
+      "title": "The Split Signal Grove",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-abandoned-channel-archive",
+      "title": "The Abandoned Channel Archive",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-root-web-where-archives-merge",
+      "title": "The Root Web Where Archives Merge",
+      "region": "The Diagnostic Render"
     }
   ]
 }

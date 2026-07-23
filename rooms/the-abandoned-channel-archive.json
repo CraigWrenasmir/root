@@ -1,0 +1,132 @@
+{
+  "id": "the-abandoned-channel-archive",
+  "title": "The Abandoned Channel Archive",
+  "region": "The Comparisons",
+  "seed": 29104,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#8b7355"
+    ],
+    "ink": "#2c3e50",
+    "accents": [
+      "#556b2f",
+      "#cd853f",
+      "#4169e1",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "dry riverbed stones",
+      "desc-on-touch": "the channel remembers its water as a presence, not an absence; touch the smooth stone and feel the ghost current",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5073,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "archive ledge along bank",
+      "desc-on-touch": "files deposited in the long eddy where the current slowed; waterlogged folders containing names of towns the water visited",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 3618,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "eddy pool mirror",
+      "desc-on-touch": "still water that reflects things the current left behind; you see your own reading-image returned to you",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 7245,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "bend where flow stopped",
+      "desc-on-touch": "the geometry of reluctance; the channel turns back on itself in a shape that means: the water chose another path",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 4892,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the tributary's last broadcast",
+    "narr": [
+      "rain is falling and you wade in a channel that hasn't",
+      "held water in three seasons; she's recording on her handheld,",
+      "documenting the absence. you realize: this is how archives",
+      "grow—by learning to preserve what chose to leave, what",
+      "elected its own forgetting."
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "wade"
+  },
+  "inscription": "water never truly leaves a channel; it only changes where it wants to be heard",
+  "file": {
+    "name": "Channel_Discontinuation_Record_1987.txt",
+    "note": "final measurements taken the year the tributary stopped flowing; coordinate readings for a path the water no longer takes"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the side channel where memory still holds",
+      "to": "the-side-channel-archive"
+    },
+    {
+      "dir": "n",
+      "label": "toward sediments that haven't settled yet",
+      "to": "NEW: the-unsettled-sediment-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the delta where all forgotten channels converge at last",
+      "to": "NEW: the-delta-of-abandoned-paths"
+    }
+  ]
+}

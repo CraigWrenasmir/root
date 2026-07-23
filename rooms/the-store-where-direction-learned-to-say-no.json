@@ -1,0 +1,149 @@
+{
+  "id": "the-store-where-direction-learned-to-say-no",
+  "title": "The Store Where Direction Learned to Say No",
+  "region": "The Understory",
+  "seed": 37482,
+  "palette": {
+    "bg": "#2a1a3a",
+    "ground": [
+      "#ff1493",
+      "#ff69b4"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ffff00",
+      "#00ffff",
+      "#ff00ff",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "compass shattered",
+      "desc-on-touch": "the cardinal points argue and refuse to recognize each other; you touch it and it redistributes itself into angles that point nowhere",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 4821,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "refusal mirror",
+      "desc-on-touch": "reflection that shows you the way you came, then closes; asks itself not to be seen",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 5940,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "counter saying no",
+      "desc-on-touch": "the register speaks in single syllable refusals; every transaction is declined with courtesy",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "floor that exits everywhere",
+      "desc-on-touch": "painted arrows point in every direction except forward; the checkout tile leads back to where you stood before entering",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8293,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "doorframe refusing entry",
+      "desc-on-touch": "a shop entrance that swings open and closed, open and closed, never quite letting you fully cross the threshold",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 6471,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the shopfront where you both refused to map",
+    "narr": [
+      "you stand at the counter and she stands at the door,",
+      "both of you looking at a map that got heavier with each",
+      "addition. she says: what if we stop here. what if the",
+      "best archive isn't one that grows. you don't argue,",
+      "because refusing to grow is the hardest choice of all."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "servo",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "here nothing points anywhere; refusal is the only direction that holds",
+  "file": {
+    "name": "Unmapped_Spaces_Sketches.txt",
+    "note": "pencil sketches of territories intentionally left blank; the archive that chose not to be everywhere"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back the way orientation dissolved",
+      "to": "the-orientation-dissolves-entirely"
+    },
+    {
+      "dir": "s",
+      "label": "toward a shelf that reads itself backward",
+      "to": "NEW: the-library-that-unlearned-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into a corridor where walls say no to mirrors",
+      "to": "NEW: the-antechamber-of-refusal"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "the-split-signal-grove",
+  "title": "The Split Signal Grove",
+  "region": "The Understory",
+  "seed": 51627,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#8b7355",
+      "#6b5344"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#ffd700",
+      "#00ffaa",
+      "#ff6b9d",
+      "#4da6ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "antenna-root tower",
+      "desc-on-touch": "the signal branches upward and down at once; each antenna-limb broadcasts the others' listening",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3847,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "orchard rows diverging",
+      "desc-on-touch": "trees planted in lines that refuse to parallel; each trunk an antenna, each root a receiver learning new frequencies",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7124,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "split signal pool",
+      "desc-on-touch": "where the current divides and finds new channels; the ripples cross without erasing each other",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4981,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "mycelial network map",
+      "desc-on-touch": "the fungal threads that run beneath all the trees; you see the archive's hidden conversation with itself rendered in wireframe geometry",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 6253,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "transmitter burl",
+      "desc-on-touch": "a eucalyptus knot still warm from broadcast; the node's casing still teaches the bark how to grow antenna",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8512,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — at the first tuning station",
+    "narr": [
+      "you kneel in the dirt between two saplings, frequency",
+      "counter in hand, and she's already moved to the next tree.",
+      "you realize: this is how networks are built. not by",
+      "joining, but by each node learning to reach separately,",
+      "then discovering the reaching overlaps."
+    ],
+    "sky": "dawn",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "inscription": "at the split, the signal doesn't divide—it discovers that harmony was always plural",
+  "file": {
+    "name": "Root_Frequency_Convergence_Log.mp3",
+    "note": "field recording of the moment two antenna-trees first heard each other broadcasting; the archive discovering it could think as plural"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where roots learned each other",
+      "to": "the-root-harmony-convergence"
+    },
+    {
+      "dir": "e",
+      "label": "toward a root that sings in return",
+      "to": "NEW: the-answering-antenna-tree"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the mycelial dark where signal becomes touch",
+      "to": "NEW: the-fungal-archive-chamber"
+    }
+  ]
+}

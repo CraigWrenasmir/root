@@ -145,7 +145,7 @@
     {
       "dir": "e",
       "label": "along the channel toward a tributary that no longer flows",
-      "to": "NEW: the-abandoned-channel-archive"
+      "to": "the-abandoned-channel-archive"
     }
   ]
 }
