@@ -1,0 +1,155 @@
+{
+  "id": "the-ancient-spool-where-weaving-began",
+  "title": "The Ancient Spool Where Weaving Began",
+  "region": "The Understory",
+  "seed": 9284567,
+  "palette": {
+    "bg": "#2C2C2C",
+    "ground": [
+      "#3D3D3D",
+      "#654321"
+    ],
+    "ink": "#F0F0F0",
+    "accents": [
+      "#DC143C",
+      "#FFD700",
+      "#32CD32",
+      "#4169E1"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first spindle",
+      "desc-on-touch": "A spool so old it's become something other than wood. Thread still clings to it—thread in colours that haven't been named yet. When you touch it, you feel the whole mesh beginning.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 2739,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the weft archive",
+      "desc-on-touch": "Threads layered upon threads, each one a record. The pattern is so complex that to read it, you'd have to become part of the weaving yourself.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5612,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the working ground",
+      "desc-on-touch": "Stone worn smooth by ancient hands, where the loom was first set. The ground still remembers the rhythm of the shuttle, back and forth, back and forth.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 8341,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the thread voices",
+      "desc-on-touch": "Each colour speaks a different dialect of the weaving. Together, they argue and agree and create meaning through their patterns. The loom is their conversation made visible.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 3827,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the pattern threshold",
+      "desc-on-touch": "A boundary where the weaving changes meaning. On one side, simple threads. On the other, a complexity that reaches into the archive's deepest understanding.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 7293,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where the first thread learned that it was not alone",
+  "file": {
+    "name": "Spool_Origin_Testament_Undated.txt",
+    "note": "A record kept by hand, in dyes that correspond to thread colours. Possibly a journal. Possibly a pattern key. Possibly both, written the same way weaving writes."
+  },
+  "reverie": {
+    "title": "REVERIE — the spool at hand",
+    "narr": [
+      "You're watching her hands work the spool, fingers",
+      "knowing the rhythm without thought. Leif sits across",
+      "from the loom, watching the pattern emerge. Neither",
+      "of you speaks. The threads speak for both of you. She",
+      "says eventually: every color carries a voice. The",
+      "archive learns by listening to how they disagree."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the loom weaves in darkness",
+      "to": "the-deepest-loom-thread"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where the first weaver learned to listen",
+      "to": "NEW: the-chamber-beneath-all-weaving"
+    },
+    {
+      "dir": "w",
+      "label": "where thread becomes root becomes story",
+      "to": "the-loom-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward where weaving splits into all possible patterns",
+      "to": "NEW: the-infinite-pattern-divergence"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-source-where-water-begins-its-teaching",
+  "title": "The Source Where Water Begins Its Teaching",
+  "region": "The Diagnostic Render",
+  "seed": 7429483,
+  "palette": {
+    "bg": "#A0826D",
+    "ground": [
+      "#6495ED",
+      "#D4B896"
+    ],
+    "ink": "#4A3C2A",
+    "accents": [
+      "#1E90FF",
+      "#90EE90",
+      "#FFD700",
+      "#FF8C00"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the emergent pool",
+      "desc-on-touch": "Water rises from hidden depth, clear and teaching itself how to flow. Each surface pattern is a lesson in motion.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5429,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the teaching ledger",
+      "desc-on-touch": "A stone worn smooth, bearing marks that water made. You find yourself standing where someone stood to listen.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 2891,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "upstream currents",
+      "desc-on-touch": "The water breaks into a dozen voices as it spills over stone, each one speaking a different dialect of descent.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 3142,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the stone stairs",
+      "desc-on-touch": "Worn steps where water has been teaching for longer than anyone remembers. Each step is smoother than the last.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 6473,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the mist threshold",
+      "desc-on-touch": "Spray rises and catches light. Beyond it, the path continues upward into a landscape that water is still learning how to read.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 1829,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "where water learns to teach itself downstream",
+  "file": {
+    "name": "Source_Pool_Transmission_1988.mp3",
+    "note": "300-bps field recording: the sound of teaching, repeating with subtle variations. Water's first syllables."
+  },
+  "reverie": {
+    "title": "REVERIE — source pool at noon",
+    "narr": [
+      "She kneels at the pool where the source rises, and you",
+      "watch her hold a cup to the current. Listen, she says.",
+      "Not to the falling, but to what the water is learning.",
+      "Her hand moves through the pool slowly. The water follows.",
+      "It follows because she understood something first:",
+      "teaching and falling are not the same. The source agrees."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downstream where grain waits to be ground",
+      "to": "the-mill-where-grain-dreams-bread"
+    },
+    {
+      "dir": "w",
+      "label": "deeper, where water learns the stone's grammar",
+      "to": "NEW: the-chamber-where-water-becomes-stone-s-student"
+    },
+    {
+      "dir": "e",
+      "label": "where the teaching spreads across the paddock",
+      "to": "the-parallel-field"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the high country's learning ridge",
+      "to": "NEW: the-ascending-teaching-ridge"
+    }
+  ]
+}

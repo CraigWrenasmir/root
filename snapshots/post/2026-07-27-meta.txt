@@ -1,0 +1,10 @@
+featured: The Ancient Spool Where Weaving Began (the-ancient-spool-where-weaving-began)
+region: The Understory · motif: orchard
+inscription: where the first thread learned that it was not alone
+file: Spool_Origin_Testament_Undated.txt
+
+all nodes tonight:
+  · The Source Where Water Begins Its Teaching
+  · The Substation Beneath Where Current Becomes Memory
+  · The Stone's Hidden Linguistic Bedrock
+  · The Ancient Spool Where Weaving Began

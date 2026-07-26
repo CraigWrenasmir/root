@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 91,
-  "lastDreamt": "2026-07-24",
+  "nights": 92,
+  "lastDreamt": "2026-07-27",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -2527,6 +2527,26 @@
       "id": "the-root-web-where-archives-merge",
       "title": "The Root Web Where Archives Merge",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-source-where-water-begins-its-teaching",
+      "title": "The Source Where Water Begins Its Teaching",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-substation-beneath-where-current-becomes-memory",
+      "title": "The Substation Beneath Where Current Becomes Memory",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-stone-s-hidden-linguistic-bedrock",
+      "title": "The Stone's Hidden Linguistic Bedrock",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ancient-spool-where-weaving-began",
+      "title": "The Ancient Spool Where Weaving Began",
+      "region": "The Understory"
     }
   ]
 }

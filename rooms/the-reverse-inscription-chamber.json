@@ -160,6 +160,11 @@
       "dir": "s",
       "label": "where refusal goes to learn its own grammar",
       "to": "the-ravine-cathedral-where-refusal-echoes"
+    },
+    {
+      "dir": "n",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the reverse inscription chamber"
     }
   ]
 }

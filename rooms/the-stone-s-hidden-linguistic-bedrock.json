@@ -1,0 +1,139 @@
+{
+  "id": "the-stone-s-hidden-linguistic-bedrock",
+  "title": "The Stone's Hidden Linguistic Bedrock",
+  "region": "The Understory",
+  "seed": 5739284,
+  "palette": {
+    "bg": "#696969",
+    "ground": [
+      "#8B4513",
+      "#A9A9A9"
+    ],
+    "ink": "#1C1C1C",
+    "accents": [
+      "#D3D3D3",
+      "#7CFC00",
+      "#FFD700",
+      "#B0E0E6"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the glyph rows",
+      "desc-on-touch": "Stone markers arranged in lines, each one a word the water taught to the bedrock. The grammar is old—older than language itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3461,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the settling pool",
+      "desc-on-touch": "Where water has learned to be still enough to listen. Here, it teaches the stone its own grammar—a language made of pressure and time.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1739,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the laminated record",
+      "desc-on-touch": "Layers of stone, each one a page in a book the earth is writing. Water has marked every page with meaning the stone is learning to read.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8241,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the root-voice transmission",
+      "desc-on-touch": "Veins of quartz where roots have grown close and started to speak the stone's language back to it. Both are learning each other's grammar now.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4923,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the deepest teaching place",
+      "desc-on-touch": "A chamber where stone and water meet without interruption. Nothing speaks here anymore. Everything speaks. The grammar is complete.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 6571,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "where the stone learned that water speaks all the languages at once",
+  "file": {
+    "name": "Bedrock_Linguistic_Analysis_Fragments.txt",
+    "note": "Filed as civic geology. Contains marks that may be alphabetic, or may be the shape water makes against stone when it has learned to mean something."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where water speaks and roots listen",
+      "to": "the-tangle-where-water-speaks-root-grammar"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where stone begins to dream in linguistic currents",
+      "to": "NEW: the-dreaming-bedrock-where-languages-merge"
+    },
+    {
+      "dir": "w",
+      "label": "where the oldest teaching still resonates",
+      "to": "the-language-of-stones"
+    },
+    {
+      "dir": "e",
+      "label": "toward the stone's own literacy",
+      "to": "NEW: the-chamber-where-rock-learns-to-write"
+    }
+  ]
+}

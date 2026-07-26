@@ -1,0 +1,139 @@
+{
+  "id": "the-substation-beneath-where-current-becomes-memory",
+  "title": "The Substation Beneath Where Current Becomes Memory",
+  "region": "The Comparisons",
+  "seed": 3824619,
+  "palette": {
+    "bg": "#6B6B83",
+    "ground": [
+      "#8FBC8F",
+      "#708090"
+    ],
+    "ink": "#2F4F4F",
+    "accents": [
+      "#00BFFF",
+      "#32CD32",
+      "#FFD700",
+      "#B0C4DE"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the transformer core",
+      "desc-on-touch": "Coils of copper wrapped around iron. The current no longer flows here, but you can feel the memory it left behind—warmth that remembers being alive.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4927,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the dream-circuit",
+      "desc-on-touch": "A pathway that no longer carries electricity, but the machines here still seem to remember what they were thinking about when the power stopped. The current became habit. The habit became memory.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7361,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the relay pool",
+      "desc-on-touch": "A gathering place where switches rest. They don't click anymore, but they click in dreams. The clicking is the sound of what they still want to do.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2148,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the deep machinery",
+      "desc-on-touch": "Gears and motors stacked in the dark. They remember how to turn, even when they're still. The memory is stronger than the force that once moved them.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5084,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the signal residue",
+      "desc-on-touch": "Static and echoes. The machines here learned to dream in electrical language. The dreams are still broadcasting on frequencies no one remembers how to hear.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 6192,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the machines learned that being switched off did not mean they had to stop remembering what it felt like to dream",
+  "file": {
+    "name": "Substation_Nocturnal_Recording_1994.mp3",
+    "note": "Captured 300 bps: the sound of a sleeping power plant. Relays click in patterns no switching sequence would make. The machines are rehearsing their dreams."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the sleeping machines",
+      "to": "the-eternal-power-station-dream"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where current becomes stone",
+      "to": "NEW: the-bedrock-where-electricity-learned-to-root"
+    },
+    {
+      "dir": "w",
+      "label": "into the secondary dreams of older systems",
+      "to": "the-forgotten-power-room"
+    },
+    {
+      "dir": "e",
+      "label": "where the archive mirrors the machinery",
+      "to": "NEW: the-echo-vault-where-power-reads-itself"
+    }
+  ]
+}
