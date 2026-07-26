@@ -311,8 +311,13 @@ STYLE_NUDGES = [
 ]
 
 def build_prompt(jobs, manifest, bleed=False):
+    # at scale, sample the node list for cross-linking rather than send all of
+    # it — keeps prompts small/cheap; the parent's back-route is always kept.
+    pool = manifest["rooms"]
+    if len(pool) > 150:
+        pool = random.sample(pool, 150)
     existing = "\n".join(f'- {r["id"]}  ("{r["title"]}", {r["region"]})'
-                         for r in manifest["rooms"])
+                         for r in pool)
     lines = [WORLD, "", SCHEMA, "",
              "=== EXISTING NODES (you may cross-link to these ids) ===",
              existing, ""]
