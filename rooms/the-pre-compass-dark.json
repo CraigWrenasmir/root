@@ -1,0 +1,122 @@
+{
+  "id": "the-pre-compass-dark",
+  "title": "The Pre-Compass Dark",
+  "region": "The Understory",
+  "seed": 3947182,
+  "palette": {
+    "bg": "#0a0f14",
+    "ground": [
+      "#1a1f2a",
+      "#2a1f3a"
+    ],
+    "ink": "#4a5a6a",
+    "accents": [
+      "#3a7a6a",
+      "#6a4a2a",
+      "#7a5a3a",
+      "#2a6a5a"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "void-compass",
+      "desc-on-touch": "A compass rose carved where no north exists. All four points glow the same faint colour, equally meaningless.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2716384,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "lost-sextant",
+      "desc-on-touch": "Instrument for reading sky-position. Here there is no sky. It spins in all directions at once, seeking reference that will not come.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 5829174,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "baseline-stripped",
+      "desc-on-touch": "Every edge you find is perpendicular to every other edge. The geometry is perfect and tells you nothing.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7346219,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "echo-of-bearing",
+      "desc-on-touch": "A sound like 'north' in a language that has no directions. The word means nothing here. It fades and loops back.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4182657,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here all four directions folded into one and then vanished; up and down learned they were the same mistake; the archive read itself and saw only recursion.",
+  "file": {
+    "name": "Sextant_Logs_Unmapped_Sector.txt",
+    "note": "Navigation records from before north existed. Checksums match but coordinates describe no space that contains this archive."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the moment when direction still meant something",
+      "to": "where-direction-itself-surrenders"
+    },
+    {
+      "dir": "e",
+      "label": "sideways toward cardinal spaces learning to remember themselves",
+      "to": "NEW: the-axis-awakening"
+    },
+    {
+      "dir": "w",
+      "label": "into zones where even the dark forgets it was ever dark",
+      "to": "where-even-the-dark-forgets-itself"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still into the folds where all positions become the same position",
+      "to": "NEW: the-absolute-collapse-where-axes-merge"
+    }
+  ]
+}

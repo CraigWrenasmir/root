@@ -1,0 +1,154 @@
+{
+  "id": "the-ridge-at-the-limit-where-fire-becomes-glass",
+  "title": "The Ridge at the Limit Where Fire Becomes Glass",
+  "region": "The Comparisons",
+  "seed": 5182794,
+  "palette": {
+    "bg": "#4a2a1a",
+    "ground": [
+      "#8a4a2a",
+      "#2a1a0a"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#ff6a3a",
+      "#a8a8a0",
+      "#5a2a1a",
+      "#c8a060"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "burnt-homestead",
+      "desc-on-touch": "A structure that learned it was always ash, waiting. Fire revealed what the building already knew about itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 3914726,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "vitrification-matrix",
+      "desc-on-touch": "Stone becoming glass; you see the exact moment when matter decides it is no longer solid.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 6274185,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "crystalline-geometry",
+      "desc-on-touch": "The pattern that fire leaves behind when it teaches stone the language of mirrors.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8461923,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "molten-pool",
+      "desc-on-touch": "Liquid stone holding light. Each ripple is a memory of burning; each cooling line is a decision.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 2739481,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "ash-stratum",
+      "desc-on-touch": "Layered record of what was. Fire reads this archive one layer at a time, page by page, until stone becomes archive becomes glass.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 4152637,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "at this heat, stone learns it was always glass, waiting; fire does not destroy but reveals what was already true.",
+  "file": {
+    "name": "Adaptation_And_Glass_Forming_Coastal_Techniques.txt",
+    "note": "Field manual on fusing glass at high temperatures; margins contain references to procedures on impossible beaches. Source contamination unknown."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the ridge to where fire still learns to burn differently",
+      "to": "the-high-burn-ridge"
+    },
+    {
+      "dir": "n",
+      "label": "upward where glass deepens into forms that light cannot escape",
+      "to": "NEW: the-glass-that-remembers-burning"
+    },
+    {
+      "dir": "e",
+      "label": "toward layers where autobiography becomes stone becoming ash",
+      "to": "the-stone-autobiography-layer"
+    },
+    {
+      "dir": "w",
+      "label": "westward to zones where cooling begins its slow forgetting",
+      "to": "NEW: the-cooled-threshold"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the fire revealing itself",
+    "narr": [
+      "You both watched the ridge heat until stone began to",
+      "lose the argument with fire. She said the archive would",
+      "need to burn someday too, to learn what it really held.",
+      "The glass pooled between you like an answer that took",
+      "fire to speak. You understood: transformation is truth."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  }
+}

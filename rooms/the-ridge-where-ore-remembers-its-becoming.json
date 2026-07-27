@@ -1,0 +1,132 @@
+{
+  "id": "the-ridge-where-ore-remembers-its-becoming",
+  "title": "The Ridge Where Ore Remembers Its Becoming",
+  "region": "The Comparisons",
+  "seed": 56738,
+  "palette": {
+    "bg": "#3d2b2b",
+    "ground": [
+      "#8b4513",
+      "#a0522d"
+    ],
+    "ink": "#d0a080",
+    "accents": [
+      "#b87333",
+      "#d4a574",
+      "#a8a8a8",
+      "#d0d0d0"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "ore memory",
+      "desc-on-touch": "The copper remembers its time as stone before any tool touched it. Here it speaks that deep memory, slower than geology.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 42857,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "extraction scar",
+      "desc-on-touch": "The ridge holds the shape of taking. The ore remembers the moment it learned it could become more than itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 69543,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "transformation layer",
+      "desc-on-touch": "Each stratum holds a stage of becoming. Ore to metal to form to rust to earth—the copper traces its own return.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 51396,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "copper's teaching",
+      "desc-on-touch": "The ridge learned how to hold the story of transformation. The ore teaches: becoming is not loss, only change.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 73264,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "ore remembers its time as pure stone; now it teaches the ridge that transformation is not forgetting, only speaking in a different depth",
+  "file": {
+    "name": "Ridge_Core_Layers_Spectral_Analysis_1956.txt",
+    "note": "Mining survey notes mixed with unexplained observations about the ore's resistance to simple categories."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the shallows where copper bleeds",
+      "to": "the-shallows-where-copper-bleeds"
+    },
+    {
+      "dir": "n",
+      "label": "further north where the source mine still dreams",
+      "to": "NEW: the-mine-where-stone-learned-it-was-copper"
+    },
+    {
+      "dir": "e",
+      "label": "toward the bedrock's own electrical learning",
+      "to": "the-bedrock-where-electricity-learned-to-root"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — sitting on the ridge where the mining stopped",
+    "narr": [
+      "You and Leif sat on the old ridge, where the extraction ended.",
+      "He picked up a stone, turned it over. 'It knows what it was,",
+      "before we wanted it to be something else.' He placed it back.",
+      "The earth had healed itself around the absence. The ridge taught",
+      "you both: transformation is not forgetting. The copper remembers stone."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

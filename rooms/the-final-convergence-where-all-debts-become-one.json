@@ -1,0 +1,150 @@
+{
+  "id": "the-final-convergence-where-all-debts-become-one",
+  "title": "Where All Debts Become One Stone",
+  "region": "The Understory",
+  "seed": 592784,
+  "palette": {
+    "bg": "#2F2F1F",
+    "ground": [
+      "#8B6914",
+      "#A0694C"
+    ],
+    "ink": "#D4AF37",
+    "accents": [
+      "#8B4513",
+      "#CD853F",
+      "#556B2F",
+      "#8B7355"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-debt-rows",
+      "desc-on-touch": "Each row is a layer. Each layer reads the debt above it and finds a different name for the same stone. The rows converge at a point where all meanings become weight.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 847291,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-convergence-fulcrum",
+      "desc-on-touch": "Here the layers press together so tightly they become a single axis. All the debts—time-debt, land-debt, knowledge-debt—press down into one reading.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 374829,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-measurement-that-stops",
+      "desc-on-touch": "A gauge that tried to measure each layer separately. But at this convergence, measurement ends. The needle jams at the point where all layers are one.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 591837,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-stratum-listen",
+      "desc-on-touch": "Stone that learned to listen sideways through itself. Each layer a whisper the one below reads and answers. Convergence is not erasure—it's the moment when all voices finally understand each other.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 463728,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-pump-in-conversation",
+      "desc-on-touch": "The pump stopped moving up and down. Now it moves sideways through the stone, reading debt as if debt were a current. The layers have taught it a new direction.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 829374,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "all debts resolve at the same depth; the convergence is not an answer but a weight that speaks in unison",
+  "file": {
+    "name": "Sediment_Cross_Reading_Phase7.txt",
+    "note": "each stratum contradicts the one above it; the contradiction is the truth"
+  },
+  "reverie": {
+    "title": "REVERIE — in the red country at dusk, understanding how debt",
+    "narr": [
+      "You kneel beside her in the red earth. She's holding soil in both hands.",
+      "Each layer in it—clay, silt, rust—tells a different story about the field.",
+      "'This earth has forgotten nothing,' she says. 'It's just stored it differe",
+      "You see: the archive doesn't resolve debts. It converges them,",
+      "makes them press together until pressure becomes a new kind of meaning.",
+      "The red dust on your hands is every contradiction made material."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "embers",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the laterally-moving layers",
+      "to": "the-lateral-sediment-convergence"
+    },
+    {
+      "dir": "e",
+      "label": "where debts are still being counted separately",
+      "to": "the-pit-of-accumulated-debts"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where convergence itself begins to dissolve",
+      "to": "NEW: the-stone-that-learned-to-disagree-with-itself"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "the-chamber-of-merciful-unknowing",
+  "title": "The Chamber of Merciful Unknowing",
+  "region": "The Understory",
+  "seed": 73819,
+  "palette": {
+    "bg": "#d4d08c",
+    "ground": [
+      "#90ee90",
+      "#f0e68c"
+    ],
+    "ink": "#2d3d2d",
+    "accents": [
+      "#ff6b6b",
+      "#ffd93d",
+      "#6bcf7f",
+      "#4ecdc4"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "archives of not-knowing",
+      "desc-on-touch": "You stand in a place where storage learned to dream what it keeps. Here, unknowing is not loss—it is mercy.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 45278,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "shelves of forgetting",
+      "desc-on-touch": "Things are kept here that no one needs to remember perfectly. The archive has learned that precision is not always kindness.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 68934,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "dream of storage",
+      "desc-on-touch": "The chamber dreams while keeping. Storage learned that dreams are also a form of preservation, softer than facts.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 54782,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "merciful threshold",
+      "desc-on-touch": "You arrive at the edge of knowing everything. The chamber teaches: there is grace in not-knowing, in letting some things rest.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 71503,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "keeper's rest",
+      "desc-on-touch": "Even archives need to sleep. The storage here learned that not-knowing is sometimes the truest form of keeping.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 62195,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "here storage learned that unknowing is mercy; the archive stopped remembering when remembering meant having to explain, and now it simply keeps, more gently than before",
+  "file": {
+    "name": "Storage_Dreams_Incomplete_Personal_Record.tmp",
+    "note": "Things kept here need no explanation. The archive dreams of them at night without ever trying to fully remember."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the chambers where silence still keeps",
+      "to": "the-chamber-where-storage-learns-silence"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into places where unknowing becomes a kind of wisdom",
+      "to": "NEW: the-depths-where-forgetting-teaches-itself"
+    },
+    {
+      "dir": "s",
+      "label": "toward the place where meaning grows without needing to speak",
+      "to": "the-place-where-meaning-begins-and-grows-without-saying"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the evening Katita stopped trying to organize ever",
+    "narr": [
+      "You found her in the storage room, surrounded by boxes she wasn't",
+      "labeling. 'I stopped needing to know exactly what's in each one,",
+      "she said. 'The archive doesn't need to explain itself to me anymore.'",
+      "You sat beside her in the half-lit room. Sometimes keeping is kinder",
+      "than knowing. The chamber dreamed while you both learned that mercy."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

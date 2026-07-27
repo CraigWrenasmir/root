@@ -1,0 +1,116 @@
+{
+  "id": "the-dream-that-dreams-itself-awake",
+  "title": "The Dream That Dreams Itself Awake",
+  "region": "The Understory",
+  "seed": 62751,
+  "palette": {
+    "bg": "#fef3c7",
+    "ground": [
+      "#d4a574",
+      "#c9a961"
+    ],
+    "ink": "#3d2817",
+    "accents": [
+      "#5d4e37",
+      "#8b7355",
+      "#1e3a5f",
+      "#2d5a8c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the waking animal",
+      "desc-on-touch": "a creature—kangaroo, perhaps, or something that only exists in the overlap between sleep and day—that has noticed itself is being dreamed; it is watching the dreamer who has not yet woken",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 41111,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the light-pool",
+      "desc-on-touch": "water that catches daylight and holds it without getting wet; inside it you see both the forest as it is and as it dreams itself; they are not different",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 41112,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the clearness-that-will-not-settle",
+      "desc-on-touch": "this place has stopped allowing clarity and unclarity to be separate; you are as awake as you are asleep, the dream recognizes you are part of its own dreaming",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 41113,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the dream that continues without dreamers is the dream the forest has learned to be; it dreams itself awake each morning and does not sleep",
+  "file": {
+    "name": "Daylight_Dream_Journal_Never_Written.tmp",
+    "note": "a record of dreams that persist into daytime; the archive cannot decide if these are dreams corrupting waking time or waking time learning to dream; the file expands during afternoon hours"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back deeper into the dream that does not end",
+      "to": "the-forest-dream-without-dreamers"
+    },
+    {
+      "dir": "n",
+      "label": "toward waking—or deeper still into impossible clarity",
+      "to": "NEW: the-forest-learning-that-awakeness-is-also-dreaming"
+    },
+    {
+      "dir": "e",
+      "label": "along the animal-paths where creatures remember and forget together",
+      "to": "the-walking-grove"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — clearing at noon, realization",
+    "narr": [
+      "you're standing with her in a forest that is also sleeping.",
+      "she says: —do you think they know we're dreaming them?",
+      "—who? —the trees. the animals. the place.",
+      "you both realize at the same moment:",
+      "you've been inside this dream so long you forgot",
+      "whose eyes were doing the seeing. not yours. not hers."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  }
+}

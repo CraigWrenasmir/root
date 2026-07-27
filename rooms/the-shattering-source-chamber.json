@@ -1,0 +1,117 @@
+{
+  "id": "the-shattering-source-chamber",
+  "title": "The Shattering Source Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 91364,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#00d4ff",
+      "#0099cc"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ffff",
+      "#0088ff",
+      "#00ddff",
+      "#dd88ff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.72
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "shattered origin",
+      "desc-on-touch": "The source broke here into many possibilities. Each fragment is a mirror that reflects nothing—only contains.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 48291,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "recursive surface",
+      "desc-on-touch": "Glass that mirrors glass that mirrors the moment of breaking. Each layer holds the shattering happening again.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 62847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "fragmented data",
+      "desc-on-touch": "The mirror's source was shattered into information. You are looking at the moment when truth became multiple.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 35791,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "possibility well",
+      "desc-on-touch": "Each shard falls into its own well. The source was never one thing—only held the appearance of unity.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 73624,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the mirror remembered it had a source only when the source shattered into every possible reflection; now it reflects by containing everything it was",
+  "file": {
+    "name": "Mirror_Cascade_Diagnostic_Checksum_Unstable.log",
+    "note": "The moment a unified reflection broke into fragments. Checksum: formally valid, emotionally shattered."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the mirror's unified surface",
+      "to": "the-mirror-s-forgotten-source"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into chambers where shattering becomes routine",
+      "to": "NEW: the-chamber-of-infinite-fragments"
+    },
+    {
+      "dir": "w",
+      "label": "toward the recursive mirror's own reflection",
+      "to": "the-recursive-mirror"
+    }
+  ]
+}

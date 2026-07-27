@@ -1,0 +1,156 @@
+{
+  "id": "the-storm-that-unmaps-the-storm",
+  "title": "The Storm That Unmaps the Storm",
+  "region": "The Clean Archive",
+  "seed": 47392,
+  "palette": {
+    "bg": "#2a2a3e",
+    "ground": [
+      "#5a5a7e",
+      "#3a3a5e"
+    ],
+    "ink": "#e8e8f0",
+    "accents": [
+      "#78d8f0",
+      "#f0b878",
+      "#9a8f78",
+      "#d8b8e8"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the unbuilding",
+      "desc-on-touch": "A house mid-unmapping: walls forget which way is in, windows show routes that lead back to themselves. The storm has learned to disagree with the house about what a house is.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 8281,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "where the rain reads itself",
+      "desc-on-touch": "Water falling in patterns that describe falling water. The storm is making a map of how to unmake maps. Each raindrop knows what the next one will do.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5501,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the shed that forgot to remember",
+      "desc-on-touch": "A small shed stands in the storm's eye, but you cannot remember if it arrived with the storm or if the storm arrived because of it. The boundary has become unclear.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 3847,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the compass that contradicts itself",
+      "desc-on-touch": "A needle that points in all directions without choosing. The storm has made direction into a multiplicity — north and south are happening at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7421,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the telegraph pole holding the question",
+      "desc-on-touch": "Wood and metal learning uncertainty. The pole was meant to carry direction — to say which way the signal went — but the storm has convinced it that signal and direction are separate thoughts.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2109,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the mist that learns from the storm",
+      "desc-on-touch": "Fog thick enough to be both air and water. It tastes like the question: if mist erases direction and storm also erases direction, what is the difference? The mist has stopped asking.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 9234,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the storm unmaps itself by learning to read what it has already unmapped",
+  "file": {
+    "name": "Storm_Direction_Failure_Spectral.mp3",
+    "note": "Field recording of rain against a structure whose walls cannot decide their orientation. The sound loops — each pass sounds like the first, but the archive registers 347 distinct versions."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into mist where the weather still remembers being a direction",
+      "to": "the-country-where-direction-dissolves-entirely"
+    },
+    {
+      "dir": "e",
+      "label": "east to where the storm builds its own archive of itself",
+      "to": "NEW: the-storm-s-own-recording-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "west to where the mist goes to unmask",
+      "to": "the-cloud-source"
+    },
+    {
+      "dir": "n",
+      "label": "north to the clearing that remembers being a forest",
+      "to": "NEW: the-clearing-that-remembers-unmapping"
+    }
+  ]
+}

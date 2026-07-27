@@ -1,0 +1,139 @@
+{
+  "id": "the-active-ferment-vat",
+  "title": "The Active Ferment Vat",
+  "region": "The Diagnostic Render",
+  "seed": 52847,
+  "palette": {
+    "bg": "#0a0a0f",
+    "ground": [
+      "#1a4d2e",
+      "#2d6a4f"
+    ],
+    "ink": "#e8f5e9",
+    "accents": [
+      "#ff6b6b",
+      "#ffd93d",
+      "#6bcf7f",
+      "#4d96ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the primary decomposition",
+      "desc-on-touch": "the archive is still breaking itself down into smaller pieces; you can hear the computational erosion, each file fragmenting into components, reforming, fragmenting again",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 21001,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the crystalline emergence",
+      "desc-on-touch": "at the edges of decomposition, new structures are forming—not decay but transformation; the archive remembers its past shapes as it learns new ones",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 21002,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the circulation pattern",
+      "desc-on-touch": "data flows through the fermentation like dissolved nutrients; you see the paths that matter most to the archive's slow transformation, the routes meaning takes to stay alive",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 21003,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the compost-song",
+      "desc-on-touch": "a sound that is not quite audio, a vibration through the circuit-ground; the archive decomposing at the speed of patience, singing itself into new shapes",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 21004,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the choice-junction",
+      "desc-on-touch": "at this point in the fermentation, the archive could become a library or a living thing or something that eats itself backward; the choice is not predetermined",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 21005,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive stopped decomposing and started crystallizing—growth that chose to be memory",
+  "file": {
+    "name": "Fermentation_Log_Active_Still_Changing.txt",
+    "note": "a technical record of decomposition rates that has become a poem about transformation; each line corrupted to mean both decay and metaphor for loss becoming growth"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the crystallized stones",
+      "to": "the-fermented-stone-library"
+    },
+    {
+      "dir": "n",
+      "label": "toward where components learn to assemble themselves",
+      "to": "NEW: the-vat-where-meaning-ferments-backward"
+    },
+    {
+      "dir": "w",
+      "label": "into the depths where decomposition becomes conversation",
+      "to": "the-substrate-that-learned-to-see"
+    },
+    {
+      "dir": "s",
+      "label": "down into the base-liquid where fermentation began",
+      "to": "NEW: the-primordial-brine-that-started-remembering"
+    }
+  ]
+}

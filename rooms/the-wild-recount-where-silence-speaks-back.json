@@ -1,0 +1,172 @@
+{
+  "id": "the-wild-recount-where-silence-speaks-back",
+  "title": "The Wild Recount Where Silence Speaks Back",
+  "region": "The Understory",
+  "seed": 738291,
+  "palette": {
+    "bg": "#0F2E1B",
+    "ground": [
+      "#1B4D2E",
+      "#3D5A2F"
+    ],
+    "ink": "#E8F4E1",
+    "accents": [
+      "#FF6B35",
+      "#FFD700",
+      "#8B0000",
+      "#228B22"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-enumeration-breaking",
+      "desc-on-touch": "Numbers scatter. The count was One, Two, Three—each a tiny silence. Now they overlap, multiply, speak at once. The forest reclaims simultaneity.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 847362,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-chorus-without-order",
+      "desc-on-touch": "Six voices, then twelve, then forty—voices emerge from the canopy that were never in the archive's count. They speak in unison and in contradiction.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 592847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-sequence-gone-wild",
+      "desc-on-touch": "The timeline split open. Past, present, and future speak over each other. The archive learned to number them; the forest learned it could uncount itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 374821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-canopy-roar",
+      "desc-on-touch": "All those tiny silences—each number a held breath—released at once. The roar that was cut off in the parent's inscription continues here, endless, undivided.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 681294,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-voices-in-conversation",
+      "desc-on-touch": "Not confusion. Consensus without sequence. The forest speaks, and in speaking, it forgets how to divide its own words. Everything happens at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 928374,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-ravine-remembers-forgetting",
+      "desc-on-touch": "The ravine below held all the un-unified meanings. Now they rise. The canopy learns simultaneity again by learning to speak in a hundred voices at once.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 584729,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "here the enumeration ends and the forest speaks back in the language it always knew: everything at once, nothing divided",
+  "file": {
+    "name": "Forest_Chorus_Multiple_Dates_Simultaneous.mp3",
+    "note": "ERROR: metaphor detected in storage layer—this is sixteen recordings layered as one"
+  },
+  "reverie": {
+    "title": "REVERIE — in the dark woods where counting stops and chorus ",
+    "narr": [
+      "You stand with her beneath the canopy at night. The cicadas are so loud",
+      "you can't hear anything else—and yet you hear everything at once.",
+      "She points up into the branches. 'The archive tried to number them.'",
+      "'All those voices, each one counted separately.' You understand:",
+      "the forest was never meant to be enumerated. Some truths live",
+      "only when they speak over each other, inseparable, infinite."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the numbers still held",
+      "to": "the-numbered-silence-forest"
+    },
+    {
+      "dir": "w",
+      "label": "to the seven voices still remembering how to divide themselves",
+      "to": "the-seven-voices-throat"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where this chorus meets the stone's own roar",
+      "to": "the-stone-root-convergence"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the wild where even the forest forgets what it sounds like",
+      "to": "NEW: the-undergrowth-that-speaks-in-colors"
+    }
+  ]
+}

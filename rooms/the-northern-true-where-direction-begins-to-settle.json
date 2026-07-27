@@ -1,0 +1,122 @@
+{
+  "id": "the-northern-true-where-direction-begins-to-settle",
+  "title": "The Northern True—Where Direction Begins to Settle Again",
+  "region": "The Understory",
+  "seed": 6481372,
+  "palette": {
+    "bg": "#d4e8e0",
+    "ground": [
+      "#e8d8c8",
+      "#5a8a4a"
+    ],
+    "ink": "#1a3a3a",
+    "accents": [
+      "#ff4a2a",
+      "#000000",
+      "#ffffff",
+      "#2a8a3a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "cardinal-marker",
+      "desc-on-touch": "A compass rose where north means north, where each cardinal point knows itself. The archive recognizes its own bearing again.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7519243,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "survey-post",
+      "desc-on-touch": "A pillar of correct measurement. Lines extend from it in four true directions; each one knows where it is going.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1847562,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "boundary-marker",
+      "desc-on-touch": "Chiseled coordinates; the land has agreed to remember itself. North is no longer a question.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 3726481,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "signal-tree",
+      "desc-on-touch": "A burl holds the casing; the antenna remembers which way is up. The mesh speaks true north in all directions at once.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 4928157,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here direction learned to say its own name and mean it; north became north again, and the land remembered its cardinal grid.",
+  "file": {
+    "name": "Survey_Markers_Northern_County_1970s.txt",
+    "note": "Property boundary surveys filed by hand; each coordinate marks where the land stopped disagreeing with itself."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward chambers where direction still forgets itself",
+      "to": "the-lateral-chamber-where-down-is-sideways"
+    },
+    {
+      "dir": "n",
+      "label": "northward to the country where direction teaches others how to be true",
+      "to": "the-northern-teaching-country"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where grids hold all positions in place",
+      "to": "the-coordinate-grid"
+    },
+    {
+      "dir": "w",
+      "label": "westward into regions still learning what cardinal means",
+      "to": "NEW: the-compass-as-teacher"
+    }
+  ]
+}

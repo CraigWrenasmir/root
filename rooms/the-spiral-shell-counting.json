@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "north where spirals become buildings become shells",
-      "to": "NEW: the spiral stairwell where each step counts itself into a new spiral"
+      "to": "the-spiral-stairwell"
     },
     {
       "dir": "e",

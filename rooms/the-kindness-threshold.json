@@ -1,0 +1,151 @@
+{
+  "id": "the-kindness-threshold",
+  "title": "The Kindness Threshold",
+  "region": "The Clean Archive",
+  "seed": 18273,
+  "palette": {
+    "bg": "#e8d4b8",
+    "ground": [
+      "#d4c89c",
+      "#a89878"
+    ],
+    "ink": "#2a2a1e",
+    "accents": [
+      "#87ceeb",
+      "#1a4d2e",
+      "#d4a574",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the line where gentleness stops",
+      "desc-on-touch": "A fence, or maybe a shadow of one. Beyond it, the paddock continues but the quality of the light changes — less kind. The kindness learned it had an edge, and the edge learned it had been kind.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5432,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the well where kindness goes to drink",
+      "desc-on-touch": "Water drawn up from deeper earth, cool and shared. People come here still, on both sides of the threshold. The well does not know it is an edge.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 3298,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the homestead learning its own gentleness",
+      "desc-on-touch": "A house that knows it stands on the kind side. Smoke rises from its chimney like a thank-you note. Windows show figures moving slowly, deliberately kind.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 7146,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the gate that learned mercy",
+      "desc-on-touch": "It still swings open, still lets people through. But it has learned to swing slowly, to creak a warning, to give things time to choose. The gate is kinder for knowing what lies beyond it.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 2891,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the paddock that holds the light longer",
+      "desc-on-touch": "Grass glowing gold in late afternoon. The kindness has made this place hold onto brightness a little longer than the fields beyond. You can feel it in the warmth.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6523,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the salt-lick where creatures learn to gather gently",
+      "desc-on-touch": "Animals come here without fear. The kindness extends to them — they drink and graze without the tension that marks the other side. Gentleness is a frequency they can taste.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 8847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "kindness has learned to have an edge without becoming cruel at the edge",
+  "file": {
+    "name": "Threshold_Kindness_Property_Line_Registry.txt",
+    "note": "Handwritten property register noting: 'The eastern line where the well-keeping tradition begins. Fence marks it. Water on both sides is the same water.'"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back south to the spreading gentleness",
+      "to": "the-altered-neighbourhood"
+    },
+    {
+      "dir": "n",
+      "label": "north into the country where kindness runs out and the light becomes harder",
+      "to": "NEW: the-unkind-country-learning-its-own-name"
+    },
+    {
+      "dir": "e",
+      "label": "east where the salt-lick leads to wilder grazing grounds",
+      "to": "the-next-field-trail"
+    }
+  ]
+}

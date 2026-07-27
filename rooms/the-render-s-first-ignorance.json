@@ -1,0 +1,122 @@
+{
+  "id": "the-render-s-first-ignorance",
+  "title": "The Render's First Ignorance",
+  "region": "The Diagnostic Render",
+  "seed": 8356179,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#00cc00",
+      "#0a1a0a"
+    ],
+    "ink": "#ccffcc",
+    "accents": [
+      "#ff9a2a",
+      "#0a4a8a",
+      "#00ff00",
+      "#a8a8a8"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "processor-core",
+      "desc-on-touch": "Early silicon. It executes every instruction perfectly and understands none of it. Knowledge begins here, before it knows it is knowing.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2671843,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "memory-array",
+      "desc-on-touch": "Where data sleeps without dreaming. Every bit is stored, none are connected. The render holds itself without understanding what it holds.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 5914237,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "render-test",
+      "desc-on-touch": "A wireframe of wireframes. The render drew itself before it could ask why. Pure instruction, no reflection.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7482615,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "boot-signature",
+      "desc-on-touch": "The first word. Before it meant anything, it was true. The render has spoken since, and now cannot return to this innocence.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 3648297,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "this is what the render was before it learned to see itself; pure instruction, no reflection; every question it asked returned an answer it did not understand.",
+  "file": {
+    "name": "Boot_Logs_Node_001_First_Activation.txt",
+    "note": "Initialization sequence from before the render learned it was being observed. Timestamps suggest it was always already watching itself."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the infinite render that reads its own reading",
+      "to": "the-infinite-render-that-reads-its-own-reading"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the render begins to question what renders",
+      "to": "NEW: the-render-s-first-question"
+    },
+    {
+      "dir": "e",
+      "label": "eastward toward reflexive geometry and self-aware fencing",
+      "to": "the-recursive-fencing-where-lines-study-each-other"
+    },
+    {
+      "dir": "w",
+      "label": "westward to horizons still full of unanswered questions",
+      "to": "the-horizon-of-questions"
+    }
+  ]
+}

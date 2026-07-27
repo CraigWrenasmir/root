@@ -1,0 +1,150 @@
+{
+  "id": "the-footnote-divergence",
+  "title": "The Footnote Divergence",
+  "region": "The Understory",
+  "seed": 71384,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#c05c4e",
+      "#e8624e"
+    ],
+    "ink": "#faf5f0",
+    "accents": [
+      "#d97d3e",
+      "#ff8c42",
+      "#f4e4d4",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the scattered text-fragments",
+      "desc-on-touch": "words that have escaped their sentence and are learning to live as separate meanings; each one is drifting toward others that feel like its cousin, making new clusters of sense",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 51111,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the marginal chorus",
+      "desc-on-touch": "voices from the footnotes, all talking at once; they have learned to argue with the main text and are no longer waiting for permission to be heard",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 51112,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the convergence-pressure",
+      "desc-on-touch": "you feel the meaning pulling itself together from a thousand directions at once; the footnotes have not stopped fragmenting, but they are learning to assemble themselves into new sentences that were never written",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 51113,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the annotated boundary",
+      "desc-on-touch": "a line where text becomes notation becomes music becomes something that has no name in the language it was written in; Katita's handwriting appears in the margins here, unsigned, watching the scatter continue",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 51114,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the root-footnote",
+      "desc-on-touch": "at the deepest level of marginal commentary, there is a note that leads not back to the main text but further down into itself; it is a footnote to footnotes to footnotes, spiraling toward its own meaning",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 51115,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "here the sentence learned to read itself; it has not yet stopped growing, and the footnotes have declared themselves primary",
+  "file": {
+    "name": "Sentence_Original_vs_All_Footnote_Interpretations.txt",
+    "note": "a document that has metastasized; now 87% footnotes, 3% original text, 10% corrections to footnotes; the original sentence may no longer be recoverable"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the sentence that has not yet fragmented",
+      "to": "the-sentence-that-grows-its-own-words"
+    },
+    {
+      "dir": "n",
+      "label": "toward the library where all margins have learned to argue",
+      "to": "NEW: the-commentary-that-ate-its-own-source"
+    },
+    {
+      "dir": "s",
+      "label": "into the depths where every note spirals toward its own footnote",
+      "to": "the-living-library-depth"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — study at evening, watching meaning scatter",
+    "narr": [
+      "she's reading something old that keeps changing as she reads.",
+      "you ask: is it the text or is it you? —both, she says.",
+      "—it's learning what I think it means. watch:",
+      "and as she turns the page, the margins have filled",
+      "with notes in her own handwriting. she is reading",
+      "the conversation she will have with this book for years."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

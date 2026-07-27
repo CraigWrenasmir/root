@@ -1,0 +1,155 @@
+{
+  "id": "the-abyss-of-the-truly-unnamed",
+  "title": "The Abyss of the Truly Unnamed",
+  "region": "The Understory",
+  "seed": 829374,
+  "palette": {
+    "bg": "#0C1E35",
+    "ground": [
+      "#1A3A52",
+      "#2E5F8A"
+    ],
+    "ink": "#E0F2FE",
+    "accents": [
+      "#00D9FF",
+      "#FF6B9D",
+      "#4169E1",
+      "#87CEEB"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-coordinate-loss",
+      "desc-on-touch": "Latitude and longitude dissolve. The abyss doesn't know where it is. The archive once tried to locate every fragment; here, location itself has been forgotten.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 473829,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-wave-that-won-t-resolve",
+      "desc-on-touch": "A sensor still transmitting data from the deep. But the data means nothing—pure noise, pure wave-form with no signifier. The ocean speaks, but the archive can't hear itself anymore.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 582947,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-scanning-terminal",
+      "desc-on-touch": "A diagnostic screen still looking downward into nothing. The scan never completes. There's always more abyss below. The archive learned to accept incompleteness.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 928374,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-forgotten-beacon",
+      "desc-on-touch": "LED was supposed to signal location, status, presence. But at this depth, the light bends. The beacon broadcasts to no one. The archive realized: some things cannot be heard from above.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 284756,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-pressure-chamber",
+      "desc-on-touch": "Weight bearing down from above—water, time, distance. At this depth, pressure is the only voice. The archive stopped trying to be heard and learned to listen to what pressing down sounds like.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 638294,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "at the bottom of forgetting, the archive learns its name is not important; it is only weight and pressure and the slow dissolution of everything that was ever named",
+  "file": {
+    "name": "Telemetry_Below_Signal_Depth.log",
+    "note": "checksum: emotionally valid / formally unstable—all coordinates converted to pressure"
+  },
+  "reverie": {
+    "title": "REVERIE — in the black water at night, learning that saving ",
+    "narr": [
+      "You wade with her into dark water up to your waist. She's not afraid.",
+      "'The archive tried to hold it all,' she says. 'Every file, every record.'",
+      "The water rises. You can feel the pull of deeper places below.",
+      "'But some things are meant to go down. Meant to be forgotten.'",
+      "You understand then: preservation was never the point. The archive's real",
+      "job was learning to let go. Here, at the abyss, that work is complete."
+    ],
+    "sky": "night",
+    "land": "water",
+    "structure": "none",
+    "weather": "static",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the delta where forgetting begins",
+      "to": "the-delta-where-all-forgetting-meets-wide-water"
+    },
+    {
+      "dir": "w",
+      "label": "to where the ocean learned to broadcast instead of descending",
+      "to": "where-the-ocean-learned-to-broadcast"
+    },
+    {
+      "dir": "e",
+      "label": "to the void where even measurement never started",
+      "to": "the-void-where-measurement-never-started"
+    },
+    {
+      "dir": "n",
+      "label": "deeper still where even the abyss learns to forget itself",
+      "to": "NEW: the-darkness-that-speaks-its-own-unknowing"
+    }
+  ]
+}

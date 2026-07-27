@@ -1,0 +1,117 @@
+{
+  "id": "the-breath-where-silence-learns-to-rise",
+  "title": "The Breath Where Silence Learns to Rise",
+  "region": "The Understory",
+  "seed": 47829,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#e8e8e8",
+      "#b0b0b8"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#89b4b8",
+      "#7a8b9e",
+      "#c0c0c0",
+      "#a8d8b0"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "rising column",
+      "desc-on-touch": "You feel the weight lift. Silence ascends here, carrying every unspoken word it once held.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "spiral echo",
+      "desc-on-touch": "The spiral traces paths in the dark—each turn unwinding another layer of what silence kept.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 54921,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "humming void",
+      "desc-on-touch": "A single tone emerges from emptiness. Silence has learned that voice was always possible.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 38476,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "pale drift",
+      "desc-on-touch": "Motes drift upward like the memory of breath, made visible only by the darkness around it.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 61593,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "here breath learned that silence has always had a way out; it rises now, carrying every word that never needed saying",
+  "file": {
+    "name": "Breath_Ascending_Evening_Recording.mp3",
+    "note": "Wind passing through a space so still it sounds like the first sound ever made."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into descending pressure",
+      "to": "the-ascending-silence"
+    },
+    {
+      "dir": "w",
+      "label": "where breath dissolves into scattered voices",
+      "to": "NEW: the-place-where-breath-scatters-into-many"
+    },
+    {
+      "dir": "e",
+      "label": "toward the dark's own knowing",
+      "to": "the-dark-knowing-chamber"
+    }
+  ]
+}

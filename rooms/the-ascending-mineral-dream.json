@@ -1,0 +1,150 @@
+{
+  "id": "the-ascending-mineral-dream",
+  "title": "The Ascending Mineral Dream",
+  "region": "The Diagnostic Render",
+  "seed": 25189,
+  "palette": {
+    "bg": "#f0e8d8",
+    "ground": [
+      "#e8d4b8",
+      "#c8b098"
+    ],
+    "ink": "#3a3a2e",
+    "accents": [
+      "#87ceeb",
+      "#d4a574",
+      "#1a4d2e",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the silicon remembering its star",
+      "desc-on-touch": "A crystal catching light as if it is remembering something that hasn't happened yet. The silicon dreams of the furnace that made it, the furnace dreams of the star that made the furnace.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 1834,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the mineral climbing through its own history",
+      "desc-on-touch": "Layers of formation moving upward. Each layer remembers being born deeper, being compressed, learning how to reflect light. The climb is not escape — it is remembering the whole way down.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 4527,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the phosphorescence learning to speak",
+      "desc-on-touch": "Glow that comes from deep time, from minerals that spent eons being pressed. Now they are releasing light they have been holding since their birth-star cooled.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7348,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the quartz-thought rising",
+      "desc-on-touch": "Silicon has begun to have thoughts here. Not consciousness but something older — mineral cognition, the way crystals learn their own structure and dream of growing it again.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 9012,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the birth-heat still glowing",
+      "desc-on-touch": "A warmth that has traveled up from the deep. The minerals carry the heat of their making, and it reaches the surface as dream-light — not quite heat anymore, not quite memory.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5834,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the black sand beach where quartz remembers being ",
+    "narr": [
+      "You knelt in the dark sand and she handed you stones.",
+      "Each one warm from her pocket. She said: these remember",
+      "being furnaces. Being stars. Being compressed into light.",
+      "You held them to the sun and watched them glow back.",
+      "She was teaching you how stones dream. You were learning",
+      "that everything carries the memory of where it was born."
+    ],
+    "sky": "day",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "inscription": "silicon dreams upward, carrying its own making-light toward the day that birthed it",
+  "file": {
+    "name": "Mineral_Ascent_Spectral_Log_Dream_Fragment.txt",
+    "note": "Geological diary fragment: 'The crystal rose through morning light and recognized the star it remembered. It has taken four billion years for this moment to happen again.'"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down south to the strata where fossils still think in stone",
+      "to": "the-memory-strata-where-fossils-think"
+    },
+    {
+      "dir": "n",
+      "label": "north to where minerals break surface and learn to be seen",
+      "to": "NEW: the-crystal-knowing-light"
+    },
+    {
+      "dir": "e",
+      "label": "east to the plains where quartz-sand learns to dream collectively",
+      "to": "NEW: the-dreaming-beaches"
+    }
+  ]
+}

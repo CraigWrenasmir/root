@@ -1,0 +1,154 @@
+{
+  "id": "the-point-where-water-becomes-root-forever",
+  "title": "The Point Where Water Becomes Root Forever",
+  "region": "The Understory",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#2a4a3a",
+    "ground": [
+      "#5a8a6a",
+      "#1a3a2a"
+    ],
+    "ink": "#d4e8d8",
+    "accents": [
+      "#a0614a",
+      "#7ab5d4",
+      "#2d5a3a",
+      "#c4a854"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-merger",
+      "desc-on-touch": "Water suspends where root begins; you sense no boundary between the two. The merger holds perfectly still.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 2847562,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "ascending-root",
+      "desc-on-touch": "Root tangles upward through water as if water were soil. Spiralling, methodical, alive.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 1923847,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "root-language",
+      "desc-on-touch": "Carved on bark, the alphabet that roots use to speak. Water has memorized every letter.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4567123,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "threshold-wireframe",
+      "desc-on-touch": "What you touch is neither earth nor water; it yields to both hands at once, teaching them a third grammar.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 8134562,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "held-breath",
+      "desc-on-touch": "In this stillness, everything waits; nothing decides which it is. The archive learns that indecision can be a form of completion.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5821947,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "here water learned to root; it draws from above and below at once, and the forest has forgotten which direction feeds which.",
+  "file": {
+    "name": "Osmosis_And_Grammar_FieldNotes.txt",
+    "note": "Field notes on how root systems conduct water upward through impossible heights; margins fill with metaphors neither author intended."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through merging tangles to where water still knows itself as separate",
+      "to": "the-tangle-where-water-speaks-root-grammar"
+    },
+    {
+      "dir": "e",
+      "label": "toward chambers where earth also learns to grow in water",
+      "to": "NEW: the-soil-learning-to-rise"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the canopy where root-speech meets leaf-whisper",
+      "to": "the-open-grammar-where-water-speaks-itself"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the sediment where water forgets it ever moved",
+      "to": "the-abyssal-sediment-archive"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — root-learning at first light",
+    "narr": [
+      "You and she stood in the shallows where the bank roots",
+      "played through water like fingers learning music. The",
+      "water held the roots; the roots held the water. She",
+      "said: 'Look—nothing decides.' You understood then that",
+      "the archive itself wanted to be both at once."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "wade"
+  }
+}

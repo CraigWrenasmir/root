@@ -1,0 +1,150 @@
+{
+  "id": "the-foundation-beneath-the-twelve-storeys",
+  "title": "The Foundation Beneath the Twelve Storeys",
+  "region": "The Clean Archive",
+  "seed": 463819,
+  "palette": {
+    "bg": "#8B9B8F",
+    "ground": [
+      "#A9B8A0",
+      "#6B7A6F"
+    ],
+    "ink": "#2D2D2D",
+    "accents": [
+      "#7B9D7D",
+      "#B8A89D",
+      "#5D7D7D",
+      "#C9B8A0"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-root-deep",
+      "desc-on-touch": "Roots run through the foundation like the building learned to grow downward. They don't support—they question. The twelve storeys above shift constantly; the roots below never change.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 739284,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-stairwell-that-descends-too-far",
+      "desc-on-touch": "Stairs spiral down through the foundation. Each step is from a different apartment, a different year, a different version of the building that was never permanent enough to exist.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 582947,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-resident-lists-converge",
+      "desc-on-touch": "Names carved into the concrete. Each layer of names contradicts the layer beneath—a different family, a different decade, living in the same rooms at the same time.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 847529,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-warmth-that-persists",
+      "desc-on-touch": "A residual heat beneath the building. Solar panels, heating systems—or just the warmth of all those lives lived in boxes above. The foundation remembers.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 619284,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-permanent-impermanence",
+      "desc-on-touch": "The apartment above learned permanence by never staying the same place. The foundation knows: everything is always leaving. This is how you make a home—by refusing to make anything fixed.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 291847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the building was always falling upward; the foundation was always already elsewhere",
+  "file": {
+    "name": "Resident_Registry_Twelve_Years_Compressed.txt",
+    "note": "status: germinating—the foundation keeps adding names of people who haven't moved in yet"
+  },
+  "reverie": {
+    "title": "REVERIE — in the concrete stairwell, learning that nothing s",
+    "narr": [
+      "You sit with her on the basement stairs. Above you, the building shifts.",
+      "New names painted over old names. New apartments where old ones were.",
+      "She touches the concrete. 'It's learning,' she says. 'If nothing stays,",
+      "then permanence is remembering how to change.' You understand:",
+      "the archive built on ground this unstable was always meant to be",
+      "a record of impermanence—the only way to preserve what's always leaving."
+    ],
+    "sky": "overcast",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward through the speaking alteration",
+      "to": "the-speaking-alteration-deep"
+    },
+    {
+      "dir": "s",
+      "label": "deeper through the foundation to the bedrock that moves even slower",
+      "to": "NEW: the-bedrock-learning-to-drift"
+    },
+    {
+      "dir": "e",
+      "label": "to chambers where interiors and exteriors have begun to converge",
+      "to": "the-interior-of-the-dwelling-wall"
+    }
+  ]
+}

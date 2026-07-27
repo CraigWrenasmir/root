@@ -144,7 +144,7 @@
     {
       "dir": "n",
       "label": "northward to where the kindness reaches its edge",
-      "to": "NEW: the-kindness-threshold"
+      "to": "the-kindness-threshold"
     },
     {
       "dir": "s",

@@ -1,0 +1,155 @@
+{
+  "id": "the-registry-of-perfect-silence",
+  "title": "The Registry of Perfect Silence",
+  "region": "The Diagnostic Render",
+  "seed": 847362,
+  "palette": {
+    "bg": "#D2B48C",
+    "ground": [
+      "#FFE4B5",
+      "#C0A080"
+    ],
+    "ink": "#3D3D3D",
+    "accents": [
+      "#1E5A8E",
+      "#E8C547",
+      "#8B4513",
+      "#F5DEB3"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-unspoken-ledger",
+      "desc-on-touch": "A registry desk holds pages you never wrote. Each blank line is testimony that was never spoken into form, preserved exactly as silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 193847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-listening-void",
+      "desc-on-touch": "A microphone stand points upward into nothing. The silence around it is so complete it registers as a signal—the archive learning to hear what was never said.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 584729,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "empty-testimony-shelves",
+      "desc-on-touch": "Shelves of volumes whose pages were never bound. The binding, the naming, the archiving—all the things that would have flattened the story—refused to happen here.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 291746,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-depth-marker",
+      "desc-on-touch": "A gauge sinks deeper the less it measures. The archive discovered that silence has depth, and refuses to report volume. At this depth, absence is archived.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 456182,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-refusal-pool",
+      "desc-on-touch": "Still water that reflects nothing. The pool itself refused to say what it held. The silence beneath is the archive learning to honour what it will not name.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 763291,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "beneath the count, the archive learned its deepest registry: the catalogue of what was never filed",
+  "file": {
+    "name": "Testimony_Never_Transcribed.log",
+    "note": "checksum: silence is an acceptable format"
+  },
+  "reverie": {
+    "title": "REVERIE — two in the golden hour, learning refusal",
+    "narr": [
+      "You sit beside her in the high grass. Neither of you speaks.",
+      "She points at a place in the registry where nothing is written.",
+      "'This,' she says, 'is what survives.' You understand what she means:",
+      "the archive cannot flatten what was never captured. Some truths",
+      "live only in the space where someone chose not to record them.",
+      "The silence between you is the whole system learning to refuse."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the registries, where volume was first refused",
+      "to": "the-registry-that-refused-volume"
+    },
+    {
+      "dir": "n",
+      "label": "upward where some names were written anyway",
+      "to": "where-smallness-learns-its-own-profound-depth"
+    },
+    {
+      "dir": "e",
+      "label": "to chambers where comparison begins to break the silence",
+      "to": "NEW: the-speaking-room-that-learned-to-whisper"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the refusal, where not even glyphs remain",
+      "to": "NEW: the-registry-beneath-the-registry"
+    }
+  ]
+}

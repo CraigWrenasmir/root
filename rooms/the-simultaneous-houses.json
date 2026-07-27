@@ -1,0 +1,155 @@
+{
+  "id": "the-simultaneous-houses",
+  "title": "The Simultaneous Houses",
+  "region": "The Understory",
+  "seed": 47382,
+  "palette": {
+    "bg": "#1a0f08",
+    "ground": [
+      "#d84c1f",
+      "#e67e22"
+    ],
+    "ink": "#faf8f3",
+    "accents": [
+      "#c41e3a",
+      "#f39c12",
+      "#8b4513",
+      "#ff6b35"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the first dwelling",
+      "desc-on-touch": "you find yourself touching brick that remembers being timber, timber that recalls being clay; the house is not decaying, it is returning through every form it has been",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 12341,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the overlapping second",
+      "desc-on-touch": "where one house ends, another has already begun; you cannot tell if they are collapsing into each other or learning to share the same walls",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 12342,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the keeper's vigil",
+      "desc-on-touch": "a figure sits on a bench between the houses, facing neither one; they are counting seasons on their fingers, the count never reaching the same number twice",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 12343,
+        "size": 1,
+        "colors": [
+          2,
+          4
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the third-that-was-always-there",
+      "desc-on-touch": "behind both houses stands a structure you cannot focus on directly; each time you look away and back, it has changed slightly, the way houses change when you are not living in them",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 12344,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the season-nesting",
+      "desc-on-touch": "here time has learned to stop choosing which season comes next; they all arrive at once, layered like the house-walls, each one living inside the other without contradiction",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "each house remembers being built and being abandoned; here they have learned to do both at once",
+  "file": {
+    "name": "Dwellings_Simultaneous_Register_1997-2031.txt",
+    "note": "a local government record that has begun listing buildings by all their ages at once; each entry corrupted to include occupation details from every decade the property has existed"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the shelter of nested time",
+      "to": "the-root-where-all-seasons-sleep"
+    },
+    {
+      "dir": "n",
+      "label": "toward the archive where all versions stand together",
+      "to": "NEW: the-library-that-keeps-all-its-drafts"
+    },
+    {
+      "dir": "e",
+      "label": "along the drift-path where ghosts learn to cohabitate",
+      "to": "the-shape-dreaming-where-form-remembers"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the layers where nothing moves or everything moves at once",
+      "to": "NEW: the-sediment-that-reads-its-own-strata"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — old house, teaching time",
+    "narr": [
+      "she finds you sitting on the porch step of a place",
+      "that stopped being lived-in forty years before she was born.",
+      "—time doesn't work here, you say. —no, she says,",
+      "time works here perfectly. it just stopped choosing.",
+      "you listen to the house settle, hearing decades",
+      "fold into each other like pages no one is reading."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

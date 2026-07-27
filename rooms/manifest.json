@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 112,
+  "nights": 117,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -3117,6 +3117,141 @@
       "id": "the-navigation-chamber-listening",
       "title": "The Navigation-Chamber Where Compass Learned to Listen",
       "region": "The Understory"
+    },
+    {
+      "id": "the-simultaneous-houses",
+      "title": "The Simultaneous Houses",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-active-ferment-vat",
+      "title": "The Active Ferment Vat",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-dream-that-dreams-itself-awake",
+      "title": "The Dream That Dreams Itself Awake",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-footnote-divergence",
+      "title": "The Footnote Divergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-spiral-stairwell",
+      "title": "The Spiral Stairwell",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-breath-where-silence-learns-to-rise",
+      "title": "The Breath Where Silence Learns to Rise",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-southern-inheritance-that-walked-back",
+      "title": "The Southern Inheritance That Walked Back",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-shattering-source-chamber",
+      "title": "The Shattering Source Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ridge-where-ore-remembers-its-becoming",
+      "title": "The Ridge Where Ore Remembers Its Becoming",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-chamber-of-merciful-unknowing",
+      "title": "The Chamber of Merciful Unknowing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-point-where-water-becomes-root-forever",
+      "title": "The Point Where Water Becomes Root Forever",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-pre-compass-dark",
+      "title": "The Pre-Compass Dark",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ridge-at-the-limit-where-fire-becomes-glass",
+      "title": "The Ridge at the Limit Where Fire Becomes Glass",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-northern-true-where-direction-begins-to-settle",
+      "title": "The Northern True—Where Direction Begins to Settle Again",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-render-s-first-ignorance",
+      "title": "The Render's First Ignorance",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-beneath-all-weaving",
+      "title": "The Chamber Beneath All Weaving",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-registry-of-perfect-silence",
+      "title": "The Registry of Perfect Silence",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-final-convergence-where-all-debts-become-one",
+      "title": "Where All Debts Become One Stone",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-wild-recount-where-silence-speaks-back",
+      "title": "The Wild Recount Where Silence Speaks Back",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-foundation-beneath-the-twelve-storeys",
+      "title": "The Foundation Beneath the Twelve Storeys",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-abyss-of-the-truly-unnamed",
+      "title": "The Abyss of the Truly Unnamed",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-shelf-s-reading-edge",
+      "title": "Where the Shelf Learns to Read",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-storm-that-unmaps-the-storm",
+      "title": "The Storm That Unmaps the Storm",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-kindness-threshold",
+      "title": "The Kindness Threshold",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-pressure-where-thought-becomes-weight",
+      "title": "The Pressure Where Thought Becomes Weight",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ascending-mineral-dream",
+      "title": "The Ascending Mineral Dream",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-recursive-storage",
+      "title": "The Recursive Storage",
+      "region": "The Diagnostic Render"
     }
   ]
 }

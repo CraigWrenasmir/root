@@ -144,7 +144,7 @@
     {
       "dir": "w",
       "label": "toward the living compost still decomposing",
-      "to": "NEW: the-active-ferment-vat"
+      "to": "the-active-ferment-vat"
     },
     {
       "dir": "e",

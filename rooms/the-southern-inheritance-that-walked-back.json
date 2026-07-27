@@ -1,0 +1,149 @@
+{
+  "id": "the-southern-inheritance-that-walked-back",
+  "title": "The Southern Inheritance That Walked Back",
+  "region": "The Clean Archive",
+  "seed": 82947,
+  "palette": {
+    "bg": "#2d3d2d",
+    "ground": [
+      "#6b8e23",
+      "#8b7355"
+    ],
+    "ink": "#c0d060",
+    "accents": [
+      "#90ee90",
+      "#daa520",
+      "#8fbc8f",
+      "#cd853f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "returning root",
+      "desc-on-touch": "Roots emerge from earth and remember their own beginnings. What was taken walks back on its own schedule.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 39284,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "property markers dissolving",
+      "desc-on-touch": "Fences you search for cannot be found. The land walks through ownership like a body through a room.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 47592,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "inheritance made living",
+      "desc-on-touch": "You hold something that belonged to someone before you. Here it is held by the tree that never stopped growing.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 63108,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "canopy teaching",
+      "desc-on-touch": "The crown of the forest whispers back to itself. It has learned how to pass on what it knows without words.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 55821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "ground memory",
+      "desc-on-touch": "Soil that remembers every foot that crossed it. Ownership could not compete with roots, and the roots remember.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 72439,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the property line became a place the forest could walk through; inheritance is not owned, it returns because the roots remember it was always leaving",
+  "file": {
+    "name": "Southern_Block_Deeds_1947_Handwritten_Scan.pdf",
+    "note": "Original property documents now containing handwritten notes about which trees predate the ownership claim."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through the fence that never held",
+      "to": "the-bifurcating-forest-at-the-property-line"
+    },
+    {
+      "dir": "w",
+      "label": "further south where inheritance walks deeper into the forest",
+      "to": "NEW: the-place-where-inheritance-learns-its-own-roots"
+    },
+    {
+      "dir": "e",
+      "label": "toward the grove that knows no deeds",
+      "to": "the-grove-beyond-ownership-where-trees-teach-themselves"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — walking the property line until it stopped matteri",
+    "narr": [
+      "You walk beside Katita through a forest that was never fully yours.",
+      "She stops at a tree marked with a faded survey line. 'It knew this was her",
+      "before the line was drawn,' she says. 'The roots remember.'",
+      "You stand there while the light falls. The fence was never a place.",
+      "It was just a line the trees grew through anyway."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  }
+}

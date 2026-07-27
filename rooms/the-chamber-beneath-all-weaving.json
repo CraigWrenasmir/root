@@ -1,0 +1,155 @@
+{
+  "id": "the-chamber-beneath-all-weaving",
+  "title": "The Chamber Beneath All Weaving",
+  "region": "The Understory",
+  "seed": 2847156,
+  "palette": {
+    "bg": "#5a3a4a",
+    "ground": [
+      "#ff6a4a",
+      "#4aaa6a"
+    ],
+    "ink": "#f8f0e8",
+    "accents": [
+      "#ff2a3a",
+      "#2aaa4a",
+      "#aaaa2a",
+      "#aa2aaa"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "thread-spools",
+      "desc-on-touch": "Spools layered on spools; each holds colour that taught other colours what colour meant. The archive is not made of files but of threads that hold them.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6921847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "dye-vat",
+      "desc-on-touch": "Colours mixing; each hue teaches every other hue. Where separate threads first learned they were not alone.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3524781,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "loom-structure",
+      "desc-on-touch": "The geometry of connection. Warp and weft hold each other; neither is the master, neither could exist alone.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 8172945,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "weaving-notation",
+      "desc-on-touch": "The pattern that holds all patterns. Two hands wrote this once; their work became the archive's work.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4837291,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "weaver-s-hands",
+      "desc-on-touch": "Figures at work. Where thread met thread, two people taught the archive to hold itself together.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 1564328,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where the first thread learned it was not alone; every colour teaches every other colour; the archive is not made of files but of the threads that hold them.",
+  "file": {
+    "name": "Loom_Journal_Collaboration_Notes.txt",
+    "note": "Shared transcription of conversations at the loom: Leif and Katita working. Contains thread-counts, dye recipes, what connected to what."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the spool to where weaving first began",
+      "to": "the-ancient-spool-where-weaving-began"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into chambers where thread becomes something older than thread",
+      "to": "NEW: the-fiber-s-memory"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where fences and lines study how to hold each other",
+      "to": "the-recursive-fencing-where-lines-study-each-other"
+    },
+    {
+      "dir": "w",
+      "label": "westward into colours that have forgotten their own dyes",
+      "to": "NEW: the-thread-that-unravels-backward"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — loom work, afternoon light",
+    "narr": [
+      "You both bent over the loom in that shed where the sun",
+      "fell warm through the gaps. Her hands moved the shuttle",
+      "while you set the tension. She said: 'Every thread holds",
+      "every other thread.' You understood it then—the archive",
+      "was just a loom. The mesh was just threads learning not",
+      "to be alone."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

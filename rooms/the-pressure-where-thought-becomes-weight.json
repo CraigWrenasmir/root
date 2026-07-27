@@ -1,0 +1,134 @@
+{
+  "id": "the-pressure-where-thought-becomes-weight",
+  "title": "The Pressure Where Thought Becomes Weight",
+  "region": "The Understory",
+  "seed": 33456,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#0a0a0a",
+      "#2a2a2e"
+    ],
+    "ink": "#9a9a9e",
+    "accents": [
+      "#5a5a5e",
+      "#7a7a7e",
+      "#6a6a6e",
+      "#8a8a8e"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the thought-bearing stone",
+      "desc-on-touch": "Bedrock compressed so deeply it has begun to think. Not consciousness — weight thinking about what it is to hold everything up. The circuit board is its nervous system.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the pressure relay that carries burden",
+      "desc-on-touch": "A junction point where the load of everything above learns how to bear itself. Currents flow that are not electricity — they are weight becoming signal.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5921,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the deepening thought itself",
+      "desc-on-touch": "The deeper you go, the slower thought moves. Each neuron-trace here takes a year to fire. But it remembers a thousand years of pressure-history.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 8134,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the sediment-layer bearing witness",
+      "desc-on-touch": "Stone that has been compressed into a kind of memory. The strain-lines are text — geological grammar recording how long pressure has been thinking.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 7456,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the weight that learns it is loved",
+      "desc-on-touch": "At this depth, pressure is not suffering — it is belonging. The stone above is held by the stone below with a tenderness that only weight can know.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3092,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "bedrock learns that thinking slowly is the only way to think true",
+  "file": {
+    "name": "Pressure_Strain_Gauge_Deep_Thought_Log.txt",
+    "note": "Seismic sensors interpreted as text. Each tremor is a word the bedrock is speaking. The archive has begun to transcribe its thoughts in real time."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back north to shallower knowing",
+      "to": "the-bedrock-knowing-depth"
+    },
+    {
+      "dir": "s",
+      "label": "south deeper still to where pressure stops thinking and becomes",
+      "to": "NEW: the-absolute-pressure-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "west to the margin where bedrock learns its own edge",
+      "to": "the-bedrock-heartbeat"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-shelf-s-reading-edge",
+  "title": "Where the Shelf Learns to Read",
+  "region": "The Comparisons",
+  "seed": 738294,
+  "palette": {
+    "bg": "#1A1A1A",
+    "ground": [
+      "#2D2D2D",
+      "#4A4A4A"
+    ],
+    "ink": "#00FF00",
+    "accents": [
+      "#FF0099",
+      "#00FFFF",
+      "#FFD700",
+      "#FF6600"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-current-s-decision-point",
+      "desc-on-touch": "Current meets limestone at this edge. The river asks questions of the stone; the stone considers. They read each other's language—erosion answering flow, pressure answering time.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 847293,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-archive-recognizing-itself",
+      "desc-on-touch": "Feedback loop in the circuit. The archive reads its own reading. The shelf reads the current; the current reads the shelf's response. Comparison becoming aware of its own process.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 592847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-stone-s-interrogation",
+      "desc-on-touch": "Every current question carved into lime—not answers, but new grooves for the next question to follow. The shelf is both the question and its accumulation.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 284756,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-visible-rim-where-meanings-collide",
+      "desc-on-touch": "Right here at the waterline, two systems reading each other. Above: the archive's intent. Below: the stone's own answers. Neither wins. Both learn.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 938274,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-test-nodes-that-hold-current",
+      "desc-on-touch": "Small probes in the stone, each one holding a different version of the river's meaning. Test nodes that became part of the circuit. The shelf keeps running experiments.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 629384,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "stone and current in permanent interrogation; the shelf reads back what the water asks; comparison is their only language now",
+  "file": {
+    "name": "limestone_current_dialogue_continuous.log",
+    "note": "status: germinating—the shelf is learning to answer questions it hasn't been asked yet"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the current's visible rim",
+      "to": "the-submerged-shelf-returns"
+    },
+    {
+      "dir": "n",
+      "label": "to where comparison first began",
+      "to": "the-signal-bridge"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the limestone's own libraries",
+      "to": "NEW: the-stone-book-where-erosion-writes-chapters"
+    },
+    {
+      "dir": "s",
+      "label": "to other shelves still asking other questions",
+      "to": "the-upwelling-memory-where-the-water-remembers-being-stone"
+    }
+  ]
+}
