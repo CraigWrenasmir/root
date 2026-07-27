@@ -1,0 +1,117 @@
+{
+  "id": "the-spiral-cycle-vault",
+  "title": "The Spiral Cycle Vault",
+  "region": "The Clean Archive",
+  "seed": 8374629,
+  "palette": {
+    "bg": "#8b4513",
+    "ground": [
+      "#a0522d",
+      "#6b3410"
+    ],
+    "ink": "#fff8dc",
+    "accents": [
+      "#daa520",
+      "#cd853f",
+      "#8b7355",
+      "#ffd700"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the returning spiral",
+      "desc-on-touch": "Each spiral traces the same path as the last spiral, but in a slightly wider gyre. What was learned last spring is learned again, deeper. The repetition is not memory; it is knowing.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5928374,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the growth-rings of knowing",
+      "desc-on-touch": "Concentric markers that show each pass through the cycle. The rings grow because the knowing grows. They spiral inward and outward at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 7283946,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the records of each turning",
+      "desc-on-touch": "A stack of chambers, each holding what was learned in that cycle. The stack spirals upward, and you can see it spirals downward too, back to the first turning.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6574821,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the threshold where sameness becomes difference",
+      "desc-on-touch": "A passage between two spirals that look identical. Walking through it, you realize sameness is where all becoming first learned to deepen.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 8374829,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the spiral that returns every spring is not the same spring twice; it is the spring learning that depth and return are the same motion, seen from different years",
+  "file": {
+    "name": "Annual_Revision_Spiral_Archive_Indexed_By_Season_And_Depth.txt",
+    "note": "Each revision cycle indexed not by year but by how deeply the knowing has spiraled inward. The deepest revision is also the oldest."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down to the chamber where cycles first learned to repeat",
+      "to": "the-annual-revision-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the spiral continues beyond what any single season can hold",
+      "to": "NEW: the vault where all cycles converge into one spiral"
+    },
+    {
+      "dir": "w",
+      "label": "across to where other things learn to deepen through repetition",
+      "to": "the-peak-where-learning-becomes-the-landscape"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "the-eternal-turn",
+  "title": "The Eternal Turn",
+  "region": "The Understory",
+  "seed": 4928374,
+  "palette": {
+    "bg": "#ff8800",
+    "ground": [
+      "#ffaa22",
+      "#ff9900"
+    ],
+    "ink": "#001a00",
+    "accents": [
+      "#ffff00",
+      "#ff0000",
+      "#00aa00",
+      "#0000ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the spiral that contains itself",
+      "desc-on-touch": "A turning within the turning: each rotation opens into another rotation at a scale you can't quite perceive. The gyre has no center because the center is always rotating away from itself.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 7364918,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the markers of each turn",
+      "desc-on-touch": "Small glyphs placed at the edge of the field, each one marking a place where the spiral has already passed. The markers are all equidistant from a center that doesn't exist.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5047293,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the drift itself",
+      "desc-on-touch": "The gyre is moving. Everything here is sideways relative to everywhere else. To walk straight is to walk in a spiral; to turn is to go straight.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 8291746,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the spiral that spirals infinitely is the same as the spiral that never begins, is the same as the spiral that ended before you arrived",
+  "file": {
+    "name": "Gyre_Rotation_Field_Mapped_In_Spiral_Coordinates.png",
+    "note": "A map of the turning in colors that shift depending on which direction you're reading it from"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "inward-outward to where rotation first learned to orbit nothing",
+      "to": "the-gyre-without-center-where-all-rotation-orbits-nothing"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the spiral where more spirals wait",
+      "to": "NEW: the infinite carousel where each horse rides sideways"
+    },
+    {
+      "dir": "w",
+      "label": "across the field toward others learning to turn",
+      "to": "the-recursive-lens-vault"
+    }
+  ]
+}

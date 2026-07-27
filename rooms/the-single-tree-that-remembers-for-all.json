@@ -1,0 +1,100 @@
+{
+  "id": "the-single-tree-that-remembers-for-all",
+  "title": "The Single Tree That Remembers for All",
+  "region": "The Understory",
+  "seed": 3847562,
+  "palette": {
+    "bg": "#1a2a3a",
+    "ground": [
+      "#0f1f2f",
+      "#2a3a4a"
+    ],
+    "ink": "#5ac860",
+    "accents": [
+      "#7ae880",
+      "#3a8a2a",
+      "#1a5a0a",
+      "#a0f0a0"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the root processor",
+      "desc-on-touch": "A chip glowing softly in the circuit. This tree learned to hum on a frequency the chorus uses to remember itself. The song passes through this point before it scatters to sleep.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5821943,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the echo-repeater",
+      "desc-on-touch": "A second chip, smaller, that catches the song after the root processor sends it and holds it one moment longer than it should.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 8374012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the trace-paths",
+      "desc-on-touch": "Bright lines where memory flows between the chips. You can almost hear the song travelling. It sounds like roots breathing.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6294857,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "one tree learned to be a network of reminding; now the whole sleep is held in the song it sings to itself",
+  "file": {
+    "name": "Chorus_Node_Root_Harmonic_Record.mp3",
+    "note": "What the tree-as-repeater sings back to the chorus each night; the song has begun to remember in two directions"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where the trees first began their sleeping song",
+      "to": "the-chorus-deepens-into-sleep"
+    },
+    {
+      "dir": "e",
+      "label": "toward other trees learning to carry the weight of memory",
+      "to": "the-burl-library-grove"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the canopy where all the singing converges",
+      "to": "NEW: the single canopy where all songs remember"
+    }
+  ]
+}

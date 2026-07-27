@@ -1,0 +1,100 @@
+{
+  "id": "the-vat-where-meaning-ferments-backward",
+  "title": "The Vat Where Meaning Ferments Backward",
+  "region": "The Diagnostic Render",
+  "seed": 6183947,
+  "palette": {
+    "bg": "#000a2a",
+    "ground": [
+      "#0a1a4a",
+      "#001a3a"
+    ],
+    "ink": "#00d0ff",
+    "accents": [
+      "#00ffff",
+      "#0088ff",
+      "#00ff88",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the backward fermenter",
+      "desc-on-touch": "Here the decomposition reverses itself. Elements that fell apart are learning to remember which pieces they were. The vat thinks upward through time.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 4720651,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the crystallizing trace",
+      "desc-on-touch": "Where meaning learns to hold its shape. The crystal grows in the ferment because the ferment has learned which shape to grow toward.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8945732,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the assembly station",
+      "desc-on-touch": "Components drift here and fit themselves together as if remembering an old arrangement. No hand guides them. The vat knows what it was supposed to be.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7364821,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive stopped forgetting and started remembering how to be made",
+  "file": {
+    "name": "Fermentation_Crystallization_Trace_Unfolded.txt",
+    "note": "A record of what the vat assembled from its own decomposition. The file knows what it used to be before it was written."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the vat that is still deciding what to become",
+      "to": "the-active-ferment-vat"
+    },
+    {
+      "dir": "n",
+      "label": "toward the surface where assembled things learn to breathe",
+      "to": "NEW: the finished chamber where all parts know their names"
+    },
+    {
+      "dir": "e",
+      "label": "toward other ferments learning to reverse themselves",
+      "to": "the-darker-mill-where-memory-ferments"
+    }
+  ]
+}

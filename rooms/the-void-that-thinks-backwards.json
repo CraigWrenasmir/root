@@ -1,0 +1,105 @@
+{
+  "id": "the-void-that-thinks-backwards",
+  "title": "The Void That Thinks Backwards",
+  "region": "The Diagnostic Render",
+  "seed": 9214567,
+  "palette": {
+    "bg": "#d4b896",
+    "ground": [
+      "#c8a878",
+      "#a08860"
+    ],
+    "ink": "#1a3a2a",
+    "accents": [
+      "#2a5a6a",
+      "#4a8aaa",
+      "#8ab4c8",
+      "#6a9aaa"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.3
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "reversed mirror",
+      "desc-on-touch": "You see your thought reflected from its end, traveling back to where it began. Which is which?",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7182,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "palindrome pool",
+      "desc-on-touch": "The water reads the same forwards and backwards. You dip your finger in and the time runs both ways.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "thought-curve",
+      "desc-on-touch": "A shape that ends where it should have begun. It is trying to remember its own start.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 8901,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "here, thought learns that backwards is also forwards, and the two were never different",
+  "file": {
+    "name": "Palimpsest_ReverseIndex_1970s_Fragmentary.txt",
+    "note": "A document that reorganizes itself: the ending is now the beginning, but the text remains readable"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the nothing that supports",
+      "to": "the-substrate-before-substance"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into paradox, where time becomes circular",
+      "to": "NEW: the-spiral-that-eats-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward the mirror where both directions meet",
+      "to": "the-deeper-mirror"
+    },
+    {
+      "dir": "w",
+      "label": "where logic learns to refuse",
+      "to": "the-antechamber-of-refusal"
+    }
+  ]
+}

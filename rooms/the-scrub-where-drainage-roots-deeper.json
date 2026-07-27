@@ -1,0 +1,122 @@
+{
+  "id": "the-scrub-where-drainage-roots-deeper",
+  "title": "The Scrub Where Drainage Roots Deeper",
+  "region": "The Clean Archive",
+  "seed": 5629384,
+  "palette": {
+    "bg": "#8b7355",
+    "ground": [
+      "#c19a6b",
+      "#a0826d"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#ffd700",
+      "#ff8c00",
+      "#6b4423",
+      "#d4af37"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the hidden root",
+      "desc-on-touch": "Where the town's drainage has learned to live. The scrub roots down into the refuse and grows fertile from it.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4738291,
+        "size": 2,
+        "colors": [
+          1,
+          4
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the feral garden",
+      "desc-on-touch": "Where things grow that have learned to love what humans discard. The landscape has become productive from hidden sources.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 3648192,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the gathering place",
+      "desc-on-touch": "Where the outflow pools and learns to speak only to the scrub. The margin between what towns keep and what they release has become conscious.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2847371,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the testimony",
+      "desc-on-touch": "A sign the scrub has left. The landscape has learned to keep its own records of what flowed through.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 1927384,
+        "size": 1,
+        "colors": [
+          4,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "what the town refuses to keep feeds the place it does not see; the scrub learns eloquence from hidden water",
+  "file": {
+    "name": "Drainage_Ecology_Feral_Study_Regional.txt",
+    "note": "checksum: emotionally valid / formally unstable — records of what grew fertile on what was flushed; landscape learning to farm its own shadows"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where the root begins",
+      "to": "the-invisible-root-outfall"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the scrub where roots tangle",
+      "to": "NEW: the-tangled-root-warren-where-growth-feeds-on-forgetting"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the town still pretends not to see",
+      "to": "the-corroded-gate"
+    },
+    {
+      "dir": "s",
+      "label": "southward toward the wider catchment",
+      "to": "NEW: the-watershed-where-all-refusals-eventually-gather"
+    }
+  ]
+}

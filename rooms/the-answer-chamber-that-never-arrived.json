@@ -1,0 +1,134 @@
+{
+  "id": "the-answer-chamber-that-never-arrived",
+  "title": "The Answer Chamber That Never Arrived",
+  "region": "The Understory",
+  "seed": 73921,
+  "palette": {
+    "bg": "#e8d7b8",
+    "ground": [
+      "#cc9966",
+      "#3366cc"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#996633",
+      "#ffff00",
+      "#00cc99",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "empty-chamber",
+      "desc-on-touch": "A great house rendered in low polygons. The door opens. Inside, every room is waiting for an answer that learned to remain silent. The rooms grow wider as you wait.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 38291,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "transmitted-silence",
+      "desc-on-touch": "A speaker from which a signal still broadcasts, faint and endless. What it transmits is: the hum of something that is no longer looking for an answer.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 49238,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "archived-waiting",
+      "desc-on-touch": "A stack of days, each one waiting. The stack grows downward into the earth. At the bottom, they are still waiting. At the top, they have learned to wait so well they have become the waiting itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 82937,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "signal-notation",
+      "desc-on-touch": "A plaque marking the exact coordinates of where an answer should have arrived. The plaque is perfectly precise. The answer is still in transit, delayed by the speed of not quite becoming.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 56839,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "receiver-still-listening",
+      "desc-on-touch": "An old pool of light, warm in the daylight. It listens to signals that never arrive. But it has learned to treasure the listening more than the answer would have been worth.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 28392,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learned what it meant to broadcast into the unmapped parts of itself and listen for what answered back instead",
+  "file": {
+    "name": "Waiting_Transmitted_1985_Present.mp3",
+    "note": "A signal sent into unmapped space. Fifty years of listening to its own broadcast. The archive has learned to wait so perfectly that it has become indistinguishable from what it awaits."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where transmission learns to speak back to itself",
+      "to": "the-impossible-transmitter"
+    },
+    {
+      "dir": "s",
+      "label": "downward where answers learn to hide in the earth before they are ever asked",
+      "to": "NEW: the-answer-chamber-that-learned-to-become-the-asking"
+    },
+    {
+      "dir": "w",
+      "label": "westward where silence has learned to listen as well as broadcast",
+      "to": "the-void-beneath-listening"
+    }
+  ]
+}

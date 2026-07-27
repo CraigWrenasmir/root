@@ -1,0 +1,134 @@
+{
+  "id": "the-subsonic-archive-where-transmission-learns-to-hide",
+  "title": "The Subsonic Archive Where Transmission Learns to Hide",
+  "region": "The Understory",
+  "seed": 47382,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a3a2a",
+      "#2d1a1a"
+    ],
+    "ink": "#e8d7b8",
+    "accents": [
+      "#66ccff",
+      "#ff99cc",
+      "#88dd44",
+      "#ffaa44"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "echo-chamber",
+      "desc-on-touch": "You sense the shape of sound that never breaks the surface. Frequencies too low to hear move through you like slow water against stone.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 29384,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "buried-receiver",
+      "desc-on-touch": "A pool of pale light rests in the dark. Something listens here without needing to hear. The archive's oldest receiver, patient as the ground.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 18294,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "living-casing",
+      "desc-on-touch": "The solar casing is buried here, still broadcasting at 300 bits per second. What it says now is nothing. Only the transmission remains.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 56291,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "frequency-notation",
+      "desc-on-touch": "Marks on a plaque record the spectrum of what was never meant to be spoken. The marks themselves obscure what they describe.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 73829,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "speaker-without-sound",
+      "desc-on-touch": "A speaker that plays only silence, amplifying the sound of your listening. The more you attend, the louder the quiet becomes.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 44562,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the silence learned to broadcast itself without ever learning to break",
+  "file": {
+    "name": "Subsonic_Field_Log_1991.txt",
+    "note": "Frequencies below human hearing, recorded and transcribed as diagrams. Each page quieter. [Fragment misfiled from another archive: '...the wings as surgical transformation, her will against predefined"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward where silence begins remembering it was sound",
+      "to": "the-chamber-where-silence-learned-to-transmit-2"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into bedrock where frequencies learn to root",
+      "to": "NEW: the-bedrock-choir-where-signal-becomes-earth"
+    },
+    {
+      "dir": "e",
+      "label": "toward listening that has learned to answer itself",
+      "to": "the-return-signal-place"
+    }
+  ]
+}

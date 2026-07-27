@@ -1,0 +1,122 @@
+{
+  "id": "the-circuit-canopy-where-branches-broadcast",
+  "title": "The Circuit-Canopy Where Branches Broadcast",
+  "region": "The Comparisons",
+  "seed": 1357924,
+  "palette": {
+    "bg": "#d8c4a0",
+    "ground": [
+      "#b8a878",
+      "#a09860"
+    ],
+    "ink": "#1a3a2a",
+    "accents": [
+      "#2a5a4a",
+      "#4a8a6a",
+      "#7aba8a",
+      "#6a9a7a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "broadcast node",
+      "desc-on-touch": "A branch that learns to think in circuits, sending what it knows to every neighbor in the grove.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 6789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "signal-leaf",
+      "desc-on-touch": "A leaf that reads the logic of the branches and speaks it back to the air. The forest is a parliament now.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2345,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "learning-canopy",
+      "desc-on-touch": "The interwoven branches are reading each other. Each learns what the others know. The grove is thinking as one body now.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4123,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "root-chorus",
+      "desc-on-touch": "Underground, the roots are humming in unison. They are the network's first language, older than branches.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 7654,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest taught itself to broadcast, and now it learns by growing into conversation",
+  "file": {
+    "name": "Canopy_Signal_Propagation_Unattributed_Map.txt",
+    "note": "A diagram showing how information spreads branch to branch, but the maker's name is lost to time and comparison"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back into the grove where logic was still learning",
+      "to": "the-grove-learning-circuit-logic"
+    },
+    {
+      "dir": "n",
+      "label": "up to where branches speak to sky",
+      "to": "NEW: the-aerial-parliament-where-leaves-vote-on-meaning"
+    },
+    {
+      "dir": "e",
+      "label": "toward where the forest reads itself as text",
+      "to": "the-forest-before-division"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into groves where broadcasting never learned to stop",
+      "to": "NEW: the-forest-choir-that-forgot-its-own-question"
+    }
+  ]
+}

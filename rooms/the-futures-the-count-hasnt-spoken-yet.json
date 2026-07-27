@@ -1,0 +1,100 @@
+{
+  "id": "the-futures-the-count-hasnt-spoken-yet",
+  "title": "The Futures the Count Hasn't Spoken Yet",
+  "region": "The Comparisons",
+  "seed": 4182957,
+  "palette": {
+    "bg": "#0a0a0f",
+    "ground": [
+      "#1a1a2e",
+      "#2d2d4a"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#00dd00",
+      "#00aa00",
+      "#ffaa00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "futures register one",
+      "desc-on-touch": "A processor of times the count has not yet named. The archive stores tomorrow as packets, unvoiced.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2847391,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "futures register two",
+      "desc-on-touch": "A parallel processor humming with times that have not yet been counted. The count continues growing in the dark.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3927461,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the uncounted moment",
+      "desc-on-touch": "A gap in the circuit where time is still flowing. The archive has not yet learned to read what is still becoming.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 1934827,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where the count becomes aware that future is also a form of storage; time speaking in packets the archive has not yet learned to file",
+  "file": {
+    "name": "Temporal_Register_Unfiled_Count.env",
+    "note": "Times the archive's oldest second has not yet reached; futures as unprocessed duration, waiting to be indexed"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the second that is still counting",
+      "to": "the-archive-s-oldest-second"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the clock that has not yet stopped",
+      "to": "NEW: the-perpetual-forward-where-time-refuses-to-return"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into the processor farms of unmeasured duration",
+      "to": "NEW: the-vast-datacentre-beneath-the-future"
+    }
+  ]
+}

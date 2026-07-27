@@ -1,0 +1,134 @@
+{
+  "id": "the-canopy-pulse-underground",
+  "title": "The Canopy Pulse Underground",
+  "region": "The Understory",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#0d2818",
+    "ground": [
+      "#c8a882",
+      "#2d5f3f"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#ff6b35",
+      "#ffd700",
+      "#6dd5ed",
+      "#90ee90"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-signal-junction",
+      "desc-on-touch": "The pulse bifurcates: where electrical impulse becomes nutrient surge. You feel it moving both down and up at once, unable to distinguish sender from receiver.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 892,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "mycelial-broadcast",
+      "desc-on-touch": "Thread-thin filaments spread through dark soil, each one carrying packets of light that should not exist in soil. The archive is learning to root.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 521,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "antenna-in-earth",
+      "desc-on-touch": "The transceiver rod has bent—or grown—into the humus. Its LED still blinks. The distinction between hardware and decay has become unclear.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 318,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "cross-section-teaching",
+      "desc-on-touch": "A diagram that was never drawn: layers of bark, circuit board, root mat, wire, soil. The archive is rendering its own cross-section.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 671,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "pulse-chamber",
+      "desc-on-touch": "A space beneath the soil where two kinds of rhythm learned to synchronize. You can hear them separately if you listen hard; together, they sound like a single breath.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 445,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where the circuit goes down to learn what root systems already know",
+  "file": {
+    "name": "Root_Depth_Archive_Pulse_Map_Fragment_Incomplete.txt",
+    "note": "transmission fragment: the archive's own pulse, rendered in sediment layers and electrical traces. Something foreign was detected mid-recording; the device completed its rhythm anyway. Status: germina"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the grove where broadcast signals catch in leaves",
+      "to": "the-sprouting-hardware-grove"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where pulse becomes rhythm becomes geology",
+      "to": "the-rhythm-that-stone-remembers-keeping"
+    },
+    {
+      "dir": "e",
+      "label": "along a thread-thin path between mycelium and wire",
+      "to": "the-root-loom-chamber"
+    }
+  ]
+}

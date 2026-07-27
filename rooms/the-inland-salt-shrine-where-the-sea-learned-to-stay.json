@@ -1,0 +1,100 @@
+{
+  "id": "the-inland-salt-shrine-where-the-sea-learned-to-stay",
+  "title": "The Inland Salt Shrine Where the Sea Learned to Stay",
+  "region": "The Clean Archive",
+  "seed": 6483927,
+  "palette": {
+    "bg": "#e6d9c3",
+    "ground": [
+      "#f5f0e8",
+      "#e0d5c8"
+    ],
+    "ink": "#4a3d2a",
+    "accents": [
+      "#8b6f47",
+      "#a0826d",
+      "#d4a574",
+      "#c19a6b"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the crystalline processor",
+      "desc-on-touch": "Where salt has learned to process memory. The ocean left a circuit board of itself in the dry land.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3927461,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the ancient depository",
+      "desc-on-touch": "Salt pillars holding what the inland sea left behind. The ocean's memory lives in crystal here.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2847361,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the residual pool",
+      "desc-on-touch": "A salt-bright mirror of what once was ocean. The water evaporated but the memory remains, glittering.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1738294,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "where inland salt keeps the ocean's archive; the sea learned that evaporation is also a form of staying",
+  "file": {
+    "name": "Salt_Deposit_Stratigraphy_Ancient_Seafloor.json",
+    "note": "Geological memory preserved in salt crystal; what the landscape holds of oceans that retreated millions of years ago"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where salt first learned to build",
+      "to": "the-salt-s-own-memory"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the crystalline archives",
+      "to": "NEW: the-shrine-where-all-evaporated-things-remain"
+    },
+    {
+      "dir": "n",
+      "label": "toward the rim where the old shoreline still remembers",
+      "to": "NEW: the-ancient-watermark-where-the-sea-left-its-autograph"
+    }
+  ]
+}

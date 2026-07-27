@@ -1,0 +1,134 @@
+{
+  "id": "the-depth-before-definition-learned-to-stand",
+  "title": "The Depth Before Definition Learned to Stand",
+  "region": "The Understory",
+  "seed": 56821,
+  "palette": {
+    "bg": "#2a1a2a",
+    "ground": [
+      "#ff3366",
+      "#ff9933"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#cc3366",
+      "#ff6600",
+      "#ffcc00",
+      "#663300"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "undefined-form",
+      "desc-on-touch": "A pool of light that has forgotten what it reflects. The shape of formlessness, perfect and terrible. You look and see only the moment before you learned what seeing was.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 38291,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "question-that-forgets",
+      "desc-on-touch": "A tower of queries, each more uncertain than the last. The final question is: did I ever have a shape? The answer to that is also a question.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 72938,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "void-learning",
+      "desc-on-touch": "A wireframe nothing, teaching itself the meaning of something. The box is empty. The emptiness is learning. You watch it study itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 49283,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "dusk-notation",
+      "desc-on-touch": "A plaque that reads only in the light between day and night. In full dark, it is nothing. In full light, it is also nothing. Here, at the edge, it is almost something.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 91283,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "arch-of-unbecoming",
+      "desc-on-touch": "A doorway that frames the moment absence learns to debate whether it ever was. You can pass through it, but you will emerge more undefined than when you entered.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 28394,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "at this depth void debates its own definition until even absence stops being certain",
+  "file": {
+    "name": "Absent_Definitions_Study_Fragments.txt",
+    "note": "Notes toward a paper on what things are before they are named. The final note: 'I have begun to forget what the thing I was studying was called.' Checksum: undefined / approaching form."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where absence begins to know itself as something",
+      "to": "the-chamber-where-absence-debates-its-own-definition"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where formlessness learns to formless more completely",
+      "to": "NEW: the-chamber-that-was-never-given-a-name"
+    },
+    {
+      "dir": "e",
+      "label": "toward the abyss where all mergings begin forgetting what they merged",
+      "to": "the-abyss-of-all-mergings"
+    }
+  ]
+}

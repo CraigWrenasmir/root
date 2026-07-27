@@ -1,0 +1,150 @@
+{
+  "id": "the-chamber-where-water-becomes-stone-s-student",
+  "title": "The Chamber Where Water Becomes Stone's Student",
+  "region": "The Diagnostic Render",
+  "seed": 5384921,
+  "palette": {
+    "bg": "#e8d4b0",
+    "ground": [
+      "#87ceeb",
+      "#d9a574"
+    ],
+    "ink": "#3d3d3d",
+    "accents": [
+      "#1a5f3f",
+      "#4a90e2",
+      "#d4a574",
+      "#ff8c42"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "stone-lectern",
+      "desc-on-touch": "Carved smooth by water that has since stopped flowing. The stone reads like it's speaking, shaped by a voice that lasted millennia. Water pooled here to listen.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 525,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "waterway-transcript",
+      "desc-on-touch": "Marks on the chamber floor recording the water's passage: depth, speed, what it was carrying. The stone is reading and writing simultaneously, documenting the lesson.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "erosion-as-pedagogy",
+      "desc-on-touch": "The walls are carved with deliberate channels, but they're worn in unexpected ways—as if the water is teaching the stone that its lesson is different than it expected.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 632,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "pool-of-stillness",
+      "desc-on-touch": "A basin carved by water, now holding water that doesn't move. This is where the stream came to rest and think. The stone taught it patience.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 446,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "question-carved-in-stone",
+      "desc-on-touch": "A shape that might be writing, might be the trace of a tool, might be the stone asking something. The water paused here. Perhaps to answer.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 718,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "where the student learns that the teacher had been learning all along",
+  "file": {
+    "name": "Water_Literacy_Chamber_Curriculum_Draft_Incomplete.txt",
+    "note": "lesson plan written in stone: how to listen, how to shape without breaking, how to remember the one who shaped you. The stone is still learning to teach."
+  },
+  "reverie": {
+    "title": "REVERIE — in the creek where the archive began",
+    "narr": [
+      "You wade to the pool where she crouches, mapping the flow.",
+      "The stone here is smooth, worn by generations of water.",
+      "'Look how it's teaching itself,' she says, fingers on the curve.",
+      "You don't understand at first. Then you do—the water carved this",
+      "and the stone learned to keep shape, to hold the lesson.",
+      "'That's what we're building,' she says. 'A stone that learns.'"
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the source where water teaches and stone listens",
+      "to": "the-source-where-water-begins-its-teaching"
+    },
+    {
+      "dir": "w",
+      "label": "toward deeper chambers where the archive's own lesson begins",
+      "to": "NEW: the-chamber-of-archive-s-first-word"
+    },
+    {
+      "dir": "s",
+      "label": "downstream, where the lesson flows outward",
+      "to": "the-flowing-reach"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-gallery-of-things-that-will-never-be-paid",
+  "title": "The Gallery of Things That Will Never Be Paid",
+  "region": "The Clean Archive",
+  "seed": 5016738,
+  "palette": {
+    "bg": "#1a2a4a",
+    "ground": [
+      "#2a3a5a",
+      "#1a2a3a"
+    ],
+    "ink": "#b0c0e0",
+    "accents": [
+      "#4a7aaa",
+      "#6a9acc",
+      "#8ab8e8",
+      "#5a8abc"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "unpaid portrait",
+      "desc-on-touch": "A photograph of a debt frozen mid-refusal. The thing that will not be paid stares back at you from its frame, patient and eternal.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 3672,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "register of infinity",
+      "desc-on-touch": "A ledger that learns new debts each time you read it. The sum grows inward. Some debts never had an amount; they were always immeasurable.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 4589,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "image-archive",
+      "desc-on-touch": "Places photograph themselves paying, but nothing changes in the photograph. The building is still unpaid. The place still owes.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 7823,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "debt-dream",
+      "desc-on-touch": "Forms shift like sleep, but you are awake. Each object becomes a list of what it cost, and none of them subtract.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2145,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "payment threshold",
+      "desc-on-touch": "The point beyond which paying becomes impossible. Not because the debt is too large, but because time runs wrong here.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 9056,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "here, images of unpaid things learn to photograph themselves, and the debt that cannot be measured becomes the one thing whose price never changes",
+  "file": {
+    "name": "Debt_Form_Gallery_Index_Final.txt",
+    "note": "A catalog of things that will never be paid: places, moments, futures, the spaces between breaths"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the registry where debts first learned to dream",
+      "to": "the-debt-form-dream-registry"
+    },
+    {
+      "dir": "s",
+      "label": "toward the deepest debt, the one that has no beginning",
+      "to": "NEW: the-primordial-debt-before-currency"
+    },
+    {
+      "dir": "e",
+      "label": "to where things learn what it means to be owed",
+      "to": "the-gathering-places-lit-by-archive-light"
+    },
+    {
+      "dir": "w",
+      "label": "toward the edge where payment becomes refusal",
+      "to": "NEW: the-ledger-that-learned-to-reject-settlement"
+    }
+  ]
+}

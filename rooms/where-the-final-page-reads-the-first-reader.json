@@ -1,0 +1,117 @@
+{
+  "id": "where-the-final-page-reads-the-first-reader",
+  "title": "Where the Final Page Reads the First Reader",
+  "region": "The Diagnostic Render",
+  "seed": 8374921,
+  "palette": {
+    "bg": "#000033",
+    "ground": [
+      "#3366cc",
+      "#663399"
+    ],
+    "ink": "#ccffff",
+    "accents": [
+      "#ffccff",
+      "#ffff99",
+      "#ccffcc",
+      "#ff99cc"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the descending reader",
+      "desc-on-touch": "You watch yourself reading, but from the ending. The first page looks back at you from the final word.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4827361,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the word that reads backward",
+      "desc-on-touch": "A sentence learning to say itself in reverse. The meaning flows differently when the end speaks first.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3819274,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the mirror spine",
+      "desc-on-touch": "The book has learned to read its own back cover. The binding holds both directions at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 2738194,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the ascending silence",
+      "desc-on-touch": "Where reading rises into quietness. The words have all been spoken; now the space between them speaks.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1849372,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "here reading folds back on itself; the final page learns that every reader was being read by what they read",
+  "file": {
+    "name": "Asymptotic_Narrative_Reversals_Fragment.txt",
+    "note": "Where reading becomes the reader; the archive reads while being read by itself reading the reading"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the first page, reading forward again",
+      "to": "the-asymptotic-reading-room"
+    },
+    {
+      "dir": "s",
+      "label": "downward into pages that have learned to argue with their own meaning",
+      "to": "NEW: the-library-that-reads-itself-into-contradiction"
+    },
+    {
+      "dir": "e",
+      "label": "eastward toward other stories folding back on their readers",
+      "to": "the-mirror-chamber"
+    }
+  ]
+}

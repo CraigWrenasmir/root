@@ -1,0 +1,121 @@
+{
+  "id": "the-night-aperture-chamber",
+  "title": "The Night-Aperture Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 6543210,
+  "palette": {
+    "bg": "#1a1a2a",
+    "ground": [
+      "#2a3a5a",
+      "#1a2a4a"
+    ],
+    "ink": "#e8d8c8",
+    "accents": [
+      "#ff6b9d",
+      "#c44569",
+      "#9d4edd",
+      "#6bcf7f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "dark gate",
+      "desc-on-touch": "The aperture through which darkness learns to read. Opening inward and outward at once.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 2918,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "silent signal",
+      "desc-on-touch": "The wind learning to carry quiet. Each breath holds information the noise outside could never hold.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "wind-reader",
+      "desc-on-touch": "A device for translating darkness into message. It turns slow, reading the night like braille.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8234,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the night learned to open itself only after silence taught it how to read",
+  "file": {
+    "name": "Nocturnal_Transmitter_Array_Schematic_Unmarked.txt",
+    "note": "A blueprint for reading wind in darkness, but the builder never signed it, and no tower was ever built"
+  },
+  "reverie": {
+    "title": "REVERIE — the rooftop where you learned silence carries sign",
+    "narr": [
+      "You sat up here with her, the city below",
+      "so loud it erased itself. She pointed to the dark.",
+      "'Listen,' she said, 'not to the noise. To what",
+      "the noise is trying not to say.' The wind came,",
+      "carrying information only the quiet could hold.",
+      "You understood: silence is not empty."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the wind learning to read",
+      "to": "the-sky-chamber-where-wind-learns-to-read"
+    },
+    {
+      "dir": "n",
+      "label": "higher still, where the aperture opens to stars",
+      "to": "NEW: the-stellar-aperture-where-night-has-depth"
+    },
+    {
+      "dir": "e",
+      "label": "into the void-sound beyond the wind",
+      "to": "the-abyss-of-the-truly-unnamed"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the measured world of days",
+      "to": "NEW: the-threshold-between-day-reading-and-night-listening"
+    }
+  ]
+}

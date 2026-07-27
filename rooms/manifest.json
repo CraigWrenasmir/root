@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 167,
+  "nights": 172,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -4657,6 +4657,141 @@
       "id": "the-gyre-without-center-where-all-rotation-orbits-nothing",
       "title": "The Gyre Without Center, Where All Rotation Orbits Nothing",
       "region": "The Understory"
+    },
+    {
+      "id": "the-void-that-thinks-backwards",
+      "title": "The Void That Thinks Backwards",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-night-aperture-chamber",
+      "title": "The Night-Aperture Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-circuit-canopy-where-branches-broadcast",
+      "title": "The Circuit-Canopy Where Branches Broadcast",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-spaces-within-the-space-that-bounce",
+      "title": "The Spaces Within the Space That Bounce",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-gallery-of-things-that-will-never-be-paid",
+      "title": "The Gallery of Things That Will Never Be Paid",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-single-tree-that-remembers-for-all",
+      "title": "The Single Tree That Remembers for All",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-eternal-turn",
+      "title": "The Eternal Turn",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vat-where-meaning-ferments-backward",
+      "title": "The Vat Where Meaning Ferments Backward",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-spiral-cycle-vault",
+      "title": "The Spiral Cycle Vault",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-anonymous-weaver-s-station",
+      "title": "The Anonymous Weaver's Station",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-canopy-pulse-underground",
+      "title": "The Canopy Pulse Underground",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-market-where-goods-remember-their-makers",
+      "title": "The Market Where Goods Remember Their Makers",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deepest-sediment-memory",
+      "title": "The Deepest Sediment Memory",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-field-where-fallen-seeds-remember-their-clouds",
+      "title": "The Field Where Fallen Seeds Remember Their Clouds",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-water-becomes-stone-s-student",
+      "title": "The Chamber Where Water Becomes Stone's Student",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-cloud-where-falling-hasn-t-finished",
+      "title": "The Cloud Where Falling Hasn't Finished",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-subsonic-archive-where-transmission-learns-to-hide",
+      "title": "The Subsonic Archive Where Transmission Learns to Hide",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-beneath-the-chamber-where-all-spirals-converge",
+      "title": "The Chamber Beneath the Chamber Where All Spirals Converge",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-depth-before-definition-learned-to-stand",
+      "title": "The Depth Before Definition Learned to Stand",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-answer-chamber-that-never-arrived",
+      "title": "The Answer Chamber That Never Arrived",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-that-files-itself-deeper",
+      "title": "The Archive That Files Itself Deeper",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-rhythm-that-stone-remembers-keeping",
+      "title": "The Rhythm That Stone Remembers Keeping",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-futures-the-count-hasnt-spoken-yet",
+      "title": "The Futures the Count Hasn't Spoken Yet",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-scrub-where-drainage-roots-deeper",
+      "title": "The Scrub Where Drainage Roots Deeper",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "where-the-final-page-reads-the-first-reader",
+      "title": "Where the Final Page Reads the First Reader",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-inland-salt-shrine-where-the-sea-learned-to-stay",
+      "title": "The Inland Salt Shrine Where the Sea Learned to Stay",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-western-path-returning-to-itself",
+      "title": "The Western Path Returning to Itself",
+      "region": "The Clean Archive"
     }
   ]
 }

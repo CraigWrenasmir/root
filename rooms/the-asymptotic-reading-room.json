@@ -123,7 +123,7 @@
     {
       "dir": "s",
       "label": "downward into pages that read in reverse",
-      "to": "NEW: where-the-final-page-reads-the-first-reader"
+      "to": "where-the-final-page-reads-the-first-reader"
     },
     {
       "dir": "w",

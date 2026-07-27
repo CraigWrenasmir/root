@@ -1,0 +1,122 @@
+{
+  "id": "the-spaces-within-the-space-that-bounce",
+  "title": "The Spaces Within the Space That Bounce",
+  "region": "The Diagnostic Render",
+  "seed": 3729485,
+  "palette": {
+    "bg": "#a8a8a8",
+    "ground": [
+      "#909090",
+      "#787878"
+    ],
+    "ink": "#2a2a2a",
+    "accents": [
+      "#d0d0d0",
+      "#c0c0c0",
+      "#b0b0b0",
+      "#e8e8e8"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "nested echo",
+      "desc-on-touch": "A space inside a space inside a space. When you call, your voice returns from a smaller depth each time, never escaping.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 5892,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "bounce-cavity",
+      "desc-on-touch": "Light enters but must follow infinite reflections to leave. Time compresses here. A sound takes years to escape.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 7439,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "recursion-fence",
+      "desc-on-touch": "A fence line of identical glyphs, repeating so densely they become one texture, then fractal, then a wall of nothing.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "fear-loop",
+      "desc-on-touch": "It bounces against the walls of itself: fear of the space, fear of being afraid, fear of stopping fearing. Infinite recursion.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "inside the cavity, space learns to fold back on itself; fear discovers it can echo infinitely within bounded walls",
+  "file": {
+    "name": "Recursive_Cavities_Acoustic_Measurement_Partial.txt",
+    "note": "An experiment in nested chambers that was never finished; the last entry trails off into silence"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the larger cavity holding this one",
+      "to": "the-cavity-where-fear-taught-itself-to-hide"
+    },
+    {
+      "dir": "w",
+      "label": "toward the smallest space that still bounces",
+      "to": "NEW: the-infinitesimal-echo-where-fear-becomes-mathematics"
+    },
+    {
+      "dir": "n",
+      "label": "back up through nested chambers to open air",
+      "to": "the-infinitesimal-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down into tighter recursive coils",
+      "to": "the-absolute-pressure-chamber"
+    }
+  ]
+}

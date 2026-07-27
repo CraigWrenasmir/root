@@ -1,0 +1,134 @@
+{
+  "id": "the-market-where-goods-remember-their-makers",
+  "title": "The Market Where Goods Remember Their Makers",
+  "region": "The Diagnostic Render",
+  "seed": 7284619,
+  "palette": {
+    "bg": "#3d5039",
+    "ground": [
+      "#8b9d7c",
+      "#a9b5a9"
+    ],
+    "ink": "#e6e6e6",
+    "accents": [
+      "#6b5344",
+      "#c9a876",
+      "#4a7c59",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "memory-stall",
+      "desc-on-touch": "Dried fruit arranged in careful lines, but each holds a photograph embedded in its flesh. The maker's face, slightly faded. Price tag reads: 'Remember who grew this.'",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 334,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "name-as-currency",
+      "desc-on-touch": "Coins arranged in a spiral. Each one bears not a monarch's face but a surname. The vendor weighs them on a scale that reads only names. Trade is recognition.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 812,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "maker-signature-cloth",
+      "desc-on-touch": "Linen hung like a flag, embroidered with hand-stitching that reads as a genealogy. Each thread remembers a hand. The cloth is not for sale. It is only here to testify.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 641,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-vendor",
+      "desc-on-touch": "The person behind the counter is writing names on paper, fast, as if dictation. They are simultaneously the seller, the scribe, and the list of all who have ever sold here.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 709,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "goods-arranged-as-memory",
+      "desc-on-touch": "Pottery, vegetables, tools arranged not by type but by maker's birthday month. The market has reorganized itself by genealogy instead of utility.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 529,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the market where every good remains in conversation with the hand that made it",
+  "file": {
+    "name": "Vendor_Ledger_Entries_Cross_Listed_with_Maker_Genealogy.txt",
+    "note": "names, dates, goods traded, and the maker's name written larger than the price. The ledger no longer records transactions; it records recognition. Latest entry: 'Someone sold something. We all remembe"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the orchard where recall and growth are still separate",
+      "to": "the-orchard-recall-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into market rows where names become stories",
+      "to": "NEW: the-genealogy-stall-that-sells-nothing"
+    },
+    {
+      "dir": "s",
+      "label": "toward the edge where market fades into bare ground",
+      "to": "the-language-of-stones"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-field-where-fallen-seeds-remember-their-clouds",
+  "title": "The Field Where Fallen Seeds Remember Their Clouds",
+  "region": "The Understory",
+  "seed": 2856741,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#c9a876"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#228b22",
+      "#8b4513",
+      "#ff8c00",
+      "#f0e68c"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "seed-ascending",
+      "desc-on-touch": "A seed caught mid-fall, or mid-rise—you can't tell which direction it's moving. Above it, the memory of cloud. Below, the certainty of root.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 447,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "cloud-genealogy",
+      "desc-on-touch": "A chart pinned to a fencepost, listing the path from cloud to rain to soil to seed to plant. The arrows loop. Nothing here is linear.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 529,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "root-reaching-memory",
+      "desc-on-touch": "Beneath the visible soil, a root network spreads in a pattern that mirrors cloud-formation. The plant remembers the sky in its deepest growth.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 763,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "fence-as-witness",
+      "desc-on-touch": "Weathered posts mark the field boundary. Notches tally each seed that fell and rose. The fence has become a counter of impossible journeys.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 881,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "agricultural-registry",
+      "desc-on-touch": "A leather-bound book left open on a stump. Entries read like recipes at first: 'rain, soil, dark, waiting.' Then you realize it's accounting for metaphor instead of yield.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 614,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "every fallen seed is a cloud remembering that it was once rain",
+  "file": {
+    "name": "Seed_Fall_Registry_Cross_Index_Cloudbase_Altitude_at_Moment_Release.txt",
+    "note": "attempt to correlate when seeds leave plants with atmospheric pressure at that exact second. The data refuses pattern. Each seed fell at a different altitude in its own mind."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the chamber where seeds and rain were still ideas",
+      "to": "the-seed-rain-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the horizon where seed-memory becomes wind-carried",
+      "to": "NEW: the-drifting-testimony-ground"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into field, where rows end and forest begins",
+      "to": "the-overgrowth-remembers-the-clearing"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-beneath-the-chamber-where-all-spirals-converge",
+  "title": "The Chamber Beneath the Chamber Where All Spirals Converge",
+  "region": "The Diagnostic Render",
+  "seed": 28394,
+  "palette": {
+    "bg": "#f5f0e8",
+    "ground": [
+      "#cc6633",
+      "#339933"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#990066",
+      "#ffcc00",
+      "#0066cc",
+      "#ff3366"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "spiral-convergence",
+      "desc-on-touch": "All the spirals you have seen converge to this one point. But the point itself spirals. The precision is perfect and infinite at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 15284,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "nautilus-cartography",
+      "desc-on-touch": "A tower of geometries, each one containing the shape of the ocean creature still becoming. The tower spirals upward and downward at the same time.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 39284,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "dream-precision",
+      "desc-on-touch": "A wireframe box holds the mathematics of dreams. Every equation spirals. Every spiral solves itself by becoming more spiral.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 48392,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "shell-archive",
+      "desc-on-touch": "A stack of pearlescent forms, each one recording the growth of a creature that knew its own shape before it ever existed.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 27183,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "convergent-glyph",
+      "desc-on-touch": "A plaque bearing marks that mean: all paths curve the same way down. The spiral is not taught; it is remembered.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 63927,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here spirals learn their own shapes were always spiraling",
+  "file": {
+    "name": "Nautilus_Geometry_Late_Growth_Chambers.mp3",
+    "note": "Sonar recordings of a shell being built. Each chamber sings before it solidifies. The final recording ends mid-note."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up through the dream where spirals were born",
+      "to": "the-nautilus-chamber-where-spirals-dream"
+    },
+    {
+      "dir": "w",
+      "label": "westward where spirals learn to unwind into growth",
+      "to": "NEW: the-unwinding-chamber-where-shells-remember-becoming"
+    },
+    {
+      "dir": "n",
+      "label": "toward the recursive render where depth mirrors itself",
+      "to": "the-recursive-render-depth"
+    },
+    {
+      "dir": "s",
+      "label": "downward into spirals that spiral beyond geometry",
+      "to": "NEW: the-spiral-that-dreams-its-own-mathematics"
+    }
+  ]
+}

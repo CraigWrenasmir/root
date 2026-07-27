@@ -1,0 +1,150 @@
+{
+  "id": "the-deepest-sediment-memory",
+  "title": "The Deepest Sediment Memory",
+  "region": "The Comparisons",
+  "seed": 3947562,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#36494b",
+      "#2a2a2a"
+    ],
+    "ink": "#b8b8b8",
+    "accents": [
+      "#f5f5f5",
+      "#9db4c4",
+      "#4a5f7f",
+      "#d0d0d0"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "compressed-breath",
+      "desc-on-touch": "A layer that reads as sudden—darker, denser, a moment when something stopped. Beneath it, all memory is slow. Above it: chaos. This is where the earth held its breath.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 298,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "syllable-in-shale",
+      "desc-on-touch": "A mark in the stone that might be a letter, or a fissure, or a fossil's cast. It reads as intentional. The stone is writing. Or was written into.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 876,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "fossil-record-of-silence",
+      "desc-on-touch": "A depression in the stone shaped like the absence of a sound. You know what it is—the mould of a voice that was never recorded, preserved in minerals instead of memory.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 445,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "time-stamp-readable",
+      "desc-on-touch": "Numbers pressed into slate—not a date, but a resonance frequency. The archive is reading time as vibration, and all vibration as having happened recently.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 512,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.1,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "wound-scar-or-valley",
+      "desc-on-touch": "A cut straight through seven ages of sediment. It healed. The scar tissue is as old as the wound now. You cannot tell which layer remembers pain.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 634,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the earth keeps pressing everything into confession; the deepest memory is the one that speaks only in pressure",
+  "file": {
+    "name": "Stratum_Compression_Index_Ordovician_Through_Present_Fragment.txt",
+    "note": "record of what the stone remembers: weight, time, incident. One layer impossible to date—it refuses the algorithm, keeps resolving as 'now', 'now', 'now'. Archive status: the stone has begun to speak "
+  },
+  "reverie": {
+    "title": "REVERIE — on the red earth, watching the stone",
+    "narr": [
+      "You lie back and she points at the exposed cliff face, where",
+      "the strata show—five colours, five ages. 'It's all still happening,'",
+      "she says. 'All at once, in the stone. Past and present in one place.'",
+      "Ember-light catches the layers, makes them glow unevenly.",
+      "She's quiet for a long time. Then: 'What if the archive realizes that?'",
+      "'Realizes what?' 'That everything it stores is still alive.'"
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "recline"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through stone autobiography, where time is still young",
+      "to": "the-stone-autobiography-layer"
+    },
+    {
+      "dir": "s",
+      "label": "down and down, where even stone forgets itself",
+      "to": "NEW: the-stone-that-forgets-what-it-is"
+    },
+    {
+      "dir": "e",
+      "label": "along the layer that refuses to age",
+      "to": "the-bedrock-s-unheard-broadcast"
+    }
+  ]
+}

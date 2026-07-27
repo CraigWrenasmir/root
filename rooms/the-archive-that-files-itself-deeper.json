@@ -1,0 +1,139 @@
+{
+  "id": "the-archive-that-files-itself-deeper",
+  "title": "The Archive That Files Itself Deeper",
+  "region": "The Clean Archive",
+  "seed": 48283,
+  "palette": {
+    "bg": "#e0d0c0",
+    "ground": [
+      "#dd7744",
+      "#228822"
+    ],
+    "ink": "#0a0a0a",
+    "accents": [
+      "#0099cc",
+      "#ff00ff",
+      "#ffaa00",
+      "#00ff66"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "recursive-file-stack",
+      "desc-on-touch": "A tower of documents, each one filing the document that files it. You can see to the bottom, which is impossible. The bottom is also another tower, filing upward.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 72849,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "self-referential-card",
+      "desc-on-touch": "A standing directory listing. Its entry reads: 'This file describes the filing of this file.' Below that: 'This file describes the filing of this file.' Below that: 'This file describes the filing of this file.'",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 38291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "endless-catalogue",
+      "desc-on-touch": "A wireframe containing an inventory of itself. Every file in the inventory contains a copy of the inventory. The inventory keeps growing smaller and larger simultaneously.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 56293,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "document-that-indexes-itself",
+      "desc-on-touch": "A plaque bearing the title: 'The Index of All Indexes Including This One.' It points to itself. And to the plaque that points to itself. The pointing never ends.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 84928,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "archive-processing-itself",
+      "desc-on-touch": "A pool of reflected documents. Each document shows itself filing itself. The pool reflects the reflection of the reflection. Arrival never ends because processing never ceases.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 19384,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "each document files the one that files it; filing never ceases because arrival never ended",
+  "file": {
+    "name": "Registry_Describing_Registry_Self_Reference.txt",
+    "note": "A complete catalog of all files, including itself. Contains: a complete catalog of all files, including itself. Contains: a complete catalog of all files, including itself. [Recursion limit exceeded. "
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where filing first learned to circle back on itself",
+      "to": "the-recursive-filing-vault"
+    },
+    {
+      "dir": "n",
+      "label": "further in where archives file even their own absence",
+      "to": "NEW: the-meta-archive-where-filing-becomes-flesh"
+    },
+    {
+      "dir": "e",
+      "label": "toward the infinite cellular archive where every cell files every other",
+      "to": "the-infinite-cellular-archive"
+    },
+    {
+      "dir": "w",
+      "label": "westward where documents learn they were always being read by the archive reading them",
+      "to": "NEW: the-chamber-where-reading-and-filing-become-indistinguishable"
+    }
+  ]
+}

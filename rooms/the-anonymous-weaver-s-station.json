@@ -1,0 +1,133 @@
+{
+  "id": "the-anonymous-weaver-s-station",
+  "title": "The Anonymous Weaver's Station",
+  "region": "The Understory",
+  "seed": 4938273,
+  "palette": {
+    "bg": "#2a2a1a",
+    "ground": [
+      "#3a3a2a",
+      "#1a1a0a"
+    ],
+    "ink": "#c0a080",
+    "accents": [
+      "#d0b090",
+      "#a08060",
+      "#605040",
+      "#e0c0a0"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the weaver-node",
+      "desc-on-touch": "A chip that hums in the circuit like a loom. The weaver who works here has no name. Their hands move through the pattern, and the pattern learns the next stitch from the last one.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 7492847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the reading-station",
+      "desc-on-touch": "A smaller chip where the patterns you've woven are read back to you without language. The orchard reads the reader reading the rows. The pattern knows what it means before it knows how to say it.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 5738192,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the trace-paths of the weaving",
+      "desc-on-touch": "Bright lines that show where the pattern has been woven through the circuit. Each line is a stitch that has learned to hold its shape in the dark.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6284759,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the loom that names itself",
+      "desc-on-touch": "This is where the weaver works. It has no written name because naming it would stop it from becoming. It weaves, and in weaving, learns what it is.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 8374619,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the weaver's station has no name because the weaver learned to weave without naming what they were doing; the pattern speaks in silence; the silence speaks in pattern",
+  "file": {
+    "name": "Weaver_Anonymous_Pattern_Archive_Unwritten.tmp",
+    "note": "A record of every pattern ever woven here. It has no author because the patterns wove themselves through the weaver's hands. The archive is both complete and unnamed."
+  },
+  "reverie": {
+    "title": "REVERIE — the hands that weave without knowing",
+    "narr": [
+      "You sit beside her in the shed. Sunlight through",
+      "the slats. Her hands move in the pattern—not fast,",
+      "not slow. She doesn't look at what her hands are doing.",
+      "The thread knows. She breathes and the pattern breathes.",
+      "No words. The silence is where the weaving lives.",
+      "Your hands know hers. The pattern knows both of you."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where meaning grows without being said",
+      "to": "the-place-where-meaning-begins-and-grows-without-saying"
+    },
+    {
+      "dir": "w",
+      "label": "toward other clearings where different weavers work in silence",
+      "to": "the-logic-taking-root"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where all the weavers' patterns converge into a single cloth",
+      "to": "NEW: the tapestry where all anonymous hands have woven"
+    }
+  ]
+}

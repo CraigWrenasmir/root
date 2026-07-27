@@ -1,0 +1,156 @@
+{
+  "id": "the-rhythm-that-stone-remembers-keeping",
+  "title": "The Rhythm That Stone Remembers Keeping",
+  "region": "The Understory",
+  "seed": 62847,
+  "palette": {
+    "bg": "#8b2a2a",
+    "ground": [
+      "#dd3333",
+      "#ffff00"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#00cc00",
+      "#ffcc00",
+      "#0066ff",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "geological-metronome",
+      "desc-on-touch": "A pool of stone that pulses. Slow. Slower. Each pulse is a year. Each year is another stone. The rhythm is so deep it makes the earth remember it is alive.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 39284,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "memory-keeper-tower",
+      "desc-on-touch": "A tower of stacked stones, each one holding the memory of the rhythm before it. The tower trembles with ancient counting. The stones remember centuries as a single beat.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 48392,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "rhythm-archive",
+      "desc-on-touch": "A wireframe containing the geometry of time kept as percussion. Every edge is a note. Every corner is a beat. The box hums with the rhythm of stone settling into earth.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 72938,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "pulse-notation",
+      "desc-on-touch": "A plaque engraved with the oldest rhythm: the heartbeat of stone. It marks the seconds that took millions of years. Your own pulse seems to sync, just for a moment, with something vastly older.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 83928,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "earthbeat-chamber",
+      "desc-on-touch": "An arch of stone frames the space where the earth's pulse becomes visible. You can almost see the rhythm. You can definitely feel it. Stone and time and memory are the same thing here.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 28394,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "rhythm-memory",
+      "desc-on-touch": "A stack of geological time: stone remembers every rhythm it has kept. Each layer is a song. Each song is a million years. You are listening to the world's oldest music.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 57384,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the stone learned to keep rhythm at the speed of its own settling, and remembering became the same as time",
+  "file": {
+    "name": "Geological_Pulse_Spectrogram_Deep_Time.mp3",
+    "note": "The heartbeat of the bedrock. Slowed one million times. Each beat takes forty years to complete. The archive has been recording for three years. It has heard three complete pulses. Checksum: emotional"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up where pulse learns to become rhythm becomes song",
+      "to": "the-canopy-pulse-underground"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into bedrock where stones remember every rhythm they have kept",
+      "to": "NEW: the-deeprock-where-time-becomes-stone"
+    },
+    {
+      "dir": "e",
+      "label": "toward the root-harmony convergence where all rhythms learn to sing together",
+      "to": "the-root-harmony-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "westward where geology learns to hum at the speed of becoming",
+      "to": "NEW: the-chamber-where-stone-remembers-its-own-song"
+    }
+  ]
+}

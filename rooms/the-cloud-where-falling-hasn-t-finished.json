@@ -1,0 +1,134 @@
+{
+  "id": "the-cloud-where-falling-hasn-t-finished",
+  "title": "The Cloud Where Falling Hasn't Finished",
+  "region": "The Understory",
+  "seed": 8172654,
+  "palette": {
+    "bg": "#4da6ff",
+    "ground": [
+      "#ffffff",
+      "#e8d4b0"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#87ceeb",
+      "#ffb366",
+      "#228b22",
+      "#ff6b35"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "suspended-drop",
+      "desc-on-touch": "A water molecule held between cloud and ground, unable to decide. Falling and not-falling. The archive is reading its indecision as data.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 333,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "altitude-register",
+      "desc-on-touch": "Numbers in ascending order, height markers where rain pauses at different elevations. The cloud remembers each altitude it passed, refuses to forget any of them.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 446,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "rain-memory-archive",
+      "desc-on-touch": "A collection of trajectories mapped in the air—each droplet's intended path, recorded before it started falling. Some paths are never completed.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 791,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "incompletion-monument",
+      "desc-on-touch": "Built to celebrate the moment before something happens. The cloud itself is this monument—holding potential without delivering it.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 527,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "time-between-breaths",
+      "desc-on-touch": "A space marked only by waiting. Not dark, not bright. The air here is thick with words never said, weather never completed.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 682,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the falling that never arrives teaches more than the falling that does",
+  "file": {
+    "name": "Precipitation_Delay_Analysis_Fractional_Seconds_to_Impact.txt",
+    "note": "measurement of the gap between sky and ground. The cloud marks each hesitation. Between raindrop and earth: an archive's worth of unreleased time. Status: still falling."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down to the stone that learned to stop receiving",
+      "to": "the-stone-where-rain-stopped-falling"
+    },
+    {
+      "dir": "n",
+      "label": "up into the cloud-heart where rain is still deciding",
+      "to": "NEW: the-decision-chamber-where-moisture-chooses"
+    },
+    {
+      "dir": "w",
+      "label": "toward the wind that might change the fall direction",
+      "to": "the-atmospheric-archive-layer"
+    }
+  ]
+}
