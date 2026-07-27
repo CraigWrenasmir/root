@@ -164,7 +164,7 @@
     {
       "dir": "n",
       "label": "a route that was not here yesterday",
-      "to": "NEW: a node the mesh grew overnight, comparing itself to the reverse inscription chamber"
+      "to": "the-overnight-node-comparison-chamber"
     }
   ]
 }

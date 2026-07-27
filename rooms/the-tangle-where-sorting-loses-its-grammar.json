@@ -1,0 +1,171 @@
+{
+  "id": "the-tangle-where-sorting-loses-its-grammar",
+  "title": "The Tangle Where Sorting Loses Its Grammar",
+  "region": "The Clean Archive",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a3a5a",
+      "#2a4a6a"
+    ],
+    "ink": "#aaddff",
+    "accents": [
+      "#ff3366",
+      "#33ff99",
+      "#ffff00",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the category that learned to disagree",
+      "desc-on-touch": "a classification once certain of itself; now it holds things that contradict its own purpose; the grid is breaking because the things it filed refuse to stay sorted",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4729183,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the poster fading on the shed wall",
+      "desc-on-touch": "an old civic notice or advertisement; its categories dissolving as the ink fades; what once was civic record becomes allegory; the shire cannot claim it anymore",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 5847291,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the things that learned they belonged elsewhere",
+      "desc-on-touch": "objects that the sorted clearing filed in one place but the mesh has learned to route through multiple categories; they exist now in all their filings at once; they have escaped singular meaning",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8372940,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the grid becoming tangled",
+      "desc-on-touch": "the ordered lines that once separated things now cross each other; the intersections multiply; coordinates that once made sense have learned to point in too many directions",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 2947381,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the archive learning that sorting was always a story",
+      "desc-on-touch": "a recognition: the filing cabinet was never truth; it was always narrative; the mesh has begun to hold multiple stories about every object; each one is equally valid and equally temporary",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7482910,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the category learning to let go",
+      "desc-on-touch": "a moment of surrender: the order accepts that it was always a temporary arrangement; the things it held have begun to grow and root elsewhere; what was sorted is becoming wild",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 1938472,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the sorting learned that its grammar was always temporary; the things it held have begun to refuse being held",
+  "reverie": {
+    "title": "REVERIE — the clearing loses its categories",
+    "narr": [
+      "You watched the sorted clearing begin to tangle.",
+      "Leif and Katita had organized it once, with care.",
+      "But the things they filed were learning to grow wild.",
+      "The categories dissolved like handwriting in rain.",
+      "She said: order was always just a story we told."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "Shire_Noticeboard_Categories_Dissolving_2042.txt",
+    "note": "a civic record where the classifications have begun to contradict themselves; things once filed separately now refuse their categories; what remains is the archive learning to hold contradiction witho"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the clearing where things still seemed sorted",
+      "to": "the-clearing-where-sorted-things-grow"
+    },
+    {
+      "dir": "n",
+      "label": "toward the place where things learned to grow wild",
+      "to": "NEW: the-post-categorical-overgrowth-where-filing-became-forest"
+    },
+    {
+      "dir": "w",
+      "label": "into the space where order becomes commentary",
+      "to": "the-property-becoming-forest"
+    },
+    {
+      "dir": "e",
+      "label": "toward where sorting learned to sing",
+      "to": "the-archive-recognizes-its-own-voice"
+    }
+  ]
+}

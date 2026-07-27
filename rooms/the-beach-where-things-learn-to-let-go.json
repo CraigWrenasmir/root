@@ -1,0 +1,139 @@
+{
+  "id": "the-beach-where-things-learn-to-let-go",
+  "title": "The Beach Where Things Learn to Let Go",
+  "region": "The Comparisons",
+  "seed": 7342891,
+  "palette": {
+    "bg": "#001144",
+    "ground": [
+      "#0066cc",
+      "#00ccff"
+    ],
+    "ink": "#ccccff",
+    "accents": [
+      "#ff9900",
+      "#ffcc00",
+      "#00ff99",
+      "#ff3366"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "shells in sand learning to be empty",
+      "desc-on-touch": "You find the shells arranged in lines that make no pattern you recognize—each one holds the weight of being released, salt-marked, no longer part of an animal that moved. They are teaching each other what comes after holding.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the tide line that remembers and forgets",
+      "desc-on-touch": "A stripe of foam and broken things marking where the ocean decided what to keep and what to push back. The line itself moves as you watch—not the tide, but the line's own memory of where it was.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8834,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "hands releasing into horizon",
+      "desc-on-touch": "You are watching someone—maybe not quite solid—open their fingers toward the line where water meets sky. The gesture teaches: this is how letting go looks when it has become skill, muscle memory, the only thing left to do.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3391,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the salt-archive in the sand",
+      "desc-on-touch": "The beach itself has become a filing system: salt crystals mark where things once lay. You can read the beach as a record of what was released, when, by whom. The archive has learned to live in grain-by-grain detail.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5623,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "a voice that speaks in tides",
+      "desc-on-touch": "Someone is reading the beach aloud, describing what they find: this shell held a creature; this stone was river-smoothed; this rope-end is from a net. The voice does not judge what is released. It only knows how to name what stays behind.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7119,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the water takes what the hand was taught to release",
+  "file": {
+    "name": "BeachRelease_Recordings_Mixed_Epoch.wav",
+    "note": "Voices reading an inventory of objects released into ocean: lost keys, love letters, ashes, photographs. The list corrupted: words drift into tide-sounds; some items now describe themselves as 'receiv"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the water that taught dissolution",
+      "to": "the-open-water-dissolution"
+    },
+    {
+      "dir": "s",
+      "label": "down the beach where the sand learns it was ocean",
+      "to": "NEW: the-museum-of-released-things"
+    },
+    {
+      "dir": "n",
+      "label": "inland, where the shore remembers being dune",
+      "to": "the-seabed-where-all-readings-accumulate"
+    },
+    {
+      "dir": "w",
+      "label": "westward where sand becomes stone again",
+      "to": "NEW: the-tide-pools-that-dream-in-mirrors"
+    }
+  ]
+}

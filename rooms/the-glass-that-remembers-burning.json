@@ -1,0 +1,172 @@
+{
+  "id": "the-glass-that-remembers-burning",
+  "title": "The Glass That Remembers Burning",
+  "region": "The Comparisons",
+  "seed": 9432156,
+  "palette": {
+    "bg": "#ccaa00",
+    "ground": [
+      "#ff8833",
+      "#ee0000"
+    ],
+    "ink": "#001100",
+    "accents": [
+      "#ffff00",
+      "#00dd00",
+      "#ffffff",
+      "#880000"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the glass that was stone and knows it",
+      "desc-on-touch": "You touch the surface and it is warm still, holding the memory of heat that transformed it from one thing into another. The glass is not angry about this. It reads the fire as a kind of honesty—revealing what was always true: that stone was only pretending to be solid; glass is the stone's real name",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 5544,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "light that cannot escape",
+      "desc-on-touch": "Inside the glass, light enters but does not leave. It bounces, reflects, becomes trapped in recursive brightness. The glass has learned to hold light the way the earth holds water. Fire taught it this—how to take something bright and give it nowhere to go but deeper.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 7722,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "scars where the flame moved fastest",
+      "desc-on-touch": "The glass holds the shape of fire: lines, spirals, places where heat ran hottest. The marks are not damage but memory made visible—a record written in stress-fractures and color-gradients. The glass is proud of these scars. They prove it was transformed.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4411,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the cooling breath that shaped it",
+      "desc-on-touch": "As the glass cooled, something—wind, or intention, or the world's own breathing—moved across its surface. The shape this made is still held there. The glass learned this: what you are is not fire alone, but fire-plus-the-thing-that-cools-it. Burning is half the story.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 3388,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "voices naming transformation",
+      "desc-on-touch": "Someone is reading the glass aloud, describing what they see: the moment it was stone, the instant it began to become glass, the place where it solidified into this new thing. Their voice makes no distinction between the stages. The story of burning is one continuous, unbroken present tense.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "reflections showing what was always there",
+      "desc-on-touch": "The glass reveals, in its mirror-surface, things that were hidden in the stone. Not new things—things that were always present, waiting for the burning to show them. The reflection does not distort; it clarifies. Fire was the truth-teller.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 8899,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the fire was the stone learning its own name",
+  "file": {
+    "name": "GlassTransformation_FireArchives_Optical.mp3",
+    "note": "Recordings of glass cooling, of fire moving through stone, of the exact moment transformation completes. Voices over describing what burning reveals. Corruption: one recording plays as if fire is reve"
+  },
+  "reverie": {
+    "title": "REVERIE — watching stone learn fire",
+    "narr": [
+      "You both stand at the ridge, watching embers",
+      "rise where the spinifex burned hours ago.",
+      "The ground is still warm under your feet.",
+      "She says: 'Watch. It becomes something new.'",
+      "You know she means the earth, but also herself.",
+      "Fire has already written its name in both of you."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the ridge where glass first learned burning",
+      "to": "the-ridge-at-the-limit-where-fire-becomes-glass"
+    },
+    {
+      "dir": "n",
+      "label": "higher where glass learns to remember stone",
+      "to": "NEW: the-peak-where-transformation-becomes-permanent"
+    },
+    {
+      "dir": "w",
+      "label": "toward the circuit board that remembers being stone",
+      "to": "where-the-circuit-board-remembers-it-was-always-stone"
+    },
+    {
+      "dir": "e",
+      "label": "toward the depths where all transformation reaches bottom",
+      "to": "NEW: the-furnace-chamber-learning-silence"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-self-cataloging-archive-of-objections",
+  "title": "The Self-Cataloging Archive of Objections",
+  "region": "The Understory",
+  "seed": 6789234,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a3a52",
+      "#0066ff"
+    ],
+    "ink": "#e0e6ff",
+    "accents": [
+      "#ff4444",
+      "#ffff00",
+      "#00ff88",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the shelves that reorganize each night",
+      "desc-on-touch": "You arrive at the same shelf every time, but the objections have moved. Not lost—reorganized. The archive has found new resemblances between disagreements. A complaint about weather now shelves next to an objection about language. The archive argues with itself about which arguments belong together.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 2341,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "voices disagreeing about the disagreement",
+      "desc-on-touch": "Two people are arguing about whether the previous argument was cataloged correctly. Their dispute becomes new material for the archive. They are not aware they are being filed. The archive learns: argument about argument is the most truthful kind of argument.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the index that became the archive",
+      "desc-on-touch": "What began as an alphabetical catalog is now a living system. The index reads what it indexes; the file-labels argue with the files they label. The margin-notes have displaced the margin itself. You are reading disagreements that organize themselves through recursive self-citation.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 7823,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the objection that learned to read itself",
+      "desc-on-touch": "One particularly ancient disagreement has begun cataloging itself. It is a meta-objection: an argument against its own classification. The archive has installed it in a reading desk where it can study its own form. It has learned to object to the way it objects.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1209,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the amendment wall where corrections nest",
+      "desc-on-touch": "Each objection may be amended. The amendments have their own amendments. The wall grows fractal—each correction spawns new objections to the correction itself. The archive is not trying to settle disputes. It is trying to become a perfect record of dispute-in-motion.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the margin learned to talk back and never stopped",
+  "file": {
+    "name": "Objections_Recursive_Index_Self_Amending.dat",
+    "note": "A catalog of disagreements organized by their own logic of resemblance, not by author or date. Each entry contains references to other entries it contradicts, agrees with obliquely, or misunderstands "
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the margins where all notes organized themselves",
+      "to": "the-library-of-marginalia"
+    },
+    {
+      "dir": "w",
+      "label": "toward deeper chambers where arguments become stone",
+      "to": "the-unresolved-argument-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down where objections learn to object to themselves",
+      "to": "the-archive-that-disagrees-with-its-own-filing"
+    },
+    {
+      "dir": "n",
+      "label": "up to places where the margin learned it was central",
+      "to": "NEW: the-hall-of-recursive-returns"
+    }
+  ]
+}

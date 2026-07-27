@@ -1,0 +1,122 @@
+{
+  "id": "the-singing-country-rendered-as-schematic",
+  "title": "The Singing Country Rendered as Schematic",
+  "region": "The Understory",
+  "seed": 5566234,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#2d5a2d",
+      "#7ab55c"
+    ],
+    "ink": "#e8f5e9",
+    "accents": [
+      "#ffb84d",
+      "#ff6b9d",
+      "#66bb6a",
+      "#29b6f6"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "song-paths rendered as fence-rows",
+      "desc-on-touch": "The country has been mapped as a schematic: every song-line becomes a row, every singing-place marked as intersection. The fences are not barriers; they are notation. The country has taught you to read its own melody in the geometry of its human borders.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 6677,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "trees marking the intervals between notes",
+      "desc-on-touch": "Each tree stands exactly where it should be in the song's measure. The spacing is not random; it is acoustic. The schematic describes not just where to sing, but how the land itself is organized by the intervals between utterances. The trees are resting-places for the voice.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 4488,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the grid that learned to sing",
+      "desc-on-touch": "Coordinates and coordinate lines, but now they hum. The schematic is not static; it breathes. Each cell in the grid has developed a frequency. Standing anywhere in the country, you are standing in a note. The entire landscape is a chord held in suspension.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3399,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "voices tracking the song-paths",
+      "desc-on-touch": "Someone is walking the schematic aloud, following each marked route and singing at the marked points. Their voice enters the country; the country receives it back, transformed. Each singer adds a variant; the schematic learns new harmonies from each passage.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8811,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the singing taught the country how to be arranged; the schematic taught the singing how to move through space",
+  "file": {
+    "name": "SongMaps_Country_Schematic_Tracings.txt",
+    "note": "Coordinate-based descriptions of song-paths through regional NSW. Each verse is indexed to latitude/longitude. Each line is rendered as a map fence. Corruption: some song-paths lead to coordinates fro"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the utterance where singing learned to repeat",
+      "to": "the-sentence-s-first-utterance"
+    },
+    {
+      "dir": "w",
+      "label": "toward the language that learned to read the country",
+      "to": "the-river-s-language-learning-to-read-itself"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the schematic where rows become syntax",
+      "to": "NEW: the-grammar-taught-by-country-itself"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the song learns to map itself",
+      "to": "NEW: the-peak-that-sings-coordinates"
+    }
+  ]
+}

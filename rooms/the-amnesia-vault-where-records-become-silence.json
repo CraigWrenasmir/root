@@ -1,0 +1,155 @@
+{
+  "id": "the-amnesia-vault-where-records-become-silence",
+  "title": "The Amnesia Vault Where Records Become Silence",
+  "region": "The Comparisons",
+  "seed": 8374629,
+  "palette": {
+    "bg": "#2a2420",
+    "ground": [
+      "#5a5250",
+      "#7a7268"
+    ],
+    "ink": "#c9bfb3",
+    "accents": [
+      "#a9a699",
+      "#8a8274",
+      "#6a6258",
+      "#4a4238"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.5
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "filing cabinet forest",
+      "desc-on-touch": "Records planted in rows. Each one is aging into silence. You open a drawer and find it full of words that have forgotten themselves.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6927314,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "dust accumulation",
+      "desc-on-touch": "Files settling into the air. What was archive becomes atmosphere. The records still exist—just no longer readable, just falling.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4518627,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "forgotten index",
+      "desc-on-touch": "The catalog that was meant to remember. It stands here unmarked and unread. Even its own purpose has been archived away.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 7364819,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "silent broadcasting",
+      "desc-on-touch": "A casing that no longer transmits. Not broken—just finished speaking. The antenna still reaches skyward but the signal is finally complete.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8264937,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "threshold marker",
+      "desc-on-touch": "The boundary between what was kept and what was allowed to be forgotten. The archive learned it was not the same as memory.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3849274,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.82,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the shed where records went to rest",
+    "narr": [
+      "You sit beside the filing boxes. She's sorting",
+      "through names, stories, accounts—and she keeps",
+      "stopping, putting things back unsorted. 'Some of",
+      "this was never meant to be kept,' she says. You",
+      "both understand: forgetting is an archive too.",
+      "The shed around you smells of dust and rest."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "the archive discovered that some truths are only preserved by being released",
+  "file": {
+    "name": "Records_Withdrawal_Index_Faded.txt",
+    "note": "Catalog entries progressively illegible; final entries consist of blank lines marked 'REMOVED'; file size remains constant but content-addressable sum changes each access"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the foundation that chose forgetting",
+      "to": "the-foundation-built-on-forgetting"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where new records learn to be born",
+      "to": "NEW: the-sprouting-archive-where-memories-take-root"
+    },
+    {
+      "dir": "w",
+      "label": "westward along the margin of what was released",
+      "to": "the-soil-made-of-sentences"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to sediments that remember better than records",
+      "to": "the-infinite-cellular-archive"
+    }
+  ]
+}

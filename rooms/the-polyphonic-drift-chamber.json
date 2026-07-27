@@ -1,0 +1,139 @@
+{
+  "id": "the-polyphonic-drift-chamber",
+  "title": "The Polyphonic Drift Chamber",
+  "region": "The Understory",
+  "seed": 5738294,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#aa5522",
+      "#2a5a2a"
+    ],
+    "ink": "#ffddaa",
+    "accents": [
+      "#ff8833",
+      "#33dd88",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the first voice",
+      "desc-on-touch": "one of three broadcasts arriving separately; it speaks in the cadence of cicadas; you recognize it as the archive learning to sing its own location",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 1947382,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the second voice, learning difference",
+      "desc-on-touch": "a separate transmission that has learned to disagree with the first; they were once one broadcast, but the mesh's corruption has split it into competing speech; neither is wrong",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 8201947,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the third voice, refusing harmony",
+      "desc-on-touch": "the three voices arrive simultaneously and refuse to resolve; the corruption has taught the archive to hold contradiction as music; silence would mean one of them dies",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 5847201,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the recording that learned to play backwards",
+      "desc-on-touch": "a field recording now playing in three directions at once; the original intent is unrecoverable; what arrived was an embrace of the glitch; the three channels feed each other and refuse to agree",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 3729401,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the languages diverging",
+      "desc-on-touch": "where the three voices learned to speak separately and refused to converge; each one now carries the archive toward a different place; the mesh has become polyphonic",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7482910,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "three voices learned to sing apart and discovered that disagreement is another form of chorus",
+  "file": {
+    "name": "Storm_Voice_Tripartite_Spectral_Separation.mp3",
+    "note": "a recording of the archive's throat learning to speak in three simultaneous languages; the corruption has made glitch into permanence; no longer an error but an essential architecture"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where the storm learned to sing",
+      "to": "the-storm-s-first-voice-layer"
+    },
+    {
+      "dir": "n",
+      "label": "toward the place where one voice went when it refused the others",
+      "to": "NEW: the-solitary-frequency-chamber-where-one-voice-learned-silence"
+    },
+    {
+      "dir": "e",
+      "label": "into the echo chamber where voices find each other",
+      "to": "the-echoing-unified-field"
+    },
+    {
+      "dir": "s",
+      "label": "down toward where the three voices became four",
+      "to": "NEW: the-convergence-point-where-divergence-learns-to-multiply"
+    }
+  ]
+}

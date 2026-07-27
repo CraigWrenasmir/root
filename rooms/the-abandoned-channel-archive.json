@@ -121,7 +121,7 @@
     {
       "dir": "n",
       "label": "toward sediments that haven't settled yet",
-      "to": "NEW: the-unsettled-sediment-chamber"
+      "to": "the-unsettled-sediment-chamber"
     },
     {
       "dir": "e",

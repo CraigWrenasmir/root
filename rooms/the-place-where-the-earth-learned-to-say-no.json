@@ -1,0 +1,155 @@
+{
+  "id": "the-place-where-the-earth-learned-to-say-no",
+  "title": "The Place Where the Earth Learned to Say No",
+  "region": "The Clean Archive",
+  "seed": 7463821,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#4a5c2a",
+      "#2a3a1a"
+    ],
+    "ink": "#ffee99",
+    "accents": [
+      "#ff4444",
+      "#ffaa00",
+      "#66ff66",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root boundary",
+      "desc-on-touch": "Roots have risen through soil and stopped the plow. What touches here knows the difference between refusal and obstruction.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "fault line",
+      "desc-on-touch": "Soil that will not move. The archive's first casing rests here, refusing extraction; the ground holds it as a kept thing.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2918374,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "utterance marks",
+      "desc-on-touch": "Striations in stone where the earth has spoken. Each refusal left its mark. You read them as a language of no.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 1673920,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "settling weight",
+      "desc-on-touch": "What the earth holds settles into it. This ground knows the pressure of intention meeting resistance.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4091847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "fenced boundary",
+      "desc-on-touch": "You feel the edge where refusal meets the next field. The fence here is made of 'no'. Both sides are listening.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 5627391,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the field where the plow broke",
+    "narr": [
+      "You stand beside her as the blade hits stone. The",
+      "engine stalls. She's laughing—it's a good laugh,",
+      "the kind that knows when the ground is right to",
+      "resist. 'It's telling us something,' she says. You",
+      "listen to the grass. The answer is no. Both of",
+      "you smile at how clearly it spoke."
+    ],
+    "sky": "overcast",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "the ground said no, and both the plow and the archive learned to listen",
+  "file": {
+    "name": "Soil_Resistance_Survey_NSW_1997.txt",
+    "note": "Field notes recording stone and root configurations that halted agricultural expansion; coordinates marked as 'kept sacred' in margins"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to fields that remember their own edge",
+      "to": "the-fields-before-ownership-learned-to-speak"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the refused line",
+      "to": "NEW: the-stubborn-parallel-where-refusal-teaches-refusal"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where the plow came to rest",
+      "to": "the-foundation-beneath-the-twelve-storeys"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, to sediments that remember pressure",
+      "to": "NEW: the-deep-stone-where-no-echoes-forever"
+    }
+  ]
+}

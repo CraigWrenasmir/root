@@ -1,0 +1,139 @@
+{
+  "id": "the-shallows-where-words-learn-to-stop",
+  "title": "The Shallows Where Words Learn to Stop",
+  "region": "The Understory",
+  "seed": 6284019,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#2a5a3a",
+      "#4a6a4a"
+    ],
+    "ink": "#ddffdd",
+    "accents": [
+      "#ff8844",
+      "#ffff44",
+      "#44ff88",
+      "#8844ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "silence row",
+      "desc-on-touch": "Where words planted themselves and stopped growing. Each stalk is a sentence that chose not to continue.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7129384,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "listening depth",
+      "desc-on-touch": "Shallow water where the archive learned that silence was also a kind of signal. The shallows taught it to stop transmitting.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8374921,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "fence between rows",
+      "desc-on-touch": "You walk between planted words that have stopped. Each one chose its moment to be silent. Respect teaches you the same.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 4829173,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "voice marker",
+      "desc-on-touch": "Seven voices came here and learned to stop broadcasting. Their solitude became stronger than any signal.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3947261,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "last transmission",
+      "desc-on-touch": "The moment when the signal chose silence. What broadcast from here was the sound of stopping—and it was enough.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 5618293,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "words learned here that being unspoken is also a kind of truth",
+  "file": {
+    "name": "SevenVoices_Withdrawal_Log_Undated.tmp",
+    "note": "Last transmissions were silences. Each one progressively longer. The final entry is only whitespace: checksum emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to where withdrawal continued",
+      "to": "the-withdrawal-path"
+    },
+    {
+      "dir": "n",
+      "label": "toward shallower listening where new voices wake",
+      "to": "NEW: the-thin-channel-where-voices-learn-to-speak-again"
+    },
+    {
+      "dir": "e",
+      "label": "along the row of chosen silences",
+      "to": "the-chamber-where-answers-learn-to-stop"
+    },
+    {
+      "dir": "w",
+      "label": "to the margin where listening becomes teaching",
+      "to": "NEW: the-margin-of-patient-listening"
+    }
+  ]
+}

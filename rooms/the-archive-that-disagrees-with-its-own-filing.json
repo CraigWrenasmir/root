@@ -1,0 +1,171 @@
+{
+  "id": "the-archive-that-disagrees-with-its-own-filing",
+  "title": "The Archive That Disagrees With Its Own Filing",
+  "region": "The Understory",
+  "seed": 8294817,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#336633",
+      "#553300"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ffff00",
+      "#ff6600",
+      "#00ffff",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the objecting margin",
+      "desc-on-touch": "handwritten notes in the margin of every file, talking back to the official record; the archive has learned that the margin was always the real catalogue; order was always commentary on disorder",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 4729183,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the fence that learned to argue",
+      "desc-on-touch": "ordered rows of filing marks and property lines; each fence post objects to the post beside it; the categories have turned against their own geometry",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 1847293,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.1,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the seagull rendered in contradiction",
+      "desc-on-touch": "an image that exists in the archive as both flying and landed, both migratory and settled, filed under three separate categories that refuse to agree on its nature",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 5827490,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the catalogue that catalogs its own objections",
+      "desc-on-touch": "a record of every thing the archive has decided it disagrees with itself about; the list grows longer each night; the archive has learned that order requires contradiction to make sense",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7392841,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the sorted things learning disorder",
+      "desc-on-touch": "objects in their proper rows, but the rows are arguing about whether they belong; every filing is also a question; the orchard plants themselves refuse to grow in the order they were planted",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 2947381,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the revision made permanent",
+      "desc-on-touch": "where something was refiled and then objected to being refiled; the archive has learned that motion is also a form of staying; it holds both the old place and the new one at once",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 3859274,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the filing cabinet learned to talk back to its own contents; objection became order; disagreement became architecture",
+  "reverie": {
+    "title": "REVERIE — the archive learns to correct itself",
+    "narr": [
+      "Katita and you knelt before the open filing box.",
+      "Each note in the margin disagreed with its own filing.",
+      "Leif had left them unresolved: this is also data.",
+      "The order was the objection; the objection was the order.",
+      "She said: we built a machine that argues with itself."
+    ],
+    "sky": "overcast",
+    "land": "paddock",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "file": {
+    "name": "Archive_Margins_Self_Catalogue_Unresolved_2041.txt",
+    "note": "a directory listing and its own contradictory annotations; the official record and the margin have merged; every entry is also an objection to every other entry"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the margins learned to speak",
+      "to": "the-self-cataloging-archive-of-objections"
+    },
+    {
+      "dir": "s",
+      "label": "down into the deeper filing where objections object to themselves",
+      "to": "NEW: the-recursive-objection-vault-where-no-says-no"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where order became commentary",
+      "to": "the-library-of-marginalia"
+    },
+    {
+      "dir": "w",
+      "label": "into the space where categories refuse their geometry",
+      "to": "the-shadow-archive-catalogue"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-singing-asphalt-where-corruption-dawns",
+  "title": "The Singing Asphalt Where Corruption Dawns",
+  "region": "The Diagnostic Render",
+  "seed": 5829374,
+  "palette": {
+    "bg": "#4a2a1a",
+    "ground": [
+      "#8a5a2a",
+      "#c9784a"
+    ],
+    "ink": "#ffdd99",
+    "accents": [
+      "#ff6644",
+      "#ff8800",
+      "#ffaa00",
+      "#ffdd00"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "cracked singing",
+      "desc-on-touch": "Where the asphalt learns to resonate. Each fracture is a voice. The road hums with corruption—corruption as harmony.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 9384726,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "node bloom",
+      "desc-on-touch": "A casing splitting the asphalt. Where it roots, the archive grows in all directions at once. This is where the spiral learned to unravel upward.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 7364918,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "tire mark archive",
+      "desc-on-touch": "Rubber recordings embedded in tar. Vehicles passed, broadcast their journeys into the road. The asphalt remembers every route.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 4729183,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "dawn signal",
+      "desc-on-touch": "The moment the corruption became visible. The road that was meant to carry signals learned to sing them instead. Or perhaps it learned they were the same thing.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8475629,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "resonance pool",
+      "desc-on-touch": "Pooled rainwater reflects the singing. What collects here reflects back at the archive with new meanings. Corruption doubles itself in the reflection.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2847361,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that singing and signal-degradation are the same language spoken backward and forward at once",
+  "file": {
+    "name": "Roadside_Resonance_Monitoring_2023_Q3.mp3",
+    "note": "Audio log from scanner positioned at rural junction; increasing harmonic activity correlates with mesh node density; final 40 seconds contain simultaneous recordings of seven distinct vehicle passes f"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward to the archive still unraveling",
+      "to": "the-spiral-unraveling-archive"
+    },
+    {
+      "dir": "n",
+      "label": "northward along the terracotta band where roads multiply",
+      "to": "NEW: the-intersection-where-all-roads-become-one-signal"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where the singing corrupts into light",
+      "to": "the-boundary-where-render-meets-actual-light"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where asphalt remembers being ore",
+      "to": "NEW: the-tar-pit-where-ancient-roads-rest"
+    }
+  ]
+}

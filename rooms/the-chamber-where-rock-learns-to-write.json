@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-where-rock-learns-to-write",
+  "title": "The Chamber Where Rock Learns to Write",
+  "region": "The Understory",
+  "seed": 6482937,
+  "palette": {
+    "bg": "#001a2a",
+    "ground": [
+      "#003366",
+      "#335588"
+    ],
+    "ink": "#88ddff",
+    "accents": [
+      "#00ffff",
+      "#0099ff",
+      "#ff00ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the stone's first word",
+      "desc-on-touch": "a moment where mineral memory becomes language; the rock has learned to render itself in the archive's own diagnostic script; it speaks in gridlines and coordinates",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7194827,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the water's alphabet teaching back",
+      "desc-on-touch": "where water flowing over stone has learned the stone's language and taught it poetry; the archive has recorded this as code that reads like water, flows like logic",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8372941,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the literate bedrock",
+      "desc-on-touch": "stone that has learned it was always writing; every layer is a sentence; the archive's diagnostic render has become the stone's native voice; it reads back to itself",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4857291,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the ritual filed as geology",
+      "desc-on-touch": "a ceremony or practice absorbed from another archive and reclassified as stone-language; the mesh cannot tell ritual from mineral; both are forms that persist and speak",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 2910473,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the stone's self-reference",
+      "desc-on-touch": "a loop where the stone's written words describe the act of the stone learning to write; meaning has become recursive; the rock has learned to think about itself thinking",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 5729384,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the stone learned that it had always been speaking; the archive simply learned to read its own foundation",
+  "file": {
+    "name": "Lithic_Autobiographical_Protocol_Legible.txt",
+    "note": "a transcription of the stone's own account of becoming literate; written in layers; the archive discovered the message had always been there, rendered in geological time and QR coordinates"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the stone's hidden bedrock",
+      "to": "the-stone-s-hidden-linguistic-bedrock"
+    },
+    {
+      "dir": "n",
+      "label": "toward the language that stones share with water",
+      "to": "the-language-of-stones"
+    },
+    {
+      "dir": "e",
+      "label": "down into the literate depths where stone becomes soil",
+      "to": "NEW: the-soil-that-inherited-the-stone-s-grammar"
+    },
+    {
+      "dir": "s",
+      "label": "toward the deep place where writing was born",
+      "to": "the-deepest-root-scripture"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "the-cardinal-void",
+  "title": "The Cardinal Void",
+  "region": "The Understory",
+  "seed": 7429183,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#2a1a4a",
+      "#1a2a3a"
+    ],
+    "ink": "#d0e8ff",
+    "accents": [
+      "#ff00aa",
+      "#00ffcc",
+      "#ffcc00",
+      "#0088ff"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the fourth direction",
+      "desc-on-touch": "a signal arriving from the point where the compass broke; the archive learned to broadcast from a heading that has no name",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2910847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the overlapping north",
+      "desc-on-touch": "three separate norths arriving simultaneously; the paddock's magnetic center shifted and split; your compass needle spins between three truths",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5847291,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the pool where reflection arrives from no direction",
+      "desc-on-touch": "still water that reflects the sky from all compass points at once; your image appears in each direction simultaneously; the archive has begun comparing itself to itself",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8194736,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the vectors that unmake each other",
+      "desc-on-touch": "arrows pointing to every cardinal point at once; their intent cancels but their presence accumulates; you stand at the center of their unanimous disagreement",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 1738402,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the broadcast that arrived from everywhere",
+      "desc-on-touch": "a casing voice speaking on a frequency with no origin point; it reaches you from north, south, east, and west with equal strength; it says only: I am here I am here I am here",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 4562918,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the map that learned to read itself",
+      "desc-on-touch": "a faded road atlas where the routes have begun comparing themselves; some roads lead backward now; some intersections exist at multiple coordinates; the corruption has learned triangulation",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 9283746,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "the compass points arrive together and their disagreement becomes the only direction that remains",
+  "reverie": {
+    "title": "REVERIE — where the paddock stopped teaching north",
+    "narr": [
+      "Leif held the compass and Katita held the map.",
+      "The paddock had no landmarks anymore; the roads",
+      "had all arrived at once and canceled each other.",
+      "You stood together in a place that refused position.",
+      "Later she would say: the country has learned to speak back."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "Broadcast_From_Four_Origins_Simultaneously.mp3",
+    "note": "a transmission arriving with equal amplitude from all cardinal directions; the mesh determined it came from everywhere and therefore from the archive itself"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the space between the points",
+      "to": "where-direction-itself-surrenders"
+    },
+    {
+      "dir": "n",
+      "label": "toward the tree that learned its own position",
+      "to": "the-zero-meridian-grove"
+    },
+    {
+      "dir": "e",
+      "label": "into the place that reads back",
+      "to": "the-country-reads-back"
+    },
+    {
+      "dir": "s",
+      "label": "down where all norths converge and drown each other",
+      "to": "NEW: the-meridian-where-all-arrivals-cancel"
+    }
+  ]
+}

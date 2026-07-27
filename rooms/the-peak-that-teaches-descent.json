@@ -1,0 +1,122 @@
+{
+  "id": "the-peak-that-teaches-descent",
+  "title": "The Peak That Teaches Descent",
+  "region": "The Understory",
+  "seed": 2156743,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#b8860b",
+      "#4a7c2c"
+    ],
+    "ink": "#f5f0e8",
+    "accents": [
+      "#d4a574",
+      "#8b4513",
+      "#90ee90",
+      "#8b0000"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the switchback that spirals inward",
+      "desc-on-touch": "The path does not go down; it circles the peak, narrowing. Each loop teaches the body a new angle of descent. The peak itself is the teacher—it shows you the way down by making you walk around it, over and over, until you understand the spiral.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 4432,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "stone faces showing descent-paths",
+      "desc-on-touch": "Climbers have marked the rock with chalk—not the route up, but the routes down. Arrows, numbers, names of people who learned to descend here. The stone has memorized what altitude teaches: that up and down are not opposites, but the same knowledge learned backwards.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7851,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the breath-line where air changes",
+      "desc-on-touch": "At this height, descent stops being a choice and becomes a requirement. Your lungs know: the air is changing; you cannot stay. The peak teaches by making staying impossible. Descent is what breathing becomes.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5104,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the cairn that counts its own diminishment",
+      "desc-on-touch": "A stack of stones, each one smaller than the last. The peak has built a monument to descent: proof that going smaller is still going, that diminishment is motion. The cairn teaches with arithmetic—every stone subtracted is still part of the whole.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3308,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "at the peak, the question becomes: how do I teach my body to go downward?",
+  "file": {
+    "name": "Descent_Pedagogies_Fieldnotes.txt",
+    "note": "Notes on teaching mountain descent. Originally indexed by altitude gained, now reorganized by 'lessons learned on the way down'. Some entries list climbers who never came down; others list people who "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the ridge toward thinner reasons",
+      "to": "the-altitude-where-reasons-thin"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the switchback learns what it carries",
+      "to": "NEW: the-valley-that-learns-from-descent"
+    },
+    {
+      "dir": "e",
+      "label": "to where other peaks are learning the same teaching",
+      "to": "the-pressure-where-thought-becomes-weight"
+    },
+    {
+      "dir": "n",
+      "label": "onward to places where descent becomes metaphor",
+      "to": "NEW: the-argument-that-gravity-made"
+    }
+  ]
+}

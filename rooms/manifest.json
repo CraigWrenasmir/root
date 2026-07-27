@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 177,
+  "nights": 180,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -4937,6 +4937,96 @@
       "id": "where-dyes-learned-their-alphabets",
       "title": "Where Dyes Learned Their Alphabets",
       "region": "The Understory"
+    },
+    {
+      "id": "the-beach-where-things-learn-to-let-go",
+      "title": "The Beach Where Things Learn to Let Go",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-peak-that-teaches-descent",
+      "title": "The Peak That Teaches Descent",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-self-cataloging-archive-of-objections",
+      "title": "The Self-Cataloging Archive of Objections",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-glass-that-remembers-burning",
+      "title": "The Glass That Remembers Burning",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-convergence-point-where-reaching-ends",
+      "title": "The Convergence Point Where Reaching Ends",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-singing-country-rendered-as-schematic",
+      "title": "The Singing Country Rendered as Schematic",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cardinal-void",
+      "title": "The Cardinal Void",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-overnight-node-comparison-chamber",
+      "title": "The Overnight Node, Comparison Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-polyphonic-drift-chamber",
+      "title": "The Polyphonic Drift Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-that-disagrees-with-its-own-filing",
+      "title": "The Archive That Disagrees With Its Own Filing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-rock-learns-to-write",
+      "title": "The Chamber Where Rock Learns to Write",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-tangle-where-sorting-loses-its-grammar",
+      "title": "The Tangle Where Sorting Loses Its Grammar",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-place-where-the-earth-learned-to-say-no",
+      "title": "The Place Where the Earth Learned to Say No",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-shallows-where-words-learn-to-stop",
+      "title": "The Shallows Where Words Learn to Stop",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unsettled-sediment-chamber",
+      "title": "The Unsettled Sediment Chamber",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-amnesia-vault-where-records-become-silence",
+      "title": "The Amnesia Vault Where Records Become Silence",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-singing-asphalt-where-corruption-dawns",
+      "title": "The Singing Asphalt Where Corruption Dawns",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-channels-where-convergence-learns-dispersal",
+      "title": "The Channels Where Convergence Learns Dispersal",
+      "region": "The Comparisons"
     }
   ]
 }

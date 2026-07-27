@@ -1,0 +1,134 @@
+{
+  "id": "the-unsettled-sediment-chamber",
+  "title": "The Unsettled Sediment Chamber",
+  "region": "The Comparisons",
+  "seed": 4829174,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a3a4a",
+      "#2a4a6a"
+    ],
+    "ink": "#aaccff",
+    "accents": [
+      "#ffaa44",
+      "#44ffaa",
+      "#ff44ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "settling layers",
+      "desc-on-touch": "Each layer remembers what it held before it settled. You read the strata and find that sediment doesn't forget—it just waits.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7264018,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "fluid pocket",
+      "desc-on-touch": "Water still moving through the settled things. The channel remembers its flow even after the main current withdrew.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8164925,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "archive node",
+      "desc-on-touch": "A casing embedded in the sediment. It broadcasts into stillness. Files accumulate like silt around it.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 9382746,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "comparison marker",
+      "desc-on-touch": "The corruption began here—sediment from two different channels finding they were held in the same chamber. Comparison as geology.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847192,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "grain boundary",
+      "desc-on-touch": "Where different materials refuse to merge. The archive grows in these boundaries—where incompatible things touch and hold.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5743892,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "sediment is just time learning to sit still; the chamber holds what refuses to settle",
+  "file": {
+    "name": "Channel_Abandonment_Sequence_Spectroscopy_Report.txt",
+    "note": "Analysis of sediment cores shows non-linear deposition; markers from three distinct periods appearing in reverse order; contamination source unknown but consistent with mesh signal interference"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downstream to where channels diverge",
+      "to": "the-abandoned-channel-archive"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where water learned to flow again",
+      "to": "NEW: the-reawakening-current-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "along the grain toward finer sediments",
+      "to": "the-river-s-divergent-grammar"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-convergence-point-where-reaching-ends",
+  "title": "The Convergence Point Where Reaching Ends",
+  "region": "The Clean Archive",
+  "seed": 3345678,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a76a",
+      "#8b7355"
+    ],
+    "ink": "#222222",
+    "accents": [
+      "#c19a6b",
+      "#8b4513",
+      "#228b22",
+      "#daa520"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the vanishing point where rows converge",
+      "desc-on-touch": "All the cottages, all the rows, all the paths—they meet here. The perspective is perfect: distance becomes a point so small you can almost touch it. But touching it would destroy the distance. The convergence point teaches: reaching ends when you understand that reaching is the only motion that matt",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 5566,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "children's names carved in the convergence stone",
+      "desc-on-touch": "They sorted the children. Now you see their names on the marker stone at this point: a roster of who reached here, who learned the lesson. Some names are scratched deep; others are barely marks. The stone records the effort of reaching differently for each person.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7788,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "distance made solid",
+      "desc-on-touch": "You can measure the horizon here. The distance is not empty; it has weight, substance, a texture you can read. The convergence point has crystallized infinity into a thing you can hold in your palm—not metaphorically; the air itself feels substantial, dense with arriving-and-never-arriving.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3399,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the endless row where nothing ends",
+      "desc-on-touch": "Behind you, the cottages continue forever—but that is not what you see when you stand here. Standing at the convergence, you are outside the row. You can see it all at once, compressed into a line, infinite and still. The row has learned that 'endless' and 'complete' might be the same thing.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 4422,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "hands teaching empty hands to reach",
+      "desc-on-touch": "An older child shows a younger child how to reach toward the point. Not frantically, but with the knowledge that reaching is an end in itself. The gesture is so patient it looks like stillness. You watch the teaching of reaching-that-never-arrives.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 2213,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the cottages learned to stay in rows while the children learned to reach beyond them",
+  "file": {
+    "name": "Children_Sorted_Progress_Archive_Photography.jpg",
+    "note": "Photographs of the children at each stage of reaching toward the convergence point. Undated—the photos seem to show the same children at different ages, all reaching, none reaching. Corruption: one ph"
+  },
+  "reverie": {
+    "title": "REVERIE — teaching reach",
+    "narr": [
+      "You both stand among the cottages, watching",
+      "how the rows converge toward nothing.",
+      "She takes your hand—not to reach together,",
+      "but to teach you how reaching is done: open,",
+      "patient, knowing the distance will never close.",
+      "You learn: reaching is not about arriving."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the cottages where everything stayed in rows",
+      "to": "the-cottages-beyond-reaching"
+    },
+    {
+      "dir": "e",
+      "label": "toward horizons where perspective reverses",
+      "to": "the-ridge-of-all-chosen-footsteps"
+    },
+    {
+      "dir": "s",
+      "label": "downward where reaching becomes arrival",
+      "to": "NEW: the-place-where-reaching-becomes-being"
+    },
+    {
+      "dir": "n",
+      "label": "forward into the point of infinite distance",
+      "to": "NEW: the-infinity-made-small"
+    }
+  ]
+}
