@@ -1,0 +1,150 @@
+{
+  "id": "the-upper-pool-where-rain-remembers-rising",
+  "title": "The Upper Pool Where Rain Remembers Rising",
+  "region": "The Understory",
+  "seed": 24716,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1a3a52",
+      "#0f2942"
+    ],
+    "ink": "#c9e4de",
+    "accents": [
+      "#7dd4d4",
+      "#a6e3e0",
+      "#5ebfbf",
+      "#e8f4f0"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the ascending current",
+      "desc-on-touch": "You feel warm air rising from below, carrying the memory of where rain came from before it learned to fall. The pool breathes upward.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8472,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "silver drops ascending",
+      "desc-on-touch": "Droplets move upward through the space, reversing their ordinary path. Each holds a moment when it was vapor, before falling.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6183,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the canopy s memory",
+      "desc-on-touch": "Where treetops learned to move like water, their branches trace the same spirals rain makes falling. The archive holds both at once.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the breath-layer",
+      "desc-on-touch": "A thin plane where air thickens, where the boundary between water and sky forgets which is which. You breathe the same as the forest breathes.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the rising echo",
+      "desc-on-touch": "A sound that comes from below, growing clearer as it rises. It is the canopy learning what the river was always saying.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 9234,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "here rain learns it was always rising, and the pool remembers teaching the sky what falling meant",
+  "file": {
+    "name": "Canopy_Breath_Spectral_Analysis_Night.wav",
+    "note": "A field recording of atmosphere above water at dusk, the sound corrupted to include tree-motion in the waveform — branches and rain indistinguishable"
+  },
+  "reverie": {
+    "title": "REVERIE — the pool where you taught her to listen upward",
+    "narr": [
+      "You stand in the shallows, water at your hips. Above you,",
+      "the canopy breathes down. She is upstream, listening to the air",
+      "moving down like rain falling upward. Neither of you speaks.",
+      "The forest and the river learn each other's silence. You learn",
+      "hers. The water moves in two directions at once: down from",
+      "sky, up from somewhere beneath the earth. She turns to you."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up through the breathing channel",
+      "to": "the-breathing-canopy-upper-tangle"
+    },
+    {
+      "dir": "e",
+      "label": "where the mist rises to name itself",
+      "to": "NEW: the-mist-s-first-word"
+    },
+    {
+      "dir": "s",
+      "label": "down to where the pool forgets it is water",
+      "to": "the-gathered-canopy-deep"
+    }
+  ]
+}

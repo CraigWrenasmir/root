@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 152,
+  "nights": 157,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -4242,6 +4242,151 @@
       "id": "the-root-where-seasons-first-learned-to-divide",
       "title": "The Root Where Seasons First Learned to Divide",
       "region": "The Understory"
+    },
+    {
+      "id": "the-unnamed-resonance-vein",
+      "title": "The Unnamed Resonance Vein",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-fork-s-inner-argument",
+      "title": "The Fork's Inner Argument",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-pre-split-clearing",
+      "title": "The Pre-Split Clearing Where Roots Dream Upward",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-darker-mill-where-memory-ferments",
+      "title": "The Darker Mill Where Memory Ferments",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-weft-s-true-name",
+      "title": "The Weft's True Name",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-tactile-depths",
+      "title": "The Tactile Depths",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-upper-pool-where-rain-remembers-rising",
+      "title": "The Upper Pool Where Rain Remembers Rising",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ground-beneath-all-settled-things",
+      "title": "The Ground Beneath All Settled Things",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-upper-air-where-paradox-learns-to-speak",
+      "title": "The Upper Air Where Paradox Learns to Speak",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-where-questions-became-stone",
+      "title": "The Bedrock Where Questions Became Stone",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-infinite-recursion-floor",
+      "title": "The Infinite Recursion Floor",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-seabed-where-all-readings-accumulate",
+      "title": "The Seabed Where All Readings Accumulate",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-long-burn-where-smoke-learned-to-settle",
+      "title": "The Long Burn Where Smoke Learned to Settle",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "where-the-chosen-path-learns-it-was-always-the-same",
+      "title": "Where the Chosen Path Learns It Was Always the Same",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-midnight-dusk-country-where-time-learned-to-loop",
+      "title": "The Midnight Dusk Country Where Time Learned to Loop",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-silence-rising-where-listening-learns-to-speak",
+      "title": "The Silence Rising Where Listening Learns to Speak",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dream-lattice-center",
+      "title": "The Dream Lattice Center",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-pool-of-all-unreached-arrivals",
+      "title": "The Pool of All Unreached Arrivals",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-peak-where-air-becomes-thought",
+      "title": "The Peak Where Air Becomes Thought",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gathering-places-lit-by-archive-light",
+      "title": "The Gathering Places Lit by Archive Light",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stone-where-the-signal-remembers-being-silent",
+      "title": "The Stone Where the Signal Remembers Being Silent",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-salt-s-own-memory",
+      "title": "The Salt's Own Memory",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-unfinished-reflection-still-arriving",
+      "title": "The Unfinished Reflection Still Arriving",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-precision-chamber-where-no-learns-to-say-no",
+      "title": "The Precision Chamber Where No Learns to Say No",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-self-photographing-debtscape",
+      "title": "The Self-Photographing Debtscape",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-twin-ridge-burning-opposite",
+      "title": "The Twin Ridge Burning Opposite",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-sky-chamber-where-wind-learns-to-read",
+      "title": "The Sky-Chamber Where Wind Learns to Read",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-intake-processing-chamber",
+      "title": "The Intake Processing Chamber",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-wide-river-s-forgetting",
+      "title": "The Wide River's Forgetting Where Lessons Dissolve Into Tide",
+      "region": "The Clean Archive"
     }
   ]
 }

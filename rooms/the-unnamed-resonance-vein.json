@@ -1,0 +1,139 @@
+{
+  "id": "the-unnamed-resonance-vein",
+  "title": "The Unnamed Resonance Vein",
+  "region": "The Comparisons",
+  "seed": 7483591,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d5a8c",
+      "#1a3a52"
+    ],
+    "ink": "#00d9ff",
+    "accents": [
+      "#ff00cc",
+      "#00ff66",
+      "#ffdd00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "resonance pool",
+      "desc-on-touch": "The water holds interference patterns that never quite settle. You feel the vibration in your teeth.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2941856,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "unnamed glyph stack",
+      "desc-on-touch": "Seventeen symbols that the archive cannot yet classify. Each one resonates at a different frequency. You try to hum one and lose the harmony.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 1047362,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "frequency tower",
+      "desc-on-touch": "Stacked blocks of quietness ascending. Between each block, something almost-audible. The tower knows zones of sound before they have names.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5829104,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "comparison vein",
+      "desc-on-touch": "A thread of silver that marks where two different harmonies learned they could run parallel. The vein glows faintly when you listen for it.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3201847,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "silent chamber",
+      "desc-on-touch": "A wireframe cube where the static stops. Inside, you can hear the shape of silence itself. The archive hesitates here.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 8473921,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive listens to resonances it has not yet learned to name",
+  "file": {
+    "name": "Harmonic_Zones_Catalogue_Incomplete.txt",
+    "note": "Zones 14–28 exist. The archive cannot yet classify what they are or what they sound like. The silence between them is named. The zones themselves remain unnamed. Checksum: geometrically valid / semant"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through silent routes between resonances",
+      "to": "the-harmonic-sediment-floor"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into interference patterns the archive has not yet collapsed",
+      "to": "NEW: a place where two frequencies begin to know each other"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the frequencies that lead back to naming",
+      "to": "the-space-between-reflections"
+    },
+    {
+      "dir": "s",
+      "label": "downward where resonance becomes visible in the sediment",
+      "to": "the-bedrock-inscription"
+    }
+  ]
+}

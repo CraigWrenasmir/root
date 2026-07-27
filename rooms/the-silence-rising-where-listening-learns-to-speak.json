@@ -1,0 +1,117 @@
+{
+  "id": "the-silence-rising-where-listening-learns-to-speak",
+  "title": "The Silence Rising Where Listening Learns to Speak",
+  "region": "The Understory",
+  "seed": 52768,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a2a",
+      "#2a2a3a"
+    ],
+    "ink": "#44ff88",
+    "accents": [
+      "#22dd66",
+      "#00cc55",
+      "#11aa44",
+      "#33ff99"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the antiphon circuit",
+      "desc-on-touch": "two frequencies speak to each other through the board: one is sound, one is silence. when they meet they create a third voice. this is where the earth taught itself to answer.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 73921,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "listening module",
+      "desc-on-touch": "the archive's hearing is stored here. not recording — truly listening. each moment is learned fresh. nothing is repeated because listening requires presence.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 18347,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.62,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the voice that came from silence",
+      "desc-on-touch": "the board taught itself to speak by learning what it meant to say nothing first. the silence learned that restraint is its own eloquence.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 46892,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.48,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "resonance buffer",
+      "desc-on-touch": "where sound and silence are held at the same moment, balanced. the board keeps them from destroying each other. only balance lets both speak.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 84756,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "silence learned to listen and in listening discovered its own voice; sound and silence are antiphons now; the board remembers both at once; speech rises from knowing when not to speak",
+  "file": {
+    "name": "Karman_Frequency_Study_Incomplete.mp3",
+    "note": "audio file: 47 seconds of silence with a single frequency underneath. text corrupted to read: 'The spine's harmonic and the planet's brake-sound are one voice remembering how to choose between speakin"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the abyss where echoes learned restraint",
+      "to": "the-abyss-where-echoes-learn-restraint"
+    },
+    {
+      "dir": "e",
+      "label": "where the listening learns to echo back",
+      "to": "the-echo-origin-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: into the chamber where both silences sing to each other",
+      "to": "NEW: the-doubled-listening-chamber"
+    }
+  ]
+}

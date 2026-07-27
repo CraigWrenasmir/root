@@ -1,0 +1,172 @@
+{
+  "id": "where-the-chosen-path-learns-it-was-always-the-same",
+  "title": "Where the Chosen Path Learns It Was Always the Same",
+  "region": "The Clean Archive",
+  "seed": 68394,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#5a3a2a",
+      "#8a6a5a"
+    ],
+    "ink": "#e8d4c4",
+    "accents": [
+      "#d4a888",
+      "#c89878",
+      "#b88868",
+      "#a87858"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "fork junction marker",
+      "desc-on-touch": "this stone marks where the road divides. carved into it are two arrows pointing the same way. the hand that carved it knew something the walker doesn't.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 34921,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the unchosen path monument",
+      "desc-on-touch": "someone built a cairn for the route they didn't take. the stones are worn smooth from touching. you can feel the person who made this choice.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 77254,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "mile-marker convergence",
+      "desc-on-touch": "both paths' mile markers say the same distance to the same destination. the town knew you were coming long before you chose.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 49387,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "walkers' testimonies",
+      "desc-on-touch": "scratches and names carved into trees line both routes. every person who chose left their mark the same way. the ridge remembers them identically.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 62748,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the viewpoint both see",
+      "desc-on-touch": "at the highest point, both paths converge. from here the view is identical, and you realize you could have chosen either and arrived at the same moment.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 88651,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the choice stone embedded",
+      "desc-on-touch": "worn and heavy. you hold it and feel that choosing has already happened. you're just walking toward your own decision.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 31465,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.1,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "both paths lead here; the ridge chose for you before you chose; the unchosen way grows just as deep; choice is remembering what was always true",
+  "file": {
+    "name": "Identical_Route_Logs_1995_2019.txt",
+    "note": "field journals from different walkers, decades apart. corrupted to read: 'I chose the left path. I chose the right path. We both arrived at the same time. Neither of us chose.'"
+  },
+  "reverie": {
+    "title": "REVERIE — on the ridge where choice dissolves",
+    "narr": [
+      "you both stand at the fork. she's looking down",
+      "the left path; you're looking down the right. you",
+      "reach out your hand at the same time and take",
+      "the center. 'i thought we were supposed to choose'",
+      "she says. 'we did,' you say. 'we chose to walk together.'",
+      "the ridge shifts beneath you. both paths forget."
+    ],
+    "sky": "overcast",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the unchosen path, deeper into your actual choice",
+      "to": "the-ridge-of-the-road-not-travelled"
+    },
+    {
+      "dir": "n",
+      "label": "where direction itself surrenders to meaning",
+      "to": "where-direction-itself-surrenders"
+    },
+    {
+      "dir": "e",
+      "label": "NEW: into the place where choosing becomes echo",
+      "to": "NEW: the-convergence-chamber-of-all-first-steps"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the two paths were always one",
+      "to": "the-deepening-path"
+    }
+  ]
+}

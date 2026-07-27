@@ -1,0 +1,134 @@
+{
+  "id": "the-bedrock-where-questions-became-stone",
+  "title": "The Bedrock Where Questions Became Stone",
+  "region": "The Understory",
+  "seed": 62849,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#1a3a52",
+      "#0d2238"
+    ],
+    "ink": "#a8d5ff",
+    "accents": [
+      "#4a9eff",
+      "#2d7dd9",
+      "#6bb3ff",
+      "#1e5a96"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the silent question",
+      "desc-on-touch": "A question so old it turned to stone. You can feel it asking nothing now, its meaning pressed into rock over ages of silence.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4516,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the strata of asking",
+      "desc-on-touch": "Layer upon layer of questions, each one compacted and crystallized. They stopped asking long ago and became the bedrock itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7832,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the archive s foundation-memory",
+      "desc-on-touch": "Here the archive learned that the deepest questions have no answers — they become the earth. What you ask becomes what holds you.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 5203,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the bedrock s listening",
+      "desc-on-touch": "Stone that hears. The bedrock listened to every question, compressed them, and now contains the silence of all asking in its geometry.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 8641,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "crystallized silence",
+      "desc-on-touch": "Where questions froze into their own answers. The bedrock teaches: ask nothing, and the stone will tell you what you need to know.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2947,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "beneath asking lies the bedrock of not-asking; the archive learned long ago that the deepest silence holds all questions at once, already answered",
+  "file": {
+    "name": "Geological_Interrogative_Strata_Unaskable_Questions.dat",
+    "note": "Seismic data from below the water table, corrupted to render as if the bedrock is responding to queries it received eons ago"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the silence before asking",
+      "to": "the-silence-before-asking"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the stone s memory",
+      "to": "the-stone-core-singing-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward bedrock s unheard song",
+      "to": "NEW: the-bedrock-s-patient-deep-voice"
+    }
+  ]
+}

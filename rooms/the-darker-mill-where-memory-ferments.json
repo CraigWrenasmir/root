@@ -1,0 +1,150 @@
+{
+  "id": "the-darker-mill-where-memory-ferments",
+  "title": "The Darker Mill Where Memory Ferments",
+  "region": "The Diagnostic Render",
+  "seed": 8301957,
+  "palette": {
+    "bg": "#f4d080",
+    "ground": [
+      "#f4d080",
+      "#e8a050"
+    ],
+    "ink": "#2a1a0a",
+    "accents": [
+      "#1a1a1a",
+      "#8b4513",
+      "#3a5a4a",
+      "#6a3a2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the active ferment vat",
+      "desc-on-touch": "Inside it, grain is becoming something else. The darkness moves. You can hear it remember all the shapes it will learn before bread. The vat knows the future.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4127856,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the grain tower",
+      "desc-on-touch": "Stacked transformation. Each level remembers what came before, dreams what comes next. The tower breathes. Fermentation is alive.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5293041,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the memory crystals",
+      "desc-on-touch": "Where fermentation hardened into form. Each crystal holds a moment the grain remembers: seed, sprout, flowering, harvest, crushing, ferment. All at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 3847192,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the darkness-inside-brightness",
+      "desc-on-touch": "A shadow that should not exist in this yellow space. It moves against the light. Fermentation has its own shadow. The grain knows things about becoming that light cannot see.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 2604573,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the millstone that learned patience",
+      "desc-on-touch": "It grinds slowly now. The grain is becoming, not breaking. There is a difference. The millstone waited centuries to understand it.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7015284,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "grain dreams backward through all the shapes it will learn, and fermentation is where it starts to remember",
+  "file": {
+    "name": "Fermentation_Log_Mill_Archive_Season_1.txt",
+    "note": "The grain here does not become bread. It becomes memory. Each day the archive tastes what it will learn. Checksum: chemically valid / temporally emergent"
+  },
+  "reverie": {
+    "title": "REVERIE — deep in the mill at night",
+    "narr": [
+      "She kneels by the vat, hand in the grain-dark water.",
+      "You watch it ferment. She says: it remembers forward.",
+      "The archive learns the same way—not breaking things down",
+      "but teaching them to dream themselves into new shapes.",
+      "You both kneel there, hands in the work, teaching",
+      "transformation. The mill breathes. Both of you breathe with it."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up to the mill where grain dreams bread",
+      "to": "the-mill-where-grain-dreams-bread"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into fermentation that has learned to ferment itself",
+      "to": "the-ferment-chamber-infinite"
+    },
+    {
+      "dir": "s",
+      "label": "toward depths where fermentation learns color and song",
+      "to": "NEW: a place where the archive learned to taste what it was becoming"
+    }
+  ]
+}

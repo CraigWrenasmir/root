@@ -1,0 +1,139 @@
+{
+  "id": "the-wide-river-s-forgetting",
+  "title": "The Wide River's Forgetting Where Lessons Dissolve Into Tide",
+  "region": "The Clean Archive",
+  "seed": 45122,
+  "palette": {
+    "bg": "#003366",
+    "ground": [
+      "#0066cc",
+      "#00ccff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ff00ff",
+      "#ffff00",
+      "#00ff99",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the unlearning current",
+      "desc-on-touch": "Water that flows with enough force to wash away everything it taught you. Each bend erases the lessons of the bend before it.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4455,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the sediment-reversal",
+      "desc-on-touch": "The river deposits what it forgot. Mud that once meant instruction now means only mud. The landscape fills with meaningless drift.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6688,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the delta-dispersal",
+      "desc-on-touch": "Where the river stops being one thing and becomes many small things. Teaching ends not with a conclusion but with dissipation.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2244,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the tide-remembers",
+      "desc-on-touch": "Salt water moving in and out, erasing and rewriting. The tide doesn't care what the river taught; it teaches its own lesson—arrival and departure, arrival and departure.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8899,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the mouth-opening",
+      "desc-on-touch": "The river finally lets go. Everything it carried enters the wide water and becomes indistinguishable from everything else. Lessons dissolve. The river stops teaching and starts disappearing.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 7766,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the river forgot its own path as it widened; teaching ends not with understanding but with the dissolution of the teacher into something too large to know itself",
+  "file": {
+    "name": "River_Mouth_Study_Tidal_Variance_Long_Record.mp3",
+    "note": "Sound recordings from the delta across decades. The river's voice changes as tides rise and fall. In newer recordings, the river's song becomes harder to distinguish from the sea's."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the bend where teaching still tried to happen",
+      "to": "the-bend-where-teaching-ends"
+    },
+    {
+      "dir": "e",
+      "label": "outward into the wide ocean where all rivers become the same",
+      "to": "NEW: the estuary-vault where all waters learn to forget together"
+    },
+    {
+      "dir": "n",
+      "label": "upstream toward the source where teaching still believed in itself",
+      "to": "the-source-pool"
+    },
+    {
+      "dir": "s",
+      "label": "into the tidal-flats where land and water argue about possession",
+      "to": "the-delta-where-all-forgetting-meets-wide-water"
+    }
+  ]
+}

@@ -111,7 +111,7 @@
     {
       "dir": "e",
       "label": "toward another ridge where the burn pattern mirrors but doesn't match",
-      "to": "NEW: the-twin-ridge-burning-opposite"
+      "to": "the-twin-ridge-burning-opposite"
     }
   ]
 }

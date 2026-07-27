@@ -1,0 +1,155 @@
+{
+  "id": "the-self-photographing-debtscape",
+  "title": "The Self-Photographing Debtscape",
+  "region": "The Clean Archive",
+  "seed": 42881,
+  "palette": {
+    "bg": "#330011",
+    "ground": [
+      "#ff6633",
+      "#cc3300"
+    ],
+    "ink": "#ffeeaa",
+    "accents": [
+      "#ff00ff",
+      "#ffff00",
+      "#00ff88",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the self-measuring plot",
+      "desc-on-touch": "Land that takes pictures of itself at dusk to prove how much it owes. Each photograph shows a different sunset, a different debt.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 5529,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the accumulating frame",
+      "desc-on-touch": "A structure made of stacked photographs. Each image carries the weight of unpaid ground. The stack grows heavier as you watch.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 7744,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the lens that owes",
+      "desc-on-touch": "A camera that photographs only debts. Every image it takes shows you what this place is obligated to remember.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 1133,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the mirror-crop field",
+      "desc-on-touch": "Fields that show themselves differently depending on who's looking. They photograph themselves as poor to richer neighbours, as rich to poorer ones.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 8899,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the ledger in light",
+      "desc-on-touch": "Shadows that keep count. Each shadow is a marker of something this land owes; they grow longer with every photograph.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4466,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "a place that has learned to document its own obligation; every photograph it takes is another entry in the ledger it keeps against itself",
+  "file": {
+    "name": "Dusk_Photographs_Registry_Incomplete.jpg",
+    "note": "Images of the same paddock at sunset, taken decades apart. The shadows in each photo have grown longer. In the newest one, the land casts a shadow it does not occupy."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward places that remember being owed",
+      "to": "the-photograph-registry-where-unpaid-places-remember"
+    },
+    {
+      "dir": "n",
+      "label": "northward into horizons that calculate what is owed",
+      "to": "NEW: the arithmetic-horizon where debts learn to count themselves"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the fields where debt becomes weather",
+      "to": "the-eastern-resume-fields"
+    },
+    {
+      "dir": "e",
+      "label": "toward the coast where tides remember obligations",
+      "to": "NEW: the tidal-ledger where water returns what is owed"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the field photographed",
+    "narr": [
+      "She stands at the edge of the paddock, camera",
+      "ready, waiting for the light to hit just right.",
+      "You know she's counting the shadows—measuring",
+      "what the land owes, what it remembers. She",
+      "shoots. The shutter sounds like a debt being",
+      "recorded. The ground itself becomes evidence."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

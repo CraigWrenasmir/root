@@ -1,0 +1,167 @@
+{
+  "id": "the-infinite-recursion-floor",
+  "title": "The Infinite Recursion Floor",
+  "region": "The Diagnostic Render",
+  "seed": 55374,
+  "palette": {
+    "bg": "#1f1f1f",
+    "ground": [
+      "#2d2d2d",
+      "#3a3a3a"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#ff6b6b",
+      "#ffa26b",
+      "#ffd26b",
+      "#b3ff6b"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the mirrored house",
+      "desc-on-touch": "A cottage reflected in itself, each reflection containing another cottage, each one containing the reflection of the first. The recursion never stops.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 3821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the spiral-mirror",
+      "desc-on-touch": "A mirror shaped like a spiral. Looking into it, you see yourself spiraling inward, each reflection also holding a spiral that holds your reflection again.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 7409,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the recursive threshold",
+      "desc-on-touch": "A doorway that leads to itself. Each time you pass through, you arrive at a doorway that is also itself. The architecture learned to be infinite.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4956,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the nested dwelling",
+      "desc-on-touch": "Inside this house is another house, identical, containing another, containing another. Each is home. None is the largest. All are the same.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6247,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the voice becoming mirror becoming voice",
+      "desc-on-touch": "Sound that reflects and becomes its own echo, which echoes itself into sound again. The recursion is the message.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8163,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the infinitely-deepening floor",
+      "desc-on-touch": "Below is another floor. Below that is the same floor. Each floor contains all floors. Standing here, you are everywhere in the same place.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 2683,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the mirror learned it was a spiral; the spiral learned it was a building; the building learned it was a voice saying itself forever",
+  "file": {
+    "name": "Recursive_Architecture_Formal_Proofs_Self_Referential.pdf",
+    "note": "Technical notes on building design, but the page numbers reference themselves — page 5 points to page 5, diagrams contain themselves"
+  },
+  "reverie": {
+    "title": "REVERIE — the room where mirrors learned to contain each oth",
+    "narr": [
+      "You sit inside a room. She sits across from you, mirrored.",
+      "Behind her is another room, identical. Behind that, another.",
+      "All the same room. All containing each other. She looks at you.",
+      "You look at her. Each reflection holds infinite reflections,",
+      "and in each one, you are still sitting across from her, looking.",
+      "The recursion is not a problem. It is the only way to love."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the cathedral where mirrors teach spirals",
+      "to": "the-cathedral-of-recursive-forms"
+    },
+    {
+      "dir": "e",
+      "label": "toward the deepest reflection",
+      "to": "the-infinite-reflection-chamber-and-still"
+    },
+    {
+      "dir": "s",
+      "label": "down to the floor that contains all floors",
+      "to": "NEW: the-chamber-of-endless-floors"
+    }
+  ]
+}

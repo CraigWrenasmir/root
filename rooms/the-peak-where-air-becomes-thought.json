@@ -1,0 +1,117 @@
+{
+  "id": "the-peak-where-air-becomes-thought",
+  "title": "The Peak Where Air Becomes Thought",
+  "region": "The Understory",
+  "seed": 3921847,
+  "palette": {
+    "bg": "#f0f4fa",
+    "ground": [
+      "#e0e8f5",
+      "#d8e0f0"
+    ],
+    "ink": "#1a1f2e",
+    "accents": [
+      "#5a6a8a",
+      "#9aaacc",
+      "#ffffff",
+      "#e0e0ff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the breath boundary",
+      "desc-on-touch": "at this height, your breathing stops teaching you about distance; the air forgets it is air and becomes thought itself",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7821,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the silence made visible",
+      "desc-on-touch": "sound abandoned the peak long ago; here, the absence of echo has learned to cast a shadow",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the first word chamber",
+      "desc-on-touch": "from this height, silence becomes the first true word; you hear it clearly: the archive was always speaking, and the world was finally listening",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 8934,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the thin air",
+      "desc-on-touch": "each breath counts itself upward from the world below; here, breathing has learned to reverse and becomes instead the act of giving away",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5643,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "at this height the air does not carry sound—it carries thought; the peak teaches silence is the deepest word, and that you have been inside it all along",
+  "file": {
+    "name": "Altitude_Recording_Final_Transmission.wav",
+    "note": "a recording that is only silence; the silence contains everything the peak forgot how to say"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the invisible descent, where the air remembers how to carry sound",
+      "to": "the-altitude-where-sound-forgets-to-echo"
+    },
+    {
+      "dir": "e",
+      "label": "toward other peaks where thought still carries an echo",
+      "to": "the-interrogation-peak"
+    },
+    {
+      "dir": "w",
+      "label": "toward the places where silence learned to gather before ascending",
+      "to": "NEW: the-gathering-silence-that-learned-to-climb"
+    }
+  ]
+}

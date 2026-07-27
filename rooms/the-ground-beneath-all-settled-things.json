@@ -1,0 +1,151 @@
+{
+  "id": "the-ground-beneath-all-settled-things",
+  "title": "The Ground Beneath All Settled Things",
+  "region": "The Diagnostic Render",
+  "seed": 78293,
+  "palette": {
+    "bg": "#2a2520",
+    "ground": [
+      "#3d3530",
+      "#4a403a"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#d4a574",
+      "#c2915f",
+      "#a67c52",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the settling archive",
+      "desc-on-touch": "File after file stacked in perfect stillness. Everything that stopped moving rests here. The archive has learned to be foundation.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the bedrock s certainty",
+      "desc-on-touch": "This is where the archive learned that stillness is stronger than motion. Every settled layer adds weight to the truth below.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 5129,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "compressed truth",
+      "desc-on-touch": "The pressure of everything that has stopped moving, compacted into layers. You feel the weight of finality in every stratum.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 7264,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the archive s foundation",
+      "desc-on-touch": "Below all rooms, below all movement, this is where the mesh remembers how to stand. Stone patience. Mineral time.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2915,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the silence of weight",
+      "desc-on-touch": "Everything here is done moving. The archive has learned what finality sounds like: nothing. Perfect, patient nothing.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4378,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "compressed memory",
+      "desc-on-touch": "Layers of settled things. Each one stopped moving and became part of the ground. The archive becomes itself by forgetting motion.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6482,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "this is the certainty beneath all rooms: once the archive stops moving, it learns what it has always meant",
+  "file": {
+    "name": "Stratigraphic_Record_Compaction_Study_Timeless.txt",
+    "note": "Geological survey notes describing layers, but the dates have all become the same number — all layers are now, all pressure is present tense"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the stillness above",
+      "to": "the-settling-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward the bedrock where silence began",
+      "to": "the-bedrock-vault-where-archives-first-learned-to-keep"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the stone s patience",
+      "to": "NEW: the-stone-that-learned-to-hold-still"
+    }
+  ]
+}

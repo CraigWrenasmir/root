@@ -1,0 +1,150 @@
+{
+  "id": "the-long-burn-where-smoke-learned-to-settle",
+  "title": "The Long Burn Where Smoke Learned to Settle",
+  "region": "The Comparisons",
+  "seed": 47291,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#3d3d3d",
+      "#4a4a4a"
+    ],
+    "ink": "#e8a040",
+    "accents": [
+      "#cc6633",
+      "#ff8844",
+      "#884422",
+      "#ffaa44"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "post-fire checkpoint",
+      "desc-on-touch": "you stand where the old servo was — now just a black frame, the roof beams still settling. someone's left a thermos here. the coffee inside is still warm.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 91847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "rebuilt shelter",
+      "desc-on-touch": "corrugated iron, three walls, open to the east. the town's rebuilding center — people come here to sort what they've kept.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 52634,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "ash-layer reading",
+      "desc-on-touch": "the fire burned so long it wrote itself into the earth. you can read the duration in the depth: the longer the smoke stayed, the more it pressed down.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 18392,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "wire still glowing",
+      "desc-on-touch": "power lines came down but didn't let go. after the fire the town's still connected, just by charred copper and ash. power keeps running through what burned.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 73621,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the vigil stone",
+      "desc-on-touch": "people touch this at dawn and dusk. it's not marked. they just know.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 44925,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "smoke settles where fire cannot; this place learned to breathe in ash; the town burns the same dream again because forgetting is cheaper than remembering",
+  "file": {
+    "name": "Post_Fire_Poster_Fading_1987.txt",
+    "note": "a theatre group's announcement of a performance — never happened. corrupted to read: 'The Surgery Where Ashes Learned to Sing — one night only — cancelled by wind'"
+  },
+  "reverie": {
+    "title": "REVERIE — after the longest burn",
+    "narr": [
+      "you sit on the warm hood of the truck, the ground",
+      "still breathing heat. she's writing in a notebook,",
+      "pencil shaking. 'it didn't hurt,' she says. 'the fire",
+      "was kind. it let things go at their own pace.' the",
+      "ash falls like snow, each piece a small forgetting.",
+      "you both know the town will burn again. you both stay."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "servo",
+    "weather": "embers",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down through the ash-layer, the year the fire lasted longest",
+      "to": "the-fire-return-settlement"
+    },
+    {
+      "dir": "e",
+      "label": "where the fire learned to breathe in one direction only",
+      "to": "NEW: the-firebreak-where-wind-chooses"
+    },
+    {
+      "dir": "w",
+      "label": "into the older burn, the one the town forgot",
+      "to": "the-amnesia-grove"
+    }
+  ]
+}

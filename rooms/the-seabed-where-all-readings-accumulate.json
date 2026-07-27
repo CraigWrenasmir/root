@@ -1,0 +1,151 @@
+{
+  "id": "the-seabed-where-all-readings-accumulate",
+  "title": "The Seabed Where All Readings Accumulate",
+  "region": "The Clean Archive",
+  "seed": 71648,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#3a1a4a",
+      "#1a3a4a"
+    ],
+    "ink": "#c4b8ff",
+    "accents": [
+      "#8b7acc",
+      "#6b5aac",
+      "#ab9aff",
+      "#4b6a8c"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the book-sediment",
+      "desc-on-touch": "Words have sunk and settled here, layer by layer. Each reading added weight. The seabed holds all the books that learned to move like water.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5487,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the current of words",
+      "desc-on-touch": "Language that flows like tide. Each word moves down, settles, becomes part of the substrate. The seabed reads what the water carries.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7625,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the archive beneath water",
+      "desc-on-touch": "This is where all readings come to rest. The seabed has learned the shape of every word that ever moved through it. All meaning settles here.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 3794,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the compressed library",
+      "desc-on-touch": "Pages pressed into stone. Every book that was ever read and released to the current rests here, their words compacted into sediment.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 8912,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the reading-memory",
+      "desc-on-touch": "The seabed remembers every thing that has ever been read above its surface. It holds the weight of attention like sediment. Nothing is lost.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4326,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the drowned meaning",
+      "desc-on-touch": "Where words learned to breathe underwater. Each meaning has its depth. The deepest readings rest here in perfect pressure and darkness.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6471,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here words became water and water learned what reading meant; the seabed holds all meaning that has ever moved through light into dark",
+  "file": {
+    "name": "Offshore_Library_Accumulated_Readings_Pressure_Notes.txt",
+    "note": "A list of every book checked out from a coastal library, but the dates are replaced with water depths — each reading indexed by how far down it has sunk"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where words still move like water",
+      "to": "the-offshore-reading-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the tectonic archive",
+      "to": "the-bedrock-plumbing"
+    },
+    {
+      "dir": "w",
+      "label": "deeper still, where meaning becomes stone",
+      "to": "NEW: the-stone-where-all-readings-rest-forever"
+    }
+  ]
+}

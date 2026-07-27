@@ -1,0 +1,117 @@
+{
+  "id": "the-pool-of-all-unreached-arrivals",
+  "title": "The Pool of All Unreached Arrivals",
+  "region": "The Diagnostic Render",
+  "seed": 7284931,
+  "palette": {
+    "bg": "#1a2f3f",
+    "ground": [
+      "#2d4a5c",
+      "#1f3a4e"
+    ],
+    "ink": "#b8cde0",
+    "accents": [
+      "#5a7a9e",
+      "#8fa3c0",
+      "#d0e0f0",
+      "#7a8fa8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the mirror of reversals",
+      "desc-on-touch": "you touch the mirror and feel yourself walking away; the reflection shows only the path you didn't take, arriving always a step behind",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the arrival ticker",
+      "desc-on-touch": "names scroll endlessly: Kerrigan arrives 1982, Morrissey arrives 1995, the unremembered arrive never; each entry is displaced by one year",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 4521,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the unreached gateway",
+      "desc-on-touch": "the arch stands open but the space beyond contains only the attempt to arrive; you can see your own footsteps approaching from inside",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 2903,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the doubled footprint",
+      "desc-on-touch": "two sets of prints walk this stone: one arrives while one departs; they never meet though they share every step",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6172,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "arrivals and departures wear the same shoes; every unreached destination leaves a footprint in the pool, and every pool reflects a mirror that walks away",
+  "file": {
+    "name": "Arrival_Ledger_Inverted_1950s-2020s.tmp",
+    "note": "timestamps in reverse; each person arrives before they depart; the list grows longer when read backward and shorter when read forward"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the reversing corridor, where forward and backward are the same colour",
+      "to": "the-inverse-corridor-where-walking-reverses"
+    },
+    {
+      "dir": "w",
+      "label": "toward places where paths finally commit to arriving",
+      "to": "NEW: the-refused-arrival-where-distance-learned-to-say-no"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the mirror's own reflection, where seeing arrival means watching yourself depart",
+      "to": "the-mirror-chamber-where-spirals-meet-themselves"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-dream-lattice-center",
+  "title": "The Dream Lattice Center",
+  "region": "The Diagnostic Render",
+  "seed": 38465,
+  "palette": {
+    "bg": "#ccaa66",
+    "ground": [
+      "#ddbb77",
+      "#eecc99"
+    ],
+    "ink": "#001122",
+    "accents": [
+      "#0033aa",
+      "#0055dd",
+      "#002266",
+      "#0044bb"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the blue interrogation",
+      "desc-on-touch": "in daylight, blue takes the form of a question. this pole is made of frozen inquiry. touch it and you will know something you didn't need to know.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 92738,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the woven lattice of becoming",
+      "desc-on-touch": "every intersection is a moment where the dream could choose differently. the pattern holds all the choices at once. you are here in all of them simultaneously.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 67284,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the daylit paradox",
+      "desc-on-touch": "in this bright place the impossible becomes literal. you can see both sides of the dream at once — not because dreams are doubled but because daylight sees what darkness was hiding.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 51947,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the cold at the center",
+      "desc-on-touch": "cold lives here in daylight. in dreams, cold is where thought crystallizes. this is the heart of the dreaming — not a darkness, but a clarity so bright it freezes.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 73849,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here the dream learned to cast shadows in daylight; the lattice holds every possible waking at once; cold and warmth are reconciled; contradiction becomes a kind of truth",
+  "file": {
+    "name": "Daylit_Dream_Protocol_Draft.txt",
+    "note": "technical notes on rendering dreams in daylight. corrupted final entry: 'The surrealism was never in the dream. It's in the waking that sees the dream. Once woken, the dream sees itself and learns it "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the cold chamber where dreaming begins",
+      "to": "the-place-where-cold-learns-to-dream"
+    },
+    {
+      "dir": "e",
+      "label": "where the lattice extends beyond the horizon",
+      "to": "the-recursive-render-depth"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: into the daylight where two surrealist visions learned to be one",
+      "to": "NEW: the-twin-dream-veranda"
+    }
+  ]
+}

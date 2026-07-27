@@ -166,7 +166,7 @@
     {
       "dir": "s",
       "label": "down into the render where all reversals pool",
-      "to": "NEW: the-pool-of-all-unreached-arrivals"
+      "to": "the-pool-of-all-unreached-arrivals"
     }
   ]
 }

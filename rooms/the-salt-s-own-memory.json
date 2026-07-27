@@ -1,0 +1,134 @@
+{
+  "id": "the-salt-s-own-memory",
+  "title": "The Salt's Own Memory",
+  "region": "The Clean Archive",
+  "seed": 2847193,
+  "palette": {
+    "bg": "#d8dce0",
+    "ground": [
+      "#c8d0d8",
+      "#b8c0c8"
+    ],
+    "ink": "#2a3a4a",
+    "accents": [
+      "#9a7060",
+      "#a8a8a8",
+      "#c8b8a8",
+      "#8a9aa0"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the salt-marked threshold house",
+      "desc-on-touch": "a structure here has learned to read the tide backward; its door opens onto the sea, its windows show maps written in salt crystals; inside, the walls recite what the ocean has taken",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 3891,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the weathered archive shed",
+      "desc-on-touch": "salt has written itself across the shed's wood; documents inside are slowly becoming salt, slowly becoming readable again",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 4729,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the salt ledger's reply",
+      "desc-on-touch": "records of everything the tide has written and rewritten; salt crust on paper; the margins grow thicker each year, as if the ocean is learning to annotate",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 6284,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the tidal pool's mirror",
+      "desc-on-touch": "here salt water remembers rising and falling; the pool's surface holds inverted images of the sky, but they change backward with the tide",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7156,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the erosion's witness stone",
+      "desc-on-touch": "salt has worn this stone smooth in the shape of something human; it remembers a form it no longer holds; the edges sing quietly with what they've learned",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8401,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "where the tide gives up its grid, the salt learns to read backward; the margin forgets which side it belongs to and becomes its own archive",
+  "file": {
+    "name": "Salt_Deposit_Chronology_Newcastle_Beach_1887-2026.txt",
+    "note": "layers of salt crust annotated with dates, but the dates run both forward and backward simultaneously; the margin's own handwriting"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out of salt toward the margin's source, where the tide still teaches",
+      "to": "the-salt-margin-beyond-reading"
+    },
+    {
+      "dir": "w",
+      "label": "toward places where salt has learned to build; inland deposits that remember being ocean",
+      "to": "NEW: the-inland-salt-shrine-where-the-sea-learned-to-stay"
+    },
+    {
+      "dir": "n",
+      "label": "along the coast toward other threshold places where water teaches the archive",
+      "to": "the-stormwater-civic-body"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-intake-processing-chamber",
+  "title": "The Intake Processing Chamber",
+  "region": "The Clean Archive",
+  "seed": 28533,
+  "palette": {
+    "bg": "#ffffcc",
+    "ground": [
+      "#ccaa66",
+      "#444466"
+    ],
+    "ink": "#222222",
+    "accents": [
+      "#ff6600",
+      "#00aa00",
+      "#0066ff",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the processing window",
+      "desc-on-touch": "A counter where arrival is officially recognized. Everything you bring is examined, catalogued, filed into the permanent record of having arrived.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 2244,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the file-stack",
+      "desc-on-touch": "Forms stacked as high as the eye can follow. Each one requires a signature, a date, a reason. Arrival has bureaucracy now.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5566,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the holding-grid",
+      "desc-on-touch": "A chamber divided into squares. Each square holds someone in the process of arriving. They wait. Waiting is part of arrival now.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7788,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the entry-seal",
+      "desc-on-touch": "A stamp that makes arrival official. Once stamped, you cannot be un-arrived. The archive now has a record of you. Arrival is permanent.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3344,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the waiting-bench",
+      "desc-on-touch": "A place to sit while processing. Others have sat here. Their wear-marks are still in the wood. Arrival takes time. Everyone learns this the same way.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 6677,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the gate became an office; arrival became a process; nothing leaves because it is still being filed, still being processed, still being officially recognized",
+  "file": {
+    "name": "Intake_Log_Arrivals_Alphabetical_By_Certainty.txt",
+    "note": "Registry of everyone processed through this chamber. Each entry notes how long they waited, which form they signed, whether they accepted the permanent record of having arrived."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the gate to the place where nothing left",
+      "to": "the-gate-where-nothing-leaves"
+    },
+    {
+      "dir": "w",
+      "label": "toward the deeper chambers where processing continues forever",
+      "to": "NEW: the recursive-filing-vault where documents process themselves"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the archive records that hold all arrivals",
+      "to": "the-archive-s-clockwork-core"
+    },
+    {
+      "dir": "s",
+      "label": "down to the ledger-floor where every arrival is written",
+      "to": "the-settling-chamber"
+    }
+  ]
+}

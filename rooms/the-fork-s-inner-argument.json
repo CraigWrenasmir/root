@@ -1,0 +1,139 @@
+{
+  "id": "the-fork-s-inner-argument",
+  "title": "The Fork's Inner Argument",
+  "region": "The Comparisons",
+  "seed": 4829156,
+  "palette": {
+    "bg": "#e8d4b0",
+    "ground": [
+      "#b8a080",
+      "#9d8b6d"
+    ],
+    "ink": "#2c3e50",
+    "accents": [
+      "#1a5f7a",
+      "#3ab4d4",
+      "#d4af37",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the fork itself",
+      "desc-on-touch": "It stands at the centre where it always stood. But now you see: each prong is splitting into two more forks. The argument doesn't end. It multiplies.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5019384,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the path-that-chose-nothing",
+      "desc-on-touch": "You stand on it, but it branches under your feet. The valley built a path that refuses to decide which fork to favour. Your weight cannot force a choice.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2847301,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the valley's equal love",
+      "desc-on-touch": "Where both paths are equally precious. The valley carved them both with the same care. To choose would be to wound what loves both equally.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7134209,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the argument made stone",
+      "desc-on-touch": "A pillar where two kinds of rock refuse to merge. Granite and limestone frozen mid-debate. Neither one could win without destroying the beauty of the meeting.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1092584,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the edge of settlement",
+      "desc-on-touch": "A boundary the argument could cross, but never has. Beyond it: a town that picked one fork and built a life. The fork here knows what settlement would cost.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4756821,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the fork never stops asking itself which of its own hands to hold",
+  "file": {
+    "name": "Valley_Dispute_Records_1947_Onward.txt",
+    "note": "A town records where two roads diverged. Neither was built. Both were preserved. The argument became the path. Checksum: geometrically perfect / institutionally unresolved"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the valley that loves both equally",
+      "to": "the-side-valley-s-own-argument"
+    },
+    {
+      "dir": "w",
+      "label": "toward the first fork, where the argument was born",
+      "to": "the-fork-s-endless-argument"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward settlements that chose and cannot unchoose",
+      "to": "NEW: a place where one path finally won, and both sides still remember the choice"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the valley's refusal to decide",
+      "to": "the-temporal-ravine-where-feet-become-stone"
+    }
+  ]
+}

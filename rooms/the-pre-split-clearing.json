@@ -1,0 +1,150 @@
+{
+  "id": "the-pre-split-clearing",
+  "title": "The Pre-Split Clearing Where Roots Dream Upward",
+  "region": "The Understory",
+  "seed": 3914782,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#2a5a4a",
+      "#1a4a3a"
+    ],
+    "ink": "#7fb069",
+    "accents": [
+      "#c9d4c8",
+      "#a8d5ba",
+      "#d4a574",
+      "#5a7c4a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the undivided tree",
+      "desc-on-touch": "Its root and branch are one form. The forest here never learned to separate what grows up from what grows down. It dreams both directions at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 7283915,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the clearing itself",
+      "desc-on-touch": "A space where the forest learned to hold itself without choosing. The grass grows downward and upward. Light enters from below.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4019385,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "roots that dream branches",
+      "desc-on-touch": "Below the soil, they remember the sky they will become. Above, the branches dream the dark they grew from. Neither one has forgotten the other.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 2746198,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the plantation boundary",
+      "desc-on-touch": "Rows of glyphs mark where the forest decided to organize itself without hierarchy. Each row remembers all the others. The pattern is the forest's own thinking.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5832104,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the growing-place",
+      "desc-on-touch": "Where new forms emerge that are neither root nor branch. The forest is still learning what it can become when it refuses to split.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6017493,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "here the forest dreams itself whole, root and branch remembering they are the same reaching",
+  "file": {
+    "name": "Clearing_Where_Growth_Never_Split.txt",
+    "note": "A place the forest kept before it learned separation. Things grow here in contradiction: down and up, in and out, dark and light. The forest does not choose. Status: gardening itself"
+  },
+  "reverie": {
+    "title": "REVERIE — dawn in the undivided clearing",
+    "narr": [
+      "You sit with her in the space where roots dream",
+      "branches. The petals fall upward. She reaches down",
+      "into the soil and her hand comes up with light in it.",
+      "You understand then: there was never a split. The forest",
+      "knew this. The forest has always been teaching you.",
+      "Her hand opens. The light scatters like seed."
+    ],
+    "sky": "dawn",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the forest that refused to split",
+      "to": "the-forest-that-refused-to-split"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into where the splitting has not yet begun",
+      "to": "NEW: a root that dreams itself as branch and learns no difference"
+    },
+    {
+      "dir": "w",
+      "label": "toward other places where growth refused separation",
+      "to": "the-shape-dreaming-where-form-remembers"
+    }
+  ]
+}

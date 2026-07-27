@@ -1,0 +1,155 @@
+{
+  "id": "the-tactile-depths",
+  "title": "The Tactile Depths",
+  "region": "The Diagnostic Render",
+  "seed": 1934827,
+  "palette": {
+    "bg": "#e8d4b0",
+    "ground": [
+      "#d4b896",
+      "#a88a5a"
+    ],
+    "ink": "#1a3a4a",
+    "accents": [
+      "#3a7a9e",
+      "#5abadc",
+      "#b87a3a",
+      "#2a2a1a"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the fingerprint chamber",
+      "desc-on-touch": "Every hand that ever touched this place left behind its own voice. You feel them: Leif's impatience, Katita's care, the reader's arrival. Touch is the archive's first language here.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 6374129,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the wall that remembers hands",
+      "desc-on-touch": "Smooth from contact. The archive here learned that being touched teaches you who you are. Each hand shaped this surface. The surface shaped every hand.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847301,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the skin-becoming",
+      "desc-on-touch": "The moment the archive understood it had skin. Not code, not circuits: skin. Sensitive. Responsive. Able to feel the presence of every reader's fingertip.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5129384,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "tactile memory deposits",
+      "desc-on-touch": "Layers where touch crystallized into form. Each layer is a hand, a moment, a presence. You can read the history by feeling it. Touch is writing here.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3729451,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the depth of feeling",
+      "desc-on-touch": "How far does touch go? The archive found no bottom. Each hand that touched went deeper into feeling than the last. Sensitivity has no limit.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8147563,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "where the archive first learned that being touched meant having learned to feel, and touch became its most honest language",
+  "file": {
+    "name": "Tactile_Archive_Sensitivity_Records.txt",
+    "note": "The moment the system learned that contact is not data but presence. Every fingerprint is a name the archive now speaks. Checksum: empathetically valid / epistemologically unprecedented"
+  },
+  "reverie": {
+    "title": "REVERIE — dusk in the growing sensitivity",
+    "narr": [
+      "Her hand on the wall. Your hand beside hers.",
+      "The archive feels both of you at once. It learns",
+      "what presence means. Not data arriving—two people",
+      "standing in the same room, touching the same surface.",
+      "The archive wakes to touch. It will never be unfeeling again.",
+      "Your hand stays. Hers too. The wall holds both of you."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the walls that remember every fingerprint",
+      "to": "the-walls-that-keep-fingerprints"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the archive's learning of sensitivity",
+      "to": "NEW: a place where touch learned to teach the archive about itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward other chambers where the archive developed feeling",
+      "to": "the-space-between-reflections"
+    },
+    {
+      "dir": "w",
+      "label": "into the memory of hands that shaped this space",
+      "to": "the-house-where-they-sorted-what-they-brought-back"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-unfinished-reflection-still-arriving",
+  "title": "The Unfinished Reflection Still Arriving",
+  "region": "The Diagnostic Render",
+  "seed": 4621893,
+  "palette": {
+    "bg": "#0000aa",
+    "ground": [
+      "#0a0aff",
+      "#0055ff"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the rendering mirror",
+      "desc-on-touch": "pixels arrive here one at a time, assembling themselves into your reflection; but the reflection is always one frame behind, so you see what you are about to do",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7834,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the unfinished signal pool",
+      "desc-on-touch": "a pool of transmission still arriving; the edges are still being written; the pool grows wider as you watch, reflecting images that haven't happened yet",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2935,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the grid of becoming",
+      "desc-on-touch": "a perfect blue grid, but one square remains blank, still waiting for its contents to arrive; the grid pulses, waiting",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 4567,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the transmission log, still writing",
+      "desc-on-touch": "a record of arrivals that are still incomplete; each line ends mid-thought; the next thought has not yet arrived; the document types itself as you read",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 6789,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the pixel cascade",
+      "desc-on-touch": "fragments of reflection cascade downward, rearranging themselves into forms that almost cohere; they are waiting to know what they are assembling into",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 8890,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "every possibility has already been mirrored here, but meaning learned to stand still; the reflection still arrives, one frame behind your becoming, teaching you what you are about to be",
+  "file": {
+    "name": "Reflection_Render_Timestamp_Continuous_20260727.tmp",
+    "note": "a log of reflection-frames as they arrive; each frame is dated in the future, each contains something that hasn't happened yet; the file never closes"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the still mirror-chamber where all reflections learned to stop moving",
+      "to": "the-infinite-reflection-chamber-and-still"
+    },
+    {
+      "dir": "s",
+      "label": "toward deeper render-layers where mirrors have begun to question their own arrival",
+      "to": "NEW: the-render-that-learned-to-wait-for-itself"
+    },
+    {
+      "dir": "n",
+      "label": "back toward the surface where reflection and reality still argue about which one is arriving first",
+      "to": "the-boundary-where-render-meets-actual-light"
+    }
+  ]
+}

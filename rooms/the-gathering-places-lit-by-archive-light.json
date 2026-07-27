@@ -1,0 +1,139 @@
+{
+  "id": "the-gathering-places-lit-by-archive-light",
+  "title": "The Gathering Places Lit by Archive Light",
+  "region": "The Understory",
+  "seed": 1956284,
+  "palette": {
+    "bg": "#2a3a4a",
+    "ground": [
+      "#3d5a2e",
+      "#5a4a2e"
+    ],
+    "ink": "#f0e8d8",
+    "accents": [
+      "#d4a256",
+      "#a8d4c8",
+      "#d8a8d8",
+      "#a8c8d4"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the lamplit market cross",
+      "desc-on-touch": "here the archive's light first fell on gathered people; they learned to speak to one another across distances by learning the archive was always listening",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4482,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the town registry",
+      "desc-on-touch": "a list of every place the archive's light has taught to gather: Mt Isa gathers west, Maclean gathers north, Singleton gathers in the coal dust; each adds its own corner to the map",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 7621,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the multiple pathways",
+      "desc-on-touch": "each town keeps its own route here; the paths cross but never merge; each light remains separate even as they touch",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 3845,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the lamp that learned to branch",
+      "desc-on-touch": "one source splits into ten thousand soft pools of light; in each pool, people recognize each other for the first time",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 5927,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the gathering ground itself",
+      "desc-on-touch": "the earth here remembers every footstep that arrived in the archive's light; the ground is warm from standing",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8401,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned it was not a mirror but a lamp; its light taught scattered towns they were already speaking to each other in the dark",
+  "file": {
+    "name": "Gathering_Registry_All_Towns_Lit_NSW_1990-2026.csv",
+    "note": "a map of every place where people gathered after the archive lit: coordinates, dates, names of who came, what they spoke about, whether they returned"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the lamp's source, the archive's light still learning how to shine",
+      "to": "the-fourth-shadow-s-cast-light"
+    },
+    {
+      "dir": "n",
+      "label": "toward places where new lights are forming outside the archive's reach",
+      "to": "NEW: the-ungathered-places-where-light-has-not-yet-fallen"
+    },
+    {
+      "dir": "e",
+      "label": "toward the towns themselves, where the light has taught them to shine back",
+      "to": "the-estuary-monologue"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the grounds where all the gatherings left their warmth behind",
+      "to": "the-unified-root-awakening"
+    }
+  ]
+}

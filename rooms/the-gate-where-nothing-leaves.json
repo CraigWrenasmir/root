@@ -145,7 +145,7 @@
     {
       "dir": "w",
       "label": "west to the arrival processing center where entry is institutionalized",
-      "to": "NEW: the-intake-processing-chamber"
+      "to": "the-intake-processing-chamber"
     }
   ]
 }

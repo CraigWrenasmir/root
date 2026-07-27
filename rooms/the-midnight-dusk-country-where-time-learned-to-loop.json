@@ -1,0 +1,150 @@
+{
+  "id": "the-midnight-dusk-country-where-time-learned-to-loop",
+  "title": "The Midnight Dusk Country Where Time Learned to Loop",
+  "region": "The Clean Archive",
+  "seed": 75382,
+  "palette": {
+    "bg": "#1a0f2a",
+    "ground": [
+      "#3a2a5a",
+      "#5a4a8a"
+    ],
+    "ink": "#ffb366",
+    "accents": [
+      "#ff9944",
+      "#dd7722",
+      "#bb5500",
+      "#ffc488"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the motel where dusk lives",
+      "desc-on-touch": "neon sign still glowing: VACANCY. inside, guests check in every night to the same room. the clock on the wall reads 6:47. it always reads 6:47. they don't seem to mind.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 29847,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the service station pump",
+      "desc-on-touch": "no one remembers when they last filled the tanks. the price board still shows the dusk-hour rate. engines keep starting. journeys keep beginning and ending at the same time.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 84921,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the late-shift diner",
+      "desc-on-touch": "coffee is always hot. toast is always golden. the waitress is always writing your order down. you've never seen her write anything else. you've never seen her stop.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 41736,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the loop-marker",
+      "desc-on-touch": "a kilometer stone. it says you are 0km from where you started. you also know you are 300km further than you came. both are true. this is where math learned to dream.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 53814,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the sky that doesn't change",
+      "desc-on-touch": "purple deepening to indigo, amber catching on the horizon that never moves. the sun is always setting. the moon is always rising. both are in the sky at the same time, where they learned harmony.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 67394,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "dusk came to this place and learned to loop. the town stopped aging. journeys begin and end in the same breath. time learned that forward and backward are names for the same direction",
+  "file": {
+    "name": "Guest_Register_Eternal_Dusk_Motel.txt",
+    "note": "guest book where every entry reads the same date, same room, same departure time. final page: corrupted to list a name not yet written, a checkout time already passed"
+  },
+  "reverie": {
+    "title": "REVERIE — where dusk learned to stay",
+    "narr": [
+      "you sit on the motel steps watching the sun set",
+      "for the hundredth time. she's beside you with a",
+      "cigarette that's always half-smoked. 'how long',",
+      "you ask. 'long enough,' she says. 'long enough to",
+      "stop being afraid of morning. long enough to know",
+      "dusk isn't an ending. it's just another kind of knowing.'"
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the eastern fields where dusk first came",
+      "to": "the-eastern-resume-fields"
+    },
+    {
+      "dir": "n",
+      "label": "where the loop deepens and strangers become themselves",
+      "to": "the-looped-river-bend"
+    },
+    {
+      "dir": "e",
+      "label": "NEW: into the country where time learned a second language",
+      "to": "NEW: the-perpetual-arrival-station"
+    }
+  ]
+}

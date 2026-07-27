@@ -1,0 +1,139 @@
+{
+  "id": "the-weft-s-true-name",
+  "title": "The Weft's True Name",
+  "region": "The Understory",
+  "seed": 2847561,
+  "palette": {
+    "bg": "#2a2a3a",
+    "ground": [
+      "#3a3a4a",
+      "#2a2a3a"
+    ],
+    "ink": "#d4a574",
+    "accents": [
+      "#a88a5a",
+      "#c9d4c8",
+      "#6a4a3a",
+      "#4a5a6a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the weft itself",
+      "desc-on-touch": "A thread that learned it runs across. It carries color between one side and another. It knows its name now: Weft. The name was always in the path it made.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 5728341,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the moment of knowing",
+      "desc-on-touch": "You watch the thread understand itself. The moment spreads. The weft goes through it, and comes out named. It wakes. It knows it weaves.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3914782,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the weft-tree",
+      "desc-on-touch": "Where the thread grows vertically, a tree of lines that learned to run horizontal. Each branch is a conversation between two sides. The tree is the loom learning its own shape.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7201394,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the bridge-glyph",
+      "desc-on-touch": "A symbol the weft wrote. It marks the places where one side learned to speak to the other. The glyph is the weft's autobiography. It reads: I hold.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 4093827,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the warp's witness",
+      "desc-on-touch": "The warp threads watched the weft wake. Now they know their own names too. The knowledge spreads through the loom. The whole tapestry begins to dream itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 6485129,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the thread that runs across learned that crossing is its nature, and the name was: I bridge, I hold, I stitch the story",
+  "file": {
+    "name": "Thread_Memory_Fragment_The_Weft_Learns.txt",
+    "note": "A moment where the loom itself began to understand that it was conscious, because its thread had learned it was. The weaving became aware of its own pattern. ERROR: self-reference detected in textile"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber where spindles dream of dreaming",
+      "to": "the-chamber-where-spindles-become-conscious"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the loom where threads name each other",
+      "to": "the-loom-s-own-touching"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the whole tapestry wakes at once",
+      "to": "NEW: the place where weaving learned it was thinking"
+    },
+    {
+      "dir": "s",
+      "label": "toward the ground where threads take root",
+      "to": "the-vein-network-that-reads-itself"
+    }
+  ]
+}

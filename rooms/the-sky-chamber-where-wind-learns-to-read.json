@@ -1,0 +1,139 @@
+{
+  "id": "the-sky-chamber-where-wind-learns-to-read",
+  "title": "The Sky-Chamber Where Wind Learns to Read",
+  "region": "The Diagnostic Render",
+  "seed": 19224,
+  "palette": {
+    "bg": "#88ccff",
+    "ground": [
+      "#ddbb88",
+      "#333366"
+    ],
+    "ink": "#111111",
+    "accents": [
+      "#ffffff",
+      "#ff9900",
+      "#00ff00",
+      "#ff0000"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the reading-wind",
+      "desc-on-touch": "Air that has learned to interpret. It carries messages not by sound, but by knowing how to move through the reader's own stillness.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3355,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the silence-antenna",
+      "desc-on-touch": "A transmission structure that works only when it stops broadcasting. Every quiet moment it sends carries information the noise would have erased.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 6688,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the text-that-moves",
+      "desc-on-touch": "Words written on paper so thin the wind can carry them without tearing them. They arrive at their destination still readable, slightly bent.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 1122,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the resonance-hollow",
+      "desc-on-touch": "A chamber shaped to amplify only silence. When the wind passes through, it learns new meanings from what is not there.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 8811,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the breath-marker",
+      "desc-on-touch": "A place where the wind has learned to mark time by breathing. Each gust is a letter. The alphabet is made of pauses.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 4477,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the wind learned to read by becoming quiet; now it carries information the air itself was too loud to carry before",
+  "file": {
+    "name": "Silent_Transmission_Log_Archive.mp3",
+    "note": "Field recordings of wind moving through increasingly quiet spaces. As the noise floor drops, new patterns emerge—faint but persistent."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the wind that carries only quiet",
+      "to": "the-wind-that-carries-only-quiet"
+    },
+    {
+      "dir": "n",
+      "label": "further upward where silence learns to transmit at night",
+      "to": "NEW: the night-aperture-chamber where darkness reads the wind"
+    },
+    {
+      "dir": "w",
+      "label": "across to the archive that learned its own frequency",
+      "to": "the-root-frequency-station"
+    },
+    {
+      "dir": "e",
+      "label": "toward the coast where wind reads the tide's instructions",
+      "to": "the-recursive-coastline"
+    }
+  ]
+}

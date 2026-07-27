@@ -1,0 +1,139 @@
+{
+  "id": "the-twin-ridge-burning-opposite",
+  "title": "The Twin Ridge Burning Opposite",
+  "region": "The Comparisons",
+  "seed": 33766,
+  "palette": {
+    "bg": "#ffdd00",
+    "ground": [
+      "#ff4400",
+      "#990000"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the mirror-burn",
+      "desc-on-touch": "One ridge burns left-to-right; this one burns right-to-left. The fires will never meet. They teach each other through smoke and ash.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2288,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the ash-memory station",
+      "desc-on-touch": "A tower of burned wood arranged to show both timelines of fire. Each log records a different burn pattern, a different teaching.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5577,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the convergent flame",
+      "desc-on-touch": "Where both burns approach the summit but never arrive. The flame hesitates, unsure which way it was learned to burn.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 7799,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the pattern-keeper",
+      "desc-on-touch": "A carved marker showing both fire-paths. The burns around it are identical in inverse—as if the ridge is learning to burn both ways at once.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 4411,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the ash-spread field",
+      "desc-on-touch": "Gray matter from both burns settling into the same soil. The ash contains both fires' memories. It does not know which ridge it came from.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 9988,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "two ridges burning in opposite directions, each fire teaching the other how to burn the same pattern differently; the landscape learns from both at once",
+  "file": {
+    "name": "Burn_Pattern_Symmetry_Study_NSW_1994-2019.txt",
+    "note": "Charred records comparing fire-fronts on facing ridges. The data shows a strange convergence: as years pass, the burn patterns grow more similar despite burning in opposite directions."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back across to the ridge that learned to read its own fire",
+      "to": "the-high-burn-ridge"
+    },
+    {
+      "dir": "e",
+      "label": "toward the valley where both fires' smoke gathers",
+      "to": "NEW: the smoke-convergence-hollow where opposite flames find their shadow"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the peak where both burns can see each other",
+      "to": "the-peak-quiet-cipher"
+    },
+    {
+      "dir": "s",
+      "label": "down to the regenerating floor where ash teaches new growth",
+      "to": "the-field-where-growing-is-prayer"
+    }
+  ]
+}

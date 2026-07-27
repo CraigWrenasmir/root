@@ -156,7 +156,7 @@
     {
       "dir": "w",
       "label": "further into argument: another fork, older, deeper",
-      "to": "NEW: the-fork-that-argues-with-itself"
+      "to": "the-fork-s-inner-argument"
     },
     {
       "dir": "n",
