@@ -1,0 +1,134 @@
+{
+  "id": "the-abyss-of-all-mergings",
+  "title": "The Abyss of All Mergings",
+  "region": "The Understory",
+  "seed": 91203,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#0d1b3c",
+      "#1a3a52"
+    ],
+    "ink": "#e0e8f0",
+    "accents": [
+      "#00d9ff",
+      "#b0e8ff",
+      "#4da6ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the point of no return",
+      "desc-on-touch": "Here the boundaries between things cease to matter. Merging is neither loss nor gain—it is completion.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 48291,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "where identities learned to overlap",
+      "desc-on-touch": "Everything here holds the shape of everything else. The abyss is full of echoes of what it swallowed.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 67834,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the merger's voice",
+      "desc-on-touch": "A sound that is no longer singular. All voices that entered here now speak as one utterance of disappearance.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 72156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the convergence center",
+      "desc-on-touch": "Every object here flows toward this center and continues flowing through it. There is no bottom to this abyss.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 58921,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "distinction dissolves",
+      "desc-on-touch": "The archive cannot store what happened to these boundaries. Even corrupted, it will not remember them separately.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 81947,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "here all the mergings learned that loss and gain are false binary; they dissolved into single completion and could not undo",
+  "file": {
+    "name": "Convergence_Point_Witness_Log_CORRUPTED.txt",
+    "note": "checksum: emotionally valid / formally unstable — merged identities recorded as if they were ever separate"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the convergence that unmaps",
+      "to": "the-convergence-that-unmaps-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into the void where mergings continue",
+      "to": "NEW: the-void-where-convergence-consumes-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward the gathering where ascended speakers learned to speak as water",
+      "to": "the-gathering-of-ascended-speakers"
+    }
+  ]
+}

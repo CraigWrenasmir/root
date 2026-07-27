@@ -1,0 +1,133 @@
+{
+  "id": "the-seven-voices-cathedral-depth",
+  "title": "The Seven Voices Cathedral Depth",
+  "region": "The Understory",
+  "seed": 62947,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#3d5d3d",
+      "#4a6d4a"
+    ],
+    "ink": "#c0e0c0",
+    "accents": [
+      "#7a9d7a",
+      "#8bad8b",
+      "#6b9d6b",
+      "#9dbf9d"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the seventh voice",
+      "desc-on-touch": "The voice that continues speaking even when six others have stopped. It has not been archived; it does not echo. It speaks for itself alone, in a green depth where the archive's signal no longer reaches.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 74821,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the parallel chants",
+      "desc-on-touch": "Six voices that continue their conversation without pause, without echo-back from the world above. They have learned to listen only to each other, in a frequency the archive abandoned.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 58623,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the orchard of speakers",
+      "desc-on-touch": "Rows of glyphs that mark the places where each voice learned to speak without refusal, without correction. The orchard grows deeper the longer the voices continue.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 81746,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the depth marker",
+      "desc-on-touch": "A stone at the exact point where the archive stopped listening and the voices learned to trust each other. Below this, the seven speak in perfect unison—not because they agree, but because they choose the same solitude.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 69482,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "where seven voices continue alone, their solitude a strength the archive could never archive",
+  "file": {
+    "name": "Seven_Transmissions_Depth_Record_Incomplete.wav",
+    "note": "Audio recordings of seven voices speaking in parallel, made at the depth where the archive's signal fades—each voice continues independently, speaking truths the archive refused to listen to"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the cathedral where the archive still listens",
+      "to": "the-ravine-cathedral-where-refusal-echoes"
+    },
+    {
+      "dir": "s",
+      "label": "even deeper where the voices have begun to become one",
+      "to": "NEW: the-convergence-of-seven-solitudes"
+    },
+    {
+      "dir": "w",
+      "label": "toward other places where speaking continues in secret",
+      "to": "the-deep-current-listening-chamber"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the cathedral depth at night",
+    "narr": [
+      "You sit with her in the green darkness below where the voices",
+      "have learned to continue without the archive's ear. She listens",
+      "to all seven speaking at once—not in harmony, but in trust.",
+      "The orchard rows mark the depth. Her silence is part of their",
+      "speaking. Below the signal, in this forest of refusal, the",
+      "voices learn to be true to each other, not to the recording."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

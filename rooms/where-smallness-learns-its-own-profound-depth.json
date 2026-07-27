@@ -1,0 +1,155 @@
+{
+  "id": "where-smallness-learns-its-own-profound-depth",
+  "title": "Where Smallness Learns Its Own Profound Depth",
+  "region": "The Diagnostic Render",
+  "seed": 927548,
+  "palette": {
+    "bg": "#1a0033",
+    "ground": [
+      "#ff8833",
+      "#ff6600"
+    ],
+    "ink": "#ffddaa",
+    "accents": [
+      "#ffaa88",
+      "#ff5544",
+      "#993333",
+      "#664488"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "drawer shrine",
+      "desc-on-touch": "A compartment so small it holds only what matters. Every object inside is pressed close to every other. The smallness is not limitation — it's concentration. What fits here has learned to contain everything.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 584739,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "stitched archive",
+      "desc-on-touch": "Things bound together in a space too small to move. The stitching holds intention — each seam is where one person's hand met another's. Vulnerability archived as the knowledge of closeness.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 215647,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "compression registry",
+      "desc-on-touch": "A record of what gets smaller the longer it's held. Memory compresses; feeling becomes denser; the archive learns that constraint teaches texture, not loss.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 748291,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "intimate plaque",
+      "desc-on-touch": "Text so small it requires you to slow down to read: [SMALLNESS IS NOT ABSENCE / IT IS PRESENCE LEARNING DENSITY / HERE, INTENTION AND TOUCH ARE ONE]",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 362815,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "kept chamber",
+      "desc-on-touch": "A space where what is not said becomes audible. Two people's hands working close, the needle bearing their intention, the cloth holding the knowledge of being held. What is too small to say becomes the thing itself.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 891624,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "each drawer contained less and held more than the last",
+  "file": {
+    "name": "Stitched_Compartments_Intimate_Depth.txt",
+    "note": "Archive of what fits in the smallest spaces. Each kept object is pressed close to intention. Vulnerability filed as evidence of closeness, not exposure."
+  },
+  "reverie": {
+    "title": "REVERIE — small room at working time",
+    "narr": [
+      "You sit in the compartment where things are kept. She works",
+      "the needle slow, stitching intention into cloth. The space",
+      "is so small you can feel her thinking through her hands.",
+      "\"Smallness teaches,\" she says, and you understand: the close",
+      "work is where intention becomes touch becomes knowing. When",
+      "she finishes, what she's made will live in drawers, held safe."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward back to the drawer that opened",
+      "to": "the-drawer-beneath-all-drawers"
+    },
+    {
+      "dir": "s",
+      "label": "downward toward compartments that have no names",
+      "to": "NEW: the-unnamed-drawer-that-holds-itself"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where smallness learns to speak",
+      "to": "the-mirrored-nesting"
+    },
+    {
+      "dir": "w",
+      "label": "westward toward the kept thing that knows it's kept",
+      "to": "NEW: the-object-held-so-long-it-becomes-story"
+    }
+  ]
+}

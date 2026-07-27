@@ -1,0 +1,134 @@
+{
+  "id": "the-ridge-dissolving-into-possibility",
+  "title": "The Ridge Dissolving into Possibility",
+  "region": "The Understory",
+  "seed": 2739481,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#cc6633",
+      "#88aa44"
+    ],
+    "ink": "#e8f4e8",
+    "accents": [
+      "#ffffcc",
+      "#ff9999",
+      "#66ddff",
+      "#dd99ff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the weight that learned to leave",
+      "desc-on-touch": "Where the ridge begins to float. It still has form, but it has learned that weight is a choice. The stone does not press down here—it holds itself up through collective agreement with the air. Pressure becomes optional.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8473921,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the transparent horizon",
+      "desc-on-touch": "You can see through the air to what lies beyond, and what lies beyond is the ridge itself, seen from the far side. Transparency is not absence of form. It is form learning that it can be seen from everywhere at once.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5829374,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the ridge's former shadow",
+      "desc-on-touch": "The shadow that used to anchor the ridge to the ground. It still falls, but no longer belongs to anything. It shadows the air now, or shadows the memory of the ridge. When the ridge learns to dissolve, does it take its shadow or leave it behind?",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 3928174,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the lateral wind",
+      "desc-on-touch": "A wind that moves sideways through the transparency, carrying the ridge's old weight like memories. It touches you laterally—not from front or back, but from the direction that has not yet been named. The ridge is teaching the air to have dimensions it never knew.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7293847,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the possibility beneath",
+      "desc-on-touch": "Below the dissolving ridge, the air continues. It has never been stopped by stone. Below this ridge, every path the stone would have blocked is suddenly open. The ridge dissolving is not destruction. It is permission.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 9384729,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the ridge learned that transparency is not weightlessness, but the choice to hold weight only where it matters; here every direction is possible because the ridge agreed to stop blocking them",
+  "file": {
+    "name": "Geological_Survey_Ridge_Strata_Becoming_Permeable.wav",
+    "note": "A field recording of the ridge's subsonic frequency. Over repeated listens, the frequency gradually increases in pitch—as if the stone is learning to vibrate at higher frequencies. The recording was m"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward toward the ridge that still believed in weight",
+      "to": "the-ridge-made-transparent"
+    },
+    {
+      "dir": "w",
+      "label": "westward into air that has never known stone",
+      "to": "NEW: the-weightless-country-where-gravity-forgot-to-fall"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward possibilities that were blocked before",
+      "to": "where-the-roads-learn-to-sail"
+    }
+  ]
+}

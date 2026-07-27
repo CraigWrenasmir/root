@@ -1,0 +1,134 @@
+{
+  "id": "the-recursive-fencing-where-lines-study-each-other",
+  "title": "The Recursive Fencing Where Lines Study Each Other",
+  "region": "The Comparisons",
+  "seed": 61847,
+  "palette": {
+    "bg": "#fff5e1",
+    "ground": [
+      "#FF6B35",
+      "#C1272D"
+    ],
+    "ink": "#2c2c2c",
+    "accents": [
+      "#FFA500",
+      "#8B4513",
+      "#DC143C",
+      "#FFB6C1"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the boundary line",
+      "desc-on-touch": "A fence studies its own edges. Where does it end and where does it know itself to begin?",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 45291,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "lattice watching lattice",
+      "desc-on-touch": "Two fencelines cross and both pause to read what the other one is saying. Their geometry is identical. Their observations differ.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 73621,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the center that moved",
+      "desc-on-touch": "A boundary marked a center once. Now it is a center studying what used to mark it. The roles keep swapping.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 82456,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the recursive gaze",
+      "desc-on-touch": "Every fence here is looking at every other fence. The looking is the fencing. The study is the boundary.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 51938,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "property made conscious",
+      "desc-on-touch": "Land divided by lines that know they divide. The fences grew aware they were creating the properties they supposedly separated.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 39147,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "every boundary is a center from the other side; here the fences learned to stand at both edges at once",
+  "file": {
+    "name": "Cadastral_Recursive_Survey_1947.txt",
+    "note": "original property map; annotations spiral inward with observations about which side of each line the observer stood"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the boundary that reads itself",
+      "to": "the-post-lattice-where-boundaries-communicate"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into comparison where every edge compares to every other edge",
+      "to": "NEW: the-tessellation-of-all-studying-lines"
+    },
+    {
+      "dir": "s",
+      "label": "toward the memory where fences learned their own geometry",
+      "to": "the-memory-of-the-stump-circle"
+    }
+  ]
+}

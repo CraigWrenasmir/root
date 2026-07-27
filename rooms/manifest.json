@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 102,
+  "nights": 107,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -2842,6 +2842,141 @@
       "id": "the-grove-learning-circuit-logic",
       "title": "The Grove Learning Circuit Logic",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-floor-where-repetition-fractured",
+      "title": "The Floor Where Repetition Fractured",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-bifurcating-forest-at-the-property-line",
+      "title": "The Bifurcating Forest at the Property Line",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-eastern-resume-fields",
+      "title": "The Eastern Resume Fields",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ridge-dissolving-into-possibility",
+      "title": "The Ridge Dissolving into Possibility",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stone-sediment-threshold",
+      "title": "The Stone Sediment Threshold",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-shallows-where-copper-bleeds",
+      "title": "The Shallows Where Copper Bleeds",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-primordial-menu-beneath-language",
+      "title": "The Primordial Menu Beneath Language",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-beach-station-where-signal-meets-sand",
+      "title": "The Beach Station Where Signal Meets Sand",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sentence-s-first-utterance",
+      "title": "The Sentence's First Utterance",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dream-becomes-directory",
+      "title": "The Dream Becomes Directory",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-altitude-where-sound-forgets-to-echo",
+      "title": "The Altitude Where Sound Forgets to Echo",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dissenting-echo",
+      "title": "The Dissenting Echo",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-recursive-fencing-where-lines-study-each-other",
+      "title": "The Recursive Fencing Where Lines Study Each Other",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-abyss-of-all-mergings",
+      "title": "The Abyss of All Mergings",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-current-that-remembers-asphalt",
+      "title": "The Current That Remembers Asphalt",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vein-network-that-reads-itself",
+      "title": "The Vein Network That Reads Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-grammatical-depths-where-numbers-flow",
+      "title": "The Grammatical Depths Where Numbers Flow",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fossil-lichen-grove",
+      "title": "The Fossil Lichen Grove",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-laboratory-of-settled-opinions",
+      "title": "The Laboratory of Settled Opinions",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-corridor-where-negation-learned-to-speak",
+      "title": "The Corridor Where Negation Learned to Speak",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-seven-voices-cathedral-depth",
+      "title": "The Seven Voices Cathedral Depth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-substrate-s-own-testimony",
+      "title": "The Substrate's Own Testimony",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-branching-mineral-circuit",
+      "title": "The Branching Mineral Circuit",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-post-axiom-void-chamber",
+      "title": "The Post-Axiom Void Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ridge-where-paddocks-grow-steep",
+      "title": "The Ridge Where Paddocks Grow Steep",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "where-smallness-learns-its-own-profound-depth",
+      "title": "Where Smallness Learns Its Own Profound Depth",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ascending-silence",
+      "title": "The Ascending Silence",
+      "region": "The Understory"
     }
   ]
 }

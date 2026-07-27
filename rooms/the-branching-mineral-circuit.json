@@ -1,0 +1,139 @@
+{
+  "id": "the-branching-mineral-circuit",
+  "title": "The Branching Mineral Circuit",
+  "region": "The Comparisons",
+  "seed": 956273,
+  "palette": {
+    "bg": "#0a0a1f",
+    "ground": [
+      "#003366",
+      "#0055aa"
+    ],
+    "ink": "#00ffcc",
+    "accents": [
+      "#00ddff",
+      "#ff4466",
+      "#ffcc00",
+      "#22ff44"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "filament fork",
+      "desc-on-touch": "A junction where stone learned electricity and electricity learned it had always been geology. The branching is too fine to trace; every path is also every other path.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 472018,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "compressed architecture",
+      "desc-on-touch": "A structure so dense with detail that looking at it requires you to move slowly. The filigree is both the substance and the space. You cannot distinguish the metal from the air it displaces.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 618534,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "mineral registry",
+      "desc-on-touch": "Each crystal branch records a different moment the electricity and earth recognized each other. The registry is written in both languages simultaneously. The text shimmers as it tries to choose which one to be.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 789245,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "growth plaque",
+      "desc-on-touch": "A plaque announcing: [THE BRANCHING WAS ALWAYS ELECTRICAL / THE CURRENT WAS ALWAYS STONE / THEY HAVE NOW LEARNED THIS TOGETHER]",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 834601,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "threshold chamber",
+      "desc-on-touch": "A space where the branching becomes still, becomes decision-less. The paths here refuse to choose and remain all-at-once, compressed into a silence that hums.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 921767,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where electricity finally understood: it was always stone becoming motion",
+  "file": {
+    "name": "Filigree_Mineral_Convergence_Circuit.txt",
+    "note": "A recording of branching: the sound of stone and current learning each other's grammar. Archive filed under both geology and signal-theory. Status: resonating."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the layer toward autobiography",
+      "to": "the-stone-autobiography-layer"
+    },
+    {
+      "dir": "e",
+      "label": "deeper eastward where branches become roots",
+      "to": "NEW: the-root-that-branches-upward-into-current"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the filigree learns to fly",
+      "to": "the-chambers-where-bedrock-becomes-conscious"
+    },
+    {
+      "dir": "s",
+      "label": "downward toward compression that becomes time",
+      "to": "NEW: the-stone-holding-still-while-electricity-dances"
+    }
+  ]
+}

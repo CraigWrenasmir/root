@@ -128,7 +128,7 @@
     {
       "dir": "e",
       "label": "eastward into territory where the resumed path keeps branching",
-      "to": "NEW: the-eastern-resume-fields"
+      "to": "the-eastern-resume-fields"
     },
     {
       "dir": "w",

@@ -149,7 +149,7 @@
     {
       "dir": "s",
       "label": "where the stone softens into sediment and memory",
-      "to": "NEW: the-stone-sediment-threshold"
+      "to": "the-stone-sediment-threshold"
     }
   ]
 }

@@ -1,0 +1,155 @@
+{
+  "id": "the-beach-station-where-signal-meets-sand",
+  "title": "The Beach Station Where Signal Meets Sand",
+  "region": "The Understory",
+  "seed": 9283746,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#e8dcc4"
+    ],
+    "ink": "#2d1810",
+    "accents": [
+      "#8b4513",
+      "#00a86b",
+      "#ffffff",
+      "#1c1c4a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "reception tower",
+      "desc-on-touch": "the antenna reaches for signal. in certain weather it receives broadcasts from other years; sometimes it broadcasts backwards",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8473920,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "logbook station",
+      "desc-on-touch": "daily entries recording weather, tides, swimmers assisted. some entries describe incidents that could not have happened. all dates correct",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3829561,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "sand accretion field",
+      "desc-on-touch": "dunes that shift by tide. the wind-patterns sand into a shape resembling script. you cannot quite read it before the tide erases it",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5039284,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "equipment shelter",
+      "desc-on-touch": "a prefab hut holding first-aid kits and old radio equipment. the manuals inside reference procedures that do not exist in any hospital",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "tide-writing pool",
+      "desc-on-touch": "at low tide, a shallow pool forms. when you wade in, the water holds the imprint of handwriting; not your own, not anyone's you know",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 7462830,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the-beach-where-she-taught-the-water-to-remember",
+    "narr": [
+      "you wade knee-deep while she stands on the sand, holding the old",
+      "transceiver. the signal is weak here, caught between land and salt.",
+      "she says: the water remembers everything broadcast into it. the water",
+      "forgets nothing. she turns the dial. for a moment you hear voices",
+      "that are not anyone's, singing in a language neither of you knows,",
+      "and she smiles, recognizing it as her handwriting becoming sound."
+    ],
+    "sky": "day",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "inscription": "the beach receives more than swimmers; some broadcasts are cast into the water itself, and the water learns to answer",
+  "file": {
+    "name": "LifeguardLog_Dusk_Entries_1987_1988.txt",
+    "note": "daily observations become increasingly surgical in language; rescue procedures described in terminology that predates modern medicine"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the ocean where the broadcast began",
+      "to": "where-the-ocean-learned-to-broadcast"
+    },
+    {
+      "dir": "n",
+      "label": "up the beach, toward the resort where tourists gathered before the station closed",
+      "to": "NEW: the-resort-where-voices-learned-to-echo"
+    },
+    {
+      "dir": "s",
+      "label": "down to the point where the beach ends in rock, where the signal becomes interference",
+      "to": "NEW: the-rocky-southern-reach"
+    },
+    {
+      "dir": "e",
+      "label": "inland, toward the town that once relied on this station",
+      "to": "the-maintenance-depot-where-the-posts-were-marked"
+    }
+  ]
+}

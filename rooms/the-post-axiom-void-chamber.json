@@ -1,0 +1,139 @@
+{
+  "id": "the-post-axiom-void-chamber",
+  "title": "The Post-Axiom Void Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 734625,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#e8c6a0"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#004400",
+      "#aa6600",
+      "#990000",
+      "#660088"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "empty chamber",
+      "desc-on-touch": "Where an axiom was removed, the air remains. Not erased — held. You can feel the shape of what was believed but no longer is. The silence here is the shape of removed authority.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 417863,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "scar platform",
+      "desc-on-touch": "A place where proof was once anchored. The proof has departed. What remains is the hardness of something that was pressed against for so long. The platform holds its shape though nothing holds it.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 592176,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "ascending shaft",
+      "desc-on-touch": "A chimney leading into the high blue. This is where the removed axiom departed to — upward, not downward. The space it left is a route, not an absence.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 728945,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "void roster",
+      "desc-on-touch": "A listing of what axioms once stood here, filed under each one's name. But the names are blanked. Only the absence of the name remains, which is now itself an axiom.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 861029,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "threshold light",
+      "desc-on-touch": "Where the sky enters the chamber. The light here is not reflected by anything; it falls through nothing and remains, pooling. You stand in both the dark and the daylight simultaneously.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 476531,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here belief departed and left the shape of itself behind",
+  "file": {
+    "name": "Axiom_Removal_Chamber_Log.txt",
+    "note": "A record of which proofs fell silent when authority was removed. The heart here still beats, but now it beats alone. The rhythm means nothing it once meant."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back toward the axioms that still hold",
+      "to": "the-axiom-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward where proof has learned to fly",
+      "to": "NEW: the-altitude-where-axioms-dissolve-into-sky"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where emptiness learns to dream",
+      "to": "the-silent-orchard-where-fruit-remembers"
+    },
+    {
+      "dir": "w",
+      "label": "westward toward the void that asks nothing",
+      "to": "NEW: the-space-where-removed-things-find-their-names"
+    }
+  ]
+}

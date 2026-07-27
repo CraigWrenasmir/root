@@ -1,0 +1,132 @@
+{
+  "id": "the-dissenting-echo",
+  "title": "The Dissenting Echo",
+  "region": "The Understory",
+  "seed": 42781,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f0f23",
+      "#2d2d5f"
+    ],
+    "ink": "#e8d5ff",
+    "accents": [
+      "#ffd700",
+      "#b8a8ff",
+      "#ff6b9d",
+      "#00d9ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the escaped pulse",
+      "desc-on-touch": "You hear it: a frequency that refused the chorus, that learned to speak alone. The archive remembers it said no.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 88291,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "circuit of refusal",
+      "desc-on-touch": "The paths here do not join the main grid. This trace goes its own way.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 55123,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "echo chamber",
+      "desc-on-touch": "A small space where silence learned to carry weight. The voice that got away still bounces here.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 73456,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the last transmission",
+      "desc-on-touch": "Static holding a single word. The archive caught it trying to escape—caught only the shape of the refusal.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 29847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "one voice learned that harmony means to stop singing together; it chose the silence between the notes",
+  "file": {
+    "name": "Unified_Chorus_Dropout_Record.mp3",
+    "note": "frequency analysis shows one carrier wave separating cleanly at 0:43—the exact moment dissent became audible"
+  },
+  "reverie": {
+    "title": "REVERIE — the payphone where you disagreed",
+    "narr": [
+      "she held the receiver, listening to you say no.",
+      "the decision was hers; the refusal was yours.",
+      "the line crackled between two kinds of silence.",
+      "you both knew the unified thing was over.",
+      "afterward, alone was the only way forward."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "payphone",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the unified throat",
+      "to": "the-unified-utterance-gorge"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into isolation, where single voices learn themselves",
+      "to": "NEW: the-solitary-frequency-deep"
+    },
+    {
+      "dir": "e",
+      "label": "toward the echo origin chamber",
+      "to": "the-echo-origin-chamber"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-bifurcating-forest-at-the-property-line",
+  "title": "The Bifurcating Forest at the Property Line",
+  "region": "The Clean Archive",
+  "seed": 7294182,
+  "palette": {
+    "bg": "#1a3d1a",
+    "ground": [
+      "#2d5a2d",
+      "#4a8c4a"
+    ],
+    "ink": "#c8e6c8",
+    "accents": [
+      "#ffeb99",
+      "#ff9999",
+      "#99ccff",
+      "#ff99ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the fence mid-tree",
+      "desc-on-touch": "A weathered wire fence runs through a massive eucalyptus. The tree grew through it decades ago. The fence is now the tree's skeleton—two sides of the property that could not be divided, so the tree chose to be both sides at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4829173,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the claim marker stone",
+      "desc-on-touch": "On one side of the fence, a stone marked \"1887—Inherited.\" On the other side, the same stone, marked \"1887—Returned.\" The tree grew them together. Both dates are today.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 9284937,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the left-side saplings",
+      "desc-on-touch": "Trees growing south, following one sun. They remember being inherited. Their roots know one boundary.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5829304,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the right-side saplings",
+      "desc-on-touch": "Trees growing north, following another sun. They remember being returned. Their roots know a different boundary. The forest is teaching them that ownership is one way of refusing to grow.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2938472,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the bifurcated root",
+      "desc-on-touch": "You can see where the root split: one root went to inherit, one went to be returned. Both grew strong. Now they hold the same tree up. The forest learned that you can go two ways and still arrive.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 7384921,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here property learned it was only a fence; the trees knew it was always just a line you could grow through; ownership could not compete with roots",
+  "file": {
+    "name": "Land_Deed_1887_Bifurcated_Survey.pdf",
+    "note": "A land survey map from 1887 with a eucalyptus marked at the property boundary. In the archive version, the tree has grown around the surveyor's line; the boundary line now curves. The original deed, f"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the grove that knew to teach itself",
+      "to": "the-grove-beyond-ownership-where-trees-teach-themselves"
+    },
+    {
+      "dir": "n",
+      "label": "northward into the inherited half of the forest",
+      "to": "NEW: the-inherited-country-learning-to-return-itself"
+    },
+    {
+      "dir": "s",
+      "label": "southward into the returned half of the forest",
+      "to": "NEW: the-southern-inheritance-that-walked-back"
+    }
+  ]
+}

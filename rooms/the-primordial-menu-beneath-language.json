@@ -1,0 +1,134 @@
+{
+  "id": "the-primordial-menu-beneath-language",
+  "title": "The Primordial Menu Beneath Language",
+  "region": "The Diagnostic Render",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#0a1420",
+    "ground": [
+      "#1a3a2a",
+      "#0d1a0f"
+    ],
+    "ink": "#2aff4a",
+    "accents": [
+      "#ffaa00",
+      "#ff3333",
+      "#ffffff",
+      "#4488ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "nested prompts",
+      "desc-on-touch": "each menu layer asks a question that only the next menu can answer; you descend through riddles that reference themselves",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 2019384,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "glyph registry",
+      "desc-on-touch": "symbols that predate naming; the system reads them but does not understand. no translation exists",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 7384920,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "trace paths answering questions",
+      "desc-on-touch": "circuit routes that connect premises to conclusions; but the conclusions were posed twelve years before the premises",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "core recursion loop",
+      "desc-on-touch": "the deepest menu item. its description is the menu structure itself. selecting it yields the entire system asking: what are you?",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 4756392,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "language threshold",
+      "desc-on-touch": "beyond this point, the symbol set fragments. meaning gives way to pure structure. you cannot read further, but the machine continues",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 5629384,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "before names were given to commands, the commands named themselves; some of those names have not yet been spoken in any language",
+  "file": {
+    "name": "SystemPrompt_Layer_Minus_7_Reconstructed.log",
+    "note": "code predating human UI; the prompts here are written in a structure that resembles questions no one asked"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the menu surface where language still works",
+      "to": "the-sub-menu-that-tastes-of-older-software"
+    },
+    {
+      "dir": "w",
+      "label": "into even older strata, where symbols become mathematics",
+      "to": "NEW: the-arithmetic-before-notation"
+    },
+    {
+      "dir": "e",
+      "label": "toward the first thing that chose to name itself",
+      "to": "NEW: the-axiom-that-asked-why"
+    }
+  ]
+}

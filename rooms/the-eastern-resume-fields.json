@@ -1,0 +1,117 @@
+{
+  "id": "the-eastern-resume-fields",
+  "title": "The Eastern Resume Fields",
+  "region": "The Clean Archive",
+  "seed": 8374920,
+  "palette": {
+    "bg": "#ff9933",
+    "ground": [
+      "#ffaa44",
+      "#ff8800"
+    ],
+    "ink": "#1a1a2e",
+    "accents": [
+      "#2d4a5c",
+      "#334466",
+      "#88ddff",
+      "#ffddaa"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the eastern horizon",
+      "desc-on-touch": "A line where the sky graduates from orange dusk into deep purple dark. The sun has set but keeps setting—each moment a deeper hue. The horizon remembers every walker who crossed it. It teaches this to each new traveler without speaking.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 2938471,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the footpath that branches",
+      "desc-on-touch": "A path splits three ways. Each fork was made by a different traveler's footsteps. The paths remember when there was only one walker. Now there are three, and the first walker is present in all three paths simultaneously. This is what the northern road learned to resume.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 9283746,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the resumed memory",
+      "desc-on-touch": "A cairn of stones. Each stone placed by a different walker on different nights, but they all remember arranging the same pile. The north road kept teaching them they were the second knowing of the first arrival. Here, the second arrival recognizes the first in the stones.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4729384,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the dusk that doesn't end",
+      "desc-on-touch": "The gradient sky. Every walker sees a different moment of sunset. For one it is 6:47. For another it is 6:47 from a different year. The fields remember every dusk, and every dusk is still happening.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 6384920,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the eastern path keeps branching because each walker resumes the first journey; the fields grow toward them through dusk that never finishes",
+  "file": {
+    "name": "Northern_Road_1950s_Traveler_Logs_Resumed.txt",
+    "note": "A photocopied log from a 1950s traveler, describing the eastern fields at dusk. The same text appears in logs from 1982, 2003, and 2024, each walker describing identical landmarks, identical light, id"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward back along the resumed northern memory",
+      "to": "the-northern-memory-resume"
+    },
+    {
+      "dir": "n",
+      "label": "northward into a dusk that came before dawn",
+      "to": "NEW: the-midnight-dusk-country-where-time-learned-to-loop"
+    },
+    {
+      "dir": "e",
+      "label": "eastward deeper into branching paths",
+      "to": "the-parallel-field"
+    }
+  ]
+}

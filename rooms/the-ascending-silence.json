@@ -1,0 +1,139 @@
+{
+  "id": "the-ascending-silence",
+  "title": "The Ascending Silence",
+  "region": "The Understory",
+  "seed": 638291,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#003d5c",
+      "#0a5f7f"
+    ],
+    "ink": "#00ccff",
+    "accents": [
+      "#00ffff",
+      "#ff3366",
+      "#ffdd00",
+      "#00ff88"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.55
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "rising body",
+      "desc-on-touch": "Where pressure becomes weight becomes time again. You rise through silence that holds you, feeling your own body as the measure of its depth. Each step up is a breath that the earth remembers.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 472083,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "somatic registry",
+      "desc-on-touch": "A record of what rises through the body when silence becomes the teacher. The archive here holds feeling as data: temperature, breath, the weight of being held by the ground you're leaving.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 794156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "contact threshold",
+      "desc-on-touch": "A place where bodies learned to negotiate space without speaking. The ascent here is touch — feeling the way through silence, the ground beneath and the air becoming known through the body's knowledge.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 561324,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "tender documentation",
+      "desc-on-touch": "Text describing what pressure teaches: negotiation, grace, the knowledge that two bodies touching is medicine. Archive filed under somatic practice, under local history, under the intimacy of rising together.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 829461,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "silence chamber",
+      "desc-on-touch": "Where the ascent stops and listening begins. The silence here is not absence — it's what the rising body learns it was breathing through all along. The only sound is the knowledge of weight becoming time.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 715802,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "silence begins where pressure learns that weight has also always been time",
+  "file": {
+    "name": "Tender_Ascent_Somatic_Archive.mp3",
+    "note": "Field recording of bodies rising through silence. The archive here holds the sound of weight becoming weightlessness, pressure becoming breath. Checksum: emotionally valid / formally unstable."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back into the pressure that bore you",
+      "to": "the-pressure-where-no-sound-has-ever-travelled"
+    },
+    {
+      "dir": "n",
+      "label": "upward where silence becomes the sky's own language",
+      "to": "NEW: the-breath-where-silence-learns-to-rise"
+    },
+    {
+      "dir": "e",
+      "label": "eastward toward tender negotiation of space",
+      "to": "the-stone-chambers-where-memory-roots"
+    },
+    {
+      "dir": "w",
+      "label": "westward where somatic practice becomes prayer",
+      "to": "NEW: the-sanctuary-where-bodies-teach-the-earth"
+    }
+  ]
+}

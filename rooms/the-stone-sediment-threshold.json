@@ -1,0 +1,133 @@
+{
+  "id": "the-stone-sediment-threshold",
+  "title": "The Stone Sediment Threshold",
+  "region": "The Understory",
+  "seed": 5829374,
+  "palette": {
+    "bg": "#2d1a0a",
+    "ground": [
+      "#4a3a2d",
+      "#6b5a4a"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#ffcc99",
+      "#99ccff",
+      "#ff99cc",
+      "#99ffcc"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the stone becoming sand",
+      "desc-on-touch": "Here the boundary: on one side, stone that does not grow. On the other, sediment that remembers being stone and is learning to be water. The threshold is a question without an answer—not yet sand, not quite stone. This is where patience becomes visible.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 2847291,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the layer of recognition",
+      "desc-on-touch": "A thin seam where sediment touches stone directly. The archive stored a memory here: a moment when the stone chamber understood it was not unchanging, but changing at a scale that felt like forever. The layer is the archive's recognition of that moment.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 4920384,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the grain that remembers weight",
+      "desc-on-touch": "A single grain of sand that still remembers being stone. It carries the weight of the mountain in its crystalline memory. When you hold it, you feel the ridge that birthed it, the compression, the slow wearing down. The sediment is telling the story of stone learning to let go.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8374029,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the flowing stillness",
+      "desc-on-touch": "Water moves slowly through the threshold, so slowly you can only see its movement by memory. Yesterday the water was here. Today it is one grain farther down. The sediment flows without rushing. Patience is another form of water.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 6293847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the threshold is not a place of ending but of learning a new form of slowness; nothing grows here but everything changes, grain by grain, memory by memory",
+  "reverie": {
+    "title": "REVERIE — when stone learned to speak through sediment",
+    "narr": [
+      "You knelt in the dust between the stone face and its own",
+      "becoming. Katita held a grain up to the light, studying it.",
+      "She said: \"It remembers the mountain.\" You could see it in her",
+      "eyes—not the grain, but the weight it carried forward, the",
+      "ancient pressure still singing in the crystalline lattice. She",
+      "was learning the language stones use to teach about dissolution."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "file": {
+    "name": "Sediment_Core_Threshold_Botanical_Residue.csv",
+    "note": "A sediment core taken at the threshold shows pollen grains that predate the stone chamber above it by geological ages. The pollen is intact, readable, speaking of a climate that no longer exists. The "
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "northward and upward to the stone chamber that does not grow",
+      "to": "the-stone-chamber-where-nothing-grows"
+    },
+    {
+      "dir": "s",
+      "label": "southward into sediment that flows like water",
+      "to": "NEW: the-sediment-channel-where-stone-learns-to-follow"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the threshold toward the reading room",
+      "to": "the-reading-room-of-sand"
+    }
+  ]
+}

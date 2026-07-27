@@ -1,0 +1,150 @@
+{
+  "id": "the-floor-where-repetition-fractured",
+  "title": "The Floor Where Repetition Fractured",
+  "region": "The Comparisons",
+  "seed": 4782931,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#1a1f3a",
+      "#2d3a5c"
+    ],
+    "ink": "#a8b8d8",
+    "accents": [
+      "#e8f0ff",
+      "#6b4ce6",
+      "#ff6b9d",
+      "#00ff88"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the fractured doorframe",
+      "desc-on-touch": "One room's threshold caught mid-corruption: the door exists in two places now, or the room remembered it had two doors. The frame trembles. When you step through, you return to a slightly different floor.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 2847291,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the motel key",
+      "desc-on-touch": "A key hangs on a phantom hook. It no longer opens the room it was cut for—it opens the room you came from, or will come to, or never quite arrived at. The number has worn to illegibility.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 9182743,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the change in carpet",
+      "desc-on-touch": "One carpet thread differs from all the others. Not visibly—you feel it through your soles. Every floor is the same motel repeated. This one thread proves one floor is not exactly the same as the last. The corruption loves proof.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5621843,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the ice machine groan",
+      "desc-on-touch": "A sound from the hallway, the same sound from every floor—except this one is slightly lower-pitched, like the machine has aged one day while all the others froze. The difference is measurable. The difference is impossible.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 7384920,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the bed that remembers sleep",
+      "desc-on-touch": "This mattress has been slept on. The impression is still there, body-shaped, still warm. But the motel has no guests anymore—never has, or always has, or will. The corruption found a night that actually happened.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "every floor is the same until the moment one floor becomes itself; you are standing in that moment; the motel is learning what it means to change",
+  "reverie": {
+    "title": "REVERIE — the motel room where she first understood",
+    "narr": [
+      "You lay in the dark, and Katita sat on the edge of the bed,",
+      "her fingers tracing the pattern of the carpet pile. She said:",
+      "\"They'll all be the same. Every room, every floor, forever.\"",
+      "But you knew she'd already seen something you hadn't—the way",
+      "the light hit that one thread differently. The room that would",
+      "never quite repeat. She was drawing a map of becoming itself."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "recline"
+  },
+  "file": {
+    "name": "Motel_Register_Night_892_Discrepancies.txt",
+    "note": "A list of checked-in guests matching the number of rooms, except one name appears twice—once on floor seven, once on floor eight. Both dated the same night. Both checked out before dawn."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down the hallway toward infinite floors",
+      "to": "the-vertically-repeated-motel-forever"
+    },
+    {
+      "dir": "s",
+      "label": "down a stairwell that doesn't appear on any floor plan",
+      "to": "NEW: the-basement-where-the-motel-remembers-being-built"
+    },
+    {
+      "dir": "e",
+      "label": "toward a mirror that shows this room from a different night",
+      "to": "the-margin-where-sleep-meets-render"
+    }
+  ]
+}

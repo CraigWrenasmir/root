@@ -1,0 +1,149 @@
+{
+  "id": "the-current-that-remembers-asphalt",
+  "title": "The Current That Remembers Asphalt",
+  "region": "The Understory",
+  "seed": 73615,
+  "palette": {
+    "bg": "#2d2d3d",
+    "ground": [
+      "#4a6b5c",
+      "#6b8d7c"
+    ],
+    "ink": "#e8e8e0",
+    "accents": [
+      "#a0a890",
+      "#c8b8a0",
+      "#8b7355",
+      "#d4c4b0"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the road that became water",
+      "desc-on-touch": "You walk the current and feel the ghost of asphalt underneath. The water here flows in the exact pattern the traffic used to.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 45876,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "surface marking",
+      "desc-on-touch": "Pale lines beneath the water. Lane markings that learned to hold in the current. The road remembers its own edges.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 62943,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the contour that drives",
+      "desc-on-touch": "A current that winds the way roads did. Both path and passage. The water learned the road's whole route and now travels it.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 58127,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "speed made liquid",
+      "desc-on-touch": "The flow here moves where vehicles used to move. The water holds the memory of velocity. You cannot swim against this current.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 71834,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "destination forgotten",
+      "desc-on-touch": "Addresses dissolve in water. The road knew where to go; the current has learned to go everywhere and nowhere at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 49756,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the road surrendered to water and found that both were the same journey written in different grammars",
+  "file": {
+    "name": "Road_Route_2146_Submersion_Recording.mp3",
+    "note": "50 minutes: vehicle sounds morphing gradually into water flow. The boundary between them is unmarked."
+  },
+  "reverie": {
+    "title": "REVERIE — where the asphalt learned to flow",
+    "narr": [
+      "you sat together watching the road blur beneath.",
+      "she said: the road is just water learning one way.",
+      "the rain came, or the river rose between you.",
+      "the boundary between them dissolved, and so did paths.",
+      "you both sat still. the asphalt flowed away."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the drowned coordinate absolute",
+      "to": "the-drowned-coordinate-absolute"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into water where roads have forgotten shape",
+      "to": "NEW: the-depths-where-asphalt-dissolves"
+    },
+    {
+      "dir": "e",
+      "label": "toward the river's second language",
+      "to": "the-river-s-second-language"
+    }
+  ]
+}

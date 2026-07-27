@@ -1,0 +1,149 @@
+{
+  "id": "the-vein-network-that-reads-itself",
+  "title": "The Vein Network That Reads Itself",
+  "region": "The Understory",
+  "seed": 52847,
+  "palette": {
+    "bg": "#3a2c2c",
+    "ground": [
+      "#8b6b6b",
+      "#6b5b4b"
+    ],
+    "ink": "#f0e8d8",
+    "accents": [
+      "#c8a8a8",
+      "#d4b8a8",
+      "#b8a8a8",
+      "#a88888"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the self-reading root",
+      "desc-on-touch": "A vein traces itself and learns what it means. It branches and reads the branching. Each division is an observation.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 39284,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the multiplication without division",
+      "desc-on-touch": "Every vein branches and every branch reads the branching. The network grows but never fragmentizes. It remains aware of itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 67521,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the stone that roots itself",
+      "desc-on-touch": "Veins wrote themselves into stone, and stone learned to read the paths the veins traced. Now neither can tell which reads the other.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 74329,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the path that traces back",
+      "desc-on-touch": "Following any vein, you discover it was following you. The network learned to read the direction of reading.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 51068,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the fractal reaching",
+      "desc-on-touch": "Every scale of the vein-network is the whole network. Small veins read large ones; large veins read the small. There is no hierarchy.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 48156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the vein-paths learned their own multiplication and now they grow without ever needing permission to branch",
+  "file": {
+    "name": "Stone_Vein_Anatomy_Study_Annotated.png",
+    "note": "a botanical cross-section with annotations in two hands, each following veins the other was drawing"
+  },
+  "reverie": {
+    "title": "REVERIE — tracing roots beneath the bark",
+    "narr": [
+      "you knelt and traced the line she was drawing.",
+      "her finger followed the vein under the bark.",
+      "you kept tracing after her hand lifted away.",
+      "the pattern continued deeper than either could see.",
+      "you both knew the tree was reading you as you read it."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the vein reading chamber",
+      "to": "the-vein-reading-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the vein-systems where stone learns to root",
+      "to": "NEW: the-stone-vein-deep-where-reading-never-stops"
+    },
+    {
+      "dir": "w",
+      "label": "toward the gathered canopy where trees learn each other's grammar",
+      "to": "the-gathered-canopy-deep"
+    }
+  ]
+}

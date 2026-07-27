@@ -1,0 +1,155 @@
+{
+  "id": "the-ridge-where-paddocks-grow-steep",
+  "title": "The Ridge Where Paddocks Grow Steep",
+  "region": "The Clean Archive",
+  "seed": 824167,
+  "palette": {
+    "bg": "#2d5a2d",
+    "ground": [
+      "#7fa86f",
+      "#8fb88f"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#cc6633",
+      "#663300",
+      "#99dd00",
+      "#336633"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.4
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "performance marker",
+      "desc-on-touch": "A stone with worn lines: people have walked here and pretended to remember. Each year a group returns to act out a past that shifts slightly. The grass holds the shapes of multiple stories.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 341789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "local roster",
+      "desc-on-touch": "Names carved into wood and kept updated. Not the dead — the people who walked here and spoke the ridge into a different shape. The roster contradicts itself by region; the park knows more versions of itself than any history can hold.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 567294,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "terrain memory",
+      "desc-on-touch": "The ridge's own archive: how many times the paddock reshaped itself, how many years the game was played, how many stories the same landscape held. The earth here is a text that rewrites each season.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 719402,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "elevation gate",
+      "desc-on-touch": "Where the paddock steepens and the flatland says goodbye. Beyond here, memory becomes choreography. The climb is always the same route, but each person walks it as a different story.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 483926,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "shadow map",
+      "desc-on-touch": "A drawing in the dirt: all the overlapping paths people have taken up this ridge. No single trail — instead a density, a heatmap of footfalls. The shadow shows how many people played the same place as different people.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 294571,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the paddock reshapes itself each year; by season's end the story has changed the land",
+  "file": {
+    "name": "Ridge_Performance_Overlays_Handwritten.txt",
+    "note": "Notes on group stagings here across decades. Archive holds multiple versions of the same walk. The landscape contradicts itself and holds both versions as true."
+  },
+  "reverie": {
+    "title": "REVERIE — high paddock at turning time",
+    "narr": [
+      "You both walk the ridge as others have walked it. The game",
+      "is to pretend the first time. The slope rises like it knows",
+      "you're keeping a story that isn't finished. She says:",
+      "\"What if we both played different endings?\" and the earth",
+      "holds the question. The paddock will reshape itself. You'll",
+      "both leave, and it will still remember you chose to stay."
+    ],
+    "sky": "overcast",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back to the dreaming paddocks",
+      "to": "the-country-where-paddocks-dream-their-own-shape"
+    },
+    {
+      "dir": "n",
+      "label": "higher northward where the shaping becomes steeper still",
+      "to": "NEW: the-apex-where-paddocks-remember-they-are-not-fixed"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where local history performs itself",
+      "to": "the-annotated-paddock-boundary"
+    },
+    {
+      "dir": "w",
+      "label": "westward toward the game played in other towns",
+      "to": "NEW: where-the-same-story-lives-in-different-hills"
+    }
+  ]
+}

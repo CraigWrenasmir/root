@@ -1,0 +1,134 @@
+{
+  "id": "the-laboratory-of-settled-opinions",
+  "title": "The Laboratory of Settled Opinions",
+  "region": "The Comparisons",
+  "seed": 54782,
+  "palette": {
+    "bg": "#0d3d3d",
+    "ground": [
+      "#2d7d7d",
+      "#3d8d8d"
+    ],
+    "ink": "#d4e8e8",
+    "accents": [
+      "#8b6f47",
+      "#a0826d",
+      "#b89968",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the test bench",
+      "desc-on-touch": "A counter where copper and water were held separate long enough to be measured. The measuring instruments have since learned to agree with each other, which is how you know they are wrong.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 63891,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the opinion ledger",
+      "desc-on-touch": "Records of water colour, copper dissolution rates, chemical conclusions—each entry contradicts the one before it, yet all are marked 'verified' and 'settled'.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 78234,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the copper vessel",
+      "desc-on-touch": "A container that held the experimental water. The copper has aged into new colours each time it is consulted—verdigris that blooms and fades, rust-hues that appear and unmake themselves.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 81945,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the settlement observer",
+      "desc-on-touch": "A figure that stands at the edge of the lab, neither scientist nor settler, watching the conclusions harden and soften in the verdigris light. It breathes the copper taste and learns what the water learned.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 49273,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the comparison chart",
+      "desc-on-touch": "A grid where water and copper are plotted against time, against temperature, against observation. Each axis shifts when you look away, and the conclusions arrive at different answers every visit.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 62741,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where opinion learned to set like copper oxides into certainty, and then began to discolour",
+  "file": {
+    "name": "Water_Chemistry_Field_Study_1987_Copper_Creek.txt",
+    "note": "Laboratory notes from a water-quality survey of a creek downstream from old copper workings—the data entries have begun to edit themselves, each page showing different conclusions about what was teste"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down into the shallows where the bleeding continues",
+      "to": "the-shallows-where-copper-bleeds"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the settlement where these opinions were believed",
+      "to": "NEW: the-township-of-verified-error"
+    },
+    {
+      "dir": "e",
+      "label": "across to other places where water learned the taste of metals",
+      "to": "the-bedrock-where-electricity-learned-to-root"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-shallows-where-copper-bleeds",
+  "title": "The Shallows Where Copper Bleeds",
+  "region": "The Comparisons",
+  "seed": 7284591,
+  "palette": {
+    "bg": "#1a2e4a",
+    "ground": [
+      "#2d5a7b",
+      "#0f1929"
+    ],
+    "ink": "#7dd3ff",
+    "accents": [
+      "#c87f3a",
+      "#d4a574",
+      "#e8e8e8",
+      "#3d4a6b"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "corroded overflow",
+      "desc-on-touch": "the pipe weeps oxidized copper into the shallows; its voice is three-fold, turning in the current",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 1029384,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "settling pool",
+      "desc-on-touch": "you wade in tinted water; the discolouration arranges itself into settled strata",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2847561,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "testing station marker",
+      "desc-on-touch": "a faded enamel sign announces water quality sampling; the dates have run together",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4156723,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "upstream debris field",
+      "desc-on-touch": "broken copper fittings and old pipe segments lie in the shallows, arranged by current into a language you almost read",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5830294,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "echo chamber",
+      "desc-on-touch": "water moving through rusted piping makes a sound like singing; three voices in different keys, none of them human",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 3692847,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the copper has bled long enough that the water learned its taste; now the water teaches the copper what colour to become",
+  "file": {
+    "name": "CouncilLetter_Re_WaterDiscolouration_1987.txt",
+    "note": "official complaint turns mid-sentence into descriptions of harmonic intervals; correspondence continues in three parallel arguments"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the still mirror",
+      "to": "the-double-pool"
+    },
+    {
+      "dir": "n",
+      "label": "the tributary climbing toward its source, where copper was first mined",
+      "to": "NEW: the-ridge-where-ore-remembers-its-becoming"
+    },
+    {
+      "dir": "e",
+      "label": "toward the settlement where the water was tested",
+      "to": "the-laboratory-of-settled-opinions"
+    },
+    {
+      "dir": "w",
+      "label": "downstream, where the taint becomes diluted into river",
+      "to": "the-word-river-mouth"
+    }
+  ]
+}

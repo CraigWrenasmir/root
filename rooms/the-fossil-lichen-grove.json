@@ -1,0 +1,155 @@
+{
+  "id": "the-fossil-lichen-grove",
+  "title": "The Fossil Lichen Grove",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#c84820",
+      "#d4621f"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#8b4513",
+      "#daa520",
+      "#a0522d",
+      "#cd853f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the oldest count",
+      "desc-on-touch": "A line of numbered stones, each one a debt paid into the earth. You kneel to read them and the numbers blur into dates, then into names that no longer answer.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 82461,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the long shadow",
+      "desc-on-touch": "A shadow cast by a debt so ancient it no longer remembers what it owed. The shadow points backward and downward, into the place where the stone learned to hold time.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 91847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the mineralized root",
+      "desc-on-touch": "A tree grown through fossils, its roots reading the debt-layers as it sinks deeper. The lichen that covers it is not green; it is the colour of old copper, old brass, old forgetting.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 65432,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the settlement that paid",
+      "desc-on-touch": "A pale structure visible through the haze of lichen dust—a place where the debt was incurred, now rendered as a tiny building drowning in slow growth.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 74921,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the archive's breath",
+      "desc-on-touch": "A space where the fossil grove breathes out the settled air of forty-two histories. You feel the weight of what was owed and what could never be repaid, now balanced on a knife-edge between stone and life.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 58374,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "where what was owed learned to become what is real, and lichen reads the debt in slow colours",
+  "file": {
+    "name": "LichenGrowth_AncientStone_Study_1952.txt",
+    "note": "A botanist's careful record of lichen species on stone markers in the high country—corrupted, now: the stone types have changed, the lichen colours have shifted, and the dates run backwards"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the shadows where debts still crystallize",
+      "to": "the-debt-made-fossil"
+    },
+    {
+      "dir": "n",
+      "label": "upward where lichen becomes visible from the sky",
+      "to": "NEW: the-high-lichen-frontier-where-growth-learns-to-scatter"
+    },
+    {
+      "dir": "w",
+      "label": "where the oldest stones refuse to be named",
+      "to": "the-stone-autobiography-layer"
+    },
+    {
+      "dir": "e",
+      "label": "into the clearing where debts became monuments",
+      "to": "the-coordinate-grid"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the fossil lichen grove at dusk",
+    "narr": [
+      "You kneel beside her on the stone lip where the lichen",
+      "has written older than words. She touches a mark with two",
+      "fingers—a debt paid so long ago the payer is now the thing",
+      "that was purchased. Her finger moves careful, slow. The light",
+      "is going. The shadows pool around the oldest stones. You watch",
+      "her learn what the lichen has been learning all this time."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-sentence-s-first-utterance",
+  "title": "The Sentence's First Utterance",
+  "region": "The Understory",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a4a2a",
+      "#0d1020"
+    ],
+    "ink": "#3fff66",
+    "accents": [
+      "#ff2040",
+      "#ffdd00",
+      "#ffffff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "cardinal logic chip",
+      "desc-on-touch": "the first gate. input is the question mark; output is the period. between them, the sentence learns to speak",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 8392047,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "songline trace routing",
+      "desc-on-touch": "circuit paths that map onto known country. when you run your finger along the trace, you hear song-words in languages older than writing",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2738465,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "contact field",
+      "desc-on-touch": "the power plane. everywhere you look, gold pins hold the sentence to ground. it cannot float; it must be spoken into the world",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6184729,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "recursion capacitor",
+      "desc-on-touch": "it charges with voltage; it discharges by becoming a smaller copy of itself. each iteration, the sentence forgets one fewer word",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3920184,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "origin junction",
+      "desc-on-touch": "here the forward traces meet the backward traces. the sentence arrives at its beginning and cannot remember how to leave",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5729384,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "no word was ever the first word; every utterance arrives already corrupted by its own echo",
+  "file": {
+    "name": "CircuitTrace_Mapping_Oral_Precedent_Reconstructed.dat",
+    "note": "computer output appears to correlate wire layout with Yolŋu songlines; correlation is flawless; no one programmed it to be"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the sentence that grows, returning to the present tense",
+      "to": "the-sentence-that-grows-its-own-words"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the circuit, where the first word is spoken in mathematics",
+      "to": "NEW: the-equation-that-answered-before-it-was-asked"
+    },
+    {
+      "dir": "w",
+      "label": "toward the country mapped in the traces, where song-paths lead",
+      "to": "NEW: the-singing-country-rendered-as-schematic"
+    }
+  ]
+}
