@@ -1,0 +1,156 @@
+{
+  "id": "the-ground-where-teaching-spirals",
+  "title": "The Ground Where Teaching Spirals",
+  "region": "The Clean Archive",
+  "seed": 62784,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0033cc",
+      "#0055ff"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#00ffff",
+      "#ffff00",
+      "#ff00ff",
+      "#00ff88"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "collaborative indexing structure",
+      "desc-on-touch": "a wireframe of entries, editable in real time. teachers and taught are both writing here. the distinction between contributor and reader has become optional. the wiki is teaching itself by being read.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "recursion spiral marker",
+      "desc-on-touch": "a glyph spiraling inward. follow it and you find it was spiraling outward. the center is the edge. the students who were taught are now teaching the teachers, spiraling into ground they once stood on.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3921,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "documented learning pool",
+      "desc-on-touch": "each lesson documented as soon as it is learned. but the documentation changes the lesson. and the changed lesson teaches something new. the pool reflects not what was taught but what is being learned in the act of recording.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8384,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "citation tower",
+      "desc-on-touch": "a stack of references, each one pointing backward and forward simultaneously. who taught whom? the tower does not decide. each block is held in place by the weight of all the others, spiraling upward and downward at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4726,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "meta-archive filecard",
+      "desc-on-touch": "a directory of directories. entries describing how entries are described. the file structure has learned to document itself. the archive teaches the archive to read itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 6512,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "edit history chamber",
+      "desc-on-touch": "every change is recorded. every editor is a teacher. every reader who modifies an entry teaches the next reader something the original did not contain. the ground has become collaborative simply by refusing to set.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7089,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the students who learned from the ground became the ground from which new students learn",
+  "file": {
+    "name": "Teaching_Spiral_Wiki_All_Revisions_All_Contributors_Recursive.xml",
+    "note": "a collaborative archive documenting itself; every edit is visible; every reader can become a teacher; the distinction has spiraled into meaninglessness"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the elder ground where teaching holds",
+      "to": "the-elder-ground-where-teaching-takes-hold"
+    },
+    {
+      "dir": "n",
+      "label": "outward to nodes where students teach nodes to be students",
+      "to": "NEW: the-registry-where-taught-becomes-teaching"
+    },
+    {
+      "dir": "w",
+      "label": "toward other spirals spiraling at other scales",
+      "to": "the-mirror-chamber-where-spirals-meet-themselves"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into recursive documentation",
+      "to": "the-recursive-render-depth"
+    }
+  ]
+}

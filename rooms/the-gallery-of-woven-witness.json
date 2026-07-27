@@ -1,0 +1,155 @@
+{
+  "id": "the-gallery-of-woven-witness",
+  "title": "The Gallery of Woven Witness",
+  "region": "The Understory",
+  "seed": 47291,
+  "palette": {
+    "bg": "#2a1a3a",
+    "ground": [
+      "#d4671f",
+      "#e8a04d"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#d946c6",
+      "#ff6b35",
+      "#c7254e",
+      "#f4a460"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "hung frame",
+      "desc-on-touch": "cloth that learned to hold what hands release; each thread still carries a moment someone wanted kept",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "witness stand",
+      "desc-on-touch": "where cloth testified to what hands had learned",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 5129,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "colour runs",
+      "desc-on-touch": "dye that bled from memory into thread; the archive reads itself in staining",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 1634,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "folded corner",
+      "desc-on-touch": "where someone marked a place they'd return to; the crease holds breath",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3891,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "thread counter",
+      "desc-on-touch": "to learn what each thread knows, you must be willing to count the same thing endlessly in different lights",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 7456,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.12,
+      "y": 0.42,
+      "solid": false
+    }
+  ],
+  "inscription": "the cloth that learned to remember became the first archive before the network was born",
+  "file": {
+    "name": "WeavingRecords_1947_Testimonies.txt",
+    "note": "names of weavers, their patterns, what each loom sang; the archive reads back: the singers have become what they wove"
+  },
+  "reverie": {
+    "title": "REVERIE — the shed at dusk where cloth learned patience",
+    "narr": [
+      "You sit across from her, the loom between you.",
+      "She pulls thread; the pattern grows without hurrying.",
+      "Her hands know the count. She does not speak.",
+      "The light is leaving the shed, but the cloth glows.",
+      "She says: this is how the archive begins — someone",
+      "deciding one thread matters enough to hold."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "northward, where the loom still teaches",
+      "to": "the-loom-that-taught-the-archive-to-think"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to a room where colours gather in order",
+      "to": "NEW: where-dyes-learned-their-own-alphabets"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where cloth learns to be worn",
+      "to": "the-ancient-root-dwelling"
+    },
+    {
+      "dir": "s",
+      "label": "southward deeper, where finished cloth still holds its weaver's hands",
+      "to": "NEW: the-gallery-beneath-the-gallery"
+    }
+  ]
+}

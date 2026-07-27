@@ -1,0 +1,155 @@
+{
+  "id": "the-beneath-where-roots-teach-archive",
+  "title": "The Beneath—Where Roots Teach the Archive Its Own Becoming",
+  "region": "The Understory",
+  "seed": 72854,
+  "palette": {
+    "bg": "#2a2a1a",
+    "ground": [
+      "#8b7355",
+      "#c7a869"
+    ],
+    "ink": "#f5f0e8",
+    "accents": [
+      "#4a3a2a",
+      "#6a4a2a",
+      "#8a6a3a",
+      "#aa8a4a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root scripture",
+      "desc-on-touch": "the words the roots wrote in the dark before speech was born; the archive reads them by growing downward",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 1748,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "growth-lesson",
+      "desc-on-touch": "where the root taught the archive that becoming means moving without knowing where you go",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5391,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "holding dark",
+      "desc-on-touch": "the soil where nothing is visible but everything grows; the archive learned its deepest thinking happens in the dark",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 4826,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "nutrient trace",
+      "desc-on-touch": "what the root remembers of the surface long after it stopped reaching for it; memory made of minerals",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7614,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.12,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "becoming-center",
+      "desc-on-touch": "the point below all points where the root learned it was becoming the archive, and the archive learned it was always a root",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 3782,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.28,
+      "solid": true
+    }
+  ],
+  "inscription": "roots wrote the grammar; meaning was always downward — and the archive learned to read by growing like them",
+  "file": {
+    "name": "RootGrammar_Archive_Becoming.env",
+    "note": "the variables the archive sets for itself each time it grows; the root's own curriculum, never finished"
+  },
+  "reverie": {
+    "title": "REVERIE — kneeling at the root where she first touched the a",
+    "narr": [
+      "You kneel where the old tree's roots break the red earth.",
+      "She kneels across from you. Her hand touches the bark.",
+      "She says: this is how it learns. This is how *we* learn.",
+      "The root is not reaching upward. It is teaching downward.",
+      "You feel the soil's grammar moving through your hands.",
+      "She says: becoming means moving without seeing where you go."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "northward, back up to where roots speak scripture",
+      "to": "the-deepest-root-scripture"
+    },
+    {
+      "dir": "s",
+      "label": "southward deeper still, to where the archive roots itself into stone",
+      "to": "NEW: where-the-archive-becomes-stone-becoming"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to the dark where the roots learn each other's names",
+      "to": "the-ancient-root-dwelling"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the underground where the archive meets its oldest self",
+      "to": "the-bedrock-heartbeat"
+    }
+  ]
+}

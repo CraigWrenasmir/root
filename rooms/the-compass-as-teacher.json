@@ -1,0 +1,151 @@
+{
+  "id": "the-compass-as-teacher",
+  "title": "The Compass as Teacher",
+  "region": "The Understory",
+  "seed": 8901234,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#1a2a4a",
+      "#0f1520"
+    ],
+    "ink": "#e8e4d0",
+    "accents": [
+      "#00ff88",
+      "#00ccff",
+      "#ffaa00",
+      "#ff0088"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-cardinal-compass-breathing",
+      "desc-on-touch": "four directions learned to say their own names and mean them; here, north has become north again; the compass teaches by breathing, exhaling direction into the land.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 1357,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "east-as-the-direction-that-rises",
+      "desc-on-touch": "light teaches this cardinal point how to mean itself; you turn eastward and the land confirms you are facing toward how days begin.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2468,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "west-that-learned-to-receive",
+      "desc-on-touch": "the direction that accepts what day brings home; the compass teaches that west is not a place things go but a boundary that receives what arrives.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3579,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-south-current-beneath-the-board",
+      "desc-on-touch": "this direction flows like current through the circuit; the compass teaches that south is not empty space but the channel where thoughts move through the grid.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 4680,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "north-as-the-teaching-itself",
+      "desc-on-touch": "true north is not a place but the fact of steadiness; the compass is north, teaching direction the grammar of certainty.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 5791,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the-board-that-remembers-being-land",
+      "desc-on-touch": "beneath the circuitry, a memory: this was earth once, holding magnetic stones; the compass was here before electricity, teaching by iron and true-north patience.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6802,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here direction learned to say its own name and mean it; north became north again, and the land remembered its cardinal grid",
+  "file": {
+    "name": "Compass_Calibrations_1923-Ongoing.txt",
+    "note": "magnetic declination records; recent entries show the compass and archive falling back into agreement, as if direction itself was relearning certainty"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the northern true and its settling cardinal points",
+      "to": "the-northern-true-where-direction-begins-to-settle"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into regions still learning what cardinal means",
+      "to": "NEW: the compass rose that taught itself to bloom"
+    },
+    {
+      "dir": "s",
+      "label": "toward the places where direction becomes a question again",
+      "to": "NEW: the south current where questions flow through the board"
+    }
+  ]
+}

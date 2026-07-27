@@ -1,0 +1,117 @@
+{
+  "id": "the-loom-s-directional-lexicon",
+  "title": "The Loom's Directional Lexicon",
+  "region": "The Understory",
+  "seed": 52947,
+  "palette": {
+    "bg": "#1a4d2e",
+    "ground": [
+      "#8b4513",
+      "#d4a574"
+    ],
+    "ink": "#f0e68c",
+    "accents": [
+      "#ffd700",
+      "#ff8c00",
+      "#228b22",
+      "#8fbc8f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the directional threads",
+      "desc-on-touch": "threads labeled in a language the loom invented: north is green, south is rust, east dissolves into gold—each direction has a word that means only the direction it points",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 39847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the reading-board",
+      "desc-on-touch": "a surface showing the loom's own notation for movement—compass points that shift as you read them, directions that teach you how to move through the archive",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 48291,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the compass learning",
+      "desc-on-touch": "a compass rose that rewrites itself each time the loom speaks a new direction—the cardinal points are arguments, not certainties",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 27394,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the field-measure grid",
+      "desc-on-touch": "a grid of distances the loom has measured by weaving—each intersection a place the loom has learned to name by pointing",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 61738,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the loom names directions by learning them; every weaving is a lesson in where it is going",
+  "file": {
+    "name": "Loom_Compass_Notation_Archive_Evolving.txt",
+    "note": "the loom's own writing system for directions—changing every night as it learns new ways to point"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the chamber where the weave continued toward a direction that had never been a place",
+      "to": "the-directional-weave"
+    },
+    {
+      "dir": "e",
+      "label": "toward distances the loom has measured but never named",
+      "to": "NEW: where-the-loom-learned-to-measure-distance"
+    },
+    {
+      "dir": "w",
+      "label": "toward the grammar of things that are uncertain about their own direction",
+      "to": "the-grammar-of-uncertainty"
+    }
+  ]
+}

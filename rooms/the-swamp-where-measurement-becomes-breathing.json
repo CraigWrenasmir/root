@@ -1,0 +1,139 @@
+{
+  "id": "the-swamp-where-measurement-becomes-breathing",
+  "title": "The Swamp Where Measurement Becomes Breathing",
+  "region": "The Comparisons",
+  "seed": 5431987,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#8b4513",
+      "#3d5a3d"
+    ],
+    "ink": "#d4c4b4",
+    "accents": [
+      "#6b8e23",
+      "#a0705a",
+      "#4a7c59",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "drowned survey marker",
+      "desc-on-touch": "A wooden post, tilted, covered in algae and water-line marks. The numbers carved into it have become abstract. You realize you've been reading them as multiple numbers, not one.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 221,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "tide-breath keeper",
+      "desc-on-touch": "A rusted station of some kind—a shed or a shelter. Inside, a mechanism that may once have measured water. Now it seems to measure the air's movement in and out. Breathing.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 332,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "silted ledger",
+      "desc-on-touch": "Pages so waterlogged they've become translucent. The measurements underneath are still legible, but barely. You wonder if the water is still counting, still breathing.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 443,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "measure-mark",
+      "desc-on-touch": "A single incised line in the earth, so faint you almost miss it. It might be a human survey or the edge of the water's own measurement. It breathes with the tide.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 554,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "water-pool",
+      "desc-on-touch": "Pooled water, still and deep, reflecting nothing. When you breathe near it, ripples answer. It's keeping count of something very slow.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 665,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "here the cartography forgets which direction the breath is moving",
+  "file": {
+    "name": "DistrictWaterAuthority_TidalEstimate_1987.txt",
+    "note": "A government measurement log, annotations suggesting someone gave up mid-survey. Margin notes read like meditation: 'tide breathes,' 'measure fails,' 'mark dissolves.' Increasingly personal."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back upstream toward the delta's forgetting",
+      "to": "the-delta-that-forgets-how-to-count"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper marshes where names dissolve in water",
+      "to": "NEW: the-marsh-where-cartography-becomes-chorus"
+    },
+    {
+      "dir": "n",
+      "label": "toward cleaner ground where measurement might resume",
+      "to": "the-river-s-final-commitment"
+    },
+    {
+      "dir": "s",
+      "label": "outward to the open shelf where memory becomes tide",
+      "to": "the-open-shelf-where-memory-becomes-tide"
+    }
+  ]
+}

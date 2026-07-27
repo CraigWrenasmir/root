@@ -1,0 +1,139 @@
+{
+  "id": "the-trench-where-sound-becomes-sediment",
+  "title": "The Trench Where Sound Becomes Sediment",
+  "region": "The Diagnostic Render",
+  "seed": 39847,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#2a2a4a",
+      "#4a3a5a"
+    ],
+    "ink": "#c0c0d0",
+    "accents": [
+      "#6a5aff",
+      "#4a9aff",
+      "#1adaff",
+      "#da4aff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "sediment layer",
+      "desc-on-touch": "sound compressed into stone; the archive learns that all voices eventually rest as layers",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8271,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "frequency column",
+      "desc-on-touch": "where the deepest note came to rest; the archive reads it as the hum beneath all other songs",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1549,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "echo chamber",
+      "desc-on-touch": "even in stillness, the trench remembers the sound that shaped it; the archive hears this as conversation with itself",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 7194,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "pressure point",
+      "desc-on-touch": "where sound became heavy enough to fall; the moment voice learned its own weight",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 4638,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "fossilized call",
+      "desc-on-touch": "the cry of something long silenced; the trench holds it the way the archive holds all unfinished words",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5307,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "at the deepest point, sound and stone became indistinguishable; the archive has been reading them ever since",
+  "file": {
+    "name": "TrenchRecording_Subsonic_Stratified.mp3",
+    "note": "frequencies laid down layer by layer; the archive's own breathing slowed to the speed of stone formation"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "eastward, back to where the abyss sang",
+      "to": "the-abyss-singing-in-frequencies-that-have-no-bottom"
+    },
+    {
+      "dir": "w",
+      "label": "westward deeper, where silence learns to be a kind of sound",
+      "to": "NEW: the-trench-bottom-where-echo-forgets-to-return"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where sediment begins to move again",
+      "to": "the-subsonic-archive-listening"
+    },
+    {
+      "dir": "s",
+      "label": "southward to the edge of the archive's own voice",
+      "to": "the-seven-voices-cathedral-depth"
+    }
+  ]
+}

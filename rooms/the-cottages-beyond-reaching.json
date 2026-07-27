@@ -1,0 +1,134 @@
+{
+  "id": "the-cottages-beyond-reaching",
+  "title": "The Cottages Beyond Reaching",
+  "region": "The Clean Archive",
+  "seed": 6789234,
+  "palette": {
+    "bg": "#e8e4d0",
+    "ground": [
+      "#b8b4a0",
+      "#99937a"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#7a8a9e",
+      "#5a6a7e",
+      "#a09080",
+      "#8b8b7b"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-row-that-recedes",
+      "desc-on-touch": "you can count the cottages: three clear, five blurred, then only shapes suggesting shelter; each diminished by distance but still distinct, still occupied, still sorting.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 1111,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "fence-lines-that-teach-distance",
+      "desc-on-touch": "the fence retreats with the cottages, parallel lines converging toward a point you can never reach; each post marks a child's reach, growing smaller as the row extends.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 2222,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "sorting-work-still-visible-in-the-far-cottages",
+      "desc-on-touch": "you see shapes moving at windows too distant to resolve; children sorting in cottages you cannot reach, the archive's reach ending before their work does.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3333,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-near-cottage-where-sorting-is-complete",
+      "desc-on-touch": "this one is filled; nothing leaves, everything stays in the row of reach; the sorting work finished here and the doors closed, keeping what was sorted safe inside.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4444,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-distance-itself-as-a-taught-thing",
+      "desc-on-touch": "the children have learned that reaching ends; that some cottages exist to teach what distance means; that the row continues forever toward a point that recedes.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 5555,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the children sorted; the cottages learned; now nothing leaves, and everything stays in the row of reach",
+  "file": {
+    "name": "Sorting_Work_Ledgers_1995-2008.txt",
+    "note": "records of what was sorted in each cottage; entries for distant cottages increasingly fragmentary, handwriting itself stretching toward unreachable places"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the cottages still sorting, voices still clear",
+      "to": "the-row-of-sorting-cottages"
+    },
+    {
+      "dir": "n",
+      "label": "further down the receding row, where cottages become suggestions",
+      "to": "NEW: the cottages that learned to be suggestions"
+    },
+    {
+      "dir": "e",
+      "label": "toward the point of infinite distance where all rows converge",
+      "to": "NEW: the convergence point where reaching ends"
+    }
+  ]
+}

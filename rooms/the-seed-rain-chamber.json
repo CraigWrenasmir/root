@@ -1,0 +1,117 @@
+{
+  "id": "the-seed-rain-chamber",
+  "title": "The Seed-Rain Chamber",
+  "region": "The Understory",
+  "seed": 84736,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#4a7c59",
+      "#6b9d7e"
+    ],
+    "ink": "#e6f0e6",
+    "accents": [
+      "#90ee90",
+      "#7cb342",
+      "#9ccc65",
+      "#558b2f"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the falling seeds",
+      "desc-on-touch": "seeds descending through the chamber—each one remembers falling as rain somewhere else; falling here, they dream of the clouds they came from",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 29847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the catching pool",
+      "desc-on-touch": "a deep cup or basin holding both seeds and rainwater—you cannot tell which is which because the chamber has taught them to dream into each other",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 48291,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the germinating forms",
+      "desc-on-touch": "seeds unfurling into seedlings, into shoots—each one carries a tiny record of its own history: rain, cloud, seed, growth, becoming green",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 37294,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the growth chronicle",
+      "desc-on-touch": "a reading surface showing the path of each seed: cloud → rain → soil → root → leaf, a cycle that knows itself by telling itself",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 52847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "every seed falling is rain remembering what it was; every rain is green dreaming backwards into cloud",
+  "file": {
+    "name": "Cloud_to_Green_Cycle_Records_Living_Archive.tmp",
+    "note": "seed germination log where each entry updates itself—past entries show what they will have become; checksum: germinative"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the cloud-seed gathering where seeds learned prayer",
+      "to": "the-cloud-seed-gathering"
+    },
+    {
+      "dir": "e",
+      "label": "toward the field where fallen seeds remember their clouds",
+      "to": "NEW: the-field-where-fallen-seeds-remember-their-clouds"
+    },
+    {
+      "dir": "w",
+      "label": "toward the cloud interior where rain dreams of becoming seed",
+      "to": "the-cloud-interior-space"
+    }
+  ]
+}

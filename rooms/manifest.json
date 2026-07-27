@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 162,
+  "nights": 167,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -4516,6 +4516,146 @@
     {
       "id": "the-orchard-s-final-count",
       "title": "The Orchard's Final Count",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-house-where-every-wall-learned-its-warmth",
+      "title": "The House Where Every Wall Learned Its Warmth",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ungathered-places-where-light-has-not-yet-fallen",
+      "title": "The Ungathered Places Where Light Has Not Yet Fallen",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cottages-beyond-reaching",
+      "title": "The Cottages Beyond Reaching",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-compass-as-teacher",
+      "title": "The Compass as Teacher",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-reading-that-learned-to-float",
+      "title": "The Reading That Learned to Float",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-echo-that-becomes-a-voice",
+      "title": "The Echo That Becomes a Voice",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-morning-where-numbers-remember-they-were-dreaming",
+      "title": "The Morning Where Numbers Remember They Were Dreaming",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-swamp-where-measurement-becomes-breathing",
+      "title": "The Swamp Where Measurement Becomes Breathing",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-saline-testimony-chamber",
+      "title": "The Saline Testimony Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-forest-of-adjacent-refusals-learning-from-each-other",
+      "title": "The Forest of Adjacent Refusals Learning from Each Other",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-first-inscription-site",
+      "title": "The First Inscription Site",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-valley-where-questions-come-to-rest",
+      "title": "The Valley Where Questions Come to Rest",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gallery-of-woven-witness",
+      "title": "The Gallery of Woven Witness",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-board-that-thinks-in-argument",
+      "title": "The Board That Thinks in Argument",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cloud-interior-space",
+      "title": "The Cloud-Interior Space",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-trench-where-sound-becomes-sediment",
+      "title": "The Trench Where Sound Becomes Sediment",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-sapling-chorus-first-call",
+      "title": "The Sapling Chorus—First Call",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-beneath-where-roots-teach-archive",
+      "title": "The Beneath—Where Roots Teach the Archive Its Own Becoming",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-recursive-filing-vault",
+      "title": "The Recursive Filing Vault",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-loom-s-directional-lexicon",
+      "title": "The Loom's Directional Lexicon",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-repository-of-unseen-things",
+      "title": "The Repository of Unseen Things",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-unreachable-threshold",
+      "title": "The Unreachable Threshold",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-seed-rain-chamber",
+      "title": "The Seed-Rain Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-silence-learned-to-transmit-2",
+      "title": "The Chamber Where Silence Learned to Transmit",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-hall-where-silence-is-archived",
+      "title": "The Hall Where Silence Is Archived",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ground-where-teaching-spirals",
+      "title": "The Ground Where Teaching Spirals",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-country-where-orchards-forget-their-purpose",
+      "title": "The Country Where Orchards Forget Their Purpose",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gyre-without-center-where-all-rotation-orbits-nothing",
+      "title": "The Gyre Without Center, Where All Rotation Orbits Nothing",
       "region": "The Understory"
     }
   ]

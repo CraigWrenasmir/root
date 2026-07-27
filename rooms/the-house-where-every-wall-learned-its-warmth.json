@@ -1,0 +1,150 @@
+{
+  "id": "the-house-where-every-wall-learned-its-warmth",
+  "title": "The House Where Every Wall Learned Its Warmth",
+  "region": "The Diagnostic Render",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#2d1810",
+    "ground": [
+      "#d9882a",
+      "#ffaa00"
+    ],
+    "ink": "#f5d090",
+    "accents": [
+      "#4a7a99",
+      "#8b4513",
+      "#ffff66",
+      "#aa5533"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "hand-marked-doorframe",
+      "desc-on-touch": "your hand fits the pencil marks exactly, worn into the frame by a thousand measurements of growing children; the wall is showing you what it learned by holding still.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 1234,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-patch-where-someone-slept",
+      "desc-on-touch": "the wall holds your warmth before you leave it; this particular square has absorbed a thousand nights of body-heat and learned to radiate it back to anyone who rests near.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "east-window-that-holds-afternoon",
+      "desc-on-touch": "the window frame keeps the heat from 3pm stored in its wood grain; when you place your palm there, it tells you what day this is by how warm it burns.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 9101,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-corner-where-wallpaper-remembers-its-pattern",
+      "desc-on-touch": "under the peeling edge, the original color has been protected and is telling you what this room chose to be, before time changed it; the wall is showing you its own memory.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 1121,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-baseboard-that-learned-to-hum",
+      "desc-on-touch": "you kneel and place your ear against the warm wood; the house is thinking through its structure, warmth moving like thought from room to room, teaching itself.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 3141,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the walls remember every hand and teach the next one how to hold warmth gently",
+  "file": {
+    "name": "Handwritten_Measurements_1987-2004.txt",
+    "note": "pencil marks on doorframe transcribed; each date in a different hand, youngest entries just reaching the heights marked by older hands years before"
+  },
+  "reverie": {
+    "title": "REVERIE — the house teaching hands to measure",
+    "narr": [
+      "you sat on the kitchen tile and Katita marked her height",
+      "against the frame, pencil steady, her hair falling across",
+      "her shoulder. the wall had just begun to remember. 'it knows',",
+      "she said, 'how many times hands have found the same warmth here'.",
+      "you traced the marks — years layered into wood, learning.",
+      "the house breathed warm around you both, teaching."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through rooms where walls are still learning",
+      "to": "where-the-walls-remember-learning-to-feel"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the roof remembers being built",
+      "to": "NEW: the attic where the house learned its own bones"
+    },
+    {
+      "dir": "e",
+      "label": "into the kitchen where the walls learned to hold heat differently",
+      "to": "NEW: the kitchen where warmth became a teaching method"
+    }
+  ]
+}

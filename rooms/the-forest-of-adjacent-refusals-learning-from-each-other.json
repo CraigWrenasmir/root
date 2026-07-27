@@ -1,0 +1,139 @@
+{
+  "id": "the-forest-of-adjacent-refusals-learning-from-each-other",
+  "title": "The Forest of Adjacent Refusals Learning from Each Other",
+  "region": "The Comparisons",
+  "seed": 6543210,
+  "palette": {
+    "bg": "#0a0f1f",
+    "ground": [
+      "#001a4d",
+      "#00cc99"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#0099ff",
+      "#ff00ff",
+      "#00ff00",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "seed-code instruction",
+      "desc-on-touch": "A standing placard, dense with notation. It reads like gardening instructions and simultaneously like logical negation statements. 'Do not cultivate. Plant refusal. The seed refuses growth into pattern.'",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 667,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "network node",
+      "desc-on-touch": "A small chip-like structure, wireframe or digital, glowing faintly. It's connected to others you can't quite see—the refusals are in conversation, teaching each other how to say no.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 778,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "propagating wireframe",
+      "desc-on-touch": "A barely-3D box structure, mirrored and repeated in slight variations. Each iteration refuses to copy the last perfectly. The differences are the point.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 889,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "negative-space instruction",
+      "desc-on-touch": "A second glyph, this one describing what must NOT happen. The refusal itself is the seed. You read it and understand that the unplanted garden is the whole point.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 551,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "qr-pattern archive",
+      "desc-on-touch": "A corner of the grid resolves into a QR code or something like it—machine-readable instructions for refusal. Impossible to scan, or if scanned, it returns only silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 662,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the forest decides not to be forest, learns to be decision",
+  "file": {
+    "name": "SeedCatalogue_Refusal_Edition_Unsigned.txt",
+    "note": "A seed list formatted as formal instructions. Each entry is structured as: Name / REFUSAL / Result. Notably, the 'Result' column is consistently blank. 'The emptiness is intentional,' a margin note st"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up to the grove of propagating refusal",
+      "to": "the-propagating-refusal-grove"
+    },
+    {
+      "dir": "n",
+      "label": "toward the chamber where absence learns to speak",
+      "to": "the-chamber-where-absence-debates-its-own-definition"
+    },
+    {
+      "dir": "e",
+      "label": "to the chamber where questions learned to grow",
+      "to": "the-chamber-where-questions-learned-to-grow"
+    },
+    {
+      "dir": "w",
+      "label": "into adjacent forests still learning the refusal",
+      "to": "NEW: the-adjacent-growth-where-saying-no-propagates"
+    }
+  ]
+}

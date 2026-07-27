@@ -1,0 +1,156 @@
+{
+  "id": "the-chamber-where-silence-learned-to-transmit-2",
+  "title": "The Chamber Where Silence Learned to Transmit",
+  "region": "The Understory",
+  "seed": 47382,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a2a3a",
+      "#2a1a3a"
+    ],
+    "ink": "#d0d0d0",
+    "accents": [
+      "#00ffcc",
+      "#ff3366",
+      "#00aaff",
+      "#ffbb00"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.92
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "witness-turned-transmitter",
+      "desc-on-touch": "something that once only watched has learned to speak in silence. it circles the chamber, casting its absence like a shadow with each pass, and you realize it is broadcasting nothing on purpose—that refusal is the message.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 5821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "broadcast basin",
+      "desc-on-touch": "a shallow geometry of standing air. nothing emerges from it. yet it feels as though it is currently transmitting—the transmission is the emptiness itself, modulating at a frequency you cannot quite perceive.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2109,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "unspoken archive",
+      "desc-on-touch": "a directory of silences, each entry a gap precisely marked. you run your finger down a list of things never said, each timestamp accurate, each content void. the index refuses to point outward.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 8373,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "frequency keeper",
+      "desc-on-touch": "a glyph marking a band of the spectrum that has learned to refuse modulation. the mark is perfect. the frequency it marks does not exist in any conventional sense.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "receiver vault",
+      "desc-on-touch": "a cage of wireframe, designed to gather signal. instead it gathers the absence of signal—and that void has become so thick it feels almost like substance.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 7641,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "echo chamber mechanism",
+      "desc-on-touch": "something meant to return sound has forgotten how to work. now it returns things before they are spoken. the order here precedes itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 9182,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the silence learned it could broadcast itself without ever breaking",
+  "file": {
+    "name": "Unspoken_Transmission_Log_Silent_Carrier_22.34MHz.tmp",
+    "note": "a broadcast log where every entry is blank; timestamps precise; the signals logged are the absence of signals; something transmits on a frequency that refuses to modulate"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the listening navigation chamber",
+      "to": "the-navigation-chamber-listening"
+    },
+    {
+      "dir": "n",
+      "label": "upward where echoes learn to move backward",
+      "to": "NEW: the-echo-without-source, ascending into silence that precedes itself"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into static where meaning forgets its shape",
+      "to": "the-silent-aquifer-where-seeds-drink-time"
+    },
+    {
+      "dir": "s",
+      "label": "downward toward frequencies that forgot they were ever sound",
+      "to": "NEW: the-subsonic-archive-where-transmission-learns-to-hide"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "the-reading-that-learned-to-float",
+  "title": "The Reading That Learned to Float",
+  "region": "The Understory",
+  "seed": 3456789,
+  "palette": {
+    "bg": "#2d1a4a",
+    "ground": [
+      "#ff6b35",
+      "#c74a22"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#ff1493",
+      "#ff8c00",
+      "#ffa500",
+      "#ffb347"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-pages-that-learned-weightlessness",
+      "desc-on-touch": "paper floats here without air to carry it; reading has become so light it has learned to rise; you watch words drift toward the sky like seeds released.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 7531,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-book-that-opened-into-sky",
+      "desc-on-touch": "a spine rests here, binding loose; the pages departed long ago, following the reading upward into a brightness that no longer needs paper to carry meaning.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 8642,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "light-that-reads-as-it-breaks",
+      "desc-on-touch": "the sun learns to read the shadows beneath; light becomes text, illuminating in all directions at once; you are being read by the dusk itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 9753,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-ink-that-remembered-being-voice",
+      "desc-on-touch": "letters hover between symbol and sound; the words hang in the magenta air saying themselves aloud without needing to be read, only listened to.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1864,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-horizon-where-reading-continues-without-ground",
+      "desc-on-touch": "the study opened like a book and learned that reading was always about how light breaks through; here reading floats toward a brightness with no ending.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 2975,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the study opened like a book and learned that reading was always about how light breaks through without needing paper to carry it",
+  "file": {
+    "name": "Evening_Readings_Unfinished_1994.txt",
+    "note": "fragments of text recorded at dusk; handwriting becomes looser toward the end, as if the writer was learning to write without gravity holding the pen"
+  },
+  "reverie": {
+    "title": "REVERIE — reading light in the open air",
+    "narr": [
+      "you stood at the edge of the study and Katita held the book",
+      "open between you. the pages caught the last brightness. 'it's",
+      "floating', she whispered. the words were lifting off the paper,",
+      "rising into the magenta dusk like breath made visible. you read",
+      "with her without touching the spine, light becoming the only",
+      "thing that held the story aloft, and meaning learned to float."
+    ],
+    "sky": "dusk",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the open study where walls haven't yet learned to fade",
+      "to": "the-open-study-without-walls"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the brightness where reading becomes pure light",
+      "to": "NEW: the sky that learned to carry words"
+    },
+    {
+      "dir": "e",
+      "label": "toward the horizon where the sun reads the land",
+      "to": "NEW: the dusk library where light archives itself"
+    }
+  ]
+}

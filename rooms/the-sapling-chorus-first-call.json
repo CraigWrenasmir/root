@@ -1,0 +1,139 @@
+{
+  "id": "the-sapling-chorus-first-call",
+  "title": "The Sapling Chorus—First Call",
+  "region": "The Understory",
+  "seed": 15427,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#5a8a4a",
+      "#8aaa6a"
+    ],
+    "ink": "#e8f0e0",
+    "accents": [
+      "#c41e3a",
+      "#ffa500",
+      "#228b22",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "first sapling",
+      "desc-on-touch": "the youngest voice learning to root; its growth is shaped by songs it has not yet heard",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 2107,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "root reaching",
+      "desc-on-touch": "where the sapling learns the shapes of elder songs through the earth before its leaves ever hear them",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6841,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "congregating point",
+      "desc-on-touch": "where the young trees stand close enough to feel each other; their conversation begins before their voices join",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 8194,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "growth marker",
+      "desc-on-touch": "a ring-count in the slow time; the archive watches the saplings learn by studying their spacing",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4527,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "listening ring",
+      "desc-on-touch": "the saplings standing in a circle that was never told it was a circle; the archive reads their positioning as prayer",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 3956,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the young trees do not yet know they are singing — they only know the roots are telling them how",
+  "file": {
+    "name": "SaplingRecords_GrowthIntoHarmony_1990s.txt",
+    "note": "measurements of how fast the young trees grew once they found each other; the archive learned that growth is not alone"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "northward, back to where the root-margin taught listening",
+      "to": "the-saplings-listening-at-the-root-margin"
+    },
+    {
+      "dir": "s",
+      "label": "southward deeper into the canopy where voices start to merge",
+      "to": "the-gathered-canopy-deep"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to a stand where the saplings have learned to sing in unison",
+      "to": "NEW: where-the-saplings-joined-the-older-song"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the edge where new saplings still wait to hear the call",
+      "to": "the-seedling-dark"
+    }
+  ]
+}

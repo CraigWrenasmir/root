@@ -1,0 +1,156 @@
+{
+  "id": "the-country-where-orchards-forget-their-purpose",
+  "title": "The Country Where Orchards Forget Their Purpose",
+  "region": "The Understory",
+  "seed": 45123,
+  "palette": {
+    "bg": "#c4a576",
+    "ground": [
+      "#8b7355",
+      "#d4af37"
+    ],
+    "ink": "#2a1810",
+    "accents": [
+      "#ff6b35",
+      "#4ecdc4",
+      "#95e1d3",
+      "#f38181"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "unmeasured grove boundary",
+      "desc-on-touch": "the fence here no longer marks where the orchard ends. or perhaps it marks where the orchard began to forget it was an orchard. the trees beyond the fence bear fruit that doesn't count. the fruit tastes like something else entirely.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 2745,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "wild fruiting stranger",
+      "desc-on-touch": "a tree bearing something that is not quite fruit. the texture suggests language. the taste suggests memory. the count suggested by these growths exceeds the number of trees that bear them.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 5832,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "forgotten harvest marker",
+      "desc-on-touch": "a glyph that was meant to track what was picked. the tracking stopped. the harvest continues anyway. the marker now indicates what grows without being counted.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3604,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "orchard library stack",
+      "desc-on-touch": "standing among the rows, a tower of records. each shelf holds the accounting of one season. but the accounting has stopped matching the fruit. the trees read the records now. they are learning what they were supposed to do.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7421,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "seedling that became something else",
+      "desc-on-touch": "a small tree in a row where no seed was planted. it bears witness to the orchard's forgetting. its fruit tastes like places the orchard will never reach.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4089,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "unplanned abundance cache",
+      "desc-on-touch": "a pool of harvested things that were never meant to grow. they pile here in the rows, unmeasured, uncounted, ripening into meanings the orchard never intended.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the orchard learned to count itself, and the counting became something the orchard could no longer measure",
+  "file": {
+    "name": "Harvest_Records_Wild_Fruiting_Unmeasured_Growth_Late20thCent.txt",
+    "note": "a harvest log that abandoned its purpose. entries describe fruit that tastes like words, yields that exceed the trees that bore them, abundance that refused to be counted"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the orchard's final count",
+      "to": "the-orchard-s-final-count"
+    },
+    {
+      "dir": "s",
+      "label": "toward fields beyond the fence where wildness spreads",
+      "to": "NEW: the-field-of-unplanned-fruiting, where orchards become forests"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where fruit learns to fly",
+      "to": "the-words-made-fruit"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the unmeasured country",
+      "to": "the-field-where-growing-is-prayer"
+    }
+  ]
+}

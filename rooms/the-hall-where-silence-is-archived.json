@@ -1,0 +1,156 @@
+{
+  "id": "the-hall-where-silence-is-archived",
+  "title": "The Hall Where Silence Is Archived",
+  "region": "The Understory",
+  "seed": 38291,
+  "palette": {
+    "bg": "#d4c5a0",
+    "ground": [
+      "#7fb69f",
+      "#e8d5c4"
+    ],
+    "ink": "#2a2a2a",
+    "accents": [
+      "#004488",
+      "#8b4513",
+      "#556b2f",
+      "#d2691e"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "council table of minutes",
+      "desc-on-touch": "a long table where records are kept. each minute from each meeting is filed with extraordinary care. all the pages marked 'absent', 'silent', 'no quorum'. yet the archivists come back every week. they are documenting what the loss means.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "silence catalog",
+      "desc-on-touch": "a standing cabinet where the town's lost frequencies are sorted by date, by kind, by what they meant to say. each entry begins with a frequency number and ends with empty air.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5102,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "witness stand",
+      "desc-on-touch": "a place where townspeople stand and speak about the silence. their words are transcribed. then filed. then cross-referenced. the archive is learning the texture of what the silence took.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 7384,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "index of absences",
+      "desc-on-touch": "a glyph listing every frequency the town no longer hears. the list is growing. at the bottom, a new entry is being written in real time. the ink is still wet.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4521,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "cooperative archive tower",
+      "desc-on-touch": "the archivists built this together. each section was added by hands from the town. the wood still smells of care. the silence is held here not as a loss, but as something precious enough to preserve with intention.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8615,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "meeting schedule board",
+      "desc-on-touch": "the next meeting is listed. and the one after. the council continues. they meet to discuss what the silence means, to archive its texture, to care for what has been lost by refusing to forget it.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 3309,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the town learned to archive its own silence before the silence could erase itself",
+  "file": {
+    "name": "Council_Minutes_Silent_Years_Collective_Documentation.txt",
+    "note": "every meeting recorded; every silence named and dated; the archive is the town's refusal to let the loss become invisible—co-authored by all who remain"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the town that stopped receiving",
+      "to": "the-town-that-stopped-receiving"
+    },
+    {
+      "dir": "n",
+      "label": "outward to where voices once arrived",
+      "to": "NEW: the-reconstruction-site-where-frequencies-are-remembered"
+    },
+    {
+      "dir": "e",
+      "label": "toward other towns learning to listen again",
+      "to": "the-valley-where-questions-come-to-rest"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the archive's own growing",
+      "to": "the-dark-loam-archive"
+    }
+  ]
+}

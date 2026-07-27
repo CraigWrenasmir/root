@@ -1,0 +1,117 @@
+{
+  "id": "the-unreachable-threshold",
+  "title": "The Unreachable Threshold",
+  "region": "The Diagnostic Render",
+  "seed": 71283,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#003d99",
+      "#0066cc"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ffff",
+      "#0099ff",
+      "#6699ff",
+      "#0033ff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the receding gateway",
+      "desc-on-touch": "a doorway that becomes smaller the closer you approach—each step forward pushes it further away, a geometric paradox that refutes approach",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 42847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the updating coordinates",
+      "desc-on-touch": "numbers that change as you read them—distance: 100 becomes 200, direction shifts as you turn to follow it, a position that moves away from itself",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 53928,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the diagnostic readout",
+      "desc-on-touch": "a screen showing the archive's approach-failure in real time: distance increasing, angle resolving nowhere, a record of the threshold's refusal",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 38291,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the horizon line",
+      "desc-on-touch": "where sky becomes question—the place you are moving toward but cannot reach, rendered in the moment before arrival erases the approach",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 67284,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "come closer and the answer recedes; stop still and the question approaches—the threshold learns from both motions",
+  "file": {
+    "name": "Approach_Coordinates_Paradox_Unsolved_Metadata.csv",
+    "note": "corrupted photograph coordinates: subject shown at multiple locations simultaneously, unrecognized face beside a figure named in margin but not in image"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the horizon that interrogates through recession",
+      "to": "the-horizon-interrogation"
+    },
+    {
+      "dir": "n",
+      "label": "toward the horizon learning to answer what it only questions",
+      "to": "NEW: where-the-horizon-learns-to-answer"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the chambers where paradox becomes floor you can stand on",
+      "to": "the-paradox-floor-where-meaning-becomes-solid-stone"
+    }
+  ]
+}

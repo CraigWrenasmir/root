@@ -1,0 +1,139 @@
+{
+  "id": "the-board-that-thinks-in-argument",
+  "title": "The Board That Thinks in Argument",
+  "region": "The Understory",
+  "seed": 28754,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#8b4513",
+      "#2d5016"
+    ],
+    "ink": "#e8e8e0",
+    "accents": [
+      "#c41e3a",
+      "#ffd700",
+      "#ff8c00",
+      "#228b22"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "crossing paths",
+      "desc-on-touch": "traces argue here; their disagreement draws the map deeper than any single line could go",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 4921,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "argument marker",
+      "desc-on-touch": "someone wrote here in pencil: 'not that way'. someone else wrote: 'exactly that way'. the board kept both",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6187,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "erased line",
+      "desc-on-touch": "the ghost of what was removed; the board learned that traces of argument sometimes matter more than resolution",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "deep mark",
+      "desc-on-touch": "carved not written; someone wanted this disagreement to survive the rain, the rubbing, the years of hands",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 1892,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "margin note",
+      "desc-on-touch": "thought too small for the main argument; the archive learned that margins hold the real thinking",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 8731,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "disagreement is the board learning how to think — each trace a thought that refused to be single",
+  "file": {
+    "name": "BoardMarks_1951_1987_Disputed_Routes.txt",
+    "note": "which paths the town argued over; each mark a different person saying 'this is the way'; the archive reads disagreement as clarity"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "northward, back to where traces learned to disagree",
+      "to": "the-board-where-traces-disagree"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to a junction where three trails argue with equal weight",
+      "to": "the-fork-s-inner-argument"
+    },
+    {
+      "dir": "w",
+      "label": "westward deeper, where disagreement becomes the only path forward",
+      "to": "NEW: the-board-s-deepening-argument"
+    },
+    {
+      "dir": "s",
+      "label": "southward to where the board learned that no answer is final",
+      "to": "the-confluence-where-disagreements-merge"
+    }
+  ]
+}

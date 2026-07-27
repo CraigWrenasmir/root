@@ -89,7 +89,7 @@
     {
       "dir": "e",
       "label": "toward the horizon's answer, which moves away as you approach",
-      "to": "NEW: the-unreachable-threshold"
+      "to": "the-unreachable-threshold"
     },
     {
       "dir": "s",

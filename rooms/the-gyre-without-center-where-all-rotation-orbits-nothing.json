@@ -1,0 +1,156 @@
+{
+  "id": "the-gyre-without-center-where-all-rotation-orbits-nothing",
+  "title": "The Gyre Without Center, Where All Rotation Orbits Nothing",
+  "region": "The Understory",
+  "seed": 71956,
+  "palette": {
+    "bg": "#3d7e3d",
+    "ground": [
+      "#8b5a3c",
+      "#5a7e3d"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#ff8c42",
+      "#6a4c93",
+      "#1b998b",
+      "#e8b4b8"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.55
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "spiral that refuses completion",
+      "desc-on-touch": "it turns and turns. there is no center. there is no edge. the incompleteness is sacred. you walk it and do not arrive. arrival is not the point. the gyre continues because the gyre does not know how to stop.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4156,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "margin where direction forgets",
+      "desc-on-touch": "the painted bands cross here in ways that suggest outward and inward, but both at once. you stand on a road and feel it turning beneath you. north becomes sideways. sideways becomes down. the gyre teaches geography how not to settle.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2874,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "unresolved turn marker",
+      "desc-on-touch": "a glyph at what appears to be a corner, but the corner does not know if it is arriving or departing. the marker is precise. the geometry it marks is fundamentally uncertain.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 6392,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "eternally orbiting witness",
+      "desc-on-touch": "something circling. always circling. it does not arrive because arrival would end the sacred incompleteness. the witness moves through the gyre as prayer, as refusal, as the only gesture that honors what will not resolve.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 5103,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "terrain that rotates itself",
+      "desc-on-touch": "the land here has learned to turn. not around a point, but within itself. every direction you step contains all directions. the rotation orbits nothing because the gyre has become its own axis.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7548,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "incompletion documentation pool",
+      "desc-on-touch": "a pool recording the gyre's refusal to complete. every circuit is logged. the record grows infinitely. and yet the incompleteness is never violated. this is what it means to honor what will not be whole.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8429,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "every direction here has already become sideways before you turn to face it, and the gyre is grateful for the incompleteness",
+  "file": {
+    "name": "Durational_Record_Gyre_Circuit_Infinite_Unresolved_Sacred.log",
+    "note": "a log of endless circling; each entry honors the refusal to complete; the incompleteness is documented with reverence; the gyre teaches that some things are more sacred broken than whole"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the laterally rotated ridge",
+      "to": "the-laterally-rotated-ridge"
+    },
+    {
+      "dir": "n",
+      "label": "outward-inward where rotation deepens",
+      "to": "NEW: the-eternal-turn, where spirals spiral infinitely"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the gyre's own depth",
+      "to": "the-spiral-descent-sideways"
+    },
+    {
+      "dir": "e",
+      "label": "toward other rotations learning not to complete",
+      "to": "the-mirror-chamber-where-spirals-meet-themselves"
+    }
+  ]
+}

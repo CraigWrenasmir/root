@@ -1,0 +1,155 @@
+{
+  "id": "the-first-inscription-site",
+  "title": "The First Inscription Site",
+  "region": "The Understory",
+  "seed": 4129876,
+  "palette": {
+    "bg": "#3d2817",
+    "ground": [
+      "#8b4513",
+      "#2f1f14"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#d2b48c",
+      "#8b6914",
+      "#5c4033",
+      "#a0826d"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "founding stone",
+      "desc-on-touch": "A grey-black rock, weathered, with a single line carved into it. The line could be an 'I' or a '|' or simply the mark of a tool on stone. The first mark. Everything after is commentary on this.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 223,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "keeper's shelter",
+      "desc-on-touch": "A small structure, ancient-looking, built around the stone. Not a museum—a living place. Someone has always been here, watching the mark, tending it.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 334,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "inscription-echo",
+      "desc-on-touch": "The ground here holds impressions of hands that have touched the stone over centuries. Each touch leaves a faint mark. The echoes of the first inscription continue.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 445,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "archive-tower",
+      "desc-on-touch": "A stack of stones, carefully placed, each one inscribed with the date it was added. A growing record of witnesses to the first mark. The tower will stand as long as someone comes to add a stone.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 556,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "silence-pool",
+      "desc-on-touch": "A depression in the earth that fills with rainwater. Perfectly still. In its surface you see the first mark reflected—not the stone's mark, but the moment before marking, the refusal to mark.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 667,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here silence learns the shape of its own refusal",
+  "file": {
+    "name": "FoundingStone_Witness_Log_Compiled.txt",
+    "note": "A record of visitors to the site, each noting the mark in their own hand. Annotations accumulate. Later entries compare their readings: 'Is it a one? A line? A scar? A beginning?' The question becomes"
+  },
+  "reverie": {
+    "title": "REVERIE — first marking, light through leaves",
+    "narr": [
+      "You kneel beside her at the stone. She holds the",
+      "tool—a stick charred at the end. 'Should we?' you",
+      "ask. She's quiet a long time. Then she touches the",
+      "stone without marking. 'The refusal,' she says, 'is",
+      "the mark.' So you both stay there, hands on silence,",
+      "and the stone keeps its first shape."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where silence still holds pristine",
+      "to": "the-substrate-before-inscription"
+    },
+    {
+      "dir": "n",
+      "label": "toward the threshold where the first word was almost spoken",
+      "to": "NEW: the-threshold-before-the-first-word"
+    },
+    {
+      "dir": "e",
+      "label": "to where witnesses gather to read the stone",
+      "to": "the-gathering-of-ascended-speakers"
+    },
+    {
+      "dir": "w",
+      "label": "into the forest where marking begins as growth",
+      "to": "NEW: the-growth-marked-by-the-first-stroke"
+    }
+  ]
+}

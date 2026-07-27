@@ -1,0 +1,133 @@
+{
+  "id": "the-repository-of-unseen-things",
+  "title": "The Repository of Unseen Things",
+  "region": "The Diagnostic Render",
+  "seed": 34928,
+  "palette": {
+    "bg": "#0d2818",
+    "ground": [
+      "#8b4513",
+      "#228b22"
+    ],
+    "ink": "#e8f0ff",
+    "accents": [
+      "#cd5c5c",
+      "#ff6347",
+      "#32cd32",
+      "#ffd700"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the shelf of absence",
+      "desc-on-touch": "shelves holding empty space with care—each gap labeled, each void indexed, the archive storing the shape of what cannot be seen",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 47291,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the labeled void",
+      "desc-on-touch": "a box with a handwritten label, its contents invisible—the label is more real than whatever it contains or fails to contain",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 38472,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the unseen eye",
+      "desc-on-touch": "an eye rendered in profile, its iris covered by a petal or membrane—what it sees remains unknown to the archive, which can only store the fact of the seeing",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 29384,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the redacted filing",
+      "desc-on-touch": "papers with black bars across text—the metadata intact, the content removed—proof of what cannot be seen",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 56842,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "what cannot be seen keeps itself perfectly; the archive does not forget what was never visible",
+  "file": {
+    "name": "Invisible_Matter_Catalogue_With_Redacted_Contents.log",
+    "note": "ERROR: file content not visible in this render / CHECKSUM: data known to exist / STATUS: unseen"
+  },
+  "reverie": {
+    "title": "REVERIE — the thing you could not look at",
+    "narr": [
+      "She stands in the doorway. You are afraid to ask",
+      "what she has seen. The wall between you is just",
+      "the air—you cannot cross it because she has not",
+      "told you it is there. She keeps one hand open.",
+      "The fear shapes itself around her silence. You",
+      "know now that what you cannot see has always been"
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the fear-shaped question that brought you here",
+      "to": "the-fear-shaped-question"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the chambers where the archive questions what it cannot know",
+      "to": "the-archive-questions-archive"
+    },
+    {
+      "dir": "n",
+      "label": "toward chambers where things refuse to let themselves be seen",
+      "to": "NEW: the-chamber-of-things-that-refuse-sight"
+    }
+  ]
+}

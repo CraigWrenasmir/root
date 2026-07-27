@@ -1,0 +1,139 @@
+{
+  "id": "the-valley-where-questions-come-to-rest",
+  "title": "The Valley Where Questions Come to Rest",
+  "region": "The Understory",
+  "seed": 7654321,
+  "palette": {
+    "bg": "#1a1a0a",
+    "ground": [
+      "#8b7355",
+      "#4a5a3a"
+    ],
+    "ink": "#d9c9b9",
+    "accents": [
+      "#a0826d",
+      "#6b4423",
+      "#7a8f6b",
+      "#c9b199"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "meeting place",
+      "desc-on-touch": "A simple structure—a pub or a hall or a commons building. The walls are covered with questions carved, written, whispered into crevices. Some are centuries old. None have answers pinned beside them.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 445,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "echo-pool",
+      "desc-on-touch": "A depression where questions are thrown to hear them return. But this pool returns them changed, wiser, or sadder. You're not sure the question is the same anymore.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 556,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "rest-marker",
+      "desc-on-touch": "A monument or cairn, humble, with the inscription 'Here the question learns to rest.' Below, a list of questions that gave up their demand for answer. They seem peaceful.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 667,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "archive-stack",
+      "desc-on-touch": "Stacked records—court transcripts, hearing notes, incident reports. Each one documents an unanswered question. The stack grows, and nobody minds anymore.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 778,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "silence-tower",
+      "desc-on-touch": "Built from stone and patience. Tall enough that questions whispered into its base echo into the sky and never come back. Not a vault. A release.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 889,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the question learned to love the valley more than the answer",
+  "file": {
+    "name": "LocalMysteries_Unresolved_Registry_1950s-Present.txt",
+    "note": "A civic log of incidents, mysteries, disappearances—all unsolved. Entries grow more philosophical as years pass. Later notes read like reflections on the beauty of not-knowing. The last entry: 'Perhap"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the interrogation peak where questions rose",
+      "to": "the-interrogation-peak"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the valley's resting peace",
+      "to": "NEW: the-hollow-where-answers-learned-to-fade"
+    },
+    {
+      "dir": "e",
+      "label": "toward the river's final commitment to its course",
+      "to": "the-river-s-final-commitment"
+    },
+    {
+      "dir": "w",
+      "label": "to where questions learn to root like trees",
+      "to": "NEW: the-groves-where-questions-take-shape-as-wood"
+    }
+  ]
+}

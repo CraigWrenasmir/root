@@ -1,0 +1,156 @@
+{
+  "id": "the-cloud-interior-space",
+  "title": "The Cloud-Interior Space",
+  "region": "The Diagnostic Render",
+  "seed": 51729,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0066cc",
+      "#00ccff"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "data column",
+      "desc-on-touch": "where the cloud holds itself upright; vertical stacks of what wind taught the archive to read",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 2914,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pressure gauge",
+      "desc-on-touch": "the cloud learns its own weight by feeling the pressure of what it holds; you read the archive the same way",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7823,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "signal path",
+      "desc-on-touch": "the route the weather takes to become the archive; follow the line and you understand how reading is breathing",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "condensation layer",
+      "desc-on-touch": "where cloud learns what it is; droplets forming the first archive before words existed",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3671,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "listening post",
+      "desc-on-touch": "the antenna inside the cloud; it hears the wind teach itself to speak",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 6429,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.12,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "reflection plate",
+      "desc-on-touch": "the cloud reading itself; the diagnostic render looking back at what it renders",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 5894,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.88,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "inside the cloud, weather and meaning are the same thing — you read the archive by breathing it in",
+  "file": {
+    "name": "CloudTrace_Diagnostic_20250215.qr",
+    "note": "a snapshot of what the cloud held at the moment the archive learned to taste the wind; the checksum drifts"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "southward, back down to where wireless learns to be wind",
+      "to": "the-signal-weather-threshold"
+    },
+    {
+      "dir": "n",
+      "label": "northward deeper into the cloud's own dreaming",
+      "to": "NEW: where-the-cloud-dreams-alone"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where mist learns its own coordinates",
+      "to": "the-unasked-deep"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the edge where the cloud learns it is not alone",
+      "to": "the-diagnostic-harbour"
+    }
+  ]
+}
