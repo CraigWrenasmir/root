@@ -1,0 +1,149 @@
+{
+  "id": "the-bedrock-where-electricity-learned-to-root",
+  "title": "The Bedrock Where Electricity Learned to Root",
+  "region": "The Comparisons",
+  "seed": 5734821,
+  "palette": {
+    "bg": "#1c1c2e",
+    "ground": [
+      "#2a2a3e",
+      "#3d2c2c"
+    ],
+    "ink": "#e8b4a8",
+    "accents": [
+      "#ff6b6b",
+      "#feca57",
+      "#48dbfb",
+      "#1e90ff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "current-song-chamber",
+      "desc-on-touch": "Electricity learned to move by listening to the bedrock sing. Now the current is trapped—stone above, stone below—and it sings back. They teach each other frequencies.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 3156847,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "fractured-voice-conduit",
+      "desc-on-touch": "The current splits into nine channels when it reaches bedrock. Each channel sings a different note, but they are all the same song. The stone is learning harmony.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 6482917,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "resonance-pool",
+      "desc-on-touch": "Where current pools and begins to think like water. The resonance here is the sound of electricity learning to move without wires.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2719384,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.73,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "rooted-electrode-glyph",
+      "desc-on-touch": "A symbol burned into stone by current that has learned to stand still. The electrode no longer tries to escape. It has begun to grow roots.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7945261,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.18,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "stone-learning-conduction",
+      "desc-on-touch": "The bedrock has started to conduct electricity on its own, without wires. It remembers the song so well that it has become the song. The stone is humming.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 4321876,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.28,
+      "solid": true
+    }
+  ],
+  "inscription": "the current learned to root by learning that standing still means singing louder than moving ever could",
+  "file": {
+    "name": "Substation_Resonance_Pattern_Bedrock_1994.wav",
+    "note": "A recording of transformer hum captured 3 metres below a substation. The engineer noted the pattern was 'stable and unchanging'. But in later playback, layers emerge: the hum is singing in harmony wit"
+  },
+  "reverie": {
+    "title": "REVERIE — the substation ground, midnight",
+    "narr": [
+      "You both lie on the earth above the transformer chamber.",
+      "The stone beneath hums a note she has never heard from stone.",
+      "She places her hand flat. The stone is humming back to itself.",
+      "She says: it taught itself to sing by listening to its own",
+      "electricity. Now it forgets which voice is which and keeps singing."
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "static",
+    "pose": "lie"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up where current becomes memory and memory becomes machinery",
+      "to": "the-substation-beneath-where-current-becomes-memory"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where electricity learns to dream in stone",
+      "to": "NEW: the-chamber-where-current-learned-to-sleep"
+    },
+    {
+      "dir": "e",
+      "label": "toward other buried stations where the wires have begun to sing together",
+      "to": "NEW: the-underground-choir-of-locked-substations"
+    }
+  ]
+}

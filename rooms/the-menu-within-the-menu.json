@@ -123,7 +123,7 @@
     {
       "dir": "s",
       "label": "into an even smaller menu that contains this one",
-      "to": "NEW: the-sub-menu-that-tastes-of-older-software"
+      "to": "the-sub-menu-that-tastes-of-older-software"
     },
     {
       "dir": "e",

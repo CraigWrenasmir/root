@@ -128,7 +128,7 @@
     {
       "dir": "e",
       "label": "where counts stop counting toward themselves",
-      "to": "NEW: the-registry-that-refused-volume"
+      "to": "the-registry-that-refused-volume"
     }
   ]
 }

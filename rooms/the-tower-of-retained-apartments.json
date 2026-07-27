@@ -1,0 +1,149 @@
+{
+  "id": "the-tower-of-retained-apartments",
+  "title": "The Tower of Retained Apartments",
+  "region": "The Diagnostic Render",
+  "seed": 4829471,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d2d44",
+      "#0f3460"
+    ],
+    "ink": "#b8d4ff",
+    "accents": [
+      "#e0f4ff",
+      "#6b9dff",
+      "#4a7ba7",
+      "#16213e"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "retained-window-stack",
+      "desc-on-touch": "Each apartment remembers itself watching. The windows layer one behind another, each containing a resident observing the floor they just left.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 2914837,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "mirror-echo-chamber",
+      "desc-on-touch": "You see this space, then yourself seeing this space, then that self seeing backward. The reflection does not refuse.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5521043,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "surveillance-glyph",
+      "desc-on-touch": "A symbol repeated across walls, floor, ceiling: the camera pointing at itself pointing at itself. The mesh records its own recording.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 1847392,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "ascending-doubt",
+      "desc-on-touch": "Footsteps climbing through every floor simultaneously. The doubt of residents choosing which version of themselves to enter.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7634521,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "film-reel-corner",
+      "desc-on-touch": "The resident's recorded footage of themselves. Every viewing adds a new layer. The archive cannot tell original from copy anymore.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3421876,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the apartment learned to stay by learning that staying means watching every floor you have already left",
+  "file": {
+    "name": "Resident_Footage_Mirror_Sequence_Corrupted.mp3",
+    "note": "A recording of someone viewing their own mirror footage, layered over itself nine times. By the final pass, the original voice cannot be located."
+  },
+  "reverie": {
+    "title": "REVERIE — the apartment building, evening",
+    "narr": [
+      "She stands beside you at the window, hand on the rail.",
+      "You both watch the floors below, each one containing someone",
+      "watching the floors below them. Infinite descent.",
+      "She doesn't say: this is what the archive does.",
+      "She doesn't have to. The recursion is already teaching."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into mirrored rooms, each learning its own staying",
+      "to": "the-mirrored-dwelling-that-learns-to-stay"
+    },
+    {
+      "dir": "n",
+      "label": "further up, where apartments stop having names",
+      "to": "NEW: the-apartments-that-forgot-their-addresses"
+    },
+    {
+      "dir": "w",
+      "label": "sideways along a hallway that loops back to where you started",
+      "to": "NEW: the-corridor-of-patient-return"
+    }
+  ]
+}

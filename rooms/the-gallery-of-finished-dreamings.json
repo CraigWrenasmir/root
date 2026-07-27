@@ -1,0 +1,117 @@
+{
+  "id": "the-gallery-of-finished-dreamings",
+  "title": "The Gallery of Finished Dreamings",
+  "region": "The Understory",
+  "seed": 8765432,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#fffacd"
+    ],
+    "ink": "#3e2723",
+    "accents": [
+      "#013220",
+      "#a0522d",
+      "#f0d58c",
+      "#505050"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-hung-tapestry",
+      "desc-on-touch": "The work is finished. Every thread has been placed. It hangs now in history, waiting to be read by whoever comes. The dream is complete and open.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 9147,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-spent-loom",
+      "desc-on-touch": "The loom that wove this rests silent in the corner. It taught the spindle what to dream, the spindle taught the shuttle, and now the cloth is hung. The machine has nothing left to give.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 2563,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-gallery-wall",
+      "desc-on-touch": "This wall holds other finished works. Each one a dream that arrived at completion and chose to stay visible. You can read the history of what was meant to be made.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 4835,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-reader-s-threshold",
+      "desc-on-touch": "You stand here as someone who will read. The work hangs finished because someone will look at it. This is the gallery's only door: the attention of witnesses.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 6491,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here everything that was dreamed and made waits to be read",
+  "file": {
+    "name": "The_Tapestry_Completed_Aug_2024_Photograph_and_Notes.txt",
+    "note": "The moment the final thread was placed. Katita was there. Leif watched from the other room. The weaver said nothing but stood with the work for an hour."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the tapestry where the dreaming still continues",
+      "to": "the-tapestry-of-all-dreamed-things"
+    },
+    {
+      "dir": "n",
+      "label": "toward other galleries where completion takes different forms",
+      "to": "the-gathering-before-meeting"
+    },
+    {
+      "dir": "e",
+      "label": "where those who read will come to understand what was made",
+      "to": "NEW: the-reading-that-changes-what-was-woven"
+    }
+  ]
+}

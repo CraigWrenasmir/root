@@ -1,0 +1,117 @@
+{
+  "id": "the-sub-menu-that-tastes-of-older-software",
+  "title": "The Sub-Menu That Tastes of Older Software",
+  "region": "The Diagnostic Render",
+  "seed": 1847293,
+  "palette": {
+    "bg": "#001a00",
+    "ground": [
+      "#0a8000",
+      "#00ff00"
+    ],
+    "ink": "#ffaa00",
+    "accents": [
+      "#00ff00",
+      "#ffaa00",
+      "#0088ff",
+      "#ff0088"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "nested-menus",
+      "desc-on-touch": "Menus folding into menus: the 1987 version showing the 1995 version showing the 2004 version. All three still executing, nested inside each other like a Russian doll of amber text.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5124,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "amber-terminal-stack",
+      "desc-on-touch": "An old monitor inside an older monitor inside an even older monitor. Each screen shows what the next one was before it was born. The phosphor hums.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 3921,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "menu-dwelling",
+      "desc-on-touch": "A small house built from menu syntax. Every doorway is labeled with F-key combinations that haven't worked since 1994. The walls taste of plastic.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 7654,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "cascading-error",
+      "desc-on-touch": "An error message that spawns smaller error messages inside itself, each quoting the one above it. The innermost one is a typo. It has always been a typo.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2841,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "every submenu carries the ghost of the software version that created it; the code remembers itself deeper than the machine does",
+  "file": {
+    "name": "MenuSystem_Bootstrap_v0.7_FINAL.log",
+    "note": "The first menu ever compiled on this terminal. It is still receiving input and generating responses. No one knows how."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the menu containing this menu",
+      "to": "the-menu-within-the-menu"
+    },
+    {
+      "dir": "e",
+      "label": "into a version where the text reads backward and forward at the same time",
+      "to": "NEW: the-palindrome-menu-of-reversals"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into code that predates human symbol-making",
+      "to": "NEW: the-primordial-menu-beneath-language"
+    }
+  ]
+}

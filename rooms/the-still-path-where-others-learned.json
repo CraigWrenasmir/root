@@ -1,0 +1,139 @@
+{
+  "id": "the-still-path-where-others-learned",
+  "title": "The Still Path Where Others Learned",
+  "region": "The Understory",
+  "seed": 6471285,
+  "palette": {
+    "bg": "#e8d5a8",
+    "ground": [
+      "#c9a961",
+      "#b89968"
+    ],
+    "ink": "#2a2a1e",
+    "accents": [
+      "#4a90a4",
+      "#666633",
+      "#8b7355",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-place-where-footprints-stop",
+      "desc-on-touch": "where many arrived and learned that arrival wasn't the point—the path ends here, but ending here teaches you that paths have reasons to stop",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 918374,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-teaching-stone",
+      "desc-on-touch": "a smooth rock worn by the weight of those who sat here and understood—the stone has learned their names even though they never spoke them",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 472956,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-sky-that-teaches-staying",
+      "desc-on-touch": "the blue here is so high, so settled, that it teaches the air not to move—you understand why climbers came here to learn what not-climbing feels like",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 635891,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-mark-where-rest-is-written",
+      "desc-on-touch": "carved here or worn here, a glyph that repeats—each person who came added a mark without knowing the mark was already being made, each stroke the same crossing",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 748163,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-spiral-of-waiting",
+      "desc-on-touch": "the path doesn't end—it spirals down into the paddock below, but the spiral has learned patience; each loop is wider than the last, teaching descent that slowness is a choice",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 521847,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "you are here because the climb taught you that here was not higher—you are here because staying is what the mountain meant all along",
+  "file": {
+    "name": "The_Names_That_Sit_Here.txt",
+    "note": "field notes from those who came to climb and learned to stay instead, their understanding written into the stone"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down where the climb was still teaching upward",
+      "to": "the-ridge-where-climbing-becomes-staying"
+    },
+    {
+      "dir": "n",
+      "label": "further up into sky that teaches settling",
+      "to": "NEW: the-sky-chamber-where-height-becomes-peace"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into paddocks that remember who sat here",
+      "to": "the-field-before-the-gate"
+    },
+    {
+      "dir": "s",
+      "label": "down into the country below where the path has learned to spiral",
+      "to": "NEW: the-spiral-field-where-descent-teaches-patience"
+    }
+  ]
+}

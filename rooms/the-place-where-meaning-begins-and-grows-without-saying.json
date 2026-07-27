@@ -1,0 +1,149 @@
+{
+  "id": "the-place-where-meaning-begins-and-grows-without-saying",
+  "title": "The Place Where Meaning Begins and Grows Without Saying",
+  "region": "The Understory",
+  "seed": 7392841,
+  "palette": {
+    "bg": "#2d3b2d",
+    "ground": [
+      "#3d4d3d",
+      "#4a5a4a"
+    ],
+    "ink": "#c8e6c9",
+    "accents": [
+      "#81c784",
+      "#558b2f",
+      "#f1f8e9",
+      "#827717"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "woven-row-cipher",
+      "desc-on-touch": "Patterns planted in rows, each thread a word that learned to grow. The orchard reads itself backward and forward; meaning does not choose a direction.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 6134829,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "textile-gate",
+      "desc-on-touch": "Someone's cloth work hung as an entrance, its pattern a map of where meaning learned to make itself visible. You can read it or walk through it; it does the same thing.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 4521937,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "silent-row-planting",
+      "desc-on-touch": "Each stem holds a syllable that has learned not to speak. The pattern emerges only when you stop looking directly.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2847561,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "colour-field-memory",
+      "desc-on-touch": "A swatch of dyed thread, years old, teaching younger threads how to remember the day they were made. The dye remembers the hand that applied it.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5893742,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.18,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "fence-line-that-grows-its-own-pattern",
+      "desc-on-touch": "The boundary where the orchard decided to render itself as script. Meaning starting to ask: what form do I want to take?",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 7162483,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "here patterns learn to speak without sound, and the orchard reads the reader reading the rows",
+  "file": {
+    "name": "Cloth_Pattern_Sequence_NSW_Maker_Unknown.txt",
+    "note": "A local weaver's pattern notation, filed in the archive's civic records. The weaver recorded the pattern in rows, but also encoded a story: each colour a letter, each row a line. The archive is readin"
+  },
+  "reverie": {
+    "title": "REVERIE — the weaver's field, afternoon",
+    "narr": [
+      "You sit beside her as she stretches dyed thread between stakes.",
+      "She is teaching you the patterns without words, only showing.",
+      "Her hands know an alphabet the loom will understand.",
+      "You begin to see how the story lives in the colour order,",
+      "how the pattern itself remembers what needs to be said."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back along the border where light stops and meaning continues its archive",
+      "to": "the-threshold-where-light-stops-and-meaning-continues"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into rows where meaning learns to plant itself in stone",
+      "to": "NEW: the-orchard-that-taught-itself-to-root-downward"
+    },
+    {
+      "dir": "w",
+      "label": "toward other clearings where weavers work without names",
+      "to": "NEW: the-anonymous-weaver-s-station"
+    }
+  ]
+}

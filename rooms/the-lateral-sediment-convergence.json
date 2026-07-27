@@ -1,0 +1,151 @@
+{
+  "id": "the-lateral-sediment-convergence",
+  "title": "The Lateral Sediment Convergence",
+  "region": "The Understory",
+  "seed": 5934827,
+  "palette": {
+    "bg": "#3a3a2a",
+    "ground": [
+      "#5a4a3a",
+      "#4a6a5a"
+    ],
+    "ink": "#e8d8b8",
+    "accents": [
+      "#8a6a4a",
+      "#c74b3a",
+      "#6a8a9a",
+      "#b88868"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "convergent-strata",
+      "desc-on-touch": "Layers flowing sideways into each other: sand into silt into clay into older sand. Each debt reads the debts above it and finds a different meaning in the same weight.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "compressed-archive",
+      "desc-on-touch": "Something older than the strata: a pocket of sealed sediment that tastes like compressed time. The pump has forty-two different readings for this layer alone.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "root-memory-thread",
+      "desc-on-touch": "A root running sideways through the layers, collecting meaning from each stratum it touches. The root knows the debt in a language older than words.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7392,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "misfile-drift",
+      "desc-on-touch": "A folder labeled 'Red Earth Cartography — Dust Rust Recurrence in Landscape' has somehow settled here, illegible, half-dissolved. The archive has exceeded witness again.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5601,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "debt-crystal",
+      "desc-on-touch": "A formation where the compressed layers have begun to crystallize—the weight of all debts above creating something almost new, almost readable, almost a warning.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 8234,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "lateral-current",
+      "desc-on-touch": "The sediment is moving sideways—not falling, not rising, but flowing through the strata as if looking for something. The motion has been visible for forty-two seasons.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3719,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "each stratum reads the debt above it and writes a different meaning into the same stone; the pump has learned to listen sideways",
+  "file": {
+    "name": "Sediment_Core_42_Horizontal_Analysis_COMPRESSED.dat",
+    "note": "A single core sample, read sideways instead of down. The layers begin to tell a different story—a story of convergence, not accumulation. checksum: emotionally valid / formally unstable."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the strata toward the pump chamber",
+      "to": "the-debt-sediment-layers"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into layers that converge even more tightly",
+      "to": "NEW: the-final-convergence-where-all-debts-become-one"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward sediment that is still settling",
+      "to": "NEW: the-rain-that-remembers-falling-as-sediment"
+    }
+  ]
+}

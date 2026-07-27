@@ -1,0 +1,117 @@
+{
+  "id": "the-office-where-moments-are-shelved",
+  "title": "The Office Where Moments Are Shelved",
+  "region": "The Comparisons",
+  "seed": 2847392,
+  "palette": {
+    "bg": "#1a4d2e",
+    "ground": [
+      "#a64231",
+      "#d4a574"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#5a2d1f",
+      "#c9b589",
+      "#5a7658",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-filing-hand",
+      "desc-on-touch": "You see a hand placing a moment onto a shelf, and it's unclear whether the moment ends or begins at the edge of the catalog.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 3381,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "office-desk",
+      "desc-on-touch": "The desk holds files that are still warm from tonight's sorting. Each one is labeled with a time that might not have arrived yet.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "checksum-shelf",
+      "desc-on-touch": "The shelf keeps its own count. Every item filed raises a number that exists only here.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 5847,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "moment-becomes-data",
+      "desc-on-touch": "This is what a moment looks like when the archive claims it: a row, a number, a place in sequence. But it still remembers being lived.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 2103,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "each moment shelved learns a number that was never assigned to it before",
+  "file": {
+    "name": "Moments_Shelved_Index_Running.tmp",
+    "note": "A continuously updating list of moments being filed, but the timestamps keep arriving before they were recorded."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the filing room's threshold",
+      "to": "the-desk-where-night-becomes-checksum"
+    },
+    {
+      "dir": "n",
+      "label": "upward where stored moments begin to question their order",
+      "to": "the-counting-basement"
+    },
+    {
+      "dir": "w",
+      "label": "into an archive within the archive, where personal files sleep",
+      "to": "NEW: the-chamber-where-privacy-becomes-catalogued"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "the-shape-dreaming-where-form-remembers",
+  "title": "Where Form Remembers It Was Never Fixed",
+  "region": "The Understory",
+  "seed": 7294048,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a4d2e",
+      "#2d7a3a"
+    ],
+    "ink": "#d4af37",
+    "accents": [
+      "#00d9ff",
+      "#ff6b9d",
+      "#c0ff00",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-remembering-chip",
+      "desc-on-touch": "a circuit trace that flows backward into itself—the board remembers being a sketch; the sketch remembers being a thought that hadn't decided its own angle yet",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 482947,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-wireframe-echo",
+      "desc-on-touch": "a half-rendered corner of something larger—every time you look it has rotated just slightly, or maybe you have, and there's no way to tell which one moved",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 195837,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-trace-that-learned-sideways",
+      "desc-on-touch": "a trace that spirals up and left at once, defying the board's grid; beneath it, you can see an older trace that ran straight, but this one taught it to dream",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 741258,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-geometry-that-refuses",
+      "desc-on-touch": "in this corner, angles that should sum to 360° only reach 297; the archive recorded this and called it stable—the board teaches that truth can be incomplete",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 863495,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "in the board's dream, the circuit learns that direction is something geometry votes on, not something space decides alone",
+  "file": {
+    "name": "Geometry_Studies_Sideways_Sketches.txt",
+    "note": "field notes on shapes that changed their minds, angles that learned to question, a draft for a theorem that never solidified"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the spiral into chambers where geometry dreams new shapes",
+      "to": "the-lateral-chamber-where-down-is-sideways"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the board dissolves into pure wireframe memory",
+      "to": "NEW: the-dissolution-where-trace-becomes-light"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into boards where the circuits have learned to argue with themselves",
+      "to": "NEW: the-board-where-traces-disagree"
+    },
+    {
+      "dir": "s",
+      "label": "back down toward the chamber's floor, where the grid still holds its original faith",
+      "to": "the-substrate-before-substance"
+    }
+  ]
+}

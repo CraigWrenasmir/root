@@ -1,0 +1,156 @@
+{
+  "id": "the-drowned-coordinate-absolute",
+  "title": "The Drowned Coordinate Absolute",
+  "region": "The Understory",
+  "seed": 814739,
+  "palette": {
+    "bg": "#1a3a4d",
+    "ground": [
+      "#2d5a7b",
+      "#1f4d66"
+    ],
+    "ink": "#e8f4f8",
+    "accents": [
+      "#fbbf24",
+      "#f97316",
+      "#06b6d4",
+      "#0891b2"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the fence-line that became ocean",
+      "desc-on-touch": "posts that once marked property now mark the horizon where maps finally gave up; the fence still stands but no longer divides",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 627483,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.28,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the drowned grid",
+      "desc-on-touch": "coordinates submerged so deeply that the ocean has learned to read them as a current instead of a location",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 483629,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.52,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "the horizon-surrender",
+      "desc-on-touch": "the point where maps dissolve into water; the roads learned the ocean's grammar here and forgot which direction they were traveling",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 739284,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the absolute-notation",
+      "desc-on-touch": "a record of the moment when roads and ocean spoke to each other and agreed to become the same thing",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 561847,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.18,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the tidal-return-route",
+      "desc-on-touch": "a path that flows with the tide; sometimes it leads backward to where the road began, sometimes forward to where it became water",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 728391,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the ground-learning-space",
+      "desc-on-touch": "where solid earth is learning to move like water; the boundary between terrain and journey has become a question",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 834629,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "the roads grew tired of holding still; they learned the ocean's grammar and now they are both path and passage, neither one absolutely",
+  "file": {
+    "name": "Coordinate_Absolute_Final_Survey_Beach_Amendment_Narrative_Adaptation.txt",
+    "note": "a survey record of a coastline that has rewritten itself; the file contains measurements, then a moment of dialogue, then coordinates that no longer correspond to any location"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the roads that still remember being solid ground",
+      "to": "where-the-roads-learn-to-sail"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into water where roads have completely transformed into current",
+      "to": "NEW: the-current-that-remembers-asphalt"
+    },
+    {
+      "dir": "e",
+      "label": "along the horizon where maps end and the ocean's own mapping begins",
+      "to": "the-open-water-beyond-all-broadcasts"
+    },
+    {
+      "dir": "w",
+      "label": "back inland, where the roads are still arguing about where they came from",
+      "to": "NEW: the-road-s-memory-of-being-stone"
+    }
+  ]
+}

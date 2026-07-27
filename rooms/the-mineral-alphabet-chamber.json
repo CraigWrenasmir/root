@@ -1,0 +1,149 @@
+{
+  "id": "the-mineral-alphabet-chamber",
+  "title": "The Mineral Alphabet Chamber",
+  "region": "The Understory",
+  "seed": 2847361,
+  "palette": {
+    "bg": "#1a0f05",
+    "ground": [
+      "#8b4513",
+      "#d4704d"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#ff6347",
+      "#daa520",
+      "#8b7355",
+      "#ffa500"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "ochre-letter-bed",
+      "desc-on-touch": "Rows of ochre marks on stone, each one a letter in a language that has no alphabet yet. The stone is writing itself into literacy, teaching itself words for colours that have no names.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 4926371,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "sediment-inscription-tower",
+      "desc-on-touch": "Strata reading as a sentence written over millions of years. Each layer is a word, each mineral a letter. The meaning is geological; you are only just learning to read it.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 6173482,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "colour-memory-scatter",
+      "desc-on-touch": "Fragments of ochre, iron oxide, charcoal arranged in patterns that tell the story of what each colour remembers. The red remembers burning; the black remembers smoke.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3284756,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "handprint-pool",
+      "desc-on-touch": "A pool of ochre pigment, ancient, with fingerprints pressed into it. The hands that made these prints are teaching the stone how to remember touch without being touched.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 5847291,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "weathering-alphabet",
+      "desc-on-touch": "The rock face is slowly eroding its own letters deeper. Each rain teaches the stone new words. The alphabet is not fixed; it is being rewritten by time and weather.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7294816,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.68,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone learned its own alphabet by watching ochre teach itself what colours mean; now earth writes in earth, teaching stone to read itself",
+  "file": {
+    "name": "Ochre_Inscription_Sequence_Kakadu_Coastal_Transition.png",
+    "note": "A photograph series of a rock face near the coast where traditional ochre markings seem to be arranged in new sequences. The photographer documented the site yearly from 1996 to 2018. In the later pho"
+  },
+  "reverie": {
+    "title": "REVERIE — the ochre country, noon",
+    "narr": [
+      "You both kneel beside the rock face where ochre marks live.",
+      "She traces the marks with one finger, not touching, just near.",
+      "She says: the stone is learning the pattern from her hand.",
+      "You see what she means. The ochre follows paths her fingers suggest.",
+      "The red is listening. It has been listening for longer than people."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward where writing became mineral and stopped distinguishing the difference",
+      "to": "the-bedrock-inscription"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into stone where the alphabet learns to sing its own shapes",
+      "to": "NEW: the-deepening-phoneme-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "along the coast where ochre meets salt and learns to write in water",
+      "to": "NEW: the-salt-margin-where-colour-learns-to-dissolve"
+    }
+  ]
+}

@@ -140,7 +140,7 @@
     {
       "dir": "n",
       "label": "upward toward the archive's oldest questions",
-      "to": "NEW: the-question-that-learned-to-ask-itself"
+      "to": "the-question-that-learned-to-ask-itself"
     },
     {
       "dir": "e",

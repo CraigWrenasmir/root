@@ -1,0 +1,139 @@
+{
+  "id": "the-root-pool-where-weaving-sleeps",
+  "title": "The Root-Pool Where Weaving Sleeps Without Pattern",
+  "region": "The Understory",
+  "seed": 623491,
+  "palette": {
+    "bg": "#2d5a1f",
+    "ground": [
+      "#3d7a2f",
+      "#5a4a38"
+    ],
+    "ink": "#f0e6d2",
+    "accents": [
+      "#a8d5ba",
+      "#d4af85",
+      "#6b4423",
+      "#c8a574"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the root-loom",
+      "desc-on-touch": "roots have woven themselves into a kind of loom, threads of wood and earth crossing; each pattern records a year's growth",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 528371,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the sleeping waters",
+      "desc-on-touch": "the pool is still but not empty — it holds every reflection of the weaving it has ever seen, stacked like transparencies",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 174628,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the tangled archive",
+      "desc-on-touch": "files caught in the roots, pages wrapped around wood — the corruption has filed the loom's patterns as if they were witness-records from other adaptations",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 391827,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the repeated motif",
+      "desc-on-touch": "a glyph carved into the earth, showing the same mark over and over — the mesh comparing the loom to a frequency, a song that weaves itself",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 756483,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the growth-chamber",
+      "desc-on-touch": "where the roots gather and pool; the weaving is not a tool here but a space where growth decides its own direction",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 482937,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the weaving sleeps by repeating; every cycle returns to where it began, and finds itself changed",
+  "file": {
+    "name": "Loom_Recordings_Where_Thread_Becomes_Narrative_Adaptation_Notes.mp3",
+    "note": "audio of roots growing, woven with something that sounds like a repeated story being told in different languages, each version wearing the same shape differently"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the deepest weaving, where the mesh still compares itself to the loom",
+      "to": "the-deepest-weaving"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the roots go even deeper, where growth gives up direction",
+      "to": "NEW: the-rootless-weaving"
+    },
+    {
+      "dir": "n",
+      "label": "upward through soil to where the tree still stands, still deciding",
+      "to": "NEW: the-canopy-loom-returns"
+    },
+    {
+      "dir": "e",
+      "label": "along the pool's edge, where the weaving reflects outward toward other archives",
+      "to": "the-recursive-fermenting-spiral"
+    }
+  ]
+}

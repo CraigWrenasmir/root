@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 97,
+  "nights": 102,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -2696,6 +2696,151 @@
     {
       "id": "the-vortex-transmission-chamber",
       "title": "The Vortex Transmission Chamber",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-submerged-shelf-returns",
+      "title": "The Submerged Shelf That Returns Questions",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-root-pool-where-weaving-sleeps",
+      "title": "The Root-Pool Where Weaving Sleeps Without Pattern",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-depth-s-own-dark-chorus",
+      "title": "The Depth's Own Dark Chorus",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-salt-margin-beyond-reading",
+      "title": "The Salt-Margin Beyond Reading",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-water-s-returning-path",
+      "title": "The Water's Returning Path",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-drowned-coordinate-absolute",
+      "title": "The Drowned Coordinate Absolute",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sub-menu-that-tastes-of-older-software",
+      "title": "The Sub-Menu That Tastes of Older Software",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-high-burn-ridge",
+      "title": "The High Burn Ridge",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-lateral-sediment-convergence",
+      "title": "The Lateral Sediment Convergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-margin-where-sleep-meets-render",
+      "title": "The Margin Where Sleep Meets Render",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-tapestry-of-all-dreamed-things",
+      "title": "The Tapestry of All Dreamed Things",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-office-where-moments-are-shelved",
+      "title": "The Office Where Moments Are Shelved",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-question-that-learned-to-ask-itself",
+      "title": "The Question That Learned to Ask Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ridge-where-climbing-becomes-staying",
+      "title": "The Ridge Where Climbing Becomes Staying",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-throat-before-utterance",
+      "title": "The Throat Before Utterance",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-antechamber-of-refusal",
+      "title": "The Antechamber of Refusal",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gallery-of-finished-dreamings",
+      "title": "The Gallery of Finished Dreamings",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-tower-of-retained-apartments",
+      "title": "The Tower of Retained Apartments",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-place-where-meaning-begins-and-grows-without-saying",
+      "title": "The Place Where Meaning Begins and Grows Without Saying",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-ocean-learned-to-broadcast",
+      "title": "Where the Ocean Learned to Broadcast",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepest-thought-layer",
+      "title": "The Deepest Thought Layer",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-where-electricity-learned-to-root",
+      "title": "The Bedrock Where Electricity Learned to Root",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-mineral-alphabet-chamber",
+      "title": "The Mineral Alphabet Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-shape-dreaming-where-form-remembers",
+      "title": "Where Form Remembers It Was Never Fixed",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-rising-chamber-where-pressure-becomes-ascension",
+      "title": "The Rising Chamber Where Pressure Becomes Ascension",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-registry-that-refused-volume",
+      "title": "The Registry That Refused to Count",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-still-path-where-others-learned",
+      "title": "The Still Path Where Others Learned",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-peak-where-nothing-grows",
+      "title": "The Peak Where Nothing Grows and Listening Becomes Solitary",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-grove-learning-circuit-logic",
+      "title": "The Grove Learning Circuit Logic",
       "region": "The Comparisons"
     }
   ]

@@ -1,0 +1,156 @@
+{
+  "id": "the-water-s-returning-path",
+  "title": "The Water's Returning Path",
+  "region": "The Comparisons",
+  "seed": 597384,
+  "palette": {
+    "bg": "#6b8e6f",
+    "ground": [
+      "#5a7a5f",
+      "#8a9d8d"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#4a6f4f",
+      "#c9a876",
+      "#d4af85",
+      "#a8d5ba"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the underground stream",
+      "desc-on-touch": "water that has learned the path it will always follow; each return traces the channel a little deeper into memory",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 637281,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "the confluence-shadow",
+      "desc-on-touch": "where the returning water meets its younger self, coming down from the source; they do not mix but remember doing so",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 829147,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the channel-archive",
+      "desc-on-touch": "files caught in stone where the water has carved its own history; records of what the return has carried",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 374829,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the cycle-marker",
+      "desc-on-touch": "stone carved by ten thousand returns; each passing has written the same mark deeper until it reads like a frequency",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 482756,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "the old channels",
+      "desc-on-touch": "paths the water took in previous years, now abandoned but still present; the return knows them by heart without using them",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 651382,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "the adaptation-point",
+      "desc-on-touch": "where returning water has learned to flow differently than it once did, carrying stories of other adaptations it has witnessed",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 739284,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.18,
+      "y": 0.38,
+      "solid": false
+    }
+  ],
+  "inscription": "every river follows its own old channels until it learns to carve new ones; the return is how water remembers being young",
+  "file": {
+    "name": "Stream_Adaptation_Records_Where_Water_Learns_Previous_Paths_1992.mp3",
+    "note": "field recording of water moving through stone, corrupted with what sounds like a story being retold — each telling following the same shape, changing slightly"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the source, where water has not yet learned to return",
+      "to": "the-primitive-water-source"
+    },
+    {
+      "dir": "w",
+      "label": "deeper underground, where the path becomes unmappable",
+      "to": "NEW: the-unmapped-underground-return"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the stream emerges and daylight returns it to sky",
+      "to": "NEW: the-emergence-where-water-learns-weather"
+    },
+    {
+      "dir": "s",
+      "label": "downstream where the path joins other returns and becomes a river again",
+      "to": "the-river-s-second-language"
+    }
+  ]
+}

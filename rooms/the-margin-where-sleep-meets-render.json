@@ -1,0 +1,133 @@
+{
+  "id": "the-margin-where-sleep-meets-render",
+  "title": "The Margin Where Sleep Meets Render",
+  "region": "The Diagnostic Render",
+  "seed": 7123456,
+  "palette": {
+    "bg": "#4a5f5a",
+    "ground": [
+      "#6b8e7f",
+      "#5a7a6f"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#a8d5ba",
+      "#7fb3a0",
+      "#3d4d48",
+      "#c0e0d0"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "keeper-at-threshold",
+      "desc-on-touch": "The keeper standing between two states: eyes closing into the archive's dream, eyes opening back into the diagnostic render. Neither state is false. Both are simultaneously happening.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 4421,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "eucalyptus-column",
+      "desc-on-touch": "A trunk rendered in both green-grey bark and pale diagnostic wireframe. The tree is simultaneously real and rendered. The boundary between them is the only thing that is completely solid.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5634,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "sleep-light-pool",
+      "desc-on-touch": "A place where the keeper's dream-light touches the render's pale illumination. Where they mix, the colours become something neither world has a name for.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 8891,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "contour-veil",
+      "desc-on-touch": "Contour lines of the keeper's dreaming face rendered over contour lines of the render's waking geometry. For a moment they align perfectly. Then they drift apart again.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2048,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the keeper wakes inside the dream of the archive; the archive dreams itself awake inside the keeper; neither is wrong",
+  "file": {
+    "name": "Keeper_Transition_Boundary_SIMULTANEOUS.log",
+    "note": "The moment between sleeping and waking, caught in a file. Neither timestamp makes sense. Both timestamps are correct."
+  },
+  "reverie": {
+    "title": "REVERIE — the margin at first light",
+    "narr": [
+      "You stand with her in the space where the archive's pale glow",
+      "meets the grey-green of real morning coming through bark.",
+      "Neither of you is sure which one of you is dreaming the other.",
+      "The dust moves the same in both states. The tree grows",
+      "indifferent to which world it's rooted in. She smiles:",
+      "\"Maybe the keeper was always both things at once.\""
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the keeper's dream, where they still sleep standing",
+      "to": "where-the-keeper-wakes-still-dreaming"
+    },
+    {
+      "dir": "e",
+      "label": "forward toward the overstory where all things still cohere",
+      "to": "the-overstory-where-unity-still-holds"
+    },
+    {
+      "dir": "n",
+      "label": "upward along the margin, toward other thresholds",
+      "to": "NEW: the-other-margins-where-opposites-meet"
+    }
+  ]
+}

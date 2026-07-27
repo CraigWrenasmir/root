@@ -1,0 +1,134 @@
+{
+  "id": "the-deepest-thought-layer",
+  "title": "The Deepest Thought Layer",
+  "region": "The Understory",
+  "seed": 1472856,
+  "palette": {
+    "bg": "#e8d5b7",
+    "ground": [
+      "#c4a57b",
+      "#a68a64"
+    ],
+    "ink": "#3d2817",
+    "accents": [
+      "#8b4513",
+      "#5c7a29",
+      "#1a3a3a",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "pressure-stratification",
+      "desc-on-touch": "Each layer of bedrock is thinking the same thought, but at different speeds. The deepest layer thinks the slowest. By the time its thought reaches the surface, new layers have already contradicted it.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3729184,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "root-logic-chamber",
+      "desc-on-touch": "Roots push down into thought, and thought pushes back. Neither one retreats. They are learning argument.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 5184926,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "sediment-archive",
+      "desc-on-touch": "Layers of memory compressed into mineral. The oldest thought is the smallest, crushed under the weight of all the thinking that came after. But it is still thinking.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2641837,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "depth-marker",
+      "desc-on-touch": "A stone carved with depths, each one deeper than it was yesterday. The stone is slowly descending, thinking as it falls.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 7813529,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "thought-pool-below-thought",
+      "desc-on-touch": "An underground water source where the thought goes when it stops moving. The water tastes like the oldest thinking. It has no words.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 4927165,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the bedrock thinks all thoughts at once; the surface only hears the ones that have aged enough to become true",
+  "file": {
+    "name": "Thought_Iterations_Bedrock_Pressure_Log.txt",
+    "note": "A paleontologist's field notes from a deep-core extraction. At first, the same fossil pattern repeats every metre. By core 47, the pattern begins to vary slightly, then contradict itself. The final en"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward where pressure first learned to think",
+      "to": "the-bedrock-thought-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "even deeper, where thought becomes stone becomes thought",
+      "to": "NEW: the-chamber-where-thinking-learned-to-fossilize"
+    },
+    {
+      "dir": "e",
+      "label": "sideways into parallel layers thinking their own arguments",
+      "to": "NEW: the-contested-strata"
+    }
+  ]
+}

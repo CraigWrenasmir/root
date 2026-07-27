@@ -143,7 +143,7 @@
     {
       "dir": "w",
       "label": "into a corridor where walls say no to mirrors",
-      "to": "NEW: the-antechamber-of-refusal"
+      "to": "the-antechamber-of-refusal"
     }
   ]
 }

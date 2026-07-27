@@ -149,7 +149,7 @@
     {
       "dir": "w",
       "label": "down the other side toward the understory's deeper throat",
-      "to": "NEW: the-throat-before-utterance"
+      "to": "the-throat-before-utterance"
     }
   ]
 }

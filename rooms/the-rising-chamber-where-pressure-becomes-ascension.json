@@ -1,0 +1,122 @@
+{
+  "id": "the-rising-chamber-where-pressure-becomes-ascension",
+  "title": "The Rising Chamber Where Pressure Becomes Ascension",
+  "region": "The Understory",
+  "seed": 5182743,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#a8dadc",
+      "#457b9d",
+      "#1d3557",
+      "#f1faee"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-pressure-release",
+      "desc-on-touch": "where the weight learned to rise—you can feel the upward push in the air itself, the chamber breathing out what it held for ages",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 427936,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-ascending-trace",
+      "desc-on-touch": "static resolves into clarity only along this line—the path the pressure took when it learned to move, each flicker ascending further than the last",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 894372,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-old-weight",
+      "desc-on-touch": "something that stayed, something that chose the ground—a stone that decided not to rise with the pressure, content in its refusal",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 651284,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the-breathable-ceiling",
+      "desc-on-touch": "the chamber learned to exhale; above, something that was solid has become permeable, teaching the air that walls can be crossings",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 738291,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "what was trapped learns to move; the chamber discovers that pressure resolves not into peace, but into ascension, not into silence",
+  "file": {
+    "name": "Pressure_Diary_Release_Dates.txt",
+    "note": "timestamps of when things learned to rise—some dated, some not, all of them breathing upward"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down where pressure first learned to gather",
+      "to": "the-pressure-resolve-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "higher still, where rising becomes its own reason to continue",
+      "to": "NEW: the-altitude-where-reasons-thin"
+    },
+    {
+      "dir": "e",
+      "label": "into the storm-light where pressure teaches weather to move",
+      "to": "NEW: the-pressure-weather-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into chambers still learning how to release",
+      "to": "the-infinite-simultaneity-chamber"
+    }
+  ]
+}

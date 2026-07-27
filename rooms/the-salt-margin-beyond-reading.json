@@ -1,0 +1,139 @@
+{
+  "id": "the-salt-margin-beyond-reading",
+  "title": "The Salt-Margin Beyond Reading",
+  "region": "The Clean Archive",
+  "seed": 481629,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f3460",
+      "#16213e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#00d4ff",
+      "#ff006e",
+      "#8338ec",
+      "#ffbe0b"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the salt-circuit",
+      "desc-on-touch": "the tide has drawn its own logic into the salt crystals; a circuit board where each trace is a wave's decision",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 372849,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.48,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the wavelength margin",
+      "desc-on-touch": "where the grid gives way to salt, where numbers have been washed into rhythm and the tide reads in frequencies instead of coordinates",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 627384,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the trace that tastes of touch",
+      "desc-on-touch": "a signal line that records not electricity but salt residue, the map of where someone's hand was drawn across the margin",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 754891,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the conversion point",
+      "desc-on-touch": "where salt becomes current, where current becomes something tasted on the tongue; the threshold of the grid's surrender",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 481927,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "the unreadable notation",
+      "desc-on-touch": "salt crystals that form words in no archive's language; the margin has begun writing in tides instead of text",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 539287,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "where the tide gives up its grid, the salt learns to read backwards, and the margin forgets which side it belongs to",
+  "file": {
+    "name": "Tidal_Grid_Measurements_Patient_Notes_Margin_Margin.txt",
+    "note": "coordinates recorded in salt; the file contains both measurement and testimony, neither one entirely legible"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward numbers and their slow washing away",
+      "to": "where-the-numbers-wash-into-salt"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into salt where the grid has completely surrendered",
+      "to": "NEW: the-salt-s-own-memory"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the shore where tide and air still argue",
+      "to": "NEW: the-shore-that-refuses-naming"
+    },
+    {
+      "dir": "s",
+      "label": "southward where salt traces its own circuits into the seabed",
+      "to": "the-open-water-beyond-all-broadcasts"
+    }
+  ]
+}

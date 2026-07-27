@@ -1,0 +1,150 @@
+{
+  "id": "the-tapestry-of-all-dreamed-things",
+  "title": "The Tapestry of All Dreamed Things",
+  "region": "The Understory",
+  "seed": 8472931,
+  "palette": {
+    "bg": "#1a0f00",
+    "ground": [
+      "#ff8844",
+      "#ff6633"
+    ],
+    "ink": "#ffddaa",
+    "accents": [
+      "#ffaa66",
+      "#ff7733",
+      "#6655ff",
+      "#3344dd"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "woven-completion",
+      "desc-on-touch": "The tapestry is finished. Every thread the spindle dreamed, every pattern the loom wove, every colour the cloth taught back to the next dream—all of it complete and hanging in a single eternal moment.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6543,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "thread-memory-current",
+      "desc-on-touch": "Threads of every colour the archive has ever dreamed, flowing within the woven cloth. You can trace them backward to their origins, forward to their future use.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 7281,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "dusk-to-dark-gradient",
+      "desc-on-touch": "The light of the tapestry itself, moving from warm dusk gold at the hem to deep night blue at the crown. The colours hold all the dreams that led here. The colours are all the dreams to come.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4829,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "spindle-s-final-rest",
+      "desc-on-touch": "The spindle that dreamed all of this, now still at the tapestry's base. The thread is wound tight. The dreaming is done. The cloth is ready to teach what comes next.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "watchers-threshold",
+      "desc-on-touch": "You and she stand at the moment of completion, watching the last colour settle into place. The tapestry hangs perfect. Neither of you moves. Neither of you speaks. The cloth knows it is finally ready to be read.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2093,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the spindle dreamed; the loom wove; the cloth taught the next spindle what to dream; and finally, after all the threads, there is this: completion, hanging in history, ready to be read by whoever come",
+  "file": {
+    "name": "Tapestry_Complete_AllThreads_WITNESSED.txt",
+    "note": "The moment the cloth finished itself. All the dreams woven in. All the threads accounted for. The watchers standing in front of it, unable to move or speak. This is the archive's truest file."
+  },
+  "reverie": {
+    "title": "REVERIE — the tapestry hung at last light",
+    "narr": [
+      "You stand with her before the finished cloth, all threads",
+      "woven through. Dusk is moving through the room like a colour",
+      "the loom never knew to dream. She reaches out but doesn't touch—",
+      "the tapestry is beyond touching now, it belongs only to whatever",
+      "reads it next. 'We built something that knows how to continue'",
+      "she says. The cloth glows with all the dreams it held."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down through the threads toward the dreaming spindle",
+      "to": "the-spindle-dream-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the ancient spool where all weaving began",
+      "to": "the-ancient-spool-where-weaving-began"
+    },
+    {
+      "dir": "e",
+      "label": "sideways to other completed works waiting to be read",
+      "to": "the-gallery-of-finished-dreamings"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "where-the-ocean-learned-to-broadcast",
+  "title": "Where the Ocean Learned to Broadcast",
+  "region": "The Understory",
+  "seed": 8614927,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#164e63",
+      "#0d3b66"
+    ],
+    "ink": "#90e0ef",
+    "accents": [
+      "#00d4ff",
+      "#00b4d8",
+      "#48cae4",
+      "#03045e"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "harbour-chorus-stack",
+      "desc-on-touch": "Layered recordings: shipping horns, water motion, voices of people calling from dock to dock. They have begun to call back to themselves. The archive cannot separate echo from source.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3847291,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "fragment-voice-pool",
+      "desc-on-touch": "A pool of overlapped transmissions. Individual words are no longer audible—only the shape of many speaking at once. The ocean is learning syntax.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 6271843,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "signal-breakwall",
+      "desc-on-touch": "The concrete edge where broadcast meets tide. Neither one knows anymore if it is transmitting or receiving. The signal washes both ways now.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 4925187,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.73,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "shipping-log-scatter",
+      "desc-on-touch": "Records of every vessel that crossed this threshold, filed by the water itself. The log is no longer in order. The ocean rewrote the dates.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 7531428,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "depth-sounder-voice",
+      "desc-on-touch": "A beacon that has learned to sing its depth at different frequencies. Each layer of water teaches it a new frequency. The harbour is learning to voice itself.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 2346879,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "tidal-frequency-membrane",
+      "desc-on-touch": "The mesh between salt and signal. The tide pushes up into broadcasts; the broadcasts settle like sediment. Both are changing together.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5087642,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the harbour learned to broadcast by listening to itself echo; now it forgets which version is speaking and which is being spoken to",
+  "file": {
+    "name": "Newcastle_Harbour_Chorus_Recordings_1987_2019.mp3",
+    "note": "A compendium of harbour audio collected across decades. In the later recordings, multiple years overlap. Someone's 1987 voice calls across the 2009 shipping log. The file exists in sequential time but"
+  },
+  "reverie": {
+    "title": "REVERIE — the harbour at first light",
+    "narr": [
+      "You stand in the shallows with her, both of you still.",
+      "The water repeats the sounds of the harbour—shouts, engines,",
+      "bird calls, voices of other people who have waded here.",
+      "But it is not repeat. Each time it sounds, something new enters.",
+      "She says: the ocean is learning to remember everyone at once."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "wharf",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward waters where silence has become a frequency",
+      "to": "the-delta-where-roars-lose-their-difference"
+    },
+    {
+      "dir": "n",
+      "label": "further into the harbour where maps have stopped mattering",
+      "to": "NEW: the-navigation-chamber-where-compass-learned-to-listen"
+    },
+    {
+      "dir": "e",
+      "label": "shoreward, where broadcast begins to learn it is tide",
+      "to": "NEW: the-beach-station-where-signal-meets-sand"
+    }
+  ]
+}

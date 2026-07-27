@@ -1,0 +1,154 @@
+{
+  "id": "the-submerged-shelf-returns",
+  "title": "The Submerged Shelf That Returns Questions",
+  "region": "The Comparisons",
+  "seed": 847392,
+  "palette": {
+    "bg": "#d4b896",
+    "ground": [
+      "#c9a876",
+      "#8b6f47"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#4a9fd8",
+      "#87ceeb",
+      "#2d5a7b",
+      "#f4a460"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the flowing shelf",
+      "desc-on-touch": "the stone holds water like a question holds breath; every channel the flow has cut is a choice the shelf will answer",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 384756,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the spring point",
+      "desc-on-touch": "water breaks the surface here, and for a moment you hear it deciding which way to flow",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 293847,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the amendment notations",
+      "desc-on-touch": "marks in the stone, annotations that could be survey measurements or the questions someone asked while standing here",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 556234,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the return current",
+      "desc-on-touch": "water that has already chosen its path returns along the shelf's underside, teaching the stone about cycles",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 738291,
+        "size": 1,
+        "colors": [
+          1,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the deepening reach",
+      "desc-on-touch": "where water extends past the limestone edge, the shelf becomes uncertain about where it ends",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 174829,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the stone holds every question the water ever asked; the shelf is both answer and interrogation",
+  "file": {
+    "name": "Spring_Survey_Amendment_1974_Before_Deepening_Works.txt",
+    "note": "measurement of the shelf's depth from before the stone agreed to return the questions it had been asked"
+  },
+  "reverie": {
+    "title": "REVERIE — the shelf where questions rest",
+    "narr": [
+      "You stand in shallow water. The shelf slopes away beneath",
+      "your feet, stone polished smooth. Leif points at something",
+      "the current has carved — not quite words, but a shape like a",
+      "question. He asks: \"Does the water ask the stone, or does",
+      "the stone ask the water?\" The flow answers for both of them."
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up where the limestone begins its slow learning",
+      "to": "the-limestone-shelf"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where the shelf gives way to unmarked water",
+      "to": "NEW: the-drowned-shelf-archive"
+    },
+    {
+      "dir": "w",
+      "label": "westward along underground channels, where water speaks in echoes",
+      "to": "the-primitive-water-source"
+    },
+    {
+      "dir": "e",
+      "label": "along the visible rim where limestone meets the current's decision",
+      "to": "NEW: the-shelf-s-reading-edge"
+    }
+  ]
+}

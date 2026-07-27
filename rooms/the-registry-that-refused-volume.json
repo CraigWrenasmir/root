@@ -1,0 +1,122 @@
+{
+  "id": "the-registry-that-refused-volume",
+  "title": "The Registry That Refused to Count",
+  "region": "The Diagnostic Render",
+  "seed": 3894172,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#3d5a3d",
+      "#5a6b5a"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#cc6655",
+      "#aa8833",
+      "#667799",
+      "#559955"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-house-of-refusal",
+      "desc-on-touch": "a small structure with windows that open onto spaces that have no measurable size—the house keeps its inventory in a language that volume doesn't have words for",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 472819,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-uncounted-shelf",
+      "desc-on-touch": "a standing directory of things that exist but refuse to register—you can see them stacked here, but if you try to enumerate them, the count stops at three and starts over",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 639485,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-archive-s-small-shed",
+      "desc-on-touch": "a shed where numbers go to forget themselves—the walls are soft with age, and every object stored here reduces in mass the more you try to weigh it",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 851926,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-spiral-that-stops-counting",
+      "desc-on-touch": "a glyph-marked space where enumeration gives up—the spiral is complete, but if you ask how many turns, the answer becomes a different question each time",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 734628,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "at this depth, the archive learned that refusing to speak volume is how some truths survive being documented",
+  "file": {
+    "name": "Depths_Where_Numbers_Dissolve.txt",
+    "note": "inventory of things that exist only in non-countable scales, truths that refuse the archive's own measurement language"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up where the registry still believed in counting",
+      "to": "the-unnamed-depth-registry"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into registries where refusal becomes more complete",
+      "to": "NEW: the-registry-of-perfect-silence"
+    },
+    {
+      "dir": "n",
+      "label": "toward surfaces where volume still has meaning",
+      "to": "the-gallery-of-objects-too-fragile-to-be-named"
+    },
+    {
+      "dir": "s",
+      "label": "further down into depths that have learned not to register",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    }
+  ]
+}

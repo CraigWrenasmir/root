@@ -1,0 +1,117 @@
+{
+  "id": "the-high-burn-ridge",
+  "title": "The High Burn Ridge",
+  "region": "The Comparisons",
+  "seed": 4827361,
+  "palette": {
+    "bg": "#d4b896",
+    "ground": [
+      "#8b6f47",
+      "#c9a876"
+    ],
+    "ink": "#2a2a1a",
+    "accents": [
+      "#ff6b35",
+      "#ffa500",
+      "#0066cc",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "burnt-ridge-spine",
+      "desc-on-touch": "The ridge itself, rising through ash-pale grass, charred at the crest where this year's fire reached. You can read the burn pattern like a hand written in charcoal.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 8374,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "scorched-tree-stand",
+      "desc-on-touch": "Four eucalyptus trunks, blackened to mid-height, still standing. The higher country burns differently than the valleys below—hotter, quicker, leaving the deep roots to remember.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6129,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "ash-drift-pool",
+      "desc-on-touch": "A low place where ash has settled in layers—each fire a readable stratum. The country burns in cycles, and each cycle forgets the one before, but the ash remembers.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5502,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "renewal-shoot",
+      "desc-on-touch": "A young growth already pushing through the char, red-barked and urgent. The ridge teaches itself to burn and recover faster each cycle.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 7821,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the ridge reads its own burning; each fire teaches the next fire how to burn differently here",
+  "file": {
+    "name": "HighCountry_BurnCycle_Records_1887-2024.txt",
+    "note": "Overlapping accounts of fires at this altitude. Each observer sees a different pattern. The land burns in layers."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down through smoke toward the lower country",
+      "to": "the-smoke-country-eastward"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the fire burns even hotter and leaves only stone",
+      "to": "NEW: the-ridge-at-the-limit-where-fire-becomes-glass"
+    },
+    {
+      "dir": "e",
+      "label": "toward another ridge where the burn pattern mirrors but doesn't match",
+      "to": "NEW: the-twin-ridge-burning-opposite"
+    }
+  ]
+}

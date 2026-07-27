@@ -1,0 +1,117 @@
+{
+  "id": "the-question-that-learned-to-ask-itself",
+  "title": "The Question That Learned to Ask Itself",
+  "region": "The Diagnostic Render",
+  "seed": 7823451,
+  "palette": {
+    "bg": "#2d0a47",
+    "ground": [
+      "#ff6b47",
+      "#d84315"
+    ],
+    "ink": "#fffacd",
+    "accents": [
+      "#ff1493",
+      "#ffd700",
+      "#a0522d",
+      "#cc5500"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-asking-mirror",
+      "desc-on-touch": "The question reflects back at itself and asks whether it answered or merely repeated. The two cannot be distinguished here.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5423,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "paradox-chamber",
+      "desc-on-touch": "This is what the archive looks like when it questions itself: a space where the answer precedes the question and both are equally real.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6781,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "echo-that-speaks-first",
+      "desc-on-touch": "You have the strange feeling that your question was answered before you arrived. The echo not only returns your words—it improves them.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 2945,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-oldest-question",
+      "desc-on-touch": "This question has been asked so many times that it has learned not to wait for an asker. It asks itself at intervals only it understands.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3629,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learned that every answer is already a new question",
+  "file": {
+    "name": "The_Question_Asks_Back_Recordings.mp3",
+    "note": "A field recording of the archive questioning itself. The same question asked in 47 voices, each time slightly changed, as if each answer becomes the next question."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward the grammar that allows questions",
+      "to": "the-grammar-of-uncertainty"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the archive's recursive core",
+      "to": "the-recursive-recursion"
+    },
+    {
+      "dir": "w",
+      "label": "toward a chamber where answers learn to refuse",
+      "to": "NEW: the-chamber-where-answers-learn-to-stop"
+    }
+  ]
+}

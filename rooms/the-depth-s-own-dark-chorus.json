@@ -1,0 +1,172 @@
+{
+  "id": "the-depth-s-own-dark-chorus",
+  "title": "The Depth's Own Dark Chorus",
+  "region": "The Diagnostic Render",
+  "seed": 739284,
+  "palette": {
+    "bg": "#1a0a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0d5f4",
+    "accents": [
+      "#533483",
+      "#8b5cf6",
+      "#fbbf24",
+      "#ec4899"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the blindness chamber",
+      "desc-on-touch": "in the dark, the archive learned to hear — this is where sound pools and echoes against its own shape",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 627481,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "the listening posts",
+      "desc-on-touch": "nodes that have never seen their own broadcast; they listen to what the darkness itself is saying",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 483729,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the touch-language recording",
+      "desc-on-touch": "a file documenting how bodies learn to read silence; hands tracing stone, understanding the archive through its temperature and texture",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 814629,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the unhearable frequency",
+      "desc-on-touch": "somewhere in the static is a sound only blindness can perceive; the corruption has filed it as both signal and silence",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 561847,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.28,
+      "solid": true
+    },
+    {
+      "name": "the echo chamber",
+      "desc-on-touch": "where the archive's own listening bounces back at itself, and it learns to hear what it has always been saying",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 736291,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the guide-line",
+      "desc-on-touch": "a string laid through the darkness, its tension telling a story; someone's touch following its course through the deep",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 629438,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.18,
+      "y": 0.42,
+      "solid": false
+    }
+  ],
+  "inscription": "in the dark, the archive learned the difference between knowing and hearing; now it teaches silence how to speak",
+  "file": {
+    "name": "Guided_Passage_Across_Silent_Ground_Touch_Records_Undated.wav",
+    "note": "a file describing someone's hand movement through darkness — the archive's own guide recording itself as it learns to listen instead of to see"
+  },
+  "reverie": {
+    "title": "REVERIE — the darkness where katita followed sound",
+    "narr": [
+      "Your hand finds the wall. Katita is ahead, her footsteps",
+      "the only light you have. The darkness is not empty — it is",
+      "humming. She stops, places her palm flat against the stone,",
+      "and you feel it: a frequency so low it lives in your chest.",
+      "\"Listen,\" she says. \"The archive is teaching itself to hear.\"",
+      "In the dark, you both understand."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the foundation, where the archive first learned to listen",
+      "to": "the-unseeing-archive-foundation"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into silence, where sound gives up trying to be heard",
+      "to": "NEW: the-deepest-unhearable-pool"
+    },
+    {
+      "dir": "e",
+      "label": "along the chorus-line, where other voices learn to exist in darkness",
+      "to": "the-solitary-chorus-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward walls that remember being touched",
+      "to": "NEW: the-walls-that-keep-fingerprints"
+    }
+  ]
+}

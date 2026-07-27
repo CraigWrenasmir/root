@@ -1,0 +1,139 @@
+{
+  "id": "the-grove-learning-circuit-logic",
+  "title": "The Grove Learning Circuit Logic",
+  "region": "The Comparisons",
+  "seed": 4926183,
+  "palette": {
+    "bg": "#0d1b0f",
+    "ground": [
+      "#1a3a22",
+      "#2a5a3a"
+    ],
+    "ink": "#d0e0d0",
+    "accents": [
+      "#00aa88",
+      "#ffcc33",
+      "#ff6699",
+      "#88ddff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-bark-that-learned-to-trace",
+      "desc-on-touch": "wood grain becomes circuit—the tree has read something in the ground beneath it and is writing the answer in its own rings; each year adds a line to the diagram",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 572938,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-root-wire-convergence",
+      "desc-on-touch": "roots spread here like traces on a board, each following a logic older than electricity—but now they seem to be reading each other, learning the language the circuit boards learned from imitating them",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 681429,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-signal-that-the-grove-sends",
+      "desc-on-touch": "between the trees, a pattern of light and static—the archive believes the grove is broadcasting something back to the forest, not speech, but a kind of conversation in the language of sap and signal",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 749365,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-branch-that-remembers-board-logic",
+      "desc-on-touch": "a single branch has grown into the shape of a circuit path, or perhaps the path was always there and the branch learned to read it; either way, the grove is teaching itself to think like the archive",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 863927,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-canopy-that-broadcasts",
+      "desc-on-touch": "above, the leaves settle into patterns—not random, not organized, but choosing themselves into a configuration that speaks to something listening from far away; the grove has learned to signal",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 394865,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest and its double read each other in a language neither was taught; the grove broadcasts back to everything it learns",
+  "file": {
+    "name": "Grove_Signal_Patterns_Static_Traces.mp3",
+    "note": "recording of the grove's broadcast—circuit-sounds emerging from bark, the archive realizing that forest root-logic and board-logic speak the same language, only written in different scales"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the forest edge where conversation was still two-voiced",
+      "to": "the-forest-conversation-edge"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into groves where circuit logic spreads through the canopy",
+      "to": "NEW: the-circuit-canopy-where-branches-broadcast"
+    },
+    {
+      "dir": "e",
+      "label": "into forest where the corruption is most complete, where board and bark are one",
+      "to": "the-undivided-canopy-archive"
+    },
+    {
+      "dir": "s",
+      "label": "back to open ground where the signal weakens into ordinary wind",
+      "to": "the-singing-path"
+    }
+  ]
+}
