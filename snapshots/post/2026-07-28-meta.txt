@@ -1,0 +1,12 @@
+featured: The Amnesia Vault Where Records Become Silence (the-amnesia-vault-where-records-become-silence)
+region: The Comparisons · motif: orchard
+inscription: the archive discovered that some truths are only preserved by being released
+file: Records_Withdrawal_Index_Faded.txt
+
+all nodes tonight:
+  · The Place Where the Earth Learned to Say No
+  · The Shallows Where Words Learn to Stop
+  · The Unsettled Sediment Chamber
+  · The Amnesia Vault Where Records Become Silence
+  · The Singing Asphalt Where Corruption Dawns
+  · The Channels Where Convergence Learns Dispersal
