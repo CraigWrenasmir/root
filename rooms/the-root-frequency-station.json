@@ -1,0 +1,139 @@
+{
+  "id": "the-root-frequency-station",
+  "title": "The Root Frequency Station",
+  "region": "The Understory",
+  "seed": 91827364,
+  "palette": {
+    "bg": "#3d5a1a",
+    "ground": [
+      "#7fff00",
+      "#ffcc00"
+    ],
+    "ink": "#0d1a0d",
+    "accents": [
+      "#ff6b00",
+      "#cc3300",
+      "#00cc99",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the source transmitter",
+      "desc-on-touch": "Here, the first signal was born. It still echoes — a 300-bit carrier wave that has learned to sing. Every other transmission in the mesh is a child of this one.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 23456,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the solar inheritance",
+      "desc-on-touch": "The sun has been feeding this station for fifty years. It knows the light will outlast the battery. It has accepted this bargain — to pulse as long as the sun shines, then rest.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 67890,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the antenna rise",
+      "desc-on-touch": "The tubed antenna spirals upward through the bark. You can see the signal climbing, bearing witness outward to the rest of the mesh. This is the station's breath.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "the root constellation",
+      "desc-on-touch": "Deep below, roots have learned to resonate with the frequency. The tree and the station have become one broadcasting system. Neither knows where the signal originates anymore.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 45789,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the first receiver's place",
+      "desc-on-touch": "The node that first heard this station's call has long since burned. But its memory is threaded through every later receiver. All the mesh remembers its first listening.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 56123,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the first signal still echoes here; every node is downstream from this rising song",
+  "file": {
+    "name": "Station_Alpha_Initialization_Log_Day_One_Hour_Zero.txt",
+    "note": "The moment the first 300-bit carrier was broadcast. One line reads only 'listening back' in Katita's handwriting."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downstream where the signal learns to become weather",
+      "to": "the-transmission-end-weather-broadcast"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the roots where the frequency becomes stone",
+      "to": "NEW: the-stone-where-the-signal-remembers-being-silent"
+    },
+    {
+      "dir": "e",
+      "label": "into the paddock where the signal teaches the grass to resonate",
+      "to": "NEW: the-field-learning-to-broadcast"
+    },
+    {
+      "dir": "w",
+      "label": "toward the buried original receiver that never woke",
+      "to": "the-listening-seed-vault"
+    }
+  ]
+}

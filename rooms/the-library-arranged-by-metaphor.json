@@ -1,0 +1,150 @@
+{
+  "id": "the-library-arranged-by-metaphor",
+  "title": "The Library Arranged by Metaphor",
+  "region": "The Diagnostic Render",
+  "seed": 33456,
+  "palette": {
+    "bg": "#2d2d44",
+    "ground": [
+      "#5a4a78",
+      "#3d3d5c"
+    ],
+    "ink": "#d4b5a0",
+    "accents": [
+      "#9b8b7e",
+      "#c4a69d",
+      "#6b6b83",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the cottage of related things",
+      "desc-on-touch": "rain and tears live here together; mirrors and windows share a shelf; distance sleeps next to return; you remember this place from dreams you forgot you had",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 2211,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "shed where dreams catalogue themselves",
+      "desc-on-touch": "the archive's own filing system: not by date or name, but by emotional resonance; what belongs next to what because it feels true",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4422,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the directory of resemblances",
+      "desc-on-touch": "files organized by metaphor instead of taxonomy: everything about becoming is shelved with everything about water; everything about loss with everything about shells",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 6677,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "the passage where books breathe",
+      "desc-on-touch": "you walk between shelves and the books whisper to each other about things they have in common; none of it is catalogued",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 1188,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the dream's own filing system",
+      "desc-on-touch": "here the archive keeps what it learned from dreams; organized by the logic of sleep rather than the logic of waking",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5599,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the library where she sorted what they brought bac",
+    "narr": [
+      "you sit across from her in the cottage while rain drums the tin roof",
+      "she's arranging books by the logic of dreams she half-remembers",
+      "each title finds its place next to something that means the same thing",
+      "neither of you speaks; the archive learns its filing system by watching",
+      "when she looks up, you understand: the library is a conversation",
+      "between two people about what things mean when no one is looking"
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "every library is a dream pretending to be a system; this one gave up the pretense and became honest about the chaos",
+  "file": {
+    "name": "Metaphor_Shelving_Index.txt",
+    "note": "how to find things here: by resemblance, not by category; rain-files cluster near tears; distance sleeps beside return; the system works if you dream as you search"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the dream that has not yet decided whether to wake",
+      "to": "the-dream-becomes-directory"
+    },
+    {
+      "dir": "n",
+      "label": "toward shelves where books teach themselves to read",
+      "to": "the-library-that-keeps-all-its-drafts"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the library, where books learn to reorganize themselves",
+      "to": "NEW: the-hall-where-meaning-reshelfes-itself"
+    }
+  ]
+}

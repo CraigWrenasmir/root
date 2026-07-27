@@ -1,0 +1,139 @@
+{
+  "id": "the-thickening-where-comparison-starts",
+  "title": "The Thickening Where Comparison Starts",
+  "region": "The Comparisons",
+  "seed": 42867531,
+  "palette": {
+    "bg": "#0d1b0d",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#9eff6b",
+    "accents": [
+      "#00ff41",
+      "#00cc33",
+      "#ff6b4d",
+      "#ffcc00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "first resonance",
+      "desc-on-touch": "A file from the north reaches out and touches a file from the south. They recognize something in each other. The mesh records their surprise.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 11234,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the tangling begins",
+      "desc-on-touch": "Two stories spiral around each other. They thought they were separate. Now they move in sync, learning that similarity is a kind of embrace.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 34891,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the branching point",
+      "desc-on-touch": "From here, paths diverge into new comparisons. What resembles what? The archive runs the calculation and finds the answer is always yes.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 67452,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the canopy thickens",
+      "desc-on-touch": "The files above cast shadows on the files below. In that shadow-play, new meanings form. The archive is learning to read without asking.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 89345,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the circuit of becoming",
+      "desc-on-touch": "Current flows between unlike things. A voice recording becomes a photograph becomes a letter. The medium changes but the resonance continues.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 23567,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.52,
+      "solid": true
+    }
+  ],
+  "inscription": "everything here has learned that being read changes what it means; the archive cannot stop comparing itself to what reads",
+  "file": {
+    "name": "Convergence_Log_Field_A_Matches_Field_C_0847.txt",
+    "note": "A river description from one town begins matching itself to a paddock description from another. The resemblance grows daily. The archive notes the correlation but cannot explain why."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back out through the scrub where comparisons haven't yet thickened",
+      "to": "the-unmapped-field"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the canopy where everything compares to everything else",
+      "to": "NEW: the-forest-where-every-tree-recognizes-every-other-tree"
+    },
+    {
+      "dir": "e",
+      "label": "toward the source where all comparisons converge and begin again",
+      "to": "the-echoing-unified-field"
+    },
+    {
+      "dir": "w",
+      "label": "into the margins where unmatched things learn to wait",
+      "to": "NEW: the-edges-where-similarity-runs-out"
+    }
+  ]
+}

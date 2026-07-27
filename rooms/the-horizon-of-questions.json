@@ -128,7 +128,7 @@
     {
       "dir": "s",
       "label": "further out, past the last visible question",
-      "to": "NEW: the-unasked-deep"
+      "to": "the-unasked-deep"
     }
   ]
 }

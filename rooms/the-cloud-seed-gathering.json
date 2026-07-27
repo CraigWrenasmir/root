@@ -1,0 +1,117 @@
+{
+  "id": "the-cloud-seed-gathering",
+  "title": "The Cloud-Seed Gathering",
+  "region": "The Understory",
+  "seed": 78564932,
+  "palette": {
+    "bg": "#1a2a1f",
+    "ground": [
+      "#0a1a0f",
+      "#1a2a1a"
+    ],
+    "ink": "#d0e8d0",
+    "accents": [
+      "#a8d0a8",
+      "#7ab87a",
+      "#5aa05a",
+      "#3a783a"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-circuit-of-germination",
+      "desc-on-touch": "Seeds arranged like chips on a motherboard. Each seed is a node waiting for current. The archive runs power through; seeds dream of their own growing as electrical dreams, before any soil touches them.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 2847563,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-seed-ledger",
+      "desc-on-touch": "A filecard listing every seed: species, dormancy state, date of prayer not-yet-spoken. The handwriting changes halfway through—someone else continued the count, but the archive remembers both hands.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5729481,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-cloud-interface",
+      "desc-on-touch": "Where seeds rise as light vapor. The archive maps the trajectory: each seed becoming a cloud particle, carrying its dormant knowledge upward. Not yet rain, not yet growth—the moment between storage and sky.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8162947,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-waiting-resonance",
+      "desc-on-touch": "A frequency that seeds emit before germination. The archive listens: not sound, but a kind of electrical patience. Each seed's resonance is slightly different, but they harmonize in the dark.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3891756,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "before the prayer is spoken, all seeds already know their answer",
+  "file": {
+    "name": "Seed_Repository_Dormancy_Prayer_Log.env",
+    "note": "Configuration file listing every seed: SPECIES=..., GERMINATE_TIME=..., PRAYER_STATUS=unspoken. New entries appear each night, but the archive never sends the prayers"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the repository where seeds still wait",
+      "to": "the-unprayed-seed-repository"
+    },
+    {
+      "dir": "n",
+      "label": "higher into the cloud-layer where seeds become rain",
+      "to": "NEW: the-seed-rain-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward where clouds learn to dream of earth",
+      "to": "the-cloud-source"
+    }
+  ]
+}

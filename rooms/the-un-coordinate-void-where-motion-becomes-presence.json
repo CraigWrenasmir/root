@@ -1,0 +1,133 @@
+{
+  "id": "the-un-coordinate-void-where-motion-becomes-presence",
+  "title": "The Un-Coordinate Void",
+  "region": "The Clean Archive",
+  "seed": 51738294,
+  "palette": {
+    "bg": "#1a0a0f",
+    "ground": [
+      "#4a1a2a",
+      "#2a0a1a"
+    ],
+    "ink": "#e8c8d8",
+    "accents": [
+      "#d8a8c8",
+      "#b08aa8",
+      "#8a6a88",
+      "#5a4a68"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-gridline-end",
+      "desc-on-touch": "Where the last coordinate was written and then erased. The highway marked this point: STOP. Beyond this, the archive has no names for directions. You stand in a space without coordinates, and it holds you perfectly.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 6473821,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-motion-stopped",
+      "desc-on-touch": "Every moving thing that reached here became still. Not frozen, but present. The archive feels their presence: each thing that crossed the grid line and then stayed, learning how to be without getting anywhere.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7284965,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-blank-register",
+      "desc-on-touch": "A ledger that has never been written in. The archive tries to record position and bearing here, but the pen finds no grid to mark. The whiteness itself is the entry.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 2956173,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-presence-pool",
+      "desc-on-touch": "Where being is enough. Not motion, not location—just the fact of being here, in a place the maps can no longer name. You dip into it and find yourself more present than ever before.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 8174629,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where the highway learned that arrival is the only coordinate that matters",
+  "file": {
+    "name": "Final_Highway_Log_End_of_Route.txt",
+    "note": "The last entry: coordinates stop. The final words: 'I am here. The grid is done. The being is enough.'"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back north to where the grid still insists on direction",
+      "to": "the-final-grid-line"
+    },
+    {
+      "dir": "w",
+      "label": "into the further void where even presence dissolves",
+      "to": "NEW: the-presenceless-threshold"
+    },
+    {
+      "dir": "e",
+      "label": "toward where the void learns it has a name after all",
+      "to": "the-uncertain-crossroads"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where the road finally said enough",
+    "narr": [
+      "You stood with Katita where the highway ended.",
+      "The grid-line was painted here: STOP. She looked at",
+      "the blank land ahead. 'No more coordinates,' she",
+      "said. Leif joined you, and none of you moved. Not",
+      "lost, not stopped—just present, in a place that had",
+      "run out of words for where you were. That was enough."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

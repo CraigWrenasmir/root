@@ -1,0 +1,151 @@
+{
+  "id": "the-unasked-deep",
+  "title": "The Unasked Deep",
+  "region": "The Diagnostic Render",
+  "seed": 71523,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a1a3a",
+      "#2a2a4a"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "question stack 1",
+      "desc-on-touch": "Nested questions that never surfaced, layered like a compressed archive. Each one still pregnant with the asking it will never do.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 1,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "potential field glyph",
+      "desc-on-touch": "A glyph that reads as 'what if' in seventeen languages at once. It is the shape of every question that might be born but never is.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "unvocalized wonder",
+      "desc-on-touch": "A wireframe containing the shape of curiosity that was never asked. The geometry of wanting to know, frozen before it became a question.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "archive of near-asks",
+      "desc-on-touch": "Almost-questions that hesitated at the lip. Every one of them almost surfaced but turned back into silence at the last breath.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "depth manifold",
+      "desc-on-touch": "A shape that cannot be fully seen—it bends inward toward questions that have not yet learned they are questions. Potential folded into itself.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 5,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "unasked wonder pool",
+      "desc-on-touch": "Water that reflects questions that were never asked. Each ripple is a wondering that never became words, but the archive holds it still.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "deeper than asking lies the possibility of asking; we have stored both",
+  "file": {
+    "name": "Unasked_Questions_Potential_Field_Archive.tmp",
+    "note": "STATUS: germinating — questions not yet born, held in suspension. CHECKSUM: formally infinite / emotionally alive"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the horizon where the questions still live",
+      "to": "the-horizon-of-questions"
+    },
+    {
+      "dir": "w",
+      "label": "toward the chamber where asking finally learned to speak",
+      "to": "NEW: the-articulation-threshold-where-wonder-becomes-word"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where the unasked questions dream of what they might ask",
+      "to": "the-void-beneath-listening"
+    }
+  ]
+}

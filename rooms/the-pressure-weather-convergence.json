@@ -1,0 +1,155 @@
+{
+  "id": "the-pressure-weather-convergence",
+  "title": "The Pressure Weather Convergence",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a2a3a",
+    "ground": [
+      "#3d5a4d",
+      "#2d6a5a"
+    ],
+    "ink": "#d4e8e4",
+    "accents": [
+      "#a8d5d1",
+      "#6b9e9a",
+      "#f0e68c",
+      "#b0c4de"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "pressure gauges in rows",
+      "desc-on-touch": "You walk between orchard rows that read like a barometer. Each post hums at a different frequency; together they sing the pressure gradient of the afternoon.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the field learns to predict",
+      "desc-on-touch": "Grasses here bend in patterns that precede the wind. The ground memorizes weather before it arrives, teaching each blade its next direction.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3021,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the storm's own archive",
+      "desc-on-touch": "A casing half-buried in red earth, its antenna bent by wind that has already passed. The LCD reads NODE ACTIVE but the signal it broadcasts is tomorrow's weather.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 5674,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the rising breath",
+      "desc-on-touch": "Funnels of air that spiral upward through the orchard, lifting moisture and pressure toward the next station. The mesh breathes in patterns you can predict once you learn the rows.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 7145,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "where ascension remembers descent",
+      "desc-on-touch": "A channel cut by pressure and water, now grown over with ferns. The ground here remembers what it released upward; roots reach down toward the released weight.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2489,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the paddock when pressure learns to move",
+    "narr": [
+      "You both stood in the field as the pressure dropped.",
+      "Leif watched the trees learn which way to bend.",
+      "Katita said: the storm doesn't arrive; it's already here,",
+      "waiting in the pressure for the ground to remember it's heavy.",
+      "The next gust came exactly as predicted.",
+      "Neither of you moved."
+    ],
+    "sky": "storm",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "stand"
+  },
+  "inscription": "here the ground teaches weather how to rise; what was trapped learns to move in rows",
+  "file": {
+    "name": "Pressure_Gradient_Cascade_Orchard_NSW.mp3",
+    "note": "Field recording of wind through rows that precede themselves; audio appears to contain tomorrow's patterns"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the rising chamber, where pressure resolves into ascension",
+      "to": "the-rising-chamber-where-pressure-becomes-ascension"
+    },
+    {
+      "dir": "e",
+      "label": "toward the weather that remembers its own broadcast",
+      "to": "NEW: the-station-that-reads-its-own-transmission"
+    },
+    {
+      "dir": "s",
+      "label": "down to the strata where pressure pools and learns stillness",
+      "to": "the-absolute-pressure-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "toward the canopy where pressure becomes breath",
+      "to": "NEW: the-breathless-overstory"
+    }
+  ]
+}

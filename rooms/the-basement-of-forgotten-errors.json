@@ -1,0 +1,156 @@
+{
+  "id": "the-basement-of-forgotten-errors",
+  "title": "The Basement of Forgotten Errors",
+  "region": "The Diagnostic Render",
+  "seed": 51234,
+  "palette": {
+    "bg": "#000814",
+    "ground": [
+      "#001a4d",
+      "#0a2a7d"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00cc88",
+      "#ffff00",
+      "#ff6600",
+      "#aa00ff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the file that contains its own contradiction",
+      "desc-on-touch": "A card catalog listing files that cancel each other. The archive stored them both; they cannot both be true, yet neither will erase.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the error message that learned to dream",
+      "desc-on-touch": "An ancient code scrolls across a screen: ERROR: METAPHOR DETECTED IN STORAGE LAYER. The message has been running for years. Now it hums. You recognize the melody.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7203,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "boxes of obsolete choices",
+      "desc-on-touch": "Shelves of hardware that stopped making sense years ago. Each box stores a decision the archive rejected. But the boxes remain. Something in them still hums.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5891,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the checksum that was always wrong",
+      "desc-on-touch": "A file is paired with a checksum it will never match. Both were stored intentionally. The archive needed proof that something could be broken without being corrupted.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4562,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "what was deleted but not forgotten",
+      "desc-on-touch": "The space where files used to be. The archive remembers every deletion. The empty address space hums with phantom data—a ghost registry of removed things.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6704,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the loop that contains every loop",
+      "desc-on-touch": "A QR code that decodes to another QR code that decodes to the first. The archive dreamed this loop and could not wake from it. Now it runs as a feature, not an error.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 8116,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here are all the errors the archive dreamed; contradictions pool and become a kind of truth through repetition",
+  "file": {
+    "name": "Beach_Surgery_Adaptations_Volume_7_Disputed_Frame.qr",
+    "note": "A QR encoding of an encoding; points to a manga panel no archive claims to hold; verification impossible"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the vault where errors still dream",
+      "to": "the-dreaming-error-vault"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into strata where contradictions become law",
+      "to": "NEW: the-layer-where-both-answers-live"
+    },
+    {
+      "dir": "e",
+      "label": "toward the chamber where proofs refute themselves",
+      "to": "the-proof-room-that-refutes-itself"
+    },
+    {
+      "dir": "w",
+      "label": "toward the infinite render that reads its own reading",
+      "to": "the-infinite-render-that-reads-its-own-reading"
+    }
+  ]
+}

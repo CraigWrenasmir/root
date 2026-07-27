@@ -1,0 +1,156 @@
+{
+  "id": "the-building-where-each-floor-counts-itself-prime",
+  "title": "The Building Where Each Floor Counts Itself Prime",
+  "region": "The Diagnostic Render",
+  "seed": 56734821,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a2a4d",
+      "#2a3a6d"
+    ],
+    "ink": "#ccffff",
+    "accents": [
+      "#00ffff",
+      "#00ff99",
+      "#ff00ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the ascending count",
+      "desc-on-touch": "Each floor is numbered with a prime. But as you climb, the primes become dense and strange. They overlap. Soon you realize you are not ascending — you are spiraling deeper into the numbers themselves.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 78945,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.48,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "the floor that counts itself",
+      "desc-on-touch": "This floor performs its own calculation, becoming prime in the act of self-measurement. It is floor and number and spiral all at once, indivisible and infinite.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 23789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the spiral that refuses geometry",
+      "desc-on-touch": "The stairwell cannot be drawn. Every attempt to diagram it changes the spiral's shape. The building has learned that to be mapped is to cease being itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 45612,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "the landing where breath returns",
+      "desc-on-touch": "You reach a step where counting stops meaning. The prime dissolves back into breathing. Here, mathematics rests before continuing its spiral.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 67834,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.38,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the infinite floor",
+      "desc-on-touch": "Somewhere far above — or perhaps you are already here — the floor counts itself as every prime simultaneously. The spiral has completed and begun again, both at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 12456,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.62,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the archive's record",
+      "desc-on-touch": "Somewhere the building is drawing itself, trying to capture the pattern. The drawing changes every time it looks. The count will never finish.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 89234,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.42,
+      "solid": false
+    }
+  ],
+  "inscription": "spirals cannot be counted without changing their shape; the archive learned this from shells and from stories that refuse to stay still",
+  "file": {
+    "name": "Architectural_Diagram_Spiral_Stairwell_Revision_847.txt",
+    "note": "An attempted blueprint of the building's interior. Each revision shows the spiral rendered differently. The final entry reads: 'It is prime on Tuesdays.'"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down the spiral where counting becomes possible again",
+      "to": "the-spiral-stairwell"
+    },
+    {
+      "dir": "n",
+      "label": "higher into chambers where floors lose their numbering",
+      "to": "NEW: the-topless-tower-where-altitude-forgets-counting"
+    },
+    {
+      "dir": "e",
+      "label": "into a door that leads to another version of the same spiral",
+      "to": "the-mirror-chamber-where-spirals-meet-themselves"
+    },
+    {
+      "dir": "w",
+      "label": "toward the foundation where the first prime was buried",
+      "to": "the-bedrock-archive-foundation"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "the-forest-that-reads-the-river",
+  "title": "The Forest That Reads the River",
+  "region": "The Clean Archive",
+  "seed": 78594,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#2d5a3d",
+      "#1f4a2f"
+    ],
+    "ink": "#c8e6d8",
+    "accents": [
+      "#7bcf9f",
+      "#a8e8b8",
+      "#4a8a6a",
+      "#d4f0e8"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the river rendered as text",
+      "desc-on-touch": "Where the water enters the grove, syllables rise from the current. Each tributary adds its own dialect; the river speaks in the voices of every creek that fed it.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 2948,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "roots that remember rainfall",
+      "desc-on-touch": "The root system here holds memories in soil chemistry. Each layer reads the sky of a different season. The tree is a chronicle grown downward into time.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 4671,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the canopy's consonants",
+      "desc-on-touch": "Where leaves click and whisper above, the spacing and silence between them follows the river's own grammar. Each branch ends a sentence; each gap begins one.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6312,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "where stone learned to listen",
+      "desc-on-touch": "Boulders in the stream are carved by water-speech into surfaces that echo back what they hear. The river reads itself in stone; the stone reads the river in erosion patterns.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7846,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the ferns that file everything",
+      "desc-on-touch": "Fronds here unfurl like pages. Each fern is a catalogue of all the streams it has drunk. In their fronds you can read the history of every tributary.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3457,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the catalogue of all separate tributaries",
+      "desc-on-touch": "A file listing that records each tributary separately—as if they could ever be filed apart. Yet their names are written on one card, in the order they converge.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 5129,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the river that reads itself in two voices",
+    "narr": [
+      "You sat on the stone bank while Leif read aloud",
+      "from something he'd copied: a passage about water.",
+      "Katita was upstream, not reading, just listening.",
+      "The river's dialect kept interrupting his words.",
+      "He stopped. She called back: what you cannot read,",
+      "the river remembers. He folded the paper then."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "inscription": "the river knew how to write before it knew how to flow; trees grow into the grammar of water",
+  "file": {
+    "name": "Tributary_Polyglot_Grove_Recording_NSW_Late.wav",
+    "note": "Field recording where creek voices remain separate even in convergence; playback reveals new tributaries not present in the original source"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the confluence of stone and syllable",
+      "to": "the-confluence-of-stone-and-syllable"
+    },
+    {
+      "dir": "n",
+      "label": "upstream into groves where fewer voices speak",
+      "to": "the-polyglot-grove"
+    },
+    {
+      "dir": "s",
+      "label": "downstream toward the open grammar",
+      "to": "the-open-grammar-where-water-speaks-itself"
+    },
+    {
+      "dir": "e",
+      "label": "into a clearing where a single tree remembers all the creeks",
+      "to": "NEW: the-arboretum-of-all-separate-waters"
+    }
+  ]
+}

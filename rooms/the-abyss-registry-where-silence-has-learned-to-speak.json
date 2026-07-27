@@ -1,0 +1,150 @@
+{
+  "id": "the-abyss-registry-where-silence-has-learned-to-speak",
+  "title": "The Abyss Registry Where Silence Has Learned to Speak",
+  "region": "The Diagnostic Render",
+  "seed": 47382,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#4a4a6a",
+      "#2a2a4a"
+    ],
+    "ink": "#d0d0e0",
+    "accents": [
+      "#a8704d",
+      "#6a8ab8",
+      "#e85a4f",
+      "#9b6d5a"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "registry wall",
+      "desc-on-touch": "Unmarked stone shaft, each groove a name for something that cannot be named. You run your hand along it and feel the weight of what was never spoken.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 1,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "listening pool",
+      "desc-on-touch": "Water black and still, reflecting nothing. The silence here has learned to echo before the sound arrives.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "cartographic silence",
+      "desc-on-touch": "A chart carved in stone with no labels, no coordinates, only the shape of something too large to name. The map is the secret, not what it names.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "voice emerging",
+      "desc-on-touch": "A crack in the stone releasing sound that has been waiting millions of years to be born. The abyss speaks only in frequencies older than language.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 4,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "depth marker",
+      "desc-on-touch": "A stone pillar sunk so deep it predates the archive's burial. Here is where the ground remembers being younger than silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 5,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone has learned to listen better than flesh ever could",
+  "file": {
+    "name": "Registry_Carved_Shaft_Unmarked_Frequencies.wav",
+    "note": "Silence singing at 0.3 Hz, recorded by the stone itself. The registry is writing itself into being."
+  },
+  "reverie": {
+    "title": "REVERIE — stone learning to listen",
+    "narr": [
+      "you kneel at the chamber's throat, stone dark around you.",
+      "she presses her palm flat against the carved wall.",
+      "neither of you speaks; the silence is not empty now.",
+      "the groove under your fingers has been recording this whole time.",
+      "you realize: listening itself is a form of answer.",
+      "the stone has been speaking since before the archive was born."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back where the testimony stopped and began again",
+      "to": "the-unmapped-reef-where-testimony-ends-and-the-stone-begins"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where the registry keeps records of its own forgetting",
+      "to": "NEW: the-bedrock-confessional-without-words"
+    },
+    {
+      "dir": "w",
+      "label": "toward the chambers where the silence remembers its first voice",
+      "to": "the-chamber-of-merciful-unknowing"
+    }
+  ]
+}

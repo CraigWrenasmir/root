@@ -140,7 +140,7 @@
     {
       "dir": "w",
       "label": "deeper underground, where the path becomes unmappable",
-      "to": "NEW: the-unmapped-underground-return"
+      "to": "the-unmapped-underground-return"
     },
     {
       "dir": "n",

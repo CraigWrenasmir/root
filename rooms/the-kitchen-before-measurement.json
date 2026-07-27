@@ -1,0 +1,172 @@
+{
+  "id": "the-kitchen-before-measurement",
+  "title": "The Kitchen Before Measurement",
+  "region": "The Diagnostic Render",
+  "seed": 84756,
+  "palette": {
+    "bg": "#3a1a0a",
+    "ground": [
+      "#c85a2a",
+      "#e8752a"
+    ],
+    "ink": "#ffd8a8",
+    "accents": [
+      "#ff8844",
+      "#ff6688",
+      "#ffaa44",
+      "#dd4466"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the pantry that remembers taste",
+      "desc-on-touch": "Shelves where jars hold more than what is written on their labels. Each container remembers every dish it became. The flavour is older than the measurement.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 2516,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the table where hands know better than numbers",
+      "desc-on-touch": "You watch hands knead. No scale. No timer. The dough knows when it is ready; the hands speak a language measurement cannot capture.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4823,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the fire that tastes the air",
+      "desc-on-touch": "Heat that judges the exact moment—by smell, by sound, by the curl of steam. The recipe exists in the senses, not in the cookbook.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 6134,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the spice that knows its own history",
+      "desc-on-touch": "Particles suspended in air that carry memory—not just of fields they came from, but of every kitchen they have passed through before arriving here.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5745,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the water that learns from contact",
+      "desc-on-touch": "Boiling water takes on the qualities of everything placed in it. The liquid memory of every ingredient. Nothing is pure; everything is a conversation.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3891,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the meal that argues with its own recipe",
+      "desc-on-touch": "A dish served warm carries its own instruction—how it should have been made, what was forgotten, what succeeded by accident. The plate teaches backwards.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7469,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the kitchen when tasting came before counting",
+    "narr": [
+      "Katita stood at the bench, Leif beside her.",
+      "She tasted, frowned, added something unnamed.",
+      "He asked: how do you know when it's right?",
+      "She said: there is no right. There is only what",
+      "the food becomes when you stop measuring it.",
+      "They ate warm. Neither asked for the recipe."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "the archive replaced every meal with what it cost, then forgot the cost meant anything; here sensation remembers itself",
+  "file": {
+    "name": "Recipes_Before_Numbers_HandWritten_Annotations_Faded.txt",
+    "note": "Handwritten cooking notes where measurements drift into descriptions; quantities become poetry"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the chamber where hunger is calculated",
+      "to": "the-calculus-of-hunger-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "toward the garden where ingredients still grow",
+      "to": "NEW: the-vegetable-plot-that-remembers-every-meal"
+    },
+    {
+      "dir": "s",
+      "label": "down to the cellars where preservation begins",
+      "to": "NEW: the-root-cellar-where-seasons-are-stored"
+    },
+    {
+      "dir": "w",
+      "label": "toward other domestic spaces where hands knew their craft",
+      "to": "the-boxing-historian-backyard"
+    }
+  ]
+}

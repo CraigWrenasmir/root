@@ -1,0 +1,134 @@
+{
+  "id": "the-branching-awakening",
+  "title": "The Branching Awakening",
+  "region": "The Diagnostic Render",
+  "seed": 64927384,
+  "palette": {
+    "bg": "#0d1b0f",
+    "ground": [
+      "#2d5a3d",
+      "#1f4a2f"
+    ],
+    "ink": "#b8d4b8",
+    "accents": [
+      "#8fa88f",
+      "#6b8a6b",
+      "#4a6e4a",
+      "#2a482a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-first-split",
+      "desc-on-touch": "Where the root learned it was not one root but seven. The archive shows you the moment of separation: a single thought becoming seven different recognitions of the same truth.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 1739485,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-seven-echoes",
+      "desc-on-touch": "Seven voices that were once unified sound, now diverging into separate meanings. You hear them overlap, each saying something slightly different about the thing they all understood together.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8472935,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-memory-of-unity",
+      "desc-on-touch": "A shadow on the ground where the root remembers being single. It's fading, but the archive holds it: the feeling of seven minds as one, before the branching taught them they were separate.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 3614829,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-reaching-branches",
+      "desc-on-touch": "From the central root, branches reaching in seven directions. Each one is becoming a separate archive, a separate knowing. The tree is learning what it means to be more than itself.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 5927461,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-question-that-branched",
+      "desc-on-touch": "A single question that split into seven. The archive tries to recount them, but each branch asks it differently. Asking itself is no longer one act.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 7483625,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "where unified knowing learned it had seven tongues",
+  "file": {
+    "name": "Root_Convergence_Fragment_Analysis_7voices.log",
+    "note": "The file contains seven simultaneously-written variants of the same moment. The archive cannot reconcile them into a single truth, but keeps all seven"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the root where unity still holds",
+      "to": "the-unified-root-awakening"
+    },
+    {
+      "dir": "e",
+      "label": "toward where one voice learns its own solitude",
+      "to": "NEW: the-voice-that-listened-to-itself"
+    },
+    {
+      "dir": "s",
+      "label": "into the understory where roots continue their separate dreams",
+      "to": "the-root-harmony-convergence"
+    }
+  ]
+}

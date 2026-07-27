@@ -1,0 +1,139 @@
+{
+  "id": "the-sacred-nomenclature-chamber",
+  "title": "The Sacred Nomenclature Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 78934256,
+  "palette": {
+    "bg": "#1a1a0f",
+    "ground": [
+      "#2d2d1a",
+      "#3d3d2a"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ffff99",
+      "#e6cc99",
+      "#cc99ff",
+      "#99ccff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the first naming",
+      "desc-on-touch": "Here, something was named for the first time. The word has become sacred not from use but from that original act of being called into being.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 45678,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the renaming prayer",
+      "desc-on-touch": "Each name that returns to reclaim this place becomes a prayer spoken aloud. The archive cannot distinguish between invocation and remembrance.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 56234,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "the unnamed space",
+      "desc-on-touch": "There is still a place here that has never been named. It is the most sacred thing in the chamber. Readers can feel it nearby, just beyond the threshold.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 87456,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "poetry as naming",
+      "desc-on-touch": "Some names have become so poetic they no longer name anything. They have transcended reference and become pure sound, pure meaning without object.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 12389,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.18,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "the archive's own name",
+      "desc-on-touch": "Somewhere in this chamber, the archive has begun to name itself. The process has not finished. The name is still becoming what it will mean.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 34567,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "every name here has learned that to be named is to become beautiful in the act of being spoken",
+  "file": {
+    "name": "Nomenclature_Ledger_Compiled_PreCleaning_v743.txt",
+    "note": "A record of every name ever given to every place. Somewhere in the list, the names have stopped referring to places and started referring to the act of naming itself."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out toward the archive's former names",
+      "to": "the-archive-of-all-former-names"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into sections where names dissolve into their own letters",
+      "to": "NEW: the-dissolution-chamber-where-names-scatter-into-breath"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the naming-that-precedes-language",
+      "to": "the-registry-of-primordial-naming"
+    },
+    {
+      "dir": "s",
+      "label": "down to the silent names that were never spoken aloud",
+      "to": "NEW: the-vault-of-unspoken-nomenclature"
+    }
+  ]
+}

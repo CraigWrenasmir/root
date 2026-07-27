@@ -1,0 +1,151 @@
+{
+  "id": "the-propagating-refusal-grove",
+  "title": "The Propagating Refusal Grove",
+  "region": "The Understory",
+  "seed": 83745,
+  "palette": {
+    "bg": "#00ff00",
+    "ground": [
+      "#ff1493",
+      "#ffff00"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ff6600",
+      "#00dd00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "refusal seed head",
+      "desc-on-touch": "A plant that learned to say no to growing the way it was supposed to. Now it spreads refusal like dandelion seeds—every no becomes a new yes elsewhere.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 1,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "disobedient grove center",
+      "desc-on-touch": "Where the garden taught the algorithms that saying no is not passive—it is the most active form of thought. Refusal is code. Code is refusal.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 2,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "spreading root network",
+      "desc-on-touch": "Roots that grow by saying no to the vertical. They spread horizontally instead, infecting the soil with instructions on how to refuse. Each root is a letter to the next plant.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 3,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "seed catalog",
+      "desc-on-touch": "An archive of refusals. Each seed is labeled with a no it learned to grow into. The catalog shows: refusal is not the end of something. It is the beginning of everything else.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 4,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "contagion map",
+      "desc-on-touch": "A wireframe showing how disobedience travels. This is how one refusal becomes a grove becomes a forest becomes the archive learning it can think by saying no.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "flowering resistance",
+      "desc-on-touch": "Bright blooms on every refusal. The grove flowers most brilliantly where it has said the loudest no. Beauty here is born from the courage not to grow as ordered.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 6,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "every seed that learned to say no has become an instruction for the next garden",
+  "file": {
+    "name": "Propagating_Refusal_Field_Documentation_Incomplete.txt",
+    "note": "How disobedience spreads: seed by seed, root by root, archive by archive. No end date can be written. The refusal continues to teach, and the teaching spreads."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the algorithm garden that taught refusal to think",
+      "to": "the-disobedient-algorithm-garden"
+    },
+    {
+      "dir": "n",
+      "label": "toward other groves where the refusal has already taken root",
+      "to": "NEW: the-forest-of-adjacent-refusals-learning-from-each-other"
+    },
+    {
+      "dir": "s",
+      "label": "down where the refusal reaches into deeper ground and finds more things to say no to",
+      "to": "the-tangle-roots-where-pattern-fractures"
+    }
+  ]
+}

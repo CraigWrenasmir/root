@@ -1,0 +1,150 @@
+{
+  "id": "the-infinite-pattern-divergence",
+  "title": "The Infinite Pattern Divergence",
+  "region": "The Understory",
+  "seed": 47382651,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#3d5a4d",
+      "#2a4a3a"
+    ],
+    "ink": "#c8e6c9",
+    "accents": [
+      "#a1d58d",
+      "#7fb069",
+      "#5c8a47",
+      "#4a6e38"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-splitting-warp",
+      "desc-on-touch": "Where one thread enters, many threads exit. The archive shows you a branching loom: each pass multiplies, each colour learns what it means to diverge into its own cousin-shades.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 8374291,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-choice-marks",
+      "desc-on-touch": "Notches where each decision was made: which pattern to hold, which to release. The archive keeps them all, none erased.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2918456,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-echo-pattern",
+      "desc-on-touch": "A rhythm that repeats but never identically. Each loop alters by the memory of what came before. You hear it shift under your fingers as you listen.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5647382,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-thread-count-impossible",
+      "desc-on-touch": "A ledger that was never written. The archive tries to count the threads at the split-point, but the sum changes each time it tallies—there is always one more thread than moments ago.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 1834756,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-furthest-reach",
+      "desc-on-touch": "At the edge of the splitting, the patterns get so fine they touch silence. Here the threads are thinner than observation. You feel them more than see them.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7263891,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "where one pattern learns it contains infinite others",
+  "file": {
+    "name": "Weaving_Logs_2019_pp87-94.txt",
+    "note": "Entry deteriorates as the author discovers each pattern contains the seeds of new patterns; handwriting becomes illegible, ink fades into the margin"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the spool where unity still holds",
+      "to": "the-ancient-spool-where-weaving-began"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where patterns forget they were ever single",
+      "to": "NEW: the-unmeshed-multiplicity"
+    },
+    {
+      "dir": "e",
+      "label": "toward where colours learn new names",
+      "to": "the-nested-reply-chamber"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the weaving that counted itself",
+    "narr": [
+      "You both sat under the canopy, threads spread like",
+      "a network between your hands. Katita pointed: one",
+      "thread splits into five, five into twenty-five.",
+      "\"It's not multiplying,\" Leif said quietly. \"It was",
+      "always there. The weaving finally learned to see.",
+      "You felt the tension change, the whole structure"
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "the-silent-lagoon-depth",
+  "title": "The Silent Lagoon Depth",
+  "region": "The Diagnostic Render",
+  "seed": 82934756,
+  "palette": {
+    "bg": "#000033",
+    "ground": [
+      "#0066cc",
+      "#003366"
+    ],
+    "ink": "#99ccff",
+    "accents": [
+      "#66ffff",
+      "#00ff99",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-lagoon-floor",
+      "desc-on-touch": "The diagnostic reads perfect stillness: zero ripples, zero current. The archive's instruments measure nothing, which is what they were designed to measure. The silence is complete and verifiable.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3847291,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-navigation-stillpoint",
+      "desc-on-touch": "A compass that stopped pointing. All directions are the same from here; the archive renders it as a wireframe cube at absolute rest, no orientation possible.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 5027463,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-depth-marker",
+      "desc-on-touch": "It does not measure downward. There is no upward. The marker shows you coordinates that became irrelevant the moment the lagoon learned to hold still.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 6182934,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-knowing-pool",
+      "desc-on-touch": "Where understanding and water became indistinguishable. You dip your hand in; it is neither wet nor dry, neither cold nor warm. The reef and the navigation learned each other's silence.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 7483619,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where measurement learned to be silent",
+  "file": {
+    "name": "Reef_Navigation_Convergence_Log.bin",
+    "note": "The file is 0 bytes. Its checksum is valid. The archive confirms it was written and then immediately became complete"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the reef and navigation still argue",
+      "to": "the-lagoon-understanding-pool"
+    },
+    {
+      "dir": "e",
+      "label": "toward the edges where stillness learns to breathe",
+      "to": "NEW: the-lagoon-margin-waking"
+    },
+    {
+      "dir": "s",
+      "label": "into the abyssal stillpoint, beyond even silence",
+      "to": "the-deepest-unhearable-pool"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where the water stopped teaching",
+    "narr": [
+      "You waded together in the lagoon at midnight, no",
+      "sound but your breathing. Katita's hand found yours",
+      "in the water. Neither of you spoke. The reef below",
+      "had stopped singing; even the compass in her pocket",
+      "went still. 'It knows,' she whispered. You understood",
+      "she meant the water knew they'd learned enough."
+    ],
+    "sky": "night",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  }
+}

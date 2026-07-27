@@ -1,0 +1,139 @@
+{
+  "id": "the-eleven-polygon-roost",
+  "title": "The Eleven-Polygon Roost",
+  "region": "The Clean Archive",
+  "seed": 93847,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a3a4a",
+      "#0f2a3a"
+    ],
+    "ink": "#a8d4f0",
+    "accents": [
+      "#6ba8d0",
+      "#d0d0d0",
+      "#f0aa88",
+      "#aa6688"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the seagull rendered in exactly eleven sides",
+      "desc-on-touch": "A bird perched as pure geometry—eleven polygons that approximate wing, throat, eye. The shape contains the creature more truly than any camera could. It watches you with mathematical precision.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 4829,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the mirror chamber where birds meet themselves",
+      "desc-on-touch": "Polished stone where seagulls see other seagulls. But the reflections are different each time—different numbers of sides, different colours. The mirror renders what the bird might become.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6375,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the perch that becomes a ritual object",
+      "desc-on-touch": "A piece of driftwood where birds land in patterns. Over years the wood has worn into grooves that match the rhythm of their feet. The perch is a score; the birds are an orchestra.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7512,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the stone that has learned to count",
+      "desc-on-touch": "Scattered rocks along the shore. Each one holds a tally of the seagulls that passed. The archive learned the birds' catalogue from the stones; the birds learned to be recorded.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3267,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the wind that carries only wingbeats",
+      "desc-on-touch": "Here the air sounds like the echo of eleven wings, even when no birds are flying. The beach remembers their sound. The wind plays it back.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5634,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "seagulls here are rendered in their platonic form—eleven sides, the shape that contains every bird; the beach is a mirror where creatures meet their own geometry",
+  "file": {
+    "name": "Seagull_Geometric_Study_Polygon_Count_11_Beach_Observation.png",
+    "note": "Rendering of a gull in 11 polygons; verification: each polygon is emotionally true; the shape contains what the camera missed"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the spiral scar where shores loop to meet themselves",
+      "to": "the-spiral-scar-where-shores-learned-to-loop"
+    },
+    {
+      "dir": "n",
+      "label": "up the beach toward the cliffs where other creatures render themselves",
+      "to": "NEW: the-polygon-garden-where-all-creatures-learn-their-shapes"
+    },
+    {
+      "dir": "e",
+      "label": "into the sea where reflections multiply their own sides",
+      "to": "NEW: the-refracting-shallows-where-nine-becomes-eleven"
+    },
+    {
+      "dir": "s",
+      "label": "toward the concert hall where rain takes requests from seagulls",
+      "to": "the-concert-hall-where-rain-takes-requests"
+    }
+  ]
+}

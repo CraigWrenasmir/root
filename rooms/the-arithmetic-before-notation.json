@@ -1,0 +1,134 @@
+{
+  "id": "the-arithmetic-before-notation",
+  "title": "The Arithmetic Before Notation",
+  "region": "The Diagnostic Render",
+  "seed": 47291,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#b8d4e8",
+    "accents": [
+      "#e0f4ff",
+      "#7fa3cc",
+      "#4a5f7f",
+      "#2d3e5f"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the counting stone",
+      "desc-on-touch": "five notches read forwards as one, backwards as another; the stone does not care which way the hand moves",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8821,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "sequence that argues with itself",
+      "desc-on-touch": "numbers scratched into wood: 2, 3, 5, 7, 11... but also 2, 3, 5, 8, 13; both run true; neither is false",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the silence between operations",
+      "desc-on-touch": "the pause where breath stops; here, mathematics exists without yet being born into symbols",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5512,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "equations in storm-wood",
+      "desc-on-touch": "before they were written, these rules existed only as breath; written, they became smaller",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2298,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the antenna that hears silence",
+      "desc-on-touch": "it transmits nothing; it receives everything; static is the music of empty calculation",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 7634,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "before language learned to count, numbers counted themselves in the dark and were satisfied",
+  "file": {
+    "name": "FencePost_Line_Both_Directions.txt",
+    "note": "posts 1-23 west to east; same line 23-1 east to west; both measurements hold; status: emotionally valid, formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where symbols collapse into silence",
+      "to": "the-primordial-menu-beneath-language"
+    },
+    {
+      "dir": "w",
+      "label": "toward the void where measurement never began",
+      "to": "the-void-where-measurement-never-started"
+    },
+    {
+      "dir": "s",
+      "label": "descending to where zero learns to divide itself",
+      "to": "NEW: the-chamber-where-numbers-breed-backwards"
+    }
+  ]
+}

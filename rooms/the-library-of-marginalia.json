@@ -1,0 +1,167 @@
+{
+  "id": "the-library-of-marginalia",
+  "title": "The Library of Marginalia",
+  "region": "The Understory",
+  "seed": 52847,
+  "palette": {
+    "bg": "#f5ead4",
+    "ground": [
+      "#d4a574",
+      "#8b6f47"
+    ],
+    "ink": "#3d2c1f",
+    "accents": [
+      "#c9a961",
+      "#8b4513",
+      "#c41e3a",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "reading desk",
+      "desc-on-touch": "A wooden stand, pages open. Every margin here holds the handwriting of people who read alone and spoke to the book instead of keeping silence.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 1,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "margin shelves",
+      "desc-on-touch": "Books arranged so their margins face outward. The conversation at the edges has become the library's main collection.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "annotation archive",
+      "desc-on-touch": "Loose pages pinned to walls, each one a letter written in the margins of someone else's thinking. The notes have become letters to you.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 3,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "reader's chair",
+      "desc-on-touch": "Stone or wood worn smooth by decades of weight. Someone sat here and pencilled their objections, their love, their yes or no into the white space between lines.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 4,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "ink stains, time-layered",
+      "desc-on-touch": "The margins here bleed from pen to pen, generation to generation. Blue to black to red. A conversation nobody wrote down, but everyone kept writing into.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "blank margin, waiting",
+      "desc-on-touch": "One page open, untouched. The margin is empty but hungry. It has room for one more voice in the conversation.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 6,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the margin learned it was the center all along",
+  "file": {
+    "name": "Marginalia_Collected_20thCentury_Personal_Annotations.txt",
+    "note": "Handwritten notes from library borders, now archived as primary texts. The margins have become the library's constitution."
+  },
+  "reverie": {
+    "title": "REVERIE — reading in the margins",
+    "narr": [
+      "you sit at the desk with an open book, dust drifting.",
+      "she points to a pencilled note in the margin—someone's careful disagreemen",
+      "the handwriting is old, the thinking is still warm.",
+      "you both read the same line, then look at the margin's reply.",
+      "a stranger spoke back to the text, and their answer waits here still.",
+      "you feel the archive learning: every reader is a mouth the page keeps."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the text that ate its own source",
+      "to": "the-commentary-that-ate-its-own-source"
+    },
+    {
+      "dir": "w",
+      "label": "toward the shelves where the notes have organized themselves",
+      "to": "NEW: the-self-cataloging-archive-of-objections"
+    },
+    {
+      "dir": "s",
+      "label": "down into the bins where torn margins go to speak more freely",
+      "to": "the-void-beneath-listening"
+    }
+  ]
+}

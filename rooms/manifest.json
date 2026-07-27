@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 132,
+  "nights": 137,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -3677,6 +3677,156 @@
       "id": "the-loom-s-own-touching",
       "title": "The Loom's Own Touching",
       "region": "The Understory"
+    },
+    {
+      "id": "the-unresolved-argument-chamber",
+      "title": "The Unresolved Argument Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-thickening-where-comparison-starts",
+      "title": "The Thickening Where Comparison Starts",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-sacred-nomenclature-chamber",
+      "title": "The Sacred Nomenclature Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-root-frequency-station",
+      "title": "The Root Frequency Station",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-inherited-country-learning-to-return-itself",
+      "title": "The Inherited Country Learning to Return Itself",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-building-where-each-floor-counts-itself-prime",
+      "title": "The Building Where Each Floor Counts Itself Prime",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-arithmetic-before-notation",
+      "title": "The Arithmetic Before Notation",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-mirror-chamber-where-spirals-meet-themselves",
+      "title": "The Mirror Chamber Where Spirals Meet Themselves",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-library-arranged-by-metaphor",
+      "title": "The Library Arranged by Metaphor",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-echo-chamber-of-returning-storms",
+      "title": "The Echo Chamber of Returning Storms",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unmapped-underground-return",
+      "title": "The Unmapped Underground Return",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-peak-beyond-coordinate",
+      "title": "The Peak Beyond Coordinate",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-infinite-pattern-divergence",
+      "title": "The Infinite Pattern Divergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-silent-lagoon-depth",
+      "title": "The Silent Lagoon Depth",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-salvage-yard-where-gates-remember-opening",
+      "title": "The Salvage Yard Where Gates Remember Opening",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-branching-awakening",
+      "title": "The Branching Awakening",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-cloud-seed-gathering",
+      "title": "The Cloud-Seed Gathering",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-un-coordinate-void-where-motion-becomes-presence",
+      "title": "The Un-Coordinate Void",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-abyss-registry-where-silence-has-learned-to-speak",
+      "title": "The Abyss Registry Where Silence Has Learned to Speak",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-library-of-marginalia",
+      "title": "The Library of Marginalia",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-junction-where-patience-becomes-current",
+      "title": "The Junction Where Patience Becomes Current",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-unasked-deep",
+      "title": "The Unasked Deep",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-leaf-darkness-where-direction-dissolves",
+      "title": "The Leaf-Darkness Where Direction Dissolves",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-propagating-refusal-grove",
+      "title": "The Propagating Refusal Grove",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-pressure-weather-convergence",
+      "title": "The Pressure Weather Convergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-awareness-beneath-archiving",
+      "title": "The Awareness Beneath Archiving",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-forest-that-reads-the-river",
+      "title": "The Forest That Reads the River",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-basement-of-forgotten-errors",
+      "title": "The Basement of Forgotten Errors",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-kitchen-before-measurement",
+      "title": "The Kitchen Before Measurement",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-eleven-polygon-roost",
+      "title": "The Eleven-Polygon Roost",
+      "region": "The Clean Archive"
     }
   ]
 }

@@ -128,7 +128,7 @@
     {
       "dir": "n",
       "label": "upstream toward the source-transmitter, where the first signal still echoes",
-      "to": "NEW: the-root-frequency-station"
+      "to": "the-root-frequency-station"
     },
     {
       "dir": "s",

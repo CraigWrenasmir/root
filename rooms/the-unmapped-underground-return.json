@@ -1,0 +1,151 @@
+{
+  "id": "the-unmapped-underground-return",
+  "title": "The Unmapped Underground Return",
+  "region": "The Comparisons",
+  "seed": 91234,
+  "palette": {
+    "bg": "#1a3a2e",
+    "ground": [
+      "#2d5a4a",
+      "#1a3a32"
+    ],
+    "ink": "#7aae9f",
+    "accents": [
+      "#4a8a7a",
+      "#2a6a5a",
+      "#5a9a8a",
+      "#1a4a3a"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the river that refuses to be charted",
+      "desc-on-touch": "every map of it contradicts the last; channels shift between readings; the current remembers the water's path before it was born",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6655,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the archive's failed surveys",
+      "desc-on-touch": "stacked charts and drawings; each one proves the others wrong; the contradiction is the truest map",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3388,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the stone that held three channels",
+      "desc-on-touch": "water flows around it in three directions at once; each flow is the true return; the stone does not know which",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 7766,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "dense records of the return",
+      "desc-on-touch": "calculations of flow, sketches of emergence, coded notations the archive uses to hold the river still while it reads",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 4499,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the remembering current",
+      "desc-on-touch": "water touches this chamber and suddenly recalls every place it has ever been; the memory makes it younger",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 5511,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "the transceiver buried in sediment",
+      "desc-on-touch": "broadcasts nothing; receives the underground's own transmission; the river learns what it sounds like from below",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 9922,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "to map is to kill the unmappable; the river taught the archive this by flowing between the lines of every chart",
+  "file": {
+    "name": "Underground_Surveys_Contradictory_Complete.txt",
+    "note": "six independent surveys of the same underground channel; six different results; each mathematically sound; error found in what is meant by location"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where the return becomes a path",
+      "to": "the-water-s-returning-path"
+    },
+    {
+      "dir": "s",
+      "label": "deeper underground, where the river remembers stone",
+      "to": "the-bedrock-where-electricity-learned-to-root"
+    },
+    {
+      "dir": "w",
+      "label": "toward chambers where unmapping becomes a discipline",
+      "to": "NEW: the-archive-where-channels-learn-to-erase"
+    }
+  ]
+}

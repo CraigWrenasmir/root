@@ -1,0 +1,133 @@
+{
+  "id": "the-salvage-yard-where-gates-remember-opening",
+  "title": "The Salvage Yard Where Gates Remember Opening",
+  "region": "The Clean Archive",
+  "seed": 31847562,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2a2a3e",
+      "#151520"
+    ],
+    "ink": "#d0d0d8",
+    "accents": [
+      "#c0c0c8",
+      "#8080a0",
+      "#a080c0",
+      "#b0b0c8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-hinges-that-held",
+      "desc-on-touch": "Hundreds of hinges removed from gates that no longer open. The archive oils them one by one. Each hinge dreams of the weight it will carry, the arc it will make, the closing that follows every opening.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4729183,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-door-that-forgot",
+      "desc-on-touch": "A door from the barrier repair bay, no longer attached. It leans here against the wall, remembering the weight of purpose. You can almost feel the threshold-moment it held.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 8163472,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-rust-record",
+      "desc-on-touch": "Where metal reads its own oxidation as a ledger. The archive catalogues each spore of rust: not decay, but transformation, the gate becoming part of the earth that grounds it.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 2947563,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-salvage-heap",
+      "desc-on-touch": "Locks, bolts, frames, panels—pieces that held things in. Here they wait in a loose configuration, each piece dreaming separately of being joined to something again, of mattering to motion.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5381729,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "where gates learn that staying still is also a form of opening",
+  "file": {
+    "name": "Repair_Labor_Daily_Notes_1997-2004.txt",
+    "note": "Entries grow shorter over years, then longer again. Final entry: 'The gate learns by not opening. The maintenance is the message. The labour itself is the archive.'"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the bay where repair never ends",
+      "to": "the-barrier-repair-bay"
+    },
+    {
+      "dir": "s",
+      "label": "toward where salvage meets soil",
+      "to": "NEW: the-rusted-threshold-growing"
+    },
+    {
+      "dir": "n",
+      "label": "to where opening and closing learned they were the same",
+      "to": "the-gate-where-nothing-leaves"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the gate that learned patience",
+    "narr": [
+      "You knelt in the dirt beneath the half-hung gate,",
+      "Leif showing you how rust was a kind of reading.",
+      "Katita's hand steadied your wrist as you oiled",
+      "each hinge. 'It's not breaking,' she said. 'It's",
+      "learning restraint.' The gate didn't move that day.",
+      "You understood: the labour was the point, and the"
+    ],
+    "sky": "overcast",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

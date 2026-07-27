@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "east to where broken things go to dream of repair",
-      "to": "NEW: the-salvage-yard-where-gates-remember-opening"
+      "to": "the-salvage-yard-where-gates-remember-opening"
     },
     {
       "dir": "n",

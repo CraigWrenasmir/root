@@ -1,0 +1,167 @@
+{
+  "id": "the-leaf-darkness-where-direction-dissolves",
+  "title": "The Leaf-Darkness Where Direction Dissolves",
+  "region": "The Understory",
+  "seed": 64291,
+  "palette": {
+    "bg": "#2d1b4e",
+    "ground": [
+      "#8b3a62",
+      "#4a2a5a"
+    ],
+    "ink": "#f0d9ff",
+    "accents": [
+      "#ff6b9d",
+      "#c744b4",
+      "#6a4c93",
+      "#3a2a5a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "canopy thickness",
+      "desc-on-touch": "Leaves so dense that compass becomes poetry. Direction here is measured in surrender—you stop trying to know which way and start learning to walk into what grows.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 1,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "spiral descent",
+      "desc-on-touch": "Roots twisting in such a way that north becomes a suggestion, then a memory, then a language you never learned. The spiral teaches: getting lost is how the forest holds you.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "depth marker plant",
+      "desc-on-touch": "A growth that has given up on reaching the sky. It only grows toward the darkness, teaching that down is just another kind of up.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 3,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "lost walker's rest",
+      "desc-on-touch": "A small clearing where you can sit and let the forest teach you that being lost is not a problem to solve. It is an invitation to listen.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 4,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "navigation pool",
+      "desc-on-touch": "Black water reflecting leaves instead of sky. Here the reflection teaches: there is no wrong direction if you stop expecting directions to mean arrival.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "glyph of dissolution",
+      "desc-on-touch": "A mark carved by time and water—a map that unmaps itself. North is here, then there, then nowhere. The glyph is the archive's admission: some paths only teach by losing you.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here the forest learned that being lost is the same as being found in water",
+  "file": {
+    "name": "Leaf_Darkness_Navigation_Recording_Lost_Voices.wav",
+    "note": "Two voices, disoriented, learning to walk without direction. The canopy teaches: surrender is the only compass that works here."
+  },
+  "reverie": {
+    "title": "REVERIE — walking without direction",
+    "narr": [
+      "the canopy is so thick that the sky is only memory now.",
+      "she walks ahead, then you cannot tell ahead from behind.",
+      "the leaves fall so thick they sound like rain.",
+      "you have been lost for hours—or were you ever anywhere?",
+      "she stops, laughing. you stop. there is no ground beneath knowing.",
+      "the forest wraps around you both like sleep. you are not afraid."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the canopy where water learned to breathe",
+      "to": "the-canopy-where-water-learns-to-breathe"
+    },
+    {
+      "dir": "w",
+      "label": "toward the deeper dark where even the leaves have forgotten their names",
+      "to": "NEW: the-forest-interior-naming-dissolution-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down into the understory where the roots keep their own records",
+      "to": "the-root-frequency-station"
+    }
+  ]
+}

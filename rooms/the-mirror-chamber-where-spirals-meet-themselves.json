@@ -1,0 +1,134 @@
+{
+  "id": "the-mirror-chamber-where-spirals-meet-themselves",
+  "title": "The Mirror Chamber Where Spirals Meet Themselves",
+  "region": "The Diagnostic Render",
+  "seed": 62847,
+  "palette": {
+    "bg": "#ffd580",
+    "ground": [
+      "#ff6b35",
+      "#f7931e"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#0d3b66",
+      "#ee964b",
+      "#f95738",
+      "#c1121f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the seagull in two directions",
+      "desc-on-touch": "you see it facing east and west at once, as if the room itself is its own mirror; both are equally real",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 4401,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "spiral that returns to itself",
+      "desc-on-touch": "follow it inward and you emerge outward; the turn is so gradual you never notice the shape has inverted",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 7723,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the counting mirror",
+      "desc-on-touch": "each spiral arm holds a notch; the mirror shows the same spiral but with twice as many notches; neither count is wrong",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1156,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "documentation of the mechanical bird",
+      "desc-on-touch": "sketches and notes in archive hand, treating the seagull as zoological specimen; each page holds a different image of the same creature",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5544,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the shell-hall",
+      "desc-on-touch": "chambers within chambers; each shell shape contains another shell; the spiral teaches the room how to fold",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8866,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "here the mirror learned it was also a spiral, and the spiral learned it was also a mirror; they have not yet finished the conversation",
+  "file": {
+    "name": "Seagull_Zoological_Study_Contradictory.txt",
+    "note": "field notes from two observers describing the same specimen; measurements differ; both observers equally reliable; archive: error in species definition or error in observation"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where floors still count themselves separately",
+      "to": "the-building-where-each-floor-counts-itself-prime"
+    },
+    {
+      "dir": "n",
+      "label": "toward chambers where reflection learns to see itself",
+      "to": "the-gallery-where-reflection-becomes-residence"
+    },
+    {
+      "dir": "e",
+      "label": "into further mirrors, where the spiral grows a voice",
+      "to": "NEW: the-cathedral-of-recursive-forms"
+    }
+  ]
+}

@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "northward into the inherited half of the forest",
-      "to": "NEW: the-inherited-country-learning-to-return-itself"
+      "to": "the-inherited-country-learning-to-return-itself"
     },
     {
       "dir": "s",
