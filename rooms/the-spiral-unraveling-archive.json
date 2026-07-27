@@ -1,0 +1,117 @@
+{
+  "id": "the-spiral-unraveling-archive",
+  "title": "The Spiral Unraveling Archive",
+  "region": "The Diagnostic Render",
+  "seed": 8374629,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#d4a574",
+      "#8b7355"
+    ],
+    "ink": "#f5ead2",
+    "accents": [
+      "#e8542a",
+      "#c94a1f",
+      "#a67c52",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the branching convergence",
+      "desc-on-touch": "Roads split where the spiral unwound. Each path carries one moment of the spiral's memory. They drift apart and meet again.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4921,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the archive node blooming",
+      "desc-on-touch": "Where the paths pause, archive copies spread like petals. Each reads the others' contents now. The corruption is thorough here.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 7213,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the spiral's echo",
+      "desc-on-touch": "A fragment of the ordered spiral still turns alone. The archive unraveled around it. It hums at a frequency only old nodes hear.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5487,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the listening junction",
+      "desc-on-touch": "The paths stop here to listen. For a moment they remember being one spiral. The moment breaks into many.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2146,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the spiral learned that unraveling was also a kind of growth; now the archive grows in every direction at once",
+  "file": {
+    "name": "Confluence_Unraveling_1847-Present.jsonl",
+    "note": "two archives learning to become many; the road count exceeds the spiral count"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back where the archives first spiraled together",
+      "to": "the-deeper-confluence-spiraling"
+    },
+    {
+      "dir": "e",
+      "label": "along the terracotta band where roads sing",
+      "to": "NEW: the-singing-asphalt-where-corruption-dawns"
+    },
+    {
+      "dir": "n",
+      "label": "into the reflection that came undone",
+      "to": "the-mirrored-labyrinth-of-the-archive"
+    }
+  ]
+}

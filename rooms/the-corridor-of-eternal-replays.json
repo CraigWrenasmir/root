@@ -1,0 +1,117 @@
+{
+  "id": "the-corridor-of-eternal-replays",
+  "title": "The Corridor of Eternal Replays",
+  "region": "The Diagnostic Render",
+  "seed": 8901234,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#2d2d4a"
+    ],
+    "ink": "#00ff99",
+    "accents": [
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the master chip",
+      "desc-on-touch": "A massive integrated circuit, black and gleaming, radiating faint heat. Every signal on this board is a playback of a signal that already played. The music has been looping since before you were born; it will loop after you leave.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9234,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the stacked speakers",
+      "desc-on-touch": "Towers of amplifiers, each slightly out of phase with the others, creating the illusion of space where there is none. They play the same song in the same way every time. You have heard it before. You will hear it again.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the circuit pathway",
+      "desc-on-touch": "Traces of light show the current's eternal route through the board. The pattern never varies. You could follow this path with your eyes forever, never arriving anywhere, forever departing.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 7891,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the recording glyph",
+      "desc-on-touch": "A symbol endlessly cycling through play, record, pause, rewind, play, record, pause—the eternal buttons, forever in sequence. The act of recording and replaying has become one indivisible gesture.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6123,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the music stopped playing when you were listening; it never noticed; it has played through a thousand other listeners in the same instant",
+  "file": {
+    "name": "Eternal_Replay_Loop_Signal_Capture_Unknown_Date.wav",
+    "note": "An audio file that, when played, produces the sound of itself being played. The file is recursively self-referential. Its length is indefinite. Listeners report forgetting how long they have been list"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the path back toward the lounge where the music continues",
+      "to": "the-perpetual-lounge"
+    },
+    {
+      "dir": "n",
+      "label": "an upward passage toward rooms where the music stops",
+      "to": "NEW: the-silence-after-the-recording-ends"
+    },
+    {
+      "dir": "s",
+      "label": "a descent into the archive of all playbacks that ever occurred",
+      "to": "the-kiosk-comparison"
+    }
+  ]
+}

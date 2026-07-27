@@ -123,7 +123,7 @@
     {
       "dir": "s",
       "label": "downward to where sound becomes touch",
-      "to": "NEW: the-harmonic-sediment-floor"
+      "to": "the-harmonic-sediment-floor"
     },
     {
       "dir": "n",

@@ -1,0 +1,139 @@
+{
+  "id": "the-solitary-frequency-deep",
+  "title": "The Solitary Frequency Deep",
+  "region": "The Understory",
+  "seed": 3567821,
+  "palette": {
+    "bg": "#d4b896",
+    "ground": [
+      "#c4a464",
+      "#5b7c99"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#8b6f47",
+      "#3d5066",
+      "#e8c49c",
+      "#4a3728"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the antenna-stone",
+      "desc-on-touch": "A single upright shaft of slate, weathered into a needle. It hums at a frequency only one voice can match. The sound it makes is yours, alone, specific, unrepeatable.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 6723,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the listening pool",
+      "desc-on-touch": "Water so still it seems to hold sound. When you speak into it, only you hear the echo. The depth is yours alone; no other voice has ever found its bottom.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the wire-cage",
+      "desc-on-touch": "A delicate framework hanging in the air, transparent as breathing. It catches and holds a single frequency—the sound of one person singing to themselves, alone, learning themselves.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 9087,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the solitary mark",
+      "desc-on-touch": "A glyph that appears only to one reader. Every person who comes here sees a different symbol—the one that means 'you alone understand this.' It is never the same twice.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5348,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.1,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the transmission post",
+      "desc-on-touch": "A hollow tube of weathered wood, broadcasting in a language that has never been spoken aloud. Only the solitary can hear it; the moment a second voice joins, the transmission stops.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2019,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "when only one voice sings, every note becomes a prayer to the self that listens back",
+  "file": {
+    "name": "Solitary_Frequency_Registry_1982_Field_Recording.mp3",
+    "note": "A capture of a single sustained tone, recorded at this location. The frequency never wavers. Background: absolute silence. No other sound exists in this file."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the path rising back to where harmony still exists",
+      "to": "the-dissenting-echo"
+    },
+    {
+      "dir": "s",
+      "label": "a descent into even deeper isolation, past all song",
+      "to": "NEW: the-silence-that-learned-to-speak-to-itself"
+    },
+    {
+      "dir": "e",
+      "label": "a worn track toward other solitary listeners",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    },
+    {
+      "dir": "w",
+      "label": "a passage where singular voices echo back as themselves",
+      "to": "NEW: the-chamber-where-one-voice-teaches-one-voice"
+    }
+  ]
+}

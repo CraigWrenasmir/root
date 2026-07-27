@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 147,
+  "nights": 152,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -4102,6 +4102,146 @@
       "id": "the-rust-vein-where-metal-learns-singing",
       "title": "The Rust Vein Where Metal Learns Singing",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-spiral-unraveling-archive",
+      "title": "The Spiral Unraveling Archive",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-cathedral-of-recursive-forms",
+      "title": "The Cathedral of Recursive Forms",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-circle-s-first-ring-chamber",
+      "title": "The Circle's First Ring Chamber",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-absolute-collapse-where-axes-merge",
+      "title": "The Absolute Collapse Where Axes Merge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-withdrawal-path",
+      "title": "The Withdrawal Path",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-silent-aquifer-where-seeds-drink-time",
+      "title": "The Silent Aquifer Where Seeds Drink Time",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-harmonic-color-rising",
+      "title": "The Harmonic Color-Rising",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fourth-shadow-s-cast-light",
+      "title": "The Fourth Shadow's Cast Light",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-emergence-where-water-learns-weather",
+      "title": "The Emergence Where Water Learns Weather",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-gallery-dividing-infinitely",
+      "title": "The Gallery Dividing Infinitely",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-water-source-where-error-wasn-t-yet-certain",
+      "title": "The Water-Source Where Error Wasn't Yet Certain",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-pale-archive-zenith",
+      "title": "The Pale Archive Zenith",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-valley-that-learns-to-run",
+      "title": "The Valley That Learns to Run",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-first-nomenclature-depth",
+      "title": "The First Nomenclature Depth",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-sediment-channel-where-stone-learns-to-follow",
+      "title": "The Sediment Channel Where Stone Learns to Follow",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-harmonic-sediment-floor",
+      "title": "The Harmonic Sediment Floor",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-ridge-where-teaching-ends-and-understanding-begins",
+      "title": "The Ridge Where Teaching Ends and Understanding Begins",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-spiral-of-pre-decision",
+      "title": "The Spiral of Pre-Decision",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-solitary-frequency-deep",
+      "title": "The Solitary Frequency Deep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-numbers-learn-to-dream",
+      "title": "The Chamber Where Numbers Learn to Dream",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-literate-root-dark",
+      "title": "The Literate Root Dark",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-corridor-of-eternal-replays",
+      "title": "The Corridor of Eternal Replays",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ridge-where-echoes-learn-to-answer",
+      "title": "The Ridge Where Echoes Learn to Answer",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ridge-that-drops-and-rises",
+      "title": "The Ridge That Drops and Rises",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-negation-debates-negation",
+      "title": "The Chamber Where Negation Debates Negation",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-corridor-of-changing-numbers",
+      "title": "The Corridor of Changing Numbers",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-void-that-learned-coordinates-are-optional",
+      "title": "The Void That Learned Coordinates Are Optional",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-root-where-seasons-first-learned-to-divide",
+      "title": "The Root Where Seasons First Learned to Divide",
+      "region": "The Understory"
     }
   ]
 }

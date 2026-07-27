@@ -126,7 +126,7 @@
     {
       "dir": "s",
       "label": "downward into the water table where the vault's thirst is finally heard",
-      "to": "NEW: the-silent-aquifer-where-seeds-drink-time"
+      "to": "the-silent-aquifer-where-seeds-drink-time"
     }
   ]
 }

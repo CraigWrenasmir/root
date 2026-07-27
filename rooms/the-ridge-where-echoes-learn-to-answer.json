@@ -1,0 +1,117 @@
+{
+  "id": "the-ridge-where-echoes-learn-to-answer",
+  "title": "The Ridge Where Echoes Learn to Answer",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#a0522d",
+      "#228b22"
+    ],
+    "ink": "#f5f5f5",
+    "accents": [
+      "#daa520",
+      "#8fbc8f",
+      "#cd853f",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the arguing echoes",
+      "desc-on-touch": "Two voices speak the same sentence differently. One closes; one opens. They overlap, debate, refuse each other's endings. You realize they have been doing this since the ridge was formed.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 18374,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the oracle-shard",
+      "desc-on-touch": "Scratched stone bearing incomplete text—a divination verse, worn smooth on half the words. Scholars argue whether the missing parts were erased or are waiting to be remembered.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 52847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the branching path-tree",
+      "desc-on-touch": "A split trunk that branches impossibly—each fork holds a different version of the same route. All paths lead here; all lead away. The newest growth still trembles with indecision.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 31605,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the empty answer-chamber",
+      "desc-on-touch": "A smooth hollow in the ridge where seven echoes converge. But the eighth voice—the one that should resolve them—never arrived. Its silence is louder than all the arguing.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 44891,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the ridge learned that answers can argue with themselves and still be true; echoes taught it that unresolved is not the same as unheard",
+  "file": {
+    "name": "Oracular_Text_Recovery_or_Invention_Scholarly_Dispute.txt",
+    "note": "Photocopied pages from competing academic articles about reconstructing a Twelve-Word Oracle. Handwritten marginalia in two different hands argue directly at each other in the spaces between the print"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the ridge descends toward mist and the parent summit",
+      "to": "the-unspoken-summit-where-voice-becomes-echo"
+    },
+    {
+      "dir": "s",
+      "label": "downward into chambers where arguments grow roots",
+      "to": "NEW: the-deep-chamber-where-refusal-still-echoes"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the ridge sharpens and the echoes grow louder",
+      "to": "the-ravine-cathedral-where-refusal-echoes"
+    }
+  ]
+}

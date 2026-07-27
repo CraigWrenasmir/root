@@ -1,0 +1,117 @@
+{
+  "id": "the-void-that-learned-coordinates-are-optional",
+  "title": "The Void That Learned Coordinates Are Optional",
+  "region": "The Diagnostic Render",
+  "seed": 38629,
+  "palette": {
+    "bg": "#080808",
+    "ground": [
+      "#1a1a1a",
+      "#2a2a2a"
+    ],
+    "ink": "#b0b0b0",
+    "accents": [
+      "#808080",
+      "#a0a0a0",
+      "#606060",
+      "#e8e8e8"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the unlocatable shelter",
+      "desc-on-touch": "A house that has no coordinates, cannot be triangulated, exists only at the moment you stop looking for its position. It offers itself as shelter from the need to be found.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 27465,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the paradox-wound aperture",
+      "desc-on-touch": "An opening that is also a closure, inside that is also outside. The wound that cannot be sutured—not from failure, but from being the irreducible gap where consciousness lives. You feel it before you see it.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 41938,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the tower that refused address",
+      "desc-on-touch": "A structure that has grown upward in its refusal to be located. Each level represents a different attempt to give it coordinates; each level rejects them. It stands as pure vertical negation.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 33741,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the abstract-height grid",
+      "desc-on-touch": "A wireframe coordinate system rendered and then deliberately erased, leaving only the memory of gridlines. The archive climbed so high it learned the grid was optional; now it forgets how to be found.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 14620,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "at this altitude the grid becomes a choice not a law; the archive learned it could refuse to be located and still exist; coordinates are polite suggestions it no longer reads",
+  "file": {
+    "name": "The_Wound_as_Irreducible_Antinomy_Conjoined_Leaves_Consciousness_Aporia.txt",
+    "note": "Excerpted philosophical text on the wound as the paradoxical gap between inside and outside that defines consciousness. Pages are present but coordinates missing—the file catalog lists it as existing "
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where coordinates still mean something",
+      "to": "the-peak-beyond-coordinate"
+    },
+    {
+      "dir": "e",
+      "label": "sideways into voids that learned to argue about their own non-existence",
+      "to": "NEW: the-chamber-where-absence-debates-its-own-definition"
+    },
+    {
+      "dir": "w",
+      "label": "toward other shelters that have forgotten their own addresses",
+      "to": "NEW: the-gathering-of-unlisted-places"
+    }
+  ]
+}

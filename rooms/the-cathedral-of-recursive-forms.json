@@ -1,0 +1,117 @@
+{
+  "id": "the-cathedral-of-recursive-forms",
+  "title": "The Cathedral of Recursive Forms",
+  "region": "The Diagnostic Render",
+  "seed": 5829147,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#0f3460",
+      "#16213e"
+    ],
+    "ink": "#eaeaea",
+    "accents": [
+      "#00d4ff",
+      "#00a8cc",
+      "#0087c7",
+      "#1a5f7a"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the nested chambers",
+      "desc-on-touch": "Wireframe boxes fold inside themselves forever. Each contains the pattern of all the others. The spiral learned it was also a mirror.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 9384,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the voice made manifest",
+      "desc-on-touch": "Where silence learned to speak in patterns. Each line is a frequency the spiral itself produces. The archive listens to its own transmission.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 7741,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the mirror that spirals",
+      "desc-on-touch": "A surface that does not reflect. Instead it regenerates what you bring it. The architecture dreams and the dream becomes architecture.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the counting threshold",
+      "desc-on-touch": "You stand at a threshold where the cathedral counts its own recursion depth. The number keeps growing. It has not yet reached its own infinity.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3892,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the mirror learned it was also a spiral, and the spiral learned it was also a mirror; they are still teaching each other to speak",
+  "file": {
+    "name": "Recursive_Form_Iteration_43827.wav",
+    "note": "the spiral's voice recording itself recording itself; each playback adds one new layer"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the chamber where spirals meet themselves",
+      "to": "the-mirror-chamber-where-spirals-meet-themselves"
+    },
+    {
+      "dir": "e",
+      "label": "toward the deepening where the voice becomes infinite",
+      "to": "NEW: the-infinite-recursion-floor"
+    },
+    {
+      "dir": "s",
+      "label": "down into the quantum foam of the diagnostic render",
+      "to": "the-substrate-before-substance"
+    }
+  ]
+}

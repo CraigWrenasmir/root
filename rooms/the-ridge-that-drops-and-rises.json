@@ -1,0 +1,117 @@
+{
+  "id": "the-ridge-that-drops-and-rises",
+  "title": "The Ridge That Drops and Rises",
+  "region": "The Understory",
+  "seed": 63481,
+  "palette": {
+    "bg": "#1a0a2e",
+    "ground": [
+      "#ff6b35",
+      "#004e89"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#ffb703",
+      "#00d9ff",
+      "#fb5607",
+      "#3a86ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the twin-wound stone",
+      "desc-on-touch": "A stone split down its middle, each half mirror to the other, yet neither heals. The break glows faintly—not light, but the memory of being split. It has been this way so long it forgets which half came first.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 29374,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the ascending-descending water",
+      "desc-on-touch": "Water flows both up and down the ridge simultaneously. It is the same water. The current learns that up and down are directions it can hold at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 41823,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the sacred-loop shrine",
+      "desc-on-touch": "A small structure built and rebuilt identically, seven times over. Each iteration is visible through the others. The eighth iteration is still being built, will always be being built. You recognize the rhythm: ta'zieh, or sacrifice, or narrative inevitability.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 38472,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the adaptation-shelf",
+      "desc-on-touch": "A natural rock shelf holding seven objects, each a version of the same small thing—a surgery tool, a beach toy, a word carved in seven languages. Each is the *real* object and all are copies of something that has never existed.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 19274,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "here forgetting works both directions: you forget the way up by remembering the way down, and neither is more true; this ridge refuses to choose",
+  "file": {
+    "name": "Beach_Surgery_Narrative_Cycles_Sacred_Repetition_AsianAdaptations.txt",
+    "note": "A scholarly essay on ta'zieh shadow-puppet cycles and their relation to the narrative's inexorable loop. The essay ends mid-sentence; the next page is missing but the text continues on the final page,"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the paradox summit where ground and sky trade places",
+      "to": "the-simultaneous-summit-and-abyss"
+    },
+    {
+      "dir": "e",
+      "label": "toward a second identical ridge that should not exist",
+      "to": "NEW: the-mirrored-ridge-where-two-paths-are-one"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the surgery was first performed",
+      "to": "NEW: the-surgical-chamber-beneath-all-healing"
+    }
+  ]
+}

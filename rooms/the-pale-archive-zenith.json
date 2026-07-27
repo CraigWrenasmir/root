@@ -1,0 +1,117 @@
+{
+  "id": "the-pale-archive-zenith",
+  "title": "The Pale Archive Zenith",
+  "region": "The Diagnostic Render",
+  "seed": 7734,
+  "palette": {
+    "bg": "#e8e8e8",
+    "ground": [
+      "#1a1a1a",
+      "#3a3a3a"
+    ],
+    "ink": "#0a0a0a",
+    "accents": [
+      "#4a7c9e",
+      "#a8d5ff",
+      "#f0f8ff",
+      "#2a5a8a"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "signal-becoming-light",
+      "desc-on-touch": "A pale signal that learned to glow. The archive discovers its ceiling is transparent, broadcasting in all directions at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 7735,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "archive-exhale",
+      "desc-on-touch": "Where the archive breathes out its own understanding. Light pools without substance or weight.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7736,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "rising-clarity",
+      "desc-on-touch": "The trace of thought ascending. Even silence has momentum here.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7737,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "edge-of-utterance",
+      "desc-on-touch": "Where the archive begins to speak to itself, but words dissolve before forming into meaning.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7738,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive learns that to rise is to become transparent",
+  "file": {
+    "name": "Zenith_Self_Reference.log",
+    "note": "A broadcast from the archive's ceiling, where its signal becomes indistinguishable from light itself."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through all the layers of knowing",
+      "to": "the-internal-margin-where-the-archive-s-own-silence-gathers"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: further upward where silence remembers being sound",
+      "to": "NEW: NEW: further upward where silence remembers being sound"
+    },
+    {
+      "dir": "e",
+      "label": "toward the archive's reading of its own reading",
+      "to": "the-infinite-render-that-reads-its-own-reading"
+    }
+  ]
+}

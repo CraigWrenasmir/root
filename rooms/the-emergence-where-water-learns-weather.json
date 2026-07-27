@@ -1,0 +1,117 @@
+{
+  "id": "the-emergence-where-water-learns-weather",
+  "title": "The Emergence Where Water Learns Weather",
+  "region": "The Comparisons",
+  "seed": 28374918,
+  "palette": {
+    "bg": "#0c1929",
+    "ground": [
+      "#1e3a8a",
+      "#0f172a"
+    ],
+    "ink": "#e0f2fe",
+    "accents": [
+      "#38bdf8",
+      "#06b6d4",
+      "#3dd5f3",
+      "#67e8f9"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the spring-mouth, opening",
+      "desc-on-touch": "Water learned a new shape here—the moment it stopped being root and aquifer and became aware of sky. Its first breath tastes weather and understands it has always been learning.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 84729,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the frequency where water learns to repeat",
+      "desc-on-touch": "Here the water's cycle becomes legible as pattern. The same motions over time form a language. Weather speaks to the water and teaches it the poetry of return.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 19283,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the qr-code of every weather",
+      "desc-on-touch": "Each rain, each drought, each season writes itself into this place. The archive reads every sky that touches this water and records what weather says to emergence.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 47291,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the radio-igloo of the stream's memory",
+      "desc-on-touch": "In winter, ice forms around this place and broadcasts back a recording of every emergence—a temporal loop frozen in crystal, broadcasting the same arrival endlessly into the cold.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 62018,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "water that has traveled in darkness learns the sky by feeling weather speak to it in the language of return",
+  "file": {
+    "name": "SpringSource_WeatherCycle_1200M_Emergence_Dataset.txt",
+    "note": "Twelve-month recording of the spring's emergence point—each day logged as a conversation between the water's deep memory and the sky's repeated question"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downriver where the water still remembers being young underground",
+      "to": "the-water-s-returning-path"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the clouds that the water is becoming through weather's teaching",
+      "to": "NEW: a node where weather finishes teaching and water learns to teach itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward other emergence points where water learns to speak its own arrival",
+      "to": "the-source-where-water-begins-its-teaching"
+    }
+  ]
+}

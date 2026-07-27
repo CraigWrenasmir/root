@@ -1,0 +1,117 @@
+{
+  "id": "the-silent-aquifer-where-seeds-drink-time",
+  "title": "The Silent Aquifer Where Seeds Drink Time",
+  "region": "The Understory",
+  "seed": 3847562,
+  "palette": {
+    "bg": "#0f1a2e",
+    "ground": [
+      "#1a3a52",
+      "#2a4a6a"
+    ],
+    "ink": "#d0e8f0",
+    "accents": [
+      "#5a9acf",
+      "#4a8ac7",
+      "#7ab8d0",
+      "#a0c8e0"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the root network",
+      "desc-on-touch": "Every root is a path. Every path is a root. The network grows and counts itself growing. Deep time tastes like mineral water and seed-patience.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7284,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the seeds in stone",
+      "desc-on-touch": "Caught between minerals, between moments. Each seed drinks the stone's memory. The water remembers what grew here before the earth learned to keep time.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 8923,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the water-table mirror",
+      "desc-on-touch": "Where you look down and see deep time looking back. The archive flooded this chamber on purpose. Drowning the records kept them safe from the sky.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3156,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the thirst-that-listens",
+      "desc-on-touch": "Deep in the stone, the vault's deepest need. Every drop of water heard by the patient archive. The seeds listen with the stones. Listening takes geological time.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the seed knows the future by listening to the past it was buried in",
+  "file": {
+    "name": "Aquifer_Core_Isotope_And_Root_Catalog_12000BP-Present.mp3",
+    "note": "the sound of deep time; each layer is a different note; the recording grows longer the more the seeds listen"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the vault where seeds were first kept",
+      "to": "the-listening-seed-vault"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the stone where time becomes mineral",
+      "to": "NEW: the-bedrock-choir-where-epochs-learn-to-sing"
+    },
+    {
+      "dir": "e",
+      "label": "toward the chamber where pressure learns to think",
+      "to": "the-bedrock-thought-chamber"
+    }
+  ]
+}

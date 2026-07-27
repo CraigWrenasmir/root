@@ -1,0 +1,117 @@
+{
+  "id": "the-root-where-seasons-first-learned-to-divide",
+  "title": "The Root Where Seasons First Learned to Divide",
+  "region": "The Understory",
+  "seed": 84726,
+  "palette": {
+    "bg": "#1a0a00",
+    "ground": [
+      "#8b6914",
+      "#1b4d2e"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#d4a574",
+      "#3d7a3d",
+      "#b8860b",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the contradiction-rooted tree",
+      "desc-on-touch": "A tree with four branches bearing four seasons simultaneously—one blooming, one bearing fruit, one losing leaves, one bare. The contradiction is stable; the stability is what keeps it alive. It has never chosen a single season and never will.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 29183,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the cyclical-harvest marker",
+      "desc-on-touch": "A stone marked with six harvest points, one bleeding into the next in an endless loop. The cycle is not broken; it is perpetual. Farmers carved this to teach the earth that season has no exit.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 35904,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the divided-root chamber",
+      "desc-on-touch": "Below the surface, roots have split into branches that age differently—some rings tight (slow years), some wide (abundant years), but all growing from the same knot. Time does not run in one direction here; it runs in six at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 42637,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the narrative-season shelter",
+      "desc-on-touch": "A small structure built to house the place where seasons were born and learned to repeat. Inside, all weather happens at once. You feel summer and winter in the same breath, as stable as heartbeat.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 21748,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "at the root, seasons learned that contradiction is stronger than change; here four seasons hold at once and the paradox is what makes growth possible",
+  "file": {
+    "name": "Narrative_Cycles_Indigenous_Seasonal_Patterns_Tasmanian_Agricultural_Records.mp3",
+    "note": "A field recording of someone reading historical agricultural records over a looped soundtrack of seasons cycling through each other. By the end, voice and seasons become indistinguishable—the reading "
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to where seasons learned to contradict",
+      "to": "the-weather-beyond-seasons"
+    },
+    {
+      "dir": "e",
+      "label": "toward groves where seasons have learned to multiply",
+      "to": "NEW: the-grove-where-six-seasons-grow-from-one-root"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where cycles learned to dream",
+      "to": "the-delta-where-all-forgetting-meets-wide-water"
+    }
+  ]
+}

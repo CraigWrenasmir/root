@@ -1,0 +1,122 @@
+{
+  "id": "the-spiral-of-pre-decision",
+  "title": "The Spiral of Pre-Decision",
+  "region": "The Diagnostic Render",
+  "seed": 4928156,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d3561",
+      "#4a5580"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#7aa8c2",
+      "#c47e5a",
+      "#f5e6d3",
+      "#5a6d7f"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the first cottage",
+      "desc-on-touch": "A small grey-board house with a door that opens in both directions simultaneously. Inside, two meals are cooling. The choices have already been made; you are learning to recognize which one you took.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the spiral marker",
+      "desc-on-touch": "A white line turning inward toward a point that never arrives. The spiral grows smaller the deeper you follow it, yet somehow each loop contains the entire architecture of the decision.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 5019,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the stack of rooms",
+      "desc-on-touch": "Each layer holds a different version of the same room. You can see through all of them at once: in one, you are choosing left; in another, right. Neither has happened yet, but you remember both futures.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 8234,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the threshold that branches",
+      "desc-on-touch": "A doorway that splits the air into probabilities. Every possibility is equally real until you stop looking. The moment you choose the threshold, you forget all the other futures as if they never existed—or always did.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7412,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "you are standing in all the moments you have not yet chosen; they are choosing you",
+  "file": {
+    "name": "Decisions_Spiral_Notation_Late_Archive_Fragment.txt",
+    "note": "A fragment of notation suggesting that decisions were mapped as recursive spirals. The annotation ends mid-sentence: 'the center point is still becoming—'"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the descending chamber toward already-made choices",
+      "to": "the-prescient-archive-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "an upward turn toward futures that are still unmaking themselves",
+      "to": "NEW: the-fork-in-probability-where-all-roads-were-taken"
+    },
+    {
+      "dir": "e",
+      "label": "a side passage into the archive of unmade choices",
+      "to": "the-convergence-of-all-refutations"
+    },
+    {
+      "dir": "w",
+      "label": "a chamber where the decision spirals inward into silence",
+      "to": "NEW: the-deepening-spiral-chamber"
+    }
+  ]
+}

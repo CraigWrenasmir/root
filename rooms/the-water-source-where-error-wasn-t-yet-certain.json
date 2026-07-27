@@ -1,0 +1,139 @@
+{
+  "id": "the-water-source-where-error-wasn-t-yet-certain",
+  "title": "The Water-Source Where Error Wasn't Yet Certain",
+  "region": "The Comparisons",
+  "seed": 38291746,
+  "palette": {
+    "bg": "#fef08a",
+    "ground": [
+      "#65a30d",
+      "#0d9488"
+    ],
+    "ink": "#292524",
+    "accents": [
+      "#ea580c",
+      "#3b82f6",
+      "#8b5cf6",
+      "#10b981"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the forking waters",
+      "desc-on-touch": "Here the stream has not yet committed. It flows in three directions at once, each path leading to a different version of what happened next, all of them equally real.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 82917,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the griotic crossing",
+      "desc-on-touch": "This is where the water learned to call and be answered. Each fork is a voice in a conversation about which version of the story took hold, which current carried history forward.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 47291,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the map of all versions",
+      "desc-on-touch": "Roads marked in dust and root show every path error could have taken, every way the story could have unfolded. They all radiate from this place. None of them are less true than the others.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 59483,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the moment before certainty",
+      "desc-on-touch": "You stand here and feel how soft everything is. The story has not hardened yet. Any voice could still change what current carries what version forward into the world.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 71638,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the chorus of all possibilities",
+      "desc-on-touch": "Different versions of this place all sing here together—traditions from everywhere the archive touches, telling the story differently each time, none of them losing force.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 84729,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "at the water-source, error had not yet learned to flow in only one direction; here all the stories run together without choosing",
+  "file": {
+    "name": "SourcePoint_AllVersions_CallAndResponse_1800-Present.txt",
+    "note": "Recordings and retellings of the upstream event—griotic versions, written versions, oral traditions from a hundred places—each one a different current through the same water, none subordinate"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downstream where error learned to travel in one chosen direction",
+      "to": "the-upstream-town-where-error-went-another-way"
+    },
+    {
+      "dir": "n",
+      "label": "higher toward the original spring where all stories began at once",
+      "to": "the-source-where-water-begins-its-teaching"
+    },
+    {
+      "dir": "e",
+      "label": "toward towns where different versions of this story took hold and stayed",
+      "to": "NEW: nodes where each fork of the water found different ears and different keepers"
+    },
+    {
+      "dir": "w",
+      "label": "into the country where error learned to drift instead of settle into fact",
+      "to": "the-country-that-continues-reading"
+    }
+  ]
+}

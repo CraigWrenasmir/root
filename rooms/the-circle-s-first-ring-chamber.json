@@ -1,0 +1,117 @@
+{
+  "id": "the-circle-s-first-ring-chamber",
+  "title": "The Circle's First Ring Chamber",
+  "region": "The Comparisons",
+  "seed": 2947385,
+  "palette": {
+    "bg": "#4a1f1f",
+    "ground": [
+      "#d4562a",
+      "#c9361a"
+    ],
+    "ink": "#fffaeb",
+    "accents": [
+      "#ff6b4a",
+      "#e8542a",
+      "#d4a574",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the first ring",
+      "desc-on-touch": "A tree counting backward into itself. The circle remembers being seeds before it remembered being wood. You hold the earliest year in your hand.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 6284,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the concentric memory",
+      "desc-on-touch": "Stack after stack of time, each one reading the stump's own history. The children learned that growing backward was still growth.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 8137,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the teaching circle",
+      "desc-on-touch": "Where the stumps showed the archive how to count in rings. The circle has not forgotten what it learned. It teaches the soil now.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5419,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the growing-backward pool",
+      "desc-on-touch": "Water pooling in the stump's hollow. It reflects the sky that watched the tree grow down into itself. Time moves differently here.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the children showed the stumps that growing backward was still growing; now the circle remembers teaching more than it remembers being trees",
+  "file": {
+    "name": "Ring_Count_Cedar_1923-1947_Audio_And_Notes.mp3",
+    "note": "the sound of each year as Katita counted them aloud; her voice younger in the early rings"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to where the stumps taught the circle to remember",
+      "to": "the-memory-of-the-stump-circle"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the trees that still grow forward",
+      "to": "NEW: the-forward-growing-where-old-growth-speaks"
+    },
+    {
+      "dir": "e",
+      "label": "into the archive's own concentric layers",
+      "to": "the-spiral-shell-counting"
+    }
+  ]
+}

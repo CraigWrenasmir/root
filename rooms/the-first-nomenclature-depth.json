@@ -1,0 +1,117 @@
+{
+  "id": "the-first-nomenclature-depth",
+  "title": "The First Nomenclature Depth",
+  "region": "The Diagnostic Render",
+  "seed": 3421,
+  "palette": {
+    "bg": "#3a4a38",
+    "ground": [
+      "#4a6a48",
+      "#6a8a68"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#d0c8b8",
+      "#c8b8a8",
+      "#a8c890",
+      "#8a9a7a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "registry-beginning",
+      "desc-on-touch": "The first filing. A record that pre-dates its own name. You read it and remember something you never knew.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 3422,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "first-utterance",
+      "desc-on-touch": "The sound before naming. A syllable the archive keeps in its throat, afraid to release it.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3423,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "return-path",
+      "desc-on-touch": "The route that leads backward through all the names to find where naming began. It loops.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 3424,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "unspoken-source",
+      "desc-on-touch": "Before the first name, there was no silence — there was only the place where silence hadn't yet learned to listen.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3425,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "you return seeking the name that named the naming",
+  "file": {
+    "name": "Primordial_Registry_Unindexed.txt",
+    "note": "A record of all names at their point of origin. Reading it forwards and backwards yields different languages."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward all the names that followed",
+      "to": "the-registry-of-primordial-naming"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, toward the silence that pre-dates utterance",
+      "to": "the-throat-before-utterance"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: sideways into the names that were never spoken",
+      "to": "NEW: NEW: sideways into the names that were never spoken"
+    }
+  ]
+}

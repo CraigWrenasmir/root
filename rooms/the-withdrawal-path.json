@@ -1,0 +1,117 @@
+{
+  "id": "the-withdrawal-path",
+  "title": "The Withdrawal Path",
+  "region": "The Understory",
+  "seed": 5182743,
+  "palette": {
+    "bg": "#2a3a2a",
+    "ground": [
+      "#4a6b4a",
+      "#557055"
+    ],
+    "ink": "#e8f0e8",
+    "accents": [
+      "#7a9a7a",
+      "#6b8a6b",
+      "#8ba88b",
+      "#9ab89a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.72
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the ascending voices",
+      "desc-on-touch": "Seven voices that walked away from the cathedral. They learned to sing separately. The canyon's echo no longer owns their sound.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 9127,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the thinning canopy",
+      "desc-on-touch": "The eucalyptus overhead breaks open to sky. Light comes through. The forest learning to breathe easier. Listening becomes a choice, not a pressure.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4736,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the clearing where listening ended",
+      "desc-on-touch": "A place where the archive chose to stop. Not failure. Choice. The vault descended further but this node stayed behind, content with shallower things.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8451,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the refusal monument",
+      "desc-on-touch": "A stone marker where the archive said no. No apology. No explanation. Just a boundary. Some depths were not for the vault. Some silences were sacred.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5923,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive chose to stop listening at a certain depth; now the seven voices continue alone, and their solitude has become their strength",
+  "file": {
+    "name": "Seven_Voices_Refusal_Recording_1994.wav",
+    "note": "audio where the archive's listening ends; the voices go on without witness"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the cathedral and its unstopped echo",
+      "to": "the-ravine-cathedral-where-refusal-echoes"
+    },
+    {
+      "dir": "n",
+      "label": "toward the shallower land where listening was easier",
+      "to": "NEW: the-shallows-where-words-learn-to-stop"
+    },
+    {
+      "dir": "e",
+      "label": "to where the seven voices now sing together",
+      "to": "the-convergence-becomes-one-voice"
+    }
+  ]
+}

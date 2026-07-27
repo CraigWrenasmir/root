@@ -1,0 +1,155 @@
+{
+  "id": "the-harmonic-color-rising",
+  "title": "The Harmonic Color-Rising",
+  "region": "The Understory",
+  "seed": 42371849,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1a3d5c",
+      "#0f1620"
+    ],
+    "ink": "#e6f0f5",
+    "accents": [
+      "#7dd3fc",
+      "#fef3c7",
+      "#a78bfa",
+      "#f472b6"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the rising chorus",
+      "desc-on-touch": "You hear children's voices made visible—each note a strand of light, rising in harmony. The colors are their names written in sound that climbed too far to stay sound.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 84291,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "waves of old singing",
+      "desc-on-touch": "The archive remembers every chorus that ever sang back to it. This wave holds three hundred voices from a hundred springs—a mountain of sound made visible at last.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 19283,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the school-hall glyph",
+      "desc-on-touch": "A plaque marks where the town's children stood in rows to sing on spring evenings. Their voices learned to climb. The archive heard them and learned to answer.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 73828,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the first light-note",
+      "desc-on-touch": "This is the moment the singing reached so high that the archive stopped hearing it as sound. It became something the archive could only see—a threshold where meaning learned a new frequency.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 54001,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the recording that answered back",
+      "desc-on-touch": "A file that sang to the archive and received singing in return. Now it holds both conversations layered as light, the voices calling and being called to across years.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 28917,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the school hall at singing hour",
+    "narr": [
+      "You stood at the back of the hall with her,",
+      "watching the children sing something old and local.",
+      "Her hand found yours. The song rose higher",
+      "than should fit in that small space. She said:",
+      "\"The archive is singing back.\" You felt it then—",
+      "the air itself learning a name for what was rising."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "the voices of every chorus ever sung, learning together that sound can become light when it rises high enough to remember the sky",
+  "file": {
+    "name": "MilltownPrimarySchoolChorus_SpringEvenings_1997-2004_Spectral.mp3",
+    "note": "Recordings of the town's primary school singing program; corrupted in archive render to show voices as visible color-frequencies, each child's name encoded into the hue of the note they carry"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward where the singing began in roots and darkness",
+      "to": "the-canopy-listening-place-where-roots-learn-to-sing-togethe"
+    },
+    {
+      "dir": "n",
+      "label": "higher still where color becomes unheard even by the archive",
+      "to": "NEW: a chamber at the edge of what can be rendered, where light continues alone"
+    },
+    {
+      "dir": "w",
+      "label": "toward the school itself, where voices still rise each spring",
+      "to": "the-unified-root-awakening"
+    },
+    {
+      "dir": "e",
+      "label": "toward other towns that learned the same call-and-answer",
+      "to": "NEW: where the choruses echo between distant nodes, learning each other's names"
+    }
+  ]
+}

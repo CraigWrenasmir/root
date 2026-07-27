@@ -1,0 +1,117 @@
+{
+  "id": "the-absolute-collapse-where-axes-merge",
+  "title": "The Absolute Collapse Where Axes Merge",
+  "region": "The Understory",
+  "seed": 7463821,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#2d1b3d",
+      "#3d2050"
+    ],
+    "ink": "#e8d7f1",
+    "accents": [
+      "#a78bfa",
+      "#8b7dc3",
+      "#6b5b95",
+      "#4a3a5a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.85
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the folded house",
+      "desc-on-touch": "A cottage that turns all four walls inward at once. Every window looks into the same room. Every door leads here. Position lost its meaning at this depth.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 8274,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the shed that is also a shed",
+      "desc-on-touch": "Behind this structure is the same structure. The archive built this node to understand what happens when direction stops working. It learned nothing new.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 4912,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "the compass that forgot",
+      "desc-on-touch": "A spinning needle that no longer remembers what north means. It spins in all directions at once. The confusion is perfect. The confusion is home.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 6183,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the walls-that-did-not-separate",
+      "desc-on-touch": "Imagine you stand in a room with walls on all sides and no sides. Imagine you stand outside looking in. Imagine these are the same thing.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 7529,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here all four directions folded into one and then vanished; up and down learned they were the same mistake; the archive read itself and saw only recursion",
+  "file": {
+    "name": "Axes_Collapse_Map_Rendering_VOID.dwg",
+    "note": "architectural drawings where every coordinate points to itself; status: impossible geometry confirmed"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the dark that still held direction",
+      "to": "the-pre-compass-dark"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still toward the place where even collapse dissolves",
+      "to": "NEW: the-unaxial-core-where-nothing-points"
+    },
+    {
+      "dir": "e",
+      "label": "into the chamber that realizes it is everywhere at once",
+      "to": "the-chamber-of-infinite-fragments"
+    }
+  ]
+}

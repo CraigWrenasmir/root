@@ -139,7 +139,7 @@
     {
       "dir": "w",
       "label": "sideways into a hallway that leads to different apartments",
-      "to": "NEW: the-corridor-of-changing-numbers"
+      "to": "the-corridor-of-changing-numbers"
     },
     {
       "dir": "n",

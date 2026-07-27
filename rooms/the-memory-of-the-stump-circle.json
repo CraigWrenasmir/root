@@ -127,7 +127,7 @@
     {
       "dir": "n",
       "label": "upward where the first ring still grows in memory",
-      "to": "NEW: the-circle-s-first-ring-chamber"
+      "to": "the-circle-s-first-ring-chamber"
     }
   ]
 }

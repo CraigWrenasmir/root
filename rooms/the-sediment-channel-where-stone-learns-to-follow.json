@@ -1,0 +1,134 @@
+{
+  "id": "the-sediment-channel-where-stone-learns-to-follow",
+  "title": "The Sediment Channel Where Stone Learns to Follow",
+  "region": "The Understory",
+  "seed": 6543,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#4a3a2a",
+      "#6a5a4a"
+    ],
+    "ink": "#f0f0f0",
+    "accents": [
+      "#d4a574",
+      "#c4956a",
+      "#a4755a",
+      "#845a48"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "shopfront-remains",
+      "desc-on-touch": "A storefront learning to be stone. The sign has worn smooth, the counter dissolved. Now it flows downstream grain by grain.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 6544,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "shed-foundation",
+      "desc-on-touch": "Where a shelter stood. Layers of memory and sediment, each stratum a year of living and weather.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6545,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "stone-becoming-sand",
+      "desc-on-touch": "The moment rock learns it is not permanent. Grain by grain, matter discovers its own fluidity.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 6546,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "flow-channel",
+      "desc-on-touch": "The path sediment takes. The route where slowness learns its own momentum.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 6547,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "grain-choir",
+      "desc-on-touch": "Millions of particles singing the same song: we are becoming water. We are becoming river.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6548,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the shop learns it was only stone pretending to be permanence",
+  "file": {
+    "name": "Buried_Commerce_Silt_Journal.mp3",
+    "note": "A recording of the sediment channel at dusk. The sound of commerce dissolving into geology."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the threshold of stillness",
+      "to": "the-stone-sediment-threshold"
+    },
+    {
+      "dir": "s",
+      "label": "deeper downstream, where the sediment remembers what it was",
+      "to": "the-abyssal-sediment-archive"
+    },
+    {
+      "dir": "e",
+      "label": "NEW: toward the delta where stone becomes finally water",
+      "to": "NEW: NEW: toward the delta where stone becomes finally water"
+    }
+  ]
+}

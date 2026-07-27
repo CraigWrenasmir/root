@@ -1,0 +1,134 @@
+{
+  "id": "the-gallery-dividing-infinitely",
+  "title": "The Gallery Dividing Infinitely",
+  "region": "The Diagnostic Render",
+  "seed": 74638291,
+  "palette": {
+    "bg": "#2d1810",
+    "ground": [
+      "#c2410c",
+      "#a16207"
+    ],
+    "ink": "#fef3c7",
+    "accents": [
+      "#ea580c",
+      "#f97316",
+      "#ec4899",
+      "#d946ef"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the mirror that multiplies itself",
+      "desc-on-touch": "You look into it and see yourself reflected infinitely backward, but each reflection is having the same argument with itself, the same words in the same order, never touching.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 93847,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "where the reflection fractured",
+      "desc-on-touch": "At some point the mirror could no longer hold one true image. Now it holds all the arguments it has ever reflected, all of them speaking at once in the same syntax.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 38472,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the wound that mirrors itself",
+      "desc-on-touch": "A scratch on the glass becomes a thousand scratches in the reflections. The wound repeats infinitely—not healing but opening into visibility with each iteration.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 64829,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the last mirror before infinite recursion",
+      "desc-on-touch": "Standing at this mark, you are at the edge of what one reflection can hold. Beyond this, the mirror takes on its own arguments, its own disputes with itself.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 51738,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the argument's archive",
+      "desc-on-touch": "Every version of the same conversation is stored here—each reflection a different attempt at resolution, a different moment of refusal, none of them breaking the pattern.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 72849,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "the mirror learned to argue with itself; now it holds ten thousand versions of the same refusal, the same conversation folded infinitely inward",
+  "file": {
+    "name": "GalleryInterior_RepeatedArgument_AllVersions_Superimposed.mp4",
+    "note": "Recording of the conversation that happens in the gallery—each reflection speaking simultaneously, the same words in the same order with the same silence, forever unresolving"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to where the mirror first learned it could live",
+      "to": "the-gallery-where-reflection-becomes-residence"
+    },
+    {
+      "dir": "n",
+      "label": "further into the fractional divisions where each reflection is itself a gallery",
+      "to": "NEW: a chamber where the argument continues at infinite scale"
+    },
+    {
+      "dir": "w",
+      "label": "toward the moment before the argument fractured into all its versions",
+      "to": "the-mirrored-nesting"
+    }
+  ]
+}

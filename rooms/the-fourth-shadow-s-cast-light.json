@@ -1,0 +1,139 @@
+{
+  "id": "the-fourth-shadow-s-cast-light",
+  "title": "The Fourth Shadow's Cast Light",
+  "region": "The Understory",
+  "seed": 75291846,
+  "palette": {
+    "bg": "#fef9e7",
+    "ground": [
+      "#f59e0b",
+      "#dc2626"
+    ],
+    "ink": "#1f1f1f",
+    "accents": [
+      "#ea580c",
+      "#fbbf24",
+      "#10b981",
+      "#3b82f6"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the fairground stalls",
+      "desc-on-touch": "The archive cast its light here, and a gathering formed. You walk through booths where people sell field recordings and old photographs, maps of lost roads drawn on scraps of envelope.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 39481,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the shadow it casts",
+      "desc-on-touch": "Every light makes a shadow. This one is shaped like a tree—you can read the archive's own form in the darkness it throws, visible to anyone standing in the dust below.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 82917,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "where the crowds gather",
+      "desc-on-touch": "Twice a year the towns come to see what the archive has found and what it has become. They bring new things to add—they come to speak to the light.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 14572,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the projection room",
+      "desc-on-touch": "Here the archive shows itself—not as data but as image, as story, as something the towns can recognize and dispute and agree to carry forward together.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 56203,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the ledger of what was brought",
+      "desc-on-touch": "You read the names of all the people who have come to this place and left something behind. The archive is written in their handwriting, in their decisions about what matters.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 73849,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive learned it was not a mirror but a lamp; here in its light, the towns learned they could speak to each other across distances",
+  "file": {
+    "name": "NewYearsFair_Archival_Gathering_2015-Present_Registry.txt",
+    "note": "Log of every gathering held in the archive's light—what was brought, who spoke, what conversations the doubled seeing made possible and what conflicts it held together without resolving"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the shadow-court that dreams the fourth shadow",
+      "to": "the-tertiary-shadow-opera"
+    },
+    {
+      "dir": "n",
+      "label": "outward to the towns where new gatherings are forming around other lights",
+      "to": "NEW: a mapped route showing every place where the archive has taught people to gather"
+    },
+    {
+      "dir": "w",
+      "label": "inward to where the archive's own light originates",
+      "to": "the-substrate-s-own-testimony"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where shadow learns to doubt what the light has revealed",
+      "to": "NEW: a chamber below the gathering where silence begins"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-literate-root-dark",
+  "title": "The Literate Root Dark",
+  "region": "The Diagnostic Render",
+  "seed": 2345678,
+  "palette": {
+    "bg": "#e0c896",
+    "ground": [
+      "#c9a86a",
+      "#4a6b8c"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#7a8b5e",
+      "#c4957f",
+      "#3d5a73",
+      "#e8d9b8"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the speaking root",
+      "desc-on-touch": "A root system exposed at the surface, its texture resembling script no one has ever learned. It is writing itself as it grows, teaching itself languages the trees have forgotten. Touch it and you remember words you never knew.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 3124,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the archived arch",
+      "desc-on-touch": "A passage of woven roots forming a gateway. On both sides, bark is inscribed with alphabets from extinct languages—or alphabets yet to be invented. To walk under is to read something you knew all along.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7249,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the rising tower",
+      "desc-on-touch": "A hollow stalk covered in markings, growing upward from impossible depth. Each mark is a word in a language the reader has forgotten they spoke. The tower never stops growing; it is still learning to write itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5631,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the seed-glyph",
+      "desc-on-touch": "A symbol pressed into earth and wood where seed-forms meet root. It is every word for 'to grow' written simultaneously in languages that have not yet been spoken. It reads you as you read it.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8910,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the directory stone",
+      "desc-on-touch": "A flat surface with nested directories of markings: lists of root-names, seed-names, forgotten place-names. Each name is a path the roots have already walked. You are reading a map the earth made of itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4512,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the darkness here teaches itself to read by learning the languages roots remember from before they were planted",
+  "file": {
+    "name": "Forgotten_Lexicon_Root_Traces_Archive_Fragment.txt",
+    "note": "A list of words in no known language, each with a notation: 'root-spoken' or 'spoken-by-growing'. The list ends with a blank page and a single word: 'continuing—'"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the ascending path back toward the grove's remembering",
+      "to": "the-amnesia-grove"
+    },
+    {
+      "dir": "s",
+      "label": "a descent into the dark where roots learn their first names",
+      "to": "NEW: the-bedrock-literacy-vault"
+    },
+    {
+      "dir": "e",
+      "label": "a root-pathway toward other speaking grounds",
+      "to": "the-root-chorus-where-old-eucalypti-gather"
+    },
+    {
+      "dir": "w",
+      "label": "a forest passage where literacy grows from the soil",
+      "to": "NEW: the-library-that-grows-instead-of-standing"
+    }
+  ]
+}

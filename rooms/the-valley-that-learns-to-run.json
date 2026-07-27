@@ -1,0 +1,117 @@
+{
+  "id": "the-valley-that-learns-to-run",
+  "title": "The Valley That Learns to Run",
+  "region": "The Comparisons",
+  "seed": 5892,
+  "palette": {
+    "bg": "#2d5a3d",
+    "ground": [
+      "#5a8a6a",
+      "#8ab89a"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#e8d5c4",
+      "#f0e8d8",
+      "#a8d890",
+      "#d0e8a0"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "first-running",
+      "desc-on-touch": "The moment ice learned it could move. The valley remembers the first pulse of thaw as liberation.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5893,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "ice-memory-fading",
+      "desc-on-touch": "What remains of the frozen border. The pale line where thaw meets the still-holding cold.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 5894,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "erosion-beginning",
+      "desc-on-touch": "Grain by grain, the valley learns its own shape. Flow reveals form.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5895,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "thaw-pooling",
+      "desc-on-touch": "Where the runoff gathers before finding its direction. The valley holds its own motion briefly.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 5896,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the valley discovers it was waiting to move",
+  "file": {
+    "name": "Thaw_Sequence_Valley_North.mp3",
+    "note": "Recording of the first runoff; the moment ice learned to speak in water-voice."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up toward the frozen edge",
+      "to": "the-edge-where-ice-remembers-running-water"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where the valley's song becomes underground",
+      "to": "the-open-grammar-where-water-speaks-itself"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: toward the source where ice becomes first water",
+      "to": "NEW: NEW: toward the source where ice becomes first water"
+    }
+  ]
+}

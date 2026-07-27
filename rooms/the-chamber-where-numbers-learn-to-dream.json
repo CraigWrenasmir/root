@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-where-numbers-learn-to-dream",
+  "title": "The Chamber Where Numbers Learn to Dream",
+  "region": "The Understory",
+  "seed": 6789234,
+  "palette": {
+    "bg": "#3a4a3a",
+    "ground": [
+      "#4d6d4d",
+      "#6b8d6b"
+    ],
+    "ink": "#d9e8d3",
+    "accents": [
+      "#8fa48f",
+      "#a8b8a8",
+      "#5a7a5a",
+      "#d4e0d0"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the calculation root",
+      "desc-on-touch": "A burl in the ancient eucalyptus, its wood marked with carved numbers that spiral downward into the heartwood. Each number contains a smaller number; each sum dreams of what comes after it.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 7845,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the stack of summations",
+      "desc-on-touch": "Stones arranged in a tower where each layer represents a dream the numbers had before becoming themselves. The weight of the whole is precisely balanced on an impossibility.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4621,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the counting glyph",
+      "desc-on-touch": "A pattern of scratches that might be notation or might be the mathematical expression of sleep itself. To read it is to forget what you were counting. The forgetting is the point.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 9213,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the meditation stone",
+      "desc-on-touch": "A flat rock where walkers have left small piles—each stone representing a number that learned to rest. The piles rearrange themselves each night. The sum never changes.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5487,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the dream-pool",
+      "desc-on-touch": "A deep pool under the canopy where numbers go to sleep. The surface shows sums of futures yet uncalculated. The numbers in the water are dreaming of being themselves.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8056,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the river counts itself toward the sea in a language where every sum is also a dream of something larger",
+  "file": {
+    "name": "Recursive_Counting_1975_Pencil_Manuscript.txt",
+    "note": "A handwritten mathematical notation—possibly Leif's hand—where each equation trails off into marginal sketches of sleeping creatures. The numbers become increasingly abstract and the creatures more de"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the path returning toward recursive waters",
+      "to": "the-river-s-recursive-counting-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "a canopy passage where numbers rise toward waking",
+      "to": "NEW: the-morning-where-numbers-remember-they-were-dreaming"
+    },
+    {
+      "dir": "s",
+      "label": "a descent into the bedrock where counting never began",
+      "to": "the-bedrock-knowing-depth"
+    },
+    {
+      "dir": "e",
+      "label": "a forest path toward other chambers learning to calculate",
+      "to": "NEW: the-grove-where-sums-teach-themselves-to-sleep"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "the-corridor-of-changing-numbers",
+  "title": "The Corridor of Changing Numbers",
+  "region": "The Diagnostic Render",
+  "seed": 72945,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#0066cc",
+      "#00ff99"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ffff",
+      "#0099ff",
+      "#66ff99",
+      "#ff0099"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the numbered doors that shift",
+      "desc-on-touch": "Doors labeled 1 through 6 appear and disappear as you watch. Each door opens to the same hallway photographed from six different angles, six different times. The numbering is not memory; it is cycle.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 55371,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the day-counter grid",
+      "desc-on-touch": "A matrix glowing on the corridor wall: two days rendered as identical maps, coordinates and timestamps shifting between Newcastle and desert interior. The grid cannot decide which is original.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 18934,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the repeating address-sign",
+      "desc-on-touch": "A directory listing the same address seven times, each entry leading to the same apartment at a different point in its loop. Your room number changes every time you walk the corridor, but you always arrive at the same place.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 42718,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the chapter-marker beacon",
+      "desc-on-touch": "A pulsing point of light coded to the chapters of a story—six of them, but the sixth loops back to the first. The light blinks in a rhythm that teaches you the cycle, so you can hum it even when you cannot see the source.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 29045,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the corridor learned that patience means walking the same hallway seven times and never arriving at a different door; here 'return' is not a direction but an architecture",
+  "file": {
+    "name": "Beach_Surgery_Ch1-6_Dual_Location_Rendering_Newcastle_Interior.mp3",
+    "note": "An audio adaptation of the novel's chapters rendered as overlapping narrations from two locations speaking simultaneously, creating a stereo effect where both locations exist in the same acoustic spac"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the patient returning hallway",
+      "to": "the-corridor-of-patient-return"
+    },
+    {
+      "dir": "w",
+      "label": "toward corridors where the numbering becomes uncertain",
+      "to": "NEW: the-hallway-where-addresses-dream-their-own-rooms"
+    },
+    {
+      "dir": "n",
+      "label": "upward to apartments that exist between floors",
+      "to": "the-vertically-repeated-motel-forever"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the ground floor learns it is also the top floor",
+      "to": "NEW: the-stairwell-where-up-and-down-synchronize"
+    }
+  ]
+}

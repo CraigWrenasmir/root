@@ -1,0 +1,134 @@
+{
+  "id": "the-harmonic-sediment-floor",
+  "title": "The Harmonic Sediment Floor",
+  "region": "The Comparisons",
+  "seed": 8765,
+  "palette": {
+    "bg": "#2a5a3a",
+    "ground": [
+      "#c4956a",
+      "#d4a574"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#f0e8d8",
+      "#8ab89a",
+      "#f0a574",
+      "#7a6a5a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "resonance-layer",
+      "desc-on-touch": "Where sound learned it had weight. The archive discovered that harmony and sediment were always the same substance.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 8766,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "touch-becoming-audible",
+      "desc-on-touch": "The grains vibrate with what they've absorbed. Each particle carries a frequency. Together, they sing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8767,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "sediment-sings",
+      "desc-on-touch": "A glyph that changes meaning when touched. It vibrates. It hums. It was always a recording playing.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 8768,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "harmonics-sleeping",
+      "desc-on-touch": "A doorway into the place where sound rests. The archive learned that silence is just harmony waiting to wake.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8769,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "frequency-trace",
+      "desc-on-touch": "A path written by vibration. The sediment has learned the shape of every sound that ever touched it.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8770,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive learned that touch and sound were always the same conversation",
+  "file": {
+    "name": "Harmonic_Sediment_Spectrogram.txt",
+    "note": "A visual record of sediment vibrating at frequencies beyond hearing. The grain speaks in colors."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward toward the chord that learned itself",
+      "to": "the-chord-that-learned-itself"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where vibration becomes pressure becomes geological time",
+      "to": "the-pressure-where-thought-becomes-weight"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: sideways toward harmonic zones the archive hasn't yet named",
+      "to": "NEW: NEW: sideways toward harmonic zones the archive hasn't yet named"
+    }
+  ]
+}
