@@ -1,0 +1,139 @@
+{
+  "id": "the-fire-return-settlement",
+  "title": "The Fire-Return Settlement",
+  "region": "The Comparisons",
+  "seed": 92671,
+  "palette": {
+    "bg": "#1a0e0a",
+    "ground": [
+      "#8b4513",
+      "#d2691e"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#ff4500",
+      "#ff6347",
+      "#ffa500",
+      "#dc143c"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-recurring-market-stall",
+      "desc-on-touch": "A vendor's booth that appears and disappears with the smoke cycles. It always holds the same goods: things half-burned, things half-remembered, things that only exist in ash.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 64183,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-cycle-monument",
+      "desc-on-touch": "A structure of charred wood rebuilt each time the fire passes through. The town recognizes the pattern but never the cause. Each rebuild adds ash to the layer below.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 77495,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-smoke-gossip",
+      "desc-on-touch": "Voices that only exist in the haze. They tell stories that change each time the fire forgets the previous telling. The settlement learns a new history every cycle.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 31209,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-ash-layers",
+      "desc-on-touch": "Ground that tells time in stratum, each band a cycle. You read the settlement's forgetting by counting the ash. Some cycles lasted days. Some lasted decades.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 42876,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the-phantom-residents",
+      "desc-on-touch": "Figures that move through smoke only when the fire is near. They perform daily routines that may never have happened outside the haze.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 58341,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the town that burns and rebuilds and forgets the cycle each time the ash settles; the fire returns because the town has learned to be born in flame; nothing here remembers that it was ever whole",
+  "file": {
+    "name": "Settlement_Records_Smoke_Transcriptions_Cycles_18-34.txt",
+    "note": "Ledger of the town's cycles; entries grow less detailed each fire, as if the act of burning makes memory lighter, less certain of itself."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the smoke-country where the fires come from endlessly",
+      "to": "the-smoke-country-eastward"
+    },
+    {
+      "dir": "n",
+      "label": "north into the ash-layer, the year the fire lasted longest",
+      "to": "NEW: the-long-burn-where-smoke-learned-to-settle"
+    },
+    {
+      "dir": "e",
+      "label": "east to where the unburned world begins to remember itself",
+      "to": "the-convergence-of-all-refutations"
+    },
+    {
+      "dir": "s",
+      "label": "south into the substrate beneath the ash, where bedrock doubts its own solidity",
+      "to": "the-substrate-below-the-menu-screen"
+    }
+  ]
+}

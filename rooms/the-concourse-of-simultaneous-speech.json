@@ -1,0 +1,151 @@
+{
+  "id": "the-concourse-of-simultaneous-speech",
+  "title": "The Concourse of Simultaneous Speech",
+  "region": "The Understory",
+  "seed": 6734521,
+  "palette": {
+    "bg": "#e8f0e0",
+    "ground": [
+      "#2d7d3a",
+      "#a8d961"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#ff6b9d",
+      "#00d4ff",
+      "#ffd500",
+      "#b200ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "voice lanes",
+      "desc-on-touch": "Paths where many speakers learned to exist at the same moment—each word a direction, each sentence a current, all flowing at once without collision.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4123,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "simultaneous fountain",
+      "desc-on-touch": "Water that speaks all tenses at once—past and future meeting in the same droplet, each moment containing all the moments it was and will be.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6789,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "conversation bench",
+      "desc-on-touch": "Seating arranged so that all speakers address each other and all listeners hear each voice distinctly, each muffled only by the presence of all others.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 1234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "acoustic tessellations",
+      "desc-on-touch": "The walls and floor arrange themselves so sound spirals without settling—each echo becomes a new voice, arguing with itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "agreement moment",
+      "desc-on-touch": "A spot where all voices become one frequency briefly—then diverge again, each understanding that they were briefly the same thing.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2468,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "echo coordinator",
+      "desc-on-touch": "A structure that teaches echoes to return not as mere repetition but as new voices joining the conversation—the concourse learning to multiply itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5432,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.42,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "here all voices exist at the same instant; and silence is only the space between them learning to agree",
+  "file": {
+    "name": "Echo_Recursion_Transcript_Simultaneous_Voices_Unified_Signal.mp3",
+    "note": "An audio record of every voice this concourse has ever heard, all playing together—meant as archive, became prophecy."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the echo chamber where voices learned to answer themselves",
+      "to": "the-echo-recursion-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the simultaneous houses where multiple moments dwell",
+      "to": "the-simultaneous-houses"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: into the archive where voices learn to listen as well as speak",
+      "to": "NEW: the-mutual-listening-chamber"
+    }
+  ]
+}

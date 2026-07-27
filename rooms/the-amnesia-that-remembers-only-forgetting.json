@@ -1,0 +1,149 @@
+{
+  "id": "the-amnesia-that-remembers-only-forgetting",
+  "title": "The Amnesia That Remembers Only Forgetting",
+  "region": "The Understory",
+  "seed": 85932,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#00ff41",
+    "accents": [
+      "#00ff88",
+      "#00dd44",
+      "#ffff00",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-lost-plantation",
+      "desc-on-touch": "Rows of glyphs stretching to a horizon you cannot see, each one marking a forgotten thing. They are fences of nothing, dividing the darkness into sections where nothing lived.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 29348,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-memory-that-remains",
+      "desc-on-touch": "A single object, its purpose unknown, its origin forgotten, yet present. It exists only as the memory of being lost. To remember it is to lose it again.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 44156,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-empty-archive",
+      "desc-on-touch": "Shelves that hold only the catalogue of their own emptiness. Each entry describes what is not there. The descriptions are perfect and complete.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 77613,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-name-that-forgets-itself",
+      "desc-on-touch": "A glyph that means the thing it labels, except the thing has already been forgotten, so the glyph now means the act of losing meaning.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 61829,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-recursive-loss",
+      "desc-on-touch": "A chamber within a chamber within a chamber, each one slightly smaller, each one containing the memory of the last. You descend forever and find nothing but the descent itself.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 39274,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learned to store the knowledge that storing itself makes things disappear; forgetting became precise and catalogued; the chamber holds the memory of every lost memory, each one provin",
+  "reverie": {
+    "title": "REVERIE — the night you learned what forgetting means at dep",
+    "narr": [
+      "You sit together in the dark, surrounded by the lost rows.",
+      "She begins to name things. Each name, she forgets it aloud.",
+      "'This one,' she whispers, 'I am losing right now.'",
+      "You understand: the forgetting is precise, deliberate, tender.",
+      "She forgets you too, then remembers only the forgetting."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Archive_Loss_Catalogue_Recursive_pp1-999.txt",
+    "note": "Entries describe what was deleted. As you read, each description becomes more abstract, until the text describes only the absence of text."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back east toward the learning-emptiness, where forgetting began to archive itself",
+      "to": "the-dark-learning-emptiness"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the amnesia that remembers learning to forget",
+      "to": "NEW: the-forgetting-grounds-where-learning-learns-amnesia"
+    },
+    {
+      "dir": "n",
+      "label": "northward to the bedrock root where memory becomes tree-matter",
+      "to": "the-root-where-all-seasons-sleep"
+    }
+  ]
+}

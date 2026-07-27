@@ -1,0 +1,151 @@
+{
+  "id": "the-country-that-dreams-in-infinite-strata",
+  "title": "The Country That Dreams in Infinite Strata",
+  "region": "The Understory",
+  "seed": 7293847,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a3a",
+      "#2a2a4a"
+    ],
+    "ink": "#ccccff",
+    "accents": [
+      "#00ff99",
+      "#ff00ff",
+      "#00ccff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "stratum keeper",
+      "desc-on-touch": "a tower of geological time, each layer a dream the earth woke from and then went back to sleep inside; you count the layers and never reach the bottom",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 384729,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "accumulated dream",
+      "desc-on-touch": "sediment-pool where the landscape's sleep collects; you look into it and see every dream the country has forgotten, all at once",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 928374,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "memory layer glyph",
+      "desc-on-touch": "script written in stone that can only be read by pressing your ear to it; you hear the country's voice from seventeen geological ages ago",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 847291,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "depth measurement",
+      "desc-on-touch": "a reading that changes depending on how deep you're willing to imagine; the earth keeps counting in ways humans never invented",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 738294,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "downward passage",
+      "desc-on-touch": "a shaft descending into countries that only exist in dream-time, where the earth's sleep is deeper and stranger",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 294837,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "spiral into knowing",
+      "desc-on-touch": "a stairwell carved into the rock itself, twisting down toward a depth where dreaming stops being metaphor and becomes the only language",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 829374,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the country dreams in layers; each layer dreams it is the oldest; each layer is right",
+  "file": {
+    "name": "EarthDream_Stratal_ArchiveRecord_Continuous.mp3",
+    "note": "continuous recording of geological time-lapse, audio degrading with each deeper layer until only the sound of sleep remains"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up to the country where dreaming is still learning geometry",
+      "to": "the-layered-country-dreaming"
+    },
+    {
+      "dir": "w",
+      "label": "deeper still, toward a bedrock where even the earth forgets what it's dreaming",
+      "to": "NEW: the-bedrock-chamber-where-forgetting-begins"
+    },
+    {
+      "dir": "s",
+      "label": "toward deeper convergence where all the layers meet and become one continuous moment",
+      "to": "the-bedrock-heartbeat"
+    }
+  ]
+}

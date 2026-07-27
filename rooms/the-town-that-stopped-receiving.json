@@ -1,0 +1,134 @@
+{
+  "id": "the-town-that-stopped-receiving",
+  "title": "The Town That Stopped Receiving",
+  "region": "The Understory",
+  "seed": 5728391,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#003366",
+      "#001a33"
+    ],
+    "ink": "#00ff66",
+    "accents": [
+      "#0099ff",
+      "#00ccff",
+      "#00ff99",
+      "#ff0099"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "silent junction",
+      "desc-on-touch": "a circuit board hub where all the pathways end at once; you can still hear the hum of power with no carrier wave",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 384729,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "antenna farm monument",
+      "desc-on-touch": "three towers of stacked transmission equipment, all aimed at a sky that stopped answering; they are still trying",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 928374,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "registry of last calls",
+      "desc-on-touch": "a directory card filing cabinet where names appear and then vanish; you check for yours and find it there, dated today",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 847291,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "lost frequency marker",
+      "desc-on-touch": "a dark glyph showing the exact number of the channel that no longer broadcasts; you read it and forget it immediately",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 729384,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "breath of the circuit",
+      "desc-on-touch": "barely perceptible heat rising from the board; something here is still powered, still processing, still waiting",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 384928,
+        "size": 1,
+        "colors": [
+          1,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the town learned silence by losing the frequency that named it alive",
+  "file": {
+    "name": "LastSignalLog_1994_Corrupted.txt",
+    "note": "final broadcast check from the altitude node; every response line says 'no signal' and then each one says something different"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up the slope toward where the air remembers how to carry sound",
+      "to": "the-altitude-where-sound-forgets-to-echo"
+    },
+    {
+      "dir": "n",
+      "label": "toward a council chamber that still meets to discuss what the silence might mean",
+      "to": "NEW: the-hall-where-silence-is-archived"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the country where settlements learned to exist without being named",
+      "to": "the-flat-country-where-dreaming-sleeps"
+    }
+  ]
+}

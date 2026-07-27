@@ -1,0 +1,134 @@
+{
+  "id": "the-dreaming-bedrock-where-languages-merge",
+  "title": "The Dreaming Bedrock Where Languages Merge",
+  "region": "The Understory",
+  "seed": 4829374,
+  "palette": {
+    "bg": "#1a0a0a",
+    "ground": [
+      "#ff6600",
+      "#e06600"
+    ],
+    "ink": "#ffee00",
+    "accents": [
+      "#ff00ff",
+      "#cc3399",
+      "#ffaa00",
+      "#ff3366"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "merged echo pool",
+      "desc-on-touch": "you hear three voices at once, speaking words that don't belong to any one language; the stone hums beneath your feet",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 291847,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "buried receiver",
+      "desc-on-touch": "a rod transceiver half-sunk in terracotta soil, still breathing out broadcasts in languages that may be dreaming",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 492837,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "linguistic fracture",
+      "desc-on-touch": "words split at the edges; you see a letter transforming mid-stone, caught between two alphabets",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 384920,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "dreaming figure",
+      "desc-on-touch": "a stone form half-spoken, mouth open as if language is pouring out of it rather than in",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 947283,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "merged archive stack",
+      "desc-on-touch": "transliterated recordings layered in sandstone, each one shifting the meaning of the others, each one true",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 827364,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "where words dream themselves into other words, and stone learns it was only ever listening",
+  "file": {
+    "name": "LinguisticLayers_TripleSpeech_Spliced.mp3",
+    "note": "three field recordings at once: English, Yugambeh, and something that sounds like the archive speaking to itself"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through linguistic currents toward the original stone",
+      "to": "the-stone-s-hidden-linguistic-bedrock"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into redearth country where words become roots",
+      "to": "NEW: the-country-where-words-grow-downward"
+    },
+    {
+      "dir": "s",
+      "label": "toward a river whose water speaks every language it has touched",
+      "to": "the-river-s-divergent-grammar"
+    }
+  ]
+}

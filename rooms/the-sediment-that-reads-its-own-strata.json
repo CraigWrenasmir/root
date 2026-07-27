@@ -1,0 +1,117 @@
+{
+  "id": "the-sediment-that-reads-its-own-strata",
+  "title": "The Sediment That Reads Its Own Strata",
+  "region": "The Understory",
+  "seed": 6823491,
+  "palette": {
+    "bg": "#2d2416",
+    "ground": [
+      "#d4a574",
+      "#8b7355"
+    ],
+    "ink": "#2d2416",
+    "accents": [
+      "#e8d5b7",
+      "#b8956a",
+      "#6d5d54",
+      "#98783d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first stratum",
+      "desc-on-touch": "The oldest layer reads itself and finds that it contains the layer that came after. Time here is recursive.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 472819,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the reading stone",
+      "desc-on-touch": "Sediment that learned to have eyes. It reads itself reading itself, forever finding new depths in its own surface.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 583726,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the middle time",
+      "desc-on-touch": "The layer that contains all other layers. Here, nothing moves and everything has already happened.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 694837,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the compressed knowing",
+      "desc-on-touch": "Thousands of years pressed into the thickness of a breath. You can feel the weight of all the time that has settled here.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 805948,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the sediment learned that depth is a form of autobiography; every layer tells the story of when it was the surface",
+  "file": {
+    "name": "Strata_Archaeological_Records_Compressed_Time.txt",
+    "note": "The soil speaking of itself. Layers reading layers reading the moment when they were all one moment, before time learned to separate."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the simultaneous houses",
+      "to": "the-simultaneous-houses"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the bedrock where strata have dreams",
+      "to": "NEW: the-bedrock-autobiography-layer"
+    },
+    {
+      "dir": "e",
+      "label": "where the ground learns to speak its own names",
+      "to": "the-place-where-meaning-begins-and-grows-without-saying"
+    }
+  ]
+}

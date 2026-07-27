@@ -1,0 +1,151 @@
+{
+  "id": "the-roar-s-own-receiver",
+  "title": "The Roar's Own Receiver",
+  "region": "The Understory",
+  "seed": 64192,
+  "palette": {
+    "bg": "#e8dcc8",
+    "ground": [
+      "#d4a574",
+      "#8b7355"
+    ],
+    "ink": "#1a3a2a",
+    "accents": [
+      "#4a90b3",
+      "#2c5f7f",
+      "#6b4423",
+      "#8db8d6"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-delta-s-ear",
+      "desc-on-touch": "A basin shaped like listening itself, carved by the roar into the earth. When you stand within it, you hear the sound the roar hears when it listens to itself. It is much softer than you expected. It is much older.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 631,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-sediment-that-records-silence",
+      "desc-on-touch": "Layers of earth that hold the shape of every quiet moment the roar has never been allowed to have. The sediment speaks in the register below sound, a language of pressure and time.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 632,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-acoustic-reef-where-sound-becomes-stone",
+      "desc-on-touch": "Calcified echoes, each one capturing the moment sound learned it was traveling. You can read the whorls—they are a map of how the roar learned its own name.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 633,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-channel-that-carries-the-roar-s-thought",
+      "desc-on-touch": "A watercourse that runs perpendicular to the river's own flow, carrying the sound of what the current is thinking as it moves. The channel speaks in the hoarse whisper of its own erosion.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 634,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-amphitheatre-that-was-never-built",
+      "desc-on-touch": "The shape is here without the stone. The delta has learned to hold sound in the shape of listening without needing to hold anything at all. Speak here and you will hear yourself understanding.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 635,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-tongue-of-the-roar",
+      "desc-on-touch": "A river-delta peninsula that has learned to shape itself into the form of speech, articulating the sound back to its source. The form shifts with the current—a sentence that is never the same twice.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 636,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "here the roar learns to hear itself teaching the delta what listening means",
+  "file": {
+    "name": "Delta_Acoustics_Recursive_Observation.mp3",
+    "note": "A field recording of the delta's own listening. The recording contains the sound of being recorded, folded infinitely inward. Twenty seconds long and never the same twice."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the roar that has not yet learned to separate itself",
+      "to": "the-delta-where-roars-lose-their-difference"
+    },
+    {
+      "dir": "e",
+      "label": "toward tributaries that carry their own arguments about echo",
+      "to": "the-confluence-where-disagreements-merge"
+    },
+    {
+      "dir": "w",
+      "label": "into the delta's deeper arithmetic, where counting becomes sound",
+      "to": "NEW: the-river-s-language-learning-to-read-itself"
+    }
+  ]
+}

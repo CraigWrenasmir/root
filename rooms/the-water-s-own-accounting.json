@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "east where the larger water flows to the sea and carries all counts with it",
-      "to": "NEW: the-estuary-s-infinite-ledger"
+      "to": "the-estuary-s-infinite-ledger"
     },
     {
       "dir": "n",

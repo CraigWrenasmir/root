@@ -1,0 +1,134 @@
+{
+  "id": "the-salt-margin-where-knowing-ends",
+  "title": "The Salt Margin Where Knowing Ends",
+  "region": "The Comparisons",
+  "seed": 7623451,
+  "palette": {
+    "bg": "#e6f2f0",
+    "ground": [
+      "#00a89d",
+      "#ff8c42"
+    ],
+    "ink": "#1a2f3f",
+    "accents": [
+      "#ff3366",
+      "#00ffcc",
+      "#ffd700",
+      "#003d5c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "salt shelf",
+      "desc-on-touch": "Crystalline ledges where water has decided not to flow—each crystal a moment where the map forgot how to continue.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "horizon dissolution",
+      "desc-on-touch": "Where the shore learns there is no shore anymore—the boundary between land and water has stopped maintaining itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5892,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "tide marker",
+      "desc-on-touch": "A spire of salt that marks where the water was knowing and where it became only ocean—the last place the map applied.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2147,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "driftwood archive",
+      "desc-on-touch": "Wood that has learned too many languages—each grain records a current, a route, a way that was forgotten.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 8734,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.78,
+      "solid": false
+    },
+    {
+      "name": "salt-stained ledger",
+      "desc-on-touch": "Pages that catalogue routes the ocean has already unmade—records of where roads used to be convinced they were going.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 1056,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.68,
+      "solid": false
+    }
+  ],
+  "inscription": "at the margin where salt ends and water begins there is nothing left that knows the difference",
+  "file": {
+    "name": "Margin_Studies_TidalRecords_1976-1995_Incomplete.mp3",
+    "note": "Audio recordings of the tide line as it stopped being a line—conversation between water learning to forget the shore."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the open water that has finished its knowing",
+      "to": "the-open-water-dissolution"
+    },
+    {
+      "dir": "e",
+      "label": "NEW: toward inland salt where water once reached and remembers",
+      "to": "NEW: the-salt-ghost-lagoon"
+    },
+    {
+      "dir": "n",
+      "label": "along the margin toward formations still learning to dissolve",
+      "to": "where-the-ocean-learned-to-broadcast"
+    }
+  ]
+}

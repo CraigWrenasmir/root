@@ -1,0 +1,134 @@
+{
+  "id": "the-lot-where-time-pools",
+  "title": "The Lot Where Time Pools",
+  "region": "The Comparisons",
+  "seed": 2847392,
+  "palette": {
+    "bg": "#6699cc",
+    "ground": [
+      "#cc9966",
+      "#bb8844"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#ff6633",
+      "#ffcc00",
+      "#cc3300",
+      "#666699"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "arrival stack",
+      "desc-on-touch": "four vehicles parked in the same space at once: a 1970s Holden, a 1990s Corolla, a 2010s Prius, and one that hasn't been invented yet",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 384920,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "temporal marker",
+      "desc-on-touch": "where time gathers like oil on rain-wet asphalt; you see your own arrival here reflected at every hour of every day",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 928374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "decay registry",
+      "desc-on-touch": "weathered directory cards listing every vehicle that ever parked here, with rust-through dates and next-arrival times",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 847291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "attendant's booth",
+      "desc-on-touch": "a small structure where someone collects fees for the privilege of being parked at multiple times at once",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 738294,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "chronological shadow",
+      "desc-on-touch": "an impossible shadow cast by a car that's still arriving; it points in four directions at once",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 294837,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the lot where time arrives without taking anyone anywhere",
+  "file": {
+    "name": "ParkingLot_EntryLog_1970sOnward.txt",
+    "note": "attendance records that show the same date across decades; handwritten corrections growing increasingly desperate"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the hotel where the rooms never leave but the air inside keeps aging",
+      "to": "the-epoch-stack"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into a landscape where all moments accumulate in the same geography",
+      "to": "NEW: the-convergence-of-simultaneous-arrivals"
+    },
+    {
+      "dir": "w",
+      "label": "toward the service station where the attendant has been on break since yesterday and tomorrow",
+      "to": "the-petrol-station-1983"
+    }
+  ]
+}

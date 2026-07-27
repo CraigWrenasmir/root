@@ -1,0 +1,151 @@
+{
+  "id": "the-library-that-keeps-all-its-drafts",
+  "title": "The Library That Keeps All Its Drafts",
+  "region": "The Understory",
+  "seed": 9283747,
+  "palette": {
+    "bg": "#2a2a4a",
+    "ground": [
+      "#ff9966",
+      "#663399"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ff6699",
+      "#9966ff",
+      "#ff99cc",
+      "#99ccff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "palimpsest shelves",
+      "desc-on-touch": "stacked versions of the same book, each one a draft, each one absolutely final; you pull one out and the space it left fills with another version",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 384729,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "variant pool",
+      "desc-on-touch": "still water where every word-choice ever considered swims; you see the paragraph it could have been, the one it is, the one it will become",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 928374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "manuscript tower",
+      "desc-on-touch": "pages stacked floor to ceiling, each one a different ending; if you look long enough they cascade into a story with no single telling",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 847291,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "reading desk",
+      "desc-on-touch": "a surface that holds four books at once, all of them the same story; your hand rests on whichever one you're currently becoming",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 738294,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "textual archive",
+      "desc-on-touch": "a directory of versions, each card showing a different word-count, publication date, and the name of whoever becomes the author by reading it",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 294837,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "binding glyph",
+      "desc-on-touch": "an inscription across all versions at once; you read it and each version says something different but equally true",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 829374,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "here we keep every version a thing might have been, and let them whisper to each other in the dark",
+  "file": {
+    "name": "DraftArchive_TextualVariants_AllEditions.txt",
+    "note": "every published version and forty-seven unpublished ones; the later drafts sometimes correct the earlier ones retroactively"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the houses where all constructions happen at once",
+      "to": "the-simultaneous-houses"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into shelves where books have learned to write themselves",
+      "to": "the-living-library-depth"
+    },
+    {
+      "dir": "n",
+      "label": "toward a reading chamber where every story remembers being told differently",
+      "to": "NEW: the-chamber-where-stories-remember-themselves"
+    }
+  ]
+}

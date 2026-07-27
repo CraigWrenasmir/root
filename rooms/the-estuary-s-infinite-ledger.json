@@ -1,0 +1,154 @@
+{
+  "id": "the-estuary-s-infinite-ledger",
+  "title": "The Estuary's Infinite Ledger",
+  "region": "The Understory",
+  "seed": 74259,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a237e",
+      "#3d2d7a"
+    ],
+    "ink": "#b39ddb",
+    "accents": [
+      "#7e57c2",
+      "#ab47bc",
+      "#ff6d00",
+      "#ffb300"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-water-s-accounting",
+      "desc-on-touch": "Ledgers written in flow itself, each line a current, each sum dissolving into the next. The water counts in a mathematics that is true one moment and false the next.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 66721,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-tidal-balance",
+      "desc-on-touch": "A perfect scale holding the river's flow on one side, the ocean's pull on the other. They are always unequal, always balanced. The contradiction is the equation.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 39485,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-current-s-memory",
+      "desc-on-touch": "Water that flows backwards only in remembering. It carries the files of everything it has already counted toward the sea, and then forgets them.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 53614,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-ledger-tower",
+      "desc-on-touch": "Pages stacked vertically, each one the same page but in a different currency of meaning. The tower never ends because the water keeps counting in new languages.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 48792,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the-confluence-calculation",
+      "desc-on-touch": "Where tributaries meet the main channel and their numbers merge, both values true and neither one standing. The sum is always what the water needs it to be.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 71368,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "here the water keeps a ledger in the language of flow, counting toward the sea in sums that are true and false at once; every tributary adds its own number, every confluence refigures the total; the o",
+  "reverie": {
+    "title": "REVERIE — the evening you learned to count like water",
+    "narr": [
+      "She wades in at dusk, gesturing toward the ledger-pages.",
+      "Water carries numbers that belong to two places at once.",
+      "'Count it with me,' she says. You try. The sum shifts.",
+      "She laughs: 'Yes. The water knows. We'll never be right.'",
+      "You wade together into the current's mathematics of loss."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Estuary_Ledger_Current_Date_1993-2017.mp3",
+    "note": "Sound recording of tidal flows, each frequency a different currency, blended until currency itself becomes meaningless. Final minute: pure water-sound, all counting dissolved."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "upstream where the water counts alone and begins to remember",
+      "to": "the-water-s-own-accounting"
+    },
+    {
+      "dir": "n",
+      "label": "northward into the river's own arithmetic, where the current teaches its own truth",
+      "to": "the-river-s-recursive-counting-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "seaward where all counts dissolve into one unreadable sum",
+      "to": "the-delta-where-all-forgetting-meets-wide-water"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the current's bedrock, where water learns what it is made of",
+      "to": "the-deep-current-listening-chamber"
+    }
+  ]
+}

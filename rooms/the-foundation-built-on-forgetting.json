@@ -1,0 +1,137 @@
+{
+  "id": "the-foundation-built-on-forgetting",
+  "title": "The Foundation Built on Forgetting",
+  "region": "The Comparisons",
+  "seed": 83417,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#7cb342",
+      "#558b2f"
+    ],
+    "ink": "#ffeb3b",
+    "accents": [
+      "#ff6f00",
+      "#d32f2f",
+      "#1976d2",
+      "#7e57c2"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-construction-shed",
+      "desc-on-touch": "A weathered fibro shack where the archive's builders kept their plans. The blueprints inside show coordinates that no longer exist, markings for foundations that were dug but never filled.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 71628,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-buried-catalogue",
+      "desc-on-touch": "Index cards stacked in a pit, clay-stained and incomplete. Each card lists what was deliberately not recorded, the categories the builders decided to forget.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 44891,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-ground-remembers",
+      "desc-on-touch": "Soil that grows nothing but holds everything the builders buried. You can taste copper and ash in the dust.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 29156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-unmade-monument",
+      "desc-on-touch": "A plinth with no statue, no name, no date. It marks where something was decided not to exist.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 53782,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the earth remembers the coordinates of what was never meant to be built; the archive grew here because the ground knew what it was holding; the foundation is made of all the words the builders agreed ",
+  "reverie": {
+    "title": "REVERIE — the plotting session in the red earth dawn",
+    "narr": [
+      "She kneels in the dust, reading the burnt blueprints aloud.",
+      "The coordinates she names are already disappearing from maps.",
+      "'This is where we forget to build,' she tells you, pointing.",
+      "You understand: not buried, but never-begun. The forgetting.",
+      "She smooths the red earth. 'The ground volunteers to hold it.'"
+    ],
+    "sky": "dawn",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "file": {
+    "name": "Builder_Notes_Incomplete_pp44-67.txt",
+    "note": "Original site survey; entries grow sparser toward the end. Final page: 'coordinates agree to dissolve. Ground accepts the loss.'"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up through substrate, where menus learn to render",
+      "to": "the-substrate-below-the-menu-screen"
+    },
+    {
+      "dir": "n",
+      "label": "northward into the layer where forgetting learns to archive itself",
+      "to": "NEW: the-amnesia-vault-where-records-become-silence"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where grass remembers the coordinates",
+      "to": "the-field-before-the-gate"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the bedrock where the earth's own memory sleeps",
+      "to": "the-bedrock-vault-where-archives-first-learned-to-keep"
+    }
+  ]
+}

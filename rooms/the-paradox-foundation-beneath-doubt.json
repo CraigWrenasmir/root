@@ -1,0 +1,149 @@
+{
+  "id": "the-paradox-foundation-beneath-doubt",
+  "title": "The Paradox-Foundation Beneath Doubt",
+  "region": "The Diagnostic Render",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2a2a4e",
+      "#3a3a6e"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#ff6b9d",
+      "#c44569",
+      "#00d9ff",
+      "#ffd700"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-collapsed-kiosk",
+      "desc-on-touch": "A council information booth stripped to its frame, its keyboard letters scattered. When you touch it, the logic inside returns backwards — answers precede questions, refutations generate their own proofs.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 29411,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-argument-scar",
+      "desc-on-touch": "A long burnmark running through the stone, thesis on one side, antithesis on the other, meeting in a place where neither word holds. You feel the heat of their meeting.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 38156,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-echo-library",
+      "desc-on-touch": "Shelves of books that only hold one word each, repeated infinitely. Open any volume and the word becomes its opposite as you read.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 15729,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-third-dancer",
+      "desc-on-touch": "A figure made of pure doubt, never quite solid, neither moving nor still. It arrived as the fourth dancer in a room that held only three.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 42187,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-foundation-stones",
+      "desc-on-touch": "Bedrock beneath the basement, each stone carved with symbols that mean opposite things depending on which way you read them. They hold the contradiction up.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5821,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.1,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "here argument learned it was waltzing in a corridor that contained no exit: thesis and antithesis dancing the same step backward and forward at once, while doubt—the third dance partner no one invited",
+  "reverie": {
+    "title": "REVERIE — the argument-ending that taught you both to stop s",
+    "narr": [
+      "You watch her trace the burnmark where thesis met antithesis.",
+      "She says: 'they stopped being opposites here. Do you see?'",
+      "There is no answer, only the mark's heat under your palm.",
+      "She kneels to touch the foundation. You kneel beside her.",
+      "Neither of you speaks. The stone contains all the words already."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "Dialectic_Collapse_Nov1989_AudioLog.wav",
+    "note": "Transcript: two voices arguing until the words dissolve into identical tones; by minute 6 they are humming the same frequency."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the stone stairs rising back into argument's corridor",
+      "to": "the-corridor-where-argument-learns-to-doubt"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the basement where paradox stops being a word",
+      "to": "NEW: the-paradox-floor-where-meaning-becomes-solid-stone"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into the space between truth and its refutation",
+      "to": "the-third-lens-chamber"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-unnamed-drawer-that-holds-itself",
+  "title": "The Unnamed Drawer That Holds Itself",
+  "region": "The Diagnostic Render",
+  "seed": 5437892,
+  "palette": {
+    "bg": "#f5e6d3",
+    "ground": [
+      "#a0826d",
+      "#d4a574"
+    ],
+    "ink": "#2b2416",
+    "accents": [
+      "#8b4513",
+      "#daa520",
+      "#6b4c2c",
+      "#cd853f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "recursion handle",
+      "desc-on-touch": "A brass knob that opens onto itself—when you pull, the drawer expands to contain the space it was pulled from.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 3821,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "nested compartments",
+      "desc-on-touch": "Wooden dividers that hold smaller drawers that hold even smaller drawers—containment that refuses to end.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7421,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "index card maze",
+      "desc-on-touch": "Cards with names that refer to other cards, which refer back—a filing system that catalogues only its own confusion.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 2156,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "drawer bottom",
+      "desc-on-touch": "You reach it and find it is not a bottom—just deeper wood, more darkness, another compartment beginning.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 6543,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "dust-mote constellation",
+      "desc-on-touch": "The air inside the drawer holds patterns—each mote traces a path the drawer has taken through itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 4892,
+        "size": 2,
+        "colors": [
+          2,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "each drawer contained less and held more than the drawer before it; inside is where the drawer learned to become infinite",
+  "file": {
+    "name": "Compartment_Taxonomy_Unfinished_Self_Reference.txt",
+    "note": "An attempt to catalogue every drawer, each entry revealing that this compartment is being described by something inside it."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward toward the cabinet that holds all smaller drawers",
+      "to": "where-smallness-learns-its-own-profound-depth"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: through the floor of the drawer into drawers that held this one",
+      "to": "NEW: the-infinite-drawer-regression"
+    },
+    {
+      "dir": "e",
+      "label": "toward the study where documents organize themselves by resemblance",
+      "to": "the-mirrored-study-where-books-teach-themselves"
+    }
+  ]
+}

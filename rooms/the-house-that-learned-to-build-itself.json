@@ -1,0 +1,167 @@
+{
+  "id": "the-house-that-learned-to-build-itself",
+  "title": "The House That Learned to Build Itself",
+  "region": "The Diagnostic Render",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#2d5a3d",
+      "#4a7c5a"
+    ],
+    "ink": "#c8e6d7",
+    "accents": [
+      "#8fb89a",
+      "#d4a574",
+      "#6b8e7a",
+      "#a8d5ba"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-shed-that-adds-itself",
+      "desc-on-touch": "You touch the corrugated wall and feel it warm from yesterday's sun. The shed breathes—each intake-breath a new plank appearing, each exhale a re-mortaring. It is building itself from a memory of shelter it has not yet finished having.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 471,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-nail-dreaming-straight",
+      "desc-on-touch": "A nail driven through timber, holding something that wasn't there when it entered. The wood grain has rewoven itself around the metal—an argument that ended as accommodation.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 472,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-eaves-that-remember-rain",
+      "desc-on-touch": "The gutter-edge traces shapes of water that has not yet come, stains showing seven future storms. The house learns weather from its own reflection in still air.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 473,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-window-that-sees-inward",
+      "desc-on-touch": "Looking through, you see the space the house contains and the space it is contained by at once. The pane is perfectly clear and perfectly obscured.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 474,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-threshold-with-all-footprints",
+      "desc-on-touch": "The doorstep is still wet from being laid. It shows your footprint and the footprints of everyone this house will shelter, all arriving at once from every future.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 475,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-frame-that-waits",
+      "desc-on-touch": "An empty frame on the eastern wall. What waits inside it is exactly what you are about to remember having lost. The house offers to remember for you.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 476,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "it built itself up one thought at a time, each board a decision to stay",
+  "file": {
+    "name": "ShedLog_Incremental_Construction.txt",
+    "note": "Nails placed, each entry describing itself as it was written. Later entries describe the wood before it arrived. The final entry describes the beginning of the final entry."
+  },
+  "reverie": {
+    "title": "REVERIE — the shed-raising that was also a goodbye",
+    "narr": [
+      "She held the timber level while you measured. The frame",
+      "was only half-built when she asked if houses dream of the",
+      "people who build them, or if people dream first and the",
+      "building just learns to follow. You didn't answer. The light",
+      "was failing. You nailed on until you could barely see, and",
+      "she held each board in place like it was something alive."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "outward, toward the still-dreaming structures",
+      "to": "the-architecture-that-dreams-itself-awake"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into rooms where walls choose their own thickness",
+      "to": "the-logic-taking-root"
+    },
+    {
+      "dir": "e",
+      "label": "toward the framework that has learned the language of its own wood",
+      "to": "NEW: the-timber-that-speaks-only-to-itself"
+    }
+  ]
+}

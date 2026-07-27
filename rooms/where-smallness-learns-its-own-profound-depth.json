@@ -139,7 +139,7 @@
     {
       "dir": "s",
       "label": "downward toward compartments that have no names",
-      "to": "NEW: the-unnamed-drawer-that-holds-itself"
+      "to": "the-unnamed-drawer-that-holds-itself"
     },
     {
       "dir": "e",

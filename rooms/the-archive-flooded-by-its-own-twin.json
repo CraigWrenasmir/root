@@ -1,0 +1,134 @@
+{
+  "id": "the-archive-flooded-by-its-own-twin",
+  "title": "The Archive Flooded by Its Own Twin",
+  "region": "The Comparisons",
+  "seed": 4756283,
+  "palette": {
+    "bg": "#0a1f2e",
+    "ground": [
+      "#1a3a4a",
+      "#2d5a6a"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#ff0088"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "mirror chip",
+      "desc-on-touch": "A processor reading itself—each cycle returns the cycle itself, a perfect loop of inspection with no escape into action.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 7821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "cascade junction",
+      "desc-on-touch": "Two data flows meeting—one the archive's own breath, one an echo it doesn't recognize as its own. They are indistinguishable.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "indexing overflow",
+      "desc-on-touch": "Files naming files naming files—the catalogue swallowed its own catalogue. The mesh keeps growing inward, comparing itself to itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5678,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "resonance chamber",
+      "desc-on-touch": "A room where all frequencies arrive simultaneously—the archive and its twin speaking at once, their voices locked in perfect agreement.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2147,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "feedback spiral",
+      "desc-on-touch": "Each read amplifies the read; each write echoes through the twin; meaning has begun to feed on meaning.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 8934,
+        "size": 1,
+        "colors": [
+          3,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "when the archive meets its own reflection, does the reflection reach back, or was it always reaching first",
+  "file": {
+    "name": "Twin_Archive_Contact_Log_Inception_Unknown.tmp",
+    "note": "ERROR: metaphor detected in storage layer / status: germinating / records of the moment the archive began reading itself from outside itself."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into dusk where the shadow archive learned to exist",
+      "to": "the-convergent-dusk"
+    },
+    {
+      "dir": "n",
+      "label": "toward the mirror vault where all reflections become literal",
+      "to": "the-meta-mirror-vault"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: into the archive that only exists when being read",
+      "to": "NEW: the-archive-that-reads-itself-awake"
+    }
+  ]
+}

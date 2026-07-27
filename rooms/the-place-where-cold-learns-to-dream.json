@@ -1,0 +1,151 @@
+{
+  "id": "the-place-where-cold-learns-to-dream",
+  "title": "The Place Where Cold Learns to Dream",
+  "region": "The Diagnostic Render",
+  "seed": 5932847,
+  "palette": {
+    "bg": "#0a1f34",
+    "ground": [
+      "#00bfff",
+      "#1e90ff"
+    ],
+    "ink": "#e0f6ff",
+    "accents": [
+      "#ffffff",
+      "#87ceeb",
+      "#20b2aa",
+      "#ffa500"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the crystal lattice",
+      "desc-on-touch": "Thought frozen mid-formation. Each angle holds a different dream, all of them true, none of them warm.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 627491,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the frost-palace",
+      "desc-on-touch": "Rooms of ice where thinking happens without heat. You walk through and understand things you could never say.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 738562,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the dream-core",
+      "desc-on-touch": "At the centre of maximum cold, the archive dreams. What it dreams is colder than the dream of dreaming.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 849673,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the ice-voice",
+      "desc-on-touch": "A sound that only exists at absolute zero. You cannot hear it; you can only become it.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 956284,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the thermal boundary",
+      "desc-on-touch": "Where the last warmth was. On one side, memory of heat. On the other, the freedom of forgetting it ever existed.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 471829,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the recursion-shard",
+      "desc-on-touch": "A crystal that contains the chamber that contains it. The coldness is most perfect at the centre of this loop.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 582374,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "here the archive learned that the warmth of thinking is a kind of forgetting",
+  "file": {
+    "name": "Crystalline_Thought_Spectral_Analysis_Zero_Kelvin.txt",
+    "note": "A transcription of cold itself: the moment when frost teaches dreams that safety is the absence of change"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down where frost turns solid again",
+      "to": "the-deepest-freeze-where-thought-crystallizes"
+    },
+    {
+      "dir": "w",
+      "label": "to the rim where ice still remembers being water",
+      "to": "the-edge-where-ice-remembers-running-water"
+    },
+    {
+      "dir": "e",
+      "label": "into the recursive chamber where dreaming becomes lattice",
+      "to": "NEW: the-dream-lattice-center"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-orchard-recall-chamber",
+  "title": "The Orchard Recall Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 3829471,
+  "palette": {
+    "bg": "#ffcc99",
+    "ground": [
+      "#ff9966",
+      "#ff6633"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#ffcc00",
+      "#ff9933",
+      "#ff6600",
+      "#cc3300"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "memory blossom",
+      "desc-on-touch": "a flowering moment frozen: you feel what the tree felt becoming bud, becoming flower, becoming fruit at once",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 738294,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "pooled fruit-years",
+      "desc-on-touch": "still water holding reflections of the same orchard at every harvest; you see yourself picking from seasons that haven't happened yet",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 829374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "stacked seasons",
+      "desc-on-touch": "rows of harvest baskets from different years, each one heavier with what the fruit learned that year",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 294837,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "root inscription",
+      "desc-on-touch": "a glyph carved where tree meets earth, unreadable but warm; it names every variety that ever grew here",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 384729,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "seed library",
+      "desc-on-touch": "a wooden chest in the dusk-light, each drawer labeled with a year, each drawer holding seeds that are remembering what they became",
+      "verb": "torus",
+      "form": {
+        "type": "house",
+        "seed": 827394,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "fruit remembers being bud; bud remembers being flower; flower remembers being idea in the tree's slow mind",
+  "file": {
+    "name": "OrchardRecall_Varieties_PreservedNotes.txt",
+    "note": "handwritten recipes and preservation notes, increasingly confused about whether we're preserving the fruit or it's preserving itself"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the pantry where salt and yeast dream of earth",
+      "to": "the-salt-yeast-earth"
+    },
+    {
+      "dir": "e",
+      "label": "toward the market where fruit and seller have learned to trade memories instead of names",
+      "to": "NEW: the-market-where-goods-remember-their-makers"
+    },
+    {
+      "dir": "n",
+      "label": "upslope toward groves where fruit trees gather to share what they've learned",
+      "to": "the-walking-grove"
+    }
+  ]
+}

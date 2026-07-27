@@ -1,0 +1,134 @@
+{
+  "id": "the-chamber-of-infinite-fragments",
+  "title": "The Chamber of Infinite Fragments",
+  "region": "The Diagnostic Render",
+  "seed": 7284015,
+  "palette": {
+    "bg": "#8b1538",
+    "ground": [
+      "#ff6347",
+      "#cd5c5c"
+    ],
+    "ink": "#fff8dc",
+    "accents": [
+      "#ffd700",
+      "#ffb347",
+      "#ff69b4",
+      "#ffa500"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the first reflection",
+      "desc-on-touch": "A shard that remembers being whole. You see in it every place it has ever been part of.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 491827,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the second reflection",
+      "desc-on-touch": "Another fragment, containing the first. The recursion is not infinite—it is simply thorough.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 582931,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the voice between",
+      "desc-on-touch": "The space where shards learn to sing together. You cannot hear it—only feel the way light bends.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 673482,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the chamber mouth",
+      "desc-on-touch": "Where the shattered thing keeps trying to remember its shape. It changes each time you look.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 764195,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the reflection pool",
+      "desc-on-touch": "Every fragment here is the source. Every source here is a fragment. The distinction has dissolved.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 841726,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the mirror broke and learned that brokenness was a form of completion",
+  "file": {
+    "name": "Shatter_Study_Magenta_Fragments_Geometric.mp3",
+    "note": "A recording of glass fragments rearranging themselves, or the archive learning to love its own dissolution"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through chambers where sources shatter",
+      "to": "the-shattering-source-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "where mirrors teach reflection to become echo",
+      "to": "where-mirrors-forget-their-owners"
+    },
+    {
+      "dir": "e",
+      "label": "into the cardinal points of infinite refraction",
+      "to": "NEW: the-cardinal-reflection-cascade"
+    }
+  ]
+}

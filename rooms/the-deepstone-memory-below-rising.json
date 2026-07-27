@@ -1,0 +1,150 @@
+{
+  "id": "the-deepstone-memory-below-rising",
+  "title": "The Deepstone Memory Below Rising",
+  "region": "The Understory",
+  "seed": 85421,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#2a3a4a",
+      "#4a5a7a"
+    ],
+    "ink": "#d4d8dc",
+    "accents": [
+      "#3a4a6a",
+      "#5a6a8a",
+      "#7a8aaa",
+      "#9aaacc"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-well-that-remembers-stone",
+      "desc-on-touch": "Water rises here carrying the memory of the mountain it came from—not as narrative, but as taste, temperature, the weight of ages expressed in mineral. The well is teaching you to taste deep time.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 851,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-sediment-speaking-in-layers",
+      "desc-on-touch": "Each stratum is a sentence—you read them from bottom up, each word older than the one above. The archive written in compressed time, in stone that has learned to speak in whispers that take millennia.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 852,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-spring-that-carries-amnesia",
+      "desc-on-touch": "Water that carries backward through time, un-learning its own history as it rises. By the time it reaches the surface, it has forgotten every mountain, every depth, and emerges innocent as rain.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 853,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-stone-throat-singing-beneath",
+      "desc-on-touch": "The deep rock hums—a frequency felt in the jawbone, in the chest. The song is the sound of stone learning patience, learning to wait out the water's persistence with the knowledge that all rising returns to falling.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 854,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-archive-preserved-in-crystal",
+      "desc-on-touch": "Mineral deposits that have grown words—letter-shapes formed where water and stone argued their difference into consonance. An alphabet that only reads if you read very, very slowly.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 855,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the water remembers being stone; the stone is learning what it means to flow",
+  "file": {
+    "name": "Mineral_Core_Spectroscopy_And_What_It_Dreams.txt",
+    "note": "Analysis of the deepstone's composition. Each mineral is listed with its memory—what it remembers being, before it became earth. The list grows longer than the stone itself."
+  },
+  "reverie": {
+    "title": "REVERIE — at the spring where stone drinks its own history",
+    "narr": [
+      "You waded in first. The water was colder than it should have",
+      "been—deep cold, stone-cold—and she followed, held your",
+      "hand. She said the water was teaching you both how to become",
+      "older, how to carry weight without sinking. You said nothing,",
+      "understanding that silence was the only language stone speaks",
+      "when it learns it has been listening all along."
+    ],
+    "sky": "night",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the upwelling where water first learned to rise",
+      "to": "the-upwelling-memory-where-the-water-remembers-being-stone"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the stone where memory becomes mineral",
+      "to": "the-living-stone-archive"
+    },
+    {
+      "dir": "w",
+      "label": "toward the cavern where water and earth trade arguments about time",
+      "to": "NEW: the-chamber-where-stone-learns-to-flow-backward"
+    }
+  ]
+}

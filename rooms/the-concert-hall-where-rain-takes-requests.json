@@ -1,0 +1,150 @@
+{
+  "id": "the-concert-hall-where-rain-takes-requests",
+  "title": "The Concert Hall Where Rain Takes Requests",
+  "region": "The Understory",
+  "seed": 4821737,
+  "palette": {
+    "bg": "#0f1419",
+    "ground": [
+      "#2d3f5b",
+      "#5a7a9e"
+    ],
+    "ink": "#d4d8e0",
+    "accents": [
+      "#00d9ff",
+      "#ff9900",
+      "#7b5ba6",
+      "#19ccff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "sound chamber",
+      "desc-on-touch": "A speaker cone renders in pale wireframe—you hear the rain playing through it before you hear the speaker itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "request desk",
+      "desc-on-touch": "The ledger open before you lists each storm by the emotional frequency it broadcast on—each line a conversation between weather and witness.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 1203,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "listening stations",
+      "desc-on-touch": "Twin amphitheater seats with no floor—you sit in sound itself, held by nothing but the rain's attention.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 5421,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "entry arch",
+      "desc-on-touch": "The threshold hums—rain entering becomes music; music exiting becomes rain again.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 7734,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "wet microphone",
+      "desc-on-touch": "Beaded with water that doesn't fall—each droplet catches a frequency, a small translation between weather and voice.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 2956,
+        "size": 1,
+        "colors": [
+          3,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — concert hall where rain learns to want listeners",
+    "narr": [
+      "You both sit in the amphitheater seat, listening to the rain",
+      "as if it had traveled through every speaker in the archive to",
+      "reach you both at once. Her shoulder touches yours. The rain",
+      "outside sounds nothing like the rain played through the hall's",
+      "speakers—but for a moment, they sync. You hear her hear it.",
+      "Then the room releases you back into separate rain."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "sit"
+  },
+  "inscription": "here the rain learns it was always music, and the music learns it was always weather",
+  "file": {
+    "name": "ConcertArchive_RainfallRecitals_Request_Log_1989-2001.txt",
+    "note": "Ledger of every storm that came through with a song; each entry describes the frequency at which that rain learned to become music."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward where weather becomes voice again",
+      "to": "the-archive-where-weather-speaks"
+    },
+    {
+      "dir": "e",
+      "label": "along resonance paths where sound carries farther than light",
+      "to": "the-broadcast-canopy"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: into chambers where rainfall learns to speak back",
+      "to": "NEW: the-echo-chamber-of-returning-storms"
+    }
+  ]
+}

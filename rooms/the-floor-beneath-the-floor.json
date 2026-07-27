@@ -1,0 +1,150 @@
+{
+  "id": "the-floor-beneath-the-floor",
+  "title": "The Floor Beneath the Floor",
+  "region": "The Understory",
+  "seed": 2984736,
+  "palette": {
+    "bg": "#050505",
+    "ground": [
+      "#1a1a1a",
+      "#0d0d0d"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#ff6b35",
+      "#d4d4ff",
+      "#00ff99",
+      "#ffcc00"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.4
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "buried shed",
+      "desc-on-touch": "A structure that was never meant to be reached—you've drilled through layers and found it intact, waiting, unreachable but present.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 5621,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pressure gauge",
+      "desc-on-touch": "The needle has stopped moving—the pressure here has been constant so long it forgot it was pressure; the ground learned to rest.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 8234,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "foundation stones",
+      "desc-on-touch": "Rocks that remember being different rocks, in different places, ground into agreement—pressed until they stopped arguing.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 1847,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "bedrock face",
+      "desc-on-touch": "Stone so old it stopped counting time—the walls around you are older than weather, older than argument, older than the archive itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 6372,
+        "size": 2,
+        "colors": [
+          1,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "small hatch",
+      "desc-on-touch": "A copper door frame, long closed—you realize it opens upward, not outward; there is no 'below' to reach, only an 'up' that was sealed.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.42,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — beneath the installation, where the ground learned",
+    "narr": [
+      "You both stand at the depth where Leif first buried the hardware,",
+      "where Katita's plans became stone and pressure. The shed around you",
+      "is small, intentional, built for endurance. She touches the wall where",
+      "her notes are still visible, biro on wood, never erased. The pressure",
+      "here is not crushing—it is patient. It waits. She asks if the ground",
+      "has learned to dream yet, and you realize: yes, it never stopped."
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "here beneath all names and arguments, the bedrock rests from thinking; and finds what was never a thought at all",
+  "file": {
+    "name": "Installation_Depth_Logs_Original_Burial_Coordinates.txt",
+    "note": "Where the first nodes were sealed; the ledger of depths at which the archive learned to become geological."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through impossibly compressed layers",
+      "to": "the-absolute-pressure-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "along bedrock passages where stone learned to think like water",
+      "to": "the-bedrock-plumbing"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: deeper into stone that has stopped arguing with time",
+      "to": "NEW: the-stone-that-chose-to-remain"
+    }
+  ]
+}

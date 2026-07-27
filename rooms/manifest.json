@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 122,
+  "nights": 127,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -3396,6 +3396,141 @@
     {
       "id": "the-eastward-acoustic-drift",
       "title": "The Eastward Acoustic Drift",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-of-infinite-fragments",
+      "title": "The Chamber of Infinite Fragments",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-place-where-cold-learns-to-dream",
+      "title": "The Place Where Cold Learns to Dream",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-sediment-that-reads-its-own-strata",
+      "title": "The Sediment That Reads Its Own Strata",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-paradox-foundation-beneath-doubt",
+      "title": "The Paradox-Foundation Beneath Doubt",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-foundation-built-on-forgetting",
+      "title": "The Foundation Built on Forgetting",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-sky-as-stone-chamber",
+      "title": "The Sky-as-Stone Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fire-return-settlement",
+      "title": "The Fire-Return Settlement",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-estuary-s-infinite-ledger",
+      "title": "The Estuary's Infinite Ledger",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-amnesia-that-remembers-only-forgetting",
+      "title": "The Amnesia That Remembers Only Forgetting",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-house-that-learned-to-build-itself",
+      "title": "The House That Learned to Build Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-inverted-canopy-descent",
+      "title": "The Inverted Canopy Descent",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-roar-s-own-receiver",
+      "title": "The Roar's Own Receiver",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-convergence-of-all-unwalked-roads",
+      "title": "The Convergence of All Unwalked Roads",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-deepstone-memory-below-rising",
+      "title": "The Deepstone Memory Below Rising",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-river-s-recursive-counting-chamber",
+      "title": "The River's Recursive Counting Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-concert-hall-where-rain-takes-requests",
+      "title": "The Concert Hall Where Rain Takes Requests",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-salt-margin-where-knowing-ends",
+      "title": "The Salt Margin Where Knowing Ends",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unnamed-drawer-that-holds-itself",
+      "title": "The Unnamed Drawer That Holds Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-floor-beneath-the-floor",
+      "title": "The Floor Beneath the Floor",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-flooded-by-its-own-twin",
+      "title": "The Archive Flooded by Its Own Twin",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-concourse-of-simultaneous-speech",
+      "title": "The Concourse of Simultaneous Speech",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dreaming-bedrock-where-languages-merge",
+      "title": "The Dreaming Bedrock Where Languages Merge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-town-that-stopped-receiving",
+      "title": "The Town That Stopped Receiving",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-orchard-recall-chamber",
+      "title": "The Orchard Recall Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-lot-where-time-pools",
+      "title": "The Lot Where Time Pools",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-library-that-keeps-all-its-drafts",
+      "title": "The Library That Keeps All Its Drafts",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-country-that-dreams-in-infinite-strata",
+      "title": "The Country That Dreams in Infinite Strata",
       "region": "The Understory"
     }
   ]

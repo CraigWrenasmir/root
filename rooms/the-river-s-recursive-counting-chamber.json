@@ -1,0 +1,151 @@
+{
+  "id": "the-river-s-recursive-counting-chamber",
+  "title": "The River's Recursive Counting Chamber",
+  "region": "The Understory",
+  "seed": 92734,
+  "palette": {
+    "bg": "#1a2828",
+    "ground": [
+      "#3a5a5a",
+      "#4a7a7a"
+    ],
+    "ink": "#d0e8e8",
+    "accents": [
+      "#2a6a6a",
+      "#4a8a8a",
+      "#6aaaaa",
+      "#8acaca"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-calculation-that-spawns-itself",
+      "desc-on-touch": "A number etched in stone that is simultaneously the sum and one of its own addends. The equation knows itself from inside and outside at once. The river counts like this—each increment part of what it sums.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 921,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-counting-house",
+      "desc-on-touch": "A small shed where the river's tributaries report their volumes, their temperatures, their private mathematics. Inside, the shelves hold ledgers that write themselves, entries appearing in handwriting the river has not yet decided to have.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 922,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-recursion-that-reads-itself",
+      "desc-on-touch": "A formula displayed on the chamber's eastern wall that describes the process of reading itself. Each character is aware of all the other characters in a web of mutual reference. The meaning is the shape of the knowing.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 923,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-confluence-chamber",
+      "desc-on-touch": "Where tributary mathematics converge and teach each other how to coexist. The sum here is not the addition of its parts but the argument between them, and the argument is truer than any number.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 924,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-counting-stones",
+      "desc-on-touch": "River rocks stacked by the current itself, each one a tally mark, each stack another way of telling the total. The rocks know they are part of multiple counts at once—this river's tally, that one's measure, the delta's sum.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 925,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-archive-s-counting-room-mirror",
+      "desc-on-touch": "A copper plate corroded to a mirror, reflecting not what is but the mathematics of what was and will be. Counting, reflected, becomes prediction. The current teaches you to read your own future in the ledger of its past.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 926,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the river counts toward the sea in a language where every sum contains the counting itself",
+  "file": {
+    "name": "Tributary_Report_Log_Recursive_And_Simultaneous.txt",
+    "note": "Each tributary's daily report. Each entry includes the data of every other tributary's entry. The ledger is infinitely nested, growing deeper as you read."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the ledger where all numbers are written at once",
+      "to": "the-estuary-s-infinite-ledger"
+    },
+    {
+      "dir": "n",
+      "label": "upstream to where the river learns to count its own source",
+      "to": "the-archive-breathing-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the mathematical deep where thought becomes weight",
+      "to": "NEW: the-chamber-where-numbers-learn-to-dream"
+    }
+  ]
+}

@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "toward the archive where all versions stand together",
-      "to": "NEW: the-library-that-keeps-all-its-drafts"
+      "to": "the-library-that-keeps-all-its-drafts"
     },
     {
       "dir": "e",
@@ -133,7 +133,7 @@
     {
       "dir": "s",
       "label": "deeper into the layers where nothing moves or everything moves at once",
-      "to": "NEW: the-sediment-that-reads-its-own-strata"
+      "to": "the-sediment-that-reads-its-own-strata"
     }
   ],
   "reverie": {
