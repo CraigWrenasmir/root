@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 172,
+  "nights": 177,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -4792,6 +4792,151 @@
       "id": "the-western-path-returning-to-itself",
       "title": "The Western Path Returning to Itself",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-vigil-that-forgets-its-ending",
+      "title": "The Vigil That Forgets Its Ending",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-presenceless-threshold",
+      "title": "The Presenceless Threshold",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-point-where-cartography-admits-defeat",
+      "title": "The Point Where Cartography Admits Defeat",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "deeper-still-where-roots-remember-being-sky",
+      "title": "Deeper Still, Where Roots Remember Having Been Sky",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-same-story-lives-in-different-hills",
+      "title": "Where the Same Story Lives in Different Hills",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-altitude-where-reasons-thin",
+      "title": "The Altitude Where Reasons Thin",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deep-repository-of-unspoken-growth",
+      "title": "The Deep Repository of Unspoken Growth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-abyss-where-archive-touches-what-it-means",
+      "title": "The Abyss Where Archive Touches What It Means",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-pathways-to-source",
+      "title": "The Pathways to Source",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-contested-strata",
+      "title": "The Contested Strata",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-learning-to-drift",
+      "title": "The Bedrock Learning to Drift",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-forest-where-roots-dance-as-light",
+      "title": "The Forest Where Roots Dance as Light",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-underground-choir-of-locked-substations",
+      "title": "The Underground Choir of Locked Substations",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-smoke-convergence-hollow",
+      "title": "The Smoke-Convergence Hollow",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unholdable-pages",
+      "title": "The Unholdable Pages",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-frequency-meeting-place",
+      "title": "The Frequency Meeting-Place",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-interior-of-all-interiors",
+      "title": "The Interior of All Interiors",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-board-s-deepening-argument",
+      "title": "The Board's Deepening Argument",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stratum-that-holds-all-arguments",
+      "title": "The Stratum That Holds All Arguments",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-elder-settlement-deeper",
+      "title": "The Elder Settlement Deeper",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-refracting-shallows-where-nine-becomes-eleven",
+      "title": "The Refracting Shallows Where Nine Becomes Eleven",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-creek-where-flatness-learns-to-flow",
+      "title": "The Creek Where Flatness Learns to Flow",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-mineral-voice-convergence",
+      "title": "The Mineral Voice Convergence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-multidirectional-root-choir",
+      "title": "The Multidirectional Root Choir",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sky-that-learned-to-read",
+      "title": "The Sky That Learned to Read",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-that-became-the-question",
+      "title": "The Chamber That Became the Question",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-offshore-breath-tide-settlement",
+      "title": "The Offshore Breath-Tide Settlement",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-kitchen-where-warmth-became-teaching",
+      "title": "The Kitchen Where Warmth Became Teaching",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-dyes-learned-their-alphabets",
+      "title": "Where Dyes Learned Their Alphabets",
+      "region": "The Understory"
     }
   ]
 }

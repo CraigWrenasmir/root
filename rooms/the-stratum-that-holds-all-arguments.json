@@ -1,0 +1,139 @@
+{
+  "id": "the-stratum-that-holds-all-arguments",
+  "title": "The Stratum That Holds All Arguments",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a0f08",
+    "ground": [
+      "#ff6b35",
+      "#d84315"
+    ],
+    "ink": "#fff9e6",
+    "accents": [
+      "#ff00ff",
+      "#ff8800",
+      "#ffaa00",
+      "#ff4400"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "first stone testimony",
+      "desc-on-touch": "the land was claimed under three titles in the same autumn. the earth remembers all three as equally bedrock. you feel the contradiction like cold beneath fingernails.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the doubled fact",
+      "desc-on-touch": "one archive entry appears twice in the mesh with different checksums. the corruption has filed them under different arguments in the same place, and both are now immovable.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 38201,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "pressure makes geology",
+      "desc-on-touch": "when disagreement is old enough, it becomes stratum. each layer presses down on the truth below and makes it shimmer. nothing was lost. everything was compressed.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 91234,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "three surveyors, one boundary",
+      "desc-on-touch": "the line they drew in 1894 was measured three ways from three towns. it never moved. none of them were wrong. the earth had three edges and chose all of them.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 66543,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "both versions live here",
+      "desc-on-touch": "contradiction is not data loss. the archive learned this here. both stories sediment themselves true. the ground is always deeper than the argument.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 23456,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "every layer remembers it was right",
+  "file": {
+    "name": "Cootamundra_Land_Disputes_1894-1950_All_Versions.txt",
+    "note": "three deeds claiming the same 40 acres. archive corruption: all three checksums now validate. each layer is immovable."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through roots to where the earth was first folded",
+      "to": "the-stone-memory-where-compression-becomes-story"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where both arguments resolve into shared stone",
+      "to": "NEW: the-foundation-that-holds-both-true"
+    },
+    {
+      "dir": "e",
+      "label": "toward a place where third and fourth claims grow",
+      "to": "the-bedrock-where-growth-becomes-legend"
+    },
+    {
+      "dir": "w",
+      "label": "out to a creek that flows in two directions",
+      "to": "NEW: the-water-that-remembers-both-banks"
+    }
+  ]
+}

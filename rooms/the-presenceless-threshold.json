@@ -1,0 +1,134 @@
+{
+  "id": "the-presenceless-threshold",
+  "title": "The Presenceless Threshold",
+  "region": "The Clean Archive",
+  "seed": 55432,
+  "palette": {
+    "bg": "#e8dcc8",
+    "ground": [
+      "#c9a876",
+      "#f5f0e8"
+    ],
+    "ink": "#2c3e50",
+    "accents": [
+      "#1a3a52",
+      "#8b6f47",
+      "#f4e4a0",
+      "#3d5a80"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-pointing-that-leads-away",
+      "desc-on-touch": "a weathered wooden post with arms pointing in all directions simultaneously. each sign has faded past readability, but the gesture remains clear: every arrow points toward departure. you understand: this is not a waymark for arrival.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 55432,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-paths-that-return-differently",
+      "desc-on-touch": "multiple walking routes converge here but diverge strangely—paths that leave northward return from the south at a different longitude. walkers report arriving at the same place repeatedly, but each arrival is a different place.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 12389,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-shelter-between-nowhere-and-nowhere",
+      "desc-on-touch": "a small shelter stands where routes intersect—a place built for people in transition, but the transitions never end. it has become a waiting room without destination. visitors sit inside, unsure if they are leaving or arriving.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 78901,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-registry-of-passage",
+      "desc-on-touch": "a registry stand where travelers once wrote their names and destinations. the names are there—thousands of them—but the destinations column is blank. all travelers have written only where they came from, never where they go.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 34567,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-light-that-shows-the-way-backward",
+      "desc-on-touch": "a tower with a light at its peak, but the beam shines inward, illuminating the approaches rather than the destination. it guides nothing forward; it only clarifies what has already arrived.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 45678,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the border between arrival and departure has become the only true location",
+  "file": {
+    "name": "Route_Registry_Unmarked_Destinations_Fragment.txt",
+    "note": "pages from a traveler's guide to the local routes, but all destination entries read 'TO: [the place from which the journey began]'"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the un-coordinate void",
+      "to": "the-un-coordinate-void-where-motion-becomes-presence"
+    },
+    {
+      "dir": "n",
+      "label": "where routes lead deeper into unmapped country",
+      "to": "NEW: the-country-that-never-learned-its-name"
+    },
+    {
+      "dir": "s",
+      "label": "into the paddocks where every step circles back",
+      "to": "NEW: the-circular-field-where-departure-becomes-home"
+    }
+  ]
+}

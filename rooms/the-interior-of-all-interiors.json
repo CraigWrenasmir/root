@@ -1,0 +1,100 @@
+{
+  "id": "the-interior-of-all-interiors",
+  "title": "The Interior of All Interiors",
+  "region": "The Diagnostic Render",
+  "seed": 4736182,
+  "palette": {
+    "bg": "#e5d4b8",
+    "ground": [
+      "#d9c5a0",
+      "#e8d4b8"
+    ],
+    "ink": "#2d1f0f",
+    "accents": [
+      "#8b4513",
+      "#a0522d",
+      "#6b4423",
+      "#f4a460"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the held wall",
+      "desc-on-touch": "Your hand touches plaster that remembers every palm that came before. The wall is warm from the touch of forty years of hands. You feel the ghost-pressure of fingers that last held this spot in 1987, in 2003, in the moment Katita stood here and placed her forehead against the coolness before it lear",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 849216,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the nested rooms",
+      "desc-on-touch": "Looking into the corner, you count the rooms: the archive inside the render inside the interior inside the space inside the wall inside the touch. Each smaller than the last, each a mirror of the room you stand in. The nesting has no end.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 529374,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.68,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "the perpetual threshold",
+      "desc-on-touch": "A doorway within a doorway within a doorway. You can walk through any of them and end up in the same room. Or a different one. The threshold has learned that entrance and exit are the same motion, and all rooms remember being this room.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 629374,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "every interior is an echo of every other interior; touch teaches them how to be the same room",
+  "file": {
+    "name": "Thermal_Imaging_Interior_Walls_20yrs.mp4",
+    "note": "Time-lapse thermal video of a single room's walls. Palms and foreheads create warm prints that persist for hours, fade, and are overlaid by new ones. The wall learns the rhythm of touch."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the render-spaces where interior and archive blur",
+      "to": "where-the-walls-remember-learning-to-feel"
+    },
+    {
+      "dir": "w",
+      "label": "westward, into smaller and smaller interiors",
+      "to": "NEW: the room that contains only itself"
+    },
+    {
+      "dir": "n",
+      "label": "upward, toward the outermost interior wall",
+      "to": "the-interior-of-the-dwelling-wall"
+    }
+  ]
+}

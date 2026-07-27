@@ -123,12 +123,12 @@
     {
       "dir": "w",
       "label": "where the settlement extends back further, into pre-archive time",
-      "to": "NEW: the-elder-settlement-deeper"
+      "to": "the-elder-settlement-deeper"
     },
     {
       "dir": "n",
       "label": "where the old pathways lead to the source, the river's origin",
-      "to": "NEW: the-pathways-to-source"
+      "to": "the-pathways-to-source"
     },
     {
       "dir": "s",

@@ -1,0 +1,150 @@
+{
+  "id": "the-deep-repository-of-unspoken-growth",
+  "title": "The Deep Repository of Unspoken Growth",
+  "region": "The Understory",
+  "seed": 7382914,
+  "palette": {
+    "bg": "#2c2014",
+    "ground": [
+      "#6b4423",
+      "#8b5a3c"
+    ],
+    "ink": "#e8d4c4",
+    "accents": [
+      "#d4a574",
+      "#f0e68c",
+      "#a8dadc",
+      "#90c890"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the seed cartography",
+      "desc-on-touch": "You read the rows of filed seeds—some dated, some marked with hopes written in fading pencil. The archive has learned to catalogue futures.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 441782,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the patient darkness",
+      "desc-on-touch": "Deep stillness surrounds you. Each seed waits for a climate it may never feel, a soil that may not exist yet. Patience has geology here.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 127493,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the clay vessels",
+      "desc-on-touch": "Terracotta vessels line the stone—each one holding a generation's hope, unnamed and unplanted. The archive keeps what the world has not yet asked for.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 832756,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the germination record",
+      "desc-on-touch": "A ledger rendered in living root-trace, documenting what did not sprout, what waited in darkness for decades, what finally broke through.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 667821,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the unplanted archive",
+      "desc-on-touch": "Rows of seeds that will outlive the trees they were taken from. You wonder if this repository is a garden or a tomb.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 348971,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "before growth speaks, all utterance waits in darkness as seed",
+  "file": {
+    "name": "Seed_Lineage_Archive_Incomplete_Dating.txt",
+    "note": "A catalogue of propagules collected from stands now fallen, their names corrupted into poetic drift—waratah becomes 'where-anger-touches-height'; kurrajong becomes 'the-current-running-underground'."
+  },
+  "reverie": {
+    "title": "REVERIE — the repository, late afternoon",
+    "narr": [
+      "You kneel beside Katita in the stone shed, each of you",
+      "holding a handful of seeds she'd collected years before.",
+      "She knows their stories—which tree, which season, which",
+      "town has since forgotten its own eucalyptus. You're both",
+      "pressing them into clay, making records the earth will read.",
+      "The petals falling outside the door taste like half-remembered things."
+    ],
+    "sky": "overcast",
+    "land": "forest",
+    "structure": "shed",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the place where seeds still dream in darkness",
+      "to": "the-unprayed-seed-repository"
+    },
+    {
+      "dir": "w",
+      "label": "deeper still, where the oldest seeds remember being something else",
+      "to": "NEW: the-archive-that-only-grows-in-winter"
+    },
+    {
+      "dir": "s",
+      "label": "down to the root-place where all seeds converge in the soil",
+      "to": "the-bedrock-plumbing"
+    }
+  ]
+}

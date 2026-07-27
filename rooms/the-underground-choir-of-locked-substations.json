@@ -1,0 +1,100 @@
+{
+  "id": "the-underground-choir-of-locked-substations",
+  "title": "The Underground Choir of Locked Substations",
+  "region": "The Comparisons",
+  "seed": 2847591,
+  "palette": {
+    "bg": "#0d1117",
+    "ground": [
+      "#1d2d3d",
+      "#0f1f2f"
+    ],
+    "ink": "#a8d4e8",
+    "accents": [
+      "#ffd700",
+      "#4a90e2",
+      "#7cb342",
+      "#e84c3d"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.12
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "locked transformer cabinet",
+      "desc-on-touch": "Behind the rusted padlock, you hear the hum. It is a single note that has not stopped singing for decades. The cabinet is marked with dates of lock-ins—1987, 1994, 2003, 2015. No one has opened it since.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 481926,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the resonance ground",
+      "desc-on-touch": "The earth itself vibrates at the frequency. You feel it through your feet—a slow tremor that has been singing for so long the ground has learned the melody.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 612458,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the singing cables",
+      "desc-on-touch": "Barely visible in the dark—cables running from the cabinet into the earth, vibrating so faintly you might imagine it. But the hum comes from them, you realize. The cables have learned to sing.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 847362,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the choir will not need the key; it is learning to sing louder than the lock",
+  "file": {
+    "name": "Substation_Frequency_Log_1982-Present.txt",
+    "note": "Forty years of harmonic readings from three buried substations. When graphed by date, the frequency rises one hertz per year, as if the electricity were learning a song."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the current that taught itself to stand still",
+      "to": "the-bedrock-where-electricity-learned-to-root"
+    },
+    {
+      "dir": "n",
+      "label": "northward, where the singing grows and branches into the rural grid",
+      "to": "NEW: the transformer grove where wires teach each other to hum in harmony"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the deepest substations, where the chorus is single and profound",
+      "to": "NEW: the locked chamber where the original frequency is still singing"
+    }
+  ]
+}

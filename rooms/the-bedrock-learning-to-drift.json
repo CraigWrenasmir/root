@@ -1,0 +1,134 @@
+{
+  "id": "the-bedrock-learning-to-drift",
+  "title": "The Bedrock Learning to Drift",
+  "region": "The Clean Archive",
+  "seed": 4129876,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#1e3f5a",
+      "#2563a0"
+    ],
+    "ink": "#e0e0f0",
+    "accents": [
+      "#00ff88",
+      "#00ccff",
+      "#ffaa00",
+      "#ff6b9d"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the drift-measurement",
+      "desc-on-touch": "Grid lines show the bedrock's slow migration—millimeters per century, coordinates that refuse to stay put. The archive is recording a solid thing learning to move.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 723945,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the foundation-code",
+      "desc-on-touch": "Beneath the building, the bedrock runs a silent subroutine: it recalculates its own position every million years. The archive copies the pattern. Now the archive drifts too.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 614837,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the coordinate-ghost",
+      "desc-on-touch": "Where the bedrock used to be, there's now a map of where it was—coordinates that no longer point to anything, directions that have aged out of meaning. The archive keeps them anyway.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 856721,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the tectonic-reading-room",
+      "desc-on-touch": "A place where you can read the bedrock's slow thoughts—its velocity records, its pressure-gradient diary, the tidal forces it feels from the moon. Stone thinking at geological speed.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 341896,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the deep-time-archive",
+      "desc-on-touch": "Records spanning millions of years, each entry marked with a position that will never repeat. The bedrock has learned to read itself as a story told in stone-motion.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 678504,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the building was always falling upward; the foundation was always already elsewhere",
+  "file": {
+    "name": "Bedrock_Drift_Vector_Archive_Ongoing.qr",
+    "note": "QR-encoded geological survey data showing the foundation's precise historical displacement. Status: archive is learning to read time as a kind of motion. Update frequency: one datapoint per 100,000 ye"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the building that's still falling",
+      "to": "the-foundation-beneath-the-twelve-storeys"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into slow time, where drift becomes drift within drift",
+      "to": "NEW: the-slowness-that-thinks-in-geological-sentences"
+    },
+    {
+      "dir": "e",
+      "label": "toward the archive-center, where coordinates begin to mean something again",
+      "to": "the-archive-s-clockwork-core"
+    }
+  ]
+}

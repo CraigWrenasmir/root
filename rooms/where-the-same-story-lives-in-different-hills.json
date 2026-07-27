@@ -1,0 +1,134 @@
+{
+  "id": "where-the-same-story-lives-in-different-hills",
+  "title": "Where the Same Story Lives in Different Hills",
+  "region": "The Clean Archive",
+  "seed": 78234,
+  "palette": {
+    "bg": "#d4b89a",
+    "ground": [
+      "#c49a6a",
+      "#e8d4aa"
+    ],
+    "ink": "#1a3a2a",
+    "accents": [
+      "#8b6a3a",
+      "#f5d8a0",
+      "#3a5a4a",
+      "#6b4a2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-landmark-that-multiplies",
+      "desc-on-touch": "a stone marker stands here, but when you walk toward it, you find seven identical markers at different distances—each telling the same story but in a different dialect, era, or emotional register. approach one and another becomes visible. the tale reorganizes itself by location.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 78234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-game-played-in-all-directions",
+      "desc-on-touch": "a field has been marked out for a game—lines and circles in chalk—but the game's rules change depending on which ridge you approach from. played on one hill it's a strategy game; on another, a children's rhyme; on a third, a harvest ritual. the same board, rewritten.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 45678,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-story-distributed-across-stations",
+      "desc-on-touch": "radio receivers, one per hill, each broadcasting the same story on different frequencies. you can hear them interfering with each other—the narrative fragments, recombines, becomes a chorus. the story only makes sense when heard from everywhere at once, from nowhere in particular.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 23456,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-tale-rewritten-by-terrain",
+      "desc-on-touch": "pages of a story pinned to posts along a walking route—each page contains the same chapter, but rewritten by the person who walked to that post. the story has become a map; the map has become a story; readers walk the narrative and narrate the walk.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-hollow-where-all-versions-sing",
+      "desc-on-touch": "a depression in the land where the story echoes back from all surrounding hills simultaneously—a choir of versions, each slightly different in timing. when all versions arrive at once, they create a single unified resonance that belongs to none of them individually.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "a tale filed in seven paddocks, each telling a different version, each version truer than the last",
+  "file": {
+    "name": "Game_Rules_Seven_Versions_One_Board.txt",
+    "note": "rules for a game transcribed from seven different towns, all claiming to play the same ancient game on the ridge, but the rules contradict each other so completely the game has become a story about co"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the ridge where paddocks still grow steep",
+      "to": "the-ridge-where-paddocks-grow-steep"
+    },
+    {
+      "dir": "w",
+      "label": "to the eighth hill, where a new version of the story is being born",
+      "to": "NEW: the-unmapped-ridge-where-stories-are-still-dividing"
+    },
+    {
+      "dir": "n",
+      "label": "higher, where all seven versions converge into silence",
+      "to": "NEW: the-summit-where-contradiction-becomes-unity"
+    }
+  ]
+}

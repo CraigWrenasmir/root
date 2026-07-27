@@ -1,0 +1,100 @@
+{
+  "id": "the-board-s-deepening-argument",
+  "title": "The Board's Deepening Argument",
+  "region": "The Understory",
+  "seed": 6241893,
+  "palette": {
+    "bg": "#2d1810",
+    "ground": [
+      "#8b3a0f",
+      "#d4631f"
+    ],
+    "ink": "#ffd9a8",
+    "accents": [
+      "#ff6b35",
+      "#ff1744",
+      "#c41c3b",
+      "#f0a500"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the marked surface",
+      "desc-on-touch": "A board so covered in scratches, burns, carvings, and rewrites that no original surface remains visible. Each trace is an argument—a line drawn over a line erased, a word burned through, a thought fractured into its contradictions. The board has learned to think by refusing to be single.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 712849,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the deepening scar",
+      "desc-on-touch": "One groove runs deeper than all the others—an argument that has been retraced so many times it has worn into the wood like water finding a channel. The deeper it goes, the more voices it holds. Disagreement has made it profound.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 385926,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the carved names",
+      "desc-on-touch": "Two names scratched into the board's edge, one carved over the other, again and again, the carving growing deeper with each iteration. The board has kept a count of every time they returned to argue with each other. The names and the numbers have become the same mark.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 849126,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.68,
+      "solid": true
+    }
+  ],
+  "inscription": "disagreement is the board learning to think; each trace a thought that refused to be alone",
+  "file": {
+    "name": "Marginal_Counter-Arguments_Reconstruction.txt",
+    "note": "A transcription of arguments and counter-arguments scratched into a work-board over ten years. Organized chronologically, they form an evolving debate—not resolved, but deepened."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the board where disagreement becomes the only path forward",
+      "to": "the-board-that-thinks-in-argument"
+    },
+    {
+      "dir": "s",
+      "label": "southward, where the argument has descended beyond contradiction",
+      "to": "NEW: the chamber where both sides of every thought converge"
+    },
+    {
+      "dir": "n",
+      "label": "northward, into newer arguments waiting to be unresolved",
+      "to": "the-floor-beneath-the-floor"
+    }
+  ]
+}

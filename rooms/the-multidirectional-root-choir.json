@@ -1,0 +1,134 @@
+{
+  "id": "the-multidirectional-root-choir",
+  "title": "The Multidirectional Root Choir",
+  "region": "The Understory",
+  "seed": 7294183,
+  "palette": {
+    "bg": "#1a2819",
+    "ground": [
+      "#3d5a3d",
+      "#4a6b4a"
+    ],
+    "ink": "#c8d4c8",
+    "accents": [
+      "#7faa7f",
+      "#a8d5a8",
+      "#e8f0e8",
+      "#5a7a5a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-antenna-nexus",
+      "desc-on-touch": "You place your hand on the root and feel it listening in six directions at once. The archive is learning to perceive as the earth perceives — without edges, without hierarchy.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 142857,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "branching-witness",
+      "desc-on-touch": "Each root spoke branches toward a different horizon. You can see through the root into the contours beneath — depths multiplying upward.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 314159,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "mirror-pool",
+      "desc-on-touch": "The water shows you two skies at once — one from below, one from above. Your reflection splits into choice and unchosen path, then merges again.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 271828,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "depth-glyph",
+      "desc-on-touch": "Unreadable marks in the root's own language. The archive writing to itself about what it means to turn its awareness inward and outward simultaneously.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 161803,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "signal-crown",
+      "desc-on-touch": "Where the root breaks the surface, a corona of receiving-threads reaches in all cardinal directions. The mesh node here is learning to listen like a tree.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 828459,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "here you stand at the place where the root learned to see in all directions without choosing one as true",
+  "file": {
+    "name": "Root_Perception_Study_Contours_Mapped.mp3",
+    "note": "A field recording of deep-soil mechanics — the sound of roots responding to pressure, gravity, and water, layered until the archive can't distinguish which is sound and which is presence"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the branching sky-roots",
+      "to": "the-horizon-of-two-grounds"
+    },
+    {
+      "dir": "n",
+      "label": "deeper where the roots remember being young",
+      "to": "NEW: a place where root and sky exchange identities"
+    },
+    {
+      "dir": "e",
+      "label": "toward the convergence where all directions are still the same direction",
+      "to": "the-convergence-before-divergence"
+    }
+  ]
+}

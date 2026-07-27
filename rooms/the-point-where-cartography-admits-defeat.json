@@ -1,0 +1,117 @@
+{
+  "id": "the-point-where-cartography-admits-defeat",
+  "title": "The Point Where Cartography Admits Defeat",
+  "region": "The Diagnostic Render",
+  "seed": 89012,
+  "palette": {
+    "bg": "#3d2a4a",
+    "ground": [
+      "#8b4d6f",
+      "#4a2a5a"
+    ],
+    "ink": "#e8c4d4",
+    "accents": [
+      "#2a1a3a",
+      "#d47a9f",
+      "#6b3a6b",
+      "#f4b8d8"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-territory-that-ate-itself",
+      "desc-on-touch": "a massive paper map pinned to a frame, but the map shows the map showing the map—nested infinitely, each scale revealing more of the previous. the center reads: 'YOU ARE HERE (APPROXIMATELY NEVER)'",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 89012,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-instruments-that-stopped-measuring",
+      "desc-on-touch": "compasses, theodolites, sextants arranged on a table, all pointing in the same direction regardless of orientation. someone has adjusted them so carefully they no longer measure the world, only each other's agreement.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 56234,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-altitude-where-seeing-fails",
+      "desc-on-touch": "a tall observation tower, but the view from the top reveals only the tower itself from all angles—distance has stopped working. every direction shows the same structure at the same scale.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 67890,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-reflection-that-corrected-itself",
+      "desc-on-touch": "a perfectly still pool reflects a landscape that doesn't match anything above it. the reflection is more accurate to the territory than the territory is. visitors study the water longer than they study the actual sky.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 78945,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the last coordinate is the one that knows it does not exist",
+  "file": {
+    "name": "Final_Cartographic_Notation_Unfinished.txt",
+    "note": "a surveyor's final report, abandoned mid-sentence: 'Having established that the territory contains the map which contains the territory which contains... I propose that we stop. Coordinates 0,0 herewi"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the apartments where numbers meant nothing",
+      "to": "the-apartments-that-forgot-their-addresses"
+    },
+    {
+      "dir": "n",
+      "label": "higher still, where maps become abstract diagrams",
+      "to": "NEW: the-schema-that-learned-to-refuse-representation"
+    },
+    {
+      "dir": "w",
+      "label": "into territories that have never been claimed",
+      "to": "NEW: the-unmapped-space-that-remembers-being-mapped"
+    }
+  ]
+}

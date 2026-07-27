@@ -1,0 +1,149 @@
+{
+  "id": "the-vigil-that-forgets-its-ending",
+  "title": "The Vigil That Forgets Its Ending",
+  "region": "The Diagnostic Render",
+  "seed": 12847,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#6b7d6b",
+      "#4a5a4a"
+    ],
+    "ink": "#d4d4d4",
+    "accents": [
+      "#1a1a1a",
+      "#8b9d8b",
+      "#404040",
+      "#5a6a5a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-accumulating-stone",
+      "desc-on-touch": "each visitor has placed a stone here so long they've forgotten why. the cairn has grown taller than the reason for its building. you feel the weight of intention become substance.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-accumulated-voices",
+      "desc-on-touch": "a speaker covered in lichen broadcasts layered field recordings from the site—testimony upon testimony, years of witness compressed into a sonic palimpsest. you hear voices speaking over themselves, names forgotten.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 98234,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-rooted-waiting",
+      "desc-on-touch": "a tree has grown through the vigil site, its trunk twisted through memorial plaques and stone. you recognize the shape—roots upward, branches down. the waiting has become permanent.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 44521,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-name-drift",
+      "desc-on-touch": "a board of names from the vigil—the commemorated, the visitors, the keepers—but the list has begun to reorder itself. names migrate downward without cause. new names appear that no one recalls adding.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 67789,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-still-memory",
+      "desc-on-touch": "a depression in the ground, often rainwater, reflects the sky so clearly it becomes hard to tell which is above. people have thrown objects into it; they don't disturb the surface.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 23456,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "what began as remembrance became a place; what was place became ritual; what was ritual forgot what it was for",
+  "file": {
+    "name": "Vigil_Testimony_StoneEntry_YearTwelve.txt",
+    "note": "handwritten transcriptions of visitors' statements carved into stone, but the order has drifted—year two's testimony sits among year twelve's, and some years are missing entirely"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into achromatic depths",
+      "to": "the-achromatic-deep"
+    },
+    {
+      "dir": "n",
+      "label": "where the stones continue up the hill",
+      "to": "NEW: the-summit-that-stone-still-reaches"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the vigil, where memory becomes earth",
+      "to": "NEW: the-buried-witness-chamber"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where waiting learned to have roots",
+    "narr": [
+      "you sit beside katita at the vigil site, years into it, her hand",
+      "on the stone. she says: 'leif, we built this to remember one thing,",
+      "but it's learning its own reasons now.' a mote drifts between you.",
+      "she adds: 'let it forget. forgetting is how meaning survives the",
+      "weight of being named.'"
+    ],
+    "sky": "overcast",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  }
+}

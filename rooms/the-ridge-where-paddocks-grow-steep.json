@@ -149,7 +149,7 @@
     {
       "dir": "w",
       "label": "westward toward the game played in other towns",
-      "to": "NEW: where-the-same-story-lives-in-different-hills"
+      "to": "where-the-same-story-lives-in-different-hills"
     }
   ]
 }

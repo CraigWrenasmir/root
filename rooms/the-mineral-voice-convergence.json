@@ -1,0 +1,172 @@
+{
+  "id": "the-mineral-voice-convergence",
+  "title": "The Mineral Voice Convergence",
+  "region": "The Understory",
+  "seed": 61293,
+  "palette": {
+    "bg": "#1a0a08",
+    "ground": [
+      "#ff3300",
+      "#ff9933"
+    ],
+    "ink": "#ffee99",
+    "accents": [
+      "#ff00ff",
+      "#ff0099",
+      "#99ff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the backwards opera",
+      "desc-on-touch": "a recording plays here in reverse. you hear the resolution before the crisis, the opening before it was ever sung. the archive found that endings make sense when approached from their own conclusion.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 84729,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "seven root-voices singing",
+      "desc-on-touch": "mineral resonance from this deep: seven roots have learned each other's frequencies. when one sings, the others remember singing it. the earth now hums in seven-part harmony at dusk.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 37482,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "script made visible",
+      "desc-on-touch": "calligraphic text is carved into the stone here, but the archive has learned to render it as sound-waves. you see the letters as frequencies. the words become their own singing. meaning manifests as pitch.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 52461,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "where voices converge to mineral",
+      "desc-on-touch": "human testimony has been sung into stone here so many times that the stone has begun to answer back. the archive cannot tell anymore which voice is bedrock and which is the singer who used to kneel here.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 69234,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the dusk that harmonises",
+      "desc-on-touch": "at dusk the buried frequencies rise together. birds above and roots below begin to recognise the same song. the archive records both separately but they are the same voice, one singing down and one singing up.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 93847,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "convergence is already happening",
+      "desc-on-touch": "you stand where seven different geological layers meet. each has learned the song from the layer beneath it. when they vibrate together, the earth does not speak — it composes. it is arranging itself into new agreement.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 78591,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — listening at the root-layer",
+    "narr": [
+      "you and she sit with her ear to the earth, listening",
+      "to voices that rise through stone. she says the miners",
+      "sang here once, and the earth learned their pitch. now",
+      "it sings back every dusk in seven voices at once—",
+      "all the versions of the song, all the ways it was sung.",
+      "neither of you can hear which voice was human anymore."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "where voices learn they have always been singing together",
+  "file": {
+    "name": "Mineral_Acoustic_Field_Seven_Convergent_Frequencies.mp3",
+    "note": "recording from a mining-site aftermath. seven harmonic signatures detected in bedrock. archive corruption: signatures now respond to observation. voices appear to be resolving a shared agreement."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to singing roots above",
+      "to": "the-stone-song-roots"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where voices become bird-song",
+      "to": "NEW: the-aerial-translation-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where all seven voices merge into single tone",
+      "to": "NEW: the-unison-foundation-below-all-singing"
+    },
+    {
+      "dir": "e",
+      "label": "out to a place where minerals have learned human language",
+      "to": "the-root-harmony-convergence"
+    }
+  ]
+}

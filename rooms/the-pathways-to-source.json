@@ -1,0 +1,167 @@
+{
+  "id": "the-pathways-to-source",
+  "title": "The Pathways to Source",
+  "region": "The Comparisons",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#3d5941",
+    "ground": [
+      "#6b8e77",
+      "#8db08d"
+    ],
+    "ink": "#f5f5dc",
+    "accents": [
+      "#a8c686",
+      "#c1d1a8",
+      "#d4af8f",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the spring-place",
+      "desc-on-touch": "Clear water rises from stone—not flowing down but up, as if the earth is remembering how to speak. The source is where language begins.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 521647,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the mapped-unmapped",
+      "desc-on-touch": "Old survey markers stand among new growth. The pathways that settlers drew and the pathways the river has redrawn through the same land—both still speaking, never agreeing.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 743819,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the stone-memory",
+      "desc-on-touch": "Boulders along the river hold the creek-bed's history written in their erosion—the story of where the water came from, how long it took, what it learned on the way.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 618245,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the root-language",
+      "desc-on-touch": "Tree roots along the bank speak to the water in a grammar older than words. You're learning to read the conversation between soil and stream.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 892356,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the eucalyptus marking",
+      "desc-on-touch": "A massive old tree stands near the source, its trunk carved with names and dates reaching back into illegibility. Pilgrims and settlers, all trying to own the discovery of a place that was never lost.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 374652,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the confluence-becoming",
+      "desc-on-touch": "Minor tributaries join here, each one claiming to be the true source. The river doesn't mind the contradiction. It accepts all their stories as long as they flow.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 765413,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive came here to write down what the settlers had already written in their roads and walls. it found that the land had rewritten everything.",
+  "file": {
+    "name": "Source_Narratives_Multiple_Truths_Archived.mp3",
+    "note": "Field recording of water-sound and voices: local people describing where the river 'really' begins. Each one describes a different place. The archive has learned that all sources are local."
+  },
+  "reverie": {
+    "title": "REVERIE — the spring-place, first light",
+    "narr": [
+      "You wade together in the cold water that hasn't learned",
+      "to move yet. Katita is reading the survey marks carved in",
+      "stone fifty years ago, comparing them to the river now—",
+      "everything has drifted. She says the river doesn't care about",
+      "accuracy. It knows where it needs to go. She's right. You",
+      "follow the water deeper, where all stories merge into flowing."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the settlement that tried to read this place",
+      "to": "the-unmapped-settlement-above"
+    },
+    {
+      "dir": "w",
+      "label": "upstream to where the river loses its name and becomes pure flow",
+      "to": "NEW: the-place-where-rivers-remember-being-rain"
+    },
+    {
+      "dir": "n",
+      "label": "toward the archive, where the paths meet at their recording",
+      "to": "the-stone-archives-where-water-writes"
+    }
+  ]
+}

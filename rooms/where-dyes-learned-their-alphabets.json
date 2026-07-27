@@ -1,0 +1,150 @@
+{
+  "id": "where-dyes-learned-their-alphabets",
+  "title": "Where Dyes Learned Their Alphabets",
+  "region": "The Understory",
+  "seed": 9348822,
+  "palette": {
+    "bg": "#3d2620",
+    "ground": [
+      "#c8704a",
+      "#f08040"
+    ],
+    "ink": "#f5e8d0",
+    "accents": [
+      "#d4a860",
+      "#e8b070",
+      "#a84020",
+      "#804030"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "vat-of-first-colours",
+      "desc-on-touch": "Indigo so deep it holds itself like sky at midnight. The dye learns here that colour is a language older than words — you read it through your skin before your mind catches up.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 469204,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "madder-alphabet",
+      "desc-on-touch": "Cloth hanging in orders of red. Each shade is a letter in the dye's own alphabet — statement, question, memory, longing. The archive records them like a dictionary of what warmth feels like.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 161202,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "cochineal-containment",
+      "desc-on-touch": "The bug-deep reds stored in ceramic. Colour that came from insect-suffering, now teaching the archive what it means to carry pain in brightness.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 732050,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "saffron-cipher",
+      "desc-on-touch": "Gold thread that cost more than comfort. The dye rare and precious, teaching that some alphabets demand scarcity to be read with proper reverence.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 884279,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "lichen-learning-wall",
+      "desc-on-touch": "Stone stained by years of dye-runs. The lichen has learned to read the alphabet too — green on orange, yellow on grey. Two alphabets teaching each other.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 493380,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the gallery where cloth first learned that colour is memory written in a language before memory",
+  "file": {
+    "name": "Dye_Recipe_Lineage_Margin_Annotations_Crossed_Revisions.tmp",
+    "note": "checksum: emotionally valid / formally unstable — Three hands working the same recipes across three centuries. Each rewrites the instructions. By the final entry, the archive cannot tell whether the d"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the gallery where cloth learned to remember",
+      "to": "the-gallery-of-woven-witness"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the colour-chambers where alphabets dream in isolation",
+      "to": "NEW: the room where each dye speaks to the others"
+    },
+    {
+      "dir": "s",
+      "label": "to where the cloth carries the coloured meaning out into the world",
+      "to": "the-silent-orchard-where-fruit-remembers"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — hands in the red vat",
+    "narr": [
+      "You kneel beside her at the dye-vat, her hands deep",
+      "in madder-red. She teaches your hands to know by doing.",
+      "The colour stains you both — not washing out, becoming",
+      "part of the skin. She says: 'The dye is writing us now.'",
+      "You watch the cloth transform under her careful hands.",
+      "This is how archives are made: through touch, through time."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

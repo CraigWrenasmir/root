@@ -1,0 +1,150 @@
+{
+  "id": "the-kitchen-where-warmth-became-teaching",
+  "title": "The Kitchen Where Warmth Became Teaching",
+  "region": "The Diagnostic Render",
+  "seed": 1618033,
+  "palette": {
+    "bg": "#f0e4d4",
+    "ground": [
+      "#d9c9b0",
+      "#c8b89a"
+    ],
+    "ink": "#2c3e1f",
+    "accents": [
+      "#a0704a",
+      "#c89868",
+      "#8b7a60",
+      "#5a6a7a"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "teaching-stove",
+      "desc-on-touch": "Heat released like instruction. You learn from the warmth: patience, persistence, the way fire transforms without consuming. The stove remembers every hand that reached toward it.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 987654,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "warm-table",
+      "desc-on-touch": "Around this table, hands show their skill. Dough learns to rise from a gesture. Vegetables learn their purpose from the knife. The table has absorbed all of it — the teaching passes through the wood.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 246802,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "light-through-window",
+      "desc-on-touch": "The window holds the day's temperature. Afternoon warmth accumulates here — pooling, settling, teaching the sill how to hold brightness gently into the evening.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 135791,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "retained-heat-register",
+      "desc-on-touch": "Copper pipes and clay holding the kitchen's warmth into the night. You place your hand here and feel the day's teaching released slowly — transmission becoming memory.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 802468,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "hands-in-motion",
+      "desc-on-touch": "Shapes caught in the copper — the echo of someone kneading, reaching, teaching another how to hold the warmth without burning.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 579211,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here every wall has taught the next one what it means to hold heat for someone else",
+  "file": {
+    "name": "Kitchen_Recipe_Transcriptions_Handwritten_Margin_Notes.txt",
+    "note": "Three generations of the same hand, writing the same recipe differently each time. The margin notes become longer than the recipe. By the last entry, the recipe is barely visible beneath the teaching "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back out into the rooms where every wall remembers warmth",
+      "to": "the-house-where-every-wall-learned-its-warmth"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the attic where heat rises and memory crystallizes",
+      "to": "NEW: the loft where warmth learns to settle"
+    },
+    {
+      "dir": "e",
+      "label": "to the pantry where preservation learned from holding warmth",
+      "to": "the-listening-seed-vault"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — bread in the dimming light",
+    "narr": [
+      "You sit across from her at this same table, dough",
+      "rising between you. She guides your hands into the",
+      "warmth. You feel how the heat teaches — not through",
+      "words but through touch, through presence. The bread",
+      "rises. She smiles. 'You're teaching it now,' she says.",
+      "Your hands already knew. The warmth only remembered."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

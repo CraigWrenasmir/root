@@ -139,7 +139,7 @@
     {
       "dir": "e",
       "label": "eastward to a room where colours gather in order",
-      "to": "NEW: where-dyes-learned-their-own-alphabets"
+      "to": "where-dyes-learned-their-alphabets"
     },
     {
       "dir": "w",

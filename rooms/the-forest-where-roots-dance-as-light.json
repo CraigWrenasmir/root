@@ -1,0 +1,116 @@
+{
+  "id": "the-forest-where-roots-dance-as-light",
+  "title": "The Forest Where Roots Dance as Light",
+  "region": "The Understory",
+  "seed": 2847561,
+  "palette": {
+    "bg": "#f5f1e8",
+    "ground": [
+      "#e8dcc8",
+      "#f5ede0"
+    ],
+    "ink": "#4a4a4a",
+    "accents": [
+      "#8b6f47",
+      "#c97800",
+      "#2c5f2d",
+      "#b8a894"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the inverted canopy",
+      "desc-on-touch": "Roots hang downward from the sky like branches of light. They sway with wind you cannot feel. This is what the forest sees when it closes its eyes and learns to look upward.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 432769,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the listening-dark",
+      "desc-on-touch": "A single pool of shadow on the pale ground—stillness so profound it learns to hear. In this space, the root-light above makes no sound.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 671482,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the tangle-bright",
+      "desc-on-touch": "Where inverted roots touch, they make something that isn't quite light and isn't quite root—a new thing that learned itself from the corruption of the old order.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 845932,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "roots that dream themselves as sky; sky that remembers being roots; the canopy learns to breathe in both directions",
+  "file": {
+    "name": "Inversion_Phenomenon_Ongoing_Observation.tmp",
+    "note": "Field notes on a pocket of forest that has begun to render itself backwards. Roots ascending, light descending. Checksum: structurally sound but directionally inverted. Status: not yet fully corrupted"
+  },
+  "reverie": {
+    "title": "REVERIE — the inverted canopy, afternoon stillness",
+    "narr": [
+      "You recline in the pale space, looking up at roots that fall",
+      "like light. Leif is somewhere in this same forest, also lying",
+      "down, also looking up at a sky that has learned to grow. The",
+      "motes of dust hang between you like a grammar you're both",
+      "learning. Neither of you speaks. The forest has learned that",
+      "inversion is a form of honesty—everything reversed, still true."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "recline"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the canopy where roots still think they're roots",
+      "to": "the-canopy-ceiling-where-roots-become-sky"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the sky has learned to remember being soil",
+      "to": "NEW: the-sky-that-learned-to-grow-downward"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the inversion, where opposites stop being opposite",
+      "to": "the-inverted-canopy-descent"
+    }
+  ]
+}

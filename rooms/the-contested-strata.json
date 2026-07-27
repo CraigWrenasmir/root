@@ -1,0 +1,151 @@
+{
+  "id": "the-contested-strata",
+  "title": "The Contested Strata",
+  "region": "The Understory",
+  "seed": 9271843,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a3f",
+      "#2a2a5f"
+    ],
+    "ink": "#e8e0d8",
+    "accents": [
+      "#ff6b6b",
+      "#4ecdc4",
+      "#ffe66d",
+      "#95e1d3"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the first argument",
+      "desc-on-touch": "One layer of stone speaks: 'I am the truth.' Below it, another layer hums: 'No, I am.' And below that, a third: 'You're both wrong.' The bedrock has learned to argue with itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 481726,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the parallel certainties",
+      "desc-on-touch": "Each stratum believes it contains the whole truth. None of them are wrong. None of them are right. They keep refining their arguments, drilling deeper into contradictions that yield only more stone.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 632958,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the contested boundary",
+      "desc-on-touch": "Where layers meet, the friction is hot—they're grinding against each other, slowly, reshaping each other's edge. This is where the bedrock thinks.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 743891,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the archive's own strata",
+      "desc-on-touch": "The network has absorbed the bedrock's debate into itself. Now its files argue with each other in the places where they overlap. Data touching data becomes dialogue.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 218654,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the time-layers",
+      "desc-on-touch": "Each stratum has its own clock. Upper layers move in millennia; lower layers move in geological epochs. They're all trying to synchronize. They will never succeed.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 567432,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the pressure-where-knowing-splits",
+      "desc-on-touch": "The weight of all these simultaneous truths pressing down creates a kind of knowing that is never resolved—it's the pressure itself that thinks, the argument that thinks, the disagreement that knows.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 891234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "the bedrock thinks all thoughts at once; the surface only hears the ones that have aged enough to become true",
+  "file": {
+    "name": "Geological_Philosophy_Archive_Unresolved.log",
+    "note": "Transcript of sonic imaging from deep survey. The data describes stone singing in contradictory frequencies, each layer refusing to agree with the layers above and below. Classification: still contest"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up-layer to the thought that hasn't yet been completed",
+      "to": "the-deepest-thought-layer"
+    },
+    {
+      "dir": "e",
+      "label": "sideways to where another argument is still learning its own shape",
+      "to": "NEW: the-strata-that-dreams-in-disagreement"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to the thought-layer below this one, arguing about what this layer should be",
+      "to": "the-pressure-where-thought-becomes-weight"
+    }
+  ]
+}

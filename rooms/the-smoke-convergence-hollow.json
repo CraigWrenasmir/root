@@ -1,0 +1,100 @@
+{
+  "id": "the-smoke-convergence-hollow",
+  "title": "The Smoke-Convergence Hollow",
+  "region": "The Comparisons",
+  "seed": 7394182,
+  "palette": {
+    "bg": "#f5e8d9",
+    "ground": [
+      "#d4a574",
+      "#e8c9a0"
+    ],
+    "ink": "#3a2f24",
+    "accents": [
+      "#a85c42",
+      "#cf5d3f",
+      "#8b4513",
+      "#c9a876"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "abandoned shopfront",
+      "desc-on-touch": "The weatherboards are scorched on both sides—fire from the western ridge, then fire from the east. The shop never reopened. Paint peels in strips that mirror each other, left and right, as if the smoke taught the wood how to remember symmetry.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 529847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the convergence stone",
+      "desc-on-touch": "A granite post where the two smoke streams met. The stone is streaked black on one half, grey ash on the other. At its center, a faint line where the colours meet. Birds have learned to perch here and watch the sky for fire.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 614293,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "ash-nest in the fork",
+      "desc-on-touch": "A bird's nest woven from burnt paper and ash, lodged high in a tree at the hollow's edge. The bird collects charred documents from both fires and weaves them into its shelter. A nest made of opposing flames' remains.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 187564,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "here the fires learned that burning in opposite directions teaches the same lesson to the smoke",
+  "file": {
+    "name": "Twin_Ridge_Burn_Maps_1994_2003_2015.png",
+    "note": "Satellite and hand-drawn maps overlaying both fires' paths. Where they're sketched on the same image, the patterns mirror each other so perfectly it looks deliberate."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the twin ridges still learning to burn the same pattern",
+      "to": "the-twin-ridge-burning-opposite"
+    },
+    {
+      "dir": "n",
+      "label": "northward, where the ash has learned to drift into new shapes",
+      "to": "NEW: the ash-drift clearing where fire becomes weather"
+    },
+    {
+      "dir": "e",
+      "label": "eastward, toward the further fires that the smoke has not yet reached",
+      "to": "the-ridge-where-singing-becomes-silence"
+    }
+  ]
+}

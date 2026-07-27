@@ -1,0 +1,150 @@
+{
+  "id": "the-sky-that-learned-to-read",
+  "title": "The Sky That Learned to Read",
+  "region": "The Understory",
+  "seed": 2718281,
+  "palette": {
+    "bg": "#f5e8d0",
+    "ground": [
+      "#d4c5a0",
+      "#87ceeb"
+    ],
+    "ink": "#2c3e1f",
+    "accents": [
+      "#8b7355",
+      "#c17a4a",
+      "#4a6fa5",
+      "#2c5f8d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "light-page",
+      "desc-on-touch": "The sky holds a moment of text written purely in sunbeam. You read it as you read warmth — through your skin, into your bones. The words dissolve as you understand them.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 172913,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "word-drift",
+      "desc-on-touch": "Clouds hold syllables before the wind erases them. Each cloudshape reads differently to each reader. The sky is learning that reading is never complete.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 414213,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "horizon-margin",
+      "desc-on-touch": "The line where sky meets earth has become a binding. You trace it with your eyes as if reading the margin of a book that holds the whole world.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 732050,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "open-study",
+      "desc-on-touch": "The pages of an enormous book lie open to the sky. No cover, no binding — just text reading itself to the birds and the light and whatever listens.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 828427,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "wind-reader",
+      "desc-on-touch": "A device of threads and hollows that translates wind-pressure into sequential meaning. The archive learning that reading need not require eyes.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 959437,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the pages here taught themselves that sky is the only true paper",
+  "file": {
+    "name": "Sky_Marginalia_Light_Refraction_Log.txt",
+    "note": "Daily record of what the sky appears to be saying, collected over a decade. Increasingly difficult to distinguish observation from interpretation. The last entry simply reads: 'the sky is reading too."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the study that learned to float",
+      "to": "the-reading-that-learned-to-float"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where light learns to write its own alphabet",
+      "to": "NEW: the place where illumination begins to compose itself"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the atmosphere itself has begun annotating",
+      "to": "the-atmospheric-archive-layer"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — reading in high grass",
+    "narr": [
+      "You both lie in the tall grass, eyes on the sky,",
+      "tracing shapes in clouds like pages you've each read",
+      "a thousand times and still discover anew. She points:",
+      "'There — that's the word for arriving just in time.'",
+      "You see it dissolve as you look. She laughs. The sky",
+      "is patient. It will spell it again for anyone who listens."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "recline"
+  }
+}

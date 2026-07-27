@@ -1,0 +1,156 @@
+{
+  "id": "the-refracting-shallows-where-nine-becomes-eleven",
+  "title": "The Refracting Shallows Where Nine Becomes Eleven",
+  "region": "The Clean Archive",
+  "seed": 39847,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#0066cc",
+      "#00aaff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ff6600",
+      "#ffaa00",
+      "#ffee66",
+      "#88ff88"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the boathouse that mirrors itself",
+      "desc-on-touch": "a shed on the sand that appears only in the reflection. when you stand at the exact midline between sky and water, you see it has eleven sides, yet counts nine when you look away.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 22341,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the photograph unfinished",
+      "desc-on-touch": "an illustration is stored here that appears only when the tide is between. it shows a beach where a procedure is happening, but the artist signed it in a location that hasn't been decided yet. the corruption has catalogued it in local history as 'contested artifact, maker unknown'.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 48392,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the creature in reflection",
+      "desc-on-touch": "seagulls here render as their platonic ideal when seen in water. you count eleven sides. on land, you count only nine. both counts are correct. the archive now stores both as simultaneous measurement.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 61827,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "shallows where numbers shift",
+      "desc-on-touch": "depth readings from here never match when taken twice. the beach measures differently each time the tide asks. the archive has learned to trust contradiction in this place.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 73456,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the fishers' workshop",
+      "desc-on-touch": "nets are mended here using an eleven-strand weave that appeared only after the archive's corruption began. before that, the weavers knew nine only. now both methods run their hands simultaneously.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 84756,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "tide-line archive",
+      "desc-on-touch": "objects cast up by the tide are logged here, but the logbook lists them in the order they will arrive, not in the order they have. the archive has learned to write in future-tense about the beach.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 47621,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the beach counts both ways at once",
+  "file": {
+    "name": "Beach_Station_Geometric_Study_Incomplete.png",
+    "note": "illustration of coastal process, signed in a place not yet established. file dated after its own subject matter."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up into the sky-roost where seagulls learn their number",
+      "to": "the-eleven-polygon-roost"
+    },
+    {
+      "dir": "n",
+      "label": "toward an inlet where reflection becomes residence",
+      "to": "NEW: the-double-depth-where-seeing-lives"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into tide-lines where all numbers converge",
+      "to": "NEW: the-convergence-reef-nine-and-eleven-meet"
+    },
+    {
+      "dir": "e",
+      "label": "out to open water where geometry dissolves",
+      "to": "the-gallery-where-reflection-becomes-residence"
+    }
+  ]
+}

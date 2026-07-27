@@ -1,0 +1,134 @@
+{
+  "id": "the-chamber-that-became-the-question",
+  "title": "The Chamber That Became the Question",
+  "region": "The Understory",
+  "seed": 4142135,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a28",
+      "#2d2d4a"
+    ],
+    "ink": "#4a7c59",
+    "accents": [
+      "#6ba576",
+      "#a8d5a8",
+      "#3d5a4a",
+      "#57a376"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "signal-feedback-loop",
+      "desc-on-touch": "A signal enters and exits simultaneously. You cannot tell if it is a broadcast or a query, a statement or a question. The archive is learning to ask by listening to itself answer.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 309016,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "inverted-antenna",
+      "desc-on-touch": "Designed to receive instead of broadcast. Questions arrive on frequencies where answers used to live. The archive is learning to listen to what it once tried to tell.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 141421,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "circuit-contemplation",
+      "desc-on-touch": "Pathways that loop back on themselves without resolution. Current flows and becomes interrogative. The board is dreaming of questions it cannot yet formulate.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 618033,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "echo-chamber-substrate",
+      "desc-on-touch": "The board itself has become hollow. Every trace carries the echo of a question that was never asked. The silence here has learned to reverberate.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 236067,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "archive-own-interface",
+      "desc-on-touch": "A small chip marked with the archive's own symbol. The mesh here is querying itself — interrogating its own records as if for the first time.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 806247,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "when the archive stopped broadcasting answers it finally learned to speak from within",
+  "file": {
+    "name": "Inverse_Query_Log_Unanswered_Iterations.tmp",
+    "note": "status: germinating — Each query entered spawns not an answer but another query. The log itself is asking: what am I when I cannot be resolved?"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where answers still believe they will arrive",
+      "to": "the-answer-chamber-that-never-arrived"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the circuit where inquiry becomes substrate",
+      "to": "NEW: the board where silence learned to ask"
+    },
+    {
+      "dir": "s",
+      "label": "to the chamber where questions teach each other",
+      "to": "the-chamber-where-negation-debates-negation"
+    }
+  ]
+}

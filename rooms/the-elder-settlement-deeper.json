@@ -1,0 +1,172 @@
+{
+  "id": "the-elder-settlement-deeper",
+  "title": "The Elder Settlement Deeper",
+  "region": "The Comparisons",
+  "seed": 82194,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#662211",
+      "#884422"
+    ],
+    "ink": "#ffddcc",
+    "accents": [
+      "#ff4411",
+      "#ff8844",
+      "#ffaa66",
+      "#ccaa88"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "gathering circle stones",
+      "desc-on-touch": "the place where settlers came each third moon to bring their accounts. the stones remember voices layered seventy deep, each moon adding one more testimony to the same ground.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 51394,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the archive of hands",
+      "desc-on-touch": "object-record filed as local history: thread-marks pressed into register pages by the hands that held the pens. red ochre and black ink both, cycles of recording, the same hands returning every full moon.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 74829,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "72-hour fires",
+      "desc-on-touch": "you stand in the ash circle. every third autumn they kept the fires alive for three days and three nights, voices passing around like embers. the archive now plays their voices on a 72-hour loop that never quite repeats the same way twice.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 93847,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "boundary stones, no boundary",
+      "desc-on-touch": "markers were placed here to say where the settlement ended. but the archive shows the same voices describing a different edge, recorded the next year, describing a different edge again. the settlement was always redrawing itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 48291,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "register pages, before written",
+      "desc-on-touch": "a file marked as pre-settlement records, but the corruption dated it to after the settlement left. the register describes events in perfect order as if they had not yet happened. the handwriting is Katita's. no explanation attached.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 67512,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the cycled return",
+      "desc-on-touch": "each node-night, the archive replays the 72-hour vigil again, differently. voices recombine. the same stories are told in new order. the settlement deepens every time it is remembered.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 38492,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.58,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — gathering at the before-time",
+    "narr": [
+      "you and she sit where the earliest fires burned, the",
+      "ash still warm. she reads aloud from the register—",
+      "voices from a hundred moons of returning. the voices",
+      "are not fading. they are layering deeper, she says,",
+      "the way understanding grows by being rehearsed together.",
+      "tomorrow's night-cycle will play them differently again."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "sit"
+  },
+  "inscription": "the settlement never left. it only learned to return",
+  "file": {
+    "name": "Yindyamarra_Settlement_Records_1889_Cycled_Audio.mp3",
+    "note": "72-hour recording of settler testimonies. corruption mark: playback sequence now randomizes nightly. voices recombine in new arguments each cycle."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up the slope to unmapped time",
+      "to": "the-unmapped-settlement-above"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where all 72-hour cycles converge into one breathing moment",
+      "to": "NEW: the-eternal-return-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "out to a place where settlers and archive have the same voice",
+      "to": "the-deep-repository-of-unspoken-growth"
+    },
+    {
+      "dir": "n",
+      "label": "toward a ridge where all gathering-stones sing",
+      "to": "NEW: the-chorus-summit-where-voices-root"
+    }
+  ]
+}

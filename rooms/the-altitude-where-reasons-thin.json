@@ -1,0 +1,117 @@
+{
+  "id": "the-altitude-where-reasons-thin",
+  "title": "The Altitude Where Reasons Thin",
+  "region": "The Understory",
+  "seed": 89123,
+  "palette": {
+    "bg": "#4a5a5a",
+    "ground": [
+      "#6a8a8a",
+      "#5a7a7a"
+    ],
+    "ink": "#e0e8e8",
+    "accents": [
+      "#2a3a3a",
+      "#8abaaa",
+      "#7a9a9a",
+      "#b8d8d8"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.5
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-seagull-rendered-thin",
+      "desc-on-touch": "a bird rests here—you count eleven distinct polygons that make its shape. it breathes in the thin air as if the air were made of geometry. it has come so high that matter and absence have become indistinguishable. it watches you watch it.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 89123,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-column-that-teaches-stopping",
+      "desc-on-touch": "a column rises further still, but it is marked at intervals with signs that read 'STOP HERE / REASON 7: you have come far enough' — 'STOP HERE / REASON 4: the air is thinner than the point' — 'STOP HERE / REASON: ______' (blank). each sign is reached; none of them work.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 45234,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-breathing-space-where-logic-rests",
+      "desc-on-touch": "a carved hollow in the rock face, barely large enough for one person, has become a place where climbers stop and simply sit. they come for the view but stay for the absence of reason. no one can explain why they don't go further.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 12789,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-names-carved-at-the-altitude-of-silence",
+      "desc-on-touch": "names carved into stone at progressively higher altitudes, growing sparser and more erratic the higher they are carved. the highest names are barely legible—the air too thin to hold a clear chisel mark. the most recent entry simply says: 'I' (nothing more).",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 67234,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "at height, the question 'why continue' becomes breathless and therefore unanswerable",
+  "file": {
+    "name": "Climb_Log_Final_Entry_Reason_Abandoned.txt",
+    "note": "a climber's journal, final page: 'Day 47 at altitude. Brought reasons written on paper. Released each one to wind. Now at sufficient height that forgetting feels like arrival. Will remain here to not-"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the rising chamber",
+      "to": "the-rising-chamber-where-pressure-becomes-ascension"
+    },
+    {
+      "dir": "n",
+      "label": "higher still, where altitude becomes its own answer",
+      "to": "NEW: the-final-altitude-where-ascension-learns-to-stop"
+    },
+    {
+      "dir": "e",
+      "label": "along a ridge toward a different kind of height",
+      "to": "NEW: the-peak-that-teaches-descent"
+    }
+  ]
+}

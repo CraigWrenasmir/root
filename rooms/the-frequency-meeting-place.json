@@ -1,0 +1,100 @@
+{
+  "id": "the-frequency-meeting-place",
+  "title": "The Frequency Meeting-Place",
+  "region": "The Comparisons",
+  "seed": 5928471,
+  "palette": {
+    "bg": "#e8dfc4",
+    "ground": [
+      "#c4a87c",
+      "#dab894"
+    ],
+    "ink": "#3d2817",
+    "accents": [
+      "#1e5a96",
+      "#2d7ab8",
+      "#4a9fd8",
+      "#ffaa2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the interference tower",
+      "desc-on-touch": "Two antennas, one broadcasting at 1024 Hz, one at 1025 Hz. Where their signals overlap, they beat against each other at 1 Hz—a slow pulse that you feel in your sternum. They are learning to know each other by learning to interfere perfectly.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 381924,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the beat-pattern grass",
+      "desc-on-touch": "The grass grows in rings radiating from the tower—one ring per beat, one per second. In spring they are vibrant green; in autumn, the pattern becomes a ghost of gold that fades but does not vanish. The ground is teaching the interference pattern to become permanent.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 627194,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.28,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the beating grass",
+      "desc-on-touch": "The grass around the tower pulses at the interference frequency—one beat per second. In spring, the heartbeat of new growth; in autumn, the pulse of decay. The grass has learned the rhythm of two frequencies learning each other.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 451826,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "two frequencies are learning each other by teaching the space between them how to pulse",
+  "file": {
+    "name": "Interference_Harmonics_Study_1989.wav",
+    "note": "A 10-hour recording of two antennas broadcasting at frequencies exactly 1 Hz apart. The resulting beat is a slow pulse—the sound of two signals learning to recognize themselves in each other."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the interference patterns the archive has not yet collapsed",
+      "to": "the-unnamed-resonance-vein"
+    },
+    {
+      "dir": "s",
+      "label": "southward, toward the frequencies that have learned to drift",
+      "to": "NEW: the paddock where all frequencies converge into silence"
+    },
+    {
+      "dir": "n",
+      "label": "northward, into the cascading interference of the full mesh",
+      "to": "the-dispersing-edge"
+    }
+  ]
+}

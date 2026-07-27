@@ -1,0 +1,149 @@
+{
+  "id": "deeper-still-where-roots-remember-being-sky",
+  "title": "Deeper Still, Where Roots Remember Having Been Sky",
+  "region": "The Understory",
+  "seed": 34521,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#3d5d3d",
+      "#2a4a2a"
+    ],
+    "ink": "#c8d8c8",
+    "accents": [
+      "#0a1a0a",
+      "#7a9a7a",
+      "#4a7a4a",
+      "#d8e8d8"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-inverted-tree",
+      "desc-on-touch": "a tree grows downward from a ceiling of earth—roots hanging into air like branches, leaves dissolving into soil above. you understand it has no memory of being inverted; to it, this was always how sky descended.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 34521,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-silhouette-that-learned-to-speak",
+      "desc-on-touch": "a shape cut from paper or cloth casts a shadow that doesn't match its outline. the shadow speaks in a voice that isn't its own, telling stories about a place that's always inverted. sometimes the shadow becomes more real than the object.",
+      "verb": "open",
+      "form": {
+        "type": "sprite",
+        "seed": 45612,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-water-that-rises-downward",
+      "desc-on-touch": "water pools on the underside of stone, held there as if gravity had reversed. insects skim its surface from below. you see reflections of a sky that exists deeper than this place—a sky below, a ground above.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 56789,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-fence-rows-that-remember-planting",
+      "desc-on-touch": "rows of markers or posts stretching into the dark—a plantation grid, but the rows point downward, not across. each marker remembers being a seed, a sprout, a growth—all compressed into a vertical line. the rows have become a language of downward-growth.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 67845,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-hollow-that-grows-inward",
+      "desc-on-touch": "a hollow in a massive root-system has become a dwelling, but the walls curve inward—space compresses as you go deeper. those who enter spend longer than they should, emerging confused about which direction is out.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 12987,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "growth remembers descending. everything that fell learned to call it flying.",
+  "file": {
+    "name": "Warren_Study_Inversion_Notes_Katita_Handwriting.txt",
+    "note": "field notes about the warren's inverted ecology, written upside-down on the page, describing plants that grow into the earth as if into stars"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the deepening passages",
+      "to": "the-deepening-root-warren"
+    },
+    {
+      "dir": "n",
+      "label": "even deeper, where darkness learns to see downward",
+      "to": "NEW: the-root-sight-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the sky that fell upward",
+      "to": "NEW: the-place-where-inversion-became-permanent"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the night you taught the roots which way was up",
+    "narr": [
+      "katita stood beneath the inverted tree—she called it an 'inversion",
+      "study'—and leif asked which direction was falling. she smiled.",
+      "roots above them glowed faintly, photosynthesizing downlight from a",
+      "sun that no longer existed. 'they remember being sky,' she said.",
+      "'that's all memory is. the wrong direction, held perfectly.'"
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

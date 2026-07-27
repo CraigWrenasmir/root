@@ -1,0 +1,116 @@
+{
+  "id": "the-unholdable-pages",
+  "title": "The Unholdable Pages",
+  "region": "The Understory",
+  "seed": 3615927,
+  "palette": {
+    "bg": "#1a1f35",
+    "ground": [
+      "#2d354a",
+      "#1f2938"
+    ],
+    "ink": "#c8d9e8",
+    "accents": [
+      "#b8e0ff",
+      "#60a5fa",
+      "#888fff",
+      "#d8b4fe"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the open book",
+      "desc-on-touch": "You reach for it and your fingers pass through. The pages ripple but do not wet. The text is readable only in peripheral vision—when you look directly, the words rearrange into other words. A book that exists only when you are not watching it read itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 742918,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the reading rain",
+      "desc-on-touch": "Each drop hits the page and instead of bleeding, prints a letter. The rain is reading to you: all the words it has fallen on since it left the sky. A language made of evaporation and descent.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 516839,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the rainfall notation",
+      "desc-on-touch": "Where rain falls on stone, letters form—an alphabet the rain has learned from the pages. Each drop prints a consonant; the gaps between drops spell vowels. The rain is writing in a language the ground is only beginning to read.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 738291,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "here the pages learned that being held is less important than being read by the rain",
+  "file": {
+    "name": "Katita_Marginal_Notes_Unbound_Fragment.txt",
+    "note": "Pages from a notebook that will not hold their binding. Katita's annotations—some legible, some water-damaged beyond recovery—appear to argue with themselves across the margins."
+  },
+  "reverie": {
+    "title": "REVERIE — reading rain in an open hand",
+    "narr": [
+      "You both sat in the space where pages refused to stay",
+      "bound. She read aloud while rain printed new words on",
+      "each drop. 'The pages know they are only real when no",
+      "one holds them,' she said. You watched the letters form",
+      "and dissolve—a book that could only exist in the moment",
+      "between reading and forgetting. She held your hand open."
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the country where pages continue their endless circulation",
+      "to": "the-country-that-continues-reading"
+    },
+    {
+      "dir": "n",
+      "label": "upward, into the library where unbound pages have learned to migrate",
+      "to": "the-burl-library-grove"
+    },
+    {
+      "dir": "s",
+      "label": "downward, toward the archive's deepest reading rooms",
+      "to": "NEW: the chamber where books dream of being read by rain"
+    }
+  ]
+}

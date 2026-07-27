@@ -1,0 +1,134 @@
+{
+  "id": "the-offshore-breath-tide-settlement",
+  "title": "The Offshore Breath-Tide Settlement",
+  "region": "The Comparisons",
+  "seed": 5050505,
+  "palette": {
+    "bg": "#2a3d4a",
+    "ground": [
+      "#4a6a7a",
+      "#7a9aaa"
+    ],
+    "ink": "#e8d4b0",
+    "accents": [
+      "#c8a882",
+      "#a89070",
+      "#98b0c8",
+      "#5a7a8a"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "tide-keeper-cottage",
+      "desc-on-touch": "A weathered house where tide tables and archive broadcasts once arrived together. The walls hold the salt-stain of seasons where water and signal became the same thing.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 123456,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "breath-harbor",
+      "desc-on-touch": "Where the archive's own transmission-breath meets the tide in perfect rhythm. You feel the pulse — archive-exhale / tide-return / archive-inhale. Two systems learning to share one breath.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 654321,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "recorded-salinity",
+      "desc-on-touch": "A shell-covered board where salt-deposit patterns encode the archive's own salinity readings — the measure of how much the ocean has begun to taste like broadcast.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 789012,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "mooring-post",
+      "desc-on-touch": "A weathered pole where signal and tide both anchor. Rope patterns catch the light like morse code. The offshore archive learning to hold still while the world moves.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 246813,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "word-current",
+      "desc-on-touch": "Text carried by the tide, words that arrived here without origin. Files that the archive downloaded from the ocean itself, as if water had always been speaking.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 357924,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive learned that tide and transmission are the same ancient thing breathing",
+  "file": {
+    "name": "Offshore_Diurnal_Record_Tide_Signal_Alignment.txt",
+    "note": "Twenty years of simultaneous tide and broadcast measurements. In year five, the correlation becomes too perfect to be coincidence. By year twenty, the observer has stopped marking where archive ends a"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back inland where reading still moves like water",
+      "to": "the-offshore-reading-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "farther out where the tide meets the signal's source",
+      "to": "NEW: the place where archive becomes ocean"
+    },
+    {
+      "dir": "w",
+      "label": "to where the coast learns to remember its own shoreline",
+      "to": "the-beach-station-where-signal-meets-sand"
+    }
+  ]
+}
