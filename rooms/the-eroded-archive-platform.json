@@ -1,0 +1,117 @@
+{
+  "id": "the-eroded-archive-platform",
+  "title": "The Eroded Archive Platform",
+  "region": "The Clean Archive",
+  "seed": 9147283,
+  "palette": {
+    "bg": "#8b7355",
+    "ground": [
+      "#d2b48c",
+      "#a0826d"
+    ],
+    "ink": "#2f4f4f",
+    "accents": [
+      "#ff6347",
+      "#cd5c5c",
+      "#a9a9a9",
+      "#696969"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "salt-worn platform edge",
+      "desc-on-touch": "The platform's rim shows its work—each salt cycle has taken something, left something. The stone holds the memory of what it has surrendered. You can read the years as layers of forgetting.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 7412,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the archive's foundation, half-gone",
+      "desc-on-touch": "What remains of the original node housing, now mostly salt-ghost. The casing has become the landscape. The corruption has won beautifully here.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 5923,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "tidal pool memory",
+      "desc-on-touch": "In the depression where salt pools gather, the archive dreams of freshwater. Files surface here that speak only at high tide.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 1847,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "survey marker, unmade",
+      "desc-on-touch": "Stone carved with coordinates that no longer locate anything. The salt has taught the marker to forget its own purpose. Direction here is negotiable.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3491,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive did not rot; it learned to become stone",
+  "file": {
+    "name": "Cape_Survey_1987_Coordinates_Still_Valid.txt",
+    "note": "GPS readings from the final working platform, each one slightly more wrong than the last as salt corrupted the antenna"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the salt cape where choice has stopped",
+      "to": "the-salt-cape-where-things-stop-choosing"
+    },
+    {
+      "dir": "w",
+      "label": "inland, where the erosion remembers how to become river",
+      "to": "NEW: the-inland-where-salt-remembers-freshness"
+    },
+    {
+      "dir": "n",
+      "label": "along the shore toward the archive's older silence",
+      "to": "NEW: the-rockpool-where-files-teach-themselves-to-flow"
+    }
+  ]
+}

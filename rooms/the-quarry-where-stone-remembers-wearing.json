@@ -1,0 +1,117 @@
+{
+  "id": "the-quarry-where-stone-remembers-wearing",
+  "title": "The Quarry Where Stone Remembers Wearing Away",
+  "region": "The Understory",
+  "seed": 7263481,
+  "palette": {
+    "bg": "#1a0f0a",
+    "ground": [
+      "#8b6f47",
+      "#d4a574"
+    ],
+    "ink": "#e8d7c3",
+    "accents": [
+      "#c89968",
+      "#deb887",
+      "#9d7e61",
+      "#a0826d"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the worn excavation",
+      "desc-on-touch": "a stone face that bears the marks of every tool that ever touched it—the wear is the memory, the erosion is the archive. you touch the grooves and feel centuries.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the rust-stained tool",
+      "desc-on-touch": "abandoned years ago; the iron has written its own dissolution into the stone it once broke. tool and quarry have traded places.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 2146,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the dust-collection cavity",
+      "desc-on-touch": "a depression where stone-dust has settled for decades, fine as flour, becoming soft. the stone has been so thoroughly worn that its own erosion has made a surface softer than itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5723,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the worker-notched edge",
+      "desc-on-touch": "a ledge deliberately cut by human hands, now the hands are long gone—the ledge is all that remains, eroding in their absence. the stone's memory is more permanent than the memory of who cut it.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 4892,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the quarry is the slow archive of a stone learning it is being unmade",
+  "file": {
+    "name": "Quarry_Site_Log_1963_1984.txt",
+    "note": "work orders giving way to erosion reports; the final entries are weather observations, not extraction notes"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the bedrock foundation that still holds",
+      "to": "the-bedrock-archive-foundation"
+    },
+    {
+      "dir": "w",
+      "label": "to the slopes where extracted stones still remember the mountain",
+      "to": "NEW: the-field-where-quarried-hearts-were-laid"
+    },
+    {
+      "dir": "n",
+      "label": "to the ridge above where the stone began its unmaking",
+      "to": "NEW: the-uncut-peak-where-stone-still-dreams-itself-whole"
+    }
+  ]
+}

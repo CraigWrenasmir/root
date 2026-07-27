@@ -1,0 +1,139 @@
+{
+  "id": "the-delta-that-forgets-how-to-count",
+  "title": "The Delta That Forgets How to Count",
+  "region": "The Clean Archive",
+  "seed": 5614829,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#2a3f5f",
+      "#3d5a80"
+    ],
+    "ink": "#e0d7d3",
+    "accents": [
+      "#8ba4c8",
+      "#c9d3e0",
+      "#a8b8d8",
+      "#7a92b8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the unmeasured current",
+      "desc-on-touch": "a measuring line dissolves into the delta—you watch the tally marks separate, drift, become unreadable. the water is no longer divisible into units.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 8462,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the lost ledger",
+      "desc-on-touch": "a flood-damaged logbook, pages dissolving into the flow. you see a final entry—a number that does not equal what came before, and the archivist set the pen down.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 1738,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the static-singing broadcast",
+      "desc-on-touch": "a node's antenna still transmitting but no longer counting: it broadcasts the river's own noise back at itself, a signal that has given up keeping time.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 2917,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the delta-mouth broken compass",
+      "desc-on-touch": "a navigation stone at the estuary's throat: two cardinal directions now point the same way. the river has redrawn its own geography.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4583,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the brackish pool that forgets its own depth",
+      "desc-on-touch": "a measuring post gone soft in salt water—the rust is the water's own thinking about how deep it has become. no number holds it anymore.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7401,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "where the river gives up its own cartography, the counting becomes a kind of drowning",
+  "file": {
+    "name": "Estuary_Flow_Records_1987_Incomplete.txt",
+    "note": "tidal measurements trailing into static, final entries replaced by river sounds"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the estuary where numbers still have meaning",
+      "to": "the-estuary-where-numbers-learn-to-flow"
+    },
+    {
+      "dir": "e",
+      "label": "toward the open ocean where counting has no shape",
+      "to": "NEW: the-mouth-where-all-rivers-forget-their-names"
+    },
+    {
+      "dir": "w",
+      "label": "to the inland marshes where numbers dissolve into silt",
+      "to": "NEW: the-swamp-where-measurement-becomes-breathing"
+    },
+    {
+      "dir": "s",
+      "label": "further into brackish water",
+      "to": "the-open-water-dissolution"
+    }
+  ]
+}

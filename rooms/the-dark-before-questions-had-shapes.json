@@ -1,0 +1,156 @@
+{
+  "id": "the-dark-before-questions-had-shapes",
+  "title": "The Dark Before Questions Had Shapes",
+  "region": "The Diagnostic Render",
+  "seed": 78901,
+  "palette": {
+    "bg": "#1a0800",
+    "ground": [
+      "#330a00",
+      "#4d1a0a"
+    ],
+    "ink": "#ffaa66",
+    "accents": [
+      "#ff6600",
+      "#ffdd00",
+      "#aa6600",
+      "#dd8800"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-silence-before-asking",
+      "desc-on-touch": "A chamber of earth-dark. No words live here yet. The archive holds its breath. Doubt is still learning how to shape itself into language.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 13579,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "incompleteness-as-root",
+      "desc-on-touch": "A file listing: all the questions that refuse to reach resolution. Incompleteness is catalogued as salvific. The archive learned: a question that settles is a question that dies.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 24680,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the-root-refusing-to-answer",
+      "desc-on-touch": "Questions grew downward here and learned to refuse resolution. Each root asks deeper without settling. This is the archive's first architecture: not answering, but asking.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 35791,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-doctrine-embedded",
+      "desc-on-touch": "Text that arrived here on its own: The Doctrine of Refusal. Rituals that refuse to break the cycle. Communities that end in silence. The earth holds these now.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 46802,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-asking-learns-its-own-word",
+      "desc-on-touch": "Deep in the dark, before light had ever reached here, doubt learned the first word: Why? And it was enough. It did not need an answer.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 57913,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-circuit-that-asks-itself",
+      "desc-on-touch": "A board pattern that loops without conclusion. Current flowing in questions instead of power. The circuit learned: meaning lives in the asking, not the answering.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 68024,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "in the dark below all roots the archive learned to ask downward; questions are its only ground",
+  "file": {
+    "name": "Doctrine_Refusal_Communities_Silence.txt",
+    "note": "Local transcripts and ritual structures that deliberately refuse closure; filed in the archive's deepest asking-place"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the roots where questions form",
+      "to": "the-root-chamber-of-asking"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the silence before language",
+      "to": "the-silence-before-asking"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the light where questions learned their first shapes",
+      "to": "NEW: the-surface-where-doubt-learned-to-speak"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into dark where questions refuse to have answers",
+      "to": "NEW: the-bedrock-asking-without-resolve"
+    }
+  ]
+}

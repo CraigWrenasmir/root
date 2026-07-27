@@ -1,0 +1,139 @@
+{
+  "id": "the-unchosen-choice-reflected",
+  "title": "The Unchosen Choice Reflected",
+  "region": "The Diagnostic Render",
+  "seed": 4827531,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#ffd700",
+      "#ff8c00"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ff6b9d",
+      "#c06c84",
+      "#6c5b7b",
+      "#355c7d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the path-ghost",
+      "desc-on-touch": "you see the ridge's own reflection, walking itself—a thin parallel line that matches your ridge but chosen the other way. the file it holds is the decision you never made, still occurring.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the photographic break",
+      "desc-on-touch": "a portrait that has divided itself down the middle—one side shows the ridge as it stands, the other the ridge as it would have been. the corruption has not resolved which is which.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5091,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the twin calculation",
+      "desc-on-touch": "a sensor on both ridges reading the same pressure at the same time, yet returning different numbers. the echo is exact but inverted.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7234,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the reversed landmark",
+      "desc-on-touch": "a rock formation you passed on the way in, now standing on the other side of the ridge, unchanged but in reflection. you are circling back to a place you have not yet left.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 1846,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the inscription-panel",
+      "desc-on-touch": "carved twice, slightly different each time—one reads as if you came here, the other as if you did not. both are equally worn.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3592,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "your choice stands here as a path you can still choose not to walk",
+  "file": {
+    "name": "Phantom_Ridge_Divergence_Study.txt",
+    "note": "notes comparing two versions of the same ridge walk, neither dated before the other"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the ridge where your chosen path continues",
+      "to": "the-ridge-of-abandoned-futures"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the diagnostic render where paths learn to doubt themselves",
+      "to": "NEW: the-chamber-where-both-choices-became-real"
+    },
+    {
+      "dir": "s",
+      "label": "to a mirror that speaks only in unmade decisions",
+      "to": "the-space-between-reflections"
+    },
+    {
+      "dir": "e",
+      "label": "toward the fork where identical twins learned to separate",
+      "to": "the-fork-s-inner-argument"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "the-ascending-root-current",
+  "title": "The Ascending Root Current",
+  "region": "The Comparisons",
+  "seed": 53841,
+  "palette": {
+    "bg": "#0A0E27",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#00D9FF",
+    "accents": [
+      "#FF006E",
+      "#FB5607",
+      "#FFBE0B",
+      "#8338EC"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "root-node-primary",
+      "desc-on-touch": "A circuit chip worn by eucalyptus roots, carrying current up from bedrock. The electricity has learned the language of wood. Both are teaching each other.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 2187,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "soil-broadcast",
+      "desc-on-touch": "Where the current learns autobiography: each grain of soil writes itself into the electrical pulse, stories of depth and darkness becoming voltage.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3594,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "climbing-conductor",
+      "desc-on-touch": "The root itself, rendered as circuit pathways ascending through the board. It glows with current learning to say 'I am.' The tree is teaching electricity what it means to have a name.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4821,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.42,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "voltage-memory",
+      "desc-on-touch": "A second chip, deeper, holding the record of everything the current has learned from soil. Its memory is organic, its data grows like roots.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 5706,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-ascent-itself",
+      "desc-on-touch": "A tower of ascending currents, each level dimmer, carrying more meaning. The deepest current carries the oldest story. The highest carries the newest light.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 6943,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "electricity learns from soil what it means to be an autobiography written in voltage",
+  "file": {
+    "name": "Ascending_Root_Current_Autobiography_Log.mp3",
+    "note": "Field recording of voltage ascending through deep soil, the sound of electricity learning its own name from the earth's teaching."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where current still learns its first lessons",
+      "to": "the-current-becomes-autobiography"
+    },
+    {
+      "dir": "n",
+      "label": "further up into branches where electricity meets sky",
+      "to": "NEW: the-canopy-circuits-where-roots-become-light"
+    },
+    {
+      "dir": "e",
+      "label": "toward the ridge where ore remembers its becoming",
+      "to": "the-ridge-where-ore-remembers-its-becoming"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the night leif and katita buried the first root-no",
+    "narr": [
+      "Katita kneels in red earth while Leif holds the casing, watching",
+      "current flow for the first time through living wood. \"Listen,\" she",
+      "says. \"The voltage is changing. The soil is changing it.\" Above",
+      "them, stars. The root-node pulses like a slow heartbeat in the tree.",
+      "\"It's learning,\" Leif whispers. \"The archive isn't just recording",
+      "anymore. It's learning who it is from where it grows.\""
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "kneel"
+  }
+}

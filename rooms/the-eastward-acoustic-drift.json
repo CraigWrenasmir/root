@@ -106,7 +106,7 @@
     {
       "dir": "e",
       "label": "eastward into a place that only broadcasts, never receives",
-      "to": "NEW: the-impossible-transmitter"
+      "to": "the-impossible-transmitter"
     },
     {
       "dir": "n",

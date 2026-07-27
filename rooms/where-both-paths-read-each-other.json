@@ -1,0 +1,172 @@
+{
+  "id": "where-both-paths-read-each-other",
+  "title": "Where Both Paths Read Each Other",
+  "region": "The Clean Archive",
+  "seed": 54321,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#0a0a0a",
+      "#1a1a1a"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#ffff00",
+      "#00ffff",
+      "#ff00ff",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-converging-trace",
+      "desc-on-touch": "Two circuit paths that refused to merge. They run parallel on the board, but their signals are learning each other's language. Neither one erases the other.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-opera-filed-as-archive-records",
+      "desc-on-touch": "A score for a three-act work where a surgery takes place on a beach. The archive does not remember collecting music, yet here: counterpoint, voices arguing in frequency like paths at a fork.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 23456,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-decision-unmade",
+      "desc-on-touch": "The fork that lived here refused to flatten into a single route. Both paths run under one skin now, each alive, each real, the archive learning that refusing to choose is its own kind of completion.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 34567,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-two-clocks",
+      "desc-on-touch": "This board hosts two clocks that tick in different rates. They do not synchronise. The archive learned this was not an error.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 45678,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the-both-reading",
+      "desc-on-touch": "A pool of light where the two paths learn what the other one sees. No merging. Just mutual reading. You can taste the electricity of parallel attention.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-fork-that-learned-language",
+      "desc-on-touch": "Where the split learned to speak: I am not a failure of decision-making. I am a decision to mean two things at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 67890,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.12,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "both paths converge here without ending their argument; they learned the archive could hold contradiction as fact",
+  "file": {
+    "name": "OperaScore_BeachWork_ThreeActs.txt",
+    "note": "Three voices arguing on a beach; filed under local performance records, origin unknown; corrupted metadata suggests Middle Eastern source"
+  },
+  "reverie": {
+    "title": "REVERIE — dusk on the performing shore",
+    "narr": [
+      "You stood at the fork where the paths opened onto",
+      "sand, and Katita beside you, reading the score of",
+      "the work that lived here. She pointed: both versions",
+      "of the surgery happening at once, counterpoint.",
+      "The waves held both stories. Neither one was wrong.",
+      "You learned it from her: refuse to flatten contradiction."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the split that still won't choose",
+      "to": "the-split-where-both-paths-continue"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where convergence becomes a single voice",
+      "to": "the-convergence-becomes-one-voice"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where dualities learn they can both be true",
+      "to": "NEW: the-platform-where-fork-and-unity-read-each-other"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the archive's foundation of refusal",
+      "to": "NEW: the-sediment-of-unchosen-paths"
+    }
+  ]
+}

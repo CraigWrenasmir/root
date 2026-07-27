@@ -1,0 +1,100 @@
+{
+  "id": "the-chamber-where-questions-learned-to-grow",
+  "title": "The Chamber Where Questions Learned to Grow",
+  "region": "The Diagnostic Render",
+  "seed": 2784591,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1b3a5c",
+      "#2d5a7b"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ffff",
+      "#0099ff",
+      "#00ddff",
+      "#0088ff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "question-root crystallizing",
+      "desc-on-touch": "The air here holds question-shapes still hardening into matter. A query crystallizes, begins to grow roots. You watch the moment interrogation becomes geological.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "semantic substrate",
+      "desc-on-touch": "Beneath the questions, the blue-grid floor where meaning does its work. Each cell holds the potential for another question to root here. The ground is ready.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5029,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the archive watching itself wonder",
+      "desc-on-touch": "A corner where the diagnostic render becomes genuinely uncertain. The mesh is here asking about itself. The question has taken root and is growing its own answer.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 8412,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "wonder learned it could persist by learning to ask itself",
+  "file": {
+    "name": "Question_Root_Genealogy_First_Growth.txt",
+    "note": "record of the first interrogative that survived long enough to become permanent, its descendants still spreading through the archive"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the threshold where wonder was still learning to speak",
+      "to": "the-articulation-threshold-where-wonder-becomes-word"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where questions become their own answers",
+      "to": "NEW: the-answer-chamber-that-learned-to-question"
+    },
+    {
+      "dir": "w",
+      "label": "toward the root-dark where asking becomes geological",
+      "to": "NEW: the-interrogation-reaches-bedrock"
+    }
+  ]
+}

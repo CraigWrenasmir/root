@@ -1,0 +1,100 @@
+{
+  "id": "the-ledge-where-silence-has-walls",
+  "title": "The Ledge Where Silence Has Walls",
+  "region": "The Understory",
+  "seed": 6428137,
+  "palette": {
+    "bg": "#0f0a0a",
+    "ground": [
+      "#3a2a2a",
+      "#2f2f2f"
+    ],
+    "ink": "#9a8a8a",
+    "accents": [
+      "#c8a882",
+      "#a89878",
+      "#8a7868",
+      "#6a5a4a"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.4
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the terracotta threshold",
+      "desc-on-touch": "a narrow ledge where the gorge's sides rise vertical—sound is trapped here, bounces trapped, echoes that never escape. silence is not absence: it is pressure with walls.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7834,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the acoustic-trap glyph",
+      "desc-on-touch": "carved into the stone centuries ago, marks where sound was deliberately contained—the old inhabitants understood that silence could be architecture.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2951,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the stone that learned not to echo",
+      "desc-on-touch": "porous and ancient, it has absorbed so many sounds that it no longer returns them. the echo is the stone giving up its own voice.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4167,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the ledge where the gorge taught sound to stop being sound",
+  "file": {
+    "name": "Gorge_Acoustic_Study_Abandoned.txt",
+    "note": "silence measurements from a chamber where instruments could not escape their own noise"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the gorge where sky becomes pressure",
+      "to": "the-gorge-sky-opening"
+    },
+    {
+      "dir": "w",
+      "label": "to deeper silence, where walls forget to echo",
+      "to": "NEW: the-chamber-where-sound-learns-to-rest"
+    },
+    {
+      "dir": "n",
+      "label": "to a place where silence learns to broadcast",
+      "to": "NEW: the-transmitter-that-sends-only-quiet"
+    }
+  ]
+}

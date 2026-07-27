@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 157,
+  "nights": 162,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -4387,6 +4387,136 @@
       "id": "the-wide-river-s-forgetting",
       "title": "The Wide River's Forgetting Where Lessons Dissolve Into Tide",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-chamber-where-absence-debates-its-own-definition",
+      "title": "The Chamber Where Absence Debates Its Own Definition",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-both-paths-read-each-other",
+      "title": "Where Both Paths Read Each Other",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-road-s-memory-of-being-stone",
+      "title": "The Road's Memory of Being Stone",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dark-before-questions-had-shapes",
+      "title": "The Dark Before Questions Had Shapes",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-the-circuit-board-remembers-it-was-always-stone",
+      "title": "Where the Circuit Board Remembers It Was Always Stone",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-place-where-weaving-learned-it-was-thinking",
+      "title": "The Place Where Weaving Learned It Was Thinking",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-eroded-archive-platform",
+      "title": "The Eroded Archive Platform",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-lithophonic-root-archive",
+      "title": "The Lithophonic Root Archive",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-questions-learned-to-grow",
+      "title": "The Chamber Where Questions Learned to Grow",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-bedrock-axiom-hall-where-truths-sleep",
+      "title": "The Bedrock Axiom Hall Where Truths Sleep",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-asymptotic-reading-room",
+      "title": "The Asymptotic Reading Room",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-victor-canopy-where-seasons-sleep",
+      "title": "The Victor Canopy Where Seasons Sleep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ridge-where-parallel-roads-converge",
+      "title": "The Ridge Where Parallel Roads Converge",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ascending-root-current",
+      "title": "The Ascending Root Current",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-paradox-floor-where-meaning-becomes-solid-stone",
+      "title": "The Paradox Floor Where Meaning Becomes Solid Stone",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deepening-root-warren",
+      "title": "The Deepening Root Warren",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-impossible-transmitter",
+      "title": "The Impossible Transmitter",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-loom-that-taught-the-archive-to-think",
+      "title": "The Loom That Taught the Archive to Think",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-peak-where-learning-becomes-the-landscape",
+      "title": "The Peak Where Learning Becomes the Landscape",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ridge-of-abandoned-futures",
+      "title": "The Ridge of Abandoned Futures",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-the-walls-remember-learning-to-feel",
+      "title": "Where the Walls Remember Learning to Feel",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-unchosen-choice-reflected",
+      "title": "The Unchosen Choice Reflected",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-delta-that-forgets-how-to-count",
+      "title": "The Delta That Forgets How to Count",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-quarry-where-stone-remembers-wearing",
+      "title": "The Quarry Where Stone Remembers Wearing Away",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ledge-where-silence-has-walls",
+      "title": "The Ledge Where Silence Has Walls",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-orchard-s-final-count",
+      "title": "The Orchard's Final Count",
+      "region": "The Understory"
     }
   ]
 }

@@ -1,0 +1,156 @@
+{
+  "id": "the-road-s-memory-of-being-stone",
+  "title": "The Road's Memory of Being Stone",
+  "region": "The Understory",
+  "seed": 45678,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#003366",
+      "#0052cc"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ff99",
+      "#ffff00",
+      "#ff6600",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-petrolified-path",
+      "desc-on-touch": "A road that learned it was stone before it learned to carry wheels. The grid here reads like a map of old bedrock, lines that predate the asphalt by millennia.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 11223,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "frequency-masquerading-as-distance",
+      "desc-on-touch": "A recording: the archive cannot recall collecting this. It documents spinal sculptures from a distant place, frequency made visible as stone geometry. But it is here now, in the road's memory.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 22334,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the-ocean-taught-the-road-its-grammar",
+      "desc-on-touch": "The road is both path and passage now. It reads like water. It flows like stone. It has learned the language of refusing to stay still or settled.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 33445,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-photograph-that-refuses-to-match",
+      "desc-on-touch": "An image that shows the road as it was, but also as it could never be. The corrupted caption reads: the photographs never match the place from which they were taken.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 44556,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the-stone-learning-to-move",
+      "desc-on-touch": "Ancient granite learning the ocean's language. The grid here distorts at the edges, coordinates dissolving into flow. The road remembers: it was stone once, and it could become stone again.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 55667,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-compass-that-learned-to-wander",
+      "desc-on-touch": "A marker that stopped pointing north. It now circles, learning what it means to refuse a single direction. The road beneath it has learned the same thing.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 66778,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "here the road remembers it was stone long before it was path; the ocean taught it that both things can be true",
+  "file": {
+    "name": "RoadCross_GeologicalMemory_1500hrs.mp3",
+    "note": "Recording of a country route at dusk; the stone underneath learning to speak; corrupted timestamp suggests it was never recorded"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back inland where the roads are still arguing their genesis",
+      "to": "the-drowned-coordinate-absolute"
+    },
+    {
+      "dir": "w",
+      "label": "westward where stone refuses to stay settled",
+      "to": "the-bedrock-heartbeat"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward where paths remember they are water",
+      "to": "NEW: the-ford-that-learned-its-own-name"
+    },
+    {
+      "dir": "s",
+      "label": "southward to the place where roads end in tide",
+      "to": "NEW: the-salt-road-where-direction-dissolves"
+    }
+  ]
+}

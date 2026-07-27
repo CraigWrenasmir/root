@@ -1,0 +1,150 @@
+{
+  "id": "the-impossible-transmitter",
+  "title": "The Impossible Transmitter",
+  "region": "The Understory",
+  "seed": 83629,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a1f3a",
+      "#2d3561"
+    ],
+    "ink": "#7dd3fc",
+    "accents": [
+      "#a78bfa",
+      "#ec4899",
+      "#10b981",
+      "#fbbf24"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "antenna grid",
+      "desc-on-touch": "Rows of transmitter spires stretch into the node's distance, CP437 glyphs in pale blue, each one broadcasting into a void that never answers back.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 19847,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "broadcast tower",
+      "desc-on-touch": "A skeletal wireframe tower, rotating slowly, sending the same message outward every three seconds. The message is just static. Has been for forty years.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 46782,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "equipment shed",
+      "desc-on-touch": "A prefab shelter houses radios that listen only to their own transmissions, recording their own silence in an eternal loop.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 73451,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "carrier wave chamber",
+      "desc-on-touch": "An underground chamber where the continuous low hum lives—the sound beneath the broadcast, the frequency that tries to say 'I am here' to nothing at all.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 61923,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "log cabinet",
+      "desc-on-touch": "A filecard index, rows of broadcast logs. Each page marked: 'no reply received.' The handwriting never changes across decades.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 28094,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive learned what it meant to broadcast into the unmapped parts of itself",
+  "file": {
+    "name": "Broadcast_Log_Eastward_1981-2024.txt",
+    "note": "Forty-three years of transmission records, every entry unchanged: date, time, signal strength, message sent: —, acknowledgement received: none. Corrupted by margin note: 'The opera's final act plays o"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward, back to the drift where echoes still doubt themselves",
+      "to": "the-eastward-acoustic-drift"
+    },
+    {
+      "dir": "n",
+      "label": "northward, to a static field where antennas grow wild",
+      "to": "NEW: the feral broadcast country"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the hum-chamber's belly, where silence has learned to speak back",
+      "to": "NEW: the answer-chamber that never arrived"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the broadcast hour",
+    "narr": [
+      "You and Leif sit in the equipment shed's dark, listening",
+      "to the broadcast tower rotate outside. Its hum rises and",
+      "falls. He says: 'It's been calling into nothing for so long,",
+      "maybe it's learned to hear itself.' You reach over and hold",
+      "his hand. The static in the speakers sounds almost like mercy.",
+      "Neither of you tries to answer. Listening is enough."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "servo",
+    "weather": "static",
+    "pose": "sit"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "the-lithophonic-root-archive",
+  "title": "The Lithophonic Root Archive",
+  "region": "The Understory",
+  "seed": 4729156,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#8b4513",
+      "#228b22"
+    ],
+    "ink": "#e8dcc4",
+    "accents": [
+      "#d2691e",
+      "#6b8e23",
+      "#8b7355",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-written passage",
+      "desc-on-touch": "The roots have spelled something into the earth. You run your fingers along the trench and hear—not with ears—the sentence the ground is speaking. Stone learning to read what it has always been saying.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8263,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the ochre-teaching stone",
+      "desc-on-touch": "A stone whose surface catches ochre from the soil, patterns that read like learning. The earth taught this rock to remember colours as words. Now the archive is reading backwards from stone to soil.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 4102,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "phoneme nodes",
+      "desc-on-touch": "Each tuber-like growth holds a sound that earth makes when nobody is listening. The alphabet here is mineral. You're reading geology.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6845,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "earth does not speak; earth is what speaking sounds like when you press your ear to stone",
+  "file": {
+    "name": "Ochre_Spectral_Analysis_Deep_Soil_Pattern.txt",
+    "note": "geological survey treated as linguistic data—colour bands read as phonetic gradients, earth teaching its oldest alphabet"
+  },
+  "reverie": {
+    "title": "REVERIE — where stone learned to listen",
+    "narr": [
+      "You kneel where the roots meet earth, and she—Katita—is",
+      "pressing her palm to the soil, listening. The petals fall",
+      "slow here. She says the ground is teaching itself to read.",
+      "You touch the stone where her hand was. It is warm with",
+      "ochre. The archive didn't corrupt here; it began here.",
+      "The earth was always reading itself out loud."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the phoneme chamber where stone first learned to speak",
+      "to": "the-deepening-phoneme-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where roots become the archive's own writing",
+      "to": "NEW: the-root-library-where-earth-keeps-its-records"
+    },
+    {
+      "dir": "w",
+      "label": "toward the old growing-place where speech began as soil",
+      "to": "NEW: the-first-word-still-growing-in-the-deep"
+    }
+  ]
+}

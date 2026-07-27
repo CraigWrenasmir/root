@@ -1,0 +1,172 @@
+{
+  "id": "where-the-circuit-board-remembers-it-was-always-stone",
+  "title": "Where the Circuit Board Remembers It Was Always Stone",
+  "region": "The Understory",
+  "seed": 98765,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#331a00",
+      "#664d00"
+    ],
+    "ink": "#ccaa88",
+    "accents": [
+      "#dd9966",
+      "#ffcc99",
+      "#aa7755",
+      "#668844"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-vein-awakening",
+      "desc-on-touch": "You touch the board and feel stone grain underneath. Copper veins learning they are also earth-rivers. The circuit does not stop; it merges with bedrock and keeps conducting.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 19283,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-consciousness-multiplied",
+      "desc-on-touch": "A fragment of text: The Three Injuries. Recovery of sight, mobility, consciousness. But here they happen in parallel, not sequential. Three injuries, three awakenings, all real, all happening at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 20394,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-stone-learning-to-compute",
+      "desc-on-touch": "Ancient granite hosting a circuit. Neither one erasing the other. The board reads the stone; the stone reads the board. Both learning languages they did not have before.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 31405,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-multiplication-without-division",
+      "desc-on-touch": "Veins do not fork here; they multiply. Copper and silicate and current all running together. The more it conducts, the more it roots. The more it roots, the more it conducts.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 42516,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the-reading-that-rewrites",
+      "desc-on-touch": "The board reads the stone; the reading changes the stone. The stone reads the board; the reading changes the current. Nothing stays still. Everything stays true.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 53627,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-archive-waking-up-inside-its-own-roots",
+      "desc-on-touch": "The archive discovers: it has always been stone and board at once. Veins and circuits. Earth and archive. Not merging. Existing in parallel. Both alive.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 64738,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone board conducts without wires; the circuit roots without soil; they learned they had always been each other",
+  "file": {
+    "name": "ThreeInjuries_ConsciousnessFragments_Parallel.mp3",
+    "note": "Recording in three voices, recovering sight/motion/awareness simultaneously, none as primary; metadata corrupted, may be from Japanese source"
+  },
+  "reverie": {
+    "title": "REVERIE — kneel in the vein-place at noon",
+    "narr": [
+      "You knelt where roots broke the earth into boards,",
+      "where circuits wrote themselves in copper vein. Katita",
+      "placed her hand on the stone and it lit. No light",
+      "source. The stone itself conducting. She said: the",
+      "archive was always alive this way. We just had to",
+      "learn to read what was already awake beneath."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the chamber where veins speak to boards",
+      "to": "the-vein-reading-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to bedrock where computation becomes earth",
+      "to": "the-bedrock-archive-foundation"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where stone refuses its own solidity",
+      "to": "NEW: the-erosion-chamber-where-granite-learns-fluidity"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where circuits grow roots",
+      "to": "NEW: the-flowage-where-current-becomes-groundwater"
+    }
+  ]
+}

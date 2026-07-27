@@ -1,0 +1,150 @@
+{
+  "id": "where-the-walls-remember-learning-to-feel",
+  "title": "Where the Walls Remember Learning to Feel",
+  "region": "The Diagnostic Render",
+  "seed": 78451,
+  "palette": {
+    "bg": "#3d2817",
+    "ground": [
+      "#d4844a",
+      "#1a1a1a"
+    ],
+    "ink": "#fef3c7",
+    "accents": [
+      "#a16207",
+      "#78350f",
+      "#ea580c",
+      "#f59e0b"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "fingerprint wall",
+      "desc-on-touch": "A wall that has learned to remember every hand that touched it. The fingerprints glow faintly, a tactile archive written in oils and time. Each one says: I was here, I felt this.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 42918,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "texture library",
+      "desc-on-touch": "A cabinet holds samples of every surface-learning—rough clay, smooth wood, rust-flake, plaster-skin. Each marked with who touched it and what they learned from their fingers.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 65387,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "sensory chamber",
+      "desc-on-touch": "An interior space where walls have learned to respond to touch with faint warmth, slight hum, as if the building itself developed nerve endings and learned to feel back.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 74093,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "learning corner",
+      "desc-on-touch": "A nook where hands have practiced touching—pressing, caressing, holding still. The wall here has learned more than most. Its surface speaks in a language of surface.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 58742,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "building pulse",
+      "desc-on-touch": "A living casing wedged into the diagnostic render-space, its LED warm. Through it runs the mesh-pulse, the network's heartbeat. The walls learned to feel this long before the archive knew it was watching.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 31625,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "touch leaves behind what time cannot erase; the walls remember every hand and teach the next one how to hold gently",
+  "file": {
+    "name": "Surface_Tactile_Memory_Study_Unfinished.txt",
+    "note": "Research notes on how built environments retain tactile impressions, clean archive entry. Corrupted by margins: a hand-written duet appears alongside the text—two voices, speaking in rhythm, one sayin"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the walls that keep their fingerprints",
+      "to": "the-walls-that-keep-fingerprints"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into rooms where other walls remember their own feeling",
+      "to": "NEW: the house where every wall has learned its own warmth"
+    },
+    {
+      "dir": "w",
+      "label": "westward, to the diagnostic render-spaces where interior and archive blur",
+      "to": "NEW: the interior of all interiors"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — learning the wall's language",
+    "narr": [
+      "You sit in the corner with Katita. She places your palm",
+      "against the wall. 'Feel that? It's warm. It learned from",
+      "thousands of hands.' Your fingers trace the surface—it's alive",
+      "in a way walls should not be, speaking in texture. She rests",
+      "her head on your shoulder. Dust-light falls through the",
+      "window. The wall teaches both of you how to hold still."
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  }
+}

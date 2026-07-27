@@ -144,7 +144,7 @@
     {
       "dir": "n",
       "label": "upward toward roots; where the current learns to climb",
-      "to": "NEW: the-ascending-root-current"
+      "to": "the-ascending-root-current"
     },
     {
       "dir": "s",

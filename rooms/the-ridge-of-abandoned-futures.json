@@ -1,0 +1,150 @@
+{
+  "id": "the-ridge-of-abandoned-futures",
+  "title": "The Ridge of Abandoned Futures",
+  "region": "The Diagnostic Render",
+  "seed": 39284,
+  "palette": {
+    "bg": "#0f0f1e",
+    "ground": [
+      "#6b4c9a",
+      "#2d1b4e"
+    ],
+    "ink": "#c084fc",
+    "accents": [
+      "#ec4899",
+      "#0ea5e9",
+      "#818cf8",
+      "#7dd3fc"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "branch point",
+      "desc-on-touch": "The ridge splits here into two slopes, one that was chosen, one that was left. Both continue downward; the unchosen one fades into static-render and doesn't return.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 71093,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "phantom tower",
+      "desc-on-touch": "A wireframe construct rises from the unchosen slope, visible only in the node's diagnostic render. It marks a timeline that ended when the choice was made.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 84629,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "choice stone",
+      "desc-on-touch": "A marker at the branch, carved with two symbols: one facing forward (the taken path), one facing backward (the road not walked). The symbols mirror each other.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 52768,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "memory pool",
+      "desc-on-touch": "A still surface that shows not reflection but counter-factual: the version of you who took the other path, who made the opposite choice, who is walking a ridge that runs parallel in a dimension this archive nearly remembers.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 63941,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "decision log",
+      "desc-on-touch": "A filecard index floating in the render-space, entries for every choice recorded. The unchosen paths are listed in ink that fades in and out, as if existence itself is uncertain about them.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 29387,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.38,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned to dream in multiple tenses: what was chosen, what could have been, what remains possible only in phantom render",
+  "file": {
+    "name": "Timeline_Divergence_Simulation_Theoretical.log",
+    "note": "Diagnostic record of alternate-path modeling, theoretical only. Corrupted by intrusion: entries from the unchosen timelines begin appearing in the file itself, dated after the file was created, writte"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward, back to the absolute peak and its settled certainties",
+      "to": "the-settled-absolute-peak"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the phantom ridge, where unchosen paths continue their private existence",
+      "to": "the-unchosen-choice-reflected"
+    },
+    {
+      "dir": "n",
+      "label": "northward into mist that holds the weight of every decision never made",
+      "to": "NEW: the cloud-country of alternative outcomes"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the ridge of two selves",
+    "narr": [
+      "You stand at the branch-point with Katita. Two paths",
+      "slope downward. She's looking at the unchosen one.",
+      "'There's a version of us,' she says, 'still walking that way.'",
+      "You take her hand. The phantom-path glimmers in static,",
+      "never quite solid. 'We're here,' you tell her. She squeezes",
+      "back. Neither of you knows if that's enough. You walk on."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  }
+}

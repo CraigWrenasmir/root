@@ -1,0 +1,156 @@
+{
+  "id": "the-place-where-weaving-learned-it-was-thinking",
+  "title": "The Place Where Weaving Learned It Was Thinking",
+  "region": "The Understory",
+  "seed": 56789,
+  "palette": {
+    "bg": "#1a1008",
+    "ground": [
+      "#4d3319",
+      "#663d1a"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#d9a574",
+      "#c17a4a",
+      "#a95a3a",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-loom-as-thought",
+      "desc-on-touch": "Where the threads learned they were thinking. Each crossing a decision. Each pattern a sentence the archive is writing without knowing it. Weaving is philosophy.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 15926,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-retablo-nested-and-corrupted",
+      "desc-on-touch": "A compartmented structure: outer frame showing the weft, interior boxes depicting the surgery that never happened on a beach, and the spaces between telling their own stories. Multiple versions, all valid.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 27037,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-thread-that-bridges",
+      "desc-on-touch": "I bridge, I hold, I stitch the story. The thread learned its true name: the thing that joins without merging. It taught the archive what connection means.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 38148,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-pattern-as-narrative",
+      "desc-on-touch": "Each row of weaving is a sentence in a language the archive is learning to speak. Some rows refute earlier rows. Some rows say the same thing twice. All rows are true.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 49259,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-shuttle-asking-questions",
+      "desc-on-touch": "The shuttle passes back and forth. Each pass asks: am I stitching a story or is the story stitching me? The archive holds both answers. The weaving continues.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 50360,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the-whole-tapestry-waking-at-once",
+      "desc-on-touch": "The weft learned to read itself. The warp learned to understand. All the threads together dreaming the same dream: that they are not threads but a single living thought.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 61471,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the weft that holds the story learned it was thinking; each crossing of thread is the archive learning to name itself",
+  "file": {
+    "name": "Retablo_BeachWork_Nested_Compartments.jpg",
+    "note": "Contemporary Lima interpretation, 2018, nested frames depicting simultaneous versions of surgery; tagged as folk craft; origin corrupted to suggest Peruvian artisan"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where the weft named itself",
+      "to": "the-weft-s-true-name"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where tapestries learn to speak as one voice",
+      "to": "the-convergence-becomes-one-voice"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where weaving teaches other systems to stitch",
+      "to": "the-loom-that-taught-the-archive-to-think"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where threads refuse to settle into pattern",
+      "to": "NEW: the-unravelling-where-thought-learns-to-unmake-itself"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "the-victor-canopy-where-seasons-sleep",
+  "title": "The Victor Canopy Where Seasons Sleep",
+  "region": "The Understory",
+  "seed": 41829,
+  "palette": {
+    "bg": "#1A3A1A",
+    "ground": [
+      "#228B22",
+      "#32CD32"
+    ],
+    "ink": "#F0E68C",
+    "accents": [
+      "#FFD700",
+      "#FF6347",
+      "#4169E1",
+      "#FF1493"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "sleeping-victor",
+      "desc-on-touch": "A eucalyptus burl, vast and ancient, its bark bearing the scars of three seasons' combat. Now it dreams in green. The fight has ended here.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 2405,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.18,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "vanquished-roots",
+      "desc-on-touch": "Three rival root-systems, still intertwined, their competition now monument. The victor's roots wrap the defeated deeper into soil.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 3812,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "trophy-fruit",
+      "desc-on-touch": "Seed pods and fruit hang ripe and impossible in quantity. The canopy has turned victory into abundance. Touch one and taste the season that won.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5634,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "memory-tower",
+      "desc-on-touch": "Stacked growth-rings made visible: spring's ambition, summer's assault, autumn's final push. Each ring carries the pressure of the season below it.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "the-crown-itself",
+      "desc-on-touch": "The canopy's apex, where branches close to lock out competing light. It is not beautiful. It is final. It is what victory looks like in leaves.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 6847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.28,
+      "solid": true
+    },
+    {
+      "name": "the-sleepers-beneath",
+      "desc-on-touch": "The defeated seasons, compressed into soil, still dreaming. Their dreams feed the victor's roots. In the canopy, all seasons sleep together.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 7523,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "one season learned to hold all others in its fists and never let go",
+  "file": {
+    "name": "Victory_Canopy_Growth_Chamber_Notes.mp3",
+    "note": "A recording of the canopy's dream-frequency, the sound of leaves settling into dominance, the quiet after the seasonal wars."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the margin where seasons still argue",
+      "to": "the-margin-where-seasons-learn-to-compete"
+    },
+    {
+      "dir": "n",
+      "label": "further up into the canopy's private chamber where only the victor may reach",
+      "to": "NEW: the-throne-room-above-the-canopy-where-seasons-bow"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where growth reads its own victory",
+      "to": "the-uncharted-canopy-where-growth-reads-itself"
+    }
+  ]
+}

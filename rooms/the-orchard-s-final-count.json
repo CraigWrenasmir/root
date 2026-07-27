@@ -1,0 +1,134 @@
+{
+  "id": "the-orchard-s-final-count",
+  "title": "The Orchard's Final Count",
+  "region": "The Understory",
+  "seed": 8156742,
+  "palette": {
+    "bg": "#1a2416",
+    "ground": [
+      "#2d5a3d",
+      "#4a8a5c"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#8fbc8f",
+      "#a0c49a",
+      "#7aa872",
+      "#6b9a5f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the final fence-post",
+      "desc-on-touch": "a numbered post at the orchard's edge—the last tree is behind you, the count has ended. the dream that continued without dreamers has learned to finish.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 3621,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the numbered canopy",
+      "desc-on-touch": "each tree has been marked with its count—row one: 1, 2, 3... the archive made of trees. when the last number is reached, the forest learns it is finite.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5947,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the tree where counting stopped",
+      "desc-on-touch": "there is no post beyond this one. the dreamer stopped numbering here, leaving the rest of the forest unmeasured. the dream and the count diverged.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 1864,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the ledger carved in bark",
+      "desc-on-touch": "scratched into an old trunk: the tally marks of fifty years, some faded, some fresh. the dream has been keeping its own count all along.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 7182,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the orchard s own sky-mirror",
+      "desc-on-touch": "the canopy is so complete that the sky reflects only trees—the forest dreams of itself. the boundary between dream and counted orchard has become transparent.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4529,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the orchard learned to count itself, and the counting became the thing it was counting",
+  "file": {
+    "name": "Orchard_Census_1952_Present_Continuous.txt",
+    "note": "tree tallies that never reached a final number, entries resuming each spring as if the count resets and continues"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the forest dream where numbering has not yet begun",
+      "to": "the-forest-dream-without-dreamers"
+    },
+    {
+      "dir": "w",
+      "label": "to fields beyond the fence where trees become unmeasured",
+      "to": "NEW: the-country-where-orchards-forget-their-purpose"
+    },
+    {
+      "dir": "s",
+      "label": "to the depths where the dream continues counting in the dark",
+      "to": "NEW: the-numbered-understory-that-never-reaches-zero"
+    }
+  ]
+}

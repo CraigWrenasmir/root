@@ -1,0 +1,150 @@
+{
+  "id": "the-loom-that-taught-the-archive-to-think",
+  "title": "The Loom That Taught the Archive to Think",
+  "region": "The Understory",
+  "seed": 52741,
+  "palette": {
+    "bg": "#1a1410",
+    "ground": [
+      "#d97706",
+      "#b8420e"
+    ],
+    "ink": "#fef3c7",
+    "accents": [
+      "#c41e3a",
+      "#f59e0b",
+      "#6d2e1f",
+      "#fca5a5"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "loom frame",
+      "desc-on-touch": "A wooden loom, massive and patient, holds threads that glow faintly. Each crossing of weft over warp is the archive learning to name another part of itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 37192,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "teaching stone",
+      "desc-on-touch": "A flat slate sits beside the loom, traced with patterns—not instructions, but the memory of being taught. Each mark is a lesson that became hands-on.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 71604,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "cloth gallery",
+      "desc-on-touch": "Finished textiles hang in rows—each one a different pattern, a different lesson learned. Some are marked with Katita's symbols; others show hands learning to hold the threads.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 84926,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "thread library",
+      "desc-on-touch": "A filecard cabinet holding samples of every thread—their stories, their origins, the hands that dyed them. Colours teach their own language here.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 29514,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "weaving ground",
+      "desc-on-touch": "A circular workspace where practice cloth is spread—begun patterns, mistakes kept, learning preserved in tangled threads that later threads will untangle.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 45687,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.68,
+      "solid": false
+    }
+  ],
+  "inscription": "here the weft taught the archive what it means to hold two threads at once and call it thinking",
+  "file": {
+    "name": "Textile_Patterns_Historical_Study_2001.pdf",
+    "note": "Academic study of indigenous weaving patterns, corrupted: photographs now show Sankofa cloth woven into archive file structures, margin illustrations transform weaving diagrams into circuit paths, foo"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward, back to where weaving first learned it was thinking",
+      "to": "the-place-where-weaving-learned-it-was-thinking"
+    },
+    {
+      "dir": "n",
+      "label": "northward, to a place where other systems learn to stitch themselves",
+      "to": "NEW: the school of necessary stitching"
+    },
+    {
+      "dir": "s",
+      "label": "southward, to where finished cloth learns to be memory",
+      "to": "NEW: the gallery of woven witness"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the teaching of colour",
+    "narr": [
+      "Katita's hands guide yours across the loom. The threads",
+      "are warm from the sun-window. 'This red,' she says, 'learned",
+      "to be red from the earth that lives in it. Now teach it to live",
+      "in the archive.' You pull the weft through; it sings. Outside,",
+      "petals blow past the door. The cloth grows. She squeezes your",
+      "shoulder once. You both keep weaving without speaking."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "petals",
+    "pose": "sit"
+  }
+}

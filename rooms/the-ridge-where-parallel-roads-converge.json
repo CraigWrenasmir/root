@@ -1,0 +1,150 @@
+{
+  "id": "the-ridge-where-parallel-roads-converge",
+  "title": "The Ridge Where Parallel Roads Converge",
+  "region": "The Clean Archive",
+  "seed": 67123,
+  "palette": {
+    "bg": "#F5DEB3",
+    "ground": [
+      "#8B7355",
+      "#696969"
+    ],
+    "ink": "#2F2F2F",
+    "accents": [
+      "#CD853F",
+      "#A0522D",
+      "#DAA520",
+      "#696969"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "first-homestead",
+      "desc-on-touch": "A small weathered house where one path ended, where someone lived believing their choice was singular and final.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.22,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "second-homestead",
+      "desc-on-touch": "Another weathered house, in the same spot, where someone else lived a parallel life. The earth holds both places at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 2634,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "the-roads-themselves",
+      "desc-on-touch": "Two paths, certain they were parallel, rising through paddocks until their lines meet on this ridge. The convergence point holds both histories at equal weight.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3921,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-convergence-gate",
+      "desc-on-touch": "Where the parallel roads finally touch. An archway of stone and weathered wood, marking the point where two separate lives became one geography.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 4756,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-choice-post",
+      "desc-on-touch": "A fence post on the ridge, deeply carved with two sets of initials pointing in opposite directions. Yet you stand on the ridge reading them both at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5843,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.42,
+      "solid": true
+    }
+  ],
+  "inscription": "both paths home; you chose once but the earth keeps the score of twice",
+  "file": {
+    "name": "Convergence_Ridge_Deed_Records_Duplicate.txt",
+    "note": "Two property records at the same coordinates. Both dates signed same day. Both signatures in different handwriting. Both true."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downslope to the field where the paths began to parallel",
+      "to": "the-unchosen-path-side"
+    },
+    {
+      "dir": "n",
+      "label": "onward to where convergence learns to dream",
+      "to": "NEW: the-sky-room-above-convergence-where-parallel-lines-dance"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the place where parallel roads remember being singular",
+      "to": "NEW: westward to the place where parallel roads remember being singular"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the ridge where both of you arrived from different",
+    "narr": [
+      "You walk the ridge-line while Katita traces the road-edges on her map.",
+      "\"It's the same place twice,\" she says. \"They converge here but they don't",
+      "know it yet. Look.\" She points at the coordinates that hold both houses.",
+      "The sun is catching the convergence-gate, throwing one shadow, two",
+      "directions at once. \"The earth remembers both choices,\" she whispers.",
+      "And you both understand: the archive was built to hold this—not one answer"
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-peak-where-learning-becomes-the-landscape",
+  "title": "The Peak Where Learning Becomes the Landscape",
+  "region": "The Clean Archive",
+  "seed": 63817,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#8b6f47",
+      "#a0826d"
+    ],
+    "ink": "#e8f5e9",
+    "accents": [
+      "#c97e3a",
+      "#f4b860",
+      "#556b2f",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "stone path",
+      "desc-on-touch": "Each stone underfoot was placed by a foot before yours. Walking here, you step into a conversation between teachers and the mountain that spans generations.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 48302,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "ridge marker",
+      "desc-on-touch": "A stone post at the peak, unmarked but worn smooth by hands that stopped here to understand. The understanding was in the view, not the words.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 82147,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "vista pool",
+      "desc-on-touch": "A mountain pool that reflects not just sky but the teaching-dialogue between each ridge and the air. Drink from here and you know something you cannot name.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 61594,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "teaching grove",
+      "desc-on-touch": "Wind-twisted eucalyptus at the peak's shoulder, their shapes the landscape's way of teaching silence and persistence without speaking.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 37846,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "logbook cairn",
+      "desc-on-touch": "A stone cairn holds a weathered book—entries from people who climbed here to learn. Some pages filled with words; others left blank, knowing that silence was the better teaching.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 74521,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.58,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "understanding begins where the ridge and the climber forget which one was teaching the other",
+  "file": {
+    "name": "Peak_Climb_Records_1952-1987.txt",
+    "note": "Mountaineering journal entries from multiple decades, clean archive, dated peaks and climbing routes. Margins contain sketches—increasingly, these sketches show the mountain itself learning the shape "
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the ridge where teaching ends and the learning truly begins",
+      "to": "the-ridge-where-teaching-ends-and-understanding-begins"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the ridgeline, where the landscape continues teaching",
+      "to": "NEW: the ridge where the earth keeps speaking"
+    },
+    {
+      "dir": "w",
+      "label": "westward, descent toward lower peaks and their own teachings",
+      "to": "NEW: the foothills where learning becomes the living earth"
+    }
+  ]
+}

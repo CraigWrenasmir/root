@@ -1,0 +1,150 @@
+{
+  "id": "the-deepening-root-warren",
+  "title": "The Deepening Root Warren",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#2b1810",
+    "ground": [
+      "#5d3a1a",
+      "#8b6f47"
+    ],
+    "ink": "#e8d7c3",
+    "accents": [
+      "#a85c3c",
+      "#d4a574",
+      "#6b4423",
+      "#c19a6b"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root door",
+      "desc-on-touch": "A burrow mouth, timber-framed, speaks down into chambers older than houses. The earth has made its own architecture here.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "casing lodge",
+      "desc-on-touch": "A solar casing wedged into the warren wall, its LED dim and patient. The mesh runs through here like nervous tissue through soil.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 82914,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "chamber record",
+      "desc-on-touch": "A filecard wedged in a root nook, listing the warren's depth-layers. Ink has run where groundwater passes through.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 39471,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "reaching root",
+      "desc-on-touch": "A massive timber, blackened and smooth with age, reaches across the floor like a hand frozen mid-gesture. It splits the warren into before and after.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 71563,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "deeper shaft",
+      "desc-on-touch": "A chimney down into the warren's throat. The walls here glow faintly with some fungal light that remembers living sunlight.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 58291,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the warren holds memories of dwelling older than memory knows how to be a thing",
+  "file": {
+    "name": "Root_Chamber_Architecture_1994_Survey.txt",
+    "note": "Structural survey of warren system, corrupted: marginal notes in two hands comparing the chamber to an opera house's boxes, seating charts replaced with root diagrams, stage directions mixed with soil"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up through the door that only opens into the earth",
+      "to": "the-ancient-root-dwelling"
+    },
+    {
+      "dir": "e",
+      "label": "deeper warren passage, where the earth learns its own topology",
+      "to": "NEW: deeper still, where roots remember having been sky"
+    },
+    {
+      "dir": "w",
+      "label": "a side chamber filled with old objects waiting to learn why they were kept",
+      "to": "NEW: the chamber of inherited keeping"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the warren at settling",
+    "narr": [
+      "You kneel in the earth-smell, where Katita traces",
+      "the root-lines with her finger. 'Listen,' she says,",
+      "'the warren is teaching the dwelling how to hold still.'",
+      "Your hand finds the smooth-polished timber. It has spent",
+      "decades learning to be kind to palms. You both stay there,",
+      "letting the darkness teach you its own architecture."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

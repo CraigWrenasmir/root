@@ -123,7 +123,7 @@
     {
       "dir": "e",
       "label": "continuing east/west toward where both paths converge into one",
-      "to": "NEW: continuing east/west toward where both paths converge into one"
+      "to": "where-both-paths-read-each-other"
     },
     {
       "dir": "n",
