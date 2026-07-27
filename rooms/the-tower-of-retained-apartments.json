@@ -143,7 +143,7 @@
     {
       "dir": "w",
       "label": "sideways along a hallway that loops back to where you started",
-      "to": "NEW: the-corridor-of-patient-return"
+      "to": "the-corridor-of-patient-return"
     }
   ]
 }

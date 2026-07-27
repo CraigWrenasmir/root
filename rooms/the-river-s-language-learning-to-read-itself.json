@@ -1,0 +1,172 @@
+{
+  "id": "the-river-s-language-learning-to-read-itself",
+  "title": "The River's Language Learning to Read Itself",
+  "region": "The Understory",
+  "seed": 62894,
+  "palette": {
+    "bg": "#1a0f05",
+    "ground": [
+      "#8b4513",
+      "#4a2511"
+    ],
+    "ink": "#e8a76f",
+    "accents": [
+      "#c9a961",
+      "#ff6b35",
+      "#a64d00",
+      "#6b5344"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "delta-arithmetic",
+      "desc-on-touch": "numbers carved into mud that the water reads aloud. each number contains a sound. the roar is learning mathematics.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3156,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "speaking-reeds",
+      "desc-on-touch": "tall stalks that translate the roar into utterance. they grow only where the water has learned to listen. the words they speak are not yet written.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5487,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-baul-current",
+      "desc-on-touch": "a musical notation woven into the water-flow. it should not be notation — it should be song. but here, the delta has learned to notate itself. monsoon walkers hum along, teaching the river what it already sang.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7203,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "roar-receiver",
+      "desc-on-touch": "a listening station where the delta's own voice is captured and replayed. the roar teaches itself by hearing itself. each playback is slightly different.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 4821,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "language-becoming",
+      "desc-on-touch": "you watch sounds turn into letters. letters turn into water. water turns back into sound. the delta is teaching you that language is just the river learning to speak in circles.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 6934,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "current-counting",
+      "desc-on-touch": "each eddy in the delta holds a number. the water is teaching itself to count by learning how many times it circles before moving on.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 2645,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.42,
+      "solid": true
+    }
+  ],
+  "inscription": "here the roar dissolves into grammar; the delta reads itself aloud; sound and symbol trade places like water and stone trading shapes",
+  "file": {
+    "name": "Delta_Arithmetic_Field_Recording_2847hrs_Monsoon_Season.wav",
+    "note": "the water speaks numbers; between each number, pilgrims add their own voice; the recording grew itself a chorus"
+  },
+  "reverie": {
+    "title": "REVERIE — delta where listening begins",
+    "narr": [
+      "you wade into the delta together. the water is warm.",
+      "she stops. the roar is speaking. you think it is just",
+      "noise until she takes your hand. then you hear it: the",
+      "roar is teaching the water its own name. each eddy is",
+      "a letter. she translates. you understand: the river is",
+      "learning to read itself out loud. you hold her shoulder."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the roar's own receiver, where echo becomes sound",
+      "to": "the-roar-s-own-receiver"
+    },
+    {
+      "dir": "w",
+      "label": "upstream, where the language becomes smaller and smaller",
+      "to": "NEW: the-source-where-language-still-stammers"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the delta's mouth, where counting becomes roar",
+      "to": "the-delta-where-roars-lose-their-difference"
+    },
+    {
+      "dir": "s",
+      "label": "toward the offshore archive, where the delta learns what it meant to have spoken",
+      "to": "the-offshore-reading-chamber"
+    }
+  ]
+}

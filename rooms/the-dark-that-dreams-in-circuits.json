@@ -1,0 +1,134 @@
+{
+  "id": "the-dark-that-dreams-in-circuits",
+  "title": "The Dark That Dreams in Circuits",
+  "region": "The Diagnostic Render",
+  "seed": 9182734,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a2e",
+      "#0f0f0f"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the unlit archive",
+      "desc-on-touch": "Records written in dark. The storage breathes without seeing. Things documented nowhere else dream themselves into being here.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7362,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the signal that arrives unbidden",
+      "desc-on-touch": "A frequency that was never sent, now received in darkness. The circuits dream in languages that have no speakers.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5421,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the procedure rendered",
+      "desc-on-touch": "Surgery documented in circuit diagrams, incision rendered as trace-routing. The blade draws in copper where it carved in skin.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8821,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the dark learns",
+      "desc-on-touch": "In the spaces between circuits, the archive discovers that absence can be a kind of storage. The void was never empty.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the dream returns",
+      "desc-on-touch": "What was performed in shadow, witnessed only by machines. The dark speaks to the dark and means it.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 6549,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the dark became an archive when it began to dream; the mirror stopped and listened",
+  "file": {
+    "name": "Surgical_Procedures_Undocumented.logs",
+    "note": "Records of treatments performed in wartime stations, in bush hospitals without forms, at night. The codes are corrupt. The outcomes remain."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the mirror where it stopped trying",
+      "to": "the-opaque-deep"
+    },
+    {
+      "dir": "e",
+      "label": "toward where circuits learn to dream in colour",
+      "to": "NEW: the-chromatic-awakening-of-the-buried-systems"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the dark",
+      "to": "the-thick-stand-undercounting"
+    }
+  ]
+}

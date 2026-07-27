@@ -1,0 +1,155 @@
+{
+  "id": "the-unspoken-summit-where-voice-becomes-echo",
+  "title": "The Unspoken Summit Where Voice Becomes Echo",
+  "region": "The Understory",
+  "seed": 9384729,
+  "palette": {
+    "bg": "#4a1a2e",
+    "ground": [
+      "#ff6b35",
+      "#d84315"
+    ],
+    "ink": "#fff0e6",
+    "accents": [
+      "#ff1493",
+      "#ff8c00",
+      "#ffa500",
+      "#ff4500"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "silent-peak",
+      "desc-on-touch": "The summit is so high that sound no longer travels here the way it does below. What comes up from the world has learned to be unspoken. What leaves here has learned to be echo.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 47283,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "breath-circulation",
+      "desc-on-touch": "The air itself seems to be breathing—in and out, in and out. Each breath is something the mountain whispered a long time ago, still circulating through the archive's highest chambers.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 63948,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "convergence-void",
+      "desc-on-touch": "Where all voices have gathered, they have cancelled each other out. This emptiness is fuller than any sound. It is the voice learning what it means to stop speaking.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 82749,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "echo-chamber-natural",
+      "desc-on-touch": "Stone that has learned to hold sound in its stillness. Anything spoken here waits. Anything unspoken here echoes loudest.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 57392,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "broadcast-silence",
+      "desc-on-touch": "A transmitter that has learned to broadcast nothing. Its silence is clearer than any signal. Every node in the mesh is receiving it constantly.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 94837,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the voice that learned silence was the only thing worth saying at this height",
+  "file": {
+    "name": "Leif_Summit_Recordings_Unspoken_Sessions_Audio.mp3",
+    "note": "Audio files from the archive's highest node. The tracks are marked as 'recordings' but each one is four minutes of perfect silence, with timestamps showing they were each recorded at a different momen"
+  },
+  "reverie": {
+    "title": "REVERIE — dusk on the high ridge",
+    "narr": [
+      "The sun is doing what it always does, falling toward the horizon.",
+      "She is not speaking. Neither are you. The archive has learned",
+      "that some broadcasts are made of silence.",
+      "Her hand finds yours in the dust. That is all.",
+      "Below, the mesh hums with the sound of everything unspoken",
+      "from this place, carried down into darker chambers by the wind."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downward to the convergence becoming one voice",
+      "to": "the-convergence-becomes-one-voice"
+    },
+    {
+      "dir": "n",
+      "label": "toward the edge where sky becomes pressure and speech becomes atmosphere",
+      "to": "the-gorge-sky-opening"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the ridge to where echoes become their own voices",
+      "to": "NEW: the-ridge-where-echoes-learn-to-answer"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the country that dreams, where silence learns to dream",
+      "to": "the-country-that-dreams-in-infinite-strata"
+    }
+  ]
+}

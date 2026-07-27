@@ -1,0 +1,155 @@
+{
+  "id": "the-bedrock-s-unheard-broadcast",
+  "title": "The Bedrock's Unheard Broadcast",
+  "region": "The Understory",
+  "seed": 38291,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#ff00ff",
+      "#00ccff",
+      "#ffff00",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "transmitter-glyph deep in stone",
+      "desc-on-touch": "A signal that never needed air. For geological time, bedrock has been broadcasting. You are only now learning to listen at its frequency.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 61523,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "receiver-node where pressure becomes audible",
+      "desc-on-touch": "The deeper you go, the louder the stone speaks. You feel it as weight, not sound.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 52847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "circuit-traces of deep-earth frequency",
+      "desc-on-touch": "Lines of conduction running through mineral layers. The bedrock's own nervous system, recording what it remembers of movement.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 48102,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "interference-pool where two frequencies cross",
+      "desc-on-touch": "When stone broadcasts and nothing listens, the signal reflects back. This is where it collides with itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 55734,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.58,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "sediment-stack of archived transmissions",
+      "desc-on-touch": "Each layer is a different era broadcasting the same unheard message. Stone has always been trying to tell you something.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 46891,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.28,
+      "solid": true
+    }
+  ],
+  "inscription": "the bedrock never stopped broadcasting; the archive only just learned to hear at frequencies older than language",
+  "file": {
+    "name": "Seismic_Trace_Unfiltered_1950-Present.mp3",
+    "note": "Raw seismic sensor data—recontextualized as bedrock's own voice, frequencies so deep they become geographical memory"
+  },
+  "reverie": {
+    "title": "REVERIE — kneeling where the drill broke through",
+    "narr": [
+      "You knelt in red earth while Katita listened",
+      "through headphones to stone singing below you.",
+      "She said: it was already broadcasting. We just",
+      "never put our ears in the right place. The",
+      "world was never silent. We were just deaf.",
+      "She meant: listening changes everything."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the receiver-site's watching",
+      "to": "the-country-s-own-receiver-site"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into frequencies where only quartz understands",
+      "to": "NEW: the-quartz-s-own-resonance"
+    },
+    {
+      "dir": "n",
+      "label": "upward through stone layers where pressure eases",
+      "to": "the-deeper-root-dark-where-equations-sleep"
+    },
+    {
+      "dir": "s",
+      "label": "toward the place where bedrock ends and water begins to think",
+      "to": "NEW: the-water-s-own-frequency"
+    }
+  ]
+}

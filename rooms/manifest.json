@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 127,
+  "nights": 132,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -3531,6 +3531,151 @@
     {
       "id": "the-country-that-dreams-in-infinite-strata",
       "title": "The Country That Dreams in Infinite Strata",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-inverse-corridor-where-walking-reverses",
+      "title": "The Inverse Corridor Where Walking Reverses",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-river-s-language-learning-to-read-itself",
+      "title": "The River's Language Learning to Read Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-row-of-sorting-cottages",
+      "title": "The Row of Sorting Cottages",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-silence-before-asking",
+      "title": "The Silence Before Asking",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-side-valley-s-own-argument",
+      "title": "The Side Valley's Own Argument",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-canopy-ceiling-where-roots-become-sky",
+      "title": "The Canopy Ceiling Where Roots Become Sky",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-convergent-antenna-forest",
+      "title": "The Convergent Antenna Forest",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-boundary-where-render-meets-actual-light",
+      "title": "The Boundary Where Render Meets Actual Light",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-commentary-that-ate-its-own-source",
+      "title": "The Commentary That Ate Its Own Source",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unspoken-summit-where-voice-becomes-echo",
+      "title": "The Unspoken Summit Where Voice Becomes Echo",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-echoing-unified-field",
+      "title": "The Echoing Unified Field",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-outfall-beyond-listening",
+      "title": "The Outfall Beyond Listening",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-s-unheard-broadcast",
+      "title": "The Bedrock's Unheard Broadcast",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-corridor-of-patient-return",
+      "title": "The Corridor of Patient Return",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-prescient-archive-chamber",
+      "title": "The Prescient Archive Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-photograph-registry-where-unpaid-places-remember",
+      "title": "The Photograph Registry Where Unpaid Places Remember",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-dark-that-learned-to-stay",
+      "title": "The Dark That Learned to Stay",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-chosen-emptiness",
+      "title": "The Chosen Emptiness",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-both-halves-dream-they-are-whole",
+      "title": "Where Both Halves Dream They Are Whole Again",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-dark-that-dreams-in-circuits",
+      "title": "The Dark That Dreams in Circuits",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-temporal-ravine-where-feet-become-stone",
+      "title": "The Temporal Ravine Where Feet Become Stone",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "where-the-fences-forget-their-teaching",
+      "title": "Where the Fences Forget Their Teaching",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-debt-form-dream-registry",
+      "title": "The Debt-Form Dream Registry",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-storm-s-own-recording-chamber",
+      "title": "The Storm's Own Recording Chamber",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-achromatic-deep-2",
+      "title": "The Achromatic Deep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-lobby-where-arrival-ends",
+      "title": "The Lobby Where Arrival Ends",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-storm-s-perfect-center-where-weather-rests",
+      "title": "The Storm's Perfect Center Where Weather Rests",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-township-of-verified-error",
+      "title": "The Township of Verified Error",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-loom-s-own-touching",
+      "title": "The Loom's Own Touching",
       "region": "The Understory"
     }
   ]

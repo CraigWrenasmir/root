@@ -1,0 +1,117 @@
+{
+  "id": "the-storm-s-perfect-center-where-weather-rests",
+  "title": "The Storm's Perfect Center Where Weather Rests",
+  "region": "The Understory",
+  "seed": 9274183,
+  "palette": {
+    "bg": "#001a4a",
+    "ground": [
+      "#002a7a",
+      "#001a4a"
+    ],
+    "ink": "#00ddff",
+    "accents": [
+      "#ffff00",
+      "#00ff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "weather-readout",
+      "desc-on-touch": "Scrolling data: wind speed 0.0 / pressure unchanged / precipitation null. The storm speaks its own stillness in metrics.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5829,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "paradox-gauge",
+      "desc-on-touch": "The needle points simultaneously in all directions. Change and changelessness share the same frequency. The gauge cannot decide if it is moving or still.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3746,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "storm-core-monitor",
+      "desc-on-touch": "A field of blue-green gridlines showing the architecture of the eye. At the center, a pulse that has learned to dream: beat-stillness-beat-stillness.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 7521,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "equilibrium-crystal",
+      "desc-on-touch": "A structure that holds the paradox steady. The storm outside rages; inside, perfect mathematical contradiction. You feel the pressure of both at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 4938,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the weather learned that perpetual contradiction is more stable than any season; change and changelessness exist in the same breath",
+  "file": {
+    "name": "Storm_Center_Diagnostic_Equilibrium_State.dat",
+    "note": "A binary readout from the storm's eye itself: all values normal and impossible simultaneously. Checksum: formally valid / emotionally unstable."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back out into the eternal storm that dreams",
+      "to": "the-weather-beyond-seasons"
+    },
+    {
+      "dir": "n",
+      "label": "up to the upper air where contradiction learns to speak",
+      "to": "NEW: the-upper-air-where-paradox-learns-to-speak"
+    },
+    {
+      "dir": "e",
+      "label": "toward the wall where the storm understands its own radius",
+      "to": "the-pressure-where-no-sound-has-ever-travelled"
+    }
+  ]
+}

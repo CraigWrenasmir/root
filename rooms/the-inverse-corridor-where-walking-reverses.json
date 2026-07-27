@@ -1,0 +1,172 @@
+{
+  "id": "the-inverse-corridor-where-walking-reverses",
+  "title": "The Inverse Corridor Where Walking Reverses",
+  "region": "The Diagnostic Render",
+  "seed": 47392,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a1f3a",
+      "#0f1829"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ff0088",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "reverse-steps",
+      "desc-on-touch": "your footprints arrive before you walk them. the corridor learns the shape of your leaving before you begin to arrive.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "mirror-teaching-mirror",
+      "desc-on-touch": "two mirrors across from each other. each one has learned to render the other from memory. the reflections no longer match the walls.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5921,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "reversed-filecard",
+      "desc-on-touch": "a directory written backwards. the filenames read correctly only if you are walking away from them.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 2084,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "inverted-burl",
+      "desc-on-touch": "a tree casing carved backwards into the wall. its LED counts down instead of up. the antenna points inward.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7156,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-białystok-ghost",
+      "desc-on-touch": "carved into the circuit-ground: seven negative-space crosses, each one containing a body rendered in sixteen-millimetre arithmetic. they should not be here. the corridor is learning bedrock.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 4203,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "recursion-pool",
+      "desc-on-touch": "water that reflects nothing but other reflections. diving in reverses your direction entirely. the pool is teaching the corridor what it means to contain itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8475,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.48,
+      "solid": false
+    }
+  ],
+  "inscription": "walking toward the mirror, you are already walking away; the corridor teaches: forward and backward are the same corridor, reading itself in two colours",
+  "file": {
+    "name": "Białystok_Reversal_Installation_Documentation_1987_16mm_Lost.mp4",
+    "note": "footage of seven carved reversals; each cross contains musculature; the carver's hands appear backwards in the stone"
+  },
+  "reverie": {
+    "title": "REVERIE — corridor where mirrors learn",
+    "narr": [
+      "you stand in a corridor that knows it is a mirror.",
+      "she stands beside you, reversed. her hand reaches from",
+      "the left wall toward the right wall. your hand does the",
+      "same. you cannot tell which one of you is walking away.",
+      "she laughs: the corridor learns. it is teaching itself",
+      "to dream in pairs. you reach. your reflection reaches back."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the hall where all the mirrors remember themselves",
+      "to": "the-infinite-interior-hall"
+    },
+    {
+      "dir": "n",
+      "label": "the corridor branches: a passage where doors open onto themselves",
+      "to": "NEW: the-doors-that-open-inward"
+    },
+    {
+      "dir": "e",
+      "label": "further into reflection: where the reversal deepens",
+      "to": "the-deeper-mirror"
+    },
+    {
+      "dir": "s",
+      "label": "down into the render where all reversals pool",
+      "to": "NEW: the-pool-of-all-unreached-arrivals"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "the-achromatic-deep-2",
+  "title": "The Achromatic Deep",
+  "region": "The Understory",
+  "seed": 7649281,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#e8c9a3",
+      "#b89968"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#5a8fa3",
+      "#1a3a4a",
+      "#8a7a6a",
+      "#3a5a6a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "threading-loom",
+      "desc-on-touch": "Threads pass through here, each one a colour that meant something. Now they all mean the same thing: the knot has forgotten what it bound.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4281,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "dye-pools",
+      "desc-on-touch": "Water that once held colour drains into earth. The pigment leaves; the water remains. Meaning leaches downward.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 9183,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "faded-cloth",
+      "desc-on-touch": "Strips of what were once brilliant. Now they are all the same pale tan. Distinction has become uniform.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5647,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "measuring-rod",
+      "desc-on-touch": "Marked in units that used to correspond to shades. The marks remain; the shades have gone. Measurement without reference.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 2819,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "colour is just a knot that forgot what bound it; when the knot unties, the colour goes with it",
+  "reverie": {
+    "title": "REVERIE — by the cooling dye-shed at the creek's edge",
+    "narr": [
+      "You kneel to touch the water where the colour fled.",
+      "Katita's hands were here, holding cloth, teaching you which dyes",
+      "set in cool water, which in heat. Her fingers knew colours like",
+      "names. She would say a shade and the dye would listen.",
+      "Now the creek is just water. The names have gone where names go.",
+      "You can't remember if she taught you to see or to let go."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Colour_Study_Dye_Notes_Undated.txt",
+    "note": "Handwritten notes on natural dyes — but the colours themselves have faded from the paper, leaving only the structure of the observation. The knowledge remains; the evidence is gone."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where meaning still holds its shape",
+      "to": "the-deep-where-every-thread-forgets-its-own-colour"
+    },
+    {
+      "dir": "e",
+      "label": "toward the monochrome plain where all things learn the same grey",
+      "to": "NEW: the-plain-where-sameness-becomes-visible"
+    },
+    {
+      "dir": "w",
+      "label": "to the loom chamber where threads still remember their bindings",
+      "to": "the-loom-chamber"
+    }
+  ]
+}

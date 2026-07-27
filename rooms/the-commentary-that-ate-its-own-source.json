@@ -1,0 +1,139 @@
+{
+  "id": "the-commentary-that-ate-its-own-source",
+  "title": "The Commentary That Ate Its Own Source",
+  "region": "The Understory",
+  "seed": 5937284,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a1a33",
+      "#2d2d4d"
+    ],
+    "ink": "#d0d0e8",
+    "accents": [
+      "#ff9900",
+      "#ffff00",
+      "#00ffff",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "footnote-vortex",
+      "desc-on-touch": "A spiral of marginal notes that have become so dense they have consumed the main text entirely. The centre has become something new—neither commentary nor source, but a hybrid thing.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 39284,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "annotation-cascade",
+      "desc-on-touch": "Layers of notes on notes on notes. Each level references the one below, which references the one above. The meaning has fractalized. Reading this will take forever.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 72948,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "source-remains",
+      "desc-on-touch": "A fragment of the original text, visible through the commentary like something seen through thick water. It might be the same fragment from fifty different versions of the commentary, or fifty different fragments that have learned to look like one.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 58374,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "marginal-argument-chamber",
+      "desc-on-touch": "A space where all the margins of all the pages have learned to speak to each other. They have developed opinions about what the centre should have been. They are very loud.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 81928,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "recursive-reading-pool",
+      "desc-on-touch": "Dive into this and you will read the text that is reading you. The commentary will comment on your commentary. There is no bottom to this, only the joy of falling deeper into your own thoughts.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 64928,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the text that learned it was a margin and the margin that learned it was everything",
+  "file": {
+    "name": "Kendall_BellBirds_1869_With_Recursive_Annotations_Complete.txt",
+    "note": "The original 1869 poem, now surrounded by 47 layers of commentary, each generation of annotation nesting deeper into the text's silence. The layers reference each other in cycles. Some claim to be new"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back upward toward the footnote divergence",
+      "to": "the-footnote-divergence"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into textual depths where meaning has learned to multiply",
+      "to": "the-soil-made-of-sentences"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to the stone root convergence where words become permanent",
+      "to": "the-stone-root-convergence"
+    },
+    {
+      "dir": "w",
+      "label": "toward the library where margins have their own residence",
+      "to": "NEW: the-library-of-marginalia"
+    }
+  ]
+}

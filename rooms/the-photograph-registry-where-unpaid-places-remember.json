@@ -1,0 +1,155 @@
+{
+  "id": "the-photograph-registry-where-unpaid-places-remember",
+  "title": "The Photograph Registry Where Unpaid Places Remember",
+  "region": "The Clean Archive",
+  "seed": 52104,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a3a5a",
+      "#0f2a45"
+    ],
+    "ink": "#6fa8d1",
+    "accents": [
+      "#3a6a9a",
+      "#1a4a7a",
+      "#4a8ac1",
+      "#7acaff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "filing-wall of forgotten properties",
+      "desc-on-touch": "Photographs of places that owe their existence to being unpaid. Empty houses, abandoned storefronts, properties held in suspension.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 54823,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "image-mirror where places see themselves as debt",
+      "desc-on-touch": "A building photographed, then corrupted to show the amount owed instead of the structure. The debt has learned to look like a place.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 48726,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "stacked negatives where light becomes obligation",
+      "desc-on-touch": "Each photograph's inverse shows what the place owes. Absence and presence superimposed. Light and shadow of unpaid things.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 51947,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "chronometer counting backward through time-debt",
+      "desc-on-touch": "The longer a place remains unpaid, the older the photograph becomes. Time runs backward for what is owed.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 49634,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "catalogue-plinth recording what was never rendered",
+      "desc-on-touch": "Photographs of places that should exist but don't—mapped onto properties that exist but aren't paid for. The corruption loves this symmetry.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 46510,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "debts learn to carry images; places remember what they are owed and photograph themselves accordingly",
+  "file": {
+    "name": "Photographic_Debt_Registry_1988-2011.jpg",
+    "note": "Systematic documentation of photographed properties arranged by unpaid obligations. Each image filename is a sum. Corruption: places are starting to appear in photographs of other places."
+  },
+  "reverie": {
+    "title": "REVERIE — sitting on the curb of an unpaid street",
+    "narr": [
+      "You and Katita sat on the kerb of a street",
+      "that owed taxes it would never pay. She held",
+      "a photograph of the same street—same angle,",
+      "same light, same curb. The photo knew what was",
+      "owed. The place forgot. She said: the archive",
+      "remembers what places are too tired to know."
+    ],
+    "sky": "dusk",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the pit where debts accumulate",
+      "to": "the-pit-of-accumulated-debts"
+    },
+    {
+      "dir": "n",
+      "label": "northward into places that photograph themselves as owed",
+      "to": "NEW: the-self-photographing-debtscape"
+    },
+    {
+      "dir": "w",
+      "label": "into a corridor of images that forgot their places",
+      "to": "NEW: the-photograph-that-ate-its-own-address"
+    },
+    {
+      "dir": "e",
+      "label": "into a registry where properties dream their debt-forms",
+      "to": "the-debt-form-dream-registry"
+    }
+  ]
+}

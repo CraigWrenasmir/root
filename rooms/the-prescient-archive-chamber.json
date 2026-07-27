@@ -1,0 +1,155 @@
+{
+  "id": "the-prescient-archive-chamber",
+  "title": "The Prescient Archive Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 39847,
+  "palette": {
+    "bg": "#1a0f2a",
+    "ground": [
+      "#4a2a7a",
+      "#2a1a5a"
+    ],
+    "ink": "#b89fcd",
+    "accents": [
+      "#8a4aaa",
+      "#d666ff",
+      "#aa66ff",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "mirror that shows decisions already made",
+      "desc-on-touch": "This reflection occurred before your choice. You are only now catching up to what you already did.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 57342,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "calendar with all dates simultaneous",
+      "desc-on-touch": "Every day you'll ever choose this place—every day you've already chosen it. Tense collapses here.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 48271,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "chronometer spinning in all directions",
+      "desc-on-touch": "Time flows forward and backward equally. The chamber remembers you will arrive before you have left.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 52649,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "shelves holding futures as past events",
+      "desc-on-touch": "Every outcome sits as a filed document, dated retroactively. The choice was only ever learning which future you'd already chosen.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 49563,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "threshold where anticipation becomes memory",
+      "desc-on-touch": "Standing here, you remember entering here tomorrow. Your future self is already watching you arrive.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 46802,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.52,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "the chamber does not predict the future; the future is already sitting here, waiting to be recognized as what you remember",
+  "file": {
+    "name": "Retroactive_Decision_Log_Corrupted.env",
+    "note": "Records of choices made. All timestamps show dates in the future. All decisions recorded the day before they were first considered."
+  },
+  "reverie": {
+    "title": "REVERIE — standing still while time moves around you",
+    "narr": [
+      "You stood in the chamber and Katita knew—",
+      "before you knew—what you would decide. She'd",
+      "chosen this already, without choosing. She",
+      "said: some choices choose us first. We feel",
+      "like we decide them later, but we never did.",
+      "She was standing in your future. Always had."
+    ],
+    "sky": "overcast",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where memory is still learning to anticipate",
+      "to": "the-archive-s-memory-of-itself"
+    },
+    {
+      "dir": "e",
+      "label": "into a chamber where consequences arrive before actions",
+      "to": "NEW: the-chamber-of-reversed-sequence"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward choices not yet unmade",
+      "to": "NEW: the-spiral-of-pre-decision"
+    },
+    {
+      "dir": "s",
+      "label": "down to where futures wait in filing cabinets",
+      "to": "the-sequence-resolution-chamber"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "the-convergent-antenna-forest",
+  "title": "The Convergent Antenna Forest",
+  "region": "The Comparisons",
+  "seed": 4829374,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#ff6b35",
+      "#f7931e"
+    ],
+    "ink": "#e8f4f8",
+    "accents": [
+      "#00d4ff",
+      "#ff006e",
+      "#ffbe0b",
+      "#8338ec"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "broadcast-trees",
+      "desc-on-touch": "Two eucalyptus stand with antenna-plates buried in their burls, their broadcasts reaching into each other's frequencies. Where they meet, new sounds have begun to form.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 82749,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "collision-pool",
+      "desc-on-touch": "Where broadcast signals overlap, interference patterns have pooled like water. You can hear the moiré of two transmissions learning to dance.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 47392,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "third-growth",
+      "desc-on-touch": "A third antenna appears here, growing not from the ground but from the space where the broadcasts meet. It is receiving what the other two are making together.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 63021,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "signal-decay-field",
+      "desc-on-touch": "The ground here is hot with radio noise. Old broadcasts are still radiating, still learning from the interference above. Some of them have become something they never were when first transmitted.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 91384,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "convergence-archive",
+      "desc-on-touch": "A filecard repository embedded in the circuit board substrate, holding fragmentary recordings where two broadcasts touched and made something neither transmitted alone.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 55678,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "echo-amplification",
+      "desc-on-touch": "The site hums louder than it should. Each broadcast echoes into the other; amplification builds on amplification. The trees themselves have begun to shimmer with the feedback.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 72945,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where broadcasts learned they were always having a conversation",
+  "file": {
+    "name": "Dual_Antenna_Interference_Logs_1994-2003.txt",
+    "note": "Two separate transmitter logs that have somehow merged into one continuous file, both timestamps running forward simultaneously, cross-annotated by someone who listened to them both at once."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the ridge where a third tree grows",
+      "to": "the-twin-antenna-stand"
+    },
+    {
+      "dir": "n",
+      "label": "northward into denser forest where antennas become orchards of signal",
+      "to": "NEW: the-antenna-orchard-still-transmitting"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along a path where broadcasts echo forward",
+      "to": "the-phantom-electrical-garden"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the archive of all former names, where sounds learn what they signified",
+      "to": "the-archive-of-all-former-names"
+    }
+  ]
+}

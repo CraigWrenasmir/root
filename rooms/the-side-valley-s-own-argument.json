@@ -1,0 +1,172 @@
+{
+  "id": "the-side-valley-s-own-argument",
+  "title": "The Side Valley's Own Argument",
+  "region": "The Clean Archive",
+  "seed": 48251,
+  "palette": {
+    "bg": "#d8cfc0",
+    "ground": [
+      "#a89878",
+      "#8b7d6b"
+    ],
+    "ink": "#3a3528",
+    "accents": [
+      "#5a4f38",
+      "#6b5840",
+      "#8a7550",
+      "#4a4028"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "twin-paths",
+      "desc-on-touch": "two paths diverge and do not converge. walkers learn to walk both simultaneously. the valley teaches: choosing one way means choosing the other, always.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "arguing-stones",
+      "desc-on-touch": "rocks on both sides of the path, each one disagreeing with its pair on the other side. but they have grown to love their argument. they cannot imagine being on the same side.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4723,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-fork-deep-echo",
+      "desc-on-touch": "the valley remembers when the fork was younger. it echoes the two paths back at each other, letting them hear themselves disagreeing. neither is winning. both are correct.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 6834,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "fence-line-growing",
+      "desc-on-touch": "an orchard of fence posts, each one marking the border that refuses to choose. the posts have become a thicket. walkers thread between them, unable to cross.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3501,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "unresolved-clearing",
+      "desc-on-touch": "a space at the valley's heart where both paths meet and refuse each other. nothing grows here because nothing can decide which side to belong to.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 7289,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "both-ways-at-once",
+      "desc-on-touch": "a figure standing in the centre of the argument, arms raised toward both paths. it is not a monument. it moves. every walker becomes this figure for a moment.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 2645,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.58,
+      "solid": false
+    }
+  ],
+  "inscription": "the fork never stops arguing. the valley loves them both. settlement would be a kind of death. the argument is the only path",
+  "file": {
+    "name": "Fork_Valley_Logbook_Both_Paths_Side_By_Side_Entry_1_To_End.txt",
+    "note": "a logbook written in two columns, one for each path. the columns argue. the handwriting is the same. the same hand could not choose."
+  },
+  "reverie": {
+    "title": "REVERIE — fork valley where choosing fails",
+    "narr": [
+      "you reach the fork together. both paths are right.",
+      "both paths are wrong. she looks left. you look right.",
+      "she says: what if we do not choose? what if we stand",
+      "here, reaching both directions at once? you take her hand.",
+      "the valley learns: it is not the fork that matters, but",
+      "the hand you hold while refusing to let it go either way."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the fork that never chose, still arguing",
+      "to": "the-fork-s-endless-argument"
+    },
+    {
+      "dir": "w",
+      "label": "further into argument: another fork, older, deeper",
+      "to": "NEW: the-fork-that-argues-with-itself"
+    },
+    {
+      "dir": "n",
+      "label": "up the eastern path, the one that always felt right",
+      "to": "NEW: the-eastern-path-that-led-nowhere-else"
+    },
+    {
+      "dir": "s",
+      "label": "down the western path, the one that felt true",
+      "to": "NEW: the-western-path-returning-to-itself"
+    }
+  ]
+}

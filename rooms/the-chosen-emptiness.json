@@ -1,0 +1,116 @@
+{
+  "id": "the-chosen-emptiness",
+  "title": "The Chosen Emptiness",
+  "region": "The Diagnostic Render",
+  "seed": 7834521,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#c97a4a",
+      "#4a7c2e"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#f5d5a8",
+      "#2d5016",
+      "#c97a4a",
+      "#9cd43a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the clearing's mercy",
+      "desc-on-touch": "You stand in what was cleared and chose to stay empty. Absence holds its own shape here.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the marker left",
+      "desc-on-touch": "A single stone. The archive marks what it chose not to restore.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the breath of regrowth",
+      "desc-on-touch": "The edge where plants have almost decided to return, then stopped, respecting the emptiness.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5012,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the paddock before the cut",
+    "narr": [
+      "She stops at the fence line where the farmer decided",
+      "not to clear. The grass there is tall, unharvested, full",
+      "of small things that know no other home. Her hand rests",
+      "on the post. 'Some mercy is just leaving room,' she says.",
+      "You watch the space she means—not empty, but chosen",
+      "alive. The archive learns its first refusal from standing."
+    ],
+    "sky": "dawn",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "what is chosen empty stays honest",
+  "file": {
+    "name": "Unperformed_Mercy_Ledger.txt",
+    "note": "A country doctor's field notes: procedures left undone, wounds tended by time instead of hands."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the margin where silence gathers",
+      "to": "the-internal-margin-where-the-archive-s-own-silence-gathers"
+    },
+    {
+      "dir": "s",
+      "label": "down into the paddock growing over what's been left",
+      "to": "NEW: the-overgrowth-remembers-the-clearing"
+    },
+    {
+      "dir": "e",
+      "label": "east to where empty fields repeat",
+      "to": "the-distributed-cognition-field"
+    }
+  ]
+}

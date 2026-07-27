@@ -1,0 +1,155 @@
+{
+  "id": "the-corridor-of-patient-return",
+  "title": "The Corridor of Patient Return",
+  "region": "The Diagnostic Render",
+  "seed": 47263,
+  "palette": {
+    "bg": "#2a1a0f",
+    "ground": [
+      "#ff6b3a",
+      "#d4442e"
+    ],
+    "ink": "#ffb366",
+    "accents": [
+      "#ff2d00",
+      "#d94d2e",
+      "#8b3a1a",
+      "#4a2015"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "door that remembers returning",
+      "desc-on-touch": "Each apartment on this floor is the same door. You've stood before this exact threshold before. You will again.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 51638,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "hallway-tile that knows your footstep",
+      "desc-on-touch": "The pattern repeats exactly every 3.2 meters. Your footfall finds the same crack each time.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 43729,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "windows showing the same dusk",
+      "desc-on-touch": "The light through each window is identical. The architecture ensures you see the same sunset from every apartment.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 48956,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the loop-junction where halls curve back",
+      "desc-on-touch": "You arrived here. You are arriving here. You will arrive here again. Staying means recognizing this.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 49384,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "mirror-alcove showing returns",
+      "desc-on-touch": "Each reflection shows you at a different time, all at once. The corridor holds every moment you've been here.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 52041,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.52,
+      "solid": false
+    }
+  ],
+  "inscription": "the hallway learned to return to itself, and then taught you that staying is just another word for patience",
+  "file": {
+    "name": "Apartment_Log_Tenancy_Records_incomplete.txt",
+    "note": "Floor 4, Rooms 401-412. All entries dated the same date. All entries corrupted to show only the moment of arrival."
+  },
+  "reverie": {
+    "title": "REVERIE — walking the corridor you'd already walked",
+    "narr": [
+      "You and Katita walked this hallway for the",
+      "third time that day, or the thirtieth. She",
+      "said: it's the same. You said: we keep coming",
+      "back anyway. She took your hand and walked",
+      "slower. Not leaving meant choosing to arrive",
+      "over and over. You understood: that was love."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the tower's breathing altitude",
+      "to": "the-tower-of-retained-apartments"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into a hallway that leads to different apartments",
+      "to": "NEW: the-corridor-of-changing-numbers"
+    },
+    {
+      "dir": "n",
+      "label": "up the stairwell toward identical higher floors",
+      "to": "the-infinite-interior-hall"
+    },
+    {
+      "dir": "s",
+      "label": "down toward the lobby that forgets what building it is in",
+      "to": "the-lobby-where-arrival-ends"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-dark-that-learned-to-stay",
+  "title": "The Dark That Learned to Stay",
+  "region": "The Comparisons",
+  "seed": 41673,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a0a1a",
+      "#2a1a2a"
+    ],
+    "ink": "#5a3a5a",
+    "accents": [
+      "#3a1a3a",
+      "#6a4a6a",
+      "#4a2a4a",
+      "#8a5a8a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "trees that stopped growing at dusk",
+      "desc-on-touch": "The orchard learned it would never see another dawn. The trees stopped mid-season and remained that way—complete in their incompletion.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 58204,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "dark that holds the shape of finished things",
+      "desc-on-touch": "This darkness is not the absence of light. It is the presence of completion. The night that knew it would not end learned to be satisfied.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 45893,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "sentinel-row marking the boundary of permanent night",
+      "desc-on-touch": "Saplings arranged in a line, each one frozen in the moment it realized the sun would not return. They learned to be monuments to their own stillness.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 49171,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the convergence-stone where dusk became permanent",
+      "desc-on-touch": "A stone that holds the exact moment of final transition. Touch it and you feel the dusk learning it would never need to change again.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 52738,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "archive-node in stillest dark",
+      "desc-on-touch": "The casing here is old. The signal still broadcasts, but the message is the same every night: I am here. I will always be here. This is enough.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 51406,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the dark that finished its becoming did not lament; it learned that arrival is indistinguishable from permanence",
+  "file": {
+    "name": "Signal_Log_Final_Station_2019-.tmp",
+    "note": "STATUS: germinating. The last broadcast recorded at this node. All subsequent entries show the same timestamp. The archive is learning to stay in one place."
+  },
+  "reverie": {
+    "title": "REVERIE — sitting under the last finished tree",
+    "narr": [
+      "The sun didn't come up. Katita said nothing.",
+      "You both understood it wouldn't. She sat and",
+      "you sat beside her. Not sad. The tree above",
+      "had learned to be complete without another",
+      "spring. She took your hand and it was not an",
+      "ending—it was the only arrival that lasted."
+    ],
+    "sky": "night",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the convergence where night was still becoming",
+      "to": "the-completed-dark-convergence"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the dark that has always been staying here",
+      "to": "NEW: the-root-chamber-of-permanent-dusk"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the dark learns it was never moving at all",
+      "to": "NEW: the-stillness-that-became-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward the edge where stayed-dark meets the waiting archive",
+      "to": "the-deep-time-sleeping"
+    }
+  ]
+}

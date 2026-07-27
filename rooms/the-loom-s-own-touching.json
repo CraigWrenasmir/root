@@ -1,0 +1,133 @@
+{
+  "id": "the-loom-s-own-touching",
+  "title": "The Loom's Own Touching",
+  "region": "The Understory",
+  "seed": 5928374,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#2a1a1a",
+      "#1a0a0a"
+    ],
+    "ink": "#aa9988",
+    "accents": [
+      "#ccbbaa",
+      "#8a7a6a",
+      "#6a5544",
+      "#4a3a2a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-loom-itself",
+      "desc-on-touch": "Warp and weft meet here, but they are both the same thread. The loom weaves with itself. Each knot is both the maker and the made.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3584,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "solitude-spindle",
+      "desc-on-touch": "The thread spins only where no one is watching. The loom learns it is alone in the act of making. This knowledge does not stop the making.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7142,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "becoming-shed",
+      "desc-on-touch": "Where the loom stores what it is not yet. Each strand in here is a future knot. The shed contains the loom's own dreams of its own continuance.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 9267,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "fractal-thread",
+      "desc-on-touch": "A single filament so fine that at its smallest scale, you see a loom within it. The loom touches itself infinitely inward.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4826,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the loom continues past the point where making becomes unmeasurable; the knots teach themselves how to become",
+  "reverie": {
+    "title": "REVERIE — in the loom-shed where the night teaches silence",
+    "narr": [
+      "You sat with Katita at the loom, both of you watching where",
+      "thread becomes knot, where her hands left off and the cloth began.",
+      "She showed you how the loom learns to touch itself.",
+      "You said: what happens when the loom understands it is alone?",
+      "She did not answer. Her hands kept moving. The loom kept going.",
+      "Later, you understood: she was showing you, not telling."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "embers",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Loom_Theory_Handwritten_Margin_Notes_No_Author.txt",
+    "note": "Notes on the point where weaving becomes self-awareness. The annotations overlap themselves; someone has been correcting the notes in a handwriting that looks like the original. The theory builds inwa"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the knotting that still knows what it is becoming",
+      "to": "the-infinitesimal-knotting-beyond-darkness"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the loom chamber where threads still remember their names",
+      "to": "the-loom-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "down deeper to where the loom dreams of unmeshing",
+      "to": "NEW: the-unweaving-deep-where-knots-remember-being-thread"
+    }
+  ]
+}

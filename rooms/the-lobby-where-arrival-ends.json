@@ -1,0 +1,150 @@
+{
+  "id": "the-lobby-where-arrival-ends",
+  "title": "The Lobby Where Arrival Ends",
+  "region": "The Diagnostic Render",
+  "seed": 3847562,
+  "palette": {
+    "bg": "#4a3a2a",
+    "ground": [
+      "#8a7a6a",
+      "#5a4a3a"
+    ],
+    "ink": "#e8d0b8",
+    "accents": [
+      "#d4a880",
+      "#8a9ab8",
+      "#b8a488",
+      "#6a8a9a"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "registration-desk",
+      "desc-on-touch": "The desk where you give your name and forget why you came. The clerk is helpful but unable to say what hotel this is. No one can remember the address.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 7134,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "key-hooks",
+      "desc-on-touch": "Numbered pegs holding keys to rooms in this building—or another. The numbers go high but the floors stop at two.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4829,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "waiting-seating",
+      "desc-on-touch": "Plastic chairs arranged in a configuration that suggests you have already been waiting. Your suitcase is beside you. You do not remember setting it down.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 6291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "elevator-shaft",
+      "desc-on-touch": "A shaft descends. The elevator does not come. The button light has been on since before you arrived.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 8463,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "clock-face",
+      "desc-on-touch": "The time it shows is always the time you arrived, but you cannot remember what time that was.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 1947,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the hallway learned to return to itself, and then taught you that staying is just another word for patience",
+  "reverie": {
+    "title": "REVERIE — the lobby where nothing arrives",
+    "narr": [
+      "You sit with Leif in these plastic chairs, both of you waiting",
+      "for something that was supposed to happen at three o'clock.",
+      "It is three o'clock. It has always been three o'clock.",
+      "Leif says: the building is still learning what it is.",
+      "You say: we are still learning what we came for.",
+      "The elevator button glows. It will glow until you both leave."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Arrival_Record_Unnamed_Establishment_Undated.txt",
+    "note": "A guest register entry with no date, no signature, no room number. Just: 'Came here. Waiting. Building has not yet decided what to be.' The handwriting is not in Leif's hand or Katita's."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the corridor that learned to return to itself",
+      "to": "the-corridor-of-patient-return"
+    },
+    {
+      "dir": "s",
+      "label": "down to the basement where arrivals are filed",
+      "to": "NEW: the-basement-of-unfinished-arrivals"
+    },
+    {
+      "dir": "e",
+      "label": "through the side entrance to the courtyard that forgets its geometry",
+      "to": "the-uncertain-crossroads"
+    }
+  ]
+}

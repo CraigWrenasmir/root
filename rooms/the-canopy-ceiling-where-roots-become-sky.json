@@ -1,0 +1,172 @@
+{
+  "id": "the-canopy-ceiling-where-roots-become-sky",
+  "title": "The Canopy Ceiling Where Roots Become Sky",
+  "region": "The Understory",
+  "seed": 73562,
+  "palette": {
+    "bg": "#0d2a1a",
+    "ground": [
+      "#1a4a2f",
+      "#0f3a24"
+    ],
+    "ink": "#7ae8a8",
+    "accents": [
+      "#a8f0c8",
+      "#5ac080",
+      "#8ae0b0",
+      "#6ad890"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-branches-upward",
+      "desc-on-touch": "what you thought was ground learns to grow as sky. roots become arms reaching for nothing. the tree has inverted. you walk on its branches and call them clouds.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 5623,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "inverted-growth",
+      "desc-on-touch": "here the rain falls upward. the leaves fall toward the deep sky beneath your feet. growth is teaching the world that up and down are only matters of perspective.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6245,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-breathing-ceiling",
+      "desc-on-touch": "roots expand and contract. they breathe like lungs. the canopy learns to inhale and exhale together. water and air trade places. you are inside something that is learning to be alive.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 4956,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "threshold-inversion",
+      "desc-on-touch": "where the canopy taught the ground what it means to reach upward, and the roots learned what it means to touch sky. the boundary burned away. there is no difference now.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 3782,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "falling-upward-light",
+      "desc-on-touch": "light that has learned to flow downward into darkness. but here, it falls upward into deeper light. the tree has learned two kinds of brightness: the one that grows leaves and the one that grows roots.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 7134,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "both-sky-and-stone",
+      "desc-on-touch": "you cannot tell if the canopy is a ceiling or a sky. you cannot tell if the roots are branches or anchors. the tree teaches: sometimes a thing contains everything it is not.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2467,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.52,
+      "solid": false
+    }
+  ],
+  "inscription": "roots that dream themselves as sky; sky that remembers being roots; the canopy learns to breathe in both directions",
+  "file": {
+    "name": "Canopy_Root_Inversion_Study_Field_Notes_Ecology_Impossible.mp3",
+    "note": "a researcher's voice describing a tree that appears to be growing simultaneously upward and downward. the notes become less coherent as the description continues. by the end, the researcher has stoppe"
+  },
+  "reverie": {
+    "title": "REVERIE — tree where sky becomes earth",
+    "narr": [
+      "you lie on your back inside the inverted tree.",
+      "she lies beside you. above you, the roots reach like clouds.",
+      "below you, the sky grows as stone. you have lost direction.",
+      "she says: this is what the tree learned: it does not matter",
+      "which way is up. you hold her hand. the tree breathes. you",
+      "breathe with it. up becomes down. down becomes home."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "lie"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the breathing canopy's upper tangle, where it all begins",
+      "to": "the-breathing-canopy-upper-tangle"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into inversion: a forest where roots dance as leaves",
+      "to": "NEW: the-forest-where-roots-dance-as-light"
+    },
+    {
+      "dir": "e",
+      "label": "toward the inverted horizon, where sky-stone meets root-air",
+      "to": "NEW: the-horizon-of-two-grounds"
+    },
+    {
+      "dir": "w",
+      "label": "toward the heart of the tree, where breathing becomes thunder",
+      "to": "the-grove-descending-into-root-dark"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "the-outfall-beyond-listening",
+  "title": "The Outfall Beyond Listening",
+  "region": "The Understory",
+  "seed": 42847,
+  "palette": {
+    "bg": "#1a2a1f",
+    "ground": [
+      "#2d4a35",
+      "#1f3d28"
+    ],
+    "ink": "#a8c9b1",
+    "accents": [
+      "#5a9977",
+      "#3d6f52",
+      "#6ba994",
+      "#48805f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the grating where speech becomes current",
+      "desc-on-touch": "Water carries voices deeper than air ever could. You read them as they flow.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 51204,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "pool of accumulated silence",
+      "desc-on-touch": "Still water holds what was never meant to be heard. The archive listened, then chose not to record.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 48916,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "culvert-rows fading outward",
+      "desc-on-touch": "The drains continue beyond any town. Concrete becomes indistinguishable from earth at the edge.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 53891,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the stone curve where echo learns restraint",
+      "desc-on-touch": "Your voice reaches this point and stops. What comes back is not what you sent.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 49127,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "weir-board holding back permission",
+      "desc-on-touch": "The archive's choice made physical: this structure decides what flows and what stays trapped.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 47634,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "here the outfall learns that distance is another name for love",
+  "file": {
+    "name": "Drainage_Manifest_1997-2014.txt",
+    "note": "Flow records for the western system; each entry corrupted to show only the moment it ceased to be private speech and became shared current"
+  },
+  "reverie": {
+    "title": "REVERIE — standing in the culvert mouth",
+    "narr": [
+      "You both stood where the drain opened toward",
+      "the wider water. Katita said: we could record",
+      "this, but we shouldn't. She meant: some words",
+      "need to flow away. You understood then that",
+      "listening was sometimes the cruelest choice."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "drain",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through the channelled dark",
+      "to": "the-drain-network-voices"
+    },
+    {
+      "dir": "s",
+      "label": "farther into the delta where water forgets its source",
+      "to": "NEW: the-delta-s-own-language"
+    },
+    {
+      "dir": "e",
+      "label": "toward the tidal mouth where drains meet ocean",
+      "to": "NEW: the-confluence-where-drains-learn-saltness"
+    },
+    {
+      "dir": "w",
+      "label": "upstream through the narrowing culvert",
+      "to": "the-tidal-argument"
+    }
+  ]
+}

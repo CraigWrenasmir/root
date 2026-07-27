@@ -1,0 +1,172 @@
+{
+  "id": "the-row-of-sorting-cottages",
+  "title": "The Row of Sorting Cottages",
+  "region": "The Clean Archive",
+  "seed": 71624,
+  "palette": {
+    "bg": "#e8e4d0",
+    "ground": [
+      "#b8c8b0",
+      "#9fb89f"
+    ],
+    "ink": "#3a4a38",
+    "accents": [
+      "#6b8b6b",
+      "#4a6a48",
+      "#7a9a78",
+      "#5a7a58"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "cottage-row",
+      "desc-on-touch": "seven cottages in a line. each child stays in one. each child sorts something different. but the piles grow toward each other. the cottages are learning what the children knew: everything wants to come home.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 3421,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-sorting-reach",
+      "desc-on-touch": "between cottages, piles grow. stones with shells. shells with cloth. cloth with photographs. the children stopped sorting by category. now they sort by what wishes to touch what.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5843,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "learning-windowsill",
+      "desc-on-touch": "each cottage window holds something found. the children rearrange them nightly. the windowsills have learned to dream: by morning, things have moved on their own.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "threshold-counter",
+      "desc-on-touch": "the ground between cottages counts steps. each child's path to the neighbouring cottage wears a small groove. the paths are learning what the children already knew: we all end up in each other's houses.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6721,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "porch-reaching",
+      "desc-on-touch": "from each porch, the children reach toward the next cottage's porch. their reaching hands have worn shadow-prints into the air. you can still see them. you can still feel the air where they reached.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7294,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the-things-they-brought",
+      "desc-on-touch": "a living inventory: the cottages keep learning what the children carried back. stones know they are stones here, not elsewhere. shells know they sing in this row and nowhere else.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 2508,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.82,
+      "y": 0.52,
+      "solid": false
+    }
+  ],
+  "inscription": "the children sorted; the cottages learned; now nothing leaves, and everything stays in the row of reach",
+  "file": {
+    "name": "Children_Sorting_Expedition_Journal_Pages_Handwritten_Photos.txt",
+    "note": "daily entries: what each child found, where each child placed it, which cottage held which child at dusk. the handwriting grows closer together toward the end."
+  },
+  "reverie": {
+    "title": "REVERIE — cottage row where children teach sorting",
+    "narr": [
+      "you sit on the step between two cottages. she comes back",
+      "from gathering, hands full of smooth stones. the child",
+      "in the first cottage is sleeping. the child in the second",
+      "is sorting shells by size. she places the stones down slowly,",
+      "carefully, between them. tomorrow, she says, the stones",
+      "will want to teach the shells something. you wait together."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the sorting house, where it all began",
+      "to": "the-house-where-they-sorted-what-they-brought-back"
+    },
+    {
+      "dir": "n",
+      "label": "the row continues: further cottages, more distant children still sorting",
+      "to": "NEW: the-cottages-beyond-reaching"
+    },
+    {
+      "dir": "e",
+      "label": "toward the growing place, where sorted things learn what they are",
+      "to": "NEW: the-clearing-where-sorted-things-grow"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the gathering field, where the finding began",
+      "to": "NEW: the-field-where-first-things-are-still-found"
+    }
+  ]
+}

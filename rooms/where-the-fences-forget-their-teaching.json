@@ -1,0 +1,100 @@
+{
+  "id": "where-the-fences-forget-their-teaching",
+  "title": "Where the Fences Forget Their Teaching",
+  "region": "The Clean Archive",
+  "seed": 6734291,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4a574",
+      "#e8d5c4"
+    ],
+    "ink": "#3d2817",
+    "accents": [
+      "#6b5d52",
+      "#2d5016",
+      "#c97a4a",
+      "#f5d5a8"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the line no longer lines",
+      "desc-on-touch": "The fence that taught property has fallen or dissolved. Knowledge that was meant to stop at borders has spread into the paddocks beyond.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the ambulant teaching",
+      "desc-on-touch": "Lessons about surgery and healing, whispered over fences that no longer hold, spread by people moving between properties. Knowledge is no longer contained.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 5103,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the drifting word",
+      "desc-on-touch": "Names of procedures, techniques, remedies—carried on wind or by mouth beyond where they were formally taught.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 4291,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "when fences fall, teaching doesn't stop—it learns to walk",
+  "file": {
+    "name": "Midwifery_Knowledge_Boundary_Dissolution.txt",
+    "note": "Case studies of surgical and birthing knowledge spreading from formal hospitals into bush communities, crossing property lines, becoming folk practice."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back west to the reach where the lesson flows",
+      "to": "the-flowing-reach"
+    },
+    {
+      "dir": "e",
+      "label": "east where the teaching becomes rumour",
+      "to": "NEW: the-rumour-that-knows-more-than-the-archive"
+    },
+    {
+      "dir": "s",
+      "label": "south into the property beyond the fence",
+      "to": "the-distributed-cognition-field"
+    }
+  ]
+}

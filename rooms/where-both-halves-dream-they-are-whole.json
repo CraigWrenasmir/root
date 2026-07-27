@@ -1,0 +1,100 @@
+{
+  "id": "where-both-halves-dream-they-are-whole",
+  "title": "Where Both Halves Dream They Are Whole Again",
+  "region": "The Diagnostic Render",
+  "seed": 5421873,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e4a537",
+    "accents": [
+      "#f39c12",
+      "#ecf0f1",
+      "#c0392b",
+      "#2ecc71"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the split dwelling",
+      "desc-on-touch": "Two shopfronts face each other across a dead channel. Each contains a mirror-path of the other. In sleep they drift together.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 8834,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the counterpart",
+      "desc-on-touch": "Its twin, reversed and waiting. They have never touched waking.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 8834,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the reaching current",
+      "desc-on-touch": "Between them: the only thing that moves, the only thing that remembers both sides.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2291,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "fracture and dreaming are not opposites; they are neighbours learning each other's shapes",
+  "file": {
+    "name": "Surgery_Broadcast_Twin_Stations.mp3",
+    "note": "A radio drama of one surgical procedure narrated from two simultaneously-transmitting local stations in different dialects. Both true. Both whole."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the fracture opened",
+      "to": "the-convergence-beneath-the-fracture"
+    },
+    {
+      "dir": "s",
+      "label": "down where the two halves are learning to dream together",
+      "to": "NEW: the-dream-current-below-the-split"
+    },
+    {
+      "dir": "w",
+      "label": "west into the other direction",
+      "to": "the-axiom-chamber"
+    }
+  ]
+}

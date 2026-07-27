@@ -1,0 +1,139 @@
+{
+  "id": "the-boundary-where-render-meets-actual-light",
+  "title": "The Boundary Where Render Meets Actual Light",
+  "region": "The Diagnostic Render",
+  "seed": 8192847,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0033ff",
+      "#00ccff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ff00ff",
+      "#00ff00",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "interface-threshold",
+      "desc-on-touch": "Where the grid-render of the archive meets actual sunlight, the pixels have begun to develop texture. You are looking at something that the terminal never learned how to draw.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 47829,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "fluorescence-boundary",
+      "desc-on-touch": "On the render side, the grid glows. On the country side beyond, the light is plain. The interface between them is where both have learned to look at each other.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 63947,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "light-sampling-device",
+      "desc-on-touch": "A measurement apparatus, part scanner, part sensor. It is trying to read actual light into the archive's diagnostic language. The readings are getting stranger every day.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 58394,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "spectrum-repository",
+      "desc-on-touch": "Wavelengths of actual light that the archive has captured and filed, trying to teach its grid-logic the grammar of photons. Some of these wavelengths are no longer being found in nature.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 72485,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "mirror-that-sees-backward",
+      "desc-on-touch": "A reflective surface placed at the threshold. It reflects the render side toward the country side and vice versa. Both are learning to recognize themselves in the other.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 81729,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where pixels learned they were always light and light learned it was always being rendered",
+  "file": {
+    "name": "Fluorescence_Decay_Study_Boundary_Interface_1999.csv",
+    "note": "Measurements of how the archive's diagnostic glow fades as it approaches actual daylight. The numbers stop making sense around mile marker 3. After that, the file appears to be written in a form of li"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the ceiling of unfinished reflections",
+      "to": "the-ceiling-of-unfinished-reflections"
+    },
+    {
+      "dir": "w",
+      "label": "westward into deeper render-space where the grid holds stable",
+      "to": "the-logic-bedrock"
+    },
+    {
+      "dir": "n",
+      "label": "northward to the horizon where questions learn to reflect",
+      "to": "the-horizon-of-questions"
+    },
+    {
+      "dir": "s",
+      "label": "southward to the country that dreams in infinite strata, where land and render negotiate",
+      "to": "NEW: the-photonic-negotiation-chamber"
+    }
+  ]
+}

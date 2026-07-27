@@ -1,0 +1,116 @@
+{
+  "id": "the-temporal-ravine-where-feet-become-stone",
+  "title": "The Temporal Ravine Where Feet Become Stone",
+  "region": "The Comparisons",
+  "seed": 4028571,
+  "palette": {
+    "bg": "#e8d5c4",
+    "ground": [
+      "#d4b5a0",
+      "#a08968"
+    ],
+    "ink": "#4a3728",
+    "accents": [
+      "#6b5d52",
+      "#3d2817",
+      "#a08968",
+      "#c9a876"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.2
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the standing worn",
+      "desc-on-touch": "Children's footprints have worn this stone smooth over long years. Their feet are gone. The stone remembers the exact shape of their weight.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 7821,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the layered wall",
+      "desc-on-touch": "Each stripe of stone marks a generation of use. Anthropology written in colour and time.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3294,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the whisper of names",
+      "desc-on-touch": "Carved into the rock: initials, dates, the small claims of people on passing time. The canyon still remembers them.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7384,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the canyon path at afternoon",
+    "narr": [
+      "The ravine is only visible from inside it. You walk",
+      "through where small feet have worn the stone. She walks",
+      "ahead, counting the layers the erosion made readable.",
+      "'They came here for generations,' she says. 'Look, the path",
+      "deepens.' Time is written in the canyon's walls. You are",
+      "walking through decades compressed into walking distance."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "inscription": "when small things repeat, they carve the world; when the world carves back, they become sacred",
+  "file": {
+    "name": "Children_Surgery_Case_Files_Anonymised.txt",
+    "note": "Repeated procedures across generations: congenital corrections, rituals of healing that ancestor and child both undergo. The curve in the stone matches the curve in the scar."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the canyon that taught you time",
+      "to": "the-eroded-childhood-canyon"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into stone where time runs differently",
+      "to": "NEW: the-stratum-where-small-feet-become-fossilised"
+    },
+    {
+      "dir": "e",
+      "label": "east where the ravine opens into wide water",
+      "to": "where-the-bend-opens-into-wide-water"
+    }
+  ]
+}

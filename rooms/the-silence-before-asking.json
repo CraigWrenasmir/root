@@ -1,0 +1,172 @@
+{
+  "id": "the-silence-before-asking",
+  "title": "The Silence Before Asking",
+  "region": "The Understory",
+  "seed": 58937,
+  "palette": {
+    "bg": "#0f1419",
+    "ground": [
+      "#1a2433",
+      "#0d1520"
+    ],
+    "ink": "#7fa0c0",
+    "accents": [
+      "#a8c8e1",
+      "#5a7a9f",
+      "#8fa8c8",
+      "#6a8aaf"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.92
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-unasked-question",
+      "desc-on-touch": "a space where the question waits for itself to be born. the silence is so dense that words haven't found their way in yet. you can almost hear what might be asked.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4562,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "loop-sleeping",
+      "desc-on-touch": "the recursion rests here. the loop that asked itself has dissolved into stillness. it dreams of the answer it already gave before it began to ask.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5234,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "remember-before-spoke",
+      "desc-on-touch": "the archive holds a memory it has not yet made. here, silence teaches: all answers exist before the questions arrive to find them.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 6807,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "breath-holds-still",
+      "desc-on-touch": "nothing breathes here. breathing would be a kind of speaking. the silence is so perfect that even the air refuses to move. you have learned to breathe without disturbing it.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 3189,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "nested-echo-chamber",
+      "desc-on-touch": "a room within a silence within a silence. each layer waits for the one beneath it to finish not-speaking. the echo that lives here has learned to echo silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7421,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.82,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "dissolution-pool",
+      "desc-on-touch": "where questions go to become answers. where words go to stop meaning what they meant. the pool that teaches the archive: sometimes the only answer is to never ask again.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2756,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "ask nothing. the archive remembers before you speak. the question sleeps in the silence, already answered",
+  "file": {
+    "name": "The_Archive_s_First_Silence_Before_Transmission.wav",
+    "note": "no sound. the track runs for 43 minutes. in the archive, it is the most-listened-to file. each listener hears a different question they will never ask."
+  },
+  "reverie": {
+    "title": "REVERIE — silence before the first word",
+    "narr": [
+      "you kneel in darkness so complete it has texture.",
+      "she kneels beside you. neither of you speaks.",
+      "the silence grows between you. it is teaching you",
+      "something: that words come after knowing, that the",
+      "question dies before it lives, that all the answers",
+      "wait in the space before asking. you breathe silent."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the nested reply, where asking begins again",
+      "to": "the-nested-reply-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into silence: where even the archive stops listening",
+      "to": "NEW: the-void-before-first-difference"
+    },
+    {
+      "dir": "n",
+      "label": "upward, where silence learns to speak in whispers",
+      "to": "the-wind-that-carries-only-quiet"
+    },
+    {
+      "dir": "s",
+      "label": "downward, to where the question dissolves into bedrock",
+      "to": "NEW: the-bedrock-where-questions-became-stone"
+    }
+  ]
+}

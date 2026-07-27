@@ -1,0 +1,100 @@
+{
+  "id": "the-debt-form-dream-registry",
+  "title": "The Debt-Form Dream Registry",
+  "region": "The Clean Archive",
+  "seed": 8529461,
+  "palette": {
+    "bg": "#2d1b69",
+    "ground": [
+      "#8b6f47",
+      "#4a3f8b"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#d4a574",
+      "#8b2e6b",
+      "#6b5d52",
+      "#f5a623"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the property remembers what it owes",
+      "desc-on-touch": "Photographs of land that dreams itself differently when it knows its debt. The image shifts: same place, two angles, both true.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 7249,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the building that carries its price",
+      "desc-on-touch": "A clinic, a hospital ward, a surgery built on unpaid labour. The photograph shows both: the structure and the cost it is configured around.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 4738,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the registry itself",
+      "desc-on-touch": "A catalogue of places that have learned to photograph their own debts. Each image is a bill that never arrived but the land keeps paying.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 8372,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "debts learn to carry images; places photograph themselves paying, forever",
+  "file": {
+    "name": "Unpaid_Medical_Interventions_Registry.jpg",
+    "note": "Photographs of country medical sites—surgeries performed without compensation, clinics built on volunteer labour, procedures that left no written record but changed the places they happened in."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back west to the registry where places remember",
+      "to": "the-photograph-registry-where-unpaid-places-remember"
+    },
+    {
+      "dir": "s",
+      "label": "south into deeper debt-forms",
+      "to": "NEW: the-gallery-of-things-that-will-never-be-paid"
+    },
+    {
+      "dir": "n",
+      "label": "north into regions of unpaid memory",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    }
+  ]
+}

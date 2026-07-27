@@ -1,0 +1,134 @@
+{
+  "id": "the-township-of-verified-error",
+  "title": "The Township of Verified Error",
+  "region": "The Comparisons",
+  "seed": 2847563,
+  "palette": {
+    "bg": "#7a9a3a",
+    "ground": [
+      "#9aca5a",
+      "#5a7a2a"
+    ],
+    "ink": "#1a1a0a",
+    "accents": [
+      "#ffdd44",
+      "#ff5544",
+      "#aa5544",
+      "#334466"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "town-hall",
+      "desc-on-touch": "The building where beliefs were filed and catalogued. You can see the opinion shelves through the windows: carefully organized certainties, all of them wrong in the same direction.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 6384,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "monument-to-consensus",
+      "desc-on-touch": "Erected when everyone agreed. They were all incorrect. The plaque has worn smooth, but the certainty in its every letter remains unchanged.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 8931,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "corrected-notice-board",
+      "desc-on-touch": "Notices pinned explaining what the town got wrong. Layered: first belief, then correction, then correction of the correction. The layers keep growing.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 4719,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "archive-corner",
+      "desc-on-touch": "Where the town keeps its old certainties, filed as 'historical misapprehensions.' The filing system assumes error will continue.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7263,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "green-where-nothing-grew",
+      "desc-on-touch": "The township believed trees would flourish here. They do not. The grass has learned to grow around the absence, and the townspeople have learned to believe in absence.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 2541,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "where opinion learned to set like copper oxides into certainty, and then began to discolour",
+  "file": {
+    "name": "Municipal_Records_1967_Projected_Growth_And_Actual_Outcomes.txt",
+    "note": "A town plan from the 1960s with predictions for 2000. Every single projection was in the wrong direction. The file has been updated with brackets showing how wrong, then deleted them, then restored th"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the laboratory where these opinions were settled",
+      "to": "the-laboratory-of-settled-opinions"
+    },
+    {
+      "dir": "w",
+      "label": "toward the township upstream that got everything different",
+      "to": "NEW: the-upstream-town-where-error-went-another-way"
+    },
+    {
+      "dir": "e",
+      "label": "to the archive section that stores only the town's regrets",
+      "to": "the-speaking-alteration-deep"
+    }
+  ]
+}

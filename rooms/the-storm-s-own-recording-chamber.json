@@ -1,0 +1,134 @@
+{
+  "id": "the-storm-s-own-recording-chamber",
+  "title": "The Storm's Own Recording Chamber",
+  "region": "The Clean Archive",
+  "seed": 4837291,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a4a4a",
+      "#2a2a2a"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#ffcc00",
+      "#00ddff",
+      "#ff6600",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "recording-booth",
+      "desc-on-touch": "The storm speaks into these chambers, its voice becoming waveform, its chaos becoming format. You listen to yourself listening.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "tape-spools",
+      "desc-on-touch": "Reels turn in the dark, capturing what the storm has already forgotten it said. The archive learns its own voice.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5934,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "antenna-mast",
+      "desc-on-touch": "A thin pole rises through the building, broadcasting the storm's soliloquy back into itself. Reception and transmission become one.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 1456,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "monitor-glow",
+      "desc-on-touch": "Green text on black: the storm's own diagnostic of itself. Line by line, it reads what it is becoming.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7823,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "voltage-regulator",
+      "desc-on-touch": "Humming beneath the noise: the battery-backed converters that let the storm archive itself. Power sustains the self-recording.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 3691,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the storm learns to listen to its own archive, and the archive learns to storm",
+  "file": {
+    "name": "Storm_Self_Broadcast_2300hrs_Unmapped_Date.wav",
+    "note": "The storm's voice at 44.1kHz, corrupted: identical on playback to what it said, but it denies saying it — checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the unmapping",
+      "to": "the-storm-that-unmaps-the-storm"
+    },
+    {
+      "dir": "n",
+      "label": "up into the clearing where the storm loses its voice",
+      "to": "NEW: the-clearing-where-thunder-learns-silence"
+    },
+    {
+      "dir": "s",
+      "label": "down to where sound becomes stone",
+      "to": "the-stone-sediment-threshold"
+    }
+  ]
+}
