@@ -1,0 +1,134 @@
+{
+  "id": "the-root-chamber-of-asking",
+  "title": "The Root Chamber of Asking",
+  "region": "The Diagnostic Render",
+  "seed": 3215678,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#887733",
+      "#443311"
+    ],
+    "ink": "#dddd99",
+    "accents": [
+      "#ffff66",
+      "#66ff99",
+      "#ff9966",
+      "#9966ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "house-with-question-windows",
+      "desc-on-touch": "A tiny cottage rendered in block shapes, but every window is a question mark. The house is built around the asking, not the answering.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 11123,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "root-through-circuitry",
+      "desc-on-touch": "A root has grown through the circuit board substrate. It asks the board questions; the board answers in sparks and broken traces.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 22234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "question-shaped-tree",
+      "desc-on-touch": "If you read the branches as an outline, they form the shape of a question mark. The trunk splits into two paths that never meet.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 33345,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "stack-of-unanswered-scrolls",
+      "desc-on-touch": "Each scroll is a question that grew deeper as it was asked. The stack is very tall. The questions keep unrolling downward into unseen chambers.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 44456,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "doorways-framing-inquiries",
+      "desc-on-touch": "Five arches, each one rendering a different kind of asking. One asks with hope. One asks with suspicion. One asks and immediately forgets its question.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 55567,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "questions are the archive's first root; they ask downward toward answers that refuse to settle",
+  "file": {
+    "name": "Root_System_Interrogative_Mapping.txt",
+    "note": "An attempt to diagram the root structure as a question-and-answer system. Incomplete. The roots keep growing past the margin of the page."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the axiom that started all asking",
+      "to": "the-axiom-that-asked-why"
+    },
+    {
+      "dir": "s",
+      "label": "down to where questions become answers that are also questions",
+      "to": "NEW: the-deep-loop-where-asking-never-ends"
+    },
+    {
+      "dir": "w",
+      "label": "into the root-dark where doubt learned its first word",
+      "to": "NEW: the-dark-before-questions-had-shapes"
+    }
+  ]
+}

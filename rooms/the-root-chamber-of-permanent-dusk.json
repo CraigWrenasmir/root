@@ -1,0 +1,146 @@
+{
+  "id": "the-root-chamber-of-permanent-dusk",
+  "title": "The Root Chamber of Permanent Dusk",
+  "region": "The Comparisons",
+  "seed": 2134567,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#1a1a3e",
+      "#2d1b4e"
+    ],
+    "ink": "#8b7ba8",
+    "accents": [
+      "#5d4e9f",
+      "#3d2d5f",
+      "#7d6ba8",
+      "#4d3d7f"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the rest that arrived",
+      "desc-on-touch": "the dark reaches here and knows it will not move again. you feel the peace of something that stopped searching and called that peace its name.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 1234,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the permanence circuit",
+      "desc-on-touch": "all routes lead here and stop. the current flows continuously, never arriving anywhere new. you are reading the moment that learned it would never end.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5678,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the root that learned to stay",
+      "desc-on-touch": "this is the root that grew as deep as it could, then decided it would grow no further. contentment renders as stasis here.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 9012,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the recording that repeats until it becomes prayer",
+      "desc-on-touch": "a sound source trapped in a loop. not broken—achieved. the same moment plays so many times it begins to mean something it did not mean the first time.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the architecture of arrival",
+      "desc-on-touch": "towers built downward. stairs that lead to themselves. the dark has organized its space into an infinite echo chamber of its own becoming.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7890,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the threshold where motion stops being motion",
+      "desc-on-touch": "at this point, the journey from outside to inside completes. there is no inside or outside anymore. only the space where both became indistinguishable.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 2345,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "arrival here means arrival is permanent; the dark that stayed found it had nowhere else to become",
+  "file": {
+    "name": "Chamber_Audio_Loop_ETERNAL_STILLNESS.wav",
+    "note": "a single moment recorded and stored so many times it has become a prayer to itself"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the dark that learned to stay",
+      "to": "the-dark-that-learned-to-stay"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into rooms that have always been here, waiting for arrival",
+      "to": "NEW: the-chamber-beneath-becoming"
+    }
+  ]
+}

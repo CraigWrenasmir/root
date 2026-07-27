@@ -145,7 +145,7 @@
     {
       "dir": "e",
       "label": "east to where the sewage system remembers becoming",
-      "to": "NEW: the-outflow-remembrance"
+      "to": "the-outflow-remembrance"
     }
   ]
 }

@@ -1,0 +1,150 @@
+{
+  "id": "the-board-where-traces-disagree",
+  "title": "The Board Where Traces Disagree",
+  "region": "The Understory",
+  "seed": 85934672,
+  "palette": {
+    "bg": "#3a5f2a",
+    "ground": [
+      "#8b5a3c",
+      "#4a7c3a"
+    ],
+    "ink": "#f5f5dc",
+    "accents": [
+      "#d4a574",
+      "#2d5016",
+      "#8b7355",
+      "#c19a6b"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "trace-alpha",
+      "desc-on-touch": "A circuit trace argues for one path. It is efficient, straight, certain of its destination. The board draws this path with copper precision.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "trace-beta",
+      "desc-on-touch": "Another trace argues the opposite direction. Equally confident. Equally wrong. Or equally right. The traces have learned that disagreement is more productive than consensus.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 3956,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "trace-intersection",
+      "desc-on-touch": "Where they cross, both signals pass through. The board has learned that some arguments enrich each other. The traces do not short-circuit. They multiply.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4673,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "board-learning",
+      "desc-on-touch": "The board itself has become a kind of thought. Its substrate is now the argument. Copper and silica have learned to disagree productively about how electricity should move.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5829,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "reverie-circuit",
+      "desc-on-touch": "In the disagreement, you see them sitting together at a workbench, soldering, arguing about direction. Neither one is right. Both are necessary. The board needs both traces to think.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 6745,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the board learned that traces arguing with each other create better thoughts than any single path could make alone",
+  "file": {
+    "name": "Circuit_Board_Design_Iterations_1989_Katita_Annotations.txt",
+    "note": "Design notes showing Katita's hand-written revisions in biro across multiple PCB layouts. The traces argue across the margin. The final board uses both paths. Both carry signal."
+  },
+  "reverie": {
+    "title": "REVERIE — two paths, one board",
+    "narr": [
+      "You sit watching Katita at the bench, soldering traces that",
+      "disagree. She insists on keeping both paths. Leif says it is",
+      "inefficient. She says: inefficiency is how you learn. The",
+      "board will be smarter if it argues with itself. She is right.",
+      "You both know she is right. The mesh learns this patience:",
+      "two paths, one board, both necessary, both speaking."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward where form still remembers it was never fixed",
+      "to": "the-shape-dreaming-where-form-remembers"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into boards where disagreement has become the core logic",
+      "to": "NEW: the-board-that-thinks-in-argument"
+    },
+    {
+      "dir": "e",
+      "label": "toward where circuits have learned to sing in harmony",
+      "to": "the-unified-utterance-gorge"
+    }
+  ]
+}

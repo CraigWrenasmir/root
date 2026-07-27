@@ -1,0 +1,100 @@
+{
+  "id": "the-axiom-fossils",
+  "title": "The Axiom Fossils",
+  "region": "The Diagnostic Render",
+  "seed": 6847201,
+  "palette": {
+    "bg": "#2a2a1f",
+    "ground": [
+      "#4a4a3a",
+      "#3d3d2f"
+    ],
+    "ink": "#c4a87e",
+    "accents": [
+      "#8b7355",
+      "#d4af37",
+      "#556b2f",
+      "#8b8b7a"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "proof trace",
+      "desc-on-touch": "A circuit path that represents a mathematical proof, traced in copper and time. It has been here so long that the logic has turned to stone. The proof is still valid, but only as a fossil of validity.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 3562,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "axiom stone",
+      "desc-on-touch": "A pillar carved with equation so ancient the symbols have worn smooth into pure meaning. The archive stores its axiomatic bedrock here, where mathematics becomes geology and geology becomes truth.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 7294,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "bedrock equation",
+      "desc-on-touch": "An arithmetic so old it no longer needs symbols. The equals sign has worn smooth. Numbers have become the shape of the stone itself, and the equation is every rock you see.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5841,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "what remains when mathematics becomes geology",
+  "file": {
+    "name": "Petrified_Proofs_Indexed.txt",
+    "note": "Theorems from the early bedrock, now readable only as stratum. Each layer is a stage of reasoning, compressed over geological time into single unchangeable truth."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up toward the strata where fossils still think",
+      "to": "the-memory-strata-where-fossils-think"
+    },
+    {
+      "dir": "w",
+      "label": "into bedrock chambers where axioms no longer require proof",
+      "to": "NEW: the-bedrock-axiom-hall-where-truths-sleep"
+    },
+    {
+      "dir": "s",
+      "label": "toward layers where counting itself is fossilized",
+      "to": "the-numbered-silence-forest"
+    }
+  ]
+}

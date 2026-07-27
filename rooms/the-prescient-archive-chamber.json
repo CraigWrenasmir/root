@@ -139,7 +139,7 @@
     {
       "dir": "e",
       "label": "into a chamber where consequences arrive before actions",
-      "to": "NEW: the-chamber-of-reversed-sequence"
+      "to": "the-chamber-of-reversed-sequence"
     },
     {
       "dir": "n",

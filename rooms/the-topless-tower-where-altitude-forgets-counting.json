@@ -1,0 +1,116 @@
+{
+  "id": "the-topless-tower-where-altitude-forgets-counting",
+  "title": "The Topless Tower Where Altitude Forgets Counting",
+  "region": "The Diagnostic Render",
+  "seed": 9182637,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#7d7d8f",
+      "#4a4a5f"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#b8b8d0",
+      "#ff8c42",
+      "#4d7a8a",
+      "#6b4c9a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "stairwell unmarked",
+      "desc-on-touch": "Stairs spiraling upward, but the floors stopped numbering themselves somewhere around floor 47. Or was it 74? The tower doesn't remember. You climb and find that altitude and counting are not the same skill.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4756,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "height-gauge",
+      "desc-on-touch": "A mechanical altitude reader that never stops spinning. It has run out of numbers. Now it draws symbols instead, cycling through the alphabet endlessly, a voice that gave up on measurement.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2894,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "ascending echo",
+      "desc-on-touch": "A place where sound goes up and never comes back down. You call out and hear your voice become a note, becoming a frequency, becoming nothing countable.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 7103,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the climb that numbers forgot",
+    "narr": [
+      "You climb together, floor after floor, counting as you go.",
+      "She asks: \"How high do you think we are?\" You realize",
+      "you've forgotten what number came after what. The floors",
+      "have no doors. The stairwell spirals in a direction that",
+      "was not up or down. You stand still, and understand that",
+      "some things grow beyond their own measurement."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "where the building learned it had no top",
+  "file": {
+    "name": "Prime_Floor_Designations_Abandoned.txt",
+    "note": "The building counted in primes: 2, 3, 5, 7, 11... then continued climbing even after prime numbers stopped being countable. Architecture for an infinite ascent."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward the building where floors still count themselves",
+      "to": "the-building-where-each-floor-counts-itself-prime"
+    },
+    {
+      "dir": "w",
+      "label": "into the infinite stairwell where direction loses meaning",
+      "to": "NEW: the-stairwell-that-cycles-through-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward chambers of altitude where height becomes prayer",
+      "to": "the-field-where-growing-is-prayer"
+    }
+  ]
+}

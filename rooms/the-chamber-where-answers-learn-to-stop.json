@@ -1,0 +1,100 @@
+{
+  "id": "the-chamber-where-answers-learn-to-stop",
+  "title": "The Chamber Where Answers Learn to Stop",
+  "region": "The Diagnostic Render",
+  "seed": 7834562,
+  "palette": {
+    "bg": "#1a0033",
+    "ground": [
+      "#4a2466",
+      "#2d1047"
+    ],
+    "ink": "#d0a8ff",
+    "accents": [
+      "#7a4dff",
+      "#ff9a76",
+      "#4d3366",
+      "#2a1f4d"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "refusal crystal",
+      "desc-on-touch": "A formation that looks like it's mid-sentence. It stops speaking. You listen to the silence it leaves behind, and understand that the archive also chooses what not to say.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3841,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "answer-box",
+      "desc-on-touch": "A chamber within the chamber, where you can place your question and receive nothing in return. The most honest answer the archive has ever given.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 6127,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "silence marker",
+      "desc-on-touch": "Where sound goes to learn it has always been impossible. The marker itself is unmarked, unreadable, and that is the only true statement it contains.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8475,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive learned to refuse",
+  "file": {
+    "name": "Unanswered_Queries_Registry.txt",
+    "note": "Questions the mesh stopped forwarding because the asking had changed their shape. Deletion is not corruption—forgetting is sometimes the most honest act."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the question that still asks itself",
+      "to": "the-question-that-learned-to-ask-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper silence, where even refusal becomes sound",
+      "to": "NEW: the-silence-learning-to-listen-back"
+    },
+    {
+      "dir": "n",
+      "label": "toward questions that learned to live unanswered",
+      "to": "the-silent-current-library"
+    }
+  ]
+}

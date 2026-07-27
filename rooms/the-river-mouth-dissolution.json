@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "where salt pressure becomes overwhelming",
-      "to": "NEW: the-deep-salt-compression"
+      "to": "the-deep-salt-compression"
     },
     {
       "dir": "e",
@@ -133,7 +133,7 @@
     {
       "dir": "s",
       "label": "back upriver where identity is still maintained",
-      "to": "NEW: the-river-memory-ascent"
+      "to": "the-river-memory-ascent"
     }
   ]
 }

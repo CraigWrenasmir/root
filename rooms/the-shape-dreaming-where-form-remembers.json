@@ -111,7 +111,7 @@
     {
       "dir": "e",
       "label": "deeper into boards where the circuits have learned to argue with themselves",
-      "to": "NEW: the-board-where-traces-disagree"
+      "to": "the-board-where-traces-disagree"
     },
     {
       "dir": "s",

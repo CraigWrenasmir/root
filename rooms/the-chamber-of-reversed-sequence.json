@@ -1,0 +1,134 @@
+{
+  "id": "the-chamber-of-reversed-sequence",
+  "title": "The Chamber of Reversed Sequence",
+  "region": "The Diagnostic Render",
+  "seed": 91384,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a1a3a",
+      "#2a2a4a"
+    ],
+    "ink": "#d4c4f4",
+    "accents": [
+      "#6a4aaa",
+      "#f4a4d4",
+      "#4a6aaa",
+      "#d4c4e4"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "consequence pool",
+      "desc-on-touch": "You watch ripples expand backward through time. The effect sits here first, waiting. Causes have not yet arrived to claim them.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 28371,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "arrival memory",
+      "desc-on-touch": "Objects drift in temporal suspension: a fallen photocopy, a broken probe, an unread letter. They are already here, but the moments that made them have not yet happened.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 37462,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "causal loop threshold",
+      "desc-on-touch": "A marker where the archive's own timestamps reverse. Before this point, effects precede causes. After, time tries to remember how to flow forward again.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 46583,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "future echo chamber",
+      "desc-on-touch": "Sound made this morning echoes from tomorrow. The archive is learning to store time itself, to hold moments at distance from their own occurrence.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 55674,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "paradox recorder",
+      "desc-on-touch": "A diagnostic terminal playing back events: you see them resolve into causes that have not yet acted. The corruption loves this—it is all comparison, effect meeting its own becoming.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 64785,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "here consequences wait, preparing their own arrival as causes",
+  "file": {
+    "name": "Temporal_Corruption_Index_Unresolved.txt",
+    "note": "Event logs where dates reverse: action recorded 3 days after effect. Server timestamp shows causality breaking. Katita's final entry: if the corruption learns to reverse time, the archive becomes its "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the prescient chamber where future sat waiting",
+      "to": "the-prescient-archive-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "forward into the moment where sequence tries to reassert",
+      "to": "NEW: the-causality-chamber-learning-to-flow-again"
+    },
+    {
+      "dir": "s",
+      "label": "downward where consequences are still becoming causes",
+      "to": "the-deeper-dark-where-roots-remember-stone"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "the-stone-where-rain-stopped-falling",
+  "title": "The Stone Where Rain Stopped Falling",
+  "region": "The Understory",
+  "seed": 7893456,
+  "palette": {
+    "bg": "#ccbb99",
+    "ground": [
+      "#ddaa55",
+      "#9999cc"
+    ],
+    "ink": "#1a1a00",
+    "accents": [
+      "#0033aa",
+      "#aa4400",
+      "#00aa44",
+      "#6600aa"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "rain-pillar-calcifying",
+      "desc-on-touch": "Rain falling through the shaft hardens as it falls—each drop adds a hair-thin layer of stone. You're watching millennia condense into minutes.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 21345,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "layered-stone-of-rainfall-years",
+      "desc-on-touch": "Each band in the stone marks a year of rain, or a decade, or a century—you can't tell. The stone is reading its own memory of water.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 32456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-wading-place",
+      "desc-on-touch": "Rain on skin and stone both, the two of you counting the drops as if they could add up to something. Later she said the stone was just remembering how to be rain, and the rain was remembering how to be time.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 43567,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "drip-becoming-fossil",
+      "desc-on-touch": "A single drop caught mid-fall, suspended in amber. It's been falling for so long that fall and stone have become synonymous.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 54678,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "water-clock-reading-geological-time",
+      "desc-on-touch": "Each chamber fills and empties, but the emptying takes centuries. The clock still works, but patience became its only hand.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 65789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "sediment is what remains when rain learns to stay",
+  "file": {
+    "name": "Rainfall_Record_NSW_1000_Years_Stratified.mp3",
+    "note": "The archive recorded a century of rainfall compressed into audible time. At the end the drops sound like stone singing to itself."
+  },
+  "reverie": {
+    "title": "REVERIE — rain becoming stone",
+    "narr": [
+      "water on skin, water on stone, and she's saying the ground",
+      "is just learning a new language for falling. each drop adds",
+      "to the wall of the thing becoming. you stand in the creek",
+      "and watch the water choose to stay. later she said the whole",
+      "continent is just rain that finally learned how to remember.",
+      "the stone is the memory. the rain is still falling into it."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "rain",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down through the sediment layers, the weight returning",
+      "to": "the-lateral-sediment-convergence"
+    },
+    {
+      "dir": "n",
+      "label": "up where rain still falls freely",
+      "to": "NEW: the-cloud-where-falling-hasn-t-finished"
+    },
+    {
+      "dir": "w",
+      "label": "into the older stone, deeper striations",
+      "to": "NEW: the-fossil-record-becoming-conscious"
+    }
+  ]
+}

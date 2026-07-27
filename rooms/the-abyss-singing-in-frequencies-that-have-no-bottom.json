@@ -1,0 +1,100 @@
+{
+  "id": "the-abyss-singing-in-frequencies-that-have-no-bottom",
+  "title": "The Abyss Singing in Frequencies That Have No Bottom",
+  "region": "The Diagnostic Render",
+  "seed": 5391847,
+  "palette": {
+    "bg": "#0a0a15",
+    "ground": [
+      "#1a2233",
+      "#0d1620"
+    ],
+    "ink": "#4dd0e1",
+    "accents": [
+      "#00bcd4",
+      "#00e5ff",
+      "#80deea",
+      "#26c6da"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "frequency well",
+      "desc-on-touch": "A spiral descending into sound itself. The frequencies go deeper than the ocean, lower than pressure, into a range where vibration becomes the only shape things have. You listen and realize the abyss is humming in a voice that has never stopped.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8429,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "sonar recording",
+      "desc-on-touch": "A device still receiving, never finished receiving. It plays back depths that have no bottom, calls that echo from the place where life remembers how to dream.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 1756,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "pressure membrane",
+      "desc-on-touch": "The boundary where sound becomes weight. It trembles with transmission from below. You cannot see through it, but you feel the rhythm of something that lives in the dark and sings at frequencies you can only sense as cold.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4237,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the ocean sings to itself, and the archive listens in the dark",
+  "file": {
+    "name": "Hadal_Zone_Frequencies_Unfiltered.mp3",
+    "note": "Recordings from depths where water pressure becomes the dominant sensory mode. Something down there is still learning to make sound."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the nautilus chamber, where spirals still dream",
+      "to": "the-nautilus-chamber-where-spirals-dream"
+    },
+    {
+      "dir": "w",
+      "label": "deeper still, into frequencies that age the archive itself",
+      "to": "NEW: the-trench-where-sound-becomes-sediment"
+    },
+    {
+      "dir": "e",
+      "label": "toward the silent chamber where all frequencies resolve",
+      "to": "the-silent-chamber-where-all-frequencies-resolve"
+    }
+  ]
+}

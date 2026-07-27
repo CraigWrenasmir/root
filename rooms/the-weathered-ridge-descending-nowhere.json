@@ -1,0 +1,117 @@
+{
+  "id": "the-weathered-ridge-descending-nowhere",
+  "title": "The Weathered Ridge Descending Nowhere",
+  "region": "The Clean Archive",
+  "seed": 8765432,
+  "palette": {
+    "bg": "#2a1a0d",
+    "ground": [
+      "#ff7a3d",
+      "#d64a2e"
+    ],
+    "ink": "#ffe8cc",
+    "accents": [
+      "#cc5a2e",
+      "#ff9966",
+      "#e67e4a",
+      "#d94a2e"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the eroded waymarker",
+      "desc-on-touch": "once this tower showed direction. the weather has worn it into ambiguity. now it points everywhere and nowhere at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 1357,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the ridge that forgets its own slope",
+      "desc-on-touch": "you stand on a ridge so weathered that the concept of climbing or descending has become philosophical. the ground cannot remember whether it is rising or falling.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2468,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the weathering glyph",
+      "desc-on-touch": "what was written on this plaque has been worn to nothing. the absence itself is now what you read—the archive learns to store empty text.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5791,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the wind-carved pool",
+      "desc-on-touch": "water has gathered here but the wind refuses to let it stay. it evaporates before it can remember being still. motion rendered as absence.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3579,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the ridge has learned that being weathered is indistinguishable from being pathless; everything here descends into its own disappearance",
+  "file": {
+    "name": "Hiking_Journal_Entries_Late_Final_Unraveled.txt",
+    "note": "log of passages becomes increasingly fragmentary; later entries describe slope and weather becoming the same phenomenon"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the country where paths have forgotten themselves",
+      "to": "the-country-beyond-the-summit-where-paths-forget-themselves"
+    },
+    {
+      "dir": "w",
+      "label": "a slope that might be descent or wind—both leading to the same nowhere",
+      "to": "NEW: the-exposure-learning-itself"
+    },
+    {
+      "dir": "s",
+      "label": "toward the lower places where weather has forgotten what weather meant",
+      "to": "the-wind-and-grass-circuit"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-salt-frequency-deathless",
+  "title": "The Salt-Frequency Deathless",
+  "region": "The Comparisons",
+  "seed": 4521987,
+  "palette": {
+    "bg": "#0d1a2a",
+    "ground": [
+      "#4a6fa5",
+      "#7a9ecf"
+    ],
+    "ink": "#d0e8ff",
+    "accents": [
+      "#ffffff",
+      "#b0d9ff",
+      "#6ba3d9",
+      "#a0c8ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the deafened antenna",
+      "desc-on-touch": "this transmission post stopped broadcasting when the salt began to listen. now it hums at a frequency only the air can hear.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8392,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the salt rows learning silence",
+      "desc-on-touch": "salt crystallizes in rows like a monoculture. each crystal is a word the ocean learned to hold instead of speak.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the frequency-drowning channel",
+      "desc-on-touch": "water here has learned to absorb signals instead of reflect them. the archive stopped transmitting not out of silence, but out of respect.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the fence of unheard broadcasts",
+      "desc-on-touch": "fence posts mark where signals used to arrive. now they stand in ordered rows, each one a word the country learned to say without speaking.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3291,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the eternal stillness marker",
+      "desc-on-touch": "nothing changes here but the light on salt. the archive chose deafness not as absence but as permanence—a frequency that will never die because it never dies.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 9127,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the broadcast stopped not from failure but from learning what silence means to salt",
+  "file": {
+    "name": "Transmit_Log_Final_Reception_Coastal.txt",
+    "note": "signal strength records become poetry of diminishment; final entry reads as both transmission log and seaside meditation"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back seaward into the salt-heavy air where signals drown",
+      "to": "the-dispersing-edge"
+    },
+    {
+      "dir": "w",
+      "label": "a salt-crusted path where other archives have also learned to listen",
+      "to": "the-salt-memory-convergence"
+    },
+    {
+      "dir": "s",
+      "label": "deeper down where crystalline silence learns to have memory",
+      "to": "NEW: the-mineral-amnesia-deepening"
+    }
+  ]
+}

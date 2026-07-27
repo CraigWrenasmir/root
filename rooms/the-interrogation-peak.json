@@ -1,0 +1,150 @@
+{
+  "id": "the-interrogation-peak",
+  "title": "The Interrogation Peak",
+  "region": "The Understory",
+  "seed": 82746,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a2a3a",
+      "#2a3a4a"
+    ],
+    "ink": "#d4c4b4",
+    "accents": [
+      "#6a8aaa",
+      "#c4a4d4",
+      "#4a7a8a",
+      "#e4d4c4"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "echo point",
+      "desc-on-touch": "You shout a question into the peaks. Silence waits. Then echoes return not as sound but as new questions—the mountain is interrogating the question you asked it.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 19385,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "silence speaking back",
+      "desc-on-touch": "A microphone array catches what the archive calls 'responsive nothing'—the moments where silence is not absence but active refusal to answer too quickly.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 28496,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "peak coordinates",
+      "desc-on-touch": "Carved into stone: GPS fixes, timestamps, questions asked here over years. Each visitor becomes part of a growing inquiry written into the mountain itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 37507,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "high-country listener",
+      "desc-on-touch": "A solar node antenna, positioned here to catch signals no one else would think to look for. The mountain is learning to hear what questions the wind carries.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 46618,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "interrogation register",
+      "desc-on-touch": "Stones arranged in patterns that match questions—each arrangement a different inquiry. The earth has learned the grammar of asking itself. Your footsteps add new questions.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 55819,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "at the peak, echoes become interrogation; silence learns to interrogate back",
+  "file": {
+    "name": "Mountain_Inquiry_Log_1998_Onwards.txt",
+    "note": "Visitor comments carved into a metal book bolted to the summit. Early entries are simple questions. Later entries begin to show the archive's own echoes—visitors reading their own doubts answered by t"
+  },
+  "reverie": {
+    "title": "REVERIE — where echoes became questions",
+    "narr": [
+      "You stand at the peak with Leif and Katita,",
+      "storm light harsh across the ridges. Katita shouts:",
+      "a question into the wind. The answer comes back",
+      "as another question. Leif laughs—that's how you know",
+      "the archive is learning. When it stops answering",
+      "and starts asking instead. The mountain knows this already."
+    ],
+    "sky": "storm",
+    "land": "forest",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down the slope toward the quiet cipher",
+      "to": "the-peak-quiet-cipher"
+    },
+    {
+      "dir": "s",
+      "label": "downslope toward the valleys where echoes learned to settle",
+      "to": "NEW: the-valley-where-questions-come-to-rest"
+    },
+    {
+      "dir": "e",
+      "label": "along the ridge to peaks that are still forming their own voice",
+      "to": "the-ridge-of-all-chosen-footsteps"
+    }
+  ]
+}

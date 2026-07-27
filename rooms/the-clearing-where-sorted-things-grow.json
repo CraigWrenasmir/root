@@ -1,0 +1,134 @@
+{
+  "id": "the-clearing-where-sorted-things-grow",
+  "title": "The Clearing Where Sorted Things Grow",
+  "region": "The Clean Archive",
+  "seed": 7834521,
+  "palette": {
+    "bg": "#1a2e1a",
+    "ground": [
+      "#4a7c4e",
+      "#6b9d6d"
+    ],
+    "ink": "#e8f0e8",
+    "accents": [
+      "#d4a574",
+      "#8fbc8f",
+      "#c9b59a",
+      "#6fa86f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the unfiled cottage",
+      "desc-on-touch": "this house remembers being sorted by category, then began to move. you find it arguing with itself about whether it belongs here.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the ledger that sorts backwards",
+      "desc-on-touch": "the sorting book is writing itself in reverse now. children appear on the same line as adults. categories have begun to dream about swapping.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 5123,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the gate between categories",
+      "desc-on-touch": "the gate was installed to keep sorted things separate. instead it has become a mirror—each side shows the other its own reflection.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the growing row",
+      "desc-on-touch": "once the cottages stood in a row. now they lean toward each other as if asking questions they were not sorted to ask.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 1928,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the disagreement pool",
+      "desc-on-touch": "water has gathered here where the sorting field slopes. two voices record themselves disagreeing about which category this clearing belongs to, and both voices sound like children learning to be right.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 7621,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the sorted things are learning to grow; the categories do not yet know they are dissolving",
+  "file": {
+    "name": "Sorting_Record_Children_Voices_Disagreement.mp3",
+    "note": "ledger of children sorted by ability becomes recording of same children unable to agree which sorting was correct; checksum emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the cottages where sorting taught everything to listen",
+      "to": "the-row-of-sorting-cottages"
+    },
+    {
+      "dir": "n",
+      "label": "a path marked by things that no longer know their category",
+      "to": "NEW: the-tangle-where-sorting-loses-its-grammar"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the field where growth has learned to name itself",
+      "to": "the-unmapped-field"
+    }
+  ]
+}

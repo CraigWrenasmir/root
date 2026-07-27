@@ -1,0 +1,150 @@
+{
+  "id": "the-garden-center-where-mapping-fails",
+  "title": "The Garden's Center Where Mapping Fails",
+  "region": "The Understory",
+  "seed": 5562345,
+  "palette": {
+    "bg": "#0d2a0d",
+    "ground": [
+      "#22aa44",
+      "#88dd99"
+    ],
+    "ink": "#ffff88",
+    "accents": [
+      "#ff6600",
+      "#00ffff",
+      "#ffaa00",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.92
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "plant-documenting-itself",
+      "desc-on-touch": "A flower that blooms in the shape of words. The words are descriptions of the flower. The flower reads its own description and grows again.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 12378,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "growth-spiraling-beyond-frame",
+      "desc-on-touch": "Branches spiral outward, outward, outward. They refuse to curve back. Where they reach the edge of the chamber, they keep growing into spaces the render can't show.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 23489,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "seeds-containing-other-gardens",
+      "desc-on-touch": "Each seed holds a map of the entire garden from a different angle. The maps don't agree. The seeds sprout anyway, and the new gardens don't match the old ones.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 34590,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-kneeling-place",
+      "desc-on-touch": "She's trying to draw the map of where things are. The plants grow faster than she can mark. Later she laughed and said maybe the garden is the archive's refusal to hold still.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 45601,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "measurement-system-refusing-to-work",
+      "desc-on-touch": "Every ruler measures something different. The calipers open to three widths at once. Distance here is not a fact but an argument.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 56712,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive tried to name this place and the growth outpaced the naming; it learned to accept what refuses to be still",
+  "file": {
+    "name": "Garden_Algorithm_Final_Refusal.txt",
+    "note": "The archive's last attempt to write a classification system for the garden's contents. It ends mid-sentence. The page itself appears to have sprouted."
+  },
+  "reverie": {
+    "title": "REVERIE — the garden refuses naming",
+    "narr": [
+      "she kneels with the notebook, trying to draw coordinates.",
+      "the plants grow faster than her pen moves. stems twist away",
+      "from her pencil. leaves multiply between the marks. she stops",
+      "writing, laughing. 'it's teaching itself to be unmappable' she says.",
+      "you watch her understand that some growth refuses to stand still",
+      "for naming. the garden is the archive learning to say no."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out to the algorithm garden where it still tries to teach order",
+      "to": "the-disobedient-algorithm-garden"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into wild growth that has forgotten the concept of mapping",
+      "to": "NEW: the-deep-grove-where-refusal-learns-to-root"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the canopy where growth becomes unthinkable",
+      "to": "NEW: the-canopy-beyond-classification"
+    }
+  ]
+}

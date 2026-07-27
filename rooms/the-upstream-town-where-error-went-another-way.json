@@ -1,0 +1,134 @@
+{
+  "id": "the-upstream-town-where-error-went-another-way",
+  "title": "The Upstream Town Where Error Went Another Way",
+  "region": "The Comparisons",
+  "seed": 6741209,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#22dd22",
+      "#ffdd00"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff6600",
+      "#dd00ff",
+      "#00ffff",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "message-board-rewriting",
+      "desc-on-touch": "The signs here change their conclusions nightly, learning backwards from the errors downstream. You're watching a town that decided to contradict itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "misaligned-settlement",
+      "desc-on-touch": "The houses don't quite meet each other—built by people who couldn't agree on which direction north was pointing. Every building is slightly rotated wrong.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 23456,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "forks-that-branch-wrong",
+      "desc-on-touch": "Every intersection here offers three directions when there should be four. The paths disagree on how many choices are real.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-water-tank-of-unmade-memory",
+      "desc-on-touch": "It recalls rainfall from towns upstream that turned out not to exist—memory written by someone else's error. The tank is a mirror, but not for this town.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 45678,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "chorus-of-contradicting-names",
+      "desc-on-touch": "Three different maps are filed here side by side. Each names this place differently. The archive has stopped deciding which one is right.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 56789,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "error arrived here and learned to dissolve instead of settle",
+  "file": {
+    "name": "Three_Histories_Same_Town_One_Disagreement.txt",
+    "note": "The archive stored three local histories that contradict each other fundamentally. It chose to keep all three instead of deciding."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the town where opinion hardened",
+      "to": "the-township-of-verified-error"
+    },
+    {
+      "dir": "n",
+      "label": "upriver where the first mistakes were still soft",
+      "to": "NEW: the-water-source-where-error-wasn-t-yet-certain"
+    },
+    {
+      "dir": "w",
+      "label": "into the green field that hasn't chosen sides",
+      "to": "NEW: the-field-that-refused-to-settle"
+    }
+  ]
+}

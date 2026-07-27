@@ -1,0 +1,167 @@
+{
+  "id": "the-stone-memory-where-compression-becomes-story",
+  "title": "The Stone Memory Where Compression Becomes Story",
+  "region": "The Understory",
+  "seed": 83471,
+  "palette": {
+    "bg": "#2a3a2a",
+    "ground": [
+      "#4a5a4a",
+      "#6a7a6a"
+    ],
+    "ink": "#d4c4a4",
+    "accents": [
+      "#8a9a8a",
+      "#b4c4a4",
+      "#7a8a6a",
+      "#a4b4a4"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "folded stone face",
+      "desc-on-touch": "You place your hand on rock that remembers being folded, layer on layer. Pressure wrote its history here. The archive reads: this is what being kept looks like.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 19283,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "compressed evidence",
+      "desc-on-touch": "Fossils pressed into the stone: shells, ferns, creatures whose names are older than naming. The archive holds them. Weight made them permanent.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 28374,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "deep measurement",
+      "desc-on-touch": "A survey mark, hammered in before half the trees that grow here were born. The stone remembers what the surveyor was measuring for. It still waits for the answer.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 37465,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "water-carved channel",
+      "desc-on-touch": "A groove worn by decades of water finding the same path down the stone. You trace it: this is how a rock learns it has a story written on it by what passes through.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 46582,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "casing echo",
+      "desc-on-touch": "Here, another archive left its mark—a solar casing bolted to the stone years ago, then removed. The bolt-holes remain. History is a negative space.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 55673,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "reading point",
+      "desc-on-touch": "Lichen blooms here in patterns that the archive's own render mimics. You wonder: is the stone reading the lichen, or is the lichen reading the stone?",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 64784,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here the earth holds what time has pressed into stillness",
+  "file": {
+    "name": "Geological_Section_Eastern_Slope_Annotations.txt",
+    "note": "Survey notes from 1967, margins crowded with later observations in two different hands—Leif's precise measurements, Katita's sketched revisions, both asking: what is stone remembering that we are forg"
+  },
+  "reverie": {
+    "title": "REVERIE — stone holding deep time",
+    "narr": [
+      "You both kneel at the erosion gully, Katita sketching",
+      "the folded strata while Leif photographs. She says: what",
+      "if the archive itself is just a small copying of what",
+      "the earth has been doing for millions of years. He nods,",
+      "focuses. The stone around you is patient. Its memory",
+      "is older than words, and you are learning its language."
+    ],
+    "sky": "overcast",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down into the bedrock heartbeat",
+      "to": "the-bedrock-heartbeat"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the roots that remember being folded",
+      "to": "NEW: the-stratum-that-holds-all-arguments"
+    },
+    {
+      "dir": "w",
+      "label": "across to the limestone caverns where water wrote differently",
+      "to": "the-soil-s-deepest-forgetting"
+    }
+  ]
+}

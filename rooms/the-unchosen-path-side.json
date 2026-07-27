@@ -1,0 +1,150 @@
+{
+  "id": "the-unchosen-path-side",
+  "title": "The Field Across the Fence: The Unchosen Path",
+  "region": "The Clean Archive",
+  "seed": 4582365,
+  "palette": {
+    "bg": "#2d1a1a",
+    "ground": [
+      "#dd5500",
+      "#ff33aa"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ffbb00",
+      "#ff0066",
+      "#99ffff",
+      "#ffaa55"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "fence-that-holds-both-times",
+      "desc-on-touch": "The fence doesn't separate the paths so much as hold them both true at once. On each side, the grass wears the footsteps of a life you didn't live, but the earth remembers both.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 11111,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "fenceposts-measuring-parallel-time",
+      "desc-on-touch": "Each post is carved with years—but the years don't match between sides. One fence-line ages faster. Or perhaps differently.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 22222,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-standing-place",
+      "desc-on-touch": "Standing here with her, watching both paths open downslope. She asked which one to take and you both knew the earth would remember you taking both.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 33333,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "crossroads-seen-as-one",
+      "desc-on-touch": "From far enough away the two paths look like they were always the same path, just doubling back. Close enough and you see they were never the same twice.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 44444,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "weather-vane-spinning-both-ways",
+      "desc-on-touch": "The vane points north on this side, south on that. Or perhaps it's pointing at what you chose and what chose to go on without you.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 55555,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "both paths home; you chose once but the earth keeps the score of twice",
+  "file": {
+    "name": "Parallel_Life_Journal_Undated.tmp",
+    "note": "A journal fragment that seems to describe events that didn't happen here, but happened across the fence. The handwriting is yours but the choices are all different."
+  },
+  "reverie": {
+    "title": "REVERIE — the fence at dusk",
+    "narr": [
+      "you stand here with her at the split, both paths golden",
+      "stretching downslope. she asks which one home is and you",
+      "point. then you point the other way. the fence holds both",
+      "directions true. that's when you see the grass is equally worn",
+      "on both sides—equally walked into, equally remembered by the land",
+      "you didn't choose one life. the earth chose to keep both for you."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back across the fence to the mirror field",
+      "to": "the-mirror-field-where-the-other-choice-still-waits"
+    },
+    {
+      "dir": "n",
+      "label": "upslope where both paths seem to lead",
+      "to": "NEW: the-ridge-where-parallel-roads-converge"
+    },
+    {
+      "dir": "w",
+      "label": "into the dark where the unchosen path goes deepest",
+      "to": "NEW: the-unreachable-end-of-the-other-way"
+    }
+  ]
+}

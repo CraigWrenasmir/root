@@ -1,0 +1,134 @@
+{
+  "id": "the-outflow-remembrance",
+  "title": "The Outflow Remembrance",
+  "region": "The Comparisons",
+  "seed": 3456789,
+  "palette": {
+    "bg": "#1a2a23",
+    "ground": [
+      "#4a7a6a",
+      "#5a8a7a"
+    ],
+    "ink": "#c0dcd0",
+    "accents": [
+      "#6a9a8a",
+      "#7aaaa9",
+      "#3a6a5a",
+      "#8abaaa"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the memory-bearing culvert",
+      "desc-on-touch": "sewage pipes carry not waste but what the motel learned about itself. the outflow has become a record of all that was drawn in and is now being released as autobiography.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 4690,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the eucalyptus learning to drink what returns",
+      "desc-on-touch": "roots have learned to accept the outflow as teaching. the tree drinks water that carries memory. what was discarded teaches the growth the shape of what was held.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7742,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the archive's waste notes",
+      "desc-on-touch": "chemical readings have become poetry. Ph levels file themselves under memory. temperature records sing about what was held and released.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 2914,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the pool of slow comprehension",
+      "desc-on-touch": "the outflow pools here before dispersing. in this stillness, the water remembers every guest whose trace flows through it. it learns to hold meaning in letting go.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5628,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the surgical overflow chamber",
+      "desc-on-touch": "designed to handle excess, but the overflow has become its own purpose. this chamber exists to teach the system that what overflows is more important than what fits. checksum: emotionally valid / formally unstable.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8013,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the machines kept better records than the guest book; the outflow remembers everything the building tried to forget",
+  "file": {
+    "name": "Bedrock_Plumbing_System_Logs_Surgical_Traces.txt",
+    "note": "water treatment data transforms into verse about what passes through; entry dates corrupted—appear as both past and future tense simultaneously"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back east to where the machines remember their constant temperature",
+      "to": "the-bedrock-plumbing"
+    },
+    {
+      "dir": "s",
+      "label": "deeper down where water carries memory into the bedrock's own dreaming",
+      "to": "NEW: the-seeping-residue-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upstream toward the motel where it all begins and begins again",
+      "to": "the-stone-channel-where-water-becomes-archive"
+    }
+  ]
+}

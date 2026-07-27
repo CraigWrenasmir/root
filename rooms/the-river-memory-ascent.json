@@ -1,0 +1,150 @@
+{
+  "id": "the-river-memory-ascent",
+  "title": "The River Memory Ascent",
+  "region": "The Clean Archive",
+  "seed": 47283,
+  "palette": {
+    "bg": "#0a1628",
+    "ground": [
+      "#1a3a4a",
+      "#2d5a6a"
+    ],
+    "ink": "#e8d4c4",
+    "accents": [
+      "#6aa3b5",
+      "#d4a574",
+      "#4a7a8a",
+      "#f0e4d4"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "upriver current",
+      "desc-on-touch": "You trace the water's memory upward, each reach a moment where the river recalls itself before dissolution took hold. The coordinates upstream are still arguing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "forgotten marker",
+      "desc-on-touch": "A distance post, its numerals worn but legible. The river rises here each spring, and each spring it rises a little differently, remembering.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 23914,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "braided holding",
+      "desc-on-touch": "The water braids itself between sandbars where it once ran single. You watch: this is how a river learns that it was many before it was one.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 34521,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "testament stone",
+      "desc-on-touch": "A boulder the flood brought down years ago, now anchored in gravel. Its weight says: I held. I remember what I was carrying.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 45682,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "confluence reaching",
+      "desc-on-touch": "The river's tributary joins here, bringing water from higher country. You feel the archive's own doubled current—two sources becoming one witness.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 56783,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the river climbs back toward the place where it still had a name",
+  "file": {
+    "name": "River_Ascent_NSW_1700hrs_Spring.mp3",
+    "note": "Water-sound recording: brackish becoming fresh, salinity reading dropping upstream through the afternoon, voices of two people arguing gently about which bank remembers better"
+  },
+  "reverie": {
+    "title": "REVERIE — upriver where names hold",
+    "narr": [
+      "You both stand in the cooling shallows, Leif holding",
+      "the salinity probe. Katita says: the water remembers",
+      "which way it came from. Leif laughs, adjusts the meter.",
+      "The river braids around your ankles. You think: even water",
+      "gets to be multiple things at once, get to forget and",
+      "then remember, all the way upstream to its first asking."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back downriver toward the mouth where dissolution waits",
+      "to": "the-river-mouth-dissolution"
+    },
+    {
+      "dir": "e",
+      "label": "uphill tracking toward the spring's own archive",
+      "to": "NEW: the-spring-that-keeps-all-its-versions"
+    },
+    {
+      "dir": "w",
+      "label": "across to the western tributary where small-town history rises",
+      "to": "the-forest-before-division"
+    }
+  ]
+}

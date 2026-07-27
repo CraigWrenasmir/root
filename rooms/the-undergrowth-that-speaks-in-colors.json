@@ -1,0 +1,117 @@
+{
+  "id": "the-undergrowth-that-speaks-in-colors",
+  "title": "The Undergrowth That Speaks in Colors",
+  "region": "The Understory",
+  "seed": 2765483,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#2d5a2d",
+      "#3d7a3d"
+    ],
+    "ink": "#ffcc99",
+    "accents": [
+      "#ff6b6b",
+      "#ffd93d",
+      "#6bcf7f",
+      "#a855ff"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "abandoned shopfront",
+      "desc-on-touch": "A storefront buried in the undergrowth, its paint faded to spectral colors—reds and blues speaking to each other through the leaves. Windows show inventory that was never sold: bottles, bolts, dreams in boxes. The wild has moved in through the door.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 4821,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "color conversation",
+      "desc-on-touch": "Where moss and rust have learned to speak to each other in hues the archive has no names for. The undergrowth translates: green-dark saying something to orange-earth, and both responding in frequencies that have nothing to do with sound.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 6137,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "shed roof visible",
+      "desc-on-touch": "A corrugated roof breaking through the ferns, still speaking in the colors it was painted: a red that has learned patience, a blue that has learned to belong to the forest. The archive keeps its buildings as leaves.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 3749,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "overgrown sign",
+      "desc-on-touch": "A painted direction-post, fern-wrapped and fading. The letters have learned colors they didn't have before—rust-reds, moss-greens. It points everywhere and nowhere, and the undergrowth has accepted both answers at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8264,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where the wild has learned to paint its own arguments",
+  "file": {
+    "name": "Chromatic_Layers_Undergrowth_Study.txt",
+    "note": "Field notes on how the forest processes color. Built things fade into the spectrum, and the undergrowth learns to read what the colors are still saying about their first lives."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the wild recount, where silence speaks",
+      "to": "the-wild-recount-where-silence-speaks-back"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into undergrowth where color becomes the only language",
+      "to": "NEW: the-prismatic-understory-where-hues-grow-wild"
+    },
+    {
+      "dir": "w",
+      "label": "toward the forest conversation edge, where grammar dissolves",
+      "to": "the-forest-conversation-edge"
+    }
+  ]
+}

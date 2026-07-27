@@ -106,7 +106,7 @@
     {
       "dir": "s",
       "label": "toward where salvage meets soil",
-      "to": "NEW: the-rusted-threshold-growing"
+      "to": "the-rusted-threshold-growing"
     },
     {
       "dir": "n",

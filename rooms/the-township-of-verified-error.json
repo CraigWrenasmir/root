@@ -123,7 +123,7 @@
     {
       "dir": "w",
       "label": "toward the township upstream that got everything different",
-      "to": "NEW: the-upstream-town-where-error-went-another-way"
+      "to": "the-upstream-town-where-error-went-another-way"
     },
     {
       "dir": "e",

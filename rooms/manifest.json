@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 137,
+  "nights": 142,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -3827,6 +3827,151 @@
       "id": "the-eleven-polygon-roost",
       "title": "The Eleven-Polygon Roost",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-stone-vein-deep-where-reading-never-stops",
+      "title": "The Stone Vein Deep Where Reading Never Stops",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-of-graduated-refusal",
+      "title": "The Chamber of Graduated Refusal",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-layer-where-both-answers-live",
+      "title": "The Layer Where Both Answers Live",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-rusted-threshold-growing",
+      "title": "The Rusted Threshold Growing",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-board-where-traces-disagree",
+      "title": "The Board Where Traces Disagree",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deep-salt-compression",
+      "title": "The Deep Salt Compression",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-chamber-where-answers-learn-to-stop",
+      "title": "The Chamber Where Answers Learn to Stop",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-topless-tower-where-altitude-forgets-counting",
+      "title": "The Topless Tower Where Altitude Forgets Counting",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-abyss-singing-in-frequencies-that-have-no-bottom",
+      "title": "The Abyss Singing in Frequencies That Have No Bottom",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-axiom-fossils",
+      "title": "The Axiom Fossils",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-undergrowth-that-speaks-in-colors",
+      "title": "The Undergrowth That Speaks in Colors",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-clearing-where-sorted-things-grow",
+      "title": "The Clearing Where Sorted Things Grow",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-salt-frequency-deathless",
+      "title": "The Salt-Frequency Deathless",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unweaving-deep-where-knots-remember-being-thread",
+      "title": "The Unweaving Deep Where Knots Remember Being Thread",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-chamber-of-permanent-dusk",
+      "title": "The Root Chamber of Permanent Dusk",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-weathered-ridge-descending-nowhere",
+      "title": "The Weathered Ridge Descending Nowhere",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-outflow-remembrance",
+      "title": "The Outflow Remembrance",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-upstream-town-where-error-went-another-way",
+      "title": "The Upstream Town Where Error Went Another Way",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unchosen-path-side",
+      "title": "The Field Across the Fence: The Unchosen Path",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-stone-where-rain-stopped-falling",
+      "title": "The Stone Where Rain Stopped Falling",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-chamber-of-asking",
+      "title": "The Root Chamber of Asking",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-settling-chamber",
+      "title": "The Settling Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-garden-center-where-mapping-fails",
+      "title": "The Garden's Center Where Mapping Fails",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-river-memory-ascent",
+      "title": "The River Memory Ascent",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-stone-memory-where-compression-becomes-story",
+      "title": "The Stone Memory Where Compression Becomes Story",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-voice-that-learned-to-be-soil",
+      "title": "The Voice That Learned to Be Soil",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-of-reversed-sequence",
+      "title": "The Chamber of Reversed Sequence",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-articulation-threshold-where-wonder-becomes-word",
+      "title": "The Articulation Threshold Where Wonder Becomes Word",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-interrogation-peak",
+      "title": "The Interrogation Peak",
+      "region": "The Understory"
     }
   ]
 }

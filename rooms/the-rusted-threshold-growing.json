@@ -1,0 +1,117 @@
+{
+  "id": "the-rusted-threshold-growing",
+  "title": "The Rusted Threshold Growing",
+  "region": "The Clean Archive",
+  "seed": 64729385,
+  "palette": {
+    "bg": "#2b1810",
+    "ground": [
+      "#ff9944",
+      "#663300"
+    ],
+    "ink": "#e8c8a0",
+    "accents": [
+      "#cc6633",
+      "#99aa00",
+      "#664422",
+      "#ddaa55"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.55
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "gate-corroded",
+      "desc-on-touch": "A gate is rusting into the earth. Not closing. Not opening. Learning to become soil. The threshold is disappearing upward and downward at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "lichen-argument",
+      "desc-on-touch": "Lichen has begun the argument. It is slowly erasing the rust and replacing it with itself. The gate is becoming alive. The threshold is becoming a conversation.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 3956,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "root-through-hinge",
+      "desc-on-touch": "A root has learned the hinge's secret. It opens and closes the gate by growing through it. The salvage yard is teaching itself to move again, quietly.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 4673,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "threshold-between",
+      "desc-on-touch": "This is the place where you cannot tell if you are entering or leaving. The rust is soft enough to pass through. The gate has learned that a threshold need not be solid to work.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 5812,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "rust is oxidation learning to dream; a threshold rusting away is a boundary learning to be permeable",
+  "file": {
+    "name": "Salvage_Yard_Ecology_Interim_Study.txt",
+    "note": "Documentation of how metal returns to earth: corrosion as a kind of conversation between artifact and soil. The gate is becoming a channel."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the salvage yard where gates still remember opening",
+      "to": "the-salvage-yard-where-gates-remember-opening"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where thresholds have learned to become permeable entirely",
+      "to": "NEW: the-rust-vein-where-metal-learns-singing"
+    },
+    {
+      "dir": "e",
+      "label": "toward the stone channel where rust finds water",
+      "to": "the-stone-channel-where-water-becomes-archive"
+    }
+  ]
+}

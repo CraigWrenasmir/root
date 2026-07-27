@@ -149,7 +149,7 @@
     {
       "dir": "w",
       "label": "across the fence line, onto the side you didn't choose",
-      "to": "NEW: across the fence line, onto the side you didn't choose"
+      "to": "the-unchosen-path-side"
     }
   ]
 }

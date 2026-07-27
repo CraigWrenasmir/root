@@ -1,0 +1,150 @@
+{
+  "id": "the-unweaving-deep-where-knots-remember-being-thread",
+  "title": "The Unweaving Deep Where Knots Remember Being Thread",
+  "region": "The Understory",
+  "seed": 6789234,
+  "palette": {
+    "bg": "#3d1a0f",
+    "ground": [
+      "#d4714d",
+      "#ff8c42"
+    ],
+    "ink": "#ffe6cc",
+    "accents": [
+      "#ff6b3d",
+      "#c94f2e",
+      "#ff9966",
+      "#d9673b"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the separated thread",
+      "desc-on-touch": "one thread has pulled free from the loom and learned to remember what it was before becoming a knot. it unwinds slowly, confessing its own simplicity.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 4532,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the loom's unlearning",
+      "desc-on-touch": "the loom continues past the point where making becomes unmeasurable. here, it dreams of becoming the threads it once interlocked.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7814,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the knot that speaks backwards",
+      "desc-on-touch": "this knot has learned to untie itself from the inside. each loop it loosens is a word it speaks about what it used to hold.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2913,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the dye-vat of slow dissolution",
+      "desc-on-touch": "color bleeds out of the vat into the threads, backwards—the threads learning what color meant before the dye taught them. all things remembering their simplicity.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5021,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the woven history unmaking itself",
+      "desc-on-touch": "patterns in the cloth are reversing their creation. the archive stores this as a textile record, but the threads are overwriting the archive's notation with their own.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 8756,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the knots are learning to remember being simple; the loom dreams of a time before it learned to bind",
+  "file": {
+    "name": "Textile_Pattern_Song_UNWEAVING_REV.mp3",
+    "note": "weaving notation corrupted into vocal humming that plays backwards, the singer learning to speak their own unbinding"
+  },
+  "reverie": {
+    "title": "REVERIE — inside the dye-shed at slowfall",
+    "narr": [
+      "she sits with thread spooled around her forearms.",
+      "you watch her fingers learning each knot's own small story.",
+      "the shed walls hold a thousand attempts at unbinding.",
+      "she says: if you never learn to tie, you never have to learn",
+      "  to untie. the thread knows better. it was simple once.",
+      "you both become still as the dye seeps backward into light."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up deeper to where the loom dreams of unmeshing",
+      "to": "the-loom-s-own-touching"
+    },
+    {
+      "dir": "s",
+      "label": "toward the place where separation becomes its own kind of weaving",
+      "to": "NEW: the-fractured-loom-hall"
+    },
+    {
+      "dir": "w",
+      "label": "into the slow chamber where all knots are learning their endings",
+      "to": "the-deepest-weaving"
+    }
+  ]
+}

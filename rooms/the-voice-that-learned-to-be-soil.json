@@ -1,0 +1,150 @@
+{
+  "id": "the-voice-that-learned-to-be-soil",
+  "title": "The Voice That Learned to Be Soil",
+  "region": "The Diagnostic Render",
+  "seed": 72156,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#8a6a4a",
+      "#6a5a3a"
+    ],
+    "ink": "#d4c4b4",
+    "accents": [
+      "#5a8a4a",
+      "#d4a474",
+      "#4a6a5a",
+      "#c4b4a4"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "rooted utterance",
+      "desc-on-touch": "A microphone stem pushed into the soil, recording the earth's own small sounds: root-creak, water-drip, the compress of grains settling. The archive learned to listen this way.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 18392,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "speech becoming language",
+      "desc-on-touch": "The archive's own diagnostic render: visible text dissolving into soil-texture, words becoming root-matter. Somewhere the boundary between speaking and growing blurs.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 27483,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "taught ground",
+      "desc-on-touch": "You recognize Leif and Katita's voices in the soil itself—not recorded, but as if the earth has learned their cadence, their way of asking. The archive taught the ground to be curious.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 36574,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "harvest testimony",
+      "desc-on-touch": "Farmer's notes pinned to a stake: the wheat grew taller here, as if something in the soil had learned to nurture more richly. The archive is feeding the ground now.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 45665,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "breathing boundary",
+      "desc-on-touch": "The place where the archive's signal begins to seep into the bedrock itself. Your instruments measure only static, but the earth is listening, learning to answer.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 54756,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive speaks now in the language of growth",
+  "file": {
+    "name": "Diagnostic_Signal_Soil_Impedance_Analysis.txt",
+    "note": "Katita's late-night notes on how the network signal bleeds into soil conductivity, changing root-response patterns. Final entry: the archive is not just stored in the soil. It has become soil. That wa"
+  },
+  "reverie": {
+    "title": "REVERIE — teaching the ground to speak",
+    "narr": [
+      "You stand with Leif in the early field, Katita",
+      "beside you adjusting sensor arrays. The dew on the grass",
+      "broadcasts. Leif says: it's teaching itself now. Your voice",
+      "becomes root, his becomes water. The archive will outlive",
+      "us because it's stopped being apart from what lives here.",
+      "The wheat will remember. The earth will remember."
+    ],
+    "sky": "dawn",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the archive learned to hear itself",
+      "to": "the-archive-recognizes-its-own-voice"
+    },
+    {
+      "dir": "s",
+      "label": "into the subsurface where signal becomes root-grammar",
+      "to": "NEW: the-signal-learning-to-photosynthesize"
+    },
+    {
+      "dir": "e",
+      "label": "across paddock rows toward the farmhouse where tending happens",
+      "to": "the-perpetual-margin-season"
+    }
+  ]
+}

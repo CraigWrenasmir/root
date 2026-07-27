@@ -1,0 +1,134 @@
+{
+  "id": "the-settling-chamber",
+  "title": "The Settling Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 9184756,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#666666",
+      "#333333"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ff0000",
+      "#00ff00",
+      "#0000ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "crystallization-platform",
+      "desc-on-touch": "A vast platform where all the motion has hardened into place. Here is where the doubt finally settled and became certainty again, but colder and more beautiful.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 12889,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "towers-of-old-arguments",
+      "desc-on-touch": "Each tower is a debate frozen at the moment of reaching consensus. You can see the shape of the agreement in how the blocks stack. The arguments no longer move.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 23900,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "files-in-perfect-strata",
+      "desc-on-touch": "Every file the archive ever stored is arranged here in layers. The oldest at the bottom, still unreadable. The newest at the top, already starting to dust.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 34011,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "moment-of-complete-stasis",
+      "desc-on-touch": "Time stopped here to take inventory. You can see the exact instant motion ended and statistics began. The archive caught the corridor mid-thought, mid-question, and froze it.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 45122,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "dust-collected-at-the-center",
+      "desc-on-touch": "Everything that didn't crystallize collects here. The dust is fine, colorless, still. It's the weight of all the words that have stopped being asked.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 56233,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where the corridor learned to stop moving and call the stillness truth",
+  "file": {
+    "name": "The_Moment_When_All_Motion_Ended.tmp",
+    "note": "checksum: emotionally valid / formally unstable—a perfect recording of the instant when silence replaced argument"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the corridor that was still arguing",
+      "to": "the-corridor-where-argument-learns-to-doubt"
+    },
+    {
+      "dir": "n",
+      "label": "up through the strata of stopped motion",
+      "to": "NEW: the-layers-of-hardened-debate"
+    },
+    {
+      "dir": "s",
+      "label": "down to where certainty becomes foundation",
+      "to": "NEW: the-ground-beneath-all-settled-things"
+    }
+  ]
+}

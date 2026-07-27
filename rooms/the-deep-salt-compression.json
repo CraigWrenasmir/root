@@ -1,0 +1,100 @@
+{
+  "id": "the-deep-salt-compression",
+  "title": "The Deep Salt Compression",
+  "region": "The Clean Archive",
+  "seed": 4728493,
+  "palette": {
+    "bg": "#0a1929",
+    "ground": [
+      "#1a3a52",
+      "#2d5a7b"
+    ],
+    "ink": "#e8f4f8",
+    "accents": [
+      "#7fb3d5",
+      "#4a9eff",
+      "#ffffff",
+      "#2d8659"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.25
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "salt pillars",
+      "desc-on-touch": "Geometric columns of compressed mineral—the river's memory crystallized where fresh water and salt pressure met and refused to mix further. You can read stratification in the white.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "pressure reading",
+      "desc-on-touch": "A corroded gauge, face still readable: atmospheric, depth, salinity, all three needles pointing to the same angle. The archive keeps its instruments when nothing else can stay.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 1529,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "interface line",
+      "desc-on-touch": "Where the water stopped moving and became stone. The boundary is still warm to touch—energy converting to form, the moment crystallized.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5612,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the pressure at which clarity becomes impossible",
+  "file": {
+    "name": "Salt_Column_Stratification_1987.txt",
+    "note": "Core samples from the mouth where river surrenders to ocean. Each line a year the two couldn't agree."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the river mouth, where forgetting begins",
+      "to": "the-river-mouth-dissolution"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper salt chambers, where pressure has no surface",
+      "to": "NEW: the-brined-deep-where-memory-crystallizes"
+    },
+    {
+      "dir": "e",
+      "label": "toward shallower water, where salt still moves",
+      "to": "the-substation-beneath-where-current-becomes-memory"
+    }
+  ]
+}
