@@ -122,7 +122,7 @@
     {
       "dir": "n",
       "label": "upward to where the study's ceiling opens",
-      "to": "NEW: the-open-study-without-walls"
+      "to": "the-open-study-without-walls"
     },
     {
       "dir": "w",

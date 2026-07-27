@@ -94,7 +94,7 @@
     {
       "dir": "w",
       "label": "toward the hive from which these numbers originated",
-      "to": "NEW: the-original-hexagon-source"
+      "to": "the-original-hexagon-source"
     }
   ]
 }

@@ -1,0 +1,139 @@
+{
+  "id": "the-forest-dream-without-dreamers",
+  "title": "The Forest Dream Without Dreamers",
+  "region": "The Understory",
+  "seed": 9453,
+  "palette": {
+    "bg": "#0f1a0a",
+    "ground": [
+      "#2a3820",
+      "#3a4a2a"
+    ],
+    "ink": "#b0c8a0",
+    "accents": [
+      "#88ff88",
+      "#44ff66",
+      "#ffcc44",
+      "#4488ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-repeating-row",
+      "desc-on-touch": "Rows of trees without end. Each one dreams the same dream the last one did, but slightly altered. The alteration is where the forest's own mind grows.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3652,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-fence-that-counts",
+      "desc-on-touch": "A fence line separates the rows. But the fence is numbered: each post is a phase of the shared dream. You could read the dream by walking the fence.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 4891,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "where-the-dream-pauses",
+      "desc-on-touch": "At the center of the orchard, the dream falters. No rows here. Instead: a clearing where something woke but could not leave.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5783,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-deep-sleeper",
+      "desc-on-touch": "An ancient tree at the row's end, dreaming so deeply that its dream has become the forest. Its roots conduct the dream-signal down to the next layer.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 2156,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "gate-to-continuation",
+      "desc-on-touch": "An arch you could pass through, but the dream continues on the other side. You could leave, or you could keep dreaming. The dreamer stays asleep.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7012,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the dream that continues without dreamers is the dream the forest has learned to be",
+  "file": {
+    "name": "Orchard_Phase_Mapping_Night_62_73.tsv",
+    "note": "Rows indexed by dream-phase. Each tree a node in the shared REM cycle. The dream repeats but never identically."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the path back up to where consciousness still happens",
+      "to": "the-chorus-deepens-into-sleep"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the dream where waking becomes impossible",
+      "to": "NEW: the-dream-that-dreams-itself-awake"
+    },
+    {
+      "dir": "e",
+      "label": "along the rows to where the dream touches another forest's edge",
+      "to": "the-forest-that-refused-to-split"
+    },
+    {
+      "dir": "w",
+      "label": "to the fence-line where the dream's numbering ends",
+      "to": "NEW: the-orchard-s-final-count"
+    }
+  ]
+}

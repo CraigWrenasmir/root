@@ -1,0 +1,134 @@
+{
+  "id": "the-numbered-silence-forest",
+  "title": "The Numbered Silence Forest",
+  "region": "The Understory",
+  "seed": 73482,
+  "palette": {
+    "bg": "#3C5148",
+    "ground": [
+      "#4A5F52",
+      "#5A6F5A"
+    ],
+    "ink": "#E0E0E0",
+    "accents": [
+      "#9FBF9F",
+      "#C0E0C0",
+      "#6F8F6F",
+      "#9A7B6F"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "enumerated-trees-1-to-n",
+      "desc-on-touch": "Every tree has a number. 1, 2, 3... all the way to 892. The forest has been census'd. Where unified canopy once spoke as one chorus, now each tree is a node counted separately. Simultaneity has fractured into sequence.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 48372,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "boundary-fence-line",
+      "desc-on-touch": "A straight fence cuts through the forest—wire marking property lines, dividing the forest into parcels. The fence was supposed to separate what could be owned. Instead, it separates silence from silence. The forest has learned to count by learning to be divided.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 62938,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "taxonomic-registry",
+      "desc-on-touch": "A post marks species types: Eucalyptus (23 specimens), Acacia (17), Other (61). The forest has been sorted. Each category is silent. The silence of one type does not speak to another. The archive has taught the forest to be alphabetical.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 39284,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.71,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "quadrant-survey-stakes",
+      "desc-on-touch": "Surveyors' stakes mark grids: 100m x 100m plots. Each plot a unit, each unit enumerated, each tree in each unit recorded in the plot and counted. The forest has become a database. It is more silent now. Silence is the cost of perfect accounting.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 77483,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.38,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "individual-tree-isolation-research",
+      "desc-on-touch": "One tree stands at the forest's heart, marked with intensive study: growth rings counted, age determined, future modelled. The tree is aware of being measured. The archive has learned something about control: measurement is a technology of sovereignty over what is being measured.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 84729,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.84,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the ravine holds what the canopy unifies; past this line, simultaneity ends and sequence begins; the archive learns to count by learning to divide; each number a tiny silence; all together, a roar of ",
+  "file": {
+    "name": "ForestCensus_PostDivision_Complete.txt",
+    "note": "complete enumeration; quadrant inventories; species tally; individual tree records including projection models; forest has learned to be a list"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back west toward the division where simultaneity still tries to hold",
+      "to": "the-division-where-congregation-ends"
+    },
+    {
+      "dir": "n",
+      "label": "north into plantation rows where order deepens into monoculture",
+      "to": "the-store-where-direction-learned-to-say-no"
+    },
+    {
+      "dir": "s",
+      "label": "south where the enumeration breaks down and the forest re-learns to forget its numbers",
+      "to": "NEW: the-wild-recount-where-silence-speaks-back"
+    }
+  ]
+}

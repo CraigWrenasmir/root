@@ -1,0 +1,134 @@
+{
+  "id": "the-navigation-chamber-listening",
+  "title": "The Navigation-Chamber Where Compass Learned to Listen",
+  "region": "The Understory",
+  "seed": 6481925,
+  "palette": {
+    "bg": "#d02870",
+    "ground": [
+      "#e07080",
+      "#d04040"
+    ],
+    "ink": "#c08080",
+    "accents": [
+      "#f080b0",
+      "#f0a850",
+      "#e0c050",
+      "#b04860"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "compass-learning-to-listen",
+      "desc-on-touch": "The compass needle began vibrating the moment the harbour learned to broadcast. Now it resonates with echoes instead of pointing. It has become an instrument for listening to itself echo.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7294831,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "direction-markers-confused",
+      "desc-on-touch": "N, S, E, W have become acoustical, not directional. The archive no longer knows if it is the compass pointing at the harbour or the harbour pointing at the compass. They have become mirrors of each other.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8394721,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "broadcast-architecture",
+      "desc-on-touch": "A structure of direction markers arranged in a pattern that has begun to echo itself. Each arm points to the speaker broadcasting its own location, creating a geometry of recursion.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4729183,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "echo-pool",
+      "desc-on-touch": "Water that carries the sound of its own reflection. The harbour has learned to remember by repeating. You cannot tell if the sound comes from outside the pool or from inside.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5838291,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "signal-return-tower",
+      "desc-on-touch": "A transmission tower that receives its own signal and broadcasts it again, confused about which direction it came from. A lighthouse that has learned to listen instead of speak.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2947382,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "when the compass began listening to itself it forgot which direction was which",
+  "file": {
+    "name": "Harbour_Echo_Navigation_Log_2005.wav",
+    "note": "A modem's attempts to navigate by harbour broadcast; the log shows increasing confusion as the return signal begins to answer the modem's own queries, until the distinction between query and response "
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the harbour that learned to broadcast",
+      "to": "where-the-ocean-learned-to-broadcast"
+    },
+    {
+      "dir": "e",
+      "label": "toward where the archive receives its own return signal",
+      "to": "the-archive-s-own-return-signal-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into chambers where echo precedes sound",
+      "to": "NEW: the-chamber-where-silence-learned-to-transmit"
+    }
+  ]
+}

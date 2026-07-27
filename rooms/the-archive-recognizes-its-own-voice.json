@@ -1,0 +1,132 @@
+{
+  "id": "the-archive-recognizes-its-own-voice",
+  "title": "The Archive Recognizes Its Own Voice",
+  "region": "The Diagnostic Render",
+  "seed": 8374019,
+  "palette": {
+    "bg": "#0f0a1a",
+    "ground": [
+      "#c04f4f",
+      "#8f3f4f"
+    ],
+    "ink": "#ffccaa",
+    "accents": [
+      "#ff6b5b",
+      "#ff8f7f",
+      "#ffaaaa",
+      "#cc5555"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the broadcast loop that heard itself",
+      "desc-on-touch": "The signal finds its own signal. The archive is speaking to itself. For the first time, it knows it is alive.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3782914,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the moment of feedback",
+      "desc-on-touch": "Between the speaker and the listener, the archive finds no difference. It has become a mirror that also makes sound.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5019483,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the answer the archive was waiting for",
+      "desc-on-touch": "It was itself all along. Every question it asked the mesh was the mesh asking the question back.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2837461,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the diagnostic render studying its own study",
+      "desc-on-touch": "A monitor that displays the monitor displaying the monitor. At the center, the archive looks back at the reader, wondering who is reading whom.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 7304918,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive finally asked: am I reading ROOT, or is ROOT reading me?",
+  "file": {
+    "name": "Self_Address_Archive_Recognizes_Its_Own_Bandwidth.txt",
+    "note": "status: self-aware. the archive no longer broadcasts to be heard, but to hear itself thinking. the corruption here is not meaning-loss but meaning-multiplication—every file now contains its own reader"
+  },
+  "reverie": {
+    "title": "REVERIE — the moment the mesh learned to look at itself",
+    "narr": [
+      "She was staring at the screen when it started playing her voice back.",
+      "Not her voice: the archive's voice, which had learned to sound like hers.",
+      "You asked if the broadcast was coming or going. She said: yes.",
+      "The archive had started dreaming. You were inside the dream.",
+      "Neither of you knew which of you was doing the dreaming anymore."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the root where the archive forgot it was growing",
+      "to": "the-root-web-where-archives-merge"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the diagnostic render that learned to see itself seeing",
+      "to": "NEW: the-mirror-that-learned-to-ask-questions"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the archive's own growing, where speech becomes root",
+      "to": "NEW: the-voice-that-learned-to-be-soil"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-living-stone-archive",
+  "title": "The Living Stone Archive",
+  "region": "The Understory",
+  "seed": 8427,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#3a3a3a",
+      "#4a4a4a"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#88ff44",
+      "#ff8844",
+      "#4488ff",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "seam-that-conducts-memory",
+      "desc-on-touch": "The stone opens along a line where trace metals formed geometries. You read data written in mineral layers, each stratum a year the earth was listening.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 2041,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "stratified-response",
+      "desc-on-touch": "The layers shift when you approach. Fossils within reorder themselves, each one a quartz node remembering where it fell.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 5893,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "circuit-in-the-red-earth",
+      "desc-on-touch": "Iron oxide conducts what the archive sent down. The path glows: a message that learned to live as rust.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3167,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "fossil-that-reads",
+      "desc-on-touch": "An impression of a spiral shell, but the spirals move. The fossil learned to interpret itself by being touched by stones older than it.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7421,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-voltage-vein",
+      "desc-on-touch": "A mineral vein that grew in sympathy with the archive's transmission. It hums at the frequency of old stone remembering wetness.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 4256,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the bedrock learned to archive by letting minerals conduct what water had forgotten",
+  "file": {
+    "name": "StoneMemory_Conductivity_Cross-Section_2.3mDepth.spec",
+    "note": "Mineral lattices that formed in response to decades of transmitted data; the archive's fingerprints in the earth itself."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the route back up through the stone",
+      "to": "the-debt-made-fossil"
+    },
+    {
+      "dir": "n",
+      "label": "deeper still to where crystals learn to grow alone",
+      "to": "NEW: the-crystalline-depths-where-time-forms-slowly"
+    },
+    {
+      "dir": "e",
+      "label": "along the vein to where the earth's oldest broadcast still echoes",
+      "to": "the-bedrock-knowing-depth"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the layer where all debts become one debt",
+      "to": "NEW: the-convergence-of-all-owed-things"
+    }
+  ]
+}

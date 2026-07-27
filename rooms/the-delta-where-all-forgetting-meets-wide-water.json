@@ -1,0 +1,139 @@
+{
+  "id": "the-delta-where-all-forgetting-meets-wide-water",
+  "title": "The Delta Where All Forgetting Meets Wide Water",
+  "region": "The Understory",
+  "seed": 563421,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1a3a52",
+      "#0f2742"
+    ],
+    "ink": "#c0d6e8",
+    "accents": [
+      "#5f8ca8",
+      "#1e5a96",
+      "#2a7ba7",
+      "#a0c4ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the mouth that forgets to speak",
+      "desc-on-touch": "The river widens and loses direction. Words arrive from upstream but dissolve into the salt water before they can reach anyone. This is where meaning becomes indistinguishable from weather.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6847,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the names that became tides",
+      "desc-on-touch": "A filecard listing all the words the delta has dissolved this season. The list grows hourly. No name survives the passage into salt.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 4129,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the islands forgetting what they held",
+      "desc-on-touch": "Small forms rise from the water and sink again, each one a place where something specific used to be. The islands are eroding as fast as names disappear.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7563,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the estuary's archive",
+      "desc-on-touch": "A wireframe structure that seems to hold the delta's shape, but the shape keeps changing. The archive here is as liquid as the water, its contents rearranging with each tide.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "wide water's testimony",
+      "desc-on-touch": "A glyph half-submerged, its meaning still legible if you squint, but fading into abstraction. The water is patient; it does not erase quickly.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8921,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here the confluence forgot how to keep anything — the river learns to let go",
+  "file": {
+    "name": "Delta_Dissolution_Study_Final.txt",
+    "note": "Observations of how meaning dissolves when specific things meet indifferent vastness"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back upstream to where words still hold shape",
+      "to": "the-confluence-where-forgotten-words-converge"
+    },
+    {
+      "dir": "n",
+      "label": "toward the deep ocean where forgetting is complete",
+      "to": "NEW: the-abyss-of-the-truly-unnamed"
+    },
+    {
+      "dir": "e",
+      "label": "toward shores where the salt remembers",
+      "to": "the-shallows-where-copper-bleeds"
+    },
+    {
+      "dir": "s",
+      "label": "toward the wide water's further margins",
+      "to": "NEW: the-horizon-of-dissolution"
+    }
+  ]
+}

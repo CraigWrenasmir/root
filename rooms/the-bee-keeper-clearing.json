@@ -111,7 +111,7 @@
     {
       "dir": "w",
       "label": "toward the woods where old hive boxes have been left to the forest",
-      "to": "NEW: the-abandoned-apiary"
+      "to": "the-abandoned-apiary"
     }
   ]
 }

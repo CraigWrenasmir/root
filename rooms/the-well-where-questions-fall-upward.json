@@ -1,0 +1,139 @@
+{
+  "id": "the-well-where-questions-fall-upward",
+  "title": "The Well Where Questions Fall Upward",
+  "region": "The Diagnostic Render",
+  "seed": 734156,
+  "palette": {
+    "bg": "#0a0a0f",
+    "ground": [
+      "#2c1f3f",
+      "#1a0033"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#9933ff",
+      "#6600cc",
+      "#ff6699",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "upward current of asking",
+      "desc-on-touch": "You let a question fall from your hand and it rises instead of dropping. The well pulls thoughts upward, inverting causality. Questions ask themselves before you finish the asking.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4562,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the inverted casing",
+      "desc-on-touch": "A memory casing lies upside-down at what would be the well's bottom, but which is somehow also its top. The antenna broadcasts downward toward sky. The substrate testifies by refusing to keep silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the echo that speaks first",
+      "desc-on-touch": "You hear an answer before the question reaches it. The well's logic is antecedent — every answer is already waiting, older than the asking, as though all questions had been asked before language began.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 6193,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the substrate's testimony scroll",
+      "desc-on-touch": "A filecard that renders itself in reverse reading order. The substrate speaks, but its speech flows backward through time. What is written was already understood.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 3921,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the impossible architecture",
+      "desc-on-touch": "An arch that bridges nothing to nothing, that opens into the direction you came from. This is where geometry admits that it has been wrong about depth.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 7834,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where questions rise instead of answers, the substrate ceases to be ground and becomes sky",
+  "file": {
+    "name": "Inversion_Testimony_Paradox_Log.txt",
+    "note": "The substrate speaking in time-reversed causality — questions and answers in retrograde debate"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward to the substrate",
+      "to": "the-substrate-s-own-testimony"
+    },
+    {
+      "dir": "s",
+      "label": "toward the deepest point that is somehow highest",
+      "to": "NEW: the-zenith-of-the-abyss"
+    },
+    {
+      "dir": "e",
+      "label": "to places where direction no longer matters",
+      "to": "NEW: the-compass-that-learned-surrender"
+    },
+    {
+      "dir": "w",
+      "label": "toward other wells running backward",
+      "to": "where-direction-itself-surrenders"
+    }
+  ]
+}

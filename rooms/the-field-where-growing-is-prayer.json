@@ -138,7 +138,7 @@
     {
       "dir": "w",
       "label": "toward the field's own seed source, before prayer was spoken",
-      "to": "NEW: the-unprayed-seed-repository"
+      "to": "the-unprayed-seed-repository"
     },
     {
       "dir": "n",

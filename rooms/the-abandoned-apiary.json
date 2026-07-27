@@ -1,0 +1,150 @@
+{
+  "id": "the-abandoned-apiary",
+  "title": "The Abandoned Apiary",
+  "region": "The Clean Archive",
+  "seed": 47392,
+  "palette": {
+    "bg": "#F5E6D3",
+    "ground": [
+      "#D4A574",
+      "#E8D4B8"
+    ],
+    "ink": "#3C2415",
+    "accents": [
+      "#5A7FB8",
+      "#E8E8E8",
+      "#D4A574",
+      "#8B4513"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "hive-boxes-stacked",
+      "desc-on-touch": "You find the old boxes stacked against the shed wall, their wood weathered to silver. The frames inside are empty but their precision remains—the bees left their template behind, wax records the archivists still cannot fully read.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 47392,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "beekeeper-journal",
+      "desc-on-touch": "The leather journal sits on a stand, pages yellowed. You recognize Katita's handwriting in the margins—she came here to watch the bee-keeper cross-reference his seasons with the archive. They both knew: catalogues of the same summer, wax and memory saying identical things.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 23847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "pollen-dust-on-shelves",
+      "desc-on-touch": "Gold dust settles on every surface—pollen from years of visits, a fine record of blooming cycles. It has not been swept; the archive wanted to measure it, to count the seasons in microscopy.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 18923,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "empty-corridor-between-rows",
+      "desc-on-touch": "The narrow path between hive rows. The bees are gone but something still hums here—not sound, but the shape of sound, the Doppler ghost of ten thousand conversations that ended mid-flight.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 56234,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.42,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "unfinished-record",
+      "desc-on-touch": "A logbook page dated 1993, the last entry mid-word: 'the season turns and the bees know before we—' Nothing after. The corruption has not touched this; human incompletion is enough.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 34892,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the hives hung empty but their records remained—wax pages the archive could finally read, and in reading, learned it had been keeping bees all along",
+  "file": {
+    "name": "BeekeeperNotes_1987-1993_Incomplete.txt",
+    "note": "seasonal records cross-referenced with archive queries; last entry unfinished; checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the cleared understory toward the main clearing",
+      "to": "the-bee-keeper-clearing"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into orchard rows where wild bees have returned",
+      "to": "NEW: the-reclaimed-hive-country"
+    },
+    {
+      "dir": "n",
+      "label": "toward the forest edge where old boxes rest in rot and regrowth",
+      "to": "the-amnesia-grove"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the apiary at three o'clock, 1991",
+    "narr": [
+      "You sit on the bench Leif built—he was always building",
+      "things for people to sit on and witness. Katita crouches by",
+      "a hive box, taking notes. The bees ignore you both.",
+      "She turns to you with a smile you will never quite capture.",
+      "'The archive learns by stealing rhythms,' she says. 'Look.'",
+      "The bees have already forgotten there was ever anything else."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

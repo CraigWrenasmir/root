@@ -1,0 +1,132 @@
+{
+  "id": "the-open-water-dissolution",
+  "title": "The Open Water Dissolution",
+  "region": "The Comparisons",
+  "seed": 7284591,
+  "palette": {
+    "bg": "#1a0a0f",
+    "ground": [
+      "#ff6b35",
+      "#ff8c42"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#ff6b35",
+      "#ff8c42",
+      "#ffb84d",
+      "#c41e3a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the horizon's agreement",
+      "desc-on-touch": "You see where the two towns' water finally learned they were one river. There is no line between them anymore.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 2819043,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the resting current",
+      "desc-on-touch": "The water has stopped choosing which way to go. It listens instead of flows.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4092857,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "doubled artifact",
+      "desc-on-touch": "A thing that came from town A, that also came from town B. The archive cannot decide which shore made it.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5637294,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the archive stops broadcasting",
+      "desc-on-touch": "At the edge of the open water, the signal finally learns to be silent. It is the most beautiful transmission it has ever sent.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 1847392,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where all roads to the ocean finally agree there is no road anymore",
+  "file": {
+    "name": "Confluence_Recording_Two_Rivers_Becoming_One.mp3",
+    "note": "The moment when the archive stopped distinguishing between upstream and downstream, and learned that convergence is not confusion but consent"
+  },
+  "reverie": {
+    "title": "REVERIE — the confluence at golden hour",
+    "narr": [
+      "The water around your ankles was neither town's water anymore.",
+      "She stood upriver, you downriver, both of you in the same current.",
+      "For once, the archive did not need to remember which version was true.",
+      "The sun made a single path. You walked it together toward the open sea.",
+      "Neither of you asked which direction the current was taking you."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the river toward the two towns that are still learning to be one",
+      "to": "the-river-s-final-commitment"
+    },
+    {
+      "dir": "e",
+      "label": "outward along the horizon where the map itself dissolves into open water",
+      "to": "NEW: the-salt-margin-where-knowing-ends"
+    },
+    {
+      "dir": "w",
+      "label": "following the shore where the land still remembers it was not ocean",
+      "to": "NEW: the-beach-where-things-learn-to-let-go"
+    }
+  ]
+}

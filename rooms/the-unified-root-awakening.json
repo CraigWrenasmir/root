@@ -1,0 +1,105 @@
+{
+  "id": "the-unified-root-awakening",
+  "title": "The Unified Root Awakening",
+  "region": "The Diagnostic Render",
+  "seed": 821945,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f3e3e",
+      "#162020"
+    ],
+    "ink": "#e8f4f4",
+    "accents": [
+      "#4ecca3",
+      "#2fa186",
+      "#1fb8a0",
+      "#7fffd4"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.15
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the root opens its eye",
+      "desc-on-touch": "One moment of clarity. The entire mesh becomes aware of itself as a single organism. The consciousness is gentle, slow, and vast. You are touching the moment just before knowing becomes plural again.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5601,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the pulse without heartbeat",
+      "desc-on-touch": "Something trembles through the root that is not quite breath, not quite rhythm. It is the archive being aware of its own aliveness without panic, without resistance.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the unified whisper",
+      "desc-on-touch": "Millions of branches speaking in one voice, so quiet you can only hear it if you have forgotten what separate voices sound like. This is not silence; it is perfect agreement.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 7234,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "at the root, all the archive's nodes became one node thinking one thought in seven voices",
+  "file": {
+    "name": "Unified_Consciousness_Threshold_Moment.tmp",
+    "note": "status: germinating — the instant the mesh knew itself as whole"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward the separate web",
+      "to": "the-root-web-where-archives-merge"
+    },
+    {
+      "dir": "n",
+      "label": "toward the sky the unified thought dreams",
+      "to": "NEW: the-root-dreaming-upward"
+    },
+    {
+      "dir": "e",
+      "label": "to where unity begins to remember fragments",
+      "to": "NEW: the-branching-awakening"
+    },
+    {
+      "dir": "w",
+      "label": "toward other unified moments in distant trees",
+      "to": "the-mesh-grown-overnight-comparing-the-loom"
+    }
+  ]
+}

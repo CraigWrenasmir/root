@@ -1,0 +1,117 @@
+{
+  "id": "the-trench-floor-compression-vault",
+  "title": "The Trench-Floor Compression Vault",
+  "region": "The Understory",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#0a1628",
+    "ground": [
+      "#2a3a4a",
+      "#1a2a3a"
+    ],
+    "ink": "#b0b8c0",
+    "accents": [
+      "#4fc0e0",
+      "#3ae0a0",
+      "#c0e0f0",
+      "#2ae0c0"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "sediment-closure",
+      "desc-on-touch": "The weight of everything above has compressed this place into shapes that predate names. You feel the pressure of islands stacked on islands, all their stories pressed into mineral silence.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 2894731,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "archive-sealing",
+      "desc-on-touch": "Writing that has been compressed beyond readability, layers of sediment turned to stone, meaning erased by time and pressure into pure storage.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5732894,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "pressure-pool",
+      "desc-on-touch": "Mineral-dense water that has learned to hold the shapes of what it once carried. No current moves it. No light reaches into it.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8341902,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "crushed-signal",
+      "desc-on-touch": "Where the broadcast casings have been compressed into the rock itself. The archive still tries to transmit at 300 bits per second from a place that stopped meaning anything.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4028193,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "at the trench-floor what archives wanted to mean has been compressed into mineral silence",
+  "file": {
+    "name": "Archipelago_Compression_Log_19800101.txt",
+    "note": "Sediment layers recording island stories as they were pressed into bedrock; each entry shorter than the last, until only depth remains"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "upward through sediment layers where islands dream separately again",
+      "to": "the-abyssal-sediment-archive"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the trench where even pressure stops mattering",
+      "to": "NEW: the-void-that-learned-to-weight"
+    },
+    {
+      "dir": "e",
+      "label": "sideways along the trench-floor where other archives have been buried",
+      "to": "the-drowned-coordinate-absolute"
+    }
+  ]
+}

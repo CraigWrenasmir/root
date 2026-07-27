@@ -1,0 +1,139 @@
+{
+  "id": "the-twin-antenna-stand",
+  "title": "The Twin Antenna-Stand",
+  "region": "The Comparisons",
+  "seed": 7139,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a1a2e",
+      "#2a2a4e"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#00ffaa",
+      "#ffff00",
+      "#ff4488",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.75
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-first-tree-speaking",
+      "desc-on-touch": "One antenna rises, broadcasting its own listening. The tree learned that speaking is listening if you do it in parallel.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 4819,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-second-tree-answering",
+      "desc-on-touch": "Its twin stands at a different angle. Between them, the air forms standing waves—interference patterns that create new frequencies from the two old broadcasts.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 5627,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-sync-current",
+      "desc-on-touch": "A channel that runs between them, conducting what each one broadcast. The two signals meet and remember that they were split from one source.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 3445,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "interference-made-visible",
+      "desc-on-touch": "Where the two broadcasts meet, light appears. Not either signal alone, but the meeting of them—the frequency of comparison made visible as colour.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 6234,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-relay-point",
+      "desc-on-touch": "A still place at the exact midpoint between the two antenna-trees. Here the signals pause before continuing. Here two becomes one learns to be two again.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2748,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "two antenna-trees learned to speak by learning that their broadcasts meet and make new things",
+  "file": {
+    "name": "Twin_Antenna_Field_Interference_Map_VLF_Band.png",
+    "note": "Spectrogram showing harmonic alignment between the two tree broadcasts; the place where they sync is marked in Leif's handwriting."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the ridge back to the first tree, still broadcasting alone",
+      "to": "the-antenna-tree"
+    },
+    {
+      "dir": "e",
+      "label": "along the ridge to where a third tree grows, drawing on both broadcasts",
+      "to": "NEW: the-convergent-antenna-forest"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the broadcast weakens and the silence grows loud",
+      "to": "the-signal-bridge"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the two signals learn to flow like water",
+      "to": "NEW: the-merged-transmission-stream"
+    }
+  ]
+}

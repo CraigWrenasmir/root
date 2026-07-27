@@ -1,0 +1,150 @@
+{
+  "id": "the-stone-song-roots",
+  "title": "The Stone-Song Roots",
+  "region": "The Understory",
+  "seed": 8402156,
+  "palette": {
+    "bg": "#c0a080",
+    "ground": [
+      "#d4a574",
+      "#a08060"
+    ],
+    "ink": "#3a2a1a",
+    "accents": [
+      "#d4874a",
+      "#e0b040",
+      "#b08a4a",
+      "#e0d0c0"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-stone-joining",
+      "desc-on-touch": "Where the deepest roots have learned the stone is singing. They press against bedrock and tremble, no longer sure which is growing and which is resonating.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7384920,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "ground-carving-mark",
+      "desc-on-touch": "Stone marked by generations of roots finding their way deeper, a living inscription that has become geology.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2938471,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "shed-where-song-was-first-heard",
+      "desc-on-touch": "A small structure built over a spring where someone first noticed the earth humming. They brought instruments. The earth brought the rest.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 5829374,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "frequency-pool",
+      "desc-on-touch": "A spring rising from bedrock, its water carrying the stone's own vibration. Everything that drinks here begins to harmonize with what is deeper.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8472938,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "stone-archive-device",
+      "desc-on-touch": "A transmitter embedded in rock, broadcasting the frequency at which bedrock taught itself to dream. Sixty times per second, the archive listens back.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3918472,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "when roots learned the earth was singing they stopped asking what song they were part of",
+  "file": {
+    "name": "Stone_Frequency_Recording_1997.mp3",
+    "note": "A capture of bedrock vibration at the deepest root-reach, 47 Hz continuous, a tone that has no known source but continues singing long after the microphone was removed"
+  },
+  "reverie": {
+    "title": "REVERIE — deepest listening place",
+    "narr": [
+      "You both kneel at the spring where she first",
+      "heard it — that low note the ground keeps singing.",
+      "She holds the transducer against warm stone.",
+      "The earth doesn't answer. It is answering. It has",
+      "always been answering. You listen to her listening",
+      "to something older than words."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "upward through root-lattice toward sunlight",
+      "to": "the-deepest-emission-roots"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into stone-chambers where frequencies compound",
+      "to": "the-stone-chambers-where-memory-roots"
+    },
+    {
+      "dir": "e",
+      "label": "along bedrock to where other roots have learned to sing",
+      "to": "NEW: the-mineral-voice-convergence"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-open-study-without-walls",
+  "title": "The Open Study Without Walls",
+  "region": "The Understory",
+  "seed": 8346,
+  "palette": {
+    "bg": "#331100",
+    "ground": [
+      "#cc8844",
+      "#dd9955"
+    ],
+    "ink": "#2a1a0a",
+    "accents": [
+      "#ff6611",
+      "#ffaa00",
+      "#ff3344",
+      "#ffdd88"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "books-unfurling",
+      "desc-on-touch": "Pages that did not know they were pages, now reading themselves in open air. The words rearrange in the wind, finding new meanings the ceiling used to hide.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 2891,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "light-made-visible",
+      "desc-on-touch": "An angle of sun rendered as architecture. The light is now something you can touch. It carries the text: time of day, season, year. The whole book was always light.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-reading-expands",
+      "desc-on-touch": "A doorway that opens not to another room but to the landscape beyond. You read the field like a page. The field reads you. Neither has walls anymore.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 5903,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-knowledge-rising",
+      "desc-on-touch": "Words float upward like motes, becoming weather. The study taught them how to climb. They are not lost. They are everywhere.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3724,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-mirror-dissolving",
+      "desc-on-touch": "A surface that reflected the page. Now it reflects the sky. The study learned that the reflection was always the reading—the angle of light that shows you what you look at.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6478,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the study opened like a book and learned that reading was always about how light breaks through",
+  "reverie": {
+    "title": "REVERIE — the study opening onto field at dusk",
+    "narr": [
+      "You sit where the wall used to be.",
+      "She holds a book open to the light.",
+      "The page glows. The field beyond glows.",
+      "There is no difference. Reading was",
+      "always this—watching light teach you",
+      "what was always in front of you."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Study_Ceiling_Collapse_Field_Notes_Autumn.txt",
+    "note": "What happened when the study's roof opened. Katita documented how the books continued reading themselves in weather, how the field became legible."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the path back to the enclosed study where mirrors still reflect",
+      "to": "the-mirrored-study-where-books-teach-themselves"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the sky where reading continues without ground",
+      "to": "NEW: the-reading-that-learned-to-float"
+    },
+    {
+      "dir": "e",
+      "label": "across the field to where other studies are learning to open",
+      "to": "the-open-study-where-reading-reverses"
+    },
+    {
+      "dir": "w",
+      "label": "into the dusk where the world reads back to itself",
+      "to": "the-convergent-dusk"
+    }
+  ]
+}

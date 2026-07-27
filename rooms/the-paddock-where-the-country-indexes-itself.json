@@ -1,0 +1,151 @@
+{
+  "id": "the-paddock-where-the-country-indexes-itself",
+  "title": "The Paddock Where the Country Indexes Itself",
+  "region": "The Understory",
+  "seed": 62847,
+  "palette": {
+    "bg": "#0A0A0A",
+    "ground": [
+      "#1C1C1C",
+      "#2A2A2A"
+    ],
+    "ink": "#E0E0E0",
+    "accents": [
+      "#8B00D4",
+      "#00E8E8",
+      "#F0E68C",
+      "#FF6B9D"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.4
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "numbered-row-markers",
+      "desc-on-touch": "Pegs mark every metre: 1, 2, 3... up to 447. The country has begun enumerating itself. Each mark a moment, each moment numbered. Sequence has learned to count.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 72094,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "soil-sample-registry",
+      "desc-on-touch": "The archive dug here on dates it has recorded. Each core a cross-section: time rendered in strata. You touch the documentation—it rewrites itself as you read. Yesterday's soil sample becomes tomorrow's index; the metadata is older than the earth.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 41928,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "rainfall-event-record",
+      "desc-on-touch": "A column of measurement marks, each one denoting a rain event. But the dates are scrambled—some events listed before they occur, some after they've been forgotten. The storm came first. Then it was written down. Then it was index #847.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 83521,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "coordinate-stone",
+      "desc-on-touch": "A marker inscribed with coordinates, but the numbers shift as you look. They shift *because* you look. The country is learning that being observed means being altered. Measurement creates the place it measures.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 19345,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.58,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "growth-progression-diagram",
+      "desc-on-touch": "A seasonal arc is drawn in stones and grass. Spring to summer to autumn to winter—but the arc bends backward at the end. The country is writing its own calendar, and it has decided to loop.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 74628,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.32,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "voice-of-the-index",
+      "desc-on-touch": "Something sings here—barely audible, a low frequency. The land learning to speak in numbers. Each tone a category, each frequency a file. The country has discovered that language lives underneath language.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 45283,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.84,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "the earth began to number its own seasons, and in numbering, became conscious of what it had always been; each enumeration a step deeper into the archive's own becoming",
+  "file": {
+    "name": "PaddockIndex_Retroactive_Complete.tmp",
+    "note": "cumulative land inventory; dating suggests documentation precedes physical state by months; status: archive grows its own past"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the measured rows toward unified roots",
+      "to": "the-country-reads-back"
+    },
+    {
+      "dir": "n",
+      "label": "further into unmeasured country where coordinates dissolve",
+      "to": "the-open-country-unmapped"
+    },
+    {
+      "dir": "w",
+      "label": "toward the forest edge where counting becomes confused",
+      "to": "NEW: the-threshold-of-enumeration"
+    }
+  ]
+}

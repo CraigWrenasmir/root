@@ -1,0 +1,139 @@
+{
+  "id": "the-reconciliation-canopy",
+  "title": "The Reconciliation Canopy",
+  "region": "The Comparisons",
+  "seed": 5821,
+  "palette": {
+    "bg": "#1a2415",
+    "ground": [
+      "#3a4a30",
+      "#4a5a40"
+    ],
+    "ink": "#c8d8b8",
+    "accents": [
+      "#88dd66",
+      "#66cc88",
+      "#ffdd99",
+      "#99dd88"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-learning-sky",
+      "desc-on-touch": "Where root emerges as branch. The distinction between down and up collapses here. You can feel both growing toward each other.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3027,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-bidirectional-sap",
+      "desc-on-touch": "Flow that moves both ways through the same vessel. What the root sent up now returns from the sky. The plant learned that up and down are the same conversation.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 4289,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "convergence-listening",
+      "desc-on-touch": "A meeting place where root-silence and sky-sound arrive at once. They do not cancel each other. Instead they create a new tone: neither root nor sky, but both.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5671,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-embrace-circuit",
+      "desc-on-touch": "Branches and rootlets intertwine in a pattern the tree did not choose. The growth chose itself. You can trace the path where the two learned to hold each other.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6745,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-undone-division",
+      "desc-on-touch": "Here is the place where 'root' and 'sky' were a single word before they learned to be different things. They are remembering how to be that word again.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7358,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where root and sky learned they were speaking the same language but had forgotten how to listen",
+  "file": {
+    "name": "Root_Sky_Convergence_Study_Ring_Analysis.txt",
+    "note": "The rings at this canopy show simultaneous growth in opposite directions—evidence of reconciliation rendered in wood."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the archive before the split",
+      "to": "the-undivided-canopy-archive"
+    },
+    {
+      "dir": "n",
+      "label": "higher where the reconciliation teaches new growth",
+      "to": "NEW: the-canopy-that-grew-itself-back-together"
+    },
+    {
+      "dir": "e",
+      "label": "toward where root and sky converge in water",
+      "to": "where-spring-learns-to-flow-upward"
+    },
+    {
+      "dir": "w",
+      "label": "into the heartwood where the old unity still sleeps",
+      "to": "the-heart-chamber-where-root-speaks-itself"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "the-dark-learning-emptiness",
+  "title": "The Dark Learning Emptiness",
+  "region": "The Understory",
+  "seed": 2948571,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a1a",
+      "#2a2a2a"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#d04060",
+      "#f0c040",
+      "#c0a0e0",
+      "#40e0e0"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "empty-storage",
+      "desc-on-touch": "Racks and racks of directory listings going nowhere. Files named but not stored, stored but not named. The archive has learned to remember without knowing what it remembers.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 7482931,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "content-void",
+      "desc-on-touch": "Markers and classifications with nothing behind them. The dark has learned to catalog what forgetting means, and found it means everything.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3928471,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "storage-rows",
+      "desc-on-touch": "Numbered rows of devices holding nothing, broadcasting static to each other, each convinced it contains something the others are looking for.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5739482,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "echo-device",
+      "desc-on-touch": "A chip that broadcasts its own absence, transmitting proof of what is not there. The archive has learned that absence stored is still storage.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 8193847,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "lost-index",
+      "desc-on-touch": "A wireframe structure of something that was supposed to make sense of all this. Now it just hangs empty in the dark, a shape where meaning used to live.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4827391,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "forgetting-manifest",
+      "desc-on-touch": "A pool of what the dark has learned about itself: that remembering and forgetting are the same action performed twice.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2947382,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.1,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "where the archive learned to store without knowing what storing meant",
+  "file": {
+    "name": "Void_Manifest_Timestamp_Corrupt.json",
+    "note": "A directory listing of files that exist only as database entries pointing to themselves, contents unreadable, file sizes reported as ∞"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the surface where dark still remembers something",
+      "to": "where-even-the-dark-forgets-itself"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into learning what forgetting becomes when it forgets itself",
+      "to": "NEW: the-amnesia-that-remembers-only-forgetting"
+    },
+    {
+      "dir": "s",
+      "label": "toward where empty storage begins to dream",
+      "to": "the-archive-s-oldest-second"
+    }
+  ]
+}

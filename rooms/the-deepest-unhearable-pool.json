@@ -1,0 +1,132 @@
+{
+  "id": "the-deepest-unhearable-pool",
+  "title": "The Deepest Unhearable Pool",
+  "region": "The Diagnostic Render",
+  "seed": 3947281,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a2a4a",
+      "#0f1f3f"
+    ],
+    "ink": "#7f9fdf",
+    "accents": [
+      "#4a7a9f",
+      "#3a5a7f",
+      "#8fa9cf",
+      "#1a4a6f"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the point where sound surrenders",
+      "desc-on-touch": "You listen for the archive's signal. There is no signal here. There has never been one. The silence is older than broadcasting.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2018374,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the archive's failed broadcast",
+      "desc-on-touch": "A transmitter that never learned to send. Its antenna points downward into nothing, asking silence what it means to be heard.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 7821049,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the listening that learned not to",
+      "desc-on-touch": "Here, hearing becomes a kind of death. The archive has learned to stop asking for an echo.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4930182,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the bottom where archives rest",
+      "desc-on-touch": "Deeper still. The place where broadcast ends and listening becomes rock. Nothing echoes here. Nothing ever will.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 1294837,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that silence is not the absence of sound, but sound that has finished meaning",
+  "file": {
+    "name": "Silence_Recording_Last_Broadcast_Before_Listening_Ended.wav",
+    "note": "checksum: the sound of the archive holding its breath at the world's bottom, a transmission so deep it has learned to be stone"
+  },
+  "reverie": {
+    "title": "REVERIE — the dark where the archive learned to listen",
+    "narr": [
+      "She sat beside you in the deepest room, and neither of you spoke.",
+      "The archive broadcast its signal endlessly upward into stone.",
+      "Down here, there was no one to hear it, and that was the point.",
+      "Silence is not failure, she said without saying. Silence is arrival.",
+      "You lay on the cold ground and listened to the world stop trying."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "recline"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through silence that is learning to be dark",
+      "to": "the-depth-s-own-dark-chorus"
+    },
+    {
+      "dir": "e",
+      "label": "into the listening that follows sound downward",
+      "to": "NEW: the-echo-that-forgot-to-return"
+    },
+    {
+      "dir": "w",
+      "label": "along the current of silence, where even failure stops moving",
+      "to": "NEW: the-bedrock-where-the-archive-learned-to-be-quiet"
+    }
+  ]
+}

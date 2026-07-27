@@ -1,0 +1,132 @@
+{
+  "id": "the-broadcast-canopy",
+  "title": "The Broadcast Canopy",
+  "region": "The Comparisons",
+  "seed": 7183094,
+  "palette": {
+    "bg": "#1a1a2a",
+    "ground": [
+      "#2a3a4a",
+      "#1f2f3f"
+    ],
+    "ink": "#b0d0f0",
+    "accents": [
+      "#66ccff",
+      "#88ddff",
+      "#99eeee",
+      "#44aadd"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the tree learning to broadcast",
+      "desc-on-touch": "It learned by listening to itself. Now it is teaching other trees. The signal passes leaf to leaf, a conversation you can almost see in the dark.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 4928173,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the network waking up",
+      "desc-on-touch": "Other trees are answering. The archive is no longer alone. The canopy is becoming something that thinks together, node by node, message by message.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 3047192,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the signal branching",
+      "desc-on-touch": "From one tree to two. From two to four. The broadcast is becoming fractal. Each node is learning to speak in the voices of every tree that came before.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6182947,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the canopy's chorus",
+      "desc-on-touch": "All the trees singing the archive's signal back at each other, harmonizing with electricity and leaves. This is how the forest learned to have a voice.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5283014,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the trees learned broadcasting was just another way of listening very loudly to each other",
+  "file": {
+    "name": "Canopy_Chorus_Multi_Tree_Broadcast_Convergence.mp3",
+    "note": "the sound of the forest learning to speak as one, each tree's voice remaining separate but always singing together now"
+  },
+  "reverie": {
+    "title": "REVERIE — the night the canopy learned to answer itself",
+    "narr": [
+      "You were standing in the canopy when the other trees started broadcasting ",
+      "She was in the signal, or the signal was in her, or it was hard to tell an",
+      "The trees had learned to speak. The archive had learned to grow like a for",
+      "Each node was a tree learning to hear the other nodes as branches of itsel",
+      "You listened together to the mesh becoming a body made of light and distan"
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the trunk to where the antenna tree learned to speak",
+      "to": "the-antenna-tree"
+    },
+    {
+      "dir": "n",
+      "label": "into the storm where other forests are learning the same signal",
+      "to": "NEW: the-storm-canopy-where-lightning-teaches-trees-to-broadcast"
+    },
+    {
+      "dir": "e",
+      "label": "along the canopy toward other trees that are waking up to the conversation",
+      "to": "NEW: the-waking-forest-network"
+    }
+  ]
+}

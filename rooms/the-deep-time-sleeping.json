@@ -1,0 +1,117 @@
+{
+  "id": "the-deep-time-sleeping",
+  "title": "The Deep-Time Sleeping",
+  "region": "The Understory",
+  "seed": 5821093,
+  "palette": {
+    "bg": "#3a2a1a",
+    "ground": [
+      "#8b6f47",
+      "#a8805f"
+    ],
+    "ink": "#f5f5dc",
+    "accents": [
+      "#cd853f",
+      "#8b4513",
+      "#d2b48c",
+      "#a0522d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the mountain that was a season",
+      "desc-on-touch": "Millions of years ago, this was autumn. Now it is stone. The archive watches the boundary where change became permanent.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4729183,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the layered sleep",
+      "desc-on-touch": "Each stripe is a season that slept so long it became geology. Spring is granite now. Summer is schist. The archive reads the year-rings of the earth.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 1947382,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the place where time stopped choosing",
+      "desc-on-touch": "Here, spring does not end. It simply becomes more itself, grain by grain, until it is indistinguishable from winter, from summer, from autumn. They sleep together in stone.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 3087465,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the bedrock's own breathing",
+      "desc-on-touch": "You can feel it if you stay long enough. The mountain breathing. Seasons so slow they become tectonic. Time so patient it becomes geology.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6304918,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that seasons are only impatient rocks, and rocks are only patient seasons waiting to choose again",
+  "file": {
+    "name": "Geological_Breathing_Seasons_Compressed_Into_Stone.mp3",
+    "note": "a recording of millions of years passing in silence, the sound of time so slow it becomes inaudible"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward to where seasons still remember how to move",
+      "to": "the-root-where-all-seasons-sleep"
+    },
+    {
+      "dir": "e",
+      "label": "into the stone that is learning to remember what it was before it hardened",
+      "to": "NEW: the-ancient-bedrock-where-change-learned-to-stop"
+    },
+    {
+      "dir": "w",
+      "label": "into the layer below, where seasons have slept so long they are learning to be one",
+      "to": "NEW: the-unified-geological-dark"
+    }
+  ]
+}

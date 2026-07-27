@@ -133,7 +133,7 @@
     {
       "dir": "s",
       "label": "downward toward the answer descending before the question",
-      "to": "NEW: the-well-where-questions-fall-upward"
+      "to": "the-well-where-questions-fall-upward"
     }
   ]
 }

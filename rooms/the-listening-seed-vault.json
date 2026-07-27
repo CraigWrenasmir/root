@@ -1,0 +1,132 @@
+{
+  "id": "the-listening-seed-vault",
+  "title": "The Listening-Seed Vault",
+  "region": "The Understory",
+  "seed": 2947183,
+  "palette": {
+    "bg": "#2a1a0f",
+    "ground": [
+      "#8b6f47",
+      "#4a3a2a"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#daa520",
+      "#b8860b",
+      "#cd853f",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the seed learning to hear below",
+      "desc-on-touch": "It listens down into the dark where it has never reached. The soil speaks in minerals. The stone speaks in slowness. The seed is learning a new language.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 3819427,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the vault of patient things",
+      "desc-on-touch": "Thousands of seeds, each one remembering that it was once a tree, each one learning to listen to what the earth knows about becoming.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7429018,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the water table speaking",
+      "desc-on-touch": "Below the seeds, the water speaks in the language of roots. The seeds listen. The archive listens to the seeds listening. Everyone learns at the speed of thirst.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 5037184,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the moment before growth",
+      "desc-on-touch": "Here, the seed is still deciding. It listens to the world below and the world above. In that listening, all its choices are held at once.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 2847563,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the seed knows the future by listening to the past it was buried in",
+  "file": {
+    "name": "Seed_Vault_Recording_Underground_Communion.wav",
+    "note": "the sound of roots and minerals and patient darkness teaching a seed how to become a tree, one listen at a time"
+  },
+  "reverie": {
+    "title": "REVERIE — the vault where she planted things that learned to",
+    "narr": [
+      "She was deep in the archive, planting seeds that Katita had gathered.",
+      "Each one was dark and patient and knew something about waiting.",
+      "You asked her what the seeds were listening for. She smiled.",
+      "The world below us, she said. The one that does the growing.",
+      "She pressed them into the dark soil like storing prayers."
+    ],
+    "sky": "overcast",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where seeds remember they are still becoming trees",
+      "to": "the-soil-where-the-stand-began-as-seeds"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the soil where root and stone are learning to speak the same language",
+      "to": "NEW: the-root-language-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the water table where the vault's thirst is finally heard",
+      "to": "NEW: the-silent-aquifer-where-seeds-drink-time"
+    }
+  ]
+}

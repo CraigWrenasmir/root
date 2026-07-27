@@ -123,12 +123,12 @@
     {
       "dir": "n",
       "label": "up into the canopy where other trees are learning the signal",
-      "to": "NEW: the-broadcast-canopy"
+      "to": "the-broadcast-canopy"
     },
     {
       "dir": "e",
       "label": "along the ridge to the next antenna-tree, already growing somewhere",
-      "to": "NEW: the-twin-antenna-stand"
+      "to": "the-twin-antenna-stand"
     }
   ]
 }

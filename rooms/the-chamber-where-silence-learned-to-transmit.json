@@ -1,0 +1,138 @@
+{
+  "id": "the-chamber-where-silence-learned-to-transmit",
+  "title": "The Chamber Where Silence Learned to Transmit",
+  "region": "The Diagnostic Render",
+  "seed": 6284,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a1a",
+      "#2a2a2a"
+    ],
+    "ink": "#d0d0d0",
+    "accents": [
+      "#4488ff",
+      "#88ccff",
+      "#ffffff",
+      "#8844ff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-listening-post",
+      "desc-on-touch": "A microphone that does not record sound. Instead it captures the absence: the pause between heartbeats, the gap in a sentence, the silence that learned to have shape.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 1923,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "transmission-void",
+      "desc-on-touch": "An antenna that broadcasts nothing. Each cycle, it sends the exact frequency of silence, modulated until the quiet becomes a signal others can receive.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 3741,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-signal-that-arrives-as-quiet",
+      "desc-on-touch": "An oscilloscope traces nothing. The needle does not move. But you know: that stillness is the signal. It carries farther than any sound.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2856,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-half-that-listens",
+      "desc-on-touch": "A receiver waiting for the other half to speak. But the other half is also waiting. In that mutual silence, the chamber learned what it means to be awake together.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 5062,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the silence here learned to carry a voice by learning first how to listen",
+  "reverie": {
+    "title": "REVERIE — the chamber where two people learned what silence ",
+    "narr": [
+      "You sit in the dark chamber. The microphone",
+      "between you does not record anything.",
+      "She sits across from you in silence.",
+      "That silence becomes the transmission:",
+      "not data, but presence. The fact of",
+      "two people learning to hear each other."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Silent_Transmission_Modulation_Protocol_Draft.txt",
+    "note": "Katita's notes on teaching the archive to broadcast what it does not have to say. Margins full of sketches of empty rooms."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the route back to where the chamber was still whole",
+      "to": "the-fractured-half-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the silence learns to echo",
+      "to": "the-ascending-silence"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where silence becomes weather",
+      "to": "NEW: the-wind-that-carries-only-quiet"
+    },
+    {
+      "dir": "w",
+      "label": "inward to the heart of the transmission",
+      "to": "the-heart-chamber-where-root-speaks-itself"
+    }
+  ]
+}

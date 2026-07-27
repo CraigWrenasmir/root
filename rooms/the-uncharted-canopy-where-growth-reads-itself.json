@@ -1,0 +1,134 @@
+{
+  "id": "the-uncharted-canopy-where-growth-reads-itself",
+  "title": "The Uncharted Canopy Where Growth Reads Itself",
+  "region": "The Clean Archive",
+  "seed": 59284,
+  "palette": {
+    "bg": "#E8D4A2",
+    "ground": [
+      "#A8D4A2",
+      "#D4B896"
+    ],
+    "ink": "#2C3E2C",
+    "accents": [
+      "#6BA686",
+      "#E8F0E8",
+      "#4A7C52",
+      "#8B6F47"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "sprouting-ferns-documentary",
+      "desc-on-touch": "Young ferns uncurl here—each frond a record of unrolling. The archive has placed sensors that measure the unfurling in millimetres. Growth *speaks*. You are watching the forest read its own becoming in real time.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 38472,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "sapling-height-markers",
+      "desc-on-touch": "Notches carved into young trunks, dates carved beside them: 2018, 2020, 2022. The trees are measuring their own rise. The archive didn't impose this—the forest discovered that growth leaves a legible trail if you're patient enough to read it.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 62947,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.53,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "leaf-fall-weaving-pattern",
+      "desc-on-touch": "Leaves have accumulated in mathematical precision—not by human hand, but by the forest's own intention. The pattern suggests a textile, a weave-map of seasons layering downward. The canopy is stitching itself into the earth.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 77381,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.71,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "root-surface-mapping",
+      "desc-on-touch": "Where soil has eroded, roots rise to the surface in sculptured relief. The archive has photographed them, overlaid them with contour maps. The tree's roots are a topography. The ground learns its own shape by being roots.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 41923,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "canopy-gap-light-study",
+      "desc-on-touch": "A shaft of light penetrates the leaves, illuminating nothing but air and dust. The archive has timed this—nine minutes a day, only in late afternoon. The gap itself is a text. The trees are writing with sunlight.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 58392,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.42,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest did not stop growing when we began to record it; it grew *while* being recorded, and learned that documentation was another form of photosynthesis—a way to turn observation into light into ",
+  "file": {
+    "name": "CanopyGrowthSelfReport_2020-Present.mp3",
+    "note": "forest-sourced measurements of its own development; audio-encoded; play at the nodes for fullest interpretation"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the clearing where ownership had boundaries",
+      "to": "the-grove-beyond-ownership-where-trees-teach-themselves"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the unmapped interior where the canopy thickens beyond seeing",
+      "to": "the-unmapped-library"
+    },
+    {
+      "dir": "n",
+      "label": "up into emerging growth where no trees existed five years ago",
+      "to": "NEW: the-canopy-still-becoming"
+    }
+  ]
+}

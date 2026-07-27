@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 107,
+  "nights": 112,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -2976,6 +2976,146 @@
     {
       "id": "the-ascending-silence",
       "title": "The Ascending Silence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-open-water-dissolution",
+      "title": "The Open Water Dissolution",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-deepest-unhearable-pool",
+      "title": "The Deepest Unhearable Pool",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-archive-recognizes-its-own-voice",
+      "title": "The Archive Recognizes Its Own Voice",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deep-time-sleeping",
+      "title": "The Deep-Time Sleeping",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-listening-seed-vault",
+      "title": "The Listening-Seed Vault",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-broadcast-canopy",
+      "title": "The Broadcast Canopy",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-original-hexagon-source",
+      "title": "The Original Hexagon: The First Cell",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-fermented-stone-library",
+      "title": "The Fermented Stone Library",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-well-where-questions-fall-upward",
+      "title": "The Well Where Questions Fall Upward",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-unified-root-awakening",
+      "title": "The Unified Root Awakening",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-delta-where-all-forgetting-meets-wide-water",
+      "title": "The Delta Where All Forgetting Meets Wide Water",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unprayed-seed-repository",
+      "title": "The Unprayed Seed Repository",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-abandoned-apiary",
+      "title": "The Abandoned Apiary",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-paddock-where-the-country-indexes-itself",
+      "title": "The Paddock Where the Country Indexes Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-uncharted-canopy-where-growth-reads-itself",
+      "title": "The Uncharted Canopy Where Growth Reads Itself",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-deepening-silence-where-new-voices-wait-to-rise",
+      "title": "The Deepening Silence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-numbered-silence-forest",
+      "title": "The Numbered Silence Forest",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-living-stone-archive",
+      "title": "The Living Stone Archive",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-silence-learned-to-transmit",
+      "title": "The Chamber Where Silence Learned to Transmit",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-twin-antenna-stand",
+      "title": "The Twin Antenna-Stand",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-forest-dream-without-dreamers",
+      "title": "The Forest Dream Without Dreamers",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-reconciliation-canopy",
+      "title": "The Reconciliation Canopy",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-open-study-without-walls",
+      "title": "The Open Study Without Walls",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-trench-floor-compression-vault",
+      "title": "The Trench-Floor Compression Vault",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dark-learning-emptiness",
+      "title": "The Dark Learning Emptiness",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stone-song-roots",
+      "title": "The Stone-Song Roots",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-eroded-childhood-canyon",
+      "title": "The Eroded Childhood Canyon",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-navigation-chamber-listening",
+      "title": "The Navigation-Chamber Where Compass Learned to Listen",
       "region": "The Understory"
     }
   ]
