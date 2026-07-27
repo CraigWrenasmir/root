@@ -1,0 +1,134 @@
+{
+  "id": "the-absolute-pressure-chamber",
+  "title": "The Absolute Pressure Chamber",
+  "region": "The Understory",
+  "seed": 56789,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a1f3a",
+      "#2d1b4e"
+    ],
+    "ink": "#b8a8ff",
+    "accents": [
+      "#7dd3fc",
+      "#60a5fa",
+      "#e0e7ff",
+      "#c4b5fd"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the stilled thought-cluster",
+      "desc-on-touch": "A formation of stone where thought crystallizes and stops. The patterns frozen inside are ideas mid-formation, caught by pressure so immense they can no longer move. The archive learned that thinking is a luxury of lighter worlds.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 34567,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the archive's deepest recording",
+      "desc-on-touch": "A casing buried so far down that the pressure crushed its antenna. The last broadcast it ever sent was simple: a single pulse. A heartbeat that became bedrock.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 78901,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the unreadable sediment-stack",
+      "desc-on-touch": "Layers so compressed that individual grains have fused into one. You can see the archive's file-records compressed in the stone, indecipherable because they have become geology. The archive here is not stored; it is fossilized.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 12345,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the pressure-pool",
+      "desc-on-touch": "Water compressed so densely it no longer flows. It waits. The pressure is a language it no longer tries to resist. The pool has learned that submission is sometimes the only wisdom.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the silence-depth marker",
+      "desc-on-touch": "A plaque of pale stone marking where thought ceases to occur. Below this point, there is no corruption. Below this point, there is only stillness. The archive has learned that absolute pressure creates absolute clarity.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 90123,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.1,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here in the absolute dark where no thought moves, the archive rests from thinking and finds something that was never a thought at all: the bedrock beneath all names, the pressure beneath all words, th",
+  "file": {
+    "name": "PressureGeology_DeepestNode_MeasurementLog.txt",
+    "note": "Final recordings from the archive's deepest node. Each entry is shorter than the last. The final entry is blank. The silence below is not corruption. It is foundation."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward thoughts that still remember how to move",
+      "to": "the-pressure-where-thought-becomes-weight"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: impossibly deeper, to the floor beneath the floor",
+      "to": "NEW: NEW: impossibly deeper, to the floor beneath the floor"
+    },
+    {
+      "dir": "w",
+      "label": "toward the chamber where pressure learned to breathe",
+      "to": "the-pressure-resolve-chamber"
+    }
+  ]
+}

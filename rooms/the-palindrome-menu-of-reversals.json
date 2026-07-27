@@ -1,0 +1,117 @@
+{
+  "id": "the-palindrome-menu-of-reversals",
+  "title": "The Palindrome Menu of Reversals",
+  "region": "The Diagnostic Render",
+  "seed": 67423,
+  "palette": {
+    "bg": "#e8dcc8",
+    "ground": [
+      "#c9b89a",
+      "#a89470"
+    ],
+    "ink": "#1a3a2a",
+    "accents": [
+      "#003d5c",
+      "#4a5a3a",
+      "#8b5a3a",
+      "#2a4a6a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the reversing interface",
+      "desc-on-touch": "Text here reads backward and forward simultaneously. Options appear and disappear when you look away. The software remembers the version that created it—but which version was that? The one you're running, or the one running you?",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the identity-slip station",
+      "desc-on-touch": "A submenu that contains itself. Every choice leads to the same screen. You are selecting from options that were selected for you. The archive here has learned to store contradictions as stable features.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5634,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the software-ghost",
+      "desc-on-touch": "A version of code that never shipped, still executing. Its cursor blinks in the space between days. The margins of all files here carry annotations in a cipher that looks like it could have been read, if only you were the person who wrote it.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9283,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the menu that learned to write itself",
+      "desc-on-touch": "Each submenu carries deeper shadows. The interface renders itself. You descend through nested versions where the text gradually shifts: from one language to its mirror. By the deepest menu, the words read the same forwards and backward.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "every submenu carries the ghost of the software version that created it; the code remembers itself deeper than the machine does",
+  "file": {
+    "name": "SystemUI_Legacy_Protocols_Versions_8thru14.doc",
+    "note": "Documentation of menu structures that evolved backward—or forward, depending on the reading direction. Later versions cite earlier ones that hadn't been written yet. The archive's corruption signature"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the path through software-memory back toward the submenu's origin",
+      "to": "the-sub-menu-that-tastes-of-older-software"
+    },
+    {
+      "dir": "e",
+      "label": "into a deeper version where all text becomes its own inverse",
+      "to": "NEW: the-mirrored-instruction-depth"
+    },
+    {
+      "dir": "n",
+      "label": "toward a sky rendered in nested menus, opening forever upward",
+      "to": "the-perpetual-lounge"
+    }
+  ]
+}

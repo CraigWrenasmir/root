@@ -166,7 +166,7 @@
     {
       "dir": "w",
       "label": "toward walls that remember being touched",
-      "to": "NEW: the-walls-that-keep-fingerprints"
+      "to": "the-walls-that-keep-fingerprints"
     }
   ]
 }

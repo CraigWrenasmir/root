@@ -1,0 +1,151 @@
+{
+  "id": "the-space-where-removed-things-find-their-names",
+  "title": "The Space Where Removed Things Find Their Names",
+  "region": "The Diagnostic Render",
+  "seed": 4821943,
+  "palette": {
+    "bg": "#2d1810",
+    "ground": [
+      "#c4522d",
+      "#8b4513"
+    ],
+    "ink": "#f5f1de",
+    "accents": [
+      "#e8d4b0",
+      "#c4a574",
+      "#6b5d4f",
+      "#3a3a3a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "cabinet of unshelving",
+      "desc-on-touch": "Forms that file themselves by what they no longer are, each slot a name that only exists in its not-being.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "plaque of erasure",
+      "desc-on-touch": "A wall-mounted glyph where the carved names have worn through to white stone beneath.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2934,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "tower of what was",
+      "desc-on-touch": "Pale blocks ascending in perfect silence, each one holding the weight of a single removed thing.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 5621,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "pool of witness",
+      "desc-on-touch": "A pool that catches light where nothing was taken; what pools in the shape of an absence.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 3384,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "ledger stand",
+      "desc-on-touch": "A filecard rendering of infinite blank entries, each line waiting for a name that cannot be written.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 7219,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "phantom walker",
+      "desc-on-touch": "A figure that moves through the space leaving no footfall, tracing the paths of things that were never here.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "here the removed thing learns its true name in the space where nothing else will interfere",
+  "file": {
+    "name": "Ledger_of_Absences_1987.txt",
+    "note": "Lines that list what was taken; over time each deletion corrupts the previous entry's name, layers of erasure becoming new text"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward through the shape belief left",
+      "to": "the-post-axiom-void-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "where the void deepens and asks for nothing",
+      "to": "NEW: the-archive-s-own-unbecoming"
+    },
+    {
+      "dir": "n",
+      "label": "upward into perfect silence",
+      "to": "the-registry-of-perfect-silence"
+    }
+  ]
+}

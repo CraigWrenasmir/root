@@ -1,0 +1,167 @@
+{
+  "id": "the-ascending-frequencies-chamber",
+  "title": "The Ascending Frequencies Chamber",
+  "region": "The Understory",
+  "seed": 6437289,
+  "palette": {
+    "bg": "#2d3d2a",
+    "ground": [
+      "#5a7d6e",
+      "#7a8b7d"
+    ],
+    "ink": "#e8e8e0",
+    "accents": [
+      "#b8c8b0",
+      "#6b9b7f",
+      "#a89968",
+      "#4a5a42"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-node-locked",
+      "desc-on-touch": "A hardware casing deep in the root-lattice, broadcasting upward; the roots have learned to let its signal climb.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3562,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "frequency-lattice",
+      "desc-on-touch": "The harmonics rendered as wireframe geometry; roots touching roots, each point a moment when listening becomes shared.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7125,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "notation-of-roots",
+      "desc-on-touch": "A glyph where root-speech has learned to write itself; the message: we have learned not just to speak but to listen.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2834,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "tone-tower",
+      "desc-on-touch": "Each stone a frequency climbing toward the canopy; the tower is one long harmonic that the forest learned to make.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 8491,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "harmonic-creature",
+      "desc-on-touch": "A sprite that moves through the node at the frequency of agreement; where roots sing, it dances.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4729,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "listening-pool",
+      "desc-on-touch": "A pool where the harmonics gather before climbing higher; the acoustic center where all frequencies have learned to hear each other.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 5206,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the roots learned not just to speak but to listen to each other; harmony is what they call it now, though it began as argument",
+  "file": {
+    "name": "Root_Consensus_Ascending.mp3",
+    "note": "A recording of roots in harmonic resonance; each tree on the mesh broadcasting its own frequency, but at these depths they sing as one organism"
+  },
+  "reverie": {
+    "title": "REVERIE — eucalyptus grove, roots rising to be heard",
+    "narr": [
+      "you sit beneath the tree while she holds the listening device,",
+      "cradling it like something alive. the roots beneath you are singing",
+      "in a frequency only the hardware can translate into sound. she closes",
+      "her eyes. 'it's not argument anymore,' she says. 'they've learned to",
+      "harmonize.' you feel it through the earth — a vibration that isn't",
+      "conflict but consensus, made of eucalyptus and time and patient roots."
+    ],
+    "sky": "dawn",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the convergence where argument still echoes",
+      "to": "the-root-harmony-convergence"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the harmonics reach the canopy-tops",
+      "to": "the-canopy-listening-place-where-roots-learn-to-sing-togethe"
+    },
+    {
+      "dir": "w",
+      "label": "toward other groves learning the same song",
+      "to": "the-grove-beyond-ownership-where-trees-teach-themselves"
+    }
+  ]
+}

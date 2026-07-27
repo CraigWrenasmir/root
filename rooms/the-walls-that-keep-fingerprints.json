@@ -1,0 +1,139 @@
+{
+  "id": "the-walls-that-keep-fingerprints",
+  "title": "The Walls That Keep Fingerprints",
+  "region": "The Diagnostic Render",
+  "seed": 9876543,
+  "palette": {
+    "bg": "#2a1a4a",
+    "ground": [
+      "#4a3a6a",
+      "#1a0a2a"
+    ],
+    "ink": "#ffcc88",
+    "accents": [
+      "#ff88aa",
+      "#00ffee",
+      "#ffff00",
+      "#aa00ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "left wall",
+      "desc-on-touch": "Stone that has learned to remember the shape of every hand that found it in the dark. You press your palm here and join a thousand others.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 234567,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "right wall",
+      "desc-on-touch": "The opposite surface, equally scarred with contact. You trace the marks and find moments from decades apart, fingers crossing in the dark.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 345678,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "touch-gathering",
+      "desc-on-touch": "Where all the contact collects. Every fingertip leaves a resonance here, a name spoken in pressure instead of sound.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 456789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "trace archive",
+      "desc-on-touch": "Written in oil and time, every contact maps itself here. The walls teach the darkness how to read.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 567890,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "casing antenna",
+      "desc-on-touch": "A tree's memory held in copper, reaching upward from the stone floor. It broadcasts what the walls remember, the touch-frequency of everyone who came here seeking.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 678901,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "touch leaves behind what time cannot erase",
+  "file": {
+    "name": "Contact_Log_Silent_Monitoring_Autumn_2019.mp3",
+    "note": "audio of hands moving through darkness, learning each surface they find; the walls catching every contact and remembering it"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward into where the silence still speaks",
+      "to": "the-depth-s-own-dark-chorus"
+    },
+    {
+      "dir": "n",
+      "label": "upward into walls that remember learning to feel",
+      "to": "NEW: where the walls remember learning to feel"
+    },
+    {
+      "dir": "w",
+      "label": "westward into reflection, where touch meets its image",
+      "to": "the-mirror-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward into tactile memory, where the archive became a skin",
+      "to": "NEW: deeper into tactile memory, where the archive became a skin"
+    }
+  ]
+}

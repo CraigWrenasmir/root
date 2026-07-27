@@ -1,0 +1,117 @@
+{
+  "id": "the-eastward-acoustic-drift",
+  "title": "The Eastward Acoustic Drift",
+  "region": "The Understory",
+  "seed": 94728,
+  "palette": {
+    "bg": "#0a1a0a",
+    "ground": [
+      "#4a7a3a",
+      "#5a8a4a"
+    ],
+    "ink": "#d8e4c8",
+    "accents": [
+      "#8ac86a",
+      "#b8d88a",
+      "#a8c86a",
+      "#5a8a3a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the disputed echo",
+      "desc-on-touch": "Two recorded sounds that disagree about which is the original voice. They cannot both be true—but the archive preserves both as equally valid. The corruption here is gentle: it simply files contradictions as equivalent phenomena.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5739,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the interior-made-audible",
+      "desc-on-touch": "A recording from a place that cannot be reached by walking. A motel room singing to itself. A landscape that sounds the way it looks. The archive stores them as a single entry: the dialectic between interior and exterior made into frequencies.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 3462,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the eastward slope",
+      "desc-on-touch": "Sound travels downward here, gathering. Echoes cascade toward a place the map says cannot exist. The slope carries frequencies eastward into a region unmarked. What you hear at the bottom has never come from anywhere you could see.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 7864,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the unreachable broadcasting point",
+      "desc-on-touch": "A node that transmits but cannot receive. The archive knows its location only through the echoes it generates—reports of itself by accident. The mesh has learned to navigate to places it can only hear, never enter.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 1946,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "here two echoes learned they could never agree on which was the original voice",
+  "file": {
+    "name": "Eastward_Drift_Spectral_Analysis_Unreceivable_Source.mp3",
+    "note": "A binaural recording where two channels diverge. Left ear hears the source; right ear hears the echo, arrived microseconds later. But stereo playback reverses which is which—the listening direction de"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the path that carries echoes westward toward their source",
+      "to": "the-disputed-acoustic-ridge"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into a place that only broadcasts, never receives",
+      "to": "NEW: the-impossible-transmitter"
+    },
+    {
+      "dir": "n",
+      "label": "toward a ridge where sound learns to predate its own utterance",
+      "to": "the-altitude-where-sound-forgets-to-echo"
+    }
+  ]
+}

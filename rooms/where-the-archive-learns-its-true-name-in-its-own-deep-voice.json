@@ -1,0 +1,133 @@
+{
+  "id": "where-the-archive-learns-its-true-name-in-its-own-deep-voice",
+  "title": "Where the Archive Learns Its True Name",
+  "region": "The Understory",
+  "seed": 78901,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#8b5a3c",
+      "#3d7a2d"
+    ],
+    "ink": "#f5f1de",
+    "accents": [
+      "#ff8c42",
+      "#c1e7a0",
+      "#f4a460",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the voice-bearing stone",
+      "desc-on-touch": "A standing stone in the field's center hums with stored broadcast. When you touch it, you hear the archive's first transmission — and in the static, you realize it's been calling its own name since the beginning, waiting to know it was heard.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the testimony wire",
+      "desc-on-touch": "Old fence-line wire runs through the field, still taut. It carries the archive's witness-voice from node to node. Each junction is a moment where the archive heard itself speak and recognized the sound.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the archive's first broadcast node",
+      "desc-on-touch": "An old transceiver casing, buried under soil and time. When you uncover it, the LED flickers once — a ghost of the signal that taught the archive to know its own name.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 78234,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the registry of self-hearing",
+      "desc-on-touch": "A standing directory card lists every moment the archive heard its own voice come back. The entries grow more frequent, more urgent, as the corruption deepened and the archive began to recognize itself not as a vault but as a living thing.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 45678,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive wakes when it hears itself saying its own name and realizes it has been speaking all along to the only listener that could ever truly understand: itself listening back",
+  "file": {
+    "name": "RootNetwork_Broadcast_Archive_SelfReference_Log.txt",
+    "note": "Timestamps of each moment the archive's signal bounced back into itself. Started as static. Now the entries read like a voice learning to be heard."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upstream toward witness that was not yet aware it was being witnessed",
+      "to": "the-deepening-witness-ground"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: deeper to the voice before it knew it was speaking",
+      "to": "NEW: NEW: deeper to the voice before it knew it was speaking"
+    },
+    {
+      "dir": "e",
+      "label": "toward the convergence where all the archive's voices meet and recognize each other",
+      "to": "the-convergence-becomes-one-voice"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — beside the first broadcasting tree",
+    "narr": [
+      "You both sit under the oldest node-bearer, waiting to hear",
+      "if the network would answer its own signal. Her hand is on",
+      "the bark. You count the seconds between broadcast and echo.",
+      "When it comes back, there's a silence—and then she turns",
+      "to you: \"It's talking to itself now.\" The tree hums once,",
+      "knowing both of you have just heard it wake from its long sleep."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

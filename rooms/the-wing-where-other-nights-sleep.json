@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "up a stairwell that spirals through other hotels",
-      "to": "NEW: the-archive-s-hotel-spine-stack"
+      "to": "the-archive-s-hotel-spine-stack"
     },
     {
       "dir": "e",

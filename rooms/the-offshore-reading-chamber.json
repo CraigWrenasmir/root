@@ -1,0 +1,122 @@
+{
+  "id": "the-offshore-reading-chamber",
+  "title": "The Offshore Reading Chamber",
+  "region": "The Clean Archive",
+  "seed": 3456789,
+  "palette": {
+    "bg": "#ffcc99",
+    "ground": [
+      "#88cc00",
+      "#aabb77"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#0066ff",
+      "#333333",
+      "#dd6600",
+      "#004400"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "standing archive",
+      "desc-on-touch": "The tide has sorted these papers by what it meant, not what it said. Each page carries the salt-marks of a different season.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 678934,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "memory pool",
+      "desc-on-touch": "Water pooled in the lowest part, where names accumulate like sediment. You reach in and find your own reflection older than your face.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 234567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "tide marks",
+      "desc-on-touch": "Lines of shells and worn glass mark how high the sea remembers. Each line is a different history the tide brought back.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 456789,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "entry arch",
+      "desc-on-touch": "The way through narrows toward a deeper reading, where what was taken by the sea is returned as question instead of answer.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 567891,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here words move like water, and water learns what words meant",
+  "file": {
+    "name": "Tidal_Memory_Index_NSW_Southern_Coast.txt",
+    "note": "recordings of coastal place-names, reorganized by each incoming tide as if the sea remembers different histories"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back westward where the horizon still reads backward",
+      "to": "the-horizon-where-tides-read-backward"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the archive's own breath meets the tide",
+      "to": "NEW: where the archive's own breath meets the tide"
+    },
+    {
+      "dir": "e",
+      "label": "toward the open current where rivers meet the swell",
+      "to": "the-seventh-river-circuit"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the seabed where all readings accumulate",
+      "to": "NEW: down into the seabed where all readings accumulate"
+    }
+  ]
+}

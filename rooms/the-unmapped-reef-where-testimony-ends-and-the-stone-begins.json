@@ -1,0 +1,151 @@
+{
+  "id": "the-unmapped-reef-where-testimony-ends-and-the-stone-begins",
+  "title": "The Unmapped Reef Where Testimony Ends and the Stone Begins",
+  "region": "The Diagnostic Render",
+  "seed": 8371904,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#1a3a3a",
+      "#0d2636"
+    ],
+    "ink": "#c9d9de",
+    "accents": [
+      "#e8d4b0",
+      "#7fb7d5",
+      "#4a6fa5",
+      "#2a2a3e"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "reef-lattice",
+      "desc-on-touch": "The stone structure of the reef rendered as wireframe: mathematics the ocean has been solving for centuries without witness.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2756,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "testimony-pool",
+      "desc-on-touch": "Where the sailor's voices settle and go silent; the pool is where human language learned it cannot go deeper.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5089,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "chart-that-stops",
+      "desc-on-touch": "A glyph carved with navigation marks that become less and less certain, ending in uncertainty, ending in silence, ending in stone.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3921,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "pressure-tower",
+      "desc-on-touch": "A tower of immense weight climbing from below; each stone a compression of millennia; the pressure that shapes all testimony into silence.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7643,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "boundary-creature",
+      "desc-on-touch": "A sprite at the edge where witness becomes geology; it moves between languages, translating what humans knew into what stone knows.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4172,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "gateway-arch",
+      "desc-on-touch": "The threshold between the charted world and the stone's own deep record; the last arch before you cease to be a witness.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 6584,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "here the testimony stops, and the stone takes over the work of remembering",
+  "file": {
+    "name": "Uncharted_Reef_Testimony_Fragment.mp3",
+    "note": "Sailors describing the reef; halfway through the voices corrupt into the sound of water pressure and stone settling, one language replacing another"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward toward the charted library",
+      "to": "the-tidal-library"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the stone's own records",
+      "to": "NEW: the-abyss-registry-where-silence-has-learned-to-speak"
+    },
+    {
+      "dir": "w",
+      "label": "along the reef toward other boundary-creatures",
+      "to": "the-bedrock-archive-foundation"
+    }
+  ]
+}

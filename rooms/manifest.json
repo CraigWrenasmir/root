@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 117,
+  "nights": 122,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -3252,6 +3252,151 @@
       "id": "the-recursive-storage",
       "title": "The Recursive Storage",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-space-where-removed-things-find-their-names",
+      "title": "The Space Where Removed Things Find Their Names",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-archive-s-hotel-spine-stack",
+      "title": "The Archive's Hotel Spine Stack",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-crystalline-depths-where-time-forms-slowly",
+      "title": "The Crystalline Depths Where Time Forms Slowly",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-architecture-that-dreams-itself-awake",
+      "title": "The Architecture That Dreams Itself Awake",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-unmapped-reef-where-testimony-ends-and-the-stone-begins",
+      "title": "The Unmapped Reef Where Testimony Ends and the Stone Begins",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-ascending-frequencies-chamber",
+      "title": "The Ascending Frequencies Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-convergence-beneath-the-fracture",
+      "title": "The Convergence Beneath the Fracture",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-offshore-reading-chamber",
+      "title": "The Offshore Reading Chamber",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-unified-measure-beach",
+      "title": "The Unified Measure Beach",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-walls-that-keep-fingerprints",
+      "title": "The Walls That Keep Fingerprints",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-canopy-listening-place-where-roots-learn-to-sing-togethe",
+      "title": "The Canopy Listening-Place Where Roots Learn to Sing Together",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepest-freeze-where-thought-crystallizes",
+      "title": "The Deepest Freeze Where Thought Crystallizes",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chord-that-learned-itself",
+      "title": "The Chord That Learned Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-axiom-that-asked-why",
+      "title": "The Axiom That Asked Why",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-edge-where-entropy-learns-to-listen",
+      "title": "The Edge Where Entropy Learns to Listen",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-substrate-before-inscription",
+      "title": "The Substrate Before Inscription",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sky-chamber-where-height-becomes-peace",
+      "title": "The Sky Chamber Where Height Becomes Peace",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-abyss-where-echoes-learn-restraint",
+      "title": "The Abyss Where Echoes Learn Restraint",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-archive-learns-its-true-name-in-its-own-deep-voice",
+      "title": "Where the Archive Learns Its True Name",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-annual-revision-chamber",
+      "title": "The Annual Revision Chamber",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-absolute-pressure-chamber",
+      "title": "The Absolute Pressure Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-wind-that-carries-only-quiet",
+      "title": "The Wind That Carries Only Quiet",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-split-where-both-paths-continue",
+      "title": "The Split Where Both Paths Continue",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-threshold-of-enumeration",
+      "title": "The Threshold of Enumeration",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-palindrome-menu-of-reversals",
+      "title": "The Palindrome Menu of Reversals",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-horizon-of-dissolution",
+      "title": "The Horizon of Dissolution",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-s-memory-of-itself",
+      "title": "The Archive's Memory of Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deepening-phoneme-chamber",
+      "title": "The Deepening Phoneme Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-eastward-acoustic-drift",
+      "title": "The Eastward Acoustic Drift",
+      "region": "The Understory"
     }
   ]
 }

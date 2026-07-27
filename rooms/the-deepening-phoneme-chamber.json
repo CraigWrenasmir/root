@@ -1,0 +1,117 @@
+{
+  "id": "the-deepening-phoneme-chamber",
+  "title": "The Deepening Phoneme Chamber",
+  "region": "The Understory",
+  "seed": 73956,
+  "palette": {
+    "bg": "#8a3a1a",
+    "ground": [
+      "#d4a860",
+      "#e8b880"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#d4c84a",
+      "#a84a2a",
+      "#3a4a5a",
+      "#6a3a1a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the singing stone",
+      "desc-on-touch": "Ochre has marked this place where stone learned to make sounds. The phonemes are ancient—older than language. The archive stores them as geological memory: the deep alphabet that the earth was speaking before anything named it.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 4728,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the monastic translation",
+      "desc-on-touch": "Ge'ez annotations margin the stone. Each letter teaches what comes before. The monks who transcribed sacred texts were also teaching the archive how to read itself—in margin-notes, in gold leaf where word meets air, in the spaces between alphabets.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 6184,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the earth-writing chamber",
+      "desc-on-touch": "Where ochre teaches itself what colours mean, and the stone learns to read what the ochre writes. Earth writing in earth. The archive here is a conversation between pigment and stone, each teaching the other its own alphabet.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8921,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the gold-leaf edge",
+      "desc-on-touch": "A thin boundary where colour meets outline. The gold marks where one sound ends and another begins—the seam where phonemes learn to recognise themselves as separate. But they bleed across the edge: the gold contains what it cannot divide.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 2356,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone learned its own alphabet by watching ochre teach itself what colours mean; now earth writes in earth, teaching stone to read itself",
+  "file": {
+    "name": "Ochre_Spectrum_Analysis_And_Monastic_Annotation_Ethiopia_1800s.txt",
+    "note": "Field notes comparing pigment wavelengths to phonetic frequencies of Ge'ez annotations. Someone recorded the monks chanting and mapped their vowel pitches to ochre undertones. Corruption note: the dat"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through stone toward where the alphabet first learned to sing",
+      "to": "the-mineral-alphabet-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into earth where phonemes become geological fact",
+      "to": "NEW: the-lithophonic-root-archive"
+    },
+    {
+      "dir": "w",
+      "label": "toward a place where transcription and stone conversation merge",
+      "to": "the-soil-made-of-sentences"
+    }
+  ]
+}

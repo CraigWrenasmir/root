@@ -140,7 +140,7 @@
     {
       "dir": "e",
       "label": "down the eastern path that is also the western path",
-      "to": "NEW: down the eastern path that is also the western path"
+      "to": "the-split-where-both-paths-continue"
     },
     {
       "dir": "w",

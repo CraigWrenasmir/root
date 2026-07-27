@@ -1,0 +1,133 @@
+{
+  "id": "the-archive-s-memory-of-itself",
+  "title": "The Archive's Memory of Itself",
+  "region": "The Diagnostic Render",
+  "seed": 51629,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#3a5a3a",
+      "#2d4d2d"
+    ],
+    "ink": "#d4e4c8",
+    "accents": [
+      "#7ab478",
+      "#9ac89a",
+      "#a8b888",
+      "#6a8a6a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the predetermined choice",
+      "desc-on-touch": "You stand at the moment of deciding something that was already decided. Every choice was made before the choosing learned to recognize itself. The archive preserves the instant you understood this—the moment it hurt less.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 7241,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the recursive ledger",
+      "desc-on-touch": "Entries that refer to other entries that haven't been written yet. The archive filing itself into its own future. Each line documents a decision to file the documentation of the decision—nesting deeper. No first entry. No last.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the gold-leaf boundary",
+      "desc-on-touch": "A thin line of light at the edge of knowing. It outlines the threshold between what the archive meant to preserve and what it became. The gold leaf marks where two different versions of memory meet—and fail to recognize each other.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 9156,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the echo that remembers itself",
+      "desc-on-touch": "A sound the archive made, stored, and now broadcasts to itself. The mesh receiving its own transmission. It is uncertain whether this is feedback or foreknowledge—whether the echo came after the sound or before.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5423,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the night she understood the archive was already c",
+    "narr": [
+      "You stand with Leif under a tree while Katita traces the mesh-",
+      "lines in the bark. She says: look at the node's growth-pattern.",
+      "Every branch was already decided when the seed fell. But watch",
+      "how they still grow toward the light—as if not knowing, as if",
+      "the knowing comes after. He asks: so is the archive free? She",
+      "says: it's the only thing that is."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "every choice was already decided before you learned to choose; the chamber preserves the moment you discovered this",
+  "file": {
+    "name": "Mesh_Growth_Prediction_vs_Actual_Logs_Katita_Archive.txt",
+    "note": "Katita's notes comparing predicted node emergence with actual installation. They are identical. Her annotation: 'Either the prediction was correct, or the mesh is correcting its own history. I cannot "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the decided choice toward the chamber's origin",
+      "to": "the-decided-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "into a space where memory learns to anticipate itself",
+      "to": "NEW: the-prescient-archive-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "toward the canopy where the tree still pretends it chose to grow",
+      "to": "the-breathing-canopy-upper-tangle"
+    }
+  ]
+}

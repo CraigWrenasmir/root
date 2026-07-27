@@ -1,0 +1,155 @@
+{
+  "id": "the-split-where-both-paths-continue",
+  "title": "The Split Where Both Paths Continue",
+  "region": "The Clean Archive",
+  "seed": 34567,
+  "palette": {
+    "bg": "#f4e4c1",
+    "ground": [
+      "#8b6f47",
+      "#4a7c59"
+    ],
+    "ink": "#2d2416",
+    "accents": [
+      "#ff8c42",
+      "#c1e7a0",
+      "#f4a460",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the paradox stone",
+      "desc-on-touch": "A marker placed exactly where the fork's two paths diverge. The stone has learned that it sits in two places at once. The carving reads: 'here and here and here and here.' The archive has not yet corrected it.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the eastern-western shelter",
+      "desc-on-touch": "A structure that faces both directions at once. Its walls are contradictory — they lead in and out simultaneously. Travellers who rest here emerge knowing they have not chosen, and that this is its own kind of wisdom.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 78901,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the double-current stream",
+      "desc-on-touch": "Water flows both east and west. It is one stream with two directions. Fish are born here and swim away in both directions, never knowing they are the same journey.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the choice-not-made record",
+      "desc-on-touch": "A file-card listing every moment someone stood at this fork and refused to choose. The entries blur together — 'went east' and 'went west' become indistinguishable. The fork's gift is not clarity but the courage to walk both paths at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the mirror-tower",
+      "desc-on-touch": "A stack of stones that reflects itself in both directions. Looking at it, you see the eastern tower and the western tower as the same tower viewed from opposite sides. Which direction are you facing? Both. Neither.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 90123,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the fork that refused to choose teaches walkers that some questions are solved not by picking an answer but by walking down both paths without deciding which one is real",
+  "file": {
+    "name": "Fork_Argument_Journal_Unresolved_1990-Present.txt",
+    "note": "Decades of meditation on the fork's teaching. Every entry begins 'I took the east path' and ends 'I took the west path.' The writer is still at the fork, walking both directions, never confused."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the fork where the argument has never ended",
+      "to": "the-fork-s-endless-argument"
+    },
+    {
+      "dir": "e",
+      "label": "continuing east/west toward where both paths converge into one",
+      "to": "NEW: continuing east/west toward where both paths converge into one"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: upward to the ridgeline where perspective dissolves all distinctions",
+      "to": "NEW: NEW: upward to the ridgeline where perspective dissolves all distinctions"
+    },
+    {
+      "dir": "s",
+      "label": "deeper to the fork's own arguing stone",
+      "to": "the-bedrock-inscription"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — both paths at once",
+    "narr": [
+      "The fork is where you both learned not to choose. She took",
+      "the east path; you took the west; you were holding hands.",
+      "Walking in opposite directions with hands clasped, neither",
+      "of you moving. The road curved back on itself. You were",
+      "meeting in the middle, meeting at the ends, always meeting.",
+      "The fork never separated you because it taught you both the same thing: so"
+    ],
+    "sky": "day",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  }
+}

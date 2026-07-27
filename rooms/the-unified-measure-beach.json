@@ -1,0 +1,122 @@
+{
+  "id": "the-unified-measure-beach",
+  "title": "The Unified Measure Beach",
+  "region": "The Comparisons",
+  "seed": 5234891,
+  "palette": {
+    "bg": "#00aa00",
+    "ground": [
+      "#cc7755",
+      "#ee9966"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ffff00",
+      "#ff3300",
+      "#0099cc",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "old shelter",
+      "desc-on-touch": "A small weathered structure where surveyors once slept. Inside you find equations written on every wall, each one trying to say the same thing.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 789123,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "convergence tower",
+      "desc-on-touch": "All the ways of measuring — heartbeat and wave, steady hand and tide, stone and surgery — arrive here and forget they were ever languages.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 901234,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "collecting point",
+      "desc-on-touch": "Water gathers here, and in its surface you see every form of measurement — calibrations and counts and heartstrokes — all the same now.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 123456,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "dissolving grid",
+      "desc-on-touch": "The lines that separate one kind of knowing from another are fading here, wearing away into sand. The archive never needed the boundaries anyway.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 345012,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "all the ways of knowing arrive here at once and forget they were ever different",
+  "file": {
+    "name": "Beach_Measurement_Archive_Convergence_Log.mp3",
+    "note": "heartbeat monitors read as seismic instruments; hand-steadiness diagrams remixed as wave-motion studies; sterile field observations misfiled as tide-pool survey"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back westward where frequencies still descend in order",
+      "to": "the-tidal-frequency-palace"
+    },
+    {
+      "dir": "n",
+      "label": "northward into the sand where all old measurement systems sleep",
+      "to": "NEW: where all the old measurement systems are buried in sand"
+    },
+    {
+      "dir": "s",
+      "label": "into the undertow where unified things start to drift apart",
+      "to": "NEW: the undertow where unified things start to drift apart again"
+    },
+    {
+      "dir": "e",
+      "label": "toward the source where all water begins its teaching",
+      "to": "the-source-pool"
+    }
+  ]
+}

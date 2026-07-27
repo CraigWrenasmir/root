@@ -145,7 +145,7 @@
     {
       "dir": "w",
       "label": "toward the forest edge where counting becomes confused",
-      "to": "NEW: the-threshold-of-enumeration"
+      "to": "the-threshold-of-enumeration"
     }
   ]
 }

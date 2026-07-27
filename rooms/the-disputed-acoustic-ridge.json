@@ -128,7 +128,7 @@
     {
       "dir": "e",
       "label": "a descending slope that carries echoes eastward, toward a place that cannot be reached by walking",
-      "to": "NEW: the-eastward-acoustic-drift"
+      "to": "the-eastward-acoustic-drift"
     }
   ]
 }

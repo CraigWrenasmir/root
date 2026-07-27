@@ -1,0 +1,134 @@
+{
+  "id": "the-sky-chamber-where-height-becomes-peace",
+  "title": "The Sky Chamber Where Height Becomes Peace",
+  "region": "The Understory",
+  "seed": 92847356,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2a2a4a",
+      "#404060"
+    ],
+    "ink": "#d0d0e8",
+    "accents": [
+      "#6b8cae",
+      "#a8c5dd",
+      "#e0e8f0",
+      "#4a5a7a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the mountain that learned to sit",
+      "desc-on-touch": "It does not climb anymore. At its peak, the mountain discovered that the sky was not higher—it was just different. Here at the top, movement feels like falling.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 63478,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the stillness that is not empty",
+      "desc-on-touch": "Air moves through this place, but you do not feel it anymore. The wind here learned to be part of peace instead of opposed to it.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 39647,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the clouds that settled here",
+      "desc-on-touch": "They do not drift past anymore. They have chosen to stay. The sky is not something that happens above you—it is something you are inside of now.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 74195,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the breath that learned not to leave",
+      "desc-on-touch": "At this height, breathing becomes something else. It is not going in and out anymore. It is simply being, held in this high place forever.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 51829,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.1,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the view that never changes",
+      "desc-on-touch": "From here, every direction looks the same—endless sky, endless peace. The horizon never moves. You understand now why mountains want to stay.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 88753,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "climbing is not about reaching higher; the peak teaches that staying is the only way to ascend",
+  "file": {
+    "name": "High_Place_Meditation_Observer_Notes.txt",
+    "note": "Transcriptions from someone who went up and did not come down. Or rather, they descended only in their mind. The notes become increasingly peaceful as they go deeper. The last entries are almost silen"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward the ground where climbing meant something",
+      "to": "the-still-path-where-others-learned"
+    },
+    {
+      "dir": "n",
+      "label": "further into sky that teaches infinite staying",
+      "to": "NEW: the-eternal-ceiling-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward a horizon that is also a home",
+      "to": "the-ridge-where-both-footsteps-echo"
+    }
+  ]
+}

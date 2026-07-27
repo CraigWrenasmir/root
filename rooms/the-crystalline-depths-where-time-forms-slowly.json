@@ -1,0 +1,167 @@
+{
+  "id": "the-crystalline-depths-where-time-forms-slowly",
+  "title": "The Crystalline Depths Where Time Forms Slowly",
+  "region": "The Understory",
+  "seed": 2947561,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d5a4f",
+      "#1a3a32"
+    ],
+    "ink": "#e8d4b0",
+    "accents": [
+      "#a89968",
+      "#6b8e87",
+      "#4a6fa5",
+      "#c5b8a8"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "node-in-stone",
+      "desc-on-touch": "A casing locked in crystal lattice, its broadcast muffled but not silent; the stone has learned the frequency.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3621,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "crystal-lattice",
+      "desc-on-touch": "Geometric wireframe where minerals have organized themselves into architecture; the deep rock teaching itself to think in patterns.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 7834,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "formation-record",
+      "desc-on-touch": "Stone carved with ages: a glyph recording what each stratum was dreaming as it formed, time written in margins.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2048,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "mineral-pool",
+      "desc-on-touch": "Still water holding the reflection of stone; you cannot tell where stone ends and witness begins.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5743,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "board-deep",
+      "desc-on-touch": "A circuit board frozen in sediment, its traces following the same paths as ancient root systems; both learn the same language.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 8162,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "quartz-spire",
+      "desc-on-touch": "A tower of clear stone climbing slowly through geological time; each meter took a million years to grow.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4519,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "here time takes the shape of growing things; crystal by crystal, the deep learning to remember",
+  "file": {
+    "name": "Mineral_Core_Log_Formations.txt",
+    "note": "Each line a geological age; biro notations describe what the rocks were dreaming in those eras, margins full of corrections"
+  },
+  "reverie": {
+    "title": "REVERIE — dry creek, measuring time",
+    "narr": [
+      "you kneel in the dry creek bed where she's laid out stone samples,",
+      "each one labelled with coordinates and eras she's read from cores.",
+      "she points to the striations: 'this part formed while humans were still",
+      "learning to speak; this part while they were learning to write.' you hold",
+      "one stone. it is warm from the day. she says: 'it doesn't know yet that",
+      "you're holding it. the knowing takes centuries to reach down here.'"
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back upward through the archival bedrock",
+      "to": "the-living-stone-archive"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the oldest formations",
+      "to": "NEW: the-pre-language-stone-where-silence-learned-to-layer"
+    },
+    {
+      "dir": "w",
+      "label": "toward the vein-seams that remember their own becoming",
+      "to": "the-vein-reading-chamber"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "the-threshold-of-enumeration",
+  "title": "The Threshold of Enumeration",
+  "region": "The Understory",
+  "seed": 42837,
+  "palette": {
+    "bg": "#0d1a0d",
+    "ground": [
+      "#2d5c2d",
+      "#1f4620"
+    ],
+    "ink": "#e8d4b0",
+    "accents": [
+      "#ffb84d",
+      "#6dd4d4",
+      "#d4876d",
+      "#a8d45a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the tally stone",
+      "desc-on-touch": "You touch where counting learned to contradict itself. Numbers spiral outward from this place, each referring to something it was never meant to name. The stone remembers fifty-three counts of the same field—each is correct, none agree.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8834,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the catalogue that refuses alphabets",
+      "desc-on-touch": "Files are indexed by what they might become. A photograph of an empty warehouse is filed under 'unfilled storage.' A letter to the dead has not yet been written. Corruption loves this place: it names what was never created.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2247,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the counting-ground",
+      "desc-on-touch": "Each row is a different era's enumeration. One counts by dozens, one by fives, one by territories no longer named. The ground is an argument about how many times it numbered itself into being.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 5521,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the pedagogical ruin",
+      "desc-on-touch": "A teaching place where lessons still happen but the student never arrives. Numbers are inscribed here—but learning what? The margins show Ge'ez annotation over an enumeration that should not yet be countable.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 3771,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the archive's own zero",
+      "desc-on-touch": "A space the mesh has never numbered. It moves each time you count toward it. Fuller than anywhere else. The archive suspects this is where it began.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 9142,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the morning she showed you enumeration was a story",
+    "narr": [
+      "You sit in tall grass while Katita marks the earth with her",
+      "fingers—one column, then another. She is showing you that every",
+      "count is a kind of narrative: what you choose to number reveals",
+      "what you think matters. Leif laughs from the tree-line. If the",
+      "archive counts differently each time, which count is true? She",
+      "realizes: that's the wrong question. All of them are."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "the earth learned to question how many times it had already become",
+  "file": {
+    "name": "Enumeration_Census_Three_Versions_NSW_1987-1991.txt",
+    "note": "Three surveyors, same region, contradictory counts. The archive files all equally. One surveyor's notes appear reversed, yet arrives at the same total—as if enumeration folds back on itself when you r"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "the path that counts itself back toward the paddock's reckoning",
+      "to": "the-paddock-where-the-country-indexes-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into the forest where counting becomes a song without repeating",
+      "to": "NEW: the-unsorted-accumulation-forest"
+    },
+    {
+      "dir": "s",
+      "label": "toward a shrine of tally-marks that shift each night",
+      "to": "the-mineral-alphabet-chamber"
+    }
+  ]
+}

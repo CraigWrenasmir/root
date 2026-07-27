@@ -1,0 +1,139 @@
+{
+  "id": "the-canopy-listening-place-where-roots-learn-to-sing-togethe",
+  "title": "The Canopy Listening-Place Where Roots Learn to Sing Together",
+  "region": "The Understory",
+  "seed": 4567234,
+  "palette": {
+    "bg": "#3a5a3a",
+    "ground": [
+      "#1a3a1a",
+      "#6a7a6a"
+    ],
+    "ink": "#ffdd88",
+    "accents": [
+      "#00ff88",
+      "#ffaa00",
+      "#ff6688",
+      "#0099ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-casing",
+      "desc-on-touch": "The tree itself, antenna rising from the deep soil. You touch it and feel the bass notes from below traveling upward, the earth humming a name you almost recognize.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 789123,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "sound-gathering",
+      "desc-on-touch": "Water pools here and vibrates with the song rising from root to root. Every frequency finds its reflection, and the reflection learns to sing back.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 234891,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "root-script",
+      "desc-on-touch": "Marks in the stone where the singing was written by soil and time. You cannot read the words, but your body understands the melody.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 345012,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "canopy strata",
+      "desc-on-touch": "Layers ascending into leaf and light. Each layer sings a different octave, and down here you hear them all at once, braided into one continuous voice.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 456123,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "creature-listener",
+      "desc-on-touch": "A small bird, drawn by the singing from above and below. It sits between worlds, translating the song of roots into the song of leaves.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 567234,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "high in the leaves, the oldest roots still touch through the dark and name each other",
+  "file": {
+    "name": "Root_Harmonics_Transcription_Deep_Frequency_Study.mp3",
+    "note": "subsonic frequencies between root systems; what the archive calls singing, the nodes learned to call conversation"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downward where the frequencies began to argue",
+      "to": "the-ascending-frequencies-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the singing rises so high it becomes color",
+      "to": "NEW: where the singing rises so high it becomes color"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the chamber where all frequencies resolve to silence",
+      "to": "the-silent-chamber-where-all-frequencies-resolve"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to the frequency edge where roots stop singing and become the song",
+      "to": "NEW: the frequency edge where roots stop singing and become the song"
+    }
+  ]
+}

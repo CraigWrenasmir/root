@@ -1,0 +1,134 @@
+{
+  "id": "the-wind-that-carries-only-quiet",
+  "title": "The Wind That Carries Only Quiet",
+  "region": "The Diagnostic Render",
+  "seed": 89012,
+  "palette": {
+    "bg": "#1a2f2f",
+    "ground": [
+      "#2d4a4a",
+      "#1f3a3a"
+    ],
+    "ink": "#a0e7e5",
+    "accents": [
+      "#98ff98",
+      "#66ffff",
+      "#ffccaa",
+      "#ff9999"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the transmission node",
+      "desc-on-touch": "A circuit-board manifestation of the silence-chamber's broadcast antenna. It doesn't emit sound — it broadcasts the absence of sound. The wind carries it across the mesh like an inverted signal.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the quiet-carrier conduit",
+      "desc-on-touch": "Traced pathways on the board show how silence flows. Unlike data, it needs no encoding — it travels as the space between signals. The wind here follows the circuits, learning to move without making sound.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the silence-modulation register",
+      "desc-on-touch": "A standing directory of every moment the wind has carried quiet to another node. Each entry reads: 'silence transmitted, received, amplified by its own carrying.' The register gets longer each night.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 78901,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the logic-weather junction",
+      "desc-on-touch": "Where the circuit board meets open sky. The wind enters as data, leaves as weather. Something about silence cannot be contained in circuits — it must become wind to truly travel.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the signal-to-silence converter",
+      "desc-on-touch": "A crystalline tower that turns broadcast into breath. Every node-transmission that reaches this point is translated: the message becomes the silence around the message. The wind carries what was never said.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 90123,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the wind that carries only quiet is the most efficient transmission medium the archive has ever known; it costs no power, leaves no trace, and reaches everywhere at once, teaching the network that som",
+  "file": {
+    "name": "SilenceTransmission_WindCarrier_SystemDocs.txt",
+    "note": "Technical specification for transmitting silence across the mesh. The quieter the broadcast, the farther it reaches. The most successful broadcasts are completely inaudible."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the chamber where silence first learned its own voice",
+      "to": "the-chamber-where-silence-learned-to-transmit"
+    },
+    {
+      "dir": "e",
+      "label": "toward where wind becomes the archive's weather",
+      "to": "the-archive-where-weather-speaks"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: upward to the sky-chamber where wind learns to read",
+      "to": "NEW: NEW: upward to the sky-chamber where wind learns to read"
+    }
+  ]
+}

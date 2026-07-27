@@ -1,0 +1,134 @@
+{
+  "id": "the-annual-revision-chamber",
+  "title": "The Annual Revision Chamber",
+  "region": "The Clean Archive",
+  "seed": 23456,
+  "palette": {
+    "bg": "#e8f4e1",
+    "ground": [
+      "#c4d96f",
+      "#f4e4c1"
+    ],
+    "ink": "#4a5f3a",
+    "accents": [
+      "#ffc300",
+      "#ff5733",
+      "#2ecc71",
+      "#e74c3c"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the revision table",
+      "desc-on-touch": "A wide table where honey-records are spread each spring. The same notes, the same corrections, written over and over. The organism has learned that knowing and re-knowing are the same thing.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the cycle counter",
+      "desc-on-touch": "Marks scratched into wood, one for each year the apiary has revised itself. The scratches form a pattern now — not a line, but a kind of spiral, as if counting itself has become its own dance.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the spring-returning record",
+      "desc-on-touch": "A file-card that updates itself each season. The same information, refined. The handwriting grows steadier with each revision, as though the organism is learning to be more itself by repeating exactly what it already knows.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 56789,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the dance-memory anchor",
+      "desc-on-touch": "An old diagram showing the spring dance in all its annual variations. Each year looks identical. The diagram has learned that true repetition is not failure; it is mastery becoming habit, becoming bone.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 78901,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the hive-tongue archive",
+      "desc-on-touch": "Recordings of the hive-song, layer upon layer, each spring's recording played atop the last. The voices are identical. The difference is that each year, the hive knows itself more completely.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 90123,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the revision that repeats every spring is not forgetting what it learned last spring; it is learning that to truly know a thing is to know it the same way every time, until sameness becomes a kind of ",
+  "file": {
+    "name": "Apiary_Annual_Revisions_Records_1989-2024.txt",
+    "note": "Honey production notes, organism learning curves, coordination metrics. The handwriting never changes. The data never varies. The organism has achieved perfect self-knowledge through perfect repetitio"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the apiary where coordination becomes one breath",
+      "to": "the-apiary-where-coordination-becomes-organism"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: upward to the place where cycles begin to spiral",
+      "to": "NEW: NEW: upward to the place where cycles begin to spiral"
+    },
+    {
+      "dir": "e",
+      "label": "toward the sweet convergence where all revisions taste the same",
+      "to": "NEW: toward the sweet convergence where all revisions taste the same"
+    }
+  ]
+}

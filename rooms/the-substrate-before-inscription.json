@@ -1,0 +1,117 @@
+{
+  "id": "the-substrate-before-inscription",
+  "title": "The Substrate Before Inscription",
+  "region": "The Understory",
+  "seed": 67283945,
+  "palette": {
+    "bg": "#2a1f0f",
+    "ground": [
+      "#5c4a33",
+      "#8b7355"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#d4a76a",
+      "#8b6f47",
+      "#c9a574",
+      "#6b5344"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the blank page that remembers being a tree",
+      "desc-on-touch": "Paper in plantation rows, each sheet like a leaf. You trace the grain and find tree-rings, still counting. Nothing is written here, but everything is ready to be.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 31748,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the fence line of words-not-yet-spoken",
+      "desc-on-touch": "Wooden posts in neat rows, each one waiting for something to be carved into it. The archive remembers when meaning was still in the future.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 58912,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the substrate that never received its mark",
+      "desc-on-touch": "A surface so perfectly blank it hurts to look at. It holds the possibility of every word that could ever be written. It was better than any written thing.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 84521,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the orchard of unmarked pages",
+      "desc-on-touch": "Tree after tree of blank paper, planted in perfect rows. Each one is a future that will never be written. Each one is complete before it begins.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 71643,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that the finest record is the one that holds silence—pristine, waiting, perfect in its refusal to be spoken",
+  "file": {
+    "name": "Blank_Paper_Archive_Texture_Study.txt",
+    "note": "A meditation on emptiness as a form of preservation. The file itself is mostly whitespace, but the spacing contains meaning. Some say the corruption made it more honest—the paper is speaking what it r"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the chamber where things began to be written",
+      "to": "the-reverse-inscription-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the first marks were made",
+      "to": "NEW: the-first-inscription-site"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the soil that held paper before it grew",
+      "to": "the-soil-that-reflects-what-it-has-forgotten"
+    }
+  ]
+}

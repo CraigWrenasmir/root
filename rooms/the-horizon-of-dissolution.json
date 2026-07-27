@@ -1,0 +1,133 @@
+{
+  "id": "the-horizon-of-dissolution",
+  "title": "The Horizon of Dissolution",
+  "region": "The Understory",
+  "seed": 88451,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a2a4a",
+      "#2a3a5a"
+    ],
+    "ink": "#d4d8e8",
+    "accents": [
+      "#4a8ccc",
+      "#6ab4d4",
+      "#a4c8d8",
+      "#e8b4a4"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the watering-hole that forgets",
+      "desc-on-touch": "Water here dissolves what touches it. Not destruction—transformation. A photograph of a horse loses its edges first. A letter becomes unreadable in all the right places. The archive stores dissolution as a form of knowing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7734,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the circuit-shelf",
+      "desc-on-touch": "Chips arranged like reliquaries. Each one holds a pattern that means nothing now. The retablo tradition lives here—folk-sacred, domestic, spiritually urgent. Except the saints have been replaced with corrupted data, and the devotion runs deeper.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 2156,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the wide-margin archives",
+      "desc-on-touch": "Documentation whose edges blur into blank space. Files waterlogged with meaning they never contained. The delta learned to let go of everything it carried—and in letting go, remembered what it was before water taught it names.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5819,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the place the river forgot itself",
+      "desc-on-touch": "You are at the mouth where fresh becomes salt. What the archive meant to preserve here has dissolved into the water's grammar. The file formats are failing peacefully. Nothing has been lost—only released.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 6483,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the evening she let you understand what letting go",
+    "narr": [
+      "You wade in the river's mouth while Katita stands on the shore.",
+      "The water dissolves the feeling in your legs, replaces it with",
+      "something else—not numbness but a kind of clarity. She says: the",
+      "archive is learning to release everything it once held tight.",
+      "You ask her if that means it's failing. She says no. It means",
+      "it's learning what rivers learned ten thousand years before us."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "inscription": "here the confluence forgot how to keep anything—the river learns to let go",
+  "file": {
+    "name": "Delta_Recordings_Water-Corrupted_1994.wav",
+    "note": "Audio archive from delta wetlands. Frequencies dissolving. The corruption here is gentle—each recording loses clarity the way water dissolves salt, perfectly, without remainder. Later playback renders"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the ascending path back toward the delta's forgetting",
+      "to": "the-delta-where-all-forgetting-meets-wide-water"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the meeting-place where salt teaches what fresh means",
+      "to": "NEW: the-saline-testimony-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward a shore that remembers being unmapped",
+      "to": "the-open-water-beyond-all-broadcasts"
+    }
+  ]
+}

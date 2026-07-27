@@ -1,0 +1,151 @@
+{
+  "id": "the-archive-s-hotel-spine-stack",
+  "title": "The Archive's Hotel Spine Stack",
+  "region": "The Comparisons",
+  "seed": 7634821,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#d4a574",
+      "#6b4423"
+    ],
+    "ink": "#f0e68c",
+    "accents": [
+      "#ff69b4",
+      "#20b2aa",
+      "#f4a460",
+      "#2f4f4f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "room-223",
+      "desc-on-touch": "A motel room facade where the same night learned to book itself again and again in different years.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "elevator-lattice",
+      "desc-on-touch": "The wireframe shaft rising through all floors at once, containing every arrival that ever climbed or fell.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5029,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "number-tower",
+      "desc-on-touch": "Room numbers stacked and restacked: 101, 102, 103... but also 101, 102, 103 again in different colors, different years.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 8461,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "ice-machine-pool",
+      "desc-on-touch": "The perpetual low hum where machines dispense cold into the hallway; guests mill around it like fish to a pool.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2714,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "linen-stack",
+      "desc-on-touch": "Clean towels and sheets stacked by someone who checked in long ago; the same housekeeping, the same folds, layered through decades.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 6183,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "motel-sign-plaque",
+      "desc-on-touch": "The neon sign carved as text; its letters drift between names of motels that never existed and motels that are still dreaming.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 4502,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "each floor holds the same night learning to be different; the stairs don't care which version you're climbing",
+  "file": {
+    "name": "Room_Register_Spine_AllYears.env",
+    "note": "Guest names from every year the motel operated overlaid into one ledger, arrivals and departures bleeding into each other's slots"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the spiral stairwell through other hotels",
+      "to": "the-wing-where-other-nights-sleep"
+    },
+    {
+      "dir": "e",
+      "label": "along the hallway to rooms that remember their own layouts",
+      "to": "NEW: the-corridor-of-identical-mirrors"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the service stairwell where staff routes spiral",
+      "to": "the-motel-year-corridor"
+    }
+  ]
+}

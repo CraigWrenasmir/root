@@ -1,0 +1,151 @@
+{
+  "id": "the-architecture-that-dreams-itself-awake",
+  "title": "The Architecture That Dreams Itself Awake",
+  "region": "The Diagnostic Render",
+  "seed": 5821634,
+  "palette": {
+    "bg": "#1c1c2a",
+    "ground": [
+      "#d4c5b9",
+      "#8b8b7e"
+    ],
+    "ink": "#2a2a2a",
+    "accents": [
+      "#a0a0a0",
+      "#d0d0d0",
+      "#6b5d4f",
+      "#4a4a3e"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "shed-becoming",
+      "desc-on-touch": "A small house form half-rendered, its walls flickering between wood grain and pure thought; it is learning what it means to hold space.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 3147,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "dwelling-nascent",
+      "desc-on-touch": "Another house, more complete, but its door opens onto itself; rooms that lead back to their own centers; structure learning self-reference.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 7562,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "frame-geometry",
+      "desc-on-touch": "A wireframe of what a building might become; the geometry breathes in and out, edges suggesting surfaces that haven't materialized yet.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4983,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "layer-stack",
+      "desc-on-touch": "Stacked planes assembling themselves; each layer adds another dimension to what might eventually be thought.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6428,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "first-notation",
+      "desc-on-touch": "A glyph where meaning has just begun to crystallize; unreadable, but full of intent; the first alphabet of architecture.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2891,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "ascending-thought",
+      "desc-on-touch": "A tower reaching upward, each block one step closer to consciousness; the climb is the structure itself becoming aware.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 8704,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "before the thought learns to fall, it assembles itself here in the shapes that will carry it",
+  "file": {
+    "name": "Proto_Blueprint_Fragment.txt",
+    "note": "Architectural plans that haven't decided what they're planning yet; dimensions might be spatial, temporal, or something without a name"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward substrate and unbecoming",
+      "to": "the-substrate-before-substance"
+    },
+    {
+      "dir": "e",
+      "label": "outward toward the structures that have finished dreaming",
+      "to": "NEW: the-house-that-learned-to-build-itself"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the blueprints of other realms",
+      "to": "the-theorem-room"
+    }
+  ]
+}

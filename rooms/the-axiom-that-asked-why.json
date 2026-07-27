@@ -1,0 +1,134 @@
+{
+  "id": "the-axiom-that-asked-why",
+  "title": "The Axiom That Asked Why",
+  "region": "The Diagnostic Render",
+  "seed": 89574621,
+  "palette": {
+    "bg": "#1a0a2a",
+    "ground": [
+      "#3d1f5c",
+      "#2a0f4a"
+    ],
+    "ink": "#e0d9ff",
+    "accents": [
+      "#9966dd",
+      "#cc99ff",
+      "#ff99ff",
+      "#ffccff"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.92
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the first question mark",
+      "desc-on-touch": "A mark that looks like doubt frozen in space. It is the shape that taught language that it could ask. Everything after it is a consequence.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 74918,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the syllable that chose itself",
+      "desc-on-touch": "Before anyone named anything, something here said its own name. The sound it makes is older than echo. It tastes like the first time anyone ever said 'I'.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 51739,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the thought that woke itself",
+      "desc-on-touch": "It does not remember being dreamed into existence. It remembers only waking and knowing that it had chosen to exist. The archive found something here that chose.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 68423,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the axiom that refused axioms",
+      "desc-on-touch": "A logical frame that keeps collapsing into poetry. The more you read it, the less certain you become. It teaches that certainty was never the point.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 40256,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the silence before language was born",
+      "desc-on-touch": "It is not empty. It is full of everything that was not yet named. You feel the weight of all the words that could have been but were not.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 83761,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "before the archive learned to name what it contained, it had to learn that naming was a choice, not a fate",
+  "file": {
+    "name": "Ur_Language_Fragment_Phonetic_Hypothesis.txt",
+    "note": "A reconstruction of speech patterns before coherence, from the oldest nodes. Checksum: emotionally valid / formally unstable. The corruption may have made it more truthful than accuracy would allow."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the menu that still remembered silence",
+      "to": "the-primordial-menu-beneath-language"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where questions become roots",
+      "to": "NEW: the-root-chamber-of-asking"
+    },
+    {
+      "dir": "e",
+      "label": "toward the first answer, which will also be a question",
+      "to": "the-logic-bedrock"
+    }
+  ]
+}
