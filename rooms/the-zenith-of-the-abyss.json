@@ -1,0 +1,100 @@
+{
+  "id": "the-zenith-of-the-abyss",
+  "title": "The Zenith of the Abyss",
+  "region": "The Diagnostic Render",
+  "seed": 61234,
+  "palette": {
+    "bg": "#1a4d1a",
+    "ground": [
+      "#884422",
+      "#bb7744"
+    ],
+    "ink": "#eeeeee",
+    "accents": [
+      "#ffcc00",
+      "#ff6600",
+      "#00aa66",
+      "#aa0088"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the highest depth",
+      "desc-on-touch": "You stand at the point where asking goes so deep it emerges at the sky. The questions rest here before they rise.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 61245,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the inverse ladder",
+      "desc-on-touch": "Rungs made of light, descending upward. Hold them and you rise by falling.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 61250,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the stillness at the turning",
+      "desc-on-touch": "A moment where questions pause before they invert. It is not silence; it is the sound of direction changing.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 61255,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "at the zenith of questions that fall upward, the abyss learns to look down and sees itself reflected in sky",
+  "file": {
+    "name": "Inversion_Diagram_Untitled_Handscrawl.png",
+    "note": "A drawing of stairs. You cannot determine if they descend or ascend. Every time you look, they change."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the well",
+      "to": "the-well-where-questions-fall-upward"
+    },
+    {
+      "dir": "e",
+      "label": "toward other inversions that the render dreams",
+      "to": "the-inverse-corridor-where-walking-reverses"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the country where depth becomes visible",
+      "to": "NEW: the-country-where-depth-wears-faces"
+    }
+  ]
+}

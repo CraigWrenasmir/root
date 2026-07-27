@@ -1,0 +1,172 @@
+{
+  "id": "the-rootless-weaving",
+  "title": "The Rootless Weaving",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a1520",
+    "ground": [
+      "#4a3860",
+      "#2a1f35"
+    ],
+    "ink": "#e8d4a0",
+    "accents": [
+      "#c94a4a",
+      "#8b6914",
+      "#6a9fb5",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the stopped loom",
+      "desc-on-touch": "Threads hang in the air where hands left them. You find yourself understanding the pattern only by the absence of its completion.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 18472,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "textile vines",
+      "desc-on-touch": "Woven strips have rooted themselves and begun growing like slow plants, pattern and plant becoming indistinguishable in the dark.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 52841,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "knot memory",
+      "desc-on-touch": "A single knot tied and retied, each loop holding a different decision. You remember being here before, but the knot has changed.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 34156,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "wind-caught threads",
+      "desc-on-touch": "Fabric strips catch nothing, move nothing, but they still remember the shape of wind. Watching them is like reading a story that ended before you arrived.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 61928,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "weaver's hands",
+      "desc-on-touch": "Palm-prints in dust, muscle memory left behind. The hands that made this weaving learned that stopping is also a form of pattern.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 45783,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "thread-light",
+      "desc-on-touch": "Where strands cross, they hold light like water in cracks. The weaving has become a map of where it broke.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 29547,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.22,
+      "solid": false
+    }
+  ],
+  "inscription": "the roots let go; the weaving learns to hold itself",
+  "file": {
+    "name": "HandWeaving_LoamStation_1970s_FieldRecording.wav",
+    "note": "Loom shuttles and weaver's breathing, slowly fragmenting into pure rhythm. The second half is silence interrupted by thread-hum."
+  },
+  "reverie": {
+    "title": "REVERIE — the shed where thread learned its own length",
+    "narr": [
+      "Your fingers find the warp, forty threads pulled tight.",
+      "She's outside, framing shots of how the light breaks",
+      "through the weave, how every gap holds a story.",
+      "You ask why she won't weave, just photograph. She says:",
+      "\"Weaving is already a photograph. It just takes longer.\"",
+      "You pull the shuttle through. The rhythm is a kind of answer."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "petals",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the weaving sleeps upward, cycles returning",
+      "to": "the-root-pool-where-weaving-sleeps"
+    },
+    {
+      "dir": "s",
+      "label": "down where the threads tangle into root",
+      "to": "NEW: the-knot-that-grows-deeper"
+    },
+    {
+      "dir": "e",
+      "label": "toward a place where patterns refuse to repeat",
+      "to": "NEW: the-infinite-divergence-loom"
+    },
+    {
+      "dir": "w",
+      "label": "back to where hands still remember their work",
+      "to": "the-mirrored-nesting"
+    }
+  ]
+}

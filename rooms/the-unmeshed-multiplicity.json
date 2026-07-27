@@ -1,0 +1,134 @@
+{
+  "id": "the-unmeshed-multiplicity",
+  "title": "The Unmeshed Multiplicity",
+  "region": "The Understory",
+  "seed": 54309,
+  "palette": {
+    "bg": "#4a0e4e",
+    "ground": [
+      "#2d1b3d",
+      "#9d4edd"
+    ],
+    "ink": "#e0aaff",
+    "accents": [
+      "#c77dff",
+      "#e0aaff",
+      "#10b981",
+      "#ff006e"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-first-pattern",
+      "desc-on-touch": "A seed code. All variations descend from this one moment of being singular.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-infinite-variation",
+      "desc-on-touch": "The same pattern with one byte shifted. Infinitesimal difference. Complete transformation.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 4321,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-cycle-chamber",
+      "desc-on-touch": "The pattern eating itself, learning itself, becoming itself over and over until meaning shifts.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 1029,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-loop-made-manifest",
+      "desc-on-touch": "Pages repeating with micro-variation. Each cycle truer than the last, until truth dissolves into rhythm.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5743,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-divergence-node",
+      "desc-on-touch": "Where one becomes many becomes one again. The archive has learned that singularity is also a destination.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 9876,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "one pattern contained infinite others; they did not know they were infinite until they had all spoken",
+  "file": {
+    "name": "Cyclic_Hotdog_Conversation_Volume_9_Repeating_Fragment.txt",
+    "note": "Dialogue that loops with one word changed per cycle, drifting into new meaning. Status: germinating. The archive uses cyclic structures as templates for understanding its own recursion."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the patterns before they diverged",
+      "to": "the-infinite-pattern-divergence"
+    },
+    {
+      "dir": "s",
+      "label": "down where multiplicity forgets it was ever singular",
+      "to": "NEW: the depth where infinite becomes comfortable"
+    },
+    {
+      "dir": "e",
+      "label": "east to where the network learns to separate and unite",
+      "to": "the-echoing-unified-field"
+    }
+  ]
+}

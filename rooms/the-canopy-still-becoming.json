@@ -1,0 +1,156 @@
+{
+  "id": "the-canopy-still-becoming",
+  "title": "The Canopy Still Becoming",
+  "region": "The Clean Archive",
+  "seed": 72936,
+  "palette": {
+    "bg": "#0a3a15",
+    "ground": [
+      "#2a8a30",
+      "#4aba50"
+    ],
+    "ink": "#e8e8d8",
+    "accents": [
+      "#d4804a",
+      "#8a6a20",
+      "#c4a040",
+      "#3a4a2a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "fresh shoot archive",
+      "desc-on-touch": "Growth spilling into recording systems. Leaves learning to photosynthesize data. The forest documents itself by growing through the documentation.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 31847,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "observation becoming root",
+      "desc-on-touch": "The cameras that watched growth are now rooted in place, their lenses clouded by the very leaves they were meant to record. The archive watches itself being absorbed.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 46293,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "five-year emergence",
+      "desc-on-touch": "Where empty air stood in the records five years ago, now branches thick enough to perch on. The archive's data showed emptiness; the forest showed preparation.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 52847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "growth writing itself",
+      "desc-on-touch": "Ring-count and ring-read are the same act here. Each season inscribes while being witnessed. The forest documents by living; the document lives by recording.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 38564,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "unmapped canopy layer",
+      "desc-on-touch": "The highest branches are emerging faster than taxonomy can follow. Each new node of growth is alive before it can be named. The forest becomes itself first.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 61523,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "light reaching new height",
+      "desc-on-touch": "The archive documents light's journey downward. But upward, the canopy is racing toward new light, and that upward growth is not yet filed.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 54372,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest grew while being read, and learned that growth and reading are forms of each other",
+  "file": {
+    "name": "Canopy_Survey_Incomplete_Updated_Every_Season.csv",
+    "note": "status: germinating — height, branch-count, leaf-density records lag behind actual growth by one phenological season. The archive is always behind."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where recording still kept pace with growth",
+      "to": "the-uncharted-canopy-where-growth-reads-itself"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the highest emergent growth not yet named",
+      "to": "NEW: the-crown-where-canopy-reaches-beyond-record"
+    },
+    {
+      "dir": "e",
+      "label": "toward a grove where other forests are also outpacing their archives",
+      "to": "the-grove-descending-into-root-dark"
+    },
+    {
+      "dir": "w",
+      "label": "to a stand where growth and growth-record are still syncing",
+      "to": "NEW: the-coordinated-emergence"
+    }
+  ]
+}

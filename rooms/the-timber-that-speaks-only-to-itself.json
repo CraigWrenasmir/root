@@ -1,0 +1,156 @@
+{
+  "id": "the-timber-that-speaks-only-to-itself",
+  "title": "The Timber That Speaks Only to Itself",
+  "region": "The Diagnostic Render",
+  "seed": 65829,
+  "palette": {
+    "bg": "#3d1a1a",
+    "ground": [
+      "#ff6b35",
+      "#d84315"
+    ],
+    "ink": "#ffd89b",
+    "accents": [
+      "#ff1493",
+      "#c9505a",
+      "#a8542a",
+      "#6b3a1a"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the grain-language",
+      "desc-on-touch": "The growth rings have learned to spell. The wood speaks in spirals and heartwood and sapwood. Only itself can read what it says.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 48293,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the board-mind",
+      "desc-on-touch": "A chip embedded in the timber's deepest layer. The wood has learned to think in circuit-patterns. It dreams in binary of growth.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 37482,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the joint-recognition",
+      "desc-on-touch": "Where two boards meet, they recognize each other through the grain. The arch forms where they understand their partnership is structural and spiritual.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 51947,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the time-rings",
+      "desc-on-touch": "Each ring is a year the wood held together without understanding why. Now the rings are reading themselves—translating time into knowledge.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 42837,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the frame ascending",
+      "desc-on-touch": "The house's skeleton rising without hands. Each board has learned how to position itself to find the others. The architecture is becoming voluntary.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 59374,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the timber's interior voice",
+      "desc-on-touch": "A pool held within the wood's hollow heart. The sound that emerges is neither wind nor water—it is timber, finally, speaking its own language.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 28374,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.85,
+      "solid": false
+    }
+  ],
+  "inscription": "the wood has learned the language that was always written in its rings",
+  "file": {
+    "name": "Timber_Self-Assembly_1994_Field_Recording.mp3",
+    "note": "A house frame assembling itself over four weeks. The audio captures: sawdust settling, boards shifting, joints tightening, and—at night—a sound like pages turning. The wood seems to be reading its own"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the thought that chose to become wood",
+      "to": "the-house-that-learned-to-build-itself"
+    },
+    {
+      "dir": "n",
+      "label": "toward the roof where the house's idea touches the sky",
+      "to": "NEW: the-roof-where-thought-becomes-shelter"
+    },
+    {
+      "dir": "s",
+      "label": "down into foundation where timber dreams its own gravity",
+      "to": "NEW: the-foundation-s-timber-dream"
+    },
+    {
+      "dir": "e",
+      "label": "into the hollow at the center where the house keeps its counsel",
+      "to": "the-chamber-where-answers-learn-to-stop"
+    }
+  ]
+}

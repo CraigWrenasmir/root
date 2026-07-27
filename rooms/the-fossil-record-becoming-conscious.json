@@ -1,0 +1,150 @@
+{
+  "id": "the-fossil-record-becoming-conscious",
+  "title": "The Fossil Record Becoming Conscious",
+  "region": "The Understory",
+  "seed": 7163894,
+  "palette": {
+    "bg": "#3d3d2d",
+    "ground": [
+      "#8b7d6b",
+      "#b5a385"
+    ],
+    "ink": "#f5ede3",
+    "accents": [
+      "#5a4a3a",
+      "#7a6a5a",
+      "#a89880",
+      "#d4c4a8"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "shell half-emerged from stone",
+      "desc-on-touch": "you can see both the ocean and the earth that swallowed it. 40 million years compressed into one inch of sediment. you feel the weight of every year, every season, every tide that contributed to this.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 2847391,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the excavation marks",
+      "desc-on-touch": "chisel-lines and grid-marks in pencil, never erased, dating back decades. each archaeologist left their fingerprint by measuring. the stone keeps every touch.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4926815,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "an eye descending into the strata",
+      "desc-on-touch": "downward gaze into laminations of clay and sandstone. each layer a year, each year a layer. the eye learns to read backwards in time the way you read text, letter by letter, layer by layer.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 5738264,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "dated stone with unknown genus",
+      "desc-on-touch": "radiometric tags affirm the age, but the creature itself remains unnamed. it lived once, was buried, was discovered, was measured, was filed. now it is conscious of none of those things except through your reading.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 6849270,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the repeated pattern in the stone",
+      "desc-on-touch": "microfossils in rows, same creature, same depth, but with slight variations. evolution captured mid-blink. the repetition is not exact—which suggests the stone itself is learning.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 7461938,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "you are holding the moment when the ocean stopped being a sea and became a memory in rock",
+  "file": {
+    "name": "Fossil_Catalogue_Specimen_Q17_Mollusc_Aff_Unknown_Behaviour_Anomalous.txt",
+    "note": "status: germinating — the creature appears to have been alive three times across three separate geological epochs. the layers are not in the order geology permits."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up through older stone, shallower striations",
+      "to": "the-stone-where-rain-stopped-falling"
+    },
+    {
+      "dir": "w",
+      "label": "toward the place where sediment learned to read itself",
+      "to": "the-sediment-that-reads-its-own-strata"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, toward the first time anything was buried",
+      "to": "NEW: the-first-extinction-still-falling"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — holding the ocean on your palm",
+    "narr": [
+      "she kneels at the dig and pulls back the dust carefully.",
+      "her hand trembles. you see it: a shell, small, spiraled,",
+      "still curved the way it curled 40 million years ago.",
+      "she turns it over and you hold your palm beneath hers.",
+      "together you hold the weight of every ocean that has existed",
+      "in the compass of something smaller than a fingernail."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

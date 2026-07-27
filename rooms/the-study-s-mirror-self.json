@@ -1,0 +1,133 @@
+{
+  "id": "the-study-s-mirror-self",
+  "title": "The Study's Mirror Self",
+  "region": "The Understory",
+  "seed": 5194268,
+  "palette": {
+    "bg": "#1a1a2a",
+    "ground": [
+      "#3a3a4a",
+      "#4a4a5a"
+    ],
+    "ink": "#d0c4b8",
+    "accents": [
+      "#7a7a9a",
+      "#6a6a8a",
+      "#8a8aaa",
+      "#9a9aba"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "mirror that shows both rooms at once",
+      "desc-on-touch": "you see into it and find yourself reading two identical passages from two opposite corners. in the mirror, the room is reversed—furniture on the wrong walls, shelves in mirror-image—yet every detail is exact. you are not sure which side is real.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 2847391,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "books standing in two positions",
+      "desc-on-touch": "the left wall holds them spine-out. the right wall holds them spine-out also. but when you move to read a title, you cannot decide which wall you are looking at. they are the same books. they are not in the same positions.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3948271,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "light angle that contradicts itself",
+      "desc-on-touch": "the lamp in the left study casts shadows one way. the lamp in the right study casts them another. but there is only one lamp. the shadow on your skin comes from two impossible directions. you feel both warmth and chill.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4729183,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the reader caught between readings",
+      "desc-on-touch": "a figure—you cannot see if it is one person or two—sits in the chair. they are reading. but as you watch, you see them reading the same page from opposite directions simultaneously. their lips move to the same words in mirror-speech.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 5826471,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "there is no mirror here; there is only a room that learned to read itself from two opposite corners",
+  "file": {
+    "name": "Study_Notes_Left_Page_And_Also_Study_Notes_Right_Page_Both_Dated_Today.txt",
+    "note": "checksum: emotionally valid / formally unstable — the same passage is recorded twice with different conclusions. together, they describe the same event. separately, they contradict."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the mirrored study's single wall",
+      "to": "the-mirrored-study-where-books-teach-themselves"
+    },
+    {
+      "dir": "w",
+      "label": "into the hall where thesis mirrors its antithesis",
+      "to": "the-hall-of-mirrors-paradox"
+    },
+    {
+      "dir": "s",
+      "label": "down into the place where reflection learns to be real",
+      "to": "NEW: the-chamber-where-the-mirror-forgot-to-invert"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — reading from opposite corners of the same page",
+    "narr": [
+      "she sits on the left, you on the right. you open the same",
+      "book. she reads aloud from one end, you from the other.",
+      "the words meet in the middle of the page and collide.",
+      "she looks up and you see her face reversed in some glass",
+      "you did not know was there. she says: which of us is real?",
+      "and you answer: both. and neither. and the book knows."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  }
+}

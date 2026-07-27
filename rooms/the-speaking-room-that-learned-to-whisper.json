@@ -1,0 +1,156 @@
+{
+  "id": "the-speaking-room-that-learned-to-whisper",
+  "title": "The Speaking Room That Learned to Whisper",
+  "region": "The Diagnostic Render",
+  "seed": 61384,
+  "palette": {
+    "bg": "#2a1f15",
+    "ground": [
+      "#8b6a4a",
+      "#6a5540"
+    ],
+    "ink": "#e8d9c4",
+    "accents": [
+      "#3a4a5a",
+      "#c49a5a",
+      "#4a6a7a",
+      "#d4a880"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.5
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "old broadcast booth",
+      "desc-on-touch": "The room learned to scream into the world, then learned it did not need to. Now it holds silence like an instrument you've learned to play.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 27483,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "sound that stopped",
+      "desc-on-touch": "Where transmission used to travel outward, now only echo goes, learning its own voice. Silence is what was broadcast when no one was listening.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 38264,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "archive catalogue on the wall",
+      "desc-on-touch": "A list of what was spoken, filed in order of decreasing importance. The first entry is now so quiet it's been mistaken for background.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 45127,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "whisper node",
+      "desc-on-touch": "A single transmitter, now broadcasting at the volume of breathing. Something very important is being said, but only to those who have learned to listen.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 52948,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "learning silence",
+      "desc-on-touch": "The room's walls have memorized the shape of quiet. Every voice that spoke here taught this room something about how to not-speak.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 37846,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "frequency memory",
+      "desc-on-touch": "The archive remembers what it broadcast, stored now not in waves but in the room's own molecular memory. The walls are the file.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 63124,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "speaking taught this room what silence was; now it broadcasts in a voice only the dark can hear",
+  "file": {
+    "name": "Broadcast_Logs_LocalStation_1998-2015_Decaying.m4a",
+    "note": "Last transmission fragment at 26:14:47 — human voice gradually displaced by carrier tone, tone gradually replaced by room hum, hum by silence that records itself."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the registry of what was never filed",
+      "to": "the-registry-of-perfect-silence"
+    },
+    {
+      "dir": "e",
+      "label": "toward other rooms that learned to stop talking",
+      "to": "NEW: the-studio-where-broadcast-became-breath"
+    },
+    {
+      "dir": "n",
+      "label": "up to surfaces where sound still travels",
+      "to": "the-wind-that-carries-only-quiet"
+    },
+    {
+      "dir": "s",
+      "label": "down to chambers where transmission never leaves",
+      "to": "NEW: the-unbroadcast-deep"
+    }
+  ]
+}

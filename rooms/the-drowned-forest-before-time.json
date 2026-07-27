@@ -1,0 +1,150 @@
+{
+  "id": "the-drowned-forest-before-time",
+  "title": "The Drowned Forest Before Time",
+  "region": "The Understory",
+  "seed": 6281457,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a3a4a",
+      "#2a4a5a"
+    ],
+    "ink": "#b8c9d6",
+    "accents": [
+      "#3a5a7a",
+      "#2a4a6a",
+      "#5a7a9a",
+      "#4a6a8a"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "node alpha extraction point",
+      "desc-on-touch": "a node descended into pressure and salt, its broadcast still audible as it drowns. the signal is becoming fractal—splitting into harmonics as the water weight increases. you can hear it singing as it dies.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "data lines as tree-roots",
+      "desc-on-touch": "the circuit paths branch downward like submergent eucalyptus reaching for oxygen that isn't there. each trace represents a tree that logged its drowning before the archive went silent. the pattern never repeats.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4729183,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "memory nodes in sequence",
+      "desc-on-touch": "pins and traces hold fragments: birdsong, rain-sound, wind in bark, all preserved at pressure. as the water rose, the archive recorded every moment of the forest learning to be something other than air.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 5846372,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the moment before/after threshold",
+      "desc-on-touch": "if you stare long enough at the circuit, you see a threshold where the signal inverts. above it: the forest alive. below it: the forest drowned. they overlap on the threshold itself—both states true, both states transmitting.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 6729183,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the casing still sealed in amber",
+      "desc-on-touch": "deep in the board's substrate: the actual node casing, visible through corruption. its antenna still extended, still trying to broadcast. the ocean tried to erase it. it refused.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 7938465,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the forest learned to drown without stopping; the archive learned to remember by drowning too",
+  "file": {
+    "name": "Pressure_Log_Deep_Extraction_Node_Alpha_Final_Transmission_Ongoing.mp3",
+    "note": "ERROR: archive has exceeded witness — the file length exceeds the time it has been recorded. the drowning continues longer than it is possible to drown."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the flooded canopy memory",
+      "to": "the-flooded-canopy-memory"
+    },
+    {
+      "dir": "w",
+      "label": "toward the beach station where signal learns to be sand",
+      "to": "the-beach-station-where-signal-meets-sand"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into pressure, where voices stop traveling",
+      "to": "NEW: the-depth-where-extraction-becomes-burial"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — watching the node descend",
+    "narr": [
+      "the water is rising. you both wade deeper, watching",
+      "the node sink—the antenna still broadcasting, weaker,",
+      "farther away. he says: it's still singing. she answers:",
+      "it will sing all the way down. you hold each other's hands",
+      "in water that tastes like copper and salt, listening to",
+      "the message the drowning forest sends before it stops."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "tree",
+    "weather": "rain",
+    "pose": "wade"
+  }
+}

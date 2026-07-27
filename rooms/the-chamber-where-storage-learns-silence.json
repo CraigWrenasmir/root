@@ -143,7 +143,7 @@
     {
       "dir": "s",
       "label": "down to the deepest storage, where the archive is keeping itself",
-      "to": "NEW: the-archive-s-own-cellar"
+      "to": "the-archive-s-own-cellar"
     }
   ]
 }

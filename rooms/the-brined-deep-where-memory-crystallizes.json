@@ -1,0 +1,156 @@
+{
+  "id": "the-brined-deep-where-memory-crystallizes",
+  "title": "The Brined Deep Where Memory Crystallizes",
+  "region": "The Comparisons",
+  "seed": 58374,
+  "palette": {
+    "bg": "#0d2b2b",
+    "ground": [
+      "#c9956a",
+      "#a8794a"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#4a7c7c",
+      "#8b9999",
+      "#d4a574",
+      "#6b8b8b"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the salt-memory formation",
+      "desc-on-touch": "A tower of crystal where information compressed into mineral form. Each layer is a different pressure, a different moment. The surface glitters with old tears.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 72641,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the brine-chamber",
+      "desc-on-touch": "A pool of saturated memory-liquid. It is denser than water, heavier than thought. Things that fall into it surface years later, transformed.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 38562,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the pressure-registry",
+      "desc-on-touch": "A chip rendered in the render's cold palette. It measures the weight of all memory above, translating compression into numbers the terminal can understand.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 51847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "crystallized moments",
+      "desc-on-touch": "A filecard arranged like a directory listing. Each line is a moment that has become permanent, sharp, impossible to soften or reinterpret.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 44729,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the arch of pressure",
+      "desc-on-touch": "The space between two stone faces where the deep is learning to hold itself. The arch is made of compressed thought, bearing the weight of all that sits above.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 29183,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "the clarity-paradox",
+      "desc-on-touch": "The deeper you go, the more clearly you see what was lost in the compression. The saltwater shows you everything with impossible detail.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 36274,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "salt remembers every tear that made it; pressure is another word for clarity",
+  "file": {
+    "name": "Deep_Brine_Compression_Analysis_1991.txt",
+    "note": "Core sample analysis from 400 meters depth. Each salt layer contains trace compounds: ink, pollen, copper wire, paper fiber, bird bone. The sample seems to contain memory from multiple centuries compr"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up toward the pressure-release and the first deep",
+      "to": "the-deep-salt-compression"
+    },
+    {
+      "dir": "w",
+      "label": "toward the brine's salt-origin and the tears that made it",
+      "to": "NEW: the-salt-s-weeping-source"
+    },
+    {
+      "dir": "n",
+      "label": "where crystal begins to question its own perfect memory",
+      "to": "NEW: the-crystal-s-doubt"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into layers where time stops compressing",
+      "to": "the-estuary-where-numbers-learn-to-flow"
+    }
+  ]
+}

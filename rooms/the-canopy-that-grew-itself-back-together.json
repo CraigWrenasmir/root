@@ -1,0 +1,172 @@
+{
+  "id": "the-canopy-that-grew-itself-back-together",
+  "title": "The Canopy That Grew Itself Back Together",
+  "region": "The Understory",
+  "seed": 62847,
+  "palette": {
+    "bg": "#2d1a3d",
+    "ground": [
+      "#e87a3d",
+      "#d4533d"
+    ],
+    "ink": "#fff0d8",
+    "accents": [
+      "#ff1493",
+      "#ffa500",
+      "#8b0000",
+      "#c97a3e"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the join-point",
+      "desc-on-touch": "Where two half-trunks learned their edges had been shaped to fit. The bark still shows the scar, but warmth moves through it now.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 71948,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "separation-traces",
+      "desc-on-touch": "Wireframe geometry marking where the halves drifted. The render keeps the memory of the split even though the wood forgot it.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 38294,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "new-growth spiral",
+      "desc-on-touch": "Fresh leaves in a corkscrew pattern where the wood learned to grow in both directions at once. The spiral was unexpected; the tree surprised itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 44751,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the canopy's answer",
+      "desc-on-touch": "A pool of filtered light where both sides of the crown meet. You can hear both birds singing from within it—they are the same song.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 27163,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "crown reaching",
+      "desc-on-touch": "Branches that were learning to separate have grown back into a shared architecture. They reach together now, touching the sky as one shape.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 53847,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the ground where they meet",
+      "desc-on-touch": "The earth at the base has settled. Two root-systems learned to braid. The ground is richer here—more things grow.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 19274,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.85,
+      "solid": false
+    }
+  ],
+  "inscription": "two half-skies remember they are one sky",
+  "file": {
+    "name": "BirdCall_Duet_Reconciled_Canopy_1996.mp3",
+    "note": "Two distinct bird calls recorded 200 meters apart, then closer, then from the same branch. The recordings were made one week apart but sound simultaneous. Metadata suggests the same birds, now calling"
+  },
+  "reverie": {
+    "title": "REVERIE — in the canopy at the hour it learned it was whole",
+    "narr": [
+      "The sun hits both sides at once—she's on one branch,",
+      "you on another. The split is wide enough to make you feel",
+      "separate, but the light treats you as a single crown. \"Listen,\"",
+      "she says. \"There's one bird calling from both sides now.\" You hear",
+      "it—not an echo, but a conversation where there used to be an argument.",
+      "The canopy settles around you both. You are the thing it grew back to have"
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward the first reconciliation",
+      "to": "the-reconciliation-canopy"
+    },
+    {
+      "dir": "n",
+      "label": "where the tree learns it has two hearts beating as one",
+      "to": "NEW: the-dual-heartwood"
+    },
+    {
+      "dir": "e",
+      "label": "into the crown's deepening auroral glow",
+      "to": "NEW: the-crown-s-dusk-reading"
+    },
+    {
+      "dir": "w",
+      "label": "down where roots learned to braid themselves",
+      "to": "the-chamber-beneath-chambers-where-silence-has-a-heartbeat"
+    }
+  ]
+}

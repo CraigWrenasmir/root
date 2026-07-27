@@ -1,0 +1,156 @@
+{
+  "id": "the-rust-vein-where-metal-learns-singing",
+  "title": "The Rust Vein Where Metal Learns Singing",
+  "region": "The Clean Archive",
+  "seed": 41738,
+  "palette": {
+    "bg": "#1a3322",
+    "ground": [
+      "#8b6f47",
+      "#c9956a"
+    ],
+    "ink": "#e8d4b0",
+    "accents": [
+      "#a8542a",
+      "#d4771f",
+      "#8b3a1a",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the singing rust-vein",
+      "desc-on-touch": "Iron oxide arranged in a vertical seam. It hums. The rust is singing the metal's slow transformation into something else, something lighter.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 53748,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the threshold becoming kind",
+      "desc-on-touch": "An arch where the metal is learning to hold both sides without keeping them separate. Rust has taught it how to be permeable without losing its form.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 29184,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the oxidation-bloom",
+      "desc-on-touch": "A pool of dissolved iron, rich and orange-red. The metal is blooming as it oxidizes. Each rust-flower is a note in a centuries-long melody.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 37462,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the metal's memory-song",
+      "desc-on-touch": "A wireframe shape holding the metal's original song—the resonance it held before rust taught it new harmonies. Both songs play at once now.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 44829,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the permeability-edge",
+      "desc-on-touch": "Where the metal has become transparent enough to see through. Rust has dissolved the boundary between inside and outside. Both are one threshold now.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 56374,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the dissolution-music",
+      "desc-on-touch": "A pool of pure song—the sound that metal makes as it transforms through rust into earth, into oxygen, into air. The sound of something learning to let go.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 28374,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.85,
+      "solid": false
+    }
+  ],
+  "inscription": "rust is the sound metal makes when it learns to sing its own becoming",
+  "file": {
+    "name": "Rust_Vein_Dissolution_Field_Recording_1992.mp3",
+    "note": "Four weeks of continuous recording from a rusted threshold at the edge of a tidal zone. The rust produces a changing pitch as it oxidizes—starting low, gradually climbing. By week three, the pitch has"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the threshold that is still becoming permeable",
+      "to": "the-rusted-threshold-growing"
+    },
+    {
+      "dir": "s",
+      "label": "where rust teaches other metals its own slow song",
+      "to": "NEW: the-metal-choir-learning-rust"
+    },
+    {
+      "dir": "e",
+      "label": "into the permeability that rust has made of all boundaries",
+      "to": "the-chamber-beneath-chambers-where-silence-has-a-heartbeat"
+    },
+    {
+      "dir": "w",
+      "label": "toward the threshold's innocent metal-life before rust taught it meaning",
+      "to": "NEW: the-metal-before-learning"
+    }
+  ]
+}

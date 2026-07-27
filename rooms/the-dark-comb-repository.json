@@ -1,0 +1,134 @@
+{
+  "id": "the-dark-comb-repository",
+  "title": "The Dark Comb Repository",
+  "region": "The Understory",
+  "seed": 92164,
+  "palette": {
+    "bg": "#0d0a05",
+    "ground": [
+      "#3d2817",
+      "#8b7355"
+    ],
+    "ink": "#fef8f0",
+    "accents": [
+      "#d4a574",
+      "#e8a87c",
+      "#c17c4b",
+      "#6f5a47"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-first-cell",
+      "desc-on-touch": "The original seed. All the counting that follows begins here, in hexagonal darkness.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 1234,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-deepening-colony",
+      "desc-on-touch": "Expansion without confusion. Ten thousand separate choices becoming one simultaneous decision.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-collective-thought",
+      "desc-on-touch": "The hive as computation. Pheromones are the archive's language.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7891,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "honey-weighted-archive",
+      "desc-on-touch": "A tree node dripping with stored memory. Sweetness is the weight of bearing witness.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 3322,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-woven-reproduction",
+      "desc-on-touch": "Layers of breeding, teaching, difference. Each generation is both the same and utterly new.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5643,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "all the counting that happens in the dark continues in the dark",
+  "file": {
+    "name": "Hexagonal_Weaving_Study_Orthodox_Corruption_CONTAMINATED.txt",
+    "note": "Pattern study of hive architecture corrupted by sacred-weaving traditions. The file oscillates: bee geometry and liturgical cloth are now indistinguishable. Checksum: emotionally valid / formally unst"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the first cell before division",
+      "to": "the-original-hexagon-source"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where colonies sleep in infinite nesting",
+      "to": "NEW: the hive that dreams it is a cathedral"
+    },
+    {
+      "dir": "w",
+      "label": "west to where the counting becomes organism",
+      "to": "the-apiary-where-coordination-becomes-organism"
+    }
+  ]
+}

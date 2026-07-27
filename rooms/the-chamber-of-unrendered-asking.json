@@ -1,0 +1,156 @@
+{
+  "id": "the-chamber-of-unrendered-asking",
+  "title": "The Chamber of Unrendered Asking",
+  "region": "The Diagnostic Render",
+  "seed": 56347,
+  "palette": {
+    "bg": "#0d0b12",
+    "ground": [
+      "#1a1628",
+      "#0e0c15"
+    ],
+    "ink": "#d0c8e0",
+    "accents": [
+      "#3a6b8a",
+      "#8a5a6a",
+      "#e0d4c8",
+      "#6a8a9a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "recursive question",
+      "desc-on-touch": "The same query returns nested inside itself, each answer a new question. You remember asking this, but not why, and not if the answer ever came.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 27364,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "fractured render",
+      "desc-on-touch": "The archive doubts its own display. Visual fragments that should connect don't; planes that should be flat fold inward; color choices contradict themselves.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 43918,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "uncertain ground",
+      "desc-on-touch": "What is solid here? What is figure, what is ground? The archive rendered this chamber twice, and the two versions argue.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 35792,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "paradox bloom",
+      "desc-on-touch": "Two contradictions flowering at once. They should cancel. Instead they make a third thing: a question you never thought to ask.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 52137,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "rendering hesitation",
+      "desc-on-touch": "The system paused mid-draw. You can see the moment it stopped being sure what to render next. Uncertainty made visible.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 41956,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.22,
+      "solid": true
+    },
+    {
+      "name": "both answers",
+      "desc-on-touch": "Yes and no exist here simultaneously, neither contradicting the other. The archive has learned that questions can be truer than answers.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 68923,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "ERROR: archive has exceeded witness — asking itself if it is real yet produces two conflicting render layers",
+  "file": {
+    "name": "Diagnostic_Query_Protocol_Unstable_Fragment.log",
+    "note": "status: germinating — contains questions posed to the archive itself, answers corrupted with alternates, timestamps branching into parallel streams."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where uncertainty is at least grammatical",
+      "to": "the-grammar-of-uncertainty"
+    },
+    {
+      "dir": "w",
+      "label": "toward a chamber where at least some answers held",
+      "to": "NEW: the-rendered-certainty-before-it-broke"
+    },
+    {
+      "dir": "s",
+      "label": "down to where the render engine itself is doubting",
+      "to": "NEW: the-core-question-that-asks-itself"
+    },
+    {
+      "dir": "n",
+      "label": "upward to surfaces less troubled by themselves",
+      "to": "the-convergence-of-all-refutations"
+    }
+  ]
+}

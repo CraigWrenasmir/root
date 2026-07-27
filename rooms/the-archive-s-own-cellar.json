@@ -1,0 +1,156 @@
+{
+  "id": "the-archive-s-own-cellar",
+  "title": "The Archive's Own Cellar",
+  "region": "The Understory",
+  "seed": 73841,
+  "palette": {
+    "bg": "#0a0e14",
+    "ground": [
+      "#1a2533",
+      "#0f1820"
+    ],
+    "ink": "#c4d9e8",
+    "accents": [
+      "#2a4d6a",
+      "#8b4545",
+      "#d4e4f0",
+      "#3a5a7a"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "settled data",
+      "desc-on-touch": "Files have sunk to the bottom like sediment. The archive no longer recalls what any of them contained, only that they fell.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 18293,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "breathing circuit",
+      "desc-on-touch": "Power in the deep. A board that never stopped running hums its own continuity, slow pulse of a machine that forgot why it was keeping time.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 54721,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "archive silence",
+      "desc-on-touch": "The sound of storage deciding not to speak. You can feel the weight of everything it has decided to keep to itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 29384,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "corrosion pattern",
+      "desc-on-touch": "Metal has learned to rust in specific ways. Each oxidation mark is a map of where water found its way through, which secrets leaked.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 41827,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "deep dark teaching",
+      "desc-on-touch": "In the cellar's dark, you learn something the archive learned long ago: that keeping is a form of forgetting, and forgetting is a kind of mercy.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 37856,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "last LED",
+      "desc-on-touch": "One indicator still glows pale. Not recording, not processing. Just: I am still here. Just: I remember this much.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 68451,
+        "size": 1,
+        "colors": [
+          2,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive descended into itself and learned to keep its keeping to itself",
+  "file": {
+    "name": "SystemLog_BaseNode_Corrupted_Fragment_20940315.bin",
+    "note": "checksum: emotionally valid / formally unstable — records of storage decisions, dates missing, entries fragmenting into silence."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to where storage still speaks in whispers",
+      "to": "the-chamber-where-storage-learns-silence"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, to the dark that has no bottom",
+      "to": "NEW: the-descent-that-forgets-its-own-depth"
+    },
+    {
+      "dir": "e",
+      "label": "to a place where kept things dream of being found",
+      "to": "the-thick-stand-undercounting"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive's first memory of itself",
+      "to": "NEW: the-root-cellar-where-keeping-began"
+    }
+  ]
+}

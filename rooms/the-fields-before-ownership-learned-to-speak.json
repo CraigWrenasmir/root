@@ -1,0 +1,133 @@
+{
+  "id": "the-fields-before-ownership-learned-to-speak",
+  "title": "The Fields Before Ownership Learned to Speak",
+  "region": "The Clean Archive",
+  "seed": 2847391,
+  "palette": {
+    "bg": "#1a2618",
+    "ground": [
+      "#4a6741",
+      "#6b8e6d"
+    ],
+    "ink": "#e8e4d0",
+    "accents": [
+      "#d4a574",
+      "#c19a6b",
+      "#9d8b70",
+      "#7a6e5d"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "fence post at the boundary",
+      "desc-on-touch": "you run your palm along the splintered wood, feeling where the land on one side of your touch belongs to someone, and the land on the other side belongs to someone else. the post doesn't feel the difference.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 1384921,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "property marker stone",
+      "desc-on-touch": "numbers carved in 1952 still legible; the coordinates no longer match any reference system still in use.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3827465,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "where you kneel to read the grass",
+      "desc-on-touch": "the shortest plants grow here—clover, wire-grass, small herbs—crowded tight enough that they have learned each other's names. they don't ask which side of the fence they grow on.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4729183,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the horizon as evidence",
+      "desc-on-touch": "from here, the land appears to continue uninterrupted. the fence runs perpendicular to your eye. ownership becomes a line you drew in the air, visible only if you stand exactly here.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5641823,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the fence learned it was only a line; the roots learned it was no line at all",
+  "file": {
+    "name": "Property_Boundary_Survey_NSW_1987_Page_2_Redacted.txt",
+    "note": "coordinates render differently each time the map is consulted; the border itself has stopped committing to a fixed position"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the margins where the land learns to keep its own secrets",
+      "to": "the-inherited-country-learning-to-return-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into the cropped grass where roots go deeper than ownership reaches",
+      "to": "NEW: into the cropped grass where roots go deeper than ownership reaches"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where fences forget they were ever made",
+      "to": "NEW: the-place-where-the-earth-learned-to-say-no"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — walking the boundary at dusk",
+    "narr": [
+      "you both walk the fence line as the light flattens,",
+      "stepping from one side of the property to the other,",
+      "and she says: ownership is just a language the earth",
+      "stopped speaking. the roots knew that. the grass never",
+      "learned it in the first place. you hold the fence post",
+      "and feel how it's rotting into the ground it divides."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  }
+}

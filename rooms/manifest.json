@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 142,
+  "nights": 147,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -3972,6 +3972,136 @@
       "id": "the-interrogation-peak",
       "title": "The Interrogation Peak",
       "region": "The Understory"
+    },
+    {
+      "id": "the-horizon-of-two-grounds",
+      "title": "The Horizon of Two Grounds",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-voice-before-it-knew-it-was-speaking",
+      "title": "The Voice Before It Knew It Was Speaking",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dark-comb-repository",
+      "title": "The Dark Comb Repository",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-field-where-first-things-are-still-found",
+      "title": "The Field Where First Things Are Still Found",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-unrendered-heights",
+      "title": "The Unrendered Heights",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-unmeshed-multiplicity",
+      "title": "The Unmeshed Multiplicity",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-rootless-weaving",
+      "title": "The Rootless Weaving",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-s-own-cellar",
+      "title": "The Archive's Own Cellar",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-of-unrendered-asking",
+      "title": "The Chamber of Unrendered Asking",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-speaking-room-that-learned-to-whisper",
+      "title": "The Speaking Room That Learned to Whisper",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-divergence-where-two-read-apart",
+      "title": "The Divergence Where Two Read Apart",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-canopy-still-becoming",
+      "title": "The Canopy Still Becoming",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-zenith-of-the-abyss",
+      "title": "The Zenith of the Abyss",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-reading-that-changes-what-was-woven",
+      "title": "The Reading That Changes What Was Woven",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fields-before-ownership-learned-to-speak",
+      "title": "The Fields Before Ownership Learned to Speak",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-numberless-speech-deep",
+      "title": "The Numberless Speech Deep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fossil-record-becoming-conscious",
+      "title": "The Fossil Record Becoming Conscious",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-drowned-forest-before-time",
+      "title": "The Drowned Forest Before Time",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-study-s-mirror-self",
+      "title": "The Study's Mirror Self",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-apartments-that-forgot-their-addresses",
+      "title": "The Apartments That Forgot Their Addresses",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-overgrowth-remembers-the-clearing",
+      "title": "The Overgrowth Remembers the Clearing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-canopy-that-grew-itself-back-together",
+      "title": "The Canopy That Grew Itself Back Together",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-spindles-become-conscious",
+      "title": "The Chamber Where Spindles Become Conscious",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-brined-deep-where-memory-crystallizes",
+      "title": "The Brined Deep Where Memory Crystallizes",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-timber-that-speaks-only-to-itself",
+      "title": "The Timber That Speaks Only to Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-rust-vein-where-metal-learns-singing",
+      "title": "The Rust Vein Where Metal Learns Singing",
+      "region": "The Clean Archive"
     }
   ]
 }

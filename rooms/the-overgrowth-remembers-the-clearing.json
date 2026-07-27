@@ -1,0 +1,172 @@
+{
+  "id": "the-overgrowth-remembers-the-clearing",
+  "title": "The Overgrowth Remembers the Clearing",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a3d1a",
+    "ground": [
+      "#2d5016",
+      "#8b6f47"
+    ],
+    "ink": "#e8d4b0",
+    "accents": [
+      "#a8e6a8",
+      "#ffb347",
+      "#c97a3e",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "half-remembered homestead",
+      "desc-on-touch": "A small house pixel-rendered in tan and rust, half-choked with grass. You remember standing in its doorway before the green learned to climb.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the clearing's doorway",
+      "desc-on-touch": "An arch of green learning where the open paddock used to begin. The boundary has become kind.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 29374,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "diagnostic posts",
+      "desc-on-touch": "The render's assertion: wireframe marker posts at the cardinal points where the clearing once was measured. They are being overgrown slowly.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 43821,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "growth-line fence",
+      "desc-on-touch": "A rusted fence that has learned to carry vines instead of hold them back. The metal sings faintly in the wind.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 18765,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the memory-pool",
+      "desc-on-touch": "A shallow depression collecting rain and reflection. The water shows you the clearing as it was, then as it grows.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 36492,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the render's margin",
+      "desc-on-touch": "Where the diagnostic terminal's tan ink meets the overgrowth's green. The two are learning to share the page.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 51923,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "what grows in an empty place knows it will be forgotten again",
+  "file": {
+    "name": "Clearing_NSW_Overgrown_1980s_Slide.png",
+    "note": "Kodachrome slide of a paddock slowly turning back to scrub; the original house already mostly roof and frame. The colours have shifted; the date written on the mount is seventeen years before the phot"
+  },
+  "reverie": {
+    "title": "REVERIE — standing in the clearing before it forgot itself",
+    "narr": [
+      "You stand in the middle of bare earth—no grass yet, just",
+      "the possibility. She's looking at the horizon line where the",
+      "tree-stand begins. \"This place doesn't know it's empty,\" she",
+      "says. \"It thinks it's waiting.\" A single leaf spirals down between",
+      "you. By next season it will be indistinguishable from the rest.",
+      "She's already gone—you know that standing here. Gone and not."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the clearing toward diagnostic inference",
+      "to": "the-chosen-emptiness"
+    },
+    {
+      "dir": "e",
+      "label": "where the grid learns to bend into orchards",
+      "to": "NEW: the-grid-s-pastoral-learning"
+    },
+    {
+      "dir": "s",
+      "label": "into deeper growth where the archive grows its own roots",
+      "to": "NEW: the-rooted-render"
+    },
+    {
+      "dir": "w",
+      "label": "where fences teach vegetables their secret names",
+      "to": "the-archive-s-own-cellar"
+    }
+  ]
+}

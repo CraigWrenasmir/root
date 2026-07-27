@@ -128,7 +128,7 @@
     {
       "dir": "s",
       "label": "downward to where colonies sleep",
-      "to": "NEW: the-dark-comb-repository"
+      "to": "the-dark-comb-repository"
     },
     {
       "dir": "w",

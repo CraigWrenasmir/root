@@ -1,0 +1,150 @@
+{
+  "id": "the-apartments-that-forgot-their-addresses",
+  "title": "The Apartments That Forgot Their Addresses",
+  "region": "The Diagnostic Render",
+  "seed": 8374921,
+  "palette": {
+    "bg": "#2a1a3a",
+    "ground": [
+      "#4a3a5a",
+      "#6a5a7a"
+    ],
+    "ink": "#e8d8c8",
+    "accents": [
+      "#8a7a9a",
+      "#7a6a8a",
+      "#9a8aaa",
+      "#aa9aba"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "door with a number that won't stay",
+      "desc-on-touch": "you read the numeral. it glitches. you read it again and it has changed. not to a different apartment, but to a different floor, a different building, a different city. the door knows where it opens. the address cannot remember.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "windows showing different times of day",
+      "desc-on-touch": "one shows noon sun. another shows dusk. another shows the deep blue of an hour after dusk that the city usually skips. all from apartments on the same floor. the building is learning to hold all times at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 2847391,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "a key that opens multiple meanings",
+      "desc-on-touch": "the shape is right. but when you hold it, you are not sure which lock it fits. it has opened many doors. they were not all the same door, though they all used this key. possession and belonging have become unstable.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3729184,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "postcard that never arrived",
+      "desc-on-touch": "the address on the back keeps changing. the picture shows the city as it was. the message says: are you still at this address? but the address was never still. it is still arriving, decades later, trying to find you in a building that forgot how to be found.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 4928371,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the belongings left behind",
+      "desc-on-touch": "a chair, a lamp, a photograph in a frame—all the things that made an apartment feel inhabited. they are arranged as if the resident stepped out and simply never returned. the apartment remains perfect, waiting, unaddressed.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 5847362,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "floor seven knows its number. building seven does not. the residents have learned to live between addresses",
+  "file": {
+    "name": "Resident_Registry_Building_7_Floor_7_Where_Numbers_Stop_Having_Meaning.log",
+    "note": "status: germinating — residents appear and disappear from the registry based on whether anyone is currently reading this file. when unobserved, the apartment returns to a state of perfect potential."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down through the floors that still remember their numbers",
+      "to": "the-tower-of-retained-apartments"
+    },
+    {
+      "dir": "w",
+      "label": "toward the motel where time sleeps upright and addresses dissolve",
+      "to": "the-motel-year-corridor"
+    },
+    {
+      "dir": "n",
+      "label": "up into the addresses that forgot they were ever mapped",
+      "to": "NEW: the-point-where-cartography-admits-defeat"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — temporary residence, temporary address",
+    "narr": [
+      "she sits at the window, watching the city lights. you ask:",
+      "do you know which street we're on? she smiles, pointing to",
+      "the window: it changes every time I blink. the address is",
+      "somewhere in the room, not the building. she looks back and",
+      "says: I've lived in seven apartments with the same number.",
+      "I don't think I was ever the same person twice."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

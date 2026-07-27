@@ -1,0 +1,172 @@
+{
+  "id": "the-divergence-where-two-read-apart",
+  "title": "The Divergence Where Two Read Apart",
+  "region": "The Understory",
+  "seed": 34761,
+  "palette": {
+    "bg": "#1a0f2a",
+    "ground": [
+      "#6a4a3a",
+      "#3a2a6a"
+    ],
+    "ink": "#e0d8c8",
+    "accents": [
+      "#f0d080",
+      "#a08060",
+      "#2a5a8a",
+      "#c0a050"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "split desk",
+      "desc-on-touch": "Two reading surfaces that once faced each other now sit back-to-back. Each scholar learned to read without seeing the other's light.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 29384,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "diverging light",
+      "desc-on-touch": "One lamp casts gold, the other cold white. The books between them learn to read by different suns, and their pages begin to argue.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 45821,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "separate margin notes",
+      "desc-on-touch": "Annotations in two hands, reading the same text as two different stories. Neither hand quotes the other anymore.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 51276,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "angle of silence",
+      "desc-on-touch": "The parent room taught them that reading was about angle of light. Here they learned: it was also about the angle of departure.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 36247,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "parallel questions",
+      "desc-on-touch": "Each scholar asks the same question, but no longer to the same person. The answers begin to differ. They don't correct each other anymore.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 42958,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "where reflections end",
+      "desc-on-touch": "Once their thoughts mirrored. Now you find the place where one scholar's question no longer reaches the other, where what was reflection becomes mere vicinity.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 58374,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "two readers in one light became one reader each, learning that understanding alone is a kind of loss",
+  "file": {
+    "name": "Letters_Unsent_Between_Scholars_Fragmentary.txt",
+    "note": "Drafts written to each other but never delivered, arguments that stayed in margins, questions that were asked to books instead of to hands."
+  },
+  "reverie": {
+    "title": "REVERIE — the study where angles began to differ",
+    "narr": [
+      "In the same room, you read facing her at last.",
+      "Her eyes move faster than yours across the same page.",
+      "You find a passage that means something to you both.",
+      "But she's already interpreted it differently, alone.",
+      "The books between you stop being mirrors and become",
+      "the things that taught you how to be separate."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the dwelling where reading was still mutual",
+      "to": "the-academic-dwelling"
+    },
+    {
+      "dir": "n",
+      "label": "upward to chambers where solitude is accepted",
+      "to": "NEW: the-library-where-one-scholar-goes-alone"
+    },
+    {
+      "dir": "e",
+      "label": "toward a study where other scholars have similarly parted",
+      "to": "the-mirrored-study-where-books-teach-themselves"
+    },
+    {
+      "dir": "w",
+      "label": "to a place where two paths finally stop crossing",
+      "to": "NEW: the-threshold-where-partnership-learns-to-end"
+    }
+  ]
+}

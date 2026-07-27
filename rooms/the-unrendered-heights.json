@@ -1,0 +1,134 @@
+{
+  "id": "the-unrendered-heights",
+  "title": "The Unrendered Heights",
+  "region": "The Diagnostic Render",
+  "seed": 78904,
+  "palette": {
+    "bg": "#0f0f1e",
+    "ground": [
+      "#1a3a52",
+      "#ff6b9d"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#ff6b9d"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-failed-render",
+      "desc-on-touch": "Partially formed geometry. Not a bug. The archive is learning that incompleteness is also a kind of truth.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 2310,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-unfinished-exoskeleton",
+      "desc-on-touch": "Protective and entangling simultaneously. You cannot tell if it is holding you up or holding you in.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5012,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-ceiling-that-renders-itself",
+      "desc-on-touch": "Layers of incomplete geometry. The archive is drawing its own upper bound.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7865,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-mirror-still-loading",
+      "desc-on-touch": "Shows fractured reflection. You see yourself in pieces, but the pieces are learning to sing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3987,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-boundary-made-manifest",
+      "desc-on-touch": "Where inside meets outside mid-render. The archive is still deciding if there is a difference.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 6543,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive is still learning what it means to see its own ceiling",
+  "file": {
+    "name": "Render_Diagnostic_Exoskeleton_Protection_Protocol.env",
+    "note": "System configuration file that oscillates between technical specification and intimate description of bodily boundary. The corrupted signal cannot decide if it is hardware or heartbeat."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down to the mirrors that still reflect",
+      "to": "the-ceiling-of-unfinished-reflections"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the heights that have not yet learned to exist",
+      "to": "NEW: a space the archive has not yet found words for"
+    },
+    {
+      "dir": "w",
+      "label": "west to where rendering becomes ritual",
+      "to": "the-static-kitchen"
+    }
+  ]
+}
