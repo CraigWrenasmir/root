@@ -1,0 +1,166 @@
+{
+  "id": "where-unpaid-things-learn-to-dream",
+  "title": "Where Unpaid Things Learn to Dream",
+  "region": "The Understory",
+  "seed": 61738,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a2a3a",
+      "#0a1a2a"
+    ],
+    "ink": "#b0c0d8",
+    "accents": [
+      "#ff6699",
+      "#00ff99",
+      "#ffff00",
+      "#00ddff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-debt-crystallized",
+      "desc-on-touch": "Interest accrues in the dark. The debt learned to grow without payment, and now it dreams of the person who owed it. It dreams of being remembered.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2845,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "unpaid-ledger",
+      "desc-on-touch": "Forty-two histories pump from bedrock. Each one entered here, each one learning to want. The ledger dreams of settlement—but no settlement comes.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 9234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-interest-field",
+      "desc-on-touch": "Interest compounds in sleep. Each small point is one moment where a debt was forgotten—and in forgetting, grew interest instead of mercy.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "dream-current",
+      "desc-on-touch": "The current dreams carry downward. A debt that learned to dream is heavier than stone. You can feel it descending into deeper bedrock.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-waking-debt",
+      "desc-on-touch": "This one woke up. It knows now that it was owed, and it has been waiting so long that the waiting itself became a second debt.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 7123,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "settlement-never-written",
+      "desc-on-touch": "The arch over empty space where settlement should rest. No amount owed here—only the dream of what settlement might feel like, if it ever came.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "every debt learned that being forgotten is a kind of growth; the unpaid things are the only ones still becoming",
+  "file": {
+    "name": "Bedrock_Debt_Manifestations_Compound_Interest_Observed.txt",
+    "note": "Field observation: debts stored in bedrock show measurable increase over time, even in sealed chambers with no activity. Hypothesis: interest accrues metaphorically, as meaning. Last note written in h"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the registry where all debts are listed, before they learned to dream",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into bedrock, where debts become older and more conscious",
+      "to": "NEW: the-ancient-ledger-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward the place where things were paid, long ago",
+      "to": "the-bedrock-inscription"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the kitchen table, owing",
+    "narr": [
+      "You sit across from her in the kitchen. The bill sits folded on the",
+      "table between you both. Neither of you can pay it. But she reaches",
+      "across and touches your hand: 'Owing teaches you what you value.'",
+      "'Let's owe this one a while,' she says. 'We'll remember it.' The",
+      "debt stops being paper. It becomes presence between your hands."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

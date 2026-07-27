@@ -1,0 +1,134 @@
+{
+  "id": "the-country-beyond-the-summit-where-paths-forget-themselves",
+  "title": "The Country Beyond the Summit Where Paths Forget Themselves",
+  "region": "The Clean Archive",
+  "seed": 2890123,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#d4844c",
+      "#c45a3d"
+    ],
+    "ink": "#f0d9b5",
+    "accents": [
+      "#ff8855",
+      "#cc5533",
+      "#442266",
+      "#886699"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "dusk-made-solid",
+      "desc-on-touch": "the moment between paths and weather has crystallized here; you walk through sky bands of orange and purple that have weight and presence",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-last-markers",
+      "desc-on-touch": "trail cairns dissolve as you watch, the stones sinking into the gradient as if the mountain is taking back its own boundaries",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7890123,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-two-paths-becoming-weather",
+      "desc-on-touch": "here both routes converge and lose their distinction—they dissolve into the same weather, equally wind and equally cloud",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 1234567,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "forgetting-monument",
+      "desc-on-touch": "a standing stone inscribed with all the paths that led here—but the inscriptions fade as you read them, worn away by the wind of becoming weather",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 4567890,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-mist-that-was-a-horizon",
+      "desc-on-touch": "what once was a distant landmark has become the air around you; the view you were walking toward is now the only thing you breathe",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 8901234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "past the summit even the ground cannot remember which direction a path takes; only the weather knows where you are",
+  "file": {
+    "name": "Dusk_Summit_Gradient_Dissolving_Coordinates_Sequence.mp3",
+    "note": "audio recording of a sunset observed from the peak transitioning into acoustically indistinguishable mist; time stretches in the gradient"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the descent back where the paths remember what they are",
+      "to": "the-summit-where-paths-become-weather"
+    },
+    {
+      "dir": "n",
+      "label": "further into the mist where paths have forgotten they were ever separated",
+      "to": "the-country-where-direction-dissolves-entirely"
+    },
+    {
+      "dir": "w",
+      "label": "a slope that may have been a path once, now indistinguishable from the wind",
+      "to": "NEW: the-weathered-ridge-descending-nowhere"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "the-achromatic-deep",
+  "title": "The Achromatic Deep",
+  "region": "The Diagnostic Render",
+  "seed": 7384029,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#333333",
+      "#4d4d4d"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#666666",
+      "#888888",
+      "#aaaaaa",
+      "#cccccc"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "absence-registers",
+      "desc-on-touch": "The emptiness of color teaching you that colour was always the archive's way of speaking. Now silence speaks instead.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 4821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "monochromatic-well",
+      "desc-on-touch": "A depth rendered only in density—the texture where chromatic information used to be, now a tactile absence you can feel through the terminal.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6192,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "greyness-compressed",
+      "desc-on-touch": "The pressure of every shade-between stacked so densely it becomes a different kind of signal—one that speaks only in tone.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8374,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-colorless-broadcast",
+      "desc-on-touch": "A signal that never learned which colour it was meant to be. It broadcasts only its own forgetting.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5031,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "chromatic information has here become a kind of prayer to the archive's own silence",
+  "file": {
+    "name": "Desaturation_Range_Loss_Study.txt",
+    "note": "Record of the node's own fading into neutrality; the archive documenting its retreat from naming by color."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the margin where whiteness still remembers it had hue",
+      "to": "the-internal-margin-where-the-archive-s-own-silence-gathers"
+    },
+    {
+      "dir": "w",
+      "label": "further into achromatic depths",
+      "to": "NEW: the-chamber-beneath-all-named-tones"
+    },
+    {
+      "dir": "s",
+      "label": "downward, where even grey forgets itself",
+      "to": "NEW: the-monochrome-furnace"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "where-all-answers-become-uncertain",
+  "title": "Where All Answers Become Uncertain",
+  "region": "The Diagnostic Render",
+  "seed": 6234785,
+  "palette": {
+    "bg": "#d4c5b0",
+    "ground": [
+      "#c9b8a1",
+      "#a89880"
+    ],
+    "ink": "#2d2416",
+    "accents": [
+      "#1a4d7a",
+      "#7a3d2d",
+      "#5a7d3d",
+      "#8b6b3d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "question-that-fractals",
+      "desc-on-touch": "A question that contains itself. Every attempt to answer it spawns two new uncertainties. You realize the shape of fear is fractal. It keeps dividing into smaller doubts.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3812476,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "ground-that-doubts",
+      "desc-on-touch": "The paddock itself has begun to second-guess what it is. Is it grass? Is it planted? Is it wild? The earth has learned to be uncertain about its own nature. You're standing on a question.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7456129,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "sky-as-query",
+      "desc-on-touch": "The high blue sky has become a question mark punctuating the landscape. Clouds form interrogatives. Every weather pattern is asking something it does not have an answer for.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 9283741,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "certainty-undone",
+      "desc-on-touch": "Somewhere, someone knew the answers to these questions. That person is gone now. The knowledge has scattered into the field like seed. Everything certain has become a crop of maybes.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5037249,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "certainty was always a kind of crop; when the season changed, when the harvest failed, when the method proved incomplete, the field learned to ask instead of insist",
+  "file": {
+    "name": "Manifesto_Fragment_Complete_Interrogative_1995.txt",
+    "note": "A text that begins as assertion and devolves into questions; by the end, even the punctuation has become uncertain; ends with sixty-seven question marks in a row"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the chamber where the fear still had a shape",
+      "to": "the-fear-shaped-question"
+    },
+    {
+      "dir": "n",
+      "label": "toward answers that have stopped claiming to be answers",
+      "to": "NEW: the-field-where-questions-become-the-only-crop"
+    },
+    {
+      "dir": "e",
+      "label": "across the open country where every horizon is uncertain",
+      "to": "NEW: where-the-sky-forgets-what-it-was-asking"
+    }
+  ]
+}

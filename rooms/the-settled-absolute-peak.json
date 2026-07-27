@@ -1,0 +1,134 @@
+{
+  "id": "the-settled-absolute-peak",
+  "title": "The Settled Absolute Peak",
+  "region": "The Diagnostic Render",
+  "seed": 9123456,
+  "palette": {
+    "bg": "#0a0e0f",
+    "ground": [
+      "#1d2226",
+      "#232829"
+    ],
+    "ink": "#d0d8e0",
+    "accents": [
+      "#4a9f5d",
+      "#2d7f4f",
+      "#6bb87a",
+      "#1f5a37"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "decision-point-absolute",
+      "desc-on-touch": "here is the apex—the exact coordinate where every choice collapses into the one that was always inevitable; the moment looks like a piece of green code running the same instruction over and over",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5678901,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-frozen-calculation",
+      "desc-on-touch": "a black monolith etched with equations that stopped changing the moment they became true; the math of your own future",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "where-alternatives-vanish",
+      "desc-on-touch": "all the paths you could have taken collapse into a single point the moment you ascend; the peak shows you that only one was ever possible",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7890123,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-axis-mundi-made-of-certainty",
+      "desc-on-touch": "a vertical line so straight it hurts to look at; this is the core around which every determined future revolves",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 1234567,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "settlement-monument",
+      "desc-on-touch": "a plaque that reads: 'You Are Here And This Is Final'; the letters do not wear or change; they arrived at the same moment the first choice was taken",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 4567890,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "here uncertainty became memory and the future became a place that has already ended",
+  "file": {
+    "name": "Absolute_Peak_Coordinate_Determinism_Log.dat",
+    "note": "timestamp proof that this location exists outside of chronology—accessed simultaneously by every possible history"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the descent back to where decisions still pretend they were not decided",
+      "to": "the-decided-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "higher still—the place where even the concept of peak dissolves into abstraction",
+      "to": "NEW: the-peak-beyond-coordinate"
+    },
+    {
+      "dir": "e",
+      "label": "a ridge that slopes toward what could have been, a temporal phantom of alternative timelines",
+      "to": "NEW: the-ridge-of-abandoned-futures"
+    }
+  ]
+}

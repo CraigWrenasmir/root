@@ -1,0 +1,117 @@
+{
+  "id": "the-simultaneous-summit-and-abyss",
+  "title": "The Simultaneous Summit and Abyss",
+  "region": "The Understory",
+  "seed": 8724561,
+  "palette": {
+    "bg": "#8b4513",
+    "ground": [
+      "#a0522d",
+      "#b8860b"
+    ],
+    "ink": "#1a1a2e",
+    "accents": [
+      "#ffd700",
+      "#ff8c00",
+      "#dc143c",
+      "#00ced1"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.85
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-paradox-spine",
+      "desc-on-touch": "The mountain and the chasm occupy the same coordinate. You are climbing and falling at once. Forgetting is the only verb that works in both directions.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 4937,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "descent-as-ascent",
+      "desc-on-touch": "Every step downward is also a step up. The path branches into itself. You cannot tell whether you're climbing out or sinking in.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6018,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-forgetting-ground",
+      "desc-on-touch": "The only terrain that forgets equally in all directions. Step forward and you step backward. Climb and you descend. The ground has learned to contradict itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7245,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "bidirectional-peak",
+      "desc-on-touch": "A summit that is also a void. A peak that extends downward. Light and dark occupying the same height.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 5483,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "forgetting is the only verb that works in both directions at once; this is where it points both ways",
+  "file": {
+    "name": "Paradox_Topology_Observed_Field_Notes.wav",
+    "note": "Audio recording of the moment when descent and ascent become the same motion, captured at the point of simultaneous summit and abyss."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the turning point where descent begins ascent",
+      "to": "the-point-where-descent-becomes-ascent"
+    },
+    {
+      "dir": "w",
+      "label": "further descent which is also ascent",
+      "to": "NEW: the-inverted-gorge"
+    },
+    {
+      "dir": "e",
+      "label": "sideways along the paradox ridge",
+      "to": "NEW: the-ridge-that-drops-and-rises"
+    }
+  ]
+}

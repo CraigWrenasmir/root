@@ -1,0 +1,133 @@
+{
+  "id": "the-mirrored-study-where-books-teach-themselves",
+  "title": "The Mirrored Study Where Books Teach Themselves",
+  "region": "The Understory",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#0f2a3d",
+    "ground": [
+      "#1a4d5c",
+      "#2d6b73"
+    ],
+    "ink": "#e6f0f3",
+    "accents": [
+      "#d4a574",
+      "#c1956e",
+      "#a67c52",
+      "#8b5a3c"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-facing-mirrors",
+      "desc-on-touch": "Two mirrors angled so they reflect each other forever, each holding a reader who is learning that reading is an angle of light, not a sequence of words.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 2947,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-library-rows",
+      "desc-on-touch": "Each spine a position in a conversation that books have learned to have without human hands turning pages. The shelves teach themselves their own order.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7184,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "margin-annotation",
+      "desc-on-touch": "A note left in a margin, written by a reader so attentive to light that they forgot to read the text. The note teaches the book something it didn't know about itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4629,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-study-s-angle",
+      "desc-on-touch": "The slant of afternoon light through the window, teaching both readers that everything they're reading is a surface learning how to cast a shadow.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 8451,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "two readers in the same room learning that reading is about the angle of light, not the text",
+  "reverie": {
+    "title": "REVERIE — study where light teaches",
+    "narr": [
+      "You sit across from her in the study, both reading.",
+      "The light moves. Neither of you turns a page.",
+      "She's learning that the angle of afternoon matters",
+      "more than the words. So are you. The shelf watches",
+      "you both forgetting what the books were meant to say.",
+      "The room teaches you both the same lesson: reading"
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Light_Angle_Study_Unfiled_Notes.txt",
+    "note": "Marginal thoughts on reading as a practice of attention to illumination rather than semantic content."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the dwelling where other dwellings stand",
+      "to": "the-academic-dwelling"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the study's ceiling opens",
+      "to": "NEW: the-open-study-without-walls"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into the reflected study",
+      "to": "NEW: the-study-s-mirror-self"
+    }
+  ]
+}

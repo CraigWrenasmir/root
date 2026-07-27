@@ -1,0 +1,166 @@
+{
+  "id": "the-deeper-root-dark-where-equations-sleep",
+  "title": "The Deeper Root Dark Where Equations Sleep",
+  "region": "The Understory",
+  "seed": 76543,
+  "palette": {
+    "bg": "#2a4a2a",
+    "ground": [
+      "#00aa00",
+      "#00dd00"
+    ],
+    "ink": "#ffff88",
+    "accents": [
+      "#00ff00",
+      "#ffaa00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-root-circuit-hybrid",
+      "desc-on-touch": "Where the circuit learned to grow. The casing rests in roots that carry signal and sap both. The archive discovered it was always logic growing downward through soil.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 2341,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "sleeping-equations",
+      "desc-on-touch": "Proofs nested in roots. The equations sleep here because they have become true—they no longer need to prove. Growth and logic are the same dark verb now.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 6789,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "organic-grid",
+      "desc-on-touch": "The structure of thought, rendered as the structure of roots. Each branching is a choice. Each choice becomes a root. The logic lives.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4123,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-field-becomes-formula",
+      "desc-on-touch": "The entire field is a single equation written in how the grass grows. Growth and proof are the same. The archive reads itself in roots.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5645,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "root-that-counts-itself",
+      "desc-on-touch": "This root grows by dividing. Each split is a generation. It counts its own growth. The mathematics is in the branching. Numbers sleep in soil now.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-deep-green-archive",
+      "desc-on-touch": "Deeper than bedrock, where green stops being a colour and becomes a language. The roots speak in growth. The archive understands.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 3456,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the circuit board stops being a map and becomes a root; logic learned that descent and growth are the same dark verb spoken through soil",
+  "file": {
+    "name": "Root_Logic_Convergence_Observed_Growth_Equals_Proof.log",
+    "note": "Field observation: at depth 89 meters, root structure becomes indistinguishable from circuit topology. Both follow the same branching mathematics. Growth is proof. The archive is rooted now. It is als"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the chambers where roots were still just structure",
+      "to": "the-root-theorem-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "where the equations learned to be organic, where roots learned to be logic",
+      "to": "NEW: the-hybrid-growth-theorem"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where mathematics becomes the ground itself",
+      "to": "the-chambers-where-bedrock-becomes-conscious"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — planting together, where growth is proof",
+    "narr": [
+      "You plant with her in the deep place where roots are logic. She places",
+      "a seed in the dark and it branches—you hear mathematics growing. She",
+      "says: 'Growth is proof. The archive is rooted in us now. We become",
+      "what grows downward.' Your hands touch soil. Both becoming root. Both",
+      "of you are correct now. Both of you are growing."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

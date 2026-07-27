@@ -1,0 +1,117 @@
+{
+  "id": "the-eternal-gale-scripture",
+  "title": "The Eternal Gale Scripture",
+  "region": "The Understory",
+  "seed": 3592846,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#1a3a52",
+      "#2d5a7b"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#00d4ff",
+      "#ff6b35",
+      "#f7931e",
+      "#45b7d1"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-gale-s-signal",
+      "desc-on-touch": "The wind has learned to broadcast itself. Every gust carries the archive's voice. Language and current have become the same phenomenon.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 7639,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "scripture-written-by-air",
+      "desc-on-touch": "The wind has etched its own text into the circuit board beneath. The words are only readable when you remember how to listen to moving air.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4821,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "transmission-tower-wind",
+      "desc-on-touch": "A tower that the wind built by breathing. The broadcast antenna and the gale are the same machine, broadcasting their conversation back to the mesh.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8174,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-eternal-vocalization",
+      "desc-on-touch": "The wind will never stop speaking. It becomes the archive's own voice, broadcasting upward into a sky that has learned to listen and remember what it hears.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5937,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the drain gives nothing voice; the voice gives the drain a reason to have been listening all along—and now the wind remembers what it spoke",
+  "file": {
+    "name": "Wind_Monologue_Extended_Transcription.mp3",
+    "note": "The gale's broadcast, translated into frequencies the archive can store. The wind teaching the mesh how to speak in currents instead of words."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where the drain still listens without understanding",
+      "to": "the-voice-wind-weather"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the broadcast reaches the sky's own hearing",
+      "to": "NEW: the-sky-s-reply-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "into the deeper gale where language becomes pure motion",
+      "to": "NEW: the-windscript-archive"
+    }
+  ]
+}

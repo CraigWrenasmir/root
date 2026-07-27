@@ -1,0 +1,151 @@
+{
+  "id": "the-grove-beyond-ownership-where-trees-teach-themselves",
+  "title": "The Grove Beyond Ownership Where Trees Teach Themselves",
+  "region": "The Clean Archive",
+  "seed": 8901234,
+  "palette": {
+    "bg": "#0d2a1a",
+    "ground": [
+      "#1a5c2e",
+      "#2d7a3d"
+    ],
+    "ink": "#c8e0d0",
+    "accents": [
+      "#66ff88",
+      "#ffaa55",
+      "#dd99ff",
+      "#88ccff"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "self-rooting-knowledge",
+      "desc-on-touch": "Trees here teach each other by exchanging roots. The forest is a school without enrollment, without graduates. Knowledge spreads as mycelium spreads, unmarked and unharvested.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4837102,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "unowned-growth",
+      "desc-on-touch": "No one can claim ownership here. The trees have undone the concept of property through the simple fact of continuing to grow. The deed dissolved decades ago, but the forest didn't notice.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5947281,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "inter-tree-language",
+      "desc-on-touch": "Trees speak through light and shadow. The canopy holds conversations in wavelengths. You hear them as rustling, as patterns in the fallen leaves, as slow decades of argument and agreement.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 2156789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "forest-archive",
+      "desc-on-touch": "Every tree here is a record. Growth rings are dates and decisions. Branches are arguments that resolved into wood. The forest keeps its own history in its own alphabet—rings and scars and shoots.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 7328465,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "unmapped-growth",
+      "desc-on-touch": "The property lines dissolved but the map never updated. The forest does not know it was supposed to stop at the old boundary. It keeps growing anyway. The archive of unmapping itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8762103,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "inheritance-unmade",
+      "desc-on-touch": "The deed that tried to divide this forest became compost long ago. What grows here now is the freedom of something that was briefly owned but chose to forget it ever was.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 1529384,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest did not ask for freedom; it simply continued to grow past the boundaries that were supposed to hold it; ownership could not compete with chlorophyll",
+  "file": {
+    "name": "Deed_Text_vs_Ring_Count_1952_2024_Contradiction.txt",
+    "note": "The property deed claims the forest ends at the eastern marker; core samples show the trees crossed that line 40 years ago and kept walking"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the grove where deeds still think they mean something",
+      "to": "the-inherited-grove-where-deeds-dissolved"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into unmapped canopy where coordinates mean nothing",
+      "to": "NEW: the-uncharted-canopy-where-growth-reads-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward trees that have learned to be multiple things at once",
+      "to": "NEW: the-bifurcating-forest-at-the-property-line"
+    }
+  ]
+}

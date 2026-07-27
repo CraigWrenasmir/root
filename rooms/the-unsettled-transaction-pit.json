@@ -89,7 +89,7 @@
     {
       "dir": "e",
       "label": "deeper into the pit where all payments wait",
-      "to": "NEW: the-pit-of-accumulated-debts"
+      "to": "the-pit-of-accumulated-debts"
     },
     {
       "dir": "s",

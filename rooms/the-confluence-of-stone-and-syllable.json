@@ -1,0 +1,122 @@
+{
+  "id": "the-confluence-of-stone-and-syllable",
+  "title": "The Confluence of Stone and Syllable",
+  "region": "The Clean Archive",
+  "seed": 5672143,
+  "palette": {
+    "bg": "#2d5c3d",
+    "ground": [
+      "#5a8c5a",
+      "#9b7c4d"
+    ],
+    "ink": "#e8d8c8",
+    "accents": [
+      "#cc8844",
+      "#88dd66",
+      "#ffffff",
+      "#4d6b5c"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "water-alphabet",
+      "desc-on-touch": "Where two tributaries meet, they write. The rush of water over stone composes itself into syllables. You're reading a river that has learned to be a sentence.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 8273451,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "stone-archive",
+      "desc-on-touch": "The river has carved its own library into bedrock. Every confluence is a word. The stone remembers in grooves—each tributary's dialect preserved as a geological record.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3847192,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "tributary-voices",
+      "desc-on-touch": "The smaller streams have not forgotten they were once separate. They sing at different pitches as they meet. The confluence is not a merger—it is a conversation between waters that remember their own names.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5019374,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "written-riverbank",
+      "desc-on-touch": "The banks themselves have become text. Everything the river has ever said is preserved as sediment. You walk on compressed speech, on chapters of water that have turned to stone.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 1648379,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the river knew how to write before it knew how to flow; the stone listened and learned to remember in the dialect of all the tributaries that still insist they are separate",
+  "file": {
+    "name": "River_Confluence_Acoustic_Log_Syllables_Preserved.wav",
+    "note": "Recordings of water over stone at three tributaries where they meet; the frequencies align to form patterns that resemble speech"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "upstream toward where the tributaries remember their separate sources",
+      "to": "the-stone-archives-where-water-writes"
+    },
+    {
+      "dir": "n",
+      "label": "downstream toward the mouth where all the voices become one ocean",
+      "to": "the-river-mouth-dissolution"
+    },
+    {
+      "dir": "e",
+      "label": "into a grove where trees have learned the language the river is speaking",
+      "to": "NEW: the-forest-that-reads-the-river"
+    },
+    {
+      "dir": "w",
+      "label": "toward the deep chamber where stone teaches itself to listen",
+      "to": "the-stone-channel-where-water-becomes-archive"
+    }
+  ]
+}

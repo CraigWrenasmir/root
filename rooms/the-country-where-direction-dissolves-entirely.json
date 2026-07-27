@@ -1,0 +1,122 @@
+{
+  "id": "the-country-where-direction-dissolves-entirely",
+  "title": "The Country Where Direction Dissolves Entirely",
+  "region": "The Clean Archive",
+  "seed": 7384921,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#3d3d5c",
+      "#4a4a6e"
+    ],
+    "ink": "#d0d0e8",
+    "accents": [
+      "#9099cc",
+      "#60b0ff",
+      "#e0a0ff",
+      "#b0d0d0"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "compass-that-spins",
+      "desc-on-touch": "A compass that points in every direction at once. The needle trembles, unable to choose. You realize direction has become a question the landscape can no longer answer.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 8837421,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "mist-gathering",
+      "desc-on-touch": "Fog has become so thick that it has weight. The mist separates into distinct layers—each one pointing a different way. You are inside the mist's own confusion.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4521789,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "path-unmarking",
+      "desc-on-touch": "Paths are erasing themselves as you walk them. Each step you take unmarks the way you came. The country is teaching you that arrival and departure are the same moment.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 6193847,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "weather-instruction",
+      "desc-on-touch": "The storm itself has become the only map. Rain falls in all directions at once. You're learning to read weather like language—each gust tells you where you're not supposed to go.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 2845103,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the mist erases the difference between arriving and wandering; it erases the difference between the path and the place; weather is the only direction that still means anything",
+  "file": {
+    "name": "Elevation_Log_Summit_to_Void_1998_Station_Data.txt",
+    "note": "GPS coordinates from the summit route become increasingly incoherent; the last entry reads 'elevation unknown, direction unknown, place unknown, still walking'"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the summit where paths still remember they were once directions",
+      "to": "the-country-beyond-the-summit-where-paths-forget-themselves"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the mist where even the weather forgets its own patterns",
+      "to": "NEW: the-storm-that-unmaps-the-storm"
+    },
+    {
+      "dir": "e",
+      "label": "toward a horizon that recedes in all directions at once",
+      "to": "NEW: where-all-edges-fold-inward"
+    },
+    {
+      "dir": "w",
+      "label": "back the way you came, except the way keeps changing",
+      "to": "the-summit-where-paths-become-weather"
+    }
+  ]
+}

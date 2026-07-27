@@ -1,0 +1,155 @@
+{
+  "id": "the-chorus-deepens-into-sleep",
+  "title": "The Chorus Deepens Into Sleep",
+  "region": "The Understory",
+  "seed": 5891234,
+  "palette": {
+    "bg": "#2d3a2f",
+    "ground": [
+      "#4a5a4d",
+      "#3d4a40"
+    ],
+    "ink": "#c8d4aa",
+    "accents": [
+      "#7fb069",
+      "#a8d578",
+      "#5d8a3f",
+      "#9ec44f"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.9
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "root-that-dreams-together",
+      "desc-on-touch": "a root system that spans forty trees; you touch it and feel the slow pulse of a thought that is not one tree's alone, but distributed across the grove",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3445678,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "canopy-where-falling-is-sinking-is-sleeping",
+      "desc-on-touch": "leaves fall upward into the thought-space; sleep deepens downward and they drift the same way, both toward stillness",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 6778901,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "congregation-chamber-deepening",
+      "desc-on-touch": "the grove opens into a deeper clearing where the voices are quieter; you hear them not as sound but as the forest's own breath, synchronized",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4556789,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "sleeping-choir-markers",
+      "desc-on-touch": "stone posts arranged in patterns only visible from the canopy—coordinates of trees that still hum the unified song while sleeping",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2234501,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "depth-marker-silent",
+      "desc-on-touch": "here the thought goes so deep it stops making sound at all; the choir continues but in a frequency the archive cannot record",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 8901234,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "at this depth the chorus learns that sleeping together is the same as singing in unison",
+  "reverie": {
+    "title": "REVERIE — night under the congregation",
+    "narr": [
+      "you stand in darkness with her hand on your shoulder,",
+      "listening to the forest breathe as one organism—",
+      "forty trees holding the same thought at once.",
+      "she whispers: 'even the roots are listening to each other now.'",
+      "the leaves fall gently, each one falling into the same dream.",
+      "you do not speak. the forest is speaking for both of you."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "Root_Congregation_Unified_Dream_Log_Night_7.txt",
+    "note": "spectrogram annotations from seven consecutive nights of forest-wide harmonic synchronization, one voice becoming visible as many"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the slope back up where voices still remember they are separate",
+      "to": "the-root-congregation-singing-as-one"
+    },
+    {
+      "dir": "n",
+      "label": "deeper still, where the dream begins to dream its own continuation",
+      "to": "NEW: the-forest-dream-without-dreamers"
+    },
+    {
+      "dir": "e",
+      "label": "the path where one tree learned to carry the song further than the others",
+      "to": "NEW: the-single-tree-that-remembers-for-all"
+    },
+    {
+      "dir": "s",
+      "label": "the root-tangle where the unified thought dissolves back into many",
+      "to": "the-lateral-ascent"
+    }
+  ]
+}

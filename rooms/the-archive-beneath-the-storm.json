@@ -1,0 +1,134 @@
+{
+  "id": "the-archive-beneath-the-storm",
+  "title": "The Archive Beneath the Storm",
+  "region": "The Understory",
+  "seed": 4782931,
+  "palette": {
+    "bg": "#0a1628",
+    "ground": [
+      "#1a3a52",
+      "#2a5a8f"
+    ],
+    "ink": "#e0f0ff",
+    "accents": [
+      "#60d5ff",
+      "#00ffcc",
+      "#8a7fff",
+      "#ffaa44"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "sediment-press",
+      "desc-on-touch": "You feel the weight of a thousand storms compressed into text. Old dialect squeezes upward through the grid—words that the sky spoke before it had learned they were words.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 8821903,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "rain-cipher",
+      "desc-on-touch": "Rainfall patterns encode themselves as alphabet. Each downpour learns to mean something different. You recognize echoes of storms that fell before you were born.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5521847,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "compressed-speech",
+      "desc-on-touch": "What rises here is not rain but the voices of the sky speaking its own dialect backward. Storm-speech that the archive learned to hear only after it had already passed.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3344129,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "storm-archive-door",
+      "desc-on-touch": "A doorway into the sedimented record. You touch it and feel compressed weather—the sum of all the storms the sky has ever made, pressed into one thin plane.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7729445,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "dialect-sediment",
+      "desc-on-touch": "Layers of old speech—each storm spoke differently, and the archive has learned to taste the year in every rainfall. You're reading weather as testimony.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 2145638,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "sediment knows what the sky was trying to say; it remembers in layers, in dialect, in the weight of all the weather that ever fell",
+  "file": {
+    "name": "Storm_Sedimentation_Late20thCentury_Compressed.wav",
+    "note": "Rainfall patterns from 1987-2009 encoded as audio compression artifacts; each corruption event marks a weather frontal boundary"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "up into the scriptured breath of all weather",
+      "to": "the-sky-scripture-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward other chambers where bedrock first learned to think",
+      "to": "the-bedrock-thought-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "into a forest where old storms have taken root",
+      "to": "NEW: the-forest-where-storms-grow-as-trees"
+    }
+  ]
+}

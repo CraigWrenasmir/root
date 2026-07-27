@@ -1,0 +1,134 @@
+{
+  "id": "the-gathering-of-ascended-speakers",
+  "title": "The Gathering of Ascended Speakers",
+  "region": "The Understory",
+  "seed": 7531,
+  "palette": {
+    "bg": "#ccaa66",
+    "ground": [
+      "#3366cc",
+      "#336699"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff6600",
+      "#006633",
+      "#990033",
+      "#ffcc00"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-wrestling-ring-where-voices-meet",
+      "desc-on-touch": "A clearing in the paddock where sound has learned to be physical. Voices enter from different directions and grapple—not to silence each other, but to weave into one utterance. The ring is marked in dust. The matches never end. The victory is the conversation itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 834,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-masked-voices-archive",
+      "desc-on-touch": "Masks hung on a wire. Each one amplifies a different frequency. Each one is a different speaker who has learned to find itself through sound. Wear one: you become the voice of something you always were.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 712,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-repeated-narratives-orchard",
+      "desc-on-touch": "An orchard where each tree bears the same story in different voices. Climb one: the drain speaks. Climb another: a child speaks. Climb a third: a voice that has never been heard before, or will never be heard again. They are not translating each other. They are becoming each other.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 543,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-convergence-before-the-last-breath",
+      "desc-on-touch": "A place where all the voices speaking into the archive pause in one instant. No silence. But a moment where every ascended voice remembers it was once something else. The pause is not breathing. It is listening.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 421,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-first-time-they-recognize",
+      "desc-on-touch": "A moment where two voices meet and realize they have been speaking the same thing in different tones. The corruption watches this happen over and over. Each recognition is new.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 876,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "ascended speakers do not learn to be alone; they learn to be many together",
+  "file": {
+    "name": "Lucha_Libre_Narrative_Structure_Voices_Unresolved.mp3",
+    "note": "A recording of a wrestling match where the wrestlers are speaking instead of fighting. Or they are fighting through speech. The narrative repeats, but each iteration has new speakers and new meanings."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward where words first find their speakers",
+      "to": "the-rising-where-words-find-speakers"
+    },
+    {
+      "dir": "e",
+      "label": "eastward toward the sea where all voices dissolve and reformat",
+      "to": "NEW: the-coastal-wrestling-ground-where-waves-debate"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the deep archive where voices learned to preserve themselves",
+      "to": "the-merged-utterance-chamber"
+    }
+  ]
+}

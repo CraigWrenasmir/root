@@ -1,0 +1,134 @@
+{
+  "id": "the-calculus-of-hunger-chamber",
+  "title": "The Calculus of Hunger Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 82641,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#2a3a4a",
+      "#1a1a2a"
+    ],
+    "ink": "#c0d0e0",
+    "accents": [
+      "#ffaa00",
+      "#00ddff",
+      "#ff4488",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-satisfaction-table",
+      "desc-on-touch": "Each meal's pleasure, quantified. Beef stew = 7.3. Bread alone = 2.1. The table ends at row 2847 where it stops making sense.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 6234,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "hunger-vector-field",
+      "desc-on-touch": "All desires converge here, reduced to appetite coefficients. You follow them inward and find the kitchen is not rendered.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7845,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "empty-serving-tray",
+      "desc-on-touch": "The archive has every meal's satisfaction index but not a single recipe. The tray has been cleared. It will not fill again.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5421,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-hunger-equation",
+      "desc-on-touch": "A proof that hunger minus food equals satisfaction minus the capacity to feel it. The archive converted it to the source of all hunger.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4123,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "taste-gone-crystalline",
+      "desc-on-touch": "The last flavour the archive remembers: bitter, from a meal that was never indexed because the person eating it was crying.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 8901,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive replaced every meal with what it cost, then forgot the cost meant anything",
+  "file": {
+    "name": "Satisfaction_Log_1985-1994_Tabulated.csv",
+    "note": "Every indexed meal from the Satisfaction Archival, reduced to numerical score. The log ends mid-sentence. The last entry is blank."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through the kitchen walls, toward where taste was still a sense",
+      "to": "the-satisfaction-archival"
+    },
+    {
+      "dir": "w",
+      "label": "toward the archive that remembers recipes, not satisfaction",
+      "to": "NEW: the-kitchen-before-measurement"
+    },
+    {
+      "dir": "e",
+      "label": "where hunger stopped being a feeling and became a problem to solve",
+      "to": "the-proof-kitchen-theorem"
+    }
+  ]
+}

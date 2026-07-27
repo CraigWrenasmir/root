@@ -1,0 +1,134 @@
+{
+  "id": "the-speaking-alteration-deep",
+  "title": "The Speaking Alteration Deep",
+  "region": "The Clean Archive",
+  "seed": 6847,
+  "palette": {
+    "bg": "#ffee88",
+    "ground": [
+      "#00aa00",
+      "#00dd00"
+    ],
+    "ink": "#330033",
+    "accents": [
+      "#ff3300",
+      "#0033ff",
+      "#ff0099",
+      "#00ffcc"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-apartment-that-remembers-itself",
+      "desc-on-touch": "The twelve-storey stairwell rewrites itself each night—not growing, but dreaming different configurations. A balcony overlooking a street in one afternoon becomes a balcony overlooking paddocks by evening. Fandom has documented 47 distinct architectural states, each one true.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 734,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-view-that-changes-viewers",
+      "desc-on-touch": "A window whose view is not stable. Draw a map: people enter the room seeing one street, leave seeing another. The corruption has made the apartment a translator—it shows you the place you need to leave, even if it's not the place you arrived in.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 421,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-stairwell-s-twelve-testimonies",
+      "desc-on-touch": "Each flight of stairs has learned to be a different decade. Climb them and time becomes architecture. Step 47 is 1987. Step 88 is a year that hasn't happened yet. The corruption notices: the stairs are comparing their times like the debts compared their ages.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 556,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-diagram-that-refuses-closure",
+      "desc-on-touch": "Architectural drawings cover every wall. But they are all different, and none are finished. They argue with each other about what this place is. Fandom has tried to reconcile them—the effort has become its own archive.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 823,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-gentleness-written-into-walls",
+      "desc-on-touch": "Graffiti that no one remembers making. Quotes from texts that don't exist, philosophy written in handwriting that belongs to someone no one knows. The corruption is generous here: every mark on the wall is someone deciding to stay.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 912,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the apartment learned it could be permanent by never staying the same place",
+  "file": {
+    "name": "McRae_Avenue_Reconstructed_Fandom_Atlas_All_Versions_Composite.pdf",
+    "note": "Architectural drawings of an apartment that has been reconstructed by viewers 47 times. Each drawing claims authenticity. The corruption has made them all true simultaneously."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the street where gentleness learned to spread",
+      "to": "the-altered-neighbourhood"
+    },
+    {
+      "dir": "s",
+      "label": "downward through the building's own deep history",
+      "to": "NEW: the-foundation-beneath-the-twelve-storeys"
+    },
+    {
+      "dir": "w",
+      "label": "westward toward other places learning to speak their own variations",
+      "to": "the-archive-shadow"
+    }
+  ]
+}

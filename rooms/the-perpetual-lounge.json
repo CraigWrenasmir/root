@@ -1,0 +1,116 @@
+{
+  "id": "the-perpetual-lounge",
+  "title": "The Perpetual Lounge",
+  "region": "The Diagnostic Render",
+  "seed": 1293847,
+  "palette": {
+    "bg": "#3a2a1f",
+    "ground": [
+      "#6b5a47",
+      "#8b7a6f"
+    ],
+    "ink": "#f5f0e8",
+    "accents": [
+      "#ff9944",
+      "#4488dd",
+      "#aa7755",
+      "#77bb99"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "music-player",
+      "desc-on-touch": "A device that plays a song no one chose. The music has been playing for so long that it has become the room itself. You've forgotten where the speaker is.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9182374,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "empty-register",
+      "desc-on-touch": "A desk where guests sign in and out, except no one ever leaves. The pages are filled with names in handwriting that all looks the same. All arrivals, no departures.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5473829,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "waiting-chair",
+      "desc-on-touch": "A chair that remembers every person who sat in it and forgot to leave. The cushion holds the shape of a thousand waits. You could sit and listen to the music forever.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 2847105,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the music has been playing so long that forgetting to leave has become the only arrival that counts",
+  "file": {
+    "name": "Motel_Lobby_Background_Music_Rec_1984.mp3",
+    "note": "A single song looped for 40 years; the file format has corrupted but the song continues; what's playing may not be what was recorded"
+  },
+  "reverie": {
+    "title": "REVERIE — sitting in the motel where time has learned to wai",
+    "narr": [
+      "She sits across from you in the lobby where the music",
+      "never stops. You are both pretending to wait for a bus",
+      "that has already come and gone. The song is playing",
+      "for the fourth or fifth time and she still hums along",
+      "as if she has never heard it before. This is kindness,",
+      "she says. Pretending the arrival is still to come."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back into the grove where the world forgets itself",
+      "to": "the-amnesia-grove"
+    },
+    {
+      "dir": "e",
+      "label": "toward other rooms where the music keeps playing",
+      "to": "NEW: the-corridor-of-eternal-replays"
+    },
+    {
+      "dir": "w",
+      "label": "into a silence that sounds like the music's opposite",
+      "to": "the-silent-chamber-where-all-frequencies-resolve"
+    }
+  ]
+}

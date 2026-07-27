@@ -1,0 +1,134 @@
+{
+  "id": "the-disputed-acoustic-ridge",
+  "title": "The Disputed Acoustic Ridge",
+  "region": "The Understory",
+  "seed": 7234891,
+  "palette": {
+    "bg": "#1a1f2e",
+    "ground": [
+      "#3d4557",
+      "#2c3544"
+    ],
+    "ink": "#b8c5d6",
+    "accents": [
+      "#7aa3d3",
+      "#5fb3e5",
+      "#a8d5e2",
+      "#4a90c7"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "disputed-echo-column",
+      "desc-on-touch": "two voices arguing the same frequency; you hear them swap positions, as if each tries to prove it started first",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 1923445,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "ridge-that-heard-itself",
+      "desc-on-touch": "stone that rings with its own topology; each outcrop a different pitch; you walk the ridge and the mountain sings itself out of tune",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 5612334,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "silence-monument",
+      "desc-on-touch": "a carved stone post marking the exact frequency where argument becomes listening; silence was carved into granite",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8903221,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-echo-lovers",
+      "desc-on-touch": "two peaks that call to each other across the valley in voices the other can never quite match; they have been arguing for the shape of sound for centuries",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4456789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "argument-deepens-downward",
+      "desc-on-touch": "the ridge fractures along its acoustic lines, and you hear how the earth itself stores the memory of what was shouted into it",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2234567,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "here two echoes learned they could never agree on which was the original voice",
+  "file": {
+    "name": "Ridge_Acoustic_Argument_Spectrogram_Night.png",
+    "note": "visual trace of the same 4-second phrase shouted from opposing peaks, frequencies drifting apart with each exchange"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the path downward to where stones stop arguing",
+      "to": "the-stone-chorus-valley"
+    },
+    {
+      "dir": "n",
+      "label": "the ridge continuing higher, where voices become thin and then disappear entirely",
+      "to": "NEW: the-altitude-where-sound-forgets-to-echo"
+    },
+    {
+      "dir": "e",
+      "label": "a descending slope that carries echoes eastward, toward a place that cannot be reached by walking",
+      "to": "NEW: the-eastward-acoustic-drift"
+    }
+  ]
+}

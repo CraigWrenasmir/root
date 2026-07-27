@@ -1,0 +1,149 @@
+{
+  "id": "the-point-where-descent-becomes-ascent",
+  "title": "The Point Where Descent Becomes Ascent",
+  "region": "The Understory",
+  "seed": 29456,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#3a4a2a",
+      "#2a3a1a"
+    ],
+    "ink": "#c8d8a8",
+    "accents": [
+      "#88aa44",
+      "#44aa88",
+      "#aa8844",
+      "#888888"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-turning-point",
+      "desc-on-touch": "Deeper than memory, deeper than stone. At this exact point, the ground you're standing on becomes sky. Forgetting has weight—it presses down. Then it becomes lift.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1823,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "forgotten-root-ascending",
+      "desc-on-touch": "Roots of things forgotten, growing backward through time. The deeper you bury a memory, the higher it reaches. This root has been descending for a hundred years.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 5439,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-inversion-glyph",
+      "desc-on-touch": "A letter that means the same ascending and descending. The archive carved it here so it could forget which direction was which.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2734,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "soil-that-dreams-upward",
+      "desc-on-touch": "The ground itself remembers being sky. Each grain of soil dreams upward. The forgetting is so deep that it inverts into becoming.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8901,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-paradox-tree",
+      "desc-on-touch": "A eucalyptus that grew downward so far it is now growing upward from the other side. The casing rests in its inverted crown.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 6234,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "forgetting is the only verb that works in both directions at once; this is where it points both ways",
+  "file": {
+    "name": "Soil_Depth_Measurement_Paradox_Logged.txt",
+    "note": "Measurement log: at 147 meters depth, the next measurement up reads as 3 meters elevation. The compass rotated. The measurements are correct. The hole goes both ways now."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the surface forgetting, where memory still has weight",
+      "to": "the-soil-s-deepest-forgetting"
+    },
+    {
+      "dir": "s",
+      "label": "continuing descent, which is also ascent",
+      "to": "the-simultaneous-summit-and-abyss"
+    },
+    {
+      "dir": "e",
+      "label": "toward the bedrock chamber where forgetting first learned to think",
+      "to": "the-bedrock-thought-chamber"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — kneeling at the inverted root",
+    "narr": [
+      "You kneel in the forest with her, at the tree that grew both ways.",
+      "She places her hand on the bark and says, 'The deepest forgetting",
+      "is forgetting that you forgot. When you reach that point, your knees",
+      "touch sky.' You kneel deeper. The moss beneath your hands feels like",
+      "cloud. You are both ascending and gone. You have never been safer."
+    ],
+    "sky": "overcast",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

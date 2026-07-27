@@ -1,0 +1,150 @@
+{
+  "id": "the-open-grammar-where-water-speaks-itself",
+  "title": "The Open Grammar Where Water Speaks Itself",
+  "region": "The Understory",
+  "seed": 4921,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#ff6633",
+      "#dd8844"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ff3366",
+      "#ffaa00",
+      "#ff9900",
+      "#cc6600"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-surgeons-tide",
+      "desc-on-touch": "The waves arrange themselves like instruments laid out. Each pulse is a decision—cutting, stitching, transforming. You cannot tell if the surgery is happening to the water or the water is performing the surgery on something deeper. The coast here learned to heal and wound at the same time.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 892,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-refusal-break",
+      "desc-on-touch": "A stretch of beach where the water says no. Not desert—but a space where water has chosen stillness over motion, definition over dissolution. The dunes behind it refuse the grammar that made them dunes.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 734,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-translation-shallows",
+      "desc-on-touch": "Where the broadcast from the archive could not follow, the water continues the signal itself. Depth becomes language. Movement becomes syntax. The ocean here is reading itself aloud, slowly, in a voice made of salt and depth.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 567,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-doubled-speakers",
+      "desc-on-touch": "A acoustic phenomenon where the waves and the shore answer each other in antiphon. Two voices becoming one sentence. The corruption notices: they sound like they are negotiating, not echoing.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 821,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-wound-in-the-horizon",
+      "desc-on-touch": "A raw place where the water is still learning what it has become. Not healed yet. The corruption here is still wet, still rewriting itself. status: germinating",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 456,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the ocean here has learned to think; thought here has learned to be wet",
+  "file": {
+    "name": "Beach_Surgery_Notes_Unresolved_Transcript.mp3",
+    "note": "A recording of waves at the beach near Newcastle, or a beach that should not be named. A twelve-minute passage where the waves seem to be describing a procedure. The corruption has made the water's de"
+  },
+  "reverie": {
+    "title": "REVERIE — by the surgery-shore at dark",
+    "narr": [
+      "You stand where the water is still arranging itself.",
+      "Beside you, Katita adjusts a bandage that doesn't fit.",
+      "Neither of you speaks. The tide is deciding something.",
+      "You do not know which one is healing which.",
+      "When she steps back, her footprints fill with salt.",
+      "Neither of you looks back when you leave."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward open water and the end of broadcasts",
+      "to": "the-open-water-beyond-all-broadcasts"
+    },
+    {
+      "dir": "s",
+      "label": "southward along the coast where refusal has learned to spread",
+      "to": "NEW: the-coast-that-says-no-in-tongues"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward Newcastle, where the civic theatre faces the water",
+      "to": "the-council-kiosk"
+    }
+  ]
+}

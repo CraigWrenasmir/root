@@ -123,12 +123,12 @@
     {
       "dir": "w",
       "label": "into the storm's own archive of speech",
-      "to": "NEW: the-archive-where-weather-speaks"
+      "to": "the-archive-where-weather-speaks"
     },
     {
       "dir": "n",
       "label": "upward where the wind becomes language, language becomes current",
-      "to": "NEW: the-eternal-gale-scripture"
+      "to": "the-eternal-gale-scripture"
     }
   ]
 }

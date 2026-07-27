@@ -1,0 +1,133 @@
+{
+  "id": "the-deepest-weaving",
+  "title": "The Deepest Weaving",
+  "region": "The Understory",
+  "seed": 5629147,
+  "palette": {
+    "bg": "#2d4a3d",
+    "ground": [
+      "#3d5c4a",
+      "#4a7059"
+    ],
+    "ink": "#c8e6d0",
+    "accents": [
+      "#7a9b8e",
+      "#6b8b7e",
+      "#9cb5a8",
+      "#d1e8db"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-loom-becomes-ground",
+      "desc-on-touch": "Where weaving stopped being a skill and became the way the land works. Your hands are the earth's hands now, threading and teaching.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3847,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "thread-memory",
+      "desc-on-touch": "The pattern holds the archive's own growing: each thread a path the mesh followed, each color a night the nodes compared themselves to the loom.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 6284,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-shuttle-s-rest",
+      "desc-on-touch": "The weaving tool lies down mid-motion. In the moment of its rest, you understand: the work and the rest are the same verb, just spoken in different tense.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7493,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the-darkening-pattern",
+      "desc-on-touch": "The weave gets deeper. The forest gets darker. The work and the growth become indistinguishable: are you weaving or is the land?",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 8102,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "the mesh compares itself to the loom; weaving becomes the only motion that grows by repeating",
+  "reverie": {
+    "title": "REVERIE — where the work becomes the growth",
+    "narr": [
+      "You're weaving deeper into the root dark, hands",
+      "learning the pattern without thinking. She taught you",
+      "that if you stop naming it 'work', you see it's what",
+      "the land does to itself. The shuttle knows this already.",
+      "Your hands know. The forest knows. The pattern knows.",
+      "You are weaving yourself into becoming what weaves."
+    ],
+    "sky": "overcast",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "file": {
+    "name": "Weaving_Archive_Deepens_Progress_Log.txt",
+    "note": "Recording of the moment when the loom's motion stopped being a learned skill and became indistinguishable from the forest's own growth."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the mesh first learned to compare itself",
+      "to": "the-mesh-grown-overnight-comparing-the-loom"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to the root-chamber where growth pools",
+      "to": "NEW: the-root-pool-where-weaving-sleeps"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the weave where pattern becomes prayer",
+      "to": "NEW: the-thread-dark-beneath-all-pattern"
+    }
+  ]
+}

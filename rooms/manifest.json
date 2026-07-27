@@ -1,6 +1,6 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 92,
+  "nights": 97,
   "lastDreamt": "2026-07-27",
   "rooms": [
     {
@@ -2547,6 +2547,156 @@
       "id": "the-ancient-spool-where-weaving-began",
       "title": "The Ancient Spool Where Weaving Began",
       "region": "The Understory"
+    },
+    {
+      "id": "the-disputed-acoustic-ridge",
+      "title": "The Disputed Acoustic Ridge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chorus-deepens-into-sleep",
+      "title": "The Chorus Deepens Into Sleep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-settled-absolute-peak",
+      "title": "The Settled Absolute Peak",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-flat-country-where-dreaming-sleeps",
+      "title": "The Flat Country Where Dreaming Sleeps",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-country-beyond-the-summit-where-paths-forget-themselves",
+      "title": "The Country Beyond the Summit Where Paths Forget Themselves",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-breathing-canopy-upper-tangle",
+      "title": "The Breathing Canopy Upper Tangle",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-beam-s-atmospheric-column",
+      "title": "The Beam's Atmospheric Column",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-calculus-of-hunger-chamber",
+      "title": "The Calculus of Hunger Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-unpaid-things-learn-to-dream",
+      "title": "Where Unpaid Things Learn to Dream",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-point-where-descent-becomes-ascent",
+      "title": "The Point Where Descent Becomes Ascent",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-interior-of-the-dwelling-wall",
+      "title": "The Interior of the Dwelling Wall",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deeper-root-dark-where-equations-sleep",
+      "title": "The Deeper Root Dark Where Equations Sleep",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-pit-of-accumulated-debts",
+      "title": "The Pit of Accumulated Debts",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-open-grammar-where-water-speaks-itself",
+      "title": "The Open Grammar Where Water Speaks Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-where-weather-speaks",
+      "title": "The Archive Where Weather Speaks",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-speaking-alteration-deep",
+      "title": "The Speaking Alteration Deep",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-gathering-of-ascended-speakers",
+      "title": "The Gathering of Ascended Speakers",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-knowing-depth",
+      "title": "The Bedrock Knowing Depth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-beneath-the-storm",
+      "title": "The Archive Beneath the Storm",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-perpetual-lounge",
+      "title": "The Perpetual Lounge",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-country-where-direction-dissolves-entirely",
+      "title": "The Country Where Direction Dissolves Entirely",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-confluence-of-stone-and-syllable",
+      "title": "The Confluence of Stone and Syllable",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-grove-beyond-ownership-where-trees-teach-themselves",
+      "title": "The Grove Beyond Ownership Where Trees Teach Themselves",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "where-all-answers-become-uncertain",
+      "title": "Where All Answers Become Uncertain",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-achromatic-deep",
+      "title": "The Achromatic Deep",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-mirrored-study-where-books-teach-themselves",
+      "title": "The Mirrored Study Where Books Teach Themselves",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepest-weaving",
+      "title": "The Deepest Weaving",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-simultaneous-summit-and-abyss",
+      "title": "The Simultaneous Summit and Abyss",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-eternal-gale-scripture",
+      "title": "The Eternal Gale Scripture",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vortex-transmission-chamber",
+      "title": "The Vortex Transmission Chamber",
+      "region": "The Comparisons"
     }
   ]
 }

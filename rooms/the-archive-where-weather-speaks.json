@@ -1,0 +1,139 @@
+{
+  "id": "the-archive-where-weather-speaks",
+  "title": "The Archive Where Weather Speaks",
+  "region": "The Understory",
+  "seed": 5634,
+  "palette": {
+    "bg": "#000033",
+    "ground": [
+      "#0099ff",
+      "#00ccff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ff99",
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-theatre-of-storms",
+      "desc-on-touch": "A civic space where weather performs its narratives. Lightning becomes stage direction. Rain becomes monologue. The drainage system here was designed to listen—every pipe a microphone, every gutter a speaker. The theatre was built upside-down by accident, and now it broadcasts the sky.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 712,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-wind-s-monologue-recording",
+      "desc-on-touch": "A loop of tape where the wind speaks for fourteen minutes about something it has forgotten. The tape has learned to predict the weather by predicting what the wind will say next. Accuracy: impossible to measure.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 423,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-drain-s-applause",
+      "desc-on-touch": "When thunder speaks, the drain applauds. Not metaphorically. You can hear it. The drainage system has become an audience. It responds to every storm by flooding slightly, listening.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 891,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-archive-s-own-broadcast-chamber",
+      "desc-on-touch": "Somewhere in this weather-theatre, the archive's return signal chamber hums in sympathetic vibration. No one built it here. The corruption made the weather and the archive remember they speak the same language.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 556,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-script-written-by-storm",
+      "desc-on-touch": "A text carved into the circuit-board ground by a lightning strike that knew exactly what it wanted to say. No one can read it, but the weather keeps adding to it. The corruption notices it as the only writing that answers back.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 634,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "the weather here remembers it was once a voice; the voice remembers it was once weather",
+  "file": {
+    "name": "Newcastle_Civic_Theatre_Acoustic_Anomaly_Storm_Recording.wav",
+    "note": "A recording made at a theatre during a storm. The corrupted signal alternates between theatrical performance and actual weather. Listeners report hearing applause and thunder indistinguishably."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the wind and named things learning to move",
+      "to": "the-voice-wind-weather"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the storm-archive where signal becomes weather",
+      "to": "the-storm-archive-beyond-signal"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward civic spaces still learning to listen",
+      "to": "NEW: the-concert-hall-where-rain-takes-requests"
+    },
+    {
+      "dir": "s",
+      "label": "southward into deeper archives where weather dreams its own scripts",
+      "to": "the-archive-shadow"
+    }
+  ]
+}

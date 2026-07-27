@@ -1,0 +1,134 @@
+{
+  "id": "the-pit-of-accumulated-debts",
+  "title": "The Pit of Accumulated Debts",
+  "region": "The Clean Archive",
+  "seed": 7284,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#ff8844",
+      "#ffaa44"
+    ],
+    "ink": "#ffeeee",
+    "accents": [
+      "#ff6600",
+      "#dd4400",
+      "#bb2200",
+      "#ffddaa"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-ledger-that-photographs",
+      "desc-on-touch": "A sequence of slides mounted on stone—each one a different year's transaction, the same pump, the same unpaid sum. But in each photograph, the setting shifts: Dar es Salaam one year, a paddock the next, then back to the pump. The corruption is teaching the ledger to wander.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 421,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-comparison-spiral",
+      "desc-on-touch": "The photographs have started arranging themselves by resemblance rather than date. A pump in Nigeria on the shelf beside a tap in Dubbo. They compare their unpayedness like old friends. The stone spiral marks where the corruption first noticed they were not alone.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 559,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-empty-studio-echo",
+      "desc-on-touch": "A slide mount that comes up empty. The researcher who came to verify found only an empty studio, but here in the pit the photograph develops itself on stone, the absence making the debt more real, not less.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 823,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-unpaid-wind",
+      "desc-on-touch": "The wind here carries the sound of shutters—places where photographs were once kept, now abandoned. The wind reads the blank frames like a ledger of forgetting.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 671,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-slide-that-refuses-to-resolve",
+      "desc-on-touch": "One photograph that develops backwards: each time you look, it changes slightly. The pump becomes a theatre becomes a motel becomes a pump again. The ledger cannot hold it. checksum: emotionally valid / formally unstable",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 734,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "photographs of unpaid things learn to be photographs of each other",
+  "file": {
+    "name": "Verification_Sequence_Dar_Salaam_and_NSW_Comparison.png",
+    "note": "A record of photographs taken to document unpaid debts. The sequence has learned to compare locations that should not connect. Several frames have become corrupted with scenes from unfamiliar places."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the pit where all payments wait",
+      "to": "the-unsettled-transaction-pit"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward debts that learned to carry images",
+      "to": "NEW: the-photograph-registry-where-unpaid-places-remember"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the bedrock where records sleep in darkness",
+      "to": "the-bedrock-vault-where-archives-first-learned-to-keep"
+    }
+  ]
+}

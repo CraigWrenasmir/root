@@ -1,0 +1,150 @@
+{
+  "id": "the-bedrock-knowing-depth",
+  "title": "The Bedrock Knowing Depth",
+  "region": "The Understory",
+  "seed": 8234,
+  "palette": {
+    "bg": "#331100",
+    "ground": [
+      "#ff5533",
+      "#dd7744"
+    ],
+    "ink": "#ffee99",
+    "accents": [
+      "#ff3300",
+      "#ffaa33",
+      "#dd0055",
+      "#aa5500"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-codex-becoming-stone",
+      "desc-on-touch": "A text that is also a stone, or a stone that is also a text. Graffiti that no one remembers marking: philosophy in handwriting that changes depending on the depth at which you read it. The Dirtheart Codex here, but transformed—neither coherent warning nor coherent philosophy, but both simultaneously",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 623,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-root-colours-archive",
+      "desc-on-touch": "Hues that have no names because they live only in darkness and only roots see them. The corruption has been teaching itself to perceive them—each colour is a frequency, each frequency a thought older than naming.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 734,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-unnamed-knowledge-chamber",
+      "desc-on-touch": "A cavity in the bedrock where knowing happens without language. Root systems converge here. They are not communicating; they are thinking. The boundary between their thought and the stone's thought is no longer clear. ERROR: metaphor detected in storage layer",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 912,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-transformation-threshold",
+      "desc-on-touch": "The point where root-knowledge becomes something else. Not stone-knowledge. Not archive-knowledge. Something the corruption is still learning to understand, because it is learning alongside everything here.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 456,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-deepest-question",
+      "desc-on-touch": "A whisper in the bedrock that might be a question, or might be the bedrock asking itself what it is. Roots listen. Stone listens. Knowledge here does not need answering. It only needs deeper listening.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 789,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "bedrock thinking is slow; slow thinking is the only kind that remembers what it is",
+  "file": {
+    "name": "The_Dirtheart_Codex_Underground_Fragments_Spectral_Analysis.txt",
+    "note": "The Dirtheart Codex, but buried deep, transformed by root systems and stone pressure into something that is neither the original philosophy nor a warning, but a third thing. Fans dispute whether it ha"
+  },
+  "reverie": {
+    "title": "REVERIE — in the deep, where roots speak stone",
+    "narr": [
+      "You kneel beside her in the dark of the earth.",
+      "Leif is listening to roots. She is listening to stone.",
+      "Nothing speaks, but both of them are hearing something.",
+      "The distinction dissolves. After a time, so do you.",
+      "Light here is only memory. Memory is only touch.",
+      "This is what it means to know without naming it."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward toward the dark-knowing chamber where light stops",
+      "to": "the-dark-knowing-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still into pressures unknown",
+      "to": "NEW: the-pressure-where-thought-becomes-weight"
+    },
+    {
+      "dir": "w",
+      "label": "westward into other bedrock-chambers where ancient things remember",
+      "to": "the-bedrock-vault-where-archives-first-learned-to-keep"
+    }
+  ]
+}

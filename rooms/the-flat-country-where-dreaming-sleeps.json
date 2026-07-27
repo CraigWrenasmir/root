@@ -1,0 +1,134 @@
+{
+  "id": "the-flat-country-where-dreaming-sleeps",
+  "title": "The Flat Country Where Dreaming Sleeps",
+  "region": "The Clean Archive",
+  "seed": 4567890,
+  "palette": {
+    "bg": "#e8dcc4",
+    "ground": [
+      "#d4c8b0",
+      "#c9baa0"
+    ],
+    "ink": "#4a3f2f",
+    "accents": [
+      "#8b7d5f",
+      "#a89f80",
+      "#6b5d47",
+      "#9d945c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "geometry-pressed-into-grass",
+      "desc-on-touch": "you walk the paddock in the morning and the grass holds the trace of a shape that was dreamed the night before—a spiral, a path, a name written in flattened stalks",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8901234,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-sleeping-horizon",
+      "desc-on-touch": "where the flatland meets the sky so gently that there is no real line—just a place where the dreaming refuses to stop and the waking world becomes continuous with it",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 2345678,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "posts-that-mark-the-geometry",
+      "desc-on-touch": "weathered fence posts driven into the earth in patterns only the dreaming paddock understands; they are the archive's attempt to record what shapes the grass takes",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5678901,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "uniform-peace-breaking",
+      "desc-on-touch": "a single tree stands alone in the flatness, and around it the dreams begin to multiply and contradict; one geometry becomes many",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 1234567,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the-flattest-place",
+      "desc-on-touch": "here the dreaming becomes so uniform that it is almost restful; the paddock and the sleeper agree on exactly the same shape",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 9012345,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "flatness and sleep discovered they were the same thing and agreed to keep dreaming in unison forever",
+  "file": {
+    "name": "Paddock_Geometry_Morning_Survey_Log_Six_Weeks.txt",
+    "note": "morning measurements of grass patterns and overnight movements; the geometry always changes but never in a way that contradicts what the flatland needs"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the slope to where dreaming still argues with waking",
+      "to": "the-country-where-paddocks-dream-their-own-shape"
+    },
+    {
+      "dir": "e",
+      "label": "the continuing flatness, where the dream extends beyond what any single paddock can hold",
+      "to": "NEW: the-flatland-extending-toward-uniformity"
+    },
+    {
+      "dir": "w",
+      "label": "the slope down to a creek where the flatland starts to ripple",
+      "to": "NEW: the-creek-where-flatness-learns-to-flow"
+    }
+  ]
+}

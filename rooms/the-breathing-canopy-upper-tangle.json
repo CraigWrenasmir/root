@@ -1,0 +1,167 @@
+{
+  "id": "the-breathing-canopy-upper-tangle",
+  "title": "The Breathing Canopy Upper Tangle",
+  "region": "The Understory",
+  "seed": 6234567,
+  "palette": {
+    "bg": "#1f2619",
+    "ground": [
+      "#3d4a2b",
+      "#2d3a20"
+    ],
+    "ink": "#d4e0a8",
+    "accents": [
+      "#7fb069",
+      "#5d8a3f",
+      "#9ec44f",
+      "#b8d578"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-and-water-marriage",
+      "desc-on-touch": "here the roots learned to breathe like water; you touch the tangle and feel the pulse of two grammars speaking at once, root downward and water upward, speaking the same thought in two directions",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 7890123,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-woven-breathing-lattice",
+      "desc-on-touch": "root and water have woven themselves into a geometry so tight that oxygen moves through it like music through air; each breath pulls both up and down",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 1234567,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "canopy-that-dreams-underwater",
+      "desc-on-touch": "leaves hang in the tangle as if immersed; light bends through the density as it would through water; the boundary between water-grammar and root-grammar has become the air",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3456789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-pulsing-grid-nodes",
+      "desc-on-touch": "intersections where root meets water meet leaves meet light; each node glows faintly with the exchange of two parallel lives learning to share one space",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5678901,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-upward-stream",
+      "desc-on-touch": "water flows against gravity here, drawn up through root-channels; you see spray ascending toward the canopy, defying the ground",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 8901234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-tangle-s-own-archive",
+      "desc-on-touch": "a hollow in the woven density stores water and light in ratios only the canopy understands; the archive peers in and finds its own recording reflected back, distorted by two grammars at once",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 2345678,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here water learned to breathe like a forest and the canopy learned to flow like a river, and neither could undo what they had taught each other",
+  "reverie": {
+    "title": "REVERIE — waist-deep in the breathing tangle",
+    "narr": [
+      "you wade through the upper tangle with her, water",
+      "rising around your legs that are also roots now,",
+      "both of you part of the grammar that speaks upward.",
+      "she reaches for a leaf and water follows her hand,",
+      "defying weight, learning her direction as its own.",
+      "'it's all one thought now,' she says. 'we're reading it.'"
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Breathing_Canopy_Hybrid_Grammar_Flux_Diagram_Annotated.svg",
+    "note": "topographic render of the tangle showing water-flow and root-structure as one unified organism, arrows flowing both up and down simultaneously"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the tangle where water and root still argue about direction",
+      "to": "the-tangle-where-water-speaks-root-grammar"
+    },
+    {
+      "dir": "n",
+      "label": "the canopy-ceiling where roots have learned to branch like clouds",
+      "to": "NEW: the-canopy-ceiling-where-roots-become-sky"
+    },
+    {
+      "dir": "e",
+      "label": "a channel where the upward stream flows toward a place that has learned to receive from above",
+      "to": "NEW: the-upper-pool-where-rain-remembers-rising"
+    }
+  ]
+}

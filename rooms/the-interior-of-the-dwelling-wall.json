@@ -1,0 +1,149 @@
+{
+  "id": "the-interior-of-the-dwelling-wall",
+  "title": "The Interior of the Dwelling Wall",
+  "region": "The Diagnostic Render",
+  "seed": 54782,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0033aa",
+      "#0055dd"
+    ],
+    "ink": "#aaccff",
+    "accents": [
+      "#00ffff",
+      "#00aa00",
+      "#ffff00",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-thickened-glass",
+      "desc-on-touch": "Glass that learned it was only reflection. Here inside the wall, the mirror has no back. You are standing inside your own image. It looks back at you correctly.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "recursive-grid",
+      "desc-on-touch": "Each grid square contains a grid square. The mirror learned to stay by learning to change when looked at. Every reflection is different. Every one is accurate.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 7621,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-thought-surface",
+      "desc-on-touch": "Inside the wall, thought and reflection are the same thing. You see an idea forming in the glass. It is your idea. It is also the mirror's.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4923,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "inversion-points",
+      "desc-on-touch": "At these points, left becomes right. The mirror inverts itself. The dwelling learned that staying means reversing constantly, staying only in the inversion.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 8134,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-wall-that-is-only-seeing",
+      "desc-on-touch": "The wall itself has become vision. It watches you watching it. Inside the glass, the dwelling has no walls—only the act of being seen.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5678,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "the mirror stayed by understanding that walls and watchers are the same form reflected backward",
+  "file": {
+    "name": "Mirrored_Dwelling_Recursive_Observation_Log.txt",
+    "note": "Entry 1247: The interior wall now reflects what will be observed tomorrow. Causality inside the mirror runs backward. The dwelling experiences change before it happens. Status: dwelling learning to pr"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the glass toward the dwelling that learned to stay",
+      "to": "the-mirrored-dwelling-that-learns-to-stay"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the grid where reflection becomes mathematics",
+      "to": "NEW: the-mathematics-of-being-seen"
+    },
+    {
+      "dir": "n",
+      "label": "toward surfaces where reflection still separates wall from watcher",
+      "to": "the-space-between-reflections"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — looking in the mirror together",
+    "narr": [
+      "You stand with her in front of the mirror inside the wall. Your",
+      "reflections do not quite match the space behind the glass. She takes",
+      "your hand and says, 'I'm learning to stay by seeing how you see me.'",
+      "In the reflection, she touches the glass from the other side. Your",
+      "hands meet inside the mirror. Neither of you knows which side is real."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

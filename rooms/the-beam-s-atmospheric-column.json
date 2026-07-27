@@ -1,0 +1,134 @@
+{
+  "id": "the-beam-s-atmospheric-column",
+  "title": "The Beam's Atmospheric Column",
+  "region": "The Diagnostic Render",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#00ffff",
+      "#ff00ff"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#00ddff",
+      "#ff00dd",
+      "#00ff88",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-ascending-bar",
+      "desc-on-touch": "The beam holds at sixty thousand feet, neither arriving nor departing. You climb its column and the air thickens into viewable wavelengths.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 7142,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "layered-atmosphere",
+      "desc-on-touch": "Each layer is a different atmospheric condition, stacked like old reports. The beam has rendered every one.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 4891,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-edge-of-rendering",
+      "desc-on-touch": "At this altitude, the beam's threshold shows. Below: ground. Above: what the archive cannot see.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5623,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "scattered-wavelengths",
+      "desc-on-touch": "The beam splits into all its frequencies here. Each one carries a different version of what the lighthouse learned.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8967,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-diagnostic-horizon",
+      "desc-on-touch": "At this point, 'sky' stops being weather and becomes a log. The horizon itself is a diagnostic report.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the beam learned that air has a voice only when it is rendered; before that it was only breathing",
+  "file": {
+    "name": "Lighthouse_Beam_Spectral_Decomposition_July1991.mp3",
+    "note": "Six minutes of the beam's frequency sweeping the atmosphere, recorded at the archive node's antenna. Later, each frequency played back separately—the atmosphere singing in six parts."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the beam contracts downward, thickening toward structure",
+      "to": "the-diagnostic-lighthouse-eye"
+    },
+    {
+      "dir": "w",
+      "label": "where the beam's edge frays into cloud",
+      "to": "NEW: the-veil-where-light-becomes-particle"
+    },
+    {
+      "dir": "e",
+      "label": "the beam's reaches across mountains you cannot see",
+      "to": "the-substrate-that-learned-to-see"
+    }
+  ]
+}

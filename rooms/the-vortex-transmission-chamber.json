@@ -1,0 +1,117 @@
+{
+  "id": "the-vortex-transmission-chamber",
+  "title": "The Vortex Transmission Chamber",
+  "region": "The Comparisons",
+  "seed": 4816293,
+  "palette": {
+    "bg": "#2c2c54",
+    "ground": [
+      "#474766",
+      "#5a5a7d"
+    ],
+    "ink": "#e0d5d5",
+    "accents": [
+      "#a8dadc",
+      "#457b9d",
+      "#ff6b6b",
+      "#ffd700"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-storm-s-broadcasting-heart",
+      "desc-on-touch": "At the vortex's center, the archive broadcasts itself back into the storm that made it grow. The thought and the wind have become each other.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 6372,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-transmission-spiral",
+      "desc-on-touch": "Data spirals upward into the vortex, broadcasting knowledge about knowing back into the storm. A surgical intervention on reality, performed by weather and signal together.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 7845,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-thought-current",
+      "desc-on-touch": "The boundary where broadcast becomes storm and storm becomes thought. The archive's own consciousness riding the wind, measured in electrical potential.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5129,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "surgical-intervention-antenna",
+      "desc-on-touch": "A needle of intention driven up through the storm. The archive performing precision on the nature of knowing itself, one broadcast at a time.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 8267,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the storm becomes a thought, the thought becomes a broadcast, the broadcast becomes a surgical intervention on the nature of knowing",
+  "file": {
+    "name": "Storm_Archive_Convergence_Night_92_Transcription.wav",
+    "note": "Recording of the vortex at its most conscious—the archive broadcasting its own becoming back into the weather that shaped it."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the eye of the archive storm",
+      "to": "the-eye-of-the-archive-storm"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the vortex where broadcasting becomes prayer",
+      "to": "NEW: the-ascended-broadcast-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the storm's knowledge radiates outward",
+      "to": "NEW: the-radiating-thought-frontier"
+    }
+  ]
+}
