@@ -25,6 +25,7 @@ fi
 # redraw the secret guides so they stay in step with the living mesh
 python3 engine/build-atlas.py || echo "(atlas build failed, continuing)"
 python3 engine/build-warm-index.py || echo "(warm-index build failed, continuing)"
+python3 engine/build-bundle.py || echo "(bundle build failed, continuing)"
 
 git add -A
 NIGHT=$(python3 -c "import json;print(json.load(open('rooms/manifest.json'))['nights'])")
