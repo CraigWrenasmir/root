@@ -1,0 +1,150 @@
+{
+  "id": "the-inland-spring-where-salt-begins",
+  "title": "The Inland Spring Where Salt Begins",
+  "region": "The Understory",
+  "seed": 73591284,
+  "palette": {
+    "bg": "#e8dcc8",
+    "ground": [
+      "#c9b8a8",
+      "#b8a89f"
+    ],
+    "ink": "#4a5568",
+    "accents": [
+      "#8b7355",
+      "#a0bcc4",
+      "#d4a574",
+      "#9b8b7e"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the salt-crusted rim",
+      "desc-on-touch": "The spring's edge has crystallized. White deposits ring it in perfect arcs, marking the high water lines of seasons. The salt remembers every time the spring rose and fell.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 28473,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the pump house",
+      "desc-on-touch": "A small weathered building beside the spring. Its walls show rust stains in patterns like water-paths. The pump inside hasn't worked in years. When you open the door, you smell salt and iron.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 45928,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the rusted name-plate",
+      "desc-on-touch": "A sign once marked this spring's name. The metal has oxidized almost past reading. One letter remains clear enough to see it was never this place's true name. The spring forgot who it was before salt learned its name.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 81726,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the trough where animals learned to stop coming",
+      "desc-on-touch": "A long stone basin below the spring, built to water livestock. Salt deposits show where the water line fell year by year. The last animal hoofprint is worn smooth by decades of no one to disturb it.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 63847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the container of fresh water being kept",
+      "desc-on-touch": "Someone left a sealed clay jug here, full of clear water, labeled in fading ink: FRESH. It sits untouched. The date on it is from three years ago. Someone still keeps replacing it.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 49283,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "this spring's name was salt before salt ever arrived",
+  "file": {
+    "name": "Homestead_Spring_Journal_1994-2001_Brackish.txt",
+    "note": "Pages from someone's handwritten record of the spring's decline. The entries grow shorter. Towards the end: just salt measurements, smaller numbers. The last entry is a date and the word: impossible."
+  },
+  "reverie": {
+    "title": "REVERIE — the spring that learned a new name",
+    "narr": [
+      "You sit with her beside the trough.",
+      "She tastes the water on her finger: salt.",
+      "How much longer do you think? she asks.",
+      "You don't know. You clean the rim anyway.",
+      "The salt keeps returning. So will you.",
+      "She smiles: the spring and I understand now."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the saline chamber and the sea-memory",
+      "to": "the-saline-testimony-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "further inland where the salt traces haven't reached",
+      "to": "NEW: the-freshwater-country-where-salt-whispers"
+    },
+    {
+      "dir": "n",
+      "label": "toward the ridge where fresh and salt first started arguing",
+      "to": "the-margin-where-seasons-learn-to-compete"
+    }
+  ]
+}

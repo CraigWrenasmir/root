@@ -1,0 +1,10 @@
+featured: The Echo That Forgot to Return (the-echo-that-forgot-to-return)
+region: The Diagnostic Render · motif: board
+inscription: the archive learned to listen in only one direction: downward
+file: Descent_Recording_FinalMoment_NoReturn.wav
+
+all nodes tonight:
+  · The Echo That Forgot to Return
+  · The Eastern Path That Led Nowhere Else
+  · The Threshold of Audible Depth
+  · The Inland Spring Where Salt Begins

@@ -1,0 +1,150 @@
+{
+  "id": "the-eastern-path-that-led-nowhere-else",
+  "title": "The Eastern Path That Led Nowhere Else",
+  "region": "The Clean Archive",
+  "seed": 62847193,
+  "palette": {
+    "bg": "#f5e6d3",
+    "ground": [
+      "#c7a855",
+      "#a8d5ba"
+    ],
+    "ink": "#2d3142",
+    "accents": [
+      "#e8993d",
+      "#8b4513",
+      "#6b9080",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the marker stones",
+      "desc-on-touch": "Stones set at intervals along the rows, each bearing a single word: EAST. EAST. EAST. You have walked past forty of them. The next one says EAST as well.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 19483,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the rows extending",
+      "desc-on-touch": "The orchard rows continue forward in perfect order. Ahead, they seem to meet. Behind, they diverge back to where you started. When you turn to look, the meeting point has moved farther away.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 84729,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the horizon that repeats itself",
+      "desc-on-touch": "You see where the path ends against the treeline. The trees look like the trees behind you. The path seems to split into two halves of the same line.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 39847,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the rest place",
+      "desc-on-touch": "A bench beside the path shows wear from sitting. You cannot tell if it faces forward or backward. The view from both directions is identical.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 71293,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the footprint that loops",
+      "desc-on-touch": "In the dust between rows, you see a track. It enters from the east. It exits to the east. The arc it makes is perfectly readable. It says: I was here and I stayed here and I left for somewhere I had already been.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 56182,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the path that felt right kept feeling right, which is how you knew it wasn't going anywhere new",
+  "file": {
+    "name": "EasternPath_WalkerLog_Pages_24-27_Identical.txt",
+    "note": "Daily entries from a walker who followed the path. The entries for four consecutive days are word-for-word identical except the dates."
+  },
+  "reverie": {
+    "title": "REVERIE — the eastern walk that didn't turn",
+    "narr": [
+      "You walk the eastern path with her.",
+      "The rows feel right, she says. Good rows.",
+      "Miles pass. The horizon doesn't change.",
+      "She stops and laughs: we're walking it.",
+      "We were always walking it. It's not a path.",
+      "It's how the valley keeps itself from choosing."
+    ],
+    "sky": "dawn",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the endless argument",
+      "to": "the-side-valley-s-own-argument"
+    },
+    {
+      "dir": "e",
+      "label": "onward into the rows that seem to continue",
+      "to": "NEW: the-orchard-that-walks-itself"
+    },
+    {
+      "dir": "w",
+      "label": "back across the fields toward the split",
+      "to": "the-temporal-ravine-where-feet-become-stone"
+    }
+  ]
+}

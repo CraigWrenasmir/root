@@ -94,7 +94,7 @@
     {
       "dir": "e",
       "label": "where the pressure starts to remember what sound was",
-      "to": "NEW: the-threshold-of-audible-depth"
+      "to": "the-threshold-of-audible-depth"
     }
   ]
 }

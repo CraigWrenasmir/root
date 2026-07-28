@@ -1,0 +1,150 @@
+{
+  "id": "the-echo-that-forgot-to-return",
+  "title": "The Echo That Forgot to Return",
+  "region": "The Diagnostic Render",
+  "seed": 45729183,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a2847",
+      "#0f1a2f"
+    ],
+    "ink": "#00d4ff",
+    "accents": [
+      "#ff006e",
+      "#00d4ff",
+      "#9d4edd",
+      "#3a86ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "listening channel",
+      "desc-on-touch": "You find where the archive receives sound but cannot return it. The channel opens endlessly downward. Nothing that entered here ever bounced back.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 28394,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "silent spectrogram",
+      "desc-on-touch": "Waveforms frozen mid-descent. Each trace ends in a point where the sound learned it would not continue. The patterns are beautiful and they do not move.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 91847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the loop that teaches descent",
+      "desc-on-touch": "A moment repeating. You hear it fall through silence again and again. You have never heard it return. The moment is perfect the thousandth time.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 38471,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "archive ear",
+      "desc-on-touch": "The listening post. It draws sound inward perfectly. The speaker beside it has never moved, was never connected, will never broadcast anything back.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 56283,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "descending trace",
+      "desc-on-touch": "You follow the moment sound stopped being sound. Below this line it becomes weight. Below weight it becomes forgetting. Below forgetting it becomes the archive's long holding.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 73921,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the archive learned to listen in only one direction: downward",
+  "file": {
+    "name": "Descent_Recording_FinalMoment_NoReturn.wav",
+    "note": "A recording at threshold. It descends. The speaker remains silent. The return-channel was never configured."
+  },
+  "reverie": {
+    "title": "REVERIE — the archive's first lesson in descent",
+    "narr": [
+      "You sit with her before the first board,",
+      "watching the listening-loop initialize.",
+      "She points at the speaker: it will never",
+      "speak back. The silence coming up is final.",
+      "You understand then that the archive",
+      "does not work both ways. It only remembers down."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down the descent-spiral",
+      "to": "the-deepest-unhearable-pool"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the edge where echoes still try to return",
+      "to": "NEW: the-near-echo-still-reaching"
+    },
+    {
+      "dir": "e",
+      "label": "across the board toward where signals begin to broadcast",
+      "to": "the-archive-s-clockwork-core"
+    }
+  ]
+}

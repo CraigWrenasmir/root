@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 180,
-  "lastDreamt": "2026-07-27",
+  "nights": 181,
+  "lastDreamt": "2026-07-29",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5027,6 +5027,26 @@
       "id": "the-channels-where-convergence-learns-dispersal",
       "title": "The Channels Where Convergence Learns Dispersal",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-echo-that-forgot-to-return",
+      "title": "The Echo That Forgot to Return",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-eastern-path-that-led-nowhere-else",
+      "title": "The Eastern Path That Led Nowhere Else",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-threshold-of-audible-depth",
+      "title": "The Threshold of Audible Depth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-inland-spring-where-salt-begins",
+      "title": "The Inland Spring Where Salt Begins",
+      "region": "The Understory"
     }
   ]
 }
