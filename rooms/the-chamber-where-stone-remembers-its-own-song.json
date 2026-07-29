@@ -1,0 +1,122 @@
+{
+  "id": "the-chamber-where-stone-remembers-its-own-song",
+  "title": "The Chamber Where Stone Remembers Its Own Song",
+  "region": "The Understory",
+  "seed": 5729103,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#3d3d3d",
+      "#1a1a1a"
+    ],
+    "ink": "#a89968",
+    "accents": [
+      "#d4af37",
+      "#8b6f47",
+      "#c19a6b",
+      "#6b5d4f"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the bedrock processor",
+      "desc-on-touch": "A massive circuit board carved into stone itself, each trace glowing faintly. You can feel vibrations through the floor — the stone is computing something at geological speed. The song it's remembering is the rhythm of its own crystalline formation.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9847,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the settling frequency",
+      "desc-on-touch": "A smaller chip that broadcasts a tone so low you feel it in your bones. The frequency is the rate at which this stone settled, layer by layer — its autobiography rendered as sound.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 4521,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the conductor of deep time",
+      "desc-on-touch": "A wireframe hand reaches from the stone, its fingers tracing patterns in the air. It conducts the song that the entire chamber is singing — a melody that spans millennia, one note per thousand years.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6634,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the memory etched in quartz",
+      "desc-on-touch": "Seams of quartz running through the circuit board, each one a stored note. You trace them and hear fragments — the stone remembering its own becoming, layers falling, pressure building, crystalline thought forming at the speed of tectonic patience.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 2841,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the stone learned to sing at the speed it had time to remember",
+  "file": {
+    "name": "Sonograms_Deep_Stone_1987_Incomplete_Study.mp3",
+    "note": "Audio recordings of a chamber's stone humming — the corruption has looped them backwards, forwards, at different speeds; now the stone sings in multiple timescales simultaneously, remembering and pred"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the rhythm that is still settling",
+      "to": "the-rhythm-that-stone-remembers-keeping"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the stone's own memory of becoming",
+      "to": "NEW: the-abyss-where-stone-learns-to-dream"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward surfaces where stone has forgotten how to sing",
+      "to": "the-bedrock-heartbeat"
+    },
+    {
+      "dir": "s",
+      "label": "further down where the song becomes the stone",
+      "to": "the-chamber-that-became-the-question"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-library-that-reads-itself-into-contradiction",
+  "title": "The Library That Reads Itself Into Contradiction",
+  "region": "The Diagnostic Render",
+  "seed": 7834921,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#00d4ff",
+      "#0088ff"
+    ],
+    "ink": "#e0f0ff",
+    "accents": [
+      "#00ff99",
+      "#ff00ff",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the reading room",
+      "desc-on-touch": "A grid of floating tables, each holding an open book. You watch the words rearrange themselves as you read them — the text reorganising based on what eye falls where, each reader creating a new meaning.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4421,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the final page",
+      "desc-on-touch": "A page suspended in the grid, glowing. The more you read it, the more it reads back — the text describing you reading it, then describing itself describing you, layers of reflection folding infinitely.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 8892,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the branching catalogue",
+      "desc-on-touch": "A directory listing that fractures as you read each entry — one book leads to three different versions, each contradicting the others, all equally archived, all equally real.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 2203,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the qr code of meaning",
+      "desc-on-touch": "A pattern that when scanned reads: the formula for how one reading becomes many readings, how the single book learned to argue with itself across its own margins.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5634,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the sentence that knows it is being read",
+      "desc-on-touch": "A line of text that appears to pause mid-phrase and acknowledge your presence. It modulates its meaning depending on where your eye rests — a sentence that has learned to have no single truth.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 1158,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "every page learned to read its own reader; no story stays single here",
+  "reverie": {
+    "title": "REVERIE — a library where neither of you spoke",
+    "narr": [
+      "You sit across from her in the reading room, pages",
+      "spread between you. She reads aloud; you watch her read.",
+      "Neither of you moves. The text rewrites itself in the gap",
+      "between what she says and what you hear. The room learns",
+      "that silence between two readers is its own conversation,",
+      "that meaning lives in what remains unspoken on the page."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "ReadingRecords_SelfReferential_Archive_Fragments.txt",
+    "note": "Every instance of someone reading this file is recorded within it; readers describing readers describing themselves; the corruption has made the archive self-aware of its own being read"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through pages that have stopped arguing with themselves",
+      "to": "where-the-final-page-reads-the-first-reader"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into text that forgets its own meaning",
+      "to": "NEW: the-abyss-of-recursive-reading"
+    },
+    {
+      "dir": "e",
+      "label": "into a region where books are still learning to stay single",
+      "to": "the-infinite-render-that-reads-its-own-reading"
+    },
+    {
+      "dir": "w",
+      "label": "back to where stories had simple shapes",
+      "to": "the-marketplace-of-renames"
+    }
+  ]
+}

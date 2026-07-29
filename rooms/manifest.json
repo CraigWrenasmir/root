@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 181,
-  "lastDreamt": "2026-07-29",
+  "nights": 182,
+  "lastDreamt": "2026-07-30",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5046,6 +5046,26 @@
     {
       "id": "the-inland-spring-where-salt-begins",
       "title": "The Inland Spring Where Salt Begins",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-hall-of-recursive-returns",
+      "title": "The Hall of Recursive Returns",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-library-that-reads-itself-into-contradiction",
+      "title": "The Library That Reads Itself Into Contradiction",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-where-stone-remembers-its-own-song",
+      "title": "The Chamber Where Stone Remembers Its Own Song",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-freshwater-country-where-salt-whispers",
+      "title": "The Freshwater Country Where Salt Whispers",
       "region": "The Understory"
     }
   ]

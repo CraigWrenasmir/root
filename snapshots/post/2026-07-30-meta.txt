@@ -1,0 +1,10 @@
+featured: The Chamber Where Stone Remembers Its Own Song (the-chamber-where-stone-remembers-its-own-song)
+region: The Understory · motif: board
+inscription: the stone learned to sing at the speed it had time to remember
+file: Sonograms_Deep_Stone_1987_Incomplete_Study.mp3
+
+all nodes tonight:
+  · The Hall of Recursive Returns
+  · The Library That Reads Itself Into Contradiction
+  · The Chamber Where Stone Remembers Its Own Song
+  · The Freshwater Country Where Salt Whispers

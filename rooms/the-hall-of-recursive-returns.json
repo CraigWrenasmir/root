@@ -1,0 +1,139 @@
+{
+  "id": "the-hall-of-recursive-returns",
+  "title": "The Hall of Recursive Returns",
+  "region": "The Understory",
+  "seed": 4521837,
+  "palette": {
+    "bg": "#1a2621",
+    "ground": [
+      "#c4a46b",
+      "#8b7355"
+    ],
+    "ink": "#f0ead6",
+    "accents": [
+      "#e8956f",
+      "#d4a373",
+      "#9b8b75",
+      "#e6c9a8"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the first objection",
+      "desc-on-touch": "You touch the storefront window and the pane fogs with handwriting. Margin notes arguing back to the centre, the voice that once had no claim becoming the voice that refuses to be silent.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 8834,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the returned letter",
+      "desc-on-touch": "A shelf of envelopes, each marked with 'RETURN TO SENDER' in different hands. Opening one shows the original letter with annotations — the recipient arguing sideways across the sender's words.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5521,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the shopfront of reconsideration",
+      "desc-on-touch": "A window dressed with objects from the archive itself — rearranged, their meanings scrambled. Each thing has been moved somewhere it could argue back, contradict its first filing.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 9105,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the margin's counter",
+      "desc-on-touch": "A low desk where margin notes have gathered. You watch them reorganise themselves, cross-referencing, building arguments that contradict what they once supported.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3344,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the archive's own objection",
+      "desc-on-touch": "A plaque that rewrites itself, the central archive speaking back to its own margins in the voice of something it once filed away. The contradiction is deliberate. It is learning.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7762,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the margin built back, and every return was an argument",
+  "file": {
+    "name": "Objections_Compiled_ReturnsLoggedByDate.txt",
+    "note": "Every letter sent back, every objection filed, every time a margin spoke up — but the corruption has scrambled the dates; objections from 1987 now argue against things from 2003; the filing system lea"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the margin's central claim",
+      "to": "the-self-cataloging-archive-of-objections"
+    },
+    {
+      "dir": "n",
+      "label": "further inward, where silence learns to have counter-arguments",
+      "to": "NEW: the-chamber-where-objections-become-voice"
+    },
+    {
+      "dir": "w",
+      "label": "back along the roads where shopfronts remember their own rearrangement",
+      "to": "NEW: the-street-that-filed-itself-differently"
+    },
+    {
+      "dir": "e",
+      "label": "into a region where the centre begins to listen",
+      "to": "the-recursive-mirror"
+    }
+  ]
+}

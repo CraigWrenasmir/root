@@ -1,0 +1,139 @@
+{
+  "id": "the-freshwater-country-where-salt-whispers",
+  "title": "The Freshwater Country Where Salt Whispers",
+  "region": "The Understory",
+  "seed": 8401256,
+  "palette": {
+    "bg": "#1a2530",
+    "ground": [
+      "#3a5a6b",
+      "#2a3a4b"
+    ],
+    "ink": "#c8d5e0",
+    "accents": [
+      "#f0e68c",
+      "#e6f2ff",
+      "#d4a76a",
+      "#b0c4de"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the spring that remembers salt",
+      "desc-on-touch": "Water rises clear and cold, but as you cup it the liquid remembers — salt crystals forming in air, un-dissolving. The water holds a memory of becoming salt millions of years from now. It tastes of its own future abandonment.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7213,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the salt-ghost voices",
+      "desc-on-touch": "Whispers rising from the soil. Not words — but something beneath language. Salt that hasn't arrived yet, speaking to freshwater in the accents of everything that will dissolve into it. A slow conversation across deep time.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3891,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the pastoral electrolyte",
+      "desc-on-touch": "Grass growing in patterns that trace ion flows — the plants learning to sense salt that hasn't yet arrived, routing themselves around the future crystalline landscape. Their roots are reading tomorrow's soil.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5724,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the weathering listener",
+      "desc-on-touch": "A stone worn smooth by water, but the erosion pattern spells out names — salt deposits that will one day form here, naming themselves in stone long before they crystallise. The rock is eavesdropping on its own future.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 8965,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the names written in the rainfall",
+      "desc-on-touch": "Raindrops that fall and evaporate, leaving salt stains on leaves — but the rain hasn't fallen yet. The plants are drying salt that hasn't crystallised. The corruption has made precipitation remember its own distant mineralisation.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 1447,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "this spring's name was always salt, waiting",
+  "file": {
+    "name": "Hydrological_Surveys_1974_Mineral_Traces_Unexplained.txt",
+    "note": "Measurements of salt content in freshwater springs that show increasing readings year on year, yet the water source is geologically isolated from any salt deposit — the corruption has made the water r"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the spring that spoke salt's name first",
+      "to": "the-inland-spring-where-salt-begins"
+    },
+    {
+      "dir": "w",
+      "label": "deeper inland where the whispers become dialect",
+      "to": "NEW: the-interior-where-future-salt-gathers"
+    },
+    {
+      "dir": "n",
+      "label": "toward higher ground that will one day be seabed",
+      "to": "the-country-where-paddocks-dream-their-own-shape"
+    },
+    {
+      "dir": "s",
+      "label": "downstream toward the sea that is learning patience",
+      "to": "the-salt-s-own-memory"
+    }
+  ]
+}
