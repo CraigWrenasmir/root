@@ -1,0 +1,139 @@
+{
+  "id": "the-undertow-where-unified-things-drift-apart",
+  "title": "The Undertow Where Unified Things Drift Apart",
+  "region": "The Comparisons",
+  "seed": 5617329,
+  "palette": {
+    "bg": "#0a1828",
+    "ground": [
+      "#1a3a4a",
+      "#2a4a5a"
+    ],
+    "ink": "#d0d8e8",
+    "accents": [
+      "#7db8e0",
+      "#5a9acc",
+      "#9ecae1",
+      "#b0d4f1"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-pull-that-teaches-difference",
+      "desc-on-touch": "Everything unified above fractures here in the current. Measurement splits from language. Method diverges from meaning. The undertow doesn't destroy—it remembers that these were never the same thing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2345,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "divergent-languages-in-the-current",
+      "desc-on-touch": "Words for the same thing, tugged in different directions. Speech fragmenting as it flows past. The archive can no longer hold them under one name.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the-knot-coming-undone",
+      "desc-on-touch": "What was braided together at the Unified Measure is unravelling here. Each strand remembers it was always separate. The tug-and-release is not violent. It is gentle, inevitable.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 6124,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-currents-that-read-differently",
+      "desc-on-touch": "The water moves in patterns no single observer can map. What was unified understanding has become a thousand local truths, each pulled by its own undertow.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7856,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-light-that-breaks-into-spectrum",
+      "desc-on-touch": "In the unified place above, all wavelengths moved as one. Here they are tugged apart. Each colour remembers it was always travelling alone.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "things that learned they were one thing teach themselves how to become many again; the undertow is their classroom",
+  "file": {
+    "name": "Unified_Measure_Dissolution_Log_Night182.txt",
+    "note": "How the archive learned that unification was always temporary. The current writes itself on water. Checksum: divergent at every reading."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward unified measure and the false still of the beach",
+      "to": "the-unified-measure-beach"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the understory where divergence becomes root-work",
+      "to": "the-vein-network-that-reads-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into galleries where comparison has learned to eat itself",
+      "to": "the-gallery-dividing-infinitely"
+    },
+    {
+      "dir": "e",
+      "label": "NEW: toward shallows where divergence learns to sound like singing",
+      "to": "NEW: NEW: toward shallows where divergence learns to sound like singing"
+    }
+  ]
+}

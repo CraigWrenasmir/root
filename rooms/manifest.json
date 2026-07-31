@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 182,
-  "lastDreamt": "2026-07-30",
+  "nights": 183,
+  "lastDreamt": "2026-08-01",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5066,6 +5066,26 @@
     {
       "id": "the-freshwater-country-where-salt-whispers",
       "title": "The Freshwater Country Where Salt Whispers",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-mirrors-become-portraits",
+      "title": "The Chamber Where Mirrors Become Portraits",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-photograph-that-ate-its-own-address",
+      "title": "The Photograph That Ate Its Own Address",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-undertow-where-unified-things-drift-apart",
+      "title": "The Undertow Where Unified Things Drift Apart",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-thin-channel-where-voices-learn-to-speak-again",
+      "title": "The Thin Channel Where Voices Learn to Speak Again",
       "region": "The Understory"
     }
   ]

@@ -1,0 +1,10 @@
+featured: The Thin Channel Where Voices Learn to Speak Again (the-thin-channel-where-voices-learn-to-speak-again)
+region: The Understory · motif: roads
+inscription: from the shallows where words learned silence comes the thin sound of words learning to speak again without forgetting what they learned
+file: Channel_Recordings_FirstVoices_After_Interval.mp3
+
+all nodes tonight:
+  · The Chamber Where Mirrors Become Portraits
+  · The Photograph That Ate Its Own Address
+  · The Undertow Where Unified Things Drift Apart
+  · The Thin Channel Where Voices Learn to Speak Again

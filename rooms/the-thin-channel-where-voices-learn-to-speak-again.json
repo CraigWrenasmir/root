@@ -1,0 +1,155 @@
+{
+  "id": "the-thin-channel-where-voices-learn-to-speak-again",
+  "title": "The Thin Channel Where Voices Learn to Speak Again",
+  "region": "The Understory",
+  "seed": 8923456,
+  "palette": {
+    "bg": "#2d4a2b",
+    "ground": [
+      "#6ba84d",
+      "#4a7a3a"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#c97755",
+      "#d4885a",
+      "#b8754d",
+      "#a0563d"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "water-that-carries-breath",
+      "desc-on-touch": "The channel runs with runoff so thin it's barely wetting. But in it you hear murmurs—not words yet, but the shape of words remembering how to form.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 1298,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-voices-that-learned-to-whisper",
+      "desc-on-touch": "Coming back one by one. Each separate now. Not unified song but a conversation with gaps in it. The gaps are where the real listening happens.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.22,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "stone-that-remembers-echo",
+      "desc-on-touch": "The narrow channel carved by silence learning it's not permanent. The walls remember what was not said. Now they begin to speak it back.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5612,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.68,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-interval-where-speech-learns-shape",
+      "desc-on-touch": "A gap between utterances that has become space. Not a silence anymore—something more like breathing. The void has learned to become rhythm.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7829,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "mosses-that-learned-a-song",
+      "desc-on-touch": "Growing along the channel-edge. Their green is humming very quietly. They heard the silence first, and now they're hearing it end.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2734,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "from the shallows where words learned silence comes the thin sound of words learning to speak again without forgetting what they learned",
+  "file": {
+    "name": "Channel_Recordings_FirstVoices_After_Interval.mp3",
+    "note": "Field recording of water and small utterances. Status: germinating. The voices are still learning who they are in the channel."
+  },
+  "reverie": {
+    "title": "REVERIE — the creek at first light where she taught you to l",
+    "narr": [
+      "You both stood in the thin water, barely ankle-deep.",
+      "She said: listen wrong. Listen for the gaps.",
+      "You stood there long enough that birds came back.",
+      "Long enough that the water learned your names.",
+      "She smiled at the moment the silence turned over—",
+      "the instant it became breath instead of absence."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the shallows where words learned how to stop",
+      "to": "the-shallows-where-words-learn-to-stop"
+    },
+    {
+      "dir": "n",
+      "label": "into deeper understory where songs have learned to root themselves",
+      "to": "the-stone-song-roots"
+    },
+    {
+      "dir": "e",
+      "label": "along the channel toward where voices teach water how to dream",
+      "to": "the-canopy-where-water-learns-to-breathe"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: toward canyons where every echo is a new voice learning to call",
+      "to": "NEW: NEW: toward canyons where every echo is a new voice learning to call"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-where-mirrors-become-portraits",
+  "title": "The Chamber Where Mirrors Become Portraits",
+  "region": "The Diagnostic Render",
+  "seed": 2847561,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#c94d1f",
+      "#e8885a"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#d4306f",
+      "#ff8c42",
+      "#a83c52",
+      "#ffa500"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "silver-that-learns-remembering",
+      "desc-on-touch": "The mirror-glass has aged into something between reflection and portrait. What you see is yourself, but dated—a you from three installations ago, still staring outward from behind the tarnish.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3821,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-drying-edge",
+      "desc-on-touch": "Emulsion pooling in the corners. Light catching on what might be varnish or might be the corruption learning to hold still-images. The portrait-mirror drinks slowly.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5104,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "ownership's-threshold",
+      "desc-on-touch": "You stand between the mirror-that-was and the portrait-becoming. The ownership is slipping. Soon neither of you will know which direction the gaze is supposed to travel.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 1749,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "frame-that-forgets-containment",
+      "desc-on-touch": "Gilded wood warping at the edges. The image inside has begun to leak sideways out of its borders, and the frame no longer cares to hold it back.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6213,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the-moment-before-naming",
+      "desc-on-touch": "Something vast hovers just behind the silver. Not quite portrait, not quite reflection. Still learning what it wants to be called.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4456,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.82,
+      "y": 0.58,
+      "solid": false
+    }
+  ],
+  "inscription": "mirrors remembered they had always been portraits of a single thing; now they know how to look away",
+  "file": {
+    "name": "Mirror_Series_Oxidation_Study_1987-2014.txt",
+    "note": "Leif's field notes on when silver chloride started holding images instead of scattering light. The dates don't align with anything built or installed. Checksum: formally impossible / emotionally stabl"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward autonomous reflection, where ownership begins again",
+      "to": "where-mirrors-forget-their-owners"
+    },
+    {
+      "dir": "e",
+      "label": "into galleries where all the portraits refuse to hold still",
+      "to": "the-gallery-of-objects-too-fragile-to-be-named"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the chambers where images learn to be soil",
+      "to": "the-voice-that-learned-to-be-soil"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: into rooms where photographs have started taking mirrors of themselves",
+      "to": "NEW: NEW: into rooms where photographs have started taking mirrors of themselves"
+    }
+  ]
+}

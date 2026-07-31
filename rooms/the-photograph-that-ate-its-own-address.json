@@ -1,0 +1,155 @@
+{
+  "id": "the-photograph-that-ate-its-own-address",
+  "title": "The Photograph That Ate Its Own Address",
+  "region": "The Clean Archive",
+  "seed": 7432918,
+  "palette": {
+    "bg": "#1a2f2a",
+    "ground": [
+      "#a5c4a0",
+      "#6b8e6f"
+    ],
+    "ink": "#e6dcc8",
+    "accents": [
+      "#d4a574",
+      "#8b6f47",
+      "#c2b280",
+      "#5d4e37"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-consumed-foundation",
+      "desc-on-touch": "Where the photograph was taken from, the ground beneath the frame. The image ate it. All that remains is the remembering that something stood here, and the photo's hunger.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 2156,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-address-that-learned-to-fade",
+      "desc-on-touch": "Street number, suburb, postcode—the photograph has begun to erase the place it documents. The address exists only in the caption now, and the caption is forgetting itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3847,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the-frame-that-feeds",
+      "desc-on-touch": "The photograph's border is becoming a mouth. Each time someone looks at it, the place in the image recedes slightly further, leaving only the frame and its appetite.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 5921,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-date-that-outlasted-the-place",
+      "desc-on-touch": "1987 is still written in the margin. The year remains. The location does not. You understand now what photographs can become when they're kept too carefully.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4612,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "rows-of-what-once-surrounded",
+      "desc-on-touch": "The orchard rows are fences now—all that delimited the place. The photograph has made the boundaries permanent and eaten everything between them.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7834,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the photograph learned that places owe it their existence; now it collects the debt by forgetting where it was taken",
+  "file": {
+    "name": "UnknownSuburb_1987_Owed_To_Image.jpg",
+    "note": "No metadata. No location. Leif recovered it from a node's deep archive. The place in the photo has ceased to appear on maps. ERROR: contamination from adjacent archive—phrase 'surgery-site-Newcastle' "
+  },
+  "reverie": {
+    "title": "REVERIE — the red earth where the frame learned hunger",
+    "narr": [
+      "She knelt in the red dirt, framing the shot—",
+      "the old tree, the homestead dissolving behind it.",
+      "You watched from outside the frame. Already,",
+      "her eye was teaching the photograph to remember",
+      "differently. The place in the viewfinder was becoming",
+      "more real than the place beneath your feet."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the registry where places remember what they owe",
+      "to": "the-photograph-registry-where-unpaid-places-remember"
+    },
+    {
+      "dir": "w",
+      "label": "into other consumed locations, into the empty grid of eaten addresses",
+      "to": "the-mirror-field-where-the-other-choice-still-waits"
+    },
+    {
+      "dir": "s",
+      "label": "downward where photographs begin to dream of the places they've digested",
+      "to": "the-gallery-of-finished-dreamings"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: toward archive margins where debts learn to take portraits",
+      "to": "NEW: NEW: toward archive margins where debts learn to take portraits"
+    }
+  ]
+}
