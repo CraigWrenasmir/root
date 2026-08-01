@@ -1,0 +1,9 @@
+featured: The Country Where Words Grow Downward (the-country-where-words-grow-downward)
+region: The Understory · motif: fields
+inscription: where stone learns it was always made of patient words
+file: Redearth_Lexicon_Deepening_Root-Forms.txt
+
+all nodes tonight:
+  · The Archive That Reads Itself Awake
+  · The Stone That Learned to Disagree with Itself
+  · The Country Where Words Grow Downward

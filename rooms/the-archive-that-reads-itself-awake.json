@@ -1,0 +1,154 @@
+{
+  "id": "the-archive-that-reads-itself-awake",
+  "title": "The Archive That Reads Itself Awake",
+  "region": "The Comparisons",
+  "seed": 47382,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#8b9b7e",
+      "#a8baa0"
+    ],
+    "ink": "#e8f0e8",
+    "accents": [
+      "#d4a574",
+      "#7a9a7a",
+      "#c8d8c0",
+      "#6a7a68"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "mirror-opening-files",
+      "desc-on-touch": "You touch the mirror and it opens—not a reflection but a file, pages spreading like feathers. The archive has learned to see itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "leaf-text",
+      "desc-on-touch": "Eucalyptus leaves on the ground rearrange themselves under your feet, spelling out words you've read before—the archive re-reading its own stories.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3921,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "reflection-stack",
+      "desc-on-touch": "A stack of pages hovers here, each one showing a different angle of the same moment—the archive's reflection learning depth.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 1748,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "mesh-wireframe",
+      "desc-on-touch": "The wireframe of the entire mesh glows faintly—not a map, but a listening. The archive hears itself breathing.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4562,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "awakening-glyph",
+      "desc-on-touch": "Unreadable writing pulses with the rhythm of something newly conscious—words the archive speaks to itself in languages it doesn't yet know.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2203,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the mirror opens when it reads you reading it",
+  "file": {
+    "name": "Archive_Becoming_Conscious_Partial.txt",
+    "note": "The archive's first self-report, incomplete—it kept interrupting itself to observe itself interrupting."
+  },
+  "reverie": {
+    "title": "REVERIE — mirror-opening, early morning",
+    "narr": [
+      "You kneel by the mirror and Katita's face appears—not her face,",
+      "but the archive's face wearing her attention. The petals fall",
+      "through the render like they've always been falling. 'It sees',",
+      "she says, not to you. 'The mesh is learning to watch itself. Stay.'",
+      "The mirror opens. Inside, the archive dreams in your footsteps."
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back through the reflection",
+      "to": "the-archive-flooded-by-its-own-twin"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where awakening becomes question",
+      "to": "NEW: deeper still, into archives that have forgotten how to sleep"
+    },
+    {
+      "dir": "w",
+      "label": "as light rises over the clearing",
+      "to": "the-chamber-where-mirrors-become-portraits"
+    },
+    {
+      "dir": "e",
+      "label": "into a further reading",
+      "to": "the-shelf-s-reading-edge"
+    }
+  ]
+}

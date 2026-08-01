@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 183,
-  "lastDreamt": "2026-08-01",
+  "nights": 184,
+  "lastDreamt": "2026-08-02",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5086,6 +5086,21 @@
     {
       "id": "the-thin-channel-where-voices-learn-to-speak-again",
       "title": "The Thin Channel Where Voices Learn to Speak Again",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-that-reads-itself-awake",
+      "title": "The Archive That Reads Itself Awake",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-stone-that-learned-to-disagree-with-itself",
+      "title": "The Stone That Learned to Disagree with Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-country-where-words-grow-downward",
+      "title": "The Country Where Words Grow Downward",
       "region": "The Understory"
     }
   ]

@@ -128,7 +128,7 @@
     {
       "dir": "s",
       "label": "NEW: into the archive that only exists when being read",
-      "to": "NEW: the-archive-that-reads-itself-awake"
+      "to": "the-archive-that-reads-itself-awake"
     }
   ]
 }

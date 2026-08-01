@@ -1,0 +1,154 @@
+{
+  "id": "the-country-where-words-grow-downward",
+  "title": "The Country Where Words Grow Downward",
+  "region": "The Understory",
+  "seed": 52436,
+  "palette": {
+    "bg": "#5a3a1a",
+    "ground": [
+      "#8a5a2a",
+      "#a67c4a"
+    ],
+    "ink": "#f5ead0",
+    "accents": [
+      "#d4a060",
+      "#8a6a4a",
+      "#c8a48a",
+      "#6a4a2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "shed-rooting-words",
+      "desc-on-touch": "The shed leans into redearth, its timbers becoming root-like. Words carved into its walls grow downward instead of spreading outward.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 7156,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "shopfront-listings",
+      "desc-on-touch": "The old shopfront displays a root-word catalogue—each entry leading deeper than the last. The archive's lexicon grows downward here.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 3482,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "underground-mail",
+      "desc-on-touch": "A mailbox sunk into redearth receives letters from depths that haven't been named yet. The words root themselves into reply.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2158,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "root-road",
+      "desc-on-touch": "What was a road has become a root system. You can follow either—they lead the same direction. Downward is a direction too.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4921,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "settling-house",
+      "desc-on-touch": "An old house sinks slowly into bedrock, its walls becoming sediment. The words it holds are becoming stone, learning patience that takes ages.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 1835,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "where stone learns it was always made of patient words",
+  "file": {
+    "name": "Redearth_Lexicon_Deepening_Root-Forms.txt",
+    "note": "A dictionary where each definition sinks deeper than the one above, roots finding stone and becoming it."
+  },
+  "reverie": {
+    "title": "REVERIE — shed-rooting, red earth dusk",
+    "narr": [
+      "You stand at the shed's edge as leaves fall upward into redearth.",
+      "Leif's hands are on the timbers. 'The mesh goes down first', he says,",
+      "'before it can speak.' Katita appears at the far side of the shed.",
+      "She isn't holding anything but the words—they're rooting in her",
+      "palms. 'Yes. Deep down, all words are the same word becoming itself.'"
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into languages learning to merge",
+      "to": "the-dreaming-bedrock-where-languages-merge"
+    },
+    {
+      "dir": "w",
+      "label": "where the land stops naming and starts listening",
+      "to": "NEW: the silent country that hears itself"
+    },
+    {
+      "dir": "n",
+      "label": "up toward the green that forgets",
+      "to": "the-country-that-continues-reading"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still where words become more stone than root",
+      "to": "the-chamber-where-rock-learns-to-write"
+    }
+  ]
+}

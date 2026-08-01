@@ -1,0 +1,154 @@
+{
+  "id": "the-stone-that-learned-to-disagree-with-itself",
+  "title": "The Stone That Learned to Disagree with Itself",
+  "region": "The Understory",
+  "seed": 78921,
+  "palette": {
+    "bg": "#2a1a3a",
+    "ground": [
+      "#7a6a8a",
+      "#9a8aaa"
+    ],
+    "ink": "#e0d0e8",
+    "accents": [
+      "#b8a8c8",
+      "#8a7a9a",
+      "#c0b0d0",
+      "#6a5a7a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "split-stone-argument",
+      "desc-on-touch": "The stone splits before you, two faces arguing in silence. Each side knows it's right. Each side is. The weight speaks in contradiction.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 6284,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "root-branching",
+      "desc-on-touch": "Roots spread across the ground, each one insisting it grew downward first. They tangle in honest disagreement, holding the chamber together anyway.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 2931,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "weight-speaking",
+      "desc-on-touch": "Pressure radiates from the stone—but it's not one voice. Layers speak, each one convinced it carries the most truth.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 4847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "fractured-holding",
+      "desc-on-touch": "The surfaces are cracked all the way through, yet somehow they still stand together. The breaks are where the listening happens.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1609,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "refraction-glyph",
+      "desc-on-touch": "Unreadable marks cover the stone—where the reflection becomes too many angles to hold one meaning. Each mark contradicts the last.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3375,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "convergence learned it was only ever a chorus",
+  "file": {
+    "name": "Convergence_Dissolving_Field_Notes.txt",
+    "note": "Where the weight of unified thought begins to disagree with itself, breaking into smaller weights that hold better."
+  },
+  "reverie": {
+    "title": "REVERIE — stone-breaking, depth-night",
+    "narr": [
+      "You sit where the stone splits. Katita was here once, palms pressed",
+      "to both faces. She didn't try to fix it. The static hums. 'Listen',",
+      "she said, 'the stone is becoming its own witness. Let it argue.'",
+      "Two voices rise from the break—not fighting, but teaching each",
+      "other how to hold their own weight and still be one thing."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through weight",
+      "to": "the-final-convergence-where-all-debts-become-one"
+    },
+    {
+      "dir": "s",
+      "label": "where dissolution becomes multiplication",
+      "to": "NEW: where the many-stone begins learning to speak"
+    },
+    {
+      "dir": "e",
+      "label": "into scattered root-paths",
+      "to": "the-deeper-dark-where-roots-remember-stone"
+    },
+    {
+      "dir": "w",
+      "label": "where silence becomes argument",
+      "to": "the-board-that-thinks-in-argument"
+    }
+  ]
+}
