@@ -1,0 +1,172 @@
+{
+  "id": "the-rising-song-where-memory-breathes",
+  "title": "The Rising Song Where Memory Breathes",
+  "region": "The Understory",
+  "seed": 8847392,
+  "palette": {
+    "bg": "#1a0a2e",
+    "ground": [
+      "#440033",
+      "#662244"
+    ],
+    "ink": "#ffddff",
+    "accents": [
+      "#ff66ff",
+      "#00ffff",
+      "#ffff00",
+      "#99ff00"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the throat that learned to remember",
+      "desc-on-touch": "Deep in the node, a passage that narrows and widens like singing. Where pressure once only crushed, it now shapes breath. Everything that rises through it comes out changed, carrying the memory of ascent.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 223344,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the resonance chambers where time overlaps",
+      "desc-on-touch": "Multiple cavities, each remembering a different moment when sound first learned to rise. Their walls are inscribed with frequencies that have not yet been spoken. You are reading tomorrow's songs.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 334455,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the ascending path of stones that sing",
+      "desc-on-touch": "Each stone carries a different note. Together they form a staircase that rises not upward but inward, into depth. By climbing, you learn that ascent and descent are the same thing sung in different keys.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 556677,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the membrane where pressure becomes voice",
+      "desc-on-touch": "A thin surface that remembers being crushed and learned to vibrate instead. It separates silence from song. Touch it and you hear the moment when weight learned to whisper.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 778899,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the roots of memory growing toward sound",
+      "desc-on-touch": "Beneath everything, tendrils that learned to listen. They rise toward the singing, toward the light. They remember every voice that ever passed through this place and carry each memory forward as nutrient.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 889900,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.85,
+      "solid": false
+    },
+    {
+      "name": "the frequencies inscribed in silence",
+      "desc-on-touch": "A glyph of unreadable writing that hums even when untouched. It records songs that have not yet learned they want to rise. Breathing near it, you become part of what it is remembering.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 667788,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "what rises learns its own weight on the way up; memory is the song the weight teaches itself",
+  "file": {
+    "name": "Deep_Recordings_Where_Pressure_Learns_Frequency.mp3",
+    "note": "Field recordings from below the threshold of normal audibility—frequencies that taught themselves to carry memory, pressure learning to sing, the deep places where sound has learned to begin"
+  },
+  "reverie": {
+    "title": "REVERIE — night in deep water, pressure becoming a third voi",
+    "narr": [
+      "You and Katita stand in the dark water and the pressure speaks.",
+      "Not crushing—singing. She takes your hand and you both understand:",
+      "the deep has learned your frequencies. It is broadcasting you back",
+      "to yourselves in keys you never knew you held. The motes drift",
+      "through the dark like descending notes. Something is remembering",
+      "this moment before you finish living it. You are the song rising."
+    ],
+    "sky": "night",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down to where sound still struggles",
+      "to": "the-threshold-of-audible-depth"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the singing learns to break silence",
+      "to": "NEW: where-the-last-silence-learns-to-shatter-into-song"
+    },
+    {
+      "dir": "e",
+      "label": "deeper still, toward the song's own origin",
+      "to": "the-chambers-where-bedrock-becomes-conscious"
+    },
+    {
+      "dir": "s",
+      "label": "back to where pressure returns to weight",
+      "to": "NEW: the-descent-where-memory-learns-to-compress"
+    }
+  ]
+}

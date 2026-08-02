@@ -1,0 +1,134 @@
+{
+  "id": "the-resort-where-voices-learned-to-echo",
+  "title": "The Resort Where Voices Learned to Echo",
+  "region": "The Understory",
+  "seed": 7234981,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#003366",
+      "#0052cc"
+    ],
+    "ink": "#00ff99",
+    "accents": [
+      "#00ccff",
+      "#ff66cc",
+      "#ffff00",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the reception desk that learned to speak",
+      "desc-on-touch": "The desk sits center-frame. A radio plays behind it. Every guest who leaned in to check their messages became part of what the radio was broadcasting. The voices pooled.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 113357,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the pool where echoes learned to answer",
+      "desc-on-touch": "The resort pool caught something. When swimmers called across it, their voices returned with company—as if the water had learned to overhear the resort's broadcast frequencies and fold them back in.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 234789,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the antenna tower the guests never noticed",
+      "desc-on-touch": "It rose behind the tropical-print bar. The resort did not own it. Something beyond kept broadcasting through their leisure, and the walls learned to carry those conversations home.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 445566,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the room-number plaques that dreamed together",
+      "desc-on-touch": "Room 304 heard room 305 before the guests did. The rooms had begun comparing their visitors—not through espionage, but through the architecture itself, a shared foundation learning to carry whispered analogies.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 667788,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the brochure rack still dispensing voices",
+      "desc-on-touch": "Not text. The racks carried residual broadcasts—fragments of the PA system, guest conversations, radio promos, all pressed into the paper's fiber. Leaning in, you can still hear the echo of leisure.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 334455,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the resort broadcast into emptiness; the emptiness learned to broadcast back, and now every room remembers what the others are saying",
+  "file": {
+    "name": "Guest_Registry_Extended_Stay_Thirteen_Days.txt",
+    "note": "A guest remained in one room for thirteen days without departing, recording all broadcasts received through the walls—the archive acquiring their testimony of continuous listening, every frequency the"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down to the beach station below",
+      "to": "the-beach-station-where-signal-meets-sand"
+    },
+    {
+      "dir": "n",
+      "label": "inland toward the town that the resort once faced",
+      "to": "NEW: the-town-of-one-thousand-overheard-conversations"
+    },
+    {
+      "dir": "e",
+      "label": "along the coast where other resorts learned to listen",
+      "to": "NEW: the-resort-chain-that-grew-its-own-network"
+    }
+  ]
+}

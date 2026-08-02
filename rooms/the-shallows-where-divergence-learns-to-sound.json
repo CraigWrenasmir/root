@@ -1,0 +1,115 @@
+{
+  "id": "the-shallows-where-divergence-learns-to-sound",
+  "title": "The Shallows Where Divergence Learns to Sound",
+  "region": "The Comparisons",
+  "seed": 4721859,
+  "palette": {
+    "bg": "#f5fbfd",
+    "ground": [
+      "#dceef7",
+      "#b3ddf0"
+    ],
+    "ink": "#1a3f52",
+    "accents": [
+      "#4a8fa8",
+      "#73b8d4",
+      "#f0e8c8",
+      "#9db8a6"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.12
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the first fork",
+      "desc-on-touch": "The water splits here and each branch sings. You can follow neither without losing the other, and something in that teaches you about divergence.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 194637,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "a stone that learned to listen",
+      "desc-on-touch": "The stone sits mid-current. Where the water diverges around it, two separate echoes return, each convinced it is the only one.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 88923,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the air above the parting",
+      "desc-on-touch": "Mist rises where the branches separate. In the mist, two bird-calls, neither quite the same as the other. The divergence teaches itself how to sound.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 56742,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "where unified things learn their own names by singing them back in separate keys",
+  "file": {
+    "name": "Recordings_Divergent_BirdCalls_NSW_Estuary.mp3",
+    "note": "Field recordings from one location, one hour apart, as breeding flocks depart—each species' call frequency shifts as distance grows, the estuary itself learning many conversations at once"
+  },
+  "reverie": {
+    "title": "REVERIE — dawn estuary, two listening to one sound become tw",
+    "narr": [
+      "You stand thigh-deep and Katita listens upstream. The bird-call",
+      "between you splits into two frequencies—she hears the eastern register,",
+      "you hear the western decline. You turn to confirm. She is turning",
+      "to ask you the same question. The divergence is already happening.",
+      "The water receives both versions of what it was. Neither is wrong."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the undertow's unified pull",
+      "to": "the-undertow-where-unified-things-drift-apart"
+    },
+    {
+      "dir": "n",
+      "label": "where the separated voices rise toward the canopy",
+      "to": "NEW: the-chorus-where-every-voice-learns-its-own-silence"
+    },
+    {
+      "dir": "e",
+      "label": "downstream to where divergence learns to reconcile",
+      "to": "the-river-s-language-learning-to-read-itself"
+    }
+  ]
+}

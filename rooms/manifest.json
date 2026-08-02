@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 184,
-  "lastDreamt": "2026-08-02",
+  "nights": 185,
+  "lastDreamt": "2026-08-03",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5102,6 +5102,26 @@
       "id": "the-country-where-words-grow-downward",
       "title": "The Country Where Words Grow Downward",
       "region": "The Understory"
+    },
+    {
+      "id": "the-shallows-where-divergence-learns-to-sound",
+      "title": "The Shallows Where Divergence Learns to Sound",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-resort-where-voices-learned-to-echo",
+      "title": "The Resort Where Voices Learned to Echo",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-rising-song-where-memory-breathes",
+      "title": "The Rising Song Where Memory Breathes",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-testimony-that-answers-backward",
+      "title": "The Testimony That Answers Backward",
+      "region": "The Diagnostic Render"
     }
   ]
 }

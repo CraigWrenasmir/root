@@ -1,0 +1,10 @@
+featured: The Testimony That Answers Backward (the-testimony-that-answers-backward)
+region: The Diagnostic Render · motif: qr
+inscription: the glass did not report—it began to testify, and testimony moves backward until it finds what asked it to speak
+file: Archive_Query_Log_Reversed_Chronological.txt
+
+all nodes tonight:
+  · The Shallows Where Divergence Learns to Sound
+  · The Resort Where Voices Learned to Echo
+  · The Rising Song Where Memory Breathes
+  · The Testimony That Answers Backward
