@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 185,
-  "lastDreamt": "2026-08-03",
+  "nights": 186,
+  "lastDreamt": "2026-08-04",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5122,6 +5122,26 @@
       "id": "the-testimony-that-answers-backward",
       "title": "The Testimony That Answers Backward",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-listening-silence-chamber",
+      "title": "The Listening Silence Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sediment-chamber-where-channels-rest",
+      "title": "The Sediment Chamber Where Channels Rest",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-chamber-where-sound-learns-to-rest",
+      "title": "The Chamber Where Sound Learns to Rest",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-force-learns-to-ask",
+      "title": "The Chamber Where Force Learns to Ask",
+      "region": "The Understory"
     }
   ]
 }

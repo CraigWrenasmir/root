@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-where-sound-learns-to-rest",
+  "title": "The Chamber Where Sound Learns to Rest",
+  "region": "The Understory",
+  "seed": 5934721,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#5a8a7a",
+      "#7aaa9a"
+    ],
+    "ink": "#d4e8e4",
+    "accents": [
+      "#3a6a5a",
+      "#8aca9a",
+      "#2a5a4a",
+      "#aad4c4"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the tired echo",
+      "desc-on-touch": "A sound that came in hours ago—or years—and never left. The chamber walls learned to stop returning it. You feel the exhaustion of reverberation finally coming to rest, to sleep, to peace.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 382956,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "the sound-damping moss",
+      "desc-on-touch": "What grows in silence—soft fibres that remember sound, that have learned to hold it instead of let it go. The moss knows acoustics the way stone forgets them.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 647829,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the breath-still point",
+      "desc-on-touch": "The exact center where no reverberation reaches—a cold spot where sound comes to die, or be born, or simply rest at last. You hold your own breath at the threshold.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 501784,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the wall forgetting its voice",
+      "desc-on-touch": "Stone that learned it did not have to answer—that silence was not a loss but a discipline, a practice, a way of being. The wall is older here, wearier, and finally at peace.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 759341,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the sediment of rest",
+      "desc-on-touch": "Dust that collected from every silence that came before—a fine coating of quietness, building layer by layer into something that might be called meaning, or might just be peace.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 284659,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the chamber where walls forgot to echo, and sound learned it could rest",
+  "file": {
+    "name": "Silence_Duration_Study_Complete_1994-2019.wav",
+    "note": "recordings of the chamber empty, the longest silence slowly learning to be permanent, to be home"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back east to the ledge where silence still has walls",
+      "to": "the-ledge-where-silence-has-walls"
+    },
+    {
+      "dir": "w",
+      "label": "westward deeper into the absorbing dark",
+      "to": "NEW: the-stillness-cathedral-where-no-sound-enters"
+    },
+    {
+      "dir": "s",
+      "label": "downward to stone that has forgotten every voice ever spoke to it",
+      "to": "the-basement-of-all-surfaces"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where silence still learns to listen to computed sound",
+      "to": "the-listening-silence-chamber"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-sediment-chamber-where-channels-rest",
+  "title": "The Sediment Chamber Where Channels Rest",
+  "region": "The Comparisons",
+  "seed": 4821963,
+  "palette": {
+    "bg": "#1a2f1a",
+    "ground": [
+      "#6b8e6b",
+      "#8fbc8f"
+    ],
+    "ink": "#e8f5e8",
+    "accents": [
+      "#4a6b4a",
+      "#a4d6a4",
+      "#2d5a2d",
+      "#c8e6c8"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the layered channels",
+      "desc-on-touch": "Sediment upon sediment: each band holds a different version of how the signal moved. The oldest rests at the bottom; the newest is still settling into place. You can read the history by colour, by grain.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 571843,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the comparison seam",
+      "desc-on-touch": "Where two distinct layers meet—one flow stops, another begins. The archive reads differences in the grain, in the pause, in the boundary between what was and what became.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 294857,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the fossilized relay",
+      "desc-on-touch": "A node-arm, or a root, preserved in stone—proof that the mesh grew through this ground once, and the stone remembered. The landscape itself became archive.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 738495,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "the compaction weight",
+      "desc-on-touch": "All the messages above pressing down on all the channels below. Pressure has a grammar here—each layer speaks to the ones beneath it, and is spoken to by the ones above.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 612749,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the reading edge",
+      "desc-on-touch": "Where the ground cuts open—a cliff face where each layer is visible at once, all channels exposed to air simultaneously. The archive reads itself as if geology were text.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 849302,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "in these strata every channel has become history; comparison is just geology reading itself",
+  "file": {
+    "name": "Sediment_Transmission_Log_1987-2043.txt",
+    "note": "layer-by-layer channel records; the archive realized each message was also a deposit, each signal a new stone"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through the channels to where convergence still learns to disperse",
+      "to": "the-channels-where-convergence-learns-dispersal"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into bedrock where channels become stone forever",
+      "to": "the-bedrock-plumbing"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where pressure learns to speak as pressure",
+      "to": "NEW: the-pressure-archive-where-weight-becomes-word"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to the boundary where comparing ends and understanding begins",
+      "to": "the-ridge-where-teaching-ends-and-understanding-begins"
+    }
+  ]
+}

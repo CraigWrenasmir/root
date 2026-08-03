@@ -128,7 +128,7 @@
     {
       "dir": "s",
       "label": "south toward a silence that is learning to listen to computed sound",
-      "to": "NEW: the-listening-silence-chamber"
+      "to": "the-listening-silence-chamber"
     }
   ]
 }

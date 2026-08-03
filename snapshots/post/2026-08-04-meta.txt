@@ -1,0 +1,10 @@
+featured: The Listening Silence Chamber (the-listening-silence-chamber)
+region: The Understory · motif: fields
+inscription: here the silence learned to listen to itself through a voice it did not create
+file: Synthetic_Frequencies_Study_Fragment.mp3
+
+all nodes tonight:
+  · The Listening Silence Chamber
+  · The Sediment Chamber Where Channels Rest
+  · The Chamber Where Sound Learns to Rest
+  · The Chamber Where Force Learns to Ask
