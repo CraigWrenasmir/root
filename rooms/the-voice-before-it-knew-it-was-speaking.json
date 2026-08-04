@@ -129,6 +129,11 @@
       "dir": "e",
       "label": "east toward the field of first utterances",
       "to": "NEW: east toward the field of first utterances"
+    },
+    {
+      "dir": "w",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the voice before it knew it was speaking"
     }
   ]
 }

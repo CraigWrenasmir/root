@@ -1,0 +1,121 @@
+{
+  "id": "where-one-path-finally-won",
+  "title": "Where One Path Finally Won",
+  "region": "The Comparisons",
+  "seed": 2847391,
+  "palette": {
+    "bg": "#0a0f1a",
+    "ground": [
+      "#1a2844",
+      "#2c3e50"
+    ],
+    "ink": "#e8e6e1",
+    "accents": [
+      "#b8c5d6",
+      "#4a90e2",
+      "#c9a961"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the settled signpost",
+      "desc-on-touch": "a marker that once pointed two ways but now has lost one arm—not rotted off, but chosen away. the remaining direction is so firmly fixed that it has begun to take root",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 729481,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the settlement that answered",
+      "desc-on-touch": "a small cluster of forms—houses, a store, a payphone that no longer dials—all facing the direction chosen. built in the shadow of the choice, still keeping the other path's ghost in peripheral memory",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 481923,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the empty arch where the other path was",
+      "desc-on-touch": "an opening in space where routes could branch, but now stands empty. not ruined—sealed. the decision made this emptiness permanent, and something about it resonates like a tuning fork",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 847291,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the memory-ground of what was chosen away",
+      "desc-on-touch": "beneath the settled path, a faint glyphic trace—like a watermark in stone—that names the path not taken. the earth still remembers both, even though the sky chose one",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 518279,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the path that won did not forget that it had a twin—it simply became the only one permitted to speak aloud",
+  "file": {
+    "name": "TownCouncil_RoutingDecision_1983_Minutes.txt",
+    "note": "ERROR: archive has exceeded witness—the minutes describe a choice both records remember differently"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the fork that is still arguing with itself",
+      "to": "the-fork-s-inner-argument"
+    },
+    {
+      "dir": "n",
+      "label": "toward the settlement that grew from this decision",
+      "to": "NEW: the-town-that-chose-and-keeps-choosing"
+    },
+    {
+      "dir": "e",
+      "label": "along the winning path, toward whatever it was leading to",
+      "to": "the-eastern-path-that-led-nowhere-else"
+    },
+    {
+      "dir": "w",
+      "label": "into the space where the other path still echoes",
+      "to": "NEW: the-phantom-route-that-fades-on-walking"
+    }
+  ]
+}

@@ -145,7 +145,7 @@
     {
       "dir": "s",
       "label": "down to where the render engine itself is doubting",
-      "to": "NEW: the-core-question-that-asks-itself"
+      "to": "the-core-question-that-asks-itself"
     },
     {
       "dir": "n",

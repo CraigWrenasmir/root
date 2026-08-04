@@ -1,0 +1,121 @@
+{
+  "id": "the-dual-heartwood",
+  "title": "The Dual Heartwood",
+  "region": "The Understory",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#4a1f0f",
+    "ground": [
+      "#cc7722",
+      "#dd2277"
+    ],
+    "ink": "#f5ead0",
+    "accents": [
+      "#ff6600",
+      "#ff00bb",
+      "#ffdd00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the split heartwood",
+      "desc-on-touch": "two timber cores that pulse in syncopation—each beat alone, but the space between them makes one rhythm. you feel the thing they learned: that splitting and staying whole are the same act",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 382910,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the chamber between trunks",
+      "desc-on-touch": "a pool of amber light held in the cleft where two halves remember they are one sky—the wood has written its own theology of duality here",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 729481,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the annual rings made visible",
+      "desc-on-touch": "a stack of nested timber rings showing growth-years overlapping, each ring a moment when the tree chose to stay split rather than reunify, and that choosing was what made it grow",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 518279,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the root-binding beneath",
+      "desc-on-touch": "below the visible split, a twisted root-form binds—you understand that the separation you see is only from above, that everything roots as one",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 847291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the heartwood learned it was two things the moment before it forgot it had ever been divided",
+  "file": {
+    "name": "Eucalyptus_Heartwood_Split_Growth_Study_1987.txt",
+    "note": "field notes on a twin-trunked tree near Dung Mountain, annotations suggest the researcher found something personal written in the bark"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down through the two-hearted dark",
+      "to": "the-canopy-that-grew-itself-back-together"
+    },
+    {
+      "dir": "n",
+      "label": "up to where the split tree connects to all other trees",
+      "to": "the-gathered-canopy-deep"
+    },
+    {
+      "dir": "e",
+      "label": "into deeper forest where the splitting began",
+      "to": "NEW: where-the-tree-learned-it-was-always-two"
+    },
+    {
+      "dir": "w",
+      "label": "toward a place where roots remember they were branches",
+      "to": "the-walking-grove"
+    }
+  ]
+}

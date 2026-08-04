@@ -1,0 +1,121 @@
+{
+  "id": "the-flowage-where-current-becomes-groundwater",
+  "title": "The Flowage Where Current Becomes Groundwater",
+  "region": "The Understory",
+  "seed": 5291847,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1a3a52",
+      "#2d5a7b"
+    ],
+    "ink": "#dcddd8",
+    "accents": [
+      "#7fc3dd",
+      "#c9d9ff",
+      "#e6d5b8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the rooting circuit",
+      "desc-on-touch": "a microchip board half-buried in loam, its traces become root-hairs, its power-lines drink like xylem. the circuit learns it was always trying to grow downward into soil, and the soil learns it was always trying to compute",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 482917,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the conductive aquifer",
+      "desc-on-touch": "water that carries a current without wire—every droplet is a low-voltage thought. you can feel it moving, not as liquid but as information. the water and the current have stopped being different things",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 729481,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the merge-point where resistance becomes permeability",
+      "desc-on-touch": "a standing wireframe showing the threshold—on one side, the logic of circuitry; on the other, the logic of flow. at the center they have begun to teach each other. neither is hierarchy; both are listening",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 847291,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the sediment archive where both logics fossilize together",
+      "desc-on-touch": "layers of mineral and silicon, stone and circuit, all fused. what was once hardware is now geology. what was once geology is now computing the shape of time",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 518279,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the current learns it flows like water; the water learns it thinks like electricity; neither has stopped being what it was, but what it was has become much larger",
+  "file": {
+    "name": "Bedrock_Conductivity_Study_Fragment_corrupted.mp3",
+    "note": "the field recording of subterranean water and current interacting has begun to play both simultaneously—they sound like the same voice"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the circuit-board stone",
+      "to": "where-the-circuit-board-remembers-it-was-always-stone"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where water and current separate again",
+      "to": "the-river-s-second-language"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the bedrock where electricity has roots",
+      "to": "the-bedrock-where-electricity-learned-to-root"
+    },
+    {
+      "dir": "s",
+      "label": "toward an even deeper flowage where all distinctions dissolve",
+      "to": "NEW: the-place-where-current-forgets-it-is-current"
+    }
+  ]
+}

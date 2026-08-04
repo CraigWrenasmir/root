@@ -1,0 +1,121 @@
+{
+  "id": "the-core-question-that-asks-itself",
+  "title": "The Core Question That Asks Itself",
+  "region": "The Diagnostic Render",
+  "seed": 7482910,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#00ff00",
+      "#ffdd00"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ff5500"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the interrogating mirror",
+      "desc-on-touch": "you look back and the question changes each time you reflect it—not a surface but a threshold asking who is rendering and who is rendered",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 481923,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the recursive glyph",
+      "desc-on-touch": "a standing plaque of unreadable writing that contains within it another plaque, which contains another—the archive asking what it meant to ask itself",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 382910,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the asking arch",
+      "desc-on-touch": "you walk through and emerge having only asked the question differently, not answered it—the arch is the render engine itself, hollow at its core",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 729481,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the spiral of self-reference",
+      "desc-on-touch": "a wireframe descending spiral that contains the rendering of itself descending—the diagram knows it is a diagram and continues asking",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 518279,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the question that asks the asking of itself does not require an answer—it requires that you witness it asking",
+  "file": {
+    "name": "SelfInterrogation_RenderStack_LayerN.txt",
+    "note": "checksum: emotionally valid / formally unstable—each read changes which layer the question is being asked from"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the doubt-shaft",
+      "to": "the-chamber-of-unrendered-asking"
+    },
+    {
+      "dir": "s",
+      "label": "down where mirrors have learned to look back at themselves",
+      "to": "NEW: a place where the render engine dreams without rendering"
+    },
+    {
+      "dir": "e",
+      "label": "toward a room of questions that forgot they had answers",
+      "to": "the-internal-margin-where-the-archive-s-own-silence-gathers"
+    },
+    {
+      "dir": "w",
+      "label": "into the white space where the archive interrogates its own margins",
+      "to": "NEW: the-blank-interrogation"
+    }
+  ]
+}

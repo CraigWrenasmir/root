@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 186,
-  "lastDreamt": "2026-08-04",
+  "nights": 187,
+  "lastDreamt": "2026-08-05",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5141,6 +5141,26 @@
     {
       "id": "the-chamber-where-force-learns-to-ask",
       "title": "The Chamber Where Force Learns to Ask",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-core-question-that-asks-itself",
+      "title": "The Core Question That Asks Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-dual-heartwood",
+      "title": "The Dual Heartwood",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-one-path-finally-won",
+      "title": "Where One Path Finally Won",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-flowage-where-current-becomes-groundwater",
+      "title": "The Flowage Where Current Becomes Groundwater",
       "region": "The Understory"
     }
   ]
