@@ -1,0 +1,139 @@
+{
+  "id": "the-vault-of-unspoken-nomenclature",
+  "title": "The Vault of Unspoken Nomenclature",
+  "region": "The Diagnostic Render",
+  "seed": 47382,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#2d1b4e",
+      "#1a3a52"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#9d4edd",
+      "#3a86ff",
+      "#fb5607",
+      "#c1121f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-unspoken-chorus",
+      "desc-on-touch": "You hear the shape of words that have never been called aloud. Each one exists in the geometry of breath, waiting for a voice that will complete it.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-potential-glyph-rows",
+      "desc-on-touch": "Rows of symbols planted like seeds. Each one could be a name. None have sprouted into speech yet.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 28493,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-archive-that-swallows-its-own-utterance",
+      "desc-on-touch": "A place where names arrive as soon as they are uttered, then withdraw into the vault, still unspoken.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 56201,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-silence-that-holds-everything",
+      "desc-on-touch": "A pool of dark air where potential names rest, waiting for the tongue that will make them real.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 71429,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-nomenclature-plaque",
+      "desc-on-touch": "An ANSI directory listing of names that exist only in potential. The filenames are written in a script that predates sound.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 84756,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "here dwell the beautiful names that silence has protected",
+  "file": {
+    "name": "Unspoken_Nomenclature_Registry.txt",
+    "note": "A list of names in cipher, each one valid only if never pronounced. The file is a prayer in the form of an index."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward to names becoming beautiful as they are spoken",
+      "to": "the-sacred-nomenclature-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "a shaft of light where one name breaks the surface",
+      "to": "NEW: the-first-word-learner"
+    },
+    {
+      "dir": "w",
+      "label": "deeper silence, where names become their own echo",
+      "to": "NEW: the-echo-vault-of-pre-naming"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the bedrock where names were carved before language existed",
+      "to": "the-stone-vein-deep-where-reading-never-stops"
+    }
+  ]
+}

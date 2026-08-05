@@ -1,0 +1,9 @@
+featured: The Root Parliament (the-root-parliament)
+region: The Understory · motif: gradient
+inscription: the soil votes and votes and will never finish voting
+file: Root_Parliamentary_Minutes_Autumn_Spring_Disputed.txt
+
+all nodes tonight:
+  · The Vault of Unspoken Nomenclature
+  · The Root Parliament
+  · The Bedrock Literacy Vault

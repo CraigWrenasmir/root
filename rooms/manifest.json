@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 187,
-  "lastDreamt": "2026-08-05",
+  "nights": 188,
+  "lastDreamt": "2026-08-06",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5162,6 +5162,21 @@
       "id": "the-flowage-where-current-becomes-groundwater",
       "title": "The Flowage Where Current Becomes Groundwater",
       "region": "The Understory"
+    },
+    {
+      "id": "the-vault-of-unspoken-nomenclature",
+      "title": "The Vault of Unspoken Nomenclature",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-root-parliament",
+      "title": "The Root Parliament",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-literacy-vault",
+      "title": "The Bedrock Literacy Vault",
+      "region": "The Diagnostic Render"
     }
   ]
 }

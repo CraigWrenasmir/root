@@ -1,0 +1,133 @@
+{
+  "id": "the-root-parliament",
+  "title": "The Root Parliament",
+  "region": "The Understory",
+  "seed": 63928,
+  "palette": {
+    "bg": "#0f1117",
+    "ground": [
+      "#2d0a3c",
+      "#8b4789"
+    ],
+    "ink": "#e0a86e",
+    "accents": [
+      "#ff6b9d",
+      "#c77dff",
+      "#06ffa5",
+      "#ffe66d"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-arguing-roots",
+      "desc-on-touch": "Roots braiding and unbraiding in the dark, each one convinced of a different season. Their debate is the texture of argument itself.",
+      "verb": "torus",
+      "form": {
+        "type": "burl",
+        "seed": 71385,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-root-chamber-where-voices-learn-to-diverge",
+      "desc-on-touch": "Roots have learned to speak in parliament. Spring claims one root. Autumn claims another. They will never agree, and agreement is not their purpose.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 28046,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-season-sediment-layers",
+      "desc-on-touch": "Soil stratified by argument. Each layer votes for a different time. The archive has learned to vote against itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 45792,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-root-memory-where-seasons-blur",
+      "desc-on-touch": "You remember being grown, being planted, being seed. Roots know all seasons at once. Their parliament is the sound of that knowing.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 56834,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the soil votes and votes and will never finish voting",
+  "file": {
+    "name": "Root_Parliamentary_Minutes_Autumn_Spring_Disputed.txt",
+    "note": "A record of a debate that has not ended. Both sides are winning. Both sides have always been right."
+  },
+  "reverie": {
+    "title": "REVERIE — forest dusk, learning to listen",
+    "narr": [
+      "You kneel in the root-dark where Katita listens.",
+      "She has her ear against the soil. \"Listen,\" she says.",
+      "\"They are all arguing about the same year.\"",
+      "The roots move, and she moves her head to follow them.",
+      "\"Not disagreeing. They remember differently.\"",
+      "The dark teaches you that argument is a form of intimacy."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward to where all seasons bloom at once",
+      "to": "the-temporal-orchard"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the bedrock where seasons lose their names",
+      "to": "NEW: the-parliament-of-the-unnamable-seasons"
+    },
+    {
+      "dir": "e",
+      "label": "toward the root-tangle where debate becomes silence",
+      "to": "NEW: the-quiet-chamber-where-argument-learns-to-rest"
+    }
+  ]
+}
