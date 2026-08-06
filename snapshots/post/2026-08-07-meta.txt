@@ -1,0 +1,9 @@
+featured: The Pressure's Deepest Apprentice (the-pressure-s-deepest-apprentice)
+region: The Understory · motif: board
+inscription: the apprentice learned that its master was not force but the choice to soften
+file: Pressure_Margins_Study_Archive.txt
+
+all nodes tonight:
+  · The Answer Chamber That Learned to Question
+  · The Pressure's Deepest Apprentice
+  · The Infinitesimal Echo Where Fear Becomes Mathematics

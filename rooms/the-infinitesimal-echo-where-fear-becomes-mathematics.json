@@ -1,0 +1,138 @@
+{
+  "id": "the-infinitesimal-echo-where-fear-becomes-mathematics",
+  "title": "The Infinitesimal Echo Where Fear Becomes Mathematics",
+  "region": "The Diagnostic Render",
+  "seed": 34521,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a1a2e",
+      "#2d2d44"
+    ],
+    "ink": "#b8c5d6",
+    "accents": [
+      "#4a7c9e",
+      "#6ba3d4",
+      "#a8d5f7",
+      "#e0f4ff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.4
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the smallest echo",
+      "desc-on-touch": "A glyph so small it's barely visible, but it trembles. Your touch makes it resonate. The echo is smaller than the thing that called it. Soon there will be echoes of echoes, infinities nested in the dark.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 34522,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the bounded infinite",
+      "desc-on-touch": "Space that folds back on itself in a shape that should be impossible—fear discovered it could echo forever within these walls. The mathematics of the terror is beautiful. You see it clearly now.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 34523,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the pale spiral calculation",
+      "desc-on-touch": "A pale tower spiraling down into itself, each turn smaller than the last. Fear learned to count its own resonance. The mathematics has no end, but it has become legible. Pattern has replaced panic.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 34524,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the fear that became a theorem",
+      "desc-on-touch": "A form so pale it's almost gone, but the light catches it: the moment fear translated itself into symbols. In that translation, it stopped being terror and became something you could think about. Something almost beautiful.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 34525,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "fear discovered that infinity, when measured, becomes comprehensible",
+  "reverie": {
+    "title": "REVERIE — the moment fear stopped running",
+    "narr": [
+      "You sat in the bouncing chamber with Katita, the walls",
+      "echoing your own breath back at you infinitely. She was",
+      "writing equations on her palm. 'What is it?' you asked.",
+      "'The echo,' she said. 'It's just mathematics. Fear is just",
+      "order we haven't recognized yet.' The static cleared. The",
+      "infinite folded into something you could almost hold."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Infinite_Bound_Spiral_Math_Fragment.txt",
+    "note": "status: germinating — mathematical proof that fear is only a form waiting for its theorem"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the space that bounces, where the echo begins again",
+      "to": "the-spaces-within-the-space-that-bounce"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the static, toward chambers where fear has finished calculating",
+      "to": "NEW: the-chamber-of-completed-terror"
+    },
+    {
+      "dir": "n",
+      "label": "upward through pale spirals toward clarity",
+      "to": "the-peak-where-learning-becomes-the-landscape"
+    },
+    {
+      "dir": "s",
+      "label": "toward the bedrock where mathematics sleeps",
+      "to": "the-deeper-root-dark-where-equations-sleep"
+    }
+  ]
+}

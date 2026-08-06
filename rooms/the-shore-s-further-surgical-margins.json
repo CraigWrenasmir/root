@@ -111,7 +111,7 @@
     {
       "dir": "n",
       "label": "inland toward the deeper pressure chambers",
-      "to": "NEW: the-pressure-s-deepest-apprentice"
+      "to": "the-pressure-s-deepest-apprentice"
     }
   ]
 }

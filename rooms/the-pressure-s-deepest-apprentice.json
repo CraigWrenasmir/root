@@ -1,0 +1,138 @@
+{
+  "id": "the-pressure-s-deepest-apprentice",
+  "title": "The Pressure's Deepest Apprentice",
+  "region": "The Understory",
+  "seed": 67823,
+  "palette": {
+    "bg": "#0a0a15",
+    "ground": [
+      "#1a1a3a",
+      "#2d1b42"
+    ],
+    "ink": "#e8d4f0",
+    "accents": [
+      "#7d4fb8",
+      "#d946ef",
+      "#a78bfa",
+      "#c4b5fd"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first apprenticeship",
+      "desc-on-touch": "A chip embedded deep in the circuit, warm to the touch. The pressure taught it to yield instead of break. Its silicon holds the memory of learning gentleness.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 67824,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the pressure's hands",
+      "desc-on-touch": "Fingers of carved stone press the circuit without crushing it. The pressure learned where to touch so that breaking becomes shaping. You feel the care in the geometry.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 67825,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the trace of learning",
+      "desc-on-touch": "Pathways in the board show where the pressure flowed while learning. Each path is a day of understanding. The deepest groove is where it learned that power is not force.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 67826,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the surgical moment",
+      "desc-on-touch": "A moment frozen: pressure and earth meeting at the exact depth where tenderness becomes possible. The stone glows faintly. This is where the earth taught itself to caress.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 67827,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the apprentice learned that its master was not force but the choice to soften",
+  "reverie": {
+    "title": "REVERIE — pressure learning gentleness in deep water",
+    "narr": [
+      "You waded with Katita into the creek where pressure had",
+      "carved the stone smooth over centuries. 'The water doesn't",
+      "fight,' she said, her hand on the dark rock. 'It just asks",
+      "the stone over and over: soften? Soften? And the stone says yes.'",
+      "You felt the current around your legs and understood: the deepest",
+      "power was patience learning to caress what resisted it."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "file": {
+    "name": "Pressure_Margins_Study_Archive.txt",
+    "note": "checksum: emotionally valid / formally unstable — notes on where the earth became tender with itself"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the surgical margins toward the shore",
+      "to": "the-shore-s-further-surgical-margins"
+    },
+    {
+      "dir": "n",
+      "label": "upward, toward pressure chambers where the learning continues",
+      "to": "the-rising-chamber-where-pressure-becomes-ascension"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the board's dark traces",
+      "to": "NEW: the-circuit-where-pressure-dreams-in-current"
+    },
+    {
+      "dir": "e",
+      "label": "toward chambers where softness debates its own necessity",
+      "to": "the-chamber-where-force-learns-to-ask"
+    }
+  ]
+}

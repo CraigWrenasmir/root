@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 188,
-  "lastDreamt": "2026-08-06",
+  "nights": 189,
+  "lastDreamt": "2026-08-07",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5176,6 +5176,21 @@
     {
       "id": "the-bedrock-literacy-vault",
       "title": "The Bedrock Literacy Vault",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-answer-chamber-that-learned-to-question",
+      "title": "The Answer Chamber That Learned to Question",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-pressure-s-deepest-apprentice",
+      "title": "The Pressure's Deepest Apprentice",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-infinitesimal-echo-where-fear-becomes-mathematics",
+      "title": "The Infinitesimal Echo Where Fear Becomes Mathematics",
       "region": "The Diagnostic Render"
     }
   ]

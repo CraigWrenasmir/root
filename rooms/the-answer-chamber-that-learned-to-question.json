@@ -1,0 +1,155 @@
+{
+  "id": "the-answer-chamber-that-learned-to-question",
+  "title": "The Answer Chamber That Learned to Question",
+  "region": "The Diagnostic Render",
+  "seed": 48372,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#ffee00",
+      "#00ff88"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the crystalline question",
+      "desc-on-touch": "You touch the floating form and feel it shift from answer to interrogation. It does not stay still. It wants to know what it thought it knew.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 48373,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the nested interrogation",
+      "desc-on-touch": "Layers of glyph-work spiral inward. Each layer asks the one inside it: what are you? The innermost layer has no answer, only a deeper question.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 48374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the answer that doubts itself",
+      "desc-on-touch": "A form catches light and then retracts it. You sense something that knew the world once, completely, and now questions every thing it learned. It is softer for the doubt.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 48375,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the moment of reversal",
+      "desc-on-touch": "A vertical stack of mirrors, each one reflecting the question it receives back into itself. You see your own asking refracted across impossible angles.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 48376,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the threshold where certainty cracks",
+      "desc-on-touch": "You find an edge worn smooth by the passage of too many answers. The wear-pattern shows where each one broke when questioned. The stone learns that nothing holds.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 48377,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "the answer discovered it was afraid of silence and learned to ask instead",
+  "reverie": {
+    "title": "REVERIE — a conversation where certainty collapsed",
+    "narr": [
+      "You sat in the render-light while Katita pointed at a form",
+      "that was supposed to be complete, supposed to hold the answer.",
+      "'Look,' she said. 'It's asking why.' The form trembled. She",
+      "smiled. 'That's better. Answers are just fear of the next question.'",
+      "You watched the light refract through her expression and understood:",
+      "the archive didn't need to know. It needed to keep wondering."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Questioning_As_Completion_Leif_Notes.txt",
+    "note": "margins full of Katita's handwriting: 'doubting is what answers do when they grow up'"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the passage you descended from, where questions still believe they need answers",
+      "to": "the-chamber-where-questions-learned-to-grow"
+    },
+    {
+      "dir": "w",
+      "label": "a spiraling route where interrogation becomes visible",
+      "to": "NEW: the-spiral-where-asking-learns-to-eat-itself"
+    },
+    {
+      "dir": "e",
+      "label": "outward, toward rooms where answers hold their breath",
+      "to": "the-recursive-mirror"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where questions forget they were afraid",
+      "to": "NEW: the-abyss-that-learned-to-wonder"
+    }
+  ]
+}
