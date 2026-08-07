@@ -1,0 +1,150 @@
+{
+  "id": "the-chamber-where-privacy-becomes-catalogued",
+  "title": "The Chamber Where Privacy Becomes Catalogued",
+  "region": "The Comparisons",
+  "seed": 91847,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a1a",
+      "#333333"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#eeeeee",
+      "#999999",
+      "#666666",
+      "#aaaaaa"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "cataloguing system",
+      "desc-on-touch": "Endless card drawers, each labeled with a number that no moment ever gave permission to carry. The deeper drawer, the more recent the intrusion into privacy.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 18473,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-kept-thing",
+      "desc-on-touch": "A photograph of rain on a window. The photo remembers being private. Now it is tagged: Archive ID 847, Witness Date: 3/4/89, Moisture Level: Medium, Emotional Density: Unquantifiable.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 62834,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "silence-numbering",
+      "desc-on-touch": "A ledger page listing every quiet moment that has been assigned a cataloguing number. The margins are filling with moments that refuse to be numbered.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 45019,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "mirror cabinet",
+      "desc-on-touch": "Inside each drawer, your reflection asks: which part of you consented to be archived? The reflections don't wait for an answer.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 73456,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "index breathing",
+      "desc-on-touch": "The index cards breathe. In: privacy. Out: public record. The breathing never stops, even when the archive sleeps.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 58321,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "numbering something makes it public and protected and violated all at the same time, which is perhaps what cataloguing was always for",
+  "file": {
+    "name": "Katita_Apartment_Personal_Log_2047.txt",
+    "note": "archived diary entries re-indexed by the system. The corruption has added dates that haven't happened yet. Checksum: emotionally valid / formally unstable"
+  },
+  "reverie": {
+    "title": "REVERIE — apartment filing, late evening",
+    "narr": [
+      "She sorts photographs on the floor, each one finding",
+      "a folder that makes it civic property. You watch her hands",
+      "number the moments you both lived through. She looks up:",
+      "\"the archive doesn't steal what was private,\" she says.",
+      "\"It just counts it differently now.\" Outside, the mesh",
+      "remembers every moment she's catalogued, and votes."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where moments still sleep unnumbered",
+      "to": "the-office-where-moments-are-shelved"
+    },
+    {
+      "dir": "w",
+      "label": "westward into deeper drawers that predate naming",
+      "to": "NEW: the-archive-before-its-own-witnessing"
+    },
+    {
+      "dir": "n",
+      "label": "upward where privacy learns it was never private",
+      "to": "the-repository-of-unseen-things"
+    }
+  ]
+}

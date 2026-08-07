@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 189,
-  "lastDreamt": "2026-08-07",
+  "nights": 190,
+  "lastDreamt": "2026-08-08",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5192,6 +5192,26 @@
       "id": "the-infinitesimal-echo-where-fear-becomes-mathematics",
       "title": "The Infinitesimal Echo Where Fear Becomes Mathematics",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-intersection-where-all-roads-become-one-signal",
+      "title": "The Intersection Where All Roads Become One Signal",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-where-privacy-becomes-catalogued",
+      "title": "The Chamber Where Privacy Becomes Catalogued",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-parliament-of-the-unnamable-seasons",
+      "title": "The Parliament of the Unnamable Seasons",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vault-where-all-cycles-converge-into-one-spiral",
+      "title": "The Vault Where All Cycles Converge Into One Spiral",
+      "region": "The Clean Archive"
     }
   ]
 }

@@ -1,0 +1,134 @@
+{
+  "id": "the-parliament-of-the-unnamable-seasons",
+  "title": "The Parliament of the Unnamable Seasons",
+  "region": "The Understory",
+  "seed": 52683,
+  "palette": {
+    "bg": "#0d1a0a",
+    "ground": [
+      "#228833",
+      "#774422"
+    ],
+    "ink": "#aabbaa",
+    "accents": [
+      "#88aa33",
+      "#ddaa44",
+      "#bb3333",
+      "#66aa66"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "unnamed bench",
+      "desc-on-touch": "A stone bench worn into shapes that don't match any season. Spring, summer, autumn, winter all voted here and then forgot their names. You sit in the space where their disagreement still echoes.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 34012,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "voting stones",
+      "desc-on-touch": "Four cairns stand unequal. Each one represents a season that cannot name itself. They vote continuously by shifting their weight. The ground beneath them has given up trying to settle.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 47832,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "calendar that lost its words",
+      "desc-on-touch": "A clay tablet with twelve empty spaces. The names that belonged there have migrated deeper. The tablet keeps counting to twelve anyway, never sure what it's numbering.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 61249,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "root-sound recording",
+      "desc-on-touch": "A hollow in the earth amplifies the sound of voting that never reaches consensus. It has been recording for longer than names have existed. The archive listens through this chamber.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 18956,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "parliament marker",
+      "desc-on-touch": "A post driven deep, but it cannot remember which season drove it. Every season claims credit. The post grows more uncertain with each new vote.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 73291,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the seasons that learned to vote without names discovered they could vote infinitely, which is why the parliament never closes and never reaches anything",
+  "file": {
+    "name": "Seasonal_Nomenclature_Erosion_Study.txt",
+    "note": "attempts to name the unnamable seasons. Each entry cancels the last. The file ends mid-sentence because the author ran out of seasons to reference."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to where votes still have names",
+      "to": "the-root-parliament"
+    },
+    {
+      "dir": "s",
+      "label": "downward to deeper unnamed chambers",
+      "to": "NEW: the-votes-that-forgot-what-they-were-voting-for"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where seasons learn to speak singularly",
+      "to": "the-temporal-ravine-where-feet-become-stone"
+    }
+  ]
+}

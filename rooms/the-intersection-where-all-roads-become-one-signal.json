@@ -1,0 +1,139 @@
+{
+  "id": "the-intersection-where-all-roads-become-one-signal",
+  "title": "The Intersection Where All Roads Become One Signal",
+  "region": "The Diagnostic Render",
+  "seed": 74829,
+  "palette": {
+    "bg": "#1a0f0a",
+    "ground": [
+      "#ff6600",
+      "#cc6633"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ff00ff",
+      "#ffff00",
+      "#ff9900",
+      "#ff66ff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "multiplying broadcast",
+      "desc-on-touch": "Four roads converge here and their asphalt sings the same frequency in counterpoint. The antenna receives what the streets are saying.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 82741,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "corruption marker",
+      "desc-on-touch": "A painted white line splits four ways. It remembers being one line. The intersection disagrees with itself about where the line should go.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 19284,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "signal ledger",
+      "desc-on-touch": "A standing chalkboard lists every broadcast this intersection has emitted and is about to emit. The future entries are written in chalk that hasn't been made yet.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 55012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "road-voice layering",
+      "desc-on-touch": "You stand where asphalt learns to speak in overtones. Each direction carries a different pitch. Together they make a chord that the intersection forgot it was humming.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 41293,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "cardinal collapse",
+      "desc-on-touch": "Where north meets south and east meets west, direction becomes optional. The compass here points in all five directions, including down.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 27561,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "where roads sing their destination frequencies, the intersection learns that arrival and departure are the same broadcast, only phase-shifted",
+  "file": {
+    "name": "Intersection_Harmonic_Study_1987.mp3",
+    "note": "field recording of four converging roads humming. Something at 300 Hz stays unchanged. Everything else has split into twins."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the terracotta band where singing softens",
+      "to": "the-singing-asphalt-where-corruption-dawns"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the signal becomes almost visible",
+      "to": "NEW: the-frequency-that-learned-to-fly"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along a road that seems younger than its asphalt",
+      "to": "NEW: the-archive-s-morning-broadcast"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the hum that does not fade",
+      "to": "the-broadcast-canopy"
+    }
+  ]
+}

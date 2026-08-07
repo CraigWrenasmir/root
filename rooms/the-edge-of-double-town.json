@@ -129,6 +129,11 @@
       "dir": "e",
       "label": "into the absence-light where the buildings continue as afterimages",
       "to": "the-new-students"
+    },
+    {
+      "dir": "w",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the edge of double town"
     }
   ]
 }

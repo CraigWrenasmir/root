@@ -1,0 +1,139 @@
+{
+  "id": "the-vault-where-all-cycles-converge-into-one-spiral",
+  "title": "The Vault Where All Cycles Converge Into One Spiral",
+  "region": "The Clean Archive",
+  "seed": 83456,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#e8a87c",
+      "#d4a574"
+    ],
+    "ink": "#f0e68c",
+    "accents": [
+      "#8b4513",
+      "#cd853f",
+      "#daa520",
+      "#a0826d"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "spiral shed row",
+      "desc-on-touch": "Three small wooden sheds arranged in a tightening spiral. Each one holds a different year's harvest. They are waiting for the spiral to complete so they can begin again.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 29847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "central archive house",
+      "desc-on-touch": "A small cottage at the spiral's center holds every cycle that has ever completed. The building's angles refuse to align with its foundation, because the spiral underneath has not stopped moving.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 14563,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "cycle-ledger stone",
+      "desc-on-touch": "A standing stone carved with spiraling lines that mark completed years. The carving continues beyond the stone's surface into the ground, where it records futures that haven't arrived yet.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 56720,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "return-path marker",
+      "desc-on-touch": "A spiral painted on the ground in clay and seeds. It shows where each spring returns to, and where it leaves from next. The path is the same forward and backward; only the speed changes.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 41837,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "convergence gate",
+      "desc-on-touch": "An archway built from cycles that have learned to stack. You pass through it and realize the archway is also the spiral, also the vault, also your own return.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 68195,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "all spirals converge to the same point, but the point is not the center — it is the memory that the beginning and the end never stopped touching",
+  "file": {
+    "name": "Cycle_Convergence_Study_Spring_Annotations.txt",
+    "note": "field notes on patterns observed in spiraling archives. The notes spiral too. Each spring's annotation is written by the spring that came before. The handwriting improves with repetition."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where the spiral was younger",
+      "to": "the-spiral-cycle-vault"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where cycles learn to fly outward",
+      "to": "NEW: the-spiral-that-learned-it-was-always-ascending"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where other cycles are still converging",
+      "to": "the-annual-revision-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where the spiral continues beyond its own circumference",
+      "to": "NEW: the-vault-s-ongoing-opening"
+    }
+  ]
+}
