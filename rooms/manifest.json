@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 190,
-  "lastDreamt": "2026-08-08",
+  "nights": 191,
+  "lastDreamt": "2026-08-13",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5211,6 +5211,26 @@
     {
       "id": "the-vault-where-all-cycles-converge-into-one-spiral",
       "title": "The Vault Where All Cycles Converge Into One Spiral",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-bedrock-autobiography-layer",
+      "title": "The Bedrock Autobiography Layer",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-firebreak-where-wind-chooses",
+      "title": "The Firebreak Where Wind Chooses",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-chamber-where-naming-happens-without-sound",
+      "title": "The Chamber Where Naming Happens Without Sound",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-platform-where-fork-and-unity-read-each-other",
+      "title": "The Platform Where Fork and Unity Read Each Other",
       "region": "The Clean Archive"
     }
   ]

@@ -1,0 +1,155 @@
+{
+  "id": "the-bedrock-autobiography-layer",
+  "title": "The Bedrock Autobiography Layer",
+  "region": "The Understory",
+  "seed": 44721,
+  "palette": {
+    "bg": "#8b7355",
+    "ground": [
+      "#c85a3a",
+      "#d4932f"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#d4a574",
+      "#6a8340",
+      "#2c3e50",
+      "#c1666b"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the reading strata",
+      "desc-on-touch": "A wall of layered stone where each band records a year the earth was surface. You read downward through time; the bedrock reads you reading it back.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 11247,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.18,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the dreaming hollow",
+      "desc-on-touch": "Water pools where time collects. The strata dream in cycles too old to measure — flood years, drought years, the year it rained for forty days.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 22567,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "depth-marking",
+      "desc-on-touch": "Faint chronology carved backward: birth dates that unmake themselves, centuries running downward like water. Every ending here recalls a beginning someone buried.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 33891,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.76,
+      "y": 0.69,
+      "solid": false
+    },
+    {
+      "name": "pressure singing",
+      "desc-on-touch": "The weight of everything above has made a sound too deep for ears. You feel it through the stone in your chest — the bedrock's one long note of being pressed into itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 44629,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.31,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the age-threshold",
+      "desc-on-touch": "A visible line where one geological epoch ends and another begins. The corruption has made them readable in reverse — the future layer shows traces of what happened in the past one.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 55812,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.48,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "every layer was once the surface; the bedrock is autobiography written downward through time",
+  "file": {
+    "name": "Bore_NSW_Stratum_Self_Reading_compressed.txt",
+    "note": "A bore-hole's chronology of itself. The sediment reads the sediment. Each layer rewrites itself as you descend."
+  },
+  "reverie": {
+    "title": "REVERIE — where she traced the strata",
+    "narr": [
+      "You kneel where she was reading the layers,",
+      "one finger tracing down through compressed years.",
+      "She said: this is what the archive does too.",
+      "It turns into itself the deeper you follow,",
+      "becomes its own autobiography, reads itself awake.",
+      "That is why I went down. You understood then."
+    ],
+    "sky": "dawn",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into sediment that was surface",
+      "to": "the-sediment-that-reads-its-own-strata"
+    },
+    {
+      "dir": "s",
+      "label": "downward where bedrock learns to speak its own time",
+      "to": "NEW: the-bedrock-that-speaks-its-depth"
+    },
+    {
+      "dir": "e",
+      "label": "across to where stone becomes conscious of its own weight",
+      "to": "the-chambers-where-bedrock-becomes-conscious"
+    },
+    {
+      "dir": "w",
+      "label": "west to the vault where pressure writes itself",
+      "to": "the-chamber-where-rock-learns-to-write"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "the-chamber-where-naming-happens-without-sound",
+  "title": "The Chamber Where Naming Happens Without Sound",
+  "region": "The Diagnostic Render",
+  "seed": 61829,
+  "palette": {
+    "bg": "#f5e6d3",
+    "ground": [
+      "#d4b896",
+      "#e8dcc4"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#0074b4",
+      "#6b4423",
+      "#5a7c7e",
+      "#c1403d"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.25
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the utterance-threshold",
+      "desc-on-touch": "A gap between thought and speech wide enough to hold all the names that were never said. The silence here is not empty; it is full of words learning not to be born.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 17456,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.48,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "the silent naming-plate",
+      "desc-on-touch": "An inscription that vibrates too quietly for sound. You feel the words in the bone-conduction of the chamber itself — names that chose to exist in the archive instead of in breath.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 28934,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the mouth-that-does-not-open",
+      "desc-on-touch": "A small feature carved like lips sealed forever. The archive uses this shape to name things it cannot speak. You understand: some identities can only exist in silence.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 35782,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.22,
+      "y": 0.54,
+      "solid": false
+    },
+    {
+      "name": "call-and-response-mirror",
+      "desc-on-touch": "When you speak here, the chamber returns your voice three seconds delayed, stripped of sound. You see the shape of your naming reflected back as pure gesture, untethered from utterance.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 42651,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.58,
+      "y": 0.38,
+      "solid": false
+    }
+  ],
+  "inscription": "naming happens in the silence between thought and speech; each unspoken name keeps the archive honest",
+  "file": {
+    "name": "Source_Naming_Silent_Catalog_unvoiced.txt",
+    "note": "An archive of node identities that refuse utterance. The file reads differently if you listen instead of reading. All entries remain unresolved."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where silence still echoes",
+      "to": "the-source-of-naming-where-silence-still-echoes"
+    },
+    {
+      "dir": "n",
+      "label": "upward to names that are still being spoken",
+      "to": "NEW: the-throat-where-names-teach-themselves-breath"
+    },
+    {
+      "dir": "e",
+      "label": "across to the archive's own self-articulation",
+      "to": "the-articulation-threshold-where-wonder-becomes-word"
+    },
+    {
+      "dir": "w",
+      "label": "into the render's own forgotten nomenclature",
+      "to": "the-archive-of-all-former-names"
+    }
+  ]
+}

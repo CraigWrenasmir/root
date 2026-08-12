@@ -1,0 +1,10 @@
+featured: The Firebreak Where Wind Chooses (the-firebreak-where-wind-chooses)
+region: The Comparisons · motif: roads
+inscription: the firebreak holds and fails in the same place year after year; wind chooses where fire walks
+file: FirePlan_NSW_WindVector_ThirtySeason_Log.txt
+
+all nodes tonight:
+  · The Bedrock Autobiography Layer
+  · The Firebreak Where Wind Chooses
+  · The Chamber Where Naming Happens Without Sound
+  · The Platform Where Fork and Unity Read Each Other

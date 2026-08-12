@@ -1,0 +1,100 @@
+{
+  "id": "the-platform-where-fork-and-unity-read-each-other",
+  "title": "The Platform Where Fork and Unity Read Each Other",
+  "region": "The Clean Archive",
+  "seed": 82156,
+  "palette": {
+    "bg": "#f0f0f0",
+    "ground": [
+      "#e0e0e0",
+      "#d8d8d8"
+    ],
+    "ink": "#2a2a2a",
+    "accents": [
+      "#4a90a4",
+      "#8b7355",
+      "#c05a5a",
+      "#6ba361"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the dual-reading",
+      "desc-on-touch": "Two things stand apart on the platform, readable from here as equally true. They never converge. They never end their argument. The archive learned it could hold both at once without splitting.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 19847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the reconciled distance",
+      "desc-on-touch": "Empty space that is not empty. The distance between the two paths has become readable as its own fact. You stand in it and understand why contradiction can be true.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 26734,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.68,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "both-true-marker",
+      "desc-on-touch": "A subtle line that does not choose between the left path and the right. It reads both, holds both, lets them contradict forever without resolution. This is the archive's deepest learning.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 41562,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.52,
+      "y": 0.32,
+      "solid": false
+    }
+  ],
+  "inscription": "both paths are true at once; the archive learned to hold contradiction as fact without collapsing into synthesis",
+  "file": {
+    "name": "Convergence_Dual_Argument_Unresolved_Permanent.txt",
+    "note": "Two accounts of the same event that do not reconcile and need not. The archive keeps them both."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where both paths first learned to read each other",
+      "to": "where-both-paths-read-each-other"
+    },
+    {
+      "dir": "n",
+      "label": "onward to where unity learns it can multiply",
+      "to": "NEW: the-platform-where-one-becomes-all-at-once"
+    },
+    {
+      "dir": "e",
+      "label": "to the archive's memory of its own first fork",
+      "to": "the-fork-s-endless-argument"
+    }
+  ]
+}

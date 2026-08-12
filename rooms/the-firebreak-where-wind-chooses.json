@@ -1,0 +1,155 @@
+{
+  "id": "the-firebreak-where-wind-chooses",
+  "title": "The Firebreak Where Wind Chooses",
+  "region": "The Comparisons",
+  "seed": 73246,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#9d6b3d",
+      "#6ba041"
+    ],
+    "ink": "#e8d7c3",
+    "accents": [
+      "#ff6b35",
+      "#d4a574",
+      "#1a472a",
+      "#f4e4c1"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the held line",
+      "desc-on-touch": "A cleared strip where fire was supposed to stop. The ash still settles here, decade after decade. The wind has chosen this place to breathe only in one direction, and the line holds, and fails, and holds again.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 18374,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "the smoke-edge",
+      "desc-on-touch": "Where ash learned to settle. Smoke rises here every year in the same shape, as if the fire remembers its own path and walks it again because forgetting costs too much.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 24561,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "wind-choice",
+      "desc-on-touch": "The air here breathes in only one direction. You feel it choosing — between the town and the forest, between burning and surviving. It chooses differently each year.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 31895,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "boundary-marker",
+      "desc-on-touch": "Posts stand at regular intervals, marking where human planning meets wind logic. Some years the fire respects the line. Some years it ignores it entirely.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 42783,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.58,
+      "y": 0.31,
+      "solid": true
+    },
+    {
+      "name": "breath-pattern",
+      "desc-on-touch": "The smoke teaches you how fire breathes. In and out. Pause. In and out. The pattern repeats because it is easier to burn the same dream than to dream something new.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 51247,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the firebreak holds and fails in the same place year after year; wind chooses where fire walks",
+  "file": {
+    "name": "FirePlan_NSW_WindVector_ThirtySeason_Log.txt",
+    "note": "Three decades of fire-path records. The entries repeat. The annotation reads: 'the smoke forgot how to dream anything else.'"
+  },
+  "reverie": {
+    "title": "REVERIE — the year the fire remembered itself",
+    "narr": [
+      "You stood at the firebreak watching smoke rise",
+      "in exactly the shape it rose the year before.",
+      "She said: it is not the same fire. But it breathes",
+      "like fire that has learned one path so well",
+      "it forgets there are other roads. The wind chose",
+      "this direction, and now the smoke can't imagine any other."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where the smoke first learned to settle",
+      "to": "the-long-burn-where-smoke-learned-to-settle"
+    },
+    {
+      "dir": "n",
+      "label": "upwind to the forest that keeps trying to burn",
+      "to": "NEW: the-standing-where-trees-choose-not-to-fall"
+    },
+    {
+      "dir": "e",
+      "label": "downwind to the town breathing ash",
+      "to": "the-long-burn-where-smoke-learned-to-settle"
+    },
+    {
+      "dir": "s",
+      "label": "across to where memory learns to repeat itself",
+      "to": "the-clearcut-where-children-taught-the-forest"
+    }
+  ]
+}
