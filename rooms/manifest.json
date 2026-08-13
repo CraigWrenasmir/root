@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 191,
-  "lastDreamt": "2026-08-13",
+  "nights": 192,
+  "lastDreamt": "2026-08-14",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5232,6 +5232,26 @@
       "id": "the-platform-where-fork-and-unity-read-each-other",
       "title": "The Platform Where Fork and Unity Read Each Other",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-root-dreaming-upward",
+      "title": "The Root Dreaming Upward",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-of-inherited-keeping",
+      "title": "The Chamber of Inherited Keeping",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cottages-that-learned-to-be-suggestions",
+      "title": "The Cottages That Learned to Be Suggestions",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-field-that-refused-to-settle",
+      "title": "The Field That Refused to Settle",
+      "region": "The Comparisons"
     }
   ]
 }

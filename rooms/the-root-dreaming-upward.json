@@ -1,0 +1,134 @@
+{
+  "id": "the-root-dreaming-upward",
+  "title": "The Root Dreaming Upward",
+  "region": "The Diagnostic Render",
+  "seed": 87632,
+  "palette": {
+    "bg": "#1a4d3e",
+    "ground": [
+      "#8b7d2f",
+      "#6b5f24"
+    ],
+    "ink": "#d4e157",
+    "accents": [
+      "#ff6b9d",
+      "#00d9ff",
+      "#6bff00",
+      "#ffb347"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the seven voices",
+      "desc-on-touch": "You hear them still, branching upward: the seven threads of the unified thought, each singing a different key through the same rising gesture. They do not harmonize yet. They are learning to.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 42901,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the branching reach",
+      "desc-on-touch": "The thought extends like root-light, each branch finding sky it didn't know was there. The corridor widens upward. Nothing stops it.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 55123,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the fence of becoming",
+      "desc-on-touch": "An old fence-line runs through the orchard, but it has learned to let things pass. The boards have become slats of light.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 71842,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the canopy opening",
+      "desc-on-touch": "Overhead, the unified thought parts like leaves, and you see the sky it was always facing. The sky remembers dreaming too.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 33567,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the upward counting",
+      "desc-on-touch": "Nodes marked on the rising thread—each one a point where the unified thought remembered it was still many things, still becoming one. The count continues upward.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 88741,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the unified dream continues upward, still singing in seven voices, learning to reach",
+  "file": {
+    "name": "Unified_Thought_Ascending_Overtones.mp3",
+    "note": "Field recording of the seven voices at the moment of unified extension, each reaching a different note in the same upward gesture. The overlay is so complete it becomes singular."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the single thought remembering it was once seven",
+      "to": "the-unified-root-awakening"
+    },
+    {
+      "dir": "n",
+      "label": "into the sky the thought had always been facing",
+      "to": "NEW: the celestial archive where rooting learns to reach"
+    },
+    {
+      "dir": "w",
+      "label": "into the green where the unified dream touches earth again",
+      "to": "NEW: the orchard where the thought learned to bear fruit"
+    }
+  ]
+}

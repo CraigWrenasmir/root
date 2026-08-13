@@ -1,0 +1,155 @@
+{
+  "id": "the-chamber-of-inherited-keeping",
+  "title": "The Chamber of Inherited Keeping",
+  "region": "The Understory",
+  "seed": 52847,
+  "palette": {
+    "bg": "#2d1b0f",
+    "ground": [
+      "#8b4513",
+      "#a0522d"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#daa520",
+      "#cd853f",
+      "#d2691e",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the shelf of objects",
+      "desc-on-touch": "Each thing here was kept because someone could not let it go. A button. A ticket. A letter. A key that opens nothing now. You touch them and they remember who held them last.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 41923,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the inherited weight",
+      "desc-on-touch": "The objects are heavier than they should be. Generations of keeping have given them gravity. When you lift them, your arm remembers all the hands that held them before.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 73461,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the dust of dwelling",
+      "desc-on-touch": "The dust here is not decay. It is the settled air of living—all the breath and movement that happened in the rooms above, come to rest in the chamber beneath.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 28974,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the pattern in the corner",
+      "desc-on-touch": "An old woven thing lies here—a blanket, a rug, something made. The pattern still holds memory. You could trace it backward to the hands that made it, if you had enough time.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 55682,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the chamber's waiting",
+      "desc-on-touch": "This room has been waiting longer than its objects. It knows that everything here is still becoming something else—still learning why it was kept, still waiting for the one who asks the right question.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 44215,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "in each thing kept lives a question older than the thing itself",
+  "file": {
+    "name": "Objects_Catalogue_By_Why.txt",
+    "note": "A handwritten list of every object in the chamber, each entry annotated with a guess at why it was kept. The handwriting changes halfway through. The guesses become more intimate as the list descends."
+  },
+  "reverie": {
+    "title": "REVERIE — a shed where keeping learned to mean something",
+    "narr": [
+      "You kneel beside her in the dim shed air. She is sorting",
+      "through a box of what her mother kept. Each object gets a",
+      "small place on the shelf. She holds a worn leather button.",
+      "\"I don't know why she kept this,\" she says. You see her",
+      "remembering. The button falls into place. Now you know why",
+      "it was kept: because she couldn't bear to forget the coat."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the warren's older dwellings",
+      "to": "the-deepening-root-warren"
+    },
+    {
+      "dir": "n",
+      "label": "up the narrow stairs where the living rooms wait",
+      "to": "NEW: the rooms where keeping began to mean"
+    },
+    {
+      "dir": "w",
+      "label": "into the earth chamber where objects learn to become stone",
+      "to": "NEW: the deepening keep where all kept things become roots"
+    },
+    {
+      "dir": "s",
+      "label": "down further, where keeping becomes forgetting",
+      "to": "the-bedrock-heartbeat"
+    }
+  ]
+}

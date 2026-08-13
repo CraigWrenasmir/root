@@ -129,6 +129,11 @@
       "dir": "e",
       "label": "toward other stations where the same rain is falling differently",
       "to": "the-main-drainage-memory"
+    },
+    {
+      "dir": "w",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the clouds origin chamber"
     }
   ]
 }

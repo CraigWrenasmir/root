@@ -1,0 +1,139 @@
+{
+  "id": "the-field-that-refused-to-settle",
+  "title": "The Field That Refused to Settle",
+  "region": "The Comparisons",
+  "seed": 74521,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#c97841",
+      "#a85c3f"
+    ],
+    "ink": "#e8e4d0",
+    "accents": [
+      "#7cb342",
+      "#ff9800",
+      "#00897b",
+      "#6a4c93"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the intersection that refuses to choose",
+      "desc-on-touch": "Two paths cross here, but they do not select for each other. They have learned to be incompatible without resolving. The field holds both. Error came here and learned that not-choosing could be a form of truth.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 48392,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the green that holds red",
+      "desc-on-touch": "The field is mostly green, but terracotta bands cut through it. The colours do not blend. They hold their separation. This is how the field learned to be unsettled without breaking.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 63847,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the unmeasured distance",
+      "desc-on-touch": "The field holds many places at once. The far edge is both close and unreachable. Scale has learned to become uncertain. The archive measures here using only analogies.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 91753,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the refusal marker",
+      "desc-on-touch": "A marker stands here, but its reading keeps changing. One direction it says yes. Another says no. A third says both. A fourth says the question was wrong to begin with. The field has learned all these answers are equally true.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 38164,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the branching that doesn't resolve",
+      "desc-on-touch": "Paths fork throughout the field. They multiply but never merge. Follow one and others remain—not lost, but held in the field's refusal to forget them. Comparison happens in the space between.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 55614,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.58,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "error dissolved here, learning that uncertainty is not a failure of measurement but a property of the field itself",
+  "file": {
+    "name": "Field_Survey_Contradictory_Data.csv",
+    "note": "A measurement dataset from multiple surveyors of the same field section. Every measurement disagrees with every other. Checksums verify they are all valid. The field has somehow made all measurements "
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the upstream town where error learned its first softening",
+      "to": "the-upstream-town-where-error-went-another-way"
+    },
+    {
+      "dir": "n",
+      "label": "toward the hills where refusal becomes philosophy",
+      "to": "NEW: the ridgetop where answers learned not to meet"
+    },
+    {
+      "dir": "w",
+      "label": "into the deeper green where the field has learned to be multiple",
+      "to": "NEW: the unconsidered multiplicity"
+    },
+    {
+      "dir": "s",
+      "label": "down toward the river where error remembers being water",
+      "to": "NEW: the confluence where refusal teaches the current to branch"
+    }
+  ]
+}

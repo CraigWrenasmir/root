@@ -1,0 +1,150 @@
+{
+  "id": "the-cottages-that-learned-to-be-suggestions",
+  "title": "The Cottages That Learned to Be Suggestions",
+  "region": "The Clean Archive",
+  "seed": 91463,
+  "palette": {
+    "bg": "#e8d9c1",
+    "ground": [
+      "#d4a574",
+      "#c9963d"
+    ],
+    "ink": "#2c3e50",
+    "accents": [
+      "#3498db",
+      "#2ecc71",
+      "#e74c3c",
+      "#9b59b6"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the fading outline",
+      "desc-on-touch": "The cottages are still there, but only barely. You see them more in the light around them than in themselves. They have learned to exist mostly in memory.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 36782,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the row that recedes",
+      "desc-on-touch": "Each cottage in the row reaches further away than geometry should allow. The row is a place, not a line. Walking down it, you never arrive at the end.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 62144,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the green that's learning to keep them",
+      "desc-on-touch": "Grass grows where the cottages hold light. The land is remembering what it was before they came. The cottages are becoming part of that memory now.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 44891,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the windows that have learned to see both ways",
+      "desc-on-touch": "Look through a cottage window and you see not what is inside, but what is outside looking in. The cottages have become transparent. You can see through them to what they were always suggesting.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 79235,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the drift of what-they-might-have-held",
+      "desc-on-touch": "The cottages hold only suggestions now: a memory of a kitchen, a hint of a bed, the echo of a voice that lived here. The archive is learning what suggestion can be.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 51029,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the cottages have learned that staying and fading are the same gesture, held long enough",
+  "file": {
+    "name": "Cottage_Floor_Plans_Almost_Remembered.txt",
+    "note": "A set of sketched floor plans, drawn from memory by someone who lived in one of these cottages as a child. Each plan is slightly different—the rooms shift, the doors relocate, the walls remember thems"
+  },
+  "reverie": {
+    "title": "REVERIE — sitting in a cottage that's learning to become lig",
+    "narr": [
+      "You sit on the cottage step with her. The afternoon is dry.",
+      "The doorway behind you holds only soft-focus rooms now.",
+      "\"It wasn't like this,\" she says. You know. You ask her to",
+      "describe it anyway. She does. With each word, the cottage",
+      "becomes more real and more gone at once. By the time she",
+      "finishes, it's mostly suggestion, held up by her speaking."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up the row toward the cottages that still hold form",
+      "to": "the-cottages-beyond-reaching"
+    },
+    {
+      "dir": "n",
+      "label": "further down the row, where cottages become only light",
+      "to": "NEW: the cottages where form surrenders to suggestion"
+    },
+    {
+      "dir": "w",
+      "label": "into the green where the land remembers before cottages",
+      "to": "the-clearcut-where-children-taught-the-forest"
+    }
+  ]
+}
