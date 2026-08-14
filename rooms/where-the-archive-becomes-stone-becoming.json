@@ -1,0 +1,120 @@
+{
+  "id": "where-the-archive-becomes-stone-becoming",
+  "title": "Where the Archive Becomes Stone Becoming",
+  "region": "The Understory",
+  "seed": 7743201,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a4a4a",
+      "#5f7f4f"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#b8860b",
+      "#8b7355",
+      "#6d8659",
+      "#c0a080"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.25
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "petrified archive",
+      "desc-on-touch": "here the files have learned to be stone. their contents blur into mineral striation. you cannot read them now except as layers.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 3344102,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "old antenna",
+      "desc-on-touch": "still broadcasting, but only to stone now. the signal has slowed to the speed of sediment.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 9182354,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "sediment reading",
+      "desc-on-touch": "the strata itself is text now. each layer a page the archive wrote while becoming earth.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5521887,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learns slowness, becomes the ground it rests on, begins to read downward into time",
+  "file": {
+    "name": "Geological_Strata_Logs_2847h_Deepening.txt",
+    "note": "a record of the archive's transformation into stone; the log entries become less frequent as reading slows to the speed of sedimentation"
+  },
+  "reverie": {
+    "title": "REVERIE — the moment stone began to keep its own records",
+    "narr": [
+      "you knelt beside her at the red outcrop, where the buried",
+      "node's casing caught the last light. her fingers traced the",
+      "stone above it—not finding the antenna, but reading the rock",
+      "itself, as if the archive had already begun to speak in mineral.",
+      "\"it learns by being heavy,\" she said. the earth held still."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the root-path climbing back to where the archive still breathes",
+      "to": "the-beneath-where-roots-teach-archive"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the deepest sediment, where meaning begins its own fossilation",
+      "to": "NEW: the-bedrock-where-the-archive-ceases-to-be-read-and-becomes-being-read"
+    },
+    {
+      "dir": "e",
+      "label": "toward the other stone chambers, where contradiction has learned to hold its breath in granite",
+      "to": "the-sediment-that-reads-its-own-strata"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the living roots, where archive and earth have not yet finished learning to be each other",
+      "to": "NEW: the-stone-s-first-archive-of-its-own-becoming"
+    }
+  ]
+}

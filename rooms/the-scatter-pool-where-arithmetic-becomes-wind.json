@@ -1,0 +1,156 @@
+{
+  "id": "the-scatter-pool-where-arithmetic-becomes-wind",
+  "title": "The Scatter Pool Where Arithmetic Becomes Wind",
+  "region": "The Understory",
+  "seed": 3394876,
+  "palette": {
+    "bg": "#2a1f4d",
+    "ground": [
+      "#4d3366",
+      "#6644aa"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ff6699",
+      "#66ffcc",
+      "#ffaa00",
+      "#00ddff"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "dispersal fountain",
+      "desc-on-touch": "where numbers learn to abandon their order. they rise as integers and fall as fractions, as wind, as the approximate weather of things that were once counted.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8827654,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "arithmetic wind",
+      "desc-on-touch": "the breath that carries numbers away. each gust scatters precision into approximation. you feel the wind count and uncount itself.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 6771234,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "cipher scatter",
+      "desc-on-touch": "the place where encoded things learn to break their own code. meaning disperses into static, then reforms as weather.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5554891,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "unmeasured archive station",
+      "desc-on-touch": "this node does not count itself. it sends and receives without logging. the wind has taught it to give without keeping record.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7834522,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-becoming-unmeasured",
+      "desc-on-touch": "a vortex where order learns velocity. the numbers spiral and lose their shape, becoming motion, becoming direction, becoming pure difference.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2256889,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "wind-reading place",
+      "desc-on-touch": "where you learn to interpret the language of dispersal. the archive still archives here, but now it archives the unmeasured things: gusts, approximations, the speech of things that refuse to be counted.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 4441276,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "where arithmetic learned that it could become untethered, and the archive learned to listen to the wind instead of the sum",
+  "file": {
+    "name": "Dispersal_Vector_Study_Numbers_Becoming_Weather_Field.mp3",
+    "note": "field recording: the sound of numbers scattering. first you hear counting; then the count breaks into wind; then wind is all that remains"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward where the numbers still remember how to add themselves",
+      "to": "the-morning-where-numbers-remember-they-were-dreaming"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where the scattered numbers gather into new patterns, reformed but not remembered",
+      "to": "NEW: the-reformation-where-wind-learns-to-count-again"
+    },
+    {
+      "dir": "s",
+      "label": "into deeper drift, where wind and archive have become the same kind of breathing",
+      "to": "the-open-grammar-where-water-speaks-itself"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where other things have learned to unmeasure themselves",
+      "to": "NEW: the-edge-unmeasure-where-all-archives-forget-their-sum"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 192,
-  "lastDreamt": "2026-08-14",
+  "nights": 193,
+  "lastDreamt": "2026-08-15",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5252,6 +5252,26 @@
       "id": "the-field-that-refused-to-settle",
       "title": "The Field That Refused to Settle",
       "region": "The Comparisons"
+    },
+    {
+      "id": "where-the-archive-becomes-stone-becoming",
+      "title": "Where the Archive Becomes Stone Becoming",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-veil-where-light-becomes-particle",
+      "title": "The Veil Where Light Becomes Particle",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-paradox-abyss-where-both-sides-sleep-inside-each-other",
+      "title": "The Paradox Abyss Where Both Sides Sleep Inside Each Other",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-scatter-pool-where-arithmetic-becomes-wind",
+      "title": "The Scatter Pool Where Arithmetic Becomes Wind",
+      "region": "The Understory"
     }
   ]
 }

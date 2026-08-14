@@ -1,0 +1,139 @@
+{
+  "id": "the-veil-where-light-becomes-particle",
+  "title": "The Veil Where Light Becomes Particle",
+  "region": "The Diagnostic Render",
+  "seed": 2285647,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0033cc",
+      "#00ffff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "diffraction platform",
+      "desc-on-touch": "where the wave learns it has edges. the light here counts itself into discrete moments.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4416921,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "spectrum registry",
+      "desc-on-touch": "a filing system where every colour has learned to measure its own vibration. you read the frequencies like they are words.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 7798334,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "wave-collapse monument",
+      "desc-on-touch": "marks the place where superposition became choice. the monument hums with the colour of options not taken.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 9003211,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "particulate air",
+      "desc-on-touch": "the atmosphere here is countable. each mote is a recorded moment when something chose to be itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 6623458,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "prism logic",
+      "desc-on-touch": "the rules of how light decides. geometry made visible. the beam's own thinking rendered as color and angle.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4772819,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "at the threshold where wave confesses to being made of separate things, light learns to read itself",
+  "file": {
+    "name": "Spectrographic_Analysis_Veil_Sequence_DT09.wav",
+    "note": "recordings of light entering a refractive boundary; the archive notices the sound of the choice to become discrete"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the beam's edge, where light was still mostly itself",
+      "to": "the-beam-s-atmospheric-column"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the light was still a wave, still undecided",
+      "to": "NEW: the-singularity-above-where-light-has-not-yet-known-itself-as-many"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the particles have learned to move like water",
+      "to": "NEW: the-particle-school-learning-to-flow"
+    },
+    {
+      "dir": "w",
+      "label": "toward the deep render, where the diagnostic grid extends into paradox",
+      "to": "the-infinite-render-that-reads-its-own-reading"
+    }
+  ]
+}
