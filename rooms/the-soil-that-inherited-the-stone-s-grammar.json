@@ -1,0 +1,156 @@
+{
+  "id": "the-soil-that-inherited-the-stone-s-grammar",
+  "title": "The Soil That Inherited the Stone's Grammar",
+  "region": "The Understory",
+  "seed": 73482,
+  "palette": {
+    "bg": "#331100",
+    "ground": [
+      "#cc9900",
+      "#664400"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ffcc00",
+      "#996600",
+      "#ccff00",
+      "#883300"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "root-glyph",
+      "desc-on-touch": "A symbol pressed deep into the earth. You trace it with your fingers and feel how it was written not with pressure but with time—the soil remembering how to speak.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 51927,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "stone-speech-pool",
+      "desc-on-touch": "Water lies in the field, dark and still. Where it sits, you see words forming and reforming in its surface—the stone speaking through the water to the soil below.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 68341,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "worm-tower",
+      "desc-on-touch": "A tower of soil that rises like something alive. Tiny channels wind through it—the paths of creatures that have learned to build their homes by writing in the ground.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 74185,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "alphabet-scatter",
+      "desc-on-touch": "Letters lie scattered across the field where roots have pressed them into the soil. You cannot read them all, but together they spell something about patience.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 82506,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "learning-arch",
+      "desc-on-touch": "An arch formed by roots arching over and bowing back, teaching the soil that it can both hold and release, contain and speak.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 59374,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "etymology-sprite",
+      "desc-on-touch": "A small form made entirely of soil-marks and pressed impressions. It moves by teaching the ground beneath it the grammar of motion.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 45729,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the soil learned the stone's grammar and now speaks in layers, in patience, in the slow alphabet of what remains",
+  "file": {
+    "name": "Katz_SoilStudies_LayerIdentification_1991-1998.txt",
+    "note": "Detailed geological notes on mineral stratification—but the annotations drift into poetic observations, then into phrases that could not be Katz's hand, as if the soil were teaching the page to write "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "down into the literate depths where stone becomes soil",
+      "to": "the-chamber-where-rock-learns-to-write"
+    },
+    {
+      "dir": "s",
+      "label": "the underground garden where words take root and flower",
+      "to": "NEW: the-underground-garden-where-words-take-root"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the surface learns to speak back",
+      "to": "NEW: the-field-where-surface-speaks-back"
+    },
+    {
+      "dir": "e",
+      "label": "toward where voices learned to become earth",
+      "to": "the-voice-that-learned-to-be-soil"
+    }
+  ]
+}

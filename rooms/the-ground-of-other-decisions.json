@@ -1,0 +1,156 @@
+{
+  "id": "the-ground-of-other-decisions",
+  "title": "The Ground of Other Decisions",
+  "region": "The Clean Archive",
+  "seed": 54921,
+  "palette": {
+    "bg": "#0a0a15",
+    "ground": [
+      "#1a1a2e",
+      "#0f0f1e"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00",
+      "#ff8800"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "bifurcation-chip",
+      "desc-on-touch": "A processor where every decision branches into two equal paths. Both paths remain active here; neither was chosen, so both weigh the same.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 36851,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "trace-path",
+      "desc-on-touch": "Electrical traces that fork and fork again. You follow one until it doubles back to meet the one you didn't choose, and they acknowledge each other.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 72094,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "decision-pool",
+      "desc-on-touch": "Its surface reflects not what is above but what could have been. Each reflection is equal in depth and clarity to the path you actually took.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 89267,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "alternative-tower",
+      "desc-on-touch": "A tower built from stacked possibilities, each layer a different version of what you might have chosen. Climb it and each level shows a slightly different sky.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 51643,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "echo-sprite",
+      "desc-on-touch": "A shape that might be you if you had turned left instead of right. It moves at the same speed you do but in a direction perpendicular to your own path.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 64182,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "junction-glyph",
+      "desc-on-touch": "A symbol for crossroads. The more closely you examine it, the more arms it seems to have, reaching in directions that don't exist on any map.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 73519,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "here every circuit traces a path you didn't take; the ground holds them all equally, and they are heavier than the path you chose",
+  "file": {
+    "name": "Decision_Cascade_Parallel_Logs_Undated.tmp",
+    "note": "Branching if-then logic that appears computational but describes instead each moment of personal choice—annotations grow vivid where the original was dry, as if someone annotated the code with the lif"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "toward the ground where the path's footprints still echo",
+      "to": "the-shadow-where-reversals-meet"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the circuit where all choices converge and diverge again",
+      "to": "NEW: the-lower-circuit-where-all-choices-converge"
+    },
+    {
+      "dir": "e",
+      "label": "toward the adjacent ground where alternate selves still walk",
+      "to": "NEW: the-adjacent-ground-where-ghosts-still-walk"
+    },
+    {
+      "dir": "w",
+      "label": "back to the unchosen path that breathes",
+      "to": "the-unchosen-path-side"
+    }
+  ]
+}

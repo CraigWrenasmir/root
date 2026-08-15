@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 193,
-  "lastDreamt": "2026-08-15",
+  "nights": 194,
+  "lastDreamt": "2026-08-16",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5272,6 +5272,26 @@
       "id": "the-scatter-pool-where-arithmetic-becomes-wind",
       "title": "The Scatter Pool Where Arithmetic Becomes Wind",
       "region": "The Understory"
+    },
+    {
+      "id": "the-infinite-carousel-of-sideways-turning",
+      "title": "The Infinite Carousel of Sideways Turning",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-soil-that-inherited-the-stone-s-grammar",
+      "title": "The Soil That Inherited the Stone's Grammar",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ground-of-other-decisions",
+      "title": "The Ground of Other Decisions",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-zero-nomenclature-deep",
+      "title": "The Zero Nomenclature Deep",
+      "region": "The Diagnostic Render"
     }
   ]
 }

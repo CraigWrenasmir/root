@@ -1,0 +1,156 @@
+{
+  "id": "the-infinite-carousel-of-sideways-turning",
+  "title": "The Infinite Carousel of Sideways Turning",
+  "region": "The Understory",
+  "seed": 42857,
+  "palette": {
+    "bg": "#1a0033",
+    "ground": [
+      "#004466",
+      "#2a0055"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#ff00ff",
+      "#00ff99",
+      "#ffff00",
+      "#ff0066"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "carousel-horse",
+      "desc-on-touch": "You watch it turn and turn, but never the way you expect. Each rotation carries it sideways through space.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 71234,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "spiral-tower",
+      "desc-on-touch": "It spirals upward but also inward; you cannot track which direction it turns. At its crown, something else spirals back down.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 48392,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "sidewise-arch",
+      "desc-on-touch": "The arch leans at an angle that shouldn't support anything. Riders pass through it sideways, their motion perpendicular to your eye.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 62851,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "echo-pool",
+      "desc-on-touch": "The surface reflects not the carousel but itself at different times, each reflection turning in its own direction.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 39472,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "tangent-glyph",
+      "desc-on-touch": "A symbol for motion that never aligns with itself. The more you look at it, the more it seems to drift sideways off the surface.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 81756,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "circuit-knot",
+      "desc-on-touch": "Electrical traces form a knot that cannot be untangled because it was never tied—it spawned this way, twisted through dimensions the carousel alone understands.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 74628,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the carousel turns where the horses run, and the riders slip sideways through the turning, and there is always another horse ahead spiraling away",
+  "file": {
+    "name": "Carousel_Recordings_Layered_1987_to_Now.mp3",
+    "note": "Field recordings of carnival music playing at different speeds, each bleeding into the next—no beginning, no end, just an endless harmonic drift through itself"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up through the spiraling carnival where each turn is the same turn",
+      "to": "the-eternal-turn"
+    },
+    {
+      "dir": "n",
+      "label": "the carousel doubles itself climbing",
+      "to": "NEW: the-carousel-s-unmapped-duplicate-ascending"
+    },
+    {
+      "dir": "e",
+      "label": "toward the platform where watchers still and all else circles",
+      "to": "the-echo-that-forgot-to-return"
+    },
+    {
+      "dir": "w",
+      "label": "the exit where riders finally learn to step sideways off",
+      "to": "NEW: the-wheel-where-riders-finally-dismount"
+    }
+  ]
+}

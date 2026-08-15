@@ -1,0 +1,139 @@
+{
+  "id": "the-zero-nomenclature-deep",
+  "title": "The Zero Nomenclature Deep",
+  "region": "The Diagnostic Render",
+  "seed": 89327,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#4a0000",
+      "#2a1a4a"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#ff6600",
+      "#aa00ff",
+      "#00ffcc",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.3
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "unnamed-tower",
+      "desc-on-touch": "It reaches upward into the dusk-to-dark gradient, and at every point along its height, it waits for a name that will never find it here.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 42678,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "void-glyph",
+      "desc-on-touch": "A symbol for everything before language. You look at it and feel the weight of all that was unspoken, and all that will remain that way.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 58734,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "root-descent",
+      "desc-on-touch": "Thin lines reaching down into the gradient, seeking the point where the first root took its first name—if it ever did, if it needs to.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 71823,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "origin-pool",
+      "desc-on-touch": "Water that has not yet learned what water is. It holds nothing, reflects nothing, waits for the first word that will name it—a word that has not yet been made.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 85412,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "pre-shape-sprite",
+      "desc-on-touch": "Something that predates form. It does not move because motion requires a name. It does not rest because rest requires a name. It simply is, unnamed.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 63951,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "this is the deep where things did not yet have names; names are falling from above but have not landed; here is the space where the first sound will never arrive",
+  "file": {
+    "name": "PreLanguage_Acoustic_Substrate_UnFileable.tmp",
+    "note": "Pure texture and resonance without phonemic meaning—but the archive indexed it anyway, and now the indexing has made it mean something it wasn't and never asked to become"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "toward the root-source where the first name was never named",
+      "to": "the-bedrock-literacy-vault"
+    },
+    {
+      "dir": "n",
+      "label": "the ascent where names begin to form and fall like rain",
+      "to": "NEW: the-ascent-where-names-begin-to-form"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still where sounds forget themselves and are born again",
+      "to": "NEW: the-deeper-silence-where-sounds-forget-themselves"
+    },
+    {
+      "dir": "w",
+      "label": "toward the registry where all first naming was written down",
+      "to": "the-registry-of-primordial-naming"
+    }
+  ]
+}

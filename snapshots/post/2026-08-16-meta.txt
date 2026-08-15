@@ -1,0 +1,10 @@
+featured: The Soil That Inherited the Stone's Grammar (the-soil-that-inherited-the-stone-s-grammar)
+region: The Understory · motif: fields
+inscription: the soil learned the stone's grammar and now speaks in layers, in patience, in the slow alphabet of what remains
+file: Katz_SoilStudies_LayerIdentification_1991-1998.txt
+
+all nodes tonight:
+  · The Infinite Carousel of Sideways Turning
+  · The Soil That Inherited the Stone's Grammar
+  · The Ground of Other Decisions
+  · The Zero Nomenclature Deep
