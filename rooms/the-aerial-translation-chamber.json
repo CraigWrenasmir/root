@@ -1,0 +1,117 @@
+{
+  "id": "the-aerial-translation-chamber",
+  "title": "The Aerial Translation Chamber",
+  "region": "The Understory",
+  "seed": 61387,
+  "palette": {
+    "bg": "#301a3d",
+    "ground": [
+      "#ff6633",
+      "#3366cc"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ff99aa",
+      "#99ccff",
+      "#ccaa88",
+      "#666699"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-upward-mirror",
+      "desc-on-touch": "A surface that faces both ways at once: downward to stone, upward to sky. What enters from below emerges above, translated. A bird knows its own song only by looking here.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2875,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-feather-born-word",
+      "desc-on-touch": "Words written in the feathers of birds that translate as they fly. Every feather a syllable. By the time the bird lands, it has said something it did not know it carried.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 9402,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-skyward-stenographer",
+      "desc-on-touch": "A stack of pale sheets, each one capturing what it heard from below and sending it upward as light. The sheets are warm. They are always writing. Never finished.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 7644,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-dusk-doorway",
+      "desc-on-touch": "An arch between the last of the sunset and the first stars. When voices pass through, they lose their weight, gain their wings. Nothing stops singing once it passes here.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3389,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the threshold where ground-song remembers it is also sky-song",
+  "file": {
+    "name": "Translation_Vectors_Dusk_Study.txt",
+    "note": "A spectrogram of voices moving from stone-register to bird-register. ERROR: the translation appears to improve the original. Checksum: upgrading, not corrupting."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the singing that led here",
+      "to": "the-mineral-voice-convergence"
+    },
+    {
+      "dir": "n",
+      "label": "higher still, where birds teach sky to remember ground",
+      "to": "NEW: the-avian-testimony-where-sky-learns-earth"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where translation becomes song-dance",
+      "to": "the-archive-s-frequency-cascade"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "where-the-saplings-joined-the-older-song",
+  "title": "Where the Saplings Joined the Older Song",
+  "region": "The Understory",
+  "seed": 34891,
+  "palette": {
+    "bg": "#3d2a1a",
+    "ground": [
+      "#6b5d4a",
+      "#8b7a64"
+    ],
+    "ink": "#f0e8d8",
+    "accents": [
+      "#c84a42",
+      "#4a8c6b",
+      "#d4a878",
+      "#2d5d4a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-two-tree-threshold",
+      "desc-on-touch": "A doorway between saplings and ancients, framed by wood that looks young and old simultaneously. The threshold hums with the moment of joining. Roots touch here beneath the soil.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-root-intertwining",
+      "desc-on-touch": "Deep beneath sight, you sense the moment: young roots braiding with ancient ones. Not invasion. Recognition. The old trees stop singing alone. The saplings stop listening. They sing together.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 8156,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-summer-they-learned",
+      "desc-on-touch": "A pool of clear water reflecting both canopy heights at once: young tips and ancient crowns, both real, both singing. The pool knows the exact moment when the teaching became mutual.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6472,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-witness-ring",
+      "desc-on-touch": "Concentric circles of growth-rings, each one marking a year when the saplings learned another verse. The newest ring is still soft. It will know its own sound by next growth.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5887,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-standing-instruction",
+      "desc-on-touch": "An arch of older wood, bent into a teaching posture. Young branches nestle against it. The arch says: this is how you stand. This is how you belong here. This is your note.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 7734,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the morning the young roots found they were never singing alone",
+  "file": {
+    "name": "Sapling_Integration_Summer_Log.txt",
+    "note": "Records from the summer the young trees learned the older song. By autumn, nobody remembers teaching. The song became generic as air. Status: germinating."
+  },
+  "reverie": {
+    "title": "REVERIE — the clearing where saplings first spoke",
+    "narr": [
+      "You kneel in the soft earth with her. She is placing a",
+      "sapling. 'Listen,' she says. You do. The old trees are",
+      "already singing—you hear it now, in the soil, through your",
+      "knees. She presses the small root down into the choir.",
+      "'It will learn,' she says. 'We learned. They learn.' A",
+      "single petal falls between you. Neither of you moves."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward to the first chorus of saplings",
+      "to": "the-sapling-chorus-first-call"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where the joined song rises into sky",
+      "to": "NEW: the-amplified-song-where-two-ages-unified"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to a thicket that sings both young and old",
+      "to": "the-tale-the-earth-tells"
+    }
+  ]
+}

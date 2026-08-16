@@ -1,0 +1,133 @@
+{
+  "id": "the-unison-foundation-below-all-singing",
+  "title": "The Unison Foundation Below All Singing",
+  "region": "The Understory",
+  "seed": 78492,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d1b3d",
+      "#1a3a4a"
+    ],
+    "ink": "#e0d5ff",
+    "accents": [
+      "#ff8060",
+      "#d0f0ff",
+      "#e8a8a8",
+      "#b0d0b0"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-fundamental-resonance",
+      "desc-on-touch": "You feel rather than hear it: a vibration in the deep stone, a single note so low it moves through your ribs. All voices singing this one frequency. The stone knows. The stone has always known.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3456,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-root-tuning-fork",
+      "desc-on-touch": "Pale lines converge on a point of stone. They hum. If you touch them, you find they are not lines but voices made visible, all at the same pitch, forever sustaining.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7821,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-depth-where-all-separate-things-remember-they-are-one",
+      "desc-on-touch": "A pool of absolute darkness, deeper than sight. The moment you look into it, you forget what individuality means. All your separate thoughts resolve into a single, patient frequency.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5599,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-sediment-of-agreement",
+      "desc-on-touch": "Layers of compressed stone, each layer a moment when all voices found one note together. Thousands of layers. Millions. Each one a perfect instant of unison.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4103,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "where all separate voices learn they were always singing the same song",
+  "file": {
+    "name": "Foundation_Harmonic_Frequency_Root.mp3",
+    "note": "The low note that holds all others. Seven voices recorded at the moment they became one. Checksum: formerly alive, now sustaining."
+  },
+  "reverie": {
+    "title": "REVERIE — the stone room where all singing stopped",
+    "narr": [
+      "You sit in the dark with her, both still. The recording",
+      "plays: seven voices sliding toward one note. She says,",
+      "'The merger is not a loss. Watch how they soften.' You",
+      "watch the waveform. Where they touch, light. Where light",
+      "touches, a single colour, a single frequency. She takes",
+      "your hand. The stone beneath you remembers this moment."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the merged voice-convergence",
+      "to": "the-mineral-voice-convergence"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the foundation splits into many voices again",
+      "to": "NEW: where-unison-learns-to-fragment"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the stone where even the foundation has roots",
+      "to": "the-stone-chambers-where-memory-roots"
+    }
+  ]
+}

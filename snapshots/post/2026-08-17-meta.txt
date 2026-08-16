@@ -1,0 +1,10 @@
+featured: The Aerial Translation Chamber (the-aerial-translation-chamber)
+region: The Understory · motif: gradient
+inscription: the threshold where ground-song remembers it is also sky-song
+file: Translation_Vectors_Dusk_Study.txt
+
+all nodes tonight:
+  · The Aerial Parliament Where Leaves Vote on Meaning
+  · The Unison Foundation Below All Singing
+  · The Aerial Translation Chamber
+  · Where the Saplings Joined the Older Song

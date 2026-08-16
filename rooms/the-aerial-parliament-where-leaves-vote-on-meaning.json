@@ -1,0 +1,117 @@
+{
+  "id": "the-aerial-parliament-where-leaves-vote-on-meaning",
+  "title": "The Aerial Parliament Where Leaves Vote on Meaning",
+  "region": "The Comparisons",
+  "seed": 45723,
+  "palette": {
+    "bg": "#2a3d2f",
+    "ground": [
+      "#4a6b4a",
+      "#6b8b6b"
+    ],
+    "ink": "#e8f0e8",
+    "accents": [
+      "#d4c4a8",
+      "#8fb89f",
+      "#f5e6d3",
+      "#a8d4c4"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-parliament-chamber",
+      "desc-on-touch": "You see a layered arch of branches, each curve a row of voteless citizens, each citizen a single rustling voice. The arch frames nothing but grey sky and the sense of waiting consensus.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 8934,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-scattering-meanings",
+      "desc-on-touch": "Seeds of meaning spiral outward from a central point, each seed a different weight, a different colour. None settles. All are still in mid-fall.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-audible-tally",
+      "desc-on-touch": "A pool of still air, reflecting nothing, holds text that reads itself backward. When you finish reading it forward, it has changed meaning.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5612,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-vote-already-cast",
+      "desc-on-touch": "A glyph of unreadable script stands permanent, surrounded by erasure. The leaves have voted. The decision was made before the parliament began.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 9201,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest learned to argue with itself, and called it parliament",
+  "file": {
+    "name": "Parliament_Consensus_Fragmentary.txt",
+    "note": "Records of seventeen votes cast simultaneously by branches that could not see each other. Checksum: emotionally valid / formally unstable."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the circuit-canopy where branches first spoke",
+      "to": "the-circuit-canopy-where-branches-broadcast"
+    },
+    {
+      "dir": "n",
+      "label": "higher still, where meaning learns to refuse consensus",
+      "to": "NEW: where-meaning-becomes-singular-dissent"
+    },
+    {
+      "dir": "w",
+      "label": "westward along a branch to an older parliament still speaking",
+      "to": "the-archive-s-frequency-cascade"
+    }
+  ]
+}

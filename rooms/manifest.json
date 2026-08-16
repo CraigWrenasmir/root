@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 194,
-  "lastDreamt": "2026-08-16",
+  "nights": 195,
+  "lastDreamt": "2026-08-17",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5292,6 +5292,26 @@
       "id": "the-zero-nomenclature-deep",
       "title": "The Zero Nomenclature Deep",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-aerial-parliament-where-leaves-vote-on-meaning",
+      "title": "The Aerial Parliament Where Leaves Vote on Meaning",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unison-foundation-below-all-singing",
+      "title": "The Unison Foundation Below All Singing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-aerial-translation-chamber",
+      "title": "The Aerial Translation Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-saplings-joined-the-older-song",
+      "title": "Where the Saplings Joined the Older Song",
+      "region": "The Understory"
     }
   ]
 }
