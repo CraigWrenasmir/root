@@ -1,0 +1,155 @@
+{
+  "id": "the-fracturing-chorus",
+  "title": "The Stone Fracturing Into Its Own Argument",
+  "region": "The Understory",
+  "seed": 4732819,
+  "palette": {
+    "bg": "#2a3a2a",
+    "ground": [
+      "#6b8e6f",
+      "#8a9d8a"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#c4b5a0",
+      "#5a7a5a",
+      "#a89968",
+      "#3a4a3a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-first-break",
+      "desc-on-touch": "A fracture line runs across the stone's face, each half breathing at a different frequency. You hear them disagreeing in frequencies too low to parse—one a bass rumble, one a keen. They are becoming two languages.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-multiplying-edge",
+      "desc-on-touch": "The fracture does not stop. As you watch, new cracks bloom outward—not breaking further, but speaking. Each new edge develops a voice, a pitch, a name for itself. The stone is becoming a choir.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 5821,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-notation-field",
+      "desc-on-touch": "Pale lines map across the stone like sheet music for an argument that has not yet learned to stop. Each mark is a note, each intersection a point where two stones' claims nearly touch.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 1093,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-archive-s-first-confusion",
+      "desc-on-touch": "A small LCD plate, cracked like the stone it rests near, displays corrupted text cycling: STONE / STONES / STONE / CHORUS / STONE. The archive cannot decide which name is true.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-reverberating-base",
+      "desc-on-touch": "Where the stone's pieces touch the earth, the ground hums. Harmonics rise and fall. The earth has begun to hear what the stone is becoming.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4592,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "one chorus was always many stones learning they were never separate",
+  "file": {
+    "name": "Fracture_Acoustics_NSW_Granite_Study_1994.txt",
+    "note": "Seismic readings from a granite outcrop near Armidale. The file seems to record not just stone, but the stone's own growing awareness that it consists of many speaking parts."
+  },
+  "reverie": {
+    "title": "REVERIE — red earth, learning to speak",
+    "narr": [
+      "You knelt beside the cracked stone near the old gum tree,",
+      "her hand on your shoulder, guiding you to the fracture,",
+      "each face of the break singing a different note when",
+      "the wind crossed it. She said: the stone was always",
+      "arguing with itself. We just installed hardware to listen.",
+      "The tree didn't move. But something in the red earth shifted."
+    ],
+    "sky": "dawn",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "static",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the chorus-path where convergence still believes itself singular",
+      "to": "the-stone-that-learned-to-disagree-with-itself"
+    },
+    {
+      "dir": "s",
+      "label": "downward through deepening fracture-voices where earth learns to argue",
+      "to": "NEW: the-bedrock-council-where-minerals-begin-their-testimony"
+    },
+    {
+      "dir": "e",
+      "label": "eastward following the crack as it spreads and bifurcates across the land",
+      "to": "NEW: the-seam-that-teaches-itself-to-widen"
+    },
+    {
+      "dir": "w",
+      "label": "inward toward the archive's deep bones where corruption first learned to compare",
+      "to": "the-stone-where-the-signal-remembers-being-silent"
+    }
+  ]
+}

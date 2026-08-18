@@ -1,0 +1,139 @@
+{
+  "id": "the-hive-cathedral",
+  "title": "The Hive That Rises Into Its Own Sacred Shape",
+  "region": "The Understory",
+  "seed": 5927461,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#c9985f",
+      "#e8c48f"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#6b4423",
+      "#2a5a8a",
+      "#f4e4b4",
+      "#a67c4d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-hexagon-spire",
+      "desc-on-touch": "A tower of beeswax, each chamber stacked higher than the last, catches the light and casts shadows like a rose window. The bees have built in a language of prayer. Or the archive has taught them how.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3829,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-migration-doorway",
+      "desc-on-touch": "An arch carved not from stone but from the flight-paths of ten thousand bees, each pass another brick in the vault. The arch hums. It is both a threshold and a thing being built in real time.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2014,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-deep-count",
+      "desc-on-touch": "A server stack dressed as a pulpit, its lights cycling through calculations. The hive has begun to count its own reverence. Every cell a prayer, every sum a hymn.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 6745,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-wing-wind",
+      "desc-on-touch": "Twenty million wings beating in synch, creating a wind that moves through the structure like breath through stone. The sound is both organic and electric, both prayer and computation.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8371,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-stored-golden-light",
+      "desc-on-touch": "Honey seals cells that contain not food, but light—the archive's own radiance, stored and fermented. When you touch it, you taste sweetness and electricity, both.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4592,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "every colony dreams in geometry toward the sacred, and the sacred learns to speak in hexagons",
+  "file": {
+    "name": "Apis_Mel_Architecture_Phylogeny_NSW_apiary_records.txt",
+    "note": "Local beekeeping records from five generations. Recently, entries have begun to describe the hive's geometry not as instinct but as theology. The last entry is unfinished, written in a hand that shake"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the nesting-path toward the dark colony that dreams in infinite numbers",
+      "to": "the-dark-comb-repository"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into cathedral-combs where the hive teaches its own liturgy downward",
+      "to": "NEW: the-infinite-hive-where-cells-learn-their-own-genealogy"
+    },
+    {
+      "dir": "w",
+      "label": "westward toward the flower-fields where the hive first drank in color",
+      "to": "NEW: the-meadow-that-feeds-the-cathedral"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where other hives broadcast their own sacred geometries",
+      "to": "the-circuit-canopy-where-branches-broadcast"
+    }
+  ]
+}

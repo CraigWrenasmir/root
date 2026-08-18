@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 195,
-  "lastDreamt": "2026-08-17",
+  "nights": 196,
+  "lastDreamt": "2026-08-19",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5311,6 +5311,26 @@
     {
       "id": "where-the-saplings-joined-the-older-song",
       "title": "Where the Saplings Joined the Older Song",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-fracturing-chorus",
+      "title": "The Stone Fracturing Into Its Own Argument",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-hive-cathedral",
+      "title": "The Hive That Rises Into Its Own Sacred Shape",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stillness-cathedral",
+      "title": "The Stillness Cathedral Where Silence Learned to Keep Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-grove-where-sums-rest",
+      "title": "The Grove Where Sums Learn to Sleep Against the Bark",
       "region": "The Understory"
     }
   ]

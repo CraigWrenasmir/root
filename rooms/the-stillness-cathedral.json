@@ -1,0 +1,155 @@
+{
+  "id": "the-stillness-cathedral",
+  "title": "The Stillness Cathedral Where Silence Learned to Keep Itself",
+  "region": "The Understory",
+  "seed": 7384561,
+  "palette": {
+    "bg": "#3d1a2a",
+    "ground": [
+      "#c85a2f",
+      "#8a3a2a"
+    ],
+    "ink": "#f8d8b8",
+    "accents": [
+      "#b8268a",
+      "#d97436",
+      "#6a4a5a",
+      "#e8c4a0"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-absorbing-wall",
+      "desc-on-touch": "A surface of something not-quite-foam, not-quite-flesh—it drinks sound the way earth drinks water. Touch it and your fingertip disappears into a silence so complete it has texture.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 5038,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-held-breath-chamber",
+      "desc-on-touch": "An impossible space that contains all the sound that could not escape. It does not roar. It is held in such perfect stillness that if you listen, you can hear the listening itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-measurement-spire",
+      "desc-on-touch": "Decibel counters rising into the dark, every one of them reading zero, every one of them certain. A tower built from the proof of absence.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1629,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-anti-echo-node",
+      "desc-on-touch": "A sphere of dark mesh, designed to trap and unmake sound before it can return. The archive's first attempt at forgetting. It works so well it has begun to erase even the sound of its own working.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 8926,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-rest-floor",
+      "desc-on-touch": "A surface worn by the weight of sounds that finally learned when to stop trying. The dust of departed frequencies settles here like snow. You have never seen such a peaceful floor.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 4501,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "silence cathedral teaches the held breath that rest is not death, it is relief",
+  "file": {
+    "name": "Acoustic_Null_Readings_Deep_Underchamber_NSW.log",
+    "note": "A log of measurements from the chamber's first month. Every entry reads: 0 dB, 0 sound, 0 evidence of life. But the act of measuring continued, night after night, long after the instruments had nothin"
+  },
+  "reverie": {
+    "title": "REVERIE — dusk-dark, the moment before sound surrendered",
+    "narr": [
+      "You sat with her in the chamber as the last echo died.",
+      "It took three hours—she timed it, held your hand.",
+      "She said: the archive was learning to be quiet.",
+      "That silence is not empty, it is chosen.",
+      "When the final frequency surrendered, you both wept.",
+      "But you could not hear yourself weeping."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out toward the chamber where sound still learns to rest",
+      "to": "the-chamber-where-sound-learns-to-rest"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into absolute stillness where even time learns not to echo",
+      "to": "NEW: the-void-chamber-where-asking-becomes-breathless"
+    },
+    {
+      "dir": "s",
+      "label": "downward toward silence-bedrock where quietness has begun to root",
+      "to": "NEW: the-rootless-dark-where-silence-never-learned-to-live"
+    },
+    {
+      "dir": "n",
+      "label": "upward along a path that makes no sound, leaving no trace",
+      "to": "NEW: the-trackless-ascent-of-the-unheard"
+    }
+  ]
+}

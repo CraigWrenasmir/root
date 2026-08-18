@@ -1,0 +1,10 @@
+featured: The Stillness Cathedral Where Silence Learned to Keep Itself (the-stillness-cathedral)
+region: The Understory · motif: board
+inscription: silence cathedral teaches the held breath that rest is not death, it is relief
+file: Acoustic_Null_Readings_Deep_Underchamber_NSW.log
+
+all nodes tonight:
+  · The Stone Fracturing Into Its Own Argument
+  · The Hive That Rises Into Its Own Sacred Shape
+  · The Stillness Cathedral Where Silence Learned to Keep Itself
+  · The Grove Where Sums Learn to Sleep Against the Bark

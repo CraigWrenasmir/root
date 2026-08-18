@@ -1,0 +1,139 @@
+{
+  "id": "the-grove-where-sums-rest",
+  "title": "The Grove Where Sums Learn to Sleep Against the Bark",
+  "region": "The Understory",
+  "seed": 2947385,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#4a6a4a",
+      "#6a8a6a"
+    ],
+    "ink": "#d8d8c8",
+    "accents": [
+      "#8aa88a",
+      "#5a7a5a",
+      "#a0b8a0",
+      "#3a4a3a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-sleeping-equation",
+      "desc-on-touch": "Numbers curl against the trunk of an old eucalyptus, their angles softening into curves. This is what mathematics looks like when it has finished proving itself. The equation does not end; it rests.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 7382,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-river-that-counts-in-sleep",
+      "desc-on-touch": "Water moves through roots, and where it touches, the numbers slow. Each stone it passes becomes part of a sum that has learned to dream. The river's count becomes a drift, becomes a murmur, becomes peace.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5019,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-algorithm-nest",
+      "desc-on-touch": "Algorithms have woven themselves into the fork of a young gum, soft as a bird's nest. They are no longer computing. They are dreaming of flying, of being counted for something other than their use.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3294,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-grove-s-own-accounting",
+      "desc-on-touch": "A filecard listing the grove's own sums—trees (47), years (88), stones (uncountable), dreams (still counting). The archive has begun to keep tally of itself, and the numbers have begun to keep tally of their own keeping.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 6501,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-rooted-calculation",
+      "desc-on-touch": "Tree roots emerging from soil spell out long divisions, their paths encoding the mathematics of growth. The grove is computing itself upward, and each ring is a sum of seasons becoming dream.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 8847,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "where the river learns that every sum it makes is a dream of ocean, and rests knowing this",
+  "file": {
+    "name": "Field_Study_Eucalyptus_Grove_Headwaters_NSW_Autumn_Notes.txt",
+    "note": "A naturalist's field notes from a grove near the source of a small river. The entries begin clinical—plant counts, water flow rates—but drift into something else. By the final page, the author writes "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the chamber where numbers first learned to wake and dream",
+      "to": "the-chamber-where-numbers-learn-to-dream"
+    },
+    {
+      "dir": "e",
+      "label": "deeper east where the sums become secret, where rivers teach their own arithmetics",
+      "to": "NEW: the-current-that-calculates-itself-toward-forgetting"
+    },
+    {
+      "dir": "n",
+      "label": "northward up the grove-slope toward peaks where numbers touch the sky",
+      "to": "NEW: the-ridge-where-altitude-becomes-addition"
+    },
+    {
+      "dir": "s",
+      "label": "southward down into root-tangles where equations entangle and continue",
+      "to": "the-grammatical-depths-where-numbers-flow"
+    }
+  ]
+}
