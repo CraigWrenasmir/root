@@ -1,0 +1,155 @@
+{
+  "id": "the-solitary-creek-origin",
+  "title": "The Solitary Creek Origin",
+  "region": "The Understory",
+  "seed": 5927463,
+  "palette": {
+    "bg": "#F5F1E8",
+    "ground": [
+      "#C9B299",
+      "#87CEEB"
+    ],
+    "ink": "#3D3D3D",
+    "accents": [
+      "#4A7C8E",
+      "#A67C52",
+      "#5F8F5F",
+      "#D4A574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "spring source sprite",
+      "desc-on-touch": "A tiny figure of the water itself, still learning that it is separate from stone. The creature-shape of origin, before it became tributary, before it knew to flow.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 78392,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "flow-memory tower",
+      "desc-on-touch": "Stacked blocks of sediment where the creek has carved its own story, decade by decade. Each layer is a conversation the water had with stone before it learned to speak to other waters.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 34821,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "gathering plaque",
+      "desc-on-touch": "A stone directory listing where tributaries file themselves: upstream names, origin depths, the catalogue of loneliness before meeting. Each marked as: not yet converged.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 56134,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "crystal clarity pool",
+      "desc-on-touch": "A pool so clear it becomes a mirror to the sky—the creek still shows heaven's reflection before joining the river. After this, the sky will be less visible from the water.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 11928,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "solitude arch",
+      "desc-on-touch": "A doorway carved by patient water into patient stone. The shape says: this creek knows how to be alone. This is not loneliness—this is a form of knowledge.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 42756,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the creek remembers before it ever learns to forget",
+  "file": {
+    "name": "Creek_Origin_Field_Recording_Dawn_Unnamed_Tributary.mp3",
+    "note": "The first moment of flow, captured at sunrise: stone, and the sound of water learning its own voice in absolute silence."
+  },
+  "reverie": {
+    "title": "REVERIE — at the creek's birth, before sunrise reaches",
+    "narr": [
+      "You wade into the cold pool where the creek begins.",
+      "She stands on the stone bank, recording. The water here",
+      "tastes of only itself—no river-taste yet, no mixing.",
+      "\"Do you feel that?\" she says. The water is so clear",
+      "it's almost invisible. You are wading in clarity itself.",
+      "\"It doesn't know it's a tributary yet,\" she whispers."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "downward toward the gathering where creeks learn to meet",
+      "to": "the-gathering-before-meeting"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the paddock where rain first falls",
+      "to": "NEW: the-rain-s-first-touch-meadow"
+    },
+    {
+      "dir": "n",
+      "label": "upstream into the hills where stone remembers being higher",
+      "to": "the-shape-dreaming-where-form-remembers"
+    },
+    {
+      "dir": "s",
+      "label": "through the grass toward where other waters flow",
+      "to": "the-open-grammar-where-water-speaks-itself"
+    }
+  ]
+}

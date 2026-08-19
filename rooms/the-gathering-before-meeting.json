@@ -144,7 +144,7 @@
     {
       "dir": "w",
       "label": "upstream to a tributary that still lives alone",
-      "to": "NEW: the-solitary-creek-origin"
+      "to": "the-solitary-creek-origin"
     }
   ]
 }

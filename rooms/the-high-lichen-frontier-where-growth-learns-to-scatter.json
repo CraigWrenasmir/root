@@ -1,0 +1,155 @@
+{
+  "id": "the-high-lichen-frontier-where-growth-learns-to-scatter",
+  "title": "The High Lichen Frontier",
+  "region": "The Understory",
+  "seed": 7834521,
+  "palette": {
+    "bg": "#E8DCC8",
+    "ground": [
+      "#D4A574",
+      "#8FBC8F"
+    ],
+    "ink": "#2C3E50",
+    "accents": [
+      "#87CEEB",
+      "#F0E68C",
+      "#D2691E",
+      "#556B2F"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "lichen colony ascending",
+      "desc-on-touch": "You trace the slow archive written in colour across the stone face. Each mark is a decade. The lichen is reading weather the same way Katita read corruption: line by line, asking what changed.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "frontier scatter-field",
+      "desc-on-touch": "The growth here has learned not to cluster. Each organism trusts the space between itself and the next—a grammar of distance that lets this high country breathe.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 43591,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "stone study plaque",
+      "desc-on-touch": "Field notes laminated and sealed: lichen study from 1987, Katita's hand identifying growth rates, margins, colour-shift per altitude. The archive's own measuring hand, made visible.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 89127,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "sky-roof optical pool",
+      "desc-on-touch": "A pool of high-altitude light that seems to gather the blue of the sky itself. When you look down, you see the lichen's view upward—colour mapped in reverse.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 55403,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "altitude wire-tower",
+      "desc-on-touch": "A tall wireframe structure that models the frontier itself—how growth scatters as oxygen thins, how distance becomes the defining architecture of all living things here.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 23694,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "here the slow colours learned that growth need not gather to be profound",
+  "file": {
+    "name": "HighCountry_Lichen_Transect_1987_Katita.txt",
+    "note": "Growth rate studies at altitude: every 100m the colour-shift accelerates, as if lichen remembers earlier light."
+  },
+  "reverie": {
+    "title": "REVERIE — high country at noon, lichen under fingertip",
+    "narr": [
+      "You kneel on the stone where she kneels, reading the slow",
+      "record written in lichen. Her hand traces the margin where",
+      "growth stops—where altitude teaches every living thing its",
+      "honest limit. She looks up. The sky here is so direct it hurts.",
+      "\"Look,\" she says. \"Not failing. Just true.\"",
+      "The lichen did not fail. The lichen knew exactly how high to grow."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward where lichen fades and trees remember their roots",
+      "to": "the-fossil-lichen-grove"
+    },
+    {
+      "dir": "w",
+      "label": "toward a high pass where weather forgets which way to move",
+      "to": "NEW: the-pass-where-wind-learns-to-turn"
+    },
+    {
+      "dir": "n",
+      "label": "further up where even stone becomes sparse",
+      "to": "the-settled-absolute-peak"
+    },
+    {
+      "dir": "e",
+      "label": "across a ridge where lichen meets the view of distant valleys",
+      "to": "the-ridge-of-all-chosen-footsteps"
+    }
+  ]
+}

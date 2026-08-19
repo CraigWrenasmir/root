@@ -139,7 +139,7 @@
     {
       "dir": "s",
       "label": "down a stairwell that doesn't appear on any floor plan",
-      "to": "NEW: the-basement-where-the-motel-remembers-being-built"
+      "to": "the-basement-where-the-motel-remembers-being-built"
     },
     {
       "dir": "e",

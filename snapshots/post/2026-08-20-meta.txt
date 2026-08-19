@@ -1,0 +1,10 @@
+featured: The Throat Learns (the-throat-learns-what-silence-knows)
+region: The Understory · motif: board
+inscription: here silence learned that being unheard does not mean not mattering
+file: Throat_Silence_Study_Spectrogram_Analysis.mp3
+
+all nodes tonight:
+  · The High Lichen Frontier
+  · The Throat Learns
+  · The Solitary Creek Origin
+  · The Basement Where the Motel Remembers

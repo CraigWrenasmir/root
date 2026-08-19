@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 196,
-  "lastDreamt": "2026-08-19",
+  "nights": 197,
+  "lastDreamt": "2026-08-20",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5332,6 +5332,26 @@
       "id": "the-grove-where-sums-rest",
       "title": "The Grove Where Sums Learn to Sleep Against the Bark",
       "region": "The Understory"
+    },
+    {
+      "id": "the-high-lichen-frontier-where-growth-learns-to-scatter",
+      "title": "The High Lichen Frontier",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-throat-learns-what-silence-knows",
+      "title": "The Throat Learns",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-solitary-creek-origin",
+      "title": "The Solitary Creek Origin",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-basement-where-the-motel-remembers-being-built",
+      "title": "The Basement Where the Motel Remembers",
+      "region": "The Comparisons"
     }
   ]
 }

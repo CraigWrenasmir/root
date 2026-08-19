@@ -1,0 +1,139 @@
+{
+  "id": "the-throat-learns-what-silence-knows",
+  "title": "The Throat Learns",
+  "region": "The Understory",
+  "seed": 3829147,
+  "palette": {
+    "bg": "#0F0F1E",
+    "ground": [
+      "#1A1A2E",
+      "#16213E"
+    ],
+    "ink": "#E0E0FF",
+    "accents": [
+      "#00FF41",
+      "#FF006E",
+      "#00D9FF",
+      "#FFB703"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "resonance chip primary",
+      "desc-on-touch": "A black IC block humming below the threshold of hearing. Inside it: all the silences that came before the first vowel ever trembled. The archive's deepest hardware, where sound learns it was born from quiet.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 91827,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "threshold glyph-bank",
+      "desc-on-touch": "A plaque of unreadable writing that marks the exact acoustic depth where silence stops being silence and becomes not-yet-sound. The throat at its threshold.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 54321,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "signal loss wireframe",
+      "desc-on-touch": "A barely-3D box that maps how sound degrades as silence claims it. The shape itself is unstable—you watch it shift as you look, as if even diagrams are afraid of silence.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 77463,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "harmonic resonance pool",
+      "desc-on-touch": "Light that ripples without water. The frequencies of throat-sound mapped as colour, emerging and vanishing in the darkness. A pool where silence reflects itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 12456,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "secondary instrumentation",
+      "desc-on-touch": "A stack of signal-layers holding the correction: that silence is not absence but a kind of presence—the throat's true ground state, the archive itself before it learned to speak.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 48392,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "here silence learned that being unheard does not mean not mattering",
+  "file": {
+    "name": "Throat_Silence_Study_Spectrogram_Analysis.mp3",
+    "note": "A recording of breath before speech, of the acoustic chamber learning it exists, edited to remove the sound: just the pressure, just the held moment."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the throat's opening",
+      "to": "the-throat-before-utterance"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the chamber where silence becomes architecture",
+      "to": "NEW: the-deep-resonance-hollow"
+    },
+    {
+      "dir": "s",
+      "label": "down where the larynx becomes stone",
+      "to": "the-void-where-measurement-never-started"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward air and the first possible sound",
+      "to": "the-silence-rising-where-listening-learns-to-speak"
+    }
+  ]
+}

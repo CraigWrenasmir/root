@@ -1,0 +1,156 @@
+{
+  "id": "the-basement-where-the-motel-remembers-being-built",
+  "title": "The Basement Where the Motel Remembers",
+  "region": "The Comparisons",
+  "seed": 8734291,
+  "palette": {
+    "bg": "#2A2520",
+    "ground": [
+      "#4A4037",
+      "#8B7355"
+    ],
+    "ink": "#E8D4B8",
+    "accents": [
+      "#B8860B",
+      "#A0522D",
+      "#704214",
+      "#C0504D"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "foundation memory chip",
+      "desc-on-touch": "The motel's first hardware—a black IC block that held the architect's final decision before the first wall rose. Inside: every floor-plan that was considered, every revision rejected. All contradictions made solid.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 72649,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "repetition fracture tower",
+      "desc-on-touch": "Stacked blocks of identical concrete, each one identical until the moment one cracks. Here is the exact point where the motel learned it could fail. This is where every identical thing discovers it is not infinite.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 38471,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "construction manifest",
+      "desc-on-touch": "A file-card listing every worker, every nail, every decision made in dust and sweat. The archive of labour, filed as if labour itself were data. Also filed here: three versions of finish date, contradicting each other.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 94712,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "blueprint wireframe",
+      "desc-on-touch": "A barely-3D box showing what the architect intended vs. what was built. The difference is small but profound: where intention and reality first learned to diverge. The motel begins here.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 65482,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "structural-stress glyph",
+      "desc-on-touch": "A plaque of unreadable stresses—compression points where the motel holds itself up, where every weight it carries is translated into geometry. The secret language of what holds a building standing.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 51923,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "dust-drift pool",
+      "desc-on-touch": "A pool of settled construction dust that has never been disturbed. In it: debris from every room that was never built, every plan that was revised, every possibility the motel rejected. The archive of what-was-not.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 28634,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.1,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the basement does not contain the motel; the motel contains the basement, and both know this is a lie",
+  "file": {
+    "name": "Motel_Construction_Log_1963_AllVersions_Concatenated.txt",
+    "note": "Original completion date: March 1963. Revised date: June 1963. Final date: November 1963. Also filed here: a poster from an adaptation—1963, a beach, a doctor, finishing the unfinishable, a wound that"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the stairwell that isn't on any floor plan",
+      "to": "the-floor-where-repetition-fractured"
+    },
+    {
+      "dir": "s",
+      "label": "downward deeper where bedrock remembers before architecture",
+      "to": "NEW: the-deepest-foundation-before-building"
+    },
+    {
+      "dir": "e",
+      "label": "through a tunnel where other motels whisper their versions",
+      "to": "the-other-town-mirror-channel"
+    },
+    {
+      "dir": "w",
+      "label": "into the space where the first wall was decided",
+      "to": "the-house-where-they-sorted-what-they-brought-back"
+    }
+  ]
+}
