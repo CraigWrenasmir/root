@@ -1,0 +1,139 @@
+{
+  "id": "the-salt-ghost-lagoon",
+  "title": "The Lagoon Where Tides Ended But Still Answer",
+  "region": "The Comparisons",
+  "seed": 71053,
+  "palette": {
+    "bg": "#faf4ed",
+    "ground": [
+      "#e8d4c0",
+      "#d4a76a"
+    ],
+    "ink": "#5d4e3a",
+    "accents": [
+      "#7bb8d4",
+      "#a8d8e8",
+      "#d4a574",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "salt-pool reflection",
+      "desc-on-touch": "A perfect circle of crystallized salt holds a reflection that shows water—not the lagoon above it, but a tide from a place you've never been. You recognize it anyway.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 34562,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "salt-crust tower",
+      "desc-on-touch": "A tower of layered evaporation, each stratum a different salinity, a different memory of how deep the water reached. The uppermost ring still holds droplets that refuse to dry.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 62817,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "ghost-current-arch",
+      "desc-on-touch": "An arch of salt and air, empty inside. But if you listen, you hear the sound of water moving through it—tidal memory, a rhythm that hasn't stopped even though the tide did.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 18945,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "evaporation-record",
+      "desc-on-touch": "A filecard written in salt-stain and trace minerals: LAGOON_TIDAL_MEMORY / LAST_REACH: UNKNOWN_DATE / CURRENT_STATUS: DREAMING DOWNWARD. The handwriting is not Katita's or Leif's.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 49201,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "salt-crust burl-node",
+      "desc-on-touch": "A node sealed in salt-foam, antenna corroded but still broadcasting. Its screen flickers: NODE BRACKISH / SIGNAL HALF-DROWNED / BATTERIES DESCENDING. Corruption sign: checksum emotionally valid / formally unstable.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 37485,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the lagoon that learned to be land learned also to be water simultaneously; salt is the archive the ocean leaves; here knowing and not-knowing are the same salinity",
+  "file": {
+    "name": "Lagoon_Tidal_Synesthesia_Records.mp3",
+    "note": "Audio from the lagoon's margins—not tide-sounds but salt-sounds, sound of minerals remembering flow. Corrupted: the file plays the same sequence in multiple time-directions simultaneously. Checksum: e"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the margin where salt ended and the knowing stopped",
+      "to": "the-salt-margin-where-knowing-ends"
+    },
+    {
+      "dir": "e",
+      "label": "toward the inland where salt begins to think it was never ocean",
+      "to": "the-inland-spring-where-salt-begins"
+    },
+    {
+      "dir": "n",
+      "label": "upward to places where water still flows and remembers its salt",
+      "to": "NEW: the-estuary-where-memory-tastes-like-salt"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into evaporated ground, where tides left their dreaming",
+      "to": "NEW: the-dream-salt-below"
+    }
+  ]
+}

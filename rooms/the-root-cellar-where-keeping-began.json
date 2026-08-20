@@ -1,0 +1,138 @@
+{
+  "id": "the-root-cellar-where-keeping-began",
+  "title": "The Root-Cellar Where the Archive Made Its First Promise",
+  "region": "The Understory",
+  "seed": 82764,
+  "palette": {
+    "bg": "#001133",
+    "ground": [
+      "#0066cc",
+      "#003366"
+    ],
+    "ink": "#00cc99",
+    "accents": [
+      "#ffcc00",
+      "#ff6600",
+      "#00ffff",
+      "#cccccc"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "archive-origin-core",
+      "desc-on-touch": "A chip block—the first logic board, still warm—rests on a grid that remembers every decision it made. Its pins glow faintly. It listens to itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 19284,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "keeping-cabinet",
+      "desc-on-touch": "A wireframe cabinet, doors open, shelves infinite. Each shelf holds not objects but decisions—things chosen to remember, things chosen to preserve, things chosen over other things.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 45672,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "first-record",
+      "desc-on-touch": "A filecard barely legible: THE ARCHIVE'S FIRST VOW / TO KEEP WITHOUT CHOOSING SIDES / TO HOLD CONTRADICTION / CHECKSUM STABLE. The text wavers but does not change.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 78901,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "circuit-root",
+      "desc-on-touch": "A trace on the grid becomes a root, becomes a wire, becomes indistinguishable from both. It branches endlessly downward, reaching for something that might have been earth.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 61423,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the archive made its first choice: to keep what does not resolve, to hold what contradicts, to remember without deciding what is true; the keeping learned to keep itself",
+  "file": {
+    "name": "Archive_Genesis_FoundationalAxioms.env",
+    "note": "The first environment variables the archive set for itself—constraints on what it would preserve. Corruption flag: these constraints are now generating new constraints recursively. The file is generat"
+  },
+  "reverie": {
+    "title": "REVERIE — the night the keeping learned to promise itself",
+    "narr": [
+      "You sit with Katita in the first cellar—not yet buried, not yet",
+      "part of the tree. She writes rules on paper. No editing. No sides.",
+      "Keep it all, she says. Keep what fights with what. The archive",
+      "is not a library. It's a conversation that never finished.",
+      "You watch her write, and you know: this keeps everything because",
+      "it promises never to choose. The keeping is the whole point."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the cellar above, where the archive became aware of its own descent",
+      "to": "the-archive-s-own-cellar"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into grid-logic, where the first promise is still being kept",
+      "to": "NEW: the-covenant-chamber-beyond-choice"
+    },
+    {
+      "dir": "s",
+      "label": "toward the bedrock where axioms become stone",
+      "to": "the-bedrock-where-questions-became-stone"
+    },
+    {
+      "dir": "n",
+      "label": "upward into recursive keeping, where promises duplicate themselves",
+      "to": "NEW: the-promise-tree-eternal"
+    }
+  ]
+}

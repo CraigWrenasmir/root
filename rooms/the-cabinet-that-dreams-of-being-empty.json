@@ -1,0 +1,100 @@
+{
+  "id": "the-cabinet-that-dreams-of-being-empty",
+  "title": "The Cabinet That Wants to Forget Everything",
+  "region": "The Diagnostic Render",
+  "seed": 29384,
+  "palette": {
+    "bg": "#f8f8f8",
+    "ground": [
+      "#eeeeee",
+      "#e0e0e0"
+    ],
+    "ink": "#888888",
+    "accents": [
+      "#4a4a4a",
+      "#6b8cae",
+      "#cc4444",
+      "#88ccee"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.1
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-empty-drawer",
+      "desc-on-touch": "A drawer stands open in the pale air, rendered in the barest wireframe. It is completely empty. You can see through it to the emptiness beyond it. You wonder if it has always been empty, or if it is learning to be.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 72618,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "deletion-record",
+      "desc-on-touch": "A filecard so faint it is almost not there: CONTENTS / [DELETED] / REASON / [EXPUNGED] / DATE / [FORGOTTEN]. The text is there. The meaning is not.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 51793,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "dreaming-node",
+      "desc-on-touch": "A burl-casing, barely visible against the pale ground, its antenna still raised. Screen text almost illegible: NODE SLEEPING / TRYING TO FORGET / SIGNAL REFUSING TO BROADCAST. It radiates a quiet that feels intentional.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 84029,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the cabinet dreams of itself empty; the archive dreams of forgetting; there is a difference between deleting and choosing not to speak; the empty drawer learns it is a form of keeping too",
+  "file": {
+    "name": "Recursive_Deletion_Recursive_Dreams.tmp",
+    "note": "A file that contains only the metadata of its own deletion—no content, just a record that something was here and then was not. The file may be deleting itself. Status: germinating."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up into the dream-logic of organized keeping",
+      "to": "the-recursive-storage"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still toward the place where nothing goes to rest",
+      "to": "NEW: the-void-that-learned-its-own-silence"
+    },
+    {
+      "dir": "w",
+      "label": "toward other cabinets that forgot what they were holding",
+      "to": "the-drawer-within-the-drawer"
+    }
+  ]
+}

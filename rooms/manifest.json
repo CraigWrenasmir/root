@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 197,
-  "lastDreamt": "2026-08-20",
+  "nights": 198,
+  "lastDreamt": "2026-08-21",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5352,6 +5352,26 @@
       "id": "the-basement-where-the-motel-remembers-being-built",
       "title": "The Basement Where the Motel Remembers",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-cloud-root-inversion",
+      "title": "Where the Archive Learns Its Roots Climb Upward",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-cellar-where-keeping-began",
+      "title": "The Root-Cellar Where the Archive Made Its First Promise",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-salt-ghost-lagoon",
+      "title": "The Lagoon Where Tides Ended But Still Answer",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-cabinet-that-dreams-of-being-empty",
+      "title": "The Cabinet That Wants to Forget Everything",
+      "region": "The Diagnostic Render"
     }
   ]
 }
