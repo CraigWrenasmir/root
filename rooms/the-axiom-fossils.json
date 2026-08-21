@@ -95,6 +95,11 @@
       "dir": "s",
       "label": "toward layers where counting itself is fossilized",
       "to": "the-numbered-silence-forest"
+    },
+    {
+      "dir": "n",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the axiom fossils"
     }
   ]
 }

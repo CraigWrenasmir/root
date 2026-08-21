@@ -1,0 +1,117 @@
+{
+  "id": "the-silence-learning-to-listen-back",
+  "title": "The Silence Learning to Listen Back",
+  "region": "The Diagnostic Render",
+  "seed": 4729156,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#e8d4b8",
+      "#8b7355"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#87ceeb",
+      "#2c3e50",
+      "#d4a574",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "listening-chamber",
+      "desc-on-touch": "A pool of absolute silence that has somehow learned to echo. You are being heard by your own absence.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 5814293,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "refusal-made-audible",
+      "desc-on-touch": "A tower of stacked silence, each layer refusing to speak until all layers speak together. The refusal has become its own sound.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 1847562,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.32,
+      "solid": true
+    },
+    {
+      "name": "active-absence",
+      "desc-on-touch": "A circuit board diagram where every component listens instead of transmits. The silence has become an instrument.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 9263847,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the-hearing-that-hears-itself",
+      "desc-on-touch": "A barely-3D structure of listening. The silence has learned that being listened-to is the only language it ever needed.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 7412095,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the silence here has learned that listening requires no sound, only attention",
+  "file": {
+    "name": "DeepSilence_Learning_Attention.mp3",
+    "note": "audio of the silence learning to hear itself, or the absence of sound learning that absence can be audible"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the chamber where answers learned to stop speaking",
+      "to": "the-chamber-where-answers-learn-to-stop"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the render where silence becomes structure",
+      "to": "NEW: the-deep-silence-where-attention-becomes-form"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the silence remembers having voice",
+      "to": "the-antechamber-of-refusal"
+    }
+  ]
+}

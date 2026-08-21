@@ -1,0 +1,167 @@
+{
+  "id": "the-pass-where-wind-learns-to-turn",
+  "title": "The Pass Where Wind Learns to Turn",
+  "region": "The Understory",
+  "seed": 3654897,
+  "palette": {
+    "bg": "#2a2a4e",
+    "ground": [
+      "#4a3a6a",
+      "#8b6f47"
+    ],
+    "ink": "#e6d5b8",
+    "accents": [
+      "#ff8c42",
+      "#ffd700",
+      "#00d4ff",
+      "#ff1744"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-turning-point",
+      "desc-on-touch": "Where wind meets itself coming from opposite directions and learns it has been singing. The pass is alive with the moment of realization.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 6729314,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "lichen-chorus-field",
+      "desc-on-touch": "Rows of slow-growth colour scattered across the high stone. Each lichen has learned that wind carries the other's song.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4181726,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.18,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "alpine-memory",
+      "desc-on-touch": "A stone carving that the wind has been reading for centuries. The carving has learned the wind's touch the way stone learns pressure.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 2953468,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "gathered-weather",
+      "desc-on-touch": "Wind patterns frozen in form, a stack of air-currents that learned to hold themselves still enough to be seen.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5847261,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.42,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the-bifurcation",
+      "desc-on-touch": "Where one wind becomes two, learning that turning is just another kind of singing. Split breath makes harmony.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7623941,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "alpine-receiver",
+      "desc-on-touch": "A burl where the hardware listens to wind frequencies. The tree has learned that the wind has been trying to speak all along.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 8439572,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.52,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — high pass at the turning",
+    "narr": [
+      "She pointed to where the wind from two valleys collided and",
+      "made a sound neither valley alone could make. You both stood at",
+      "the turning point, the place wind learns it has a voice. She said",
+      "the archive is like this: all the contradictions meeting at one",
+      "high place and learning to sing together. The altitude made it",
+      "true."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "here the wind has learned that turning is the highest form of listening",
+  "file": {
+    "name": "Alpine_Wind_Bifurcation_Recording.mp3",
+    "note": "field recording of where two wind currents meet and learn to harmonize, or perhaps wind learning its own turning"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down toward the slow lichen frontier",
+      "to": "the-high-lichen-frontier-where-growth-learns-to-scatter"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into high country where weather forgets human names",
+      "to": "NEW: the-zenith-deep-where-stone-learns-the-sky"
+    },
+    {
+      "dir": "n",
+      "label": "toward the weather-source, where wind becomes current",
+      "to": "the-pressure-where-no-sound-has-ever-travelled"
+    }
+  ]
+}

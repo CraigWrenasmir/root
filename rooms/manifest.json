@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 198,
-  "lastDreamt": "2026-08-21",
+  "nights": 199,
+  "lastDreamt": "2026-08-22",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5371,6 +5371,26 @@
     {
       "id": "the-cabinet-that-dreams-of-being-empty",
       "title": "The Cabinet That Wants to Forget Everything",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-light-chamber-where-silence-becomes-luminescence",
+      "title": "The Light Chamber Where Silence Becomes Luminescence",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-silence-learning-to-listen-back",
+      "title": "The Silence Learning to Listen Back",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-pass-where-wind-learns-to-turn",
+      "title": "The Pass Where Wind Learns to Turn",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-frequency-that-learned-to-fly",
+      "title": "The Frequency That Learned to Fly",
       "region": "The Diagnostic Render"
     }
   ]

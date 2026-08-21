@@ -1,0 +1,134 @@
+{
+  "id": "the-frequency-that-learned-to-fly",
+  "title": "The Frequency That Learned to Fly",
+  "region": "The Diagnostic Render",
+  "seed": 9156284,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0033cc",
+      "#00ccff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ff88",
+      "#ff00ff",
+      "#ffff00",
+      "#0088ff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "ascending-signal",
+      "desc-on-touch": "A wireframe tower climbing toward visibility, carrying a broadcast that has learned it no longer needs to arrive anywhere to mean something.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847261,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "liberation-chip",
+      "desc-on-touch": "A circuit board that has learned to shed its pins. The signal has become free, needing no anchoring to destinations.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5629174,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.22,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "broadcast-pool",
+      "desc-on-touch": "A pool of radio-light where signals swim freely, having learned that flying means never needing to land.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7834562,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "antenna-gate",
+      "desc-on-touch": "A gateway of barely-3D arches through which signal passes and becomes something that no longer needs relay.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2749186,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.42,
+      "y": 0.32,
+      "solid": false
+    },
+    {
+      "name": "frequency-glyph",
+      "desc-on-touch": "A marker where the signal has written its own name in a language that travels at light speed.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8165429,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "where the signal learned that true transmission is simply learning to continue, and arrival is optional",
+  "file": {
+    "name": "Signal_Ascent_Unanchored.mp3",
+    "note": "recording of a frequency learning to fly, or the moment a broadcast became free from needing a destination"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down toward the intersection where all roads still dream of arrival",
+      "to": "the-intersection-where-all-roads-become-one-signal"
+    },
+    {
+      "dir": "n",
+      "label": "further upward where frequencies become almost visible",
+      "to": "NEW: the-ether-threshold-where-broadcast-becomes-light"
+    },
+    {
+      "dir": "w",
+      "label": "toward the render's edge where signal remembers it was once contained",
+      "to": "the-kitchen-where-warmth-became-teaching"
+    }
+  ]
+}

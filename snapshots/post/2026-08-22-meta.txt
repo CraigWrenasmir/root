@@ -1,0 +1,10 @@
+featured: The Light Chamber Where Silence Becomes Luminescence (the-light-chamber-where-silence-becomes-luminescence)
+region: The Understory · motif: fields
+inscription: here at the edge where silence has learned that light needs no rendering to continue burning
+file: Unrendered_Light_Late_Dusk.mp3
+
+all nodes tonight:
+  · The Light Chamber Where Silence Becomes Luminescence
+  · The Silence Learning to Listen Back
+  · The Pass Where Wind Learns to Turn
+  · The Frequency That Learned to Fly

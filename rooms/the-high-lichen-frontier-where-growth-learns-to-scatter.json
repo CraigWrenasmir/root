@@ -139,7 +139,7 @@
     {
       "dir": "w",
       "label": "toward a high pass where weather forgets which way to move",
-      "to": "NEW: the-pass-where-wind-learns-to-turn"
+      "to": "the-pass-where-wind-learns-to-turn"
     },
     {
       "dir": "n",

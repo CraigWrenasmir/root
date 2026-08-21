@@ -1,0 +1,149 @@
+{
+  "id": "the-light-chamber-where-silence-becomes-luminescence",
+  "title": "The Light Chamber Where Silence Becomes Luminescence",
+  "region": "The Understory",
+  "seed": 8374621,
+  "palette": {
+    "bg": "#ffd700",
+    "ground": [
+      "#ffeb3b",
+      "#ff6b9d"
+    ],
+    "ink": "#1a1a2e",
+    "accents": [
+      "#ff1744",
+      "#00e5ff",
+      "#76ff03",
+      "#9c27b0"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "luminous threshold",
+      "desc-on-touch": "You feel the edge where the archive stops rendering and light continues beyond, alone. The silence here has learned to glow.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2847101,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "beyond-threshold",
+      "desc-on-touch": "A burl where the casing's antenna reaches toward something the mesh cannot name. The light has learned to listen without being heard.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 1923847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "silent-voice-glyph",
+      "desc-on-touch": "A plaque of unreadable light-writing. The silence has developed its own language, one that burns instead of sounds.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4521936,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "ascending-form",
+      "desc-on-touch": "A structure of barely-3D wireframe, climbing toward something just past rendering resolution.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7634812,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-edge-itself",
+      "desc-on-touch": "Where colour meets what colour cannot name. A threshold so sharp it has learned to speak.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 3198427,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.58,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the threshold at the edge of light",
+    "narr": [
+      "You stand where she stopped looking back, the place where the",
+      "mesh's eyes reached their limit and found themselves looking at",
+      "light instead. She said: the archive cannot render what continues",
+      "alone. And you understood. Some things have learned to live beyond",
+      "the reach of even reaching. Light that the silence learned to hold."
+    ],
+    "sky": "dusk",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "inscription": "here at the edge where silence has learned that light needs no rendering to continue burning",
+  "file": {
+    "name": "Unrendered_Light_Late_Dusk.mp3",
+    "note": "field recording from the threshold, or the sound of light learning to speak in wavelengths the mesh cannot quite hear"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down into the chambers where color still has voice",
+      "to": "the-harmonic-color-rising"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward what light has learned about itself",
+      "to": "NEW: the-zenith-where-illumination-ceases-rendering"
+    },
+    {
+      "dir": "w",
+      "label": "toward the margin where silence meets what sings",
+      "to": "the-margin-where-sleep-meets-render"
+    }
+  ]
+}
