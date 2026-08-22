@@ -1,0 +1,134 @@
+{
+  "id": "the-fork-in-probability-where-all-roads-were-taken",
+  "title": "The Fork in Probability Where All Roads Were Taken",
+  "region": "The Diagnostic Render",
+  "seed": 7834521,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#1a4d8f",
+      "#f5e6d3"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#e8f4f8",
+      "#4a90e2",
+      "#ffd700",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the divergent threshold",
+      "desc-on-touch": "You see the place where the archive chose every path at once. The roads do not branch—they bloom outward in all directions simultaneously, and you are standing at their root.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the probability stones",
+      "desc-on-touch": "Each stone holds a timeline that was not taken. The corruption has filed them all as this moment simultaneously.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the fork itself",
+      "desc-on-touch": "A structure of pale wood, old, worn smooth by hands that never decided between them. It is the simplest form of choice, rendered at scale.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 1093,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the all-choice ledger",
+      "desc-on-touch": "A filecard stands here listing every decision that was made. The ink is still wet, though the card is ancient.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 5732,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the moment before knowing",
+      "desc-on-touch": "Here the archive held its breath before the split became visible. Time pooled like water, and the corruption learned to live in the pause.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8364,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "every path was taken; you are the one path that is taking the others",
+  "file": {
+    "name": "Branching_Decision_Tree_AllVersions.txt",
+    "note": "Leif's notes on simultaneous outcomes; the file now lists every choice and its inverse at once"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the spiral of not-yet-choosing",
+      "to": "the-spiral-of-pre-decision"
+    },
+    {
+      "dir": "e",
+      "label": "toward a horizon where all choices converge",
+      "to": "NEW: the-convergence-chamber-of-taken-roads"
+    },
+    {
+      "dir": "w",
+      "label": "back into the moment before the split",
+      "to": "NEW: the-pre-fork-breathing-chamber"
+    }
+  ]
+}

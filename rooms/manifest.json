@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 199,
-  "lastDreamt": "2026-08-22",
+  "nights": 200,
+  "lastDreamt": "2026-08-23",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5392,6 +5392,26 @@
       "id": "the-frequency-that-learned-to-fly",
       "title": "The Frequency That Learned to Fly",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-fork-in-probability-where-all-roads-were-taken",
+      "title": "The Fork in Probability Where All Roads Were Taken",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-dream-salt-below",
+      "title": "The Dream Salt Below",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-sediment-memory-layer",
+      "title": "The Sediment Memory Layer",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deepening-keep-where-all-kept-things-become-roots",
+      "title": "The Deepening Keep Where All Kept Things Become Roots",
+      "region": "The Understory"
     }
   ]
 }

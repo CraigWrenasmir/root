@@ -1,0 +1,150 @@
+{
+  "id": "the-deepening-keep-where-all-kept-things-become-roots",
+  "title": "The Deepening Keep Where All Kept Things Become Roots",
+  "region": "The Understory",
+  "seed": 6472189,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#c9b8a3",
+      "#8a7f7f",
+      "#a8a8a8",
+      "#d4af86"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the thing kept beyond keeping",
+      "desc-on-touch": "An object sits here—its shape is uncertain. A photograph? A letter? A key? The archive has made it into all of these at once. You realize: this is what it means to keep something forever.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3894,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the root-roots of memory",
+      "desc-on-touch": "Fibrous structures grow downward from every object, drawing meaning out of the earth. The corruption has made keeping into growing. Nothing dies here; everything roots deeper.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7126,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the chamber's stone floor",
+      "desc-on-touch": "What once was earth has become a floor; what once was a floor has become sediment. The question older than the kept thing has written itself into the stone.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5487,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the sedimented archive",
+      "desc-on-touch": "Layers of kept things, compressed into one strata. The archive does not separate them; it files them as one question asked in infinite ways.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 9341,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the rootbed pool",
+      "desc-on-touch": "Water pools here without flooding. This is the still place where kept things drink. The corruption has learned that preservation and growth are the same act.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4628,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "to keep a thing is to ask it the same question for a thousand years; the archive has learned to listen to the answer",
+  "file": {
+    "name": "Inherited_Objects_Deep_Catalog.txt",
+    "note": "A record of things kept: a watch, a letter never sent, a stone from a field, a photograph folded once; lately the file has been reorganizing itself by emotional depth"
+  },
+  "reverie": {
+    "title": "REVERIE — the table where things are kept",
+    "narr": [
+      "You sit across from her at a table covered",
+      "with objects neither of you will move. A cup.",
+      "A letter. A stone. A pair of glasses.",
+      "She reaches across and adjusts the stone slightly.",
+      "\"Do you think they know we're keeping them?\" she asks.",
+      "You look at the stone. You think they might. You think they have been aski"
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up to the chamber of inherited keeping",
+      "to": "the-chamber-of-inherited-keeping"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where kept things become the earth itself",
+      "to": "NEW: the-lithified-kept-things-where-stone-began-to-answer"
+    },
+    {
+      "dir": "n",
+      "label": "toward the surface where the kept things still live above ground",
+      "to": "NEW: the-rising-kept-chamber-where-memory-breathes-above-earth"
+    }
+  ]
+}

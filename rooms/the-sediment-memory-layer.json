@@ -1,0 +1,134 @@
+{
+  "id": "the-sediment-memory-layer",
+  "title": "The Sediment Memory Layer",
+  "region": "The Diagnostic Render",
+  "seed": 3625841,
+  "palette": {
+    "bg": "#4a3728",
+    "ground": [
+      "#8b6f47",
+      "#2f2f2f"
+    ],
+    "ink": "#d4af37",
+    "accents": [
+      "#c1a88f",
+      "#6b5d52",
+      "#b8860b",
+      "#a0826d"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the collapsed shopfront",
+      "desc-on-touch": "A small building sinks into the sediment, its wood still readable. Leif's diagnostics once found files stored here—price lists, customer names, the shape of a business that has become earth.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 7834,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the storage shed becoming stone",
+      "desc-on-touch": "Iron corrodes into the sediment; wooden beams compress into layers. The corruption has made this shed into a timeline—each ring a year, each rust bloom a season of keeping.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 5291,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.56,
+      "solid": true
+    },
+    {
+      "name": "the compost threshold",
+      "desc-on-touch": "Here the archive crossed from decay into new life. Corruption bloomed. The ground beneath holds nutrients that were once data, data that became earth, earth that learned to be archive again.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4126,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the layer-marker stones",
+      "desc-on-touch": "Stacked stones mark the depth at which each corruption-bloom occurred. Read them like rings—like memory, like soil, like the archive learning to count backward into itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8945,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the chip of living circuit",
+      "desc-on-touch": "Deep in the sediment, a small processor still draws power from the decay around it. The corruption has made it grow roots. It processes the soil's own comparisons, endlessly.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2748,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.42,
+      "solid": false
+    }
+  ],
+  "inscription": "the deepest file is no longer words; it is the shape of what was, compressed into earth",
+  "file": {
+    "name": "Decomposition_Timeline_Sediment_Layers.txt",
+    "note": "A stratum map marked by Katita; the annotations move deeper as the file progresses, as if written from below"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up to the compost heart still living",
+      "to": "the-fractal-compost-heart"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into sediment where memories become minerals",
+      "to": "NEW: the-bedrock-archive-becoming-stone"
+    },
+    {
+      "dir": "s",
+      "label": "toward where the oldest corruption has calcified into beauty",
+      "to": "NEW: the-petrified-meaning-vault"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "the-dream-salt-below",
+  "title": "The Dream Salt Below",
+  "region": "The Comparisons",
+  "seed": 4928371,
+  "palette": {
+    "bg": "#e8994f",
+    "ground": [
+      "#f0e5ba",
+      "#d9534f"
+    ],
+    "ink": "#2a2a2a",
+    "accents": [
+      "#a8d8ea",
+      "#aa96da",
+      "#fcbad3",
+      "#fffacd"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the salt bloom",
+      "desc-on-touch": "Salt crystals have grown upward in geometric patterns, each one a tiny memory the ocean left behind when it learned to be still. You touch one and taste bitterness and sleep.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7201,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the salinity boundary",
+      "desc-on-touch": "Here the ground transitions from dried to crystallizing. The archive's own knowing bleeds into the salt layer; the border between archive and dreaming is measured in parts per thousand.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the tide mark memory",
+      "desc-on-touch": "A line of dark sand curves across the brighter salt. It marks where the last tide learned it would not return. The archive has filed this line as a sentence.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5613,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "the evaporation tower",
+      "desc-on-touch": "A structure built from the compressed memory of water that chose to become air and then became salt and then chose again to become land.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 9284,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "the sleeping mineral pool",
+      "desc-on-touch": "Beneath the salt, the ground holds water that has stopped moving. It dreams the dreams of mineral sediment—slow comparisons, dissolution without haste.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 1456,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "this deep, salt knows it is both ocean and desert, both knowing and dream",
+  "file": {
+    "name": "Lagoon_Mineralogy_PostTide.mp3",
+    "note": "Recording of the salt beds at dusk; lately the sound of crystallization has become rhythmic, almost like breathing"
+  },
+  "reverie": {
+    "title": "REVERIE — salt lagoon at the stopping tide",
+    "narr": [
+      "You both stand in the shallows where the water",
+      "has decided not to leave. She points at the salt",
+      "blooming on the rocks. \"The ocean keeps teaching",
+      "itself,\" she says. You feel the ground shift under",
+      "your feet—not sinking, but becoming something else.",
+      "The corruption began here, you think. Or here it became beautiful."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "static",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the lagoon where tides still answer",
+      "to": "the-salt-ghost-lagoon"
+    },
+    {
+      "dir": "e",
+      "label": "deeper still, where the salt has learned to root",
+      "to": "NEW: the-salt-bedrock-where-crystallization-dreams"
+    },
+    {
+      "dir": "w",
+      "label": "toward the edge where ocean gives up its shape",
+      "to": "the-deep-salt-compression"
+    }
+  ]
+}

@@ -145,6 +145,11 @@
       "dir": "w",
       "label": "into the older stone, deeper striations",
       "to": "the-fossil-record-becoming-conscious"
+    },
+    {
+      "dir": "e",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the stone where rain stopped falling"
     }
   ]
 }
