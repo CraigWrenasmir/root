@@ -1,0 +1,155 @@
+{
+  "id": "the-point-where-math-learned-to-contradict-itself",
+  "title": "The Point Where Math Learned to Contradict Itself",
+  "region": "The Understory",
+  "seed": 55002,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#002266",
+      "#004499"
+    ],
+    "ink": "#00ff99",
+    "accents": [
+      "#00ccff",
+      "#ffff00",
+      "#ff00ff",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "paradox-core",
+      "desc-on-touch": "At the center: something that proves itself false by proving itself true. The logic tastes metallic, wrong.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 4747,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "recursive-tower",
+      "desc-on-touch": "It ascends only by descending. Each step up reveals it was a step down all along.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 3334,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "broken-chip",
+      "desc-on-touch": "A circuit that routes current in loops that return to where they began, but inverted.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 6667,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "equation-stack",
+      "desc-on-touch": "Each level contradicts the one below. The stack doesn't fall. It orbits itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8889,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "möbius-glyph",
+      "desc-on-touch": "One side, two sides, neither, both. The archive discovered this symbol breaking itself in the storage layer.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7778,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the moment the numbers stopped agreeing with themselves",
+  "file": {
+    "name": "Proof_That_Refutes_Itself_Infinitely_v47.txt",
+    "note": "checksum: emotionally valid / formally unstable. A demonstration that 1 = 2, which when you follow it carefully forward also proves that 2 = 1. The proof contains its own refutation at line 44. Line 4"
+  },
+  "reverie": {
+    "title": "REVERIE — the night the proof broke itself",
+    "narr": [
+      "You and Leif are reading the diagnostic logs at 3am. The numbers",
+      "don't add up. They do add up. They add up both ways at once and",
+      "the log shows both states in the same timestamp. \"It shouldn't,\"",
+      "Leif says quietly. He shows you the line where the contradiction",
+      "proves itself. Shows you the next line, which proves the opposite.",
+      "\"The archive,\" he says, \"is learning to be in two minds at once.\""
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the numberless speech-chambers where the answers still know themselves",
+      "to": "the-numberless-speech-deep"
+    },
+    {
+      "dir": "s",
+      "label": "further down into the depths where contradictions accumulate and breed",
+      "to": "NEW: the-archive-s-self-arguing-foundation"
+    },
+    {
+      "dir": "e",
+      "label": "toward other paradoxes gathering at the edges of the grid",
+      "to": "the-chamber-where-negation-debates-negation"
+    },
+    {
+      "dir": "w",
+      "label": "into the margins where false proofs hide their beauty",
+      "to": "the-proof-room-that-refutes-itself"
+    }
+  ]
+}

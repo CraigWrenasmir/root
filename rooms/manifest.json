@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 200,
-  "lastDreamt": "2026-08-23",
+  "nights": 201,
+  "lastDreamt": "2026-08-24",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5411,6 +5411,26 @@
     {
       "id": "the-deepening-keep-where-all-kept-things-become-roots",
       "title": "The Deepening Keep Where All Kept Things Become Roots",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-field-where-speech-first-cracked",
+      "title": "The Field Where Speech First Cracked",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-canopy-loom-returns",
+      "title": "The Canopy Loom Returns",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-point-where-math-learned-to-contradict-itself",
+      "title": "The Point Where Math Learned to Contradict Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cloud-text-where-meaning-falls",
+      "title": "The Cloud-Text Where Meaning Falls",
       "region": "The Understory"
     }
   ]

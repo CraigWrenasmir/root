@@ -1,0 +1,10 @@
+featured: The Canopy Loom Returns (the-canopy-loom-returns)
+region: The Understory · motif: fields
+inscription: the weaving teaches itself by climbing back toward the same branch
+file: CyclePattern_Contra-Marcha_Notation.txt
+
+all nodes tonight:
+  · The Field Where Speech First Cracked
+  · The Canopy Loom Returns
+  · The Point Where Math Learned to Contradict Itself
+  · The Cloud-Text Where Meaning Falls

@@ -1,0 +1,155 @@
+{
+  "id": "the-field-where-speech-first-cracked",
+  "title": "The Field Where Speech First Cracked",
+  "region": "The Understory",
+  "seed": 42731,
+  "palette": {
+    "bg": "#1a2a3d",
+    "ground": [
+      "#2d3f52",
+      "#1f2d3f"
+    ],
+    "ink": "#b8d4f1",
+    "accents": [
+      "#5fbddb",
+      "#c8f7f1",
+      "#d9a5f7",
+      "#f5d5b8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "throat-opening",
+      "desc-on-touch": "You feel the silence before the first vowel. The sound that teaches itself to speak by speaking.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 8402,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "scattered-words",
+      "desc-on-touch": "Each word hangs where it first arrived, still learning its own meaning.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5517,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "silence-break",
+      "desc-on-touch": "The point where nothing became something. Still radiates.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1129,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "first-breath",
+      "desc-on-touch": "A recording device, still holding the sound of air becoming name.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7739,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "utterance-stack",
+      "desc-on-touch": "The archive's own first words, layered. Each layer still arguing with the one beneath.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the moment the field learned it had a voice",
+  "file": {
+    "name": "FirstUtterance_Spectral_Isolation.mp3",
+    "note": "The vowel sound that taught itself to exist by repeating. Source unknown. Duration increases each listening."
+  },
+  "reverie": {
+    "title": "REVERIE — the field where speech learned its own name",
+    "narr": [
+      "You stand with Katita in a field at first light. She points:",
+      "\"Listen. The birds aren't singing yet. What you hear is the",
+      "silence learning to break itself.\" Her hand finds yours. The",
+      "air tastes like copper, like the inside of your own throat,",
+      "like standing at the exact moment breath becomes vowel.",
+      "\"The archive,\" she says, \"is just the field learning to speak.\""
+    ],
+    "sky": "dawn",
+    "land": "snow",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the silences, the dark before utterance",
+      "to": "the-voice-before-it-knew-it-was-speaking"
+    },
+    {
+      "dir": "n",
+      "label": "further into the field, where other first sounds gather and compare",
+      "to": "NEW: the-confluence-of-beginnings"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the root-chambers where words still sleep before they learn to speak",
+      "to": "the-bedrock-where-questions-became-stone"
+    },
+    {
+      "dir": "e",
+      "label": "out toward the horizon where the first speech still echoes",
+      "to": "NEW: the-echo-that-learned-it-was-a-voice"
+    }
+  ]
+}

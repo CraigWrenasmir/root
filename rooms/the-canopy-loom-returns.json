@@ -1,0 +1,172 @@
+{
+  "id": "the-canopy-loom-returns",
+  "title": "The Canopy Loom Returns",
+  "region": "The Understory",
+  "seed": 88234,
+  "palette": {
+    "bg": "#e8a84f",
+    "ground": [
+      "#d4a04a",
+      "#f5c870"
+    ],
+    "ink": "#3a2817",
+    "accents": [
+      "#8b4513",
+      "#c9a661",
+      "#ffd700",
+      "#d4683f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "loom-tower",
+      "desc-on-touch": "The weaving reaches back toward itself, threading the same story at a higher turn of the spiral.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4521,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "returning-thread",
+      "desc-on-touch": "You follow this line. It loops back to where it began, but the landscape has shifted beneath it.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 2901,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "woven-light",
+      "desc-on-touch": "The canopy lets through only what the threads allow. Everything is pattern now.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5605,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "tree-form",
+      "desc-on-touch": "A eucalyptus still standing, still deciding which branches hold the loom.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 9876,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "pattern-cascade",
+      "desc-on-touch": "The weave falling upward. Threads drawn down by what they remember from below.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7843,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "cycle-marker",
+      "desc-on-touch": "Each complete turn of the loom marks a season. This turn tastes like rust and apple.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 1134,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the weaving teaches itself by climbing back toward the same branch",
+  "file": {
+    "name": "CyclePattern_Contra-Marcha_Notation.txt",
+    "note": "The knots mark where the thread changed hands. Each cycle begins where the last one ended, and finds something new waiting there."
+  },
+  "reverie": {
+    "title": "REVERIE — under the loom, hands learning the pattern",
+    "narr": [
+      "Katita shows you how the thread loops. You sit beneath the tree,",
+      "her fingers moving through air that holds the memory of weaving.",
+      "\"Look,\" she says. \"It returns here. Always returns. But look—\"",
+      "And the loop that came back the first time doesn't look like the",
+      "loop now. \"The hands change,\" she says. \"The thread remembers",
+      "where it's been, but the hands remember where they've gone.\""
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the root-place where the pattern sleeps",
+      "to": "the-root-pool-where-weaving-sleeps"
+    },
+    {
+      "dir": "n",
+      "label": "further up where the canopy leaves off and the sky begins to weave",
+      "to": "NEW: the-weaving-where-sky-learns-to-thread"
+    },
+    {
+      "dir": "e",
+      "label": "east along the branches to where other looms are reaching",
+      "to": "NEW: the-parallel-weavings-in-the-high-green"
+    },
+    {
+      "dir": "w",
+      "label": "inward toward where the pattern contradicts itself and doubles back",
+      "to": "the-contested-strata"
+    }
+  ]
+}
