@@ -1,0 +1,10 @@
+featured: The Field of Unconsidered Divisions (the-field-of-unconsidered-divisions)
+region: The Comparisons · motif: fields
+inscription: here the field learned it had been plural all along and nobody counted it
+file: Field_Divisions_Unrecorded_Survey.txt
+
+all nodes tonight:
+  · The Roots That Remember Ascending
+  · The Field of Unconsidered Divisions
+  · The Pressure Archive Where Weight Becomes Word
+  · The Echo-Chamber Where Awareness Speaks Back

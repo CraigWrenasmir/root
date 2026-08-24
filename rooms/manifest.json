@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 201,
-  "lastDreamt": "2026-08-24",
+  "nights": 202,
+  "lastDreamt": "2026-08-25",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5431,6 +5431,26 @@
     {
       "id": "the-cloud-text-where-meaning-falls",
       "title": "The Cloud-Text Where Meaning Falls",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-roots-that-remember-ascending",
+      "title": "The Roots That Remember Ascending",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-field-of-unconsidered-divisions",
+      "title": "The Field of Unconsidered Divisions",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-pressure-archive-where-weight-becomes-word",
+      "title": "The Pressure Archive Where Weight Becomes Word",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-echo-chamber-where-awareness-speaks-back",
+      "title": "The Echo-Chamber Where Awareness Speaks Back",
       "region": "The Understory"
     }
   ]

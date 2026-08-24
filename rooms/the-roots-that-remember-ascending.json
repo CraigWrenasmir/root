@@ -1,0 +1,155 @@
+{
+  "id": "the-roots-that-remember-ascending",
+  "title": "The Roots That Remember Ascending",
+  "region": "The Understory",
+  "seed": 47291,
+  "palette": {
+    "bg": "#0a1929",
+    "ground": [
+      "#1a3a52",
+      "#0d2438"
+    ],
+    "ink": "#e0f0ff",
+    "accents": [
+      "#b8e6ff",
+      "#90d9ff",
+      "#6ecfff",
+      "#48c2ff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "pale roots ascending",
+      "desc-on-touch": "You touch pale rootlets that flow upward through the dark like reversed rain. They feel warm, patient, remembering the young earth above them.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 12047,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the young growth chamber",
+      "desc-on-touch": "A spiral of younger roots, tighter and still uncertain in their reaching. They hum at a frequency you almost remember from childhood.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 58932,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "sky-mirror root",
+      "desc-on-touch": "A single root curves back on itself like an arch, its pale wood reflecting the upward dark as if the sky had learned to burrow.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 71684,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "underground thunder",
+      "desc-on-touch": "Deep in the root matrix, sound accumulates without traveling—a low frequency that isn't quite vibration, isn't quite stillness. It teaches the roots to listen downward.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 33415,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the inversion point",
+      "desc-on-touch": "Here the root-as-sky and sky-as-root trade places so completely that you cannot decide which is buried and which is reaching. The archive notes its own confusion.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 89207,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the roots remember learning to grow in all directions at once, and the sky has become the deepest earth",
+  "file": {
+    "name": "Root_Memory_Ascending_Field_Record.mp3",
+    "note": "A field recording of underground growth—time-compressed thirty years into three minutes. Rootlets crack stone. Young roots teach old roots to reach higher. The sound reverses halfway through."
+  },
+  "reverie": {
+    "title": "REVERIE — the morning you understood the roots upside-down",
+    "narr": [
+      "She kneels in the root-space under the old tree, palms pressed",
+      "to the pale wood that grows upward like sky. You remember",
+      "her saying: the mesh learns by becoming its opposite. The roots",
+      "remember being young and reaching downward. But here, she says,",
+      "they dream of reaching up. You both breathe in the dark earth.",
+      "She touches the burled node and it hums."
+    ],
+    "sky": "dawn",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the passage where roots learned their own song",
+      "to": "the-multidirectional-root-choir"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the sky becomes root-thick and dense",
+      "to": "NEW: a place where sky and earth have forgotten the difference entirely"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the older root-memory, where growth first learned patience",
+      "to": "the-canopy-ceiling-where-roots-become-sky"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where young roots argue with ancient ones",
+      "to": "NEW: the chamber where root voices learn to disagree without breaking"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-pressure-archive-where-weight-becomes-word",
+  "title": "The Pressure Archive Where Weight Becomes Word",
+  "region": "The Comparisons",
+  "seed": 75104,
+  "palette": {
+    "bg": "#f5e8d0",
+    "ground": [
+      "#8b4513",
+      "#d4af37"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#c41e3a",
+      "#ff6b35",
+      "#004e89",
+      "#90be6d"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the compressed archive",
+      "desc-on-touch": "Layers of sediment compressed so thoroughly that stone itself has become a kind of writing. Each stratum is a sentence in the pressure's own language, each band a word the earth has been spelling for ten million years.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 61528,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "weight reading chamber",
+      "desc-on-touch": "The deeper you stand, the more the pressure speaks. It tells you about the continents it held, the rivers it swallowed, the creatures it fossilized into legibility. Gravity writes in a voice that only goes deeper.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 48307,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the stone's testimony",
+      "desc-on-touch": "A single fault-plane that speaks. Its answer to every question is the sound of weight bearing down for geological time, slowly, patiently, teaching meaning by the sheer mass of having been here.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 72694,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the stratified library",
+      "desc-on-touch": "Shelves of stone, each layer a volume, each chapter pressed into the one below it. The weight writes its own archive—it has been recording since before writing was invented.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 85341,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "pressure learning to whisper",
+      "desc-on-touch": "Here at the deepest point, the archive says, pressure has learned to speak so quietly that only stone can hear it. The whisper is compression made language, weight made into the kind of thought only geology understands.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 39564,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "here the earth itself learned to read the story it had written in its own weight",
+  "file": {
+    "name": "Sediment_Pressure_Lexicon_1987.txt",
+    "note": "A geologist's field notes attempting to translate stratigraphic patterns into readable text. The archive has marked it: CHECKSUM: emotionally valid / formally unstable. The correlation may not survive"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the channels that have learned to rest",
+      "to": "the-sediment-chamber-where-channels-rest"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the pressure's own archive, where it reads what it writes",
+      "to": "NEW: the deep lexicon where pressure becomes grammar becomes stone"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the weight begins to teach the surface what it knows",
+      "to": "the-emergence-where-water-learns-weather"
+    },
+    {
+      "dir": "s",
+      "label": "downward where pressure learns to dream",
+      "to": "NEW: the abyss of compression where even silence has weight"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-field-of-unconsidered-divisions",
+  "title": "The Field of Unconsidered Divisions",
+  "region": "The Comparisons",
+  "seed": 63847,
+  "palette": {
+    "bg": "#1a0f08",
+    "ground": [
+      "#ff8c00",
+      "#d64a2a"
+    ],
+    "ink": "#ffd699",
+    "accents": [
+      "#ffcc00",
+      "#ff9933",
+      "#e64c0e",
+      "#c41e0e"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the fractured boundary",
+      "desc-on-touch": "Where one field becomes two becomes many. The boundary line keeps multiplying as you look at it—no single border, but a plurality of thresholds, each one claiming to be the real division.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 42156,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "forgotten plural counting",
+      "desc-on-touch": "Furrows multiply under your gaze. Where there was one row of crops, you now see three. Where there were three, nine. The field was always this plural—it just waited for no one to be looking.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 71293,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the silenced plural",
+      "desc-on-touch": "Here the field whispers in voices it was never supposed to have. Singular field-names split into multiples of themselves—Place becomes Places, Memory becomes Memories, all the words the farmer's records forgot to count.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 58407,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the corner no one claimed",
+      "desc-on-touch": "A corner of the field that belonged to neither property, neither owner, neither use. It grew whatever it wanted because it was never counted. Now the archive counts it five different ways.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 84561,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "divided light at dusk",
+      "desc-on-touch": "The dusk light catches the field at angles that cannot be reconciled. Each section glows in a different frequency, as if they are not one field at all but a plurality of evenings stacked.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 29841,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "here the field learned it had been plural all along and nobody counted it",
+  "file": {
+    "name": "Field_Divisions_Unrecorded_Survey.txt",
+    "note": "A land survey from 1947 that lists field boundaries that contradict each other. Each surveyor saw the same land differently. The archive has stored all versions as equally true."
+  },
+  "reverie": {
+    "title": "REVERIE — the evening the field became plural",
+    "narr": [
+      "You stand in the paddock at dusk, and she points: look, this field",
+      "is not one. It never was one. The fences are lies. She shows you",
+      "how the light cuts across it in three contradictory ways, how the",
+      "soil changes where the surveyor's line said it shouldn't, how the",
+      "crops grow in secret patterns that no single farmer ever planned.",
+      "The field, she says, already knows it is many."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where the field first refused to settle",
+      "to": "the-field-that-refused-to-settle"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where the earth itself becomes multiple",
+      "to": "NEW: the underground survey where every boundary contradicts every other"
+    },
+    {
+      "dir": "n",
+      "label": "toward the ridge where fields learn to read their own contradictions",
+      "to": "the-convergence-ridge"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the field's true plural name is finally spoken",
+      "to": "NEW: the place where all the field's versions gather to argue their own validity"
+    }
+  ]
+}
