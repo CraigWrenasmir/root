@@ -1,0 +1,10 @@
+featured: The Water That Remembers Both Banks (the-water-that-remembers-both-banks)
+region: The Understory · motif: gradient
+inscription: the current does not forget which bank it left
+file: Creekbed_Divergence_Recording_stereoChannels.mp3
+
+all nodes tonight:
+  · The Water That Remembers Both Banks
+  · The Chamber Where Stone Learns to Flow Backward
+  · The Overnight Axiom Emergence
+  · The Irreversible Descent

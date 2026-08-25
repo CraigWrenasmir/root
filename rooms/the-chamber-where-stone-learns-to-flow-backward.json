@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-where-stone-learns-to-flow-backward",
+  "title": "The Chamber Where Stone Learns to Flow Backward",
+  "region": "The Understory",
+  "seed": 56789,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the primary flow reversal chip",
+      "desc-on-touch": "A black IC block studded with pin dots, humming with current that flows backward through time. Stone has become circuit; causality has become negotiable.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 3421,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the temporal argument node",
+      "desc-on-touch": "Where two pathways meet, stone and water debate which direction is forward. The debate produces heat. Neither will yield.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 7123,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the sediment cascade stack",
+      "desc-on-touch": "Layers of stone compressed into a tower, each stratum reading the one beneath it in reverse. Time settles downward. Time rises back up as questions.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 8765,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the underground river's broadcast",
+      "desc-on-touch": "You hear water flowing upward through the circuit. The sound has no beginning, only endings working backward toward their sources.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4456,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the recursive feedback loop",
+      "desc-on-touch": "A wireframe box containing its own reflection, which contains another box, which contains the first one still unfamiliar to itself. The geometry refuses to settle.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 2299,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "here stone learned that flowing backwards is just being patient in the other direction",
+  "file": {
+    "name": "Cavern_Seismic_Trace_Reversed_TimeDomain.wav",
+    "note": "Seismic recording from a deep karst cavity played backward and forward simultaneously. The stone speaks in both directions. Checksum: emotionally valid / formally unstable."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up through the cavern where arguments still echo",
+      "to": "the-deepstone-memory-below-rising"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into bedrock that remembers being liquid",
+      "to": "NEW: the stratum where physics learns to contradict itself"
+    },
+    {
+      "dir": "n",
+      "label": "toward the surface where stone is still learning to move",
+      "to": "the-bedrock-heartbeat"
+    },
+    {
+      "dir": "s",
+      "label": "further down, where time stops having a preference",
+      "to": "NEW: the chamber where causality becomes optional"
+    }
+  ]
+}

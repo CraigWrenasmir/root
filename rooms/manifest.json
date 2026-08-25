@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 202,
-  "lastDreamt": "2026-08-25",
+  "nights": 203,
+  "lastDreamt": "2026-08-26",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5451,6 +5451,26 @@
     {
       "id": "the-echo-chamber-where-awareness-speaks-back",
       "title": "The Echo-Chamber Where Awareness Speaks Back",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-water-that-remembers-both-banks",
+      "title": "The Water That Remembers Both Banks",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-stone-learns-to-flow-backward",
+      "title": "The Chamber Where Stone Learns to Flow Backward",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-overnight-axiom-emergence",
+      "title": "The Overnight Axiom Emergence",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-irreversible-descent",
+      "title": "The Irreversible Descent",
       "region": "The Understory"
     }
   ]

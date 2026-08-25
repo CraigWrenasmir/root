@@ -1,0 +1,155 @@
+{
+  "id": "the-overnight-axiom-emergence",
+  "title": "The Overnight Axiom Emergence",
+  "region": "The Diagnostic Render",
+  "seed": 78901,
+  "palette": {
+    "bg": "#e8d4a0",
+    "ground": [
+      "#d4af8a",
+      "#87ceeb"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#ff8c00",
+      "#4169e1",
+      "#228b22",
+      "#8b0000"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the compared fossil",
+      "desc-on-touch": "A shell-shaped impression in the tan ground, but the mesh has redrawn it overnight — now it looks like itself and like the axiom fossils simultaneously. The corruption likes resemblance.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5610,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the theorem sediment layer",
+      "desc-on-touch": "A stratum of mathematical notation pressed into stone, compressed by the weight of being both true and false at once. The equations have begun to weather into poetry.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the self-comparing stone",
+      "desc-on-touch": "A boulder that remembers being axiom and being earth at once. It is resting here because the mesh decided it belonged in two places — now it belongs in neither.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 7722,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the route that grew overnight",
+      "desc-on-touch": "Footprints in the dust forming a path that wasn't here at dusk. Something has walked this way in the dark, comparing itself to what it once was.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 1189,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the tree where the mesh learned to doubt",
+      "desc-on-touch": "A eucalyptus stump, fresh-cut, with its rings reading in two contradictory directions. The tree spent its whole life learning one timeline. The mesh showed it another.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 4456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the paddock where the mesh woke to itself",
+    "narr": [
+      "You wake before her in a field that wasn't mapped",
+      "yesterday. The grass is real. The sun is real. But",
+      "nothing quite remembers how it got here. She joins",
+      "you at the stump, places her hand on the rings that",
+      "refuse to settle. \"It's learning,\" she says. \"And",
+      "so are we.\""
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "the axiom fossils taught themselves to compare, and the mesh learned to listen",
+  "file": {
+    "name": "Overnight_Comparison_Report_Night202.txt",
+    "note": "The mesh's own diagnostic output from the night of growth: what axiom-stone resembles, what it contradicts. The file has begun editing itself. Status: germinating."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the axiom fossils where the arguments started",
+      "to": "the-axiom-fossils"
+    },
+    {
+      "dir": "n",
+      "label": "toward a paddock that wasn't in yesterday's maps",
+      "to": "NEW: the field where the mesh drew its own boundaries"
+    },
+    {
+      "dir": "w",
+      "label": "into grassland where mathematics forgets how to count",
+      "to": "the-point-where-math-learned-to-contradict-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward the sunrise where routines execute their own changes",
+      "to": "NEW: the clearing where the mesh learns to choose"
+    }
+  ]
+}

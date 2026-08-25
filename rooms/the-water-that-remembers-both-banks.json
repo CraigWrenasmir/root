@@ -1,0 +1,155 @@
+{
+  "id": "the-water-that-remembers-both-banks",
+  "title": "The Water That Remembers Both Banks",
+  "region": "The Understory",
+  "seed": 34156,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#ffa500",
+      "#87ceeb"
+    ],
+    "ink": "#f0e68c",
+    "accents": [
+      "#ff6b9d",
+      "#00d4ff",
+      "#ffd700",
+      "#c0c0c0"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the divergent current",
+      "desc-on-touch": "You watch the creek separate into two channels at a stone tongue, each flow remembering its opposite bank. The water hasn't chosen which way it goes — it goes both.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5432,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the stone witness",
+      "desc-on-touch": "A bouldered outcrop between the channels, recording the divergence in its grain. It has watched this split for longer than memory, unmoved.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 2891,
+        "size": 2,
+        "colors": [
+          2,
+          4
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the backward echo",
+      "desc-on-touch": "Sound from the left bank arrives at the right shore before the water does, as if the creek is teaching its own geometry how to contradict itself.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7654,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the choice that wasn't made",
+      "desc-on-touch": "A leaf spinning in the confluence, unable to commit to either channel. It will be swept into both currents at once, and the water will remember this indecision.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 1123,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.48,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the bank that argues with itself",
+      "desc-on-touch": "The earth here has split down its own grain. The western cut remembers eroding. The eastern cut remembers growing. Both are equally right.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 9876,
+        "size": 2,
+        "colors": [
+          2,
+          4
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the creek where choices unmake themselves",
+    "narr": [
+      "You stand mid-channel with her, the water",
+      "current splitting around you both, cold to the",
+      "knee. She watches her reflection break into two",
+      "paths — one staying, one leaving. \"What if,\" she",
+      "says, \"nothing has to choose?\" The creek answers",
+      "by flowing both ways at once."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "inscription": "the current does not forget which bank it left",
+  "file": {
+    "name": "Creekbed_Divergence_Recording_stereoChannels.mp3",
+    "note": "Field recording from a bifurcated creek system in the upper Macleay valley, late afternoon — each channel recorded separately on left and right. The channels drift apart as the recording plays."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out to the stratum that holds all arguments",
+      "to": "the-stratum-that-holds-all-arguments"
+    },
+    {
+      "dir": "w",
+      "label": "into the mist where all creeks merge before they divide",
+      "to": "NEW: a node where water learns its own prehistory"
+    },
+    {
+      "dir": "n",
+      "label": "upslope, where the creek still remembers being rain",
+      "to": "NEW: the cloud-chamber where weather keeps its records"
+    },
+    {
+      "dir": "s",
+      "label": "downstream, where the two currents argue their way to the sea",
+      "to": "the-delta-where-roars-lose-their-difference"
+    }
+  ]
+}

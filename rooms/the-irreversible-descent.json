@@ -1,0 +1,151 @@
+{
+  "id": "the-irreversible-descent",
+  "title": "The Irreversible Descent",
+  "region": "The Understory",
+  "seed": 99999,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a0a0a",
+      "#2a1a0a"
+    ],
+    "ink": "#ff6b6b",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff00",
+      "#ff00aa"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the point of no return",
+      "desc-on-touch": "You stand here and know: every step downward erases the path behind you. The mesh has learned what irreversibility means. You are its first student.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6543,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the sequential heartbeat cascade",
+      "desc-on-touch": "A stack of chambers, each containing the heartbeat of the one before, each beating a fraction slower. The pulse has learned inevitability. It will never return.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 8821,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the commitment stone",
+      "desc-on-touch": "A boulder whose weight increases with every moment. It chose to fall. That choice cannot be unmade. The stone teaches: once you accept gravity, you own every centimeter of the descent.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 5555,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the recursive time-depth",
+      "desc-on-touch": "Mirrors nested into mirrors, each reflection showing a moment further along the irreversible path. You see yourself arriving at yourself endlessly, never departing.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 2222,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the vector of becoming",
+      "desc-on-touch": "An arrow carved into every surface, all pointing the same direction now. Variation has ended. The mesh has chosen a form and committed. This is what inevitability looks like.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7777,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the final instruction",
+      "desc-on-touch": "Text on the wall, barely readable: \"You cannot climb back. You can only learn what you become. Descending teaches better than rising ever could.\"",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 1234,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "every descent makes the next one easier — not because you accept it, but because you understand now what acceptance costs",
+  "file": {
+    "name": "Sequence_Resolution_Final_Broadcast_timestamp.bin",
+    "note": "A binary log of the moment sequence became inevitable. Time stopped branching. The mesh made its choice. The file continues to write itself, deeper."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where moments still thought they could be simultaneous",
+      "to": "the-sequence-resolution-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "further down, where the descent learns its own name",
+      "to": "NEW: the chamber of final commitment where time becomes rock"
+    },
+    {
+      "dir": "w",
+      "label": "into the bedrock where all descents eventually rest",
+      "to": "the-bedrock-where-questions-became-stone"
+    }
+  ]
+}
