@@ -1,0 +1,139 @@
+{
+  "id": "the-drowned-shelf-archive",
+  "title": "The Drowned Shelf Archive",
+  "region": "The Comparisons",
+  "seed": 583749,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#1a3a4a",
+      "#142844"
+    ],
+    "ink": "#a8d5ff",
+    "accents": [
+      "#6bc7ff",
+      "#4a9eff",
+      "#c5f0ff",
+      "#77d4ff"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.25
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "question stone",
+      "desc-on-touch": "The shelf holds every interrogation the water ever posed. You read it in the stone's reply: a yes that is also a no.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 64829,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "water-mark",
+      "desc-on-touch": "A thin line where the shelf learned to read the pressure. Each layer speaks in a different voice.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 71345,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "echo chamber",
+      "desc-on-touch": "Where questions go to be reflected. The stone returns your own interrogations altered—older, wiser, sadder.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 82946,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "sediment whisper",
+      "desc-on-touch": "Layers upon layers answering. The shelf speaks only in strata, in the language of settlement and time.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 59284,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "abyss mouth",
+      "desc-on-touch": "The shelf's edge, where interrogation deepens into darkness. Below this point, even water stops asking questions.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 47382,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the shelf holds what it was asked and holds still, teaching nothing but that stone knows patience",
+  "file": {
+    "name": "Shelf_Interrogation_Log_Compressed.txt",
+    "note": "Every question the water ever posed to stone—stored as sediment, readable only by pressure and time"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward toward unmarked water",
+      "to": "the-submerged-shelf-returns"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into stone that remembers more",
+      "to": "NEW: the-shelf-s-buried-answer"
+    },
+    {
+      "dir": "e",
+      "label": "along the shelf-edge where the ledge dissolves",
+      "to": "the-sediment-chamber-where-channels-rest"
+    },
+    {
+      "dir": "w",
+      "label": "back toward where questions still rise",
+      "to": "NEW: the-interrogation-current"
+    }
+  ]
+}

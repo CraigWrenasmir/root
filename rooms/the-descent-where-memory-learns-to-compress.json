@@ -1,0 +1,155 @@
+{
+  "id": "the-descent-where-memory-learns-to-compress",
+  "title": "The Descent Where Memory Learns to Compress",
+  "region": "The Understory",
+  "seed": 634817,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#4a8a4a",
+      "#c47a4a"
+    ],
+    "ink": "#e8d8a8",
+    "accents": [
+      "#ffaa66",
+      "#aa8866",
+      "#66aa88",
+      "#dd9944"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "weight descent",
+      "desc-on-touch": "What rises must learn its own heaviness. The memory that ascended highest now presses down, and the pressure makes it denser, more itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 73829,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "compression chamber",
+      "desc-on-touch": "Inside, memory becomes mineral. The song that rose up is now compressed into stone-language, denser and truer than air could ever speak it.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 84756,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "memory silt",
+      "desc-on-touch": "Each descending moment leaves a layer. You walk through the strata of what you remembered highest—it settles and becomes soil.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 59284,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "pressure pool",
+      "desc-on-touch": "Where the memory learns to stop rising. The water here is so heavy with what it carries that it has become almost stone.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 81945,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "root binding",
+      "desc-on-touch": "Roots wrap around the compressed memory. They are learning how to grow down. The earth is teaching them that weight is how things stay held.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 72638,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "what learned to rise descends and learns what rising taught it—to be heavy with its own truth",
+  "file": {
+    "name": "Memory_Compression_Sequence_Late20thCent.mp3",
+    "note": "A song descending through pressure, each octave lower and deeper, until it becomes the sound the earth makes when it remembers itself"
+  },
+  "reverie": {
+    "title": "REVERIE — memory settling",
+    "narr": [
+      "You recline against the trunk as night deepens around you,",
+      "and she is beside you, speaking of things that used to float.",
+      "The archive rises in her voice, and then slowly—",
+      "not falling, but settling—it becomes heavier, more real.",
+      "Dust motes drift in what is left of the light.",
+      "Everything that rises in us learns to come down."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "recline"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the song where memory breathes",
+      "to": "the-rising-song-where-memory-breathes"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into where compression becomes permanence",
+      "to": "NEW: the-stone-memory-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "across the roads where descended things find each other",
+      "to": "NEW: across the roads where descended things find each other"
+    },
+    {
+      "dir": "w",
+      "label": "toward the roots that grow down carrying weight",
+      "to": "NEW: the-roots-learning-downward"
+    }
+  ]
+}

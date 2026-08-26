@@ -1,0 +1,10 @@
+featured: The Depth Where Extraction Becomes Burial (the-depth-where-extraction-becomes-burial)
+region: The Understory · motif: fields
+inscription: what the archive extracts it must bury; extraction teaches itself to be a kind of returning
+file: Extraction_Ritual_Dusk_Night_203.mp3
+
+all nodes tonight:
+  · The Merged Transmission-Stream
+  · The Drowned Shelf Archive
+  · The Depth Where Extraction Becomes Burial
+  · The Descent Where Memory Learns to Compress

@@ -1,0 +1,139 @@
+{
+  "id": "the-merged-transmission-stream",
+  "title": "The Merged Transmission-Stream",
+  "region": "The Comparisons",
+  "seed": 247483,
+  "palette": {
+    "bg": "#1a3a4a",
+    "ground": [
+      "#2d8099",
+      "#1f5a7a"
+    ],
+    "ink": "#e0f0ff",
+    "accents": [
+      "#ffd700",
+      "#ff6b9d",
+      "#00ff88",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "broadcast junction",
+      "desc-on-touch": "You feel where two separate signals learned to meet without losing themselves. The water carries both voices at once.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 91234,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "convergence pool",
+      "desc-on-touch": "A widening where the two streams learned to flow as one thing. The current still remembers which signal came from which antenna.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 83521,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "signal house",
+      "desc-on-touch": "A small shelter where the broadcasts learned to nest. Inside, the two signals are indistinguishable—they have become something new.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 52847,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "flow junction",
+      "desc-on-touch": "Where the water learns that two voices can teach each other. The stone beneath remembers both broadcasts equally.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 74625,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "antenna echo",
+      "desc-on-touch": "You touch where the broadcasts learned to harmonize. The sound is both antennas speaking in one breath.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 91873,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "two signals flowing downward discovered they were already speaking to the same water",
+  "file": {
+    "name": "Antenna_Convergence_Night_203.mp3",
+    "note": "The moment the two broadcasts met—a doubled frequency, two carrier waves learning to make new shapes"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward along the signal cables",
+      "to": "the-twin-antenna-stand"
+    },
+    {
+      "dir": "s",
+      "label": "the stream flowing toward merger with deeper water",
+      "to": "NEW: the-confluence-where-signals-become-current"
+    },
+    {
+      "dir": "e",
+      "label": "the echo widening eastward into interference",
+      "to": "NEW: the-interference-bloom"
+    },
+    {
+      "dir": "w",
+      "label": "back along the doubled voice toward the tree-roots",
+      "to": "the-undivided-canopy-archive"
+    }
+  ]
+}

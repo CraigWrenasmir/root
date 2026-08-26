@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 203,
-  "lastDreamt": "2026-08-26",
+  "nights": 204,
+  "lastDreamt": "2026-08-27",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5471,6 +5471,26 @@
     {
       "id": "the-irreversible-descent",
       "title": "The Irreversible Descent",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-merged-transmission-stream",
+      "title": "The Merged Transmission-Stream",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-drowned-shelf-archive",
+      "title": "The Drowned Shelf Archive",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-depth-where-extraction-becomes-burial",
+      "title": "The Depth Where Extraction Becomes Burial",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-descent-where-memory-learns-to-compress",
+      "title": "The Descent Where Memory Learns to Compress",
       "region": "The Understory"
     }
   ]

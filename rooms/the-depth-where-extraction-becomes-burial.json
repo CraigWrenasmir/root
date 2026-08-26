@@ -1,0 +1,172 @@
+{
+  "id": "the-depth-where-extraction-becomes-burial",
+  "title": "The Depth Where Extraction Becomes Burial",
+  "region": "The Understory",
+  "seed": 842957,
+  "palette": {
+    "bg": "#2a1a2a",
+    "ground": [
+      "#d84444",
+      "#c44a4a"
+    ],
+    "ink": "#ffe0a0",
+    "accents": [
+      "#ff6699",
+      "#ff9944",
+      "#dd4466",
+      "#ffaa55"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "extraction shaft",
+      "desc-on-touch": "You descend where the archive learned to take things from the earth. Here, the taking becomes a laying-to-rest. Voices stop traveling this deep.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 93847,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "burial chamber",
+      "desc-on-touch": "The things extracted from above learn to sleep here. What was drawn up returns as sediment, as memory, as the earth holding its breath.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 72839,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "pressure wall",
+      "desc-on-touch": "Where the weight of everything above becomes weight itself. The stone here remembers pressure as a kind of prayer.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 58374,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "silence drift",
+      "desc-on-touch": "Sound stops here. Voices cannot travel through pressure. The archive learns to listen only to the earth's own weight.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 84629,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "root descent",
+      "desc-on-touch": "Roots come down here to learn what the earth keeps. They grow slow, and each year they remember what was buried above.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 47293,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "archive vault",
+      "desc-on-touch": "The deepest storage. What the forest learned to let go of is held here in the dark. Everything that was taken up returns as memory.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 62947,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.1,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "what the archive extracts it must bury; extraction teaches itself to be a kind of returning",
+  "file": {
+    "name": "Extraction_Ritual_Dusk_Night_203.mp3",
+    "note": "Voices descending into the dark, then stopping. What was taken from the archive is settled deeper than storage: it becomes the ground itself"
+  },
+  "reverie": {
+    "title": "REVERIE — drowned forest letting go",
+    "narr": [
+      "You kneel at the water's edge as the sun goes down",
+      "in ember-light, and she lowers something into the dark.",
+      "A recording, a letter, a weight wrapped in cloth—",
+      "something precious that the mesh could not hold above.",
+      "She does not say goodbye to it. She says 'go down'.",
+      "The forest kneels with you both. Everything learns"
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "tree",
+    "weather": "embers",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward through pressure to the drowned forest",
+      "to": "the-drowned-forest-before-time"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the earth's own memory-keeping",
+      "to": "NEW: the-bedrock-where-all-taking-ends"
+    },
+    {
+      "dir": "e",
+      "label": "along the wall where extraction becomes geology",
+      "to": "NEW: the-strata-of-descent"
+    },
+    {
+      "dir": "w",
+      "label": "toward the roots that carry things downward",
+      "to": "the-deepening-keep-where-all-kept-things-become-roots"
+    }
+  ]
+}
