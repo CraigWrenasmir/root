@@ -1,0 +1,134 @@
+{
+  "id": "the-perpetual-forward-where-time-refuses-to-return",
+  "title": "The Perpetual Forward Where Time Refuses to Return",
+  "region": "The Comparisons",
+  "seed": 92847,
+  "palette": {
+    "bg": "#2F4858",
+    "ground": [
+      "#3D5A6C",
+      "#4A5F7F"
+    ],
+    "ink": "#C8D4E0",
+    "accents": [
+      "#FF6B9D",
+      "#FFA500",
+      "#8B7355",
+      "#4B0082"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the forward clock",
+      "desc-on-touch": "A tower of moments stacked upward—each block a time that has passed, building toward a future that also looks backward. The structure is impossible: it moves forward and stands still at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 234567,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the merchant storefront",
+      "desc-on-touch": "A tiny shopfront stands here—selling futures, selling times-that-never-came-back. The window display shifts as you watch, showing goods you recognize from times you thought had passed.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 345678,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the crystalline archive-core",
+      "desc-on-touch": "A dark IC block sits here sealed—the circuit of everything time has locked away, unreturnable. Each pin represents a moment stored in crystal form, unable to reverse.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 567890,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the unrolling sequence",
+      "desc-on-touch": "A filecard directory listing unspeaks itself—entries appear and vanish in forward order only, each one becoming unreachable the moment it appears. Reading becomes a form of letting go.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 123456,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the drift-motion",
+      "desc-on-touch": "Movement that only goes forward—particles suspended in the air drifting onward, unable to circle back. The drift is patient and absolute, like wind that has learned to blow in only one direction.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 456789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "time does not move forward because it wants to; it moves forward because return has been archived away",
+  "file": {
+    "name": "Sequential_Impossibility_Forward_Velocity_Constant.log",
+    "note": "Each entry timestamped with the impossibility of its own return—a record that documents itself becoming unreachable the moment it is written."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to where the count speaks futures not yet arrived",
+      "to": "the-futures-the-count-hasnt-spoken-yet"
+    },
+    {
+      "dir": "n",
+      "label": "forward to where time has learned to accelerate",
+      "to": "NEW: the-acceleration-where-future-becomes-urgency"
+    },
+    {
+      "dir": "e",
+      "label": "onward to where the next moment is already becoming past",
+      "to": "the-drowned-forest-before-time"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "the-near-echo-still-reaching",
+  "title": "The Near-Echo Still Reaching",
+  "region": "The Diagnostic Render",
+  "seed": 74283,
+  "palette": {
+    "bg": "#87CEEB",
+    "ground": [
+      "#D4A574",
+      "#C9A961"
+    ],
+    "ink": "#1A0F0F",
+    "accents": [
+      "#FFD700",
+      "#8B7355",
+      "#D2691E",
+      "#436B7D"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the upward signal",
+      "desc-on-touch": "A rotating antenna rises here, the only hardware in this node facing up instead of down—it broadcasts upward with the patience of something that has learned the world moves slowly.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 291856,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the returning waves",
+      "desc-on-touch": "Sound moves in concentric rings from a still pool—each circle a voice climbing back toward its origin, as if the water itself were remembering it came from the sky.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 384729,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the scattered threshold",
+      "desc-on-touch": "A doorway of light hangs half-ruined here—you sense it as the place where echoes remember they are moving upward, where they learn that silence need not be permanent.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 649283,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the unwritten call",
+      "desc-on-touch": "A glyph carved into the ground—unreadable, incomplete—as if someone had begun to write a name but the act of writing itself had become an echo, fading before words could form.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 567812,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the spiraling reach",
+      "desc-on-touch": "A tower of stacked forms rises and falls here, reaching and falling, reaching and falling—the rhythm of echoes learning upward, the breath of something that refuses to stop trying.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 192847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive is learning that echoes have not all forgotten where they fell from",
+  "file": {
+    "name": "Carrier_Frequencies_Reaching_Upward_Diagnostic.log",
+    "note": "Each log entry records waves climbing toward the surface—timestamps run backward, as if the recording is remembering its own departure rather than documenting arrival."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the forgetting place",
+      "to": "the-echo-that-forgot-to-return"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the bright edge where echoes break into air",
+      "to": "NEW: the-echo-that-broke-through-to-light"
+    },
+    {
+      "dir": "w",
+      "label": "leftward into the chamber where echoes learned to answer",
+      "to": "the-ridge-where-echoes-learn-to-answer"
+    }
+  ]
+}

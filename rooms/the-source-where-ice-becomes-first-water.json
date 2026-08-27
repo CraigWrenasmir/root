@@ -1,0 +1,134 @@
+{
+  "id": "the-source-where-ice-becomes-first-water",
+  "title": "The Source Where Ice Becomes First Water",
+  "region": "The Comparisons",
+  "seed": 38471,
+  "palette": {
+    "bg": "#E8F4F8",
+    "ground": [
+      "#B0E0E6",
+      "#A8D8EA"
+    ],
+    "ink": "#2F4F4F",
+    "accents": [
+      "#FFB6C1",
+      "#DDA0DD",
+      "#F0E68C",
+      "#4A90E2"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the thawing threshold",
+      "desc-on-touch": "A tower of ice-forms begins here and descends—halfway through its height, the geometry softens, the structure becoming liquid, becoming flow. You watch it transition between states in a single form.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 456123,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the first running",
+      "desc-on-touch": "Water moves here for the first time—its path is uncertain, learning its own channel, repeating the river's work of finding the lowest place. You hear it as a sound becoming language.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 234567,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the fence of becoming",
+      "desc-on-touch": "A boundary marked by repeated forms—where ice ends and water begins, drawn in miniature. The fence itself is unclear about which side it belongs to.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 789123,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the thaw-song",
+      "desc-on-touch": "A sound rises here—the hum of transformation, ice learning it can move. The archive records it as a frequency that doesn't quite fit any single wavelength, caught between two states of matter.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 654321,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the dawn-breaking",
+      "desc-on-touch": "Light arrives here for the first time as ice retreats—you sense it as the moment when color begins to matter, when beauty becomes possible because things can now be reflected.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 912345,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the source does not flow downward; it remembers falling from the sky and learning to go anywhere",
+  "file": {
+    "name": "Thaw_Sequence_Spring_Cycle_Northeast_Ridge.wav",
+    "note": "A recording of ice becoming water—compressed frequencies at the threshold, sound caught between solid and liquid state, playing both ways at once."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to where the valley has learned to run",
+      "to": "the-valley-that-learns-to-run"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the frozen height where water dreams",
+      "to": "NEW: the-ice-field-where-stillness-holds-memory"
+    },
+    {
+      "dir": "e",
+      "label": "rightward to the channel where flow has found its form",
+      "to": "the-river-shallows"
+    }
+  ]
+}

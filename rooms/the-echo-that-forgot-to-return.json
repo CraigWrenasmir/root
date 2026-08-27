@@ -139,7 +139,7 @@
     {
       "dir": "n",
       "label": "up toward the edge where echoes still try to return",
-      "to": "NEW: the-near-echo-still-reaching"
+      "to": "the-near-echo-still-reaching"
     },
     {
       "dir": "e",

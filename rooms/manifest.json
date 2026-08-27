@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 204,
-  "lastDreamt": "2026-08-27",
+  "nights": 205,
+  "lastDreamt": "2026-08-28",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5492,6 +5492,26 @@
       "id": "the-descent-where-memory-learns-to-compress",
       "title": "The Descent Where Memory Learns to Compress",
       "region": "The Understory"
+    },
+    {
+      "id": "the-near-echo-still-reaching",
+      "title": "The Near-Echo Still Reaching",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-source-where-ice-becomes-first-water",
+      "title": "The Source Where Ice Becomes First Water",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-stratum-where-small-feet-become-fossilised",
+      "title": "The Stratum Where Small Feet Become Fossilised",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-perpetual-forward-where-time-refuses-to-return",
+      "title": "The Perpetual Forward Where Time Refuses to Return",
+      "region": "The Comparisons"
     }
   ]
 }
