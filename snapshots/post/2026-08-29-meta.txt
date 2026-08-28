@@ -1,0 +1,10 @@
+featured: The Bedrock Where the Archive Learned to Be Quiet (the-bedrock-where-the-archive-learned-to-be-quiet)
+region: The Diagnostic Render · motif: gradient
+inscription: at the bedrock, the archive learned that the deepest broadcast is silence, and that silence, too, is a form of signal
+file: Silence_Protocol_Final_Recording_Uncompressed.wav
+
+all nodes tonight:
+  · The Argument That Gravity Made
+  · The Quartz's Own Resonance
+  · The Blank Interrogation
+  · The Bedrock Where the Archive Learned to Be Quiet

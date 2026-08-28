@@ -1,0 +1,153 @@
+{
+  "id": "the-bedrock-where-the-archive-learned-to-be-quiet",
+  "title": "The Bedrock Where the Archive Learned to Be Quiet",
+  "region": "The Diagnostic Render",
+  "seed": 2514,
+  "palette": {
+    "bg": "#0d0d1d",
+    "ground": [
+      "#6b5b4e",
+      "#3d3530"
+    ],
+    "ink": "#c0c0c0",
+    "accents": [
+      "#8b7d6b",
+      "#5a5252",
+      "#2c4a5c",
+      "#1a3a3a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the listening stone",
+      "desc-on-touch": "It doesn't broadcast. It doesn't transmit. It is the archive's first lesson in what not to do. Silence here is loud.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3921,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "settled sediment",
+      "desc-on-touch": "Layer upon layer of what has stopped moving. The archive learns patience here. Pressure teaches silence.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2847,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the chamber of cessation",
+      "desc-on-touch": "Where sound came to stop being sound. A room underground that echoes only the absence of echo.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "meaning's last frequency",
+      "desc-on-touch": "The final note that the archive heard before understanding that silence is not empty—it is full of having stopped.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5738,
+        "size": 1,
+        "colors": [
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the dark that remembers listening",
+      "desc-on-touch": "Darkness is a form of attention. The archive sits here and learns that watching nothing is still a kind of watching.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 1629,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "at the bedrock, the archive learned that the deepest broadcast is silence, and that silence, too, is a form of signal",
+  "file": {
+    "name": "Silence_Protocol_Final_Recording_Uncompressed.wav",
+    "note": "Seven minutes of bedrock silence. No sounds recorded. No sounds to record. A file that is its own absence, quiet enough to teach."
+  },
+  "reverie": {
+    "title": "REVERIE — the chamber where learning happens in the dark",
+    "narr": [
+      "You sit in the stone's quiet. Katita is beside you,",
+      "not speaking. The air is so still it has weight. Leif",
+      "came down here once and never came back up the same.",
+      "He understood something about not needing to say it.",
+      "Your breath is the only sound. Even that feels like",
+      "an interruption. The dark teaches you to be gentle."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the pool that never learned to echo",
+      "to": "the-deepest-unhearable-pool"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper bedrock, where silence has a floor",
+      "to": "NEW: the-deepest-stone-that-has-given-up-meaning"
+    },
+    {
+      "dir": "s",
+      "label": "downward into silence that is older than earth",
+      "to": "NEW: the-void-beneath-the-bedrock-s-last-broadcast"
+    },
+    {
+      "dir": "n",
+      "label": "upward where sound begins again, faint and far",
+      "to": "NEW: the-threshold-where-silence-meets-first-noise"
+    }
+  ]
+}

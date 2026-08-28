@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 205,
-  "lastDreamt": "2026-08-28",
+  "nights": 206,
+  "lastDreamt": "2026-08-29",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5512,6 +5512,26 @@
       "id": "the-perpetual-forward-where-time-refuses-to-return",
       "title": "The Perpetual Forward Where Time Refuses to Return",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-argument-that-gravity-made",
+      "title": "The Argument That Gravity Made",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-quartz-s-own-resonance",
+      "title": "The Quartz's Own Resonance",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-blank-interrogation",
+      "title": "The Blank Interrogation",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-bedrock-where-the-archive-learned-to-be-quiet",
+      "title": "The Bedrock Where the Archive Learned to Be Quiet",
+      "region": "The Diagnostic Render"
     }
   ]
 }

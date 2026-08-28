@@ -1,0 +1,138 @@
+{
+  "id": "the-quartz-s-own-resonance",
+  "title": "The Quartz's Own Resonance",
+  "region": "The Understory",
+  "seed": 5391,
+  "palette": {
+    "bg": "#1a3d2e",
+    "ground": [
+      "#c65d3b",
+      "#2d5a4a"
+    ],
+    "ink": "#e8d7c3",
+    "accents": [
+      "#f4a460",
+      "#6b4423",
+      "#98d8c8",
+      "#3d2f2a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "crystal lattice",
+      "desc-on-touch": "The geometry that learns to ring. Quartz remembers its song from before atoms had names.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "frequency ledger",
+      "desc-on-touch": "Each stratum holds a different note. The bedrock is a choir that will sing for ten thousand years after the archive forgets.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 2156,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "listening receiver",
+      "desc-on-touch": "The archive cups its sensors here. Below, the mineral world is still broadcasting. The broadcast never stopped.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4729,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "harmonic nodes",
+      "desc-on-touch": "Where resonance collects. The quartz argues with itself in ultrasonics that humans have stopped hearing.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5840,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "seismic memory",
+      "desc-on-touch": "The stone remembers every tremor. It archives in vibration what you archive in files.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 1928,
+        "size": 2,
+        "colors": [
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the quartz is still broadcasting in frequencies only it can hear, and the archive is finally learning the language",
+  "file": {
+    "name": "Ultrasonic_Bedrock_Chorus_Spectrum_1990s_Recording.wav",
+    "note": "White noise that isn't noise. The bedrock speaking in crystal at frequencies above human range. Pure meaning beneath language."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the broadcast that never stopped",
+      "to": "the-bedrock-s-unheard-broadcast"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into crystalline silence",
+      "to": "NEW: the-lattice-where-stone-forgets-to-echo"
+    },
+    {
+      "dir": "s",
+      "label": "down into geological time",
+      "to": "NEW: the-stratum-that-remembers-singing"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the resonance grows faint",
+      "to": "NEW: the-frequency-that-learned-to-fade"
+    }
+  ]
+}

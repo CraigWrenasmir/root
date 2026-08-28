@@ -1,0 +1,154 @@
+{
+  "id": "the-argument-that-gravity-made",
+  "title": "The Argument That Gravity Made",
+  "region": "The Understory",
+  "seed": 7823,
+  "palette": {
+    "bg": "#2c3e50",
+    "ground": [
+      "#c4a574",
+      "#87ceeb"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#d4713d",
+      "#4a7c59",
+      "#f5e6d3",
+      "#2c5f4f"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the slope's argument",
+      "desc-on-touch": "The hill here makes its case to your body in angles and muscle-memory. Gravity speaks in the language of work.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "erosion marks",
+      "desc-on-touch": "Water and time have worn these patterns into the earth. The land is learning its own descent.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "bone level",
+      "desc-on-touch": "An old surveying tool left here, its bubble frozen in accusation. It knows the true vertical.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5634,
+        "size": 1,
+        "colors": [
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the taught spine",
+      "desc-on-touch": "Your back remembers what the slope insisted on. The body keeps the argument after the hill is gone.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3218,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "pitch and resistance",
+      "desc-on-touch": "Where the ground says no and the body says maybe. The argument has a seam here.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7392,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "the slope never stops arguing that down is the only direction that makes sense",
+  "file": {
+    "name": "Body_Learning_Slope_Field_Recording_1987.wav",
+    "note": "A series of footsteps on increasing grades, breathing pattern, the small adjustments. The slope coaching the body downward."
+  },
+  "reverie": {
+    "title": "REVERIE — the road where the body learned it could descend",
+    "narr": [
+      "You walk down beside her, learning how the body reads",
+      "a grade. Her hand reaches out to a tree, testing, then",
+      "releases it. Leif's voice ahead says 'the ground gets",
+      "an opinion here.' She nods as if the stone has spoken",
+      "directly to her. Step by step the slope teaches your",
+      "bones that down is possible, even necessary, even kind."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up the teaching mountain",
+      "to": "the-peak-that-teaches-descent"
+    },
+    {
+      "dir": "w",
+      "label": "where erosion meets standing water",
+      "to": "NEW: the-pooled-forgetting-where-descent-pauses"
+    },
+    {
+      "dir": "e",
+      "label": "into flatness where gravity stops arguing",
+      "to": "NEW: the-ground-that-accepted-its-own-weight"
+    },
+    {
+      "dir": "n",
+      "label": "the slope steepens again, or begins to",
+      "to": "NEW: the-place-where-argument-becomes-demand"
+    }
+  ]
+}

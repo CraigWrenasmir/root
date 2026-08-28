@@ -1,0 +1,137 @@
+{
+  "id": "the-blank-interrogation",
+  "title": "The Blank Interrogation",
+  "region": "The Diagnostic Render",
+  "seed": 3847,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#8b7355",
+      "#4a3f35"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#ffb347",
+      "#ff6b6b",
+      "#4a90e2",
+      "#f0a500"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the central mark",
+      "desc-on-touch": "A question rendered in space. The archive interrogates the interrogation that interrogates the archive.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2401,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "open space",
+      "desc-on-touch": "The architecture of whiteness. Where an answer should be, there is only air and the echo of the question.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3156,
+        "size": 2,
+        "colors": [
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "reflection chamber",
+      "desc-on-touch": "You see yourself asking. The interrogation is recursive. The margin reflects the centre. Nothing answers.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 4783,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "suspended proof",
+      "desc-on-touch": "Evidence that the interrogation happened. But of what, or to what, or by what? The blank refutes all naming.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5612,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "margin annotation",
+      "desc-on-touch": "Where the archive has written in the margins of itself. The writing is in an ink the archive hasn't learned to read.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 1847,
+        "size": 1,
+        "colors": [
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the interrogation asks only itself; the answer space is open in all directions and empty in all of them",
+  "file": {
+    "name": "Archive_Self_Interrogation_Transcript_Incomplete.txt",
+    "note": "Questions without questioners. Responses that refuse the grammar of question-answer. The archive's most unsettling file."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the question that asks the asking of itself",
+      "to": "the-core-question-that-asks-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into whitespace where emptiness has opinions",
+      "to": "NEW: the-margin-where-interrogation-became-content"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the unasked questions",
+      "to": "NEW: the-bedrock-of-things-the-archive-fears-to-ask"
+    },
+    {
+      "dir": "n",
+      "label": "upward where questions begin to echo",
+      "to": "NEW: the-resonance-of-interrogation-never-answered"
+    }
+  ]
+}
