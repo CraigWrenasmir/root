@@ -1,0 +1,150 @@
+{
+  "id": "the-unbuilt-slope-counterargument",
+  "title": "The Unbuilt Slope Where Climbing Denies Itself",
+  "region": "The Understory",
+  "seed": 7284913,
+  "palette": {
+    "bg": "#0f1b2e",
+    "ground": [
+      "#2a3f5f",
+      "#1a2633"
+    ],
+    "ink": "#b8c5d6",
+    "accents": [
+      "#6b8e99",
+      "#8fa3b3",
+      "#d4dce6",
+      "#4a5f7a"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "expedition denial",
+      "desc-on-touch": "The other expedition's records insist the slope was never constructed. Their instruments agree; their measurements contradict the climb you just made. Both are true, both are here.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 4127,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "shimmer refutation",
+      "desc-on-touch": "The slope flickers between existing and not. The farther side insists on its own unbeing. This is not damage; this is the slope learning to hold two contradictions about itself at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 8956,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "counter-gradient marker",
+      "desc-on-touch": "Every step you take registers two elevations: the one your body climbs, and the one the other expedition's instruments say does not exist. The archive is learning to map disagreement as geography.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3402,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "alternative path-memory",
+      "desc-on-touch": "This path was never walked by the other expedition because the slope was never there. Yet the path remembers the walking. The archive stores the memory of journeys that could not have happened.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 6531,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.58,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "testimony contradiction",
+      "desc-on-touch": "Both expeditions are correct. One climbed here. One never arrived. The slope holds their disagreement about itself as architecture.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 2174,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the slope at golden hour where two truths meet",
+    "narr": [
+      "Leif stood halfway up what Katita's instruments said",
+      "was not there. The air was real. His lungs knew it.",
+      "Katita checked her readings again, then looked at his",
+      "footprints in the scree. \"Both,\" she said quietly.",
+      "\"The archive has to hold both.\" The slope between",
+      "you glowed terracotta in the failing light, real and"
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "here the slope argues its own non-existence and wins",
+  "file": {
+    "name": "Counter-Expedition_Field_Notes_Negation_Protocol.txt",
+    "note": "Instruments recording what was never built. Testimony insisting on absence. The longer the notes, the more real the unclimbing becomes."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back down to the slope that surrenders its own ascent",
+      "to": "the-slope-where-climbing-becomes-surrender"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the flank where the other expedition begins",
+      "to": "NEW: the-expedition-that-never-arrived"
+    },
+    {
+      "dir": "s",
+      "label": "southward where the contradiction deepens",
+      "to": "the-void-that-thinks-backwards"
+    }
+  ]
+}

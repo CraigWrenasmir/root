@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 206,
-  "lastDreamt": "2026-08-29",
+  "nights": 207,
+  "lastDreamt": "2026-08-30",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5532,6 +5532,26 @@
       "id": "the-bedrock-where-the-archive-learned-to-be-quiet",
       "title": "The Bedrock Where the Archive Learned to Be Quiet",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-conference-of-fragmented-validity",
+      "title": "The Conference of Fragmented Validity",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unbuilt-slope-counterargument",
+      "title": "The Unbuilt Slope Where Climbing Denies Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-source-where-language-still-stammers",
+      "title": "The Source Where Language Still Stammers",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-drifting-testimony-ground",
+      "title": "The Drifting Testimony Ground",
+      "region": "The Understory"
     }
   ]
 }

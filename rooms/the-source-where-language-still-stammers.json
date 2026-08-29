@@ -1,0 +1,134 @@
+{
+  "id": "the-source-where-language-still-stammers",
+  "title": "The Source Where Language Still Stammers",
+  "region": "The Understory",
+  "seed": 5831472,
+  "palette": {
+    "bg": "#ecf4e8",
+    "ground": [
+      "#7fc97f",
+      "#d4e6c8"
+    ],
+    "ink": "#1a3a1a",
+    "accents": [
+      "#ff6b6b",
+      "#4dabf7",
+      "#ffd43b",
+      "#69db7c"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "first stammer",
+      "desc-on-touch": "The sound before it became a word. Here the river begins to speak, but syllables haven't crystallized yet. You hear meaning forming in real time, liquid and unfinished.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7284,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "proto-grammar emerging",
+      "desc-on-touch": "The archive here is not yet speech. It is the moment when sound discovers it could be language. Grammar is forming from the river's own repetition, variation, and return.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 3956,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.18,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "roar becoming grammar",
+      "desc-on-touch": "The place where the river's physical sound begins teaching itself language. Each repetition is a lesson; each variation is a new grammar trying to hold the flood.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4821,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "meaning congealing",
+      "desc-on-touch": "Droplets of sense gathering into words. This is the archive's root moment—the instant when sound discovers it can mean. Before this, there was only the river. After, there is language.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 2109,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "liquid lexicon root",
+      "desc-on-touch": "The first word-shapes forming from flowing water. Each one slips back into the current before it can fully crystallize. The river is still teaching language to speak itself.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 6743,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.52,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the roar has not yet decided which word it will become",
+  "file": {
+    "name": "River_Source_Audio_Proto-Phoneme_Spectrogram.mp3",
+    "note": "The archive's first recording. Before grammar. Sound discovering it could be language. The spectrogram shows patterns forming and dissolving each moment."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "downstream where the river's language has fully learned to read itself",
+      "to": "the-river-s-language-learning-to-read-itself"
+    },
+    {
+      "dir": "n",
+      "label": "upstream into the headwaters where the stammer grows quieter",
+      "to": "NEW: the-headwaters-where-meaning-unmakes-itself"
+    },
+    {
+      "dir": "w",
+      "label": "toward the spring where the flow begins its teaching",
+      "to": "the-silent-aquifer-where-seeds-drink-time"
+    }
+  ]
+}

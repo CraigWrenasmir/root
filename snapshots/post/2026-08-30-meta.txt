@@ -1,0 +1,10 @@
+featured: The Drifting Testimony Ground (the-drifting-testimony-ground)
+region: The Understory · motif: fields
+inscription: every falling seed is a cloud remembering it has learned to move
+file: Seed_Dispersion_Testimony_Memory_Trace.mp3
+
+all nodes tonight:
+  · The Conference of Fragmented Validity
+  · The Unbuilt Slope Where Climbing Denies Itself
+  · The Source Where Language Still Stammers
+  · The Drifting Testimony Ground

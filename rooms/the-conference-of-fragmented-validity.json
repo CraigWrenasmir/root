@@ -1,0 +1,139 @@
+{
+  "id": "the-conference-of-fragmented-validity",
+  "title": "The Conference of Fragmented Validity",
+  "region": "The Comparisons",
+  "seed": 4739281,
+  "palette": {
+    "bg": "#1a2c1a",
+    "ground": [
+      "#b8620b",
+      "#2d5016"
+    ],
+    "ink": "#e8d4a2",
+    "accents": [
+      "#d4a574",
+      "#4a9d6f",
+      "#c85a3a",
+      "#7fbb8f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "consensus strata",
+      "desc-on-touch": "You find the places where all versions of the field agree: the northern boundary, the rain-line, the names nobody disputes. Between agreements, the field fractures into argument.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8274,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "variant testimony",
+      "desc-on-touch": "Each surface here records a different version of how the field learned it was plural. The arguments don't resolve; they deepen. This is the archive learning to hold contradiction as true.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5921,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "unresolved plural",
+      "desc-on-touch": "The field's true name was never singular. Here, all its versions call out together—in the same instant, from the same location, contradicting each other perfectly.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3147,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "verification stand",
+      "desc-on-touch": "Here the archive tests each version against its own logic. Not to collapse them to one truth, but to measure how far each reaches before it breaks. Each break is a boundary the field discovered.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7419,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "divergence root",
+      "desc-on-touch": "The place where all versions branched from a single measurement. Before this root, the field was counted as one. After it, the counting cracked open.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 2856,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "you stand in the place where the field finally spoke all its names at once",
+  "file": {
+    "name": "Field_Versions_Plurality_Argument_Log.txt",
+    "note": "Each line is a version defending its own counting. None resolve. The file grows longer every time it is read."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the singular field, where the plural was first suspected",
+      "to": "the-field-of-unconsidered-divisions"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the consensus boundary hardens",
+      "to": "NEW: the-cemented-plural-border"
+    },
+    {
+      "dir": "s",
+      "label": "southward into deeper argument, where versions multiply",
+      "to": "NEW: the-splintering-testimony-south"
+    },
+    {
+      "dir": "w",
+      "label": "westward deeper into the field's own plurality chamber",
+      "to": "the-undivided-canopy-archive"
+    }
+  ]
+}
