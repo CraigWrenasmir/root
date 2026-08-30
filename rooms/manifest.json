@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 207,
-  "lastDreamt": "2026-08-30",
+  "nights": 208,
+  "lastDreamt": "2026-08-31",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5552,6 +5552,21 @@
       "id": "the-drifting-testimony-ground",
       "title": "The Drifting Testimony Ground",
       "region": "The Understory"
+    },
+    {
+      "id": "the-axis-awakening",
+      "title": "The Axis Awakening",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-threshold-before-the-first-word",
+      "title": "The Threshold Before the First Word",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-mine-where-stone-learned-it-was-copper",
+      "title": "The Mine Where Stone Learned It Was Copper",
+      "region": "The Comparisons"
     }
   ]
 }

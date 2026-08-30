@@ -139,7 +139,7 @@
     {
       "dir": "n",
       "label": "toward the threshold where the first word was almost spoken",
-      "to": "NEW: the-threshold-before-the-first-word"
+      "to": "the-threshold-before-the-first-word"
     },
     {
       "dir": "e",

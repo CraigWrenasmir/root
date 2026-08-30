@@ -1,0 +1,9 @@
+featured: The Threshold Before the First Word (the-threshold-before-the-first-word)
+region: The Understory · motif: gradient
+inscription: here the breath draws back; here the first word will not be born
+file: Silence_Before_Language_Begins.mp3
+
+all nodes tonight:
+  · The Axis Awakening
+  · The Threshold Before the First Word
+  · The Mine Where Stone Learned It Was Copper

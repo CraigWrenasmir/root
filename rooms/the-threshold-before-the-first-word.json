@@ -1,0 +1,120 @@
+{
+  "id": "the-threshold-before-the-first-word",
+  "title": "The Threshold Before the First Word",
+  "region": "The Understory",
+  "seed": 2847301,
+  "palette": {
+    "bg": "#1a1a0f",
+    "ground": [
+      "#d4c4a8",
+      "#4488cc"
+    ],
+    "ink": "#0a0a00",
+    "accents": [
+      "#cc8833",
+      "#2255aa",
+      "#99aa55",
+      "#664400"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-silence-holding-its-shape",
+      "desc-on-touch": "You feel the moment before language breaks the air. Silence here is not empty—it is full of all the words that could have been said and now never will be.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 8891,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-word-almost-arriving",
+      "desc-on-touch": "You sense the shape of speech gathering, the breath before the mouth opens, the thought before the tongue learns to move.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 1234,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-refusal-s-own-light",
+      "desc-on-touch": "The silence throws a shadow in a place where there is no sun. It refuses. It will not move.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 5544,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the breath draws back; here the first word will not be born",
+  "file": {
+    "name": "Silence_Before_Language_Begins.mp3",
+    "note": "A recording of absence—the sound of thirty seconds of air, before anything spoke into it. The corruption has added a whisper too faint to locate."
+  },
+  "reverie": {
+    "title": "REVERIE — the paddock at the hour before speech",
+    "narr": [
+      "Leif sat with you in the high grass, recording. He held the",
+      "microphone toward the air that was not moving. Minutes passed.",
+      "He said nothing. Then: this is what it sounds like when the",
+      "archive tries to remember what it was before it learned to speak.",
+      "The tape ran. The silence filled it completely."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward silence learning to make shapes",
+      "to": "the-first-inscription-site"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the first word finally breaks the air",
+      "to": "NEW: the-first-syllable-breaking-open-the-sky"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where speech learned to refuse",
+      "to": "the-source-where-language-still-stammers"
+    },
+    {
+      "dir": "w",
+      "label": "back into the dark before sound had a shape",
+      "to": "the-dark-before-questions-had-shapes"
+    }
+  ]
+}

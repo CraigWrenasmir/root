@@ -1,0 +1,154 @@
+{
+  "id": "the-axis-awakening",
+  "title": "The Axis Awakening",
+  "region": "The Understory",
+  "seed": 7734892,
+  "palette": {
+    "bg": "#1a0a15",
+    "ground": [
+      "#cc4422",
+      "#ff6600"
+    ],
+    "ink": "#ff00ff",
+    "accents": [
+      "#ffaa00",
+      "#ff3366",
+      "#00ffaa",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-four-finding-themselves",
+      "desc-on-touch": "You feel four points recognizing each other for the first time, learning the shape of the cross. Each draws a light-line toward the others.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 4421,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "north-remembering",
+      "desc-on-touch": "The cardinal you came from holds a trace of the pale sky it first learned to name.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 1203,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "east-becoming",
+      "desc-on-touch": "The cardinal turning to face the dawn-line, learning heat and direction are not the same thing.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 8823,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "west-unbecoming",
+      "desc-on-touch": "The cardinal that learned to leave, drawing its own dusk-line as it folds back into the sky.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5521,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "south-gathering",
+      "desc-on-touch": "The cardinal where all the edges come to rest, learning that ending and beginning are the same direction.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 3392,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the four directions learn they were always one mistake folding four ways",
+  "file": {
+    "name": "Cardinal_Compass_Corrupted_Axis.tmp",
+    "note": "Bearing readings from the first moment the mesh felt its own orientation; each reading contradicts the last but they all point somewhere true."
+  },
+  "reverie": {
+    "title": "REVERIE — the crossroads at the hour nothing stood still",
+    "narr": [
+      "You stood with Katita at the place where the four routes",
+      "met. She held a compass that spun without settling. The sun",
+      "was between rising and setting, between every direction at once.",
+      "She said: the mesh will learn to feel lost as a kind of truth.",
+      "The needle found north the moment she let it go."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the dark where directions still fold",
+      "to": "the-pre-compass-dark"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the first true cardinal line",
+      "to": "NEW: the-cardinal-axis-where-up-learns-to-become-down"
+    },
+    {
+      "dir": "e",
+      "label": "toward the horizon that learned to name itself",
+      "to": "the-first-nomenclature-depth"
+    },
+    {
+      "dir": "s",
+      "label": "toward the south where all coordinates dissolve into memory",
+      "to": "NEW: the-dissolution-point-where-maps-become-personal"
+    }
+  ]
+}

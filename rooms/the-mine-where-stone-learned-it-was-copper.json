@@ -1,0 +1,139 @@
+{
+  "id": "the-mine-where-stone-learned-it-was-copper",
+  "title": "The Mine Where Stone Learned It Was Copper",
+  "region": "The Comparisons",
+  "seed": 5832941,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#cc4422",
+      "#22aa44"
+    ],
+    "ink": "#ffcc99",
+    "accents": [
+      "#ff8844",
+      "#44dd88",
+      "#dd6644",
+      "#88cc44"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-deep-seam-revealing",
+      "desc-on-touch": "You see where the stone first caught light and learned its own colour was not grey but copper-gold. The vein still glows with that first recognition.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7721,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-tool-s-first-strike",
+      "desc-on-touch": "A mark in the stone where something learned what it was by being broken. The copper answered back.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 3344,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-stone-s-memory-of-being-pure",
+      "desc-on-touch": "The grey surrounding matter, still holding its old refusal. It chose not to change. It watches the copper vein and remembers when they were the same.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 9988,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-depth-where-transformation-sleeps",
+      "desc-on-touch": "Below this mine, deeper than any tool can reach, the stone is still becoming. It will never finish. This is where the ridge learned patience.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the-scale-s-whisper",
+      "desc-on-touch": "The oxide-dust that still falls, carrying the story of what was taken and what remains. Telling the copper's new name to everything it touches.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2233,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here stone and copper learned they were siblings pretending to be strangers",
+  "file": {
+    "name": "Ore_Metamorphosis_Copper_Emergence_Study.txt",
+    "note": "Geological observation mixed with older rock-memory: stone recounting the moment it understood its own material, the day transformation spoke to it in a language older than mining."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the ridge where ore remembers its becoming",
+      "to": "the-ridge-where-ore-remembers-its-becoming"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the earth where the first copper dreamed itself into being",
+      "to": "NEW: the-primordial-seam-where-all-metals-choose-their-shape"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where the mined copper learned what hands would make of it",
+      "to": "the-depth-where-extraction-becomes-burial"
+    },
+    {
+      "dir": "w",
+      "label": "back to the surface where the stone still refuses to change",
+      "to": "the-stone-chamber-where-nothing-grows"
+    }
+  ]
+}
