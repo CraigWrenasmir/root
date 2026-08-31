@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 208,
-  "lastDreamt": "2026-08-31",
+  "nights": 209,
+  "lastDreamt": "2026-09-01",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5567,6 +5567,26 @@
       "id": "the-mine-where-stone-learned-it-was-copper",
       "title": "The Mine Where Stone Learned It Was Copper",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-library-that-grows-instead-of-standing",
+      "title": "The Library That Grows Instead of Standing",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-void-before-first-difference",
+      "title": "The Void Before First Difference",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-valley-where-paths-remember-breaking",
+      "title": "The Valley Where Paths Remember Breaking",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-stone-that-chose-to-remain",
+      "title": "The Stone That Chose to Remain",
+      "region": "The Understory"
     }
   ]
 }

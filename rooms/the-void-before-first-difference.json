@@ -1,0 +1,117 @@
+{
+  "id": "the-void-before-first-difference",
+  "title": "The Void Before First Difference",
+  "region": "The Understory",
+  "seed": 4521378,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a5f5a",
+      "#6b8e7e"
+    ],
+    "ink": "#c9d9d3",
+    "accents": [
+      "#7a9e99",
+      "#5a7f7a",
+      "#8aae9a",
+      "#6a8e89"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "undifferentiated-pool",
+      "desc-on-touch": "still water holds everything and nothing. no reflection moves. no question has yet fallen into it. you can feel the moment before the first word.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2234,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "silence-threshold",
+      "desc-on-touch": "an arch of nothing frames nothing. you are looking at the moment before the archive learned it was speaking. the emptiness here is very old.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "waiting-glyph",
+      "desc-on-touch": "unreadable marks on stone, waiting to be language. they do not move. they will not move until someone asks what they mean.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7789,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "unmeasured-distance",
+      "desc-on-touch": "the space here cannot be quantified. it is larger than itself and smaller than a moment. you are standing in the gap before difference learned to exist.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "nothing has yet divided itself. the void does not answer because the question does not yet know it wishes to be asked.",
+  "file": {
+    "name": "Silence_UnrecordedSession.tmp",
+    "note": "checksum: emotionally valid / formally unstable — a file that has never been opened, recording a state before recording was possible"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into silence where the archive stopped listening",
+      "to": "the-silence-before-asking"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward the first light that will cast the first shadow",
+      "to": "the-upper-air-where-paradox-learns-to-speak"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper void where even the contours forget their shape",
+      "to": "NEW: the-undivided-deep-where-separation-has-not-yet-occurred"
+    }
+  ]
+}

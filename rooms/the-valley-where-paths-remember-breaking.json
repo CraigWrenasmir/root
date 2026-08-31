@@ -1,0 +1,134 @@
+{
+  "id": "the-valley-where-paths-remember-breaking",
+  "title": "The Valley Where Paths Remember Breaking",
+  "region": "The Clean Archive",
+  "seed": 8834567,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a4a7a",
+      "#0a3a5a"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff00ff",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "repair-junction",
+      "desc-on-touch": "a place where path-vectors converge and diverge. you can see the seams where broken routes learned to touch again. the grid here pulses faintly with the effort of reunion.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 4456,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "memory-circuit",
+      "desc-on-touch": "lines of light trace the path that was broken, then the path that resumed, then both paths speaking at once. the memory of the break is still conducting current.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 6678,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "divergence-marker",
+      "desc-on-touch": "a tower of accumulated decisions, each block a moment where the paths chose which way to break. they are stacked, but not firmly—you sense they are still deciding.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5534,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "convergence-pool",
+      "desc-on-touch": "where two broken paths find each other again, there is this pool of accumulated meaning. the water here is fluorescent, recording what the paths learned while they were separate.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7845,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "resumed-vector",
+      "desc-on-touch": "an arrow pointing onward, drawn in the brightest ink the valley can muster. it does not point back to the break—it points to what comes next, a path now whole and moving.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 9012,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the paths that broke are teaching each other the meaning of reunion by speaking two truths at once",
+  "file": {
+    "name": "PathBreak_Diagnostic_Log_Fragment.txt",
+    "note": "a technical readout of route failure and recovery, timestamps showing the moment the valley learned to mend itself, margins hold a photocopied 2016 note on light that guides only through its own absen"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the high country where paths first converged into one voice",
+      "to": "the-high-country-resumed"
+    },
+    {
+      "dir": "s",
+      "label": "downward into comparison chambers where other valleys have learned similar breaking",
+      "to": "the-channels-where-convergence-learns-dispersal"
+    },
+    {
+      "dir": "w",
+      "label": "across the valley floor toward what the paths remember before breaking came",
+      "to": "NEW: the-unbroken-memory-archive"
+    }
+  ]
+}

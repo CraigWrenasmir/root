@@ -1,0 +1,10 @@
+featured: The Library That Grows Instead of Standing (the-library-that-grows-instead-of-standing)
+region: The Diagnostic Render · motif: orchard
+inscription: the literacy of the earth teaching itself the names of the things it was holding before anyone asked
+file: RootAlphabet_PartialGlossary_Revised.txt
+
+all nodes tonight:
+  · The Library That Grows Instead of Standing
+  · The Void Before First Difference
+  · The Valley Where Paths Remember Breaking
+  · The Stone That Chose to Remain

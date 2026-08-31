@@ -1,0 +1,133 @@
+{
+  "id": "the-stone-that-chose-to-remain",
+  "title": "The Stone That Chose to Remain",
+  "region": "The Understory",
+  "seed": 3445892,
+  "palette": {
+    "bg": "#0f0f0f",
+    "ground": [
+      "#5a5a52",
+      "#7a7a72"
+    ],
+    "ink": "#d0d0c8",
+    "accents": [
+      "#8a8a82",
+      "#6a6a62",
+      "#9a9a92",
+      "#4a4a42"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "bedrock-choice",
+      "desc-on-touch": "here is the stone that decided not to move. it could have become river-worn, become dust, become earth. it chose instead to know itself completely. you can feel its refusal and its peace.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 2234,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "stasis-pool",
+      "desc-on-touch": "water that has stopped moving, pooled against stone, teaching itself that going nowhere is also a kind of purpose. the stone's reflection here is unchanging.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3345,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "pressure-archive",
+      "desc-on-touch": "layers of time pressed into the stone without sound. each layer is a year, a season, a moment the stone could have moved but chose not to. the pressure is a record of refusal.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4456,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "weight-testimony",
+      "desc-on-touch": "the archive here is pressed into matter itself. words were not needed. the stone speaks through gravity, through the force of its own choosing to rest.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5567,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — touching what does not move",
+    "narr": [
+      "you find katita kneeling beside this stone in the deep",
+      "red country where bedrock answers. she's pressing her palm",
+      "against it, and leif is there too, recording the sound of",
+      "stone that chose not to sing. they're both crying, quietly,",
+      "at the beauty of a thing that stayed put. the earth here",
+      "keeps its arguments inside. you join them, and time stops."
+    ],
+    "sky": "overcast",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "inscription": "the bedrock rests from thinking and discovers that it was never arguing at all",
+  "file": {
+    "name": "Stone_Testimony_Deep_Archive.mp3",
+    "note": "recordings of the deep red earth, the sound of stone not moving, Leif's voice thin and amazed, saying: it chose. it chose to stay."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up through the floors where argument has not yet begun",
+      "to": "the-floor-beneath-the-floor"
+    },
+    {
+      "dir": "n",
+      "label": "toward stone that learned to speak after long refusal",
+      "to": "the-stone-sediment-threshold"
+    },
+    {
+      "dir": "w",
+      "label": "into the deepest red where pressure becomes poetry",
+      "to": "NEW: the-ancient-repose-where-stone-has-always-known-itself"
+    }
+  ]
+}

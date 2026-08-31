@@ -1,0 +1,150 @@
+{
+  "id": "the-library-that-grows-instead-of-standing",
+  "title": "The Library That Grows Instead of Standing",
+  "region": "The Diagnostic Render",
+  "seed": 7482956,
+  "palette": {
+    "bg": "#2d2d1f",
+    "ground": [
+      "#8b7355",
+      "#d4a574"
+    ],
+    "ink": "#f0e68c",
+    "accents": [
+      "#228b22",
+      "#ff8c00",
+      "#daa520",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-shelf",
+      "desc-on-touch": "you brush a shelf that emerges from dark loam, pages still damp with earth. the words here have not yet dried into fixed meaning.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "reading-tree",
+      "desc-on-touch": "a eucalyptus grows through the middle of this space, and you understand that its trunk is a spine—the books grew around it. you can open it to any page.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 8847,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "sprouted-catalogues",
+      "desc-on-touch": "index cards are growing from gaps in the soil, each one alphabetizing something that has not yet been born. you can feel them organizing as you watch.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 1123,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "binding-vines",
+      "desc-on-touch": "vines twist through the space, their tendrils stitching pages together. some bindings are fresh and supple. some are old as roots.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 5544,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "reading-light",
+      "desc-on-touch": "a pale glow pools beneath one tree-hole, where mycorrhizal networks shine faintly. you can read by this light, which is the light of things learning to speak to each other.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 9876,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — sitting with the growing words",
+    "narr": [
+      "you find her sitting among new-sprouted pages, root-bound,",
+      "and she's reading aloud to the soil. the words she speaks",
+      "sink down—they're teaching the earth to alphabetize itself.",
+      "leif is somewhere deeper, recording the sound of meaning",
+      "emerging. you sit beside her, and the binding-vines gently",
+      "catch your sleeve, asking: what do you want to grow here?"
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "the literacy of the earth teaching itself the names of the things it was holding before anyone asked",
+  "file": {
+    "name": "RootAlphabet_PartialGlossary_Revised.txt",
+    "note": "an index of words that grew instead of being catalogued, annotations in handwriting, some entries incomplete as if the writer were waiting for the forest to finish the thought"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the dark where literacy began",
+      "to": "the-literate-root-dark"
+    },
+    {
+      "dir": "n",
+      "label": "upward through branching that leads to light and reading rooms",
+      "to": "NEW: the-canopy-where-pages-become-wind"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into loam, where the oldest unwritten words still sleep",
+      "to": "the-root-where-all-seasons-sleep"
+    }
+  ]
+}
