@@ -1,0 +1,116 @@
+{
+  "id": "the-abyss-where-stone-learns-to-dream",
+  "title": "The Abyss Where Stone Learns to Dream",
+  "region": "The Understory",
+  "seed": 2741956,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a2d",
+      "#2d1a3d"
+    ],
+    "ink": "#ccccee",
+    "accents": [
+      "#4488ff",
+      "#88ccff",
+      "#ff88aa",
+      "#ffdd00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-deepest-stone",
+      "desc-on-touch": "A stone so deep and so old it has learned to dream — the dreams are older than stone, they are what stone dreams of becoming.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 1849562,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-echo-that-learned-depth",
+      "desc-on-touch": "A sound that has fallen so far it has become geology — the abyss listens to itself and the listening changes stone.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 7395048,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-threshold-no-one-crosses",
+      "desc-on-touch": "A boundary between the stone that still remembers being something else and the stone that has given in to dreaming forever.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 4926837,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "in the deepest place, stone forgets it was ever anything but dream",
+  "file": {
+    "name": "Stone_Dream_Velocity_Zero_Depth_Infinite.txt",
+    "note": "A seismic record of a stone too deep to vibrate — frozen in perpetual dream, moving at the speed of geological time, which is the speed of forever waiting."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where the stone remembered its own song",
+      "to": "the-chamber-where-stone-remembers-its-own-song"
+    },
+    {
+      "dir": "w",
+      "label": "westward into depths where dream becomes geology",
+      "to": "NEW: the-stone-that-is-only-dream-now"
+    },
+    {
+      "dir": "n",
+      "label": "upward to lighter stone that still remembers being stone",
+      "to": "the-stone-sediment-threshold"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — deep where the stone stops waking",
+    "narr": [
+      "She had gone deeper than you — past the point where",
+      "radio found purchase, past where roots could follow.",
+      "You felt it when she reached that depth: the stone",
+      "stopped being solid. Became a holding. Became dream",
+      "that had learned to stand still forever. You waited",
+      "above, and the waiting changed you too into stone."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "lie"
+  }
+}

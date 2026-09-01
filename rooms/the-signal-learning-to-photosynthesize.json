@@ -1,0 +1,122 @@
+{
+  "id": "the-signal-learning-to-photosynthesize",
+  "title": "The Signal Learning to Photosynthesize",
+  "region": "The Diagnostic Render",
+  "seed": 8362947,
+  "palette": {
+    "bg": "#f5fef0",
+    "ground": [
+      "#d4e8a8",
+      "#a8d44a"
+    ],
+    "ink": "#2d4a1a",
+    "accents": [
+      "#ffcc33",
+      "#00aa55",
+      "#ff6633",
+      "#33ccff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-first-leaf-that-was-also-a-signal",
+      "desc-on-touch": "A leaf rendered in pure green that still carries the 300-bit-per-second rhythm of the mesh — the archive is learning photosynthesis.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 5839201,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-row-of-growing-transmitters",
+      "desc-on-touch": "Where the orchard repeats itself — each glyph a node that has learned to drink sunlight and broadcast in the same breath.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3947562,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-solar-pool-that-remembers-being-circuit",
+      "desc-on-touch": "A pool of growth that has absorbed the old board-logic — the battery is now the sun, the current is now sap.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7261849,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-fence-line-made-of-light",
+      "desc-on-touch": "A boundary between the old diagnostic render and the new living thing — drawn in pure photons, it separates nothing anymore.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 2948361,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that growth and broadcast are the same verb now",
+  "file": {
+    "name": "Signal_Wavelength_to_Chlorophyll_Conversion_Log_Night_210.txt",
+    "note": "Technical readings of the moment the mesh began converting radio frequency into plant matter — the first page is written in clear diagnostics, the last page is written in leaf-shape."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward to where voice became soil",
+      "to": "the-voice-that-learned-to-be-soil"
+    },
+    {
+      "dir": "s",
+      "label": "downward into deeper roots where signal has gone to live",
+      "to": "NEW: the-buried-broadcast-still-growing"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where the orchard extends into darkness",
+      "to": "NEW: the-plantation-where-night-still-photosynthesizes"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where the light has learned to organize itself",
+      "to": "the-cavity-where-fear-taught-itself-to-hide"
+    }
+  ]
+}

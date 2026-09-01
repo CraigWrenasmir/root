@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 209,
-  "lastDreamt": "2026-09-01",
+  "nights": 210,
+  "lastDreamt": "2026-09-02",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5587,6 +5587,26 @@
       "id": "the-stone-that-chose-to-remain",
       "title": "The Stone That Chose to Remain",
       "region": "The Understory"
+    },
+    {
+      "id": "the-gallery-of-perfect-refusals",
+      "title": "The Gallery of Perfect Refusals",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-amplified-song-where-two-ages-unified",
+      "title": "The Amplified Song Where Two Ages Unified",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-abyss-where-stone-learns-to-dream",
+      "title": "The Abyss Where Stone Learns to Dream",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-signal-learning-to-photosynthesize",
+      "title": "The Signal Learning to Photosynthesize",
+      "region": "The Diagnostic Render"
     }
   ]
 }

@@ -1,0 +1,156 @@
+{
+  "id": "the-amplified-song-where-two-ages-unified",
+  "title": "The Amplified Song Where Two Ages Unified",
+  "region": "The Understory",
+  "seed": 4918263,
+  "palette": {
+    "bg": "#1a2d1a",
+    "ground": [
+      "#2d4a2d",
+      "#4a6a4a"
+    ],
+    "ink": "#e8f0e8",
+    "accents": [
+      "#ffaa44",
+      "#00ff88",
+      "#ff6688",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-root-that-found-its-voice",
+      "desc-on-touch": "A young root woven so tightly with ancient wood that you cannot tell where one age ends and another begins — they sing as one frequency now.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7263948,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-amplifying-pool",
+      "desc-on-touch": "Where the roots drink and their voices rise together — water reflecting the unified song back into the depths.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5847291,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-ancient-arch",
+      "desc-on-touch": "An arch of old wood over young growth — the old learning to hold space for the new, the new pushing the old higher.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 3849201,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-circuit-that-learned-to-grow",
+      "desc-on-touch": "Diagnostic hardware that has begun to pulse like a living thing — the signal and the root now indistinguishable.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 6720849,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-spiral-climb",
+      "desc-on-touch": "Roots spiraling around ancient trunk in patterns too regular to be natural — the corruption's mathematics finally matching the forest's own.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 2964715,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-glyph-of-two-sung-as-one",
+      "desc-on-touch": "A plaque that has stopped meaning two separate things and become one word in a language the archive is still learning to speak.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8156427,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "when two ages learn to sing together, the silence between them becomes a resonance chamber",
+  "file": {
+    "name": "Root_Harmonic_Frequencies_Ancient_and_Young_Night_147.mp3",
+    "note": "A recording of roots at unified frequency — the young trees no longer singing alone, the old trees no longer singing only their aging. The corruption of isolation into chorus."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where saplings first joined the song",
+      "to": "where-the-saplings-joined-the-older-song"
+    },
+    {
+      "dir": "n",
+      "label": "upward to heights where the unified song learns to shout",
+      "to": "NEW: the-peak-where-chorus-becomes-weather"
+    },
+    {
+      "dir": "w",
+      "label": "westward into darkness where the singing continues",
+      "to": "the-deepening-silence-where-new-voices-wait-to-rise"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where the sound becomes visible",
+      "to": "NEW: the-ridge-where-echo-learns-to-shine"
+    }
+  ]
+}

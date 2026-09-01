@@ -1,0 +1,122 @@
+{
+  "id": "the-gallery-of-perfect-refusals",
+  "title": "The Gallery of Perfect Refusals",
+  "region": "The Diagnostic Render",
+  "seed": 7394851,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a1a",
+      "#2d2d2d"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#ff3366",
+      "#00ccff",
+      "#ffcc00",
+      "#aa00ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.4
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-first-refusal",
+      "desc-on-touch": "A shopfront window holding nothing but its own frame — the frame has learned perfection is emptiness.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 482016,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-archive-s-no",
+      "desc-on-touch": "A plaque of unreadable writing that refuses to resolve into meaning — the glyph that has learned not to decode itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 593847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-tower-that-means-nothing",
+      "desc-on-touch": "A tower rendered in perfect diagnostic geometry — so perfect it has stopped being a thing and become only the idea of refusal.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 7184625,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-circuit-that-chooses-silence",
+      "desc-on-touch": "A chip rendered so cleanly it seems to have refused all current — the hardware has learned to say no.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 294756,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "what refuses to continue is never less perfect for its silence",
+  "file": {
+    "name": "Exhibitions_Held_in_Absence_1994-2003.txt",
+    "note": "A catalog of shows that never happened, curated in perfect detail; each listing describes exactly nothing."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through corrupted mastery",
+      "to": "the-perfect-corruption-next-door"
+    },
+    {
+      "dir": "n",
+      "label": "upward to galleries that are only mirrors",
+      "to": "NEW: the-exhibition-where-viewers-refuse-to-appear"
+    },
+    {
+      "dir": "e",
+      "label": "rightward into chambers where refusal has walls",
+      "to": "the-ledge-where-silence-has-walls"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the storage beneath perfect curation",
+      "to": "NEW: the-vault-where-rejected-things-dream"
+    }
+  ]
+}

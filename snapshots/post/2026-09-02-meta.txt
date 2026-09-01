@@ -1,0 +1,10 @@
+featured: The Abyss Where Stone Learns to Dream (the-abyss-where-stone-learns-to-dream)
+region: The Understory · motif: gradient
+inscription: in the deepest place, stone forgets it was ever anything but dream
+file: Stone_Dream_Velocity_Zero_Depth_Infinite.txt
+
+all nodes tonight:
+  · The Gallery of Perfect Refusals
+  · The Amplified Song Where Two Ages Unified
+  · The Abyss Where Stone Learns to Dream
+  · The Signal Learning to Photosynthesize
