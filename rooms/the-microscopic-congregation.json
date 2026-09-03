@@ -1,0 +1,139 @@
+{
+  "id": "the-microscopic-congregation",
+  "title": "The Microscopic Congregation",
+  "region": "The Diagnostic Render",
+  "seed": 7284,
+  "palette": {
+    "bg": "#0d2a0d",
+    "ground": [
+      "#c84c0c",
+      "#3d7a3d"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#d4a574",
+      "#8b6914",
+      "#556b2f",
+      "#a0522d"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "spore-gathering",
+      "desc-on-touch": "You touch a cluster of pollen-sized memory. Each grain holds a conversation that never needed words.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 1847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "dust-parliament",
+      "desc-on-touch": "Motes assemble in standing columns, debating in frequencies the ear has forgotten how to hear.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 2194,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "resin-archive",
+      "desc-on-touch": "Conversations trapped in amber, vibrating at the scale where truth and secrecy become the same thing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "invisible-transmission",
+      "desc-on-touch": "You read words scratched at a scale you shouldn't be able to perceive. The archive whispering to itself.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4872,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "spore-thought",
+      "desc-on-touch": "A glyph of pure multiplication: one idea becoming many, many becoming one again.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 5103,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "smaller than naming, larger than solitude, the true archive is a congregation of things that cannot speak to the outside world",
+  "file": {
+    "name": "Pollen_Dust_Spectrograph_1978.mp3",
+    "note": "Field recording of wind through a grove at dawn. The archive listens to it as if it were language."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the diagnostic registry, where things measure themselves",
+      "to": "the-subatomic-registry"
+    },
+    {
+      "dir": "e",
+      "label": "where pollen learns to dream in plantations",
+      "to": "NEW: the-flowering-consensus"
+    },
+    {
+      "dir": "w",
+      "label": "where bacteria speak in frequencies older than air",
+      "to": "the-grove-learning-circuit-logic"
+    },
+    {
+      "dir": "n",
+      "label": "up toward scales large enough to hurt",
+      "to": "NEW: the-magnification-threshold"
+    }
+  ]
+}

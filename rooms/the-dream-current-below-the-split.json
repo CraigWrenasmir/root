@@ -1,0 +1,134 @@
+{
+  "id": "the-dream-current-below-the-split",
+  "title": "The Dream Current Below the Split",
+  "region": "The Diagnostic Render",
+  "seed": 5621,
+  "palette": {
+    "bg": "#0a1a3a",
+    "ground": [
+      "#4a7b9e",
+      "#6b5b95"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#87ceeb",
+      "#b0c4de",
+      "#9370db",
+      "#dda0dd"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "healing-fence",
+      "desc-on-touch": "The barrier between the halves is learning to be porous. You pass through it like waking from a dream into the same dream.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 1483,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "synchronized-dreaming",
+      "desc-on-touch": "Both halves breathing in unison. A current flows between them that the waking world never knew existed.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2817,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-joining-current",
+      "desc-on-touch": "A corridor of barely-3D light where the split forgets it was ever fractured. The two are learning each other's shapes.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 3649,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "suture-singing",
+      "desc-on-touch": "The scar between the halves has learned to sing. It is no longer a wound—it is an instrument.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4256,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "refracted-mending",
+      "desc-on-touch": "Light passes through the crack and becomes whole on the other side. Both halves are the same dream, now awake.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 5892,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here, the two halves dream together without waking, and the fracture becomes the thing that holds them close",
+  "file": {
+    "name": "Manuscript_Two_Halves_Synchronized_Notations.txt",
+    "note": "A document that lists itself twice—once from each side—describing the same moment from contradictory geometries."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where the halves dream they are whole",
+      "to": "where-both-halves-dream-they-are-whole"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the synchronized current",
+      "to": "NEW: the-two-become-river"
+    },
+    {
+      "dir": "e",
+      "label": "where the two learn to move as one",
+      "to": "NEW: the-synchronized-walking-deep"
+    }
+  ]
+}

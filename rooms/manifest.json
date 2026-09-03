@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 211,
-  "lastDreamt": "2026-09-03",
+  "nights": 212,
+  "lastDreamt": "2026-09-04",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5627,6 +5627,26 @@
       "id": "the-sediment-where-narrative-rests-undisturbed",
       "title": "The Sediment Where Narrative Rests Undisturbed",
       "region": "The Understory"
+    },
+    {
+      "id": "the-microscopic-congregation",
+      "title": "The Microscopic Congregation",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-meta-layer-where-truth-eats-its-own-tail",
+      "title": "The Meta-Layer Where Truth Eats Its Own Tail",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-dream-current-below-the-split",
+      "title": "The Dream Current Below the Split",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-country-that-never-learned-its-name",
+      "title": "The Country That Never Learned Its Name",
+      "region": "The Clean Archive"
     }
   ]
 }
