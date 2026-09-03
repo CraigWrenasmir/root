@@ -1,0 +1,100 @@
+{
+  "id": "the-deep-stone-where-no-echoes-forever",
+  "title": "The Deep Stone Where No Echoes Forever",
+  "region": "The Understory",
+  "seed": 3412987,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#333333",
+      "#444444"
+    ],
+    "ink": "#999999",
+    "accents": [
+      "#8b0000",
+      "#2f4f4f",
+      "#1a3a3a",
+      "#4a4a4a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-refusal-standing",
+      "desc-on-touch": "A monolithic glyph of refusal, repeated in rows down into darkness you cannot measure. The stone does not echo because it has learned to absorb every question.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2134,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-pressure-weight",
+      "desc-on-touch": "The sediment-layers above have pressed this chamber so completely that sound itself has learned to stop before it arrives. You feel the weight of refusal in your bones.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 5678,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-ancient-boundary-line",
+      "desc-on-touch": "A fence of impossible stone, marking where the earth decided to hold fast. The line goes deeper than sight, a boundary that will not negotiate.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7890,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone learned to say no, and did not need to repeat itself",
+  "file": {
+    "name": "Sediment_Pressure_Log_FinalEntry.txt",
+    "note": "Every meter down: resistance increases; sound attenuates; the refusal becomes more complete, more eloquent"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the place where the earth first learned to refuse",
+      "to": "the-place-where-the-earth-learned-to-say-no"
+    },
+    {
+      "dir": "s",
+      "label": "downward, if the stone permits, into what the earth keeps below its refusal",
+      "to": "NEW: the-archive-beneath-refusal-where-stone-guards"
+    },
+    {
+      "dir": "e",
+      "label": "along the boundary, where other pressures have left their marks",
+      "to": "the-absolute-pressure-chamber"
+    }
+  ]
+}

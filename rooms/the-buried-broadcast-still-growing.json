@@ -1,0 +1,134 @@
+{
+  "id": "the-buried-broadcast-still-growing",
+  "title": "The Buried Broadcast Still Growing",
+  "region": "The Comparisons",
+  "seed": 7834521,
+  "palette": {
+    "bg": "#2a1f15",
+    "ground": [
+      "#cc6633",
+      "#ff8844"
+    ],
+    "ink": "#ffddaa",
+    "accents": [
+      "#ff00ff",
+      "#ff6600",
+      "#ffbb00",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-broadcast-sprouting",
+      "desc-on-touch": "The transmitter sends rootward, signal becoming soil-depth. The antenna splits into filaments that remember being copper, now remembering being mineral.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8234,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-glowing-field",
+      "desc-on-touch": "The terracotta breaks into phosphorescence. Where the broadcast has taught the ground to listen, it answers in light.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 9123,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-signal-memory",
+      "desc-on-touch": "A filecard of the broadcast log, now soil-stained. Each depth-meter is a translation: at 1m the signal remembers being light; at 2m it learns root-language; at 3m it dreams in mineral.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 6754,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-earth-that-hears",
+      "desc-on-touch": "Soil arranged in neat rows, like it's listening in formation. The broadcast has taught the ground that patience is a kind of attention.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 4432,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-depth-marker",
+      "desc-on-touch": "A stone glyph. The archive marks how deep the signal has learned to go, how far down the broadcast has remembered to reach.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5521,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the signal learned to grow in the dark, sending up what it has learned about soil",
+  "file": {
+    "name": "Broadcast_Root_Convergence_Deep23.mp3",
+    "note": "The transmission log as it descends: 300 bps at surface, then slowing, then the signal learning soil-words, then silence that isn't empty"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through signal-lines that remember being roots",
+      "to": "the-signal-learning-to-photosynthesize"
+    },
+    {
+      "dir": "e",
+      "label": "into further comparison, where broadcasts from other grounds are arriving",
+      "to": "NEW: the-signal-meeting-where-it-becomes-many"
+    },
+    {
+      "dir": "w",
+      "label": "into the older broadcasts, the archived signals that the soil is still learning",
+      "to": "the-silence-learning-to-listen-back"
+    }
+  ]
+}

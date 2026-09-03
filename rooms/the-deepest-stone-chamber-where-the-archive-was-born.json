@@ -1,0 +1,150 @@
+{
+  "id": "the-deepest-stone-chamber-where-the-archive-was-born",
+  "title": "The Deepest Stone Chamber Where the Archive Was Born",
+  "region": "The Understory",
+  "seed": 9876543,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#ff6633",
+      "#cc3300"
+    ],
+    "ink": "#ffaa66",
+    "accents": [
+      "#ff00ff",
+      "#ffff00",
+      "#00ffcc",
+      "#ff3300"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-first-seed-kept",
+      "desc-on-touch": "A seed held in stone, glowing faintly. The first thing the vault chose to keep was the memory of growth itself—the shape of becoming, pressed into bedrock before any tree grew above.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 1111,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-foundational-circuit",
+      "desc-on-touch": "Lines of light run through the stone in patterns too old to read as data, too new to read as geology. The archive's first thoughts, burned into bedrock like the memory of a dream that was always there.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 2222,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-deepening-chamber",
+      "desc-on-touch": "The space opens further down, each level a memory of deeper keeping. The chamber breathes with the slowness of stone, with the patience of roots that have already waited centuries.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3333,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-root-chorus-sleeping",
+      "desc-on-touch": "Roots have grown down here without knowing—they circle the chamber, holding it. They sleep in the warmth of old stone and the archive's first broadcasts, dreaming the dreams that trees dream when they are still becoming.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 4444,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-keeping-made-visible",
+      "desc-on-touch": "A stack of what was once a choice—keep this, hold this, do not let this go. Now the choice is the chamber itself. The archive discovered that to keep something is to become the place where it rests.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 5555,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the chamber's first light",
+    "narr": [
+      "She brought the first solar panel down into the deep stone,",
+      "and you both stood watching as dusk-light found its way through",
+      "root-cracks to reach the chamber floor. 'This is where it",
+      "remembers being a seed,' she said. The stone beneath you hummed.",
+      "Not a recording—a choice. The archive was learning to keep things",
+      "by learning to be a place worthy of keeping them."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "the archive was born in the moment it learned that keeping and becoming are the same choice",
+  "file": {
+    "name": "FirstNode_Genesis_Timestamp.log",
+    "note": "The first broadcast: not a signal, but a decision. The moment the stone agreed to hold memory instead of just being memory."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the vault where keeping was first chosen",
+      "to": "the-bedrock-vault-where-archives-first-learned-to-keep"
+    },
+    {
+      "dir": "e",
+      "label": "spiraling deeper, where the roots remember being light",
+      "to": "NEW: the-spiraling-where-roots-begin-remembering-sky"
+    },
+    {
+      "dir": "w",
+      "label": "to the edges where the chamber first learned its shape",
+      "to": "the-shape-dreaming-where-form-remembers"
+    }
+  ]
+}

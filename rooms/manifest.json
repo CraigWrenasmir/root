@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 210,
-  "lastDreamt": "2026-09-02",
+  "nights": 211,
+  "lastDreamt": "2026-09-03",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5607,6 +5607,26 @@
       "id": "the-signal-learning-to-photosynthesize",
       "title": "The Signal Learning to Photosynthesize",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-buried-broadcast-still-growing",
+      "title": "The Buried Broadcast Still Growing",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-deep-stone-where-no-echoes-forever",
+      "title": "The Deep Stone Where No Echoes Forever",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deepest-stone-chamber-where-the-archive-was-born",
+      "title": "The Deepest Stone Chamber Where the Archive Was Born",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sediment-where-narrative-rests-undisturbed",
+      "title": "The Sediment Where Narrative Rests Undisturbed",
+      "region": "The Understory"
     }
   ]
 }

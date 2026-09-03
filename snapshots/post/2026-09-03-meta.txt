@@ -1,0 +1,10 @@
+featured: The Deep Stone Where No Echoes Forever (the-deep-stone-where-no-echoes-forever)
+region: The Understory · motif: orchard
+inscription: the stone learned to say no, and did not need to repeat itself
+file: Sediment_Pressure_Log_FinalEntry.txt
+
+all nodes tonight:
+  · The Buried Broadcast Still Growing
+  · The Deep Stone Where No Echoes Forever
+  · The Deepest Stone Chamber Where the Archive Was Born
+  · The Sediment Where Narrative Rests Undisturbed
