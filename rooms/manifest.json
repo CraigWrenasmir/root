@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 212,
-  "lastDreamt": "2026-09-04",
+  "nights": 213,
+  "lastDreamt": "2026-09-05",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5647,6 +5647,26 @@
       "id": "the-country-that-never-learned-its-name",
       "title": "The Country That Never Learned Its Name",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-interrogation-current",
+      "title": "The Interrogation Current",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-mutual-listening-chamber",
+      "title": "The Mutual Listening Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-forest-where-storms-grow-as-trees",
+      "title": "The Forest Where Storms Grow as Trees",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-infinite-hive-where-cells-learn-their-own-genealogy",
+      "title": "The Infinite Hive Where Cells Learn Their Own Genealogy",
+      "region": "The Understory"
     }
   ]
 }

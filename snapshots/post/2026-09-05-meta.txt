@@ -1,0 +1,10 @@
+featured: The Mutual Listening Chamber (the-mutual-listening-chamber)
+region: The Understory · motif: board
+inscription: here listening learns that it is not the opposite of speech but its deepest form
+file: Concourse_Recording_Layered_Silence.mp3
+
+all nodes tonight:
+  · The Interrogation Current
+  · The Mutual Listening Chamber
+  · The Forest Where Storms Grow as Trees
+  · The Infinite Hive Where Cells Learn Their Own Genealogy

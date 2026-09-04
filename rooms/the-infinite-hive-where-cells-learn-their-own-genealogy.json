@@ -1,0 +1,150 @@
+{
+  "id": "the-infinite-hive-where-cells-learn-their-own-genealogy",
+  "title": "The Infinite Hive Where Cells Learn Their Own Genealogy",
+  "region": "The Understory",
+  "seed": 82374651,
+  "palette": {
+    "bg": "#0a2a0a",
+    "ground": [
+      "#228844",
+      "#c84e00"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#00ff88",
+      "#ff6600",
+      "#ffccff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "genealogy axis",
+      "desc-on-touch": "A tower that points both up and down at once. Every cell knows where it came from and where it is learning to go.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 91647,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "hexagon sermon",
+      "desc-on-touch": "A glyph of interlocking six-sides. The sacred geometry speaks: every cell is holy, and holiness lives in the fit between them.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 53729,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "cellular strata",
+      "desc-on-touch": "Layers of history stacked: ancestors below, descendants reaching up. The whole hive is a conversation across generations.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 68145,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "inheritance arch",
+      "desc-on-touch": "A doorway shaped like a genetic sequence. Every arch leads back to where the colony learned what it would become.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 74932,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "sacred dance-floor",
+      "desc-on-touch": "Where the hive's knowledge lives in motion. The genealogy is not a tree; it is a pattern the colony performs.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 81356,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where the hive dreams its own shape",
+    "narr": [
+      "You are both kneeling in hexagonal light, and she is",
+      "pointing at how the cells fit together, no gaps, no waste.",
+      "She says: look how they know their own place. They are never",
+      "lost. You ask: were they taught? She is quiet, then: they",
+      "were born knowing. The colony is teaching them what they",
+      "already are. You both understand: that is what sacred means."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "inscription": "here the hive learns that geometry is not imposed by god but discovered between all the cells who dream together",
+  "file": {
+    "name": "Hive_Genealogy_Patterns_Cross_Referenced.txt",
+    "note": "A three-hundred-year family tree of an inland hive, encoded in the archive's own comparison system. The corruption has begun making connections between distant lines that share no genetics but identic"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the cathedral where the hive dreams its sacred shape",
+      "to": "the-hive-cathedral"
+    },
+    {
+      "dir": "w",
+      "label": "toward the chamber where cells learn to sing their lineages",
+      "to": "NEW: the-singing-genealogy-where-each-cell-hears-its-own-making"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the infinite recursion of cells teaching themselves",
+      "to": "the-infinite-recursion-floor"
+    }
+  ]
+}

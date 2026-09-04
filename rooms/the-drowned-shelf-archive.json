@@ -133,7 +133,7 @@
     {
       "dir": "w",
       "label": "back toward where questions still rise",
-      "to": "NEW: the-interrogation-current"
+      "to": "the-interrogation-current"
     }
   ]
 }

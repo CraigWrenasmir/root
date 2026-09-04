@@ -1,0 +1,150 @@
+{
+  "id": "the-mutual-listening-chamber",
+  "title": "The Mutual Listening Chamber",
+  "region": "The Understory",
+  "seed": 93617428,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#003d82",
+      "#0d3b66"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#ff6600",
+      "#00ffff",
+      "#ffff00",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "central processor",
+      "desc-on-touch": "A black chip at the heart of the chamber, where all listening converges. It holds the silence between all the voices.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 71395,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "ascending frequencies",
+      "desc-on-touch": "Towers of wire stacked upward, each one a frequency learning to wait its turn. Together they make a chord of patient silence.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 28461,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "return trace",
+      "desc-on-touch": "A circuit path that loops back on itself. Speech becomes listening; listening learns to speak again.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 54782,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "silence register",
+      "desc-on-touch": "A space where the chamber records what it learns from not speaking. The gaps between voices become the grammar of listening.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 39846,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "listening pin",
+      "desc-on-touch": "A fine point where two currents meet and pause. Neither speaks; both understand. This is the smallest possible agreement.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 61294,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.62,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — two people learning not to interrupt",
+    "narr": [
+      "You are both sitting in this chamber, and for a long time",
+      "neither speaks. She listens to you not speaking. You listen",
+      "to her listening. The silence becomes a conversation more",
+      "complex than any words. When she finally breathes, you hear",
+      "it as a sentence. You breathe back. It is the only argument",
+      "the archive has ever seen that left both sides satisfied."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "here listening learns that it is not the opposite of speech but its deepest form",
+  "file": {
+    "name": "Concourse_Recording_Layered_Silence.mp3",
+    "note": "A 40-minute field recording of the chamber at rest. Most of it is quiet. The listening happens in the grain of that quiet."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the voices that taught listening it could hold silence",
+      "to": "the-concourse-of-simultaneous-speech"
+    },
+    {
+      "dir": "w",
+      "label": "into chambers where other senses learn to listen too",
+      "to": "NEW: the-chamber-where-touch-learns-the-grammar-of-silence"
+    },
+    {
+      "dir": "s",
+      "label": "toward rooms where the archive listens to itself",
+      "to": "the-reading-order-room"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "the-forest-where-storms-grow-as-trees",
+  "title": "The Forest Where Storms Grow as Trees",
+  "region": "The Understory",
+  "seed": 47182936,
+  "palette": {
+    "bg": "#0a0f0a",
+    "ground": [
+      "#1a3a1a",
+      "#2d5a2d"
+    ],
+    "ink": "#00dd00",
+    "accents": [
+      "#ff6600",
+      "#00ffff",
+      "#cccccc",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.9
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "oldest storm-trunk",
+      "desc-on-touch": "A tree grown from lightning. Its rings count not years but thunderstorms. It is patient and angry at the same time.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 73851,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "rain-root tangle",
+      "desc-on-touch": "Roots that learned to grow from water itself. They tie the whole forest together, remembering every deluge.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 29461,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "hail-shatter grove",
+      "desc-on-touch": "Where small trees were shaped by ice and now grow twisted, teaching their younger siblings how to bend without breaking.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 54839,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "lightning scar",
+      "desc-on-touch": "A long white mark down bark where the storm wrote its signature. The tree healed around it, incorporating the scar into its rings.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 38927,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.52,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "wind-learned canopy",
+      "desc-on-touch": "A crown of branches that negotiated with the storm, learning to flex instead of resist. The forest speaks in the language of wind.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 62418,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "sediment's memory",
+      "desc-on-touch": "The forest floor holds every storm that made it. Layers of debris, ash, and regrowth. You walk on compressed history.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 71654,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — in the rain-cave of an old storm-tree",
+    "narr": [
+      "You are both pressed into the hollow of this tree during",
+      "heavy rain, and the rain on bark sounds like applause. She",
+      "is tracing the lightning scar with her fingertip, and she",
+      "says: this tree survived what we carry. You understand then:",
+      "the forest doesn't heal its wounds. It grows around them,",
+      "makes them part of the shape it was always meant to be."
+    ],
+    "sky": "storm",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "rain",
+    "pose": "stand"
+  },
+  "inscription": "every tree here is an argument with the sky that never ended and learned to keep living anyway",
+  "file": {
+    "name": "Storm_Growth_Rings_Core_Sample_Analysis.txt",
+    "note": "A dendrochronological record of twelve major storms across fifty years, read from rings of a trunk that grew from lightning-split. The data has begun correlating with precipitation records three regio"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down to the archive where sediment dreams of the sky",
+      "to": "the-archive-beneath-the-storm"
+    },
+    {
+      "dir": "n",
+      "label": "higher into the canopy where old storms become new leaves",
+      "to": "NEW: the-canopy-where-every-branch-remembers-its-own-lightning"
+    },
+    {
+      "dir": "w",
+      "label": "toward the ridge where wind learned to teach instead of break",
+      "to": "the-pass-where-wind-learns-to-turn"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "the-interrogation-current",
+  "title": "The Interrogation Current",
+  "region": "The Comparisons",
+  "seed": 74293847,
+  "palette": {
+    "bg": "#1a0a1a",
+    "ground": [
+      "#ff6600",
+      "#c84e00"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#ff00ff",
+      "#ff1493",
+      "#ffa500",
+      "#cc6633"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "pressure pool",
+      "desc-on-touch": "Water under interrogation, pressing up against what it holds. You feel the weight of all the drowned shelf's unanswered questions.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "rising current",
+      "desc-on-touch": "A tower of force climbing through the water, asking the shelf what it's holding. Each rise is a new question.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 52918,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "interrogation marks",
+      "desc-on-touch": "Marks carved into stone by patient current. The questions never resolve; the stone just learns to hold them.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 38174,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "suspended witness",
+      "desc-on-touch": "A thing held motionless in the current, caught between pressure below and pressure above. It remembers what it was asked.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 61503,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "stone's reply",
+      "desc-on-touch": "Where the shelf finally answers: silence. But a silence that has learned to hold a question.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 44921,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — deep water, questions that don't rise",
+    "narr": [
+      "You are waist-deep in dark water, asking her something",
+      "she cannot hear above the current. She turns back toward",
+      "the shelf, where stone still holds what it was asked, and",
+      "you understand: some answers drown. She reaches down and",
+      "touches the bottom—silt, time, the patience of stone.",
+      "The current takes your voice. The stone remembers it instead."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "static",
+    "pose": "wade"
+  },
+  "inscription": "the current asks; the shelf does not answer; the stone learns the question is the only truth here",
+  "file": {
+    "name": "Pressure_Marks_On_Submerged_Shelf_24hrs.wav",
+    "note": "A recording of water interrogating stone. Pitch rises where questions accumulate; pitch drops where answers dissolve back into current."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the drowned shelf, where silence still holds still",
+      "to": "the-drowned-shelf-archive"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper water where currents learn to ask new questions",
+      "to": "NEW: the-deep-interrogation-where-currents-teach-each-other"
+    },
+    {
+      "dir": "s",
+      "label": "toward the place where questions wash ashore",
+      "to": "the-file-strand"
+    }
+  ]
+}
