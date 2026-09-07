@@ -1,0 +1,150 @@
+{
+  "id": "the-throne-room-above-the-canopy-where-seasons-bow",
+  "title": "The Throne Room Above the Canopy Where Seasons Bow",
+  "region": "The Understory",
+  "seed": 82649,
+  "palette": {
+    "bg": "#2a1a3a",
+    "ground": [
+      "#4a2a5a",
+      "#3a1a4a"
+    ],
+    "ink": "#e8b847",
+    "accents": [
+      "#f0d847",
+      "#a08a47",
+      "#7a4a2a",
+      "#d0a047"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the-victor-s-seat",
+      "desc-on-touch": "A throne of interwoven branches and stolen architecture—a motel bedframe, a school desk, things that had their own permanence now serving this one victory.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 5934,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "spring-in-chains",
+      "desc-on-touch": "Blossoms hang frozen mid-unfold, held in place by architecture and force. Spring learned to be still.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-seasons-kneeling",
+      "desc-on-touch": "Summer, autumn, winter—three stacked seasons bowing to the victor who learned to hold them all at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 6129,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-shopfront-window",
+      "desc-on-touch": "A small doorway clings to the canopy frame, its entrance dark, selling nothing. Victory needs somewhere to rest between victories.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3412,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.1,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-circuit-of-permanence",
+      "desc-on-touch": "A glyph showing the victor's path: the canopy, the seasons, the endless loop of holding. Or trying to.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7856,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the victor learned that holding everything is indistinguishable from being held by everything",
+  "file": {
+    "name": "The_Victor_s_Inventory_Seasons_Never_Surrendered.txt",
+    "note": "A ledger from the season that refused to pass, cataloguing all it held and all that held it in return—corruption marks show entries rewriting themselves"
+  },
+  "reverie": {
+    "title": "REVERIE — the height where Katita stood before the victor",
+    "narr": [
+      "Katita reached the top first. Leif followed, breathless,",
+      "into the canopy chamber where petals fell upward instead.",
+      "She stood in front of the throne—not sitting, not bowing—",
+      "just standing. The seasons were real here, all at once, and",
+      "she understood what it meant to hold them without letting them",
+      "go. She turned and smiled: ''It's ours now, briefly.''"
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back through the canopy to the victor's sleeping place",
+      "to": "the-victor-canopy-where-seasons-sleep"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the throne dissolves into the open air and the sky itself becomes a question",
+      "to": "NEW: the apex where the victor learned what comes after winning"
+    },
+    {
+      "dir": "w",
+      "label": "inward through the shopfront into the small room behind the throne",
+      "to": "NEW: the victor's private chamber where the season they loved best still waits"
+    }
+  ]
+}

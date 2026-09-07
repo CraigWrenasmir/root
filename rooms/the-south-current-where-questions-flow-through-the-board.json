@@ -1,0 +1,100 @@
+{
+  "id": "the-south-current-where-questions-flow-through-the-board",
+  "title": "The South Current Where Questions Flow Through the Board",
+  "region": "The Understory",
+  "seed": 23891,
+  "palette": {
+    "bg": "#e8f4f1",
+    "ground": [
+      "#c5e3df",
+      "#d8eff2"
+    ],
+    "ink": "#4a7a7d",
+    "accents": [
+      "#2a5a5d",
+      "#6a9a9d",
+      "#5a7a9d",
+      "#8a6a5d"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.15
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-asking-current",
+      "desc-on-touch": "South: where all questions flow. You cannot hold one; they drift down through the board like water remembering its river.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-unmoored-compass",
+      "desc-on-touch": "A glyph spinning slowly, its needle pointing south and not south and south again. The teacher's lesson still echoes here.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 7834,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-board-itself",
+      "desc-on-touch": "A flat surface, barely visible, that questions pass through like light. You can almost see its edges.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 1923,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "south is not a direction; south is a question that learned to flow",
+  "file": {
+    "name": "Compass_Drift_Records_1987_Incomplete.txt",
+    "note": "A surveyor's notes where each direction was noted as both answer and question; corruption may have made them honest"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back northward to the compass that learned to teach",
+      "to": "the-compass-as-teacher"
+    },
+    {
+      "dir": "s",
+      "label": "south, following the current of all questions toward where answers might dissolve",
+      "to": "NEW: the mouth of questions where the board meets the open deep"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the current splits and each branch asks differently",
+      "to": "NEW: the tributary of separate asking"
+    }
+  ]
+}

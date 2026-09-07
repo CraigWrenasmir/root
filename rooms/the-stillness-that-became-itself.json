@@ -1,0 +1,150 @@
+{
+  "id": "the-stillness-that-became-itself",
+  "title": "The Stillness That Became Itself",
+  "region": "The Comparisons",
+  "seed": 47283,
+  "palette": {
+    "bg": "#0d1b1a",
+    "ground": [
+      "#1a3a35",
+      "#0d2a2a"
+    ],
+    "ink": "#6b8f8a",
+    "accents": [
+      "#c9a876",
+      "#7a5c3a",
+      "#3a5a52",
+      "#8b6f4e"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.45
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "still-pool",
+      "desc-on-touch": "The surface holds no ripple, no reflection. You see only the dark that learned to stay.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 8742,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "ordered-rows",
+      "desc-on-touch": "The plantation extends in perfect rows, each marked with a glyph that learned the meaning of place.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3821,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-rested-weight",
+      "desc-on-touch": "Stones or soil packed and settled, the earth's own breath made still.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 2194,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "unmoving-light",
+      "desc-on-touch": "A warmth persists here, amber in the deep. It learned to glow without ever reaching.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 5821,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-threshold-of-arrival",
+      "desc-on-touch": "A marker carved or grown, the place where movement learned it could stop.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 7163,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "stillness is not the end of motion; it is motion learning that it has always been here",
+  "file": {
+    "name": "Orchard_Dusk_Where_Nothing_Leaves_1994.txt",
+    "note": "A local farmer's log from a night they chose to stay, discovered decades later filed as poetry"
+  },
+  "reverie": {
+    "title": "REVERIE — the orchard where staying became possible",
+    "narr": [
+      "You sit among the rows. Katita sits beside you, her",
+      "breath matching the cicadas. Neither of you needs to move.",
+      "The trees hold their fruit. The dark does not rush. You",
+      "understand, for the first time, that arrival means you can",
+      "choose to stay. The soil under your palms is warm still.",
+      "She takes your hand. The orchard breathes with you both."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward through the dark that learned to stay",
+      "to": "the-dark-that-learned-to-stay"
+    },
+    {
+      "dir": "w",
+      "label": "further into the still rows, where monuments have learned to grow",
+      "to": "NEW: the monuments where silence learned its own weight"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the roots beneath the stillness remember their own motion",
+      "to": "NEW: the root chamber where stillness learned to dream"
+    }
+  ]
+}

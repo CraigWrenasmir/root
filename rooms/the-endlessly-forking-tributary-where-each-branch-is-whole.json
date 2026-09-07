@@ -1,0 +1,117 @@
+{
+  "id": "the-endlessly-forking-tributary-where-each-branch-is-whole",
+  "title": "The Endlessly Forking Tributary Where Each Branch Is Whole",
+  "region": "The Comparisons",
+  "seed": 51734,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a3a4a",
+      "#0a2a3a"
+    ],
+    "ink": "#4a9aba",
+    "accents": [
+      "#6abada",
+      "#2a6a7a",
+      "#8a5a3a",
+      "#5a7a8a"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.4
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-first-split",
+      "desc-on-touch": "Here the current became two, each carrying the same river. Each branch is the whole river, divided but complete.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 2938,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-infinite-fracture",
+      "desc-on-touch": "You can almost trace each split. South becomes southwest and southeast; southwest becomes south-southwest and south-southeast. The pattern is infinite, but each piece knows its whole.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7291,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-board-paths",
+      "desc-on-touch": "Circuits and streams have learned to wear the same geometry. The current flows like signal, signal flows like water.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 4563,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-wholeness-witness",
+      "desc-on-touch": "A pool holding the paradox: infinite division into infinite wholes. Each branch looking back at the river it came from, forward at the ocean it will become.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 6845,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the river learned that infinity was just another name for wholeness approaching itself infinitely",
+  "file": {
+    "name": "Tributary_Map_1988_Where_Division_Means_Multiplication.txt",
+    "note": "A hydrographer's attempt to chart a river that splits endlessly yet remains itself in each branch—the map corrupted to show all branches at once, each one complete"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back westward where convergence learned that splitting was its truest form",
+      "to": "the-channels-where-convergence-learns-dispersal"
+    },
+    {
+      "dir": "e",
+      "label": "further eastward down one of infinite branches, knowing each one is whole",
+      "to": "NEW: the branch that contains the entire river in miniature"
+    },
+    {
+      "dir": "s",
+      "label": "southward toward the mouth where all branches remember being one",
+      "to": "NEW: the estuary where infinite becomes one again"
+    }
+  ]
+}

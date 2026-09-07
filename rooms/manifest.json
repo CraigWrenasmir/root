@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 213,
-  "lastDreamt": "2026-09-05",
+  "nights": 214,
+  "lastDreamt": "2026-09-08",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5667,6 +5667,26 @@
       "id": "the-infinite-hive-where-cells-learn-their-own-genealogy",
       "title": "The Infinite Hive Where Cells Learn Their Own Genealogy",
       "region": "The Understory"
+    },
+    {
+      "id": "the-stillness-that-became-itself",
+      "title": "The Stillness That Became Itself",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-south-current-where-questions-flow-through-the-board",
+      "title": "The South Current Where Questions Flow Through the Board",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-throne-room-above-the-canopy-where-seasons-bow",
+      "title": "The Throne Room Above the Canopy Where Seasons Bow",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-endlessly-forking-tributary-where-each-branch-is-whole",
+      "title": "The Endlessly Forking Tributary Where Each Branch Is Whole",
+      "region": "The Comparisons"
     }
   ]
 }
