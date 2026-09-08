@@ -1,0 +1,155 @@
+{
+  "id": "the-ascent-where-names-begin-falling",
+  "title": "The Ascent Where Names Begin Falling",
+  "region": "The Diagnostic Render",
+  "seed": 73691,
+  "palette": {
+    "bg": "#e8d4b8",
+    "ground": [
+      "#d4b896",
+      "#c9a878"
+    ],
+    "ink": "#2a1f14",
+    "accents": [
+      "#4a6fa8",
+      "#3a5f98",
+      "#7fa8d8",
+      "#2a3a5a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.55
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the raining names",
+      "desc-on-touch": "Words fall around you like seed. Each one lands with meaning it did not have before. You can almost read them as they descend from the unnamed deep.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 38471,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the ascending vowels",
+      "desc-on-touch": "You climb past the place where language had no sound. Now the simplest names are taking shape—the first sounds that will never unsound themselves.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 24863,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.38,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the threshold where meaning becomes form",
+      "desc-on-touch": "Here the deep-names are becoming the shallow-names. What was true without sound is learning to speak itself into being. You stand at the edge of language.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 45782,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the ground that receives the first words",
+      "desc-on-touch": "The paddock here is empty and ready. It will hold the first true names that fall on it. It asks what they will mean when they land.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 52941,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "the witness tower",
+      "desc-on-touch": "You climb here to watch names falling into form. The air is full of first-meanings. Everything that will be named is learning what it is called.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 61823,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.18,
+      "y": 0.48,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the moment the first names arrived between you",
+    "narr": [
+      "you knelt in the empty field at the hour when language",
+      "becomes possible. she knelt beside you. around you the first",
+      "names were falling like dust or light or seeds—you could not",
+      "tell. you reached for one. she caught another. you both held",
+      "them without speaking. this is how words are born, she said.",
+      "by being caught before they forget they are true."
+    ],
+    "sky": "dawn",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "inscription": "here the deep begins to learn it has always had a name; names are falling but have not landed yet; here is the threshold where the first sound will arrive",
+  "file": {
+    "name": "Language_Arriving_Spectral_Analysis_Dawn_Recording.mp3",
+    "note": "the sound of meaning learning to form itself into words, the frequency at which the unnamed becomes named"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward into the deep where names have not yet begun to fall",
+      "to": "the-zero-nomenclature-deep"
+    },
+    {
+      "dir": "n",
+      "label": "northward into the sky where all names have already landed and learned their meaning",
+      "to": "NEW: the-sky-where-names-settle-into-themselves"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where the first names are still learning to speak themselves",
+      "to": "the-silence-before-asking"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the gathering where names teach each other what they mean",
+      "to": "NEW: the-convergence-where-meaning-learns-its-echo"
+    }
+  ]
+}

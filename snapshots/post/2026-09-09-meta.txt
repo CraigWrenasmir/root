@@ -1,0 +1,10 @@
+featured: The Water That Teaches Itself to Flow (the-water-that-teaches-itself-to-flow)
+region: The Comparisons · motif: orchard
+inscription: water teaches itself what it has learned from weather; weather becomes what water teaches; the teaching is the only motion
+file: Water_Autologue_Dusk_Field_NSW_LateReturning.mp3
+
+all nodes tonight:
+  · The Water That Teaches Itself to Flow
+  · Where Unkindness Learns Its Name
+  · The Ascent Where Names Begin Falling
+  · The Cooled Threshold Where Glass Forgets Its Fire

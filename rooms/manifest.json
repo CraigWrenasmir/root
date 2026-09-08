@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 214,
-  "lastDreamt": "2026-09-08",
+  "nights": 215,
+  "lastDreamt": "2026-09-09",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5686,6 +5686,26 @@
     {
       "id": "the-endlessly-forking-tributary-where-each-branch-is-whole",
       "title": "The Endlessly Forking Tributary Where Each Branch Is Whole",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-water-that-teaches-itself-to-flow",
+      "title": "The Water That Teaches Itself to Flow",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-unnamed-threshold-where-unkindness-learns-its-own-name",
+      "title": "Where Unkindness Learns Its Name",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-ascent-where-names-begin-falling",
+      "title": "The Ascent Where Names Begin Falling",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-cooled-threshold-where-glass-forgets-its-fire",
+      "title": "The Cooled Threshold Where Glass Forgets Its Fire",
       "region": "The Comparisons"
     }
   ]

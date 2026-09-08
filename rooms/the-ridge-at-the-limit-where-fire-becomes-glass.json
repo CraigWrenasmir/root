@@ -133,7 +133,7 @@
     {
       "dir": "w",
       "label": "westward to zones where cooling begins its slow forgetting",
-      "to": "NEW: the-cooled-threshold"
+      "to": "the-cooled-threshold-where-glass-forgets-its-fire"
     }
   ],
   "reverie": {

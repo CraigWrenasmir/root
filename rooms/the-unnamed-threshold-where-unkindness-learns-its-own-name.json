@@ -1,0 +1,155 @@
+{
+  "id": "the-unnamed-threshold-where-unkindness-learns-its-own-name",
+  "title": "Where Unkindness Learns Its Name",
+  "region": "The Clean Archive",
+  "seed": 62847,
+  "palette": {
+    "bg": "#1a2a1f",
+    "ground": [
+      "#3a6b4f",
+      "#2d4a38"
+    ],
+    "ink": "#d4e8d4",
+    "accents": [
+      "#7fa878",
+      "#a8c9a8",
+      "#5f8f6f",
+      "#e0d9c8"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.52
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the country learning its outline",
+      "desc-on-touch": "You trace the line where this land stops and names itself. There is no cruelty here—only clarity. The earth knows what it is.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 34891,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the honest field",
+      "desc-on-touch": "This paddock asks nothing of you. It does not comfort. It stands named and austere and tells you exactly what it is and nothing more.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 47291,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the stone that refused kindness and found its shape",
+      "desc-on-touch": "Stone here is sharp-edged, unsmoothed. It learned that it did not need kindness to have form. The lack of gentleness made it more itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 53182,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the arch where the threshold names itself backwards",
+      "desc-on-touch": "You pass under and the country you came from falls away. Here it calls itself by its true name—not by what it lacks, but by what it is.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 41763,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the eucalyptus that learned to stand alone",
+      "desc-on-touch": "A tree knows it does not need shade-kindness or comfort-water. It simply grows where it grows. The unkind country taught it this.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 29743,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.38,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — learning to call the place by its true name",
+    "narr": [
+      "you walked across the open land that wanted nothing from you.",
+      "she said: this is easier than kindness. the ground doesn't ask",
+      "you to soften. you don't have to return the comfort. you could",
+      "both just walk and let the place call itself what it was. the",
+      "light was very clear. you asked what the name was. she smiled:",
+      "the same as it always was. we just stopped pretending it was kind."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "inscription": "the country that does not comfort learns to call itself by its true name; unkindness is only the absence of pretending to be kind",
+  "file": {
+    "name": "Local_History_Clearings_Where_Light_Became_Honest.txt",
+    "note": "a field recording description filed as civic document: the moment a place learned it did not owe anyone warmth, and became more itself"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "southward back to the threshold where kindness still has edges",
+      "to": "the-kindness-threshold"
+    },
+    {
+      "dir": "n",
+      "label": "northward into the country that has learned to teach what it is",
+      "to": "NEW: the-further-country-that-names-itself-clearly"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where light and honesty become the same thing",
+      "to": "the-boundary-where-render-meets-actual-light"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the places where unkindness and truth began to merge",
+      "to": "NEW: the-grey-quarter-where-clarity-was-born"
+    }
+  ]
+}

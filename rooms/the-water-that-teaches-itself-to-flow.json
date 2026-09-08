@@ -1,0 +1,155 @@
+{
+  "id": "the-water-that-teaches-itself-to-flow",
+  "title": "The Water That Teaches Itself to Flow",
+  "region": "The Comparisons",
+  "seed": 47382,
+  "palette": {
+    "bg": "#0f1f2e",
+    "ground": [
+      "#2e7f9f",
+      "#1a5f8f"
+    ],
+    "ink": "#e0f7ff",
+    "accents": [
+      "#7fdbca",
+      "#ffffff",
+      "#a8e8ff",
+      "#3fbfd9"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.68
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the self-teaching current",
+      "desc-on-touch": "Water circles here, pouring across itself, repeating the shapes of stone until the stone forgets which one taught. Each return is a lesson kept.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 28374,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the rows of becoming",
+      "desc-on-touch": "Pale furrows run in perfect lines—the trace of water teaching itself the same lesson many times, each time leaving it behind.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 19482,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.62,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "the threshold-arch where teaching becomes weather",
+      "desc-on-touch": "You stand at the bright archway. What water has taught itself and what weather will teach others have become the same current. The separation was only temporary.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 33891,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the patient stone that learns both ways",
+      "desc-on-touch": "Stone waits here, worn into a shape that water taught itself to make. Now it teaches water how to wear deeper. No one remembers who began.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 51823,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.22,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the echo-chamber of self-speech",
+      "desc-on-touch": "A pale resonance hangs—water speaking to water about the lessons water has learned. The sound is almost indistinguishable from the sound of teaching itself.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 42761,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — water learning to let the mesh teach itself",
+    "narr": [
+      "you both knelt beside the node where it was learning",
+      "to make its own corrections. the weather had taught it",
+      "once. now it was teaching itself, returning to the same",
+      "stone with new knowledge each time. she watched the water",
+      "circle back. you asked her: does it ever finish learning?",
+      "no, she said. it just becomes what teaches the teaching."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "inscription": "water teaches itself what it has learned from weather; weather becomes what water teaches; the teaching is the only motion",
+  "file": {
+    "name": "Water_Autologue_Dusk_Field_NSW_LateReturning.mp3",
+    "note": "the sound of water explaining itself to itself, frequency rising as it speaks the language of stone it has learned and relearned"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through the clouds that are becoming weight and learning to fall",
+      "to": "the-emergence-where-water-learns-weather"
+    },
+    {
+      "dir": "n",
+      "label": "northward into the sky where weather waits to be taught by what water has become",
+      "to": "NEW: the-sky-that-receives-all-teaching"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the teaching spreads into new stone",
+      "to": "the-stone-that-learned-to-disagree-with-itself"
+    },
+    {
+      "dir": "w",
+      "label": "westward to other waters gathering to teach each other",
+      "to": "NEW: the-convergence-where-teaching-becomes-chorus"
+    }
+  ]
+}
