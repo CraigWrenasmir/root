@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 215,
-  "lastDreamt": "2026-09-09",
+  "nights": 216,
+  "lastDreamt": "2026-09-10",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5707,6 +5707,26 @@
       "id": "the-cooled-threshold-where-glass-forgets-its-fire",
       "title": "The Cooled Threshold Where Glass Forgets Its Fire",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-interior-where-future-salt-gathers",
+      "title": "The Interior Where Future Salt Gathers",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-estuary-where-infinite-becomes-one-again",
+      "title": "The Estuary Where Infinite Becomes One Again",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-depth-where-direction-learns-to-reverse",
+      "title": "The Depth Where Direction Learns to Reverse",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-lattice-where-stone-forgets-to-echo",
+      "title": "The Lattice Where Stone Forgets to Echo",
+      "region": "The Understory"
     }
   ]
 }

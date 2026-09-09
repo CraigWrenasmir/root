@@ -1,0 +1,10 @@
+featured: The Lattice Where Stone Forgets to Echo (the-lattice-where-stone-forgets-to-echo)
+region: The Understory · motif: orchard
+inscription: the stone has learned that echo is a type of loneliness, and it is choosing quiet
+file: CrystallineFrequency_Silent_Log.txt
+
+all nodes tonight:
+  · The Interior Where Future Salt Gathers
+  · The Estuary Where Infinite Becomes One Again
+  · The Depth Where Direction Learns to Reverse
+  · The Lattice Where Stone Forgets to Echo

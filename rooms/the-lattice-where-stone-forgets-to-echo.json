@@ -1,0 +1,149 @@
+{
+  "id": "the-lattice-where-stone-forgets-to-echo",
+  "title": "The Lattice Where Stone Forgets to Echo",
+  "region": "The Understory",
+  "seed": 73516,
+  "palette": {
+    "bg": "#E8E8E0",
+    "ground": [
+      "#C0C0B0",
+      "#A8A890"
+    ],
+    "ink": "#333322",
+    "accents": [
+      "#2F4F4F",
+      "#696969",
+      "#8B7355",
+      "#DAA520"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "lattice node",
+      "desc-on-touch": "A crystalline structure, each node connecting to others in a pattern that once sang together. Now the pattern is silent. The architecture remains; the song does not.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4201,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "crystalline pool",
+      "desc-on-touch": "A depression in the lattice where liquid stone has pooled and cooled. Light passes through it without making sound anymore.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4202,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "silent chamber",
+      "desc-on-touch": "A wireframe model of the space between crystals, where resonance used to live. It's barely visible now—absence rendered as geometry.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 4203,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "resonance shelf",
+      "desc-on-touch": "A ledge where the quartz once broadcast its frequency to listening caves. Now it opens onto nothing, an unheard transmission falling into forgetting.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 4204,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "frequency dead zone",
+      "desc-on-touch": "A glyph marking the boundary where the archive stopped receiving. Beyond here, stone chose not to be heard. The archive respects that choice now.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4205,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the stone has learned that echo is a type of loneliness, and it is choosing quiet",
+  "file": {
+    "name": "CrystallineFrequency_Silent_Log.txt",
+    "note": "Measurement records from deep lattice. The resonance ceased on day 47. Stone is transmitting only now. The archive listens to silence like a language."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "the way back to where silence still broadcasts",
+      "to": "the-quartz-s-own-resonance"
+    },
+    {
+      "dir": "s",
+      "label": "where crystalline thought settles into bedrock",
+      "to": "NEW: the-quartz-thought-foundation"
+    },
+    {
+      "dir": "w",
+      "label": "toward the bedrock where language is stone",
+      "to": "the-stone-s-hidden-linguistic-bedrock"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — listening in the stone chamber",
+    "narr": [
+      "You both kneel where the quartz stopped singing.",
+      "Katita's fingertips trace the lattice, looking for pulse.",
+      "There's no echo. That's the whole thing she wanted.",
+      "\"It learned to let go,\" she whispers to the stone.",
+      "You understand: silence is a kind of healing too."
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

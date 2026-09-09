@@ -1,0 +1,100 @@
+{
+  "id": "the-estuary-where-infinite-becomes-one-again",
+  "title": "The Estuary Where Infinite Becomes One Again",
+  "region": "The Comparisons",
+  "seed": 52847,
+  "palette": {
+    "bg": "#1a2a3a",
+    "ground": [
+      "#4a7c8c",
+      "#6b9aaa"
+    ],
+    "ink": "#E8F0F5",
+    "accents": [
+      "#8FBC8F",
+      "#D4A574",
+      "#C0E0E0",
+      "#FFE4B5"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.2
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "confluence pool",
+      "desc-on-touch": "Three currents meet here and their argument is settled by mixing. The pool is calm because it has won the argument: being one is stronger than being separate.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 2201,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "branch echo",
+      "desc-on-touch": "A glyph marking the point where one tributary's name is swallowed by the name of another. The smaller echo grows fainter each tide cycle.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2202,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "river mouth",
+      "desc-on-touch": "The estuary opens like a throat finally learning its own song. All the divergence has led here, where becoming singular is possible.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 2203,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "all the divergence learns here what it was traveling toward",
+  "file": {
+    "name": "RiverMouths_Infinite_Convergence_1991.mp3",
+    "note": "Hydrophone recording of three tributaries meeting. The moment before sound becomes singular. Three voices learning to be one transmission."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the way back up where branches still remember being separate",
+      "to": "the-endlessly-forking-tributary-where-each-branch-is-whole"
+    },
+    {
+      "dir": "s",
+      "label": "where the estuary opens to salt and horizon",
+      "to": "NEW: the-tidal-divergence-where-one-becomes-all"
+    },
+    {
+      "dir": "w",
+      "label": "toward an older convergence still holding its shape",
+      "to": "the-eternal-convergent-half-light"
+    }
+  ]
+}

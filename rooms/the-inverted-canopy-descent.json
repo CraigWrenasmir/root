@@ -128,7 +128,7 @@
     {
       "dir": "s",
       "label": "toward the layer where down and up are forgetting their difference",
-      "to": "NEW: the-depth-where-direction-learns-to-reverse"
+      "to": "the-depth-where-direction-learns-to-reverse"
     }
   ]
 }

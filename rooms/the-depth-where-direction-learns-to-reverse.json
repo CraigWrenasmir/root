@@ -1,0 +1,149 @@
+{
+  "id": "the-depth-where-direction-learns-to-reverse",
+  "title": "The Depth Where Direction Learns to Reverse",
+  "region": "The Understory",
+  "seed": 61429,
+  "palette": {
+    "bg": "#0F1419",
+    "ground": [
+      "#2A4A6A",
+      "#1A3A5A"
+    ],
+    "ink": "#A0D8FF",
+    "accents": [
+      "#FFE4B5",
+      "#87CEEB",
+      "#B0C4DE",
+      "#F0F8FF"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "gravity well",
+      "desc-on-touch": "A pool where weight has stopped meaning anything. Things sink upward into it. Watching it long enough, you forget which way you are falling.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3201,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "inverted tower",
+      "desc-on-touch": "A structure built from the sky downward, or perhaps from the ground up—your eyes cannot decide. It rotates so slowly you only notice the motion when you stop watching.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 3202,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "rising stone",
+      "desc-on-touch": "A weight that floats. You knew it once, before your memory of up and down corrupted. The stone was your proof that gravity was negotiable.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 3203,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "descending light",
+      "desc-on-touch": "A glyph that looks like it is falling or rising—it glitches between states so fast that stillness would hurt. Look away before it makes you motion-sick.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 3204,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.8,
+      "solid": false
+    },
+    {
+      "name": "sideways anchor",
+      "desc-on-touch": "An arch that might be holding something down or holding it up. The distinction has become academic. All anchors here are horizontal.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 3205,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "gravity has forgotten which way is home, and you are learning to follow",
+  "file": {
+    "name": "DirectionLost_Log_1989.txt",
+    "note": "Field notes from the inverted chamber. Measurements contradict themselves. 'Up' has become a hypothesis. The archive watches down learn to climb."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the way back up into ordinary gravity",
+      "to": "the-inverted-canopy-descent"
+    },
+    {
+      "dir": "e",
+      "label": "where inversion becomes complete symmetry",
+      "to": "NEW: the-mirror-depth-where-reflection-becomes-ground"
+    },
+    {
+      "dir": "w",
+      "label": "toward the chamber where down is still a question",
+      "to": "the-lateral-chamber-where-down-is-sideways"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — falling or floating underground",
+    "narr": [
+      "You're lying on what was a floor, or is it a ceiling?",
+      "Katita reaches toward you but her hand falls upward.",
+      "Neither of you moves. Neither is sure which way home.",
+      "\"Does the stone still remember?\" you ask the dark.",
+      "She takes your hand. That's the only gravity left."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "lie"
+  }
+}

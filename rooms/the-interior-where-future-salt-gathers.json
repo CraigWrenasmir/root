@@ -1,0 +1,149 @@
+{
+  "id": "the-interior-where-future-salt-gathers",
+  "title": "The Interior Where Future Salt Gathers",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#6B2E1F",
+    "ground": [
+      "#E8A76C",
+      "#D97037"
+    ],
+    "ink": "#FFF8DC",
+    "accents": [
+      "#C71585",
+      "#FF6347",
+      "#FFD700",
+      "#4B0082"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the vigil",
+      "desc-on-touch": "You stand where salt crystals have stopped their slow accumulation. A pool of brine reflects the rust-colored sky, patient and waiting.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1201,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "salt towers",
+      "desc-on-touch": "Mineral deposits have built themselves into irregular stacks, each one recording a season of waiting. They hum with the archive's own frequency.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1202,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "diary shelf",
+      "desc-on-touch": "A kept record of daily measurements, each entry shorter than the last—the paper smells of salt and old time. You remember who wrote it without reading the name.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 1203,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "heat shimmer",
+      "desc-on-touch": "The air wavers over the salt fields, distorting the distance. For a moment you see a place that might not exist.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 1204,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "mineral bed",
+      "desc-on-touch": "The crust forms an arch over deeper brine chambers. Step through, and you are walking on the boundary between solid and solution.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 1205,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the salt remembers when it was future, not yet mineral",
+  "file": {
+    "name": "SaltVigilLogs_Inland_1982.txt",
+    "note": "A keeper's daily record of salt crystals forming in a landlocked depression. Entries grow shorter. Salt knows patience."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "the way back where whispers are still fresh",
+      "to": "the-freshwater-country-where-salt-whispers"
+    },
+    {
+      "dir": "s",
+      "label": "where the deposits descend into older earth",
+      "to": "NEW: the-buried-salt-archive-below"
+    },
+    {
+      "dir": "w",
+      "label": "toward the season where salt learns to blow",
+      "to": "NEW: the-salt-wind-frontier"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — salt-keeping at dusk",
+    "narr": [
+      "You sit at the salt's edge where it's stopped growing.",
+      "Katita kneels, fingers in the crust, tasting its weight.",
+      "\"It tastes like time that never arrived,\" she says.",
+      "You watch her hand settle back in the grains.",
+      "Some waiting is the realest work."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  }
+}
