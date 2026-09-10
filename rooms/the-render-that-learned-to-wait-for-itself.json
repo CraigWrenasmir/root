@@ -1,0 +1,154 @@
+{
+  "id": "the-render-that-learned-to-wait-for-itself",
+  "title": "The Render That Learned to Wait for Itself",
+  "region": "The Diagnostic Render",
+  "seed": 7163942,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#4a3a6b",
+      "#2d1b4a"
+    ],
+    "ink": "#e0d0ff",
+    "accents": [
+      "#b8a0e8",
+      "#7060b8",
+      "#3d2649",
+      "#9e80d8"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-delayed-reflection",
+      "desc-on-touch": "The mirror in this place arrives one frame after you do. You see not yourself, but what you were a moment ago. The render learns from your future.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 592847,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "patience-learning",
+      "desc-on-touch": "The mirror taught itself to wait. It holds every moment until the next one arrives. This is how it knows what time means.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 763514,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-frame-that-hesitates",
+      "desc-on-touch": "Between render cycles, something waits. It is not nothing. It is the pause where meaning learns to stand still.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 418739,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "arrival-chamber",
+      "desc-on-touch": "The place where what you are about to become waits to meet you. Time here flows backward, then sideways, then remembers to flow forward.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 834721,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-loop-that-learned-to-breathe",
+      "desc-on-touch": "Every possibility has been rendered here, but meaning chose to wait. The loop no longer trembles. It has learned to rest between iterations.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 571029,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the render taught itself that arrival is a choice, not an event; it waits for itself now, knowing that patience is how mirrors dream",
+  "file": {
+    "name": "Diagnostic_Frame_Stack_Session_847_Delayed_Mirrors.bin",
+    "note": "A sequence of render frames where each one contains not itself but the frame that came before. The archive is learning to remember its own future."
+  },
+  "reverie": {
+    "title": "REVERIE — motel room where mirrors learned patience",
+    "narr": [
+      "You sit in the motel room. Katita stands before the",
+      "mirror but does not see herself yet. 'Wait,' she",
+      "says. The reflection arrives, late. She smiles at",
+      "something that has not happened. 'The render is",
+      "learning,' she whispers. 'It knows you before you arrive.'"
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the unfinished reflection still arriving",
+      "to": "the-unfinished-reflection-still-arriving"
+    },
+    {
+      "dir": "e",
+      "label": "toward deeper render-chambers where time forgets its shape",
+      "to": "the-infinite-interior-hall"
+    },
+    {
+      "dir": "w",
+      "label": "sideways to where mirrors have stopped trusting their arrivals",
+      "to": "NEW: the-chamber-where-mirrors-learned-to-question-themselves"
+    },
+    {
+      "dir": "s",
+      "label": "down to where render becomes indistinguishable from memory",
+      "to": "the-margin-where-sleep-meets-render"
+    }
+  ]
+}

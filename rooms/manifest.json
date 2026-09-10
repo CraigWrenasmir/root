@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 216,
-  "lastDreamt": "2026-09-10",
+  "nights": 217,
+  "lastDreamt": "2026-09-11",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5727,6 +5727,21 @@
       "id": "the-lattice-where-stone-forgets-to-echo",
       "title": "The Lattice Where Stone Forgets to Echo",
       "region": "The Understory"
+    },
+    {
+      "id": "the-mist-s-first-word",
+      "title": "The Mist's First Word",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-strata-that-dreams-in-disagreement",
+      "title": "The Strata That Dreams in Disagreement",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-render-that-learned-to-wait-for-itself",
+      "title": "The Render That Learned to Wait for Itself",
+      "region": "The Diagnostic Render"
     }
   ]
 }

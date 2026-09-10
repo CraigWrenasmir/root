@@ -1,0 +1,154 @@
+{
+  "id": "the-strata-that-dreams-in-disagreement",
+  "title": "The Strata That Dreams in Disagreement",
+  "region": "The Understory",
+  "seed": 5738291,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#6b4c8a",
+      "#3d2649"
+    ],
+    "ink": "#f0e5ff",
+    "accents": [
+      "#d4a5ff",
+      "#9e6fb8",
+      "#4a3a6b",
+      "#2d1b4a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "argument-in-stone",
+      "desc-on-touch": "Two layers of bedrock pressing against each other, each convinced it contains the truth. The friction between them has worn a polished edge.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 384719,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "thought-layer",
+      "desc-on-touch": "This stratum thinks only in crystals and minerals. It disagrees with the thought-layer above it on everything that matters.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 627841,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-seam",
+      "desc-on-touch": "Where disagreement became geological. The line where two arguments decided to remain side-by-side forever, neither winning, both true.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 751923,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "echo-of-older-arguing",
+      "desc-on-touch": "These layers have been disagreeing so long they have forgotten what they were arguing about. The argument is the only truth left.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 489372,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-unresolved-pressure",
+      "desc-on-touch": "The weight of the sky pressing down on two thoughts that will never reconcile. This pressure has been rising for millions of years.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 834567,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the strata dream in parallel — each layer sleeping a different truth, and none of them wake at the same time; this is how the earth stays young",
+  "file": {
+    "name": "Competing_Geological_Surveys_1920s_1950s_Marked.pdf",
+    "note": "Overlaid geological surveys from two different decades and teams. They describe the same rock face entirely differently. Both surveyors are dead."
+  },
+  "reverie": {
+    "title": "REVERIE — red earth argues with itself at dusk",
+    "narr": [
+      "You sit on the outcrop. Katita traces the seam with",
+      "one finger. 'They're both right,' she says. 'The stone",
+      "knows this. It keeps them separate so they can both be",
+      "true.' You understand suddenly: she is not talking",
+      "about geology. The stone does not need to choose."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the contested strata where arguments age into bedrock",
+      "to": "the-contested-strata"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where younger stone has not yet learned to disagree",
+      "to": "the-stone-sediment-threshold"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into stone that has forgotten it was ever young",
+      "to": "NEW: the-ancient-argument-chamber-where-pressure-learned-patience"
+    },
+    {
+      "dir": "s",
+      "label": "down to where bedrock still speaks to itself in the old languages",
+      "to": "the-archival-bedrock"
+    }
+  ]
+}

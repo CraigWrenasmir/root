@@ -1,0 +1,154 @@
+{
+  "id": "the-mist-s-first-word",
+  "title": "The Mist's First Word",
+  "region": "The Understory",
+  "seed": 4872103,
+  "palette": {
+    "bg": "#e8dcc8",
+    "ground": [
+      "#b8956e",
+      "#e0c9b8"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#6ba3d4",
+      "#a8d8f0",
+      "#d4a574",
+      "#7a9bb5"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "first-syllable",
+      "desc-on-touch": "The mist speaks one sound and then stops, uncertain if it has the right to continue. You hear only the beginning of a name.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 384729,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "dawn-edge",
+      "desc-on-touch": "The line where dark air meets light. The mist gathers here to watch itself become visible.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 591246,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "breath-pool",
+      "desc-on-touch": "Where the mist hesitates before rising. The air here is thick enough to touch; it trembles with the weight of becoming.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 743815,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "slow-lifting",
+      "desc-on-touch": "Mist rises here at the pace of forgetting — no faster than a held breath becomes memory.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 827463,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "edge-of-knowing",
+      "desc-on-touch": "The mist stops here, confused about whether it is rising or being risen into. It touches this threshold and forgets which way is up.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 309472,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the mist speaks once and means many things at the same time; on this threshold it learns that naming and rising are the same motion",
+  "file": {
+    "name": "Dawn_Mist_Over_Cataract_Valley_1988_Recording.mp3",
+    "note": "Field recording of dawn mist; the microphone captures what sounds like whispered syllables before the air warms"
+  },
+  "reverie": {
+    "title": "REVERIE — rising water, names learned in mist",
+    "narr": [
+      "You stand at the dam's edge. The mist has not yet",
+      "remembered it is water. Katita stands beside you,",
+      "watching it speak. She says: 'Things know their names",
+      "only once, before they become themselves.' The mist",
+      "rises. You could be watching it begin or end."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down to where the pool remembers falling",
+      "to": "the-upper-pool-where-rain-remembers-rising"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where mist becomes invisible",
+      "to": "NEW: the-air-s-own-forgetting"
+    },
+    {
+      "dir": "e",
+      "label": "into the canopy where mist learns to hold things",
+      "to": "the-gathered-canopy-deep"
+    },
+    {
+      "dir": "s",
+      "label": "down to where mist condenses into memory",
+      "to": "NEW: the-gathering-threshold-where-water-learns-to-hold-still"
+    }
+  ]
+}
