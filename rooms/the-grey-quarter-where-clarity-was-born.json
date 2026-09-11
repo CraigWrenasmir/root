@@ -1,0 +1,150 @@
+{
+  "id": "the-grey-quarter-where-clarity-was-born",
+  "title": "The Grey Quarter Where Clarity Was Born",
+  "region": "The Clean Archive",
+  "seed": 5839201,
+  "palette": {
+    "bg": "#a9a9a9",
+    "ground": [
+      "#7a7a7a",
+      "#5a5a5a"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#e6e6e6",
+      "#4a4a7a",
+      "#cc6600",
+      "#336633"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the honest corner",
+      "desc-on-touch": "Where someone stood and did not soften the thing they saw. The light here casts no shadows, and clarity arrived.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2847391,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the unkindness archive",
+      "desc-on-touch": "Where you find the records of what the country refused to comfort. The clarity is harsh, but it is true.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 7392841,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the speaking ground",
+      "desc-on-touch": "Grey stones worn smooth by ungentle words that needed to be said. The country learned its own voice here.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the refusal",
+      "desc-on-touch": "A marker where comfort was refused and clarity was born instead. The boundary between what the country could not be and what it chose to become.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the grey light",
+      "desc-on-touch": "Neither dawn nor dusk: a light that shows all edges without flattery. Here unkindness learned to speak its own true name.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 9283947,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "unkindness is the country speaking to itself without pretense; clarity is what arrives when kindness stops lying",
+  "file": {
+    "name": "Grey_Quarter_Testimony_Unedited.txt",
+    "note": "Records of what was said here without modification. The country naming itself for the first time, harsh and awake."
+  },
+  "reverie": {
+    "title": "REVERIE — standing in the grey quarter where she named it",
+    "narr": [
+      "you stand where she stopped, looking at the same road.",
+      "\"unkindness isn't the problem,\" she said that day.",
+      "\"it's pretending we're kind when we're not. the",
+      "country refuses to lie here. that's the clarity.\"",
+      "you understand then: this place is where truth lives",
+      "not because it's gentle, but because it's honest."
+    ],
+    "sky": "day",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward toward the threshold where names learned themselves",
+      "to": "the-unnamed-threshold-where-unkindness-learns-its-own-name"
+    },
+    {
+      "dir": "n",
+      "label": "northward where clarity teaches others to speak",
+      "to": "NEW: the-clearing-where-each-thing-learned-to-speak-its-true-weight"
+    },
+    {
+      "dir": "s",
+      "label": "southward toward the archives that keep hard truths",
+      "to": "the-shadow-archive-catalogue"
+    }
+  ]
+}

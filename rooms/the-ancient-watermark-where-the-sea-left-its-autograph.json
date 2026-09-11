@@ -1,0 +1,150 @@
+{
+  "id": "the-ancient-watermark-where-the-sea-left-its-autograph",
+  "title": "The Ancient Watermark Where the Sea Left Its Autograph",
+  "region": "The Clean Archive",
+  "seed": 8934721,
+  "palette": {
+    "bg": "#0a3a4a",
+    "ground": [
+      "#1a5a6a",
+      "#2a4a5a"
+    ],
+    "ink": "#e8d4a0",
+    "accents": [
+      "#ff6633",
+      "#ffaa66",
+      "#339966",
+      "#66aacc"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the salt archive",
+      "desc-on-touch": "A crystalline chip that holds the ocean's memory. Where the sea wrote itself into stone, and the stone refused to forget.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 2847391,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the ancient signature",
+      "desc-on-touch": "Where the sea autographed the land. Salt crystals form the letters of a water-speech the stone still reads.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 7392841,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the evaporating station",
+      "desc-on-touch": "Where seawater learned that rising into mist is how an ocean stays. A trace of the sea's own choosing to remain.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the waterline memory",
+      "desc-on-touch": "A circuit trace that marks where the water reached. The ocean's own measuring of how high it climbed and how long it stayed.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the rim where staying began",
+      "desc-on-touch": "The edge of the board where the sea learned it could stay by not leaving at all, only by changing form.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5647283,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the sea wrote itself in salt and learned that crystalline memory is another kind of staying",
+  "file": {
+    "name": "Watermark_Study_Salt_Signature_Geological.txt",
+    "note": "Scientific notation of the ancient shoreline, but written in the hand of someone who understood the sea was leaving a letter for the land to keep."
+  },
+  "reverie": {
+    "title": "REVERIE — wading where the ancient water still reaches",
+    "narr": [
+      "you wade in salt-bright shallows where she kneels,",
+      "collecting crystals from where the old sea wrote itself.",
+      "\"it didn't leave,\" she says. \"look: it crystallized.",
+      "it learned to stay by becoming something else.\"",
+      "the salt catches light. you see her face as she",
+      "understands: evaporation is not loss. it is staying."
+    ],
+    "sky": "dawn",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "northward back toward the inland shrine",
+      "to": "the-inland-salt-shrine-where-the-sea-learned-to-stay"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where salt becomes speech",
+      "to": "NEW: the-salt-voice-where-the-evaporated-ocean-learns-to-sing"
+    },
+    {
+      "dir": "w",
+      "label": "westward toward the deeper levels where memory crystallizes",
+      "to": "where-the-numbers-wash-into-salt"
+    }
+  ]
+}

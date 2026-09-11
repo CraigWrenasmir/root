@@ -1,0 +1,150 @@
+{
+  "id": "the-spring-that-keeps-all-its-versions",
+  "title": "The Spring That Keeps All Its Versions",
+  "region": "The Clean Archive",
+  "seed": 7284910,
+  "palette": {
+    "bg": "#e8d4a0",
+    "ground": [
+      "#c9b080",
+      "#8b7355"
+    ],
+    "ink": "#2c2c1c",
+    "accents": [
+      "#3366cc",
+      "#006644",
+      "#cc6600",
+      "#996633"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the spring's first voice",
+      "desc-on-touch": "Where the water still speaks in the name it was given before anything else. The sound is clean and has not yet learned to change.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2847391,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the keeping ground",
+      "desc-on-touch": "Where all the versions of the spring rest beside each other, each with a different name, all from the same source.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 9283947,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the water's memory",
+      "desc-on-touch": "This spring remembers being called river-mouth water, creek-source water, drought-refuge water, childhood-drink water. Each name is still true here.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the archive stone",
+      "desc-on-touch": "A stone at the spring's edge, worn smooth by the touch of everyone who came to remember. Names are scratched into it, all the same water, all different.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3847291,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the unbranching",
+      "desc-on-touch": "Where the spring learns to hold more than one current at once, each version flowing back toward its own source moment.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 5647283,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the spring knows all its names at once and does not choose between them",
+  "file": {
+    "name": "Spring_Registry_All_Versions_Kept.mp3",
+    "note": "A field recording made at three different seasons: each time the spring sounds different, yet each version is the same source speaking."
+  },
+  "reverie": {
+    "title": "REVERIE — kneeling at the spring where all names meet",
+    "narr": [
+      "you kneel at the spring's edge where she taught you",
+      "to listen: each name the water has ever held at once.",
+      "she doesn't speak. her hand rests in the cold flow.",
+      "the spring speaks in every voice it's ever borrowed.",
+      "\"it's not keeping versions,\" she finally says. \"it's",
+      "refusing to forget any way it has ever been loved.\""
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "downriver, back toward the river's memory",
+      "to": "the-river-memory-ascent"
+    },
+    {
+      "dir": "n",
+      "label": "upland toward the first source-spring's own source",
+      "to": "NEW: the-spring-before-naming-where-water-was-still-learning-to-flow"
+    },
+    {
+      "dir": "s",
+      "label": "toward the collecting pools where versions converge",
+      "to": "the-confluence-where-forgotten-words-converge"
+    }
+  ]
+}

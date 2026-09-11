@@ -1,0 +1,150 @@
+{
+  "id": "the-circuit-where-pressure-dreams-in-current",
+  "title": "The Circuit Where Pressure Dreams in Current",
+  "region": "The Understory",
+  "seed": 4739201,
+  "palette": {
+    "bg": "#001840",
+    "ground": [
+      "#0055ff",
+      "#002277"
+    ],
+    "ink": "#00ddff",
+    "accents": [
+      "#00ff99",
+      "#ff00ff",
+      "#ffff00",
+      "#00aaff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the softening node",
+      "desc-on-touch": "A grid intersection where pressure learned to release. Current flows soft here, bending around gentle angles.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 2847391,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the apprentice's trace",
+      "desc-on-touch": "Where the apprentice sat watching the grid learn its own mercy. The blueprint remembers the shift.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 7392841,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the current's own path",
+      "desc-on-touch": "Where current teaches itself to dissolve force. Watch how it moves without pushing back.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1928374,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the pressure gauge",
+      "desc-on-touch": "A dial set into the grid, its needle still. Pressure learned that not rising is also a kind of reading.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3847291,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the dreaming trace",
+      "desc-on-touch": "Grid lines that curve where they should angle, carrying current that whispers. What the grid dreams when pressure is not watching.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 9283947,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "current and pressure are the same force until one learns to listen",
+  "file": {
+    "name": "Apprentice_Log_847_Grid_Softening.txt",
+    "note": "Daily observations where the apprentice first noted that force without gentleness is only noise. The handwriting grows softer in each entry."
+  },
+  "reverie": {
+    "title": "REVERIE — the apprentice and the current, learning each othe",
+    "narr": [
+      "you sit in the dark of the shed where the grid lives,",
+      "her fingers tracing lines on the blueprint, soft and slow.",
+      "\"force is pressure that hasn't learned to breathe,\" she says.",
+      "the current moves; at her touch, the grid begins to yield.",
+      "you see the moment she knew: softening is not weakness.",
+      "it is pressure that has heard itself spoken back kindly."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the master's deepening pressure",
+      "to": "the-pressure-s-deepest-apprentice"
+    },
+    {
+      "dir": "n",
+      "label": "upward where current learns to question itself",
+      "to": "NEW: the-voice-in-the-grid-that-wonders-why"
+    },
+    {
+      "dir": "w",
+      "label": "westward toward the softer geometries",
+      "to": "the-unweaving-deep-where-knots-remember-being-thread"
+    }
+  ]
+}
