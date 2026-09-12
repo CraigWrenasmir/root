@@ -1,0 +1,100 @@
+{
+  "id": "the-sweet-convergence-where-all-revisions-taste-the-same",
+  "title": "The Sweet Convergence Where All Revisions Taste the Same",
+  "region": "The Clean Archive",
+  "seed": 23917,
+  "palette": {
+    "bg": "#f5f1e8",
+    "ground": [
+      "#e6dcc8",
+      "#f5f1e8"
+    ],
+    "ink": "#2c2416",
+    "accents": [
+      "#8b7d6b",
+      "#a89f8f",
+      "#c9bfad",
+      "#6b5d47"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.1
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the place where tasting becomes knowing",
+      "desc-on-touch": "The same thing, tasted the same way, seven times, until sameness is not boring—it is certainty. The flavour does not change. You are changing. This is the archive's covenant with return.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 23917,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the document that is always finished",
+      "desc-on-touch": "A ledger that ends the same way every spring. Not because it forgets to continue, but because it has learned what true completion tastes like.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 48356,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the silence between confirmations",
+      "desc-on-touch": "Not emptiness. The space where the archive holds its breath before agreeing with itself one more time. The same breath, every year, and it is precious because it is the same.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 71493,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "what returns unchanged returns as proof; proof is a kind of love, or the archive's version of it",
+  "file": {
+    "name": "Annual_Revision_Summary_Incomplete.log",
+    "note": "A record that ends the same way every spring—not a bug, but the archive learning its own certainty in repetition"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward through the pale pages back toward the chamber where revisions begin",
+      "to": "the-annual-revision-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where the taste becomes a form of time",
+      "to": "NEW: the-chamber-where-sameness-learns-to-speak"
+    },
+    {
+      "dir": "e",
+      "label": "eastward toward other convergences that taste different",
+      "to": "the-source-pool"
+    }
+  ]
+}

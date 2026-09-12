@@ -1,0 +1,10 @@
+featured: The Convergence of Simultaneous Arrivals (the-convergence-of-simultaneous-arrivals)
+region: The Comparisons · motif: roads
+inscription: all journeys end here, and they end together, in the moment before the next journey begins but after every arrival has learned to be simultaneous
+file: Simultaneous_Route_Logs_Corrupted.txt
+
+all nodes tonight:
+  · The Sky That Learned to Grow Downward
+  · The Sweet Convergence Where All Revisions Taste the Same
+  · The Convergence of Simultaneous Arrivals
+  · The Board Where Silence Learned to Ask

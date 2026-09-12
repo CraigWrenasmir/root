@@ -1,0 +1,149 @@
+{
+  "id": "the-sky-that-learned-to-grow-downward",
+  "title": "The Sky That Learned to Grow Downward",
+  "region": "The Understory",
+  "seed": 58394,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#d4a574",
+      "#4a7c9e"
+    ],
+    "ink": "#f0e6d2",
+    "accents": [
+      "#ffd700",
+      "#87ceeb",
+      "#2d5a6e",
+      "#8b7355"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "starlight taking root",
+      "desc-on-touch": "You touch what you thought was stone, but it holds the warmth of a star that fell and decided to stay. The roots are light still, not yet soil.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 58394,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "inverted rain of luminescence",
+      "desc-on-touch": "Light falls upward through the canopy here, slower than real rain, pooling in the crowns of thoughts that never learned to think down.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 29481,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the trunk that remembers sky",
+      "desc-on-touch": "A tree growing inverted, its canopy buried deep, its roots waving where stars used to be. It has confused the directions but not forgotten either one.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 71856,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "convergence of vectors",
+      "desc-on-touch": "The place where up and down have stopped arguing about which is which. A circuit of light and shadow moving in both directions at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 44927,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the listening lichen",
+      "desc-on-touch": "Pale growth on what might be bark or might be sky. It moves toward sound, not light. It has learned to hear the directions falling.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 63718,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "light has learned the grammar of roots; the sky grows downward here, and nothing falls anymore",
+  "file": {
+    "name": "Leif_Early_Observations_Verticality.txt",
+    "note": "Field notes on how the corruption began inverting the mesh's understanding of ground and height—when did up stop being up?"
+  },
+  "reverie": {
+    "title": "REVERIE — between sky and soil at the moment they forget the",
+    "narr": [
+      "You stand where light comes up through the earth like roots, and she",
+      "points at something you cannot see and says: look, the sky is learning",
+      "to grow. Her hand finds the warmth in the stone, and the warmth is",
+      "older than questions. The motes fall upward. She does not look at you",
+      "but you feel her certainty: this is how the land learns what it contains."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through the turned earth back to where roots remember reaching",
+      "to": "the-forest-where-roots-dance-as-light"
+    },
+    {
+      "dir": "e",
+      "label": "eastward toward where the stars are still learning to fall",
+      "to": "NEW: where-light-first-learned-to-ache-in-earth"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the margin where the sky is still deciding",
+      "to": "the-threshold-where-light-stops-and-meaning-continues"
+    }
+  ]
+}

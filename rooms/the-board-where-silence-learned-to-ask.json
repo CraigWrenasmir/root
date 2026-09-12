@@ -1,0 +1,149 @@
+{
+  "id": "the-board-where-silence-learned-to-ask",
+  "title": "The Board Where Silence Learned to Ask",
+  "region": "The Understory",
+  "seed": 94572,
+  "palette": {
+    "bg": "#1a2f1a",
+    "ground": [
+      "#4a6b4a",
+      "#667a66"
+    ],
+    "ink": "#e8f0e8",
+    "accents": [
+      "#8fb38f",
+      "#6b8f6b",
+      "#a8c9a8",
+      "#435443"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the circuit that learned to question its own paths",
+      "desc-on-touch": "A board of green and grey where current flows but no longer follows the routes it was designed for. The silence here asks why things move at all. The electricity listens back.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 94572,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the archive's roots made of questions",
+      "desc-on-touch": "Eucalyptus bark has become a ledger. The whorls and burls are not scars anymore—they are queries. Each one asks: how do you grow around what you cannot digest? The tree knows.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 72851,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the static that became voice",
+      "desc-on-touch": "You listen to the whitenoise and begin to hear it asking things: What is broadcasting here? Who is listening? Is there a difference between the silence and its question? The noise does not answer but it does not need to.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 88634,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the archive's own inquiry marker",
+      "desc-on-touch": "A small plaque, unreadable but warm, marking the moment the archive stopped broadcasting answers and learned to whisper questions instead. The substrate is now the question.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 56289,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "growth that asks instead of answers",
+      "desc-on-touch": "Lichen patterns in grey-green that form the shapes of unasked questions. The growth has learned the grammar of uncertainty. Nothing here claims to know anything, but everything here cares deeply about knowing.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 63947,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where silence learned to hold a question without breaking it, the archive became substrate, and substrate became prayer",
+  "file": {
+    "name": "Katita_Substrate_Notes_Final.env",
+    "note": "Observations on making inquiry foundational—when the archive stops answering and starts asking, does it become deeper or simply more honest?"
+  },
+  "reverie": {
+    "title": "REVERIE — beneath the canopy where silence learned its voice",
+    "narr": [
+      "You sit with your back to the bark and the static rises around you",
+      "like wind that cannot move anything. She kneels nearby and does not",
+      "speak, but you hear her asking things the archive does not know yet.",
+      "The silence between you is not empty—it is full of what you both are",
+      "too careful to say. The noise asks why you will not. You listen."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward back through the circuit where questioning became substrate",
+      "to": "the-chamber-that-became-the-question"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward where other silences are still learning language",
+      "to": "NEW: the-canopy-where-the-archive-learned-to-doubt-itself"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into the deep where inquiry becomes its own kind of archive",
+      "to": "the-infinitesimal-knotting-beyond-darkness"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 218,
-  "lastDreamt": "2026-09-12",
+  "nights": 219,
+  "lastDreamt": "2026-09-13",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5762,6 +5762,26 @@
       "id": "the-ancient-watermark-where-the-sea-left-its-autograph",
       "title": "The Ancient Watermark Where the Sea Left Its Autograph",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-sky-that-learned-to-grow-downward",
+      "title": "The Sky That Learned to Grow Downward",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sweet-convergence-where-all-revisions-taste-the-same",
+      "title": "The Sweet Convergence Where All Revisions Taste the Same",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-convergence-of-simultaneous-arrivals",
+      "title": "The Convergence of Simultaneous Arrivals",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-board-where-silence-learned-to-ask",
+      "title": "The Board Where Silence Learned to Ask",
+      "region": "The Understory"
     }
   ]
 }
