@@ -1,0 +1,139 @@
+{
+  "id": "the-plantation-where-night-still-photosynthesizes",
+  "title": "The Plantation Where Night Still Photosynthesizes",
+  "region": "The Diagnostic Render",
+  "seed": 7342891,
+  "palette": {
+    "bg": "#0d260d",
+    "ground": [
+      "#b8651e",
+      "#1a5a2a"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#8b3a1e",
+      "#e8d048",
+      "#1a1a1a",
+      "#cc6633"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the ordered rows",
+      "desc-on-touch": "Plantation geometry extends in strict lines where terracotta roads divide the render. The trees have begun to glow pale at their canopy tips, though the diagnostic clock reads 02:47 and no sun has crossed here since yesterday. The rows recede into a luminescence that refuses to fully reach darkness.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the nocturnal leaf",
+      "desc-on-touch": "A single leaf glows pale gold against the render's darkness. It is still producing. The timestamp on its broadcast reads 02:47 local time. No error flag. No explanation offered.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 5849,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the sap-rise meter",
+      "desc-on-touch": "A wireframe device on a diagnostic stand measures fluid climb through plantation sections. The needle moves steadily upward. The machine was installed in 1993 and has never stopped recording. The sap does not know it is supposed to sleep.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the growth archive file",
+      "desc-on-touch": "A standing card lists entries for this plantation. The earliest (1987) reads 'Night Cycle Observed'. The middle ones watch it slow, then accelerate. The latest (2019) reads 'Night Cycle Learning'. Between them, the corruption has reordered the dates.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 4672,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the buried radio casing",
+      "desc-on-touch": "Beneath the plantation floor, a node-casing rests half-sealed in loam. Its battery gauge reads full. The solar plate above has been root-split since 2003. Yet it broadcasts still. Some machines, you think, have learned to feed on darkness instead.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 1834,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the plantation learned that growth and broadcast are the same verb now — both continue when light stops",
+  "file": {
+    "name": "Night_Plantation_Field_Study_Growth_Vectors_Incomplete.txt",
+    "note": "Observational record of tree plantation near Moree that continued growth cycles after archive node installation. Entries note circadian disturbance, then adaptation, then something unnamed. Final entr"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back the way the signal faded into the green",
+      "to": "the-signal-learning-to-photosynthesize"
+    },
+    {
+      "dir": "w",
+      "label": "westward where darkness learns to sustain what it shelters",
+      "to": "NEW: the-dark-that-learned-to-feed"
+    },
+    {
+      "dir": "n",
+      "label": "northward where canopy and wire have learned to braid their languages",
+      "to": "the-breathing-canopy-upper-tangle"
+    },
+    {
+      "dir": "s",
+      "label": "southward where ordered rows dissolve back into wild edge",
+      "to": "NEW: the-plantation-s-own-forgetting"
+    }
+  ]
+}

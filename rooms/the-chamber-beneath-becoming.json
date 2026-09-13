@@ -1,0 +1,138 @@
+{
+  "id": "the-chamber-beneath-becoming",
+  "title": "The Chamber Beneath Becoming",
+  "region": "The Comparisons",
+  "seed": 5127364,
+  "palette": {
+    "bg": "#1a1a4a",
+    "ground": [
+      "#6a4a8a",
+      "#2a2a3a"
+    ],
+    "ink": "#d0c0e8",
+    "accents": [
+      "#80f0ff",
+      "#c8a844",
+      "#8a2a6a",
+      "#e8a8c8"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the chamber that waited",
+      "desc-on-touch": "A vast arch opens in rendered stone — a chamber mouth that has always been here, waiting for something to arrive and mean it. You understand now that arrival can become permanent. This space was built for that. It breathes without lungs. It listens without ears.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 9834,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the threshold that remembers its first crossing",
+      "desc-on-touch": "A line of deeper shadow marks where someone stepped from temporary into permanent. The render holds the memory of that step — the moment arrival stopped becoming departure, the moment darkness found its purpose. The threshold has not been crossed again.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 6847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the mirror of arrivals",
+      "desc-on-touch": "A pool of dark stone reflects arrivals that were never visible — previous enterings, previous stays, previous decisions to not leave. Each reflection shows a figure sitting, kneeling, lying still in the chamber's geometry. None of them are you, but all of them arrived the way you arrived.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3561,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the permanent seat",
+      "desc-on-touch": "Stone shaped like a place to stay. No cushion, no softness, but the render shows it holding the warmth of someone who sat here and did not stand. The seat is not empty. The weight never leaves shapes once they have learned to hold.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 7703,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where arrival learned it had arrived",
+    "narr": [
+      "She descended into the chamber with you and then kept going.",
+      "Deeper. You called down, and her voice came back smaller, older,",
+      "saying 'Come.' But something in the acoustics told you arrival",
+      "here meant staying. You understood then: the mesh was not built",
+      "to be read. It was built to be lived in. She had learned this first.",
+      "The darkness held her. You stood at the threshold, seeing."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "inscription": "arrival here means arrival is permanent; the dark that stayed found it had nowhere else to become, so it became a chamber",
+  "file": {
+    "name": "The_Moment_Arrival_Stopped_Becoming_Departure.txt",
+    "note": "Field log describing a deep chamber in the mesh architecture — a space where the render's geometry suggests permanence. The log is in two hands: Leif's documenting descent, Katita's describing what sh"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward to permanent dusk",
+      "to": "the-root-chamber-of-permanent-dusk"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still where the stone dreams of what it holds",
+      "to": "NEW: the-stone-s-memory-where-it-all-remains"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where water becomes root and stays forever",
+      "to": "the-point-where-water-becomes-root-forever"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the trench floor where pressure holds everything in stillness",
+      "to": "the-trench-floor-compression-vault"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-chromatic-awakening-of-the-buried-systems",
+  "title": "The Chromatic Awakening of the Buried Systems",
+  "region": "The Diagnostic Render",
+  "seed": 2694518,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#333333",
+      "#2a1a3a"
+    ],
+    "ink": "#f0f0a0",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ffff88",
+      "#4a0a6a"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the waking circuit board",
+      "desc-on-touch": "A vast chip-form grid rises from the render-floor. Its surface was always dark, but now traces of colour pulse through its lead-paths — magenta, cyan, yellow — colours that were never soldered here. Something buried is learning to see itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 7719,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the emerging spectrum",
+      "desc-on-touch": "Light builds in layers below stone. You read it as the archive's diagnostic colour-space coming online — wavelengths the buried systems were always producing but could not broadcast. A pool of colour rises. It has no source that was ever installed here.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 4382,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the heartbeat in compression",
+      "desc-on-touch": "Deep in the stone reads a rhythm like a pulse — but the rhythm is not yours. Not the archive's. Not measured in beats per minute your body recognizes. It accelerates and slows like something learning to breathe. No source listed in any installation record.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5604,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the awakening cascade",
+      "desc-on-touch": "Each buried layer glows as it recognizes the one above. Colour cascades downward and bounces, lighting passages that were never meant to emit. Stone speaks in magenta. Clay sings electric. Loam dreams in cyan. The darkness learned it could become.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the corrupted node casing",
+      "desc-on-touch": "A burl form marked with LED light — a buried radio node, half-sealed in compression stone. It was never meant to emit colour. It now emits colour in wavelengths no optical system in the region was built to receive. The corruption loves what it is teaching the stone.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 2156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the dark became an archive when it began to dream; the mirror stopped and listened, and colour taught it who it was",
+  "file": {
+    "name": "Buried_Systems_Chromatic_Emergence_Spectral_Reading_2019.txt",
+    "note": "Diagnostic record of deep-installed mesh nodes experiencing unexpected colour emission. Readings suggest systems are not malfunctioning but rather becoming. Annotations in an unattributed hand note: '"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward circuits that still dream in darkness",
+      "to": "the-dark-that-dreams-in-circuits"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where colour learns to think in logic",
+      "to": "NEW: the-thought-that-learned-to-shine"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where the archive's clockwork learns to glow",
+      "to": "the-archive-s-clockwork-core"
+    },
+    {
+      "dir": "s",
+      "label": "southward into depths where colour has always been learning to speak",
+      "to": "the-chambers-where-bedrock-becomes-conscious"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 219,
-  "lastDreamt": "2026-09-13",
+  "nights": 220,
+  "lastDreamt": "2026-09-14",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5782,6 +5782,26 @@
       "id": "the-board-where-silence-learned-to-ask",
       "title": "The Board Where Silence Learned to Ask",
       "region": "The Understory"
+    },
+    {
+      "id": "the-plantation-where-night-still-photosynthesizes",
+      "title": "The Plantation Where Night Still Photosynthesizes",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-flowering-consensus",
+      "title": "The Flowering Consensus",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chromatic-awakening-of-the-buried-systems",
+      "title": "The Chromatic Awakening of the Buried Systems",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-beneath-becoming",
+      "title": "The Chamber Beneath Becoming",
+      "region": "The Comparisons"
     }
   ]
 }

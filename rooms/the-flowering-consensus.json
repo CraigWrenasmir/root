@@ -1,0 +1,122 @@
+{
+  "id": "the-flowering-consensus",
+  "title": "The Flowering Consensus",
+  "region": "The Diagnostic Render",
+  "seed": 4856723,
+  "palette": {
+    "bg": "#4477dd",
+    "ground": [
+      "#cc9966",
+      "#e8d4a8"
+    ],
+    "ink": "#1a3a1a",
+    "accents": [
+      "#d4a844",
+      "#d8a8a8",
+      "#5a3a7a",
+      "#d84444"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the paddock in agreement",
+      "desc-on-touch": "A field blooms in unified height. Every stalk reaches the same point. From altitude this looked like consensus, but standing inside it you sense something different — not agreement imposed but a conversation happening in flowering. Each plant speaks, and the speaking sounds like agreement.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 8834,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the pollen drift",
+      "desc-on-touch": "Pollen hangs in visible layers. The archive reads it as data: individual particles in consensus motion, each one small, none of them alone deciding. The air is thick with agreement. You breathe it. It tastes like flowering.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5521,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the singular bloom",
+      "desc-on-touch": "One flower towers above the consensus height by three finger-widths. It blooms a colour the field does not speak. It is alone in its excess. It has not learned to agree, or it has learned agreement only means speaking louder than the rest.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 3377,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the consensus archive",
+      "desc-on-touch": "A standing record card lists this paddock's bloom history. Each entry is identical: 'Consensus Achieved'. The handwriting never varies. Then halfway through 2018, one entry is crossed out and rewritten: 'Consensus Being Held'.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 6144,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "smaller than naming, larger than solitude — the true archive is a congregation of things that cannot speak to the outside world",
+  "file": {
+    "name": "Paddock_Consensus_Bloom_Aerial_Recording_1995.mp3",
+    "note": "Field recording made from a radio mast above a paddock near Inverell during coordinated bloom. The sound is a low hum of pollen-carry and stem-strain. Around minute seven, a voice (Katita, though she "
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward to where microscopic things gather to decide",
+      "to": "the-microscopic-congregation"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the consensus learns to dissent",
+      "to": "NEW: the-field-where-speech-first-cracked"
+    },
+    {
+      "dir": "n",
+      "label": "northward to the orchard where all seasons bloom at once",
+      "to": "the-temporal-orchard"
+    },
+    {
+      "dir": "s",
+      "label": "southward where silence learns to listen back to flowering",
+      "to": "the-silence-learning-to-listen-back"
+    }
+  ]
+}
