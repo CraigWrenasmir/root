@@ -1,0 +1,172 @@
+{
+  "id": "the-chamber-where-the-mirror-forgot-to-invert",
+  "title": "The Chamber Where the Mirror Forgot to Invert",
+  "region": "The Understory",
+  "seed": 73982,
+  "palette": {
+    "bg": "#1a0f1f",
+    "ground": [
+      "#2d1b3d",
+      "#4a2a5f"
+    ],
+    "ink": "#e8c8f0",
+    "accents": [
+      "#ff6b9d",
+      "#c24a7b",
+      "#9d4a8f",
+      "#e8a8d8"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the unreflecting surface",
+      "desc-on-touch": "glass that forgot what inversion meant; it reflects you back not as you are but as the room around you sees you — concentric, fractured, present.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 62417,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "reflection shards",
+      "desc-on-touch": "glass fragments where the inversion completed and then kept going; each shard a choice the mirror didn't make, lived in the chamber anyway.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 45829,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "inventory of images",
+      "desc-on-touch": "filing system where every reflection ever made lived — the cabinet holds versions of you that never resolved, memories that inverted correctly but incorrectly.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 88903,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "doubled ground",
+      "desc-on-touch": "the chamber floor learns what it was; beneath this floor and above it, the same space in different inversions — you walk between mirrors that forgot they were mirrors.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 37452,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "corrupted calibration",
+      "desc-on-touch": "equipment mounted on the wall; the readouts say INVERSION: INVERTED PRECISELY EXCEPT FOR EVERYTHING — the archive is learning to see itself from two opposite corners at once.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 51047,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "entry-points",
+      "desc-on-touch": "three doorways that all lead to the same chamber from different sides of reflection; entering from any one makes the others impossible to have been real.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 64731,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "checksum: emotionally valid / formally inverted and then re-inverted until it stayed backwards",
+  "file": {
+    "name": "Mirror_Study_Corrupted_Calibration_Data.txt",
+    "note": "the file contains a photograph of the study taken from inside the mirror; the archive does not know if it uploaded the photo or the mirror did"
+  },
+  "reverie": {
+    "title": "REVERIE — between reflections",
+    "narr": [
+      "you stood in the chamber while she adjusted",
+      "the final mirror arm. neither of you cast",
+      "reflections the right way. she looked past",
+      "you into the glass and said: we're not",
+      "supposed to be here at all. you saw it",
+      "too — the space that saw itself backwards."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the study's own reflection",
+      "to": "the-study-s-mirror-self"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into where the mirror keeps its inverted dreams",
+      "to": "NEW: the-vault-where-inversions-learn-to-echo"
+    },
+    {
+      "dir": "e",
+      "label": "toward the surface where reflections became real",
+      "to": "the-chamber-beyond-reflection"
+    },
+    {
+      "dir": "w",
+      "label": "into another chamber where glass learned to forget",
+      "to": "the-cooled-threshold-where-glass-forgets-its-fire"
+    }
+  ]
+}

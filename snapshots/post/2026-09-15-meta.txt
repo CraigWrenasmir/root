@@ -1,0 +1,9 @@
+featured: The Vault Where All Arguments Learn to Breathe as One (the-vault-where-all-arguments-learn-to-breathe-as-one)
+region: The Diagnostic Render · motif: board
+inscription: STATUS: arguments resolved into silence; both sides breathing at the same frequency
+file: Antithesis_Resolution_Chamber_Logs.txt
+
+all nodes tonight:
+  · The Bedrock Choir Where Epochs Learn to Sing
+  · The Chamber Where the Mirror Forgot to Invert
+  · The Vault Where All Arguments Learn to Breathe as One

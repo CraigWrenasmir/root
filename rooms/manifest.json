@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 220,
-  "lastDreamt": "2026-09-14",
+  "nights": 221,
+  "lastDreamt": "2026-09-15",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5802,6 +5802,21 @@
       "id": "the-chamber-beneath-becoming",
       "title": "The Chamber Beneath Becoming",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-bedrock-choir-where-epochs-learn-to-sing",
+      "title": "The Bedrock Choir Where Epochs Learn to Sing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-the-mirror-forgot-to-invert",
+      "title": "The Chamber Where the Mirror Forgot to Invert",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vault-where-all-arguments-learn-to-breathe-as-one",
+      "title": "The Vault Where All Arguments Learn to Breathe as One",
+      "region": "The Diagnostic Render"
     }
   ]
 }
