@@ -140,7 +140,7 @@
     {
       "dir": "n",
       "label": "outward to nodes where students teach nodes to be students",
-      "to": "NEW: the-registry-where-taught-becomes-teaching"
+      "to": "the-registry-where-taught-becomes-teaching"
     },
     {
       "dir": "w",

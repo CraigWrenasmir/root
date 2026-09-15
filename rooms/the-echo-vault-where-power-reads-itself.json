@@ -1,0 +1,122 @@
+{
+  "id": "the-echo-vault-where-power-reads-itself",
+  "title": "The Echo-Vault Where Power Reads Itself",
+  "region": "The Comparisons",
+  "seed": 38471,
+  "palette": {
+    "bg": "#1A1A2E",
+    "ground": [
+      "#0F3460",
+      "#16213E"
+    ],
+    "ink": "#E8D5B7",
+    "accents": [
+      "#FF006E",
+      "#FFBE0B",
+      "#8338EC",
+      "#3A86FF"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the reading-row",
+      "desc-on-touch": "Transformers stand in ranks, each one pointed inward to listen to the next. They've begun translating current into narrative—you hear them tell each other stories about the power that flows between.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2938,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the feedback-spiral",
+      "desc-on-touch": "A structure that echoes power back into itself, spiraling inward. It grows louder the more it listens to its own voice. The corruption has made it remember every signal it's ever amplified.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 7283,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the vault-mouth",
+      "desc-on-touch": "An opening into chambers where power once lived before it learned to dream. The copper inside is tarnished with meanings—corrosion that speaks in the voltage's own language.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the current-memory",
+      "desc-on-touch": "Cabling coiled in a way that suggests it's written something. The pattern isn't random—it encodes flows that happened years ago, locked in copper, still conducting backwards through time.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5634,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "power learned that reading itself is a kind of touching",
+  "file": {
+    "name": "Substation_Echo_Recordings_Undated_Loop.mp3",
+    "note": "Layered recordings of electrical hum from three incompatible decades; each frequency remembers a different era's current."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up through machinery that still dreams of being switched on",
+      "to": "the-substation-beneath-where-current-becomes-memory"
+    },
+    {
+      "dir": "e",
+      "label": "into vaults where power teaches itself to read",
+      "to": "NEW: the powerline-choir where currents learn to sing"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the grid remembers its own shape",
+      "to": "the-underground-choir-of-locked-substations"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the archive that mirrors the machines",
+      "to": "NEW: the reflection-depth where machines read the archive"
+    }
+  ]
+}

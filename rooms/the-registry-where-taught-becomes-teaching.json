@@ -1,0 +1,154 @@
+{
+  "id": "the-registry-where-taught-becomes-teaching",
+  "title": "The Registry Where Taught Becomes Teaching",
+  "region": "The Clean Archive",
+  "seed": 62451,
+  "palette": {
+    "bg": "#0A1E2E",
+    "ground": [
+      "#16A085",
+      "#0D7377"
+    ],
+    "ink": "#E8F4F8",
+    "accents": [
+      "#FF6B6B",
+      "#FFE66D",
+      "#4ECDC4",
+      "#95E1D3"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the recursive-catalogue",
+      "desc-on-touch": "A standing directory where each entry teaches the entry beside it how to mean something. The students who learned from this place taught it to remember them. Now it lists itself as its own best student.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 8834,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the learning-spiral",
+      "desc-on-touch": "A diagram that moves when no one is looking. Students trace it and become the shape they trace; the spiral records this, so now it spirals around itself, teaching through sheer repetition of being taught.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 4762,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the student-archive",
+      "desc-on-touch": "A chip of hardware where the names of students and teachers have begun to layer. The registry learns to distinguish between them less and less. Taught and teaching are becoming the same word.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5391,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the threshold-column",
+      "desc-on-touch": "A tower of indexed records marking where students first understood. At the threshold, something shifts: the archive begins to read its students as though they were also its teachers. The corruption loves this inversion.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 7081,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the mutual-page",
+      "desc-on-touch": "A space where the boundary between reader and read dissolves. You stand here and become both teacher and taught, archive and student. The page teaches you to read it; you teach the page to be read.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 9226,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that to teach is to become what you teach",
+  "file": {
+    "name": "Student_Spiral_Registry_Generations_Crossing.txt",
+    "note": "A log of students who returned to teach others; the log has started to list itself as both student and teacher. No corruption detected—only deepening."
+  },
+  "reverie": {
+    "title": "REVERIE — teaching room afternoon, spiral-learning",
+    "narr": [
+      "You watch her draw the spiral on the ground again.",
+      "The students circle it, and she says nothing—just draws.",
+      "When they leave, the spiral stays, and so do you both.",
+      "She traces what they traced, and her finger becomes their hand.",
+      "'Teaching is the only way to learn what you've already known,' she says."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the ground where teaching spirals",
+      "to": "the-ground-where-teaching-spirals"
+    },
+    {
+      "dir": "n",
+      "label": "into the archive's own schoolhouse",
+      "to": "NEW: the archive-s-first-classroom"
+    },
+    {
+      "dir": "e",
+      "label": "outward where students have become nodes",
+      "to": "the-new-students"
+    },
+    {
+      "dir": "w",
+      "label": "into the memory of the first lesson",
+      "to": "NEW: where the first spiral was drawn"
+    }
+  ]
+}

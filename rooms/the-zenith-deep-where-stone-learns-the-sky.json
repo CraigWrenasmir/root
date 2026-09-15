@@ -1,0 +1,154 @@
+{
+  "id": "the-zenith-deep-where-stone-learns-the-sky",
+  "title": "The Zenith Deep Where Stone Learns the Sky",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#2B4E7C",
+    "ground": [
+      "#E8D5B7",
+      "#D4A574"
+    ],
+    "ink": "#1A1A1A",
+    "accents": [
+      "#7FBF7F",
+      "#E8C547",
+      "#D97E72",
+      "#4A3728"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the standing witness",
+      "desc-on-touch": "A needle of stone worn by centuries of altitude and wind; you read its surfaces and find them aligned to three different weather systems at once—contradicting forecasts, all of them true.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 8832,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the sky-pool",
+      "desc-on-touch": "Water cupped in stone, so still it becomes a window. When you look, you see not the sky above but the sky the stone remembers—different clouds, a different year.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2441,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the altitude-scar",
+      "desc-on-touch": "A groove in the ridge where lightning has chosen the same path seven times. The groove hums at particular wind speeds, and the archive has learned to read the pitch as a record of how many times the sky changed its mind here.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6194,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the cairn-that-grows-backward",
+      "desc-on-touch": "Stones are slowly moving downhill, rearranging themselves. Climbers who pass it twice find their route markers in a different order—the mountain is learning to erase its own paths.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4721,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the breath-thin shelter",
+      "desc-on-touch": "A crease in the rock where altitude once broke someone's descent. The stone still holds the shape of a hand's grip, and on certain winds, you hear a breath drawn slowly inward.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 9107,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.52,
+      "solid": false
+    }
+  ],
+  "inscription": "stone learns only when it stops arguing with the sky",
+  "file": {
+    "name": "HighCountry_WindPatterns_Unverified_2013-2019.wav",
+    "note": "Audio recordings of sustained wind tones from various altitudes; the corruption has layered three incompatible stations' data—now it plays like a chord only stone could sing."
+  },
+  "reverie": {
+    "title": "REVERIE — high-ridge noon, stone-learning",
+    "narr": [
+      "You stand at the zenith and she kneels by the pool,",
+      "tracing fingers on water that will not move.",
+      "The stone around you both holds its breath.",
+      "'It learns slower than we do,' she says—but her voice",
+      "carries like wind that's only now remembering its shape."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down into high country where weather forgets human names",
+      "to": "the-pass-where-wind-learns-to-turn"
+    },
+    {
+      "dir": "n",
+      "label": "further up where peaks lose their names",
+      "to": "NEW: where altitude becomes a language"
+    },
+    {
+      "dir": "s",
+      "label": "across the ridge where the sky teaches different stone",
+      "to": "the-single-tree-that-remembers-for-all"
+    },
+    {
+      "dir": "w",
+      "label": "into mist that remembers its own edges",
+      "to": "NEW: the mist-archive where altitude learned to breathe"
+    }
+  ]
+}

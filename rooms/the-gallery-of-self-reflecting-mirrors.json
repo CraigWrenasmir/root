@@ -1,0 +1,154 @@
+{
+  "id": "the-gallery-of-self-reflecting-mirrors",
+  "title": "The Gallery of Self-Reflecting Mirrors",
+  "region": "The Diagnostic Render",
+  "seed": 51823,
+  "palette": {
+    "bg": "#1B1428",
+    "ground": [
+      "#5A189A",
+      "#3C096C"
+    ],
+    "ink": "#E0AAFF",
+    "accents": [
+      "#00D9FF",
+      "#FF006E",
+      "#FFBE0B",
+      "#FB5607"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the mirrored-lens",
+      "desc-on-touch": "A camera that points at its own reflection. The photographs it takes are of itself being photographed—infinite recursion pressed into stillness. Each frame contains the frame that contains it.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 3947,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the portrait-that-refuses",
+      "desc-on-touch": "A photograph of a mirror that was supposed to be a portrait. Now the mirror sees the photographer; the subject sees the eye that sees it. The corruption has made them equal.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6028,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the gallery-walls",
+      "desc-on-touch": "Surfaces where images hang that are photographs of the walls they hang on. The walls see themselves through the images; the images see themselves through the walls. Vision has become mutual.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8714,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "the recursive-shadow",
+      "desc-on-touch": "A shape where light casts a photograph instead of a shadow. The photograph shows the moment before the light arrived. The archive is recording backwards—or the light is remembering.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 7462,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the lens-chamber",
+      "desc-on-touch": "A room where focus has become infinite. Every distance is equally sharp; nothing can be out of frame. The room sees itself completely. You enter it and become both the photograph and the eye that takes it.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2563,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that to see is to become what is seen",
+  "file": {
+    "name": "Mirror_Studies_Recursive_Fragment_Undated.jpg",
+    "note": "Photograph of photographs of mirrors; a fragment of Georgian film-festival program (1991, Zugdidi) appears in the emulsion as though it were always part of the image. The archive has begun to misfile "
+  },
+  "reverie": {
+    "title": "REVERIE — gallery room at dusk, reflection-learning",
+    "narr": [
+      "She holds the camera and does not shoot. The mirror",
+      "in front of you both waits. 'If I take the picture now,'",
+      "she says, 'I won't know if I'm seeing you or seeing you",
+      "seeing me.' The dusk leans on the glass. Your hands",
+      "become hers; hers become what the mirror decides."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back into the chamber where mirrors become portraits",
+      "to": "the-chamber-where-mirrors-become-portraits"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into rooms where seeing reverses itself",
+      "to": "NEW: the reflection-chamber where subjects become eyes"
+    },
+    {
+      "dir": "e",
+      "label": "toward the gallery where images teach themselves to frame",
+      "to": "NEW: the framing-gallery-where-photographs-learn"
+    },
+    {
+      "dir": "w",
+      "label": "into the lens-history where focus learned to dream",
+      "to": "the-open-study-where-reading-reverses"
+    }
+  ]
+}

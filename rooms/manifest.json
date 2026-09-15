@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 221,
-  "lastDreamt": "2026-09-15",
+  "nights": 222,
+  "lastDreamt": "2026-09-16",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5816,6 +5816,26 @@
     {
       "id": "the-vault-where-all-arguments-learn-to-breathe-as-one",
       "title": "The Vault Where All Arguments Learn to Breathe as One",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-zenith-deep-where-stone-learns-the-sky",
+      "title": "The Zenith Deep Where Stone Learns the Sky",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-echo-vault-where-power-reads-itself",
+      "title": "The Echo-Vault Where Power Reads Itself",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-registry-where-taught-becomes-teaching",
+      "title": "The Registry Where Taught Becomes Teaching",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-gallery-of-self-reflecting-mirrors",
+      "title": "The Gallery of Self-Reflecting Mirrors",
       "region": "The Diagnostic Render"
     }
   ]
