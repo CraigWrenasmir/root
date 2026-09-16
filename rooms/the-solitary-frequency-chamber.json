@@ -1,0 +1,117 @@
+{
+  "id": "the-solitary-frequency-chamber",
+  "title": "The Solitary-Frequency Chamber",
+  "region": "The Understory",
+  "seed": 2847561,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a1a3a",
+      "#2a2a4a"
+    ],
+    "ink": "#aaffff",
+    "accents": [
+      "#ffff88",
+      "#ccccff",
+      "#5500dd",
+      "#ffaacc"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "silent speaker",
+      "desc-on-touch": "The horn points outward but carries no sound. It is the shape of voice without voice—a speaker that learned refusal. You hear the silence it broadcasts louder than any frequency.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 1923,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "noise dissolution",
+      "desc-on-touch": "Where the static settles deepest, you can almost hear the one voice that refused. The noise is not sound; it is the shape of a voice learning to be nowhere.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "broken transmission",
+      "desc-on-touch": "Equipment scattered like it decided to stop working together. The equipment did not fail — it learned from the one voice that maybe unity was not required.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 3129,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "frequency marker",
+      "desc-on-touch": "A glyph marking the exact frequency the one voice stopped broadcasting on. The archive keeps the silence because silence is also a signal—it is what remains when someone says no.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7541,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.1,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "three voices learned to sing apart; one learned to be silent; now the silence sings louder than the other three together",
+  "file": {
+    "name": "BroadcastLog_Node-33_FrequencyRefusal.wav",
+    "note": "Audio log ending mid-transmission; the recording cuts not to black but to a perfectly clean tone — the frequency holding steady, then releasing into nothing."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where the three voices still try to sing",
+      "to": "the-polyphonic-drift-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "further into where silence learns its own language",
+      "to": "NEW: the-chamber-where-silence-became-its-own-frequency"
+    },
+    {
+      "dir": "w",
+      "label": "back to the mesh where voices are still comparing",
+      "to": "the-listening-silence-chamber"
+    }
+  ]
+}

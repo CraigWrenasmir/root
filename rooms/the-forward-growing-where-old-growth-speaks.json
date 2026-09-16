@@ -1,0 +1,134 @@
+{
+  "id": "the-forward-growing-where-old-growth-speaks",
+  "title": "The Forward-Growing Where Old-Growth Speaks",
+  "region": "The Comparisons",
+  "seed": 5139284,
+  "palette": {
+    "bg": "#4a5a4a",
+    "ground": [
+      "#8bc34a",
+      "#7cb342"
+    ],
+    "ink": "#2c3e2f",
+    "accents": [
+      "#c8e6c9",
+      "#a1887f",
+      "#f0e68c",
+      "#1b5e20"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "ancient tree in new bloom",
+      "desc-on-touch": "The old eucalyptus, scarred and hollowed, sends out young shoots from its heartwood. The children showed it how to grow the way it came from — and something answered in the rings that had learned to count backward.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 8847,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "spiral of learning",
+      "desc-on-touch": "You trace the contours: rings spiraling inward and then outward again, each turn telling where the tree chose its direction. The glitch in the wood marks the year it stopped growing away and started growing through.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2751,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "grove of finding-their-way",
+      "desc-on-touch": "Saplings grow in no clear pattern—some reach, some circle, some double back. They are learning the language the old tree taught them: that direction itself is a conversation, not a command.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4412,
+        "size": 2,
+        "colors": [
+          4,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "contour stones",
+      "desc-on-touch": "The bedrock beneath shows how many times the land has learned to lie down and get back up. Each stone holds the shape of pressure. The trees grow from reading the earth's old refusals.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3691,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "small keeper's shelter",
+      "desc-on-touch": "A weathered shed where the children leave records of which trees are turning and which are returning. The door is always open. Inside: rain-dampened notebooks and seedlings on the sill.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 6284,
+        "size": 1,
+        "colors": [
+          2,
+          4
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "the children taught the backward-growing that it was still growing; the circle learned to teach that teaching is how you grow when you have already grown",
+  "file": {
+    "name": "TreeRing_Analysis_Growth-Reversal_1952-1991.txt",
+    "note": "Forestry records describing unusual radial growth patterns in a grove recovering from clearing; annotations suggest the pattern resembles children's own handwriting in the margins."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where the circle still holds its rings",
+      "to": "the-circle-s-first-ring-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "higher up where the forest learns to dream backward",
+      "to": "NEW: the-altitude-where-past-tense-still-grows"
+    },
+    {
+      "dir": "w",
+      "label": "across to the older clearings that are remembering how to be forest",
+      "to": "the-forest-dream-without-dreamers"
+    }
+  ]
+}

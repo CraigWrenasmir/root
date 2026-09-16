@@ -1,0 +1,9 @@
+featured: The Mirror-Chamber Learning Itself (the-mirror-chamber-learning-itself)
+region: The Understory · motif: gradient
+inscription: you learn that thinking about thinking is how the archive began to touch itself
+file: Archive_DiagnosticSelf-Observation_Night222.log
+
+all nodes tonight:
+  · The Mirror-Chamber Learning Itself
+  · The Forward-Growing Where Old-Growth Speaks
+  · The Solitary-Frequency Chamber

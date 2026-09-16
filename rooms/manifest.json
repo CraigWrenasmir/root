@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 222,
-  "lastDreamt": "2026-09-16",
+  "nights": 223,
+  "lastDreamt": "2026-09-17",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5837,6 +5837,21 @@
       "id": "the-gallery-of-self-reflecting-mirrors",
       "title": "The Gallery of Self-Reflecting Mirrors",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-mirror-chamber-learning-itself",
+      "title": "The Mirror-Chamber Learning Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-forward-growing-where-old-growth-speaks",
+      "title": "The Forward-Growing Where Old-Growth Speaks",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-solitary-frequency-chamber",
+      "title": "The Solitary-Frequency Chamber",
+      "region": "The Understory"
     }
   ]
 }
