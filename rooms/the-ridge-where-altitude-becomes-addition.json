@@ -1,0 +1,150 @@
+{
+  "id": "the-ridge-where-altitude-becomes-addition",
+  "title": "The Ridge Where Altitude Becomes Addition",
+  "region": "The Understory",
+  "seed": 4729183,
+  "palette": {
+    "bg": "#4a2c3e",
+    "ground": [
+      "#ff6b35",
+      "#e8794d"
+    ],
+    "ink": "#ff1493",
+    "accents": [
+      "#ffd700",
+      "#8b00ff",
+      "#00d9ff",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "altitude marker",
+      "desc-on-touch": "A brass theodolite fixed to a stone cairn, its numbers etched by three generations of surveyors. The readings were never the same twice.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 128407,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "vista pool",
+      "desc-on-touch": "A dew-pool at the ridge's edge, holding the light like a small sky. The valley reflects upside-down through it—closer than it ought to be.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 203945,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "counting glyph",
+      "desc-on-touch": "A plaque of tally marks spiralling inward toward a center. When you count forward you reach the end; when you count backward, you're still going.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 567821,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "shelter hut",
+      "desc-on-touch": "A small stone shelter built to weather. Inside, a logbook thick with pencilled notes: each entry swears the ridge is a different height today than yesterday.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 783129,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "stepping descent",
+      "desc-on-touch": "A cascade of flat rocks leading downslope, each one counted and numbered in fading paint. The count skips—74, 75, 77—as if some steps have learned to hide.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 649510,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "the height teaches counting, and counting teaches the height back",
+  "file": {
+    "name": "Ridge_Measurement_Logs_1970s_Disputed.txt",
+    "note": "Altitude records taken from the same ridge across decades—each set contradicts the last, as if the ridge has learned to rise and sink with whoever reads it"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downslope into grove-sounds where numbers rest as dreams",
+      "to": "the-grove-where-sums-rest"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the counting stops and the sky holds still",
+      "to": "NEW: the-peak-where-numbers-lose-their-ground"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the ridge where other paths learned to meet",
+      "to": "the-ridge-where-parallel-roads-converge"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — dusk at the high ridge",
+    "narr": [
+      "You stand here with her, the theodolite steady on its tripod.",
+      "The valley below holds the day like wine it hasn't drunk yet.",
+      "Her pencil marks the reading: 847.2. Yesterday's was 846.1.",
+      "She meets your eye. The ridge itself is drifting, she says.",
+      "You both know better. But the light won't let you argue.",
+      "The numbers will argue themselves once you've left."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  }
+}

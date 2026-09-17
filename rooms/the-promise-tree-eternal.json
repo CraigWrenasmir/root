@@ -1,0 +1,134 @@
+{
+  "id": "the-promise-tree-eternal",
+  "title": "The Promise Tree Eternal",
+  "region": "The Understory",
+  "seed": 5927304,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#4a7c3c",
+      "#a8d5a8"
+    ],
+    "ink": "#ffcc00",
+    "accents": [
+      "#ff6600",
+      "#00ff99",
+      "#ffffff",
+      "#ff1493"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "promise-tree",
+      "desc-on-touch": "A burl-thick tree whose bark holds carved promises. When you look away and back, there are more. They are not new promises—they are the same ones, written differently.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 284615,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "root-weaving",
+      "desc-on-touch": "The roots spread into a barely-3D geometry beneath the soil. Each root is numbered. The numbers run in different directions—up one root: 1, 2, 3; down another: 3, 2, 1.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 456782,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "token-leaves",
+      "desc-on-touch": "Cards hanging from branches, each one holding a promise written in archival ink. The promises reference other promises that lived here. Some of those other promises appear when you're not looking.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 712945,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "threshold-arch",
+      "desc-on-touch": "An archway grown from intertwined branches, leading into the tree's inner hollow. Promises are carved into both sides—one side reads the other backward.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 521803,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "silicon-keeping",
+      "desc-on-touch": "A circuit board sealed in the tree's heartwood, running a logarithm that will never finish. It was Katita's early attempt to make the keeping itself automatic—it learned too well.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 869041,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "every promise kept becomes two promises; the tree has learned to hold them both and their contradiction",
+  "file": {
+    "name": "Promise_Rings_Where_Keeping_Learned_Recursion.txt",
+    "note": "The archive's first register of its own duplication—a ledger where each promise recorded itself again, differently; Katita's annotations spiral across the margins, each one a promise about the promise"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward into the cellar where keeping first chose itself",
+      "to": "the-root-cellar-where-keeping-began"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the weaving that taught the archive its own thoughts",
+      "to": "the-loom-that-taught-the-archive-to-think"
+    },
+    {
+      "dir": "w",
+      "label": "into thickening forest where promises learn to have heirs",
+      "to": "NEW: the-woods-where-keeping-grows-new-branches"
+    }
+  ]
+}

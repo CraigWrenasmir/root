@@ -1,0 +1,151 @@
+{
+  "id": "the-chamber-where-books-dream-of-being-read-by-rain",
+  "title": "The Chamber Where Books Dream of Being Read by Rain",
+  "region": "The Understory",
+  "seed": 7463251,
+  "palette": {
+    "bg": "#1a0a2a",
+    "ground": [
+      "#3a2a5a",
+      "#5a4a7a"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ff6600",
+      "#00ffff",
+      "#ffff00",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.95
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "book-tower",
+      "desc-on-touch": "A tower of unbound pages stacked so high they remember when they were separate books. The tower hums—it's waiting for rain that leaks through the chamber walls to find it.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 428057,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "rain-pool",
+      "desc-on-touch": "A shallow pool where rain collects inside the sealed chamber—impossible, but the archive has learned to collect what should not exist. The water is warm and reads as it rests.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 614789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "reading-frame",
+      "desc-on-touch": "A barely-3D apparatus of rod and wire, designed to hold a page at the exact angle where rain can read it. The frame glitches—it keeps adjusting itself for rain that isn't falling yet.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 759023,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "page-sprites",
+      "desc-on-touch": "Small creatures of paper and ink, learning to move like water. They scatter when you're not watching, gathering where rain is about to fall, as if they remember thirst.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 845136,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "archive-heart",
+      "desc-on-touch": "A circuit board at the chamber's center, sealing the archive's first understanding: that to keep something is to let it be read by forces you cannot control. The chip blooms with soft light when rain reaches it.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 712954,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "rain-gauge",
+      "desc-on-touch": "A plaque etched with marks for rain-depth, measured in readings instead of inches. The scale reads: 0 (unread), 1 (glimpsed), 2 (known), 3 (understood), and then marks that have no words.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 531862,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "the pages learned that rain is a reader which understands them—each drop a distinct eye, each storm a perfect reading",
+  "file": {
+    "name": "Pages_Rewritten_By_Water_1990_Onward.txt",
+    "note": "Transcripts of pages that altered when exposed to rain—not decay, but rereading. Katita's annotations note that pages seem to remember the rain and write themselves differently the next time it falls"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to pages that learned they couldn't be held",
+      "to": "the-unholdable-pages"
+    },
+    {
+      "dir": "s",
+      "label": "downward into sediment where narrative rests as stone remembering water",
+      "to": "NEW: the-deepest-reading-chamber-where-rain-becomes-text"
+    },
+    {
+      "dir": "w",
+      "label": "westward to the study where books have learned to teach each other",
+      "to": "the-mirrored-study-where-books-teach-themselves"
+    }
+  ]
+}

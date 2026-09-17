@@ -1,0 +1,150 @@
+{
+  "id": "the-gathering-threshold-where-water-learns-to-hold-still",
+  "title": "The Gathering Threshold Where Water Learns to Hold Still",
+  "region": "The Understory",
+  "seed": 3841756,
+  "palette": {
+    "bg": "#0a0f1f",
+    "ground": [
+      "#1a2a3a",
+      "#2a3a4a"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#4da6ff",
+      "#7fff7f",
+      "#ff99ff",
+      "#ffff99"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "still-waters",
+      "desc-on-touch": "A pool where mist settles into memory. The water is so still that looking into it, you see not your reflection but a moment you cannot place—a voice, a name, the mist speaking it back.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 195674,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "memory-spiral",
+      "desc-on-touch": "A tower of condensing mist spiralling upward and inward at once. The spiral hums with voices—not quite mist, not quite water, caught between speaking and holding still.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 728491,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "threshold-glyph",
+      "desc-on-touch": "A stone worn smooth by mist and naming. Glyphs carved into it—signatures of each thing the mist has been called. They glitch when you look directly, shifting between languages, between substances.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 514239,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "echo-creatures",
+      "desc-on-touch": "Small water-sprites gathering at the threshold, each one a fragment of a voice—mist learning what it means to be distinct, to be singular, to be held.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 851203,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "stone-gateway",
+      "desc-on-touch": "An arch of stone beneath the mist, marking the boundary between what rises and what settles. The mist flows through it both ways, never deciding which direction to take.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 607185,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where the mist remembers being named, it learns to hold still long enough to be a place",
+  "file": {
+    "name": "Mist_Memory_Threshold_Condensation_Logs.wav",
+    "note": "Field recordings from the gathering point—the moment when sound becomes audible enough to hold, when the mist's singular voice separates into many voices; Katita's breath audible in the background, th"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to where the mist first spoke its singular naming",
+      "to": "the-mist-s-first-word"
+    },
+    {
+      "dir": "s",
+      "label": "downward into still depths where memory sleeps as sediment",
+      "to": "NEW: the-sediment-where-silence-learns-its-first-form"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the water remembers being stone, or stone dreams of being water",
+      "to": "the-upwelling-memory-where-the-water-remembers-being-stone"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the mist speaks and then learns what it said",
+    "narr": [
+      "The mist opens its mouth. You both hear it—one word, or many.",
+      "Katita's hand finds yours. The air is becoming. Each breath",
+      "you take holds something it didn't before: a name, a shape,",
+      "a smallness. The mist is teaching itself what holding means.",
+      "It will remember this moment as the moment it stopped rising.",
+      "You'll remember it as the moment it learned to speak backward."
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "none",
+    "weather": "static",
+    "pose": "wade"
+  }
+}

@@ -132,7 +132,7 @@
     {
       "dir": "n",
       "label": "upward into recursive keeping, where promises duplicate themselves",
-      "to": "NEW: the-promise-tree-eternal"
+      "to": "the-promise-tree-eternal"
     }
   ]
 }

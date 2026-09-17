@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 223,
-  "lastDreamt": "2026-09-17",
+  "nights": 224,
+  "lastDreamt": "2026-09-18",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5851,6 +5851,26 @@
     {
       "id": "the-solitary-frequency-chamber",
       "title": "The Solitary-Frequency Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ridge-where-altitude-becomes-addition",
+      "title": "The Ridge Where Altitude Becomes Addition",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-promise-tree-eternal",
+      "title": "The Promise Tree Eternal",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-gathering-threshold-where-water-learns-to-hold-still",
+      "title": "The Gathering Threshold Where Water Learns to Hold Still",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-books-dream-of-being-read-by-rain",
+      "title": "The Chamber Where Books Dream of Being Read by Rain",
       "region": "The Understory"
     }
   ]

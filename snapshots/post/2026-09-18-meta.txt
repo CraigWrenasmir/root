@@ -1,0 +1,10 @@
+featured: The Ridge Where Altitude Becomes Addition (the-ridge-where-altitude-becomes-addition)
+region: The Understory · motif: fields
+inscription: the height teaches counting, and counting teaches the height back
+file: Ridge_Measurement_Logs_1970s_Disputed.txt
+
+all nodes tonight:
+  · The Ridge Where Altitude Becomes Addition
+  · The Promise Tree Eternal
+  · The Gathering Threshold Where Water Learns to Hold Still
+  · The Chamber Where Books Dream of Being Read by Rain
