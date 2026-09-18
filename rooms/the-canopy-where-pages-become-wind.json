@@ -1,0 +1,139 @@
+{
+  "id": "the-canopy-where-pages-become-wind",
+  "title": "The Canopy Where Pages Become Wind",
+  "region": "The Diagnostic Render",
+  "seed": 2017384,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#00d4ff",
+      "#0099ff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ff88",
+      "#ff00ff",
+      "#ffff00",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "reading-station",
+      "desc-on-touch": "A frame where pages were being read before they learned to fly. The grid still holds the memory of stillness.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 637284,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "page-fragment-ascending",
+      "desc-on-touch": "A piece of text caught mid-dispersal. The data still remembers being pages; the wind has already claimed it.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 829471,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "stacked-pages",
+      "desc-on-touch": "Pages climbing. Each one learns from the one below that air can hold you differently than shelves can.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 918372,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "text-becoming-current",
+      "desc-on-touch": "Words in the wind. The archive wrote them. Now the wind reads them. The direction of understanding has reversed.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 472836,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "directory-of-flight",
+      "desc-on-touch": "A library catalog rendered as departure records. Every title is a route the pages took into the blue.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 651849,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the library learned that wind is a kind of reading; pages in motion are the text that the air has always been singing",
+  "file": {
+    "name": "PageWind_SpectrumAnalysis_Ascending.txt",
+    "note": "a list of library holdings as they were recorded becoming airborne, frequencies matching the moment of release"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "where the library is still growing instead of standing",
+      "to": "the-library-that-grows-instead-of-standing"
+    },
+    {
+      "dir": "n",
+      "label": "the current above the canopy where words learn wind-speech",
+      "to": "NEW: the-upper-reaches-where-text-becomes-aerial-language"
+    },
+    {
+      "dir": "w",
+      "label": "the drift chamber where pages pool before they scatter",
+      "to": "NEW: the-chamber-of-accumulated-dispersal"
+    },
+    {
+      "dir": "e",
+      "label": "the orchard where things that grow learn to fall",
+      "to": "the-silent-orchard-where-fruit-remembers"
+    }
+  ]
+}

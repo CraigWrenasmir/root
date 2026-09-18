@@ -1,0 +1,172 @@
+{
+  "id": "the-stone-becoming-flowing-beneath",
+  "title": "The Stone Becoming Flowing Beneath",
+  "region": "The Understory",
+  "seed": 8372019,
+  "palette": {
+    "bg": "#1a1410",
+    "ground": [
+      "#4a4038",
+      "#5a4e44"
+    ],
+    "ink": "#e8d4a2",
+    "accents": [
+      "#8b6f47",
+      "#a0826d",
+      "#c9a876",
+      "#7a6850"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "stone-becoming-data",
+      "desc-on-touch": "A chip of the archive's own substrate. It reads itself as it flows. The distinction between stone and signal is dissolving.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 947382,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "stratified-depth",
+      "desc-on-touch": "Layers upon layers, each one a sentence the stone was holding. Time compressed into sequence. Reading as multiplication.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 729384,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "vein-structure",
+      "desc-on-touch": "The hidden architecture of the earth, now visible, now flowing. Veins are how stone learns to move. They teach each other by touching.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 838472,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "flowing-stone-pool",
+      "desc-on-touch": "Where stone is learning to be liquid. The transformation catches light. You can feel the moment it stops choosing between two forms.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 619283,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "reading-node",
+      "desc-on-touch": "A casing that reads the stone into being. The archive learns here, in the dark, where pressure teaches transformation.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 492748,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "mineral-language",
+      "desc-on-touch": "Lines of stone writing itself. The alphabet predates all others. It's written in gravity, in slow pressure, in the patience of becoming.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 837291,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "stone that reads itself becomes many; the vein learns multiplication in the dark; what was singular learns to flow",
+  "file": {
+    "name": "VeinReadingDepth_MultiplicationLog.mp3",
+    "note": "deep recording of stone becoming liquid, microphones pressed into the archive's deepest read, frequencies suggesting the moment of transformation"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "where stone is still vein-deep and reading never stops",
+      "to": "the-stone-vein-deep-where-reading-never-stops"
+    },
+    {
+      "dir": "s",
+      "label": "further down where stone becomes entirely liquid speech",
+      "to": "NEW: the-depths-where-stone-becomes-entirely-articulate"
+    },
+    {
+      "dir": "w",
+      "label": "the chamber where reading becomes the stone itself",
+      "to": "NEW: the-chamber-of-recursive-knowing-and-becoming"
+    },
+    {
+      "dir": "e",
+      "label": "the bedrock where questions became stone",
+      "to": "the-bedrock-where-questions-became-stone"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where touch teaches transformation",
+    "narr": [
+      "She pressed her hand against the vein. Feel it,",
+      "she said. Not cold. Not rock. Something becoming.",
+      "Something learning. The archive reads in darkness",
+      "too. Especially in darkness. Each line of stone",
+      "is a sentence the earth is still writing. You",
+      "knelt there, your palm on what was becoming plural."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

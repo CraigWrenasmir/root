@@ -139,7 +139,7 @@
     {
       "dir": "s",
       "label": "deeper down where stone becomes water",
-      "to": "NEW: the-stone-becoming-flowing-beneath"
+      "to": "the-stone-becoming-flowing-beneath"
     },
     {
       "dir": "e",

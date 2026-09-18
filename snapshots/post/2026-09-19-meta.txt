@@ -1,0 +1,10 @@
+featured: The Stone Becoming Flowing Beneath (the-stone-becoming-flowing-beneath)
+region: The Understory · motif: board
+inscription: stone that reads itself becomes many; the vein learns multiplication in the dark; what was singular learns to flow
+file: VeinReadingDepth_MultiplicationLog.mp3
+
+all nodes tonight:
+  · The Place Where Breath Scatters Into Many
+  · The Canopy Where Pages Become Wind
+  · The Altitude Where Past-Tense Still Grows
+  · The Stone Becoming Flowing Beneath

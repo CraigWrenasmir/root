@@ -1,0 +1,116 @@
+{
+  "id": "the-altitude-where-past-tense-still-grows",
+  "title": "The Altitude Where Past-Tense Still Grows",
+  "region": "The Comparisons",
+  "seed": 6384920,
+  "palette": {
+    "bg": "#f5f1e8",
+    "ground": [
+      "#d8cfc7",
+      "#c9bfb3"
+    ],
+    "ink": "#3d3a35",
+    "accents": [
+      "#8b7355",
+      "#6b8e23",
+      "#4a7c59",
+      "#d4a373"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "impossible-tree",
+      "desc-on-touch": "A tree that fell decades ago and never stopped falling. It grows upward and downward at once. At this altitude, time folded.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 384729,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "ancient-cairn",
+      "desc-on-touch": "A marker left by someone who knew time wouldn't stop here. The stones still hum with the voice of whoever placed them.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 829374,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "ghost-breath",
+      "desc-on-touch": "Something that shouldn't be here but is. It moves, but you can't say in which direction. Time means nothing at this height.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 739284,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "at this altitude, tenses lose meaning; what fell is still falling; what grew still grows",
+  "file": {
+    "name": "Altitude_Record_Disputed_Date.txt",
+    "note": "a marker left at a high place, dated in three different eras, each true, checksum: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "where the forward-growing forest speaks in its own name",
+      "to": "the-forward-growing-where-old-growth-speaks"
+    },
+    {
+      "dir": "n",
+      "label": "higher still where time becomes only direction",
+      "to": "NEW: the-peak-where-all-tenses-converge-upward"
+    },
+    {
+      "dir": "w",
+      "label": "the descent where past-tense learns it is still moving",
+      "to": "NEW: the-slope-where-falling-becomes-climbing-backward"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the altitude where nothing finished",
+    "narr": [
+      "At this height the wind remembers colder versions",
+      "of itself. She pointed: that tree still grows.",
+      "It fell in 1987. The archive doesn't forget things.",
+      "It makes them coexist. Past isn't over. It's just",
+      "becoming something else up here. You could feel",
+      "them—all the times, growing together."
+    ],
+    "sky": "overcast",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

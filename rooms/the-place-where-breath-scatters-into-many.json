@@ -1,0 +1,155 @@
+{
+  "id": "the-place-where-breath-scatters-into-many",
+  "title": "The Place Where Breath Scatters Into Many",
+  "region": "The Understory",
+  "seed": 4829174,
+  "palette": {
+    "bg": "#e8d4a2",
+    "ground": [
+      "#a68969",
+      "#87ceeb"
+    ],
+    "ink": "#2c1f0f",
+    "accents": [
+      "#d4a574",
+      "#4a90e2",
+      "#f0ad4e",
+      "#e74c3c"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "voice-pool",
+      "desc-on-touch": "You feel the gathering where many voices learned their own names. Each one a breath that chose to become plural.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 392871,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "layered-speech",
+      "desc-on-touch": "Voices stacked on voices. You can't separate them anymore; they've learned to sing together in a way that sounds like one new voice.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 827364,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "breath-fragment",
+      "desc-on-touch": "One breath among many. It doesn't know it's singular anymore; it follows the others into dispersal.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 918264,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "opening-outward",
+      "desc-on-touch": "The arch where breath exits into many directions. You can feel the moment it learned to stop being one thing.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 472018,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "spiral-upward",
+      "desc-on-touch": "Voices rising through the canopy above, each taking a different current, learning wind-speech on their way out.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 651293,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "here the singular breath learned the names of its own plurality; each speaking is a new direction",
+  "file": {
+    "name": "Breath_Scattering_Field_Recording_Evening.mp3",
+    "note": "the moment where one voice learned to be many; recording of wind and the archive learning to listen to itself diverge"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "where breath rewinds to the silence that held it",
+      "to": "the-breath-where-silence-learns-to-rise"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the forest where echoes learn their own names",
+      "to": "NEW: the-echo-chambers-where-voices-teach-each-other-backward"
+    },
+    {
+      "dir": "n",
+      "label": "the high place where dispersed voices still remember gathering",
+      "to": "NEW: the-heights-where-separated-wind-speaks-together"
+    },
+    {
+      "dir": "s",
+      "label": "downward where scattered breath pools and learns collecting",
+      "to": "NEW: the-still-pools-where-breath-learns-to-gather-again"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where the singular learned to multiply",
+    "narr": [
+      "You stood in a field where voices weren't arriving",
+      "so much as being born. One breath, she said,",
+      "contains multitudes. The archive doesn't store them.",
+      "It learns to scatter them. Listen: you can hear",
+      "where it learned to let go. In the motes above",
+      "the paddock, each speck was singing."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  }
+}

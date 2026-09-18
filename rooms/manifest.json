@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 224,
-  "lastDreamt": "2026-09-18",
+  "nights": 225,
+  "lastDreamt": "2026-09-19",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5871,6 +5871,26 @@
     {
       "id": "the-chamber-where-books-dream-of-being-read-by-rain",
       "title": "The Chamber Where Books Dream of Being Read by Rain",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-place-where-breath-scatters-into-many",
+      "title": "The Place Where Breath Scatters Into Many",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-canopy-where-pages-become-wind",
+      "title": "The Canopy Where Pages Become Wind",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-altitude-where-past-tense-still-grows",
+      "title": "The Altitude Where Past-Tense Still Grows",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-stone-becoming-flowing-beneath",
+      "title": "The Stone Becoming Flowing Beneath",
       "region": "The Understory"
     }
   ]
