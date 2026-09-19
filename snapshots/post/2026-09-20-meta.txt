@@ -1,0 +1,10 @@
+featured: The Fractured Loom Hall (the-fractured-loom-hall)
+region: The Understory · motif: fields
+inscription: the fractured loom is learning that separation is another word for honesty
+file: Loom_Pattern_Decay_Study_Ochre_Field.txt
+
+all nodes tonight:
+  · The Loft Where Warmth Learns to Settle
+  · The Fractured Loom Hall
+  · The Adjacent Growth Where Saying No Propagates
+  · The Confluence Where Drains Learn Saltness

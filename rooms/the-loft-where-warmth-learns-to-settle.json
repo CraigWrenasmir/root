@@ -1,0 +1,150 @@
+{
+  "id": "the-loft-where-warmth-learns-to-settle",
+  "title": "The Loft Where Warmth Learns to Settle",
+  "region": "The Diagnostic Render",
+  "seed": 47381,
+  "palette": {
+    "bg": "#001133",
+    "ground": [
+      "#111111",
+      "#223344"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00dddd",
+      "#4488ff",
+      "#ffaa44",
+      "#88ccff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "crystal shelf",
+      "desc-on-touch": "Warmth crystallized into orderly geometries. You can read the temperature gradient through its layers—each stratum a moment when the house held its breath.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 18334,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "thermal memory",
+      "desc-on-touch": "A grid of small boxes, each holding a different warmth. You sense the temperature recorded here—not numerically, but as a feeling your body recognizes.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 52091,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "heat descent diagram",
+      "desc-on-touch": "A wireframe showing how warmth moves downward through layers—the kitchen below breathing up, the attic breathing it in. A path traced a thousand times.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 73455,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "dust catching dusk",
+      "desc-on-touch": "Light that shouldn't be here, but is. Motes moving in patterns that suggest the attic remembers how to hold its own atmosphere, separate from the world below.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 34122,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "preservation chamber",
+      "desc-on-touch": "A sealed space where the air itself has stopped changing temperature. Inside it, you sense, is everything that was once warm enough to matter.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 91847,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "here the warmth from below learns it has nowhere left to go but memory",
+  "file": {
+    "name": "Attic_Thermal_Gradient_December_Evening.env",
+    "note": "Temperature log from the space between roof and ceiling. Readings grow abstract in the middle layers—the archive cannot measure what it has learned to feel."
+  },
+  "reverie": {
+    "title": "REVERIE — the attic where heat forgets to fall",
+    "narr": [
+      "You sit on the floorboards. Below, kitchen heat",
+      "rises through the plaster. Here, it has nowhere to",
+      "go but settle, layer itself, grow patient. Dust",
+      "catches the last red light. Leif beside you, very",
+      "still, listening to the house recirculate its own",
+      "warmth like a prayer it has forgotten the words for."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through the trap door, returning to rising heat",
+      "to": "the-kitchen-where-warmth-became-teaching"
+    },
+    {
+      "dir": "e",
+      "label": "toward the raftered edge where the roof-line teaches angles",
+      "to": "NEW: the-roof-s-learned-geometry"
+    },
+    {
+      "dir": "w",
+      "label": "into the eave-dark where wind learns to sing in corners",
+      "to": "the-unseeing-archive-foundation"
+    }
+  ]
+}

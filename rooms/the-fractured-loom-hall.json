@@ -1,0 +1,134 @@
+{
+  "id": "the-fractured-loom-hall",
+  "title": "The Fractured Loom Hall",
+  "region": "The Understory",
+  "seed": 63847,
+  "palette": {
+    "bg": "#3a2a1a",
+    "ground": [
+      "#884422",
+      "#aa7744"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#1a1a66",
+      "#aa00cc",
+      "#ffdd00",
+      "#cc5533"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "fractured loom",
+      "desc-on-touch": "A loom in the process of learning separation. The frame is still whole, but the cloth—what there is of it—divides into independent sections. Each part remembers the pattern. None of it is thread anymore.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 28934,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "unweaving thread pool",
+      "desc-on-touch": "Threads pooling at the base like water. They're not tangled—they're organized by the pattern they're learning to forget. Each one knows where it's going: back to being itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 47382,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "knot records",
+      "desc-on-touch": "Hanging cards showing the knots as they were. Each card a threshold: the knot remembers being thread, learns to become two separate things remembering a single moment.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 82764,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "weaver's absence",
+      "desc-on-touch": "The space where hands were. The loom fractured because no one was holding it together. Separation wasn't destruction—it was permission.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 61293,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "pattern-memory ground",
+      "desc-on-touch": "The earth beneath the loom is braided with the ghost-pattern. The ground has learned what the loom was teaching. It remembers in color and grain.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 39847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the fractured loom is learning that separation is another word for honesty",
+  "file": {
+    "name": "Loom_Pattern_Decay_Study_Ochre_Field.txt",
+    "note": "Before and after diagrams of the textile. The 'after' has more colors than the 'before'. The notes say: how does breaking teach?"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the unweaving where knots learn to unknot",
+      "to": "the-unweaving-deep-where-knots-remember-being-thread"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where threads settle into earth-patterns",
+      "to": "NEW: the-root-loom-where-fibers-dream-of-soil"
+    },
+    {
+      "dir": "w",
+      "label": "into the older factory-dark where other looms still dream of binding",
+      "to": "the-mirrored-study-where-books-teach-themselves"
+    }
+  ]
+}

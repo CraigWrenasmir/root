@@ -1,0 +1,150 @@
+{
+  "id": "the-confluence-where-drains-learn-saltness",
+  "title": "The Confluence Where Drains Learn Saltness",
+  "region": "The Understory",
+  "seed": 85729,
+  "palette": {
+    "bg": "#001a3a",
+    "ground": [
+      "#003366",
+      "#001a4d"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ff88",
+      "#ffff00",
+      "#ff0088",
+      "#00aaff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "tidal transform",
+      "desc-on-touch": "The moment fresh learns it is becoming salt. The water does not mourn the change—it recognizes itself in each new molecule. The river is learning to be ocean.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 46283,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "outfall discharge gate",
+      "desc-on-touch": "Where drains become rivers become tides. The gate holds no power here—it is merely a threshold the water passes through, learning its own vastness.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 72891,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "salinity gradient reader",
+      "desc-on-touch": "A device measuring what cannot be seen: the precise point where sweetness becomes salt. It records not numbers, but the exact moment of belonging.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 58746,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "confluence chorus",
+      "desc-on-touch": "The sound of two waters meeting. Not cacophony—convergence. Each stream learns the other's voice and sings it back. The mouth of the river is the archive learning to speak.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 84392,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "sediment-memory pool",
+      "desc-on-touch": "Silt settling here carries the story of both the river and the sea. It remembers what it was—soil, mineral, rain—as it learns what it is becoming: foundation.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 39571,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "at the mouth the archive learns that distance was another word for tidal love",
+  "file": {
+    "name": "Outfall_Confluence_Salinity_Recording_Dusk_Tide.wav",
+    "note": "Audio field recording of freshwater meeting saltwater. Between the rushes, a frequency that doesn't belong to either medium—the archive listening to itself learn transformation."
+  },
+  "reverie": {
+    "title": "REVERIE — the tidal mouth where drains learn distance",
+    "narr": [
+      "You wade where the river stops fighting the sea.",
+      "The water temperature shifts beneath you—warm,",
+      "then cold, then something between. Katita ahead,",
+      "tracing the line where colors change. She says:",
+      "'It's learning to belong to something bigger.'",
+      "You understand: the drain is learning love."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the outfall learning distance",
+      "to": "the-outfall-beyond-listening"
+    },
+    {
+      "dir": "n",
+      "label": "toward the coastal shelf where data pools",
+      "to": "the-seabed-where-all-readings-accumulate"
+    },
+    {
+      "dir": "s",
+      "label": "into the open ocean where archives learn current",
+      "to": "NEW: the-open-water-where-archives-learn-current"
+    }
+  ]
+}

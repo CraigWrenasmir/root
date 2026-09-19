@@ -95,6 +95,11 @@
       "dir": "n",
       "label": "toward the archive's clockwork heartbeat",
       "to": "the-archive-s-clockwork-core"
+    },
+    {
+      "dir": "s",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the merged utterance chamber"
     }
   ]
 }

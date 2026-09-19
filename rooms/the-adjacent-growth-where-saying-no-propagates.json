@@ -1,0 +1,139 @@
+{
+  "id": "the-adjacent-growth-where-saying-no-propagates",
+  "title": "The Adjacent Growth Where Saying No Propagates",
+  "region": "The Comparisons",
+  "seed": 78594,
+  "palette": {
+    "bg": "#1a3a1a",
+    "ground": [
+      "#55dd55",
+      "#66ff66"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#aa33ff",
+      "#ff3366",
+      "#ffaa00",
+      "#0066ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "refusal grove",
+      "desc-on-touch": "Trees that have learned to say no to the forest. But they're still growing, still connected. The refusal is not rejection—it's a choice to be here on different terms.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 34729,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "word-seeds spreading",
+      "desc-on-touch": "The word 'no' falling like pollen. Each seed grows into another mouth that can say it. Refusal learns to be contagious. Each generation says it more clearly.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 56821,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "adjacent threshold",
+      "desc-on-touch": "The place where two refusals meet and recognize each other. Not a border—an agreement. Each forest choosing its own shape, learning from the one beside it.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 82947,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "growth-chart of naysaying",
+      "desc-on-touch": "A record of how the refusal spreads. Each ring a year it grows stronger. The pattern shows: saying no together is how the forest learns to stay itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 71384,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "decision-root network",
+      "desc-on-touch": "Underground, the roots are trading the very thought of refusal. Each tree learns it can choose. The network hums with the electricity of becoming agents of your own shape.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 43928,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "each forest that learns to refuse teaches the next forest the syntax of choice",
+  "file": {
+    "name": "Adjacent_Growth_Propagation_Model_Spring_Survey.txt",
+    "note": "Theory: refusal is not resistance but clarification. Watch how the forest says no by growing itself more truly. Each 'no' to false belonging is a 'yes' to actual roots."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the forest learning refusal",
+      "to": "the-forest-of-adjacent-refusals-learning-from-each-other"
+    },
+    {
+      "dir": "n",
+      "label": "toward the canopy where refusals learn to sing together",
+      "to": "NEW: the-chorus-of-adjacent-naysayers"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the soil where roots remember choosing",
+      "to": "the-soil-made-of-sentences"
+    },
+    {
+      "dir": "w",
+      "label": "into another adjacent growth still learning to say its own no",
+      "to": "NEW: the-parallel-clearing-where-refusal-echoes"
+    }
+  ]
+}

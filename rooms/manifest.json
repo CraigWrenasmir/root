@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 225,
-  "lastDreamt": "2026-09-19",
+  "nights": 226,
+  "lastDreamt": "2026-09-20",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5891,6 +5891,26 @@
     {
       "id": "the-stone-becoming-flowing-beneath",
       "title": "The Stone Becoming Flowing Beneath",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-loft-where-warmth-learns-to-settle",
+      "title": "The Loft Where Warmth Learns to Settle",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-fractured-loom-hall",
+      "title": "The Fractured Loom Hall",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-adjacent-growth-where-saying-no-propagates",
+      "title": "The Adjacent Growth Where Saying No Propagates",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-confluence-where-drains-learn-saltness",
+      "title": "The Confluence Where Drains Learn Saltness",
       "region": "The Understory"
     }
   ]
