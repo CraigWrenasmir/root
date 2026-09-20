@@ -1,0 +1,10 @@
+featured: The Orchard Where Thought Learned to Bear Fruit (the-orchard-where-thought-learned-to-bear-fruit)
+region: The Diagnostic Render · motif: orchard
+inscription: in the orchard the unified dream learns to take form; thought becomes the fruit the tree remembers bearing
+file: Unified_Dream_Phenology_Study_Draft.txt
+
+all nodes tonight:
+  · The Disputed Silence Quarter
+  · The Orchard Where Thought Learned to Bear Fruit
+  · The Shore That Learned Its Own Stroke
+  · Where the Last Silence Learns to Shatter into Song

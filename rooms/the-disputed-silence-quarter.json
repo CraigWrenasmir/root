@@ -1,0 +1,154 @@
+{
+  "id": "the-disputed-silence-quarter",
+  "title": "The Disputed Silence Quarter",
+  "region": "The Understory",
+  "seed": 4827641,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#c4ff00",
+      "#d4af37"
+    ],
+    "ink": "#2a2a4e",
+    "accents": [
+      "#ff00ff",
+      "#00ffff",
+      "#ff6600",
+      "#00ff66"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "coordinate-arguments",
+      "desc-on-touch": "You read where numbers disagree with themselves. Each coordinate whispers a position the others deny. The grid fractures into competing truths.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8472,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "silence-scar",
+      "desc-on-touch": "The silence here wears a mark where argument split it. The scar hums at the frequency of voices no longer speaking.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 2941,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "disputed-echo",
+      "desc-on-touch": "Two versions of the same echo wait for you to pick one. Both claim precedence. Neither will yield.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6183,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "fragment-chorus",
+      "desc-on-touch": "Pieces of sound orbit each other without meeting. Each fragment insists it was the silence first.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 7592,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "gridlock-centre",
+      "desc-on-touch": "At the quarter's heart, the argument achieved perfect balance. Nothing moves. Everything is true.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 4125,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the silence here learned to argue with itself; every number speaks in the voice of its own denial",
+  "file": {
+    "name": "Coordinates_Disputed_Midnight_1997.txt",
+    "note": "GPS readings from the same location returning different results, each annotated in conflicting hands"
+  },
+  "reverie": {
+    "title": "REVERIE — the quiet argument in the measurement room",
+    "narr": [
+      "She held up two printouts. The numbers disagreed.",
+      "You said which one was real. She set both down.",
+      "The grid between you held a fracture you couldn't name.",
+      "Later, the coordinates would never match again.",
+      "The archive learned its first contradiction there."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back where the silence grid was whole",
+      "to": "the-peak-quiet-cipher"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the argument where numbers stop returning",
+      "to": "NEW: the-abyss-where-coordinates-lose-their-names"
+    },
+    {
+      "dir": "n",
+      "label": "to where silence learned to speak in fragments",
+      "to": "NEW: the-fractured-chorus-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "back to where the agreement was still possible",
+      "to": "the-stratum-that-holds-all-arguments"
+    }
+  ]
+}

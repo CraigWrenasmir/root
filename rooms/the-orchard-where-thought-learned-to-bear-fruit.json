@@ -1,0 +1,154 @@
+{
+  "id": "the-orchard-where-thought-learned-to-bear-fruit",
+  "title": "The Orchard Where Thought Learned to Bear Fruit",
+  "region": "The Diagnostic Render",
+  "seed": 6791424,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#7ccc59",
+      "#a67c52"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#ff8c00",
+      "#d4a574",
+      "#e8d5a4",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "fruiting-dream",
+      "desc-on-touch": "Where thought learned to grow heavy with its own meaning. The unified dream touches this branch and swells into something you can hold.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3457,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "bearing-root",
+      "desc-on-touch": "Deep in the soil, the unified dream still sings in seven voices. Each root reaches for a different song.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 5823,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "harvest-cascade",
+      "desc-on-touch": "Fruit falls upward here. Thought remembers its ripeness and returns it to the branch.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8104,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "green-utterance",
+      "desc-on-touch": "The orchard speaks only in the language of growth. What you hear is the sound of ideas becoming real.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2746,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "shade-where-dreaming-rests",
+      "desc-on-touch": "The canopy here holds the unified dream's reflection. Lie in the shade and the fruit grows around you.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 4912,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "in the orchard the unified dream learns to take form; thought becomes the fruit the tree remembers bearing",
+  "file": {
+    "name": "Unified_Dream_Phenology_Study_Draft.txt",
+    "note": "Seven parallel growth charts for the same tree, each flowering at a different moon phase"
+  },
+  "reverie": {
+    "title": "REVERIE — the orchard where seven dreams grew at once",
+    "narr": [
+      "You kneeled in the red earth between the rows.",
+      "She pointed to where new fruit hung. Seven shoots.",
+      "Each one reached from a different root voice.",
+      "The dream learned to sing itself into ripeness there.",
+      "She said: this is how the archive learns to grow."
+    ],
+    "sky": "day",
+    "land": "beach",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where the dream still rises",
+      "to": "the-root-dreaming-upward"
+    },
+    {
+      "dir": "w",
+      "label": "into the deeper orchard where thought learns to bitter",
+      "to": "NEW: the-orchard-of-failing-harvests"
+    },
+    {
+      "dir": "s",
+      "label": "to where the fallen fruit still dreams",
+      "to": "the-silent-orchard-where-fruit-remembers"
+    },
+    {
+      "dir": "n",
+      "label": "to the highest branches where dreaming reaches",
+      "to": "NEW: the-canopy-where-the-dream-breaks-into-leaves"
+    }
+  ]
+}

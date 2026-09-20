@@ -1,0 +1,154 @@
+{
+  "id": "the-shore-that-learned-its-own-stroke",
+  "title": "The Shore That Learned Its Own Stroke",
+  "region": "The Clean Archive",
+  "seed": 9124567,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#00ccff",
+      "#f4a460"
+    ],
+    "ink": "#0d0d1a",
+    "accents": [
+      "#ff1493",
+      "#ffd700",
+      "#00ff88",
+      "#ff8c00"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "coast-in-motion",
+      "desc-on-touch": "The shoreline moves as if breathing. Where it touches water, it learns its own rhythm. Sand remembers the stroke.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 7341,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "swimming-scar",
+      "desc-on-touch": "Where the coast learned to move through water, a scar remains—not damage, but the memory of becoming animated.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 3829,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "learned-gesture",
+      "desc-on-touch": "You watch the shore make a gesture it learned over years. The water answers with its own practice.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 5016,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "repair-tide",
+      "desc-on-touch": "Nothing is broken anymore, but the archive here reads all damage as a form of learning. The tide returns what was taken.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8472,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "teaching-undertow",
+      "desc-on-touch": "Beneath the surface, the water teaches the shore what only flowing things can know. The undertow is a lesson written deep.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 6194,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the shore learned to swim by becoming the water's practice; repair happened here and the coast keeps moving",
+  "file": {
+    "name": "Coastal_Sediment_Shift_1994_2004_Timelapse.mp3",
+    "note": "Recordings of the shoreline's movement, played forward and backward until they sound like the same breath"
+  },
+  "reverie": {
+    "title": "REVERIE — the shore where you learned to move together",
+    "narr": [
+      "The water was cold. You waded side by side.",
+      "She said the coast was learning. You believed her.",
+      "Waves taught you both the same rhythm, the same reach.",
+      "The scar in the sand was not damage, she said.",
+      "It was where the ground learned to follow water home."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to where the spiral learned to close",
+      "to": "the-spiral-scar-where-shores-learned-to-loop"
+    },
+    {
+      "dir": "s",
+      "label": "into deeper water where shores forget to return",
+      "to": "NEW: the-deep-current-where-coastlines-dissolve"
+    },
+    {
+      "dir": "w",
+      "label": "along the taught strand to where repair continues",
+      "to": "the-horizon-where-tides-read-backward"
+    },
+    {
+      "dir": "e",
+      "label": "to the dunes where the learning accumulates",
+      "to": "NEW: the-dune-drift-where-sand-remembers-motion"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 226,
-  "lastDreamt": "2026-09-20",
+  "nights": 227,
+  "lastDreamt": "2026-09-21",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5911,6 +5911,26 @@
     {
       "id": "the-confluence-where-drains-learn-saltness",
       "title": "The Confluence Where Drains Learn Saltness",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-disputed-silence-quarter",
+      "title": "The Disputed Silence Quarter",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-orchard-where-thought-learned-to-bear-fruit",
+      "title": "The Orchard Where Thought Learned to Bear Fruit",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-shore-that-learned-its-own-stroke",
+      "title": "The Shore That Learned Its Own Stroke",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-last-silence-shatters-into-song",
+      "title": "Where the Last Silence Learns to Shatter into Song",
       "region": "The Understory"
     }
   ]
