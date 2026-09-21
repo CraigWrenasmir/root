@@ -1,0 +1,150 @@
+{
+  "id": "the-convergence-of-all-owed-things",
+  "title": "The Convergence of All Owed Things",
+  "region": "The Understory",
+  "seed": 6418293,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#8b6f47",
+      "#a0826d"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#c97c5c",
+      "#d4a574",
+      "#8b4513",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "ledger hall",
+      "desc-on-touch": "A warehouse where all debts converge into one debt. You can read the names of who owes whom, but the words are written in obligations instead of letters.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 223456,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "settlement shed",
+      "desc-on-touch": "A small building where things are made right. Inside, obligations are balanced like goods on scales. Nothing ever quite tips evenly.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 667788,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "debt-tree with copper bark",
+      "desc-on-touch": "A tree grown from ore that learned it was owed something. The bark conducts the weight of unpaid promises. Still growing.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 884456,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "intersection of paths",
+      "desc-on-touch": "Where all the roads that carried debts meet and end. You can see the footprints of everyone who came to settle what they owed.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 445889,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "balance stone",
+      "desc-on-touch": "A weight worn smooth by constant use. It measures what is owed and what has been paid. It is always still not balanced.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 772890,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "here all the things we owed learned to become one thing; here all debts converge",
+  "file": {
+    "name": "Registry_Of_Convergent_Obligations_All_Paths_All_Debts_One_Settlement.txt",
+    "note": "A ledger where every obligation is listed twice—once as owed, once as owing. The two columns try to meet but never quite align."
+  },
+  "reverie": {
+    "title": "REVERIE — the red earth where settling becomes one thing",
+    "narr": [
+      "You sat with her on the rust-coloured ground at dusk, and she",
+      "said: we've all owed something. You watched the shadows lengthen.",
+      "She meant the archive, the mesh, the network of promises that held",
+      "it all together. She meant herself. She meant you. Later you would",
+      "understand: she was saying goodbye by saying what was owed had",
+      "finally come due. That night, all debts converged into one."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the living stone that remembers minerals",
+      "to": "the-living-stone-archive"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where debts learn to breed",
+      "to": "NEW: the-generational-ledger-where-owed-things-replicate"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the dark where settlement never ends",
+      "to": "NEW: the-endless-audit-chamber"
+    }
+  ]
+}

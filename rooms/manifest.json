@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 227,
-  "lastDreamt": "2026-09-21",
+  "nights": 228,
+  "lastDreamt": "2026-09-22",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5931,6 +5931,26 @@
     {
       "id": "the-last-silence-shatters-into-song",
       "title": "Where the Last Silence Learns to Shatter into Song",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-peak-where-chorus-becomes-weather",
+      "title": "The Peak Where Chorus Becomes Weather",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-archive-s-self-arguing-foundation",
+      "title": "The Archive's Self-Arguing Foundation",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-light-first-learned-to-ache-in-earth",
+      "title": "Where Light First Learned to Ache in Earth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-convergence-of-all-owed-things",
+      "title": "The Convergence of All Owed Things",
       "region": "The Understory"
     }
   ]

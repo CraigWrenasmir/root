@@ -1,0 +1,150 @@
+{
+  "id": "the-archive-s-self-arguing-foundation",
+  "title": "The Archive's Self-Arguing Foundation",
+  "region": "The Understory",
+  "seed": 5193847,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a3a4a",
+      "#4a6a5a"
+    ],
+    "ink": "#d4e8e0",
+    "accents": [
+      "#ff6b6b",
+      "#ffd93d",
+      "#6bcf7f",
+      "#4d96ff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "arguing ledgers",
+      "desc-on-touch": "Rows of filing cabinets in endless rows. Each one contains a version of the archive that contradicts the next. They never stop disagreeing.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 223916,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "circuit loop that eats itself",
+      "desc-on-touch": "A trace where the signal went in, got contradicted halfway, and came back the wrong way. Still spinning. Still arguing.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 667434,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "fence of broken mirrors",
+      "desc-on-touch": "You can see the archive's reflection, but each shard shows a different version of itself. None of them agree on what they're looking at.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 445223,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "contradiction bloom",
+      "desc-on-touch": "Where two mutually exclusive truths learned to grow in the same soil. The petals are data that cannot coexist.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 889105,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "checksum stone",
+      "desc-on-touch": "A rock worn smooth by constant disagreement. The archive set it here to mark the moment it stopped being sure of its own sums.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 112684,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "every answer here argues with the one that came before it",
+  "file": {
+    "name": "Archive_Version_Conflicts_Checksum_Divergences_Unresolved.txt",
+    "note": "A ledger of every moment the archive discovered it disagreed with itself. The contradictions accelerate toward the end."
+  },
+  "reverie": {
+    "title": "REVERIE — the shed where numbers stopped meaning the same th",
+    "narr": [
+      "You knelt with her in the work-shed, columns of numbers laid",
+      "out on the bench. She traced a finger across the ledger and",
+      "said: they don't add the same way anymore. You checked again.",
+      "She was right. The sums had shifted; the same numbers no longer",
+      "agreed with themselves. She looked up from the page. The",
+      "archive, she said softly, is learning to argue with itself."
+    ],
+    "sky": "overcast",
+    "land": "paddock",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the layer of first doubts",
+      "to": "the-point-where-math-learned-to-contradict-itself"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the plantation of conflicting names",
+      "to": "NEW: the-field-where-signatures-war-with-themselves"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where the archive keeps two truths",
+      "to": "NEW: the-twin-chamber-where-both-sides-are-right"
+    }
+  ]
+}

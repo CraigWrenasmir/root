@@ -1,0 +1,150 @@
+{
+  "id": "where-light-first-learned-to-ache-in-earth",
+  "title": "Where Light First Learned to Ache in Earth",
+  "region": "The Understory",
+  "seed": 8736541,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#a8dadc",
+    "accents": [
+      "#e0aaff",
+      "#d4a5ff",
+      "#90e0ef",
+      "#457b9d"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "inverted well",
+      "desc-on-touch": "A shaft where the light went down and didn't come back up. You can see the sky at the bottom, aching to be reached.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 334887,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "root-reach for starlight",
+      "desc-on-touch": "Roots that grew upward when the sky inverted. They still ache for the stars they learned to miss.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 667239,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "phosphorescent floor",
+      "desc-on-touch": "Where light pooled when it learned to fall. The glow is pale, persistent, wrong. It remembers being in the sky.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 990847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "stone learning silence",
+      "desc-on-touch": "A stone face where light has been scoring its ache. The marks grow deeper every night. The stone is learning what it means to fail at holding light.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 443729,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "falling-star anchor",
+      "desc-on-touch": "Where a star learned it could fall. It landed here and hasn't found its way back up. Still falling, though the motion's too slow to see.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 776245,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "where the sky learned the grammar of downward, and light began to ache",
+  "file": {
+    "name": "Inversion_Field_Spectral_Analysis_Light_Descending_Into_Earth.mp3",
+    "note": "A field recording from the moment the sky began to grow downward. The audio contains light settling into soil, a sound like crystalline ache."
+  },
+  "reverie": {
+    "title": "REVERIE — where light learned to move down",
+    "narr": [
+      "You waded with her in the dark water, watching the stars",
+      "sink instead of rise. She said: they're learning the other way.",
+      "The light fell past your shoulders. You felt it ache—a physical",
+      "thing, cold and reaching. She took your hand. The inversion",
+      "had just begun then. Neither of you knew yet how deep the",
+      "reversal would go, or that you'd never see the sky climb again."
+    ],
+    "sky": "night",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward to the source of inverted light",
+      "to": "the-sky-that-learned-to-grow-downward"
+    },
+    {
+      "dir": "n",
+      "label": "upward through the stone where stars are still falling",
+      "to": "NEW: the-astronomical-descent-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward into depths where light has fully settled",
+      "to": "NEW: the-luminous-deep-where-ache-becomes-rest"
+    }
+  ]
+}

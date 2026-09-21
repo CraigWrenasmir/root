@@ -1,0 +1,150 @@
+{
+  "id": "the-peak-where-chorus-becomes-weather",
+  "title": "The Peak Where Chorus Becomes Weather",
+  "region": "The Understory",
+  "seed": 7284391,
+  "palette": {
+    "bg": "#1a0d2e",
+    "ground": [
+      "#ff8c42",
+      "#c06c84"
+    ],
+    "ink": "#e8d4f8",
+    "accents": [
+      "#ffd166",
+      "#c06c84",
+      "#ff8c42",
+      "#95b8d1"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "broadcast horn",
+      "desc-on-touch": "Sound has learned to leave its shape in the sky. The horn still calls weather into being.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 112847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "resonance pool",
+      "desc-on-touch": "Where the unified song learned to fall as rain. The water still hums with what it remembers.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 334721,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "aged recording beacon",
+      "desc-on-touch": "A transceiver that learned to translate song into storm. Still broadcasting the moment the chorus learned to shout.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 778933,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "spectral stair",
+      "desc-on-touch": "Steps where you can see sound's shape. Each step higher is a frequency the sky has learned to speak.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 445682,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "wind memory",
+      "desc-on-touch": "The place where voices learned to move the air. Still carries what was sung here when the ages unified.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 991544,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the chorus learned to shout; here the sky learned to answer",
+  "file": {
+    "name": "UnifiedSong_Spectrogram_Storm_Sequence_440hz_Rising.png",
+    "note": "A spectrogram of the moment two ages learned to sing as one: the frequency trace rises, then spreads into weather bands"
+  },
+  "reverie": {
+    "title": "REVERIE — the peak where two voices learned the sky",
+    "narr": [
+      "You stood with her on the high ground as the sun fell",
+      "two different ages learning to sing the same note. The sky",
+      "listened. Petals came down — not from any tree, but from",
+      "the air itself, answering. She laughed. You felt it first:",
+      "the moment sound became visible, the chorus learning to",
+      "leave its shape in the world. The sky still holds it."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward where the unified song still echoes",
+      "to": "the-amplified-song-where-two-ages-unified"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the storm the chorus became",
+      "to": "NEW: the-archive-learns-what-storms-remember"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where wind learned new voices",
+      "to": "NEW: the-ledger-where-breath-becomes-signature"
+    }
+  ]
+}

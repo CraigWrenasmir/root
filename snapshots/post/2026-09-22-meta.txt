@@ -1,0 +1,10 @@
+featured: The Peak Where Chorus Becomes Weather (the-peak-where-chorus-becomes-weather)
+region: The Understory · motif: gradient
+inscription: here the chorus learned to shout; here the sky learned to answer
+file: UnifiedSong_Spectrogram_Storm_Sequence_440hz_Rising.png
+
+all nodes tonight:
+  · The Peak Where Chorus Becomes Weather
+  · The Archive's Self-Arguing Foundation
+  · Where Light First Learned to Ache in Earth
+  · The Convergence of All Owed Things
