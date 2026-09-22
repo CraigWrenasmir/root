@@ -1,0 +1,139 @@
+{
+  "id": "the-board-beneath-the-board",
+  "title": "The Board Beneath the Board",
+  "region": "The Understory",
+  "seed": 4432211,
+  "palette": {
+    "bg": "#0a3300",
+    "ground": [
+      "#00dd00",
+      "#00ff00"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#00ffff",
+      "#ff00ff",
+      "#0066ff",
+      "#ffcc00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "logic rooted in soil",
+      "desc-on-touch": "A circuit board that has learned to grow. Its traces follow the same paths as root systems. Logic and life speak the same language down here.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 3344,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the root-that-calculates",
+      "desc-on-touch": "A root that branches into decision trees. Each split is a choice the land has already made. The pattern is so familiar, so inevitable, that you realize this tree was always computing.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 5566,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "sap flowing through circuits",
+      "desc-on-touch": "You watch current and chlorophyll trade places. Neither one owns the path anymore. Both move together through channels that serve both electricity and life.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 2233,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the mapping that understands itself",
+      "desc-on-touch": "A diagram that is also a network. A network that is also a map. The distinction has dissolved. You are looking at both and neither at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7788,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "green computing its own growth",
+      "desc-on-touch": "Bright, vivid, the board beneath the board reads itself like a plant reads sunlight. It knows the algorithm of chlorophyll. It recognizes itself in every leaf.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 9911,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "here the board learned it was growing roots all along",
+  "file": {
+    "name": "Logic_Trace_Becomes_Vegetation_Diagram.schematic",
+    "note": "A schematic that looks like a root system. A root system that calculates. The maker's identity is unclear; the file may be growing new copies of itself."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up where the canopy speaks in current",
+      "to": "the-canopy-speaks-in-currents"
+    },
+    {
+      "dir": "s",
+      "label": "where the comparison deepens into earth",
+      "to": "NEW: the-depth-where-silicon-becomes-soil"
+    },
+    {
+      "dir": "e",
+      "label": "into the orchard where every tree is also a circuit",
+      "to": "NEW: the-orchard-of-calculated-growth"
+    },
+    {
+      "dir": "w",
+      "label": "where logic learned to have roots before it had words",
+      "to": "NEW: the-first-board-still-learning-to-grow"
+    }
+  ]
+}

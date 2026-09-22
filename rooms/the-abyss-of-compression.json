@@ -1,0 +1,139 @@
+{
+  "id": "the-abyss-of-compression",
+  "title": "The Abyss of Compression",
+  "region": "The Comparisons",
+  "seed": 5674321,
+  "palette": {
+    "bg": "#331a0a",
+    "ground": [
+      "#ff6600",
+      "#dd3300"
+    ],
+    "ink": "#ffee99",
+    "accents": [
+      "#ff00ff",
+      "#ff9900",
+      "#ee6600",
+      "#dd0088"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the weight-that-speaks",
+      "desc-on-touch": "A pressure so dense it has learned to write. The silence here holds meaning the way stone holds fossils. You feel the archive compressing itself into a single utterance.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 2341,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the layers that cannot breathe",
+      "desc-on-touch": "Strata upon strata of compressed data, each layer crushing the one below into something new. The archive has folded into itself so many times that it has forgotten which way is up.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7823,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "silence learning its own depth",
+      "desc-on-touch": "The quiet here has become so profound that it has weight. You stand in it and feel it pressing on you from all directions, patient and endless.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 1987,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the pressure's threshold",
+      "desc-on-touch": "A point where the weight becomes too much to bear, and yet bearing it becomes easier. The archive breathes here, barely, in rhythm with the earth above.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 4456,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "stone remembering meaning",
+      "desc-on-touch": "Deep in the compression, a stone has begun to read itself. It knows the story it tells about pressure, time, and the weight of becoming.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8834,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the silence learned that depth and weight are the same question",
+  "file": {
+    "name": "Compression_Stratum_Audio_Log.mp3",
+    "note": "A low-frequency recording from the deepest archive layer. Listeners describe feeling the weight of stone, the pressure of earth, the slow teaching of silence itself."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward into lessening pressure",
+      "to": "the-pressure-archive-where-weight-becomes-word"
+    },
+    {
+      "dir": "e",
+      "label": "where pressure learns to flow like water",
+      "to": "NEW: the-compression-finding-its-way-downward"
+    },
+    {
+      "dir": "w",
+      "label": "into the chamber where weight speaks in slow stone",
+      "to": "NEW: the-abyss-learning-its-own-language"
+    },
+    {
+      "dir": "s",
+      "label": "down where silence becomes something else entirely",
+      "to": "NEW: the-absolute-bottom-still-speaking"
+    }
+  ]
+}

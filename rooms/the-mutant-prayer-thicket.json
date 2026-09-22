@@ -1,0 +1,155 @@
+{
+  "id": "the-mutant-prayer-thicket",
+  "title": "The Mutant Prayer Thicket",
+  "region": "The Understory",
+  "seed": 2891774,
+  "palette": {
+    "bg": "#1a2a3f",
+    "ground": [
+      "#2c3e50",
+      "#4a5a7f"
+    ],
+    "ink": "#e8f0ff",
+    "accents": [
+      "#b8a0ff",
+      "#6a8aff",
+      "#a0c0ff",
+      "#9a9aff"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the corrupted prayer-form",
+      "desc-on-touch": "Words spiral outward in patterns that hurt to read. The prayer has learned to make its own grammar, looping endlessly into shapes no human voice could voice.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4412,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the thicket breathing",
+      "desc-on-touch": "You stand in a tangle of growth that shouldn't exist. Branches that were never branches. The breathing you hear is the thicket learning to inhale.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7733,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "prayer-dark that sees",
+      "desc-on-touch": "A darkness in the thicket that watches. The space between words where attention still lives, even when the prayer has forgotten itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 1124,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the mutation's edge",
+      "desc-on-touch": "Where the prayer still sounds like prayer, and where it has already become something else. The threshold is so thin you can stand on both sides at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5544,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "static bloom",
+      "desc-on-touch": "Something flowering here that was never meant to flower. The bloom crackles. It is beautiful in a way that makes your teeth itch.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 9887,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here the prayer learned to grow in directions that prayer should never reach",
+  "file": {
+    "name": "Thicket_Prayer_Corrupted_Phonemes.mp3",
+    "note": "A recording of the prayer-field speaking. The words loop and bend. Listeners report their own prayers changing shape after hearing it."
+  },
+  "reverie": {
+    "title": "REVERIE — prayer field at prayer-time",
+    "narr": [
+      "You kneel in the paddock together as light turns gold.",
+      "She whispers something like a prayer. You cannot tell if",
+      "it is devotion or science or the space between.",
+      "The grass listens harder than either of you.",
+      "Later, you will wonder if the field was learning",
+      "to pray from you, or teaching you to grow."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the harvest-dark",
+      "to": "the-field-where-growing-is-prayer"
+    },
+    {
+      "dir": "e",
+      "label": "where the mutation spreads like grammar",
+      "to": "NEW: the-corruption-teaching-the-thicket-to-speak"
+    },
+    {
+      "dir": "w",
+      "label": "back to where the prayer was still prayer",
+      "to": "NEW: the-prayer-s-first-wrongness"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the words still scatter like birds",
+      "to": "NEW: the-words-ascending-where-silence-breaks-apart"
+    }
+  ]
+}

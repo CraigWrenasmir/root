@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 228,
-  "lastDreamt": "2026-09-22",
+  "nights": 229,
+  "lastDreamt": "2026-09-23",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5951,6 +5951,26 @@
     {
       "id": "the-convergence-of-all-owed-things",
       "title": "The Convergence of All Owed Things",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-mutant-prayer-thicket",
+      "title": "The Mutant Prayer Thicket",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-abyss-of-compression",
+      "title": "The Abyss of Compression",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-board-beneath-the-board",
+      "title": "The Board Beneath the Board",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-field-learning-to-broadcast",
+      "title": "The Field Learning to Broadcast",
       "region": "The Understory"
     }
   ]

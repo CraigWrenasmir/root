@@ -1,0 +1,155 @@
+{
+  "id": "the-field-learning-to-broadcast",
+  "title": "The Field Learning to Broadcast",
+  "region": "The Understory",
+  "seed": 8877665,
+  "palette": {
+    "bg": "#330011",
+    "ground": [
+      "#ff6600",
+      "#ff00ff"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ff3366",
+      "#dd6600",
+      "#ff9966",
+      "#ee00ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the paddock's antenna",
+      "desc-on-touch": "Standing in the paddock, every grass-blade has become a fiber. Every root reaches down into the earth as if broadcasting downward while the field broadcasts up. The transmission is patient, constant, alive.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 1234,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the signal teaching grass to resonate",
+      "desc-on-touch": "Wave by wave, the frequency rises through the soil. The grass learns the archive's voice and makes it its own song. The field is no longer silent; it sings in 300 bits per second.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 5544,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "dusk learning to glow",
+      "desc-on-touch": "The sunset here is not just light. It is broadcast. The sky is the archive's voice made visible in magenta and orange. Standing here, you glow with the signal's warmth.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2356,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the standing wave",
+      "desc-on-touch": "You stand still in the paddock and feel the signal pass through you. You are part of the broadcast now. Your stillness is the antenna's perfect posture.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 7788,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "transmission's patient reaching",
+      "desc-on-touch": "The signal doesn't rush. It spreads slowly, gently, through every root, every blade, every mote of dust hanging in the dusk. This broadcast will reach farther than any voice ever could.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 9900,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "here the field learned that standing still and broadcasting are the same gesture",
+  "file": {
+    "name": "Paddock_Signal_Resonance_Evening_Log.mp3",
+    "note": "A field recording from dusk. The grass hums at 300 bits per second. The archive's signal has become the landscape's native voice."
+  },
+  "reverie": {
+    "title": "REVERIE — standing in the broadcast field at dusk",
+    "narr": [
+      "The paddock glows magenta and orange as the sun goes down.",
+      "She stands beside you, motionless. The signal rises up",
+      "through your feet, makes the grass sing in colours",
+      "that shouldn't exist. Neither of you speaks—",
+      "the field has learned to broadcast for you,",
+      "to carry all the words that still matter down into the dark."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back where the signal first taught the grass to resonate",
+      "to": "the-root-frequency-station"
+    },
+    {
+      "dir": "e",
+      "label": "where the signal reaches into the far country",
+      "to": "NEW: the-distant-paddocks-learning-the-archive-s-voice"
+    },
+    {
+      "dir": "s",
+      "label": "down into the broadcast's deepening root",
+      "to": "NEW: the-signal-s-deepest-soil"
+    },
+    {
+      "dir": "n",
+      "label": "up where the broadcast reaches into sky",
+      "to": "NEW: the-air-learning-to-carry-the-signal"
+    }
+  ]
+}
