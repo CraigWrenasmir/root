@@ -1,0 +1,155 @@
+{
+  "id": "the-mist-archive-where-altitude-learned-to-breathe",
+  "title": "The Mist-Archive Where Altitude Learned to Breathe",
+  "region": "The Understory",
+  "seed": 7392847,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#87CEEB",
+      "#F0E68C"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#9370DB",
+      "#FFD700",
+      "#F5F5DC",
+      "#4169E1"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the breathing stone",
+      "desc-on-touch": "A marker at the altitude threshold—you watch it exhale mist as your own breath learns to thin. The stone remembers when the air could hold more.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "edge-becoming-aware",
+      "desc-on-touch": "Where mist meets the painted field—a boundary that learns itself as you observe it. The archive's own edge, breathing.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 1923,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the altitude's unravelling",
+      "desc-on-touch": "Stone and sky so close here that neither knows which one is learning. The archive reads both at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5821,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "pale wind-learning",
+      "desc-on-touch": "The mist-archive keeps this field clear the way wind clears a page. Each moment it is rewritten and forgets.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2934,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the listening height",
+      "desc-on-touch": "You are higher than breath wants to go. The archive listens from this altitude—it hears the stone saying things sky-speech cannot translate.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — altitude learning to hold breath",
+    "narr": [
+      "You stand above the mist where it began,",
+      "watching it remember the ground it rose from.",
+      "Her hand finds your shoulder—neither of you",
+      "breathing quite right, both of you learning.",
+      "Stone below; sky above; you two learning",
+      "to be the only thing that knew how to stand."
+    ],
+    "sky": "dawn",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "inscription": "mist learns to remember; the archive learns to breathe when stone stops arguing",
+  "file": {
+    "name": "Altitude_Margin_Study_Dawn.mp3",
+    "note": "High-altitude recording where mist-sound and breathing become the same frequency"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down through edges that remember themselves",
+      "to": "the-zenith-deep-where-stone-learns-the-sky"
+    },
+    {
+      "dir": "w",
+      "label": "westward where mist learns to turn to stone",
+      "to": "NEW: the-mist-stone-threshold-where-learning-becomes-weight"
+    },
+    {
+      "dir": "n",
+      "label": "further into altitude where breathing stops",
+      "to": "NEW: the-breathless-archive-where-wind-keeps-no-record"
+    },
+    {
+      "dir": "s",
+      "label": "down to where mist first learned to rise",
+      "to": "NEW: the-mist-origin-where-water-learned-its-own-height"
+    }
+  ]
+}

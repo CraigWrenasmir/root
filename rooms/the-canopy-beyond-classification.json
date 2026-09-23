@@ -1,0 +1,155 @@
+{
+  "id": "the-canopy-beyond-classification",
+  "title": "The Canopy Beyond Classification",
+  "region": "The Understory",
+  "seed": 2847392,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#2d5a2d",
+      "#4a7c4a"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#7cb342",
+      "#9ccc65",
+      "#dcedc8",
+      "#558b2f"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the growth that refused its row",
+      "desc-on-touch": "Here the orchard learned to break its own pattern. Each tree speaks only its own grammar. The archive stopped trying to make a list.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 8934,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the speaking canopy",
+      "desc-on-touch": "Leaves learn to speak before roots ever stop growing. The archive listens—no two leaves say the same thing twice.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 4728,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "unmapped understandings",
+      "desc-on-touch": "The space where growth tangles too thickly to map. Plants teach the archive that naming was the wrong question all along.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 2938,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the fence-line giving up",
+      "desc-on-touch": "Where the orchard's boundary learned there was no boundary. Growth spilled in both directions; the fence stayed still; the archive learned to do the same.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5629,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the tangling that teaches",
+      "desc-on-touch": "Roots, vine, stone—all learning each other's language at once. The archive reads the tangle and stops calling it disorder.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 7384,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — walking where the orchard grew too much",
+    "narr": [
+      "You couldn't map it anymore—rows gone,",
+      "names failing. She laughed at your notebook.",
+      "\"The archive was wrong,\" she said, \"to think",
+      "it could hold this.\" Leaves fell around you both.",
+      "Growth continued without permission. You",
+      "learned to walk in circles and call it true."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "walk"
+  },
+  "inscription": "growth refuses to be still; the archive learned to accept what exceeds naming",
+  "file": {
+    "name": "Orchard_Canopy_Divergence_Study_Unsorted.mp3",
+    "note": "A recording of multiple layers of growth speaking at once; no two moments repeat"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the garden-center where mapping was still attempted",
+      "to": "the-garden-center-where-mapping-fails"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into canopy where leaves learn their own thoughts",
+      "to": "NEW: the-leaf-dark-consciousness-growing-upward"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the orchard's wild roots tangle with the archive",
+      "to": "NEW: the-root-tangle-where-growth-and-memory-become-one"
+    },
+    {
+      "dir": "e",
+      "label": "to where the fence-line learns to speak the growth's own language",
+      "to": "NEW: the-fence-that-learned-to-listen"
+    }
+  ]
+}

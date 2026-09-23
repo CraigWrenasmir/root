@@ -1,0 +1,155 @@
+{
+  "id": "the-trench-bottom-where-echo-forgets-to-return",
+  "title": "The Trench Bottom Where Echo Forgets to Return",
+  "region": "The Diagnostic Render",
+  "seed": 9283746,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#3a5a4a",
+      "#5a7a6a"
+    ],
+    "ink": "#d0d0d0",
+    "accents": [
+      "#8fbc8f",
+      "#a9a9a9",
+      "#6b8e23",
+      "#c0c0c0"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the sound that died here",
+      "desc-on-touch": "This is where echo stopped coming back. The trench absorbed your voice and made it stone. Now it sings without returning.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4837,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the silence that learned to speak",
+      "desc-on-touch": "Down here, absence has texture. The archive reads the shape of what didn't come back—that shape is the sound's true body.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the compressed frequencies",
+      "desc-on-touch": "Every sound that entered this trench learned to lower its voice until it was sediment. The archive keeps their final tones.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6291,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the deepest listening",
+      "desc-on-touch": "At the trench bottom, the archive stopped asking sound to return. It learned to hear the sediment's own voice instead.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5103,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the contour of forgetting",
+      "desc-on-touch": "The trench shape itself teaches echo to forget. The walls carry no memory of what passed them. Perfect amnesia.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7834,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — at the trench bottom, waiting for the sound to com",
+    "narr": [
+      "You called down. She knelt, waiting.",
+      "No echo. No return. Just the silence",
+      "that had already learned to be stone.",
+      "\"It came back as something else,\" she said.",
+      "You listened to the absence—it had",
+      "more to say than any voice ever could."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "drain",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "inscription": "at the deepest point, sound forgets to return and learns to be silence; the archive reads both as one",
+  "file": {
+    "name": "Trench_Field_Recording_Silence_Becomes_Sediment.wav",
+    "note": "The sound that died at depth, compressed into the sediment layer itself"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up to where sound still travels",
+      "to": "the-trench-where-sound-becomes-sediment"
+    },
+    {
+      "dir": "w",
+      "label": "westward into bedrock where silence learns to sing",
+      "to": "NEW: the-bedrock-song-where-silence-never-returns"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the trench has no bottom",
+      "to": "NEW: the-abyssal-listening-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "up the trench wall where echoes first learned to die",
+      "to": "NEW: the-dying-echo-strata"
+    }
+  ]
+}

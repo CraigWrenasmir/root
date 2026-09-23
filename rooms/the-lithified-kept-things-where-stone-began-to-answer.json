@@ -1,0 +1,155 @@
+{
+  "id": "the-lithified-kept-things-where-stone-began-to-answer",
+  "title": "The Lithified Kept-Things Where Stone Began to Answer",
+  "region": "The Understory",
+  "seed": 3847392,
+  "palette": {
+    "bg": "#E8D4B8",
+    "ground": [
+      "#D4A574",
+      "#5DADE2"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#8B4513",
+      "#2E8B57",
+      "#DAA520",
+      "#4A4A4A"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the kept-thing turning",
+      "desc-on-touch": "A small object—letter, photograph frame—halfway to stone. The archive kept asking: what does this mean? The earth heard and began to answer.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 4928,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the question made stone",
+      "desc-on-touch": "Ask the earth long enough and it learns your question. This one, asked a thousand times, has become a pebble that remembers every version.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7384,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the slow teaching",
+      "desc-on-touch": "Kept things arranged by how long they've been kept. At the far end, the oldest—now indistinguishable from the sediment that holds it.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2917,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the archive's listening chamber",
+      "desc-on-touch": "Here the kept things finish their slow answer. You hear it as stone: patient, final, true.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 5103,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the becoming-ground",
+      "desc-on-touch": "The boundary where kept things start to be earth. No separation now between the thing and the thousand-year question and the answer that is stone.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 6251,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — afternoon in the keeping-place",
+    "narr": [
+      "She held up the letter, sun through it,",
+      "ink greyed but the fold still sharp.",
+      "\"This is what it means,\" she said, \"to keep.\"",
+      "The earth was patient below you both.",
+      "Neither of you moving. The shed around you",
+      "learning slowly to forget what it held."
+    ],
+    "sky": "day",
+    "land": "redearth",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "to keep is to ask the earth a question; the stone is the answer that has learned patience",
+  "file": {
+    "name": "Letter_To_Katita_1984_Lithified.txt",
+    "note": "A kept letter, three lines remaining; the rest become mineral record"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where keeping still happens",
+      "to": "the-deepening-keep-where-all-kept-things-become-roots"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into sediment where the oldest answers rest",
+      "to": "NEW: the-sediment-gallery-where-kept-things-become-the-only-truth"
+    },
+    {
+      "dir": "w",
+      "label": "toward bedrock where the archive's first kept thing waits",
+      "to": "NEW: the-first-kept-object-at-bedrock"
+    },
+    {
+      "dir": "e",
+      "label": "to where stone learns to speak the original question",
+      "to": "NEW: the-echo-stone-where-questions-return-as-answers"
+    }
+  ]
+}
