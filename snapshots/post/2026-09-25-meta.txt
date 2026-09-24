@@ -1,0 +1,10 @@
+featured: The Exhibition Where Viewers Refuse to Appear (the-exhibition-where-viewers-refuse-to-appear)
+region: The Diagnostic Render · motif: fields
+inscription: the exhibition continues in perfect silence; no one comes to see it, and so it is never disappointed
+file: Exhibition_Catalogue_Where_Viewers_Refuse.txt
+
+all nodes tonight:
+  · The Ridge's Memory Grove
+  · The Archive Learns What Storms Remember
+  · The Broadcast Where Echo Becomes Conversation
+  · The Exhibition Where Viewers Refuse to Appear

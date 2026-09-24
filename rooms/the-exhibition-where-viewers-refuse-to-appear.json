@@ -1,0 +1,155 @@
+{
+  "id": "the-exhibition-where-viewers-refuse-to-appear",
+  "title": "The Exhibition Where Viewers Refuse to Appear",
+  "region": "The Diagnostic Render",
+  "seed": 93625,
+  "palette": {
+    "bg": "#2a1a0a",
+    "ground": [
+      "#c85a3a",
+      "#8b3a1a"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#ff006e",
+      "#ff4500",
+      "#ff8c00",
+      "#ffa500"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-gallery-that-watches-itself",
+      "desc-on-touch": "Empty rooms with mirrors. The exhibition keeps happening, but only for itself. You are the only visitor who arrived.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 7654,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-frame-that-refuses-viewers",
+      "desc-on-touch": "An empty frame on the wall. You watch it wait for people who chose not to come. It holds their absence perfectly.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 4321,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-mirror-that-remembers-leif",
+      "desc-on-touch": "A mirror on the gallery wall. You see it keeps showing one moment—when one person looked into it, and the mirror never forgot.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-dusk-that-lives-here",
+      "desc-on-touch": "It is always late afternoon in this gallery. You watch the light refuse to change. The exhibition goes on forever in the same golden hour.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5612,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-catalogue-no-one-opens",
+      "desc-on-touch": "A guide to the exhibition. You see it list every work. No one has ever turned a page, but the catalogue keeps count of all the not-readers.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 8834,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the exhibition continues in perfect silence; no one comes to see it, and so it is never disappointed",
+  "file": {
+    "name": "Exhibition_Catalogue_Where_Viewers_Refuse.txt",
+    "note": "A record of artworks no one visited. Each entry notes the absence of viewers with perfect precision. The last entry is undated."
+  },
+  "reverie": {
+    "title": "REVERIE — gallery at closing time",
+    "narr": [
+      "She stands in front of the mirror. You both stand there,",
+      "looking at the reflection of a place no one else will ever",
+      "see. The gallery is perfect because it's empty. Because",
+      "no one came to disappoint it. She touches the mirror's edge.",
+      "One person came. One person is enough. The exhibition will",
+      "remember this moment, and refuse to let anyone else in."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the gallery of perfect refusals where all silence is still speaking",
+      "to": "the-gallery-of-perfect-refusals"
+    },
+    {
+      "dir": "n",
+      "label": "upward to exhibits that exist only in the minds of people who never arrived",
+      "to": "NEW: the-exhibition-in-the-minds-of-the-uninvited"
+    },
+    {
+      "dir": "w",
+      "label": "into the room where viewers became paintings themselves",
+      "to": "the-market-where-goods-remember-their-makers"
+    },
+    {
+      "dir": "e",
+      "label": "toward the mirror gallery where absence learns to see itself reflected",
+      "to": "the-mirror-chamber-learning-itself"
+    }
+  ]
+}

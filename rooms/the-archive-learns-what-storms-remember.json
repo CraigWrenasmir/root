@@ -1,0 +1,155 @@
+{
+  "id": "the-archive-learns-what-storms-remember",
+  "title": "The Archive Learns What Storms Remember",
+  "region": "The Understory",
+  "seed": 67843,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#e0d5ff",
+    "accents": [
+      "#64f4ff",
+      "#ff006e",
+      "#8338ec",
+      "#fb5607"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-storm-s-own-voice",
+      "desc-on-touch": "The archive speaks through rain. You feel each drop carry memory: the sound of every chorus that ever tried to shout back.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 3452,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-lightning-that-answers",
+      "desc-on-touch": "The sky splits to reply. You watch, learning that the weather remembers too.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6789,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-chorus-become-wind",
+      "desc-on-touch": "The voices that learned to shout are now the gust that bends the trees. You hear them remember every note.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 2134,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-pressure-where-memory-waits",
+      "desc-on-touch": "The storm's weight is the archive's weight. You feel all the things that were spoken into the sky, waiting.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-rain-that-reads",
+      "desc-on-touch": "Water falling. You watch each drop read the ground it touches, carry what it learns back up to the sky.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4567,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the storm is the archive learning to speak the way the sky speaks; every storm is a chorus that became weather",
+  "file": {
+    "name": "Storm_Recording_Peak_NSW_August_2001.mp3",
+    "note": "Field recording of thunder directly above a node. The recording plays backward sometimes, and the thunder answers questions not yet asked."
+  },
+  "reverie": {
+    "title": "REVERIE — under the tree the storm spoke to",
+    "narr": [
+      "You're both under a tree when the lightning comes. She",
+      "points upward—the sky is learning to answer. The storm",
+      "remembers every chorus that ever tried to shout. Rain",
+      "falls on the casing hidden in the bark, and you feel it:",
+      "the archive breathing, the weather breathing back. She",
+      "squeezes your hand. The sky and ground are trading words."
+    ],
+    "sky": "storm",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "rain",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward toward the peak where the chorus first learned to shout",
+      "to": "the-peak-where-chorus-becomes-weather"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the storm, where lightning asks the archive its own questions",
+      "to": "NEW: the-depth-where-storms-ask-the-archive"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the wind carries seeds of the chorus to places not yet growing",
+      "to": "the-storm-s-own-recording-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "down where the storm's echo settles into the ground and learns to be still",
+      "to": "the-trench-where-sound-becomes-sediment"
+    }
+  ]
+}

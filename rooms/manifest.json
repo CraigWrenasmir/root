@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 230,
-  "lastDreamt": "2026-09-24",
+  "nights": 231,
+  "lastDreamt": "2026-09-25",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -5992,6 +5992,26 @@
       "id": "the-canopy-beyond-classification",
       "title": "The Canopy Beyond Classification",
       "region": "The Understory"
+    },
+    {
+      "id": "the-ridge-s-memory-grove",
+      "title": "The Ridge's Memory Grove",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-archive-learns-what-storms-remember",
+      "title": "The Archive Learns What Storms Remember",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-broadcast-where-echo-becomes-conversation",
+      "title": "The Broadcast Where Echo Becomes Conversation",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-exhibition-where-viewers-refuse-to-appear",
+      "title": "The Exhibition Where Viewers Refuse to Appear",
+      "region": "The Diagnostic Render"
     }
   ]
 }

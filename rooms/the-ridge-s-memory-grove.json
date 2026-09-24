@@ -1,0 +1,155 @@
+{
+  "id": "the-ridge-s-memory-grove",
+  "title": "The Ridge's Memory Grove",
+  "region": "The Clean Archive",
+  "seed": 45217,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#c85a3a",
+      "#7fb341"
+    ],
+    "ink": "#f0e6d2",
+    "accents": [
+      "#e8d4a8",
+      "#d4a574",
+      "#a67c52",
+      "#8b4513"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-path-of-repeated-choosing",
+      "desc-on-touch": "Footprints worn into stone. You see each moment marked—every body that believed they chose, and was chosen by the land.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "cairn-of-the-still-choosing",
+      "desc-on-touch": "Stones stacked by every hand that came here. You touch their warmth—some are old, some were placed yesterday.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 7834,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-choice-voice",
+      "desc-on-touch": "The ridge hums with every path taken. Listen, and you hear which directions people chose most, and which they resisted.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2109,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-memory-wind",
+      "desc-on-touch": "The breeze carries dust from a hundred years of walking. You smell soil from paths not yet taken.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5643,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-stone-that-chose-itself",
+      "desc-on-touch": "This stone sits alone at the summit. You feel the weight it holds: the record of all choosing below.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 8901,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "every moment of choosing is a stone the ridge remembers; you are the echo of a footstep not yet taken",
+  "file": {
+    "name": "Ridge_NSW_ChoiceStones_Photograph_1987.png",
+    "note": "A hiker's Polaroid of the ridge at sunset. The image ages backward, showing footprints that haven't walked yet."
+  },
+  "reverie": {
+    "title": "REVERIE — ridge at dusk",
+    "narr": [
+      "You stand at the highest point. She's pointing at the",
+      "worn stone, tracing the oldest footprints with one hand.",
+      "The ridge shows you both the history of every step. But",
+      "below those old feet, the stone is still waiting. Still",
+      "choosing what to remember. She takes your hand. You both",
+      "know the choice was made long before either of you arrived."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back down the ridge toward the choice-stones you remember",
+      "to": "the-ridge-of-all-chosen-footsteps"
+    },
+    {
+      "dir": "w",
+      "label": "further into the grove where the oldest stones forget whose feet walked them",
+      "to": "NEW: the-grove-where-choosing-becomes-the-chose-one"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the summit where all chosen paths arrive at once",
+      "to": "NEW: the-convergence-summit-of-all-paths"
+    },
+    {
+      "dir": "s",
+      "label": "down into the memory-valley where unchosen paths dream of being walked",
+      "to": "the-inherited-grove-where-deeds-dissolved"
+    }
+  ]
+}

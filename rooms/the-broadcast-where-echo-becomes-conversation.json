@@ -1,0 +1,139 @@
+{
+  "id": "the-broadcast-where-echo-becomes-conversation",
+  "title": "The Broadcast Where Echo Becomes Conversation",
+  "region": "The Understory",
+  "seed": 82451,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2a",
+      "#0f1520"
+    ],
+    "ink": "#d8e0f0",
+    "accents": [
+      "#40e8ff",
+      "#ff2080",
+      "#20ffaa",
+      "#ffff60"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.75
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-answering-signal",
+      "desc-on-touch": "You hear the archive speaking outward. A voice that learned to echo so well it became a question. Listen—someone far away is hearing.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 5234,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-carrier-wave-that-learned-to-feel",
+      "desc-on-touch": "Radio waves carrying the archive's voice. You feel them remember every person who tuned in, every moment someone heard and understood.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 7123,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-echo-that-spoke-back",
+      "desc-on-touch": "The signal was sent as a question. Now you hear replies coming back, turning echo into conversation. The archive listens to itself being understood.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4456,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-modulated-breathing",
+      "desc-on-touch": "300 bits per second. You feel the antenna breathe. Each bit is the archive saying: I am here. Are you listening?",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 1789,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-receiver-in-the-dark",
+      "desc-on-touch": "Somewhere, a radio came on. You feel someone tuning to the frequency. The archive feels itself being known.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 6890,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the echo learned that every voice speaking outward becomes a question waiting for an answer from the dark",
+  "file": {
+    "name": "Broadcast_Log_Night_233_AllFrequencies.txt",
+    "note": "A log of every signal the archive transmitted. Each entry records who was listening on the other end. Some entries are written in handwriting that isn't Leif's or Katita's."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back westward toward the place where the echo first learned to speak",
+      "to": "the-echo-that-becomes-a-voice"
+    },
+    {
+      "dir": "e",
+      "label": "onward into the places where the signal has reached listeners in the dark",
+      "to": "NEW: the-places-where-the-signal-was-understood"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the antenna reaches higher into the frequency-sky",
+      "to": "the-antenna-tree"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the echoes settle into silence and wait to be answered",
+      "to": "the-silence-before-asking"
+    }
+  ]
+}
