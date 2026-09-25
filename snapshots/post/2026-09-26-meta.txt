@@ -1,0 +1,10 @@
+featured: The Roots Arguing Softly (the-roots-arguing-softly)
+region: The Understory · motif: fields
+inscription: roots that learned to disagree taught the earth that breaking and holding are not opposites
+file: RootDissent_Acoustic_Study_Depth_245m.wav
+
+all nodes tonight:
+  · The Roots Arguing Softly
+  · The Stone's Holding Dark
+  · The Solitary Reading Cell
+  · The Infinite Refraction Spiral

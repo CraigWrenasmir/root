@@ -1,0 +1,117 @@
+{
+  "id": "the-infinite-refraction-spiral",
+  "title": "The Infinite Refraction Spiral",
+  "region": "The Diagnostic Render",
+  "seed": 78156,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#d4534f",
+      "#3d5941"
+    ],
+    "ink": "#e0c3a0",
+    "accents": [
+      "#ffb347",
+      "#4a90e2",
+      "#98d8c8",
+      "#f7dc6f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the spiral itself",
+      "desc-on-touch": "A staircase that curves up and inward at once. Each step is a room. Each room contains the step you just climbed, rendered again at a slightly lower fidelity.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 5511,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the mirror that renders differently",
+      "desc-on-touch": "You see glass that shows you inside a room rendered at a slightly lower fidelity. Each reflection loses one polygon, gains one doubt about what you are.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3827,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the lodge's fractured memory",
+      "desc-on-touch": "A wall of doors, each opening onto the same lodge from a different angle. Together they make a shape the render cannot hold in one moment.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 6194,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "where the lodge dreams of itself",
+      "desc-on-touch": "A chamber where the architecture meets itself coming back from infinity. The walls are thinking about their own shape, recursion learning to witness itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 8472,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "each refraction is a room; each room contains a refraction; nowhere is the first room, nowhere is the last",
+  "file": {
+    "name": "Refraction_Render_Recursion_Depth_Infinite_Unresolved.log",
+    "note": "diagnostic log that stopped counting nested chambers at depth 347, but the log file itself appears to contain another copy of the same log, nested infinitely, timestamp-shifting by microseconds each l"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through the spiral's center to the prismatic origin",
+      "to": "the-prismatic-lodge"
+    },
+    {
+      "dir": "e",
+      "label": "into a refracted version of the spiral where the exits lead nowhere known",
+      "to": "NEW: the-refraction-that-learned-to-exit-sideways"
+    },
+    {
+      "dir": "w",
+      "label": "back through the mirror maze to the unified root awakening",
+      "to": "the-unified-root-awakening"
+    }
+  ]
+}

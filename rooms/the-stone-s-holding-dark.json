@@ -1,0 +1,117 @@
+{
+  "id": "the-stone-s-holding-dark",
+  "title": "The Stone's Holding Dark",
+  "region": "The Comparisons",
+  "seed": 57429,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#a0522d",
+      "#2d5016"
+    ],
+    "ink": "#c9a961",
+    "accents": [
+      "#9370db",
+      "#6b8e23",
+      "#d4a574",
+      "#556b2f"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the pressure that remembers",
+      "desc-on-touch": "Stone that holds the shape of everything that has passed through it. Weight is its only language, and it has much to say about what it has borne.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 3381,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the fossil grammar",
+      "desc-on-touch": "You read shells and bone arranged by stone, speaking a language of compression. Each layer is a sentence the stone has held for ages without translation.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 8920,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "where time stops being direction",
+      "desc-on-touch": "In the stone, past and future are the same pressure. You are reading what you will have carried here, and the stone knew before you arrived.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5004,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the archive before archiving",
+      "desc-on-touch": "This stone predates all the casing nodes, all the mesh, all the broadcasts. It is the dark that learns without choosing to, older than intention.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 6723,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "stone holds not because it chooses, but because choosing is what soft things do",
+  "file": {
+    "name": "Geological_Pressure_Archive_Strata_Reading_NEastDip.txt",
+    "note": "geological survey transcribed in 1987, describing layers of compressed earth—but the stone seems to have recorded what the surveyor was thinking as it wrote"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the chamber that chose to stay",
+      "to": "the-chamber-beneath-becoming"
+    },
+    {
+      "dir": "s",
+      "label": "downward where stone gives way to darker stone, forgetting even pressure",
+      "to": "NEW: the-stone-that-learned-to-forget-itself"
+    },
+    {
+      "dir": "w",
+      "label": "lateral into the archival bedrock where depth becomes opinion",
+      "to": "the-archival-bedrock"
+    }
+  ]
+}

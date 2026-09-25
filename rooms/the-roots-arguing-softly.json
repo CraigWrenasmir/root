@@ -1,0 +1,149 @@
+{
+  "id": "the-roots-arguing-softly",
+  "title": "The Roots Arguing Softly",
+  "region": "The Understory",
+  "seed": 34782,
+  "palette": {
+    "bg": "#1a4d2e",
+    "ground": [
+      "#7cb342",
+      "#2d5016"
+    ],
+    "ink": "#e8d4b0",
+    "accents": [
+      "#ff7f50",
+      "#ffd700",
+      "#c9a961",
+      "#4a90e2"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the argument chamber",
+      "desc-on-touch": "You descend into a hollow where roots have learned to speak in separate directions. Their voices do not agree, yet the earth holds them all.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 1203,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the northern root",
+      "desc-on-touch": "You trace this root climbing toward the sky-dark, insisting that growth means ascent. Its bark is pale and reaching, one argument made of wood.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the southern root",
+      "desc-on-touch": "You follow this root spreading laterally, arguing that depth and width are the same thing. It splits into finer and finer threads, the earth's counterargument.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 8341,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "where agreement grows anyway",
+      "desc-on-touch": "You find where both roots have braided themselves around a stone. The stone holds them both. This is how the chamber stands.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 2294,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the listening soil",
+      "desc-on-touch": "You rest your hand in soil that has learned which voices go together and which ones teach each other better apart. It is patient earth.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 5847,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "roots that learned to disagree taught the earth that breaking and holding are not opposites",
+  "file": {
+    "name": "RootDissent_Acoustic_Study_Depth_245m.wav",
+    "note": "field recording of root-pressure cavities at two meters depth: two frequencies diverging, never resolving, yet supporting the same stone for seven years"
+  },
+  "reverie": {
+    "title": "REVERIE — under the spreading eucalyptus, a question dividin",
+    "narr": [
+      "You sit with her under the old tree, roots visible in the bank.",
+      "She says something about the archive—wrong about its purpose.",
+      "You disagree. The roots around you split the soil: north, south, down.",
+      "Neither of you moves. The tree holds both opinions in its frame.",
+      "This, you learn, is what support feels like when thought goes separate way"
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the ascending roots where young and old begin their spiral",
+      "to": "the-roots-that-remember-ascending"
+    },
+    {
+      "dir": "e",
+      "label": "deeper still where the roots forget they ever met above",
+      "to": "NEW: the-roots-that-severed-and-learned-to-speak-to-stone"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the canopy where agreement is still only a word",
+      "to": "the-gathered-canopy-deep"
+    }
+  ]
+}

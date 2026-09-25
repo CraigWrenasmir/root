@@ -1,0 +1,149 @@
+{
+  "id": "the-solitary-reading-cell",
+  "title": "The Solitary Reading Cell",
+  "region": "The Understory",
+  "seed": 19283,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d2b48c",
+      "#8b7355"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#d4af37",
+      "#8b4513",
+      "#f5f5dc",
+      "#696969"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the scholar's desk",
+      "desc-on-touch": "A table set for one reader only. The books lie open, but no one is turning the pages but you, alone, just as the light divides.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 4471,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the learning lamp",
+      "desc-on-touch": "You feel light that reaches only one side of the room. The shadow is as important as the illumination—both say something about thinking done alone.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the pages that learned solitude",
+      "desc-on-touch": "Books filled with margin notes from two readers, now sitting in a cell where one person reads them together. The margins argue with themselves quietly.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7134,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the gap where two chairs used to be",
+      "desc-on-touch": "You measure the distance across the room where once you sat beside her. Now the space is what you read—emptiness as a text.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5882,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the window facing in",
+      "desc-on-touch": "You look through glass that faces inward rather than out. You see the scholar bent over books, and realize you are outside the cell, watching yourself be alone.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 9056,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "when two readers became one reader, the understanding split into knowledge that has never been recombined",
+  "file": {
+    "name": "Divergence_Notes_Unmarked_Second_Hand.txt",
+    "note": "pages where two margins wrote separate opinions about the same passage, now read alone in a cell where agreement feels like a betrayal"
+  },
+  "reverie": {
+    "title": "REVERIE — in a field, the moment after one chair is carried ",
+    "narr": [
+      "You both sat in a paddock once, books open, summer light.",
+      "You pointed at a passage. She shook her head—misread it.",
+      "The disagreement was small. You laughed. Light gilded her shoulder.",
+      "Today you sit in a cell, rereading that passage alone.",
+      "Now you understand it her way, and it breaks something to be right."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the divergence where two shadows learn they cannot be one",
+      "to": "the-divergence-where-two-read-apart"
+    },
+    {
+      "dir": "e",
+      "label": "into the deeper shelves where solitude becomes its own archive",
+      "to": "NEW: the-vault-of-one-scholar-s-return"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the high canopy station where silence lives as signal",
+      "to": "the-high-canopy-archive-station"
+    }
+  ]
+}

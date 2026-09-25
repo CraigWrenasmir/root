@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 231,
-  "lastDreamt": "2026-09-25",
+  "nights": 232,
+  "lastDreamt": "2026-09-26",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6011,6 +6011,26 @@
     {
       "id": "the-exhibition-where-viewers-refuse-to-appear",
       "title": "The Exhibition Where Viewers Refuse to Appear",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-roots-arguing-softly",
+      "title": "The Roots Arguing Softly",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-stone-s-holding-dark",
+      "title": "The Stone's Holding Dark",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-solitary-reading-cell",
+      "title": "The Solitary Reading Cell",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-infinite-refraction-spiral",
+      "title": "The Infinite Refraction Spiral",
       "region": "The Diagnostic Render"
     }
   ]
