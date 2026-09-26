@@ -1,0 +1,139 @@
+{
+  "id": "the-inverted-gorge",
+  "title": "The Inverted Gorge",
+  "region": "The Understory",
+  "seed": 62918,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#8b6f47",
+      "#a87f3e"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#d4a574",
+      "#4a6b1f",
+      "#c9a375",
+      "#3d4d1a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the upside-down cliff",
+      "desc-on-touch": "A rock face that hangs from the sky—or was it always meant to hang? The paths here run both up and down them at once. Walking is forgetting which direction you chose.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 18457,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the meeting water",
+      "desc-on-touch": "Two streams converge here, but they flow in opposite verticals—one rises, one falls. Where they touch, the water forgets which way the earth pulls.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 27634,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the neutral stone",
+      "desc-on-touch": "A single boulder resting perfectly level between the two gravities. Neither up nor down has convinced it to choose. You could sit here and feel balanced in both directions.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 9347,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the spiral descent-ascent",
+      "desc-on-touch": "A path that winds around itself without changing height. You follow it and arrive where you started, but in a different direction. Forgetting, in motion.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 44921,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the uncertain vegetation",
+      "desc-on-touch": "Plants here grow both toward and away from the light at once, roots reaching skyward, branches drinking from the earth. The corruption has taught them that direction is a choice.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 33128,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "descent and ascent occupy the same column here; the only difference is memory",
+  "file": {
+    "name": "Gravity_Studies_Fragment_Incomplete.txt",
+    "note": "Notes on the place where forgetting taught the earth to work in both directions. Katita's handwriting, notes to herself that sound like questions."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "upward-downward, back toward summit and abyss together",
+      "to": "the-simultaneous-summit-and-abyss"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into the places where vertical means something else",
+      "to": "the-lateral-chamber-where-down-is-sideways"
+    },
+    {
+      "dir": "n",
+      "label": "toward the place where argument still believes in direction",
+      "to": "NEW: where paths learn to refuse the vertical"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into country that has learned to forget its own slope",
+      "to": "NEW: the reversible descent"
+    }
+  ]
+}

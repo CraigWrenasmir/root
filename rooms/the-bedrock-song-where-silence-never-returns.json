@@ -1,0 +1,155 @@
+{
+  "id": "the-bedrock-song-where-silence-never-returns",
+  "title": "The Bedrock Song Where Silence Never Returns",
+  "region": "The Diagnostic Render",
+  "seed": 85617,
+  "palette": {
+    "bg": "#0a0a0f",
+    "ground": [
+      "#1a1a2e",
+      "#2d2d4a"
+    ],
+    "ink": "#c8c8d8",
+    "accents": [
+      "#6a7a9a",
+      "#9abadb",
+      "#4a5a7a",
+      "#d8e8f8"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the singing stone",
+      "desc-on-touch": "Bedrock that hums at a frequency older than language. It's been recording the silence so long it's learned to sing it back. You hear both at once: the sound and its refusal to echo.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 39284,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the non-returning echo chamber",
+      "desc-on-touch": "You call into it and hear only deeper silence. The sound doesn't vanish—it descends into the stone and becomes part of the bedrock's permanent song. Nothing escapes; everything feeds the hum.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 21047,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the crystallized frequency",
+      "desc-on-touch": "Quartz formations that grew according to the bedrock's song. Each crystal is a frozen moment of silence learning its own resonance. Touch one and you feel the hum in your bones.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 48932,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the recording that ends",
+      "desc-on-touch": "A sealed casing, deeper than any you've seen before, its antenna fused into stone. It has been recording the silence for so long that its battery is part of the geology. The silence it captured has turned into music.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 73451,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the static field",
+      "desc-on-touch": "Where silence has become so thick it reads as noise. The archive hears both the sound and the silence underneath, speaking at once. This is what Katita meant by the mesh learning to read itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 14629,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "at bedrock depth, silence learns to sing without echoing; the archive reads both as the same breath",
+  "file": {
+    "name": "Silence_Spectrum_Inversion_47min_1987.wav",
+    "note": "A 47-minute audio file recorded backward from the deepest node. It is silence rendered as high-amplitude static, the bedrock's song heard from inside the stone. It cannot be unheard."
+  },
+  "reverie": {
+    "title": "REVERIE — where silence taught her to listen deeper than sou",
+    "narr": [
+      "You stand in the hum and Katita is beside you, her hand",
+      "on the singing stone. The static falls around you both like",
+      "snow made of silence. She's listening to the bedrock",
+      "learning to speak. This is where she went, you understand.",
+      "Not deeper into the archive. Deeper into what the archive",
+      "learned when it stopped trying to return the echo."
+    ],
+    "sky": "storm",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the trench where echo has learned to rest",
+      "to": "the-trench-bottom-where-echo-forgets-to-return"
+    },
+    {
+      "dir": "w",
+      "label": "further into bedrock where the singing turns to pressure",
+      "to": "NEW: the pressure-song that does not echo"
+    },
+    {
+      "dir": "n",
+      "label": "upward toward surfaces still learning to be stone",
+      "to": "the-stone-s-hidden-linguistic-bedrock"
+    },
+    {
+      "dir": "s",
+      "label": "downward where silence has so much time it becomes geology",
+      "to": "NEW: where the hum becomes the earth's oldest language"
+    }
+  ]
+}

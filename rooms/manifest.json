@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 232,
-  "lastDreamt": "2026-09-26",
+  "nights": 233,
+  "lastDreamt": "2026-09-27",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6031,6 +6031,21 @@
     {
       "id": "the-infinite-refraction-spiral",
       "title": "The Infinite Refraction Spiral",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-petrified-meaning-vault",
+      "title": "The Petrified Meaning Vault",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-inverted-gorge",
+      "title": "The Inverted Gorge",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-bedrock-song-where-silence-never-returns",
+      "title": "The Bedrock Song Where Silence Never Returns",
       "region": "The Diagnostic Render"
     }
   ]

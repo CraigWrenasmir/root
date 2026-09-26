@@ -129,6 +129,11 @@
       "dir": "s",
       "label": "southward, to where finished cloth learns to be memory",
       "to": "the-gallery-of-woven-witness"
+    },
+    {
+      "dir": "e",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the loom that taught the archive to think"
     }
   ],
   "reverie": {

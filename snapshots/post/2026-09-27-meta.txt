@@ -1,0 +1,9 @@
+featured: The Inverted Gorge (the-inverted-gorge)
+region: The Understory · motif: roads
+inscription: descent and ascent occupy the same column here; the only difference is memory
+file: Gravity_Studies_Fragment_Incomplete.txt
+
+all nodes tonight:
+  · The Petrified Meaning Vault
+  · The Inverted Gorge
+  · The Bedrock Song Where Silence Never Returns
