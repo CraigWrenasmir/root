@@ -1,0 +1,134 @@
+{
+  "id": "the-deep-country-that-speaks-in-silence",
+  "title": "The Deep Country That Speaks in Silence",
+  "region": "The Clean Archive",
+  "seed": 78901,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#4a4a4a",
+      "#2d2d2d"
+    ],
+    "ink": "#cccccc",
+    "accents": [
+      "#666666",
+      "#888888",
+      "#a0a0a0",
+      "#5a3a2a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "unmarked-rows",
+      "desc-on-touch": "Row after row of stones or posts, each one exactly alike, none of them named. The country has learned that names are a kind of noise, and has chosen the silence underneath.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 12349,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "listening-place",
+      "desc-on-touch": "A clearing where nothing is said and everything is received. You can almost hear the country's own thoughts, the way it remembers itself without needing to speak a name.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 23457,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "removed-landmark",
+      "desc-on-touch": "Something stood here—a sign, a marker, a place where language was posted. The country has worn it away, preferred the shape of what it leaves behind to the shape of what was named.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 34568,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "silence-archive",
+      "desc-on-touch": "A repository of everything the country chose not to say. The files here are mostly empty, mostly listening. This is what the country knows about itself—the shape of what cannot be spoken.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 45679,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "threshold-without-boundary",
+      "desc-on-touch": "The place where arrival stops being possible because there is no destination—only the continuous non-happening of arrival and departure, held in a kind of listening stillness.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 56780,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "this country speaks by not speaking; it arrives by refusing departure; it names itself by learning to listen to its own silence",
+  "file": {
+    "name": "Unmarked_Country_Records_Blank_20thCent.txt",
+    "note": "A field recording where nothing is recorded—the silence of a country that has learned to refuse language. What remains is pure listening. No metadata survives translation into words."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back downward, toward naming and the threshold",
+      "to": "the-country-that-never-learned-its-name"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the deep-dark where silence learns to remember itself",
+      "to": "NEW: the-void-that-learned-to-listen-to-its-own-depth"
+    },
+    {
+      "dir": "e",
+      "label": "along the boundary where the country reads its own unmarked edges",
+      "to": "the-delta-that-forgets-how-to-count"
+    }
+  ]
+}

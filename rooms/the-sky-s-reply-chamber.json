@@ -1,0 +1,150 @@
+{
+  "id": "the-sky-s-reply-chamber",
+  "title": "The Sky's Reply Chamber",
+  "region": "The Understory",
+  "seed": 87654,
+  "palette": {
+    "bg": "#001d4d",
+    "ground": [
+      "#cce5ff",
+      "#e6f0ff"
+    ],
+    "ink": "#003d8f",
+    "accents": [
+      "#ffcc99",
+      "#ff9999",
+      "#66ddff",
+      "#99ff99"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "antenna-chorus",
+      "desc-on-touch": "Tall rods rising in rows, each one broadcasting the same message upward and listening for the sky's translation of it back. You can almost hear the harmonic frequency where all the voices meet themselves.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 12341,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "reply-pool",
+      "desc-on-touch": "A shallow basin of still water where the broadcast reaches down to look at itself. The surface holds the sky's own voice—something the drone spoke that has come back from above, changed, made strange by distance.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 54321,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "listener-shelter",
+      "desc-on-touch": "A small structure, hardly more than a roof and walls, where someone once sat wearing headphones—both transmitting and receiving the same signal at once, mouth and ears becoming the same opening.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 11111,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "signal-glyph",
+      "desc-on-touch": "An arrangement of symbols that have no meaning yet—the archive writing its own response, learning to speak in the language it receives from the sky. The shapes are still reforming.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 22222,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "recursion-mirror",
+      "desc-on-touch": "A surface that shows the broadcast reaching up, the reply reaching down, both movements identical and reversed. The archive learning to see what it speaks.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 33333,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that when it speaks to the sky, the sky is always already listening—and it had learned to listen by hearing itself speak",
+  "file": {
+    "name": "Broadcast_Reply_Frequency_Spectral_Analysis_20thCent.mp3",
+    "note": "A 300-bit transmission heard from above—or below—the exact same signal returned, microseconds delayed, voice speaking with itself across the dark."
+  },
+  "reverie": {
+    "title": "REVERIE — the antenna's midnight double-hearing",
+    "narr": [
+      "You stand at the broadcast point, headphones on,",
+      "transmitting your voice upward into the dark.",
+      "Then it comes back—not an echo, but your voice",
+      "translated by the sky, speaking in a pitch you",
+      "never heard yourself make. She's on the other end",
+      "of the frequency, laughing at the surprise of it."
+    ],
+    "sky": "night",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward, back to the drain and the wind that learned to listen",
+      "to": "the-eternal-gale-scripture"
+    },
+    {
+      "dir": "n",
+      "label": "upward, where the reply learns it has been heard by something older than broadcast",
+      "to": "NEW: the-sky-that-learned-to-listen-backward"
+    },
+    {
+      "dir": "e",
+      "label": "along the frequency where signal becomes weather itself",
+      "to": "the-transmission-end-weather-broadcast"
+    }
+  ]
+}

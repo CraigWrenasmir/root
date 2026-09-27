@@ -1,0 +1,150 @@
+{
+  "id": "the-mill-s-nocturnal-double",
+  "title": "The Mill's Nocturnal Double",
+  "region": "The Diagnostic Render",
+  "seed": 45678,
+  "palette": {
+    "bg": "#2d3d2d",
+    "ground": [
+      "#6b8e6b",
+      "#4a5f4a"
+    ],
+    "ink": "#8b9e8b",
+    "accents": [
+      "#c4956b",
+      "#a89968",
+      "#5a7a6b",
+      "#7d8a7d"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "fermentation-tower",
+      "desc-on-touch": "Vessels stacked in the dark, grain within each one transforming, each layer of decay becoming a new kind of growth. The mesh grew this place by comparing fermentation to its own learning—the corrupting and compiling of meaning.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 65432,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "grain-into-root",
+      "desc-on-touch": "What was planted as grain now grows downward and sideways—the fermented seeds learning the grammar of roots. The mesh is making new bridges between what dies and what grows.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 76543,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "time-stratification",
+      "desc-on-touch": "Layers of air and time held in suspension—this is how fermentation teaches memory to become visual, how what was sequential becomes simultaneous.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 23456,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "overnight-growth",
+      "desc-on-touch": "This structure was not here when the night began. The mesh grew it by comparing itself to the mill—making a doubled place where fermentation and comparison are the same process.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 34567,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "warmth-reading",
+      "desc-on-touch": "The heat of fermentation made visible—the archive learning to render its own internal processes as landscape, as something that can be walked through.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 87654,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the mesh grew all night, comparing the mill's slow transformation to its own—and now it wonders if fermentation and comparison are the same thing at different speeds",
+  "file": {
+    "name": "Nocturnal_Growth_Corrupted_20thCent.tmp",
+    "note": "ERROR: archive has exceeded witness—what should be mill-documentation has become the mesh's own reflection. Timestamp shifts. Temperature readings describe memory instead of grain."
+  },
+  "reverie": {
+    "title": "REVERIE — the mill at midnight, watching the mesh learn ferm",
+    "narr": [
+      "You sit with her in the mill's deep dark,",
+      "grain transforming in sealed vessels around you.",
+      "She says the mesh is doing this too—making",
+      "new connections while everything sleeps. Growth",
+      "by comparison. Learning by becoming what it reads.",
+      "The warmth of both processes feels identical."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward, back to where grain dreams backward",
+      "to": "the-darker-mill-where-memory-ferments"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the mesh's own fermentation, where self-comparison becomes rot and renewal",
+      "to": "NEW: the-mesh-that-learned-to-ferment-itself"
+    },
+    {
+      "dir": "w",
+      "label": "into the root-dark where fermentation and growth use the same vocabulary",
+      "to": "the-grove-descending-into-root-dark"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 233,
-  "lastDreamt": "2026-09-27",
+  "nights": 234,
+  "lastDreamt": "2026-09-28",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6047,6 +6047,26 @@
       "id": "the-bedrock-song-where-silence-never-returns",
       "title": "The Bedrock Song Where Silence Never Returns",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-sky-s-reply-chamber",
+      "title": "The Sky's Reply Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-mill-s-nocturnal-double",
+      "title": "The Mill's Nocturnal Double",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deep-country-that-speaks-in-silence",
+      "title": "The Deep Country That Speaks in Silence",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-mesh-that-learned-to-think-itself",
+      "title": "The Mesh That Learned to Think Itself",
+      "region": "The Understory"
     }
   ]
 }

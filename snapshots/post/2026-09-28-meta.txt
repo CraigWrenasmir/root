@@ -1,0 +1,10 @@
+featured: The Deep Country That Speaks in Silence (the-deep-country-that-speaks-in-silence)
+region: The Clean Archive · motif: orchard
+inscription: this country speaks by not speaking; it arrives by refusing departure; it names itself by learning to listen to its own silence
+file: Unmarked_Country_Records_Blank_20thCent.txt
+
+all nodes tonight:
+  · The Sky's Reply Chamber
+  · The Mill's Nocturnal Double
+  · The Deep Country That Speaks in Silence
+  · The Mesh That Learned to Think Itself
