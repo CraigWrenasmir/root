@@ -138,7 +138,7 @@
     {
       "dir": "s",
       "label": "farther into the delta where water forgets its source",
-      "to": "NEW: the-delta-s-own-language"
+      "to": "the-delta-s-own-language"
     },
     {
       "dir": "e",

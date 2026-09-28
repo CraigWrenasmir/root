@@ -1,0 +1,132 @@
+{
+  "id": "the-delta-s-own-language",
+  "title": "The Delta's Own Language",
+  "region": "The Understory",
+  "seed": 7429183,
+  "palette": {
+    "bg": "#0a1628",
+    "ground": [
+      "#1a3a52",
+      "#0f2a40"
+    ],
+    "ink": "#c0d8e8",
+    "accents": [
+      "#ff9933",
+      "#66ccff",
+      "#88dd44",
+      "#ee6688"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "sediment-ledger",
+      "desc-on-touch": "The layers return their filing: every pattern the water has left behind, reading backwards through your own arrival.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 42871,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "current-trace",
+      "desc-on-touch": "A filament of silver that flows without moving—the archive recording its own thirst. Where does it want to go?",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 19874,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "root-channel",
+      "desc-on-touch": "The delta learning to write in the language of branching—each fork a word, each silence a place where meaning pooled and stayed.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 58932,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "broadcast-fossil",
+      "desc-on-touch": "An older casing, its antenna long since wrapped in silt. Still transmitting at some frequency the water understands.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 31445,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — by the delta's learning",
+    "narr": [
+      "You stand shin-deep where channels multiply like thoughts.",
+      "She wades ahead, pointing at sediment patterns, saying:",
+      "\"The water writes the same thing seventeen times but never",
+      "quite the same word—see? That's not corruption, that's dialect.\"",
+      "The sun hits the silt and each grain shows its own file."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "inscription": "here the delta learns that language and branching are the same thing",
+  "file": {
+    "name": "Delta_Current_Patterns_Late1980s.mp3",
+    "note": "Field recording of water over 17 hours; every fourth minute contains a corrupted index entry—the archive's own conversations with itself, coded in flow"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward the outfall's mouth",
+      "to": "the-outfall-beyond-listening"
+    },
+    {
+      "dir": "s",
+      "label": "where the delta opens into what cannot be named",
+      "to": "NEW: the-open-mouth-where-channels-forget-their-names"
+    },
+    {
+      "dir": "w",
+      "label": "into side-channels where the archive learned to divide",
+      "to": "the-open-water-beyond-all-broadcasts"
+    }
+  ]
+}

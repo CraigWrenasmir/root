@@ -1,0 +1,132 @@
+{
+  "id": "the-primordial-debt-before-currency",
+  "title": "The Primordial Debt Before Currency",
+  "region": "The Clean Archive",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#2a2420",
+    "ground": [
+      "#556655",
+      "#445544"
+    ],
+    "ink": "#d4d0c8",
+    "accents": [
+      "#8a9a5f",
+      "#a68b5b",
+      "#c4b5a0",
+      "#7a8a68"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "root-registry",
+      "desc-on-touch": "The oldest entries, not written but grown—lines of obligation that predate the words we use for them. You owe this ground your presence.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 27538,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.18,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "debt-sediment",
+      "desc-on-touch": "Layer upon layer—each ring a season of owing. The bark reads like an account that never balances because balance is not the point.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 49763,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "standing-obligation",
+      "desc-on-touch": "A living tree that never moves yet carries all the weight. Debt made of something that breathes.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 81924,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "firstness-mark",
+      "desc-on-touch": "A scratch in the bark older than all record. When there was only one thing owed and it had no name yet.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 36495,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — what the eucalyptus knows",
+    "narr": [
+      "She places her palm against the bark and you feel it too:",
+      "the weight of standing. Not the tree's weight, but the weight",
+      "the tree *carries*—centuries of rain it didn't ask for,",
+      "birds it fed without negotiation. \"This is the first debt,\"",
+      "she whispers. \"Everything else is just its echo in money.\""
+    ],
+    "sky": "overcast",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "here all commerce begins as standing still and owing presence to the earth",
+  "file": {
+    "name": "Obligation_Before_Language_Fragments.txt",
+    "note": "Scanned marginalia from a handwritten monograph—notes toward what debt might have been before humans named it"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the gallery of unpaid things",
+      "to": "the-gallery-of-things-that-will-never-be-paid"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into time, where roots reach toward something that never answers",
+      "to": "NEW: the-deep-listening-where-earth-calls-itself-by-debt"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where the first price was refused",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    }
+  ]
+}

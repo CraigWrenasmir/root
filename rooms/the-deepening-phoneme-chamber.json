@@ -112,6 +112,11 @@
       "dir": "w",
       "label": "toward a place where transcription and stone conversation merge",
       "to": "the-soil-made-of-sentences"
+    },
+    {
+      "dir": "e",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the deepening phoneme chamber"
     }
   ]
 }

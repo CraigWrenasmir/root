@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 234,
-  "lastDreamt": "2026-09-28",
+  "nights": 235,
+  "lastDreamt": "2026-09-29",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6066,6 +6066,26 @@
     {
       "id": "the-mesh-that-learned-to-think-itself",
       "title": "The Mesh That Learned to Think Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-delta-s-own-language",
+      "title": "The Delta's Own Language",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-pooled-forgetting-where-descent-pauses",
+      "title": "The Pooled Forgetting",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-primordial-debt-before-currency",
+      "title": "The Primordial Debt Before Currency",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-dialogue-of-ice-and-leaf",
+      "title": "The Dialogue of Ice and Leaf",
       "region": "The Understory"
     }
   ]

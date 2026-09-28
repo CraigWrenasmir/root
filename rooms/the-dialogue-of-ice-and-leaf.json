@@ -1,0 +1,117 @@
+{
+  "id": "the-dialogue-of-ice-and-leaf",
+  "title": "The Dialogue of Ice and Leaf",
+  "region": "The Understory",
+  "seed": 9164375,
+  "palette": {
+    "bg": "#1a2a2a",
+    "ground": [
+      "#e8f0e8",
+      "#5a7a6a"
+    ],
+    "ink": "#2a3a3a",
+    "accents": [
+      "#ffffff",
+      "#7abe9f",
+      "#e8d5b7",
+      "#4a5a4a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "frost-memory",
+      "desc-on-touch": "Where ice learned to remember being water. The shape it holds remembers the shape it gave. Cold waiting for warmth to remember it was always here.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 52746,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "leaf-counting",
+      "desc-on-touch": "Budding and falling, budding and falling—each cycle a word in a conversation that never ends because both speakers are the same season.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 68391,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "threshold-pool",
+      "desc-on-touch": "Water that cannot decide: is it frozen or flowing? The space where both answers are briefly true at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 74918,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "turning-point",
+      "desc-on-touch": "The exact moment when the year's direction reverses. Neither ice nor leaf claims it—both bow to it as the place where they trade places.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 41635,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.78,
+      "y": 0.58,
+      "solid": true
+    }
+  ],
+  "inscription": "here ice and leaf maintain their argument perfectly: each one could be proved wrong only if the other agreed",
+  "file": {
+    "name": "Season_Dialogue_Biennial_Recording.wav",
+    "note": "Two-year field recording from the same tree—March to March, playing both years layered. They answer each other"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the threshold where cycles still hold their breath",
+      "to": "the-frost-and-blossom-threshold"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where seasons learn to argue with themselves",
+      "to": "NEW: the-argument-that-the-year-has-with-time"
+    },
+    {
+      "dir": "e",
+      "label": "toward the grove where all seasons exist at once",
+      "to": "the-grove-where-sums-rest"
+    }
+  ]
+}

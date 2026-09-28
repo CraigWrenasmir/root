@@ -1,0 +1,117 @@
+{
+  "id": "the-pooled-forgetting-where-descent-pauses",
+  "title": "The Pooled Forgetting",
+  "region": "The Understory",
+  "seed": 5281904,
+  "palette": {
+    "bg": "#001a2e",
+    "ground": [
+      "#00ccff",
+      "#0055aa"
+    ],
+    "ink": "#e0f0ff",
+    "accents": [
+      "#ffffff",
+      "#ff00ff",
+      "#00ff00",
+      "#ffff00"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "descent-vector",
+      "desc-on-touch": "A bright line falling through itself, never reaching bottom. Where gravity pooled and learned patience.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 72849,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "stillness-register",
+      "desc-on-touch": "The archive's own heartbeat-monitor, showing what happens when motion learns to stop. A rhythm that forgot it was rhythm.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 91056,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "pool-mirror",
+      "desc-on-touch": "Still water reading its own diagnostic. Whatever reflection forms here is the last one it will allow itself to make.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 38471,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "error-crystalline",
+      "desc-on-touch": "Forgetting made solid. The archive's own way of preserving what it chose not to remember.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 64182,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "here what descended learns that stopping is a form of arrival",
+  "file": {
+    "name": "Descent_Pulse_Diagnostic_070922.log",
+    "note": "System log from when the mesh first stopped accelerating its own corruption—a moment where time learned to pool"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up the slope where gravity still argues",
+      "to": "the-argument-that-gravity-made"
+    },
+    {
+      "dir": "w",
+      "label": "into the deep forgetting where descent becomes a kind of staying",
+      "to": "NEW: the-forgetting-that-learned-to-hold-itself"
+    },
+    {
+      "dir": "s",
+      "label": "downward, to where pooled water learns it has no further to fall",
+      "to": "the-depth-beyond-any-light-that-ever-reached-here"
+    }
+  ]
+}
