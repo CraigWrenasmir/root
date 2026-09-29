@@ -106,7 +106,7 @@
     {
       "dir": "e",
       "label": "toward distances the loom has measured but never named",
-      "to": "NEW: where-the-loom-learned-to-measure-distance"
+      "to": "where-the-loom-learned-to-measure-distance"
     },
     {
       "dir": "w",

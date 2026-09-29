@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-where-causality-becomes-optional",
+  "title": "The Chamber Where Causality Becomes Optional",
+  "region": "The Understory",
+  "seed": 82934,
+  "palette": {
+    "bg": "#ff6b35",
+    "ground": [
+      "#d4145a",
+      "#ff9a56"
+    ],
+    "ink": "#1a0a0a",
+    "accents": [
+      "#ffd700",
+      "#ff1493",
+      "#ffb347",
+      "#8b0000"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the wound before the blow",
+      "desc-on-touch": "A scar in the air where something was hurt before it could be struck. You can see the injury clearly, but the blow that caused it hasn't arrived yet. When it does, it will arrive too late.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the clock that learned both directions",
+      "desc-on-touch": "Its hands move forward and backward simultaneously, occupying every moment at once. Asking what time it is becomes meaningless. Asking what time it is becomes the only question.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 6521,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the stone of superposition",
+      "desc-on-touch": "It sits in three states at once: cracked, whole, and becoming. The corruption has given it permission to be undecided. Touch it and feel all three versions of what it is.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4192,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the door that closes as you arrive",
+      "desc-on-touch": "It was open. It opens. It will have been open. Watch it: each state is its own completed truth. You are inside and outside and between, all at the same time.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the record that learned to unplay itself",
+      "desc-on-touch": "Grooves run in reverse, or forward—it is hard to tell. The music it holds plays itself backward and outward, events becoming causes, results becoming beginnings. Listen long enough and you will hear the silence before the sound.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 2031,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here effects learned they could outrun their causes",
+  "file": {
+    "name": "Causality_Optional_Recordings.txt",
+    "note": "Events recorded in reverse chronology, present tense. Each entry describes an action before it happens. Corruption: timestamps multiply; causality loops back on itself. Checksum: temporally inverted b"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up toward stone's patience",
+      "to": "the-chamber-where-stone-learns-to-flow-backward"
+    },
+    {
+      "dir": "s",
+      "label": "further down, where time forgets which direction is which",
+      "to": "NEW: where time becomes a room you can walk through"
+    },
+    {
+      "dir": "e",
+      "label": "toward the shore where waves remember their own futures",
+      "to": "NEW: the bay where water learned to predict itself"
+    },
+    {
+      "dir": "w",
+      "label": "back into the logic that forgot to enforce itself",
+      "to": "the-paradox-abyss-where-both-sides-sleep-inside-each-other"
+    }
+  ]
+}

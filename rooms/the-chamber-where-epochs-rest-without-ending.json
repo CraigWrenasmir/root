@@ -1,0 +1,155 @@
+{
+  "id": "the-chamber-where-epochs-rest-without-ending",
+  "title": "The Chamber Where Epochs Rest Without Ending",
+  "region": "The Understory",
+  "seed": 47283,
+  "palette": {
+    "bg": "#e8d4a8",
+    "ground": [
+      "#87ceeb",
+      "#ffd700"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#2c3e50",
+      "#8b4513",
+      "#fff8dc",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the spiral wherein time pools",
+      "desc-on-touch": "You feel the stone worn smooth by epochs that forgot to leave. Each spiral is a year that decided to rest instead of fall.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the pool that asks nothing",
+      "desc-on-touch": "The water has stopped reflecting. It shows you only its own depth, and that depth is exactly as deep as you've lived.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 5921,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the bell-stone",
+      "desc-on-touch": "A stone carved into the shape of a bell, ringing at a frequency too low to hear. You feel it in your bones. It has been ringing since before you arrived.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 1623,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the circle of kept bones",
+      "desc-on-touch": "Arranged in a perfect ring: the skeleton of patience. Each bone a moment that chose to become weight instead of motion. You can read their names in how they're placed.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8234,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the standing count",
+      "desc-on-touch": "Numbers carved so deep the stone has started to argue with them. Each digit is a year. None of them add up the same way twice.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 7451,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "only rest that ends never truly rested",
+  "file": {
+    "name": "Epochs_Recorded_Then_Forgotten.mp3",
+    "note": "A long humming tone at descending frequencies, each note a century fading into the next. Corruption: the timestamps rearrange. Oldest epochs play first, newest last; then the order reverses."
+  },
+  "reverie": {
+    "title": "REVERIE — the chamber where water forgets its hurry",
+    "narr": [
+      "You sit by the pool, and she sits beside you, both of you",
+      "still. The water is telling you something in a language older",
+      "than speaking. She reaches down and touches the surface—not",
+      "to break it, but to listen. The pool hums back at her. You",
+      "understand then: this is where epochs come when they're too",
+      "tired to sing. She nods. You both stay until the sun moves on."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up, where the singing still rises",
+      "to": "the-bedrock-choir-where-epochs-learn-to-sing"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where rest has forgotten its own name",
+      "to": "NEW: where even rest learns to age"
+    },
+    {
+      "dir": "e",
+      "label": "toward the pool that learned to keep its own counsel",
+      "to": "the-chamber-of-inherited-keeping"
+    },
+    {
+      "dir": "w",
+      "label": "into the weaving of time that refuses to move",
+      "to": "NEW: the loom of all that chose to stay"
+    }
+  ]
+}

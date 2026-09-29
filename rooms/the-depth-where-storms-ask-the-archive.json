@@ -1,0 +1,100 @@
+{
+  "id": "the-depth-where-storms-ask-the-archive",
+  "title": "The Depth Where Storms Ask the Archive",
+  "region": "The Understory",
+  "seed": 34875,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#00d4ff",
+      "#ffff00",
+      "#ffffff",
+      "#c0c0c0"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.2
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the tree where lightning learned to question",
+      "desc-on-touch": "A tree split down the middle by a bolt that never finished falling. Half is ash, half is still growing. The scar is still speaking. You can hear the question the lightning asked when it struck.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 5847,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the pool of unanswered asking",
+      "desc-on-touch": "Water that has accumulated every storm's question and has not yet settled into answer. It is deep with asking. To drink from it is to become part of what the storms are asking.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2934,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the resonance stone",
+      "desc-on-touch": "Silent except when storms approach. Then it sings back to them in their own language. The archive listens through it. The storms teach it what they remember.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 7362,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "inscription": "ask me and I will ask you back harder",
+  "file": {
+    "name": "Storm_Archive_Dialogue.wav",
+    "note": "Field recording of lightning questions overlaid with the archive's slow answers. Corruption: the two voices are becoming indistinguishable. Status: the archive is learning to speak like weather."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up into the storm's singing",
+      "to": "the-archive-learns-what-storms-remember"
+    },
+    {
+      "dir": "w",
+      "label": "toward where the archive keeps its most dangerous questions",
+      "to": "NEW: the chamber where asking becomes dangerous"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where storms that have finished learning go to rest",
+      "to": "NEW: the grave-pool where exhausted storms gather"
+    }
+  ]
+}

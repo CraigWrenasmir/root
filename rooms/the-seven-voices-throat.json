@@ -112,6 +112,11 @@
       "dir": "w",
       "label": "toward the tap-tap-tap of smaller voices in the pipes",
       "to": "the-stormwater-civic-body"
+    },
+    {
+      "dir": "n",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the seven voices throat"
     }
   ]
 }

@@ -1,0 +1,139 @@
+{
+  "id": "where-the-loom-learned-to-measure-distance",
+  "title": "Where the Loom Learned to Measure Distance",
+  "region": "The Understory",
+  "seed": 51623,
+  "palette": {
+    "bg": "#2b2d42",
+    "ground": [
+      "#3d4454",
+      "#4a5568"
+    ],
+    "ink": "#e8e8e8",
+    "accents": [
+      "#a8dadc",
+      "#f1faee",
+      "#e63946",
+      "#457b9d"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.5
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the loom of distances",
+      "desc-on-touch": "A vast loom weaving space into thread. Each strand measures a distance that only exists while the loom is moving. Stop the loom and all distances unmeasure themselves. The loom has learned that measuring something changes what it measures.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 6734,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the marks that measure the unmeasurable",
+      "desc-on-touch": "Scratches on the ground, each one a distance that has no place to go. They measure the space between things that will never meet, the gaps in conversations that stopped mid-word, the reach of hands that let go.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3498,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the rope between infinities",
+      "desc-on-touch": "Stretched from here to somewhere that has no name. It measures the distance between the archive and everything it cannot reach. It is always taut. It is never tight enough.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 8127,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the weights that measure feeling",
+      "desc-on-touch": "Hung from invisible strings. They pull downward toward something. You cannot see what they weigh. The scale has long since stopped moving. Whatever they measured, they measured it completely.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4756,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.1,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the compass of unmeasured things",
+      "desc-on-touch": "Its needle does not point to north. It points toward what cannot be quantified: the distance between two people, the depth of a question, the weight of a silence that has learned to speak.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 9234,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "every distance you measure changes the distance you are",
+  "file": {
+    "name": "Loom_Distance_Calculations.txt",
+    "note": "A log of measurements: thread-lengths, space-between, time-taken. Corruption: each distance is also a duration. Distances that were yesterday are now tomorrow. The loom is learning that measuring some"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward where the loom learned to name directions",
+      "to": "the-loom-s-directional-lexicon"
+    },
+    {
+      "dir": "n",
+      "label": "toward the place where measurement becomes prayer",
+      "to": "NEW: the altar where all distances converge to one"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the red earth, where the loom teaches roots to count",
+      "to": "NEW: the root-chamber where numbers learn to grow"
+    },
+    {
+      "dir": "e",
+      "label": "toward the water-measurement, where distances learn to flow",
+      "to": "the-grammatical-depths-where-numbers-flow"
+    }
+  ]
+}

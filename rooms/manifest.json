@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 235,
-  "lastDreamt": "2026-09-29",
+  "nights": 236,
+  "lastDreamt": "2026-09-30",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6086,6 +6086,26 @@
     {
       "id": "the-dialogue-of-ice-and-leaf",
       "title": "The Dialogue of Ice and Leaf",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-epochs-rest-without-ending",
+      "title": "The Chamber Where Epochs Rest Without Ending",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-causality-becomes-optional",
+      "title": "The Chamber Where Causality Becomes Optional",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-depth-where-storms-ask-the-archive",
+      "title": "The Depth Where Storms Ask the Archive",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-loom-learned-to-measure-distance",
+      "title": "Where the Loom Learned to Measure Distance",
       "region": "The Understory"
     }
   ]
