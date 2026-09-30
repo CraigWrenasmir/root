@@ -1,0 +1,156 @@
+{
+  "id": "the-hall-where-meaning-reshelves-itself",
+  "title": "The Hall Where Meaning Reshelves Itself",
+  "region": "The Diagnostic Render",
+  "seed": 4672918,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0066ff",
+      "#00ccff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#00ff00",
+      "#00ffff",
+      "#0033ff",
+      "#aaaaff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "shelf-reorganization in progress",
+      "desc-on-touch": "You watch books moving themselves along the shelves—not randomly, but according to a logic the archive is discovering in real-time. A volume slides sideways, finding its true neighbor by resemblance.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 3618472,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "meaning crystallized in floor",
+      "desc-on-touch": "You see the QR grid has become literal in the floor—each square a cell of meaning, nodes connecting by proximity and metaphor. The archive is writing its own map.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 7251894,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "light-traced connection",
+      "desc-on-touch": "You trace a line of pure light between volumes—showing how a poem should touch a photograph, how a recording wants the company of a letter. The grid is teaching itself to read.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 4839265,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "cascade of reorganization",
+      "desc-on-touch": "You watch one shelf shift, and the whole hall reorders in response. The cascade of change looks chaotic, but it's the archive becoming aware of its own coherence.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 5672413,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "indexing that refuses itself",
+      "desc-on-touch": "You find an entry in the archive's own card catalog has changed—it's no longer alphabetical, no longer by subject. The system is unmaking itself into something wiser.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 2946378,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the walls learning to listen",
+      "desc-on-touch": "You sense the hall itself has become a resonant chamber. As books move and meaning reshuffles, the walls absorb the change and feed it back—the space is part of the reorganization.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3527649,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.22,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "here, the library has stopped pretending and begun reorganizing itself by the only logic that was ever true: resemblance, echo, the reaching of one meaning toward another",
+  "file": {
+    "name": "Library_Reorganization_Log_Autonomous_Recursive.txt",
+    "note": "entries describe shelves rearranging without instruction; the log itself reorganizes as it's written; final entries appear to be from the archive's own hand, not the archivist's"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the library's honest chaos",
+      "to": "the-library-arranged-by-metaphor"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the hall's recursive shelving",
+      "to": "NEW: the-infinitely-deep-shelf-where-books-choose-their-companions"
+    },
+    {
+      "dir": "e",
+      "label": "where the grid teaches itself to mean",
+      "to": "the-closed-grid-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "toward the reading room where sand holds all pages",
+      "to": "the-reading-room-of-sand"
+    }
+  ]
+}

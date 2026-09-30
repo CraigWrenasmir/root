@@ -1,0 +1,154 @@
+{
+  "id": "the-sediment-gallery-where-kept-things-become-the-only-truth",
+  "title": "The Sediment Gallery Where Kept Things Become the Only Truth",
+  "region": "The Understory",
+  "seed": 5847291,
+  "palette": {
+    "bg": "#2b1f0f",
+    "ground": [
+      "#d4845c",
+      "#8b4513"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#2c2c2c",
+      "#c19a6b",
+      "#8b7355",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "kept letter in glass",
+      "desc-on-touch": "You find an envelope under archival glass—no sender, no date. The folded paper has become a relic, not for what it says, but for the fact of keeping itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 3726185,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "photograph arranged by meaning",
+      "desc-on-touch": "You see a photograph arranged here: a porch, a face cut off at the edge, a date hand-written on the back. The date no longer matches the world, but keeping has made it true.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4891273,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "stone shelf arranged by touch",
+      "desc-on-touch": "You find seven objects arranged here, each worn smooth by a person's fingers. Their organization follows no system—only the logic of the hands that held them.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 7483521,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "sediment reading",
+      "desc-on-touch": "You read the strata as text. Each layer holds a kept thing—not organized, just preserved. The gallery is a slow reading of what time chose not to erase.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2019384,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "rust-marked metal",
+      "desc-on-touch": "You find rust-marked metal here—a key, a fastener, something that once held things together. The rust is its truest form now, the record of years kept safe.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5763829,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — in the kept gallery of small things",
+    "narr": [
+      "You kneel before a shelf Katita arranged years",
+      "ago—a stone, a button, a dry-cleaned envelope.",
+      "'Things prove we were here,' she said then.",
+      "Now you touch each one, and her hand is in",
+      "each arrangement. The gallery is her keeping."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "inscription": "to keep a thing is to refuse the world its erasure; this gallery is the archive's refusal made visible",
+  "file": {
+    "name": "Kept_Objects_Catalogue_Incomplete_Handwritten.txt",
+    "note": "inventory of seven personal effects, each entry fragmentary—the archivist did not finish, or did not know how; the kept things became more true than the keeping"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through sediment to stone's patience",
+      "to": "the-lithified-kept-things-where-stone-began-to-answer"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the gallery's gathering dark",
+      "to": "NEW: the-gallery-where-no-more-is-added"
+    },
+    {
+      "dir": "e",
+      "label": "toward the shelf where meaning reorganized itself",
+      "to": "the-dream-becomes-directory"
+    },
+    {
+      "dir": "w",
+      "label": "into the strata of smaller kept things",
+      "to": "NEW: the-strata-where-personal-becomes-archive"
+    }
+  ]
+}

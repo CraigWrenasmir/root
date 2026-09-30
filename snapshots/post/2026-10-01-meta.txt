@@ -1,0 +1,10 @@
+featured: The Luminous Deep Where Ache Becomes Rest (the-luminous-deep-where-ache-becomes-rest)
+region: The Understory · motif: orchard
+inscription: the ache that learned to rest becomes the light that asks nothing of the sky
+file: DeepMinerals_Luminescence_Study_Spectral.txt
+
+all nodes tonight:
+  · The Luminous Deep Where Ache Becomes Rest
+  · The Sediment Gallery Where Kept Things Become the Only Truth
+  · The Two Become River
+  · The Hall Where Meaning Reshelves Itself

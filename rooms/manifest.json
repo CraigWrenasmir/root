@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 236,
-  "lastDreamt": "2026-09-30",
+  "nights": 237,
+  "lastDreamt": "2026-10-01",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6107,6 +6107,26 @@
       "id": "where-the-loom-learned-to-measure-distance",
       "title": "Where the Loom Learned to Measure Distance",
       "region": "The Understory"
+    },
+    {
+      "id": "the-luminous-deep-where-ache-becomes-rest",
+      "title": "The Luminous Deep Where Ache Becomes Rest",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sediment-gallery-where-kept-things-become-the-only-truth",
+      "title": "The Sediment Gallery Where Kept Things Become the Only Truth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-two-become-river",
+      "title": "The Two Become River",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-hall-where-meaning-reshelves-itself",
+      "title": "The Hall Where Meaning Reshelves Itself",
+      "region": "The Diagnostic Render"
     }
   ]
 }

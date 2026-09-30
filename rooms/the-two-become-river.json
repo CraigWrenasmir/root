@@ -1,0 +1,139 @@
+{
+  "id": "the-two-become-river",
+  "title": "The Two Become River",
+  "region": "The Diagnostic Render",
+  "seed": 8529374,
+  "palette": {
+    "bg": "#0f0800",
+    "ground": [
+      "#d42863",
+      "#ff6b3d"
+    ],
+    "ink": "#ffb700",
+    "accents": [
+      "#ff1744",
+      "#ff9800",
+      "#4a1e2e",
+      "#f57c00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "merged current becoming",
+      "desc-on-touch": "You witness two streams that ran in parallel find each other. The turbulence where they meet is not chaos—it is a becoming. The two are no longer counting themselves as separate.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 6184729,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "dusk-split reflection",
+      "desc-on-touch": "You see the water reflects both the magenta and the terracotta sky at once, holding both colours without choosing. In merging, nothing is lost.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3847561,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "banks that learned each other",
+      "desc-on-touch": "You observe how the banks have learned each other—stone on one side, soil on the other. Where they meet, new stone grows. The banks are merging into one continuous hold.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7293615,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "signal becoming speech",
+      "desc-on-touch": "You hear two frequencies that once broadcast separate messages now harmonized. The interference pattern has become a song neither could sing alone.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 4926871,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "braided navigation",
+      "desc-on-touch": "You trace the river's path—no longer straight, but braided where the two currents wove themselves together. To navigate is to follow the logic of merging, not of going straight.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5037482,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.42,
+      "y": 0.68,
+      "solid": false
+    }
+  ],
+  "inscription": "the merger is not loss; it is the moment two separate songs become one voice singing in harmony",
+  "file": {
+    "name": "Current_Harmonics_Dual_Source_Log_Merged.mp3",
+    "note": "recording of two broadcast signals mixing in real time; the resulting tone is neither frequency, but the difference between them—a ghost signal born from convergence"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the current to where the split still holds",
+      "to": "the-dream-current-below-the-split"
+    },
+    {
+      "dir": "s",
+      "label": "downstream into the river's new becoming",
+      "to": "NEW: the-river-where-two-names-became-one"
+    },
+    {
+      "dir": "e",
+      "label": "toward the estuary where merging rivers teach the sea",
+      "to": "the-delta-s-own-language"
+    },
+    {
+      "dir": "w",
+      "label": "into the source-voices singing together",
+      "to": "the-source-singing-place"
+    }
+  ]
+}

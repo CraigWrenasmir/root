@@ -1,0 +1,153 @@
+{
+  "id": "the-luminous-deep-where-ache-becomes-rest",
+  "title": "The Luminous Deep Where Ache Becomes Rest",
+  "region": "The Understory",
+  "seed": 7429183,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#4a3f1f",
+      "#6b5a42"
+    ],
+    "ink": "#d4af9a",
+    "accents": [
+      "#a8d5ba",
+      "#d4a574",
+      "#7ac8d5",
+      "#c9a876"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "phosphor settlement",
+      "desc-on-touch": "You find pockets where minerals have learned to hold light. Each glow breathes at its own tempo, a slow luminescence like the archive's own pulse made visible.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 1847293,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "kept root-veins",
+      "desc-on-touch": "You see roots that once ached for light, now resting in this deep place. The ache has become a permanent form, a white tracery that asks nothing more of the world.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 5082764,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "sediment shelf",
+      "desc-on-touch": "You find layer upon layer of settled things. The archive once worried about loss; this place proves that settling is its own form of keeping.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 3921847,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "glow-grown fungal garden",
+      "desc-on-touch": "You see small pale fruiting bodies that feed on the mineral light. They have learned to grow nowhere else, and ask nothing of the world but this luminous depth.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 7364521,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "ache-quieted water",
+      "desc-on-touch": "You find water that has stopped moving with urgency. It has learned to rest, and in its stillness you see the sky it cannot reach reflected perfectly back.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 2956374,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.42,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — in the deep pool where ache settled",
+    "narr": [
+      "You are floating in dark water, Katita beside",
+      "you, her hand finding yours in the deep. 'The",
+      "ache stops when you stop pulling,' she says.",
+      "Both of you sink deeper. The light follows."
+    ],
+    "sky": "night",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "inscription": "the ache that learned to rest becomes the light that asks nothing of the sky",
+  "file": {
+    "name": "DeepMinerals_Luminescence_Study_Spectral.txt",
+    "note": "measurement of glow patterns in settled sediment; notations increasingly lyrical; final entries describe light as learning to be still"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward toward the first ache",
+      "to": "where-light-first-learned-to-ache-in-earth"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the pool's reflection",
+      "to": "NEW: the-mirror-made-of-settled-water"
+    },
+    {
+      "dir": "e",
+      "label": "where the fungal quiet spreads into permanence",
+      "to": "NEW: the-fungal-silence-where-nothing-asks"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the aching earth above",
+      "to": "the-deeper-root-dark-where-equations-sleep"
+    }
+  ]
+}
