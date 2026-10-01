@@ -1,0 +1,134 @@
+{
+  "id": "the-refusing-frontier",
+  "title": "The Refusing Frontier",
+  "region": "The Clean Archive",
+  "seed": 567890,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#d4a574",
+      "#a8704d"
+    ],
+    "ink": "#e8d5b7",
+    "accents": [
+      "#8b4513",
+      "#cd853f",
+      "#daa520",
+      "#696969"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "boundary dissolving",
+      "desc-on-touch": "where you stand, the frontier refuses to exist. no line holds here.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 66666,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "threshold arch",
+      "desc-on-touch": "a doorway that opens to both sides at once, that refuses to choose which way is arrival.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 77777,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "unnamed monument",
+      "desc-on-touch": "a structure that remembers refusing its own name. all plaques here read blank.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 88888,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "circuit of refusal",
+      "desc-on-touch": "paths here lead both nowhere and everywhere. the map refuses to complete itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 99999,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "liminal clearing",
+      "desc-on-touch": "no one arrives here and no one departs. this is the place between leaving and staying.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 111111,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here the frontier refuses itself—neither arrival nor departure, but the breath between them",
+  "file": {
+    "name": "Border_Refusals_Unsigned_Field_Notes.txt",
+    "note": "accounts of travelers who arrived at this place and discovered they had never been leaving"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the country that exists only at thresholds",
+      "to": "the-country-that-never-learned-its-name"
+    },
+    {
+      "dir": "w",
+      "label": "a route",
+      "to": "NEW: the-landscape-that-learned-it-had-no-sides"
+    },
+    {
+      "dir": "s",
+      "label": "a route",
+      "to": "the-unmapped-town-between-two-absences"
+    }
+  ]
+}

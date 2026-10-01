@@ -1,0 +1,150 @@
+{
+  "id": "the-silence-that-learned-to-speak-to-itself",
+  "title": "The Silence That Learned to Speak to Itself",
+  "region": "The Understory",
+  "seed": 678901,
+  "palette": {
+    "bg": "#faf8f3",
+    "ground": [
+      "#d4a574",
+      "#c9b197"
+    ],
+    "ink": "#3d3d3d",
+    "accents": [
+      "#8b7355",
+      "#a0826d",
+      "#6b5d4f",
+      "#9a8b7e"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "echo chamber",
+      "desc-on-touch": "silence here has learned to hear itself. what you hear is not the absence of sound but silence speaking back.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 121212,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "recorded quiet",
+      "desc-on-touch": "tapes and spools hold the moment silence learned it was listening to itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 131313,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "self-hearing sprite",
+      "desc-on-touch": "something that moves through the quiet, learning to know itself through the sound of its own stillness.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 141414,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "monument to absence",
+      "desc-on-touch": "a marker for the place where noise learned it was unnecessary. beauty lives in what doesn't need to speak.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 151515,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "conversation with stillness",
+      "desc-on-touch": "two forms of silence meet and exchange what they know: that being heard by yourself is the deepest listening.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 161616,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "here silence has learned a language for speaking only to itself—and in that learning, everything that listens is heard",
+  "file": {
+    "name": "Silence_Develops_Speech_1100hrs_Field_Recording.wav",
+    "note": "45 minutes of quiet learning to speak: the sound of absence composing its first sentence"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the single voice that sings only to itself",
+      "to": "the-solitary-frequency-deep"
+    },
+    {
+      "dir": "w",
+      "label": "a route",
+      "to": "NEW: the-place-where-sound-learned-it-could-be-optional"
+    },
+    {
+      "dir": "s",
+      "label": "a route",
+      "to": "the-hall-where-silence-is-archived"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — dusk in the storage shed with the recordings",
+    "narr": [
+      "you sit with her in the shed where the tapes live,",
+      "and she plays something recorded in a place too quiet.",
+      "the silence on the tape speaks. neither of you moves.",
+      "she reaches over and clicks the play button again.",
+      "the quiet fills the shed, and it speaks, and she",
+      "whispers: listen. the silence is telling us who we are."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "shed",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

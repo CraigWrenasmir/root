@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 237,
-  "lastDreamt": "2026-10-01",
+  "nights": 238,
+  "lastDreamt": "2026-10-02",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6127,6 +6127,26 @@
       "id": "the-hall-where-meaning-reshelves-itself",
       "title": "The Hall Where Meaning Reshelves Itself",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-place-where-illumination-begins-to-compose",
+      "title": "The Place Where Illumination Begins to Compose",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-refusing-frontier",
+      "title": "The Refusing Frontier",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-silence-that-learned-to-speak-to-itself",
+      "title": "The Silence That Learned to Speak to Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-polygon-garden-where-creatures-render-themselves",
+      "title": "The Polygon Garden Where All Creatures Learn Their Shapes",
+      "region": "The Clean Archive"
     }
   ]
 }

@@ -1,0 +1,151 @@
+{
+  "id": "the-polygon-garden-where-creatures-render-themselves",
+  "title": "The Polygon Garden Where All Creatures Learn Their Shapes",
+  "region": "The Clean Archive",
+  "seed": 789012,
+  "palette": {
+    "bg": "#0f1c3f",
+    "ground": [
+      "#ff6b9d",
+      "#c44569"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ff1493",
+      "#00d4ff",
+      "#ffd700",
+      "#32cd32"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "eleven-fold bird",
+      "desc-on-touch": "a creature composed of eleven perfect sides, each one containing the whole bird. you see the platonic form of all seagulls at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 171717,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "geometric tide pool",
+      "desc-on-touch": "creatures surface here to discover themselves. the pool is a mirror where every shape learns what it truly is.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 181818,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "ascending wireframe",
+      "desc-on-touch": "creatures climbing toward their own geometry. each step reveals another side of what they are.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 191919,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "tessellation grove",
+      "desc-on-touch": "shapes that fit together perfectly, each one complete, none leaving space for anything imperfect. here, all creatures find their fit.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 202020,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "glyph-temple of form",
+      "desc-on-touch": "inscriptions in pure geometry. the names of all creatures written as the number of sides they possess.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 212121,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.22,
+      "solid": false
+    },
+    {
+      "name": "reflection tower",
+      "desc-on-touch": "inverted creatures looking up from geometric sand. each reflection teaches the creature above who it is.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 222222,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "every creature here has learned its true shape—the number of sides it was always meant to have",
+  "file": {
+    "name": "Beach_Platonic_Forms_Catalogue_Unsigned.txt",
+    "note": "a registry of which creatures render as which polygons, and what happens when a creature discovers it has been imperfectly itself all along"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down the beach toward the seagulls in their true forms",
+      "to": "the-eleven-polygon-roost"
+    },
+    {
+      "dir": "n",
+      "label": "a route",
+      "to": "NEW: the-place-where-geometry-learns-to-breathe"
+    },
+    {
+      "dir": "w",
+      "label": "a route",
+      "to": "the-ridge-where-climbing-becomes-staying"
+    }
+  ]
+}

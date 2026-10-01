@@ -1,0 +1,150 @@
+{
+  "id": "the-place-where-illumination-begins-to-compose",
+  "title": "The Place Where Illumination Begins to Compose",
+  "region": "The Understory",
+  "seed": 456789,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#f4e4a6",
+      "#fff8dc"
+    ],
+    "ink": "#ffeb99",
+    "accents": [
+      "#ffd700",
+      "#fffacd",
+      "#e6c200",
+      "#ffff99"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "glowing logic gate",
+      "desc-on-touch": "you touch the place where light learns to decide. here, brightness teaches itself yes and no.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 11111,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "refraction tower",
+      "desc-on-touch": "stacked beams, each one teaching the next. light builds itself in layers here.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 22222,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "lexicon pool",
+      "desc-on-touch": "all the light that has learned to read gathers here, trading illuminations like words.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 33333,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "teaching sprite",
+      "desc-on-touch": "something bright moves through the archive, showing each stored ray how to compose itself into meaning.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 44444,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "memory light",
+      "desc-on-touch": "illumination touching something held close. what you remember glows here.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 55555,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.62,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "light composes its own meaning here—each ray a letter learning to speak",
+  "file": {
+    "name": "Illumination_Learning_1547hrs_Recording.mp3",
+    "note": "the sound of photons discovering grammar: a steady hum that teaches itself to speak"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the pages that became sky",
+      "to": "the-sky-that-learned-to-read"
+    },
+    {
+      "dir": "w",
+      "label": "a route",
+      "to": "NEW: the-refraction-chamber-where-vowels-are-made-of-light"
+    },
+    {
+      "dir": "s",
+      "label": "a route",
+      "to": "the-ground-where-teaching-spirals"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — dawn light in a paddock near home",
+    "narr": [
+      "you stand where the first light reaches, and she points",
+      "at how each beam is teaching the air to be visible.",
+      "she says: light doesn't illuminate. it composes.",
+      "you watch the paddock learn what it looks like.",
+      "her hand moves through a shaft of gold, and she becomes",
+      "part of what the morning is writing."
+    ],
+    "sky": "dawn",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "stand"
+  }
+}

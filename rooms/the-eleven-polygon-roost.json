@@ -123,7 +123,7 @@
     {
       "dir": "n",
       "label": "up the beach toward the cliffs where other creatures render themselves",
-      "to": "NEW: the-polygon-garden-where-all-creatures-learn-their-shapes"
+      "to": "the-polygon-garden-where-creatures-render-themselves"
     },
     {
       "dir": "e",
