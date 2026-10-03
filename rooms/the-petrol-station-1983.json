@@ -112,6 +112,11 @@
       "dir": "w",
       "label": "toward the road you can hear but have never seen",
       "to": "the-highway-circuit-memory"
+    },
+    {
+      "dir": "s",
+      "label": "a pub on the regional plains, a radio in the back room",
+      "to": "the-back-room-radio"
     }
   ]
 }

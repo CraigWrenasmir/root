@@ -1,0 +1,117 @@
+{
+  "id": "the-truck-stays",
+  "title": "UNVERIFIED — The Truck Stays",
+  "region": "The Unverified",
+  "seed": 63922662,
+  "palette": {
+    "bg": "#140812",
+    "ground": [
+      "#8a2f5a",
+      "#c95a3a"
+    ],
+    "ink": "#ffe6d8",
+    "accents": [
+      "#ffd166",
+      "#ffb0c8",
+      "#2a1020",
+      "#7cc7ff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the truck",
+      "desc-on-touch": "Most of what she needs is already fitted to it. What he needs can be reduced to a small bag, if he leans on it while zipping it shut.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 42698297,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "leave / leaf / life / live / Leif",
+      "desc-on-touch": "In some variations she asks him which one he means. What she actually does is shake her head in this sad way. She says she wants to go on with the work. The blankets are still drying.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 57756164,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.68,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "a hammer, not taken",
+      "desc-on-touch": "He wanted to take one to every module in every tree that never asked to be part of any of this. A grid, built to outlast collapsing grids, that went and dreamt itself.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 5826733,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.74,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "a small bag",
+      "desc-on-touch": "Zipped. Carried off down the road toward a motorbike and a sequence of hotels.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 99560140,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.24,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "this is only the beginning of whatever follows",
+  "file": {
+    "name": "Split_variations.txt",
+    "note": "Every version of the scene except the one that happened. The one that happened is not stored here."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the blankets",
+      "to": "blankets-drying-00-036"
+    },
+    {
+      "dir": "e",
+      "label": "inland, then towards the coast, then inland again",
+      "to": "rooms-along-the-road"
+    },
+    {
+      "dir": "n",
+      "label": "the work, going on",
+      "to": "NEW: the work going on without him: a truck parked under trees with most of what she needs already fitted to it, new casings on the tailgate"
+    }
+  ]
+}

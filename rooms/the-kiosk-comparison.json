@@ -112,6 +112,11 @@
       "dir": "e",
       "label": "across to where the kiosk's reflection is reading the kiosk's reflection",
       "to": "the-recursive-kiosk-interior"
+    },
+    {
+      "dir": "w",
+      "label": "a stairwell up to a rooftop where scores are being called",
+      "to": "the-sans-courte-rooftop"
     }
   ]
 }

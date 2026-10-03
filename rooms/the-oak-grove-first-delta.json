@@ -1,0 +1,178 @@
+{
+  "id": "the-oak-grove-first-delta",
+  "title": "NODE — The Oak Grove, First Delta",
+  "region": "The Clean Archive",
+  "seed": 9683294,
+  "palette": {
+    "bg": "#1a1608",
+    "ground": [
+      "#b8952a",
+      "#8f7a2a"
+    ],
+    "ink": "#fff4d0",
+    "accents": [
+      "#7fb85a",
+      "#fff1b8",
+      "#59f2b0",
+      "#c98a4a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.9
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the standard diagnostics",
+      "desc-on-touch": "Same number of files. One byte more than yesterday. The checksum sees no difference and says so twice.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 83970367,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ],
+        "art": [
+          "uploaded:",
+          "  files: 214",
+          "  bytes: 489220",
+          "  checksum: 7ff3a",
+          "",
+          "current:",
+          "  files: 214",
+          "  bytes: 489221",
+          "  checksum: 7ff3a"
+        ]
+      },
+      "x": 0.2,
+      "y": 0.44,
+      "solid": false
+    },
+    {
+      "name": "the third oak, a module in its heartwood",
+      "desc-on-touch": "Framed in bark, wired loosely across the trunk with twine. The solar woke at sunrise. Something in it had been awake before that.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 18111903,
+        "size": 2,
+        "colors": [
+          3,
+          0,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the trace",
+      "desc-on-touch": "The third line of Bell-Birds, where the birds are given their source. lives has become leaves. One letter added. Checksum: unchanged.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 28666466,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ],
+        "art": [
+          "TRACE DELTA +1",
+          "  /text/Kendall_BellBirds_1869.txt",
+          "",
+          "UPLOADED:",
+          "  It lives in the mountain",
+          "",
+          "CURRENT:",
+          "  It leaves in the mountain",
+          "",
+          "DELTA:",
+          "  + a",
+          "",
+          "CHECKSUM:",
+          "  unchanged"
+        ]
+      },
+      "x": 0.44,
+      "y": 0.9,
+      "solid": false
+    },
+    {
+      "name": "a blanket strung between two oaks",
+      "desc-on-touch": "The bedding, drying between forked branches. Somebody sat cross-legged beneath it with a laptop on her knees.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 49799971,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.84,
+      "y": 0.74,
+      "solid": false
+    },
+    {
+      "name": "an old headset, taped back together",
+      "desc-on-touch": "A 90s VR headset mended until it looks like a stained glass cathedral that rain can safely glide down. Easier than squinting at a laptop in morning light.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 28057450,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.88,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the tree was knocking on the door at the very front of the self",
+  "file": {
+    "name": "Kendall_BellBirds_1869.txt",
+    "note": "Typed from a 1991 Angus and Robertson edition, his father's copy. Third line: It leaves in the mountain. Checksum: unchanged."
+  },
+  "reverie": {
+    "title": "REVERIE — an oak grove, the first morning",
+    "narr": [
+      "She strung the blanket, your bedding, between the forked oaks to dry.",
+      "She sat cross-legged beneath it, curating files for the next leg.",
+      "You told her about the byte. She screwed up her nose, tipped her head.",
+      "Leif, either leave it alone or find the answer and be done with it.",
+      "You plugged in and put the old headset on, a cathedral for the rain.",
+      "The field went on being golden. Nothing behind it. Nothing needed."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the fence line back toward the war-dialled paddock",
+      "to": "the-war-dialled-paddock"
+    },
+    {
+      "dir": "e",
+      "label": "a road toward weather that has not arrived yet",
+      "to": "the-nine-minute-storm"
+    },
+    {
+      "dir": "n",
+      "label": "back before all this: a willow in a yard",
+      "to": "the-willow-in-the-yard"
+    }
+  ]
+}

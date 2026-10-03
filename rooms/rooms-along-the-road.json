@@ -1,0 +1,139 @@
+{
+  "id": "rooms-along-the-road",
+  "title": "UNVERIFIED — Rooms Along the Road",
+  "region": "The Unverified",
+  "seed": 44024539,
+  "palette": {
+    "bg": "#100808",
+    "ground": [
+      "#5a2a2e",
+      "#44201f"
+    ],
+    "ink": "#fff0e4",
+    "accents": [
+      "#e8d4a0",
+      "#59c8a0",
+      "#ffd166",
+      "#a87a5a"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "a room key, and one for the front door",
+      "desc-on-touch": "A man at the bar says he will be on his own upstairs. He has paid for one bed and is being trusted with the building.",
+      "verb": "open",
+      "form": {
+        "type": "sprite",
+        "seed": 21036040,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.22,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a telephone, ringing on the desk",
+      "desc-on-touch": "Nobody at reception. A note asks him to ring a number. While he waits for an answer the telephone in front of him starts ringing, which he picks up to book himself in.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 54001519,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.74,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "a billiard table beneath a fitted cover",
+      "desc-on-touch": "In a room with curtains hung before Federation. Trick shots for an audience of ghosts, otherwise silent amidst the hay and gravel and stars. One ball pads and then clicks another.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 48349327,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.76,
+      "solid": true
+    },
+    {
+      "name": "a bath large enough to dress a wedding party",
+      "desc-on-touch": "When the plug is pulled, the water can be heard moving through the hotel beneath.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 13971152,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the rooftop parapets",
+      "desc-on-touch": "Leaned on with a tumbler of water. The nation starts and finishes at the hotel's back fence. Pastures the colour of absence. The wind is heard before it rises.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 51207195,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.84,
+      "y": 0.76,
+      "solid": true
+    }
+  ],
+  "inscription": "I have not finished with the balcony",
+  "file": {
+    "name": "Hotel_Registers_one_guest.txt",
+    "note": "A route made out of available beds and dining rooms. One name, many towns, a motorbike beside the bins."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "a motel fan, 1987",
+      "to": "the-motel-fan-1987"
+    },
+    {
+      "dir": "w",
+      "label": "back to where the truck stayed",
+      "to": "the-truck-stays"
+    },
+    {
+      "dir": "n",
+      "label": "the train, a carriage speaker",
+      "to": "a-bell-within-a-bell"
+    },
+    {
+      "dir": "e",
+      "label": "within view of the Darling River",
+      "to": "the-motel-without-fee"
+    }
+  ]
+}

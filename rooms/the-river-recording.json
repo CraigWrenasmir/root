@@ -113,6 +113,11 @@
       "dir": "e",
       "label": "a line of biro arrows on fence posts",
       "to": "the-fence-post-sentence"
+    },
+    {
+      "dir": "w",
+      "label": "an embankment down to the flats, soap in hand",
+      "to": "the-river-flats"
     }
   ]
 }

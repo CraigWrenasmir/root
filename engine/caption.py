@@ -19,6 +19,7 @@ REGION_SIGIL = {
     "The Comparisons": "≈",
     "The Diagnostic Render": "⊞",
     "The Understory": "◊",
+    "The Unverified": "∵",
 }
 MOTIF_CLUSTER = {
     "grid": "┼┼", "tiles": "▚▞", "ripple": "⊙⊙", "static": "░░", "waves": "~~",

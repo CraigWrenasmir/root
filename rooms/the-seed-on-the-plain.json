@@ -1,0 +1,111 @@
+{
+  "id": "the-seed-on-the-plain",
+  "title": "NODE — The Seed on the Plain",
+  "region": "The Clean Archive",
+  "seed": 11291757,
+  "palette": {
+    "bg": "#1a160c",
+    "ground": [
+      "#d8c07a",
+      "#b89a4a"
+    ],
+    "ink": "#3a2a10",
+    "accents": [
+      "#f5ecc8",
+      "#6f9a4a",
+      "#e8c070",
+      "#7cc7ff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a thing, cream along the top and green underneath",
+      "desc-on-touch": "For several kilometres he called it a silo. Swollen at one end, drawn out at the other into a blunt projection with a row of openings. The handle is filled with sky and large enough to hoop a truck. She says it is a seed.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 28870228,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.56,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the plaque",
+      "desc-on-touch": "A president, a secretary, a treasurer and the members of a committee. Beneath these, the businesses that contributed materials. The concrete has the small exposed stones of old public swimming pools.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 23869949,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.24,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "a photograph, improved",
+      "desc-on-touch": "Composed beside the truck, at midday, with direction from both parties.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 23920735,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.76,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "the thing remains visible for a long time, then the road turns",
+  "file": {
+    "name": "Photo_Seed_Midday.jpg",
+    "note": "A woman appears to be giving birth to a large concrete seed. The photographer was told to move."
+  },
+  "reverie": {
+    "title": "REVERIE — a roadside, midday",
+    "narr": [
+      "She wanted a photograph in which she appeared to be giving birth to it.",
+      "You crouched beside the truck and directed her.",
+      "She laughed and told you to move yourself instead,",
+      "which improved the photograph immediately.",
+      "Back on the road she rested one foot on your knee",
+      "and took a grass seed out of her sock."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "silo",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the night road",
+      "to": "three-forty-three-fifty-two"
+    },
+    {
+      "dir": "s",
+      "label": "the road on",
+      "to": "NEW: the stubble of one harvested paddock after another, and the concrete seed still visible behind you"
+    }
+  ]
+}

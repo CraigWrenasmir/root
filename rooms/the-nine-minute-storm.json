@@ -1,0 +1,117 @@
+{
+  "id": "the-nine-minute-storm",
+  "title": "NODE — Nine Minutes, Forty Seconds Late",
+  "region": "The Comparisons",
+  "seed": 85694269,
+  "palette": {
+    "bg": "#0b0f16",
+    "ground": [
+      "#27313f",
+      "#1a2230"
+    ],
+    "ink": "#dfe8f2",
+    "accents": [
+      "#9fb4cc",
+      "#ffd166",
+      "#59f2b0",
+      "#6a7f99"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the ute, radio on",
+      "desc-on-touch": "Slide guitar fused with treble talk and requests for more sorrow, please. Then the quietening of wildlife and the increased fuzz of AM frequencies.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 11894442,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.26,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the fifty closest modules",
+      "desc-on-touch": "Humidity sensors, yes, but other data points too, out of reach of what the hardware should detect. One node talks to another node to another node, all the way down to you.",
+      "verb": "torus",
+      "form": {
+        "type": "chip",
+        "seed": 76743591,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.66,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a thermos lid",
+      "desc-on-touch": "She kept time with the music by flipping it down on a known wobbly offbeat. Then she kept time with the rain. I say, she said. Nine minutes. As it hit the bonnet she said it was forty seconds late.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 46418739,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.36,
+      "y": 0.76,
+      "solid": true
+    },
+    {
+      "name": "a veil of static on the horizon",
+      "desc-on-touch": "Rain seen from the side, wafting, like a bride falling in and out of memory.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 74246908,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.76,
+      "y": 0.76,
+      "solid": false
+    }
+  ],
+  "inscription": "big rain is everywhere, replacing all sensory data with sheets of infinite abundance",
+  "file": {
+    "name": "Storm_MeshCrossing_50nodes.log",
+    "note": "Fifty modules reporting rain before it arrived. One entry, Ridge East, reads like a different language."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the dry road to the oak grove",
+      "to": "the-oak-grove-first-delta"
+    },
+    {
+      "dir": "e",
+      "label": "the gully, after the rain",
+      "to": "the-glisten-listen-gully"
+    },
+    {
+      "dir": "s",
+      "label": "up to the ridge where one module went dark",
+      "to": "ridge-east-the-willow-that-dreamt"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "blankets-drying-00-036",
+  "title": "00_036 — /unverified/Blankets_Drying.tmp",
+  "region": "The Unverified",
+  "seed": 19374896,
+  "palette": {
+    "bg": "#10140a",
+    "ground": [
+      "#5f9a40",
+      "#e0cf4a"
+    ],
+    "ink": "#fbffe8",
+    "accents": [
+      "#ffffff",
+      "#ffe95a",
+      "#a8d87a",
+      "#ff9ec0"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 1.0
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "record 00_036",
+      "desc-on-touch": "Passed over with zero recognition just minutes before. A temporary file, present tense, in a folder of documents still unverified. Nobody here wrote it.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 61370257,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ],
+        "art": [
+          "---------------------------00_036---------------------------",
+          "/unverified/Blankets_Drying.tmp",
+          "------------------------------------------------------------"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.26,
+      "solid": false
+    },
+    {
+      "name": "the next module, waiting to power on",
+      "desc-on-touch": "Wired to the tree while two people kicked their feet into a cloud island of daisies and ate store-bought sandwiches.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 45210958,
+        "size": 2,
+        "colors": [
+          2,
+          0,
+          1
+        ]
+      },
+      "x": 0.74,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "blankets over a branch",
+      "desc-on-touch": "Bedding from the night that got damp with morning dew. Are they dry, she asks.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 64960857,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "ash, behind the truck",
+      "desc-on-touch": "A letter to The Boxer, folded inside a notebook, taken around the back and set on fire. He had been left in a car holding lunch. He is not written to again.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 17728201,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.84,
+      "solid": true
+    }
+  ],
+  "inscription": "she reads the name, looks towards the file, then the line outside",
+  "file": {
+    "name": "Blankets_Drying.tmp",
+    "note": "Present tense. Uploaded by nobody. She rests her hand, forever, on the back of the seat."
+  },
+  "reverie": {
+    "title": "REVERIE — a tree in a cloud island of daisies",
+    "narr": [
+      "The bedding had got damp with morning dew.",
+      "She strung it over a branch of the tree you had wired the module to.",
+      "You kicked your feet into the daisies and ate store-bought sandwiches,",
+      "waiting for the thing to power on.",
+      "Are the blankets dry, she asked.",
+      "You looked at her face as though at an impossible number."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the boxing records",
+      "to": "hunter-boxing-00-041"
+    },
+    {
+      "dir": "e",
+      "label": "what he asks her next",
+      "to": "the-truck-stays"
+    }
+  ]
+}

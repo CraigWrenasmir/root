@@ -1,0 +1,113 @@
+{
+  "id": "ridge-east-the-willow-that-dreamt",
+  "title": "NODE — Ridge East, the Willow That Dreamt the Rain",
+  "region": "The Comparisons",
+  "seed": 56049944,
+  "palette": {
+    "bg": "#081417",
+    "ground": [
+      "#1f4a4a",
+      "#17383a"
+    ],
+    "ink": "#d8f2ee",
+    "accents": [
+      "#7fd6c8",
+      "#e8f5c0",
+      "#ffd166",
+      "#3f8f86"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the module in the fold of the willow",
+      "desc-on-touch": "It went dark during the storm and came back by itself. Moisture, perhaps, or the wind dislodged it. Nobody drove up to check.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 21992249,
+        "size": 2,
+        "colors": [
+          0,
+          3,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the outage readings",
+      "desc-on-touch": "It recorded the rainfall while it was out, and the data does not come close to what the other nodes recorded. She said it observed the storm more accurately than any of them.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 94557650,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.66,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "what it said when it woke",
+      "desc-on-touch": "It is like the module went to sleep, had a dream about the rain, and then told you all about it.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 639206,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.74,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "tennis courts, out of use since last century",
+      "desc-on-touch": "A network of them below the peak, lines still holding their rectangles. The willow has been looking at them the whole time.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 97034920,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.82,
+      "solid": false
+    }
+  ],
+  "inscription": "it reads like a different language",
+  "file": {
+    "name": "RidgeEast_Rainfall_dreamt.csv",
+    "note": "Readings logged during an outage. Every column is populated. No unit matches."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "down off the ridge into the storm",
+      "to": "the-nine-minute-storm"
+    },
+    {
+      "dir": "s",
+      "label": "the slope below the willow",
+      "to": "NEW: the tennis courts below the ridge, nets gone, lines still holding their rectangles, a module watching from above"
+    }
+  ]
+}

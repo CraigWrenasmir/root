@@ -1,0 +1,123 @@
+{
+  "id": "the-fence-that-spells",
+  "title": "UNVERIFIED — The Fence That Spells",
+  "region": "The Unverified",
+  "seed": 99020181,
+  "palette": {
+    "bg": "#0c1218",
+    "ground": [
+      "#9fb8cc",
+      "#c8d8e4"
+    ],
+    "ink": "#12202c",
+    "accents": [
+      "#12202c",
+      "#ffffff",
+      "#b5532c",
+      "#3a5a78"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.2
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a row of birds on a fence",
+      "desc-on-touch": "Their outcast wings repeat a silhouette of telegraph poles at slightly different angles, providing semaphore. The shell tries them as six flags and returns one word, which it files beside a card dated 1923.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 35206456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "         /       \\                 \\|         /",
+          "       o           o    --o         o       o       o",
+          "      /          /          \\               |      / \\ ",
+          "-------\"----------\"--------\"--------\"-------\"--------\"-----"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.36,
+      "solid": false
+    },
+    {
+      "name": "the passenger two seats ahead",
+      "desc-on-touch": "The posture is familiar before they are looked at properly. They heave themselves up and adjust the strap of their wristwatch, bandage-like. They are holding a bag just like his. They leave. The train speeds up again.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 95315545,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.24,
+      "y": 0.64,
+      "solid": true
+    },
+    {
+      "name": "a pale print on the window",
+      "desc-on-touch": "Where a forehead has been.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 48279593,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.56,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "succulents in worn terracotta pots",
+      "desc-on-touch": "And flakes of risen concrete, in the backyards of the town beside the train.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 53714570,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.82,
+      "y": 0.74,
+      "solid": true
+    }
+  ],
+  "inscription": "this is not my station",
+  "file": {
+    "name": "Semaphore_Fence_6flags.txt",
+    "note": "Six positions, read left to right. One word. Confidence: unverified."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up the carriage",
+      "to": "a-bell-within-a-bell"
+    },
+    {
+      "dir": "e",
+      "label": "the carriage slows again",
+      "to": "the-ostinato-elongated"
+    },
+    {
+      "dir": "n",
+      "label": "the platform that is not yours, where the passenger with the wristwatch got off",
+      "to": "the-back-room-radio"
+    }
+  ]
+}

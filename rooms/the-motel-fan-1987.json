@@ -129,6 +129,11 @@
       "dir": "e",
       "label": "through the wall where shadows live when they separate",
       "to": "the-shadow-s-separate-dwelling"
+    },
+    {
+      "dir": "n",
+      "label": "a road made out of available beds and dining rooms",
+      "to": "rooms-along-the-road"
     }
   ]
 }

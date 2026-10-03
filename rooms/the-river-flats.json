@@ -1,0 +1,128 @@
+{
+  "id": "the-river-flats",
+  "title": "NODE — The River Flats, South of a Broken Bridge",
+  "region": "The Clean Archive",
+  "seed": 69155001,
+  "palette": {
+    "bg": "#06141a",
+    "ground": [
+      "#1f5a6a",
+      "#174552"
+    ],
+    "ink": "#dff5f5",
+    "accents": [
+      "#9fe0e8",
+      "#f2e9c9",
+      "#59f2b0",
+      "#c8b88a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the river, carrying two",
+      "desc-on-touch": "Depending on the current they would lie on their backs and let it carry them, then doggy paddle to the starting point. Again and again. Sometimes holding hands like synchronised swimmers, sometimes in counterpoint.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 80443879,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.56,
+      "solid": false
+    },
+    {
+      "name": "the soap caddy",
+      "desc-on-touch": "Prised open on the way down the embankment. When the soap slipped away down river, both parties held a salute and thanked it for its service.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 24682929,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.24,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a broken bridge, possibly worsened",
+      "desc-on-touch": "It may have got worse when they tried to take the truck over.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 6580253,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.34,
+      "solid": true
+    },
+    {
+      "name": "clothes on reeds and saplings",
+      "desc-on-touch": "A ballet routine performed a half dozen times a week.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 2643745,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.76,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "whatever one of us was saying at the time would be replaced by splashing water",
+  "file": {
+    "name": "Soap_Service_Record.txt",
+    "note": "Served a half dozen times a week. Last seen heading down river. Saluted."
+  },
+  "reverie": {
+    "title": "REVERIE — the flats beside a river",
+    "narr": [
+      "Clothes hung on reeds and saplings. You braced for the chill.",
+      "You washed her long hair and hummed new odes into the genesis myth,",
+      "the only man and woman on this empty planet.",
+      "When the soap slipped away down river you both held a salute.",
+      "Then the first mosquito took blood, and you took your revenge,",
+      "and whatever was being said was replaced by splashing water."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "up the embankment to the river recording",
+      "to": "the-river-recording"
+    },
+    {
+      "dir": "w",
+      "label": "a dirt courtyard after dark",
+      "to": "fifty-seven"
+    }
+  ]
+}

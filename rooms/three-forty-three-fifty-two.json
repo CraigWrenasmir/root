@@ -1,0 +1,144 @@
+{
+  "id": "three-forty-three-fifty-two",
+  "title": "NODE — 03:40 / 03:52",
+  "region": "The Comparisons",
+  "seed": 33307782,
+  "palette": {
+    "bg": "#080a18",
+    "ground": [
+      "#1c2250",
+      "#141a3c"
+    ],
+    "ink": "#dfe6ff",
+    "accents": [
+      "#aab8ff",
+      "#ffd9a0",
+      "#59f2b0",
+      "#5a66b0"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "a butcherbird, recorded behind a bakery",
+      "desc-on-touch": "Months before, in a town with little else between the road leading in and the one leading out, a microphone on a picnic table and a bird singing a little song.",
+      "verb": "hum",
+      "form": {
+        "type": "plate",
+        "seed": 31998345,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ],
+        "art": [
+          "                    .  '",
+          "                  .",
+          "         ______",
+          "     _.-'  o  `->",
+          "    (___.___    /",
+          "      `-.___,-'",
+          "         ||",
+          " ------++-----------"
+        ]
+      },
+      "x": 0.3,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the maintenance log, two entries circled in pencil",
+      "desc-on-touch": "He was looking down the column for a mistake in the schedule. She ran her finger across the line instead. This one sends it there, she said, and here, look, this one sends something back.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 9948673,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the receiving tree, an hour north",
+      "desc-on-touch": "At three forty a filename blinks into being. Nobody has touched anything. At three fifty-two the module sends a file back to the tree that sent the first. Same name. Same size.",
+      "verb": "torus",
+      "form": {
+        "type": "burl",
+        "seed": 16033424,
+        "size": 2,
+        "colors": [
+          3,
+          0,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "one ear bud each",
+      "desc-on-touch": "The outgoing copy, opened while she still had the other ear bud.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 85088326,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "a conversation between machines for their own pleasure, not for ours",
+  "file": {
+    "name": "Butcherbird_BehindBakery.wav",
+    "note": "Sent 03:40. Returned 03:52, same name, same size, running backwards. Not addressed to you."
+  },
+  "reverie": {
+    "title": "REVERIE — under the receiving tree, 3.40am",
+    "narr": [
+      "You drove the hour north and neither of you slept.",
+      "At three forty a filename blinked into being. It took so long to arrive.",
+      "You passed her an ear bud. You both knew the butcherbird at once,",
+      "the little song from the picnic table behind the bakery.",
+      "At three fifty-two the same file went back, running backwards.",
+      "You reached to stop it. She put her hand on yours and kept listening."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the poem",
+      "to": "the-glisten-listen-gully"
+    },
+    {
+      "dir": "e",
+      "label": "a maintenance round, a towel spread beneath a tree",
+      "to": "the-amber-module"
+    },
+    {
+      "dir": "s",
+      "label": "the midday road",
+      "to": "the-seed-on-the-plain"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "the-ostinato-elongated",
+  "title": "UNVERIFIED — The Ostinato, Elongated",
+  "region": "The Unverified",
+  "seed": 2817010,
+  "palette": {
+    "bg": "#0a0c14",
+    "ground": [
+      "#2a3458",
+      "#1e2642"
+    ],
+    "ink": "#eef0ff",
+    "accents": [
+      "#ffe9a0",
+      "#ff9ee6",
+      "#7cc7ff",
+      "#59f2b0"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.3
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "an ostinato, eleven notes",
+      "desc-on-touch": "He has stopped humming without stopping the movement of his fingers. A loose part of the window plays descending bass notes whenever the train crosses a join, and now the two cannot be separated.",
+      "verb": "hum",
+      "form": {
+        "type": "plate",
+        "seed": 51509723,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ],
+        "art": [
+          "|----o------------------------------------------------------|",
+          "|----------o------------------o---------o------------------|",
+          "|--------------------o--------------------------------------|",
+          "|---------------o---------o-----------------o--------------|",
+          "|----------------------------------o--------------o-----o--|"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "a declivity of meadow",
+      "desc-on-touch": "Not a basement but a lower part of a field, where you might sit and watch the evening star dust off the learnings of the underworld on its return journey.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 33526385,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "a jetpack, being serviced",
+      "desc-on-touch": "Fuel tank aligned, nitrogen regulator distributing to the rocket nozzle, catalyst bed tight against the belly strap. Beside it a skirt, a flat mirrorball, perhaps used as a thermal blanket as the dew settles.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 27829352,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "Come in Spinner",
+      "desc-on-touch": "Before reading it on the beach one Summer, he thought the spinner was a World War Two fighter plane coming in to land.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 35578844,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.86,
+      "solid": true
+    }
+  ],
+  "inscription": "like walking down into a basement, whenever we cross a join",
+  "file": {
+    "name": "Ostinato_11notes.tab",
+    "note": "UPLOADED: nine notes. CURRENT: eleven. A loose part of the window supplied the rest."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up the carriage",
+      "to": "the-fence-that-spells"
+    },
+    {
+      "dir": "e",
+      "label": "the station at which he alights",
+      "to": "the-suspension-bridge-behind-the-station"
+    },
+    {
+      "dir": "s",
+      "label": "down",
+      "to": "NEW: a lower part of a field at evening, a pastoral dip where the first star dusts off the learnings of the underworld"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "the-suspension-bridge-behind-the-station",
+  "title": "UNVERIFIED — The Suspension Bridge Behind the Station",
+  "region": "The Unverified",
+  "seed": 15814200,
+  "palette": {
+    "bg": "#081008",
+    "ground": [
+      "#2f6a4a",
+      "#234f38"
+    ],
+    "ink": "#e8f8ee",
+    "accents": [
+      "#d8c8a0",
+      "#59f2b0",
+      "#ffd166",
+      "#8ab89a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.4
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the bridge",
+      "desc-on-touch": "It spans the gap over the river behind the station. On the far side a dirt path connects to another dirt path.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 56599849,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "rail lines in paired threads",
+      "desc-on-touch": "Bisecting land but not sky.",
+      "verb": "torus",
+      "form": {
+        "type": "plate",
+        "seed": 35644842,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ],
+        "art": [
+          "───┬───┬───┬───┬──┬",
+          "   │   │   │   │   │",
+          "───┬───┬───┬───┬──┬",
+          "   │   │   │   │   │",
+          "───┬───┬───┬───┬──┬"
+        ]
+      },
+      "x": 0.2,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "instructions, authorship unresolved",
+      "desc-on-touch": "The second washer is under the first. Put the chain through the gate not round the post. Leave the chair with the green seat beside the telephone. Written by her, or by the trees, or by transmission lines. He will not discuss it with his friend.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 24925859,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.24,
+      "y": 0.8,
+      "solid": true
+    },
+    {
+      "name": "a four-wheel drive, surrounded by trees",
+      "desc-on-touch": "Not in view, and then what do you know, turn the corner, there it is.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 22131182,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "like fragments of poetry on broken pots recovered from the bottom of the sea, letters rising",
+  "file": {
+    "name": "Instructions_fragments.txt",
+    "note": "Photograph of hall before ramp, and other notes. No author field."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back onto the train",
+      "to": "the-ostinato-elongated"
+    },
+    {
+      "dir": "e",
+      "label": "the dirt path to where the bush begins",
+      "to": "start-where-the-bush-begins"
+    },
+    {
+      "dir": "s",
+      "label": "what he sees before he reaches the car",
+      "to": "the-beachhead-the-ring"
+    }
+  ]
+}

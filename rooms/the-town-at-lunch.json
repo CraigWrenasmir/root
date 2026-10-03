@@ -1,0 +1,112 @@
+{
+  "id": "the-town-at-lunch",
+  "title": "UNVERIFIED — The Town at Lunch",
+  "region": "The Unverified",
+  "seed": 14708608,
+  "palette": {
+    "bg": "#14120c",
+    "ground": [
+      "#e0d4b0",
+      "#c4b48a"
+    ],
+    "ink": "#fffaf0",
+    "accents": [
+      "#fffaf0",
+      "#8ab85a",
+      "#ff8a5a",
+      "#7cc7ff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a public clock with an irregular shudder",
+      "desc-on-touch": "As though each second has to be individually persuaded.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 39534221,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.24,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the drinking fountain",
+      "desc-on-touch": "She holds the front of her dress against her chest, closes her eyes, and takes a sip from the parabola.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 97823904,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.48,
+      "y": 0.74,
+      "solid": false
+    },
+    {
+      "name": "a bookstore, next to the Choo Chew Take Away",
+      "desc-on-touch": "Local histories in the window, and a book of poetry by a publican. She does not replace the book lost to the bathwater. She takes a different one, bound in green cloth, faded along the spine to the colour of a boiled pea.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 72878170,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the door",
+      "desc-on-touch": "She finishes the paragraph as she reaches it. Once inside, she moves beyond what is knowable. The render stops at the step.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 42367177,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.84,
+      "y": 0.76,
+      "solid": true
+    }
+  ],
+  "inscription": "every store is both open and closed, in a state of empty rest",
+  "file": {
+    "name": "GreenCloth_title_unrecorded.txt",
+    "note": "Thick paper, pleasant to turn. One paragraph read on the way down the street."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the road she drove",
+      "to": "morning-through-the-leadlight"
+    },
+    {
+      "dir": "n",
+      "label": "the next hotel",
+      "to": "NEW: a hotel whose publican wrote a book of poetry, where she might stay tomorrow, depending on events"
+    }
+  ]
+}

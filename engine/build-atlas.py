@@ -47,7 +47,8 @@ leaves = max(1, leafslot[0]); maxd = max(depth.values()) if depth else 1
 
 W = 1500; cx = cy = W / 2; ring = (W / 2 - 60) / max(1, maxd)
 REGC = {"The Clean Archive": "#59f2b0", "The Comparisons": "#7cc7ff",
-        "The Diagnostic Render": "#ff71ce", "The Understory": "#ffd166"}
+        "The Diagnostic Render": "#ff71ce", "The Understory": "#ffd166",
+        "The Unverified": "#ff9e7a"}
 def region_color(rid): return REGC.get(rooms[rid].get("region", ""), "#6a6a6a")
 P = {}
 for rid in reachable:
@@ -76,7 +77,8 @@ sv.append("</svg>")
 
 byreg = defaultdict(list)
 for rid, r in rooms.items(): byreg[r.get("region", "?")].append((r.get("title", rid), rid, r))
-order = ["The Clean Archive", "The Comparisons", "The Diagnostic Render", "The Understory"]
+order = ["The Clean Archive", "The Comparisons", "The Diagnostic Render", "The Understory",
+         "The Unverified"]
 order += [x for x in byreg if x not in order]
 idx = []
 for reg in order:

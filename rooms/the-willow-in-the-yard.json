@@ -1,0 +1,113 @@
+{
+  "id": "the-willow-in-the-yard",
+  "title": "NODE 000 — The Willow in the Yard",
+  "region": "The Clean Archive",
+  "seed": 43546536,
+  "palette": {
+    "bg": "#0c140c",
+    "ground": [
+      "#2f5a2a",
+      "#234520"
+    ],
+    "ink": "#e8f5d8",
+    "accents": [
+      "#c8e89a",
+      "#ffe9a0",
+      "#7cc7ff",
+      "#f2e9c9"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "an ice cream container tied to the willow",
+      "desc-on-touch": "An empty ice cream container with the hardware seated inside it, tied to the trunk. The first proper module. It has one job and one file.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 51805579,
+        "size": 2,
+        "colors": [
+          0,
+          3,
+          1
+        ]
+      },
+      "x": 0.66,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the kitchen window",
+      "desc-on-touch": "Two people lean against the sink with dessert bowls, looking into the yard. The clock on the wall sends its sync pulse. And then it begins to sing.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 40782254,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.22,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a bell miner, MIDI",
+      "desc-on-touch": "An electric piano tuned to a high octave, staccato tapped. Bellbirds are gully birds. Is a wrong-sounding bellbird still a bellbird. The question did not need an answer.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 97962761,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "the kitchen clock's sync pulse",
+      "desc-on-touch": "A basic protocol: the clock says now, and the module starts its bellbird rendition. Everything after this is elaboration.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 98626301,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.78,
+      "solid": true
+    }
+  ],
+  "inscription": "and then it began to sing",
+  "file": {
+    "name": "BellMiner_Year3000.mid",
+    "note": "Extracted from a university student's simulation of Newcastle a thousand years on. Triggered by a kitchen clock."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "forward, to the oak grove",
+      "to": "the-oak-grove-first-delta"
+    },
+    {
+      "dir": "n",
+      "label": "the fence at the back of the yard",
+      "to": "NEW: the neighbour's yard, where the kitchen clock's sync pulse can still be heard through the palings"
+    }
+  ]
+}

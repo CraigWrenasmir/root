@@ -113,6 +113,11 @@
       "dir": "w",
       "label": "a drain mouth breathing cool air",
       "to": "the-stormwater-civic-body"
+    },
+    {
+      "dir": "e",
+      "label": "a hackneyed wooden fence rounding a field of scattered dustlight",
+      "to": "the-oak-grove-first-delta"
     }
   ]
 }

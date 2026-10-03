@@ -15,7 +15,7 @@ mesh hasn't grown yet end mid-air; step off one and you get
 `NODE UNREACHABLE — return after the next night.` Each night the growth
 engine grows those nodes into being.
 
-From the ROOT layer of the novel-in-progress
+From the ROOT layer of the novel
 [*Their Most August Public Organ*](https://novel.wrenasmir.com) by
 C. W. Smith. Built on the same self-growing engine as
 [Dreamring](https://craigwrenasmir.github.io/dreamring/) and sibling to

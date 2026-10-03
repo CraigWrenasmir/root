@@ -1,0 +1,117 @@
+{
+  "id": "the-church-that-is-now-an-arboretum",
+  "title": "UNVERIFIED — The Church That Is Now an Arboretum",
+  "region": "The Unverified",
+  "seed": 17328516,
+  "palette": {
+    "bg": "#0a0c0a",
+    "ground": [
+      "#5a6058",
+      "#3e5a3a"
+    ],
+    "ink": "#eef2ea",
+    "accents": [
+      "#c8ccc0",
+      "#8fb86a",
+      "#ffd166",
+      "#7a5a3a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "a window sharded with bark",
+      "desc-on-touch": "Wrapped in vines. The fallen stones are structured, now, as an arboretum.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 92492324,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.26,
+      "y": 0.46,
+      "solid": true
+    },
+    {
+      "name": "the pulpit, leaf crumble in it",
+      "desc-on-touch": "No symbols where none intended.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 63303222,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "wind and bird holler",
+      "desc-on-touch": "Bach used to write organ fugues in accordance with the geometry of the church they would be played in. So too this church.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 6100627,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.64,
+      "solid": true
+    },
+    {
+      "name": "the end of the trail",
+      "desc-on-touch": "The ruins do their part to commemorate an emphatic desire for symbols.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 31336037,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ],
+        "art": [
+          "  †",
+          "  X",
+          "FINISH"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.9,
+      "solid": false
+    }
+  ],
+  "inscription": "we turn the internal geography of our twin subjectivities towards the landscape that surrounds us",
+  "file": {
+    "name": "Church_Ruins_Fugue.wav",
+    "note": "Field recording. The building is the instrument. Nobody is playing it."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the radar station",
+      "to": "the-radar-station"
+    },
+    {
+      "dir": "s",
+      "label": "X",
+      "to": "trace-delta-minus-one"
+    }
+  ]
+}

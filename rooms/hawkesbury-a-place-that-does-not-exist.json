@@ -1,0 +1,129 @@
+{
+  "id": "hawkesbury-a-place-that-does-not-exist",
+  "title": "UNVERIFIED — Hawkesbury River, a Place That Does Not Exist",
+  "region": "The Unverified",
+  "seed": 52694511,
+  "palette": {
+    "bg": "#120c08",
+    "ground": [
+      "#5a4028",
+      "#3e2c1c"
+    ],
+    "ink": "#fff0d8",
+    "accents": [
+      "#ffffff",
+      "#ffb347",
+      "#8fb86a",
+      "#ff8a3a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "a double-storey white weatherboard hotel",
+      "desc-on-touch": "Small windows and heavy blinds. Not a place for sleeping, on this occasion.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 73978945,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a willow beside the platform, a mathematics pamphlet",
+      "desc-on-touch": "A light treatise about points on an elliptic curve and the relationship between falling autumn leaves and cryptography. She caught the earlier train.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 88299917,
+        "size": 2,
+        "colors": [
+          2,
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "warm bedside lamps",
+      "desc-on-touch": "They make good on the promise made by the windows.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 61592558,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.56,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "an orange tree and fallen fruit",
+      "desc-on-touch": "In the pebble courtyard out the back, which also does not exist, and which is also thought about.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 43479944,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.84,
+      "y": 0.74,
+      "solid": true
+    }
+  ],
+  "inscription": "this place does not exist, and yet I think about it",
+  "file": {
+    "name": "Hotel_Hawkesbury_NEVER.jpg",
+    "note": "A photograph whose contents list a place it could not contain."
+  },
+  "reverie": {
+    "title": "REVERIE — a hotel that does not exist",
+    "narr": [
+      "This place does not exist. You think about it anyway.",
+      "She caught the earlier train and waited beneath the willow, reading.",
+      "The lamps made good on the promise of small windows and heavy blinds.",
+      "You were not there to sleep. You knelt on the floor",
+      "and were deeply silent together.",
+      "Next day she departed first, arms down the sides of a thrift shop dress."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the viaduct",
+      "to": "the-viaduct-incomplete"
+    },
+    {
+      "dir": "n",
+      "label": "the second type of place",
+      "to": "NEW: places been to once and never again: telegraph wires nested on sandstone corners, a bulldozed theatre, a crater on no chart"
+    }
+  ]
+}

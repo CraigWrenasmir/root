@@ -1,0 +1,119 @@
+{
+  "id": "the-couch-by-the-front-window",
+  "title": "UNVERIFIED — The Couch by the Front Window",
+  "region": "The Unverified",
+  "seed": 84728147,
+  "palette": {
+    "bg": "#120e06",
+    "ground": [
+      "#6a5628",
+      "#54441e"
+    ],
+    "ink": "#fff4d0",
+    "accents": [
+      "#fff4d0",
+      "#e8c070",
+      "#ff8a5a",
+      "#9ac87a"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "a fifty-cent paperback from Cooks Hill",
+      "desc-on-touch": "Australian novels, almost all just skirting the war years. Somebody has been expected home for several pages. Whenever a car slows outside, he looks up on their behalf.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 51758220,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.26,
+      "y": 0.46,
+      "solid": true
+    },
+    {
+      "name": "scissors",
+      "desc-on-touch": "The woman he is staying with walks in a little too purposefully. A friend is coming to have her hair cut. He asks if this is something she knows how to do. A towel is already going down.",
+      "verb": "scatter",
+      "form": {
+        "type": "plate",
+        "seed": 84078426,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "8< - - - - - - - - - - -"
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the back stoop",
+      "desc-on-touch": "Two women inside, although it sounds like many more, laughing in rooms full of sunlight. He will return to this afternoon, as now, for stretched decades.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 73615949,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.76,
+      "y": 0.66,
+      "solid": true
+    },
+    {
+      "name": "a letter, arriving in a novel",
+      "desc-on-touch": "Characters were often waiting for one, and when it arrived it made a sound like radio crackle. Aged Morse, five words.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 75260807,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "- .... . .. .-.   -- --- ... -   .- ..- --. ..- ... -",
+          ".--. ..- -... .-.. .. -.-.   --- .-. --. .- -."
+        ]
+      },
+      "x": 0.36,
+      "y": 0.84,
+      "solid": false
+    }
+  ],
+  "inscription": "later of paperbarks, now of paperarcs",
+  "file": {
+    "name": "Paragraphs_transcribed_for_The_Boxer.txt",
+    "note": "Copied out by hand from the pulp of the twentieth century, that Summer. Later compressed into text files on the mesh."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the garage",
+      "to": "the-historians-garage"
+    },
+    {
+      "dir": "n",
+      "label": "out the front window",
+      "to": "NEW: an old arcade seen from a low place on a couch, a car slowing outside for somebody in a book"
+    }
+  ]
+}

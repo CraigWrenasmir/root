@@ -1,0 +1,127 @@
+{
+  "id": "start-where-the-bush-begins",
+  "title": "UNVERIFIED — START",
+  "region": "The Unverified",
+  "seed": 26468512,
+  "palette": {
+    "bg": "#060d06",
+    "ground": [
+      "#2a5a24",
+      "#1e441a"
+    ],
+    "ink": "#e4f5dc",
+    "accents": [
+      "#c8e89a",
+      "#ffd166",
+      "#7cc7ff",
+      "#8a6a3a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the first ridge",
+      "desc-on-touch": "The mountain that necklaces the region. Behind it, a descension of some two kilometres along what used to be a segment of the Great North Walk, until it became too abandoned.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 76439553,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "       |",
+          "     /  \\ ",
+          "    / ^^ \\ ",
+          "   / ^^^^ \\ ",
+          " /__Mountain_\\ ",
+          "       |",
+          "     X -+-",
+          " START |"
+        ]
+      },
+      "x": 0.28,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "a clutter of wrens",
+      "desc-on-touch": "Their feet tussling with a soft carriage of green air and bell swoop. Wrens that seemingly rise out of wrens, trees out of the canopy of other trees.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 17300014,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.34,
+      "solid": true
+    },
+    {
+      "name": "a man beside a fence, rolling his cuffs",
+      "desc-on-touch": "He seems unaware of you until you are just about at his car. Brothers who survived the teenage years, the courting years, the apprentice years. He does not ask about Katita, or the end of history. He asks if you have been reading.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 21466246,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.66,
+      "solid": true
+    },
+    {
+      "name": "sandwiches, shared behind a grove",
+      "desc-on-touch": "Packed in the bag. The pending war can wait. First, just walk a while and talk about the surroundings here.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 87842598,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.82,
+      "solid": false
+    }
+  ],
+  "inscription": "I am on my way to see my friend",
+  "file": {
+    "name": "GreatNorthWalk_segment_abandoned.gpx",
+    "note": "Start to finish, about two kilometres down. The answer to his question is a filename."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back over the suspension bridge",
+      "to": "the-suspension-bridge-behind-the-station"
+    },
+    {
+      "dir": "s",
+      "label": "down the trail",
+      "to": "the-radar-station"
+    },
+    {
+      "dir": "e",
+      "label": "off the trail",
+      "to": "NEW: bell miners, real ones this time, somewhere down a gully beside the trail"
+    }
+  ]
+}

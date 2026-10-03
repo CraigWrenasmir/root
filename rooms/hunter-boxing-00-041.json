@@ -1,0 +1,136 @@
+{
+  "id": "hunter-boxing-00-041",
+  "title": "00_041 — dir/ROOT/Hunter/boxing/",
+  "region": "The Comparisons",
+  "seed": 21751002,
+  "palette": {
+    "bg": "#0a0804",
+    "ground": [
+      "#2a2210",
+      "#1c170a"
+    ],
+    "ink": "#ffe9b0",
+    "accents": [
+      "#ffc247",
+      "#8a7a4a",
+      "#ff7a5a",
+      "#d8c890"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "record 00_041",
+      "desc-on-touch": "Scanned from a box found behind a foreclosed gymnasium. The man who took admission at the fights later kept the municipal pool.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 23456246,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "---------------------------00_041---------------------------",
+          "SHORE, Elias",
+          "4 DEC 1954    10 rounds",
+          "result     won on points",
+          "source     scan_014.tif",
+          "history    hunter_north.txt",
+          "/next_page",
+          "------------------------------------------------------------"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.32,
+      "solid": false
+    },
+    {
+      "name": "record 00_042",
+      "desc-on-touch": "The names he was sold under, each with its own fights. None of these is the name he was born with.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 20514140,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "---------------------------00_042---------------------------",
+          "ELIAS SHORE",
+          "also recorded as:",
+          "  Eli Shore ---------> Fights",
+          "  Ellis Shaw---------> Fights",
+          "  Elías del Puerto --> Fights",
+          "------------------------------------------------------------"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the line beneath the three names",
+      "desc-on-touch": "There is another name beneath these, printed in the same type as the hall and the weight at which he fought. Nobody typed it. This shell will not draw it. Leave it where it is.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 86297001,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.84,
+      "solid": true
+    },
+    {
+      "name": "a notebook on a steering wheel",
+      "desc-on-touch": "She had come to surpass his predilection for local history with a fervour he had not seen coming. She spins a piece of amber between her fingers as she reads.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 53876510,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.86,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the name was birthed online of its own making",
+  "file": {
+    "name": "hunter_north.txt",
+    "note": "Fight history for the region. One line of this file was not uploaded by anyone."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the amber",
+      "to": "the-amber-module"
+    },
+    {
+      "dir": "e",
+      "label": "scroll back up, past the records, to the folder of pending documents",
+      "to": "blankets-drying-00-036"
+    },
+    {
+      "dir": "s",
+      "label": "a suburban backyard, a shed, a long time before",
+      "to": "the-historians-garage"
+    }
+  ]
+}

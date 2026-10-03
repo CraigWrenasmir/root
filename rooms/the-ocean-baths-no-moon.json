@@ -1,0 +1,112 @@
+{
+  "id": "the-ocean-baths-no-moon",
+  "title": "UNVERIFIED — The Ocean Baths, No Moon",
+  "region": "The Unverified",
+  "seed": 41666257,
+  "palette": {
+    "bg": "#02040a",
+    "ground": [
+      "#0e1a30",
+      "#0a1424"
+    ],
+    "ink": "#c8d8f0",
+    "accents": [
+      "#5a7ab0",
+      "#e8f0ff",
+      "#ffd166",
+      "#2a3a5a"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a small fish, or similar",
+      "desc-on-touch": "It felt at first like a hand, or someone's toe. Then it propelled itself into a loose wave of swimming shorts, and matters escalated.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 47782562,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.36,
+      "y": 0.44,
+      "solid": false
+    },
+    {
+      "name": "dark pants on a dark body in total darkness",
+      "desc-on-touch": "Placed beneath the back to be felt there while floating, arms out like an aeroplane. They floated off, sank, and drifted slightly south. Oh heck. Heck and bother. Not what anyone was seeking on a Tuesday night.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 17351188,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "a bike, a shirt in the basket",
+      "desc-on-touch": "The contingency: shirt as toga, the more shadowed trajectories of the city, a sleeve in the spokes, a charge of public indecency. Not required in the end.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 2311079,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "a second account",
+      "desc-on-touch": "The file on the motel roof tells this night again, except it is Katita in the ocean baths and she loses her swimmers. The archive holds both. Neither is marked as the copy.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 38632542,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.24,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "that's how much you miss Katita then, said my friend",
+  "file": {
+    "name": "OceanBaths_Tuesday_2versions.txt",
+    "note": "Two swimmers, one night, one pair of pants. checksum: emotionally valid / formally unstable."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the platform",
+      "to": "the-empty-platform-at-fassifern"
+    },
+    {
+      "dir": "s",
+      "label": "the ride home",
+      "to": "NEW: the more shadowed trajectories of a city at night, ridden home by someone who very nearly wore a shirt as a toga"
+    }
+  ]
+}

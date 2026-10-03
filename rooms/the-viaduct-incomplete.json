@@ -1,0 +1,127 @@
+{
+  "id": "the-viaduct-incomplete",
+  "title": "UNVERIFIED — The Viaduct, Incomplete",
+  "region": "The Unverified",
+  "seed": 24422967,
+  "palette": {
+    "bg": "#0c100a",
+    "ground": [
+      "#5f8a3a",
+      "#8a8c88"
+    ],
+    "ink": "#f4f6ee",
+    "accents": [
+      "#e8e8e4",
+      "#1a1a1a",
+      "#ffd166",
+      "#b8bcb4"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a roadway pulled through the clouds",
+      "desc-on-touch": "Super-smooth, super-flat, heavier than the Earth and all its contents. Not yet a bridge, since its intentions are incomplete. He walks the middle dotted line, one foot in each lane.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 12582185,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "                    /________________________/",
+          "                  /________________________/",
+          "                /________________________/",
+          "              /________________________/",
+          "            /________________________/",
+          "          /________________________/",
+          "        /________________________/",
+          "      /________________________/"
+        ]
+      },
+      "x": 0.56,
+      "y": 0.44,
+      "solid": false
+    },
+    {
+      "name": "the billboard",
+      "desc-on-touch": "Not a school or a religion or a waste facility. The promise of another lane, just one more lane, subject to viable reductions. Two point four billion dollars.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 35196631,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "cows in an unbroken constellation",
+      "desc-on-touch": "Black and white dots at late afternoon, like pinpricks in a map poked through from underneath. When it rained too much the grass turned oceanic and they moved on risen boardwalks of soil.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 91626603,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.24,
+      "y": 0.76,
+      "solid": true
+    },
+    {
+      "name": "three distinct types of place",
+      "desc-on-touch": "Places you can routinely go. Places you have been but will likely never return to. Places that do not exist but which you nonetheless think about often.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 2612847,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.76,
+      "y": 0.76,
+      "solid": true
+    }
+  ],
+  "inscription": "a full sentence where none used to be",
+  "file": {
+    "name": "Viaduct_intentions_incomplete.dwg",
+    "note": "A superstructure not present this time last year. He hoped they would never finish construction here."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to Fassifern",
+      "to": "the-empty-platform-at-fassifern"
+    },
+    {
+      "dir": "e",
+      "label": "the train again, Wyong, Wyee",
+      "to": "warnervale-a-length-of-blue-hose"
+    },
+    {
+      "dir": "n",
+      "label": "the third type of place",
+      "to": "hawkesbury-a-place-that-does-not-exist"
+    }
+  ]
+}

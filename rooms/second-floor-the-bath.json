@@ -1,0 +1,112 @@
+{
+  "id": "second-floor-the-bath",
+  "title": "UNVERIFIED — Second Floor, the Bath",
+  "region": "The Unverified",
+  "seed": 85077165,
+  "palette": {
+    "bg": "#06100e",
+    "ground": [
+      "#2a5a54",
+      "#1e4440"
+    ],
+    "ink": "#f4fff8",
+    "accents": [
+      "#fff4d8",
+      "#ffd166",
+      "#2e8a4a",
+      "#9fd8cc"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the bath",
+      "desc-on-touch": "The pages stay down, soaked and heavy and blank. All the letters of all the words have lifted from the paper and bob on the water like an oily alphabet soup.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 64158401,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.46,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "green satin shorts, a white star sewn on",
+      "desc-on-touch": "He peels off a fabric layer of sweat and blood and apocalypse and sits down on a sturdy timber chair.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 80344933,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "five words in a fair row",
+      "desc-on-touch": "On her right arm, by some miracle of sequenced liquidity, five complete words. The archive holds the same five as a filename.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 91277573,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.74,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "an aluminium-framed window",
+      "desc-on-touch": "Lamplight against it. Outside, the arctic rural crossroads.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 28909039,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.78,
+      "solid": true
+    }
+  ],
+  "inscription": "the bath has, both before and now, made all names provincial",
+  "file": {
+    "name": "Bathwater_Alphabet.txt",
+    "note": "Pronouns, pet names, oral tics and verbal gestures never used. Unordered, except for five words."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "downstairs to the back room",
+      "to": "the-back-room-radio"
+    },
+    {
+      "dir": "e",
+      "label": "morning",
+      "to": "morning-through-the-leadlight"
+    }
+  ]
+}

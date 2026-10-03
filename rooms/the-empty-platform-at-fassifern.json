@@ -1,0 +1,135 @@
+{
+  "id": "the-empty-platform-at-fassifern",
+  "title": "UNVERIFIED — The Empty Platform at Fassifern",
+  "region": "The Unverified",
+  "seed": 93462721,
+  "palette": {
+    "bg": "#0e1014",
+    "ground": [
+      "#8a8f98",
+      "#6a7078"
+    ],
+    "ink": "#f4f6fa",
+    "accents": [
+      "#ff9ee6",
+      "#fff4a0",
+      "#2a3038",
+      "#7cc7ff"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a hologram skirt",
+      "desc-on-touch": "A flickering incandescent starfield, worn in palm tree food courts across the pinball coast of the northern seaboard. Really much more like a beach scene: a shifting of biogenic light.",
+      "verb": "bloom",
+      "form": {
+        "type": "plate",
+        "seed": 71466173,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "      [==========]",
+          "      / * . ° . * . \\ ",
+          "     / . * · * . · * \\ ",
+          "    / * . * ✦ * . ✦ . \\ ",
+          "   / . ✦ * . * ✦ * . \\ ",
+          "  / * . * ✦ . * ✦ * . * \\ ",
+          " / . * ✦ * . ✦ . * ✦ . \\ ",
+          "\\_ _* . ✦ . * . ✦ . * . _ _/",
+          "      ~ ~~ ~~ ~~ ~"
+        ]
+      },
+      "x": 0.24,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "a blue grid, mostly blank",
+      "desc-on-touch": "The front of every Master System box in the video store, so you would pick it up and turn it over. Also a tartan picnic blanket somebody snoozes on during daytime operations.",
+      "verb": "torus",
+      "form": {
+        "type": "plate",
+        "seed": 79651081,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ],
+        "art": [
+          "┌───┬───┬───┬───┬─",
+          "│   │   │   │   │",
+          "├───┼───┼───┼───┼─",
+          "│   │   │   │   │",
+          "├───┼───┼───┼───┼─"
+        ]
+      },
+      "x": 0.72,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "chilli con carne, remembered",
+      "desc-on-touch": "Ten years on, the golden record idea feels like a quaint thing to say. Yet there is little he would rather live again than slow cooking chilli con carne with her.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 83250439,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.66,
+      "y": 0.78,
+      "solid": true
+    },
+    {
+      "name": "the platform sign",
+      "desc-on-touch": "Nobody on it. The train holds a moment, then does not.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 97231793,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.86,
+      "y": 0.66,
+      "solid": true
+    }
+  ],
+  "inscription": "not so it can be rebuilt, but so it can be reevaluated",
+  "file": {
+    "name": "Voyager_Eucalyptus_Edition.txt",
+    "note": "Enough text, sound and imagery for any young Blinky Bill out on the road after. The mandate, as first written."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up the carriage",
+      "to": "the-carriage-south-of-newcastle"
+    },
+    {
+      "dir": "e",
+      "label": "further south, a superstructure in a field",
+      "to": "the-viaduct-incomplete"
+    },
+    {
+      "dir": "s",
+      "label": "a story told to a friend on a walk",
+      "to": "the-ocean-baths-no-moon"
+    }
+  ]
+}

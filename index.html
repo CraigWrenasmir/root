@@ -668,9 +668,23 @@ function stampChip(f, rnd){
   putStr(x0-(label.length>>1), y0-(h>>1), label, c1, true, "#0d0d0d");
   f._bbox = [x0-(w>>1)-1, y0-h-1, x0+(w>>1)+1, y0+1];
 }
+function stampPlate(f, rnd){
+  // a page plate: literal ASCII carried over from the book, painted as found.
+  // form.art is an array of rows; walkable unless the feature is solid.
+  const art = (f.form.art||[]).map(String);
+  const c0 = f._cols[0];
+  const w = art.reduce((m,l)=>Math.max(m,l.length),0), h = art.length;
+  const lx = Math.max(1, Math.min(COLS-1-w, f._cx-(w>>1)));
+  const ty = Math.max(1, Math.min(PR-1-h, f._cy-h+1));
+  for(let i=0;i<h;i++) for(let j=0;j<art[i].length;j++)
+    if(art[i][j]!==" ") put(lx+j, ty+i, art[i][j], c0, !!f.solid);
+  f._bbox = [lx-1, ty-1, lx+w, ty+h];
+  f._cx = lx+(w>>1); f._cy = ty+(h>>1);   // query distance measures from the plate's middle
+}
 const STAMPS = {sprite:stampSprite, stack:stampStack, tower:stampTower, arch:stampArch,
                 pool:stampPool, glyph:stampGlyph, wireframe:stampWireframe,
-                burl:stampBurl, filecard:stampFilecard, house:stampHouse, chip:stampChip};
+                burl:stampBurl, filecard:stampFilecard, house:stampHouse, chip:stampChip,
+                plate:stampPlate};
 
 /* ---------- room build ---------- */
 function prepRoom(r){
@@ -689,8 +703,11 @@ function prepRoom(r){
 function buildRoom(r){
   base = newBase(); twinkles = [];
   paintGround(r);
-  for(const f of (r.features||[]).slice().sort((p,q)=>p._cy-q._cy))
+  for(const f of (r.features||[])) if(f._ax!=null){ f._cx = f._ax; f._cy = f._ay; }
+  for(const f of (r.features||[]).slice().sort((p,q)=>p._cy-q._cy)){
+    f._ax = f._cx; f._ay = f._cy;
     STAMPS[f.form.type](f, mulberry32(f.form.seed||f._seed));
+  }
   paintBorder(r);
   // pre-render static layer (per-cell painted backgrounds — the ANSI look)
   const roomBg = (r.palette && r.palette.bg) || "#07130c";
@@ -1068,7 +1085,8 @@ function drawReverie(dt){
   text(scr,"┌"+"─".repeat(COLS-6)+"┐",2,27,"#4a3a2a");
   text(scr,"└"+"─".repeat(COLS-6)+"┘",2,34,"#4a3a2a");
   const narr = reverie.scene.narr||[];
-  narr.slice(reverie.page*2, reverie.page*2+2).forEach((l,i)=>text(scr,l.slice(0,COLS-12),6,29+i*2,"#e8d4b8"));
+  // lines up to 74 wide fit whole; longer than the usual margin allows, they start further left
+  narr.slice(reverie.page*2, reverie.page*2+2).forEach((l,i)=>text(scr,l.slice(0,COLS-6),l.length>COLS-12?3:6,29+i*2,"#e8d4b8"));
   const pages = Math.ceil(narr.length/2);
   ctext(scr, reverie.page<pages-1 ? "» more" : "» return to the mesh", 33,
         reverie.page<pages-1 ? "#8a7a5a" : "#6a8a6a");

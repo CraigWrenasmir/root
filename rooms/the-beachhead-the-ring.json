@@ -1,0 +1,129 @@
+{
+  "id": "the-beachhead-the-ring",
+  "title": "UNVERIFIED — The Beachhead, the Ring",
+  "region": "The Unverified",
+  "seed": 51829604,
+  "palette": {
+    "bg": "#16060c",
+    "ground": [
+      "#e8683a",
+      "#b83a5a"
+    ],
+    "ink": "#fff0e0",
+    "accents": [
+      "#fff4c8",
+      "#2a0a14",
+      "#ffd166",
+      "#7cc7ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the ring",
+      "desc-on-touch": "On the sand, sun setting, the whole landscape on fire like a lava lamp phasing and melting. Gloves tight. Footwork kicking up sand.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 54901351,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "a wet washer",
+      "desc-on-touch": "Placed over his head, in the corner, by the only person in it.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 60258471,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.56,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "a couch, ridden into the waves",
+      "desc-on-touch": "He steps forward onto it and rides through the ring, out toward where the sun bulbs.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 44718475,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "she is tree",
+      "desc-on-touch": "I am not a flower, she laughs, not a rose or a billy button. She rises up from the sand and shades all horizons, and her roots absorb all oceans.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 56056669,
+        "size": 2,
+        "colors": [
+          1,
+          0,
+          2
+        ]
+      },
+      "x": 0.76,
+      "y": 0.42,
+      "solid": true
+    }
+  ],
+  "inscription": "you are a ghost, I hear her call, keep going, you are almost there",
+  "file": {
+    "name": "Beachhead_final_round.sav",
+    "note": "The anti-game, last save. Objective met. The fighter is an electrical pulse in the air she breathes."
+  },
+  "reverie": {
+    "title": "REVERIE — a beachhead, the sun going down",
+    "narr": [
+      "Gloves tight on your fists, sun setting, the whole landscape on fire.",
+      "She placed a wet washer over your head. Babe, this is it.",
+      "Win or lose, just enjoy knowing what you've accomplished to get here.",
+      "You embraced her, alligator clips on her ear lobes. Go, she said.",
+      "You stepped forward onto a couch and rode it into the waves.",
+      "You are a ghost, she called. Keep going, you are almost there."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the bridge and the dirt path",
+      "to": "the-suspension-bridge-behind-the-station"
+    },
+    {
+      "dir": "s",
+      "label": "out",
+      "to": "NEW: out past the coal ships, beyond rain and batteries and cicadas and data centres, where the words run out"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "the-historians-garage",
+  "title": "NODE — The Historian's Garage",
+  "region": "The Clean Archive",
+  "seed": 4421827,
+  "palette": {
+    "bg": "#0e0a06",
+    "ground": [
+      "#4a3a26",
+      "#36291a"
+    ],
+    "ink": "#fff0c8",
+    "accents": [
+      "#ffe08a",
+      "#c8b088",
+      "#ff7a5a",
+      "#8a6a4a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "block letters in thick black texta",
+      "desc-on-touch": "I WAS SAD I HAD NO SHOES UNTIL I MET A MAN WHO HAD NO FEET. On corrugated cardboard above a bench with a clamp and a wireless.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 36438856,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.26,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "a milk crate beneath a naked globe",
+      "desc-on-touch": "Somewhere to sit and read while the mower runs. The shadow boards hold tools with sturdy wooden handles.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 8366683,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "a paperback about fighters from the region",
+      "desc-on-touch": "Elias Shore had to be promoted as a Cuban boxer, because his birthright as a First Nations man was not palatable with local sensibilities at the time. Posters said Eli Shore. Newspapers, Ellis Shaw. Promoters sold him as Elías del Puerto.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 98675190,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.76,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "a certificate beneath a heavy hand plane",
+      "desc-on-touch": "A name in faint script along the bottom. The original went to the dump with everything else. No database holds it. This render does not hold it either: the line is left blank on purpose.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 6664720,
+        "size": 2,
+        "colors": [
+          1,
+          0,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.76,
+      "solid": true
+    }
+  ],
+  "inscription": "I will protect it, I told Katita. You will fight for it, Katita said",
+  "file": {
+    "name": "Fighters_of_the_Region.txt",
+    "note": "A local historian's paperback, written on milk crates. One name is not in it."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "years later, the same name in a boxing record",
+      "to": "hunter-boxing-00-041"
+    },
+    {
+      "dir": "e",
+      "label": "that earlier Summer of paperbacks",
+      "to": "the-couch-by-the-front-window"
+    },
+    {
+      "dir": "s",
+      "label": "a backyard he walks past every other day",
+      "to": "NEW: the Star Gymnasium, sawdust and chalk in the backyard of a home somebody walks past every other day"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "morning-through-the-leadlight",
+  "title": "UNVERIFIED — Morning Through the Leadlight",
+  "region": "The Unverified",
+  "seed": 7114654,
+  "palette": {
+    "bg": "#0e0a10",
+    "ground": [
+      "#6a4a7a",
+      "#c88a4a"
+    ],
+    "ink": "#fff6e8",
+    "accents": [
+      "#ffe08a",
+      "#7cd8c0",
+      "#ff8a8a",
+      "#2e8a4a"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the purse, counted twice",
+      "desc-on-touch": "Spread across the bed. They settled on a sum for the travelling days before leaving the city.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 26132360,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.26,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "two disposable shower caps",
+      "desc-on-touch": "You can wear these on your feet when the showers have that sheen of bacteria and grime. Plus they're fun to slide around on, slalom style.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 72616492,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "a shirt, buttoned from the bottom",
+      "desc-on-touch": "His swollen fingers manage what they can see. She finishes the rest, then stands between his knees to straighten his collar, and stays there. His hand on the small of her back feels like the fade-out to a song.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 12294320,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "a ruined paperback wrapped in a towel",
+      "desc-on-touch": "On the vanity. There is a bookshop in the next town over.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 56735582,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "there are days that I can furnish for them more readily than I can remember my own",
+  "file": {
+    "name": "Sum_For_Travelling_Days.txt",
+    "note": "Agreed before leaving the city. She will drive as far as the bookshop. He holds two sandwiches steady."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the night before",
+      "to": "second-floor-the-bath"
+    },
+    {
+      "dir": "e",
+      "label": "the next town over",
+      "to": "the-town-at-lunch"
+    }
+  ]
+}

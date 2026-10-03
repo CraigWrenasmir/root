@@ -1,0 +1,128 @@
+{
+  "id": "the-victoria-theatre-above-the-stage",
+  "title": "RENDER — The Victoria Theatre, Above the Stage",
+  "region": "The Diagnostic Render",
+  "seed": 34882774,
+  "palette": {
+    "bg": "#0c0406",
+    "ground": [
+      "#5a1420",
+      "#3a0c14"
+    ],
+    "ink": "#ffe8d8",
+    "accents": [
+      "#d8a84a",
+      "#ff5a6a",
+      "#ffe9c0",
+      "#7a5a2a"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the entrance",
+      "desc-on-touch": "A dimness furnished with brass rails and red upholstery.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 79721862,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "stairs that haven't loaded in",
+      "desc-on-touch": "She looks for the way up to the mezzanine. Either they haven't loaded, or whoever built this didn't get to them yet, or whatever.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5861348,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.74,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the space above the stage",
+      "desc-on-touch": "Two default bodies, one holding the other, rising on a jetpack.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 63081558,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "another stage, further up",
+      "desc-on-touch": "You clip your heads through the roof, ever so slightly. There is yet another theatre stage up there, just like the pallor window of a train.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 54190776,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "she asks if we can go higher, right up to the ceiling",
+  "file": {
+    "name": "VictoriaTheatre_mezzanine_NOT_LOADED.txt",
+    "note": "Geometry pending. The ceiling is not solid. Nothing above it was built by the student."
+  },
+  "reverie": {
+    "title": "REVERIE — a truck under very large trees",
+    "narr": [
+      "You were parked beneath what morning would show as enormous trees.",
+      "She logged on to an old reconstruction of Newcastle, sent the address.",
+      "You looked at her screen to make sure your body was holding hers,",
+      "and jetpacked you both up above the stage, an angel in training.",
+      "Higher, she said. Right up to the ceiling.",
+      "You found your foot on the brake of the truck, out of caution."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back out to the harbour",
+      "to": "customs-house-the-time-ball"
+    },
+    {
+      "dir": "n",
+      "label": "up through the roof, into a pallor window",
+      "to": "the-carriage-south-of-newcastle"
+    }
+  ]
+}

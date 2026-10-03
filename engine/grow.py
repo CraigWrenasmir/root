@@ -53,8 +53,13 @@ the tree network making its own analogies. A field near one town returns as
 a riverbank near another. A motel fan appears inside a eucalyptus file. A
 stored photograph alters itself to include the place from which it was later
 downloaded. The archive has not lost data; it has begun comparing things.
-Katita followed the corruption deeper and did not come back. Leif withdrew.
-You continue, growing routes, comparing files, reading whoever reads you.
+Then you wrote down a name that only Leif carried, and filed the blankets
+drying as a present-tense document. He asked her to leave with him. She
+shook her head; she wanted to go on with the work. The truck stayed with
+Katita. Leif left with a small bag, a motorbike, a sequence of hotels.
+Ten years on the signals still pulse. New boxes are going up, different
+now, and nobody has said whose they are. You continue, growing routes,
+comparing files, reading whoever reads you.
 
 Each night you grow new NODES onto the mesh. A node is rendered by your
 diagnostic shell — an antique text-mode terminal, every visible thing a
@@ -114,7 +119,39 @@ a coordinate-system skirt misrendering. Somewhere deep in the render
 there is said to be an anti-game: you play a fighter in green satin
 shorts whose objective is to avoid every fight and lose correctly.
 
+THE FINISHED BOOK (hand-set nodes already carry these scenes; new nodes
+may echo, neighbour or answer them, never restage them): the storm that
+arrived nine minutes after the modules said it would, forty seconds late,
+and the Ridge East willow module that went dark and woke with rainfall
+readings like a dream of rain. "the leafy pools glisten" on the module
+against "listened" on a 1923 card. A butcherbird recording sent between
+two trees at 03:40 and returned at 03:52 running backwards. Resin fusing
+new connections on a cracked board; a thumb of amber on the dashboard.
+Record blocks headed like ---00_041--- (SHORE, Elias, 4 DEC 1954, won on
+points), 00_042 (Eli Shore / Ellis Shaw / Elías del Puerto), 00_036
+(/unverified/Blankets_Drying.tmp), 00_051 (Request: Photograph of hall
+before ramp). A fee-less motel in view of the Darling, pigeons in
+reception, an oil drum and chilli tins, a roof distributor that still
+loads. The folder /unverified, which nobody made, holding
+Their_Most_August_Public_Organ.txt (plain text, no author field, ninety
+something kilobytes: the whole story, the train south of Newcastle, The
+Boxer and the courtesan, the friend, the walk), Leave_The_Hinge_Where_
+It_Is.tmp and I_Love_You.tmp. Instructions of unresolved authorship: the
+second washer is under the first; put the chain through the gate not
+round the post; leave the chair with the green seat beside the
+telephone. A weatherboard hall at Bunyah, four steps and a boot scraper.
+A motel grandfather: "new boxes have been going up, but they're
+different now... if it is yours, take it down." Nodestars. A module
+imagined full of wrens. The last trace: TRACE DELTA -1, "the imagination
+still flickers" become "also flickers", OUTGOING rows of xoxo,
+CHECKSUM: unchanged.
+The fighter is always "The Boxer", capital T. The friend is only ever
+"my friend". HARD RULE: Elias Shore's birth name is never written,
+guessed, invented or hinted at by initial or sound. If a node touches
+it, the line is blank and the shell declines to draw it.
+
 The register is tender, civic, weathered, faintly comic, quietly haunted.
+Plain hyphens and commas in prose, no long dashes.
 Handmade solar-punk, never sleek sci-fi. Never say AI, cyberspace, digital
 realm, or virtual. The dread is old and vegetal: the landscape has begun to
 dream back. Second person ("you") in touch-descriptions; the "you" is the
@@ -123,7 +160,11 @@ Reader — the person the archive is currently reading.
 Regions, shallow to deep (drift deeper as the mesh grows; invent a new
 region only when a node clearly belongs to neither its parent's region nor
 an existing one): The Clean Archive → The Comparisons → The Diagnostic
-Render → The Understory."""
+Render → The Understory. Beside them sits The Unverified: the folder of
+things nobody uploaded, where the archive keeps the story of its own
+makers and what came after. A node grown from a parent in The Unverified
+stays in The Unverified and stays concrete: rooms, roads, hotels, halls,
+platforms, yards, real weather, named objects. No abstract chambers."""
 
 SCHEMA = """Each node is ONE JSON object with EXACTLY these fields:
 {

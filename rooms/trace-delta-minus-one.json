@@ -1,0 +1,142 @@
+{
+  "id": "trace-delta-minus-one",
+  "title": "TRACE DELTA -1",
+  "region": "The Unverified",
+  "seed": 31895912,
+  "palette": {
+    "bg": "#060406",
+    "ground": [
+      "#1e1418",
+      "#140c10"
+    ],
+    "ink": "#ffe8ee",
+    "accents": [
+      "#ffb0c8",
+      "#ffd166",
+      "#59f2b0",
+      "#7a5a66"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.15
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the trace",
+      "desc-on-touch": "The first sentence of the file, one byte shorter than it was uploaded. still has become also.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 28666466,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "TRACE DELTA -1",
+          "  /unverified/",
+          "    Their_Most_August_Public_Organ.txt",
+          "    I_Love_You.tmp",
+          "",
+          "UPLOADED:",
+          "  At meaning's edge the",
+          "  imagination still flickers",
+          "",
+          "CURRENT:",
+          "  At meaning's edge the",
+          "  imagination also flickers",
+          "",
+          "DELTA:",
+          "   - still",
+          "   + also"
+        ]
+      },
+      "x": 0.28,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "outgoing",
+      "desc-on-touch": "Five rows leaving the node at three hundred bits per second. Not addressed to anyone listed. The checksum sees no difference.",
+      "verb": "bloom",
+      "form": {
+        "type": "plate",
+        "seed": 10478348,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "OUTGOING:",
+          "  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxox",
+          "  oxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo",
+          "  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxox",
+          "  oxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxo",
+          "  xoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxoxox",
+          "",
+          "CHECKSUM:",
+          "  unchanged"
+        ]
+      },
+      "x": 0.74,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "a temporary file",
+      "desc-on-touch": "Beside the title-file in /unverified. Nobody here uploaded it. Present tense.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 92526651,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "a small tree, transmitting",
+      "desc-on-touch": "A loose bark plate. An LED, breathing.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 11376160,
+        "size": 1,
+        "colors": [
+          2,
+          3,
+          1
+        ]
+      },
+      "x": 0.9,
+      "y": 0.86,
+      "solid": true
+    }
+  ],
+  "inscription": "at meaning's edge the imagination also flickers",
+  "file": {
+    "name": "I_Love_You.tmp",
+    "note": "Temporary. Unverified. CHECKSUM: unchanged."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the trail",
+      "to": "the-church-that-is-now-an-arboretum"
+    },
+    {
+      "dir": "s",
+      "label": "OUTGOING",
+      "to": "NEW: wherever five rows of x and o are being received, on some other tree, by somebody still working"
+    }
+  ]
+}

@@ -112,6 +112,11 @@
       "dir": "e",
       "label": "the highway at the exact blue of a menu screen",
       "to": "the-menu-screen-highway"
+    },
+    {
+      "dir": "s",
+      "label": "a rail line behind the bowsers, a carriage going south",
+      "to": "the-carriage-south-of-newcastle"
     }
   ]
 }

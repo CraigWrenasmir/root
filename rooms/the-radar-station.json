@@ -1,0 +1,117 @@
+{
+  "id": "the-radar-station",
+  "title": "UNVERIFIED — The Radar Station",
+  "region": "The Unverified",
+  "seed": 18819449,
+  "palette": {
+    "bg": "#100a06",
+    "ground": [
+      "#8a4a2a",
+      "#6a3a22"
+    ],
+    "ink": "#ffeee0",
+    "accents": [
+      "#ffb38a",
+      "#e8e0d0",
+      "#59f2b0",
+      "#3a2418"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.5
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the station",
+      "desc-on-touch": "It elicits its war roots. It may have invested forever chemicals, rendering the trees a shade of transparent rust that further triplicates the wrens, as if the bush is a mirror, which it is.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 77952119,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.28,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "a formula",
+      "desc-on-touch": "Published in the journal of Pre-Emptive War Calculus, mere hours before the first live stream of falling missiles appeared alongside Nintendo trailers. He was nervous about handing it over. With war only days away, his hand was forced.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 23062816,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ],
+        "art": [
+          " Σ Mᵢ(Δt) ×ΔF",
+          " ─────────────────────  , H ∝ G  → W",
+          "  M(t)↓"
+        ]
+      },
+      "x": 0.62,
+      "y": 0.34,
+      "solid": false
+    },
+    {
+      "name": "the twentieth century, mostly",
+      "desc-on-touch": "They start with the death of god and move on to the wars, and the moral thread of meaning and care that becomes more worn the further time gets beyond them.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 31983208,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.66,
+      "solid": true
+    },
+    {
+      "name": "wrens, in triplicate",
+      "desc-on-touch": "The same birds three times. Or three sets of birds once.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 84196805,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.36,
+      "y": 0.82,
+      "solid": true
+    }
+  ],
+  "inscription": "trees smelling other trees for chemical alert, root and filament inflamed in consciousness",
+  "file": {
+    "name": "PreEmptive_War_Calculus.pdf",
+    "note": "Carry the two and divide by three. Missing: the argument about finite land he could not fit in."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the start",
+      "to": "start-where-the-bush-begins"
+    },
+    {
+      "dir": "s",
+      "label": "on down to the ruins",
+      "to": "the-church-that-is-now-an-arboretum"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "fifty-seven",
+  "title": "NODE — Fifty Seven",
+  "region": "The Clean Archive",
+  "seed": 7973583,
+  "palette": {
+    "bg": "#0a0810",
+    "ground": [
+      "#2a1e2e",
+      "#1c1420"
+    ],
+    "ink": "#ffe9d0",
+    "accents": [
+      "#ff9e4f",
+      "#7c9cff",
+      "#ffd9a0",
+      "#5a4a6a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the barrel, down to ashen splinters",
+      "desc-on-touch": "The fire reduced, while the stars play act as embers on the roof.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 78234828,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "blue dots on a bicep",
+      "desc-on-touch": "As many as the sky has tiny fiery holes. Not washed off in the river the next morning.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 3643290,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "a question about the river module",
+      "desc-on-touch": "He asks whether the one down by the river has Bell-Birds on it. Quit stalling, she says. Just go with your gut.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 97095989,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.76,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "a train window, all these years on",
+      "desc-on-touch": "Fifty seven finger jabs, tapped into the glass. Three times nineteen. Still not a prime.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 33245020,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "prime, I tell Katita in the dark",
+  "file": {
+    "name": "Primes_tapped.txt",
+    "note": "2 3 5 7 11 13 17 19 23. Then 57, entered in biro and answered correctly by luck."
+  },
+  "reverie": {
+    "title": "REVERIE — a dirt courtyard, the fire nearly out",
+    "narr": [
+      "Twenty three taps on the skin. Prime, you told her in the dark.",
+      "Good, she said, and began again with her biro against your bicep.",
+      "You counted fifty seven and wondered about ink poisoning.",
+      "No, you said, it is not a prime. Lucky guess, Grothendieck.",
+      "She kissed you on the cheek.",
+      "You did not wash the ink off in the river the next morning."
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "down to the river in the morning",
+      "to": "the-river-flats"
+    },
+    {
+      "dir": "n",
+      "label": "the ute, earlier, maps unfolded",
+      "to": "the-road-that-hasnt-existed"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "industrial-drive-mayfield",
+  "title": "NODE — Industrial Drive, Mayfield",
+  "region": "The Clean Archive",
+  "seed": 92358852,
+  "palette": {
+    "bg": "#0e0f11",
+    "ground": [
+      "#3a3f46",
+      "#2a2e34"
+    ],
+    "ink": "#e8eaee",
+    "accents": [
+      "#ff9e4f",
+      "#c8ccd4",
+      "#ffd166",
+      "#6a7078"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a storage container",
+      "desc-on-touch": "Roller door, padlock, the particular cold of stored things. Opened years later.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 60888340,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.26,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "a taped up cardboard box",
+      "desc-on-touch": "Books. He rummaged anxiously until he found the one.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5213619,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "The Poems of Henry Kendall, 1991 pressing",
+      "desc-on-touch": "Angus and Robertson. His father's copy, the one the poem was typed from. He took great care not to open it, or allow it to spontaneously fall open in front of him in any capacity.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 4235661,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.74,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "a note about a cat in a box",
+      "desc-on-touch": "The analogy was never offered as an explanation. It was a dismissal of somebody else's structural ontology. The book stays shut. Both words stay true.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 89037343,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.32,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "the source exists and has not been consulted",
+  "file": {
+    "name": "Kendall_1991_AandR_UNOPENED.txt",
+    "note": "0 bytes. status: both."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the gully and the poem",
+      "to": "the-glisten-listen-gully"
+    },
+    {
+      "dir": "n",
+      "label": "a university corridor",
+      "to": "NEW: an exhibition of early Australian fairy tales, moth-winged elves imported into a land of already plentiful myths"
+    }
+  ]
+}

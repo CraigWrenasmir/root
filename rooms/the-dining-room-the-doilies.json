@@ -1,0 +1,113 @@
+{
+  "id": "the-dining-room-the-doilies",
+  "title": "UNVERIFIED — The Dining Room, the Doilies",
+  "region": "The Unverified",
+  "seed": 73956891,
+  "palette": {
+    "bg": "#100a06",
+    "ground": [
+      "#6a4a2a",
+      "#52381e"
+    ],
+    "ink": "#fff2dc",
+    "accents": [
+      "#f5ead0",
+      "#c8783a",
+      "#59c8a0",
+      "#2a1a0c"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "an inventory of the room",
+      "desc-on-touch": "A bowl of fruit, a cabinet full of VHS tapes, a game of Othello, a water dispenser, an elaborately carved mirror, seven wicker backed dining chairs, a table and a lamp. Other than his body, the room is empty.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 72626133,
+        "size": 2,
+        "colors": [
+          0,
+          1,
+          2
+        ]
+      },
+      "x": 0.24,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the grandfather's finger, like some cragged twig",
+      "desc-on-touch": "I know you. You're the guy who used to run around sticking boxes into trees with that girl. My nephew says new boxes have been going up, but they're different now. Two kilometres down the road. If it is yours, take it down.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 5670806,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "paper doilies",
+      "desc-on-touch": "Played with while pretending to read. Later, knuckles knocked on them, counting primes.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 98190787,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.56,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "egg and corned beef brisket",
+      "desc-on-touch": "Finished. Then back to the book.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 8621273,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.82,
+      "y": 0.76,
+      "solid": true
+    }
+  ],
+  "inscription": "is this your operation, and I said no, I know nothing about it",
+  "file": {
+    "name": "Family_Motel_Register.txt",
+    "note": "Kids in the kitchen, cousins cleaning the hallways. Only once did someone recognise him. It is recorded here."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the Darling",
+      "to": "the-motel-without-fee"
+    },
+    {
+      "dir": "s",
+      "label": "a broad southern window, two kilometres down the road",
+      "to": "nodestar"
+    }
+  ]
+}

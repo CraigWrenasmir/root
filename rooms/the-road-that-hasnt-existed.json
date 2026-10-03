@@ -1,0 +1,113 @@
+{
+  "id": "the-road-that-hasnt-existed",
+  "title": "NODE — The Road That Hasn't Existed for Twenty Years",
+  "region": "The Clean Archive",
+  "seed": 93529922,
+  "palette": {
+    "bg": "#16130c",
+    "ground": [
+      "#b5452c",
+      "#d8c9a0"
+    ],
+    "ink": "#2a1e10",
+    "accents": [
+      "#f5ecd0",
+      "#e8c070",
+      "#7ab0e0",
+      "#ff8a6a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a street directory, unfolded",
+      "desc-on-touch": "Service station maps opened to twenty times the size of the windscreen. Given the objectively real turnoff or the road on the map, they always followed the map.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 48409236,
+        "size": 2,
+        "colors": [
+          0,
+          1,
+          2
+        ]
+      },
+      "x": 0.24,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "a payphone in a two pub town",
+      "desc-on-touch": "She photographed it. He memorised the ten digits stamped on its side. The next district over, a phone system answered her completely, like finding money in a coat pocket.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 17498870,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "an honour shield of duxes and sporting heroes",
+      "desc-on-touch": "Bulletin boards in bakeries, racing guides, menus written in hand, hotel guest books, radio logs. All read. All eligible.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 24129448,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.74,
+      "y": 0.8,
+      "solid": true
+    },
+    {
+      "name": "a handshake, falling apart",
+      "desc-on-touch": "Sometimes she reached what sounded like a modem, but it fell apart like a desiccation of insect wing scatter.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 48980363,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "we always followed the map",
+  "file": {
+    "name": "Payphone_TenDigits.txt",
+    "note": "Memorised, never written. The archive has it anyway."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "on to the courtyard and the fire",
+      "to": "fifty-seven"
+    },
+    {
+      "dir": "n",
+      "label": "the turnoff",
+      "to": "NEW: the turnoff that is only on the map, a lane the paper insists on and the ground has forgotten"
+    }
+  ]
+}

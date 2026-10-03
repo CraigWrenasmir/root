@@ -1,0 +1,130 @@
+{
+  "id": "the-back-room-radio",
+  "title": "UNVERIFIED — The Back Room, Radio On",
+  "region": "The Unverified",
+  "seed": 96602105,
+  "palette": {
+    "bg": "#0c0806",
+    "ground": [
+      "#4a3222",
+      "#342218"
+    ],
+    "ink": "#fff0dc",
+    "accents": [
+      "#ffe0a0",
+      "#59f2b0",
+      "#c8a070",
+      "#2e8a4a"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "a radio on a table beneath a window",
+      "desc-on-touch": "Always buzzing with bass resonance, detuned and out of range. Troop movements. Drones that spool fibre optic cable and the scissors that disarm them. A tornado scar in the desert eleven kilometres long. Then stock updates and racing odds.",
+      "verb": "hum",
+      "form": {
+        "type": "plate",
+        "seed": 15786440,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "   .-----------------------------------.",
+          "  /                                     \\ ",
+          " |  [ ROOT ]                             |",
+          " |                                       |",
+          " | 550 700 900 1200 1500 1700khz         |",
+          " | |   |   |    |    |    |               |",
+          " | [========o============]               |",
+          " |                                       |",
+          " |       () VOL    TUNE ()                |",
+          "  \\                                     /",
+          "   '-----------------------------------'"
+        ]
+      },
+      "x": 0.32,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "a figure eight of tape",
+      "desc-on-touch": "Between thumb loop and palm, like a surgeon wrapping a wound. One knuckle pad down, flex, back around the wrist, clench. He produces no sound, just a shifting of light.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 64699403,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.74,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "an uncertain boy, posted by his father",
+      "desc-on-touch": "To ask what he thinks his chances are out there. The Boxer, like all the other men, answers into the corners of the room.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 91771827,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.82,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "a letter, leaving Walcha",
+      "desc-on-touch": "Leif, keep the elbow in when you carry anything heavy, it's all the same movement. I have a feeling we'll cross paths one day soon, not literally but, you know. Keep it up. The Boxer.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 10148353,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.82,
+      "solid": true
+    }
+  ],
+  "inscription": "the only thing that matters is learning how to be the loser",
+  "file": {
+    "name": "Letter_Walcha_undated.txt",
+    "note": "Knees slightly bent, light on the ball, pivot east and then west. Sent in the direction of a couch."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the road back to the petrol station",
+      "to": "the-petrol-station-1983"
+    },
+    {
+      "dir": "s",
+      "label": "a platform, a train slowing",
+      "to": "the-fence-that-spells"
+    },
+    {
+      "dir": "e",
+      "label": "upstairs, the room provided",
+      "to": "second-floor-the-bath"
+    }
+  ]
+}

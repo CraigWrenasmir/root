@@ -1,0 +1,144 @@
+{
+  "id": "hall-before-ramp",
+  "title": "UNVERIFIED — Hall Before Ramp",
+  "region": "The Unverified",
+  "seed": 8285952,
+  "palette": {
+    "bg": "#0e120c",
+    "ground": [
+      "#4f8a4a",
+      "#d8ceb0"
+    ],
+    "ink": "#fbfff4",
+    "accents": [
+      "#f5efd8",
+      "#7fc88a",
+      "#ff8a5a",
+      "#e8c070"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the hall",
+      "desc-on-touch": "Weatherboard. Four steps and a boot scraper. It says Bunyah on the side. There is no ramp yet. The request was specific about that.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 48248554,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.34,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the clock in the photograph",
+      "desc-on-touch": "Stopped at ten twenty seven on the twenty eighth of December.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 29936399,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "the chair with the green seat",
+      "desc-on-touch": "Left beside the telephone, as instructed.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 82798983,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.74,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "the gate",
+      "desc-on-touch": "The chain goes through the gate, not round the post. The second washer is under the first.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 26586536,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.22,
+      "y": 0.8,
+      "solid": true
+    },
+    {
+      "name": "an elbow at the edge of the frame",
+      "desc-on-touch": "Hers. It came along with the hall.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 24350057,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.52,
+      "y": 0.74,
+      "solid": false
+    }
+  ],
+  "inscription": "I do not know if it is the hall anyone meant",
+  "file": {
+    "name": "Photo_Hall_Before_Ramp.jpg",
+    "note": "Sent to /unverified in reply to request 00_051. Received. A tennis court resides next door."
+  },
+  "reverie": {
+    "title": "REVERIE — outside a country hall",
+    "narr": [
+      "You took the photograph years ago, without knowing what it was for.",
+      "A hall, four steps, a boot scraper. A tennis court next door.",
+      "She was beside you, just far enough out of frame",
+      "that only her elbow came with you.",
+      "Later, something asked for it. You closed your eyes and found it."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the roof",
+      "to": "the-roof-the-old-distributor"
+    },
+    {
+      "dir": "n",
+      "label": "next door",
+      "to": "NEW: the tennis court next door to the hall, and whatever the archive is about to ask for next"
+    }
+  ]
+}

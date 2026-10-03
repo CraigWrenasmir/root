@@ -1,0 +1,133 @@
+{
+  "id": "the-motel-without-fee",
+  "title": "UNVERIFIED — The Motel Without Fee",
+  "region": "The Unverified",
+  "seed": 35619098,
+  "palette": {
+    "bg": "#141008",
+    "ground": [
+      "#c8a878",
+      "#a88a5e"
+    ],
+    "ink": "#fff6dc",
+    "accents": [
+      "#fff6dc",
+      "#e8c070",
+      "#ff8a5a",
+      "#7ac8d8"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "reception",
+      "desc-on-touch": "A bed of pigeon disjecta and due notices. Nobody has come for the notices. The pigeons have raised a new generation of squabs, who walk the hallways and tend to all raised surfaces.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 56236223,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.24,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the hinge",
+      "desc-on-touch": "Holding a manhole open above reception, where pigeons come and go and a tree is growing vines out through the ceiling cavity. A temporary file asks that it be left where it is. It was.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 41036515,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.76,
+      "solid": true
+    },
+    {
+      "name": "a templated oil drum, tins of soup and chilli con carne",
+      "desc-on-touch": "On the gravel yard below the open window. He recognises a dinner in what is left of the tins.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 40014233,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "a second floor window, open",
+      "desc-on-touch": "Step carefully onto the sill. Only pull enough weight on the guttering to steady yourself. There is a necklace of bricks beneath the roof tiles. Halfway up, a knee has to be persuaded.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 85418782,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.74,
+      "y": 0.34,
+      "solid": true
+    }
+  ],
+  "inscription": "you'll know them because the reception areas are a bed of pigeon disjecta and due notices",
+  "file": {
+    "name": "Leave_The_Hinge_Where_It_Is.tmp",
+    "note": "Temporary. Addressed to whoever is standing in reception, looking up."
+  },
+  "reverie": {
+    "title": "REVERIE — a gravel yard, the last of the light",
+    "narr": [
+      "She crouched beside the drum in the last of the light.",
+      "She turned the pot so the handle pointed towards you, and sat back.",
+      "The radio was playing. She was certain about the singer. She was wrong.",
+      "When the announcer was about to say, she reached over and turned it off.",
+      "It's all just a lot of buzzing, she said. She got up to dance,",
+      "knees slightly bent, drop to the heel, pivot east, south."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "motel",
+    "weather": "embers",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the road of hotels",
+      "to": "rooms-along-the-road"
+    },
+    {
+      "dir": "n",
+      "label": "up: sill, gutter, bricks, roof",
+      "to": "the-roof-the-old-distributor"
+    },
+    {
+      "dir": "e",
+      "label": "another motel, a family one, years of them",
+      "to": "the-dining-room-the-doilies"
+    }
+  ]
+}

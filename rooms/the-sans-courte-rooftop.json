@@ -1,0 +1,151 @@
+{
+  "id": "the-sans-courte-rooftop",
+  "title": "RENDER — The Sans Courte Rooftop",
+  "region": "The Diagnostic Render",
+  "seed": 54715757,
+  "palette": {
+    "bg": "#0c0a1e",
+    "ground": [
+      "#2a1e4a",
+      "#4a2a5a"
+    ],
+    "ink": "#f0e8ff",
+    "accents": [
+      "#ffe08a",
+      "#ff9ee6",
+      "#7cc7ff",
+      "#c9b8ff"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "string theories of fairy lights",
+      "desc-on-touch": "That's how it should work, he said, pointing up: a communicative daisy chain. He could not get the module to speak to any other device.",
+      "verb": "bloom",
+      "form": {
+        "type": "plate",
+        "seed": 83403510,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "-----------------------------------------------------------",
+          "  |     |     |     |     |     |     |     |     |     |",
+          " (o)   (o)   (o)   (o)   (o)   (o)   (o)   (o)   (o)   (o)"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "a napkin",
+      "desc-on-touch": "You don't need every node to speak to every other node, she said. You just need enough routes so your message can survive losing one, Boxer. Drawn with a pen pulled out of his beard, an ontological miracle forever unsolved.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 1625101,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ],
+        "art": [
+          "o - - - o - - - o",
+          " \\     / \\     /",
+          "   o - - - o"
+        ]
+      },
+      "x": 0.3,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "goon bag jetpacks",
+      "desc-on-touch": "A bushranger from space, eight out of ten. Is there any wine left in them, she asked, and he did a shimmy to slosh them left and right.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 52811812,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.66,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the parapet",
+      "desc-on-touch": "She sat astride it and listened to every score called out across the void while maintaining eye contact.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 16405917,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.74,
+      "solid": false
+    },
+    {
+      "name": "coal ships on the horizon",
+      "desc-on-touch": "Sitting like watch batteries on a thin shelf, waiting their turn to be welcomed into the harbour to power the city.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 67192999,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.84,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "quickly tell me something else, your name, Boxer, so I forget whatever it is you've not told me",
+  "file": {
+    "name": "Napkin_Routing.png",
+    "note": "o - - - o - - - o. The whole mesh, on a napkin, before there was one."
+  },
+  "reverie": {
+    "title": "REVERIE — a rooftop, fancy dress, sunset",
+    "narr": [
+      "Scores out of ten were being yelled across the divide between rooftops.",
+      "Eight out of ten, she said, and yet I only scored a six.",
+      "She squeezed your left goon bag into a plastic cup.",
+      "You said you were a boxer. Well, boxing history. Well, you read a lot.",
+      "The only thing that matters is learning how to be the loser, you said.",
+      "That shouldn't be too hard then, she said, and fixed your jetpacks."
+    ],
+    "setting": "rooftop"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "the stairwell down to the kiosk",
+      "to": "the-kiosk-comparison"
+    },
+    {
+      "dir": "w",
+      "label": "an apartment on King Street, louvre windows, a login",
+      "to": "newcastle-year-three-thousand"
+    }
+  ]
+}

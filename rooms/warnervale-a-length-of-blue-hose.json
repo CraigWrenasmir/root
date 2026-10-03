@@ -1,0 +1,112 @@
+{
+  "id": "warnervale-a-length-of-blue-hose",
+  "title": "UNVERIFIED — Warnervale, a Length of Blue Hose",
+  "region": "The Unverified",
+  "seed": 69239557,
+  "palette": {
+    "bg": "#0c0f0a",
+    "ground": [
+      "#4a6a3a",
+      "#39522e"
+    ],
+    "ink": "#f0f6e8",
+    "accents": [
+      "#3a8aff",
+      "#e8e0c8",
+      "#b5532c",
+      "#c8d8b8"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a shed, the door open",
+      "desc-on-touch": "A little yard beyond the fence beside the rail. Three chairs stacked against the shed.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 69829524,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.26,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "a length of blue hose",
+      "desc-on-touch": "It runs out from the shed. By the time you have followed it to where it disappears into grass, the yard has gone and there is the brick wall of an old Mechanics' Institute.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 27145996,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.66,
+      "solid": false
+    },
+    {
+      "name": "the PA",
+      "desc-on-touch": "It is asking his questions for him, but they are stations: Wyong, Wyee. Names, he thinks, for places of running water, of bush fire, of words and worlds on the other side of every iteration of time he will be associated with.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 32562823,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.76,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the front seat of a van, empty",
+      "desc-on-touch": "Seen over a sidelong hedge. Then the road leans away and the hedge continues in parallax.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 18964003,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.78,
+      "solid": true
+    }
+  ],
+  "inscription": "there is a rattle beneath the window and I put my elbow on the ledge, which stops it",
+  "file": {
+    "name": "PA_Wyong_Wyee_Warnervale.wav",
+    "note": "The voice breaks up at Warnervale, though it continues for several seconds."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up the line",
+      "to": "the-viaduct-incomplete"
+    },
+    {
+      "dir": "e",
+      "label": "the carriage speaker, a bell",
+      "to": "a-bell-within-a-bell"
+    }
+  ]
+}

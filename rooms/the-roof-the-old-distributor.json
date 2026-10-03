@@ -1,0 +1,142 @@
+{
+  "id": "the-roof-the-old-distributor",
+  "title": "00_051 — The Roof, the Old Distributor",
+  "region": "The Unverified",
+  "seed": 55443593,
+  "palette": {
+    "bg": "#0a1220",
+    "ground": [
+      "#3e6a92",
+      "#b5532c"
+    ],
+    "ink": "#f4f8ff",
+    "accents": [
+      "#fff4c8",
+      "#59f2b0",
+      "#ffd166",
+      "#12202c"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.3
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the directory",
+      "desc-on-touch": "The same listing as ever, and beneath it a folder nobody made. There are documents that, of course, he did not add. Ninety something kilobytes of plain text, no author field: the better part of an hour on this connection.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 12921804,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "/ROOT",
+          "  index.html",
+          "  README.txt",
+          "  /audio",
+          "    River_NSW_1500hrs_Late20thCent.mp3",
+          "    AlfredHill_StringQuartet5_Allegro.mp3",
+          "  /text",
+          "    TomMaguire_Extracts.txt",
+          "    Impressionism_BushStudies.txt",
+          "    Graves_TimeAndDirection_1952_Notes.txt",
+          "  /images",
+          "    Photo_ServiceStation_Dusk_NSW_1993.jpg",
+          "    Photo_MotelFan_Shadow_1987.jpg",
+          "    Plate_EucalyptusLeaf_Study_BW.png",
+          "    Spectrogram_RiverAnomaly.png",
+          "  /unverified",
+          "    Their_Most_August_Public_Organ.txt",
+          "    Leave_The_Hinge_Where_It_Is.tmp"
+        ]
+      },
+      "x": 0.3,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "record 00_051",
+      "desc-on-touch": "The archive is asking for something. Nothing surprises him.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 72121119,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ],
+        "art": [
+          "-----------------------00_051-------------------------------",
+          "Request: Photograph of hall before ramp",
+          "------------------------------------------------------------"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.9,
+      "solid": false
+    },
+    {
+      "name": "the weatherproof mesh distributor",
+      "desc-on-touch": "He connects, expecting nothing. A line like the horizon beneath a sun in backwards bloom. Incredible. It still loads after all these years.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 63394284,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.76,
+      "y": 0.34,
+      "solid": true
+    },
+    {
+      "name": "a photograph, sent",
+      "desc-on-touch": "A hall, weatherboard, four steps and a boot scraper, her elbow at the edge of the frame. It says Bunyah on the side. He does not know if it is the hall anyone meant.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 92145146,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.66,
+      "solid": true
+    }
+  ],
+  "inscription": "the heavens are open",
+  "file": {
+    "name": "Their_Most_August_Public_Organ.txt",
+    "note": "Plain text, no author field. Sentences already heard a thousand times, in a voice that is not his. You are in it."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "down: bricks, gutter, sill",
+      "to": "the-motel-without-fee"
+    },
+    {
+      "dir": "n",
+      "label": "the hall in the photograph",
+      "to": "hall-before-ramp"
+    },
+    {
+      "dir": "w",
+      "label": "the enormity of nationhood",
+      "to": "NEW: the next abandoned motel rooftop along the Darling, where the signal still pulses and the building has fewer years left than the batteries"
+    }
+  ]
+}

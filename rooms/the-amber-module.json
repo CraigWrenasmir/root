@@ -1,0 +1,113 @@
+{
+  "id": "the-amber-module",
+  "title": "NODE — The Amber Module",
+  "region": "The Comparisons",
+  "seed": 62120332,
+  "palette": {
+    "bg": "#120a04",
+    "ground": [
+      "#5a3410",
+      "#7a4a16"
+    ],
+    "ink": "#ffe9c0",
+    "accents": [
+      "#ffb347",
+      "#ffe08a",
+      "#c9722a",
+      "#59f2b0"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "a casing separating from the tree",
+      "desc-on-touch": "The bottom screws turn without coming out and there are ants beneath the bracket. A split in the plastic lies against an old wound in the trunk. Resin has come down behind the housing and entered where the halves no longer meet.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 72560167,
+        "size": 2,
+        "colors": [
+          2,
+          0,
+          1
+        ]
+      },
+      "x": 0.26,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the board, resin-fused",
+      "desc-on-touch": "Where the circuit board cracked and feathered, the resin has fused new connections in spindles of gluey cord like soft pine needles. Nobody soldered these.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 45754176,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.62,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a piece no larger than the end of a thumb",
+      "desc-on-touch": "She turned it sidelong beneath the windscreen, so a little copper track in the resin gives the impression of data swimming into amber light. It rides on the dashboard.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 48553678,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.78,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "the towel from behind the seat",
+      "desc-on-touch": "Spread beneath the tree, tools along one edge. Another towel, elsewhere, wraps a ruined paperback on a vanity. The archive has started comparing them.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1831518,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "what can you see",
+  "file": {
+    "name": "Resin_Connections_untraced.brd",
+    "note": "Board layout as found. Several routes not in the original design. status: germinating."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward 03:40",
+      "to": "three-forty-three-fifty-two"
+    },
+    {
+      "dir": "e",
+      "label": "civic records: a list of digitised files waiting to be copied across",
+      "to": "hunter-boxing-00-041"
+    }
+  ]
+}

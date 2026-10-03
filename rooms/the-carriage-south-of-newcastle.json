@@ -1,0 +1,124 @@
+{
+  "id": "the-carriage-south-of-newcastle",
+  "title": "UNVERIFIED — The Carriage, South of Newcastle",
+  "region": "The Unverified",
+  "seed": 1533838,
+  "palette": {
+    "bg": "#0a1016",
+    "ground": [
+      "#3a5266",
+      "#2a3e50"
+    ],
+    "ink": "#eef6ff",
+    "accents": [
+      "#fff4c8",
+      "#9fc4e0",
+      "#ffd166",
+      "#5a7890"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.2
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "an ostinato, nine notes",
+      "desc-on-touch": "Hummed, then given words. Seen from above, like sideways music, the notes could be markers for a shifting of weight left and right.",
+      "verb": "hum",
+      "form": {
+        "type": "plate",
+        "seed": 3999844,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "|--------o----------------------------------------------|",
+          "|--------------------o----------------o---------o-------|",
+          "|-------------------------------------------o-----------|",
+          "|----o--------o---------o-------------------------------|",
+          "|----------------------------------o--------------------|"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "knife grazed panels of pause",
+      "desc-on-touch": "The window: a transparent comic strip panel, backlit, with outskirt tundra rushing past as a zoetrope would animate a galloping horse. Fictions project onto it without being asked.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 68120698,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.22,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "iron matrices over a river",
+      "desc-on-touch": "Long pylons like bar lines, resonating a phasing of bass notes against the floor of the carriage.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 66831007,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.76,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "a letter, direction approximate",
+      "desc-on-touch": "He had no fixed address and nor did The Boxer. He would get a sense of a pub on the regional plains and write the letter in that direction.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 41534699,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.82,
+      "solid": true
+    }
+  ],
+  "inscription": "at meaning's edge the imagination still flickers",
+  "file": {
+    "name": "Ostinato_9notes.tab",
+    "note": "Jigsaw daylight between shy evergreen canopies. A known wobbly offbeat. Nine notes when uploaded."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up the line to the service station at dusk",
+      "to": "service-station-dusk-1993"
+    },
+    {
+      "dir": "e",
+      "label": "south, toward an empty platform",
+      "to": "the-empty-platform-at-fassifern"
+    },
+    {
+      "dir": "s",
+      "label": "down through the floor of the carriage, a theatre roof",
+      "to": "the-victoria-theatre-above-the-stage"
+    }
+  ]
+}

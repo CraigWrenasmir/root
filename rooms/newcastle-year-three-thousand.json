@@ -1,0 +1,127 @@
+{
+  "id": "newcastle-year-three-thousand",
+  "title": "RENDER — Newcastle, Year Three Thousand-ish",
+  "region": "The Diagnostic Render",
+  "seed": 84827781,
+  "palette": {
+    "bg": "#080d08",
+    "ground": [
+      "#2e5a2a",
+      "#55605a"
+    ],
+    "ink": "#e6f5e0",
+    "accents": [
+      "#b8e89a",
+      "#c8ccd0",
+      "#ffd166",
+      "#59f2b0"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 1.0
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the simulation, as it loads",
+      "desc-on-touch": "Made by a university student and shared on the local BBS. Set it to advance ten years, one hundred, one thousand. They took it all the way, roaming where vines allow access.",
+      "verb": "open",
+      "form": {
+        "type": "plate",
+        "seed": 6023699,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          ".--------------------.",
+          "|  |----|------#--|  |",
+          "|  |----/---+--#--|  |",
+          "|  |---/-----\\-#--|  |",
+          "|  |--?-------|#--|  |",
+          ".--------------------.",
+          "        _|--|_",
+          "       .-------."
+        ]
+      },
+      "x": 0.28,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "a hotel the trees have not wrapped",
+      "desc-on-touch": "Why haven't trees wrapped limbs around that hotel, yet they have that church. She is all scientist. He is too literal: the bus terminal is too westward.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 59073854,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.66,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "a bell, MIDI by the tone of it",
+      "desc-on-touch": "It rang out over the mall, where grass between the flagstones had become the dream of a neo-bushland. She recognised it straight away as a bell miner. He was not sure. Later he extracted the sound file.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 64709437,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.76,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "two default avatars",
+      "desc-on-touch": "A radiating holographic skirt. A full jetpack bushranger. Character templates, now and forever.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 59919303,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.42,
+      "y": 0.82,
+      "solid": true
+    }
+  ],
+  "inscription": "a thousand years of deferred maintenance has significantly improved the CBD",
+  "file": {
+    "name": "Newcastle_Future_BBS.sim",
+    "note": "A generative landscape of the city. Still running. Nobody is paying for the server."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "log off, back up to the rooftop",
+      "to": "the-sans-courte-rooftop"
+    },
+    {
+      "dir": "w",
+      "label": "the harbour, years later, the same city caramelised",
+      "to": "customs-house-the-time-ball"
+    },
+    {
+      "dir": "s",
+      "label": "past the mall",
+      "to": "NEW: the bus terminal, rendered too far west, where the vines have not yet allowed access"
+    }
+  ]
+}

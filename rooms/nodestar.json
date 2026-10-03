@@ -1,0 +1,125 @@
+{
+  "id": "nodestar",
+  "title": "UNVERIFIED — Nodestar",
+  "region": "The Unverified",
+  "seed": 53762649,
+  "palette": {
+    "bg": "#120c14",
+    "ground": [
+      "#c88a6a",
+      "#e8c89a"
+    ],
+    "ink": "#fff8e8",
+    "accents": [
+      "#fff8e8",
+      "#ffd9a0",
+      "#7fd8b8",
+      "#ff9ec0"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "a new variation of module, seen only from a distance",
+      "desc-on-touch": "One of many seen in the intervening years, like lodestars, although when he said the word in his head he said nodestars. He did not take it down. He did not open it.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 39403452,
+        "size": 3,
+        "colors": [
+          0,
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "a nest of wrens, imagined",
+      "desc-on-touch": "He imagines opening it up and finding little birds talking very fast. Soft teak kinetic batteries.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 23599109,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.74,
+      "solid": true
+    },
+    {
+      "name": "a tartan of some kind",
+      "desc-on-touch": "Love is a network that supplies its own meaning.",
+      "verb": "torus",
+      "form": {
+        "type": "plate",
+        "seed": 83420917,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "┌───┬───┬───┬───┬─",
+          "│   │   │   │   │",
+          "├───┼───┼───┼───┼─",
+          "│   │   │   │   │",
+          "├───┼───┼───┼───┼─"
+        ]
+      },
+      "x": 0.28,
+      "y": 0.46,
+      "solid": false
+    },
+    {
+      "name": "a bowser, a motorbike",
+      "desc-on-touch": "He fills up and thinks back to the module. A scale map of all his past interiorities, crossed by pinballing between motels and service stations.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 34196594,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "love is the word we give to being wrong about our capacity for solitude",
+  "file": {
+    "name": "Nodestar_maker_unrecorded.txt",
+    "note": "Not his operation. The casing is different now. Somebody is still working."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the dining room",
+      "to": "the-dining-room-the-doilies"
+    },
+    {
+      "dir": "s",
+      "label": "further down the road",
+      "to": "NEW: another of the new boxes going up, different now, in a tree two kilometres past where anyone has checked"
+    },
+    {
+      "dir": "e",
+      "label": "across the map",
+      "to": "NEW: a scale map of past interiorities, crossed by pinballing between motels and service stations"
+    }
+  ]
+}

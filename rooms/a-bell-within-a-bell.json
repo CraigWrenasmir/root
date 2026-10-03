@@ -1,0 +1,117 @@
+{
+  "id": "a-bell-within-a-bell",
+  "title": "UNVERIFIED — A Bell Within a Bell",
+  "region": "The Unverified",
+  "seed": 28582756,
+  "palette": {
+    "bg": "#100c14",
+    "ground": [
+      "#4a3a5a",
+      "#362a44"
+    ],
+    "ink": "#f4ecff",
+    "accents": [
+      "#ffd9a0",
+      "#c9a8ff",
+      "#59f2b0",
+      "#8a6a4a"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the carriage speaker",
+      "desc-on-touch": "The voice disappears first. A bell enters at the far end of a held note. By the time the source is located there is another bell within it, like a light bulb in a skylight.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 47327278,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.38,
+      "solid": true
+    },
+    {
+      "name": "a pop orchestra of show tunes",
+      "desc-on-touch": "Muzak distorts the signal and is pushed out of the speaker by a voice trying to wrestle it into submission.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 91060236,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.36,
+      "solid": true
+    },
+    {
+      "name": "a little brown speaker with lattice on its front",
+      "desc-on-touch": "The foyer of a little hotel near the ocean, some eighteen months ago. The woman who ran it kept accidentally turning on the radio while holding the button down to announce how long until the kitchen closed.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 18845535,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.66,
+      "y": 0.76,
+      "solid": true
+    },
+    {
+      "name": "eggs, as they come",
+      "desc-on-touch": "He arrived too late, but she could do eggs. Her husband said the motorbike can fit beside the bins in the yard.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 21784556,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.26,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "the announcement starts again while I am looking at the window with my eyes closed",
+  "file": {
+    "name": "Muzak_vs_Announcement.mp3",
+    "note": "Two transmissions on one speaker. Neither wins. A bell is audible inside the other bell."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up the line to Warnervale",
+      "to": "warnervale-a-length-of-blue-hose"
+    },
+    {
+      "dir": "e",
+      "label": "the train slows beside a platform",
+      "to": "the-fence-that-spells"
+    },
+    {
+      "dir": "s",
+      "label": "eighteen months ago, a foyer near the ocean",
+      "to": "rooms-along-the-road"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "the-glisten-listen-gully",
+  "title": "NODE — Glisten / Listen",
+  "region": "The Comparisons",
+  "seed": 19490603,
+  "palette": {
+    "bg": "#07120d",
+    "ground": [
+      "#1e4a34",
+      "#143524"
+    ],
+    "ink": "#e2f5ea",
+    "accents": [
+      "#c9d8e0",
+      "#59f2b0",
+      "#ffd166",
+      "#8fb8a0"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the third stanza, as the module holds it",
+      "desc-on-touch": "The same on a homepage in font family monospace, twentieth line. He was certain the pools listened: nature receptive to the call of these notes and echoes.",
+      "verb": "glitch",
+      "form": {
+        "type": "plate",
+        "seed": 44730713,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ],
+        "art": [
+          "Where dripping rocks gleam and the leafy pools glisten",
+          "//////////////////////////////////////////////////////////"
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the directory in the truck",
+      "desc-on-touch": "A poem saved countless times across these edgelands. He scrolls to the third stanza. What he reads is beyond all reasoning.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 46603130,
+        "size": 2,
+        "colors": [
+          1,
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "a bowl being rinsed, a blanket being folded",
+      "desc-on-touch": "She was doing one or the other when she began to recite.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 63373391,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.52,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "a card dated 1923, leaning on plastic shelving",
+      "desc-on-touch": "An exhibition of early Australian fairy tales, months later. Typewritten, hand illustrated: the leafy pools listened. The photograph he took shows only the reflection of down lights.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 12896380,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "Katita recited what the system knew",
+  "file": {
+    "name": "Kendall_BellBirds_stanza3.txt",
+    "note": "glisten on the module. listened on a card from 1923. Neither is marked as changed."
+  },
+  "reverie": {
+    "title": "REVERIE — a glen, late evening sundrop",
+    "narr": [
+      "She was rinsing a bowl or folding a blanket when she began the poem.",
+      "Bellbirds in the glen, beyond the last of the pastoral radiance.",
+      "The leafy pools glisten, she said. You said: you mean listen.",
+      "That's a nice turn of phrase, she said, but Kendall wrote glisten.",
+      "Sweetheart, you said, let's check the text. You opened the directory.",
+      "You scrolled to the third stanza and could not move your mouth."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the storm",
+      "to": "the-nine-minute-storm"
+    },
+    {
+      "dir": "e",
+      "label": "a maintenance log, a line with no entry in the book",
+      "to": "three-forty-three-fifty-two"
+    },
+    {
+      "dir": "n",
+      "label": "two or three hundred kilometres to a storage container",
+      "to": "industrial-drive-mayfield"
+    }
+  ]
+}

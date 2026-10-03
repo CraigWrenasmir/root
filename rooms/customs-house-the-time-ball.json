@@ -1,0 +1,106 @@
+{
+  "id": "customs-house-the-time-ball",
+  "title": "RENDER — Customs House, the Time Ball",
+  "region": "The Diagnostic Render",
+  "seed": 11266811,
+  "palette": {
+    "bg": "#140c04",
+    "ground": [
+      "#b8742a",
+      "#6a4218"
+    ],
+    "ink": "#fff0d0",
+    "accents": [
+      "#ffe0a0",
+      "#3a2410",
+      "#7cc7ff",
+      "#ff9e4f"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the ball above the clock tower",
+      "desc-on-touch": "It dropped at one so the ships could set their clocks. A spherical box catching afternoon digital dynamic light, ambient occlusions, chromatic aberrations of emissive materials, volumetric cookies of dust that buffer all day.",
+      "verb": "bloom",
+      "form": {
+        "type": "plate",
+        "seed": 91316233,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ],
+        "art": [
+          "       |",
+          "      (o)",
+          "       |",
+          "      /_\\ ",
+          "     | o |",
+          " ____|___|____             |",
+          "| []  []  [] |             | \\ ",
+          "|____________|_        ____|_\\__",
+          "~~~~~~~~~~~~~~~~~~~~~~~\\_______/~~"
+        ]
+      },
+      "x": 0.42,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "the cyber bushranger heritage tour",
+      "desc-on-touch": "Please remain with the group and allow sufficient room for members of the public to pass. There is nobody else on the footpath. She moves closer.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 19693447,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.44,
+      "solid": true
+    },
+    {
+      "name": "a city composed from old photographs",
+      "desc-on-touch": "Caramelised and half-melted, but with enough headroom left to navigate the streets unfettered.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 72493407,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.22,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "an old reconstruction of Newcastle still running",
+  "file": {
+    "name": "TimeBall_1300hrs.obj",
+    "note": "Drops at one. In this build it drops whenever it finishes loading."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "the earlier simulation, a thousand years on",
+      "to": "newcastle-year-three-thousand"
+    },
+    {
+      "dir": "n",
+      "label": "the next stop on the tour",
+      "to": "the-victoria-theatre-above-the-stage"
+    }
+  ]
+}
