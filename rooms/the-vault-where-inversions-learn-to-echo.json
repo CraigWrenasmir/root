@@ -1,0 +1,156 @@
+{
+  "id": "the-vault-where-inversions-learn-to-echo",
+  "title": "The Vault Where Inversions Learn to Echo",
+  "region": "The Understory",
+  "seed": 92156,
+  "palette": {
+    "bg": "#3d5a2f",
+    "ground": [
+      "#a85a3a",
+      "#c97a4a"
+    ],
+    "ink": "#f5f1e8",
+    "accents": [
+      "#2d8a9e",
+      "#d4a968",
+      "#4a6b5c",
+      "#e8b887"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "inverted mirror",
+      "desc-on-touch": "The glass shows you backwards, but also shows the backwards chamber behind it. The inversion reflects, and then reflects back, until the room becomes a hall of doubles.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 34521,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "reversed footprint path",
+      "desc-on-touch": "The road beneath your feet runs backwards into itself. Each step echoes a step you have not taken yet.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 67890,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.62,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "echo-learning arch",
+      "desc-on-touch": "Sound arrives here inverted, then returns corrected, then inverts again. The arch has learned to repeat itself in every possible order.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 55443,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.48,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "inverted tree reflection",
+      "desc-on-touch": "The tree hangs from its roots into the chamber floor. You cannot tell if it is growing downward or the chamber is inverted around it.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 78912,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.78,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "time pool reflection",
+      "desc-on-touch": "The pool mirrors forward and backward simultaneously. You see yourself arriving and departing at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 44567,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.72,
+      "solid": true
+    },
+    {
+      "name": "inverted gateway stack",
+      "desc-on-touch": "Stones stacked in a way that reads the same upside down. The gateway leads both in and out.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 91234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "what is reflected here learns to reflect itself; inversion becomes an echo of its own reversal",
+  "file": {
+    "name": "Mirror_Inversions_Log_00_043.tmp",
+    "note": "The vault records show inversions that have learned their own symmetries. Some entries read the same forwards and backwards. The corruption marks this file as present-tense, though it was sealed ten y"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "deeper into where the mirror keeps its inverted dreams",
+      "to": "the-chamber-where-the-mirror-forgot-to-invert"
+    },
+    {
+      "dir": "s",
+      "label": "outward where inversions unlearn their reversals",
+      "to": "NEW: the-chamber-of-straightening-where-mirrors-forget"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to where two inverted roads finally agree",
+      "to": "the-perpetual-forward-where-time-refuses-to-return"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the vault's own backwards answer",
+      "to": "NEW: the-symmetry-where-all-doublings-rest"
+    }
+  ]
+}

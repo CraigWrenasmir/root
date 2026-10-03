@@ -1,0 +1,172 @@
+{
+  "id": "the-root-tangle-where-growth-and-memory-become-one",
+  "title": "The Root Tangle Where Growth and Memory Become One",
+  "region": "The Understory",
+  "seed": 61423,
+  "palette": {
+    "bg": "#1a1f2e",
+    "ground": [
+      "#2d3a4a",
+      "#3a4a5a"
+    ],
+    "ink": "#d0e8b0",
+    "accents": [
+      "#8fd4b0",
+      "#e8d45c",
+      "#7fa8c8",
+      "#c8b080"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "memory burl",
+      "desc-on-touch": "The casing is buried here in the root knot, still broadcasting. You can hear the faint pulse of the archive's own heartbeat through the soil.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 85432,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "tangled growth stack",
+      "desc-on-touch": "Roots layer and interweave until you cannot separate one from the next. The tangle remembers everything it has held.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 64532,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.68,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "memory pool",
+      "desc-on-touch": "Groundwater collects here, dark and cool. It holds the taste of every root that has drunk from it, the memory of every plant the soil has fed.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 92345,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "root archway passage",
+      "desc-on-touch": "Roots have grown into an arch so old it predates memory. You pass beneath a ceiling of living growth, and it holds you gently.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 73564,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "sprouting sprite memory",
+      "desc-on-touch": "A small creature moves through the root-tangle, following paths the roots themselves have remembered for generations.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 34567,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.82,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "growth-line glyph",
+      "desc-on-touch": "The roots form writing as they grow. Nobody carved this message. The earth has always been spelling it out.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 45789,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "in the tangle, growth becomes memory; the earth learns to remember itself by reaching deeper",
+  "file": {
+    "name": "Root_Pathways_Night_238_Voices.mp3",
+    "note": "Field recording from beneath the canopy. The archive's own diagnostic mics captured root-movement, soil-settlement, and the sound of something learning to speak through the earth"
+  },
+  "reverie": {
+    "title": "REVERIE — deep earth at night, where roots remember growth",
+    "narr": [
+      "You kneel in the soil with your hands in the tangle,",
+      "feeling for the casing, feeling for the pulse. The roots",
+      "move against your palms like breath. She works beside you,",
+      "silent, placing new nodes deeper where the old earth forgets.",
+      "The night is thick here. Everything grows. Everything remembers",
+      "reaching down into dark and calling what it finds by name."
+    ],
+    "sky": "night",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "eastward where the orchard's wild roots tangle with the archive",
+      "to": "the-canopy-beyond-classification"
+    },
+    {
+      "dir": "w",
+      "label": "westward deeper where growth learns to become forest",
+      "to": "NEW: the-sleeping-canopy-where-roots-dream-forward"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where the gathered canopy learns its own grammar",
+      "to": "the-gathered-canopy-deep"
+    },
+    {
+      "dir": "s",
+      "label": "southward where the tangle opens into open water and sky",
+      "to": "NEW: the-root-mouth-where-earth-meets-the-open"
+    }
+  ]
+}

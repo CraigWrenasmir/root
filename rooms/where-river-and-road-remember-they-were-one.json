@@ -1,0 +1,156 @@
+{
+  "id": "where-river-and-road-remember-they-were-one",
+  "title": "Where River and Road Remember They Were One",
+  "region": "The Understory",
+  "seed": 34789,
+  "palette": {
+    "bg": "#0a0a14",
+    "ground": [
+      "#0a0a14",
+      "#1a1a2e"
+    ],
+    "ink": "#c0d0e0",
+    "accents": [
+      "#00d4ff",
+      "#d4af37",
+      "#7f9faf",
+      "#2a8fa3"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "convergence chip",
+      "desc-on-touch": "Two traces on the board converge here and cease to be separate. The circuit learns that road and river are the same signal traveling different paths.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.48,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "flow-trace network",
+      "desc-on-touch": "Golden traces branch like tributaries, like roads branching into towns. Each one remembers it was once water; each one carries the wet-sound of current.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 98765,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.72,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "estuary pool luminescence",
+      "desc-on-touch": "The pool glows with the light of water that has learned to carry current and data. It is both still and flowing.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 54321,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "data-flow tower",
+      "desc-on-touch": "A tall structure where information rises like water seeking the lowest point. It carries both current and cargo.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 77789,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.82,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "memory-chip archive",
+      "desc-on-touch": "The second chip holds records: what the river was before it became silicon, what the road was before it became signal.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 45678,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "wireframe confluence",
+      "desc-on-touch": "Where the traces form an open box, an outline of emptiness. The archive maps the place where becoming happens.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 23456,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.78,
+      "solid": false
+    }
+  ],
+  "inscription": "here the circuit board remembers it was water; the water remembers it was always a road back home",
+  "file": {
+    "name": "Convergence_Trace_Diagram_00_089.txt",
+    "note": "The estuary module's log: current and traffic flow recorded as one signal. The file reads differently depending on whether you follow it downstream or upstream"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "southward back into the estuary where rivers learn their old names",
+      "to": "where-the-roads-learn-to-sail"
+    },
+    {
+      "dir": "n",
+      "label": "northward where roads forget they were ever liquid",
+      "to": "NEW: the-upriver-terminal-where-roads-end-in-water"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along the circuit where current becomes direction",
+      "to": "the-merged-transmission-stream"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the board's own liquid memory",
+      "to": "NEW: the-watershed-chamber-where-traces-become-rivers"
+    }
+  ]
+}

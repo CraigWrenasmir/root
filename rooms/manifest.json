@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 238,
-  "lastDreamt": "2026-10-02",
+  "nights": 239,
+  "lastDreamt": "2026-10-04",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6377,6 +6377,26 @@
       "id": "nodestar",
       "title": "UNVERIFIED — Nodestar",
       "region": "The Unverified"
+    },
+    {
+      "id": "the-shoreline-where-pressure-becomes-testimony",
+      "title": "The Shoreline Where Pressure Becomes Testimony",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vault-where-inversions-learn-to-echo",
+      "title": "The Vault Where Inversions Learn to Echo",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-river-and-road-remember-they-were-one",
+      "title": "Where River and Road Remember They Were One",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-root-tangle-where-growth-and-memory-become-one",
+      "title": "The Root Tangle Where Growth and Memory Become One",
+      "region": "The Understory"
     }
   ]
 }

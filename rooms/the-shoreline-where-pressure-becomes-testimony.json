@@ -1,0 +1,172 @@
+{
+  "id": "the-shoreline-where-pressure-becomes-testimony",
+  "title": "The Shoreline Where Pressure Becomes Testimony",
+  "region": "The Understory",
+  "seed": 47382,
+  "palette": {
+    "bg": "#2a4d5c",
+    "ground": [
+      "#c89968",
+      "#8b6f47"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#a8d5e8",
+      "#d4a574",
+      "#7c9ba8",
+      "#e89b6f"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "chalk agreements",
+      "desc-on-touch": "You run your hand over salt-scored stone where names and dates mark the tide's slow settling. The chalk has faded but the pressure remains.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "tide pool testimony",
+      "desc-on-touch": "The pool holds still water and the compressed record of a hundred tides. Small stones rest on its floor, each one marked.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 38921,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "salt crust deposit",
+      "desc-on-touch": "Crystalline layers build here where the shore learned to preserve pressure as salt. Each stratum a record of compressed force.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 76234,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "weathered pressure post",
+      "desc-on-touch": "The post has been abraded smooth by decades of sand and tide. It still stands, bent slightly by the force it has taken.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 49867,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.28,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "agreement arch",
+      "desc-on-touch": "Two rocks have leaned against each other so long they have grooved into shape. The shore carved this arch from the act of bearing witness.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 63445,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.62,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "shore-learned marking",
+      "desc-on-touch": "Pale stones arranged in patterns the tides have not yet erased. You can almost read what they mean.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 82119,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "here the shore learned the language of pressure and began to answer back",
+  "file": {
+    "name": "Tidal_Agreements_Late20thCent.txt",
+    "note": "Chalk marks and stone arrangements along a particular stretch; the archive keeps copies, but the shore keeps rewriting them"
+  },
+  "reverie": {
+    "title": "REVERIE — shoreline at dusk, where agreements are kept",
+    "narr": [
+      "You stand at the edge where the tide won't reach tonight.",
+      "She moves along the rocks, marking names with pale chalk,",
+      "agreements the shore itself will witness. The light fails gold.",
+      "You both know the tide will take these marks, but that's",
+      "the point — the shore doesn't keep the writing. It keeps",
+      "the act of someone who came here and agreed to stay."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back along the shore where agreements are written in salt and sand",
+      "to": "the-chamber-where-force-learns-to-ask"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the tide carries broken seals and glass",
+      "to": "NEW: the-scatter-where-pressure-learns-to-drift"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into the rising cliffs where the shore turns inward",
+      "to": "the-threshold-of-audible-depth"
+    },
+    {
+      "dir": "s",
+      "label": "southward deeper into the archive's salt memory",
+      "to": "NEW: the-testimony-chamber-where-stones-keep-speaking"
+    }
+  ]
+}
