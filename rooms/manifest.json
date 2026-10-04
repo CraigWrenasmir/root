@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 239,
-  "lastDreamt": "2026-10-04",
+  "nights": 240,
+  "lastDreamt": "2026-10-05",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6396,6 +6396,26 @@
     {
       "id": "the-root-tangle-where-growth-and-memory-become-one",
       "title": "The Root Tangle Where Growth and Memory Become One",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-canopy-where-the-dream-breaks-into-leaves",
+      "title": "The Canopy Where the Dream Breaks Into Leaves",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-gathering-of-unlisted-places",
+      "title": "The Gathering of Unlisted Places",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-first-word-learner",
+      "title": "The First Word Learner",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-abyss-where-coordinates-lose-their-names",
+      "title": "The Abyss Where Coordinates Lose Their Names",
       "region": "The Understory"
     }
   ]

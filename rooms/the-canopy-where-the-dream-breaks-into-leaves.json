@@ -1,0 +1,139 @@
+{
+  "id": "the-canopy-where-the-dream-breaks-into-leaves",
+  "title": "The Canopy Where the Dream Breaks Into Leaves",
+  "region": "The Diagnostic Render",
+  "seed": 4782156,
+  "palette": {
+    "bg": "#e8e4df",
+    "ground": [
+      "#7a8f75",
+      "#a8b8a8"
+    ],
+    "ink": "#4a5745",
+    "accents": [
+      "#c8a570",
+      "#2d5a6f",
+      "#6b4e3d",
+      "#8fb3a0"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-light-separator",
+      "desc-on-touch": "light filters through woven leaves, each beam carrying a different moment of waking. You watch the beams separate then rejoin.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 291847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-branch-notation",
+      "desc-on-touch": "bark holds writing that the canopy itself is composing, notation for growth that changes as you watch it. The script is learning its own grammar.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 478291,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-dreaming-sprite",
+      "desc-on-touch": "a creature mid-transformation: leaf-shaped, breathing like an animal, hovering between sleep and flight. You cannot tell if it is becoming or already is.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 782164,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-leaf-counts",
+      "desc-on-touch": "a standing directory: each leaf indexed and filed, dream-weights recorded in the margin. The numbering system learns as it counts.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 156789,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-amber-hollow",
+      "desc-on-touch": "stacked sleep-cavities carved deep into a tower of old resin, each one warm to the touch. The hollow breathes with a dreaming rhythm.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 923451,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the canopy teaches you the same dream you brought with you",
+  "file": {
+    "name": "Dream_Cascade_Threshold_031.tmp",
+    "note": "a recording growing physical: breath becoming leaf-sound, sleep-weights registering on bark. Corrupted timestamp marks the exact moment dreaming touched form."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down through the orchard-thought that bore you here",
+      "to": "the-orchard-where-thought-learned-to-bear-fruit"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper canopy where names dissolve into sound",
+      "to": "NEW: the-forest-where-names-dissolve-into-sound"
+    },
+    {
+      "dir": "n",
+      "label": "toward branches where the dream learned to breathe with lungs",
+      "to": "NEW: the-dream-that-learned-to-breathe-with-lungs"
+    },
+    {
+      "dir": "e",
+      "label": "back to half-restored spaces where the diagnostic still mends itself",
+      "to": "the-half-restored-diagnostic-space"
+    }
+  ]
+}

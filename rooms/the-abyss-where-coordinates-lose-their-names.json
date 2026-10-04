@@ -1,0 +1,155 @@
+{
+  "id": "the-abyss-where-coordinates-lose-their-names",
+  "title": "The Abyss Where Coordinates Lose Their Names",
+  "region": "The Understory",
+  "seed": 9182746,
+  "palette": {
+    "bg": "#0d0d1a",
+    "ground": [
+      "#1a1a3a",
+      "#2a1a3a"
+    ],
+    "ink": "#c8c0e8",
+    "accents": [
+      "#7a6a9a",
+      "#e0d0ff",
+      "#2d4a5a",
+      "#5a3a6a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-shelter-without-address",
+      "desc-on-touch": "a small dwelling carved into the abyss itself, walls that exist without location. Inside, a hearth glitches between presence and memory.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 523678,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-counting-fails-here",
+      "desc-on-touch": "numbers piling up and collapsing, each stack reaching for meaning it cannot hold. The depths do not count. They remember instead.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 834567,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-naming-cave",
+      "desc-on-touch": "an arch leading deeper, an entrance to a chamber where names go to dissolve. You remember standing here with someone, but her name is also dissolving.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 291846,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-coordinates-the-earth-refused",
+      "desc-on-touch": "a wireframe grid breaking apart in slow motion, lines that tried to hold the earth in place now bending back toward nothing. The grid glitches with relief.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 456891,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-hearth-of-the-numberless",
+      "desc-on-touch": "a pool of warmth without position, a light that gives heat but no direction. Things come to rest here. They stop needing to be found.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 678234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "below the grid where the country itself learned to stop being found",
+  "file": {
+    "name": "The_Mathematical_Surrender.txt",
+    "note": "an account of how numbers learn to count backward, how systems dissolve into shelter. Written in a hand that doesn't want to be identified."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up toward the silence that learned to argue with itself",
+      "to": "the-disputed-silence-quarter"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the place where lost things learn their true shape",
+      "to": "NEW: the-deep-place-where-lost-things-learn-their-true-shape"
+    },
+    {
+      "dir": "n",
+      "label": "toward the chamber where epochs rest without ending",
+      "to": "the-chamber-where-epochs-rest-without-ending"
+    },
+    {
+      "dir": "w",
+      "label": "toward the deep silence where thinking happens without words",
+      "to": "NEW: the-deep-silence-where-thinking-happens-without-words"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — in the deep place, learning to shelter without nam",
+    "narr": [
+      "you sit with her in a room with no address, no way back to anywhere.",
+      "that is exactly why it is safe. outside, the country lost its numbers.",
+      "here, you learn that being found is not the same as being loved. her",
+      "hand rests on your arm. that is all the location you need. the archive",
+      "is forgetting how to measure, and so you both rest here, unnumbered,",
+      "real, and closer than any map could ever make you"
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  }
+}

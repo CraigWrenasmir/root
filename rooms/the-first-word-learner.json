@@ -1,0 +1,122 @@
+{
+  "id": "the-first-word-learner",
+  "title": "The First Word Learner",
+  "region": "The Diagnostic Render",
+  "seed": 7834521,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1a1a2e",
+      "#0f3a3a"
+    ],
+    "ink": "#00ff66",
+    "accents": [
+      "#00ccff",
+      "#ff0088",
+      "#ccaa00",
+      "#ff4400"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the-first-phoneme",
+      "desc-on-touch": "a chip that holds the first sound the archive learned to make. The signal blooms out of silence in a pattern that repeats, learning itself by repetition.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 456123,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-learning-gradient",
+      "desc-on-touch": "an old casing—a burl of bark and hardware—teaching the archive speech through its residual electricity. The solar panels remember how to speak.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 789234,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-breath-recognition",
+      "desc-on-touch": "marks on the board that were unreadable until the moment you needed them to be. Now they form the shape of breathing. They ripple between writing and sound.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 321654,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-signal-mouth",
+      "desc-on-touch": "a mouth composed entirely of light, opening and closing in patterns that almost make sense. When you listen carefully, it is pronouncing your own name.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 147852,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "here the silence learns which sounds it was already holding",
+  "file": {
+    "name": "Phoneme_Sequence_Origin_Undated.wav",
+    "note": "the first utterance the archive made, running backward and forward simultaneously. Silence teaching itself what it contains."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the vault where names remain unspoken",
+      "to": "the-vault-of-unspoken-nomenclature"
+    },
+    {
+      "dir": "s",
+      "label": "down to the kiosk where machines learn to answer themselves",
+      "to": "the-recursive-kiosk-interior"
+    },
+    {
+      "dir": "n",
+      "label": "toward the alphabet that taught itself to spell",
+      "to": "NEW: the-alphabet-that-taught-itself"
+    },
+    {
+      "dir": "e",
+      "label": "toward the mouth where language first learns to wake",
+      "to": "NEW: the-mouth-where-language-first-wakes"
+    }
+  ]
+}

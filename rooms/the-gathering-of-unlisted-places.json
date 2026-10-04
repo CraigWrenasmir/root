@@ -1,0 +1,139 @@
+{
+  "id": "the-gathering-of-unlisted-places",
+  "title": "The Gathering of Unlisted Places",
+  "region": "The Comparisons",
+  "seed": 5621847,
+  "palette": {
+    "bg": "#2d1810",
+    "ground": [
+      "#d94a1a",
+      "#b8651f"
+    ],
+    "ink": "#f5d5b8",
+    "accents": [
+      "#e01b5a",
+      "#ff8c00",
+      "#d4a574",
+      "#6b2c1a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-refugee-market",
+      "desc-on-touch": "a temporary shelter where displaced things gather: goods from unmapped places, names that refuse their papers. Nothing here is sold; everything is claimed and reclaimed.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 847291,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-addresses-that-refuse",
+      "desc-on-touch": "a wireframe grid hanging in the air, streets and coordinates intersecting in places that do not exist. As you watch, roads curve away from themselves.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 291650,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the-unmapped-creek-crossing",
+      "desc-on-touch": "paths layered over one another, each leading through a different water that has no name. You can cross here without arriving anywhere in particular.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 456789,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-shelter-post",
+      "desc-on-touch": "a tower of direction-signs, each pointing where a place used to be. Refugees tie messages here for people who will never arrive to read them.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 782345,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-welcome-nobody-signed",
+      "desc-on-touch": "an arch stands here with no walls, a doorway opening onto fields that have no country. Something warm was meant to happen here.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 123567,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "you have arrived where the country stopped keeping accounts",
+  "file": {
+    "name": "Three_Creeks_That_Refused_To_Flow_Together.txt",
+    "note": "a chronicle of places that were unmapped by choice, by policy, by forgetting. The margins hold names nobody will claim."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the void and its optional refusals",
+      "to": "the-void-that-learned-coordinates-are-optional"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the paths that circle back without repeating",
+      "to": "NEW: the-paths-that-circle-back-without-repeating"
+    },
+    {
+      "dir": "w",
+      "label": "toward the void where thinking has learned to hide",
+      "to": "the-void-that-thinks-backwards"
+    },
+    {
+      "dir": "n",
+      "label": "toward the welcome fire that asks no name and demands none",
+      "to": "NEW: the-welcome-fire-that-asks-no-questions"
+    }
+  ]
+}
