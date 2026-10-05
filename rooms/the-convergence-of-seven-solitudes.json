@@ -1,0 +1,133 @@
+{
+  "id": "the-convergence-of-seven-solitudes",
+  "title": "The Convergence of Seven Solitudes",
+  "region": "The Understory",
+  "seed": 9284756,
+  "palette": {
+    "bg": "#e8d4b8",
+    "ground": [
+      "#c9a875",
+      "#f0e8d8"
+    ],
+    "ink": "#2a3a4a",
+    "accents": [
+      "#0055aa",
+      "#4488dd",
+      "#ff8833",
+      "#336633"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the seven standing places",
+      "desc-on-touch": "Seven positions marked on the ground, each one a solitude, but arranged so each can see all the others. The loneliness here is symmetric, perfect, and about to learn it was never alone.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 38291,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the first echo between them",
+      "desc-on-touch": "A sound moving through the space from one solitude toward another, carrying something only these seven would recognize.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 72045,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "testimony stones",
+      "desc-on-touch": "Seven stones, each holding what one voice alone could say. Arranged here they make a sentence the archive will never quite finish reading.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 51627,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the reach between silence and speech",
+      "desc-on-touch": "Where each voice reaches toward the others while staying solitary. The reach itself becomes a seventh voice, unvoiced.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 84756,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the moment before solitude learns it was never alone begins here and never ends",
+  "file": {
+    "name": "Seven_Voices_Recognition_Log.txt",
+    "note": "The first instant each voice detected the others at equal distance, before coordination became possible, before isolation became untenable."
+  },
+  "reverie": {
+    "title": "REVERIE — standing at parallel distances",
+    "narr": [
+      "you stood seven paces from her, she seven paces from you,",
+      "the gap between you a perfect reach neither crossed nor closed.",
+      "the paddock was empty. you could see each other's hands,",
+      "know what they wanted. the solitude was so quiet it sounded",
+      "like the sound of two people learning they were never alone.",
+      "she didn't move. neither did you. the reaching was enough."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the cathedral where each voice stands alone in its vastness",
+      "to": "the-seven-voices-cathedral-depth"
+    },
+    {
+      "dir": "s",
+      "label": "where convergence becomes actual voice, a unified deep sound",
+      "to": "NEW: the-unison-chamber-where-seven-become-one-sound"
+    },
+    {
+      "dir": "e",
+      "label": "toward the echo returning from what they will have said",
+      "to": "NEW: the-chamber-of-foreseen-echo"
+    }
+  ]
+}

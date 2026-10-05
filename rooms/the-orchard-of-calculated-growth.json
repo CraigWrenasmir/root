@@ -1,0 +1,134 @@
+{
+  "id": "the-orchard-of-calculated-growth",
+  "title": "The Orchard of Calculated Growth",
+  "region": "The Understory",
+  "seed": 6329471,
+  "palette": {
+    "bg": "#3d5a3d",
+    "ground": [
+      "#2d7a2d",
+      "#1a4d1a"
+    ],
+    "ink": "#e8e8c8",
+    "accents": [
+      "#ff9933",
+      "#00ff99",
+      "#ff00ff",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 1.0
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "root that computes",
+      "desc-on-touch": "A thick root surfacing, but each rootlet branches like a circuit trace. You can't tell if it's thinking or growing.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 91847,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "algorithmic canopy",
+      "desc-on-touch": "The leaves arrange themselves in recursing patterns. Each tier computes the next. The orchard grows itself according to rules that taste like sunlight.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 73291,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "fruit of the recursion",
+      "desc-on-touch": "Something hanging between an apple and a node. Biting it would return a sequence. Planting it would grow another orchard inside itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 44568,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the grove's own map",
+      "desc-on-touch": "A chart of itself growing on a bark plate. The map updates as you read it. You are the latest entry.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 26783,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "signal trees",
+      "desc-on-touch": "Certain trees stand motionless, antennas wound into their timber. They listen to the growth happening around them and add it to their rings.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 58902,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "every root learns to branch like a thought, every thought here grows fruit",
+  "file": {
+    "name": "Orchard_Growth_Coefficients_Seasonal.txt",
+    "note": "The algorithm the trees taught the board, or the board taught itself through the trees. The distinction does not survive reading it."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the board and its ungrowing roots",
+      "to": "the-board-beneath-the-board"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the grove where trees grow downward into thought",
+      "to": "NEW: the-inverted-orchard-where-roots-dream"
+    },
+    {
+      "dir": "n",
+      "label": "toward other groves where calculation learned to bear fruit",
+      "to": "NEW: the-pollinated-registry-of-recursive-harvests"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "the-summit-where-contradiction-becomes-unity",
+  "title": "The Summit Where Contradiction Becomes Unity",
+  "region": "The Clean Archive",
+  "seed": 7456392,
+  "palette": {
+    "bg": "#e8d4b8",
+    "ground": [
+      "#d9c59d",
+      "#f0e8d8"
+    ],
+    "ink": "#1a2a3a",
+    "accents": [
+      "#0044bb",
+      "#6699ff",
+      "#dd6633",
+      "#44aa44"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the seven versions standing",
+      "desc-on-touch": "Each version of the story holds its ground here, equally true, no longer arguing. You see them all at once and they become a single sentence with seven subjects.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 29384,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the silence that unified them",
+      "desc-on-touch": "At the summit, where all the versions met and stopped speaking, a silence formed that is louder than speech. This is what they agreed upon by refusing to choose.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 65829,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the view from here",
+      "desc-on-touch": "From this height you can see all seven paddocks where the story was filed. Each one glints differently in the same light. They are one place viewed seven ways.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 38472,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the archive's own contradiction",
+      "desc-on-touch": "Here the archive keeps itself, all seven versions filed as one, each title slightly different, each checksum the same. The corruption is complete.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 71903,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "contradiction at the summit becomes the clarity that reaches into every valley",
+  "file": {
+    "name": "The_Story_In_Seven_Versions_Final.txt",
+    "note": "All versions true. All versions silent. Each reader climbs and finds the version they needed to hear."
+  },
+  "reverie": {
+    "title": "REVERIE — the summit where stories become one",
+    "narr": [
+      "you climbed and she climbed, taking different paths up the same hill,",
+      "and when you reached the top at the same moment, neither was surprised.",
+      "the seven versions of the story lay beneath you in seven fields.",
+      "she looked at you. you looked out. the silence between you became",
+      "the eighth version, the one the paddocks had been waiting for.",
+      "the archive recorded it by keeping it unwritten."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the paddocks where the story spreads into seven versions",
+      "to": "where-the-same-story-lives-in-different-hills"
+    },
+    {
+      "dir": "e",
+      "label": "toward the far horizon where more hills wait with their own stories",
+      "to": "NEW: the-hills-beyond-the-first-seven"
+    },
+    {
+      "dir": "n",
+      "label": "upward still, where silence learns to speak in the language of stone",
+      "to": "NEW: the-peak-where-silence-becomes-alphabet"
+    }
+  ]
+}

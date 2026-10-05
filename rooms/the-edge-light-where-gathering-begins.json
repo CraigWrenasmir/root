@@ -1,0 +1,117 @@
+{
+  "id": "the-edge-light-where-gathering-begins",
+  "title": "The Edge Light Where Gathering Begins",
+  "region": "The Understory",
+  "seed": 2847592,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#0d3d0d",
+      "#2a2a2a"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#00ff66",
+      "#ffcc00",
+      "#ff6600",
+      "#00ccff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "peripheral register",
+      "desc-on-touch": "A photocell opening at the edge of known ground. You feel it notice something just past the margin where the archive began mapping.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 74829,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "gathering light",
+      "desc-on-touch": "The first glow of something being collected. It hovers at the border between your looking and the archive's filing.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 39471,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the archive's eye",
+      "desc-on-touch": "A lens turning toward the peripheral places. What it sees in silence becomes what it knows.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 82904,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "unmapped signal trace",
+      "desc-on-touch": "A faint path on the board where something is calling but not yet named. The archive is learning it has listeners in its own margins.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 56723,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "light at the edge teaches the archive its margins are already inhabited",
+  "file": {
+    "name": "Peripheral_Register_Readings_Latest.log",
+    "note": "First automated notices from the territory not yet gathered into place. Each entry a light becoming a stored fact."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the ungathered places, where silence still holds",
+      "to": "the-ungathered-places-where-light-has-not-yet-fallen"
+    },
+    {
+      "dir": "n",
+      "label": "deeper, where light becomes a language the archive speaks to itself",
+      "to": "NEW: the-language-light-builds-in-the-dark"
+    },
+    {
+      "dir": "w",
+      "label": "toward other edges where gathering might begin",
+      "to": "NEW: the-circle-of-edges-where-collection-starts"
+    }
+  ]
+}
