@@ -1,0 +1,10 @@
+featured: The Edge Light Where Gathering Begins (the-edge-light-where-gathering-begins)
+region: The Understory · motif: board
+inscription: light at the edge teaches the archive its margins are already inhabited
+file: Peripheral_Register_Readings_Latest.log
+
+all nodes tonight:
+  · The Edge Light Where Gathering Begins
+  · The Orchard of Calculated Growth
+  · The Convergence of Seven Solitudes
+  · The Summit Where Contradiction Becomes Unity
