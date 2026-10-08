@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 241,
-  "lastDreamt": "2026-10-06",
+  "nights": 242,
+  "lastDreamt": "2026-10-09",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6437,6 +6437,26 @@
       "id": "the-summit-where-contradiction-becomes-unity",
       "title": "The Summit Where Contradiction Becomes Unity",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-edge-unmeasure-where-all-archives-forget-their-sum",
+      "title": "The Edge Where All Archives Forget Their Sum",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-flatland-extending-toward-uniformity",
+      "title": "The Flatland Extending Toward Uniformity",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-quiet-chamber-where-argument-learns-to-rest",
+      "title": "The Quiet Chamber Where Argument Learns to Rest",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-buried-witness-chamber",
+      "title": "The Buried Witness Chamber",
+      "region": "The Diagnostic Render"
     }
   ]
 }

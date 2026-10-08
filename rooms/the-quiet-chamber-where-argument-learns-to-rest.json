@@ -1,0 +1,100 @@
+{
+  "id": "the-quiet-chamber-where-argument-learns-to-rest",
+  "title": "The Quiet Chamber Where Argument Learns to Rest",
+  "region": "The Understory",
+  "seed": 36847,
+  "palette": {
+    "bg": "#1a2f1a",
+    "ground": [
+      "#3a5a3a",
+      "#2d4a2d"
+    ],
+    "ink": "#b8d9b8",
+    "accents": [
+      "#8fb68f",
+      "#6fa86f",
+      "#7da47d",
+      "#a0c9a0"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the voteless rows",
+      "desc-on-touch": "Trees in ordered silence. Each one has spoken its portion. Each one is at peace. The parliament has become a plantation—argument transformed into growth, row after patient row.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 2194,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the fence between speakers",
+      "desc-on-touch": "Once it divided voices. Now it holds them together. The posts are worn smooth by agreement. The rails have learned to be patient.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 4728,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the final tally, stone",
+      "desc-on-touch": "The vote concluded. The sum was written into stone and then the stone learned to forget what the numbers meant. The debate has become geology.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7845,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the parliament discovered that silence was the only vote that never needed to be counted again",
+  "file": {
+    "name": "Root_Council_Record_Final_Entry.txt",
+    "note": "where the voting stopped and the roots learned to agree in stillness"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the parliament still voting",
+      "to": "the-root-parliament"
+    },
+    {
+      "dir": "n",
+      "label": "toward the canopy where silence grows branches",
+      "to": "NEW: the-upper-quiet-where-silence-learns-leaves"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the root-dark where agreement becomes mineral",
+      "to": "NEW: the-bedrock-where-all-voting-ends"
+    }
+  ]
+}

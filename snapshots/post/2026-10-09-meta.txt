@@ -1,0 +1,10 @@
+featured: The Quiet Chamber Where Argument Learns to Rest (the-quiet-chamber-where-argument-learns-to-rest)
+region: The Understory · motif: orchard
+inscription: the parliament discovered that silence was the only vote that never needed to be counted again
+file: Root_Council_Record_Final_Entry.txt
+
+all nodes tonight:
+  · The Edge Where All Archives Forget Their Sum
+  · The Flatland Extending Toward Uniformity
+  · The Quiet Chamber Where Argument Learns to Rest
+  · The Buried Witness Chamber

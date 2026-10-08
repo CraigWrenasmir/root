@@ -1,0 +1,111 @@
+{
+  "id": "the-buried-witness-chamber",
+  "title": "The Buried Witness Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 51923,
+  "palette": {
+    "bg": "#0d1a0d",
+    "ground": [
+      "#1a2a1a",
+      "#0d1a0d"
+    ],
+    "ink": "#7a9a7a",
+    "accents": [
+      "#556b55",
+      "#6b8a6b",
+      "#8fb68f",
+      "#4a5e4a"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.2
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the witness-stone",
+      "desc-on-touch": "It lies in the dark and remembers everything. It does not speak. It does not judge. It has learned that witnessing means to be still, to hold weight, to refuse to shift.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the vigil's final breath",
+      "desc-on-touch": "What was remembrance has become earth. The chamber holds it like a breath held too long. Nothing moves. Nothing needs to. The vigil has taught the dark to be patient.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 8392,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the empty place where counting stopped",
+      "desc-on-touch": "A space without measure. The vigil ran so long it forgot what it was counting. Now there is only emptiness and the dark holding it like a held breath.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7261,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "witness and earth learned that remembering and burial were the same kind of holding",
+  "file": {
+    "name": "Vigil_Record_Where_Memory_Became_Soil.tmp",
+    "note": "the moment remembrance took root and learned to grow downward"
+  },
+  "reverie": {
+    "title": "REVERIE — the quiet room where the vigil ends",
+    "narr": [
+      "You kneel in the half-light and she kneels beside you,",
+      "both of you very still. The vigil has been so long that",
+      "remembrance has turned to soil in your hands. There is",
+      "nothing left to say. The room has learned to hold silence",
+      "the way earth holds seeds. This is how you both know it.",
+      "The vigil ends not with words but with the earth receiving."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the vigil still remembering",
+      "to": "the-vigil-that-forgets-its-ending"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the earth where witness becomes stone",
+      "to": "NEW: the-stone-witness-bedrock-where-all-vigils-rest"
+    }
+  ]
+}

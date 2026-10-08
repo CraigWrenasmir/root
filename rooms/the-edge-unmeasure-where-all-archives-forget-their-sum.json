@@ -1,0 +1,117 @@
+{
+  "id": "the-edge-unmeasure-where-all-archives-forget-their-sum",
+  "title": "The Edge Where All Archives Forget Their Sum",
+  "region": "The Understory",
+  "seed": 45782,
+  "palette": {
+    "bg": "#1a2e1a",
+    "ground": [
+      "#556b55",
+      "#7a9d7a"
+    ],
+    "ink": "#d4e4c0",
+    "accents": [
+      "#c0d9b3",
+      "#8fb68f",
+      "#a8c9a0",
+      "#6b8a6b"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.4
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the counting monument",
+      "desc-on-touch": "A pillar of stacked numbered rings, each one weathered to half-legibility. The numerals blur toward its top, dissolving into grain and lichen. You touch where calculation ends.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the quiet spiral",
+      "desc-on-touch": "A gyre traced in dust on stone, counted once and then forgotten. The wind erases each spiral as fast as the counting begins. Patient. Without urgency.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5421,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the archive's dropped record",
+      "desc-on-touch": "A ledger lies open, its final column blank. The last entry cuts off mid-sum. Paper curls at the edges, numbers fading into the sound of wind instead of silence.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 1293,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the scatter pool's far edge",
+      "desc-on-touch": "Where the water you came from finally learns it has no measure. Arithmetic and water become the same thing here—both in motion, both too plural to count.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8765,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the edge remembers learning: to forget the sum is to hear the wind's reply",
+  "file": {
+    "name": "Ledger_Unfinished_Sum_Fragment.txt",
+    "note": "counts of things before the counter learned what it was losing"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where arithmetic still carries the memory of number",
+      "to": "the-scatter-pool-where-arithmetic-becomes-wind"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the understory where silence learns its own grammar",
+      "to": "NEW: the-chamber-where-silence-learns-to-speak-in-wind-tones"
+    },
+    {
+      "dir": "s",
+      "label": "toward the roots where nothing is counted and everything grows",
+      "to": "NEW: the-unaccounted-deep-where-growth-needs-no-sum"
+    }
+  ]
+}

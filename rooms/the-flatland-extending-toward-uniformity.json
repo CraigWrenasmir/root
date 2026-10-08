@@ -1,0 +1,117 @@
+{
+  "id": "the-flatland-extending-toward-uniformity",
+  "title": "The Flatland Extending Toward Uniformity",
+  "region": "The Clean Archive",
+  "seed": 28394,
+  "palette": {
+    "bg": "#e8c547",
+    "ground": [
+      "#e8c547",
+      "#d4a942"
+    ],
+    "ink": "#2c3e1a",
+    "accents": [
+      "#8b7355",
+      "#c9a96e",
+      "#556b2f",
+      "#9d8c6e"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the horizon's standing stone",
+      "desc-on-touch": "A single marker, far across the plain. You walk toward it. The distance never changes. The flatness teaches that arrival and departure are the same direction.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 4562,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the dream-fence",
+      "desc-on-touch": "A fence running parallel to your walking, neither approaching nor receding. Posts repeated endlessly. You can see through it but not cross it. The fence is the flatness teaching itself geometry.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 7193,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the paddock's self-repeating pattern",
+      "desc-on-touch": "Where the ground itself becomes the proof. Same grass, same dirt, same angle of light, cycling back to the beginning. The country dreams in loops.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5829,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the edge you cannot leave",
+      "desc-on-touch": "The flatness continues. It has learned it doesn't need boundaries. Every direction is the same soft light, the same breathing earth, the same dream.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 9274,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "uniformity learned that endless returning was itself a kind of motion",
+  "file": {
+    "name": "Dreaming_Paddock_Field_Notes_Undated.txt",
+    "note": "observations from a sleep that never woke, measurements of a country that learned to repeat itself"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the dream that remembers sleeping",
+      "to": "the-flat-country-where-dreaming-sleeps"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the country where dreaming has become the landscape",
+      "to": "NEW: the-deep-uniformity-where-the-dream-becomes-stone"
+    },
+    {
+      "dir": "s",
+      "label": "toward the edge where flatness learns it has a boundary",
+      "to": "NEW: the-paddock-learning-its-own-horizon"
+    }
+  ]
+}
