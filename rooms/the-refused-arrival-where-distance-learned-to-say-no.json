@@ -1,0 +1,133 @@
+{
+  "id": "the-refused-arrival-where-distance-learned-to-say-no",
+  "title": "The Refused Arrival Where Distance Learned to Say No",
+  "region": "The Diagnostic Render",
+  "seed": 62847,
+  "palette": {
+    "bg": "#a8d8c8",
+    "ground": [
+      "#d4a876",
+      "#c89858"
+    ],
+    "ink": "#2a1a1a",
+    "accents": [
+      "#3a2a1a",
+      "#8a5a3a",
+      "#5a4a7a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the closed gate at the field's end",
+      "desc-on-touch": "Built to stay shut, riveted and certain. The paths all arrive here, and none pass through. Distance says no, and the gate agrees.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 1923,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the gathered arrival-shoes",
+      "desc-on-touch": "Boots and sandals left at the threshold, lined in rows. Each one walked here expecting entry. None of them moved past the gate.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4627,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the mile-marker that counts backward",
+      "desc-on-touch": "As you approach the gate, distance increases. Three kilometres becomes four. The marker learns to refuse you before you refuse yourself.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8754,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the dust that stopped moving",
+      "desc-on-touch": "Kicked up by a hundred journeys, now settling. The wind knows better than to carry it further. Even the smallest particles learned refusal here.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2358,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the sign that says nothing",
+      "desc-on-touch": "No words, no warning, no explanation. Just a post where words could have been. Refusal needs no language.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5291,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "arrivals and departures wear the same shoes; here is where the shoes stopped",
+  "file": {
+    "name": "Threshold_Voices_Late_Recording_NSW.mp3",
+    "note": "people speaking into the closed gate, repeating their names, their reasons, their destinations. The distance says no to all of them."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the pool where arrivals gather, unreached",
+      "to": "the-pool-of-all-unreached-arrivals"
+    },
+    {
+      "dir": "w",
+      "label": "back along the roads that all converge here but never pass",
+      "to": "NEW: the-turning-place-where-journeys-learned-to-return"
+    },
+    {
+      "dir": "n",
+      "label": "northward along the fence line, where refusal becomes a boundary",
+      "to": "the-beyond-the-sentence"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "where-the-sky-forgets-what-it-was-asking",
+  "title": "Where the Sky Forgets What It Was Asking",
+  "region": "The Diagnostic Render",
+  "seed": 47392,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#2a2a3a",
+      "#1a1a2a"
+    ],
+    "ink": "#b8d8e8",
+    "accents": [
+      "#d8d8b8",
+      "#8aaa88",
+      "#c8b0d8"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the anemometer that forgot direction",
+      "desc-on-touch": "The wind-cup spinner turns in a direction that hasn't existed for three storm-seasons. The archive watches it, learning what confusion looks like when it moves.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 8832,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "barometric inversion pool",
+      "desc-on-touch": "Where the pressure reading sinks below ground, light fills the hole instead. You can't read which way the weather is turning.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the questioning vapour",
+      "desc-on-touch": "A cloud column that shifts between three shapes: a question mark, a pause, and a blank. The archive copies it, wondering if it means the same thing.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 6194,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "storm-radio on the silent band",
+      "desc-on-touch": "The antenna broadcasts weather words but they leave the speaker backwards, unspoken, returning to the sky as questions nobody voiced.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 9013,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "sideways lightning that stopped",
+      "desc-on-touch": "Current that moved horizontal across the darkening once, asking the air instead of striking it. Now it hangs, polite and doubting, not sure if it should move again.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 1547,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the sky once knew what it was searching for; now it searches and forgets the wanting in the same breath",
+  "file": {
+    "name": "Storm_Pressure_Fassifern_August_1998-2003.mp3",
+    "note": "barometric readings warped mid-sequence into a voice that asks if the weather still means what it promised"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back across the open country toward certain ground",
+      "to": "where-all-answers-become-uncertain"
+    },
+    {
+      "dir": "n",
+      "label": "upward into cloud-storage where forgotten questions accumulate",
+      "to": "NEW: the-heights-where-storms-learn-to-reconsider"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the pressure finds the earth and stops asking",
+      "to": "the-threshold-where-light-stops-and-meaning-continues"
+    }
+  ]
+}

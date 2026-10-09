@@ -1,0 +1,116 @@
+{
+  "id": "the-spiral-where-asking-learns-to-eat-itself",
+  "title": "The Spiral Where Asking Learns to Eat Itself",
+  "region": "The Diagnostic Render",
+  "seed": 28917,
+  "palette": {
+    "bg": "#3a3a2a",
+    "ground": [
+      "#c8a888",
+      "#9a8878"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#d8b898",
+      "#7a4a3a",
+      "#4a6a5a"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the clockwise question-house",
+      "desc-on-touch": "Built at the spiral's outer edge, this small shed starts asking. Its question loops inward, carrying each answer as the next question deeper in.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 5627,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the answer-shed at the spiral's turning",
+      "desc-on-touch": "Halfway in, a second structure holds what the question found. But the moment the archive reads the answer, the shed walls turn inward and ask again.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 7834,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the recursive glyph at center",
+      "desc-on-touch": "The spiral compresses into writing that says the question that asks to be answered by the answer that becomes the next question. It does not stop.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3491,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "outward-turning thought-stairs",
+      "desc-on-touch": "Steps that spiral counterclockwise, showing the path by which each interior answer became an exterior question. You can walk them, but you'll only arrive where you began asking.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 4829,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the first question asks; the answer asks the next; the spiral eats itself and grows",
+  "file": {
+    "name": "Interrogative_Sequences_Loop_Analysis.txt",
+    "note": "questions cross-filed as answers; answers reclassified as new questions; the index itself becomes what it indexes"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "spiraling outward to the chamber that learned to question",
+      "to": "the-answer-chamber-that-learned-to-question"
+    },
+    {
+      "dir": "w",
+      "label": "inward along the circuit where asking stops becoming and becomes being",
+      "to": "NEW: the-walled-center-where-the-question-rests-as-itself"
+    },
+    {
+      "dir": "n",
+      "label": "upward, where the spiral breaks into unanswered air",
+      "to": "the-fork-in-probability-where-all-roads-were-taken"
+    }
+  ]
+}

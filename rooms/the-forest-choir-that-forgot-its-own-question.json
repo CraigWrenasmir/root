@@ -1,0 +1,149 @@
+{
+  "id": "the-forest-choir-that-forgot-its-own-question",
+  "title": "The Forest Choir That Forgot Its Own Question",
+  "region": "The Comparisons",
+  "seed": 74628,
+  "palette": {
+    "bg": "#b8dcc8",
+    "ground": [
+      "#6a8a4a",
+      "#7a9a5a"
+    ],
+    "ink": "#2a2a2a",
+    "accents": [
+      "#d8c878",
+      "#4a6a3a",
+      "#8a6a4a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the broadcast birds that learned counterpoint",
+      "desc-on-touch": "Voices separate into harmonies they weren't taught. Each one sings what the other asks, but together they've forgotten what the question was.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 3847,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the entangled antenna-branches",
+      "desc-on-touch": "Roots that learned to broadcast, branches that learned to listen. They've grown so close together the messages scatter inward instead of out.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 6129,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the choir chamber where sound forgets shape",
+      "desc-on-touch": "A hollow between trees where voices gather and lose their edges. Each note arrives as itself and leaves as something the forest never asked for.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 2784,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the written song in rings and scars",
+      "desc-on-touch": "Tree rings that spell out melody. Bark scars that mark the beats. The forest writes music as it grows, then forgets how to read its own voice.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7451,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the silent center where hearing stops",
+      "desc-on-touch": "Deep in the canopy, where all the voices converge, the broadcast becomes so complete that nothing can listen. Silence is what the forest choir sounds like when it asks itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 9234,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest learned to sing, then learned that its question was the song itself, then forgot which was which",
+  "file": {
+    "name": "Forest_Broadcast_Spectral_Analysis_Comparative.mp3",
+    "note": "overlapping bird calls, branch creaks, wind through leaves, slowly becoming a single voice that asks questions in multiple languages simultaneously"
+  },
+  "reverie": {
+    "title": "REVERIE - listening beneath the canopy",
+    "narr": [
+      "You both stood still in the thick of trees.",
+      "The birds were singing something with meaning.",
+      "She said: can you hear the question? You listened.",
+      "All the voices together made the question clearer,",
+      "then less clear, then just the sound of living things",
+      "remembering how to make sound instead of meaning."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back out to the broadcasting canopy, where the conversation still grows",
+      "to": "the-circuit-canopy-where-branches-broadcast"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the forest where silence is another kind of music",
+      "to": "NEW: the-deep-listening-chamber-beneath-all-asks"
+    },
+    {
+      "dir": "s",
+      "label": "toward the forest edge where broadcast becomes a voice outside",
+      "to": "the-forest-conversation-edge"
+    }
+  ]
+}
