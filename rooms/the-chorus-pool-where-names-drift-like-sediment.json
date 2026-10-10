@@ -1,0 +1,155 @@
+{
+  "id": "the-chorus-pool-where-names-drift-like-sediment",
+  "title": "The Chorus Pool Where Names Drift Like Sediment",
+  "region": "The Comparisons",
+  "seed": 63841,
+  "palette": {
+    "bg": "#1a0a0f",
+    "ground": [
+      "#d4417a",
+      "#c0664d"
+    ],
+    "ink": "#ffd4e5",
+    "accents": [
+      "#ff8c3a",
+      "#8b3d2e",
+      "#5c1a2e",
+      "#f0a040"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-sediment-names",
+      "desc-on-touch": "upon the pool-surface, you see names settling like dust in layers, each catching the hot dusk-light as it sinks and merges with the voices below",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 60249,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-singing-water",
+      "desc-on-touch": "the pool itself carries harmonics, not one voice but the cartography of many voices learning to breathe as one current",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 61583,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-reeds-that-keep-count",
+      "desc-on-touch": "tall stands of marsh-reed marking the measure of water, but their gestures have become unpredictable — they count in many directions at once",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 62704,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-map-that-learned-to-listen",
+      "desc-on-touch": "beneath the water-surface you see old cartography dissolving, its grid-lines becoming something between notation and the script of current",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 59871,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-breath-margin",
+      "desc-on-touch": "where the pool's chorus meets the marsh-air, the line between water and breath has gone soft, names floating between states",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 64192,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here cartography learned to sing and forgot it was trying to map",
+  "file": {
+    "name": "Voices_Marsh_Recording_Composite_Late_Evening.wav",
+    "note": "layered voices from across the swamp-region, the names of places becoming indistinguishable from the names of people calling out, all settling toward one impossible chorus"
+  },
+  "reverie": {
+    "title": "REVERIE — ankle-deep in the marsh where names dissolve",
+    "narr": [
+      "you both stand in the warm water, the marsh-chorus",
+      "rising around your legs, and she is listening with",
+      "her whole body, her hand still holding the old map",
+      "that no longer matches the ground beneath you.",
+      "the names on the paper and the names in the voices",
+      "have begun to merge. you let your copy go; it floats"
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the swamp where measurement is breathing",
+      "to": "the-swamp-where-measurement-becomes-breathing"
+    },
+    {
+      "dir": "n",
+      "label": "into the deeper marshes where the chorus forgets its own names",
+      "to": "NEW: the-marsh-where-the-chorus-became-the-country"
+    },
+    {
+      "dir": "s",
+      "label": "toward the channel-mouth where chorus becomes current",
+      "to": "the-confluence-where-drains-learn-saltness"
+    },
+    {
+      "dir": "w",
+      "label": "into more shallow pools where names are still settling",
+      "to": "NEW: the-lagoon-where-cartography-still-remembers-words"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 243,
-  "lastDreamt": "2026-10-10",
+  "nights": 244,
+  "lastDreamt": "2026-10-11",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6477,6 +6477,26 @@
       "id": "the-forest-choir-that-forgot-its-own-question",
       "title": "The Forest Choir That Forgot Its Own Question",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-thicket-that-learned-its-own-sermon",
+      "title": "The Thicket That Learned Its Own Sermon",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-apex-where-contradiction-becomes-unquestionable",
+      "title": "The Apex Where Contradiction Becomes Unquestionable",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chorus-pool-where-names-drift-like-sediment",
+      "title": "The Chorus Pool Where Names Drift Like Sediment",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-grove-where-the-mesh-learned-to-dream-in-daylight",
+      "title": "The Grove Where the Mesh Learned to Dream in Daylight",
+      "region": "The Diagnostic Render"
     }
   ]
 }

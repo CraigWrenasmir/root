@@ -1,0 +1,10 @@
+featured: The Thicket That Learned Its Own Sermon (the-thicket-that-learned-its-own-sermon)
+region: The Understory · motif: gradient
+inscription: the thicket learned to pray and then forgot which was the prayer
+file: Sermon_Midwinter_Abandoned_1987.txt
+
+all nodes tonight:
+  · The Thicket That Learned Its Own Sermon
+  · The Apex Where Contradiction Becomes Unquestionable
+  · The Chorus Pool Where Names Drift Like Sediment
+  · The Grove Where the Mesh Learned to Dream in Daylight

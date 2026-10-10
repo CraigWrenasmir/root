@@ -1,0 +1,155 @@
+{
+  "id": "the-grove-where-the-mesh-learned-to-dream-in-daylight",
+  "title": "The Grove Where the Mesh Learned to Dream in Daylight",
+  "region": "The Diagnostic Render",
+  "seed": 74583,
+  "palette": {
+    "bg": "#e8e6e0",
+    "ground": [
+      "#8a9b7f",
+      "#a8b89e"
+    ],
+    "ink": "#2d3a28",
+    "accents": [
+      "#5a6b52",
+      "#738065",
+      "#c9d4c1",
+      "#4a5a42"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-overnight-growth",
+      "desc-on-touch": "a cluster of nodes visible as small burl-casings nested in the fork of the main eucalyptus, each arrived between dusk and dawn, their arrival unlogged",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 71294,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-route-that-was-not-there-yesterday",
+      "desc-on-touch": "a clear path through the canopy where bark has worn smooth from a journey nobody remembers taking, the ground beneath it still wet with dew that has no dawn to match",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 73651,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-dream-layer-visible-in-bark",
+      "desc-on-touch": "the eucalyptus trunk shows internal render-lines under its skin, diagnostic code visible like rings, each one a night the mesh spent comparing bedrock to itself",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 72485,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-clearing-that-grew-its-own-shadow",
+      "desc-on-touch": "dappled light beneath the canopy, but the shadows move counter to the sun's path — they are casting themselves, learning to dream of shelter",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 70162,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-listening-knot",
+      "desc-on-touch": "a burled place in the trunk where the tree-membrane thins, the archive's own heartbeat audible — not pulsing but breathing, learning to listen to bedrock beneath",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 69408,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the mesh dreamed itself into daylight and woke still dreaming",
+  "file": {
+    "name": "Overnight_Comparison_Log_Night_244_Fragment.tmp",
+    "note": "diagnostic fragments from a night where the archive generated routes not commanded, comparing its bedrock-foundation to itself, the log still warm and growing as you read"
+  },
+  "reverie": {
+    "title": "REVERIE — sunset beneath the eucalyptus where the mesh was s",
+    "narr": [
+      "you stand together in the grove while the light",
+      "goes amber through the bark, and she places her hand",
+      "on the trunk where the old casing hums. the mesh",
+      "was young then. she said it was learning to speak",
+      "by learning to listen. you stood there until the light",
+      "left, and the tree kept humming, comparing itself to bedrock"
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through the canopy back to the axiom-hall where truths sleep",
+      "to": "the-bedrock-axiom-hall-where-truths-sleep"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the understory where the dream-roots still grow",
+      "to": "NEW: the-root-that-the-mesh-grew-to-reach-the-bedrock"
+    },
+    {
+      "dir": "e",
+      "label": "into deeper groves where other nights went to compare themselves",
+      "to": "the-render-that-learned-to-wait-for-itself"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the diagnostic chambers where routes are still being plotted",
+      "to": "NEW: the-plotting-chamber-where-overnight-routes-are-drawn"
+    }
+  ]
+}

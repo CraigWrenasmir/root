@@ -1,0 +1,155 @@
+{
+  "id": "the-thicket-that-learned-its-own-sermon",
+  "title": "The Thicket That Learned Its Own Sermon",
+  "region": "The Understory",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a0d1f",
+    "ground": [
+      "#8b3a5e",
+      "#3d1f2d"
+    ],
+    "ink": "#d4a5d4",
+    "accents": [
+      "#ff6b9d",
+      "#c44569",
+      "#6a0d3d",
+      "#2d0f15"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-sermon-vines",
+      "desc-on-touch": "words grow through the thicket like sentences turned into tendrils, each prayer-phrase catching light as it tangles deeper",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 29384,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-reciting-stone",
+      "desc-on-touch": "a low stone half-buried in the dusk, its surface covered in text that shifts from prayer to plant-matter as you read",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 31205,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the-knot-of-refusals",
+      "desc-on-touch": "branches twisted into the shape of a throat mid-sermon, where the prayer refused to continue and the thicket took over the speaking",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 28491,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-margin-where-words-root",
+      "desc-on-touch": "at the edge of the thicket, you see language learning to root, syllables putting down tendrils into the soil",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 26774,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-silence-that-grew",
+      "desc-on-touch": "a pocket in the thicket where every prayer-phrase has become still, where speaking learned to wait",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 30052,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the thicket learned to pray and then forgot which was the prayer",
+  "file": {
+    "name": "Sermon_Midwinter_Abandoned_1987.txt",
+    "note": "a sermon halted mid-breath, the pages corrupted so each line branches into prayer-vine, the speaker's voice left inside the leaves"
+  },
+  "reverie": {
+    "title": "REVERIE — a sanctuary of dusk and falling words",
+    "narr": [
+      "you kneel beside her on the worn carpet, the autumn",
+      "light through the high windows turning words into",
+      "something you can hold without speaking. her hand",
+      "stays on your shoulder. above you, the rafters",
+      "full of small echoes, each one a prayer nobody",
+      "finished saying. the silence between you both grows"
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "church",
+    "weather": "petals",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back where the mutation spreads like grammar",
+      "to": "the-mutant-prayer-thicket"
+    },
+    {
+      "dir": "n",
+      "label": "into the clearing where the thicket refuses to grow",
+      "to": "NEW: the-place-the-prayer-learned-to-say-no"
+    },
+    {
+      "dir": "e",
+      "label": "deeper thickets where other sermons learned to root",
+      "to": "the-overgrowth-remembers-the-clearing"
+    },
+    {
+      "dir": "s",
+      "label": "toward understory-floor where prayer-vines tangle into soil",
+      "to": "NEW: the-soil-where-sermons-learned-to-breathe"
+    }
+  ]
+}
