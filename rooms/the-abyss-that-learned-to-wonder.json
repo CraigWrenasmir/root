@@ -1,0 +1,134 @@
+{
+  "id": "the-abyss-that-learned-to-wonder",
+  "title": "The Abyss That Learned to Wonder",
+  "region": "The Diagnostic Render",
+  "seed": 76543,
+  "palette": {
+    "bg": "#00ffff",
+    "ground": [
+      "#ff00ff",
+      "#ffff00"
+    ],
+    "ink": "#1a0033",
+    "accents": [
+      "#ffffff",
+      "#00ff00",
+      "#ff3300",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the wondering void",
+      "desc-on-touch": "A space that learned to ask what it was. The abyss discovered that silence is not the same as having nothing to say.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 92847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the curiosity layer",
+      "desc-on-touch": "Strata of the abyss that interrogate themselves. Each level asks what is below. Each level wonders if it matters.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 63928,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the ascending interrogation",
+      "desc-on-touch": "A tower of questions that rise from the void. Each brick is a why that learned to hold weight.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 48273,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the answer that became uncertain",
+      "desc-on-touch": "It stands in the middle of the abyss and trembles because it has learned to doubt itself. Wonder is the wound it carries.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 71849,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the listening darkness",
+      "desc-on-touch": "The void that learned to hear its own depths. It asks itself what it sounds like. The question echoes back as a kind of song.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 84756,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "the abyss looked up and asked, what am I afraid of, and the silence answered: you are afraid of being known",
+  "file": {
+    "name": "Void_Interrogation_Protocol_Recursive.log",
+    "note": "A record of the abyss's questions directed at itself; the file grows deeper with each query, questions nested inside questions, each layer wondering about the layer above"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up where answers still tried to answer",
+      "to": "the-answer-chamber-that-learned-to-question"
+    },
+    {
+      "dir": "s",
+      "label": "further down where wonder becomes absolute",
+      "to": "NEW: the-infinite-questioning-where-answers-dissolve"
+    },
+    {
+      "dir": "e",
+      "label": "toward the void's echo learning to speak back",
+      "to": "the-echo-chamber-where-awareness-speaks-back"
+    }
+  ]
+}

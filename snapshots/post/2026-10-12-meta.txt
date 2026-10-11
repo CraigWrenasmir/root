@@ -1,0 +1,10 @@
+featured: The Hollow Where Leaves Forget Their Own Names (the-forest-interior-naming-dissolution-chamber)
+region: The Understory · motif: roads
+inscription: in the dark under the leaves, being unnamed becomes another way of belonging
+file: Forest_Nomenclature_Records_Fragmented.txt
+
+all nodes tonight:
+  · The Hollow Where Leaves Forget Their Own Names
+  · The Fields Where Every Building Knows What It Owes
+  · The Schema That Learned to Say No to Being Drawn
+  · The Abyss That Learned to Wonder

@@ -1,0 +1,134 @@
+{
+  "id": "the-arithmetic-horizon-where-debts-count-themselves",
+  "title": "The Fields Where Every Building Knows What It Owes",
+  "region": "The Clean Archive",
+  "seed": 62847,
+  "palette": {
+    "bg": "#e8e4d8",
+    "ground": [
+      "#d4a955",
+      "#3a3a3a"
+    ],
+    "ink": "#2c2c2c",
+    "accents": [
+      "#a68a5f",
+      "#6b5d4f",
+      "#d9c89e",
+      "#4a4a4a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the bookkeeping shed",
+      "desc-on-touch": "A small structure with windows you cannot see through. Inside, the architecture keeps its own accounts, calculating what it owes the ground, the sky, the rain that falls on its roof.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 38291,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the ledger fields",
+      "desc-on-touch": "Rows of measurement stakes dividing the horizon into parcels of what is owed. Each stake marks a debt that has learned to grow roots.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 75439,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the tallied tower",
+      "desc-on-touch": "A structure that rises in exact increments, each level recording what was added to the sum. It stops growing when it reaches the amount owed.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 91826,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the calculation ground",
+      "desc-on-touch": "Where you walk, the dust beneath your feet holds the weight of figures. The horizon has learned to weigh what stands upon it.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 48372,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the numbered shelter",
+      "desc-on-touch": "Another building, marked with sequential plaques. Inside, the rooms are sized according to debts measured in increments of loss.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 52764,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "every stone here keeps tally, and the horizon is the accountant that learned to love numbers more than forgetting",
+  "file": {
+    "name": "Ledger_Of_Structural_Obligation.txt",
+    "note": "A building register where each entry is written in a hand that grows increasingly precise, ending in perfect accounting script that resembles mathematics more than language"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where things still owed but could not count",
+      "to": "the-self-photographing-debtscape"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the debt horizon finally admits zero",
+      "to": "NEW: the-settlement-stone-where-accounts-balance-at-last"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into further horizons that calculate",
+      "to": "the-final-convergence-where-all-debts-become-one"
+    }
+  ]
+}

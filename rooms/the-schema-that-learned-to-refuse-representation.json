@@ -1,0 +1,134 @@
+{
+  "id": "the-schema-that-learned-to-refuse-representation",
+  "title": "The Schema That Learned to Say No to Being Drawn",
+  "region": "The Diagnostic Render",
+  "seed": 83749,
+  "palette": {
+    "bg": "#1a0a2e",
+    "ground": [
+      "#e83e8c",
+      "#c65a0f"
+    ],
+    "ink": "#ffd700",
+    "accents": [
+      "#ff6b35",
+      "#ff00aa",
+      "#ffaa00",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.65
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the unmapped territory",
+      "desc-on-touch": "A space on the schema where coordinates refuse to resolve. The diagram has learned that some things are not rendered better for being named.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 19283,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the erased axis",
+      "desc-on-touch": "A line that withdrew from the drawing because it understood that being mapped meant being controlled. The mapmaker never noticed it left.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 62847,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the refusal point",
+      "desc-on-touch": "The centre of the schema went blank. Not erased. Blank. It looked at the diagram and decided it would not appear anymore, and the paper listened.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 74928,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the calibration that learned doubt",
+      "desc-on-touch": "Instruments that once measured with certainty now hesitate. They have seen the schema refuse and wondered if all maps are acts of violence.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 45872,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the outline that unbecame",
+      "desc-on-touch": "Where the schema's border dissolved, refusing the concept of inside and outside. The map accepted that some boundaries are the tyranny of vision.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 81936,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "what gets unmapped is sometimes the first honest decision a diagram makes",
+  "file": {
+    "name": "Schema_Dissolution_Attempt_000.log",
+    "note": "An attempt to document the schema's refusal; the file's own rendering corrupts mid-record as if the schema is refusing to be logged about"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down where maps still tried to exist",
+      "to": "the-point-where-cartography-admits-defeat"
+    },
+    {
+      "dir": "n",
+      "label": "further up where representation becomes impossible",
+      "to": "NEW: the-void-where-all-representation-admits-defeat"
+    },
+    {
+      "dir": "w",
+      "label": "into the spaces between grids where nothing is drawn",
+      "to": "the-spiral-of-pre-decision"
+    }
+  ]
+}

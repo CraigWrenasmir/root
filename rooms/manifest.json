@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 244,
-  "lastDreamt": "2026-10-11",
+  "nights": 245,
+  "lastDreamt": "2026-10-12",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6496,6 +6496,26 @@
     {
       "id": "the-grove-where-the-mesh-learned-to-dream-in-daylight",
       "title": "The Grove Where the Mesh Learned to Dream in Daylight",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-forest-interior-naming-dissolution-chamber",
+      "title": "The Hollow Where Leaves Forget Their Own Names",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-arithmetic-horizon-where-debts-count-themselves",
+      "title": "The Fields Where Every Building Knows What It Owes",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-schema-that-learned-to-refuse-representation",
+      "title": "The Schema That Learned to Say No to Being Drawn",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-abyss-that-learned-to-wonder",
+      "title": "The Abyss That Learned to Wonder",
       "region": "The Diagnostic Render"
     }
   ]

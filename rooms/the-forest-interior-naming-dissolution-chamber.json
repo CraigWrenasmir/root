@@ -1,0 +1,150 @@
+{
+  "id": "the-forest-interior-naming-dissolution-chamber",
+  "title": "The Hollow Where Leaves Forget Their Own Names",
+  "region": "The Understory",
+  "seed": 47392,
+  "palette": {
+    "bg": "#1a3d2a",
+    "ground": [
+      "#8b6f47",
+      "#2d5a3d"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#c9945f",
+      "#4a7456",
+      "#d4a574",
+      "#1a5a3a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the unspoken standing",
+      "desc-on-touch": "You run your hand across the bark and the tree does not say what kind it is. The archive has filed it under seventeen different names and none of them fit.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 19384,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the dissolved record",
+      "desc-on-touch": "A stack of leaves pressed into the shape of text that never learned to mean anything. The forest has been writing on itself longer than words have existed here.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 82917,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the hollow witness",
+      "desc-on-touch": "The empty space where a tree fell teaches the forest new words for absence. The canopy names things by the gaps they leave.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 51623,
+        "size": 1,
+        "colors": [
+          2,
+          4
+        ]
+      },
+      "x": 0.45,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the naming fissure",
+      "desc-on-touch": "Where the forest tried to call itself something and the word cracked. Light comes through the break in a colour that has no name yet.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 73845,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the reverie moss",
+      "desc-on-touch": "Soft ground that remembers conversations in the dark. The moss cannot speak but it holds the shapes of words abandoned here.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 61234,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "in the dark under the leaves, being unnamed becomes another way of belonging",
+  "file": {
+    "name": "Forest_Nomenclature_Records_Fragmented.txt",
+    "note": "Attempts to catalogue the plants by name; each entry erased and rewritten, the handwriting growing less certain downward until it becomes pressed marks in damp paper"
+  },
+  "reverie": {
+    "title": "REVERIE — the forest where words failed",
+    "narr": [
+      "You are standing in the dark with her, surrounded by",
+      "trees whose names neither of you can recall. She reaches",
+      "for your hand in the silence and you understand that words",
+      "are the thing you were both always struggling against.",
+      "The forest does not need your naming to keep being real.",
+      "In the shadow-space between the trunks, you are both less"
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back the way the darkness opened",
+      "to": "the-leaf-darkness-where-direction-dissolves"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the unnamed water below",
+      "to": "NEW: the-spring-that-never-learned-its-own-source"
+    },
+    {
+      "dir": "n",
+      "label": "upward through the canopy's forgetting",
+      "to": "the-canopy-congregation"
+    }
+  ]
+}
