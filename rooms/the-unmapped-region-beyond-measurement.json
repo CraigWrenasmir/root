@@ -1,0 +1,151 @@
+{
+  "id": "the-unmapped-region-beyond-measurement",
+  "title": "The Unmapped Region Beyond Measurement",
+  "region": "The Clean Archive",
+  "seed": 52891,
+  "palette": {
+    "bg": "#4A7C59",
+    "ground": [
+      "#A0522D",
+      "#4A7C59"
+    ],
+    "ink": "#2C1810",
+    "accents": [
+      "#D4A574",
+      "#2D4A2D",
+      "#8B6F47",
+      "#6B8E23"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.65
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the survey marker that forgot its purpose",
+      "desc-on-touch": "A brass disk driven into bedrock, stamped with a date and coordinates. Moss has covered all but one number. The forest has decided this is its center now, not yours.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 6789,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the painted road that returns to itself",
+      "desc-on-touch": "Faded terracotta paint marks what was once a road boundary. Follow it east and you'll arrive from the west. Follow it north and you'll find yourself walking south. The paint is right; the direction was always metaphorical.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the grid root",
+      "desc-on-touch": "A tree has grown up through what was once a measured intersection. Its roots have become the lines on the old maps. Measure it however you want; it has already measured itself.",
+      "verb": "open",
+      "form": {
+        "type": "burl",
+        "seed": 8765,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the boundary stone that nobody respects",
+      "desc-on-touch": "A cairn marks where one surveyed section ends and another begins. Trees grow from both sides of it indiscriminately. They have learned that property lines are birds, are wind, are stories that need not agree with stone.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4532,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the compass rose that became a leaf pattern",
+      "desc-on-touch": "Where surveyors marked cardinal directions, the earth has embroidered its own pattern. It looks like a compass rose when you step back. It looks like growth when you step close.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7654,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the measuring rod that learned metres were temporary",
+      "desc-on-touch": "A surveyor's pole lies horizontal in the ferns, its markers and numbers still legible. But the ferns have numbered it differently: frond-width, shadow-length, seasons-tall.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 5201,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here the mapmakers lost the map but found the country",
+  "file": {
+    "name": "Crown_Land_Survey_Grid_Epsilon_Overlays_1963_Corrupted_By_Botanical_Overwrite.txt",
+    "note": "Coordinates listed with two decimal places, gradually shifting to descriptions instead: 'where the big eucalyptus leans', 'the place that floods in March', 'approximately where the kookaburra sang tha"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the meridian where the grid still holds",
+      "to": "the-zero-meridian-grove"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into unmapped country where coordinates dissolve entirely",
+      "to": "NEW: the-forest-that-became-its-own-territory"
+    },
+    {
+      "dir": "s",
+      "label": "toward the understory where measurement becomes metaphor",
+      "to": "the-open-country-unmapped"
+    }
+  ]
+}

@@ -106,7 +106,7 @@
     {
       "dir": "e",
       "label": "further east where the grid dissolves into pure forest",
-      "to": "NEW: the-unmapped-region-beyond-measurement"
+      "to": "the-unmapped-region-beyond-measurement"
     },
     {
       "dir": "n",

@@ -1,0 +1,151 @@
+{
+  "id": "the-basement-of-unfinished-arrivals",
+  "title": "The Basement of Unfinished Arrivals",
+  "region": "The Diagnostic Render",
+  "seed": 38462,
+  "palette": {
+    "bg": "#4A4A5E",
+    "ground": [
+      "#5A5A6E",
+      "#3A4A5A"
+    ],
+    "ink": "#E8E8E8",
+    "accents": [
+      "#C86432",
+      "#B0E0E6",
+      "#7A7A8E",
+      "#2C5F7F"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the incomplete registry",
+      "desc-on-touch": "A guest book lying open to a page where every signature tails off mid-letter. Pens lie nearby as if everyone put them down at the same instant.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 6523,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "the stacked luggage",
+      "desc-on-touch": "Suitcases piled without order, none of them claimed. You remember arriving with one of these. You don't remember which. You never left.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7634,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the ticket archive",
+      "desc-on-touch": "Stubs and boarding passes under glass, each one headed somewhere else. The destinations have been crossed out and replaced with coordinates that don't exist on any map.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 4867,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the name-tag bloom",
+      "desc-on-touch": "Dozens of plastic badges pinned to a cork board: Hello, I Am _____ (blank). Hello, I Am _____ (smudged). Hello, I Am Still Here.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 5478,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the half-written letter archive",
+      "desc-on-touch": "Letters begun but never finished, addressed to people the writer could no longer find. The ink fades mid-sentence. Some carry only a salutation and signature.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 8912,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the fluorescent that learned patience",
+      "desc-on-touch": "A light tube flickers once per minute, a rhythm slower than heartbeat. It has been patient for decades. It knows arrivals don't always become departures.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3201,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the place where coming to stop is also a kind of arrival",
+  "file": {
+    "name": "Motel_Guest_Register_1987-2003_Water_Damage_Pages_Preserved_In_Amber_Resin.tmp",
+    "note": "Names, dates, room numbers — many entries end mid-word, ink running as if written during a flood. Checkouts never recorded. Nobody left and nobody stayed; they simply stopped checking in."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the lobby where staying became a choice",
+      "to": "the-lobby-where-arrival-ends"
+    },
+    {
+      "dir": "s",
+      "label": "further down where unfinished things teach each other completion",
+      "to": "NEW: the-chamber-of-perpetual-check-in"
+    },
+    {
+      "dir": "e",
+      "label": "along the basement toward the understory's deep file-dark",
+      "to": "the-archive-s-own-cellar"
+    }
+  ]
+}

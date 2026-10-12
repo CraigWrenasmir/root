@@ -139,7 +139,7 @@
     {
       "dir": "s",
       "label": "down to the basement where arrivals are filed",
-      "to": "NEW: the-basement-of-unfinished-arrivals"
+      "to": "the-basement-of-unfinished-arrivals"
     },
     {
       "dir": "e",

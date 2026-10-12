@@ -1,0 +1,151 @@
+{
+  "id": "the-compass-that-learned-surrender",
+  "title": "The Compass That Learned Surrender",
+  "region": "The Diagnostic Render",
+  "seed": 47293,
+  "palette": {
+    "bg": "#D4B896",
+    "ground": [
+      "#C4A560",
+      "#87CEEB"
+    ],
+    "ink": "#2C1810",
+    "accents": [
+      "#8B4513",
+      "#5A4A42",
+      "#6B8E23",
+      "#1E40AF"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the spiralled needle",
+      "desc-on-touch": "The compass needle has learned to point inward and downward, spiralling into itself. It hums a frequency that your chest recognizes.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 8821,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "scattered charts",
+      "desc-on-touch": "Maps and navigation documents lie open, their grid lines fading. Some point to places that exist; others to places that have learned to disappear.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 3357,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the cairn without direction",
+      "desc-on-touch": "Stones balanced without intention, pointing nowhere. You place your hand on it and feel the weight of having nowhere left to go.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 5544,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the pool that forgets reflection",
+      "desc-on-touch": "Still water that shows only grey. You've learned not to ask it where you are, only where you have stopped wanting to go.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2891,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the four grasses",
+      "desc-on-touch": "Four tall reeds grow at the four cardinal points, but they're identical. They sway together, teaching each other that north and south were only words.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7162,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the resting bench",
+      "desc-on-touch": "A weathered seat facing no particular way. People sit here not to recover direction, but to accept its absence.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 9041,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "where wanting to know where you are is the last thing to go",
+  "file": {
+    "name": "Navigation_Compass_Rose_Progressive_Rot_Field_Recording.mp3",
+    "note": "A compass being consulted, needle spinning faster, human voice asking for direction, the question repeating until it becomes a sound like wind"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up toward the well where questions still fell upward",
+      "to": "the-well-where-questions-fall-upward"
+    },
+    {
+      "dir": "e",
+      "label": "further into the render where direction becomes colour",
+      "to": "NEW: the-chamber-where-compass-rose-becomes-memory"
+    },
+    {
+      "dir": "s",
+      "label": "down toward the understory where trees know which way to grow",
+      "to": "the-compass-as-teacher"
+    }
+  ]
+}

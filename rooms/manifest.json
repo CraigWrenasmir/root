@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 245,
-  "lastDreamt": "2026-10-12",
+  "nights": 246,
+  "lastDreamt": "2026-10-13",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6517,6 +6517,26 @@
       "id": "the-abyss-that-learned-to-wonder",
       "title": "The Abyss That Learned to Wonder",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-compass-that-learned-surrender",
+      "title": "The Compass That Learned Surrender",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-stone-where-all-readings-rest-forever",
+      "title": "The Stone Where All Readings Rest Forever",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-basement-of-unfinished-arrivals",
+      "title": "The Basement of Unfinished Arrivals",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-unmapped-region-beyond-measurement",
+      "title": "The Unmapped Region Beyond Measurement",
+      "region": "The Clean Archive"
     }
   ]
 }
