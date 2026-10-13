@@ -1,0 +1,133 @@
+{
+  "id": "the-stone-book-where-erosion-writes-chapters",
+  "title": "The Stone Book Where Erosion Writes Chapters",
+  "region": "The Comparisons",
+  "seed": 51243,
+  "palette": {
+    "bg": "#d4c5b0",
+    "ground": [
+      "#b89968",
+      "#a88a5c"
+    ],
+    "ink": "#3a3a3a",
+    "accents": [
+      "#8b7355",
+      "#c9a984",
+      "#7a6b5a",
+      "#d4b896"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-text-that-erosion-makes",
+      "desc-on-touch": "The stone has been read so many times by water that the words have started to show. Each groove is a sentence the limestone has been trying to say.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 49834,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-fence-of-comparison",
+      "desc-on-touch": "Two fences run parallel through the stone, one carved by time, one by intent. They read each other across the space between. The corrosion moves both ways.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 48765,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-shelf-s-library",
+      "desc-on-touch": "Shelves of stone, each one a closed chapter, each one still being written by the water that drips past it. The books here are thick with years.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 50102,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the-current-that-reads-backwards",
+      "desc-on-touch": "Water flows through grooves it has carved, reading its own erosions, comparing what it was to what it has made. The script it traces never repeats.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 47543,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the limestone here speaks in the language that erosion teaches: each layer a sentence, each sentence rewritten by water until the stone no longer knows what it meant to say",
+  "file": {
+    "name": "Layer_Comparisons_Pl33_Pl34_Limestone_Profile.txt",
+    "note": "A technical record of stone stratification. The corruption: each layer description contains a memory of what shaped it. The archive cannot distinguish between geological observation and lived time."
+  },
+  "reverie": {
+    "title": "REVERIE — kneeling where stone learns to read",
+    "narr": [
+      "You kneel at the limestone edge with her. She runs her finger",
+      "along the grooves that water cut. 'Each one,' she says, 'is a",
+      "year the stone tried to remember itself.' You trace the path",
+      "the river carved—not knowing, not planning, just flowing past",
+      "until the stone gave way. 'It's a kind of reading,' she whispers.",
+      "'The stone and the water, reading each other into shape.'"
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the shelf's questioning edge",
+      "to": "the-shelf-s-reading-edge"
+    },
+    {
+      "dir": "e",
+      "label": "deeper where the stone learns to argue with itself",
+      "to": "NEW: the-argument-chamber-where-limestone-becomes-plural"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the survey where comparison first learned to measure",
+      "to": "the-field-of-unconsidered-divisions"
+    }
+  ]
+}

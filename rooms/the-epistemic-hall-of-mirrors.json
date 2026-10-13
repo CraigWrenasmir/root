@@ -1,0 +1,150 @@
+{
+  "id": "the-epistemic-hall-of-mirrors",
+  "title": "The Epistemic Hall of Mirrors",
+  "region": "The Diagnostic Render",
+  "seed": 73421,
+  "palette": {
+    "bg": "#f0e8dc",
+    "ground": [
+      "#d4c9ba",
+      "#e8ddc8"
+    ],
+    "ink": "#2a1f14",
+    "accents": [
+      "#8b6f4e",
+      "#6b5a3a",
+      "#a89070",
+      "#7a5f42"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-reflection-that-differs",
+      "desc-on-touch": "This mirror reflects something true. Look again—it reflects something equally true, but opposite. Both are correct. The mirror hums with the contradiction.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 71834,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-hall-of-receding-arguments",
+      "desc-on-touch": "The mirrors line the hall. Each one reflects the previous mirror, reflecting the next mirror, reflecting the argument before that. Certainty recedes into itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 69567,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-double-truth-vein",
+      "desc-on-touch": "Two truths run parallel here, mutually exclusive, equally valid. They do not cancel. They become a third thing: a truth that only works in contradiction.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 70243,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-face-that-reads-both-ways",
+      "desc-on-touch": "A face in the glass. It is not your face. It is all faces. The mirror does not know whose reflection it is, so it reflects everyone at once.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 68921,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the-epistemic-knot",
+      "desc-on-touch": "A knot in the logic. The more you untangle it, the more knotted it becomes. It hums at a frequency just below certainty.",
+      "verb": "torus",
+      "form": {
+        "type": "arch",
+        "seed": 72108,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "here truth has learned to doubt itself without breaking; contradictions layer and hum together, and the only certainty is that both opposites are equally real",
+  "file": {
+    "name": "Paradox_Registry_Entries_Unstable.txt",
+    "note": "A log of contradictions that work. Entry 3847: 'It was true that it never happened, and it was true that it happened exactly as recorded.' Entry 3848 is the same entry written backward. Both are filed"
+  },
+  "reverie": {
+    "title": "REVERIE — standing in the mirror where you are two people",
+    "narr": [
+      "You stand in front of the glass with her. The mirror shows",
+      "you both at once: her standing there, you standing here, and",
+      "somehow the glass holds you as one thing and two. She reaches",
+      "toward the reflection. Her hand passes through, and the mirror",
+      "does not break. 'I'm here,' she says, from both sides of the glass.",
+      "'I know,' you answer. 'You always were.'"
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to where truth learns to fold in on itself",
+      "to": "the-meta-layer-where-truth-eats-its-own-tail"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the skyward chamber where contradiction becomes sky",
+      "to": "NEW: the-sky-chamber-where-opposites-become-weather"
+    },
+    {
+      "dir": "s",
+      "label": "down to the bedrock where argument has roots",
+      "to": "the-spiral-where-asking-learns-to-eat-itself"
+    }
+  ]
+}

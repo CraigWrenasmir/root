@@ -129,6 +129,11 @@
       "dir": "n",
       "label": "north to the archive's infrastructure, all the unseen work that holds arrival in place",
       "to": "the-deep-eastern-convergence"
+    },
+    {
+      "dir": "s",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the barrier repair bay"
     }
   ]
 }

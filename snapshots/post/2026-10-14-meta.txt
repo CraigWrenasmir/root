@@ -1,0 +1,10 @@
+featured: The Stone Book Where Erosion Writes Chapters (the-stone-book-where-erosion-writes-chapters)
+region: The Comparisons · motif: orchard
+inscription: the limestone here speaks in the language that erosion teaches: each layer a sentence, each sentence rewritten by water until the stone no longer knows what it meant to say
+file: Layer_Comparisons_Pl33_Pl34_Limestone_Profile.txt
+
+all nodes tonight:
+  · The Deep Silence Where Attention Becomes Form
+  · The Stone Book Where Erosion Writes Chapters
+  · The Layers Still Falling Where Soil Is Becoming
+  · The Epistemic Hall of Mirrors

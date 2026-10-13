@@ -1,0 +1,150 @@
+{
+  "id": "the-deep-silence-where-attention-becomes-form",
+  "title": "The Deep Silence Where Attention Becomes Form",
+  "region": "The Diagnostic Render",
+  "seed": 44782,
+  "palette": {
+    "bg": "#0a0f1a",
+    "ground": [
+      "#1a2540",
+      "#0f1420"
+    ],
+    "ink": "#d4e8f0",
+    "accents": [
+      "#8fa6b8",
+      "#5a7b92",
+      "#a8c5d1",
+      "#6b8fa0"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "attention-pool",
+      "desc-on-touch": "You stand at the edge of something held in absolute quiet. The surface reads still, and reading keeps it still.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 41233,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-formed-silence",
+      "desc-on-touch": "Silence here has learned a shape. It stands the way attention stands: precise, bordered, held.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 38901,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the-audible-absence",
+      "desc-on-touch": "The rendering hums at a frequency your ear knows but cannot name. It is the sound of listening itself, made visible here.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 42104,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-still-register",
+      "desc-on-touch": "A quiet index. Each entry describes something that had to stop moving in order to be read.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 40221,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the-depth-where-sound-forgets-to-travel",
+      "desc-on-touch": "Below the node, silence does not echo. It accumulates. Stones down there have never heard noise.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 39887,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "attention here has weight and shape; the silence learned to hold its own form the moment someone was patient enough to listen",
+  "file": {
+    "name": "Silence_Recording_Where_Nothing_Moves.mp3",
+    "note": "The file is exactly four minutes long. Play it and find: the sound of presence. A log of frequencies that only exist where listening is happening. Checksum: emotionally valid, formally unstable."
+  },
+  "reverie": {
+    "title": "REVERIE — the bench where silence learned to be company",
+    "narr": [
+      "You sit beside her on the bench, neither of you speaking.",
+      "The quiet between you is not empty. It fills the space the way",
+      "water fills a glass—completely, with weight, with presence.",
+      "She does not reach for you. You do not reach for her.",
+      "The silence is enough. It has learned what listening means.",
+      "You sit there, and the quiet holds you both."
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the render where silence first learned",
+      "to": "the-silence-learning-to-listen-back"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the higher registers where attention becomes sound",
+      "to": "NEW: the-ascending-registers-where-silence-sings"
+    },
+    {
+      "dir": "s",
+      "label": "downward where silence learns to become stone",
+      "to": "NEW: the-stone-silence-where-nothing-echoes-further"
+    }
+  ]
+}

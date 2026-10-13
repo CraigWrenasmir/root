@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 246,
-  "lastDreamt": "2026-10-13",
+  "nights": 247,
+  "lastDreamt": "2026-10-14",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6537,6 +6537,26 @@
       "id": "the-unmapped-region-beyond-measurement",
       "title": "The Unmapped Region Beyond Measurement",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-deep-silence-where-attention-becomes-form",
+      "title": "The Deep Silence Where Attention Becomes Form",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-stone-book-where-erosion-writes-chapters",
+      "title": "The Stone Book Where Erosion Writes Chapters",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-layers-still-falling-where-soil-is-becoming",
+      "title": "The Layers Still Falling Where Soil Is Becoming",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-epistemic-hall-of-mirrors",
+      "title": "The Epistemic Hall of Mirrors",
+      "region": "The Diagnostic Render"
     }
   ]
 }
