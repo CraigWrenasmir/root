@@ -1,0 +1,117 @@
+{
+  "id": "the-zenith-where-illumination-ceases-rendering",
+  "title": "The Zenith Where Illumination Ceases Rendering",
+  "region": "The Understory",
+  "seed": 9184726,
+  "palette": {
+    "bg": "#e8f1e8",
+    "ground": [
+      "#9bc4a0",
+      "#a8d8c8"
+    ],
+    "ink": "#2a3f3f",
+    "accents": [
+      "#7fa989",
+      "#c9e8d8",
+      "#b5dcc6",
+      "#a0d4b4"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the final canopy",
+      "desc-on-touch": "so high and so dense with green that light forgets it was ever a thing apart; here the tree becomes the sky becomes the ceiling becomes itself",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 1847,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the point where light stops being drawn",
+      "desc-on-touch": "above this place the illumination is so complete that it ceases to be a thing rendered; it becomes the space itself, and your eyes learn to see nothing",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 3291,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.22,
+      "solid": false
+    },
+    {
+      "name": "eucalyptus leaves learning to be light",
+      "desc-on-touch": "each leaf holds an edge between green and almost-white; they have become so thin with light that you can barely see them, but they are there, holding the tree together",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4728,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the breath that is not dust",
+      "desc-on-touch": "something suspended between air and visible, motes that have chosen not to show themselves; you feel the zenith breathing",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5847,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "here at the edge where silence has learned that light needs no rendering to continue burning",
+  "file": {
+    "name": "TreeHour_LightStudy_Eucalyptus_Overexposed.mp3",
+    "note": "noon recording beneath the thickest canopy, sound compressed until silence and brightness become the same frequency"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back to where light still remembers its shape",
+      "to": "the-light-chamber-where-silence-becomes-luminescence"
+    },
+    {
+      "dir": "n",
+      "label": "further up toward where the zenith becomes unbearable",
+      "to": "NEW: the-white-that-learned-to-breathe"
+    },
+    {
+      "dir": "w",
+      "label": "into the canopy's heart where leaves sing as one",
+      "to": "the-gathering-of-ascended-speakers"
+    }
+  ]
+}

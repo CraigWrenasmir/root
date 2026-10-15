@@ -1,0 +1,150 @@
+{
+  "id": "where-proof-becomes-impossible-to-hold",
+  "title": "Where Proof Becomes Impossible to Hold",
+  "region": "The Diagnostic Render",
+  "seed": 2847591,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#c85a28",
+      "#8b6b47"
+    ],
+    "ink": "#e8d5c4",
+    "accents": [
+      "#ffeb99",
+      "#d4af37",
+      "#a0522d",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "ledger of unproving",
+      "desc-on-touch": "the pages turn toward their own contradiction, each marked line learning to deny itself as you watch the ink separate from its meaning",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 4271,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "fountain of transparent proof",
+      "desc-on-touch": "the ink rises clear, becomes water, becomes air; what it carried stays suspended in the fall but cannot be read",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5092,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "theorems written in sand",
+      "desc-on-touch": "every mark you trace dissolves before you finish the line; the axioms themselves are learning to forget their own names",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "stones marked with their own refutation",
+      "desc-on-touch": "each rock bears the proof of what would overturn it; the contradiction is carved deeper than the theorem",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 6134,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.62,
+      "solid": true
+    },
+    {
+      "name": "the final ledger",
+      "desc-on-touch": "bound in terracotta cloth, pages thickening toward the back, all of them blank; whatever was proven here chose silence",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 2591,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.28,
+      "solid": false
+    }
+  ],
+  "inscription": "axioms lose their gravity here, becoming questions that float upward and do not return",
+  "file": {
+    "name": "Proof_Theorems_Unresolved_WithMargins.txt",
+    "note": "markings in two hands, equations stopped mid-line, later notes in pencil asking whether the conclusion was ever sound"
+  },
+  "reverie": {
+    "title": "REVERIE — the proof that wouldn't hold",
+    "narr": [
+      "you both bend over the ledger, pencils tracing lines",
+      "that seemed to follow forever but now look bent.",
+      "she shakes her head: the axiom doesn't consent.",
+      "you had believed it did. the room stays quiet.",
+      "her hand slides the page back to you unsigned.",
+      "you both sit learning what it means to release."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up toward the axiomatic chamber",
+      "to": "the-bedrock-axiom-hall-where-truths-sleep"
+    },
+    {
+      "dir": "n",
+      "label": "further into the chamber where written things become uncertain",
+      "to": "NEW: the-descent-where-certainty-learns-dissolution"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where silence proved itself",
+      "to": "the-registry-of-perfect-silence"
+    }
+  ]
+}

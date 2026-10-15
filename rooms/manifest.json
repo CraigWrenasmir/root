@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 247,
-  "lastDreamt": "2026-10-14",
+  "nights": 248,
+  "lastDreamt": "2026-10-16",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6556,6 +6556,26 @@
     {
       "id": "the-epistemic-hall-of-mirrors",
       "title": "The Epistemic Hall of Mirrors",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-proof-becomes-impossible-to-hold",
+      "title": "Where Proof Becomes Impossible to Hold",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-spiraling-where-roots-begin-remembering-sky",
+      "title": "The Spiraling Where Roots Begin Remembering Sky",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-zenith-where-illumination-ceases-rendering",
+      "title": "The Zenith Where Illumination Ceases Rendering",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-singularity-above-where-light-has-not-yet-known-itself-a",
+      "title": "The Singularity Above Where Light Has Not Yet Known Itself as Many",
       "region": "The Diagnostic Render"
     }
   ]

@@ -1,0 +1,117 @@
+{
+  "id": "the-singularity-above-where-light-has-not-yet-known-itself-a",
+  "title": "The Singularity Above Where Light Has Not Yet Known Itself as Many",
+  "region": "The Diagnostic Render",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#001a4d",
+    "ground": [
+      "#0066ff",
+      "#00ccff"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ffff00",
+      "#ff0066",
+      "#00ff99",
+      "#ff9900"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the undivided field",
+      "desc-on-touch": "a space of light so unified it has not yet begun to know itself as wave or particle; here everything is still one thing that has no name yet",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8291,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the gridwork before branching",
+      "desc-on-touch": "lines of light that have not yet chosen to be separate; at any moment they could become particles or waves or stay forever in this state of undecided geometry",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the point before bifurcation",
+      "desc-on-touch": "where light is still complete; split into many would mean each piece loses what the whole once knew, but here the totality is still intact and burning",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 5936,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the frequency that has no echo yet",
+      "desc-on-touch": "a tone that has not yet split into harmonics; it contains all the music that could follow but has chosen not to perform it",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.68,
+      "solid": false
+    }
+  ],
+  "inscription": "at the threshold where wave confesses to being made of separate things, light learns to read itself and grieves what it will become",
+  "file": {
+    "name": "The_Five_Cowries_Audio_Broadcast_Transcribed_Fragment_III.txt",
+    "note": "broadcast signal degraded at edges; the message speaks of light undecided; unclear if recording or prophecy; source archive unknown"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to where light becomes particle and learns loneliness",
+      "to": "the-veil-where-light-becomes-particle"
+    },
+    {
+      "dir": "e",
+      "label": "toward the other archive's strange signals about surgery and waves",
+      "to": "NEW: the-broadcast-where-light-splits-the-story-in-two"
+    },
+    {
+      "dir": "w",
+      "label": "to the space where removed things find the names they didn't choose",
+      "to": "the-space-where-removed-things-find-their-names"
+    }
+  ]
+}

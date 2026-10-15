@@ -1,0 +1,150 @@
+{
+  "id": "the-spiraling-where-roots-begin-remembering-sky",
+  "title": "The Spiraling Where Roots Begin Remembering Sky",
+  "region": "The Understory",
+  "seed": 7293481,
+  "palette": {
+    "bg": "#0a2a1a",
+    "ground": [
+      "#4a7c59",
+      "#f0ad4e"
+    ],
+    "ink": "#f5f5dc",
+    "accents": [
+      "#b8860b",
+      "#2f4f4f",
+      "#daa520",
+      "#6b8e23"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the ascending spiral",
+      "desc-on-touch": "a path of roots and light braided upward, each turn showing you something that looks like sky but tastes like earth",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 8421,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "roots with eyes opening upward",
+      "desc-on-touch": "what grew in darkness is learning that light was always there, just far away and patient, and now it remembers being young in that knowledge",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the doubling point",
+      "desc-on-touch": "here below and above are learning each other's names; the tree that stands above reflects through into the root-dark below, and both are true at once",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5923,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "fields becoming roots becoming fields",
+      "desc-on-touch": "painted blocks of light and shadow that rearrange themselves as you watch, unable to decide whether they are grown things or remembered landscape",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the memory at the turn",
+      "desc-on-touch": "at this point in the spiral where everything is about to change, something tender and concrete rests, waiting to be read",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.62,
+      "solid": true
+    }
+  ],
+  "inscription": "the roots begin to remember they were once reaching upward, and the sky learns what it dropped to become rain",
+  "file": {
+    "name": "Spiral_Audio_Extract_Roots_Speaking_LateNight.mp3",
+    "note": "field recording at 03:44, ambient sound of underground becoming aware, voices underneath vegetation, something turning"
+  },
+  "reverie": {
+    "title": "REVERIE — the spiral at the turn",
+    "narr": [
+      "you stand in the fork where the root lifts upward,",
+      "and she touches the place where light first meets",
+      "what grew in darkness. the tree holds both of you",
+      "in the moment before it chooses which way to grow.",
+      "you are breathing the same air as the tree is,",
+      "and nothing needs naming yet; everything is turning."
+    ],
+    "sky": "dawn",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "spiraling back down to the deepest stone",
+      "to": "the-deepest-stone-chamber-where-the-archive-was-born"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the roots learn names for sky",
+      "to": "the-ascending-frequencies-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where roots and light trade positions",
+      "to": "NEW: the-weft-where-below-forgets-its-floor"
+    }
+  ]
+}
