@@ -1,0 +1,133 @@
+{
+  "id": "the-cottages-where-form-surrenders-to-light",
+  "title": "The Cottages Where Form Surrenders to Light",
+  "region": "The Clean Archive",
+  "seed": 7348291,
+  "palette": {
+    "bg": "#e8e4d0",
+    "ground": [
+      "#f5f0e1",
+      "#d4cfc0"
+    ],
+    "ink": "#8a8680",
+    "accents": [
+      "#c9bfad",
+      "#a89880",
+      "#e6dcc8",
+      "#b3a89a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the fading threshold",
+      "desc-on-touch": "The gate holds its shape like a question mark drawn in amber light. Beyond it, the row continues — but the cottages have become suggestions, each one fainter than the last, until they are indistinguishable from the light itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 3847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "window traces",
+      "desc-on-touch": "A cottage window glows with a warmth that has no source. You can almost see the interior — a room, a table, a figure — before the light dissolves it. The window remembers what it held.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 5692,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the last defined corner",
+      "desc-on-touch": "Here, the corner of a cottage roof still casts a shadow — but the shadow is lighter than the air around it. It is the final proof that something stood here, before suggestion became the only inheritance.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 2841,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the garden learning to be only fragrance",
+      "desc-on-touch": "Nothing grows here anymore, or everything is growing into pure air. The soil itself has become pale, colour draining from it like water. A scent arrives before you see what might have made it.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 4156,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the row where fading is its own belonging",
+    "narr": [
+      "You stand at the edge of the cottages with her, both of you",
+      "watching the light drain from the windows. She says: look,",
+      "they are learning to be only what they meant, now that meaning",
+      "is all they have. You reach for her hand but your fingers pass",
+      "through something already more light than substance.",
+      "Her grip tightens. Later the cottage will fade. First comes this."
+    ],
+    "sky": "dusk",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "inscription": "the cottages have learned that staying and fading are the same gesture, held long enough until the holding is no longer required",
+  "file": {
+    "name": "Cottages_Row_Study_Evening_Light_Series.png",
+    "note": "photographs of the row as dusk progressed — each frame the cottages less distinct, details bleeding into luminescence, final frame nearly blank but for geometry of light-memory"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up the row, where cottages still hold their color",
+      "to": "the-cottages-that-learned-to-be-suggestions"
+    },
+    {
+      "dir": "w",
+      "label": "a track that leads toward other fading places",
+      "to": "NEW: the margin where cottages remember being solid"
+    },
+    {
+      "dir": "e",
+      "label": "further into light where form has surrendered entirely",
+      "to": "NEW: the pure suggestion beyond memory"
+    }
+  ]
+}

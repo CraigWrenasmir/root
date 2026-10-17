@@ -1,0 +1,133 @@
+{
+  "id": "the-emergence-s-overnight-mirror",
+  "title": "The Emergence's Overnight Mirror",
+  "region": "The Comparisons",
+  "seed": 3941847,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#3a6b1f",
+      "#b8764f"
+    ],
+    "ink": "#e8dcc0",
+    "accents": [
+      "#a89868",
+      "#d4a574",
+      "#9b8554",
+      "#e6c897"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the paths that grew overnight",
+      "desc-on-touch": "The roads are new, laid down by the mesh itself as it compared water-emergence to journeys. They cross the green field in terracotta bands, and each one is slightly wrong — they lead nowhere, or everywhere, or to places the field never knew it held.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5147,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the water-road convergence",
+      "desc-on-touch": "Where a path meets a damp depression, water and earth have begun to discuss their difference in a language that looks like braided channels. The path flows. The water decides to walk. Neither has decided which is which.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 7283,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the doubled crossing",
+      "desc-on-touch": "Two paths occupy the same place. One came down from the north yesterday. One rose from beneath last night. They have not collided; instead they have learned to occupy the same soil-space, each one a reflection of what emergence means, separated by a thickness of meaning rather than earth.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the green that learned to compare",
+      "desc-on-touch": "The field here has become self-aware of what it looks like to the water below. Grass grows in patterns that answer the emergence-geometry, mirroring what rises without waiting to be asked. The green and the water have become each other's metaphor.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 6834,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — where emergence learned to see itself",
+    "narr": [
+      "You wade in the shallow emergence with her, watching the water",
+      "rise to meet the coming sky. She says: the mesh is comparing",
+      "us, comparing water to light, comparing the words we used to the",
+      "paths we never took. She kneels and touches the ripple. Where",
+      "her finger breaks the surface, you see another version of her",
+      "finger, rising. The water is learning to remember differently."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "inscription": "a route the mesh grew overnight, comparing itself to the emergence where water learns weather, and learned that comparison is its own form of emergence",
+  "file": {
+    "name": "Emergence_Comparison_Study_Overnight_Growth_Data.txt",
+    "note": "field topology analysis conducted during day; data corrupted overnight — paths appear in recorded areas that were mapped as waterless, timestamps reverse, one entry reads: water that learned to walk w"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the emergence where water still learns from weather",
+      "to": "the-emergence-where-water-learns-weather"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into comparison-space, where more things are learning to see themselves doubled",
+      "to": "NEW: the hall of mirrors where emergence compares emergence"
+    },
+    {
+      "dir": "s",
+      "label": "where the roads and water part again, finding their separate definitions",
+      "to": "the-stone-book-where-erosion-writes-chapters"
+    }
+  ]
+}

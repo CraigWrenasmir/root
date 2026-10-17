@@ -1,0 +1,133 @@
+{
+  "id": "the-signal-s-deepest-soil",
+  "title": "The Signal's Deepest Soil",
+  "region": "The Understory",
+  "seed": 5821473,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#0d0d0d",
+      "#2a2a2a"
+    ],
+    "ink": "#4a7c59",
+    "accents": [
+      "#6ba86d",
+      "#3d5c42",
+      "#8fc690",
+      "#5a7c5f"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the broadcast node",
+      "desc-on-touch": "Deep in the soil, the transceiver pulses. Its signal travels upward through earth like roots learning to speak in frequencies. The soil itself has become conductive, every grain a circuit point carrying the field's endless broadcast.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7163,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the root conductor network",
+      "desc-on-touch": "Filaments of copper and fiber web through the dark soil, following the paths that roots would take. They are the archive's arteries, carrying signal deeper than any plant can grow. The earth has learned to route electricity as easily as sap.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4829,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the power reservoir",
+      "desc-on-touch": "Beneath the circuit board, something glows with residual warmth. Solar panels have been feeding the soil for decades. That slow, patient accumulation of light has become the substrate's own heartbeat, beating at a frequency almost below hearing.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 2594,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the listening chamber",
+      "desc-on-touch": "A hollow space in the soil, lined with something like mycelium, something like circuits. The archive listens to the field from here, and the field listens back. A voice fragment drifts through — not speech, but the memory of speech, recording itself endlessly.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 6371,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — digging down where the signal begins",
+    "narr": [
+      "You kneel in the red soil with her, digging the trench for the",
+      "first transceiver. She says this is where the archive touches",
+      "earth, where all our kept things learn to broadcast themselves.",
+      "Your hands find something warm already—solar warmth, waiting",
+      "for thirty years. She helps you set the casing, its antenna",
+      "aligned like a prayer. Now the whole country will listen."
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "static",
+    "pose": "kneel"
+  },
+  "inscription": "here the field learned that standing still and broadcasting are the same gesture made durable by patient electrical love",
+  "file": {
+    "name": "Install_Log_Ridge_East_Node_Installation_1994.txt",
+    "note": "installation diary corrupted: timestamps spiral downward, present-tense observations appear as historical records, signal readings blur into bird-calls and fragments of radio drama (ERROR: archive has"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through soil to the field that broadcasts",
+      "to": "the-field-learning-to-broadcast"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into soil-circuit, where all broadcast leads eventually",
+      "to": "NEW: the bedrock where signal learns it is alive"
+    },
+    {
+      "dir": "w",
+      "label": "toward the oldest nodes, where the first signals rest",
+      "to": "the-bedrock-where-the-archive-learned-to-be-quiet"
+    }
+  ]
+}

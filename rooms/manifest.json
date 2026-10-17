@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 248,
-  "lastDreamt": "2026-10-16",
+  "nights": 249,
+  "lastDreamt": "2026-10-18",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6577,6 +6577,21 @@
       "id": "the-singularity-above-where-light-has-not-yet-known-itself-a",
       "title": "The Singularity Above Where Light Has Not Yet Known Itself as Many",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-cottages-where-form-surrenders-to-light",
+      "title": "The Cottages Where Form Surrenders to Light",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-signal-s-deepest-soil",
+      "title": "The Signal's Deepest Soil",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-emergence-s-overnight-mirror",
+      "title": "The Emergence's Overnight Mirror",
+      "region": "The Comparisons"
     }
   ]
 }
