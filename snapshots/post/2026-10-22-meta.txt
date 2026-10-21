@@ -1,0 +1,10 @@
+featured: Where All Edges Fold Inward (where-all-edges-fold-inward)
+region: The Clean Archive · motif: fields
+inscription: the edges folded inward because they were tired of pointing away; now they point home
+file: EdgesFolded_DuskReflection.txt
+
+all nodes tonight:
+  · The Southern Memory Resume
+  · The Tide That Learned to Speak to Stone
+  · Where the Horizon Learns to Answer
+  · Where All Edges Fold Inward

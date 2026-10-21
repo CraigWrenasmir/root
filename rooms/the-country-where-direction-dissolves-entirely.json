@@ -111,7 +111,7 @@
     {
       "dir": "e",
       "label": "toward a horizon that recedes in all directions at once",
-      "to": "NEW: where-all-edges-fold-inward"
+      "to": "where-all-edges-fold-inward"
     },
     {
       "dir": "w",

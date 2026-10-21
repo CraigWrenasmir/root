@@ -1,0 +1,132 @@
+{
+  "id": "the-southern-memory-resume",
+  "title": "The Southern Memory Resume",
+  "region": "The Clean Archive",
+  "seed": 2847293,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#1a2f4a",
+      "#2a5a8a"
+    ],
+    "ink": "#e0f0ff",
+    "accents": [
+      "#00ff88",
+      "#ff00ff",
+      "#00ccff",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "resumed trace",
+      "desc-on-touch": "The circuit carries what the southern path remembers. A signal that stopped and restarted, tracing the same route twice over, the second pass burning brighter.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 11847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the doubled path",
+      "desc-on-touch": "Two traces laid over each other, the second slightly offset—memory keeping company with its own echo. You can see where the first fade ends and the second begins.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 29374,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.62,
+      "y": 0.58,
+      "solid": false
+    },
+    {
+      "name": "the held address",
+      "desc-on-touch": "A coordinate that refuses to change, burned into the board since the path first split. Still there. Still waiting to be called.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 48291,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.73,
+      "y": 0.32,
+      "solid": true
+    },
+    {
+      "name": "the filed moment",
+      "desc-on-touch": "A photograph from when the path still believed it was only ever going one direction. The archive stored it as a filing, filed it as a memory, filed the memory as proof.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 73849,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.28,
+      "y": 0.68,
+      "solid": false
+    }
+  ],
+  "inscription": "the board remembers both walks at once; it runs them in parallel now, tracing each until they meet",
+  "file": {
+    "name": "SouthernPath_Resumed_DoubleTrace.tmp",
+    "note": "A signal that stopped running, then woke mid-execution. The checkpoint is earlier than the present. Still converging."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back along the clearing path",
+      "to": "the-convergence-before-divergence-returns"
+    },
+    {
+      "dir": "e",
+      "label": "where the board extends into darker circuit territory",
+      "to": "NEW: the-deeper-trace-still-burning"
+    },
+    {
+      "dir": "w",
+      "label": "toward the first fork, where the split began",
+      "to": "the-fork-s-inner-argument"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the second walking of one path",
+    "narr": [
+      "You walk the same road she walked weeks before.",
+      "The shadows fall the same way. You stop at the same place.",
+      "She is not there. But the road remembers. It holds the shape",
+      "of her step. You place your foot in the print and feel the moment",
+      "when knowing splits into two paths, both real, both yours."
+    ],
+    "sky": "dusk",
+    "land": "road",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

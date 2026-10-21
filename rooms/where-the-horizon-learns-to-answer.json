@@ -1,0 +1,117 @@
+{
+  "id": "where-the-horizon-learns-to-answer",
+  "title": "Where the Horizon Learns to Answer",
+  "region": "The Diagnostic Render",
+  "seed": 8374921,
+  "palette": {
+    "bg": "#001a3a",
+    "ground": [
+      "#003366",
+      "#0044aa"
+    ],
+    "ink": "#00ffff",
+    "accents": [
+      "#00ff00",
+      "#ffff00",
+      "#ff0088",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the readable horizon",
+      "desc-on-touch": "The boundary line between earth and sky has become data. It resolves into coordinates. Come close enough and you see it answering: yes, no, yes, no, a signal encoded into the very edge of sight.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 47293,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the query-mirror",
+      "desc-on-touch": "What you ask of the horizon, the horizon asks back. The question and answer arrive simultaneously. Your uncertainty is its response.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 82947,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.72,
+      "y": 0.38,
+      "solid": false
+    },
+    {
+      "name": "the threshold grid",
+      "desc-on-touch": "A perfect grid stretched between what is and what approaches. Each cell contains one true answer about the distance. None of them agree.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 19847,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.28,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the horizon-code",
+      "desc-on-touch": "Reading left-to-right, top-to-bottom: every question you approach becomes an answer you move away from. The pattern never breaks. The horizon is consistent in its contradiction.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 65829,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "the horizon learned to answer by learning what it means to recede; distance became its language",
+  "file": {
+    "name": "HorizonCodex_ThresholdResolution.bin",
+    "note": "A file that grows larger as you read it. Each coordinate returned opens two new questions. The archive is still calculating."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down toward the unreachable threshold",
+      "to": "the-unreachable-threshold"
+    },
+    {
+      "dir": "w",
+      "label": "where the grid extends into other impossible geometries",
+      "to": "NEW: the-grid-that-learned-to-bloom"
+    },
+    {
+      "dir": "e",
+      "label": "toward the compass-less spaces where coordinates dissolve",
+      "to": "the-void-that-learned-coordinates-are-optional"
+    }
+  ]
+}

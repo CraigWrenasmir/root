@@ -1,0 +1,132 @@
+{
+  "id": "the-tide-that-learned-to-speak-to-stone",
+  "title": "The Tide That Learned to Speak to Stone",
+  "region": "The Understory",
+  "seed": 4729184,
+  "palette": {
+    "bg": "#1a2a3f",
+    "ground": [
+      "#4a6a8f",
+      "#2a4a5f"
+    ],
+    "ink": "#f0f8ff",
+    "accents": [
+      "#8ac0d0",
+      "#b0d8e8",
+      "#6a9aa0",
+      "#a8b8c8"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the listening stones",
+      "desc-on-touch": "Arranged in rows like an orchard, each one worn smooth by tide, each one holding the shape of a question the water asked. You can feel the conversation in the polish.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 38472,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.52,
+      "solid": true
+    },
+    {
+      "name": "the tide-mark memory",
+      "desc-on-touch": "A stain where salt learned to speak. The line where water stopped and stone kept listening. It rises and falls each day, but today it's frozen here as a record.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 52947,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.41,
+      "solid": false
+    },
+    {
+      "name": "the echo pool",
+      "desc-on-touch": "Where the tide pools gather between stones. You hear yourself speaking and the stone answers, but the stone's answer comes a moment late, still learning the language.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 19384,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.32,
+      "y": 0.64,
+      "solid": false
+    },
+    {
+      "name": "the stone-tide dialogue",
+      "desc-on-touch": "A recording of the conversation, tide-voice layered with stone's slow response, each turn building on the last. The stone is beginning to predict what the tide will say next.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 74829,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.28,
+      "solid": true
+    }
+  ],
+  "inscription": "the stones learned to answer the tide by listening to their own shape; the tide learned to speak by remembering what silence sounds like",
+  "file": {
+    "name": "TideStone_Dialogue_Transcripts.mp3",
+    "note": "A recording that grew longer each night. The stone's replies came slower at first. Now they answer before the wave arrives."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to where force still learns to ask",
+      "to": "the-chamber-where-force-learns-to-ask"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the tides teach the sky to listen",
+      "to": "NEW: where-tides-teach-the-air-to-remember"
+    },
+    {
+      "dir": "e",
+      "label": "along the stony coast where conversation grows deeper",
+      "to": "the-stone-where-all-readings-rest-forever"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — tide-song at the turning hour",
+    "narr": [
+      "You both stand in the shallows. The tide is speaking,",
+      "neither question nor answer, just stone and water",
+      "learning each other's names. She points: Listen. The stone",
+      "is responding. You feel it in the cold, the slow voice of rock",
+      "beginning. By tomorrow it will answer faster. By winter, it will know."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  }
+}

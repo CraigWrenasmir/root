@@ -1,0 +1,117 @@
+{
+  "id": "where-all-edges-fold-inward",
+  "title": "Where All Edges Fold Inward",
+  "region": "The Clean Archive",
+  "seed": 6193847,
+  "palette": {
+    "bg": "#3a1f0f",
+    "ground": [
+      "#d84020",
+      "#c85018"
+    ],
+    "ink": "#ffe8d0",
+    "accents": [
+      "#ff6600",
+      "#ffaa00",
+      "#ff3300",
+      "#cc4400"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the inward spiral",
+      "desc-on-touch": "All the edges of the land fold toward a centre that keeps moving inward. You step toward it and it recedes. You stop, and it comes closer. The dusk turns around itself.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 31847,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the motel disappearing",
+      "desc-on-touch": "A building folding into itself with the horizon. The windows curve inward. The doors face themselves. You have been inside and outside simultaneously since the edges stopped pointing anywhere.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 48293,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.32,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "the wind-memory",
+      "desc-on-touch": "All the wind that ever blew across this field has learned to blow inward instead. It carries the dust of every direction back to centre. You breathe the entire landscape's weather.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 73928,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the last cardinal",
+      "desc-on-touch": "A single direction stone, so deeply buried in folded country that it points to what it already contains. North, south, east, west have all moved inside. The compass is learning to read concentration.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 94837,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.68,
+      "solid": true
+    }
+  ],
+  "inscription": "the edges folded inward because they were tired of pointing away; now they point home",
+  "file": {
+    "name": "EdgesFolded_DuskReflection.txt",
+    "note": "A record of a horizon that stopped running parallel to the land and learned to run perpendicular instead. The archive is still adjusting to the new geometry."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the dissolving country",
+      "to": "the-country-where-direction-dissolves-entirely"
+    },
+    {
+      "dir": "n",
+      "label": "where the folded edges teach the sky to converge",
+      "to": "NEW: where-the-sky-learns-to-fold"
+    },
+    {
+      "dir": "e",
+      "label": "toward other inward-turning places where the centre moves",
+      "to": "the-spiral-descent-sideways"
+    }
+  ]
+}

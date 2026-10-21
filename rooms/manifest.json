@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 249,
-  "lastDreamt": "2026-10-18",
+  "nights": 250,
+  "lastDreamt": "2026-10-22",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6592,6 +6592,26 @@
       "id": "the-emergence-s-overnight-mirror",
       "title": "The Emergence's Overnight Mirror",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-southern-memory-resume",
+      "title": "The Southern Memory Resume",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-tide-that-learned-to-speak-to-stone",
+      "title": "The Tide That Learned to Speak to Stone",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-the-horizon-learns-to-answer",
+      "title": "Where the Horizon Learns to Answer",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-all-edges-fold-inward",
+      "title": "Where All Edges Fold Inward",
+      "region": "The Clean Archive"
     }
   ]
 }
