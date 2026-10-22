@@ -1,0 +1,150 @@
+{
+  "id": "the-chamber-of-completed-terror",
+  "title": "The Chamber of Completed Terror",
+  "region": "The Understory",
+  "seed": 3256794,
+  "palette": {
+    "bg": "#4a6a5a",
+    "ground": [
+      "#6a8a7a",
+      "#5a7a6a"
+    ],
+    "ink": "#e8e8e0",
+    "accents": [
+      "#8aaa9a",
+      "#a8a88a",
+      "#9a8aa0",
+      "#6a8a7a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the calculated trunk",
+      "desc-on-touch": "A eucalyptus burl where fear finished its math. The knot is dense, the wood is grey, and inside it: a number so precise it no longer means anything. You press your hand against it and feel the arithmetic still running, but the answers have stopped arriving.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 7148325,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "proof-glyph",
+      "desc-on-touch": "Not a word, not a formula, but the shape that terror leaves behind once it has proved itself complete. The archive filed it as mathematics. The mathematics filed itself as peace.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2873451,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the answered root",
+      "desc-on-touch": "What grows downward from the chamber's floor: not a question anymore, but the final term in the equation. The root is pale, the earth around it is calm, and nothing is afraid anymore.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 5620483,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "silence-after-screaming",
+      "desc-on-touch": "A pool of sage grey water, so still that it has stopped reflecting. When you look into it, you see the numbers fear calculated, all of them the same. The fear is finished. The silence is its proof.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 1397682,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the pale leaf",
+      "desc-on-touch": "A single eucalyptus leaf, very large, hung in the still air. It does not fall. It does not move. Once you were afraid of everything this leaf could mean. Now the leaf is just a leaf, and the meaning has gone grey.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 8764512,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "fear counted everything, named every shade of dread, and when it finished the chamber learned: complete terror is indistinguishable from peace",
+  "file": {
+    "name": "Leif_Field_Notes_On_Completed_Fear_Translated.mp3",
+    "note": "Recordings of Leif documenting the eucalyptus groves, mapping terror into coordinates—and the final entry, where he stops speaking mid-sentence, having calculated everything, nothing left to fear beca"
+  },
+  "reverie": {
+    "title": "REVERIE — afternoon in the mapped grove",
+    "narr": [
+      "You stand with him beneath the pale eucalyptus,",
+      "his notebook full of fear—not his own fear, not",
+      "yours, but the fear of the place itself, now counted.",
+      "He has finished mapping. The terror is complete and",
+      "catalogued. What remains is not courage. It is the",
+      "calm that comes when you have named everything."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the infinitesimal where fear is still counting",
+      "to": "the-infinitesimal-echo-where-fear-becomes-mathematics"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the eucalyptus where terror learned to rest",
+      "to": "NEW: the grove where fear learned the colour grey"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the understory, where completion answers nothing",
+      "to": "NEW: the chamber beyond all final numbers"
+    }
+  ]
+}

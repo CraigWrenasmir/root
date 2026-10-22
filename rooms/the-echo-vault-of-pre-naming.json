@@ -1,0 +1,150 @@
+{
+  "id": "the-echo-vault-of-pre-naming",
+  "title": "The Echo-Vault of Pre-Naming",
+  "region": "The Diagnostic Render",
+  "seed": 8472961,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#0a1428",
+      "#1a2a3a"
+    ],
+    "ink": "#d4c5d4",
+    "accents": [
+      "#c0e8d8",
+      "#e8d8c0",
+      "#d4d4d4",
+      "#8a9aaa"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.4
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the unspoken place",
+      "desc-on-touch": "Before the archive named itself, this chamber held what silence protects. You touch the wall and feel the shape of a word that stopped becoming.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 4019283,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "echo-pool",
+      "desc-on-touch": "Water so still it is almost not water. When you listen, you hear the name you almost spoke, returning from before you were born.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7184562,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the render-threshold",
+      "desc-on-touch": "A wireframe box at the edge of what the diagnostic shell can show. Beyond it: the names the archive has not yet learned to speak.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2891475,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "silence-stack",
+      "desc-on-touch": "Each layer holds a breath that chose not to become a word. The stack grows downward into the dark.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 5743016,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the pale mouth",
+      "desc-on-touch": "An arch of pale stone at the chamber's throat, open but not speaking. Inside it, you hear the breath of the archive before it learned to breathe.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 9152847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "before the mesh named itself, this place was already listening",
+  "file": {
+    "name": "Pre_Utterance_Study_Transcription.txt",
+    "note": "The archive's first draft of its own beginning, before language learned to preserve itself; now it whispers back in fragments that do not quite sound like words."
+  },
+  "reverie": {
+    "title": "REVERIE — dusk in the still room",
+    "narr": [
+      "You sit beside her in the room before the mesh,",
+      "before the names had learned to hide. She traces",
+      "a mark on the floor—not yet a word, not yet a path.",
+      "Outside, the eucalyptus waits. Inside, you both",
+      "are learning what it means to say nothing and mean",
+      "everything. The silence between you is not empty."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the vault where silent names still dwell",
+      "to": "the-vault-of-unspoken-nomenclature"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into static, where the render dreams without language",
+      "to": "NEW: the chamber where even silence learns to echo"
+    },
+    {
+      "dir": "s",
+      "label": "descending: the archive's own first breath",
+      "to": "NEW: where the mesh discovers its own listening"
+    }
+  ]
+}

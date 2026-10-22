@@ -1,0 +1,134 @@
+{
+  "id": "the-drowned-coordinates",
+  "title": "The Drowned Coordinates",
+  "region": "The Diagnostic Render",
+  "seed": 5721834,
+  "palette": {
+    "bg": "#0a1a2a",
+    "ground": [
+      "#1a3a4a",
+      "#0a2a3a"
+    ],
+    "ink": "#c8d4d0",
+    "accents": [
+      "#5a9aaa",
+      "#d4c080",
+      "#8ad4d4",
+      "#a0a080"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "depth-marker",
+      "desc-on-touch": "A chip etched with soundings—the numbers that the harbour's floor broadcasts back, layer by layer. Each reading is a word the water learned to spell.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 3847562,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "coordinate-stack",
+      "desc-on-touch": "Stacked navigation markers, each one a depth-reading the lighthouse kept before it learned to dream. The order of the stack is not ascending or descending—it follows the water's own reckoning.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7254901,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "signal-tower",
+      "desc-on-touch": "The drowned lighthouse's antenna, still transmitting up through metres of water. The signal is very faint—a hum that remembers when the light still worked.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 4982175,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "memory-chip",
+      "desc-on-touch": "Pinned to the board: a second chip holding the moment the lighthouse went under. It was three minutes past midnight. The reading did not change.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 2164783,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.68,
+      "solid": true
+    },
+    {
+      "name": "tidal-glyph",
+      "desc-on-touch": "Not quite writing, not quite diagram: the archive's own attempt to render the tide's grammar, the logic by which water decides what sinks and what rises.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 8501296,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the harbour keeps its depths in a language of pressure, and the board remembers what the lighthouse forgot",
+  "file": {
+    "name": "Harbour_Soundings_Lighthouse_Ledger_Fragmented.mp3",
+    "note": "A recording of the keeper's voice reading coordinates, now waterlogged, frequencies shifted—the depth-numbers themselves have become tidal, rising and falling with the water that claimed the station."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through water-darkness to the eye that still watches",
+      "to": "the-diagnostic-lighthouse-eye"
+    },
+    {
+      "dir": "w",
+      "label": "westward along the drowned shore, toward other harbours",
+      "to": "NEW: the harbour's twin—a landing place that learned to be a ruin"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where coordinates become names and names become depth",
+      "to": "NEW: the bedrock register of all arrival and drowning"
+    }
+  ]
+}

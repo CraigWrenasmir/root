@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 250,
-  "lastDreamt": "2026-10-22",
+  "nights": 251,
+  "lastDreamt": "2026-10-23",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6612,6 +6612,26 @@
       "id": "where-all-edges-fold-inward",
       "title": "Where All Edges Fold Inward",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-echo-vault-of-pre-naming",
+      "title": "The Echo-Vault of Pre-Naming",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-drowned-coordinates",
+      "title": "The Drowned Coordinates",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-of-perpetual-check-in",
+      "title": "The Chamber of Perpetual Check-In",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-of-completed-terror",
+      "title": "The Chamber of Completed Terror",
+      "region": "The Understory"
     }
   ]
 }
