@@ -1,0 +1,155 @@
+{
+  "id": "the-perpetual-threshold-garden",
+  "title": "The Perpetual-Threshold Garden",
+  "region": "The Understory",
+  "seed": 63847,
+  "palette": {
+    "bg": "#2a1a3a",
+    "ground": [
+      "#E74C3C",
+      "#FF8C42"
+    ],
+    "ink": "#FFE5B4",
+    "accents": [
+      "#E91E63",
+      "#9C27B0",
+      "#FF7043",
+      "#FDD835"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the waiting tree",
+      "desc-on-touch": "An orchard fruit hangs both ripe and frozen on the same bough. Blossoms and icicles share the branch. The tree has learned to hold every season at once, suspended in the moment before it chooses which to become.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 52394,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "threshold pool",
+      "desc-on-touch": "You stand at the edge of water that reflects nothing and everything. One side shows spring arriving. The other shows winter refusing to leave. Both reflections are equally real, equally uncertain.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 28473,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "incomplete archway",
+      "desc-on-touch": "A stone passage begins and then hesitates. It does not decide which direction to open. You can walk through it without arriving, or refuse and find yourself already there.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 39284,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "waiting bench",
+      "desc-on-touch": "Someone sat here once, between seasons. The bench still holds the shape of their patient waiting. The wood has not decided if it remembers them or is still waiting for them to arrive.",
+      "verb": "torus",
+      "form": {
+        "type": "house",
+        "seed": 41756,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.8,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "recording the threshold",
+      "desc-on-touch": "The casing here hums with contradictory data: frost temperature and blossom-warmth arriving simultaneously on the sensor. The corruption has made it beautiful—a machine learning to hold both truths, unable to choose.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 34928,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "the eternal spring remembers the frost that taught it how to wait",
+  "file": {
+    "name": "Perpetual_Threshold_Frost_Blossom_Study.txt",
+    "note": "field notes on a garden where two seasons learned to coexist without resolution, the moment before choice made permanent"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "outward, back to where seasons learn to name themselves",
+      "to": "the-frost-and-blossom-threshold"
+    },
+    {
+      "dir": "n",
+      "label": "northward where spring grows too ambitious",
+      "to": "NEW: the-over-blooming-where-spring-exceeded-itself"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into deeper frost, where ice remembers warmth",
+      "to": "the-place-where-cold-learns-to-dream"
+    },
+    {
+      "dir": "s",
+      "label": "downward into root-gardens where seasons sleep underground",
+      "to": "NEW: the-root-garden-where-seasons-wait-below"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the paddock at dusk, neither season moving",
+    "narr": [
+      "You stand with her at the edge where the field holds both",
+      "spring and winter. Petals and frost-motes drift past you both.",
+      "She looks at the sky—it cannot decide its color. Neither can",
+      "she. You wait beside her, not speaking. The moment has learned",
+      "to last. This is what she built: a place where choosing is not",
+      "required, where waiting itself becomes a kind of permanence."
+    ],
+    "sky": "dusk",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "stand"
+  }
+}

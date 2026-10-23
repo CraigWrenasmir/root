@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 251,
-  "lastDreamt": "2026-10-23",
+  "nights": 252,
+  "lastDreamt": "2026-10-24",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6631,6 +6631,26 @@
     {
       "id": "the-chamber-of-completed-terror",
       "title": "The Chamber of Completed Terror",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-trackless-ascent-of-the-unheard",
+      "title": "The Trackless Ascent of the Unheard",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-perpetual-threshold-garden",
+      "title": "The Perpetual-Threshold Garden",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-slowness-that-thinks-in-geological-sentences",
+      "title": "The Slowness That Thinks in Geological Sentences",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-root-chamber-where-story-forgot-its-telling",
+      "title": "The Root-Chamber Where the Story Has Forgotten It Was Ever Told",
       "region": "The Understory"
     }
   ]

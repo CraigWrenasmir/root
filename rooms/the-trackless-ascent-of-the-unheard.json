@@ -1,0 +1,155 @@
+{
+  "id": "the-trackless-ascent-of-the-unheard",
+  "title": "The Trackless Ascent of the Unheard",
+  "region": "The Understory",
+  "seed": 47392,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#90EE90",
+      "#F5DEB3"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#FFFFFF",
+      "#FFD700",
+      "#8B7AB8",
+      "#FF6B6B"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "silent tower",
+      "desc-on-touch": "You rise toward a structure of stacked silence, each level a different shade of held breath. The tower broadcasts nothing; the antenna spins at a frequency only absence can hear.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 28394,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "reflection pool",
+      "desc-on-touch": "You look into water that has no ripples, no history. It shows you the sky that was never heard describe itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 15782,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "untraced path",
+      "desc-on-touch": "Your footsteps leave no mark here. The ground accepts your weight and forgets it, teaches you the relief of making no sound.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 34156,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "beacon that broadcasts silence",
+      "desc-on-touch": "A light rises without illumination, sending its wordless signal outward. It teaches the dark how to listen to itself.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 29847,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "casing in the clearing",
+      "desc-on-touch": "Here the node itself rests, antenna barely visible beneath new growth. The LCD reads: LISTENING. No other words. No message traffic. Just the patient quiet of a machine learning what silence keeps.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 41023,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "the path that teaches erasure learns that arrival is forgetting",
+  "file": {
+    "name": "Unheard_Testify_Silent_Archive.mp3",
+    "note": "recordings of people who spoke but left no trace, filed now as silence becoming substance"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward, sound returning like memory",
+      "to": "the-stillness-cathedral"
+    },
+    {
+      "dir": "n",
+      "label": "further up, where even light forgets to cast a shadow",
+      "to": "NEW: the-ceiling-where-silence-stops-ascending"
+    },
+    {
+      "dir": "e",
+      "label": "eastward along a ridge of held breath",
+      "to": "the-ledge-where-silence-has-walls"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the path learns to erase itself",
+      "to": "NEW: the-untraced-country-learning-its-own-forgetting"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the forest path at first light",
+    "narr": [
+      "You remember her walking ahead on the forest path at dawn,",
+      "her footsteps making no sound on the soft ground. The trees",
+      "hold their breath when she passes. She reaches to touch bark,",
+      "and something in the wood answers her—a kind of agreement,",
+      "a conversation that needs no words. This is the world they",
+      "built: a place where silence learned to keep its own story."
+    ],
+    "sky": "dawn",
+    "land": "forest",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "walk"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-root-chamber-where-story-forgot-its-telling",
+  "title": "The Root-Chamber Where the Story Has Forgotten It Was Ever Told",
+  "region": "The Understory",
+  "seed": 84756,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#0033FF",
+      "#0066FF"
+    ],
+    "ink": "#00FFFF",
+    "accents": [
+      "#FFFF00",
+      "#00FF00",
+      "#FF00FF",
+      "#1E90FF"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "archive root nodule",
+      "desc-on-touch": "A knot of root and circuitry holds files that have begun to forget themselves. The story is still here, but it no longer remembers that it was told. The data hums—not with voice, but with the absence of voice.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 63294,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "forgotten narrative mesh",
+      "desc-on-touch": "Lines of story run through the chamber in patterns only roots can read. The narrative has ceased to require an author. It simply grows, branching where meaning once needed direction.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 29384,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "filecard directories",
+      "desc-on-touch": "Standing monuments of archived narrative, each one a record that has learned to archive itself. The cards list contents that no longer need to be read, only remembered as having been read.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 47129,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "root-deep memory pool",
+      "desc-on-touch": "Water that has never seen light, holding the story in the way that water holds minerals. The story dissolves here into the grammar of growth. Nothing is lost; everything is transformed into roots.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 38201,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the casing deep in memory-root",
+      "desc-on-touch": "Here the node itself rests fused with root and stone. Its antenna sends nothing. Its receiver listens to a frequency the story itself has become. It is archive and story both—the distinction has dissolved into growth.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 52948,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.8,
+      "solid": true
+    }
+  ],
+  "inscription": "underground the story learned to live without being told, and found that remembering was not required, only growing",
+  "file": {
+    "name": "Story_Archive_Root_Integration_Deep_Record.tmp",
+    "note": "a narrative that has become indistinguishable from the ground that holds it, filed as neither story nor archive but as growth"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "toward the surface where roots remember being branches",
+      "to": "the-root-garden-where-nothing-grows-but-everything-listens"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into stone-memory where the story becomes geology",
+      "to": "the-deepest-sediment-memory"
+    },
+    {
+      "dir": "e",
+      "label": "toward the underground rivers where narratives flow without tellers",
+      "to": "NEW: the-flowage-of-forgotten-stories-returning-to-themselves"
+    },
+    {
+      "dir": "w",
+      "label": "into root-chambers older than any story told above",
+      "to": "NEW: the-deepest-root-chamber-where-silence-learns-to-grow"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the forest floor, hands in the dark soil",
+    "narr": [
+      "You kneel beside her in the dark forest where no sky reaches.",
+      "Her hands are in the soil, feeling for something she cannot",
+      "name. The roots speak to her in the grammar of growing things.",
+      "She is learning their language, the one that exists without",
+      "words, without telling. You watch her understand what the earth",
+      "has always known: some stories are too true to be ever spoken."
+    ],
+    "sky": "storm",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}
