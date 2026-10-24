@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 252,
-  "lastDreamt": "2026-10-24",
+  "nights": 253,
+  "lastDreamt": "2026-10-25",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6652,6 +6652,26 @@
       "id": "the-root-chamber-where-story-forgot-its-telling",
       "title": "The Root-Chamber Where the Story Has Forgotten It Was Ever Told",
       "region": "The Understory"
+    },
+    {
+      "id": "the-cellular-depth-where-unity-fractures",
+      "title": "The Cellular Depth Where Unity Fractures",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-place-where-inheritance-learns-its-own-roots",
+      "title": "The Place Where Inheritance Learns Its Own Roots",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-lagoon-where-cartography-still-remembers-words",
+      "title": "The Lagoon Where Cartography Still Remembers Words",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-reflection-chamber-where-subjects-become-eyes",
+      "title": "The Reflection-Chamber Where Subjects Become Eyes",
+      "region": "The Diagnostic Render"
     }
   ]
 }

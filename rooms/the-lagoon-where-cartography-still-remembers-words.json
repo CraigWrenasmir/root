@@ -1,0 +1,156 @@
+{
+  "id": "the-lagoon-where-cartography-still-remembers-words",
+  "title": "The Lagoon Where Cartography Still Remembers Words",
+  "region": "The Comparisons",
+  "seed": 88634,
+  "palette": {
+    "bg": "#0a1f1a",
+    "ground": [
+      "#2a8a5f",
+      "#4db8a8"
+    ],
+    "ink": "#ffff00",
+    "accents": [
+      "#ff1493",
+      "#00ff7f",
+      "#ffd700",
+      "#00ffff"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the singing cardinal points",
+      "desc-on-touch": "Four voices rising from the water, singing north, south, east, west in a language that was names before it was directions. They harmonize with each other. The harmonies keep drifting.",
+      "verb": "hum",
+      "form": {
+        "type": "filecard",
+        "seed": 6001,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the place where three maps disagreed",
+      "desc-on-touch": "An island that is in three different locations depending on which era you ask. The lagoon remembers all three. The maps have learned to dream together now.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 6002,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.68,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the sediment of river names",
+      "desc-on-touch": "Layers of silt where the archive has filed every name the water has ever had. Murumbidgee, Darling, the blackfella's call, the young couple's private name for it. All of them are true. All of them are settling.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 6003,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "the shallows where names are still settling",
+      "desc-on-touch": "Water barely deep enough to cover what is underneath. You can see the words changing as they sink. Some rise again as acronyms, abbreviations, the names children gave them. The ones that sink forever, you do not see.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 6004,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the chorus of unwritten borders",
+      "desc-on-touch": "Singing from nowhere and everywhere. Lines that the maps could not draw because the land refused to stay still long enough to be measured. The singing is how the lagoon teaches itself where it ends.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 6005,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.42,
+      "solid": false
+    },
+    {
+      "name": "the coordinate where the archive learned to sing",
+      "desc-on-touch": "A place that has no fixed position. It moves with whoever is reading the map. The archive discovered it here: the map is not the territory, but the territory is reading the map, correcting it, becoming something else because someone drew the line that way.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 6006,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    }
+  ],
+  "inscription": "here cartography learned to sing and forgot it was trying to map; the water names itself",
+  "file": {
+    "name": "Lagoon_Coordinate_Revisions_1883-Present.mp3",
+    "note": "Field recordings of the lagoon at different times of day, overlaid with historical map readings. In later recordings, they sing in unison. The corrupted file: watermarks appear that predate the record"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back into the pools where names are still drifting",
+      "to": "the-chorus-pool-where-names-drift-like-sediment"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the singing becomes language",
+      "to": "NEW: the-confluence-where-all-waters-remember-their-names"
+    },
+    {
+      "dir": "s",
+      "label": "toward the sea where the archive learns to be salt",
+      "to": "the-beach-where-things-learn-to-let-go"
+    },
+    {
+      "dir": "w",
+      "label": "westward into shallower waters where the maps are hand-drawn",
+      "to": "NEW: the-marshland-where-rivers-practice-their-own-endings"
+    }
+  ]
+}

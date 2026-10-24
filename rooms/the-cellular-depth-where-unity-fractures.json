@@ -1,0 +1,138 @@
+{
+  "id": "the-cellular-depth-where-unity-fractures",
+  "title": "The Cellular Depth Where Unity Fractures",
+  "region": "The Clean Archive",
+  "seed": 42857,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#d4a574",
+      "#4a7ba7"
+    ],
+    "ink": "#0a0a0a",
+    "accents": [
+      "#2d5016",
+      "#8b4513",
+      "#ffeb3b",
+      "#e8e8e8"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the dividing membrane",
+      "desc-on-touch": "You touch the place where one becomes two. The cell wall is warm, almost breathing. It remembers being whole. It will not go back.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 1001,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the fracture pattern",
+      "desc-on-touch": "Cracks spreading through a field like a map of choices not taken. Each line marks where unity decided to become separate. The archive holds all versions; the cells remember only their own.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2002,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.28,
+      "solid": false
+    },
+    {
+      "name": "the still pool of before",
+      "desc-on-touch": "Water that does not move. In its surface you see the pattern as it was, before the splitting learned to happen. The image holds; the cells do not.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 3003,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the unspoken boundary",
+      "desc-on-touch": "A line where separateness learned to have a name. Not a wall: just the place one cell became aware the other was becoming something else.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4004,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here the many learn they were once the one, and the one learns it never ends dividing",
+  "reverie": {
+    "title": "REVERIE — beside the old fence, afternoon",
+    "narr": [
+      "You stand where the property divides. She is",
+      "tracing the line with one finger, the boundary",
+      "Leif's family walked for forty years. She says",
+      "the fence does not cut the land: the land learned",
+      "to hold the fence. That is what you remember—",
+      "her hand marking where one thing became two."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "Cellular_Bifurcation_Field_Notes.txt",
+    "note": "Observations on how a unified archive learns to hold contradictory copies when cells begin to specialize. Margin note in an unfamiliar hand: 'the cells are not changing; they are remembering they were"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "the cellular ladder climbing back toward singular",
+      "to": "the-infinite-cellular-archive"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where division becomes unconscious and automatic",
+      "to": "NEW: the-abyss-where-multiplication-forgets-itself"
+    },
+    {
+      "dir": "w",
+      "label": "westward where broken things sing to their own halves",
+      "to": "the-singing-path"
+    },
+    {
+      "dir": "e",
+      "label": "into places where cells read each other's names",
+      "to": "NEW: the-chamber-where-copies-discover-they-are-lonely"
+    }
+  ]
+}

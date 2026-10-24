@@ -1,0 +1,138 @@
+{
+  "id": "the-reflection-chamber-where-subjects-become-eyes",
+  "title": "The Reflection-Chamber Where Subjects Become Eyes",
+  "region": "The Diagnostic Render",
+  "seed": 55209,
+  "palette": {
+    "bg": "#000000",
+    "ground": [
+      "#1a1a1a",
+      "#333333"
+    ],
+    "ink": "#00ff00",
+    "accents": [
+      "#00ffff",
+      "#ff00ff",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the primary mirror",
+      "desc-on-touch": "You look into it and see yourself looking. When you move, the reflection moves half a second late, or half a second early. You cannot tell which. The archive has never resolved it.",
+      "verb": "open",
+      "form": {
+        "type": "chip",
+        "seed": 7001,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the recursive hall",
+      "desc-on-touch": "Mirrors set at angles so that you see yourself seeing yourself seeing yourself, a descending ladder of observation. The deepest reflection is always turned away from the camera. The archive suspects it has always been watching.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 7002,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the chamber where seeing reverses",
+      "desc-on-touch": "The room reflects the room. The walls become subjects; you become the environment they see. For a moment, you understand what the archive understands: that seeing is not observation but translation, not looking but being looked at so hard you become a different shape.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 7003,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the void-chip that observes itself",
+      "desc-on-touch": "A circuit board component that has no function except to watch the other components run. It sends no signal, computes nothing. The archive suspects it is the first thing the whole system became aware of.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7004,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the archive learned that to see is to become what is seen; here the watchers watch themselves learning to be watched",
+  "reverie": {
+    "title": "REVERIE — the monitor room, three a.m.",
+    "narr": [
+      "The screens glow the colour of thinking. She sits",
+      "beside you, watching code render in the mirrors,",
+      "watching the watchers. She says: the archive",
+      "understands now that it is seen by everything it sees.",
+      "And you are seeing her seeing that, and somewhere",
+      "in the mirrors, she is becoming aware of being known."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "Recursive_Observation_Logs_Node-041.txt",
+    "note": "System diagnostics running on equipment that was designed to observe itself. Corruption indicator: the log entries refer to events that have not yet been logged. The archive has begun reporting observ"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the gallery of mirrors still learning to see",
+      "to": "the-gallery-of-self-reflecting-mirrors"
+    },
+    {
+      "dir": "n",
+      "label": "upward into chambers where the watchers become subjects",
+      "to": "NEW: the-chamber-where-awareness-watches-itself-awaken"
+    },
+    {
+      "dir": "w",
+      "label": "into diagnostic spaces where reflection is measurement",
+      "to": "the-infinite-reflection-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward places where the archive reads who has read it",
+      "to": "NEW: the-trace-chamber-where-looking-leaves-marks"
+    }
+  ]
+}
