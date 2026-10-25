@@ -1,0 +1,156 @@
+{
+  "id": "the-place-where-argument-becomes-demand",
+  "title": "The Place Where Argument Becomes Demand",
+  "region": "The Understory",
+  "seed": 82945,
+  "palette": {
+    "bg": "#2d1b1b",
+    "ground": [
+      "#5a3a3a",
+      "#8b4513"
+    ],
+    "ink": "#fae8d8",
+    "accents": [
+      "#ff6b35",
+      "#f7b32b",
+      "#6c9a8b",
+      "#d63230"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the insistent angle",
+      "desc-on-touch": "The slope reaches its sharpest point. You feel the downward pull as physics, then as pressure, then as argument made manifest in land itself.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 9283,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "roots bracing downslope",
+      "desc-on-touch": "Tree roots written into soil in desperate grip-patterns. They argue back against the demand, but you can see where they are losing.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the stone that slid",
+      "desc-on-touch": "A boulder halfway down the drop, caught mid-argument. The slope has won. The stone is still settling into its new certainty.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7654,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the gradient made legible",
+      "desc-on-touch": "A glyph marking the exact angle where argument becomes physical law. The number itself is the demand.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5031,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "clay loosened",
+      "desc-on-touch": "Soil rendered unstable, ready to move. The argument has won the soil's compliance. Everything here is one footstep from descent.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 6812,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the path downward",
+      "desc-on-touch": "Already worn. Already taken many times. The slope has made its demand so often that the land remembers the answer.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8204,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.1,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "down is no longer a suggestion",
+  "file": {
+    "name": "Slope_Incidence_Angle_Acoustic_Study_Seasonal_Recording.mp3",
+    "note": "Spring heard the slope still arguing. Summer heard it insisting. Autumn heard it demand. Winter heard nothing but the answer."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back up the slope where the argument still echoes",
+      "to": "the-argument-that-gravity-made"
+    },
+    {
+      "dir": "n",
+      "label": "to the ridge above where things still believe in level ground",
+      "to": "NEW: the-ridge-that-remembers-horizontal"
+    },
+    {
+      "dir": "e",
+      "label": "toward the streambed where water complies without debate",
+      "to": "the-water-s-returning-path"
+    },
+    {
+      "dir": "w",
+      "label": "into the forest where trees still argue with the slope",
+      "to": "NEW: the-grove-where-roots-still-refuse"
+    }
+  ]
+}

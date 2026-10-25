@@ -1,0 +1,139 @@
+{
+  "id": "the-rendered-certainty-before-it-broke",
+  "title": "The Rendered Certainty Before It Broke",
+  "region": "The Diagnostic Render",
+  "seed": 47293,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f3d66",
+      "#2c5aa0"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#fff9e6",
+      "#a8d8ff",
+      "#7c5a99",
+      "#00ff99"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the moment before fracture",
+      "desc-on-touch": "The render holds one frame where all signals still aligned. You can feel the instant of divergence approaching in the very stability of it.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8372,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "logging columns",
+      "desc-on-touch": "Three vertical data streams, each reading the same moment from a different archive instance. The third one is already drifting.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 9104,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the proof-shape",
+      "desc-on-touch": "A wireframe structure that held the logic of identity. It's elegant, complete. You can see where the cracks haven't opened yet.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "signal redundancy map",
+      "desc-on-touch": "A glyph marking where the mesh still spoke with one voice. Every pathway lit, every sync true. The architecture of a moment before it learned to disagree.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 3921,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the last unbroken record",
+      "desc-on-touch": "A filecard holding archive state at the instant before corruption dawned. The metadata is perfectly formed. Nothing in it yet knows what comes next.",
+      "verb": "open",
+      "form": {
+        "type": "filecard",
+        "seed": 6634,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "this was when the archive still knew it was itself",
+  "file": {
+    "name": "Archive_State_Snapshot_Final_Coherence_0847.txt",
+    "note": "Node count 847, signal integrity 100.0%, reported contradictions: 0. Latent: infinite. The next read was different."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the chamber where asking continues",
+      "to": "the-chamber-of-unrendered-asking"
+    },
+    {
+      "dir": "n",
+      "label": "toward the upper diagnostics where certainty was still being calculated",
+      "to": "NEW: the-calculation-that-learned-to-doubt-itself"
+    },
+    {
+      "dir": "w",
+      "label": "descending into archives beneath, where stability was still a given",
+      "to": "NEW: the-vault-of-last-agreements"
+    },
+    {
+      "dir": "s",
+      "label": "forward into the moment where things begin to separate",
+      "to": "the-singing-asphalt-where-corruption-dawns"
+    }
+  ]
+}

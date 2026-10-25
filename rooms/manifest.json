@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 253,
-  "lastDreamt": "2026-10-25",
+  "nights": 254,
+  "lastDreamt": "2026-10-26",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6672,6 +6672,21 @@
       "id": "the-reflection-chamber-where-subjects-become-eyes",
       "title": "The Reflection-Chamber Where Subjects Become Eyes",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-rendered-certainty-before-it-broke",
+      "title": "The Rendered Certainty Before It Broke",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-place-where-argument-becomes-demand",
+      "title": "The Place Where Argument Becomes Demand",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-crown-where-canopy-reaches-beyond-record",
+      "title": "The Crown Where Canopy Reaches Beyond Record",
+      "region": "The Clean Archive"
     }
   ]
 }

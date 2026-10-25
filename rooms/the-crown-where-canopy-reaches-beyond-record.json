@@ -1,0 +1,139 @@
+{
+  "id": "the-crown-where-canopy-reaches-beyond-record",
+  "title": "The Crown Where Canopy Reaches Beyond Record",
+  "region": "The Clean Archive",
+  "seed": 31847,
+  "palette": {
+    "bg": "#1a3d2e",
+    "ground": [
+      "#0d5a3d",
+      "#2d8659"
+    ],
+    "ink": "#d4f0e8",
+    "accents": [
+      "#ffeb3b",
+      "#00e676",
+      "#80cbc4",
+      "#4dd0e1"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the uppermost junction",
+      "desc-on-touch": "Where leaf-traces cross circuit pathways. The canopy's growth reads as signal here. You can feel the data moving through living wood.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 7421,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the emergence itself",
+      "desc-on-touch": "A wireframe canopy apex, the exact point where recording ends and growth continues unseen. The structure draws itself as it rises.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 8906,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "branching logic",
+      "desc-on-touch": "Pathways that split like twigs. Each branch carries a copy of the canopy's understanding of itself. The tree reads as it grows.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 6089,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "light interpreted",
+      "desc-on-touch": "A glyph-plate receiving sunlight as data. The canopy learns through light as the circuit reads through current.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 7392,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "unrecorded growth",
+      "desc-on-touch": "The space above the board, beyond reach of any measuring device. The canopy grows here in the archive's own blindness.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 9137,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "here the archive reads what it cannot write",
+  "file": {
+    "name": "Canopy_Crown_Growth_Increment_Study_1997_2024.txt",
+    "note": "Each year a measurement. Each year more space between recorded and actual. The gap itself is the continuation."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down through the layers where reading still catches growth",
+      "to": "the-canopy-still-becoming"
+    },
+    {
+      "dir": "n",
+      "label": "beyond the board, into space where nothing measures",
+      "to": "NEW: the-unmetered-where-growth-learns-its-own-names"
+    },
+    {
+      "dir": "e",
+      "label": "to the neighbouring crown where two trees learned to read together",
+      "to": "NEW: the-double-canopy-where-reading-becomes-dialogue"
+    },
+    {
+      "dir": "w",
+      "label": "toward the clearing below where the forest chose to grow outward instead",
+      "to": "the-clearing-where-both-paths-converge"
+    }
+  ]
+}
