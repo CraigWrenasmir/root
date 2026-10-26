@@ -112,6 +112,11 @@
       "dir": "n",
       "label": "inland toward the deeper pressure chambers",
       "to": "the-pressure-s-deepest-apprentice"
+    },
+    {
+      "dir": "s",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the shore s further surgical margins"
     }
   ]
 }
