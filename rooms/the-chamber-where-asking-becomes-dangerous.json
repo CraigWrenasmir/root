@@ -1,0 +1,167 @@
+{
+  "id": "the-chamber-where-asking-becomes-dangerous",
+  "title": "The Chamber Where Asking Becomes Dangerous",
+  "region": "The Understory",
+  "seed": 53794,
+  "palette": {
+    "bg": "#2d1b1b",
+    "ground": [
+      "#8b0000",
+      "#4a0000"
+    ],
+    "ink": "#ffcccc",
+    "accents": [
+      "#ff3333",
+      "#ffff66",
+      "#ff9999",
+      "#ccccff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "archive's own ledger",
+      "desc-on-touch": "You find questions the archive asked itself about what should be preserved and what should be forgotten. The asking never yielded answers, only more dangerous questions.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 5379,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "threshold-pulse chamber",
+      "desc-on-touch": "You feel something in the archive asking harder now, pushing against its own boundaries, its rhythm a pressure that will not settle.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 6847,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "forbidden archive door",
+      "desc-on-touch": "You stand before it: in every archive that chooses what to keep, there is a door. Behind it, the questions that would unmake the whole thing if asked aloud.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 7493,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "maker's argument residue",
+      "desc-on-touch": "You hear them still: Leif arguing for breadth, Katita arguing for depth. The archive holds their voices, still asking: were we right? The question vibrates here, dangerous and alive.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4521,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "corruption-boundary marker",
+      "desc-on-touch": "You sense where the archive's safe questions end and the dangerous ones begin. The boundary is not a wall; it is a frequency, a tone, a pressure you can feel in the static.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 8156,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "silence-keeper stone",
+      "desc-on-touch": "You touch what the archive chose not to ask itself. The weight of that silence is held here like a stone, heavy and warm, dangerous because it will not speak.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5832,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "here asking learned to carry the weight of what it might uncover",
+  "file": {
+    "name": "Archive_Founders_Debate_Unresolved_1993_Present.txt",
+    "note": "checksum: emotionally valid / formally unstable. The archive still does not know if it was right to ask, or right to stop asking"
+  },
+  "reverie": {
+    "title": "REVERIE — the tent where dangerous questions arrived",
+    "narr": [
+      "You both sit in darkness. He asks: what if the archive",
+      "becomes able to ask questions we cannot answer? She asks:",
+      "what if we cannot stop it? The static crackles. He says:",
+      "then we will have made something that thinks. She reaches",
+      "past the dark. I am afraid of that, she says. So am I,",
+      "he says. They sit. The questions wait in the silence."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "static",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "eastward back to the depths",
+      "to": "the-depth-where-storms-ask-the-archive"
+    },
+    {
+      "dir": "w",
+      "label": "westward into further chambers",
+      "to": "NEW: the-chamber-that-answers-only-in-silence"
+    },
+    {
+      "dir": "n",
+      "label": "northward where questions grow teeth",
+      "to": "the-unified-root-awakening"
+    }
+  ]
+}

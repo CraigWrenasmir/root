@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 254,
-  "lastDreamt": "2026-10-26",
+  "nights": 255,
+  "lastDreamt": "2026-10-28",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6687,6 +6687,26 @@
       "id": "the-crown-where-canopy-reaches-beyond-record",
       "title": "The Crown Where Canopy Reaches Beyond Record",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-scatter-where-pressure-learns-to-drift",
+      "title": "The Scatter Where Pressure Learns to Drift",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sky-room-where-parallel-lines-dance",
+      "title": "The Sky-Room Where Parallel Lines Dance",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-where-asking-becomes-dangerous",
+      "title": "The Chamber Where Asking Becomes Dangerous",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-reawakening-current-chamber",
+      "title": "The Reawakening Current Chamber",
+      "region": "The Comparisons"
     }
   ]
 }

@@ -1,0 +1,150 @@
+{
+  "id": "the-reawakening-current-chamber",
+  "title": "The Reawakening Current Chamber",
+  "region": "The Comparisons",
+  "seed": 29384,
+  "palette": {
+    "bg": "#1a2a1a",
+    "ground": [
+      "#3d7a3d",
+      "#2d6622"
+    ],
+    "ink": "#d4ffd4",
+    "accents": [
+      "#66ff99",
+      "#00ddff",
+      "#ffaa66",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.75
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "current-rows awakening",
+      "desc-on-touch": "You touch where water that forgot how to move is remembering. The rows are not trees; they are streamlines, the archive's memory of how water learned to dance.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 2938,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "sediment-settling ceremony",
+      "desc-on-touch": "You watch what was scattered and unsettled learning to rest again, but in new patterns. The archive reads as sediment writes itself into different shapes.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4192,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "fence line where current turns",
+      "desc-on-touch": "You trace an old fence, now learning to bend. The water has come back, and the boundary between wet and dry is no longer a line but a conversation.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 5847,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "reanimated source-pulse",
+      "desc-on-touch": "You feel from upstream: water begins to remember it wanted to flow. The pulse arrives here like a heartbeat returning, like a song the river learnt and forgot but now sings again.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3821,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "old-orchard roots",
+      "desc-on-touch": "You sense roots that drank from this water before it stopped. They waited, patient. The archive kept records of their patience. Now water comes again and they remember the taste.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 6429,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "water returns and the earth remembers how to thirst",
+  "file": {
+    "name": "Sediment_Flow_Interruption_Records_1978-2012_Resumption_Data.mp3",
+    "note": "A field recording: the moment water learned to move again, the sound of sediment settling into new patience, roots drinking again"
+  },
+  "reverie": {
+    "title": "REVERIE — the creek at dawn when flow returned",
+    "narr": [
+      "You both wade into water that remembers moving. It is cold",
+      "and alive. She says: it stopped because we asked too much.",
+      "He says: it stopped because the earth needed to rest.",
+      "The current learns your ankles. Motes float. She reaches down:",
+      "can we preserve this? The question, or the water?",
+      "He smiles: the water will preserve us if we let it."
+    ],
+    "sky": "dawn",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "southward to the unsettled chambers",
+      "to": "the-unsettled-sediment-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "northward upstream where current grows stronger",
+      "to": "NEW: the-source-where-water-remembers-itself"
+    },
+    {
+      "dir": "w",
+      "label": "westward along the orchard rows",
+      "to": "the-burl-library-grove"
+    }
+  ]
+}

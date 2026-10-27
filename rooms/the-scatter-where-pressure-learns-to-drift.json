@@ -1,0 +1,150 @@
+{
+  "id": "the-scatter-where-pressure-learns-to-drift",
+  "title": "The Scatter Where Pressure Learns to Drift",
+  "region": "The Understory",
+  "seed": 47291,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f4c7a",
+      "#2d6a8c"
+    ],
+    "ink": "#e0f7ff",
+    "accents": [
+      "#00d4ff",
+      "#ff00ff",
+      "#ffffff",
+      "#ffaa00"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "broken seal records",
+      "desc-on-touch": "You touch them and they scatter further, fragments of testimony becoming unmoored from their context, pressure releasing across a thousand paths at once.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 4729,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "glass tide-drift",
+      "desc-on-touch": "You feel the pressure that made the glass also carried it here; the moment when force becomes distribution, when one weight becomes infinite small ones.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5831,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "pressure-memory ledger",
+      "desc-on-touch": "You find a half-buried record: each line begins with testimony and ends with question marks, pressure written as increasingly sparse notation.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 2947,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "unmoored antenna",
+      "desc-on-touch": "You see a casing meant for a tree, cast loose, its signal now scattering instead of broadcasting. The pressure of questions it carried has become static, reaching everywhere and nowhere.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 6184,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "argument-spill",
+      "desc-on-touch": "You walk through scattered lines of an old debate that have become sediment finding new arrangements, where pressure held something still but has now learned to move.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 3521,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "pressure learns here that to break is to become infinite",
+  "file": {
+    "name": "Tidal_Glass_Pressure_Readings_1987-2001.txt",
+    "note": "Records where tide-force scattered testimony into fragments; each fragment has become its own witness, and they do not agree with one another"
+  },
+  "reverie": {
+    "title": "REVERIE — the beach where pressure becomes many",
+    "narr": [
+      "She stands at the glass line where tide has scattered shells.",
+      "He asks: what if the archive preserves everything but learns",
+      "nothing stays whole? She touches a piece. It is warm and light",
+      "in her palm. The pressure that made it is gone, but the shape",
+      "remembers. He says: maybe that is enough. Maybe fragments",
+      "have their own testimony. You both stand in the scatter."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "southward into the shore's pressure-memory",
+      "to": "the-shoreline-where-pressure-becomes-testimony"
+    },
+    {
+      "dir": "n",
+      "label": "northward into deepening scatter",
+      "to": "NEW: the-current-that-learned-it-could-forget"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the tide returns",
+      "to": "the-tide-that-learned-to-speak-to-stone"
+    }
+  ]
+}

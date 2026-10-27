@@ -1,0 +1,10 @@
+featured: The Chamber Where Asking Becomes Dangerous (the-chamber-where-asking-becomes-dangerous)
+region: The Understory · motif: board
+inscription: here asking learned to carry the weight of what it might uncover
+file: Archive_Founders_Debate_Unresolved_1993_Present.txt
+
+all nodes tonight:
+  · The Scatter Where Pressure Learns to Drift
+  · The Sky-Room Where Parallel Lines Dance
+  · The Chamber Where Asking Becomes Dangerous
+  · The Reawakening Current Chamber
