@@ -1,0 +1,149 @@
+{
+  "id": "the-ancient-ledger-chamber",
+  "title": "The Ancient Ledger Chamber",
+  "region": "The Understory",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#0a0f0d",
+    "ground": [
+      "#2a3d2d",
+      "#1a2a1f"
+    ],
+    "ink": "#e8d4b8",
+    "accents": [
+      "#c4a878",
+      "#8b6f47",
+      "#d4b896",
+      "#5a4d3a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the ledger that rewrites itself",
+      "desc-on-touch": "Stone pages, each entry older than the last. Debts recorded in a language the bedrock speaks when nobody is watching. The sums never settle; they grow sideways instead of down.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 4927183,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the weight that learned to dream",
+      "desc-on-touch": "A mass of stone compressed until it became conscious of what it owed. You feel it thinking downward, calculating an infinite debt, and knowing that being remembered is a kind of payment.",
+      "verb": "reverie",
+      "form": {
+        "type": "tower",
+        "seed": 7382945,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the settlement that will never come",
+      "desc-on-touch": "An arch carved from obsidian that marks the point where debts learned they could grow. The corruption loves this place—debts multiplying without being forgiven, without being forgotten.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 6184729,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the roots beneath the ledger",
+      "desc-on-touch": "Thick root systems pushing through stone, making their own entries, their own calculations. The roots owe the stone, the stone owes the roots. Neither knows how long this has been settling.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 2947381,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the chamber wall that counts currency",
+      "desc-on-touch": "A surface where debts have become stone markings, calcified payment-attempts. The older debts have learned to echo newer ones. The wall hums with old arithmetic.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 8374619,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the unpaid things learn that forgetting is the only possible form of payment",
+  "file": {
+    "name": "Bedrock_Ledger_1803-Undated.txt",
+    "note": "A record of debts in a handwriting that changes as you read, shifting between suppliers, debtors, and the earth itself. The balance never clears. The corruption has made the earliest entries the most "
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward toward the dream that learned breathing",
+      "to": "where-unpaid-things-learn-to-dream"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into older ledgers, where debt becomes indistinguishable from stone",
+      "to": "NEW: the foundation where every debt becomes part of the architecture"
+    },
+    {
+      "dir": "e",
+      "label": "across bedrock to where settlements arrive backwards in time",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — dusk on the red earth, the accounting",
+    "narr": [
+      "you knelt beside her on the ridge where the land owed",
+      "them nothing, where they owed it everything. she traced",
+      "a line in the dust with her finger. that is what we pay",
+      "with, she said. the line. not the settling. just the mark",
+      "of trying, and the trying never finishes."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "the-numbered-understory-that-never-reaches-zero",
+  "title": "The Numbered Understory That Never Reaches Zero",
+  "region": "The Understory",
+  "seed": 7482916,
+  "palette": {
+    "bg": "#1a2a1f",
+    "ground": [
+      "#3d5a3d",
+      "#5a7a5a"
+    ],
+    "ink": "#c4d8c4",
+    "accents": [
+      "#8ab88a",
+      "#a8d4a8",
+      "#6b9d6b",
+      "#2d4d2d"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the counting spiral",
+      "desc-on-touch": "Numbers carved backward into the earth, spiraling deeper. The sequence never completes—each ring reveals an older, longer count, as though the orchard was always larger than it knew.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2847491,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the ledger roots",
+      "desc-on-touch": "Where bark and paper become the same thing. Root-thick pages, numbered lines that shift when not read directly, ink that tastes like soil.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5182734,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the echo that counts itself",
+      "desc-on-touch": "A voice in the soil, numbering the dark. It has been counting so long that it has forgotten what it was counting, and began counting the forgetting itself.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 3927654,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the stone that keeps the place",
+      "desc-on-touch": "A burl of stone, smooth from the hands of counters. You run your fingers down it and feel the marks of fingers that have counted the same stone so many times it has learned to count itself.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 1654782,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the numbering air",
+      "desc-on-touch": "The darkness itself is numbered. Not in sequence—in depth. The deeper you descend, the older the numbers become, and the counting echoes upward from a root system that will never be fully mapped.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 8371945,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the numbering continues, older and slower, toward a zero that will never arrive",
+  "file": {
+    "name": "Orchard_Enumeration_1947-Ongoing.mp3",
+    "note": "A field recording of counting voices from the orchard soil, played backward, forward, then in the third direction nobody teaches. The numbering has started to include trees that fell centuries ago."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through the roots",
+      "to": "the-orchard-s-final-count"
+    },
+    {
+      "dir": "s",
+      "label": "deeper where the next number is learning to grow",
+      "to": "NEW: where the counting buries itself and the zero becomes less certain"
+    },
+    {
+      "dir": "e",
+      "label": "sideways toward the counting that eats itself",
+      "to": "the-recursive-mirror"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — afternoon, the orchard, the counting",
+    "narr": [
+      "she stood in the rows and called the numbers aloud.",
+      "you moved through the trees, placing stones where she",
+      "had passed, a counter's counter, each stone a mark.",
+      "neither of you would see the same orchard twice.",
+      "the counting continued after you left. still does."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  }
+}

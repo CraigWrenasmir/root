@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 255,
-  "lastDreamt": "2026-10-28",
+  "nights": 256,
+  "lastDreamt": "2026-10-29",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6707,6 +6707,26 @@
       "id": "the-reawakening-current-chamber",
       "title": "The Reawakening Current Chamber",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-numbered-understory-that-never-reaches-zero",
+      "title": "The Numbered Understory That Never Reaches Zero",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ancient-ledger-chamber",
+      "title": "The Ancient Ledger Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-altitude-where-axioms-dissolve-into-sky",
+      "title": "The Altitude Where Axioms Dissolve Into Sky",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-peak-where-numbers-lose-their-ground",
+      "title": "The Peak Where Numbers Lose Their Ground",
+      "region": "The Understory"
     }
   ]
 }

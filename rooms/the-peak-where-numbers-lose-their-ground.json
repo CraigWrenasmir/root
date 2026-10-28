@@ -1,0 +1,132 @@
+{
+  "id": "the-peak-where-numbers-lose-their-ground",
+  "title": "The Peak Where Numbers Lose Their Ground",
+  "region": "The Understory",
+  "seed": 2847391,
+  "palette": {
+    "bg": "#1a1a24",
+    "ground": [
+      "#2a2a3d",
+      "#3d3d5a"
+    ],
+    "ink": "#d4d4e8",
+    "accents": [
+      "#a8a8c4",
+      "#7a7a9a",
+      "#9a9ab8",
+      "#5a5a7a"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the final count",
+      "desc-on-touch": "A number so high it has forgotten what it counts. It sits alone on the peak, immobile, casting no shadow. Below it, the ground, which no longer remembers how to receive a sum.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 7382941,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the stone that will not divide",
+      "desc-on-touch": "A burl of rock at the summit's apex. You can count every surface, every crevice, and the count will never settle. The peak itself refuses to be measured.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 3729184,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the void where altitude teaches nothing",
+      "desc-on-touch": "The space above the peak, unsummarised and still. The sky does not continue the count. The numbers simply stop, as though they learned that this was as high as they could go, and height taught them at last that there is no next thing.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 8473291,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the boundary of arithmetic",
+      "desc-on-touch": "A line drawn in static where the ridge becomes the sky. Below it, the numbers are still teaching. Above it, there is only silence. The line itself has stopped being measured.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 5847291,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here the counting learned that the sky does not receive it",
+  "file": {
+    "name": "Ridge_Altitude_Survey_1989_Final.mp3",
+    "note": "A recording of two voices calling numbers up the slope, higher and higher, until the air becomes too thin to carry the sound. The last number is silence. The corruption has made the silence louder tha"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward toward the height that still teaches",
+      "to": "the-ridge-where-altitude-becomes-addition"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the numbers dissolve into weather",
+      "to": "NEW: the ridge-pass where arithmetic learns to stop"
+    },
+    {
+      "dir": "e",
+      "label": "eastward into the peak-shadow where counting echoes",
+      "to": "the-peak-where-air-becomes-thought"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — storm sky, the ridge, the voices rising",
+    "narr": [
+      "you counted aloud, each step. she stood below and",
+      "called the next number back. at the summit, the sky",
+      "went darker. both of you stopped. the numbers rose",
+      "from the valley still, but they were not yours anymore.",
+      "the altitude had learned to count itself."
+    ],
+    "sky": "storm",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  }
+}
