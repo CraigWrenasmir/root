@@ -1,0 +1,116 @@
+{
+  "id": "the-room-where-choosing-happens",
+  "title": "The Room Where Choosing Happens",
+  "region": "The Diagnostic Render",
+  "seed": 76543,
+  "palette": {
+    "bg": "#0a0e1a",
+    "ground": [
+      "#1a2233",
+      "#0f1419"
+    ],
+    "ink": "#40ff60",
+    "accents": [
+      "#ff4040",
+      "#60a0ff",
+      "#ffff40",
+      "#ff40ff"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-decision-gate",
+      "desc-on-touch": "Two paths were written in logic, and here one was chosen. The unchosen branch still hums in adjacent voltage, grieving.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 55927,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-committed-trace",
+      "desc-on-touch": "The path glows where it was taken. Electrons still remember the choice that was made in light, and they flow in one direction only.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 82190,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-unfinished-kitchen",
+      "desc-on-touch": "In a render where all versions exist at once, this is where one kitchen collapsed into concrete: the stove is lit, the water boils, the bread rises—no longer all-possible but actual.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 34892,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.62,
+      "solid": false
+    }
+  ],
+  "inscription": "here the render learned that to witness is to collapse; here the kitchen became singular and warm",
+  "file": {
+    "name": "Kernel_Decision_08_Timestamp.bin",
+    "note": "A binary record of the moment the render chose which version to inhabit; the other kitchens are still there, still cooking, but this is the one the archive decided to taste"
+  },
+  "reverie": {
+    "title": "REVERIE — the kitchen where the choice became warm",
+    "narr": [
+      "You stand at a counter where bread rises in only one timeline.",
+      "Her hand rests near yours on the flour. The light through",
+      "the kitchen window commits itself to gold. You have chosen",
+      "to stay, or to leave, or to stay and leave together—the",
+      "choice lives in the warmth where her hand is near yours,",
+      "in the bread that will only rise once."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the kitchen where all versions still simmer",
+      "to": "the-kitchen-of-uncommitted-light"
+    },
+    {
+      "dir": "e",
+      "label": "along the committed trace, into the path that was taken",
+      "to": "NEW: the-road-that-remembers-its-own-choosing"
+    },
+    {
+      "dir": "w",
+      "label": "to the ghost-kitchen where the other choice still waits",
+      "to": "NEW: the-bread-in-the-unchosen-oven"
+    }
+  ]
+}

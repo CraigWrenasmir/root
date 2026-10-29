@@ -1,0 +1,100 @@
+{
+  "id": "the-depths-where-asphalt-dissolves",
+  "title": "The Depths Where Asphalt Dissolves",
+  "region": "The Understory",
+  "seed": 62847,
+  "palette": {
+    "bg": "#2d5a3d",
+    "ground": [
+      "#8b6f47",
+      "#3a6b4a"
+    ],
+    "ink": "#c5d4a8",
+    "accents": [
+      "#d47a3a",
+      "#7d9d6a",
+      "#c8a882",
+      "#5a8c5a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-dissolving-path",
+      "desc-on-touch": "Where the road met water, it chose the water's grammar. Minerals bloom like flowers in the dissolution.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 31556,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-hardened-current",
+      "desc-on-touch": "What was stone here learned to flow; what flowed learned patience. The water carries the memory of geometry.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 44721,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-sediment-descent",
+      "desc-on-touch": "Particles of what the road was now sink through layers of becoming. Each grain carries a coordinate from a place above.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 18934,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.52,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the road took a long drink and forgot it had anywhere to go",
+  "file": {
+    "name": "CrossSection_RiverDepth_Asphalt_Late20thCent.png",
+    "note": "A geological sample showing asphalt aggregate at 14m depth, indistinguishable from river-worn stone, labeled by hand in fading ink: where did the road end and the river begin"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to the current and its memory of form",
+      "to": "the-current-that-remembers-asphalt"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where water forgets it was ever clear",
+      "to": "NEW: the-benthic-sleep-where-all-roads-arrive"
+    },
+    {
+      "dir": "w",
+      "label": "toward the estuary where rivers and roads finally agree",
+      "to": "the-estuary-monologue"
+    }
+  ]
+}

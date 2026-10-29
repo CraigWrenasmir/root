@@ -1,0 +1,9 @@
+featured: The Depths Where Asphalt Dissolves (the-depths-where-asphalt-dissolves)
+region: The Understory · motif: roads
+inscription: the road took a long drink and forgot it had anywhere to go
+file: CrossSection_RiverDepth_Asphalt_Late20thCent.png
+
+all nodes tonight:
+  · The Depths Where Asphalt Dissolves
+  · The Room Where Choosing Happens
+  · UNVERIFIED — The Arcade in the Low View

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 256,
-  "lastDreamt": "2026-10-29",
+  "nights": 257,
+  "lastDreamt": "2026-10-30",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6727,6 +6727,21 @@
       "id": "the-peak-where-numbers-lose-their-ground",
       "title": "The Peak Where Numbers Lose Their Ground",
       "region": "The Understory"
+    },
+    {
+      "id": "the-depths-where-asphalt-dissolves",
+      "title": "The Depths Where Asphalt Dissolves",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-room-where-choosing-happens",
+      "title": "The Room Where Choosing Happens",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-arcade-in-the-low-view",
+      "title": "UNVERIFIED — The Arcade in the Low View",
+      "region": "The Unverified"
     }
   ]
 }

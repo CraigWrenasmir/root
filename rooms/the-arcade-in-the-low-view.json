@@ -1,0 +1,116 @@
+{
+  "id": "the-arcade-in-the-low-view",
+  "title": "UNVERIFIED — The Arcade in the Low View",
+  "region": "The Unverified",
+  "seed": 91234,
+  "palette": {
+    "bg": "#4a5650",
+    "ground": [
+      "#6b7d72",
+      "#5a6b62"
+    ],
+    "ink": "#d4e6db",
+    "accents": [
+      "#ff4488",
+      "#00ddff",
+      "#ffff00",
+      "#88ff00"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.65
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-neon-through-the-window",
+      "desc-on-touch": "The arcade lives outside, across the street. Its lights bleed through the glass and color the dust that drifts across pages you will never finish reading.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 47829,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-couch-and-its-reader",
+      "desc-on-touch": "A low place where time holds still. The book is open; the person reading it has made a choice to stay here, in this moment, while the world and its arcades continue outside.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 12956,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.58,
+      "solid": true
+    },
+    {
+      "name": "the-car-that-slowed",
+      "desc-on-touch": "Headlights swept across the front window. Someone was looking for someone. The car did not stop.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 38472,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.42,
+      "solid": false
+    }
+  ],
+  "inscription": "the arcade games blink in the peripheral light while someone stays still and reads",
+  "file": {
+    "name": "Half_Read_Book_Dogear_Page_147.txt",
+    "note": "The last page read aloud in a whisper, never finished: they asked if I wanted to go. I asked what was outside. They said the arcade, and the car, and tomorrow. I turned the page instead"
+  },
+  "reverie": {
+    "title": "REVERIE — the couch where you chose to stay",
+    "narr": [
+      "The couch holds the shape of two bodies now, though only",
+      "one reads. Arcade light blooms and fades on the opposite",
+      "side of glass. A car slows outside; you both listen without",
+      "looking. She asks if you want to go. You turn a page instead.",
+      "The light comes and goes. The book in your hands is warm.",
+      "This is the moment you will stay. This is the choice."
+    ],
+    "sky": "dusk",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back to the couch by the front window, where the choice is still being made",
+      "to": "the-couch-by-the-front-window"
+    },
+    {
+      "dir": "e",
+      "label": "across the street to the arcade where the lights still blink",
+      "to": "NEW: the-abandoned-arcade-where-games-dream-of-players"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the book, to the pages that were never reached",
+      "to": "NEW: the-library-of-interrupted-reading"
+    }
+  ]
+}

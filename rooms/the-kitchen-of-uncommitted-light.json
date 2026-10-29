@@ -106,7 +106,7 @@
     {
       "dir": "n",
       "label": "through a doorway that exists in only one version of the house",
-      "to": "NEW: the-room-where-choosing-happens"
+      "to": "the-room-where-choosing-happens"
     },
     {
       "dir": "e",
