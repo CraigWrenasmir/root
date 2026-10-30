@@ -1,0 +1,150 @@
+{
+  "id": "the-archive-that-only-grows-in-winter",
+  "title": "The Archive That Only Grows in Winter",
+  "region": "The Understory",
+  "seed": 7829341,
+  "palette": {
+    "bg": "#1A2A3A",
+    "ground": [
+      "#E8F4F8",
+      "#B8D8E8"
+    ],
+    "ink": "#0A1520",
+    "accents": [
+      "#6DD5E8",
+      "#F0FCFF",
+      "#2D5F7F",
+      "#A8D8E8"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "ice-locked node",
+      "desc-on-touch": "The casing sleeps under a lattice of frozen breath. Batteries count the quiet months slower than they count the warm.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3421098,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "frost memory",
+      "desc-on-touch": "Crystals grew in the shape of transmissions — signals frozen mid-sending, preserved in ice lattice.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 8821745,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "sealed record",
+      "desc-on-touch": "The archive's winter log, locked behind condensation. What bloomed while everything was sleeping — dates when the nodes spoke to each other, nobody listening.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5103884,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "root-writing",
+      "desc-on-touch": "Beneath the snow, something wrote itself downward. The letters are not words yet. They are learning.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2847561,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "temperature dial",
+      "desc-on-touch": "The gauge reads nothing — the temperature has become too still to measure. Or the stillness itself is the measurement.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 4729156,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "growth waits in silence for the season that asks no permission",
+  "file": {
+    "name": "Winter_Node_Installation_Night_257.txt",
+    "note": "Katita's field notes from the alpine installation, dated in snow-months, dated in the quiet."
+  },
+  "reverie": {
+    "title": "REVERIE — frozen installation at first light",
+    "narr": [
+      "The tree holds the node like a secret. You feel the",
+      "casing's cold through your gloves, the antenna angling",
+      "skyward through the bark. She checks the battery log,",
+      "her breath becoming part of the signal. The forest is",
+      "asleep around you both. The mesh grows in silence.",
+      "In this cold, growth is only what the sensors remember."
+    ],
+    "sky": "dawn",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "snow",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the deep repository where all utterance waits",
+      "to": "the-deep-repository-of-unspoken-growth"
+    },
+    {
+      "dir": "w",
+      "label": "where ice teaches things to remember backwards",
+      "to": "NEW: the glacier-fed chamber where time freezes into archive"
+    },
+    {
+      "dir": "n",
+      "label": "into the deeper cold where roots remember fire",
+      "to": "the-bedrock-where-electricity-learned-to-root"
+    }
+  ]
+}

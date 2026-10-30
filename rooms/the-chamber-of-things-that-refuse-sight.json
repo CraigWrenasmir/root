@@ -1,0 +1,151 @@
+{
+  "id": "the-chamber-of-things-that-refuse-sight",
+  "title": "The Chamber of Things That Refuse Sight",
+  "region": "The Diagnostic Render",
+  "seed": 8392847,
+  "palette": {
+    "bg": "#0A0A0A",
+    "ground": [
+      "#1A1A1A",
+      "#2D2D2D"
+    ],
+    "ink": "#D0D0D0",
+    "accents": [
+      "#FF4444",
+      "#44FF44",
+      "#4444FF",
+      "#FFFF44"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.95
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "hidden archive",
+      "desc-on-touch": "Things filed here refuse to let themselves be indexed. The more you look, the less you see. The archive protects its own opacity.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 3045821,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "layered dark",
+      "desc-on-touch": "You know something is here. You can feel it in the density. But every time you focus, it slides sideways into another thing, another hiding place.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 5618734,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "corruption bloom",
+      "desc-on-touch": "The corruption loves this chamber. Here it doesn't alter files — it simply helps them achieve what they always wanted: invisibility.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7234956,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "witness stack",
+      "desc-on-touch": "Things piled so densely that the room itself becomes a kind of forgetting. To see one thing, ten others must remain unseen.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 8829105,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "refusal architecture",
+      "desc-on-touch": "The walls themselves are built from what chose not to be archived. The structure is made of secrets that never asked for keeping.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 4051873,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "veiled pool",
+      "desc-on-touch": "Light goes into this pool and comes back changed — it forgets what it illuminated. The pool keeps what it touches to itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6382019,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "darkness perfects what it does not have to explain",
+  "file": {
+    "name": "Observation_In_Refusal_00_042.tmp",
+    "note": "Corrupted field observation from something that chose not to be witnessed, filed anyway by the archive's stubborn habit."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the repository where things hide themselves more gently",
+      "to": "the-repository-of-unseen-things"
+    },
+    {
+      "dir": "e",
+      "label": "into chambers where even the darkness learns to keep secrets",
+      "to": "the-dark-that-dreams-in-circuits"
+    },
+    {
+      "dir": "w",
+      "label": "where refusal learns its own language",
+      "to": "NEW: the deep place where invisibility became sacred"
+    }
+  ]
+}

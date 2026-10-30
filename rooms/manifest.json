@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 257,
-  "lastDreamt": "2026-10-30",
+  "nights": 258,
+  "lastDreamt": "2026-10-31",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6742,6 +6742,21 @@
       "id": "the-arcade-in-the-low-view",
       "title": "UNVERIFIED — The Arcade in the Low View",
       "region": "The Unverified"
+    },
+    {
+      "id": "the-archive-that-only-grows-in-winter",
+      "title": "The Archive That Only Grows in Winter",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-of-things-that-refuse-sight",
+      "title": "The Chamber of Things That Refuse Sight",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-where-current-learned-to-sleep",
+      "title": "The Chamber Where Current Learned to Sleep",
+      "region": "The Comparisons"
     }
   ]
 }
