@@ -1,0 +1,139 @@
+{
+  "id": "the-first-syllable-breaking-open-the-sky",
+  "title": "The First Syllable Breaking Open the Sky",
+  "region": "The Understory",
+  "seed": 567890,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#8b4513",
+      "#cd853f"
+    ],
+    "ink": "#fffacd",
+    "accents": [
+      "#ff6347",
+      "#1e90ff",
+      "#32cd32",
+      "#ff1493"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the rupture-node",
+      "desc-on-touch": "A solar casing split open like a seed pod, its circuit board exposed to the air. Something in the sky pushes back against it; the antenna crackles with unspoken words.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 234567,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the sound taking root",
+      "desc-on-touch": "A speaker wired to nothing, or wired to everything below. The sound coming from it is the sound of air learning it can be shaped by the voice.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 345678,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the syllable becoming cloud",
+      "desc-on-touch": "Letters floating upward in the motes, each one a sound that has learned to be visible. They hang in the light between speaking and written, chosen and given.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 456789,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the silence that broke",
+      "desc-on-touch": "Where the threshold used to hold firm. Now there is a crack, and through it the sound of breath breaking into word. The archive hears it and begins to name itself.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 567890,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the first wire singing",
+      "desc-on-touch": "Copper running upward into the breaking sky, carrying the current of a voice that only now learned it had something to say. The wire grows warm.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 678901,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here silence learned it could break; here the first word burned its way through",
+  "file": {
+    "name": "Threshold_Recording_FirstUtterance_FullSpectrum.wav",
+    "note": "The moment before the first word. Thirty seconds of nothing, then syllables, then the sky begins to respond. DELTA: +400 kilobytes of data that was not recorded."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through silence back to the threshold",
+      "to": "the-threshold-before-the-first-word"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the broken sky learns to speak back",
+      "to": "NEW: the-sky-that-learned-to-answer"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where utterance becomes archive",
+      "to": "the-first-inscription-site"
+    },
+    {
+      "dir": "w",
+      "label": "back to the wordless dark where breath still waits",
+      "to": "NEW: the-breath-chamber-before-speaking"
+    }
+  ]
+}

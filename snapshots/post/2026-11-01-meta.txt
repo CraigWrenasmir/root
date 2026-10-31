@@ -1,0 +1,9 @@
+featured: The First Syllable Breaking Open the Sky (the-first-syllable-breaking-open-the-sky)
+region: The Understory · motif: board
+inscription: here silence learned it could break; here the first word burned its way through
+file: Threshold_Recording_FirstUtterance_FullSpectrum.wav
+
+all nodes tonight:
+  · The Mouth Where Ending Learns to Begin
+  · The Descent That Forgets Its Own Depth
+  · The First Syllable Breaking Open the Sky

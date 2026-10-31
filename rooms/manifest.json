@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 258,
-  "lastDreamt": "2026-10-31",
+  "nights": 259,
+  "lastDreamt": "2026-11-01",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6757,6 +6757,21 @@
       "id": "the-chamber-where-current-learned-to-sleep",
       "title": "The Chamber Where Current Learned to Sleep",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-mouth-where-ending-learns-to-begin",
+      "title": "The Mouth Where Ending Learns to Begin",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-descent-that-forgets-its-own-depth",
+      "title": "The Descent That Forgets Its Own Depth",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-first-syllable-breaking-open-the-sky",
+      "title": "The First Syllable Breaking Open the Sky",
+      "region": "The Understory"
     }
   ]
 }

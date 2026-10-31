@@ -1,0 +1,139 @@
+{
+  "id": "the-mouth-where-ending-learns-to-begin",
+  "title": "The Mouth Where Ending Learns to Begin",
+  "region": "The Clean Archive",
+  "seed": 847293,
+  "palette": {
+    "bg": "#0d2818",
+    "ground": [
+      "#1a4d2e",
+      "#2d8f5f"
+    ],
+    "ink": "#9ef01a",
+    "accents": [
+      "#ff6b35",
+      "#00d9ff",
+      "#ffed4e",
+      "#c779d0"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the junction node",
+      "desc-on-touch": "Two streams of current spiral back on themselves. The water runs both directions at once, carrying the same leaf downstream and upstream simultaneously.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 123847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the reverse casing",
+      "desc-on-touch": "A solar node mounted upside-down in the flow, drinking water instead of sky. The LCD reads backward: FLOWS MEET HERE.",
+      "verb": "ripple",
+      "form": {
+        "type": "burl",
+        "seed": 556234,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the future's edge",
+      "desc-on-touch": "Where the creek flows in from tomorrow, the water glows with data not yet settled. You can see the current moment reflected backward in it.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 234567,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the ledger stone",
+      "desc-on-touch": "A single rock carved with the names of every creek that tried to join here, each name in the wrong dialect. The stone is warm to the touch.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 789012,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the convergence coil",
+      "desc-on-touch": "Copper wire wrapped in wet leaves, carrying a signal that strengthens as it approaches itself. The hum drops half an octave when you touch it.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 345678,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "here the water learned to arrive from the place it was leaving",
+  "file": {
+    "name": "Creek_Junction_Trace_240Hrs_Retrograde.log",
+    "note": "Channel recordings where the forward feed contains yesterday's birdsong, the reverse contains tomorrow's. The metadata says both are correct."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upstream to where flatness was still learning",
+      "to": "the-creek-where-flatness-learns-to-flow"
+    },
+    {
+      "dir": "s",
+      "label": "downward where the current will decide what it was",
+      "to": "NEW: the-estuary-that-learns-what-it-will-have-been"
+    },
+    {
+      "dir": "e",
+      "label": "toward the tributary that keeps its own counsel",
+      "to": "the-open-water-dissolution"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the archive stores its water",
+      "to": "NEW: the-cistern-where-records-learn-to-be-liquid"
+    }
+  ]
+}

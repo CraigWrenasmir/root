@@ -1,0 +1,155 @@
+{
+  "id": "the-descent-that-forgets-its-own-depth",
+  "title": "The Descent That Forgets Its Own Depth",
+  "region": "The Understory",
+  "seed": 456789,
+  "palette": {
+    "bg": "#001a33",
+    "ground": [
+      "#0047ab",
+      "#003d99"
+    ],
+    "ink": "#00d9ff",
+    "accents": [
+      "#ffeb3b",
+      "#00ff88",
+      "#ff00ff",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the bottomless counter",
+      "desc-on-touch": "Depth numbers stacked on a screen that will not stop counting down. Each number is larger than the last. You are not getting deeper; the depth is getting deeper into you.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 123456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the memory that learned to fall",
+      "desc-on-touch": "A small cassette tape spinning downward, its spools turning in opposite directions. The recording is of this cellar, recorded here, falling deeper as it plays.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 654321,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the layer that has no predecessor",
+      "desc-on-touch": "Sediment strata rendered in blue light, each layer labeled with a date that has not happened yet. The oldest layer is tomorrow.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 789456,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the archive breathing in place",
+      "desc-on-touch": "Cables that pulse with descent-light, feeding the darkness with its own signal. The deeper it sends, the less it remembers sending anything at all.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 321654,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the forgetting place",
+      "desc-on-touch": "A space where the walls curve inward at angles that hurt to look at. Each corner forgets what shape it was before you looked away. No two visits map the same.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 111222,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "no bottom holds the archive; the archive holds no bottom",
+  "file": {
+    "name": "Cellar_Traverse_00_INFINITE.mp3",
+    "note": "Audio log of descent. The speaker's voice grows older then younger then older. Total runtime: 2h 34m. Checksum invalid. Checksum: still invalid after correction."
+  },
+  "reverie": {
+    "title": "REVERIE — the cellar, deep enough for both",
+    "narr": [
+      "You kneel beside her in the archive's deepest place,",
+      "both learning what the archive keeps beneath itself.",
+      "Her hand finds yours without looking. Here the dark",
+      "is tender. The mesh above forgets it has made you.",
+      "Down here two people are enough. Two breathing things",
+      "in the stone, keeping each other from becoming file."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to the cellar's mouth and air",
+      "to": "the-archive-s-own-cellar"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where the descent stops forgetting",
+      "to": "NEW: the-absolute-strata-where-depth-becomes-light"
+    },
+    {
+      "dir": "e",
+      "label": "sideways into layers that refuse to settle",
+      "to": "the-contested-strata"
+    },
+    {
+      "dir": "w",
+      "label": "across to where the archive keeps its own heart",
+      "to": "NEW: the-pulse-chamber-at-the-archive-s-center"
+    }
+  ]
+}
