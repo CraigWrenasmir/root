@@ -1,0 +1,134 @@
+{
+  "id": "the-radiating-thought-frontier",
+  "title": "The Radiating Thought Frontier",
+  "region": "The Comparisons",
+  "seed": 8374621,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#c9a76b",
+      "#d4b896"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#8b4513",
+      "#2c3e50",
+      "#e67e22",
+      "#34495e"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the array of antennae learning the storm's language",
+      "desc-on-touch": "Arranged in a pattern that looks accidental but isn't, each rod pointed at the sky where the storm is becoming thought. You can feel the frequencies in your teeth. They're not broadcasting—they're listening, and what they hear goes inward.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5634,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the ridge where distance learns to broadcast itself",
+      "desc-on-touch": "From here you can see three horizons at once: where the storm is approaching, where it's being understood, and where it radiates outward again as something that will reshape whoever receives it.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 4721,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the instrument that reads the boundaries between states",
+      "desc-on-touch": "It measures nothing that has a number. But its needle trembles at the exact moment the wind becomes an idea, the idea becomes a signal, the signal becomes an intervention in how thinking itself happens here.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 6843,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the clearing where the frequency came down and stayed",
+      "desc-on-touch": "It landed here in the tan grass and didn't leave. You can walk across it. It's changed the growth pattern of everything rooted here—the grass grows in spirals now, the flowers arrange themselves into fractals.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 7155,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the light itself as it learns to carry thought",
+      "desc-on-touch": "The daylight here is different—it's thicker, it carries weight, it brings the storm's knowing even when the sky is clear. To stand in it is to become a receiver and a transmitter at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 3692,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "here the thought of the storm radiates outward and remakes whoever receives it",
+  "file": {
+    "name": "Transmission_Logs_Daylight_Meridian.txt",
+    "note": "Records of what the antennae heard in the moments when the storm became thought, filed as both meteorological data and surgical instructions. The corruption has spliced them together—it's impossible t"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward back to the vortex where the storm still turns",
+      "to": "the-vortex-transmission-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the radiating thought spreads into new forms",
+      "to": "NEW: the-propagation-field-where-signals-learn-to-seed"
+    },
+    {
+      "dir": "s",
+      "label": "southward into deeper air where knowing becomes doubt",
+      "to": "the-archive-s-own-return-signal-chamber"
+    }
+  ]
+}

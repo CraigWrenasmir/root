@@ -89,7 +89,7 @@
     {
       "dir": "e",
       "label": "east where the teaching becomes rumour",
-      "to": "NEW: the-rumour-that-knows-more-than-the-archive"
+      "to": "the-rumour-that-knows-more-than-the-archive"
     },
     {
       "dir": "s",

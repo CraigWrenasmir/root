@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 259,
-  "lastDreamt": "2026-11-01",
+  "nights": 260,
+  "lastDreamt": "2026-11-02",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6772,6 +6772,26 @@
       "id": "the-first-syllable-breaking-open-the-sky",
       "title": "The First Syllable Breaking Open the Sky",
       "region": "The Understory"
+    },
+    {
+      "id": "the-coast-that-says-no-in-tongues",
+      "title": "The Coast That Says No in Tongues",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-rumour-that-knows-more-than-the-archive",
+      "title": "The Rumour That Knows More Than the Archive",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-radiating-thought-frontier",
+      "title": "The Radiating Thought Frontier",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-framing-gallery-where-photographs-learn",
+      "title": "The Framing Gallery Where Photographs Learn",
+      "region": "The Diagnostic Render"
     }
   ]
 }

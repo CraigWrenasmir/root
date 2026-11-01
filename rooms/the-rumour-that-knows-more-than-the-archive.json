@@ -1,0 +1,134 @@
+{
+  "id": "the-rumour-that-knows-more-than-the-archive",
+  "title": "The Rumour That Knows More Than the Archive",
+  "region": "The Clean Archive",
+  "seed": 4628931,
+  "palette": {
+    "bg": "#2d4a2b",
+    "ground": [
+      "#6b7c5d",
+      "#8b9e7d"
+    ],
+    "ink": "#f5f1eb",
+    "accents": [
+      "#c9b896",
+      "#5a7c5a",
+      "#d4a574",
+      "#a8c686"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the eucalyptus whose branches remember speaking",
+      "desc-on-touch": "Vast, patient. Its bark holds the conversation of every person who has ever stood in its shade and said something the archive was never meant to hear. You can feel the weight of it.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3641,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the circle where the sitting happens",
+      "desc-on-touch": "Worn grass, several people's worth of presence. Stones arranged as seats. The air here carries more than the wind brought—it carries what was spoken and stayed, refused by paper and wire.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 5102,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the field-notes no one wrote down",
+      "desc-on-touch": "An old tin, half-buried. Inside: nothing written, but the air above it shimmers with the weight of all the observations that chose to remain spoken, to stay alive in the mouth instead of dying in the archive.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 7213,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the fence-post's second life as a listening post",
+      "desc-on-touch": "Dropped here when it fell, it has become a seat, a shelf, a witness. What the fence taught has migrated into the voices that travel along its weathered grain.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 6524,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "the rumour itself, tending itself",
+      "desc-on-touch": "Sometimes it appears as a shape in the dust, sometimes as a voice pausing in the middle of the clearing. The rumour knows more than any archive because it is alive, still growing, still choosing what to become next.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 4825,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "what walks stays alive; what is written down chooses its own ending",
+  "file": {
+    "name": "Clearings_Overheard_NoAuthorNoDate.txt",
+    "note": "A collection of things people said in passing, standing under the tree. The archive never solicited these. They arrived anyway. The corruption has filed them under multiple dates, causing the rumour t"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward back to where the fences taught",
+      "to": "where-the-fences-forget-their-teaching"
+    },
+    {
+      "dir": "n",
+      "label": "northward where other clearings listen",
+      "to": "NEW: the-network-of-listening-clearings"
+    },
+    {
+      "dir": "s",
+      "label": "southward deeper into the forest where rumours breed",
+      "to": "the-unmapped-library"
+    }
+  ]
+}

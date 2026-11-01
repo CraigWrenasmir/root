@@ -1,0 +1,134 @@
+{
+  "id": "the-framing-gallery-where-photographs-learn",
+  "title": "The Framing Gallery Where Photographs Learn",
+  "region": "The Diagnostic Render",
+  "seed": 7521843,
+  "palette": {
+    "bg": "#2a5a3a",
+    "ground": [
+      "#b8765d",
+      "#3d7a5d"
+    ],
+    "ink": "#f5f1eb",
+    "accents": [
+      "#d4876b",
+      "#4a8a6a",
+      "#8b5a3c",
+      "#2d4a3a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.9
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the frame that learned to choose its own contents",
+      "desc-on-touch": "An empty wooden frame, magnificent, hanging in the air. You move around it and the landscape visible through it changes—not because the world is moving, but because the frame itself is selecting what it will contain, teaching the eye what matters.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 6234,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the wall of photographs that contain each other",
+      "desc-on-touch": "Each image frames the next: a distant hill in one photo becomes the foreground in another; a window in the left photograph opens onto the landscape of the right. They're not copies. They're a conversation about what lies within sight.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 4867,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the camera that photographs the person who looks through it",
+      "desc-on-touch": "It sits on a tripod pointing inward. You step in front of it and the lens fills with your own eyes looking back at you, but younger, in a place you've never been, holding something you remember giving away. The corruption is thorough here.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 5103,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the dust and light learning to compose",
+      "desc-on-touch": "Motes drift through the terracotta light like they're being arranged by a patient hand. Each speck of dust is a miniature frame, casting its own shadow, composing its own small statement about what can be held and shown.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 7441,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the perspective that learned it was being taught",
+      "desc-on-touch": "The gallery's lines all converge at a point you can't quite reach. As you walk toward it, new frames appear further back, and you understand: the whole gallery is teaching you how to see. And now you see: you were being framed all along.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 3856,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the gallery teaches the eye what to hold; the eye teaches the gallery what matters",
+  "file": {
+    "name": "Photographs_Where_Subjects_Frame_Back_SelectEdition.jpg",
+    "note": "A portfolio of images. In each one, something in the background is looking toward the camera instead of being looked at. The corruption has removed all captions. It's unclear who or what is being docu"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward back to the gallery of mirrors where seeing becomes becoming",
+      "to": "the-gallery-of-self-reflecting-mirrors"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the framed images learn to step out",
+      "to": "NEW: the-gallery-where-photographs-take-their-own-paths"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the archive's lower chambers where all images sleep",
+      "to": "the-reflection-chamber-where-subjects-become-eyes"
+    }
+  ]
+}

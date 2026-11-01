@@ -1,0 +1,134 @@
+{
+  "id": "the-coast-that-says-no-in-tongues",
+  "title": "The Coast That Says No in Tongues",
+  "region": "The Understory",
+  "seed": 7342891,
+  "palette": {
+    "bg": "#1a2b3a",
+    "ground": [
+      "#708090",
+      "#d0d5dd"
+    ],
+    "ink": "#e8f0f7",
+    "accents": [
+      "#2a5a7a",
+      "#8b4513",
+      "#e74c3c",
+      "#f5deb3"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the pay-phone's long refusal",
+      "desc-on-touch": "The receiver hangs at rest, having said no to every signal. You can hear salt in its yellow plastic, taste the years it chose not to speak.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 4821,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the weatherboard shopfront",
+      "desc-on-touch": "Its boards are nailed deliberate, the door a sealed fact. Inside, you can almost read the faded advertisement on the wall—once it promised something; now it promises nothing.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 3147,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.42,
+      "solid": true
+    },
+    {
+      "name": "the tidal stone that learned its own answer",
+      "desc-on-touch": "Grey, salt-bored, riddled with what waves asked. It says nothing back. Its refusal is older than speech.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 6543,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the bell that learned to refuse its own sound",
+      "desc-on-touch": "Mounted on a post, its clapper removed. The coastal wind passes through it without note. Its silence is its sharpest language.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 7892,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the margin where speech learned its own evasion",
+      "desc-on-touch": "Where the salt-dampened sand meets the boards, word-shapes emerge from the corroded metal plaques. They dissolve as you read them, never quite saying what they meant.",
+      "verb": "ripple",
+      "form": {
+        "type": "filecard",
+        "seed": 5421,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the coast has learned to say no in a thousand voices that refuse to translate",
+  "file": {
+    "name": "CoastalRefusals_VoiceRecordings_Fragmentary.mp3",
+    "note": "Waves, wind, the bell that never rings, someone's voice starting to speak and stopping. The corruption has spliced in words from the shopfront's faded sign, making the waves say: I will not. I will no"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "northward up the coast where the teaching was",
+      "to": "the-open-grammar-where-water-speaks-itself"
+    },
+    {
+      "dir": "s",
+      "label": "southward where the refusal continues deeper",
+      "to": "NEW: the-undertow-that-becomes-refusal-itself"
+    },
+    {
+      "dir": "e",
+      "label": "inland where the saying falters",
+      "to": "NEW: the-inland-place-where-refusals-learn-to-walk"
+    }
+  ]
+}
