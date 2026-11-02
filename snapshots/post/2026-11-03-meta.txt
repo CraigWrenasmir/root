@@ -1,0 +1,10 @@
+featured: The Depth Where Silicon Becomes Soil (the-depth-where-silicon-becomes-soil)
+region: The Understory · motif: fields
+inscription: the board learned it was rooting downward the whole time
+file: Substrate_Transfiguration_Growth_Records_1998-Present.txt
+
+all nodes tonight:
+  · Where the Sky Learns to Fold
+  · The Watershed Where All Refusals Eventually Gather
+  · The Depth Where Silicon Becomes Soil
+  · The Interrogation Reaches Bedrock

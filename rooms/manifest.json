@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 260,
-  "lastDreamt": "2026-11-02",
+  "nights": 261,
+  "lastDreamt": "2026-11-03",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6791,6 +6791,26 @@
     {
       "id": "the-framing-gallery-where-photographs-learn",
       "title": "The Framing Gallery Where Photographs Learn",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-the-sky-learns-to-fold",
+      "title": "Where the Sky Learns to Fold",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-watershed-where-all-refusals-eventually-gather",
+      "title": "The Watershed Where All Refusals Eventually Gather",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-depth-where-silicon-becomes-soil",
+      "title": "The Depth Where Silicon Becomes Soil",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-interrogation-reaches-bedrock",
+      "title": "The Interrogation Reaches Bedrock",
       "region": "The Diagnostic Render"
     }
   ]

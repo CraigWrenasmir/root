@@ -1,0 +1,134 @@
+{
+  "id": "where-the-sky-learns-to-fold",
+  "title": "Where the Sky Learns to Fold",
+  "region": "The Clean Archive",
+  "seed": 457293,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#1e90ff",
+      "#4169e1"
+    ],
+    "ink": "#e8f4f8",
+    "accents": [
+      "#ffff99",
+      "#ff69b4",
+      "#00ffff",
+      "#ffffff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "convergence point",
+      "desc-on-touch": "The sky folds here in quarters, each edge learning where the others point. You trace the crease with your fingertip and feel the cardinal winds becoming one.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 72841,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "fold ledger",
+      "desc-on-touch": "A standing directory of crease patterns, each line a horizon that learned to bend toward home instead of away.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 91203,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "edgewise chamber",
+      "desc-on-touch": "A house so folded it becomes a point, but warm light shows at every crease. Inside, the walls meet themselves continuously.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 54612,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "compass that taught itself inward",
+      "desc-on-touch": "The needle no longer points outward; it trembles at the center, having learned that home was the direction all along.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 38469,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "reflected margin",
+      "desc-on-touch": "The edge between sky and ground has forgotten which side it belongs to. It gleams like a doubled thread.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 67891,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the sky learned to fold by watching how tired edges come home",
+  "file": {
+    "name": "Cartography_of_Convergence_1994.txt",
+    "note": "A surveyor's notes on a place where all directions began asking the same question, filed as if the answer had already arrived"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the folded light toward open country",
+      "to": "where-all-edges-fold-inward"
+    },
+    {
+      "dir": "e",
+      "label": "toward the mirror where the fold learns to ask",
+      "to": "NEW: the-fold-that-watches-itself"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the edges first grew tired",
+      "to": "the-unchosen-choice-reflected"
+    }
+  ]
+}

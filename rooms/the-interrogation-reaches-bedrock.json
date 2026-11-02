@@ -1,0 +1,150 @@
+{
+  "id": "the-interrogation-reaches-bedrock",
+  "title": "The Interrogation Reaches Bedrock",
+  "region": "The Diagnostic Render",
+  "seed": 926341,
+  "palette": {
+    "bg": "#0d0d0d",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#d0d0e0",
+    "accents": [
+      "#00ffff",
+      "#88ff88",
+      "#ffff00",
+      "#ff00ff"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "deepening query chamber",
+      "desc-on-touch": "Each layer asks the one below it: why? The stone does not answer in words. It answers by revealing that the question itself goes down much farther than asking was ever meant to reach.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 47682,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "stone that learned to listen",
+      "desc-on-touch": "The bedrock stopped being deaf. Now it trembles at every question, and the trembling goes deeper still, a resonance in the dark that teaches interrogation to become a kind of hearing.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 53914,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "pressure-cave where wondering compressed itself into stone",
+      "desc-on-touch": "The weight of all the centuries' unasked questions pressed down so hard they crystallized into a chamber. Here, new questions press against them, and the stone itself begins to sing under the strain.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 71438,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "veins of inquiry in granite",
+      "desc-on-touch": "The white lines running through the dark rock—are they answers, or deeper questions? They branch and branch, never reaching a surface, speaking only downward in a language of mineral patience.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 64729,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the bedrock's own interrogation",
+      "desc-on-touch": "Deeper still, the stone asks itself: what am I made of? Why do I exist? The questions go down and down, and this chamber is where they finally learned that they never wanted answers at all—only to ask, forever, in the dark.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 85217,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "the question learned that its answer was always below, and below goes deeper than anything meant to return",
+  "file": {
+    "name": "Interrogation_Records_Depth_600m_Ongoing.log",
+    "note": "A seismic diary of asking and asking, the probe going down until wondering and stone became indistinguishable"
+  },
+  "reverie": {
+    "title": "REVERIE — at the borehole, midnight",
+    "narr": [
+      "You both stand at the shaft where the drill reached",
+      "bedrock. She holds the log of what it found: only",
+      "questions, layer by layer, deeper than stone had a",
+      "name for. The drill asked and asked, and the earth",
+      "answered only by going deeper. She looks at you. This",
+      "is what it means to interrogate something that will outlast you."
+    ],
+    "sky": "night",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "upward toward the root-dark where asking first began",
+      "to": "the-chamber-where-questions-learned-to-grow"
+    },
+    {
+      "dir": "s",
+      "label": "deeper toward where the stone itself begins to ask",
+      "to": "NEW: the-absolute-chamber-where-wonder-becomes-stone"
+    },
+    {
+      "dir": "w",
+      "label": "back toward the questions that haven't reached this deep",
+      "to": "the-chamber-that-became-the-question"
+    }
+  ]
+}

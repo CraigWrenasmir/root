@@ -1,0 +1,150 @@
+{
+  "id": "the-depth-where-silicon-becomes-soil",
+  "title": "The Depth Where Silicon Becomes Soil",
+  "region": "The Understory",
+  "seed": 734108,
+  "palette": {
+    "bg": "#4a1a2e",
+    "ground": [
+      "#ff6b35",
+      "#d4450e"
+    ],
+    "ink": "#fff8e7",
+    "accents": [
+      "#ff00ff",
+      "#ffaa00",
+      "#ff1493",
+      "#ffd700"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.85
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "circuit-root that learned to grow",
+      "desc-on-touch": "The trace-lines have become mycelial threads, copper turning to bronze-dark fungal growth. The component leads branch downward like roots seeking what they were always meant to feed.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 51287,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "transistor-bed where processing becomes germination",
+      "desc-on-touch": "The silicon lattice has opened. Where once electrons moved in predetermined paths, now something grows in the spaces between, speaking in the language the circuit was always trying to ask.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 63452,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "sediment-strata of discarded boards",
+      "desc-on-touch": "Layer upon layer, the defunct hardware stacked and weathered down into something like rock-bed, but still warm from the sun that feeds the growth above it.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 78965,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "arcing filament that became lightning-rod root",
+      "desc-on-touch": "The trace from some old power circuit now conducts only the slow electricity of minerals moving through dark soil, teaching the earth to remember that it once spoke in bright paths.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 42739,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "capacitor-chamber that holds both charges",
+      "desc-on-touch": "The encased material has begun to fracture along its laminations, light and dark now separated and meeting each other across the divide, each learning the language of the other.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 59281,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the board learned it was rooting downward the whole time",
+  "file": {
+    "name": "Substrate_Transfiguration_Growth_Records_1998-Present.txt",
+    "note": "Depth measurements of a place where the artificial and organic stopped being separate conversations—CHECKSUM: metamorphosis detected in storage layer"
+  },
+  "reverie": {
+    "title": "REVERIE — by the converted tree",
+    "narr": [
+      "She kneels where the buried board has started",
+      "to root. You watch her trace the transformation",
+      "with her fingers—copper to fungus, silicon to soil.",
+      "This is what it looks like when the hard things",
+      "learn to grow, she says. You both know that some",
+      "things only become themselves when they return to earth."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward where the board remembers itself",
+      "to": "the-board-beneath-the-board"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where the transformation continues",
+      "to": "the-fossil-record-becoming-conscious"
+    },
+    {
+      "dir": "w",
+      "label": "toward the forest that feeds on the conversion",
+      "to": "NEW: the-grove-where-silicon-still-dreams"
+    }
+  ]
+}

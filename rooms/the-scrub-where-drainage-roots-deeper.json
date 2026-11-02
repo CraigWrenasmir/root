@@ -116,7 +116,7 @@
     {
       "dir": "s",
       "label": "southward toward the wider catchment",
-      "to": "NEW: the-watershed-where-all-refusals-eventually-gather"
+      "to": "the-watershed-where-all-refusals-eventually-gather"
     }
   ]
 }

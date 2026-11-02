@@ -1,0 +1,167 @@
+{
+  "id": "the-watershed-where-all-refusals-eventually-gather",
+  "title": "The Watershed Where All Refusals Eventually Gather",
+  "region": "The Clean Archive",
+  "seed": 821456,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#8b7355",
+      "#6b4423"
+    ],
+    "ink": "#e8e4d0",
+    "accents": [
+      "#3cb371",
+      "#ff8c00",
+      "#8fbc8f",
+      "#daa520"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.95
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "confluence of refusals",
+      "desc-on-touch": "Here the stream gathers what the town turned away—scraps, decisions unmade, letters never sent. The water doesn't judge; it carries, and something in this gathering teaches the discarded things they were always meant to meet here.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 44782,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "sediment archive",
+      "desc-on-touch": "The bed speaks in layers: what was discarded first lies deepest, overlaid by all the refusals that followed, pressed into meaning by the weight of water and time.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 29614,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "weir of reconsidered things",
+      "desc-on-touch": "A barrier built from what was deemed worthless, now holding back the flow, now letting it through. Something reconsiders itself here, slowly.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 57203,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "bank where things learn their names",
+      "desc-on-touch": "The exposed earth holds objects half-buried. Each one waits for the water to finish its sentence—to speak aloud what the refusal tried to silence.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 68341,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "mirror in motion",
+      "desc-on-touch": "The water's surface breaks and reforms constantly, holding the sky, holding the banks, holding everything that was refused a place, giving them all a place to see themselves reflected.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 35897,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "clearing that grew from spillage",
+      "desc-on-touch": "The overflow carved this space and left it green. What was refused nourished the place the refusal could not reach.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 72614,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "all the town's no-longer-wanted things teach the water how to say yes",
+  "file": {
+    "name": "Downstream_Testimony_Field_Recordings_2003-2008.mp3",
+    "note": "Audio collected where the creek gathers, voices of water and sediment, refusals becoming a unified current"
+  },
+  "reverie": {
+    "title": "REVERIE — the creek in afternoon",
+    "narr": [
+      "You wade where the water has gathered what the",
+      "town refused. She stands on the bank, pointing at",
+      "something caught in the current. The refusal was",
+      "never about the thing itself, she says. The water",
+      "teaches it a different name. You both listen to the",
+      "creek speak it aloud, over and over, until it sounds true."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "northward back toward the roots and hidden water",
+      "to": "the-scrub-where-drainage-roots-deeper"
+    },
+    {
+      "dir": "e",
+      "label": "following the current toward wider country",
+      "to": "the-delta-where-all-forgetting-meets-wide-water"
+    },
+    {
+      "dir": "w",
+      "label": "upslope toward the refusals themselves",
+      "to": "NEW: the-ridge-where-refusal-learns-to-gather"
+    }
+  ]
+}
