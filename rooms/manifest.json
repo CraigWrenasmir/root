@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 261,
-  "lastDreamt": "2026-11-03",
+  "nights": 262,
+  "lastDreamt": "2026-11-04",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6812,6 +6812,26 @@
       "id": "the-interrogation-reaches-bedrock",
       "title": "The Interrogation Reaches Bedrock",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-throat-where-names-teach-themselves-breath",
+      "title": "The Throat Where Names Teach Themselves Breath",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-prismatic-understory-where-hues-grow-wild",
+      "title": "The Prismatic Understory Where Hues Grow Wild",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-cloud-cathedral-without-walls",
+      "title": "The Cloud-Cathedral Without Walls",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-miniature-river-branch-complete",
+      "title": "The Miniature River Branch Complete",
+      "region": "The Comparisons"
     }
   ]
 }

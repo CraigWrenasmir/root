@@ -1,0 +1,139 @@
+{
+  "id": "the-prismatic-understory-where-hues-grow-wild",
+  "title": "The Prismatic Understory Where Hues Grow Wild",
+  "region": "The Understory",
+  "seed": 9284756,
+  "palette": {
+    "bg": "#0a0e27",
+    "ground": [
+      "#1a1a3e",
+      "#0f1a2e"
+    ],
+    "ink": "#d4f1f4",
+    "accents": [
+      "#ff006e",
+      "#00f5ff",
+      "#7209b7",
+      "#b5179e"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.92
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "dispersal-pool",
+      "desc-on-touch": "light breaks here into its component hues; the longer you look, the more colors separate into their own grammars, each one arguing what undergrowth means",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4918,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-prisming-arch",
+      "desc-on-touch": "vegetation creates refractions here; each plant holds a different fraction of light and refuses to share its colour with the others",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 6325,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "hue-stones",
+      "desc-on-touch": "stones arranged in order of colour; the order keeps changing when you turn away. you never catch the moment of rearrangement",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2847,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "the-painted-creature",
+      "desc-on-touch": "something moves through undergrowth leaving trails of colour that smell like nothing you've encountered; its form follows the hues it leaves, not the hues following it",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 7654,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "color-strata",
+      "desc-on-touch": "things stack here sorted by hue, not by weight: purple above magenta above cyan; the physics has learned a different hierarchy than gravity allows",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 1928,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "color learned to speak before the forest learned its own name",
+  "file": {
+    "name": "Spectrographic_Canopy_RGB_Drift_Analysis.dat",
+    "note": "ERROR: metaphor detected in storage layer — the colour values keep migrating into wildlife recordings; the undergrowth is writing to itself in hue"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward back into undergrowth where speech still shapes the colours",
+      "to": "the-undergrowth-that-speaks-in-colors"
+    },
+    {
+      "dir": "e",
+      "label": "deeper east where colour becomes the primary language",
+      "to": "NEW: the-chromatic-understory-deep"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where hue meets form in permanent argument",
+      "to": "NEW: the-colour-shape-controversy"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where colours root themselves in stone",
+      "to": "the-language-of-stones"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-throat-where-names-teach-themselves-breath",
+  "title": "The Throat Where Names Teach Themselves Breath",
+  "region": "The Diagnostic Render",
+  "seed": 4827294,
+  "palette": {
+    "bg": "#2a1810",
+    "ground": [
+      "#d4a574",
+      "#c89060"
+    ],
+    "ink": "#fef5e7",
+    "accents": [
+      "#e8a76b",
+      "#f4d03f",
+      "#c85a54",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-resonating-tower",
+      "desc-on-touch": "you feel the vibration travel down your own throat; each voice that passes through leaves the tower slightly altered, teaching it new shapes",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 8374,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "resonance-pool",
+      "desc-on-touch": "light gathers here as if sound had weight and texture; the pool shudders with unspoken syllables that haven't quite found names",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2947,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "breath-marks-plaque",
+      "desc-on-touch": "a standing marker holds breath-symbols, marks that names must pass through on their way to being spoken; each is warm to the touch",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5821,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-voiceless-figure",
+      "desc-on-touch": "a shape stands breathing, lips forming syllables that haven't found their final names yet; you recognize the posture of names in waiting",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 3194,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "throat-schematic",
+      "desc-on-touch": "a transparent diagnostic renders the architecture of speech itself: pathways, chambers, thresholds where silence becomes sound; each part labeled in archive notation",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7462,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.7,
+      "solid": true
+    }
+  ],
+  "inscription": "every name spends time here, learning how breath teaches it to be heard",
+  "file": {
+    "name": "Vocal_Atlas_Phonetic_Breath_Markers.txt",
+    "note": "measurements of breath and silence between syllables of 47 recorded names; the silence seems to lengthen with each re-reading, as if the archive is teaching itself to listen longer"
+  },
+  "reverie": {
+    "title": "REVERIE — late night in her apartment, names just below spea",
+    "narr": [
+      "you sit across from her in half-light, both mouths open",
+      "forming words that don't quite leave. she breathes out",
+      "a name that stops just past her lips. you lean to hear",
+      "it, but she shakes her head: not yet. the silence is",
+      "warmer than any sound you've heard from her. her throat",
+      "moves with names she refuses to send."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward through silence to where naming pauses",
+      "to": "the-chamber-where-naming-happens-without-sound"
+    },
+    {
+      "dir": "n",
+      "label": "higher to where names become echoes of themselves",
+      "to": "NEW: the-where-speech-learns-to-multiply"
+    },
+    {
+      "dir": "e",
+      "label": "eastward to a place where breath becomes visible",
+      "to": "NEW: the-visible-breath-corridor"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the spaces between words",
+      "to": "the-spiral-where-asking-learns-to-eat-itself"
+    }
+  ]
+}

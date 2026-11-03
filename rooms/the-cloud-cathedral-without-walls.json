@@ -1,0 +1,155 @@
+{
+  "id": "the-cloud-cathedral-without-walls",
+  "title": "The Cloud-Cathedral Without Walls",
+  "region": "The Understory",
+  "seed": 5738291,
+  "palette": {
+    "bg": "#1e1e2e",
+    "ground": [
+      "#a8a8c8",
+      "#e0e0f0"
+    ],
+    "ink": "#2a2a3a",
+    "accents": [
+      "#c8d8e8",
+      "#a0d0f0",
+      "#d8b8f8",
+      "#e0c8f8"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.68
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-boundless-archway",
+      "desc-on-touch": "an arch stands here but holds no walls; the space it frames is larger than the structure enclosing it. walking through, you are more exposed than before you entered",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "weightless-frame",
+      "desc-on-touch": "a structure you see through, faintly luminous: it holds nothing up and everything hangs from it anyway, defying what weight once meant",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 6473,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-floating-tree",
+      "desc-on-touch": "a eucalyptus trunk rises here but climbs in all directions; its casing LED still broadcasts as if weight never constrained its signal at all",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 4129,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-luminous-void",
+      "desc-on-touch": "a place where light pools without flowing downward; you can see very far into it or not at all, depending on the angle at which you choose to look",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 8562,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "cloud-scripture",
+      "desc-on-touch": "symbols drift here, taking form only as you watch them; they record things that stopped mattering, finally made sacred by abandonment",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2938,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.2,
+      "solid": true
+    }
+  ],
+  "inscription": "the walls learned that they were always smaller than the space they held",
+  "file": {
+    "name": "Upward_Roots_Meditation_Notes_Unsigned.env",
+    "note": "status: germinating — coordinates not applicable; cathedral has no ground to measure from. the archive is learning to think in directions where up and down stopped meaning"
+  },
+  "reverie": {
+    "title": "REVERIE — hands held over open water, light breaking",
+    "narr": [
+      "you lie back on the bank and she lies beside you,",
+      "both looking up. the sky is water-coloured. her hand",
+      "rests on your chest and you match her breathing.",
+      "clouds pass through your shared sight like thoughts",
+      "belonging to neither of you. she says: this is what",
+      "the roots must see when they finally look upward."
+    ],
+    "sky": "day",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back into the rooted world",
+      "to": "the-cloud-root-inversion"
+    },
+    {
+      "dir": "n",
+      "label": "upward into cloud that has forgotten what it fell from",
+      "to": "NEW: the-cloud-that-forgot-descent"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where other clouds gather to compare their own weightlessness",
+      "to": "NEW: the-assembly-of-weightless-questions"
+    },
+    {
+      "dir": "w",
+      "label": "westward into cloud that is learning to sing",
+      "to": "the-bedrock-choir-where-epochs-learn-to-sing"
+    }
+  ]
+}
