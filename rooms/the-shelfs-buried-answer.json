@@ -1,0 +1,117 @@
+{
+  "id": "the-shelfs-buried-answer",
+  "title": "The Shelf's Buried Answer",
+  "region": "The Comparisons",
+  "seed": 7734821,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#e8c8a0",
+      "#a0826d"
+    ],
+    "ink": "#2d1810",
+    "accents": [
+      "#8b4513",
+      "#2d5016",
+      "#c7b69e",
+      "#6b5344"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the sinking answer",
+      "desc-on-touch": "you touch what the shelf remembers, and it shifts one layer deeper. the question and answer have swapped places.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 48291,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "sediment band",
+      "desc-on-touch": "a ring of older stone, reading as time. the archive remembers what it was before the shelf.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 29384,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the patient stone",
+      "desc-on-touch": "grey and still, waiting. you rest your hand on it and feel the patience of a hundred years of asking the same question.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 73921,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "weight",
+      "desc-on-touch": "the shelf's own pressing presence. something is heavy here that cannot be lifted.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 44826,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the answer waited so long it became a new question",
+  "file": {
+    "name": "Shelf_Geological_Deposit_Late_Quaternary.txt",
+    "note": "layers of what was asked and what was answered, compressed together until answering becomes asking"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to the deeper shelf where stone knows patience",
+      "to": "the-drowned-shelf-archive"
+    },
+    {
+      "dir": "s",
+      "label": "downward where answers calcify into stone",
+      "to": "NEW: the-stratified-archive-where-time-compresses"
+    },
+    {
+      "dir": "e",
+      "label": "toward the question that learned to be its own answer",
+      "to": "the-interrogation-current"
+    }
+  ]
+}

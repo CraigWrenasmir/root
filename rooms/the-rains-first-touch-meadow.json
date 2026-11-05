@@ -1,0 +1,150 @@
+{
+  "id": "the-rains-first-touch-meadow",
+  "title": "The Rain's First Touch Meadow",
+  "region": "The Understory",
+  "seed": 5648392,
+  "palette": {
+    "bg": "#4a6b5e",
+    "ground": [
+      "#6b8e79",
+      "#3d5a4d"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#92a884",
+      "#d4a96f",
+      "#5a4d3f",
+      "#708278"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the first shed",
+      "desc-on-touch": "where farmers kept tools, and still do. the roof reads the rain differently than the open meadow does. you listen to it learning.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 39847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the grass memory",
+      "desc-on-touch": "where rain first touches the meadow, the grass remembers it has always been thirsty. each drop is a small answer that arrives too late.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 68293,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the old fence post",
+      "desc-on-touch": "weathered grey, teaching the paddock how to stand still. the rain darkens it and it remembers other storms, earlier seasons.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 19284,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the first gathering",
+      "desc-on-touch": "where rain pools at the meadow's low point before it runs downhill. it gathers itself, teaches water what collection means.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 48572,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the standing tree",
+      "desc-on-touch": "alone at the meadow's edge, it reads the rain through leaves and roots both. it stands because the water asks it to.",
+      "verb": "torus",
+      "form": {
+        "type": "sprite",
+        "seed": 77841,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the first rain in the paddock",
+    "narr": [
+      "you both stood in the meadow when the rain began,",
+      "neither of you moving toward the shed. the grass grew",
+      "dark with water. she tilted her face up and you watched",
+      "the rain find her skin. 'it remembers', she said. 'it",
+      "always comes back.' you heard it in her voice: she was",
+      "teaching the rain, and the rain was listening."
+    ],
+    "sky": "overcast",
+    "land": "paddock",
+    "structure": "shed",
+    "weather": "rain",
+    "pose": "stand"
+  },
+  "inscription": "the creek remembers before it ever learns to forget, and the rain falls as if it has come home",
+  "file": {
+    "name": "Meadow_First_Water_Infiltration_Spring_Runoff_Cycle.mp3",
+    "note": "field recording of rain meeting grass for the first time each year, the sound of thirst being answered"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to where the creek begins in the paddock",
+      "to": "the-solitary-creek-origin"
+    },
+    {
+      "dir": "w",
+      "label": "into the forest where rain teaches trees how to drink",
+      "to": "NEW: the-forest-where-rain-learns-its-own-thirst"
+    },
+    {
+      "dir": "s",
+      "label": "downhill where the gathered water runs deeper into story",
+      "to": "the-country-where-orchards-forget-their-purpose"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+featured: The Rain's First Touch Meadow (the-rains-first-touch-meadow)
+region: The Understory · motif: fields
+inscription: the creek remembers before it ever learns to forget, and the rain falls as if it has come home
+file: Meadow_First_Water_Infiltration_Spring_Runoff_Cycle.mp3
+
+all nodes tonight:
+  · The Shelf's Buried Answer
+  · The Genealogy Stall That Sells Nothing
+  · The Splintering Testimony South
+  · The Rain's First Touch Meadow

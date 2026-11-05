@@ -129,6 +129,11 @@
       "dir": "w",
       "label": "westward where silence has learned to listen as well as broadcast",
       "to": "the-void-beneath-listening"
+    },
+    {
+      "dir": "e",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the answer chamber that never arrived"
     }
   ]
 }

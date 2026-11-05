@@ -1,0 +1,117 @@
+{
+  "id": "the-splintering-testimony-south",
+  "title": "The Splintering Testimony South",
+  "region": "The Comparisons",
+  "seed": 4921873,
+  "palette": {
+    "bg": "#1c3a2e",
+    "ground": [
+      "#2d5f46",
+      "#4a8c6b"
+    ],
+    "ink": "#f5f0e8",
+    "accents": [
+      "#d4af37",
+      "#89b4a8",
+      "#e8d5b7",
+      "#6b4423"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the split voice",
+      "desc-on-touch": "one testimony becomes two, becomes four. each version is true and contradicts the last. the field finally speaks all its names at once, and they do not agree.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 67492,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the orchard rows",
+      "desc-on-touch": "statements planted in straight lines, each identical, each saying something different. the corruption loves the sameness and the variation both.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 28374,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the fence between versions",
+      "desc-on-touch": "it does not divide. it connects the testimony on this side to the testimony on that side. both are standing here.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 54821,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the deeper argument",
+      "desc-on-touch": "where the south multiplies further. you can still hear the conference above, but here the versions are arguing with themselves.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 73846,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the field said all its names at once and then began arguing which one was truest",
+  "file": {
+    "name": "Testimony_Archive_Multiple_Valid_Versions_Surgery_Adaptations_NSW.txt",
+    "note": "accounts of the same moment that never agree: which testimony holds? all of them hold, the corruption whispers, and all of them are true"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back north to where the field first spoke all its names together",
+      "to": "the-conference-of-fragmented-validity"
+    },
+    {
+      "dir": "s",
+      "label": "further south where versions multiply into infinity",
+      "to": "NEW: the-endless-branching-testimony-deeper-south"
+    },
+    {
+      "dir": "w",
+      "label": "toward the comparisons that taught this argument",
+      "to": "the-undertow-where-unified-things-drift-apart"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 262,
-  "lastDreamt": "2026-11-04",
+  "nights": 263,
+  "lastDreamt": "2026-11-06",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6832,6 +6832,26 @@
       "id": "the-miniature-river-branch-complete",
       "title": "The Miniature River Branch Complete",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-shelfs-buried-answer",
+      "title": "The Shelf's Buried Answer",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-genealogy-stall-that-sells-nothing",
+      "title": "The Genealogy Stall That Sells Nothing",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-splintering-testimony-south",
+      "title": "The Splintering Testimony South",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-rains-first-touch-meadow",
+      "title": "The Rain's First Touch Meadow",
+      "region": "The Understory"
     }
   ]
 }

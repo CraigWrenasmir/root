@@ -1,0 +1,115 @@
+{
+  "id": "the-genealogy-stall-that-sells-nothing",
+  "title": "The Genealogy Stall That Sells Nothing",
+  "region": "The Diagnostic Render",
+  "seed": 2847105,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#2d3561",
+      "#16213e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#c7a86b",
+      "#e0e0e0",
+      "#8b7355",
+      "#5a5a7a"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.15
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the kinship register",
+      "desc-on-touch": "charts drawn in a hand you recognize: all the names that ever belonged to someone, no price attached. you trace your finger down a column and realize you were always here.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 58934,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the unstocked counter",
+      "desc-on-touch": "empty shelves behind glass, waiting. what was never made to be sold sits here anyway, teaching.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 12748,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the maker's thumbprint",
+      "desc-on-touch": "pressed into the corner of one chart: a mark that says this genealogy was built by someone with fingers. you know who. you have always known.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 83621,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the quiet work of naming",
+    "narr": [
+      "you sat across from her at a table, watching her",
+      "hand move through the columns. she was writing names",
+      "that never made ledgers, never cost anything. when she",
+      "pressed her thumb to mark a corner, you saw the whole",
+      "work: kinship that asked for nothing but knowing."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "every good remains in conversation with the hand that made it, and so does every name",
+  "file": {
+    "name": "Genealogy_Market_Unnamed_Generations_Unnumbered.ledger",
+    "note": "a ledger of kinships that were never goods, only truths the stall keeper knew without selling"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back through the market rows where names become stories",
+      "to": "the-market-where-goods-remember-their-makers"
+    },
+    {
+      "dir": "n",
+      "label": "into the sparse air where only naming survives",
+      "to": "NEW: the-name-that-was-never-a-commodity"
+    },
+    {
+      "dir": "e",
+      "label": "toward makers who left no names but left fingerprints",
+      "to": "the-source-of-naming-where-silence-still-echoes"
+    }
+  ]
+}
