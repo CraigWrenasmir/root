@@ -1,0 +1,151 @@
+{
+  "id": "the-eternal-return-chamber",
+  "title": "The Eternal Return Chamber",
+  "region": "The Comparisons",
+  "seed": 9372845,
+  "palette": {
+    "bg": "#2d2416",
+    "ground": [
+      "#c4622d",
+      "#5a9367"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#f4a261",
+      "#2a9d8f",
+      "#e76f51",
+      "#d4a574"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the return stone",
+      "desc-on-touch": "a weathered marker placed at the spot where the settlement's outer track circles back to itself; its surface holds tally marks, one for each cycle recorded",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 4726193,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the settler's rest",
+      "desc-on-touch": "a clearing where paths converge; worn flat by the returning steps of people who learned that departure and arrival were the same direction",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 2893746,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the year-ring post",
+      "desc-on-touch": "a wooden pole carved with concentric circles; each ring is a year; each year contains the same day visited multiple times; the carvings go deeper than the wood can reasonably hold",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7154829,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the cycle marker",
+      "desc-on-touch": "a rope laid in a perfect circle on the ground, its ends meeting at a knot; the rope is old; the knot has been tied and untied so many times the fibres are soft",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 5347812,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the convergence gate",
+      "desc-on-touch": "two fence-lines meet here; they form an entrance and an exit that are positioned identically; you cannot tell which is which until you have walked through",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 8629147,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "the track that turns",
+      "desc-on-touch": "the settler's path spirals tighter and tighter, mapping each return with a narrower circuit; at the centre it stops; nobody knows why they stopped walking inward",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3861294,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the settlement never left; it only learned to return; each leaving is a new arriving at the place you started",
+  "file": {
+    "name": "Settler_Route_Maps_1921_1987_Terracotta_Archive.txt",
+    "note": "a handwritten log of settlement movements from the early decades; each entry records a departure and a return; the ink becomes darker with each cycle"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward to where cycles first learned to breathe",
+      "to": "the-elder-settlement-deeper"
+    },
+    {
+      "dir": "e",
+      "label": "into the convergence of all roads that remember where they started",
+      "to": "the-convergence-ridge"
+    },
+    {
+      "dir": "w",
+      "label": "to a place where the spiral tightens and arriving becomes indistinguishable from home",
+      "to": "NEW: the-settlement-that-spiraled-inward-until-it-forgot-the-difference"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "the-canopy-where-every-branch-remembers-its-own-lightning",
+  "title": "The Canopy Where Every Branch Remembers Its Own Lightning",
+  "region": "The Understory",
+  "seed": 6273891,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#2d5016",
+      "#8b4513"
+    ],
+    "ink": "#ffff99",
+    "accents": [
+      "#ffdd00",
+      "#ff6b35",
+      "#004e89",
+      "#1a472a"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the lightning-split tree",
+      "desc-on-touch": "the trunk is cloven from crown to roots; the two halves lean away from each other; yet each continues to grow; bark has sealed the wound and closed it with a scar that glows faintly",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 4729356,
+        "size": 3,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the branch memory grove",
+      "desc-on-touch": "a thicket of thin branches, each one carrying a blackened scar where lightning once entered; the scars form a text nobody can read but everyone can feel",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 7856142,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the charge stone",
+      "desc-on-touch": "a rock at the base of the oldest tree; it is warm to touch in all seasons; it attracts small metals; it holds the memory of a strike that happened decades ago, still conducting faintly",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 3145679,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the amber-sealed wound",
+      "desc-on-touch": "where resin has sealed a lightning-struck branch; within the amber you can see the instant of the strike preserved: bark torn, sapwood exposed, the moment between living and not yet dead",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8472631,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the sky-reaching crown",
+      "desc-on-touch": "the canopy opens here; dead branches point upward where they were struck; new branches have grown from the same split; leaves emerge from scars; the tree is arguing with the sky that killed it",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 5926847,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the electrostatic field indicator",
+      "desc-on-touch": "an old glyph carved into a standing stone; it shows the pattern of the lightning's path through the canopy; each year the carving goes deeper, as if the stone is remembering further",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 2348715,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "every tree here is an argument the lightning started and the branches learned to continue; the canopy remembers each strike and grows around it",
+  "file": {
+    "name": "Canopy_Storm_Ring_Archive_Lightning_Scars_Decade_Records.mp3",
+    "note": "a field recording of the canopy during a storm; the branches creak; underneath, a deeper sound — the tree's own memory of being struck before, speaking back to the sky"
+  },
+  "reverie": {
+    "title": "REVERIE — beneath the split tree, summer storm arriving",
+    "narr": [
+      "the first lightning flash shows you her face clearly:",
+      "not afraid. watching. the next strike hits the oak",
+      "across the clearing; the tree accepts it. you stand",
+      "under the split tree's shelter; bark still warm from",
+      "an old wound. she says: *it learns to be struck*.",
+      "the rain begins before the sound does."
+    ],
+    "sky": "storm",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the storm-grown forest",
+      "to": "the-forest-where-storms-grow-as-trees"
+    },
+    {
+      "dir": "n",
+      "label": "higher into the breathing canopy where storms become seasons",
+      "to": "the-breathing-canopy-upper-tangle"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into the understory where every scarred branch dreams of sky",
+      "to": "NEW: the-understory-where-wounds-learn-to-reach-upward"
+    }
+  ]
+}

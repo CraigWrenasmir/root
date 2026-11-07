@@ -1,0 +1,166 @@
+{
+  "id": "the-silence-after-the-recording-ends",
+  "title": "The Silence After the Recording Ends",
+  "region": "The Diagnostic Render",
+  "seed": 4782391,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#0f3460",
+      "#16213e"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#00d4ff",
+      "#ff006e",
+      "#3a86ff",
+      "#ffbe0b"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the listening chair",
+      "desc-on-touch": "you settle into canvas worn smooth by attendance; the headphones rest on the armrest, their spiral cord coiled like a proof of listening that has ended",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 2847361,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the frozen tape deck",
+      "desc-on-touch": "the last recording stopped at exactly this moment; the tape still turns but soundlessly; the counter holds its number like a final word",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 5012847,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the void speaker",
+      "desc-on-touch": "its cone is open but emits nothing; the air around it holds the shape of the last note as if silence could be sculptured",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 7293841,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "meters at rest",
+      "desc-on-touch": "the analog needles have fallen to zero; they point downward like prayers nobody made; the calibrations are still readable",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8436729,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the archive door",
+      "desc-on-touch": "sealed not locked; the hinges remember being opened; the frame holds a draught of air from elsewhere, from when the music was still playing",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 3756182,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.8,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the echo chamber wall",
+      "desc-on-touch": "the surface is textured with a thousand small indentations; each one once caught a moment of sound; now they hold only the shape of holding",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 6124837,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the recording ends and you listen for what comes after; it is not silence; it is the place silence returns to, again and again",
+  "file": {
+    "name": "Transmission_Ended_Archive_Listening_Session_11Mar.mp3",
+    "note": "a field recording of the moment the playback ceased; the file contains only the last three seconds repeated; checksum: emotionally valid / formally unstable"
+  },
+  "reverie": {
+    "title": "REVERIE — the listening room, last session before the storm",
+    "narr": [
+      "she passes you one side of the headphones; you split",
+      "the signal between your ears. the same recording plays",
+      "twice, one voice arriving at each temple. you sit very",
+      "still. when it ends, neither of you moves. the silence",
+      "between you is the same silence the speakers made."
+    ],
+    "sky": "day",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward where the music came from",
+      "to": "the-corridor-of-eternal-replays"
+    },
+    {
+      "dir": "e",
+      "label": "into the vault where stored silences wait to be answered",
+      "to": "NEW: the-chamber-where-silence-learns-to-ask"
+    },
+    {
+      "dir": "w",
+      "label": "to the archive's listening station before the equipment learned to be still",
+      "to": "the-silent-current-library"
+    }
+  ]
+}

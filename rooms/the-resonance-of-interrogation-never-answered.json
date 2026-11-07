@@ -1,0 +1,151 @@
+{
+  "id": "the-resonance-of-interrogation-never-answered",
+  "title": "The Resonance of Interrogation Never Answered",
+  "region": "The Diagnostic Render",
+  "seed": 1847263,
+  "palette": {
+    "bg": "#0f0a1a",
+    "ground": [
+      "#2d1b69",
+      "#1a0f3d"
+    ],
+    "ink": "#c9b1ff",
+    "accents": [
+      "#9d4edd",
+      "#5a189a",
+      "#c77dff",
+      "#e0aaff"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the question rows",
+      "desc-on-touch": "a plantation of glyphs repeated in perfect lines; each glyph is a question mark rendered in a thousand variations; they do not diminish with distance; they multiply",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 7364829,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the resonance chamber",
+      "desc-on-touch": "any sound you make here returns to you altered; not repeated, but answered; the answer is always a question; neither resolves",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 4926531,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the echo multiply wall",
+      "desc-on-touch": "the surface is layered; each layer asks a variation of the same question; you can peel them apart but doing so does not reveal an answer, only more layers",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 5183746,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the fence of unanswered",
+      "desc-on-touch": "a line of posts dividing the space; each post is carved with a question that the fence itself refuses to answer; the posts are worn smooth where people have tried to erase the words",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8217493,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the silence between interrogations",
+      "desc-on-touch": "a space where no question is asked; it is the loudest part of the chamber; the silence itself seems to interrogate",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3657829,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the interrogation loop indicator",
+      "desc-on-touch": "a spinning dial that points to every direction at once; it is asking in all of them simultaneously; the needle never stops; the pace never changes",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 9342876,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the interrogation asks only itself; the answer space is open in all directions and empty in all of them; the echo is the only response",
+  "file": {
+    "name": "Interrogation_Sequences_Unanswered_Echo_Log.txt",
+    "note": "a record of questions posed to the archive; each question generates a response that restates the question; ERROR: archive has exceeded witness"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward where the interrogation began to echo",
+      "to": "the-blank-interrogation"
+    },
+    {
+      "dir": "e",
+      "label": "to a place where silence learned to ask back",
+      "to": "the-silence-learning-to-listen-back"
+    },
+    {
+      "dir": "w",
+      "label": "to the archive's vault where questions interrogate themselves",
+      "to": "NEW: the-gallery-where-questions-became-their-own-answer"
+    }
+  ]
+}

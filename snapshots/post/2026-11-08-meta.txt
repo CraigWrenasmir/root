@@ -1,0 +1,10 @@
+featured: The Eternal Return Chamber (the-eternal-return-chamber)
+region: The Comparisons · motif: roads
+inscription: the settlement never left; it only learned to return; each leaving is a new arriving at the place you started
+file: Settler_Route_Maps_1921_1987_Terracotta_Archive.txt
+
+all nodes tonight:
+  · The Silence After the Recording Ends
+  · The Eternal Return Chamber
+  · The Resonance of Interrogation Never Answered
+  · The Canopy Where Every Branch Remembers Its Own Lightning

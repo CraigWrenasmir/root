@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 263,
-  "lastDreamt": "2026-11-06",
+  "nights": 264,
+  "lastDreamt": "2026-11-08",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6851,6 +6851,26 @@
     {
       "id": "the-rains-first-touch-meadow",
       "title": "The Rain's First Touch Meadow",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-silence-after-the-recording-ends",
+      "title": "The Silence After the Recording Ends",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-eternal-return-chamber",
+      "title": "The Eternal Return Chamber",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-resonance-of-interrogation-never-answered",
+      "title": "The Resonance of Interrogation Never Answered",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-canopy-where-every-branch-remembers-its-own-lightning",
+      "title": "The Canopy Where Every Branch Remembers Its Own Lightning",
       "region": "The Understory"
     }
   ]

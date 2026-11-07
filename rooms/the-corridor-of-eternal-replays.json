@@ -106,7 +106,7 @@
     {
       "dir": "n",
       "label": "an upward passage toward rooms where the music stops",
-      "to": "NEW: the-silence-after-the-recording-ends"
+      "to": "the-silence-after-the-recording-ends"
     },
     {
       "dir": "s",
