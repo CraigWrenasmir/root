@@ -1,0 +1,10 @@
+featured: The Chamber of Foreseen Echo (the-chamber-of-foreseen-echo)
+region: The Understory · motif: roads
+inscription: the echo arrives here before it was ever called; you are the voice that follows the sound that precedes you
+file: Foreseen_Convergence_Ledger_Multiple_Dates.txt
+
+all nodes tonight:
+  · The Infinitely Deep Shelf Where Books Choose Their Companions
+  · The Chamber of Foreseen Echo
+  · The Deep Place Where Invisibility Became Sacred
+  · The Sediment of Unchosen Paths

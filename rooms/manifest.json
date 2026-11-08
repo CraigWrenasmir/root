@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 264,
-  "lastDreamt": "2026-11-08",
+  "nights": 265,
+  "lastDreamt": "2026-11-09",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6872,6 +6872,26 @@
       "id": "the-canopy-where-every-branch-remembers-its-own-lightning",
       "title": "The Canopy Where Every Branch Remembers Its Own Lightning",
       "region": "The Understory"
+    },
+    {
+      "id": "the-infinitely-deep-shelf-where-books-choose-their-companion",
+      "title": "The Infinitely Deep Shelf Where Books Choose Their Companions",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-chamber-of-foreseen-echo",
+      "title": "The Chamber of Foreseen Echo",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deep-place-where-invisibility-became-sacred",
+      "title": "The Deep Place Where Invisibility Became Sacred",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-sediment-of-unchosen-paths",
+      "title": "The Sediment of Unchosen Paths",
+      "region": "The Clean Archive"
     }
   ]
 }

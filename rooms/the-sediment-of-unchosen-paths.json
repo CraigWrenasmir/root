@@ -1,0 +1,139 @@
+{
+  "id": "the-sediment-of-unchosen-paths",
+  "title": "The Sediment of Unchosen Paths",
+  "region": "The Clean Archive",
+  "seed": 473926,
+  "palette": {
+    "bg": "#3d2817",
+    "ground": [
+      "#a0522d",
+      "#556b2f"
+    ],
+    "ink": "#f5deb3",
+    "accents": [
+      "#8b7355",
+      "#6b4423",
+      "#2f5233",
+      "#8b6914"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the forking sediment",
+      "desc-on-touch": "two paths visible in crosssection, one above the other, divided by a single moment. both are equally real here, equally preserved.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 624,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the marker-stones of decision",
+      "desc-on-touch": "each one stands where a choice was not made. the archive keeps them as witnesses to contradiction.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 749,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the tether running between both ways",
+      "desc-on-touch": "a line connecting the two paths, keeping them from drifting entirely apart. the archive will not let contradiction become separation.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 387,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the residue of the other choice",
+      "desc-on-touch": "dust and pollen from the path not taken. you can still read its scent, still see where it would have led.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 506,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the gate where both arguments remain standing",
+      "desc-on-touch": "neither side has won. neither path has been closed. the gate holds them both open, proving contradiction is a kind of truth.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 812,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "sediment remembers all the steps that were not taken; here, every path that might have been is as real as the one that was",
+  "file": {
+    "name": "Archive_Contradiction_Ledger_Both_Versions.txt",
+    "note": "alternate histories filed together without hierarchy; the archive learned to shelve disagreement as its own kind of fact"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back to where both paths learned to read each other without erasing",
+      "to": "where-both-paths-read-each-other"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the deepest sediments hold the oldest choices",
+      "to": "NEW: the-primordial-fork-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "toward where paths remember what they might have become",
+      "to": "the-valley-where-paths-remember-breaking"
+    },
+    {
+      "dir": "w",
+      "label": "to the edge where contradiction becomes landscape",
+      "to": "NEW: the-boundary-between-both-arguments"
+    }
+  ]
+}

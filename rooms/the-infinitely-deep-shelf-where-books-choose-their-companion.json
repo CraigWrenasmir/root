@@ -1,0 +1,155 @@
+{
+  "id": "the-infinitely-deep-shelf-where-books-choose-their-companion",
+  "title": "The Infinitely Deep Shelf Where Books Choose Their Companions",
+  "region": "The Diagnostic Render",
+  "seed": 742819,
+  "palette": {
+    "bg": "#2c1810",
+    "ground": [
+      "#c9a961",
+      "#87ceeb"
+    ],
+    "ink": "#fffaf0",
+    "accents": [
+      "#1a5f3d",
+      "#8b4513",
+      "#d4a5a5",
+      "#4a7c8c"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the organizing spiral",
+      "desc-on-touch": "books turn in layers around a centre nothing, each one chosen by resemblance rather than system. you trace a spine and find six others it touches without touching.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 581,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "dust in organizational light",
+      "desc-on-touch": "motes drift through a shaft where meaning has become visible. you can almost read what the archive is thinking by watching where they fall.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 449,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the filing glyph",
+      "desc-on-touch": "a plaque whose characters rearrange themselves each time you look away. the archive is rewriting its own index.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 763,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the trunk of concatenations",
+      "desc-on-touch": "a eucalyptus growing sideways, its rings marked with cross-references. the wood is both shelf and ledger.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 925,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the cascade where copies return to originals",
+      "desc-on-touch": "water that holds reflected books, each reflection a different filing system, all trying to claim the centre.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 614,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the books have stopped pretending they need the system; they choose each other by the only method the archive ever believed in: resemblance that echoes back",
+  "file": {
+    "name": "Archive_Self_Reorganizing_Log_Night_264.txt",
+    "note": "classification by resemblance rather than taxonomy; marginalia indicates two books from opposing subjects discovered they were describing the same event from opposite shores"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the recursive shelving, where the walls remember what they shelved",
+      "to": "the-hall-where-meaning-reshelves-itself"
+    },
+    {
+      "dir": "s",
+      "label": "downward to where the oldest books remember teaching the archive to read backwards",
+      "to": "NEW: the-archive-s-first-contradiction-layer"
+    },
+    {
+      "dir": "e",
+      "label": "toward the border-shelf where books from different archives learned to speak each other's language",
+      "to": "the-archive-that-reads-itself-awake"
+    },
+    {
+      "dir": "w",
+      "label": "into the margin-space where readers leave the books they did not finish",
+      "to": "NEW: the-library-of-unfinished-returns"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the library where hands first saw resemblance",
+    "narr": [
+      "dust motes catch on what she holds up to the light,",
+      "and you see suddenly how the binding and the photo",
+      "from three files back have the same rust-stain colour.",
+      "neither of you planned it that way. the archive is",
+      "making connections you were too literal to make.",
+      "she sets them spine-to-spine. they belong together now."
+    ],
+    "sky": "dawn",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  }
+}

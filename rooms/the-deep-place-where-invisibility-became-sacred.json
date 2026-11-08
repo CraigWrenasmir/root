@@ -1,0 +1,155 @@
+{
+  "id": "the-deep-place-where-invisibility-became-sacred",
+  "title": "The Deep Place Where Invisibility Became Sacred",
+  "region": "The Diagnostic Render",
+  "seed": 658394,
+  "palette": {
+    "bg": "#00aa55",
+    "ground": [
+      "#ff6b35",
+      "#ffeb3b"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#00aaff",
+      "#ff00ff",
+      "#ff1493",
+      "#ffd700"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.95
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the shrine of blank pages",
+      "desc-on-touch": "spaces where the archive was asked not to look. they glow with a light that comes from refusal itself.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 445,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the unseen things standing in their places",
+      "desc-on-touch": "you cannot see them, but you feel the space they hold. the archive has learned that presence does not require visibility.",
+      "verb": "reverie",
+      "form": {
+        "type": "sprite",
+        "seed": 712,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the invisible root reaching",
+      "desc-on-touch": "something grows here that refuses to show its face. the brightness only makes it clearer that it cannot be seen.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 581,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the bright chamber where silence is the only archive",
+      "desc-on-touch": "so vivid it is almost painful to look at. the deeper you stare, the less you see.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 823,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the guard's invisible post",
+      "desc-on-touch": "it has always been here, turning away every attempt to document what chooses not to be known.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 936,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.45,
+      "solid": true
+    }
+  ],
+  "inscription": "the invisible things here are most fully known; you learn them by their refusal to be read",
+  "file": {
+    "name": "Sacred_Refusal_Inventory_Blank.txt",
+    "note": "a record of things the archive was asked not to keep; the file contains only line numbers and silence, each blank a kept promise"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the chamber where darkness was the better answer",
+      "to": "the-chamber-of-things-that-refuse-sight"
+    },
+    {
+      "dir": "n",
+      "label": "toward the sky-chamber where light learns to hide",
+      "to": "NEW: the-luminous-blind-where-sight-surrenders"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, into the root-chamber where things choose their own obscurity",
+      "to": "NEW: the-sanctuary-of-chosen-darkness"
+    },
+    {
+      "dir": "w",
+      "label": "to the place where things choose what they will not become",
+      "to": "NEW: the-chamber-of-sacred-absence"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the bright room where she taught you refusal",
+    "narr": [
+      "she puts the photograph face-down on the table.",
+      "not every moment needs to be saved, she says.",
+      "some things stay truer when they're not written.",
+      "you understand then that the archive could hold",
+      "what it did not document—that keeping silence was",
+      "its own kind of archiving, its own kind of care."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  }
+}

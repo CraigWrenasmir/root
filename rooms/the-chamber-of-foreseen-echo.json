@@ -1,0 +1,139 @@
+{
+  "id": "the-chamber-of-foreseen-echo",
+  "title": "The Chamber of Foreseen Echo",
+  "region": "The Understory",
+  "seed": 341562,
+  "palette": {
+    "bg": "#1a3d2e",
+    "ground": [
+      "#8b4513",
+      "#6b8e23"
+    ],
+    "ink": "#f5f5dc",
+    "accents": [
+      "#d4a574",
+      "#c41e3a",
+      "#8b0000",
+      "#2f5233"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the resonating arch",
+      "desc-on-touch": "it catches the moment between what was promised and when it arrives. the air in its curve shimmers with the sound of something already spoken.",
+      "verb": "hum",
+      "form": {
+        "type": "arch",
+        "seed": 287,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the foreshadow counter",
+      "desc-on-touch": "numbers that arrived here before they happened. you read tomorrow's date scratched into yesterday's metal.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 412,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "solitude becoming seven",
+      "desc-on-touch": "seven standing places in a circle, each one feeling occupied. the archive remembers all the moments they were alone together.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 598,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the pool that sends before it receives",
+      "desc-on-touch": "it ripples outward from its centre before anything touches it. the prediction is written in the first ring.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 763,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the wired tower of arrival-time",
+      "desc-on-touch": "stacked moments ascending, each one stamped with when it was known, each moment precisely where it was expected to be.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 851,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "the echo arrives here before it was ever called; you are the voice that follows the sound that precedes you",
+  "file": {
+    "name": "Foreseen_Convergence_Ledger_Multiple_Dates.txt",
+    "note": "records of moments predicted in earlier archive sessions, each one marked with the date it was foreseen and the date it arrived; dates are identical"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the centre where seven solitudes remember each other before they diverged",
+      "to": "the-convergence-of-seven-solitudes"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where the archive dreamed forward",
+      "to": "NEW: the-ascending-prediction-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "downward where echoes return to their sources",
+      "to": "the-deep-eastern-convergence"
+    },
+    {
+      "dir": "e",
+      "label": "toward the boundary where foreseen and lived become indistinguishable",
+      "to": "NEW: the-threshold-where-arrival-matches-prophecy"
+    }
+  ]
+}
