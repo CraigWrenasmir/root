@@ -1,0 +1,10 @@
+featured: The Grove Where Roots Still Refuse (the-grove-where-roots-still-refuse)
+region: The Understory · motif: fields
+inscription: down is no longer a suggestion, and the roots have learned to say no
+file: Forest_Boundary_Registry_Unmoving_Claims.txt
+
+all nodes tonight:
+  · The Primordial Seam Where All Metals Choose Their Shape
+  · The Slope Where Falling Becomes Climbing Backward
+  · The Finished Chamber Where All Parts Know Their Names
+  · The Grove Where Roots Still Refuse

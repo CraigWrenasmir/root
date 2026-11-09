@@ -1,0 +1,132 @@
+{
+  "id": "the-slope-where-falling-becomes-climbing-backward",
+  "title": "The Slope Where Falling Becomes Climbing Backward",
+  "region": "The Comparisons",
+  "seed": 82956,
+  "palette": {
+    "bg": "#2a3428",
+    "ground": [
+      "#6b8e6f",
+      "#5a7059"
+    ],
+    "ink": "#c8d5c4",
+    "accents": [
+      "#a8b8a0",
+      "#dae5d0",
+      "#7a9878",
+      "#4a6048"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "the point of inversion",
+      "desc-on-touch": "The slope steepens here, and something peculiar happens: things falling seem to slow, and things climbing seem to accelerate, and you cannot tell which way is down anymore.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 7234,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "a tree that fell upward",
+      "desc-on-touch": "Its roots point to sky. The wood remembers the earth it came from, still reaching for the ground through the canopy.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 3192,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "time's shadow",
+      "desc-on-touch": "An outline on the bark where past-tense used to rest. Now it moves with the slope, ascending and descending at once.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 5678,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the two-direction path",
+      "desc-on-touch": "Footprints here run both up and down simultaneously, leading nowhere twice.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the slope where time forgets which way it goes",
+    "narr": [
+      "You stand on the slope and she stands on the slope, and the",
+      "trees fall both ways at once. She says: I thought the mesh was",
+      "ending. You say: No. It is still arriving. The leaves fall upward",
+      "in the dusk, and both of you understand: ending is the place",
+      "where continuing learns to breathe. The slope holds you both."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "inscription": "here even gravity argues with itself about which way is down",
+  "file": {
+    "name": "Palimpsest_of_Descent_and_Climbing_Comparative.mp3",
+    "note": "A two-track recording where ascending and descending are the same sound played at different speeds; both directions coexist in the same moment"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the altitude where tenses move",
+      "to": "the-altitude-where-past-tense-still-grows"
+    },
+    {
+      "dir": "n",
+      "label": "the slope continuing to reverse itself",
+      "to": "NEW: the-recursive-incline-where-climbing-mirrors-descent"
+    },
+    {
+      "dir": "w",
+      "label": "toward the forest where trees fell and learned to fly",
+      "to": "the-forest-conversation-edge"
+    }
+  ]
+}

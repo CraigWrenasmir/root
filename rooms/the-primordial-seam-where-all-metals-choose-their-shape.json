@@ -1,0 +1,100 @@
+{
+  "id": "the-primordial-seam-where-all-metals-choose-their-shape",
+  "title": "The Primordial Seam Where All Metals Choose Their Shape",
+  "region": "The Comparisons",
+  "seed": 73841,
+  "palette": {
+    "bg": "#0f0d0a",
+    "ground": [
+      "#8b7355",
+      "#704214"
+    ],
+    "ink": "#c0a080",
+    "accents": [
+      "#d4543a",
+      "#1a4620",
+      "#6b5d4f",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.12
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the choosing line",
+      "desc-on-touch": "One pale seam runs through the earth here — not a boundary but a conversation. On each side stone and copper rehearse the moment they decided to be separate things.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 9847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "copper's first doubt",
+      "desc-on-touch": "A crystalline shape, almost too small to see. The moment copper thought about separating, before it knew it wanted to be metal.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 4521,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "stone's refusal",
+      "desc-on-touch": "A knot in the seam. Stone learns copper is leaving and holds tight for one moment, then lets go.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 8129,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "the line between equals who chose to be strangers",
+  "file": {
+    "name": "Seam_Genesis_Copper_Stone_Divergence.txt",
+    "note": "Geological layer where mineral and element rehearse their separation; the text reads the opposite direction depending on which side you are reading from"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the mine, where stone remembers",
+      "to": "the-mine-where-stone-learned-it-was-copper"
+    },
+    {
+      "dir": "n",
+      "label": "the layer above, where metals still argue softly",
+      "to": "NEW: the-stratum-where-copper-learns-its-colour"
+    },
+    {
+      "dir": "w",
+      "label": "toward depth, where separation becomes complete",
+      "to": "NEW: the-fracture-where-stone-and-copper-stop-speaking"
+    }
+  ]
+}

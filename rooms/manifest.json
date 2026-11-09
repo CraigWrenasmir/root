@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 265,
-  "lastDreamt": "2026-11-09",
+  "nights": 266,
+  "lastDreamt": "2026-11-10",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6892,6 +6892,26 @@
       "id": "the-sediment-of-unchosen-paths",
       "title": "The Sediment of Unchosen Paths",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-primordial-seam-where-all-metals-choose-their-shape",
+      "title": "The Primordial Seam Where All Metals Choose Their Shape",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-slope-where-falling-becomes-climbing-backward",
+      "title": "The Slope Where Falling Becomes Climbing Backward",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-finished-chamber-where-all-parts-know-their-names",
+      "title": "The Finished Chamber Where All Parts Know Their Names",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-grove-where-roots-still-refuse",
+      "title": "The Grove Where Roots Still Refuse",
+      "region": "The Understory"
     }
   ]
 }
