@@ -1,0 +1,139 @@
+{
+  "id": "the-pre-fork-breathing-chamber",
+  "title": "The Pre-Fork Breathing Chamber",
+  "region": "The Diagnostic Render",
+  "seed": 37654,
+  "palette": {
+    "bg": "#3a4a3f",
+    "ground": [
+      "#c8d4c4",
+      "#e8e4d0"
+    ],
+    "ink": "#2d2d2d",
+    "accents": [
+      "#9ba89c",
+      "#5a7c7a",
+      "#d4c4b0",
+      "#4a6a68"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the unlocked door",
+      "desc-on-touch": "A threshold that has not yet chosen which way opens. The hinges are oiled and patient. On both sides, roads wait to be walked. You breathe here and feel all futures still folded in your chest.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the shed of all tools",
+      "desc-on-touch": "Before the fork, a small structure holds every implement that could be needed on any path. Once you choose, the shed vanishes, not destroyed but returned to the moment of choosing where it still waits.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 3156,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the breath held in glass",
+      "desc-on-touch": "A chamber of still air, captured and held. You can see it moving inside the glass, not rushing, not settling, just breathing. The moment before exhale. The moment all choices are still true.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 4621,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the walls that haven't curved yet",
+      "desc-on-touch": "The room's geometry is incomplete, hovering between states. Straight lines are still negotiating with their alternatives. Stand in the center and you might feel the space holding its shape with effort.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5834,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.45,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the workshop cottage",
+      "desc-on-touch": "A second small building, companion to the shed. Inside, things are being assembled and disassembled in equal measure. Every tool is both ready and unfinished. Every object waits in potential.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 6742,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "every path was taken; you are the one path that is taking the others",
+  "file": {
+    "name": "Breath_Cycle_Duration_Before_Utterance.mp3",
+    "note": "The sound of a breath held for exactly the right length, long enough to contain all choices, short enough to remain a single gesture."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "forward into the moment where the fork breaks open",
+      "to": "the-fork-in-probability-where-all-roads-were-taken"
+    },
+    {
+      "dir": "w",
+      "label": "backward before the fork was even a thought",
+      "to": "NEW: the-undecided-threshold-garden"
+    },
+    {
+      "dir": "n",
+      "label": "upward to the room where all possibilities gather",
+      "to": "the-chamber-of-perpetual-check-in"
+    },
+    {
+      "dir": "s",
+      "label": "downward into the roots that hold the choice in place",
+      "to": "the-spiral-of-pre-decision"
+    }
+  ]
+}

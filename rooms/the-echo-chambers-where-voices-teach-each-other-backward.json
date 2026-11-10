@@ -1,0 +1,139 @@
+{
+  "id": "the-echo-chambers-where-voices-teach-each-other-backward",
+  "title": "The Echo Chambers Where Voices Teach Each Other Backward",
+  "region": "The Understory",
+  "seed": 45872,
+  "palette": {
+    "bg": "#2d3d1f",
+    "ground": [
+      "#c9b59a",
+      "#87ceeb"
+    ],
+    "ink": "#f5f5f0",
+    "accents": [
+      "#d4864c",
+      "#4a90b8",
+      "#e8d4b0",
+      "#2d5f4f"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the listening stone",
+      "desc-on-touch": "A weathered boulder hollowed by water and wind, its opening facing inward. When you approach, your voice returns transformed, teaching you what it has learned of itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 1847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the crossing-voice clearing",
+      "desc-on-touch": "Two voices call from opposite sides of the forest and meet here, suspended in air that holds all their echoes. Where they cross, new words are born that neither voice spoke alone.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 3421,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the echo-teaching thicket",
+      "desc-on-touch": "Branches interlace so tightly that sound cannot escape straight. It loops back, twists, learns the names of the trees it passes through, and returns with all their stories nested in a single call.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 4789,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the pool of returning calls",
+      "desc-on-touch": "Still water gathers birdsong like a mirror. Each call reflected becomes a question asked back to the air. The reflections are older than the sounds that make them.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 5634,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the backward-returning wind",
+      "desc-on-touch": "Air moves through the clearing in spirals, carrying voices that came from tomorrow backward into today. Each breath you take teaches the forest what it sounds like when it is remembered.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 2156,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "inscription": "here the singular breath learned the names of its own plurality; each speaking is a new direction",
+  "file": {
+    "name": "Echo_Cascade_Forest_Sonograph.mp3",
+    "note": "Field recording of a forest clearing where a single birdcall loops back on itself seventeen times, each echo teaching the next. By the seventeenth loop, no original remains."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back where breath was still singular",
+      "to": "the-place-where-breath-scatters-into-many"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into groves that have forgotten their own names",
+      "to": "NEW: the-forest-that-speaks-in-its-own-echoes"
+    },
+    {
+      "dir": "s",
+      "label": "down toward underground springs that return what they carry",
+      "to": "NEW: down toward underground springs that return what they carry"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the canopy learns to listen back",
+      "to": "the-canopy-where-water-learns-to-breathe"
+    }
+  ]
+}

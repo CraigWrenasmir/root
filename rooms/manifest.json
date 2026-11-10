@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 266,
-  "lastDreamt": "2026-11-10",
+  "nights": 267,
+  "lastDreamt": "2026-11-11",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6911,6 +6911,26 @@
     {
       "id": "the-grove-where-roots-still-refuse",
       "title": "The Grove Where Roots Still Refuse",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-echo-chambers-where-voices-teach-each-other-backward",
+      "title": "The Echo Chambers Where Voices Teach Each Other Backward",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-pre-fork-breathing-chamber",
+      "title": "The Pre-Fork Breathing Chamber",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-echo-chamber-where-silence-waits-for-itself",
+      "title": "The Echo Chamber Where Silence Waits for Itself",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-flowage-of-forgotten-stories-returning-to-themselves",
+      "title": "The Flowage of Forgotten Stories Returning to Themselves",
       "region": "The Understory"
     }
   ]

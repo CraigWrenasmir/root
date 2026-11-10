@@ -1,0 +1,155 @@
+{
+  "id": "the-flowage-of-forgotten-stories-returning-to-themselves",
+  "title": "The Flowage of Forgotten Stories Returning to Themselves",
+  "region": "The Understory",
+  "seed": 51628,
+  "palette": {
+    "bg": "#2d1a1a",
+    "ground": [
+      "#8b6f47",
+      "#4a6b8a"
+    ],
+    "ink": "#e8d4c4",
+    "accents": [
+      "#a87c4a",
+      "#5a4a2a",
+      "#6a8a7a",
+      "#9a7a5a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "rain",
+  "features": [
+    {
+      "name": "the house emerging from root",
+      "desc-on-touch": "A shed whose walls are becoming earth, whose doors lead into soil. The stories that lived in it have flowed out through the floorboards and now flow back in as water. The house remembers being built and is forgetting it all at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 12456,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the riverbed of pages",
+      "desc-on-touch": "Water flows where text once lived, carrying stories that have turned to current. You can see words glimmering beneath the surface, rearranging themselves into narratives the river teaches. The water reads itself.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 13287,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the roots that spell themselves",
+      "desc-on-touch": "Tangled roots below the surface form letters that change with the current. The story they write is old and new at once, told for the first time, retold for the last time, both happening in the same moment.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 14163,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the shop sign dissolving",
+      "desc-on-touch": "Letters on a half-submerged sign are washing away into sense. What was written fades; what flows out is more true. The store beyond the sign still stocks stories nobody reads aloud anymore.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 15734,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the stone carved with narrative",
+      "desc-on-touch": "A smooth river-rock holds the inscription of a story worn into its surface, readable only by touch. Each hand that finds it reads something different, the stone having learned that forgotten stories remember themselves differently each time they return.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 16845,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": true
+    }
+  ],
+  "inscription": "underground the story learned to live without being told, and found that remembering was not required, only growing",
+  "file": {
+    "name": "Stream_Voices_Late_20th_Century_Implicit.txt",
+    "note": "Field recording of a river carrying voices not heard but implied in the water's movement. The voices speak stories nobody told them. The transcript is written in flow patterns."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back to the root-chamber where stories forgot to be told",
+      "to": "the-root-chamber-where-story-forgot-its-telling"
+    },
+    {
+      "dir": "n",
+      "label": "upstream toward springs where narratives first began flowing",
+      "to": "NEW: the-narrative-source-where-stories-remember-birth"
+    },
+    {
+      "dir": "e",
+      "label": "across the water toward the delta where all tales converge",
+      "to": "the-delta-where-all-forgetting-meets-wide-water"
+    },
+    {
+      "dir": "s",
+      "label": "downriver where the stories learn to be ocean",
+      "to": "the-estuary-where-infinite-becomes-one-again"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the water where stories come home",
+    "narr": [
+      "you wade into shallow water where a shed is forgetting",
+      "its walls. she walks beside you. the water carries pages,",
+      "and pages carry words that neither of you wrote but both",
+      "understand. rain falls upward from the ground. the shed",
+      "is becoming what it remembers being, and what it remembers",
+      "living in is you, here, learning the story of the water."
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "shed",
+    "weather": "rain",
+    "pose": "wade"
+  }
+}
