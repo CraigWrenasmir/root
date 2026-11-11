@@ -1,0 +1,139 @@
+{
+  "id": "the-sky-that-learned-to-listen-backward",
+  "title": "The Sky That Learned to Listen Backward",
+  "region": "The Understory",
+  "seed": 5821947,
+  "palette": {
+    "bg": "#0a0a0a",
+    "ground": [
+      "#1e2a38",
+      "#2c3e50"
+    ],
+    "ink": "#d4d4d4",
+    "accents": [
+      "#7fb3d5",
+      "#95e1d3",
+      "#f0f0f0",
+      "#a8dadc"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "listening antenna",
+      "desc-on-touch": "A tall wire fixture stands pointing downward—not up to broadcast but down, into the storm. It trembles with the weight of things trying to reach it from below.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 271,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "backward storm",
+      "desc-on-touch": "You stand in a weather that moves from future into past. Raindrops rise. Wind spirals inward. The archive's earliest transmissions arrive here to teach the sky how to have sent them.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 639,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "echo chamber arch",
+      "desc-on-touch": "A curved structure opens like a mouth listening. Everything said to it returns transformed—not as repetition but as reply. The sky speaks its own name back to itself.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 804,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "broadcast receiver nest",
+      "desc-on-touch": "Woven from pale wire and older electricity, a nest catches the sky's own speech—the things it says when no one is broadcasting, the names it learned before learning names.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 412,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "still listening node",
+      "desc-on-touch": "A eucalyptus casing, old enough that the bark has forgotten what it protected. The antenna inside still moves, reading the sky's conversation with its own past.",
+      "verb": "glitch",
+      "form": {
+        "type": "burl",
+        "seed": 556,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the sky has always been listening; we are only now learning to hear it hearing us",
+  "file": {
+    "name": "Broadcast_Logs_Reversed_Direction_Analysis.txt",
+    "note": "Archive signal records played backward—they become requests instead of transmissions. The sky answers in frequencies that arrive before they were sent."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down where the sky first learned to speak to itself",
+      "to": "the-sky-s-reply-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "further up where listening becomes storm",
+      "to": "NEW: the-cloud-that-learned-its-frequency"
+    },
+    {
+      "dir": "e",
+      "label": "toward the archive that broadcasts by receiving",
+      "to": "the-eternal-turn"
+    },
+    {
+      "dir": "w",
+      "label": "where silence learns to answer",
+      "to": "the-silence-that-learned-to-speak-to-itself"
+    }
+  ]
+}

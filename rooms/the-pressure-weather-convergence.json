@@ -139,7 +139,7 @@
     {
       "dir": "e",
       "label": "toward the weather that remembers its own broadcast",
-      "to": "NEW: the-station-that-reads-its-own-transmission"
+      "to": "the-station-that-reads-its-own-transmission"
     },
     {
       "dir": "s",

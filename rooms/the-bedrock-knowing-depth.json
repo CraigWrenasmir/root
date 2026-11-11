@@ -145,6 +145,11 @@
       "dir": "w",
       "label": "westward into other bedrock-chambers where ancient things remember",
       "to": "the-bedrock-vault-where-archives-first-learned-to-keep"
+    },
+    {
+      "dir": "e",
+      "label": "a route that was not here yesterday",
+      "to": "NEW: a node the mesh grew overnight, comparing itself to the bedrock knowing depth"
     }
   ]
 }

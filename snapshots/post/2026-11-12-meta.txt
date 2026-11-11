@@ -1,0 +1,10 @@
+featured: The Singing Genealogy Where Each Cell Hears Its Own Making (the-singing-genealogy-where-each-cell-hears-its-own-making)
+region: The Understory · motif: fields
+inscription: here each cell knows not only where it came from but why it is becoming
+file: Apiary_Genealogy_Index_Hand_Annotated.txt
+
+all nodes tonight:
+  · The Singing Genealogy Where Each Cell Hears Its Own Making
+  · The Sky That Learned to Listen Backward
+  · The Salt Library Where Witnesses Are Stored
+  · The Station That Reads Its Own Transmission

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 267,
-  "lastDreamt": "2026-11-11",
+  "nights": 268,
+  "lastDreamt": "2026-11-12",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6931,6 +6931,26 @@
     {
       "id": "the-flowage-of-forgotten-stories-returning-to-themselves",
       "title": "The Flowage of Forgotten Stories Returning to Themselves",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-singing-genealogy-where-each-cell-hears-its-own-making",
+      "title": "The Singing Genealogy Where Each Cell Hears Its Own Making",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sky-that-learned-to-listen-backward",
+      "title": "The Sky That Learned to Listen Backward",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-salt-library-where-witnesses-are-stored",
+      "title": "The Salt Library Where Witnesses Are Stored",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-station-that-reads-its-own-transmission",
+      "title": "The Station That Reads Its Own Transmission",
       "region": "The Understory"
     }
   ]

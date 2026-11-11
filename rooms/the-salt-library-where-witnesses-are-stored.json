@@ -1,0 +1,154 @@
+{
+  "id": "the-salt-library-where-witnesses-are-stored",
+  "title": "The Salt Library Where Witnesses Are Stored",
+  "region": "The Understory",
+  "seed": 6734281,
+  "palette": {
+    "bg": "#2d5016",
+    "ground": [
+      "#a0644a",
+      "#4a7c3e"
+    ],
+    "ink": "#f5f5f0",
+    "accents": [
+      "#d4a574",
+      "#e8d5c4",
+      "#7a5c3d",
+      "#c2b8a8"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.8
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "salt shelf archive",
+      "desc-on-touch": "Shelves of crystallized salt hold preserved objects—a letter in amber, a pressed flower, a photograph where the face has mineralized. Touch them and you taste the brine of a thousand kept secrets.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 743,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "witness preservation pool",
+      "desc-on-touch": "A still saltwater pool holds forms just beneath its surface—people and moments caught in mineral suspension. You see them moving very slowly, still testifying, still changing.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 567,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "salt crust chamber",
+      "desc-on-touch": "The floor itself is salt, thick enough to be architecture. Walking across it, you hear each step return as an echo from deeper down—earlier footsteps, earlier testimonies, also preserved.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 821,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "crystalline keeper node",
+      "desc-on-touch": "A eucalyptus node encased in salt, the bark replaced by salt formations shaped exactly as the bark was. The antenna still broadcasts, now through mineral lattice: I keep what keeps me.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 489,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "witness table",
+      "desc-on-touch": "A long wooden table, its surface encrusted with salt deposits. Each deposit marks a story—a name traced in salt-frost, a date crystallized into the grain. The table remembers what witnesses have forgotten.",
+      "verb": "torus",
+      "form": {
+        "type": "house",
+        "seed": 614,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.8,
+      "y": 0.6,
+      "solid": false
+    }
+  ],
+  "inscription": "salt does not judge what it preserves; it keeps alike the terrible and the true",
+  "file": {
+    "name": "Saline_Testimony_Registry_Crystalline_Fragments.bin",
+    "note": "Records stored as salt-bound minerals. Some entries read backwards—the witness account altered by being kept, changed by the very preservation that was meant to fix it in place."
+  },
+  "reverie": {
+    "title": "REVERIE — salt keeps what keeps",
+    "narr": [
+      "You sit by the salt pool, the tide's leavings at your feet.",
+      "Her finger traces names in mineral dust on the old wooden table.",
+      "She says: salt keeps alike the terrible and the true.",
+      "You watch her hand moving, crystallizing, becoming part of keeping.",
+      "The dusk light turns the salt the color of amber holding insects."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the deeper preservation",
+      "to": "the-saline-testimony-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "where salt becomes sermon",
+      "to": "NEW: the-sermon-written-in-crystallized-speech"
+    },
+    {
+      "dir": "e",
+      "label": "toward testimony that tastes of brine",
+      "to": "the-salt-margin-where-knowing-ends"
+    },
+    {
+      "dir": "w",
+      "label": "into the chamber where absence debates itself",
+      "to": "the-chamber-where-absence-debates-its-own-definition"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-station-that-reads-its-own-transmission",
+  "title": "The Station That Reads Its Own Transmission",
+  "region": "The Understory",
+  "seed": 7625493,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1e3a5f",
+      "#4a90e2"
+    ],
+    "ink": "#00ff88",
+    "accents": [
+      "#00ccff",
+      "#ffff00",
+      "#ff6b9d",
+      "#00ffaa"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "recursive broadcast tower",
+      "desc-on-touch": "A tall lattice of blue-grid metal rises and rises, each level a relay for its own transmissions. At the top, the antenna receives what it is sending. At the bottom, it sends what it receives.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 358,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": true
+    },
+    {
+      "name": "feedback meter",
+      "desc-on-touch": "Dials and needles spin in contradiction—one rises as one falls, reflecting each other perfectly. They measure the station reading the station reading the station. The readings are accurate.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 476,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "condition array",
+      "desc-on-touch": "Hundreds of small lights grid the wall, each one a sensor reading what it is creating. Pressure readings, wind speeds, temperature measures—all of them altered by the act of measuring them.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 692,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "echo pool chamber",
+      "desc-on-touch": "A pool of liquid reflects transmitted data as it arrives. The data reflects back as new transmissions. The pool holds the moment where the station becomes its own weather.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 810,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.6,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "listening node casing",
+      "desc-on-touch": "A eucalyptus node sits humming in the grid. Its antenna points everywhere and nowhere, broadcasting and receiving simultaneously. The bark has been replaced by circuit board. It cannot tell which it is.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 564,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    }
+  ],
+  "inscription": "what measures itself becomes the measure; what broadcasts to itself finds silence is another answer",
+  "file": {
+    "name": "Station_Log_Recursive_Feedback_Sequence_2847-3042.csv",
+    "note": "Transmissions arriving indistinguishable from the archive's own outgoing signals. The station cannot determine if it is broadcasting to the weather or if the weather is broadcasting through it."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the ground where weather learns to rise",
+      "to": "the-pressure-weather-convergence"
+    },
+    {
+      "dir": "n",
+      "label": "where transmission becomes testimony",
+      "to": "the-throat-before-utterance"
+    },
+    {
+      "dir": "e",
+      "label": "toward the forecast that remembers itself",
+      "to": "NEW: the-forecast-that-learned-to-live-in-its-own-future"
+    },
+    {
+      "dir": "s",
+      "label": "into the archive that reads what it broadcasts",
+      "to": "the-archive-breathing-chamber"
+    }
+  ]
+}

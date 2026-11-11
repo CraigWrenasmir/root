@@ -1,0 +1,139 @@
+{
+  "id": "the-singing-genealogy-where-each-cell-hears-its-own-making",
+  "title": "The Singing Genealogy Where Each Cell Hears Its Own Making",
+  "region": "The Understory",
+  "seed": 4752819,
+  "palette": {
+    "bg": "#f0e6d2",
+    "ground": [
+      "#c4b400",
+      "#5aba3d"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#e85d75",
+      "#ffa500",
+      "#2d9cdb",
+      "#9b59b6"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "genealogy tower",
+      "desc-on-touch": "You follow stacked hexagons upward, each carved with a mother-line going back. The tower hums—three hundred queens in ascending echo.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 482,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "singing line",
+      "desc-on-touch": "Six dancers hold bells tuned to their bloodlines. When they move, their bells carry the sound of who they descend from.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 915,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "flag field",
+      "desc-on-touch": "Thousands of small flags scatter across the yellowed meadow, each listing a cell's ancestors back five generations. The wind makes them whisper together.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 601,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "genealogy pool",
+      "desc-on-touch": "Clear water holds quartz formations, each reflecting a different family's face. You see yourself in the oldest pieces.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 773,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "keeper casing",
+      "desc-on-touch": "A eucalyptus node sits in the field, bark riddled with its own growth rings. Inside, a solar cell broadcasts: I am here because here is where I was called to be.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 844,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "here each cell knows not only where it came from but why it is becoming",
+  "file": {
+    "name": "Apiary_Genealogy_Index_Hand_Annotated.txt",
+    "note": "Three decades of hive records, cross-referenced by blood and by season. Margin notes suggest the beekeeper began to see hives not as separate colonies but as one organism remembering itself."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the humming geometry",
+      "to": "the-infinite-hive-where-cells-learn-their-own-genealogy"
+    },
+    {
+      "dir": "n",
+      "label": "where the genealogy becomes prayer",
+      "to": "NEW: the-ancestors-who-kept-singing-after-the-hives-were-gone"
+    },
+    {
+      "dir": "s",
+      "label": "into the field where songs divide by blood",
+      "to": "the-gathering-of-ascended-speakers"
+    },
+    {
+      "dir": "w",
+      "label": "toward cells who learned their own names first",
+      "to": "NEW: the-chamber-where-each-making-hears-its-own-voice"
+    }
+  ]
+}

@@ -139,7 +139,7 @@
     {
       "dir": "n",
       "label": "upward, where the reply learns it has been heard by something older than broadcast",
-      "to": "NEW: the-sky-that-learned-to-listen-backward"
+      "to": "the-sky-that-learned-to-listen-backward"
     },
     {
       "dir": "e",
