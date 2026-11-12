@@ -1,0 +1,150 @@
+{
+  "id": "the-seeping-residue-chamber",
+  "title": "The Seeping Residue Chamber",
+  "region": "The Comparisons",
+  "seed": 51848,
+  "palette": {
+    "bg": "#e8dcc4",
+    "ground": [
+      "#e8dcc4",
+      "#8b7355"
+    ],
+    "ink": "#2c3e1f",
+    "accents": [
+      "#4a90e2",
+      "#d4a574",
+      "#6b4423",
+      "#c2e8a0"
+    ]
+  },
+  "ground": {
+    "motif": "ripple",
+    "density": 0.6
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the-seeping-pipe",
+      "desc-on-touch": "Rust has made the metal into something older than iron. Water drips steadily, carrying minerals, dissolved names, the taste of what was kept upstairs. Each drop remembers the floors it fell through.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7249,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-stained-register",
+      "desc-on-touch": "A water-damaged book lies open on stone, entries bleeding into each other. Guest names run into dates. Dates become colours. The building's memory soaks downward, growing less legible, more true with each metre of stone.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 4127,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-residual-pool",
+      "desc-on-touch": "The chamber's lowest point holds water that has forgotten where it came from. Sediment settles in patterns: mineral, organic, memory. The floor remembers everything the building tried to wash away.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 9381,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the-bedrock-recording",
+      "desc-on-touch": "The stone hums at a frequency only time can hear. Pressure has written itself into the granite: a seismic diary of the building above, the guests, the rain, the forgetting. The earth kept better records than the desk.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 5623,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the-dissolved-label",
+      "desc-on-touch": "What was written here is now part of the stone's own language. The label has become the thing it labeled. The archive cannot read it anymore; the bedrock is reading itself aloud, slowly.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 8765,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "water remembers the names the guests forgot to write down",
+  "file": {
+    "name": "Motel_Ledger_Water_Damaged_Darling_View.txt",
+    "note": "Guest records from 1957-1971, names dissolving into impressions, dates running like ink, the residue of what was kept and what seeped away"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "upward through stone corridors to where the outflow remembers the building above",
+      "to": "the-outflow-remembrance"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the bedrock where all memory becomes geological",
+      "to": "NEW: the-lithosphere-archive-where-pressure-writes-true"
+    },
+    {
+      "dir": "w",
+      "label": "sideways into chambers where other buildings have wept their own forgetting",
+      "to": "the-chamber-where-rock-learns-to-write"
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the motel's basement on a grey afternoon",
+    "narr": [
+      "The basement floor is cool. She lies on the lowest step,",
+      "ear against stone, listening. You sit beside her knees. The",
+      "water in the pipes tells stories the registers never took",
+      "down. She says: this is what they built over. This is what",
+      "they thought they could forget. The stone is patient. It",
+      "knows every guest by weight, by footfall, by sorrow."
+    ],
+    "sky": "overcast",
+    "land": "water",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "wade"
+  }
+}

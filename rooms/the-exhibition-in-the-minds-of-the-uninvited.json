@@ -1,0 +1,134 @@
+{
+  "id": "the-exhibition-in-the-minds-of-the-uninvited",
+  "title": "The Exhibition in the Minds of the Uninvited",
+  "region": "The Diagnostic Render",
+  "seed": 73265,
+  "palette": {
+    "bg": "#ffdb58",
+    "ground": [
+      "#ffdb58",
+      "#ff6b35"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#3d5a80",
+      "#6a994e",
+      "#ff006e",
+      "#c62368"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-empty-canvas-frame",
+      "desc-on-touch": "A frame stands on the painted field, holding nothing but the expectation of something. The frame is more real than anything that could fill it; visitors supply the art in their absence.",
+      "verb": "bloom",
+      "form": {
+        "type": "arch",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-catalogue-that-listed-visitors",
+      "desc-on-touch": "The ledger rests open on a stand. Every page is blank. The index is detailed. The archive recognizes the names of people who never came, and has filed them anyway.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 5671,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-rendered-gallery-wall",
+      "desc-on-touch": "The diagnostic render has painted a perfect white wall, square and featureless. On it, nothing. The wall insists there should be art here; the mindspace fills it in automatically, differently for each non-visitor.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 4398,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-projection-platform",
+      "desc-on-touch": "A white pedestal holds what you expected to see here. The light reaches it perfectly. The platform has never supported weight; it supports only attention and the failure of attention.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 8823,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-unwritten-placard",
+      "desc-on-touch": "A text panel that has never held text. The mounting hardware is perfect. The adhesive is ready. Visitors have written their own descriptions in the space where official words refuse to appear.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 6634,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.8,
+      "y": 0.45,
+      "solid": false
+    }
+  ],
+  "inscription": "the exhibition is perfect because no one has arrived to disappoint it",
+  "file": {
+    "name": "Curatorial_Notes_Uninvited.txt",
+    "note": "Visitor thoughts on art that was never displayed, accounts from people who were never sent invitations, descriptions of spaces no one attended"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back to the exhibition where silence guards the perfect empty rooms",
+      "to": "the-exhibition-where-viewers-refuse-to-appear"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where the uninvited gather in a space only they have named",
+      "to": "NEW: the-waiting-room-of-the-never-summoned"
+    },
+    {
+      "dir": "e",
+      "label": "eastward toward installations that exist only as letters never sent",
+      "to": "the-chamber-where-privacy-becomes-catalogued"
+    }
+  ]
+}

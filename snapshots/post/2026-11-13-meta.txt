@@ -1,0 +1,10 @@
+featured: The Exhibition in the Minds of the Uninvited (the-exhibition-in-the-minds-of-the-uninvited)
+region: The Diagnostic Render · motif: fields
+inscription: the exhibition is perfect because no one has arrived to disappoint it
+file: Curatorial_Notes_Uninvited.txt
+
+all nodes tonight:
+  · The Coastal Wrestling Ground Where Waves Debate
+  · The Exhibition in the Minds of the Uninvited
+  · The Seeping Residue Chamber
+  · The Turnoff That Is Only on the Map

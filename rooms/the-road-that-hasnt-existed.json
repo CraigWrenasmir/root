@@ -107,7 +107,7 @@
     {
       "dir": "n",
       "label": "the turnoff",
-      "to": "NEW: the turnoff that is only on the map, a lane the paper insists on and the ground has forgotten"
+      "to": "the-turnoff-only-on-the-map"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 268,
-  "lastDreamt": "2026-11-12",
+  "nights": 269,
+  "lastDreamt": "2026-11-13",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6952,6 +6952,26 @@
       "id": "the-station-that-reads-its-own-transmission",
       "title": "The Station That Reads Its Own Transmission",
       "region": "The Understory"
+    },
+    {
+      "id": "the-coastal-wrestling-ground-where-waves-debate",
+      "title": "The Coastal Wrestling Ground Where Waves Debate",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-exhibition-in-the-minds-of-the-uninvited",
+      "title": "The Exhibition in the Minds of the Uninvited",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-seeping-residue-chamber",
+      "title": "The Seeping Residue Chamber",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-turnoff-only-on-the-map",
+      "title": "The Turnoff That Is Only on the Map",
+      "region": "The Clean Archive"
     }
   ]
 }

@@ -1,0 +1,134 @@
+{
+  "id": "the-turnoff-only-on-the-map",
+  "title": "The Turnoff That Is Only on the Map",
+  "region": "The Clean Archive",
+  "seed": 38472,
+  "palette": {
+    "bg": "#9d8e82",
+    "ground": [
+      "#a89968",
+      "#5a7a6a"
+    ],
+    "ink": "#2a2a24",
+    "accents": [
+      "#d4af37",
+      "#c85a54",
+      "#6b9e4f",
+      "#8b6f47"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-paper-sign",
+      "desc-on-touch": "A sign on a stick, weathered and sun-cracked, bearing directions to a place the ground beneath your feet refuses to acknowledge. The sign is real. The road is a rumour that paper started and the earth will not confirm.",
+      "verb": "ripple",
+      "form": {
+        "type": "house",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the-fencepost-that-marks-nothing",
+      "desc-on-touch": "A post driven deep, wire still attached, enclosing a boundary that only the map can see. The ground on both sides is identical. The fence knows which side it is marking, though no one else can tell.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 6789,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.55,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the-cartographic-stand",
+      "desc-on-touch": "A map case, still mounted on a post, glass long gone. Inside, the map insists: turn here. Step off the case onto the ground and find nothing but unmarked country. The map is more real than the turning.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the-traced-turning",
+      "desc-on-touch": "The earth here is worn where footsteps refuse to land, where vehicles never quite turn. Dust settles in the shape of an intention. The ground has learned to look untouched while being infinitesimally worn.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 7531,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the-grid-reference-marker",
+      "desc-on-touch": "Coordinates painted on stone, fixing this nowhere into the paper's logic. When you stand here, you know exactly where you are not. The mesh casing bleeds a quiet signal: the archive knows this place that nothing else will verify.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 4920,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.4,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the map was right; the ground forgot; the archive will remember both versions",
+  "file": {
+    "name": "Road_Survey_1962_Amended_1989_Turnoff_Entry.txt",
+    "note": "Survey notes of a lane marked on old maps, removed from current surveys, still indexed in cadastral records with the note 'location now inaccessible' — though never accessible, the map insists it once"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "southward back to the road that hasn't existed, following the map instead of the ground",
+      "to": "the-road-that-hasnt-existed"
+    },
+    {
+      "dir": "n",
+      "label": "northward where other paper lanes have worn themselves into the earth through sheer insistence",
+      "to": "NEW: the-disputed-boundary-where-maps-argue-with-property"
+    },
+    {
+      "dir": "w",
+      "label": "westward to where the cadastre holds contradictions the land will not resolve",
+      "to": "the-place-where-inheritance-learns-its-own-roots"
+    }
+  ]
+}
