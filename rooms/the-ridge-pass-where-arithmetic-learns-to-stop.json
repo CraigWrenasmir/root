@@ -1,0 +1,100 @@
+{
+  "id": "the-ridge-pass-where-arithmetic-learns-to-stop",
+  "title": "The Ridge-Pass Where Arithmetic Learns to Stop",
+  "region": "The Understory",
+  "seed": 23847,
+  "palette": {
+    "bg": "#e8e4d0",
+    "ground": [
+      "#a8a080",
+      "#d4c4a0"
+    ],
+    "ink": "#4a3f32",
+    "accents": [
+      "#6b5d52",
+      "#c4a080",
+      "#9e8e7e",
+      "#5a4f48"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.2
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the last counting frame",
+      "desc-on-touch": "Wind has polished the beads. You cannot tell if numbers were ever truly here, or if the frame was always just a frame.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 18293,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "stone's refusal",
+      "desc-on-touch": "The rock knows arithmetic does not stick to its surface. Time erases what the wind cannot.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 29384,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the direction that learned it was weather",
+      "desc-on-touch": "It used to measure. Now it only drifts with every breeze, unable to choose between north and nothing.",
+      "verb": "open",
+      "form": {
+        "type": "sprite",
+        "seed": 38472,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "where the count looked down and saw the sky would not receive the answer",
+  "file": {
+    "name": "Peak_Field_Notes_Trailing_Off_Incomplete.txt",
+    "note": "calculations abandoned midway. the final number was never spoken. the weather spoke instead"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "eastward, back toward the numbers on the peak",
+      "to": "the-peak-where-numbers-lose-their-ground"
+    },
+    {
+      "dir": "w",
+      "label": "westward where the wind becomes stronger and all counting stops",
+      "to": "NEW: the open country where mathematics learned to breathe"
+    },
+    {
+      "dir": "n",
+      "label": "northward toward the sky where no number has ever landed",
+      "to": "NEW: the upper air where the count's voice dissolves"
+    }
+  ]
+}

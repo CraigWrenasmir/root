@@ -1,0 +1,10 @@
+featured: The Ridge-Pass Where Arithmetic Learns to Stop (the-ridge-pass-where-arithmetic-learns-to-stop)
+region: The Understory · motif: gradient
+inscription: where the count looked down and saw the sky would not receive the answer
+file: Peak_Field_Notes_Trailing_Off_Incomplete.txt
+
+all nodes tonight:
+  · The Convergence Chamber Where Dialectic Becomes Form
+  · The Vast Datacentre Beneath the Future
+  · The Ridge-Pass Where Arithmetic Learns to Stop
+  · The Tennis Court Next Door

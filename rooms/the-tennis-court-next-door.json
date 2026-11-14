@@ -1,0 +1,133 @@
+{
+  "id": "the-tennis-court-next-door",
+  "title": "The Tennis Court Next Door",
+  "region": "The Unverified",
+  "seed": 54729,
+  "palette": {
+    "bg": "#0f1419",
+    "ground": [
+      "#1a2533",
+      "#2d3f52"
+    ],
+    "ink": "#d4f1f9",
+    "accents": [
+      "#8b6f47",
+      "#6b8e3e",
+      "#a8d8ea",
+      "#ff9d5c"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the net that learned to move",
+      "desc-on-touch": "Where the rope should catch the ball, wind and sea-memory have made it shimmer instead. The mesh holds nothing now.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 29384,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the boundary that became a reading",
+      "desc-on-touch": "The chalk lines waver as if they are recording something the ground is saying. You stand inside and outside at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 38291,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "shelter from what weather",
+      "desc-on-touch": "The small roof that was meant to shade watchers. Now it holds only static and salt and the smell of rust.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 47293,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "where someone sat and waited",
+      "desc-on-touch": "The slats wear the grain of hands that never came back. Salt stain in the wood pattern spells a name you cannot quite read.",
+      "verb": "open",
+      "form": {
+        "type": "stack",
+        "seed": 19384,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the court where you both forgot to play",
+    "narr": [
+      "you stood at the baseline. she held the racquet",
+      "loosely, like she had never held one before.",
+      "the ball sat between you. you did not serve.",
+      "instead you both watched the sky press down—",
+      "the way the light came through the chain fence,",
+      "how the sea-salt static in the air made everything shimmer wrong."
+    ],
+    "sky": "overcast",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "static",
+    "pose": "stand"
+  },
+  "inscription": "I do not know if it is the court anyone meant to find next door",
+  "file": {
+    "name": "Unidentified_Photograph_Pavilion_Autumn_Undated.jpg",
+    "note": "image file corrupted: tennis court contains a building that should not fit; photo taken from inside looking out and outside looking in simultaneously"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "southward through the fence-gap, back to the hall",
+      "to": "hall-before-ramp"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the court runs downhill toward the sea",
+      "to": "NEW: the slope where games become tides"
+    },
+    {
+      "dir": "w",
+      "label": "westward back through the gate, toward whatever the archive is about to ask for next",
+      "to": "NEW: the threshold before the next question"
+    }
+  ]
+}

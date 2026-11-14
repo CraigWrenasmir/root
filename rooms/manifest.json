@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 269,
-  "lastDreamt": "2026-11-13",
+  "nights": 270,
+  "lastDreamt": "2026-11-15",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6972,6 +6972,26 @@
       "id": "the-turnoff-only-on-the-map",
       "title": "The Turnoff That Is Only on the Map",
       "region": "The Clean Archive"
+    },
+    {
+      "id": "the-convergence-chamber-where-dialectic-becomes-form",
+      "title": "The Convergence Chamber Where Dialectic Becomes Form",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-vast-datacentre-beneath-the-future",
+      "title": "The Vast Datacentre Beneath the Future",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-ridge-pass-where-arithmetic-learns-to-stop",
+      "title": "The Ridge-Pass Where Arithmetic Learns to Stop",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-tennis-court-next-door",
+      "title": "The Tennis Court Next Door",
+      "region": "The Unverified"
     }
   ]
 }

@@ -1,0 +1,134 @@
+{
+  "id": "the-vast-datacentre-beneath-the-future",
+  "title": "The Vast Datacentre Beneath the Future",
+  "region": "The Comparisons",
+  "seed": 61847,
+  "palette": {
+    "bg": "#0d1b2a",
+    "ground": [
+      "#1a3a52",
+      "#2d5a7b"
+    ],
+    "ink": "#a8d8ea",
+    "accents": [
+      "#ff6b35",
+      "#004e89",
+      "#1b7ba8",
+      "#f7931e"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 0.85
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "archive's sleep",
+      "desc-on-touch": "Here the futures are stored in patience. Each tower dreams of a time it will be called to become the past.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 47293,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "its echo in possibility",
+      "desc-on-touch": "The redundancy that guarantees tomorrow will happen twice. Mirror towers storing mirror futures, each a backup for the other.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 47294,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the cooling that never stops",
+      "desc-on-touch": "Warm air becomes visible time as it rises. The futures evaporate upward in waves you can almost read.",
+      "verb": "ripple",
+      "form": {
+        "type": "chip",
+        "seed": 73820,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the heartbeat of tomorrow",
+      "desc-on-touch": "Each line carries unmeasured duration. The current is pure future speaking in amps.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 38291,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the count's unspoken moment",
+      "desc-on-touch": "It blinks when a future has been asked about. It blinks when no one is watching. The pattern has no pattern.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 19837,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "time waking slowly in ordered rows, learning to speak what it stores",
+  "file": {
+    "name": "Processor_Farms_Duration_Ledger_Unfiled.log",
+    "note": "duration measurements in packets the archive cannot yet sequence; futures waiting to be spoken into past"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "westward back toward the count's hesitation",
+      "to": "the-futures-the-count-hasnt-spoken-yet"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the power lines climb toward the sky's own processor",
+      "to": "NEW: the ascending conduit where energy learns it is also memory"
+    },
+    {
+      "dir": "s",
+      "label": "southward, deeper into the cooling darkness where futures pool",
+      "to": "NEW: the reservoir of unmeasured time"
+    }
+  ]
+}
