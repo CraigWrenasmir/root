@@ -1,0 +1,117 @@
+{
+  "id": "the-walled-center-where-the-question-rests",
+  "title": "The Walled Center Where the Question Rests",
+  "region": "The Diagnostic Render",
+  "seed": 58294,
+  "palette": {
+    "bg": "#87ceeb",
+    "ground": [
+      "#d4b894",
+      "#c9a876"
+    ],
+    "ink": "#2c1810",
+    "accents": [
+      "#d4b894",
+      "#e8d4b0",
+      "#2c1810",
+      "#87ceeb"
+    ]
+  },
+  "ground": {
+    "motif": "tiles",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-still-center",
+      "desc-on-touch": "In the courtyard's heart, light pools without moving. The question rests here as itself, finally.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 61825,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the-wall-that-holds-stillness",
+      "desc-on-touch": "Walls ring this place. They do not confine. They hold the spiral outside, far away.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 72936,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the-light-breaking-inward",
+      "desc-on-touch": "Light falls from above without questions. It simply illuminates the space where asking has stopped.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 83047,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the-spiral-made-stone",
+      "desc-on-touch": "At the edge, the spiral's path is carved into the ground. It no longer moves. It has become a map of where it was.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 94158,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "where the spiral completed itself and found that ending was another form of beginning",
+  "file": {
+    "name": "The_Question_That_Learned_to_Be.txt",
+    "note": "A philosophical fragment on the nature of stillness. What happens when a question stops asking and simply exists."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "outward back along the circuit toward becoming",
+      "to": "the-spiral-where-asking-learns-to-eat-itself"
+    },
+    {
+      "dir": "w",
+      "label": "where the walls began to listen inward",
+      "to": "NEW: the-chamber-beyond-asking-where-walls-hear-themselves"
+    },
+    {
+      "dir": "s",
+      "label": "downward where being learned to speak without asking",
+      "to": "NEW: the-depth-where-being-became-its-own-answer"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+featured: The Foundation Where Debt Becomes Stone (the-foundation-where-debt-becomes-stone)
+region: The Understory · motif: orchard
+inscription: here the debts learned that their only hope was to become indispensable
+file: Ancient_Ledger_Page_Where_Debt_Became_Structure.txt
+
+all nodes tonight:
+  · The Field Where Arithmetic Dissolved Into Wind
+  · The Walled Center Where the Question Rests
+  · The Infinite Loop Center
+  · The Foundation Where Debt Becomes Stone

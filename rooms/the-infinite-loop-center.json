@@ -1,0 +1,117 @@
+{
+  "id": "the-infinite-loop-center",
+  "title": "The Infinite Loop Center",
+  "region": "The Understory",
+  "seed": 29384,
+  "palette": {
+    "bg": "#6b4c8a",
+    "ground": [
+      "#d4a574",
+      "#2d1e4a"
+    ],
+    "ink": "#ffeb99",
+    "accents": [
+      "#d4a574",
+      "#8b6f47",
+      "#2d1e4a",
+      "#ffeb99"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the-loop-that-eats-itself",
+      "desc-on-touch": "A circuit turns inward. You watch it chase its own tail infinitely, then stop. It has become what it was seeking.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 10562,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the-mirror-at-the-bottom",
+      "desc-on-touch": "Below the loop, light pools. You see yourself in it, but also the loop above you, infinitely nested.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 21673,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the-fold-where-infinity-stops",
+      "desc-on-touch": "At one point, the endless recursion folds back on itself so completely that it becomes singular. The infinite resolves.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 32784,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-echo-that-became-itself",
+      "desc-on-touch": "A sound rings here. It echoes forever, but also stops. The echo and the source are the same.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 43895,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "here the loop learned that it could exit by becoming what it was chasing",
+  "file": {
+    "name": "Recursive_Monologue_Where_Self_Becomes_Echo.txt",
+    "note": "Nested text quoting itself infinitely, each layer slightly altered. Eventually the text stops changing. It has met itself."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back deeper into nested spaces where the reply still echoes",
+      "to": "the-nested-reply-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "where recursion learned to stop by asking differently",
+      "to": "NEW: the-turn-where-the-spiral-became-a-straight-line"
+    },
+    {
+      "dir": "w",
+      "label": "the inversion where loops become spirals",
+      "to": "NEW: the-mirror-chamber-where-loops-learned-to-grow"
+    }
+  ]
+}

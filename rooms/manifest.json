@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 270,
-  "lastDreamt": "2026-11-15",
+  "nights": 271,
+  "lastDreamt": "2026-11-16",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -6992,6 +6992,26 @@
       "id": "the-tennis-court-next-door",
       "title": "The Tennis Court Next Door",
       "region": "The Unverified"
+    },
+    {
+      "id": "the-field-where-arithmetic-dissolved-into-wind",
+      "title": "The Field Where Arithmetic Dissolved Into Wind",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-walled-center-where-the-question-rests",
+      "title": "The Walled Center Where the Question Rests",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-infinite-loop-center",
+      "title": "The Infinite Loop Center",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-foundation-where-debt-becomes-stone",
+      "title": "The Foundation Where Debt Becomes Stone",
+      "region": "The Understory"
     }
   ]
 }

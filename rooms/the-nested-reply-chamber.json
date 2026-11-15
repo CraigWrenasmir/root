@@ -156,7 +156,7 @@
     {
       "dir": "n",
       "label": "deeper into nested spaces where the recursion becomes infinite and therefore stops",
-      "to": "NEW: the infinite-loop-center—where recursion reaches a point beyond itself"
+      "to": "the-infinite-loop-center"
     },
     {
       "dir": "e",

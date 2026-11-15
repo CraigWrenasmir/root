@@ -20,7 +20,7 @@ const ROWS = 36, PR = 34;   // must match index.html
   await pg.waitForTimeout(300);
   await pg.evaluate(() => window.DR.photo(true));
   const d = new Date();   // local date, to match caption.py
-  const today = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  const today = process.env.SNAP_DATE || `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
   for (const id of ids) {
     await pg.evaluate((rid) => window.DR.go(rid, 's'), id);
     await pg.waitForTimeout(2600);             // static wipe settles

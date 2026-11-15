@@ -1,0 +1,133 @@
+{
+  "id": "the-foundation-where-debt-becomes-stone",
+  "title": "The Foundation Where Debt Becomes Stone",
+  "region": "The Understory",
+  "seed": 75621,
+  "palette": {
+    "bg": "#3d3d3d",
+    "ground": [
+      "#6d6d6d",
+      "#5a5a5a"
+    ],
+    "ink": "#d4d4d4",
+    "accents": [
+      "#8a7d6f",
+      "#5a5a5a",
+      "#d4d4d4",
+      "#6d6d6d"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the-ledger-rows",
+      "desc-on-touch": "Rows and rows of stone. Each stone is a page, each page a debt. They stretch deeper than sight.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 50234,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the-stone-that-remembers-every-debt",
+      "desc-on-touch": "This stone hums with the weight of every unpaid thing. It remembers them all. It has become the ledger.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 61345,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the-line-where-numbers-became-architecture",
+      "desc-on-touch": "A line marks the boundary. On one side: arithmetic. On the other: the structure that debt became.",
+      "verb": "bloom",
+      "form": {
+        "type": "filecard",
+        "seed": 72456,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the-weight-of-forgetting",
+      "desc-on-touch": "Forgetting the debt does not erase it. It only makes the stone heavier. What is forgotten becomes what is carried.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 83567,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.7,
+      "solid": false
+    }
+  ],
+  "inscription": "here the debts learned that their only hope was to become indispensable",
+  "file": {
+    "name": "Ancient_Ledger_Page_Where_Debt_Became_Structure.txt",
+    "note": "An account so old that the entries have turned to stone. The debts are now the foundation. They cannot be moved."
+  },
+  "reverie": {
+    "title": "REVERIE — where you knelt and understood the weight",
+    "narr": [
+      "You kneel together in the red earth, hands pressed down.",
+      "The ground is heavy - not from stone, but from all",
+      "the things never returned, never settled. She kneels",
+      "beside you and places her hand where yours is. You both",
+      "feel it: the weight you're carrying is the weight that",
+      "holds everything up. Forgetting won't lighten it. Only"
+    ],
+    "sky": "overcast",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back upward to older ledgers still writing",
+      "to": "the-ancient-ledger-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "where debt learned to grow deeper into the earth",
+      "to": "NEW: the-bedrock-where-debt-became-geology"
+    },
+    {
+      "dir": "s",
+      "label": "down to the oldest ledger where the first debt was made stone",
+      "to": "the-bedrock-registry-of-all-unpaid-things"
+    }
+  ]
+}

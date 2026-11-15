@@ -1,0 +1,133 @@
+{
+  "id": "the-field-where-arithmetic-dissolved-into-wind",
+  "title": "The Field Where Arithmetic Dissolved Into Wind",
+  "region": "The Understory",
+  "seed": 47382,
+  "palette": {
+    "bg": "#2d5a4d",
+    "ground": [
+      "#7a9e92",
+      "#5a8f7d"
+    ],
+    "ink": "#d4e8e0",
+    "accents": [
+      "#a8d4c8",
+      "#6db89c",
+      "#d4e8e0",
+      "#4a7d6f"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "breath-that-stopped-counting",
+      "desc-on-touch": "You feel the wind that learned not to measure. It passes through you with no need for numbers.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "grasses-learning-to-forget",
+      "desc-on-touch": "Tall grasses bend without counting their stems. They sway in patterns that have no equation.",
+      "verb": "reverie",
+      "form": {
+        "type": "stack",
+        "seed": 23956,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the-sky-that-opens-upward",
+      "desc-on-touch": "Above, the sky holds no measure. It opens endlessly, indifferent to quantities.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 34012,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    },
+    {
+      "name": "the-measure-fallen-away",
+      "desc-on-touch": "A rod lies in the grass, unused. Numbers were written here once. Now the marks are fading into rust.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 45123,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "where the wind counted nothing and everything became possible",
+  "file": {
+    "name": "Field_Notes_Where_Numbers_Learned_Rest.txt",
+    "note": "Observations on open country where arithmetic becomes unnecessary. The paddock records its own measurement by refusing to be measured."
+  },
+  "reverie": {
+    "title": "REVERIE — the paddock where you both stopped counting",
+    "narr": [
+      "You stand together in the open field, and she stops",
+      "mid-sentence. Not with urgency, not with doubt. She",
+      "simply stops reaching for the next number. The grass",
+      "goes on swaying without counting its blades. Your heart",
+      "does not know the exact measure of its beats. And yet",
+      "you both are here, real as stone, real as wind."
+    ],
+    "sky": "day",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back eastward to where the counting still tries",
+      "to": "the-ridge-pass-where-arithmetic-learns-to-stop"
+    },
+    {
+      "dir": "w",
+      "label": "further into the country where wind becomes the only measure",
+      "to": "NEW: the-horizon-where-wind-learned-to-be-language"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the emptiness deepens into depth",
+      "to": "NEW: the-plateau-where-vastness-learned-to-sleep"
+    }
+  ]
+}
