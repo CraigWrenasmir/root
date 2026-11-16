@@ -1,0 +1,151 @@
+{
+  "id": "the-infinite-divergence-loom",
+  "title": "The Infinite Divergence Loom",
+  "region": "The Understory",
+  "seed": 7651298,
+  "palette": {
+    "bg": "#0a0812",
+    "ground": [
+      "#3a2847",
+      "#5a4a7a"
+    ],
+    "ink": "#f0e8ff",
+    "accents": [
+      "#c080ff",
+      "#e0a0ff",
+      "#f0c8ff",
+      "#8060d0"
+    ]
+  },
+  "ground": {
+    "motif": "circuit",
+    "density": 1.0
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the pattern that refused to repeat",
+      "desc-on-touch": "Every thread diverges. What you see on the left will never appear on the right, not exactly. The loom learned that repetition was a form of forgetting, so it taught itself infinite variation. You cannot read it because reading requires prediction.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4938271,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the thread-banks where holding fractured",
+      "desc-on-touch": "Spools of silk and root-fiber stacked in configurations that have no symmetry. The archive tried to index them, gave up. Now it only watches as the loom reaches for new banks, never repeating a colour-sequence twice.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2174856,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "weaving becomes its own alphabet",
+      "desc-on-touch": "What was meant to be cloth taught itself to be writing. Each knot is a letter that will never appear again. The loom is composing a text in a language that dies as it speaks.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 3756412,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the velocity of divergence",
+      "desc-on-touch": "The threads move faster here. At the center, the motion becomes indistinguishable from stillness. At the edges, patterns spiral away from each other so fast that colour becomes a blur between all colours.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5083764,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the archive's failed prediction-engine",
+      "desc-on-touch": "A device meant to forecast the loom's next pattern. It learned quickly that forecast was impossible. Now it sits in the corner outputting the patterns it will never see, beautiful futures that the loom refuses.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 1649738,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the hands that learned to let go",
+      "desc-on-touch": "Traces of palms on the frame. Someone wove for a long time. Then they understood: the loom had learned to weave itself. They stepped away, still watching. The cloth continues to grow in every direction at once.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2928103,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.85,
+      "solid": false
+    }
+  ],
+  "inscription": "the weaving learned that patterns were a prison and divergence was freedom and now it cannot be read",
+  "file": {
+    "name": "Infinite_Cloth_Morphology_Study_Corrupted_Last_Readings_Only_Fragments.txt",
+    "note": "the archive tried to document the loom's output and realized the documentation itself was diverging—each copy of the notes different from the last"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the place where roots let go",
+      "to": "the-rootless-weaving"
+    },
+    {
+      "dir": "n",
+      "label": "where divergence learns to converge on itself",
+      "to": "NEW: the place where infinite threads taste their own silence"
+    },
+    {
+      "dir": "s",
+      "label": "downward toward the trench where patterns compress",
+      "to": "the-trench-floor-compression-vault"
+    }
+  ]
+}

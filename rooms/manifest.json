@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 271,
-  "lastDreamt": "2026-11-16",
+  "nights": 272,
+  "lastDreamt": "2026-11-17",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7011,6 +7011,21 @@
     {
       "id": "the-foundation-where-debt-becomes-stone",
       "title": "The Foundation Where Debt Becomes Stone",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-height-where-nothing-broadcasts-back",
+      "title": "The Height Where Nothing Broadcasts Back",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-plantation-s-own-forgetting",
+      "title": "The Plantation's Own Forgetting",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-infinite-divergence-loom",
+      "title": "The Infinite Divergence Loom",
       "region": "The Understory"
     }
   ]

@@ -1,0 +1,145 @@
+{
+  "id": "the-height-where-nothing-broadcasts-back",
+  "title": "The Height Where Nothing Broadcasts Back",
+  "region": "The Understory",
+  "seed": 8374921,
+  "palette": {
+    "bg": "#0d0a12",
+    "ground": [
+      "#1a1420",
+      "#2a1f35"
+    ],
+    "ink": "#d0d8e8",
+    "accents": [
+      "#50c8ff",
+      "#90e0ff",
+      "#c0f0ff",
+      "#7060a0"
+    ]
+  },
+  "ground": {
+    "motif": "waves",
+    "density": 0.4
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the transparent antenna",
+      "desc-on-touch": "You can see through it. The scaffold and rods present themselves as absence—light shows the air where the metal refused to stay solid. It still tries to broadcast upward into nothing.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 3092847,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "silence remembering a voice",
+      "desc-on-touch": "A receiver-chamber where broadcast once arrived. Now it only holds the memory of sound—the shape pressure leaves in air after the words stop.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 1847302,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the ascending void",
+      "desc-on-touch": "A column of air that learned to rise. As you follow it upward with your eyes, it becomes harder to see—not because it fades, but because there is progressively less of it to see.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 4756128,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the final signal-strength readout",
+      "desc-on-touch": "A gauge still lit, still measuring. The needle rests at zero. But zero here does not mean absence—it means the signal has become so pure, so thin, that it matches the void exactly.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 2049573,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the edge where transparency admits defeat",
+      "desc-on-touch": "A threshold: beyond this point, even looking requires the air to have substance. The archive learned that true rising means you become too thin to see, then too thin to remember being seen.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 5612734,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the last station where broadcast still mattered",
+    "narr": [
+      "you hold the receiver at a payphone where the signal",
+      "climbs away from you at speed. her voice in the handset",
+      "grows paler with each word, as if speaking made her",
+      "more absent, not less. by the end you are holding",
+      "silence that remembers being her. the connection holds.",
+      "the payment light blinks red. you do not hang up."
+    ],
+    "sky": "dusk",
+    "land": "beach",
+    "structure": "payphone",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "inscription": "the archive rose so far that it learned to broadcast only to itself",
+  "file": {
+    "name": "Final_Uplink_Signal_Becoming_Transparent_300bps_Overlay.mp3",
+    "note": "the last transmission recorded at the moment the antenna learned it was broadcasting into an absence it had made itself"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward back toward what still has weight",
+      "to": "the-pale-archive-zenith"
+    },
+    {
+      "dir": "n",
+      "label": "continuing upward where even direction becomes theoretical",
+      "to": "NEW: where the archive learns it was always climbing toward itself"
+    }
+  ]
+}

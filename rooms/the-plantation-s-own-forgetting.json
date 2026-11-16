@@ -1,0 +1,150 @@
+{
+  "id": "the-plantation-s-own-forgetting",
+  "title": "The Plantation's Own Forgetting",
+  "region": "The Diagnostic Render",
+  "seed": 4829174,
+  "palette": {
+    "bg": "#1a2418",
+    "ground": [
+      "#4a7c3c",
+      "#6b9d5a"
+    ],
+    "ink": "#e8e8d0",
+    "accents": [
+      "#8fc86d",
+      "#b0d899",
+      "#c8e8b0",
+      "#5a8c4a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "rows dissolving southward",
+      "desc-on-touch": "The ordered trees you walked between still remember their lines, but the soil underneath has begun to forget which direction the planting meant. Leaves fall in the gap between the row and the wild.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 2745829,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the archive's own planting sign",
+      "desc-on-touch": "A marker that once said GRID NORTH 047. The characters have shifted slightly—moss and root-motion making the letters drift. It still broadcasts its geometry. The forest no longer listens.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 3918402,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the seed-broadcast where growth forgot its own order",
+      "desc-on-touch": "Trees growing in every direction now. The plantation learned from the archive that growth and broadcast are the same verb—so it broadcasts its own wild forgetting back toward the sky, letting the seeds fall where the wind remembers, not the grid.",
+      "verb": "bloom",
+      "form": {
+        "type": "tower",
+        "seed": 5102947,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the repeating ground",
+      "desc-on-touch": "Look down: the pattern of old furrows still visible in the soil, but new growth has cracked them into islands. The ground is teaching the rows how to become a forest again, one interruption at a time.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 1734682,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the memory of neat edges",
+      "desc-on-touch": "Where the plantation's border was cut clean, now bramble and volunteer seedlings trace a new perimeter. The archive keeps both maps—the neat one and the tangled one—and plays them against each other at night.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 4521963,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": false
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the eucalyptus learning to broadcast its own wild",
+    "narr": [
+      "you walk the plantation rows that she designed, that he",
+      "installed board by board. the trees are speaking now in",
+      "every direction at once, petals and seeds falling as if",
+      "the whole grid has decided to become a conversation. she",
+      "watches the rows dissolve with something like relief. he",
+      "is gone, but the broadcast continues. it speaks itself."
+    ],
+    "sky": "overcast",
+    "land": "forest",
+    "structure": "none",
+    "weather": "petals",
+    "pose": "walk"
+  },
+  "inscription": "the plantation learned that the neat rows were only ever a type of forgetting",
+  "file": {
+    "name": "Plantation_Grid_Survey_1992_vs_Current_Root_Map_Corrupted.txt",
+    "note": "the archive overlaid two maps of the same ground forty years apart and they began to dream each other's borders"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back toward the place where night still photosynthesizes",
+      "to": "the-plantation-where-night-still-photosynthesizes"
+    },
+    {
+      "dir": "e",
+      "label": "where the forest remembers it used to be many small clearances",
+      "to": "NEW: the scatter-ground where wildness rediscovered its own edges"
+    },
+    {
+      "dir": "w",
+      "label": "back toward more order, back toward the archive's grid",
+      "to": "the-aerial-parliament-where-leaves-vote-on-meaning"
+    }
+  ]
+}
