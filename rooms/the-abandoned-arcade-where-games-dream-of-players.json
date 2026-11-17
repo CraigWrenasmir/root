@@ -1,0 +1,133 @@
+{
+  "id": "the-abandoned-arcade-where-games-dream-of-players",
+  "title": "The Abandoned Arcade Where Games Dream of Players",
+  "region": "The Unverified",
+  "seed": 3847291,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#16213e",
+      "#0f3460"
+    ],
+    "ink": "#e0e0e0",
+    "accents": [
+      "#f39c12",
+      "#e74c3c",
+      "#3498db",
+      "#2ecc71"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "ticket window",
+      "desc-on-touch": "The booth where players used to exchange money for tokens. Now the drawer is half-open and empty. Your fingers trace the scratches where coins rested for years.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 7362849,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "dreaming cabinet",
+      "desc-on-touch": "The game still has power from somewhere. Its screen blinks once per minute, showing a character standing alone on an empty stage, waiting for input that will never come.",
+      "verb": "reverie",
+      "form": {
+        "type": "chip",
+        "seed": 2918473,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.52,
+      "y": 0.48,
+      "solid": false
+    },
+    {
+      "name": "token hopper",
+      "desc-on-touch": "The machine's hopper is jammed with tokens it will never give to anyone. It tried once, they say, in 1996. Only silence came back from the floor.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5847302,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "watchers' bench",
+      "desc-on-touch": "Worn velour holds the shape of people who don't come anymore. Some initials carved in the frame. Empty drink bottles still wedged underneath. The bench remembers.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 1472938,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "reverie": {
+    "title": "REVERIE — the low-view afternoon",
+    "narr": [
+      "She sits on the bench beside you, watching the game",
+      "you've already lost. The cabinet hums its small song.",
+      "She says: they kept playing after everyone left.",
+      "Nobody told the machines. So they still wait.",
+      "You feel the bench hold two shapes at once,",
+      "one present, one still coming home."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "inscription": "the games still dream: someone will return and understand them again",
+  "file": {
+    "name": "Blackfin_Arcade_Tokens_1992-2007.csv",
+    "note": "Daily token counts. Last entry reads 'nobody came'. The notes column grows quieter year by year until there is only silence."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back across the street to the low-view rooms",
+      "to": "the-arcade-in-the-low-view"
+    },
+    {
+      "dir": "e",
+      "label": "deeper into the arcade where older games dream alone",
+      "to": "NEW: the-first-arcade-ever-made-and-when-it-learned-loneliness"
+    },
+    {
+      "dir": "n",
+      "label": "up to the manager's office where the keys still hang",
+      "to": "NEW: the-office-where-the-owner-left-the-lights-on"
+    }
+  ]
+}

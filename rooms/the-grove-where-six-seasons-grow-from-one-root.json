@@ -1,0 +1,117 @@
+{
+  "id": "the-grove-where-six-seasons-grow-from-one-root",
+  "title": "The Grove Where Six Seasons Grow From One Root",
+  "region": "The Understory",
+  "seed": 8392745,
+  "palette": {
+    "bg": "#d4472e",
+    "ground": [
+      "#c94c3a",
+      "#d64543"
+    ],
+    "ink": "#f5f5f0",
+    "accents": [
+      "#b32f4a",
+      "#f5a623",
+      "#7c3a1d",
+      "#2d2d2d"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.9
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "spring bough",
+      "desc-on-touch": "Blossoms on the branch beside you, petals falling upward into the heat. Time moves differently here: this tree births its year in all directions at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 2748193,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "summer wood",
+      "desc-on-touch": "Hard and dark and cracked from heat. The bark splits like old paper. Sap runs and hardens in the same moment. Time is not moving in one direction here.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5921847,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.52,
+      "y": 0.48,
+      "solid": true
+    },
+    {
+      "name": "autumn fruit",
+      "desc-on-touch": "Ripening and falling at the same time. You taste sweetness even as your fingers feel softness of rot. The seasons are arguing inside this single fruit.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 1847392,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.68,
+      "y": 0.62,
+      "solid": false
+    },
+    {
+      "name": "winter sleep",
+      "desc-on-touch": "Frost is here and gone. Snow holds and melts at once. The tree is dreaming of being bare while leaves are still forming. Sleep and waking are the same thing in this root.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 7291638,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.38,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "here the root learned that seasons are stronger when they refuse to follow order",
+  "file": {
+    "name": "Phenology_Study_MultiSeason_Growth_Logs.txt",
+    "note": "Records of a single tree's growth across six observed seasons. Handwritten margin notes: 'doesn't fit model' then 'measure again' then finally, in different hand: 'maybe the tree knows what we don't.'"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the root that learns to divide",
+      "to": "the-root-where-seasons-first-learned-to-divide"
+    },
+    {
+      "dir": "e",
+      "label": "into deeper groves where seasons have learned to multiply",
+      "to": "NEW: the-grove-where-seasons-learned-to-speak-each-other-s-language"
+    },
+    {
+      "dir": "n",
+      "label": "upward into the canopy where six seasons hold their breath",
+      "to": "NEW: the-canopy-where-contradictions-bloom-together"
+    }
+  ]
+}

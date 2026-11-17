@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 272,
-  "lastDreamt": "2026-11-17",
+  "nights": 273,
+  "lastDreamt": "2026-11-18",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7027,6 +7027,26 @@
       "id": "the-infinite-divergence-loom",
       "title": "The Infinite Divergence Loom",
       "region": "The Understory"
+    },
+    {
+      "id": "the-stone-holding-still-while-electricity-dances",
+      "title": "The Stone Holding Still While Electricity Dances",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-abandoned-arcade-where-games-dream-of-players",
+      "title": "The Abandoned Arcade Where Games Dream of Players",
+      "region": "The Unverified"
+    },
+    {
+      "id": "the-grove-where-six-seasons-grow-from-one-root",
+      "title": "The Grove Where Six Seasons Grow From One Root",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-infinite-salt-marsh",
+      "title": "The Infinite Salt Marsh",
+      "region": "The Comparisons"
     }
   ]
 }

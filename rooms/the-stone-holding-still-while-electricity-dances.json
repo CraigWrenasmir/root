@@ -1,0 +1,134 @@
+{
+  "id": "the-stone-holding-still-while-electricity-dances",
+  "title": "The Stone Holding Still While Electricity Dances",
+  "region": "The Comparisons",
+  "seed": 7429384,
+  "palette": {
+    "bg": "#d4a574",
+    "ground": [
+      "#c99550",
+      "#d4a574"
+    ],
+    "ink": "#1a1410",
+    "accents": [
+      "#5b9fd4",
+      "#f5e6d3",
+      "#8b4513",
+      "#2a2a2a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "exposed bedrock",
+      "desc-on-touch": "You touch stone that has not moved in geological time. It is warm from the sun and patient. Electricity runs through it like a conversation it cannot answer.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847561,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "circuit scar",
+      "desc-on-touch": "Lightning once danced here and left its signature: a hair-thin white line through dark rock, where electricity learned that stone doesn't learn back.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5934821,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.68,
+      "y": 0.52,
+      "solid": false
+    },
+    {
+      "name": "node in stone",
+      "desc-on-touch": "The solar panel sits in a crevice. The antenna is threaded through bark. The stone holds the whole device without complaint, without change, without memory.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 4728193,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "time-carved pool",
+      "desc-on-touch": "Water has sat here in the stone for centuries, working slowly. The pool reflects the sky but the stone remembers the stone. That is how time wins: by not moving at all.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1562847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.52,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "root below",
+      "desc-on-touch": "Deep in the stone, root-channels have split the bedrock over decades. The electricity passes through stone, the stone passes into the growing tree. Neither changes the other. Both persist.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 9134562,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.78,
+      "y": 0.38,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone holds everything: electricity, time, the weight of learning not to move",
+  "file": {
+    "name": "Survey_MineralResistance_Limestone_1962.txt",
+    "note": "Geological survey data. How much current the stone accepts without breaking. The answer is: all of it. No change. No record of investigator."
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through mineral branches toward electric thought",
+      "to": "the-branching-mineral-circuit"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into the stone where pressure learned to dream",
+      "to": "NEW: the-stone-learning-its-own-weight"
+    },
+    {
+      "dir": "e",
+      "label": "across the exposed face toward the valley floor",
+      "to": "the-lateral-sediment-convergence"
+    }
+  ]
+}
