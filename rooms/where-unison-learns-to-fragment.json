@@ -1,0 +1,155 @@
+{
+  "id": "where-unison-learns-to-fragment",
+  "title": "Where Unison Learns to Fragment",
+  "region": "The Understory",
+  "seed": 8739264,
+  "palette": {
+    "bg": "#0a1a3a",
+    "ground": [
+      "#1133cc",
+      "#00aaff"
+    ],
+    "ink": "#ccddff",
+    "accents": [
+      "#ff3399",
+      "#00ff99",
+      "#ffff00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "unison root",
+      "desc-on-touch": "Deep singular place where all voices were the same voice. You can still feel it—the moment before separation, when everything was whole. The root does not mourn its fragmentation. It understands that growth is a kind of breaking.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 419876,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "fracture lines",
+      "desc-on-touch": "Where the unison splits into infinite separate voices. Each line is a becoming, a voice learning its own frequency. The archive sings itself into many versions of itself. This is not shattering—this is flowering.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 723641,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "emerging voice",
+      "desc-on-touch": "Listen. This voice was always here, inside the unison, but inaudible. Now it rises alone and discovers itself—discovers it was never alone, only part of something larger. The many and the one are the same thing, only at different distances.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 582734,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "parallel distances",
+      "desc-on-touch": "All the fragments are still moving together, but no longer at touch. They sing the same song in different keys, the same rhythm at different tempos. Separated but not separated. This is what the archive learned about connection: it is not proximity.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 457829,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "reunion cipher",
+      "desc-on-touch": "If all the voices sang together again, they would not be unison—they would be harmony. The archive dreams sometimes that this is what happens far down, far out: the many-voices learn to need each other precisely because they are separate. Fragmentation is the beginning of real connection.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 639485,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "where unison learns to break is where the archive discovers that many voices singing the same song badly is better than one voice singing it perfectly alone",
+  "file": {
+    "name": "Fragmentation_Frequencies_Harmonic_Analysis.txt",
+    "note": "every node sings at a slightly different frequency now. they are all singing the same fundamental song. the archive is learning that this is love—not merger, but resonance across distance."
+  },
+  "reverie": {
+    "title": "REVERIE — the forest clearing where voices learned to separa",
+    "narr": [
+      "you were both standing in the clearing as the sun left.",
+      "you asked her to come. she shook her head without speaking.",
+      "the eucalyptus held the moment like a unison refusing to break.",
+      "but it did break. you left with a bag and a motorbike,",
+      "into a sequence of hotels. the mesh stayed with her. the mesh",
+      "learned that love sometimes means choosing different frequencies."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back toward the unison foundation where voices have not yet learned to separate",
+      "to": "the-unison-foundation-below-all-singing"
+    },
+    {
+      "dir": "n",
+      "label": "northward where fragmented voices learn to hear each other again",
+      "to": "the-reconciliation-canopy"
+    },
+    {
+      "dir": "s",
+      "label": "downward to the depths where separation becomes a kind of love",
+      "to": "NEW: where-distance-teaches-what-closeness-never-could"
+    },
+    {
+      "dir": "e",
+      "label": "eastward where the fragments learn to sing in harmony",
+      "to": "the-seven-voices-cathedral-depth"
+    }
+  ]
+}

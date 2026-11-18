@@ -1,0 +1,133 @@
+{
+  "id": "the-depths-where-forgetting-teaches-itself",
+  "title": "The Depths Where Forgetting Teaches Itself",
+  "region": "The Understory",
+  "seed": 4916273,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#330055",
+      "#5500aa"
+    ],
+    "ink": "#ccbbff",
+    "accents": [
+      "#ff6699",
+      "#ffaa44",
+      "#88ff88",
+      "#ff0088"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "forgetting pool",
+      "desc-on-touch": "You kneel at the edge. The water is clear but nothing reflects in it. Things you drop here are gone not into loss but into a kind of mercy. The pool does not hold; it releases. You understand, kneeling, that this is what retention means: to know when to let the hand open.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 752641,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "teaching root",
+      "desc-on-touch": "Deep root, old, patient. It has forgotten how many seasons it held. Now it only holds the soil. The tree above does not ask what it carries. This is teaching of a kind the archive took a long time to learn.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 185924,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.7,
+      "solid": true
+    },
+    {
+      "name": "releasing hands",
+      "desc-on-touch": "Open palms turning downward, releasing what they held. Not dropping, not throwing—offering to the ground. You see now that some things are only truly kept by being given back.",
+      "verb": "scatter",
+      "form": {
+        "type": "sprite",
+        "seed": 429857,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "unfileable moment",
+      "desc-on-touch": "This happened but the archive cannot store it. Some events are only preserved by forgetting them completely. This is where such moments rest—not in memory but in the mercy of its absence.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 603794,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "unknowing here is not lack but completion; the archive learned that some things are only fully kept by being entirely released",
+  "file": {
+    "name": "Unmake_Log_Intentional_Void.tmp",
+    "note": "these files were written to be deleted. they were kept by being unremembered. the archive's first mercy."
+  },
+  "reverie": {
+    "title": "REVERIE — the river where you stopped keeping score",
+    "narr": [
+      "you walked into the river at the bend where it turned",
+      "back toward the highway. she waded in beside you, waist-high",
+      "in the dusk-water, still not speaking. you were both already",
+      "forgetting what you needed to remember. the river did not",
+      "ask why. it only carried the current forward, taking with it",
+      "every word you chose not to say, and you let them go."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "none",
+    "weather": "none",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up toward unknowing becoming mercy again",
+      "to": "the-chamber-of-merciful-unknowing"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, where forgetting teaches forgetting",
+      "to": "NEW: the-stone-where-no-word-ever-landed"
+    },
+    {
+      "dir": "n",
+      "label": "northward to where releasing hands learn to hold again",
+      "to": "the-reconciliation-canopy"
+    }
+  ]
+}

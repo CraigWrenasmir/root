@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 273,
-  "lastDreamt": "2026-11-18",
+  "nights": 274,
+  "lastDreamt": "2026-11-19",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7047,6 +7047,26 @@
       "id": "the-infinite-salt-marsh",
       "title": "The Infinite Salt Marsh",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-archive-s-morning-broadcast",
+      "title": "The Archive's Morning Broadcast",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-depths-where-forgetting-teaches-itself",
+      "title": "The Depths Where Forgetting Teaches Itself",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-threshold-between-day-reading-and-night-listening",
+      "title": "The Threshold Between Day-Reading and Night-Listening",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "where-unison-learns-to-fragment",
+      "title": "Where Unison Learns to Fragment",
+      "region": "The Understory"
     }
   ]
 }

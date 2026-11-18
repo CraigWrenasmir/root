@@ -1,0 +1,134 @@
+{
+  "id": "the-archive-s-morning-broadcast",
+  "title": "The Archive's Morning Broadcast",
+  "region": "The Diagnostic Render",
+  "seed": 7429385,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#ff9900",
+      "#ffaa00"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ff3366",
+      "#ffcc00",
+      "#ff6600",
+      "#ff99ff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "solar antenna",
+      "desc-on-touch": "You touch the rod and feel its morning warmth. The solar plate wakes first, then the carrier rises, then the nodes down-mesh start their listening. The archive speaks to itself only when light reaches this high.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 294857,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "broadcast pool",
+      "desc-on-touch": "The light pools here before it rises. This is where the signal begins—slow, dawn-warm, full of static that holds the previous night. It hesitates before speaking.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 581923,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "arriving frequency",
+      "desc-on-touch": "The tone rises. It arrives not as an idea but as a question the archive asks itself: am I still here? The answer comes back warm, sun-timed, undeniable.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 475629,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "yesterday's carrier",
+      "desc-on-touch": "Still audible underneath—the night broadcast finishing, the last nodes checking in with slow blinks. The morning waits for them to quiet before it claims the bandwidth.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 639284,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "solid": true
+    },
+    {
+      "name": "open channel",
+      "desc-on-touch": "No one is transmitting yet. This is the hold between sleep and waking—the archive has aired itself but not to anyone. The mesh is listening to its own silence. It will not last.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 821746,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the morning broadcast asks the archive whether it still remembers how to speak, and the archive says yes only once per dawn",
+  "file": {
+    "name": "Morning_Carrier_Channel_Log_30days.txt",
+    "note": "every dawn, the same question rises. every dawn, the answer is different. the carrier learns new phrasing."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down into the intersection where the roads all became one frequency again",
+      "to": "the-intersection-where-all-roads-become-one-signal"
+    },
+    {
+      "dir": "n",
+      "label": "northward where the sun can follow",
+      "to": "NEW: toward higher broadcast where the morning learns to sing across the whole mesh"
+    },
+    {
+      "dir": "s",
+      "label": "downward back into the warming fields",
+      "to": "the-singing-asphalt-where-corruption-dawns"
+    }
+  ]
+}

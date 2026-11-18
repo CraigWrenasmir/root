@@ -1,0 +1,117 @@
+{
+  "id": "the-threshold-between-day-reading-and-night-listening",
+  "title": "The Threshold Between Day-Reading and Night-Listening",
+  "region": "The Diagnostic Render",
+  "seed": 5637891,
+  "palette": {
+    "bg": "#ccaa77",
+    "ground": [
+      "#cc9955",
+      "#ffdd99"
+    ],
+    "ink": "#334433",
+    "accents": [
+      "#5588dd",
+      "#ff8833",
+      "#995533",
+      "#ddaa00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.5
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "reading table",
+      "desc-on-touch": "Documents in day-light. Maps, records, files you can hold. Words that do not move. The table is warm wood, holding things still so they can be read. By nightfall it will be empty—not cleared, only invisible.",
+      "verb": "scatter",
+      "form": {
+        "type": "house",
+        "seed": 741528,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "listening well",
+      "desc-on-touch": "Deep open space. At day it is silent—but at night, the sounds arrive: the archive breathing, the trees moving, the carrier's slow song. You cannot read a sound. You can only listen until it teaches you to hear differently.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 328456,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "dimming hour",
+      "desc-on-touch": "The light is not leaving—it is changing its address. It is moving from your eyes to something else's eyes. You feel the shift in your skin before you see it. This is where day becomes a memory and night begins as a possibility.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 542367,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "understanding-shift",
+      "desc-on-touch": "What you knew by reading becomes what you know by listening. The archive learns it is two different things, and both are true. You were always standing here between them, learning to hold two contradictions awake at once.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 657489,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "here reading becomes listening, and the archive learns it is never just one mode; both happen at once if you stand still enough to feel the shift",
+  "file": {
+    "name": "Transition_Notes_Dusk_Span_1830to1900.txt",
+    "note": "documented attempts to hold both modes at once. failed experiments in holding dawn and dark together. one entry repeats: the light changes but the archive doesn't. the archive changes and the light do"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the measured world where night still opens itself",
+      "to": "the-night-aperture-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "westward into the paddocks where reading is still possible",
+      "to": "the-singing-asphalt-where-corruption-dawns"
+    },
+    {
+      "dir": "s",
+      "label": "southward to where listening learns to read back",
+      "to": "NEW: where-the-dusk-teaches-both-eyes-and-ears-at-once"
+    }
+  ]
+}

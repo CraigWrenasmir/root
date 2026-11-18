@@ -1,0 +1,10 @@
+featured: The Archive's Morning Broadcast (the-archive-s-morning-broadcast)
+region: The Diagnostic Render · motif: roads
+inscription: the morning broadcast asks the archive whether it still remembers how to speak, and the archive says yes only once per dawn
+file: Morning_Carrier_Channel_Log_30days.txt
+
+all nodes tonight:
+  · The Archive's Morning Broadcast
+  · The Depths Where Forgetting Teaches Itself
+  · The Threshold Between Day-Reading and Night-Listening
+  · Where Unison Learns to Fragment
