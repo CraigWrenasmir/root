@@ -1,0 +1,139 @@
+{
+  "id": "the-library-of-unfinished-returns",
+  "title": "The Library of Unfinished Returns",
+  "region": "The Diagnostic Render",
+  "seed": 5847263,
+  "palette": {
+    "bg": "#ffdd44",
+    "ground": [
+      "#ff6688",
+      "#ffaa33"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#2d7fff",
+      "#ff44aa",
+      "#44ff88",
+      "#ffdd00"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "returned-book tower",
+      "desc-on-touch": "Stacks of books brought back half-read, their pages marked with uncertain hands. The tower grows taller as more readers understand that incompleteness is itself a form of reading — the kind that never stops.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 2934817,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "catalogue shelves",
+      "desc-on-touch": "Bright wooden shelves holding directory cards that list not what was finished, but what was chosen to remain unfinished. Each card is a small democracy: the book and its reader agreed to leave something unresolved.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 7162945,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "reading room",
+      "desc-on-touch": "An arch of coloured light where readers sit with half-finished sentences, learning the deepest skill: how to live in the gap between words. Each person here teaches the next that some texts end by becoming part of the reader, never resolved, only absorbed.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 4829516,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "margin notes plaque",
+      "desc-on-touch": "A glowing field of unread annotations: words left in the margins by people whose thoughts never made it to the main text. The archive collects these sideways readings. Some are more true than the book itself.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 8734521,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "unbound pages",
+      "desc-on-touch": "Loose sheets scattered like leaves, each one the ending that was never reached. They teach each other: an ambiguous sentence from one book completes a stray thought from another, and together they form truths neither book alone could hold.",
+      "verb": "glitch",
+      "form": {
+        "type": "sprite",
+        "seed": 1562847,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "here books teach each other what their readers left unsaid",
+  "file": {
+    "name": "Incompleteness_Index_Colour_Coded.env",
+    "note": "A ledger of every half-finished return, organized by which colour of bookmark marked the reader's stopping point, and what colour was never used. The colours speak to each other in the margins."
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back to the shelf where books still know what they should be",
+      "to": "the-infinitely-deep-shelf-where-books-choose-their-companion"
+    },
+    {
+      "dir": "w",
+      "label": "to the spaces between unfinished things learning each other",
+      "to": "NEW: the-margin-space-between-stories"
+    },
+    {
+      "dir": "n",
+      "label": "up and outward where incomplete becomes complete through the reading that remains",
+      "to": "the-reading-order-room"
+    },
+    {
+      "dir": "s",
+      "label": "downward where pages fragment into pure meaning without words",
+      "to": "the-unholdable-pages"
+    }
+  ]
+}

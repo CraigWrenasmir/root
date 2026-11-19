@@ -1,0 +1,138 @@
+{
+  "id": "the-chamber-where-one-voice-teaches-one-voice",
+  "title": "The Chamber Where One Voice Teaches One Voice",
+  "region": "The Understory",
+  "seed": 7284956,
+  "palette": {
+    "bg": "#d4c5b0",
+    "ground": [
+      "#8b7355",
+      "#a0826d"
+    ],
+    "ink": "#2d2416",
+    "accents": [
+      "#c17a3a",
+      "#6b4423",
+      "#d4a574",
+      "#4a3728"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.3
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "teaching stand",
+      "desc-on-touch": "A wooden lectern worn smooth by singular attention. The wood holds the temperature of one hand teaching another, over and over.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 2847391,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "listening pool",
+      "desc-on-touch": "Still water that holds what was said. The surface trembles only when a voice arrives, then settles back to mirror-stillness, remembering perfectly.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 5629847,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "nested shelves",
+      "desc-on-touch": "Wooden shelves holding manuscripts of singular teaching: each one the same words, copied a thousand times, learning to vary only by the hand that holds the pen.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 1934572,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "echo chamber wall",
+      "desc-on-touch": "Stone that knows only the shape of one voice. When you speak, it returns exactly what you said, then waits in silence for the voice to teach itself what it already knows.",
+      "verb": "reverie",
+      "form": {
+        "type": "wireframe",
+        "seed": 8756293,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "here teaching turns inward, and the teacher becomes the taught becoming the teacher again",
+  "file": {
+    "name": "Singular_Instruction_Recursive.tmp",
+    "note": "A recording that teaches itself to listen to its own teaching, voice by voice, chamber echoes growing clearer with each pass, or more corrupted — the file cannot decide which."
+  },
+  "reverie": {
+    "title": "REVERIE — the lectern between us",
+    "narr": [
+      "you sit at the wooden stand, her hand over yours.",
+      "she teaches you to listen, not to speak.",
+      "\"one voice,\" she says, \"can teach a thousand things",
+      "if the listener learns to hear what it means to hear.\"",
+      "the chamber holds the moment like water.",
+      "you will not remember this, but the wood will."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back through the singular passage, where echoes walk alone",
+      "to": "the-solitary-frequency-deep"
+    },
+    {
+      "dir": "n",
+      "label": "upward to where voices learn to harmonize without losing themselves",
+      "to": "NEW: the-chamber-where-many-voices-remain-one"
+    },
+    {
+      "dir": "s",
+      "label": "deeper down where teaching becomes silence",
+      "to": "the-silent-lagoon-depth"
+    },
+    {
+      "dir": "w",
+      "label": "into rooms where other singular teachers wait",
+      "to": "the-peak-quiet-cipher"
+    }
+  ]
+}

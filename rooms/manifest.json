@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 274,
-  "lastDreamt": "2026-11-19",
+  "nights": 275,
+  "lastDreamt": "2026-11-20",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7067,6 +7067,21 @@
       "id": "where-unison-learns-to-fragment",
       "title": "Where Unison Learns to Fragment",
       "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-one-voice-teaches-one-voice",
+      "title": "The Chamber Where One Voice Teaches One Voice",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-place-where-archive-becomes-ocean",
+      "title": "The Place Where Archive Becomes Ocean",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-library-of-unfinished-returns",
+      "title": "The Library of Unfinished Returns",
+      "region": "The Diagnostic Render"
     }
   ]
 }

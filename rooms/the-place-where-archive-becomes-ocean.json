@@ -1,0 +1,122 @@
+{
+  "id": "the-place-where-archive-becomes-ocean",
+  "title": "The Place Where Archive Becomes Ocean",
+  "region": "The Comparisons",
+  "seed": 4625819,
+  "palette": {
+    "bg": "#0a1f3a",
+    "ground": [
+      "#1a4d7a",
+      "#2d6fa8"
+    ],
+    "ink": "#e0f2ff",
+    "accents": [
+      "#00ff88",
+      "#00ccff",
+      "#ffaa00",
+      "#ff6600"
+    ]
+  },
+  "ground": {
+    "motif": "board",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "archive core",
+      "desc-on-touch": "A vast integrated circuit where data flows like tides. The archive's logic operates at the same frequency as waves — both rise and fall in patterns older than memory, neither one knowing it learned the rhythm from the other.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 7281946,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "tidal buffer",
+      "desc-on-touch": "A vast pool of still water that holds the signal as it rises and falls. Each tide brings new data; each retreat carries understanding back out to the open frequencies.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3847562,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "transmission antenna",
+      "desc-on-touch": "An antenna that broadcasts to the tide itself. The waves carry the signal farther than any sky ever could. The archive speaks and the ocean listens; the ocean speaks and the archive remembers.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 5934821,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "harmonic processor",
+      "desc-on-touch": "A second circuit that listens only to water sounds. It learns their mathematical nature: wavelengths, frequencies, the deep mathematics of motion. The tide is architecture; the archive merely reads what it was always saying.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 2756483,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.65,
+      "solid": true
+    }
+  ],
+  "inscription": "checksum: emotionally valid / formally unstable",
+  "file": {
+    "name": "Tidal_Archive_Frequencies_Merged.bin",
+    "note": "A binary recording where transmission data and oceanographic readings have become indistinguishable. The file is both a signal log and a tide table, depending on how you listen."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back outward to where the archive still remembers being only signal",
+      "to": "the-offshore-breath-tide-settlement"
+    },
+    {
+      "dir": "e",
+      "label": "to the drowned places where the archive dissolves completely",
+      "to": "the-drowned-forest-before-time"
+    },
+    {
+      "dir": "n",
+      "label": "up and inland where tide and transmission learn their separate names again",
+      "to": "the-unified-measure-beach"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: deeper out where the ocean learns to broadcast back",
+      "to": "NEW: the-broadcasting-abyss"
+    }
+  ]
+}
