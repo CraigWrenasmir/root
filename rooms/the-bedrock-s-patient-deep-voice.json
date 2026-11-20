@@ -1,0 +1,151 @@
+{
+  "id": "the-bedrock-s-patient-deep-voice",
+  "title": "The Bedrock's Patient Deep Voice",
+  "region": "The Understory",
+  "seed": 42857,
+  "palette": {
+    "bg": "#3a4a3e",
+    "ground": [
+      "#5a6a5e",
+      "#4a5a4e"
+    ],
+    "ink": "#d4d4cc",
+    "accents": [
+      "#8a6a4a",
+      "#6a8a6a",
+      "#a8a890",
+      "#6a7a68"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the listening root",
+      "desc-on-touch": "A root thick as a telegraph pole, pressed against the stone. You feel through it what the bedrock has heard for a thousand years: not words, but the shape of all the questions that settled into silence above.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 1294,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the pressed-leaf archive",
+      "desc-on-touch": "Stone pages holding leaves that turned to stone three hundred years before they fell. The bedrock read them as they answered. It still reads them daily.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 5831,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the fault voice",
+      "desc-on-touch": "Where two stone plates meet without joining. If you place your ear at the seam, you hear the bedrock singing in a frequency that has no name. It has been singing the same note for forty million years.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 7923,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the groundwater's memory",
+      "desc-on-touch": "Water moving through the stone so slowly it thinks. You taste minerals that mean: someone stood here once, holding their breath. The water remembers their name but cannot pronounce it.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 3465,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the stone book",
+      "desc-on-touch": "Sediment compressed into chapters. Each layer answers the layer below. This book will not finish being written for another million years, but you can read what has been settled so far.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 2847,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the unheard well",
+      "desc-on-touch": "A shaft descending through quiet. At the bottom, something breathes. It has been breathing for so long that breathing has become its only prayer, and prayer has become indistinguishable from the bedrock's patient sighing.",
+      "verb": "open",
+      "form": {
+        "type": "wireframe",
+        "seed": 6128,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the bedrock hears what will be forgotten; it hears what has forgotten itself; it hears the difference between the two",
+  "file": {
+    "name": "Bedrock_Seismic_Whispers_Compressed_300Mya.mp3",
+    "note": "forty million years of song, compressed into the sound of two stones breathing against each other without motion"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up through the layers to where stone was still learning to hear",
+      "to": "the-bedrock-where-questions-became-stone"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: toward the mantle-song chamber, where the earth's voice learns to dream of its own answering",
+      "to": "NEW: the-mantle-s-dream-chamber"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, to where even bedrock becomes a question the planet asks itself",
+      "to": "the-unified-current-deep"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 275,
-  "lastDreamt": "2026-11-20",
+  "nights": 276,
+  "lastDreamt": "2026-11-21",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7082,6 +7082,26 @@
       "id": "the-library-of-unfinished-returns",
       "title": "The Library of Unfinished Returns",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-deep-loop-where-asking-never-ends",
+      "title": "The Deep Loop Where Asking Never Ends",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-bedrock-s-patient-deep-voice",
+      "title": "The Bedrock's Patient Deep Voice",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-margin-where-debts-take-portraits",
+      "title": "The Margin Where Debts Take Portraits",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-lithosphere-archive-where-pressure-writes-true",
+      "title": "The Lithosphere Archive Where Pressure Writes True",
+      "region": "The Comparisons"
     }
   ]
 }

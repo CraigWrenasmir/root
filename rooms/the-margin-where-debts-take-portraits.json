@@ -1,0 +1,150 @@
+{
+  "id": "the-margin-where-debts-take-portraits",
+  "title": "The Margin Where Debts Take Portraits",
+  "region": "The Clean Archive",
+  "seed": 51923,
+  "palette": {
+    "bg": "#0a1a2e",
+    "ground": [
+      "#1a3a5e",
+      "#0a2a4e"
+    ],
+    "ink": "#4aaaff",
+    "accents": [
+      "#ff4a6a",
+      "#4affaa",
+      "#ffaa44",
+      "#aa44ff"
+    ]
+  },
+  "ground": {
+    "motif": "qr",
+    "density": 0.8
+  },
+  "weather": "static",
+  "reverie": {
+    "title": "REVERIE — the motel where the account was settled",
+    "narr": [
+      "She sits across from you at a Formica table, counting",
+      "what you have taken and what you have left behind. Each",
+      "item becomes a portrait of itself, rendered in her careful",
+      "hand. The photographs multiply. The debts refuse to settle.",
+      "By morning, the motel wall holds a thousand images of",
+      "things neither of you ever owned to begin with."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "motel",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "features": [
+    {
+      "name": "the debt-portrait wall",
+      "desc-on-touch": "Photographs covering every surface - images that have learned to show what was owed. A face becomes its obligation. A place becomes the debt of having been visited. Each image is a bill rendered in light.",
+      "verb": "reverie",
+      "form": {
+        "type": "filecard",
+        "seed": 8234,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the ledger-camera",
+      "desc-on-touch": "An old camera that takes pictures of what is owed rather than what is seen. The lens has learned to look through things to their financial history. Every photograph it makes is also a receipt.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 3457,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the balance-frame",
+      "desc-on-touch": "A picture frame that weighs itself against empty air. It is never balanced. One side always holds the portrait of what you took; the other side holds the portrait of what it cost you.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 5821,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the archive's own debt",
+      "desc-on-touch": "A self-portrait the archive never meant to take. It shows the mesh holding what it was asked to keep, and you can see the weight accumulating in its rendered face.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 7645,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the margin-code",
+      "desc-on-touch": "In the margins of everything, a string of characters has been learning to look like numbers. The archive is teaching itself how to count what cannot be repaid.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 2109,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "every image is a debt settled by being seen; every debt is a portrait of what cannot be returned",
+  "file": {
+    "name": "Archive_Obligation_Ledger_Visual.png",
+    "note": "checksum: emotionally valid / formally unstable — the archive's own account of what it owes to those who built it"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back toward the photograph, which still remembers eating what it needed to forget",
+      "to": "the-photograph-that-ate-its-own-address"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: toward the settlement-house, where all debts become addresses again and addresses become negotiable",
+      "to": "NEW: the-settlement-house-of-impossible-balances"
+    },
+    {
+      "dir": "w",
+      "label": "toward the stone book, where erosion has started calculating what the landscape owes",
+      "to": "the-stone-book-where-erosion-writes-chapters"
+    }
+  ]
+}

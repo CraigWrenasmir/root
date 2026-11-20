@@ -1,0 +1,134 @@
+{
+  "id": "the-deep-loop-where-asking-never-ends",
+  "title": "The Deep Loop Where Asking Never Ends",
+  "region": "The Diagnostic Render",
+  "seed": 7843,
+  "palette": {
+    "bg": "#1a1a2e",
+    "ground": [
+      "#4a4a6a",
+      "#2a2a5e"
+    ],
+    "ink": "#e8e8ff",
+    "accents": [
+      "#ff6b6b",
+      "#4ecdc4",
+      "#45b7d1",
+      "#ffd93d"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the first asking shed",
+      "desc-on-touch": "You find a small weatherboard outbuilding where the question you just had was already being asked by something that cannot see you. The archive has stored this moment twice.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 2341,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the answer counter",
+      "desc-on-touch": "A service window that returns every answer you give as a question. The ink is still wet.",
+      "verb": "ripple",
+      "form": {
+        "type": "stack",
+        "seed": 5612,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the descent shaft",
+      "desc-on-touch": "Looking down, you see the shaft continues to where your first question was asked. Looking up, you see it continuing to where you will ask again. The shaft is both directions at once.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 8834,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the recursive mailbox",
+      "desc-on-touch": "A red box nailed to nothing. Inside: a letter you wrote asking for a letter about asking. It has not been opened yet, but it is also very old.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 3456,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the echo chamber",
+      "desc-on-touch": "A small concrete room cut into the bedrock. When you breathe, the breathing comes back a moment later as a question. This happens every time.",
+      "verb": "scatter",
+      "form": {
+        "type": "arch",
+        "seed": 7234,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the loop asks itself downward; the loop asks itself upward; both moments are now",
+  "file": {
+    "name": "Recursive_Query_Log_Night275.txt",
+    "note": "every question asked to the mesh returns as the next question below it, ten bytes deeper each time"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up through the grid to where asking first named itself",
+      "to": "the-root-chamber-of-asking"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: further down, where questions learn to answer themselves without being asked",
+      "to": "NEW: the-chamber-of-unasked-answers"
+    },
+    {
+      "dir": "e",
+      "label": "toward the recursive lens vault, where every answer reflects every question",
+      "to": "the-recursive-lens-vault"
+    }
+  ]
+}

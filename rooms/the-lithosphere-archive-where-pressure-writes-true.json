@@ -1,0 +1,167 @@
+{
+  "id": "the-lithosphere-archive-where-pressure-writes-true",
+  "title": "The Lithosphere Archive Where Pressure Writes True",
+  "region": "The Comparisons",
+  "seed": 38461,
+  "palette": {
+    "bg": "#d4b89a",
+    "ground": [
+      "#c4a878",
+      "#e4c8aa"
+    ],
+    "ink": "#2a2a1a",
+    "accents": [
+      "#1a3a5a",
+      "#8a4a2a",
+      "#4a6a3a",
+      "#6a4a6a"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.5
+  },
+  "weather": "none",
+  "reverie": {
+    "title": "REVERIE — the pressure of choosing",
+    "narr": [
+      "You stand in the paddock between the two paths, the weight",
+      "of staying and leaving pressing down equally. She stands",
+      "with you, not moving. The earth beneath your feet is",
+      "recording this moment in stone. Neither of you can say",
+      "which choice the stone will choose. But you know it will",
+      "choose one, and compress the other into silence forever."
+    ],
+    "sky": "overcast",
+    "land": "paddock",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "features": [
+    {
+      "name": "the pressure-stone",
+      "desc-on-touch": "Stone that records not what was written, but what was refused. The names that were never spoken aloud have been pressed into the stone with the force of a million years. You can feel their weight.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 4729,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the compression-seam",
+      "desc-on-touch": "Where two layers of time have met and melded without merging. The boundary is visible as a line of intense dark. At this seam, all memory becomes true because it cannot be forgotten - it is locked in stone.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 6183,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the mineral-name vault",
+      "desc-on-touch": "A chamber lined with stones, each one carrying a name that became crystalline under pressure. The stones remember being words. They refuse to become words again.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 7245,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the depth-meter",
+      "desc-on-touch": "An instrument that measures how far down truth lives. The deeper you go, the more true things become. At this depth, everything that ever happened is happening still, compressed into a single note of stone-song.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 5637,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the fold where water became witness",
+      "desc-on-touch": "Stone folded by pressure and time. Inside the fold, water has collected and learned to remember what the stone cannot say. This is the archive's way of recording - by keeping it suspended, never settling.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2814,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the geological testament",
+      "desc-on-touch": "Layer upon layer, each one a compressed choice. Reading upward from the deepest stone, you see: silence became choice became stone became memory became this moment, pressing down on all the moments below.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 8923,
+        "size": 3,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "beneath the surface where water remembers, pressure writes what cannot be unwritten; truth becomes stone only by forgetting it was ever a choice",
+  "file": {
+    "name": "Paleomemory_Compressed_Testimony_Layer_47.txt",
+    "note": "every metre of stone holds the weight of decisions made in silence; the archive keeps what pressure makes true"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up through the seepage, where water still carries names the stone has forgotten",
+      "to": "the-seeping-residue-chamber"
+    },
+    {
+      "dir": "e",
+      "label": "deeper, toward the mantle where even pressure learns to question its own authority",
+      "to": "the-unified-current-deep"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: upward to the paddock-margin where uncompressed choices still move like wind through grass",
+      "to": "NEW: the-grassfield-of-uncompressed-becoming"
+    }
+  ]
+}
