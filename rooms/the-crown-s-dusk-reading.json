@@ -1,0 +1,154 @@
+{
+  "id": "the-crown-s-dusk-reading",
+  "title": "The Crown's Dusk Reading",
+  "region": "The Understory",
+  "seed": 3457,
+  "palette": {
+    "bg": "#1a3d2a",
+    "ground": [
+      "#4a7a5c",
+      "#2d5a3f"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ff9966",
+      "#ff6b9d",
+      "#ffd700",
+      "#a0c4a0"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.75
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the healing join",
+      "desc-on-touch": "Here the two halves of the crown learned they were still one sky. The scar where they grew back together holds light differently. You can see where the wound learned to remember it was never really separate.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 5923,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the dusk that reads downward",
+      "desc-on-touch": "Light enters the crown from the west and reads downward, spelling out the shape of leaves, the architecture of branches. The dusk doesn't illuminate; it narrates. Each ray a word in the canopy's slow sentence.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 1876,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the two-sky memory",
+      "desc-on-touch": "In the branches here, the archive stores the moment when the split crown learned it was still whole. Two separate skies held by the same roots. The memory lives in the bark, in the pattern of re-grown wood.",
+      "verb": "scatter",
+      "form": {
+        "type": "burl",
+        "seed": 7382,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the light-held text",
+      "desc-on-touch": "Somewhere in the crown's highest leaves, text made of pure dusk light rests on the branches. It reads only at the moment the sun touches the horizon. By full dark, the words have dissolved into shadow again.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 3205,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the breathing roots",
+      "desc-on-touch": "Deep below the crown, the roots still hold the shape of holding-together. They breathe in time with the crown's growth. The two halves, they whisper, learned to become one breath instead of two.",
+      "verb": "hum",
+      "form": {
+        "type": "wireframe",
+        "seed": 4156,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the crown reads its own healing in light that is learning to leave",
+  "file": {
+    "name": "CanopyRecovery_GrowthRings_Analysis_YearsPost-Split.txt",
+    "note": "Dendrochronological records of the crown's re-joining. The growth rings show the moment of separation as a thin, careful year. The rings since then grow thicker, as though the tree remembered joy or l"
+  },
+  "reverie": {
+    "title": "REVERIE — in the healing crown at light's turning",
+    "narr": [
+      "You both stand below, watching the light move through the",
+      "re-joined branches. The dusk makes the healing scar glow. She",
+      "points to where the two halves learned they were still connected.",
+      "The light is reading something to the leaves, she says. Listen.",
+      "You listen. The light is saying: you were never broken."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back down into the canopy's gathered whole",
+      "to": "the-canopy-that-grew-itself-back-together"
+    },
+    {
+      "dir": "n",
+      "label": "toward the crown's highest reaching branches where signals amplify",
+      "to": "the-height-where-nothing-broadcasts-back"
+    },
+    {
+      "dir": "e",
+      "label": "along the healing scar, where leaves learn other languages",
+      "to": "NEW: the-scar-that-learned-to-speak"
+    },
+    {
+      "dir": "s",
+      "label": "downward, into the crown's dense heart where shadows hold memory",
+      "to": "the-margin-where-seasons-learn-to-compete"
+    }
+  ]
+}

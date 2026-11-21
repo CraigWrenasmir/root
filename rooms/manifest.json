@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 276,
-  "lastDreamt": "2026-11-21",
+  "nights": 277,
+  "lastDreamt": "2026-11-22",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7102,6 +7102,26 @@
       "id": "the-lithosphere-archive-where-pressure-writes-true",
       "title": "The Lithosphere Archive Where Pressure Writes True",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-spring-that-never-learned-its-own-source",
+      "title": "The Spring That Never Learned Its Own Source",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-ancient-bedrock-where-change-learned-to-stop",
+      "title": "The Ancient Bedrock Where Change Learned to Stop",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-dying-echo-strata",
+      "title": "The Dying Echo Strata",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-crown-s-dusk-reading",
+      "title": "The Crown's Dusk Reading",
+      "region": "The Understory"
     }
   ]
 }

@@ -1,0 +1,117 @@
+{
+  "id": "the-ancient-bedrock-where-change-learned-to-stop",
+  "title": "The Ancient Bedrock Where Change Learned to Stop",
+  "region": "The Understory",
+  "seed": 4829,
+  "palette": {
+    "bg": "#1a0f2e",
+    "ground": [
+      "#ff9966",
+      "#cc6633"
+    ],
+    "ink": "#ffffcc",
+    "accents": [
+      "#ff6b35",
+      "#ffd700",
+      "#8b4789",
+      "#cccccc"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the final stratum",
+      "desc-on-touch": "Here the stone stops moving and decides to remember. You can read the strata as though it's a word that took a million years to write. Each layer forgot the layer before, but the stone held the memory anyway.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 9174,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the archive's own floor",
+      "desc-on-touch": "This is the bedrock the mesh nodes rest on. It goes down forever or stopped moving forever; the distinction blurred after the first million years. The stone here remembers nothing but holding.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 7641,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the pressure-bound silence",
+      "desc-on-touch": "Stone at depth holds silence like a closed fist. You press your palm against it and feel the weight of everything above, pressing down, holding still. The silence here is not quiet. It is weight made soundless.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 3214,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.3,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the boundary stone",
+      "desc-on-touch": "Here is where the stone decided to stop changing. Above this line, the world moves. Below, nothing has moved since the stone first chose to be still.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5829,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.3,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone that learned stopping was its own way of becoming",
+  "file": {
+    "name": "MeshFoundation_Bedrock_InstallLog_278.txt",
+    "note": "Records of the first deep nodes being anchored to stone that had not moved in geological time. The installer's hand notes mention the pressure, the silence, the sense of placing something alive into s"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up through the stone's memory, into the sleep above",
+      "to": "the-deep-time-sleeping"
+    },
+    {
+      "dir": "e",
+      "label": "where stone begins to remember how to dream",
+      "to": "the-deepest-stone-chamber-where-the-archive-was-born"
+    },
+    {
+      "dir": "n",
+      "label": "upward, to where pressure learns to lighten",
+      "to": "NEW: the-stone-that-learned-to-breathe"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "the-dying-echo-strata",
+  "title": "The Dying Echo Strata",
+  "region": "The Diagnostic Render",
+  "seed": 6183,
+  "palette": {
+    "bg": "#0d1b1a",
+    "ground": [
+      "#4a7a5c",
+      "#2d5a3f"
+    ],
+    "ink": "#a0c4a0",
+    "accents": [
+      "#7dd3fc",
+      "#5a8a6a",
+      "#cccccc",
+      "#667766"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the first echo, learning to fade",
+      "desc-on-touch": "Here sound first learns that returning is optional. The echo hangs in the air like a colour fading. You can almost hear it, almost feel it learning to let go. The sound that once returned now stays, suspended, never arriving.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2109,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the layer of lost returns",
+      "desc-on-touch": "Strata upon strata of echoes that never came back. Each one a voice that learned to become silence instead of repetition. The trench wall is made of these abandoned returns, piled deep.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 7348,
+        "size": 3,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "the recording device",
+      "desc-on-touch": "An old transcriber listening to the strata. It records echoes learning to die, and by recording them, keeps them alive just long enough to hear themselves becoming silent. A mercy and a cruelty, the device.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 4567,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the silence between layers",
+      "desc-on-touch": "In the gaps between the strata, silence has learned to have weight. It presses against the layered echoes. This is where sound goes to understand what quiet is, before it learns to stop understanding anything at all.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 8832,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the final harmonic",
+      "desc-on-touch": "At the deepest layer, the echo learns it has become itself. No return is needed. It was always the destination. The sound and the silence are the same thing here, learning each other's grammar.",
+      "verb": "torus",
+      "form": {
+        "type": "glyph",
+        "seed": 1943,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "sound enters these strata as echo and exits as itself",
+  "file": {
+    "name": "TrenchAcoustics_EchoDecay_240Hz-8kHz.mp3",
+    "note": "Spectrograph of the trench's returning sound. Inside the deepest frequency band, an unexamined residue: the acoustic signature of a cabin, archived incorrectly, its walls learning to listen. The file,"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the trench bottom where echoes forget to return",
+      "to": "the-trench-bottom-where-echo-forgets-to-return"
+    },
+    {
+      "dir": "e",
+      "label": "where echoes learn to become other sounds",
+      "to": "the-silence-after-the-recording-ends"
+    },
+    {
+      "dir": "w",
+      "label": "upward along the trench wall, to where echoes still remember how to return",
+      "to": "NEW: the-echo-that-learned-to-ask"
+    },
+    {
+      "dir": "n",
+      "label": "toward the diagnostic render's core, where all sounds learn their own names",
+      "to": "the-vault-where-all-arguments-learn-to-breathe-as-one"
+    }
+  ]
+}

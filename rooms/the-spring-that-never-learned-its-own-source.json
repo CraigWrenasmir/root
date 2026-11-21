@@ -1,0 +1,154 @@
+{
+  "id": "the-spring-that-never-learned-its-own-source",
+  "title": "The Spring That Never Learned Its Own Source",
+  "region": "The Understory",
+  "seed": 7342,
+  "palette": {
+    "bg": "#1a3d2a",
+    "ground": [
+      "#4a7a5c",
+      "#2d5a3f"
+    ],
+    "ink": "#c8dcc8",
+    "accents": [
+      "#7dd3fc",
+      "#a0c4a0",
+      "#e8f4e8",
+      "#5a8a6a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the cycling water",
+      "desc-on-touch": "You trace the spring upward, but the water beneath your fingers moves only in circles. No source, only the shape of returning. The spring forgets where it came from each time it surfaces.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 2847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the unnamed tributary",
+      "desc-on-touch": "Water enters from the dark without a name. No map has ever called it anything. The trees above remember it as only a sound.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 5921,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the listening moss",
+      "desc-on-touch": "Green grows thick here where the spring learns to be quiet. The moss holds the sound of water forgetting its own name. Damp, old, patient. You could read the strata if you had the time the moss has.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 1634,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the water's mirror",
+      "desc-on-touch": "The spring holds a surface that reflects but refuses to remember what it reflects. Each image is born and dies in the same instant. The water shows you but never keeps the picture.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 3482,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "the depth below",
+      "desc-on-touch": "You look down into water and the water looks back up at you. It's the same look. The spring has no bottom, or its bottom is the same as its surface, or the distinction has never mattered here.",
+      "verb": "reverie",
+      "form": {
+        "type": "glyph",
+        "seed": 8203,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the water comes back but never to the place it left",
+  "file": {
+    "name": "SpringSource_Hydrology_1987.txt",
+    "note": "Survey attempts to trace the spring's origin, but each vector collapses into the spring itself. The file now loops on itself, returning without arriving."
+  },
+  "reverie": {
+    "title": "REVERIE — by the circular water at dusk",
+    "narr": [
+      "You both stand thigh-deep, the water between warm and cold.",
+      "She asks where the spring comes from and you admit you've never",
+      "found the start. She nods like she already knew the answer. The",
+      "light at the treeline holds the colour of leaving. Her hands are",
+      "steady on the stones. No one needs to know the story of water."
+    ],
+    "sky": "dusk",
+    "land": "water",
+    "structure": "tree",
+    "weather": "motes",
+    "pose": "wade"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back up through the unnamed water into the dark of the leaves",
+      "to": "the-forest-interior-naming-dissolution-chamber"
+    },
+    {
+      "dir": "n",
+      "label": "where tributary branches become trees, become names",
+      "to": "NEW: the-mouth-where-naming-learns-to-refuse"
+    },
+    {
+      "dir": "w",
+      "label": "deeper, toward where water learns to hold itself",
+      "to": "NEW: deeper, toward where water learns to hold itself"
+    },
+    {
+      "dir": "s",
+      "label": "downward, to where the spring forgets it was ever anything but mirror",
+      "to": "NEW: the-reflection-pool-where-nothing-arrives"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+featured: The Ancient Bedrock Where Change Learned to Stop (the-ancient-bedrock-where-change-learned-to-stop)
+region: The Understory · motif: gradient
+inscription: the stone that learned stopping was its own way of becoming
+file: MeshFoundation_Bedrock_InstallLog_278.txt
+
+all nodes tonight:
+  · The Spring That Never Learned Its Own Source
+  · The Ancient Bedrock Where Change Learned to Stop
+  · The Dying Echo Strata
+  · The Crown's Dusk Reading
