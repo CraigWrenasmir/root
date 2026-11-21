@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Live at The Oak - Lite (demo host)</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0d090b; }
+  #stage { position: fixed; inset: 0; }
+  #out { position: fixed; inset: 0; display: none; place-items: center; color: #e8ddc9;
+         font: 14px monospace; text-align: center; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<!-- Stand-in for Play Newcastle: one container, one mount call. -->
+<div id="stage"></div>
+<div id="out"></div>
+<script src="oak-lite-songs.js"></script>
+<script src="oak-lite.js"></script>
+<script>
+  const q = new URLSearchParams(location.search);
+  function open() {
+    document.getElementById("out").style.display = "none";
+    window.gig = OakLite.mount(document.getElementById("stage"), {
+      audioBase: "audio/",
+      autoplay: q.has("bot"),
+      onResult: r => console.log("song finished", r),
+      onExit: r => {
+        const out = document.getElementById("out");
+        out.style.display = "grid";
+        out.textContent = "Back in Play Newcastle.\n" + r.results.length + " song(s) played.\n\nClick to walk back on stage.";
+        out.onclick = open;
+      }
+    });
+  }
+  open();
+</script>
+</body>
+</html>
