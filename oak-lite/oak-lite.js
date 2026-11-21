@@ -453,6 +453,13 @@ function mount(container, opts) {
       receptor(l, laneX(l), HIT_Y, GS, lit);
       if (!touchSeen) text(keyLabels[l], laneX(l), HIT_Y + 6 * GS + 4, P.dim, 1, "center");
     }
+    if (combo >= 10) {
+      var pop = t - (judgements.length ? judgements[judgements.length - 1].t : -9) < 0.06 ? 3 : 2;
+      g.globalAlpha = 0.55;
+      text(combo, HX + LW * 2, HTOP + 16, P.cream, pop, "center");
+      text("COMBO", HX + LW * 2, HTOP + 16 + pop * 6, P.dim, 1, "center");
+      g.globalAlpha = 1;
+    }
     var vis = [];
     for (i = 0; i < notes.length; i++) {
       n = notes[i];
@@ -482,13 +489,6 @@ function mount(container, opts) {
       text(j.text, jx, HIT_Y - 14 * GS - Math.round(a * 8), GRADE_COLORS[j.grade], 1, "center");
       g.globalAlpha = 1;
     });
-    if (combo >= 10) {
-      var pop = t - (judgements.length ? judgements[judgements.length - 1].t : -9) < 0.06 ? 3 : 2;
-      g.globalAlpha = 0.9;
-      text(combo, HX + LW * 2, HTOP + 16, P.cream, pop, "center");
-      text("COMBO", HX + LW * 2, HTOP + 16 + pop * 6, P.dim, 1, "center");
-      g.globalAlpha = 1;
-    }
     rect(HX - 2, HTOP, LW * 4 + 4, 2, P.ink);                  // song progress
     rect(HX - 2, HTOP, Math.round((LW * 4 + 4) * Math.max(0, Math.min(1, now / song.duration))), 2, P.sign);
   }
