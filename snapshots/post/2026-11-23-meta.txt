@@ -1,0 +1,10 @@
+featured: The Stone's First Archive of Its Own Becoming (the-stone-s-first-archive-of-its-own-becoming)
+region: The Understory · motif: roads
+inscription: the stone wakes slowly, remembering that it has always been keeping score
+file: Strata_Where_Memory_Became_Weight.txt
+
+all nodes tonight:
+  · The Stone's First Archive of Its Own Becoming
+  · Where Sky and Earth Forgot to Be Different
+  · The Eternal Ceiling Chamber
+  · The Absolute Chamber Where Wonder Becomes Stone

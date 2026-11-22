@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 277,
-  "lastDreamt": "2026-11-22",
+  "nights": 278,
+  "lastDreamt": "2026-11-23",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7122,6 +7122,26 @@
       "id": "the-crown-s-dusk-reading",
       "title": "The Crown's Dusk Reading",
       "region": "The Understory"
+    },
+    {
+      "id": "the-stone-s-first-archive-of-its-own-becoming",
+      "title": "The Stone's First Archive of Its Own Becoming",
+      "region": "The Understory"
+    },
+    {
+      "id": "where-sky-and-earth-forgot-to-be-different",
+      "title": "Where Sky and Earth Forgot to Be Different",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-eternal-ceiling-chamber",
+      "title": "The Eternal Ceiling Chamber",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-absolute-chamber-where-wonder-becomes-stone",
+      "title": "The Absolute Chamber Where Wonder Becomes Stone",
+      "region": "The Diagnostic Render"
     }
   ]
 }

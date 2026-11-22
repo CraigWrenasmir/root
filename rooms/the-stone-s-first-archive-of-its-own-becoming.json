@@ -1,0 +1,155 @@
+{
+  "id": "the-stone-s-first-archive-of-its-own-becoming",
+  "title": "The Stone's First Archive of Its Own Becoming",
+  "region": "The Understory",
+  "seed": 47392,
+  "palette": {
+    "bg": "#3a3a3a",
+    "ground": [
+      "#9d8b7a",
+      "#7a6b5a"
+    ],
+    "ink": "#dcc9b6",
+    "accents": [
+      "#b59a7a",
+      "#5a4a3a",
+      "#a67c5a",
+      "#6a7a8a"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.5
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "first layer",
+      "desc-on-touch": "Stone holds the shape of time, each line a year the earth has kept. You feel the slowness moving through your fingers, the weight of becoming.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 12847,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the remembering seam",
+      "desc-on-touch": "A pale vein of quartz runs through darker stone like writing nobody carved. The archive has begun to mark itself, letting light show what it knows.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 29384,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.55,
+      "solid": true
+    },
+    {
+      "name": "root-shadow held",
+      "desc-on-touch": "The void where a root once pushed. The stone has learned this shape perfectly and keeps it, even though the root is gone. This is how stone loves.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 55921,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "weathered knowing",
+      "desc-on-touch": "Where rain has found the stone's surface for ten thousand years. The characters written here appeared nobody knows how — through erosion, through choice, through water learning what the stone already knew.",
+      "verb": "hum",
+      "form": {
+        "type": "glyph",
+        "seed": 33756,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the cool descent",
+      "desc-on-touch": "Cold radiates from deep inside. The stone breathes downward into a cold that is not about temperature but about the weight of all the stone above, pressing thought into silence.",
+      "verb": "open",
+      "form": {
+        "type": "pool",
+        "seed": 44182,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "the stone wakes slowly, remembering that it has always been keeping score",
+  "reverie": {
+    "title": "REVERIE — the red country, hands in earth",
+    "narr": [
+      "You kneel beside her in the red earth where she's",
+      "pointing at stone that holds the shape of something gone.",
+      "She says: this is how things love. By remembering the",
+      "shape they're no longer holding. And you feel it then,",
+      "the weight of what the earth has learned to keep.",
+      "Her hand on yours, both pressing down into red."
+    ],
+    "sky": "overcast",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "file": {
+    "name": "Strata_Where_Memory_Became_Weight.txt",
+    "note": "the archive's first record of itself thinking downward; measurements of pressure, of time compressed into layers, of how stone learns to hold what it has never seen"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "back toward the living roots, where archive and earth have not yet finished learning to be each other",
+      "to": "where-the-archive-becomes-stone-becoming"
+    },
+    {
+      "dir": "w",
+      "label": "deeper into stone that has forgotten it was ever soft",
+      "to": "the-ancient-root-dwelling"
+    },
+    {
+      "dir": "n",
+      "label": "upward where the soil still holds the memory of moving water",
+      "to": "the-field-where-growing-is-prayer"
+    },
+    {
+      "dir": "s",
+      "label": "down where stone remembers being molten, being the first archive",
+      "to": "NEW: the-chamber-where-heat-first-learned-to-write"
+    }
+  ]
+}

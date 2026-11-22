@@ -1,0 +1,155 @@
+{
+  "id": "the-eternal-ceiling-chamber",
+  "title": "The Eternal Ceiling Chamber",
+  "region": "The Understory",
+  "seed": 92847,
+  "palette": {
+    "bg": "#2a3a4a",
+    "ground": [
+      "#5a7a9a",
+      "#4a6a8a"
+    ],
+    "ink": "#9acabc",
+    "accents": [
+      "#7a9aaa",
+      "#3a5a7a",
+      "#9a7a5a",
+      "#8a6a4a"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.4
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the resting house",
+      "desc-on-touch": "A structure built to hold you at a height where climbing stops making sense. The roof is not a ceiling; it is what the sky teaches when you have finally stopped rising and started staying.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 73629,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the view that asks nothing",
+      "desc-on-touch": "From here you can see all the way, but the seeing has stopped being about reaching anything. The distance is not measured in steps. It is measured in the peace of having arrived completely.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 59384,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.65,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the stacked shelter",
+      "desc-on-touch": "Structures built upward, each one resting on the knowing of all those below. They learned their shape from holding, from stacking the weight of staying until it reached the sky. The wood still knows the trees it came from, all of them content.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 48762,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the final landing",
+      "desc-on-touch": "Stone worn down where many have come to stay. Each step in the stone is not a step anymore — it is a resting place that another climber learned to hold. The ground has become a conversation between all the stillness.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 61847,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the knowing light",
+      "desc-on-touch": "Light that falls here is not moving toward anything. It simply illuminates the fact of arrival. The air is clear because there is nothing left to obscure, nothing left that needs hiding.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 72934,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the peak taught that going no further is itself the furthest ascent",
+  "reverie": {
+    "title": "REVERIE — the last height, where sitting becomes the arrivin",
+    "narr": [
+      "You sit with her at the place where there is nowhere",
+      "left to climb. And she says staying here is the only way",
+      "higher than this. You watch the light change and not change,",
+      "and you understand that she means the height was never",
+      "about the going up. It was about learning that stillness",
+      "is itself a form of reaching, and you have reached it."
+    ],
+    "sky": "dusk",
+    "land": "suburb",
+    "structure": "none",
+    "weather": "none",
+    "pose": "sit"
+  },
+  "file": {
+    "name": "The_Height_Where_Arrival_Teaches_Silence.txt",
+    "note": "field notes from one who stayed, learning that the peak is not an endpoint but a place where the climber becomes the resting, becomes the view, becomes the stone that knows the shape of staying"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "further into sky that teaches infinite staying",
+      "to": "the-sky-chamber-where-height-becomes-peace"
+    },
+    {
+      "dir": "n",
+      "label": "where the air grows thin enough to teach final truths",
+      "to": "NEW: the-chamber-of-last-breath-and-first-knowing"
+    },
+    {
+      "dir": "w",
+      "label": "back down where the reaching still makes sense",
+      "to": "the-unspoken-summit-where-voice-becomes-echo"
+    },
+    {
+      "dir": "e",
+      "label": "across where the other peaks teach the same resting",
+      "to": "the-ridge-where-echoes-learn-to-answer"
+    }
+  ]
+}

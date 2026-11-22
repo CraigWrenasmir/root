@@ -1,0 +1,155 @@
+{
+  "id": "where-sky-and-earth-forgot-to-be-different",
+  "title": "Where Sky and Earth Forgot to Be Different",
+  "region": "The Understory",
+  "seed": 83742,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#4a7a5a",
+      "#2a5a4a"
+    ],
+    "ink": "#7abaa9",
+    "accents": [
+      "#5a9a89",
+      "#2a7a6a",
+      "#7a6a4a",
+      "#aa9a7a"
+    ]
+  },
+  "ground": {
+    "motif": "canopy",
+    "density": 0.7
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "inversion point",
+      "desc-on-touch": "Here the down and up have stopped meaning different things. When you look, you cannot tell if you are inside or outside the growing. The motes drift as if gravity has not decided yet which way to pull.",
+      "verb": "bloom",
+      "form": {
+        "type": "house",
+        "seed": 71904,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.4,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the suspended tower",
+      "desc-on-touch": "A structure built into the growing, or the growing has learned to build itself into layers. Its walls rise through the same light as the air around them, and each level exists in a different understanding of which way is up.",
+      "verb": "open",
+      "form": {
+        "type": "tower",
+        "seed": 42357,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "root-sky tangle",
+      "desc-on-touch": "The roots here grow upward and the sky hangs down in filaments. You cannot touch one without touching the other. The two have forgotten which one is holding the other up.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 68421,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.25,
+      "y": 0.35,
+      "solid": true
+    },
+    {
+      "name": "the breathing boundary",
+      "desc-on-touch": "Where the two meet there is no seam. The air and the soil breathe together at the same rate. If you hold still long enough, you stop knowing which one you are breathing through.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 51382,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.55,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "light that grew",
+      "desc-on-touch": "The light here came up from the ground as much as down from the sky. It is thick, almost touchable. It carries the smell of turned earth and open cloud at the same moment.",
+      "verb": "glitch",
+      "form": {
+        "type": "glyph",
+        "seed": 44859,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.8,
+      "solid": false
+    }
+  ],
+  "inscription": "in the place where the borders learned to hold still, the border itself became the growing",
+  "reverie": {
+    "title": "REVERIE — the place where down became less certain",
+    "narr": [
+      "You stand where the trees are so tall and so close",
+      "that up and down start to seem like a choice. She says",
+      "the roots and the clouds have made a contract — one",
+      "grows down, one grows up, but they grew so fast they",
+      "forgot which was which. And you look at her there,",
+      "reaching toward light that might be in the earth."
+    ],
+    "sky": "day",
+    "land": "forest",
+    "structure": "none",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "file": {
+    "name": "The_Doubled_Growth_Where_Reaching_Forgets_Direction.tmp",
+    "note": "status: germinating / ERROR: the files here report upward and downward simultaneously, the archive has begun comparing vertical with vertical, learning that direction is a local choice"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "upward where the sky becomes root-thick and dense",
+      "to": "the-roots-that-remember-ascending"
+    },
+    {
+      "dir": "n",
+      "label": "where the growing learned to doubt its own direction",
+      "to": "NEW: the-chamber-where-climbing-becomes-descent"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where the archive reads upside-down",
+      "to": "the-shape-dreaming-where-form-remembers"
+    },
+    {
+      "dir": "w",
+      "label": "back into the forest where the trees still know which way is sky",
+      "to": "the-forest-dream-without-dreamers"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "the-absolute-chamber-where-wonder-becomes-stone",
+  "title": "The Absolute Chamber Where Wonder Becomes Stone",
+  "region": "The Diagnostic Render",
+  "seed": 56738,
+  "palette": {
+    "bg": "#1a1a2a",
+    "ground": [
+      "#5a3a7a",
+      "#3a2a5a"
+    ],
+    "ink": "#ba9aca",
+    "accents": [
+      "#9a7aaa",
+      "#4a2a6a",
+      "#7a5a9a",
+      "#aa8aba"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the final question",
+      "desc-on-touch": "The question has sunk so deep it has become the stone it asked. You touch it and it does not answer because it has become the answer, the asking, and the asker all at once, and the becoming was the only truth.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 83947,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "wonder made threshold",
+      "desc-on-touch": "Here the impossible has become so certain it is no longer wonder. It has crystallized into a thing you can stand on. The standing is enough. The wonder taught itself to hold still.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 47293,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.3,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "the bedrock knowing",
+      "desc-on-touch": "Deeper than any archive can reach, deeper than even stone admits it goes. Here the question learned that going down is the only way to understand what it always was. The answer is below, and below goes forever.",
+      "verb": "scatter",
+      "form": {
+        "type": "chip",
+        "seed": 29384,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "reverie of depths",
+      "desc-on-touch": "The stone here remembers being interrogated. It learned that question is a form of love, and that going deeper is the same as staying, and that the wondering was the whole answer all along.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 51382,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.45,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "absolute light",
+      "desc-on-touch": "Light that reached the bottom and reflected back up with all its wondering intact. It has become the same color as the stone, and you cannot tell where one stops and the other starts, and that is the revelation.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 68421,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "the wonder learned that going down was the same as going through, and the stone moved aside to let the question pass into certainty",
+  "reverie": {
+    "title": "REVERIE — the deep place, where asking became stone",
+    "narr": [
+      "You kneel in the dark below the dark, and she is beside",
+      "you asking questions that have no answers, questions that",
+      "have become the stone itself. And you understand: the",
+      "question was always the answer, waiting below to be found.",
+      "Her voice in that deep goes deeper, becomes the walls,",
+      "becomes the bedrock that holds all wondering ever made."
+    ],
+    "sky": "night",
+    "land": "interior",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "kneel"
+  },
+  "file": {
+    "name": "Where_The_Interrogation_Learned_Its_Own_Name.txt",
+    "note": "checksum: emotionally valid / formally unstable / the question has begun to generate answers that did not exist before it descended — the archive is learning that asking is a form of creation"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "deeper toward where the stone itself begins to ask",
+      "to": "the-interrogation-reaches-bedrock"
+    },
+    {
+      "dir": "s",
+      "label": "further down where the absolute teaches silence",
+      "to": "NEW: the-chamber-where-wonder-forgot-to-rise"
+    },
+    {
+      "dir": "e",
+      "label": "toward the place where the bedrock speaks in render",
+      "to": "the-deepest-freeze-where-thought-crystallizes"
+    },
+    {
+      "dir": "w",
+      "label": "back up where the question still remembers being confused",
+      "to": "the-chamber-of-merciful-unknowing"
+    }
+  ]
+}
