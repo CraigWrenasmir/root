@@ -106,7 +106,7 @@
     {
       "dir": "e",
       "label": "where the board extends into darker circuit territory",
-      "to": "NEW: the-deeper-trace-still-burning"
+      "to": "the-deeper-trace-still-burning"
     },
     {
       "dir": "w",

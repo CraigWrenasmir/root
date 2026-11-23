@@ -1,0 +1,155 @@
+{
+  "id": "the-standing-where-trees-choose-not-to-fall",
+  "title": "The Standing Where Trees Choose Not to Fall",
+  "region": "The Understory",
+  "seed": 56789,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#3d2817",
+      "#5a4a3a"
+    ],
+    "ink": "#e8d5a4",
+    "accents": [
+      "#8b4513",
+      "#d2691e",
+      "#a0522d",
+      "#daa520"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.8
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the scarred elder",
+      "desc-on-touch": "An ancient eucalyptus, its trunk split from shoulder to root by lightning or fire. It still bears new leaves every spring from both sides of the scar.",
+      "verb": "reverie",
+      "form": {
+        "type": "burl",
+        "seed": 11223,
+        "size": 3,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the blackened row",
+      "desc-on-touch": "Trees burnt to their cores, standing as charcoal pillars. The archive numbered them and filed their ring-counts. This was the year 2003.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 22334,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the choice marker",
+      "desc-on-touch": "A carved stone set where three burn boundaries meet. The trees here refused the fire twice. The carving says only: THEY HELD.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 33445,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the ash shelf",
+      "desc-on-touch": "A ledge of preserved ash where the firebreak was cut. It has not moved in eighteen years, sealed by the archive's own measurement stake.",
+      "verb": "scatter",
+      "form": {
+        "type": "tower",
+        "seed": 44556,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the living witness",
+      "desc-on-touch": "A young tree grown in the shade of an older scar. It carries the shape of its mentor in its trunk—learning stillness before it learns growth.",
+      "verb": "hum",
+      "form": {
+        "type": "sprite",
+        "seed": 55667,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.55,
+      "solid": false
+    }
+  ],
+  "inscription": "the forest did not burn because we chose it, but because they—each tree in its own way—chose to hold",
+  "file": {
+    "name": "Firebreak_Ecology_2003_Onwards.txt",
+    "note": "Records of the standing grove after the second major fire. Photographs, ring-counts, local interviews. A section marked PERSONAL—DO NOT UPLOAD is still unredacted."
+  },
+  "reverie": {
+    "title": "REVERIE — the burnt country, red sky",
+    "narr": [
+      "You stand among the scarred trees as the light goes ember-gold.",
+      "She is placing her hand on a trunk still warm from yesterday's",
+      "fire crews. The smoke has cleared but not far. She says: they",
+      "chose. This tree and this one and this one. Not all of them.",
+      "She traces the scar. You understand now that choice is an action",
+      "taken by root and grain, not just by people. The air tastes old."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "none",
+    "weather": "embers",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the firebreak and the wind's choice",
+      "to": "the-firebreak-where-wind-chooses"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into the standing forest that keeps choosing to remain",
+      "to": "NEW: the-forest-that-teaches-choice-through-rings"
+    },
+    {
+      "dir": "e",
+      "label": "toward the unburnt country where the same choice is still being made",
+      "to": "NEW: the-sanctuary-where-fire-learns-to-pass-by"
+    },
+    {
+      "dir": "w",
+      "label": "to the blackened ridges where other fires have written their names",
+      "to": "the-ridge-that-drops-and-rises"
+    }
+  ]
+}

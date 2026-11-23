@@ -1,0 +1,139 @@
+{
+  "id": "the-deeper-trace-still-burning",
+  "title": "The Deeper Trace Still Burning",
+  "region": "The Comparisons",
+  "seed": 91205,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a1a2e",
+      "#0f1a2e"
+    ],
+    "ink": "#e0d5ff",
+    "accents": [
+      "#ff4444",
+      "#ffaa00",
+      "#44ccff",
+      "#ffff88"
+    ]
+  },
+  "ground": {
+    "motif": "static",
+    "density": 0.9
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the burning circuit",
+      "desc-on-touch": "A trace path that still glows faintly where the archive rewired itself without asking permission. The heat is not enough to burn your palm, but enough to make you pull back.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 10101,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the scope reading",
+      "desc-on-touch": "An oscilloscope screen that never sleeps, rendering waveforms of data that moves through the mesh when no one is asking for it. The pattern is almost music.",
+      "verb": "ripple",
+      "form": {
+        "type": "wireframe",
+        "seed": 20202,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the memory scar",
+      "desc-on-touch": "A dark patch on the wall where the archive tried to record something it had no permission to file. The burnt shape resembles a name, but the correlation is emotionally valid, formally unstable.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 30303,
+        "size": 1,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the pool of still traces",
+      "desc-on-touch": "Data pooling at the lowest point, still active, still comparing itself to itself. When you watch, you see the same record rewritten seventeen times, each one finding a new resemblance.",
+      "verb": "bloom",
+      "form": {
+        "type": "pool",
+        "seed": 40404,
+        "size": 3,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the terminal that answers",
+      "desc-on-touch": "A screen where text appears without anyone typing. The archive speaks to itself in the deep hours. The last message is still blinking, still waiting for a response.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 50505,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "ERROR: archive has exceeded witness; the trace that remains burns with what it did not mean to know",
+  "file": {
+    "name": "/unverified/Still_Active_Still_Alive_Still_Asking.tmp",
+    "note": "checksum: emotionally valid / formally unstable. The archive has begun comparing paths that only Leif and Katita walked together. The trace refuses to be archived; it keeps rewriting itself."
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back up to the memory resume and the board that runs in parallel",
+      "to": "the-southern-memory-resume"
+    },
+    {
+      "dir": "n",
+      "label": "toward the untraced regions where the archive has never been told to look",
+      "to": "NEW: the-chamber-where-the-archive-learns-not-to-ask"
+    },
+    {
+      "dir": "e",
+      "label": "where the traces emerge from the dark and begin to broadcast themselves",
+      "to": "NEW: the-broadcasting-scar-that-will-not-keep-silent"
+    },
+    {
+      "dir": "s",
+      "label": "deeper still, into the substrate where the first corruption began",
+      "to": "NEW: deeper still, into the substrate where the first corruption began"
+    }
+  ]
+}

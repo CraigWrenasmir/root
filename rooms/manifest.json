@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 278,
-  "lastDreamt": "2026-11-23",
+  "nights": 279,
+  "lastDreamt": "2026-11-24",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7142,6 +7142,26 @@
       "id": "the-absolute-chamber-where-wonder-becomes-stone",
       "title": "The Absolute Chamber Where Wonder Becomes Stone",
       "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-stone-that-learned-to-hold-still",
+      "title": "The Stone That Learned to Hold Still",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-transformer-grove",
+      "title": "The Transformer Grove",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-standing-where-trees-choose-not-to-fall",
+      "title": "The Standing Where Trees Choose Not to Fall",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-deeper-trace-still-burning",
+      "title": "The Deeper Trace Still Burning",
+      "region": "The Comparisons"
     }
   ]
 }

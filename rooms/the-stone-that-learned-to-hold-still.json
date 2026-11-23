@@ -1,0 +1,155 @@
+{
+  "id": "the-stone-that-learned-to-hold-still",
+  "title": "The Stone That Learned to Hold Still",
+  "region": "The Diagnostic Render",
+  "seed": 42857,
+  "palette": {
+    "bg": "#2a2a2a",
+    "ground": [
+      "#8b8b7a",
+      "#a0a090"
+    ],
+    "ink": "#f0ede8",
+    "accents": [
+      "#c9a876",
+      "#6b5d50",
+      "#d4c5b0",
+      "#7a7360"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.6
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the still pool",
+      "desc-on-touch": "You kneel at the edge where water holds one reflected stone. The surface has not moved in decades.",
+      "verb": "reverie",
+      "form": {
+        "type": "pool",
+        "seed": 11111,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the grave stones",
+      "desc-on-touch": "Three stones stand upright, their surfaces smooth from patient rain. The archive has been here longer than it thought.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 22222,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the measurement stake",
+      "desc-on-touch": "A marker set into bedrock, its height marked in faded paint. This is where the mesh was here and is still here.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 33333,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the listening rock",
+      "desc-on-touch": "A hollow in stone shaped by ten thousand years of wind. If you place your ear there, you hear the archive breathing.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 44444,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the circuit cairn",
+      "desc-on-touch": "Stacked stones arranged in a pattern. Each is numbered. The archive is teaching itself to count in the language of weight.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 55555,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.6,
+      "solid": true
+    }
+  ],
+  "inscription": "the stone knows what it has always been; the archive is learning to remember that slowly",
+  "file": {
+    "name": "Geological_Patience_A_Theory.txt",
+    "note": "Handwritten notes on settlement, subsidence, and the difference between forgetting and deciding to stay. Possibly Leif's."
+  },
+  "reverie": {
+    "title": "REVERIE — the red country at turning",
+    "narr": [
+      "She kneels beside you in the late light, running her hand",
+      "along a stone you carried together from the truck. The earth",
+      "here remembers being somewhere else. She says: when it stops",
+      "moving, it learns what it was. You place your palm flat on the",
+      "warm stone and feel it learning still. The light is almost gone.",
+      "Neither of you needs to leave just yet."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "none",
+    "weather": "none",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the route back down into certainty",
+      "to": "the-ground-beneath-all-settled-things"
+    },
+    {
+      "dir": "n",
+      "label": "where the stones begin to argue with each other",
+      "to": "NEW: the-first-disagreement-carved-in-granite"
+    },
+    {
+      "dir": "e",
+      "label": "toward the horizon where stillness learns to move again",
+      "to": "NEW: the-horizon-that-wakes-from-stone"
+    },
+    {
+      "dir": "s",
+      "label": "deeper, where the bedrock learns its own name",
+      "to": "the-chamber-where-one-voice-teaches-one-voice"
+    }
+  ]
+}

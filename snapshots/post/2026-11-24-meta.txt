@@ -1,0 +1,10 @@
+featured: The Transformer Grove (the-transformer-grove)
+region: The Comparisons · motif: roads
+inscription: the grid has always been singing; we just never learned to listen on the same frequency
+file: RuralPowerTransmissions_FieldRecordings_1990s.mp3
+
+all nodes tonight:
+  · The Stone That Learned to Hold Still
+  · The Transformer Grove
+  · The Standing Where Trees Choose Not to Fall
+  · The Deeper Trace Still Burning

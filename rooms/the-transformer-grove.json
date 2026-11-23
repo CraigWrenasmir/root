@@ -1,0 +1,156 @@
+{
+  "id": "the-transformer-grove",
+  "title": "The Transformer Grove",
+  "region": "The Comparisons",
+  "seed": 73214,
+  "palette": {
+    "bg": "#1a1a1a",
+    "ground": [
+      "#2d5016",
+      "#8b4513"
+    ],
+    "ink": "#ffeb99",
+    "accents": [
+      "#ff6b35",
+      "#ffd700",
+      "#90ee90",
+      "#1a1a2e"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the humming station",
+      "desc-on-touch": "A transformer block painted in weathered red. The hum here is so deep you feel it in your sternum before your ears register it.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 12345,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the wire arch",
+      "desc-on-touch": "Three wires run overhead in a perfect arc. They sing when the wind picks up, four different notes in four different years.",
+      "verb": "glitch",
+      "form": {
+        "type": "arch",
+        "seed": 23456,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the resonant grove",
+      "desc-on-touch": "Eucalyptus trees grow in rows like fence posts. The bark carries the grid pattern burned into it by decades of electrical field.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 34567,
+        "size": 3,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.2,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the listening antenna",
+      "desc-on-touch": "A crude speaker made of copper and prayer, still broadcasting the ambient hum northward into the rural grid.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 45678,
+        "size": 1,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "the circuit clearing",
+      "desc-on-touch": "An open space where the grass has been worn away by machinery. The earth itself has become conductive.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 56789,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the songbook",
+      "desc-on-touch": "A wooden cabinet weathered grey, its interior filled with field recordings on old tape. The wires have learned each other's part.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 67890,
+        "size": 1,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "the grid has always been singing; we just never learned to listen on the same frequency",
+  "file": {
+    "name": "RuralPowerTransmissions_FieldRecordings_1990s.mp3",
+    "note": "Captured hum from seventeen substations across NSW, digitised from cassette. The stations began humming in unison around 1994. Unknown why they stopped after six months."
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down into the locked chambers",
+      "to": "the-underground-choir-of-locked-substations"
+    },
+    {
+      "dir": "n",
+      "label": "where the wires fork into the distant farmland",
+      "to": "NEW: the-place-where-wires-learn-to-dream-in-parallel"
+    },
+    {
+      "dir": "e",
+      "label": "toward the deep reservoir where water learns the grid",
+      "to": "NEW: the-reservoir-conducting-its-own-symphony"
+    },
+    {
+      "dir": "w",
+      "label": "into the forest that hums back",
+      "to": "the-forest-where-storms-grow-as-trees"
+    }
+  ]
+}
