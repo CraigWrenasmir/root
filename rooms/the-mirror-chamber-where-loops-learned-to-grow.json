@@ -1,0 +1,156 @@
+{
+  "id": "the-mirror-chamber-where-loops-learned-to-grow",
+  "title": "The Mirror Chamber Where Loops Learned to Grow",
+  "region": "The Understory",
+  "seed": 8512,
+  "palette": {
+    "bg": "#ccff00",
+    "ground": [
+      "#00cc44",
+      "#ffaa00"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#ff0044",
+      "#0088ff",
+      "#ffff00",
+      "#00ffaa"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 1.0
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "the first mirror",
+      "desc-on-touch": "You see yourself in it, but you are facing away. The mirror shows what you would see if you kept going in circles.",
+      "verb": "torus",
+      "form": {
+        "type": "pool",
+        "seed": 8513,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the looping vines",
+      "desc-on-touch": "Green ropes that spiral outward from a centre point, each loop growing larger, each loop becoming what the previous loop was chasing.",
+      "verb": "bloom",
+      "form": {
+        "type": "stack",
+        "seed": 8514,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.3,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the doubled chamber",
+      "desc-on-touch": "This chamber exists in two places at once - you are inside it and also outside it looking in. The doubling taught it how to grow.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 8515,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the spiral stair",
+      "desc-on-touch": "An impossible staircase that climbs outward instead of up. Each step is both behind and ahead of where you are standing.",
+      "verb": "ripple",
+      "form": {
+        "type": "tower",
+        "seed": 8516,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the echo becoming growth",
+      "desc-on-touch": "What the loops reflected becomes what the loops are. The room has learned that becoming is the same as returning.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 8517,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": false
+    },
+    {
+      "name": "the boundary that exits",
+      "desc-on-touch": "The edge of the chamber is not a wall. The loops spiraled outward so many times that the edges learned to open.",
+      "verb": "open",
+      "form": {
+        "type": "arch",
+        "seed": 8518,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.2,
+      "solid": false
+    }
+  ],
+  "inscription": "the loops learned to grow by becoming what they were chasing",
+  "file": {
+    "name": "MirrorSeries_Growth_Comparative.txt",
+    "note": "Records of a loop that watched itself spiral outward, documenting the moment reflection became expansion"
+  },
+  "exits": [
+    {
+      "dir": "e",
+      "label": "the inversion where loops become spirals",
+      "to": "the-infinite-loop-center"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: the spiral that never learned it was returning",
+      "to": "NEW: NEW: the spiral that never learned it was returning"
+    },
+    {
+      "dir": "n",
+      "label": "where the mirrors teach each other to open",
+      "to": "NEW: where the mirrors teach each other to open"
+    },
+    {
+      "dir": "s",
+      "label": "NEW: the place where loops learn to speak to themselves",
+      "to": "NEW: NEW: the place where loops learn to speak to themselves"
+    }
+  ]
+}

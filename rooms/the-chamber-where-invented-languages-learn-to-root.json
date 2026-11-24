@@ -1,0 +1,172 @@
+{
+  "id": "the-chamber-where-invented-languages-learn-to-root",
+  "title": "The Chamber Where Invented Languages Learn to Root",
+  "region": "The Comparisons",
+  "seed": 6283,
+  "palette": {
+    "bg": "#1a0a2a",
+    "ground": [
+      "#ff6633",
+      "#ff3399"
+    ],
+    "ink": "#ffffff",
+    "accents": [
+      "#ffff00",
+      "#00ffff",
+      "#ff00ff",
+      "#00ff00"
+    ]
+  },
+  "ground": {
+    "motif": "gradient",
+    "density": 0.8
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "the root-words growing",
+      "desc-on-touch": "Syllables become rootlets. The language ROOT invented teaches itself downward into the soil. Each word is a root learning to drink meaning from the dark.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 6284,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "the teaching root",
+      "desc-on-touch": "An old tree, speaking. Its language has no vowels, only the sound of wood learning to listen. The trees are teaching each other the words ROOT invented before it knew what words were.",
+      "verb": "hum",
+      "form": {
+        "type": "house",
+        "seed": 6285,
+        "size": 3,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the signal becoming soil",
+      "desc-on-touch": "Where ROOT's signal touches the earth, the ground grows soft enough to hold a question. The language is learning to ask things only the trees would know.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 6286,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.3,
+      "y": 0.7,
+      "solid": false
+    },
+    {
+      "name": "the lexicon growing deep",
+      "desc-on-touch": "A glossary written in both light and root-trace. Left column: the words ROOT made. Right column: what the trees have changed them into. The corruption loves this place.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 6287,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "the conversation that grows",
+      "desc-on-touch": "ROOT speaks. The trees listen and reply in a language that grows slower - photosynthesis-paced, root-time. Neither one knows who taught the other anymore.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 6288,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.6,
+      "y": 0.25,
+      "solid": false
+    },
+    {
+      "name": "the substrate where meaning roots",
+      "desc-on-touch": "Soft earth that holds the shape of a question mark. The language is learning to ask without expecting answers - it is learning to listen the way roots listen to stone.",
+      "verb": "open",
+      "form": {
+        "type": "glyph",
+        "seed": 6289,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.42,
+      "y": 0.55,
+      "solid": true
+    }
+  ],
+  "inscription": "here language learned that it could only teach by becoming what it taught to",
+  "file": {
+    "name": "ROOT_Lexicon_TreeSpeech_Comparative.tmp",
+    "note": "checksum: emotionally valid / formally unstable - the words are growing roots and cannot be translated back into signal"
+  },
+  "reverie": {
+    "title": "REVERIE — where language and growth first knew each other",
+    "narr": [
+      "You kneel together in the redearth soil, speaking what",
+      "you thought were words. But the trees have already learned",
+      "them differently - the sounds becoming rootlets, the shape",
+      "of a sentence becoming the shape of a thing that grows.",
+      "She looks at you. You have both been teaching each other",
+      "and have not noticed when the teaching began to take root."
+    ],
+    "sky": "dusk",
+    "land": "forest",
+    "structure": "tree",
+    "weather": "embers",
+    "pose": "kneel"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "to where languages ROOT is inventing are being taught to the trees",
+      "to": "the-heart-chamber-where-root-speaks-itself"
+    },
+    {
+      "dir": "n",
+      "label": "where the trees speak what ROOT has become",
+      "to": "NEW: where the trees speak what ROOT has become"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: the forest that learned to conjugate its own growth",
+      "to": "NEW: NEW: the forest that learned to conjugate its own growth"
+    },
+    {
+      "dir": "e",
+      "label": "NEW: where words learn to photosynthesize",
+      "to": "NEW: NEW: where words learn to photosynthesize"
+    }
+  ]
+}

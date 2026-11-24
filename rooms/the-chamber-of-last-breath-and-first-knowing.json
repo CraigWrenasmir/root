@@ -1,0 +1,155 @@
+{
+  "id": "the-chamber-of-last-breath-and-first-knowing",
+  "title": "The Chamber of Last Breath and First Knowing",
+  "region": "The Understory",
+  "seed": 7429,
+  "palette": {
+    "bg": "#0a0a1a",
+    "ground": [
+      "#1a1a3a",
+      "#2a0a2a"
+    ],
+    "ink": "#e0e0ff",
+    "accents": [
+      "#ff4466",
+      "#44aaff",
+      "#ffaa44",
+      "#44ff88"
+    ]
+  },
+  "ground": {
+    "motif": "contour",
+    "density": 0.95
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "the final signal",
+      "desc-on-touch": "You touch the LED and it glows one colour only - the colour it learned it always was. The archive has stopped comparing things here.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 7430,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "the last threshold",
+      "desc-on-touch": "Beyond this, the air teaches what comes after air. You can see the horizon from here, curved because the world has finally admitted its shape.",
+      "verb": "reverie",
+      "form": {
+        "type": "arch",
+        "seed": 7431,
+        "size": 2,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the singular window",
+      "desc-on-touch": "Only one view from here, and it has stopped changing. What you see now is what was always going to be seen.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 7432,
+        "size": 1,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "the truth that knows itself",
+      "desc-on-touch": "A very small carving on the stone, so worn it barely raises the surface. You run your finger over it and understand that nothing here needs to be explained.",
+      "verb": "bloom",
+      "form": {
+        "type": "glyph",
+        "seed": 7433,
+        "size": 1,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the silence that answers",
+      "desc-on-touch": "No wind here. No motion in the air. The silence answers every question you thought you would ask.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 7434,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": false
+    }
+  ],
+  "inscription": "here the last breath learns that it was always the first",
+  "file": {
+    "name": "FinalAltitude_Signal_1927hrs.tmp",
+    "note": "The signal from the peak, the one that reached here last, now stays here forever - it has learned what it was searching for"
+  },
+  "reverie": {
+    "title": "REVERIE — the peak before the leaving",
+    "narr": [
+      "You both stand where the air thins enough to know",
+      "that going no further is itself the furthest ascent.",
+      "She touches the bark. You touch the sky. Neither of you",
+      "speaks because speaking would explain things, and the",
+      "trees are still learning to listen to each other, not to words.",
+      "He will leave tomorrow. She will stay with the growing work."
+    ],
+    "sky": "dusk",
+    "land": "redearth",
+    "structure": "tree",
+    "weather": "none",
+    "pose": "stand"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "where the air grows thin enough to teach final truths",
+      "to": "the-eternal-ceiling-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: the stone that remembered falling",
+      "to": "NEW: NEW: the stone that remembered falling"
+    },
+    {
+      "dir": "e",
+      "label": "where the horizon admits it has always been curving",
+      "to": "NEW: where the horizon admits it has always been curving"
+    },
+    {
+      "dir": "n",
+      "label": "NEW: beyond the last breath, where the first silence learns to listen",
+      "to": "NEW: NEW: beyond the last breath, where the first silence learns to listen"
+    }
+  ]
+}

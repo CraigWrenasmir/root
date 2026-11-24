@@ -140,7 +140,7 @@
     {
       "dir": "n",
       "label": "the carousel doubles itself climbing",
-      "to": "NEW: the-carousel-s-unmapped-duplicate-ascending"
+      "to": "the-carousel-s-unmapped-duplicate-ascending"
     },
     {
       "dir": "e",

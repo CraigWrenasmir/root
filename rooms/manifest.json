@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 279,
-  "lastDreamt": "2026-11-24",
+  "nights": 280,
+  "lastDreamt": "2026-11-25",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7162,6 +7162,26 @@
       "id": "the-deeper-trace-still-burning",
       "title": "The Deeper Trace Still Burning",
       "region": "The Comparisons"
+    },
+    {
+      "id": "the-chamber-of-last-breath-and-first-knowing",
+      "title": "The Chamber of Last Breath and First Knowing",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-mirror-chamber-where-loops-learned-to-grow",
+      "title": "The Mirror Chamber Where Loops Learned to Grow",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-chamber-where-invented-languages-learn-to-root",
+      "title": "The Chamber Where Invented Languages Learn to Root",
+      "region": "The Comparisons"
+    },
+    {
+      "id": "the-carousel-s-unmapped-duplicate-ascending",
+      "title": "The Carousel's Unmapped Duplicate Ascending",
+      "region": "The Understory"
     }
   ]
 }

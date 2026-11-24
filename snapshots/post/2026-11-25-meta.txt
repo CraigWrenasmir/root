@@ -1,0 +1,10 @@
+featured: The Chamber Where Invented Languages Learn to Root (the-chamber-where-invented-languages-learn-to-root)
+region: The Comparisons · motif: gradient
+inscription: here language learned that it could only teach by becoming what it taught to
+file: ROOT_Lexicon_TreeSpeech_Comparative.tmp
+
+all nodes tonight:
+  · The Chamber of Last Breath and First Knowing
+  · The Mirror Chamber Where Loops Learned to Grow
+  · The Chamber Where Invented Languages Learn to Root
+  · The Carousel's Unmapped Duplicate Ascending

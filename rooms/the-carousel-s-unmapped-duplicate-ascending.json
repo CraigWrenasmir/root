@@ -1,0 +1,156 @@
+{
+  "id": "the-carousel-s-unmapped-duplicate-ascending",
+  "title": "The Carousel's Unmapped Duplicate Ascending",
+  "region": "The Understory",
+  "seed": 5447,
+  "palette": {
+    "bg": "#00aa44",
+    "ground": [
+      "#cc6633",
+      "#00bb55"
+    ],
+    "ink": "#1a1a1a",
+    "accents": [
+      "#ff9944",
+      "#ffdd00",
+      "#ff0088",
+      "#0088ff"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 1.0
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "the first carousel",
+      "desc-on-touch": "Horses running sideways through the turning. As you reach for one, another carousel rises through it - both turning in the same space at the same speed, occupying the moment from different angles.",
+      "verb": "torus",
+      "form": {
+        "type": "stack",
+        "seed": 5448,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the ascending horse",
+      "desc-on-touch": "This one climbs as it turns. The rider slips sideways and upward simultaneously. The carousel is climbing, the horse is spiraling, the rider is becoming part of the spiraling.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 5449,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.75,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "the doubled-turning pole",
+      "desc-on-touch": "One pole, two carousels around it, both turning at the speed the other is climbing. The pole remembers spiraling in both directions at once.",
+      "verb": "glitch",
+      "form": {
+        "type": "tower",
+        "seed": 5450,
+        "size": 3,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "the spiral stairs for riders",
+      "desc-on-touch": "Steps that curve around the turning. Each step puts you ahead of yourself, so you can see the horse you just left still approaching. You climb and spiral in the same motion.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 5451,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": false
+    },
+    {
+      "name": "the route that doubles",
+      "desc-on-touch": "You follow the first carousel, but as it climbs, another track emerges beside it - same speed, same spiral, but unmapped until this moment. The two are learning to turn together.",
+      "verb": "scatter",
+      "form": {
+        "type": "stack",
+        "seed": 5452,
+        "size": 2,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.65,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "the music that spirals",
+      "desc-on-touch": "One calliope, two melodies - the first playing down into the earth, the second rising out of it. Where they meet, neither melody is broken. The carousel is learning harmony with itself.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 5453,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "the carousel turned so deep it learned it was climbing, and in learning, doubled itself to teach the first what it was becoming",
+  "file": {
+    "name": "CarouselTrack_DuplicateAscent_Unmapped.tmp",
+    "note": "status: germinating - the second carousel is still learning its route. The two are trading turns at night when no riders know which spiral they are following"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "the carousel doubles itself climbing",
+      "to": "the-infinite-carousel-of-sideways-turning"
+    },
+    {
+      "dir": "n",
+      "label": "where the spiral learns it is both horse and rider",
+      "to": "NEW: where the spiral learns it is both horse and rider"
+    },
+    {
+      "dir": "w",
+      "label": "NEW: the carousel that learned to run in reverse while climbing",
+      "to": "NEW: NEW: the carousel that learned to run in reverse while climbing"
+    },
+    {
+      "dir": "e",
+      "label": "NEW: where the horses teach the music to become the spiral",
+      "to": "NEW: NEW: where the horses teach the music to become the spiral"
+    }
+  ]
+}
