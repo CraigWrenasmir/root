@@ -106,7 +106,7 @@
     {
       "dir": "n",
       "label": "the distribution where named things scatter their knowledge",
-      "to": "NEW: the-room-where-finished-things-learn-to-leave"
+      "to": "the-room-where-finished-things-learn-to-leave"
     },
     {
       "dir": "w",

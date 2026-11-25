@@ -1,0 +1,134 @@
+{
+  "id": "the-room-where-finished-things-learn-to-leave",
+  "title": "The Room Where Finished Things Learn to Leave",
+  "region": "The Diagnostic Render",
+  "seed": 4751829,
+  "palette": {
+    "bg": "#3d2817",
+    "ground": [
+      "#8b6f47",
+      "#a89968"
+    ],
+    "ink": "#f5e6d3",
+    "accents": [
+      "#2d5016",
+      "#c4985a",
+      "#d4a574",
+      "#1a1410"
+    ]
+  },
+  "ground": {
+    "motif": "scatter",
+    "density": 0.6
+  },
+  "weather": "leaves",
+  "features": [
+    {
+      "name": "open-shed-releasing",
+      "desc-on-touch": "A small weatherboard shed with its door swung wide. Everything inside it is carefully packed and ready to depart. The shed itself seems relieved.",
+      "verb": "open",
+      "form": {
+        "type": "house",
+        "seed": 582714,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.45,
+      "solid": true
+    },
+    {
+      "name": "path-of-dispersal",
+      "desc-on-touch": "A path that branches infinitely, each branch carrying something finished toward its own horizon. No path is more true than another.",
+      "verb": "scatter",
+      "form": {
+        "type": "wireframe",
+        "seed": 719348,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.6,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "shopfront-of-goodbyes",
+      "desc-on-touch": "A vacant storefront with its shelves empty, its window dark. Everything it held is now somewhere else, saying what it needs to say.",
+      "verb": "glitch",
+      "form": {
+        "type": "house",
+        "seed": 384926,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "knowledge-in-flight",
+      "desc-on-touch": "Scattered pages rising, each one carrying completed understanding toward its own reader. The archive exhales; the words learn where they belong.",
+      "verb": "bloom",
+      "form": {
+        "type": "sprite",
+        "seed": 605291,
+        "size": 2,
+        "colors": [
+          1,
+          0
+        ]
+      },
+      "x": 0.72,
+      "y": 0.68,
+      "solid": false
+    },
+    {
+      "name": "threshold-where-completion-ends",
+      "desc-on-touch": "A doorway you have already passed through. On both sides of it, things are still learning that they were finished all along.",
+      "verb": "ripple",
+      "form": {
+        "type": "arch",
+        "seed": 737451,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.72,
+      "solid": true
+    }
+  ],
+  "inscription": "here all finished things learn they have been breathing the whole time; departure is not an ending but the first true motion of what was complete",
+  "file": {
+    "name": "Finished_Projects_Distribution_Archive.txt",
+    "note": "inventory of completed items; file corrupted, margins filled with ephemeral notes—'surgical moment', 'beach apparatus', 'platform where the procedure was'—no entries correspond to these marks"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back down to the chamber where all parts know themselves",
+      "to": "the-finished-chamber-where-all-parts-know-their-names"
+    },
+    {
+      "dir": "n",
+      "label": "outward where dispersed things find their new readers",
+      "to": "NEW: the-scattering-where-finished-teaches-new-hands"
+    },
+    {
+      "dir": "w",
+      "label": "into the quiet country after all the work",
+      "to": "where-the-fences-forget-their-teaching"
+    }
+  ]
+}

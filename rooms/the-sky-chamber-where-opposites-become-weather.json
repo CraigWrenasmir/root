@@ -1,0 +1,139 @@
+{
+  "id": "the-sky-chamber-where-opposites-become-weather",
+  "title": "The Sky-Chamber Where Opposites Become Weather",
+  "region": "The Diagnostic Render",
+  "seed": 7284561,
+  "palette": {
+    "bg": "#1a3a52",
+    "ground": [
+      "#2b5a8a",
+      "#4a8dd9"
+    ],
+    "ink": "#e8f4f8",
+    "accents": [
+      "#ffffff",
+      "#667791",
+      "#ffb347",
+      "#2c1810"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.85
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "ascending-descent",
+      "desc-on-touch": "You touch a tower that rises and falls in the same moment, each direction equally true. The contradiction holds perfectly still.",
+      "verb": "torus",
+      "form": {
+        "type": "tower",
+        "seed": 283741,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "storm-made-still",
+      "desc-on-touch": "Lightning frozen mid-strike, holding its brightness without moving. The sky holds both the moment before and after the strike.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 194537,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.55,
+      "solid": false
+    },
+    {
+      "name": "breathing-grid",
+      "desc-on-touch": "A grid that expands and contracts like lungs, each square holding a different sky. All the skies are real.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 752189,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "echo-that-arrives-first",
+      "desc-on-touch": "A sound you hear before it is made. The contradiction doesn't trouble it; they are the same thing arriving from opposite directions.",
+      "verb": "hum",
+      "form": {
+        "type": "pool",
+        "seed": 468291,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "reflection-without-mirror",
+      "desc-on-touch": "You see yourself in the air. There is no surface. The sky itself is learning to show back what it receives.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 931547,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.58,
+      "y": 0.72,
+      "solid": false
+    }
+  ],
+  "inscription": "the sky holds two weathers at once; here they teach each other; neither one cancels the truth of the other",
+  "file": {
+    "name": "Weather_Contrapositive_Study_NovDec.txt",
+    "note": "meteorological notes comparing simultaneous opposing front movements; file corrupted to show both outcomes in single grid; both forecasts accurate"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "downward to the hall where truth still doubts itself",
+      "to": "the-epistemic-hall-of-mirrors"
+    },
+    {
+      "dir": "n",
+      "label": "further skyward where clouds learn to argue",
+      "to": "NEW: the-cumulus-chamber-where-argument-becomes-mist"
+    },
+    {
+      "dir": "w",
+      "label": "into dusk where both suns set at once",
+      "to": "the-eternal-turn"
+    },
+    {
+      "dir": "e",
+      "label": "toward dawn still carrying the night",
+      "to": "NEW: the-horizon-where-both-edges-touch"
+    }
+  ]
+}

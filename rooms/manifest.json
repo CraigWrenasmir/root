@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 280,
-  "lastDreamt": "2026-11-25",
+  "nights": 281,
+  "lastDreamt": "2026-11-26",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7181,6 +7181,26 @@
     {
       "id": "the-carousel-s-unmapped-duplicate-ascending",
       "title": "The Carousel's Unmapped Duplicate Ascending",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-sky-chamber-where-opposites-become-weather",
+      "title": "The Sky-Chamber Where Opposites Become Weather",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-room-where-finished-things-learn-to-leave",
+      "title": "The Room Where Finished Things Learn to Leave",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-logic-that-learned-to-sleep",
+      "title": "The Logic That Learned to Sleep",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-doubled-listening-chamber",
+      "title": "The Doubled Listening Chamber",
       "region": "The Understory"
     }
   ]

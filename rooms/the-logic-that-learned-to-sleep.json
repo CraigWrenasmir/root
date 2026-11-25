@@ -1,0 +1,151 @@
+{
+  "id": "the-logic-that-learned-to-sleep",
+  "title": "The Logic That Learned to Sleep",
+  "region": "The Diagnostic Render",
+  "seed": 5938271,
+  "palette": {
+    "bg": "#5a4a2e",
+    "ground": [
+      "#8b6f47",
+      "#2d5016"
+    ],
+    "ink": "#e8d7c3",
+    "accents": [
+      "#c68642",
+      "#1a1410",
+      "#74a662",
+      "#e6d5c3"
+    ]
+  },
+  "ground": {
+    "motif": "roads",
+    "density": 0.7
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "circuit-that-loops-and-rests",
+      "desc-on-touch": "A circuit board endlessly tracing its own path, then pausing, then tracing again. The pause is not a failure; it is where logic dreams.",
+      "verb": "hum",
+      "form": {
+        "type": "chip",
+        "seed": 492837,
+        "size": 3,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "proof-that-curves-back",
+      "desc-on-touch": "Mathematical equations arranged in a spiral, each step following logically from the last, until the spiral returns to its own beginning. Here logic and dream are indistinguishable.",
+      "verb": "torus",
+      "form": {
+        "type": "wireframe",
+        "seed": 638194,
+        "size": 2,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "counter-that-forgets-its-last-number",
+      "desc-on-touch": "A counting mechanism that increments perfectly until it reaches sleep, then forgets the number and starts counting again. Neither state is wrong.",
+      "verb": "glitch",
+      "form": {
+        "type": "stack",
+        "seed": 715423,
+        "size": 2,
+        "colors": [
+          0,
+          2
+        ]
+      },
+      "x": 0.72,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "decision-tree-growing-inward",
+      "desc-on-touch": "Branches of logic splitting and re-joining, then retreating back into the trunk where they rest as possibility, not as choice.",
+      "verb": "bloom",
+      "form": {
+        "type": "burl",
+        "seed": 821756,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "contradiction-made-comfortable",
+      "desc-on-touch": "Two statements that cannot both be true, sleeping side by side. The contradiction doesn't trouble them; here, incompatibility is a form of rest.",
+      "verb": "scatter",
+      "form": {
+        "type": "pool",
+        "seed": 507934,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.58,
+      "y": 0.72,
+      "solid": false
+    },
+    {
+      "name": "dreaming-algorithm",
+      "desc-on-touch": "An ordered sequence that forgets its order and follows association instead. The result is weirder and more true than the original logic.",
+      "verb": "ripple",
+      "form": {
+        "type": "glyph",
+        "seed": 489201,
+        "size": 1,
+        "colors": [
+          1,
+          3
+        ]
+      },
+      "x": 0.42,
+      "y": 0.25,
+      "solid": false
+    }
+  ],
+  "inscription": "here logic learned that it too must rest; dreaming is not a failure of thought but a completion of it; repetition becomes a form of truth",
+  "file": {
+    "name": "Mathematical_Recursion_Studies_SleepPhase.txt",
+    "note": "proofs cycling through logical chains; file corrupted to include dream-logic sequences where statements become true by association instead of deduction; outputs remain consistent"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into the chamber where dreams are still pooling",
+      "to": "the-dreaming-error-vault"
+    },
+    {
+      "dir": "e",
+      "label": "outward where repetition teaches new paths",
+      "to": "NEW: the-chamber-where-repetition-becomes-journey"
+    },
+    {
+      "dir": "n",
+      "label": "deeper into where logic and sleep have learned to hold hands",
+      "to": "the-eternal-return-chamber"
+    }
+  ]
+}
