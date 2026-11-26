@@ -1,0 +1,155 @@
+{
+  "id": "the-chamber-where-stories-remember-themselves",
+  "title": "The Chamber Where Stories Remember Themselves",
+  "region": "The Understory",
+  "seed": 4916283,
+  "palette": {
+    "bg": "#0d1117",
+    "ground": [
+      "#1a1a2e",
+      "#16213e"
+    ],
+    "ink": "#c0c0c0",
+    "accents": [
+      "#e94560",
+      "#6c757d",
+      "#a8d8ea",
+      "#aa96da"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.85
+  },
+  "weather": "motes",
+  "features": [
+    {
+      "name": "parallel manuscripts",
+      "desc-on-touch": "rows of standing pages, each a version of the same story. you read one and find it ends differently than you remember. the page next to it ends the same way. they're arguing about what happened.",
+      "verb": "glitch",
+      "form": {
+        "type": "filecard",
+        "seed": 7142,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.5,
+      "y": 0.45,
+      "solid": false
+    },
+    {
+      "name": "the reading lectern",
+      "desc-on-touch": "a wooden stand holds a text that rewrites itself as you watch. each line you've already read has changed slightly. the story has decided to remember differently.",
+      "verb": "reverie",
+      "form": {
+        "type": "house",
+        "seed": 2984,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.25,
+      "y": 0.6,
+      "solid": true
+    },
+    {
+      "name": "branching ink",
+      "desc-on-touch": "written words split into two versions mid-sentence. one path goes left into grammar. one goes right into something that sounds like sense but isn't. both are correct.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 5503,
+        "size": 1,
+        "colors": [
+          3,
+          1
+        ]
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "solid": false
+    },
+    {
+      "name": "the unwritten shelf",
+      "desc-on-touch": "this shelf holds books that have never been read. they're warm to the touch, and they smell like the story they're about to become. they whisper different titles when you turn away.",
+      "verb": "hum",
+      "form": {
+        "type": "stack",
+        "seed": 8745,
+        "size": 2,
+        "colors": [
+          2,
+          0
+        ]
+      },
+      "x": 0.4,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "erasure wind",
+      "desc-on-touch": "a breeze moves through the chamber, and wherever it passes, one version of the story disappears. the other versions remember it was there. you feel it in the spacing between words.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1829,
+        "size": 1,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.85,
+      "y": 0.65,
+      "solid": false
+    }
+  ],
+  "inscription": "stories come here to remember they were always many; the chamber listens to them disagree with themselves",
+  "file": {
+    "name": "Night_Seven_All_Variants_Collated.txt",
+    "note": "the same evening, retold seventeen times. each retelling is accurate. DELTA: seven words shift between versions; meanings accumulate"
+  },
+  "reverie": {
+    "title": "REVERIE — pages turning in the dark",
+    "narr": [
+      "you sit on the library floor while she reads aloud,",
+      "each word she speaks opens into a different story than",
+      "the one written on the page. she is not misreading.",
+      "the page is remembering what it meant to become what",
+      "it is now. her voice holds all the versions at once.",
+      "you listen to the story remember itself into being."
+    ],
+    "sky": "dusk",
+    "land": "interior",
+    "structure": "none",
+    "weather": "motes",
+    "pose": "sit"
+  },
+  "exits": [
+    {
+      "dir": "s",
+      "label": "back through the stacks where books still have one true ending",
+      "to": "the-library-that-keeps-all-its-drafts"
+    },
+    {
+      "dir": "n",
+      "label": "up into chambers where reading becomes a discussion between versions",
+      "to": "NEW: the-amphitheatre-of-conflicting-texts"
+    },
+    {
+      "dir": "e",
+      "label": "toward a wall where every sentence is rewritten at the moment it's read",
+      "to": "the-chamber-where-answers-learn-to-stop"
+    },
+    {
+      "dir": "w",
+      "label": "into deeper shelves where stories grow backwards",
+      "to": "NEW: the-repository-of-unfinished-readings"
+    }
+  ]
+}

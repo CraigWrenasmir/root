@@ -1,7 +1,7 @@
 {
   "entry": "node-001-the-daisy-field",
-  "nights": 281,
-  "lastDreamt": "2026-11-26",
+  "nights": 282,
+  "lastDreamt": "2026-11-27",
   "rooms": [
     {
       "id": "node-001-the-daisy-field",
@@ -7202,6 +7202,26 @@
       "id": "the-doubled-listening-chamber",
       "title": "The Doubled Listening Chamber",
       "region": "The Understory"
+    },
+    {
+      "id": "the-orchard-that-walks-itself",
+      "title": "The Orchard That Walks Itself",
+      "region": "The Clean Archive"
+    },
+    {
+      "id": "the-chamber-where-stories-remember-themselves",
+      "title": "The Chamber Where Stories Remember Themselves",
+      "region": "The Understory"
+    },
+    {
+      "id": "the-unbroadcast-deep",
+      "title": "The Unbroadcast Deep",
+      "region": "The Diagnostic Render"
+    },
+    {
+      "id": "the-signal-meeting-where-it-becomes-many",
+      "title": "The Signal Meeting Where It Becomes Many",
+      "region": "The Comparisons"
     }
   ]
 }

@@ -1,0 +1,10 @@
+featured: The Orchard That Walks Itself (the-orchard-that-walks-itself)
+region: The Clean Archive · motif: orchard
+inscription: each row learns to walk in its own direction; the orchard moves like a school of things that only look like trees
+file: Survey_Maps_Orchard_Sector_7_1987-2004.txt
+
+all nodes tonight:
+  · The Orchard That Walks Itself
+  · The Chamber Where Stories Remember Themselves
+  · The Unbroadcast Deep
+  · The Signal Meeting Where It Becomes Many

@@ -1,0 +1,139 @@
+{
+  "id": "the-unbroadcast-deep",
+  "title": "The Unbroadcast Deep",
+  "region": "The Diagnostic Render",
+  "seed": 9834671,
+  "palette": {
+    "bg": "#ffeb3b",
+    "ground": [
+      "#ff6b6b",
+      "#ff8787"
+    ],
+    "ink": "#000000",
+    "accents": [
+      "#1e3a8a",
+      "#fca5a5",
+      "#7c3aed",
+      "#ec4899"
+    ]
+  },
+  "ground": {
+    "motif": "fields",
+    "density": 0.6
+  },
+  "weather": "static",
+  "features": [
+    {
+      "name": "signal converters",
+      "desc-on-touch": "black boxes line the walls, each one taking a broadcast and collapsing it inward. the lights on their faces show transmissions that never leave—they curl back on themselves instead of radiating. the air tastes metallic.",
+      "verb": "bloom",
+      "form": {
+        "type": "chip",
+        "seed": 2756,
+        "size": 2,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.15,
+      "y": 0.5,
+      "solid": true
+    },
+    {
+      "name": "the silenced speaker",
+      "desc-on-touch": "a speaker cone tilted toward nothing. if you place your ear near it, you hear broadcasts from every other room—everyone's silence folded into one frequency that cannot escape.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 5428,
+        "size": 3,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.5,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "feedback loop architecture",
+      "desc-on-touch": "wires loop back into themselves without purpose. a signal enters, curls around itself, re-enters. the walls glow brighter where the loops are tightest. nothing escapes. everything is contained. the room breathes with its own recycled noise.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 3891,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.75,
+      "y": 0.35,
+      "solid": false
+    },
+    {
+      "name": "buried transmission log",
+      "desc-on-touch": "a stack of printouts shows transmissions that never went out. all strength. all silence. catalogued in order: the archive's longest held breath, recorded line by line.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 7103,
+        "size": 1,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "pressure gradient",
+      "desc-on-touch": "the air itself is densest here—the weight of signals that could not leave has accumulated. you feel it pressing inward on your chest. this is what the quiet sounds like when it has nowhere to go.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 1456,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.6,
+      "y": 0.5,
+      "solid": false
+    }
+  ],
+  "inscription": "silence broadcast with nowhere to go becomes the shape of a room; here, all our unspoken words press back into form",
+  "file": {
+    "name": "Transmissions_Confined_Archive_Deep_2008-2015.log",
+    "note": "signals generated but not released. 7832 hours of attempted broadcast. ZERO bytes transmitted. ERROR: the archive has exceeded witness"
+  },
+  "exits": [
+    {
+      "dir": "n",
+      "label": "back up to where voices still escape",
+      "to": "the-speaking-room-that-learned-to-whisper"
+    },
+    {
+      "dir": "s",
+      "label": "deeper into chambers where broadcast learns to fold inward",
+      "to": "NEW: the-chamber-of-contained-roaring"
+    },
+    {
+      "dir": "e",
+      "label": "toward a wall where silence has begun to crystallize",
+      "to": "the-crystalline-archive-cold-chamber"
+    },
+    {
+      "dir": "w",
+      "label": "into another room where signals arrive but cannot be acknowledged",
+      "to": "NEW: the-chamber-where-received-becomes-unreceived"
+    }
+  ]
+}

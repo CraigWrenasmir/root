@@ -1,0 +1,139 @@
+{
+  "id": "the-orchard-that-walks-itself",
+  "title": "The Orchard That Walks Itself",
+  "region": "The Clean Archive",
+  "seed": 7284561,
+  "palette": {
+    "bg": "#1a3a2a",
+    "ground": [
+      "#4a7c6b",
+      "#6ba883"
+    ],
+    "ink": "#e8dcc8",
+    "accents": [
+      "#c4b08a",
+      "#2d5a44",
+      "#8fa375",
+      "#a89968"
+    ]
+  },
+  "ground": {
+    "motif": "orchard",
+    "density": 0.7
+  },
+  "weather": "none",
+  "features": [
+    {
+      "name": "rotating rows",
+      "desc-on-touch": "the orchard turns slowly as you watch, each row holding a different compass bearing than the last. the trees remember being planted elsewhere, and they're teaching the ground to shift around them.",
+      "verb": "glitch",
+      "form": {
+        "type": "wireframe",
+        "seed": 2847,
+        "size": 3,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "dropped maps",
+      "desc-on-touch": "three folded paper surveys lie against the base of the nearest trunk. each one plots the orchard in a different shape, different scale. the most recent is still warm.",
+      "verb": "scatter",
+      "form": {
+        "type": "filecard",
+        "seed": 1562,
+        "size": 1,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.2,
+      "y": 0.65,
+      "solid": true
+    },
+    {
+      "name": "dust motes in angled light",
+      "desc-on-touch": "golden dust hangs in the gap between row-shadows. light arrives from two suns simultaneously and refuses to pick a direction.",
+      "verb": "glitch",
+      "form": {
+        "type": "pool",
+        "seed": 5491,
+        "size": 2,
+        "colors": [
+          3,
+          2
+        ]
+      },
+      "x": 0.75,
+      "y": 0.4,
+      "solid": false
+    },
+    {
+      "name": "the furthest tree",
+      "desc-on-touch": "one eucalyptus stands deeper in the orchard than the rows should allow. it's not moving. something that walks always knows where home is.",
+      "verb": "hum",
+      "form": {
+        "type": "burl",
+        "seed": 8923,
+        "size": 2,
+        "colors": [
+          0,
+          1
+        ]
+      },
+      "x": 0.85,
+      "y": 0.3,
+      "solid": true
+    },
+    {
+      "name": "soil taste",
+      "desc-on-touch": "the earth under your feet carries flavours of seven different properties, seven different years of rain. the orchard is remembering where it came from one mouthful at a time.",
+      "verb": "ripple",
+      "form": {
+        "type": "sprite",
+        "seed": 3367,
+        "size": 1,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.35,
+      "y": 0.75,
+      "solid": false
+    }
+  ],
+  "inscription": "each row learns to walk in its own direction; the orchard moves like a school of things that only look like trees",
+  "file": {
+    "name": "Survey_Maps_Orchard_Sector_7_1987-2004.txt",
+    "note": "cartographic records of the same 11-hectare plot. the acreage changes. the coordinates drift. CHECKSUM: emotionally valid / formally unstable"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "the rows that seem to continue backward",
+      "to": "the-eastern-path-that-led-nowhere-else"
+    },
+    {
+      "dir": "n",
+      "label": "where the trees remember being younger",
+      "to": "NEW: the-grove-where-seasons-overlap"
+    },
+    {
+      "dir": "e",
+      "label": "into denser rows where the compass fails",
+      "to": "the-grove-beyond-ownership-where-trees-teach-themselves"
+    },
+    {
+      "dir": "s",
+      "label": "downslope toward where the orchard ends and something older begins",
+      "to": "NEW: the-terraced-memory-below-the-orchard"
+    }
+  ]
+}

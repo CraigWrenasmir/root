@@ -1,0 +1,139 @@
+{
+  "id": "the-signal-meeting-where-it-becomes-many",
+  "title": "The Signal Meeting Where It Becomes Many",
+  "region": "The Comparisons",
+  "seed": 5627184,
+  "palette": {
+    "bg": "#0a1428",
+    "ground": [
+      "#004085",
+      "#0056b3"
+    ],
+    "ink": "#00d4ff",
+    "accents": [
+      "#20c997",
+      "#ffc107",
+      "#ff6b9d",
+      "#00bfff"
+    ]
+  },
+  "ground": {
+    "motif": "grid",
+    "density": 0.9
+  },
+  "weather": "drift",
+  "features": [
+    {
+      "name": "signal convergence point",
+      "desc-on-touch": "lines of light arrive from six directions simultaneously, each carrying a broadcast from different ground. they don't collide—they layer, refract, begin to compare. this is where the archive realizes it is not alone.",
+      "verb": "bloom",
+      "form": {
+        "type": "wireframe",
+        "seed": 4729,
+        "size": 3,
+        "colors": [
+          2,
+          1
+        ]
+      },
+      "x": 0.5,
+      "y": 0.5,
+      "solid": false
+    },
+    {
+      "name": "multicast registry",
+      "desc-on-touch": "a standing tablet logs each signal as it arrives, assigning it a local name, a foreign name, a name it called itself. the same broadcast is becoming many things simultaneously. the registry rewrites itself in real-time.",
+      "verb": "glitch",
+      "form": {
+        "type": "chip",
+        "seed": 2184,
+        "size": 2,
+        "colors": [
+          3,
+          0
+        ]
+      },
+      "x": 0.25,
+      "y": 0.4,
+      "solid": true
+    },
+    {
+      "name": "harmonic interference pattern",
+      "desc-on-touch": "signals overlay each other and create standing waves in the air itself. some frequencies reinforce. some cancel. the floor beneath your feet shows the interference pattern rendered in cyan and magenta. it rearranges as new signals arrive.",
+      "verb": "ripple",
+      "form": {
+        "type": "pool",
+        "seed": 6835,
+        "size": 2,
+        "colors": [
+          1,
+          2
+        ]
+      },
+      "x": 0.7,
+      "y": 0.65,
+      "solid": false
+    },
+    {
+      "name": "cross-broadcast archive",
+      "desc-on-touch": "three stacked boxes transmit into each other. one sends; two listen and reply. all three broadcast the same moment they receive it, creating a cascade of echoes that become their own signal. the original message is lost in conversation.",
+      "verb": "hum",
+      "form": {
+        "type": "tower",
+        "seed": 7493,
+        "size": 2,
+        "colors": [
+          2,
+          3
+        ]
+      },
+      "x": 0.85,
+      "y": 0.75,
+      "solid": true
+    },
+    {
+      "name": "the junction marker",
+      "desc-on-touch": "a standing plaque marks the point where broadcasts stop being singular. from here, every signal bifurcates—it has begun to exist in many places at once, and the archive is learning that comparison is a kind of multiplication.",
+      "verb": "scatter",
+      "form": {
+        "type": "glyph",
+        "seed": 1562,
+        "size": 1,
+        "colors": [
+          0,
+          3
+        ]
+      },
+      "x": 0.4,
+      "y": 0.25,
+      "solid": true
+    }
+  ],
+  "inscription": "one signal arrives; two signals leave; three signals arrive; four signals leave; the meeting begins to calculate itself into being",
+  "file": {
+    "name": "Comparative_Broadcast_Log_2019-2026.qry",
+    "note": "archive A's night 281 compared to signals from archives 7, 12, and unidentified source delta. convergent content: 73%. DELTA: each archive rewrites what arrived based on what it already knew"
+  },
+  "exits": [
+    {
+      "dir": "w",
+      "label": "back into ground where broadcast still travels alone",
+      "to": "the-buried-broadcast-still-growing"
+    },
+    {
+      "dir": "n",
+      "label": "up through chambers where comparison becomes architecture",
+      "to": "NEW: the-tower-where-broadcasts-learn-to-speak-together"
+    },
+    {
+      "dir": "e",
+      "label": "into further chambers where signals begin to dream of merging",
+      "to": "the-estuary-where-infinite-becomes-one-again"
+    },
+    {
+      "dir": "s",
+      "label": "down to roots where broadcast converges into one language nobody speaks",
+      "to": "NEW: the-convergence-chamber-below"
+    }
+  ]
+}
